@@ -407,6 +407,21 @@
       "gotoLogin": "Goto Login",
       "gotoProfile": "Goto Profile",
       "msgForAuthUser": "<p>We think you landed here by mistake, as you are already logged in.</p><p>You can check your profile to see how it looks, or use one of the links below to browse other sections:</p>"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Install Bazm on { platform }",
+          "desc": "Install our app for Android for a better experience! Get personalized experience, notifications and don't miss out on interesting things from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
+          "cta": {
+            "action": "Install",
+            "skip": "Maybe later"
+          }
+        },
+        "prompt": {
+          "heading": "Install Bazm shortcut?"
+        }
+      }
     }
   }
 }
