@@ -19,6 +19,7 @@
       "cancel": "Cancel",
       "change": "Change",
       "continue": "Continue",
+      "select": "Select",
       "saveChanges": "Save changes | Save | Update",
       "newBadge": "New",
       "login": "Login",
@@ -240,6 +241,9 @@
           },
           "postTime": "When is it? | When do you want to start streaming?",
           "whereIsIt": "Where is it?",
+          "findLocation": "Find location",
+          "locationSubtext": "Add location to your post",
+          "addLocation": "Add location",
           "addPics": "Add pictures to your post",
           "previewDes": "This is how your post would appear in feed of other people. People can tap on the video to see it in full screen.",
           "addToPost": "Add to {postType} (optional)"
@@ -421,6 +425,17 @@
         "prompt": {
           "heading": "Install Bazm shortcut?"
         }
+      },
+      "webFeedback": {
+        "heading": "How is your experience so far?",
+        "text": "<p>Do you like the new app? Is there something we can improve? Please help us with your feedback to improve the experience for you!</p><p>This would take only a few minutes, and we highly appreciate your time!</p>",
+        "cta": "Give feedback",
+        "dismiss": "Maybe later"
+      },
+      "advertise": {
+        "heading": "Advertise on Bazm",
+        "text": "<p>Reach millions of Shia muslims around the world with your product on Bazm or engage with brands and users.</p><p>Start for as low as $1/day!</p>",
+        "cta": "Learn more"
       }
     }
   }
