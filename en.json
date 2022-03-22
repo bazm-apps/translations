@@ -124,13 +124,24 @@
           "gettingLocation": "Getting your location. Please wait...",
           "settingsTip": "Change <b>Location</b> and preferences in Alarm settings. Click Settings icon to start.",
           "setAlarmHeader": "Set Daily Alarms",
+          "imsakLabel": "Imsak",
           "sehriEndTime": "Time for end of Sehri",
           "minToImsak": "{min} mins before Imsak | {hour} hour before Imsak",
           "minToImsakDesc": "Alarm rings {min} minutes before end of Sehri time | Alarm rings {min} hour before end of Sehri time",
-          "notRamadan": "Looks like it's not Ramadan yet. Please come back during or just before the Ramadan to set the Alarms for Sehri"
+          "notRamadan": "Looks like it's not Ramadan yet. Please come back during or just before the Ramadan to set the Alarms for Sehri",
+          "push": {
+            "heading": "Notification access required",
+            "desc_request": "The alarm works by sending push notifications at designated times. Without access to push, app will not work in expected way. Kindly allow access to your push notification so that we can inform you at alarm times.",
+            "desc_denied": "<strong>You denied notification access earlier.</strong> It is required for push-notifications to work properly. We send notifications at alarm time.<br/>Kindly allow access to push notifications by clicking the button.",
+            "cta": "Allow",
+            "toast_granted": "Thank you! You will get notified at alarm times now.",
+            "toast_denied": "Notification request denied. Please allow the access for app to work properly.",
+            "toast_prompt": "You need to allow notification access to set alarms."
+          }
         },
         "alarmSetting": {
           "title": "Alarm Settings",
+          "locationTitle": "Find city for Alarm timings",
           "forLocation": "Alarm for location",
           "calcMethod": "Calculation method",
           "selectAdhanSound": "Select Adhan sound",
@@ -142,6 +153,9 @@
           "qnaSource": "Source",
           "seeAnswer": "See answer",
           "noAnswer": "No answer"
+        },
+        "qnaDetail": {
+          "title": "Find answers for: "
         },
         "tasbeehCounter": {
           "title": "Tasbeeh Counter"
