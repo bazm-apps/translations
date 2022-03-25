@@ -115,6 +115,7 @@
         "name": "Tools",
         "salatAlarmDesc": "Set alarms for Azaan as per your local times",
         "sehriAlarmDesc": "Set Alarm for Sehri, or even get a wake-up call on your number before Sehri!",
+        "sehriAlarmOptionDisabled": "Alarms for Sheri time during the month of Ramadan (available only during Ramadan)",
         "tasbeehCounterDesc": "Recite Duas, Quran and Tasbeeh on repeat mode easily with Audio Tasbeeh counter",
         "qnaLabel": "QnA (Masle-Masayel)",
         "qnaDesc": "Search and Ask questions or find answers to masle-masayel from your daily life on matters of Islam.",
@@ -450,6 +451,17 @@
         "heading": "Advertise on Bazm",
         "text": "<p>Reach millions of Shia muslims around the world with your product on Bazm or engage with brands and users.</p><p>Start for as low as $1/day!</p>",
         "cta": "Learn more"
+      },
+      "upgradeSafari": {
+        "header": "Limited experience on Safari",
+        "description": "<strong>This browser (Safari) is not optimised for the best experience</strong>. By continuing to use our app here, you will miss out on a number of features such alert notifications, near by updates, offline mode and so much more.<br/>We recommend you to get one of below listed browsers for an improved experience. Click any of the buttons to download the browser from AppStore:",
+        "ctas": {
+          "getGoogle": "Get Google Chrome",
+          "getFirefox": "Get Mozilla Firefox",
+          "getOpera": "Get Opera Touch",
+          "skip": "Maybe later"
+        },
+        "toast": "No problem. Until next time!"
       }
     }
   }
