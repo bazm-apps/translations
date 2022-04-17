@@ -1,0 +1,496 @@
+{
+  "az": {
+    "common": {
+      "refresh": "Təravətləndirmək üçün pullu",
+      "refreshing": "Təravətləndirici...",
+      "loadingMore": "Daha çox yüklənir...",
+      "dismiss": "Rədd",
+      "invite": "Dəvət et",
+      "showMore": "Daha çox göstər — Daha çox bax",
+      "play": "Çal",
+      "pause": "Fasiləli",
+      "playing": "Çalmaq",
+      "paused": "Fasiləli",
+      "watch": "İzlə",
+      "read": "Oxu",
+      "authors": "Müəllif | Müəlliflər",
+      "languages": "Dil — — Dillər",
+      "clear": "Təmizlə",
+      "cancel": "Ləğv etmək",
+      "change": "Dəyişdir",
+      "continue": "Davam Et",
+      "select": "Seç",
+      "saveChanges": "Dəyişiklikləri qeyd et — — Saxla — yenilənir",
+      "newBadge": "Yeni",
+      "login": "Giriş",
+      "logout": "Logout",
+      "signup": "Qeydiyyatdan keçmək",
+      "settings": "Qurğular",
+      "cookiePolicy": "Kuki siyasəti",
+      "privacy": "Gizlilik",
+      "contactUs": "Bizimlə əlaqə saxlayın",
+      "home": "Ana səhifə",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Sən",
+      "retry": "Yenidən",
+      "send": "Göndər",
+      "submit": "Göndərmək",
+      "share": "Paylaş",
+      "at": "at",
+      "untilNextTime": "Problem deyil. Sonrakı Vaxta qədər!"
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Bu anda xidmət əlçatmazdır. Zəhmət olmasa, daha sonra yenidən cəhd edin.",
+        "unknown": "Namə'lum xəta baş verdi. Zəhmət olmasa, daha sonra yenidən cəhd edin."
+      },
+      "content": {
+        "unavailable": "Məzmun bu vaxt yüklənə bilmədi. Zəhmət olmasa bir müddət sonra yenidən cəhd edin.",
+        "itemDetailUnavailable": "Bu {item} üçün təfsilat tapıla bilmədi",
+        "loadMoreError": "Daha çox əşya yüklənə bilmədi. Zəhmət olmasa, daha sonra yenidən cəhd edin."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Ana səhifə"
+      },
+      "postDetail": {
+        "commonTitle": "Ətraflı",
+        "fatihaTitle": "Surə-Fatihə",
+        "fatihaWithNamaz": "Surə-fatihə » Namaz-e-Vəhşat",
+        "avatarUpdateTitle": "Profil şəkli",
+        "bannerUpdateTitle": "Üz qabığı rəsm (Deprecated)",
+        "statusUpdateTitle": "Vəziyyət yenilənir"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Ana səhifə"
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Dualar",
+          "munajat": "Munajaat",
+          "books": "Kitablar"
+        },
+        "inviteFriends": "dostlarınızı dəvət edin",
+        "notShia": "Şiya yox?",
+        "contacts": {
+          "accessRequestHeader": "Kontaktlar Access tələb olunur",
+          "accessRequestDesc": "Bu proqrama dəvət etmək üçün telefon kitabçanızdakı Şia insanlara təklif etmək üçün kontaktlarınızın girişinə tələb edirik."
+        },
+        "audio": "Səs",
+        "video": "Video",
+        "hijri": "Hicri",
+        "duaHome": {
+          "wishCtaText": "Dostlarına arzula!",
+          "wishCtaLabel": "İSTƏK"
+        },
+        "books": {
+          "booksByAuthor": "{author} tərəfindən edilən kitablar",
+          "booksInLang": "{lang} dilində kitablar",
+          "filterBy": "Filter by:",
+          "matching": {
+            "authors": "uyğun müəllifləri ilə",
+            "lang": "dillərin uyğunlaşdırılması ilə",
+            "title": "titul uyğunluğu ilə"
+          }
+        },
+        "booksFilter": {
+          "title": "Müəllif tərəfindən kitab tap",
+          "searchBox": "Müəllif adı ilə axtarış",
+          "selectLang": "Dil seç:"
+        },
+        "bookDetails": {
+          "title": "{title} — Bazm-da bu kimi daha çox pulsuz kitab tapın",
+          "aboutBook": "Kitab haqqında:"
+        }
+      },
+      "tools": {
+        "name": "Alətlər",
+        "salatAlarmDesc": "Yerli vaxtlarınıza görə Azaan üçün səsgücləndiricilər təyin edin",
+        "sehriAlarmDesc": "Sehri üçün Alarm təyin edin, hətta Sehridən əvvəl nömrənizə oyadılma zəngi alın!",
+        "sehriAlarmOptionDisabled": "Ramazan ayında Şeri vaxtı üçün alarmlar (yalnız Ramazan ayında mövcuddur)",
+        "tasbeehCounterDesc": "Audio Tasbeeh counter ilə təkrar rejimində Duas, Quran və Tasbeeh oxu",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "İslam dini ilə bağlı məsələlərdə gündəlik həyatınızdan suallar axtarın və soruşun və ya masle-masayel-ə cavab tapın.",
+        "alarms": {
+          "salatAlarms": "Salatın səsgücləndiriciləri – Gündəlik salat alarmları",
+          "sehriAlarms": "Ramazan Sehri Alarmları",
+          "gettingLocation": "Yerinizi əldə etmək. Xahiş edirəm gözləyin...",
+          "settingsTip": "Alarm qurğularında <b>Yeri</b> və qurğuları dəyişdirin. Başlamaq üçün Qurğular simgesini basın.",
+          "setAlarmHeader": "Hər gün təşvişə düşmə",
+          "imsakLabel": "İmsak",
+          "sehriEndTime": "Sehri sonunun vaxtı",
+          "minToImsak": "imsakdan əvvəl {min} mins — imsakdan {saat} saat əvvəl",
+          "minToImsakDesc": "Sehri vaxtının bitməsinə {min} dəqiqə qalmış alarm halqaları | Sehri vaxtının bitməsinə {min} saat qalmış alarm halqaları",
+          "notRamadan": "Görünür, hələ Ramazan deyil. Lütfən, Sehri üçün Alarmları təyin etmək üçün Ramazan ayında və ya ondan bir az əvvəl geri gəlin",
+          "push": {
+            "heading": "Bildiriş girişi tələb olunur",
+            "desc_request": "Alarm təyin olunmuş vaxtlarda itələmə bildirişləri göndərməklə işləyir. Itələmə imkanı olmadan proqram gözlənilən şəkildə işləməyəcək. Nəvazişlə itələmə bildirişinizə daxil olmağa icazə verin ki, biz sizə alarm vaxtı məlumat verə bilərik.",
+            "desc_denied": "Siz <strong>bildirişin daha əvvəl daxil olmasını inkar etdiniz.</strong> İtələmə-bildirişlərin düzgün işləməsi üçün tələb olunur. Biz bildirişləri alarm vaxtı göndəririk.<br/> Nəzakətlə düyməni basmaqla bildirişləri itələməyə icazə verin.",
+            "cta": "İcazə Ver",
+            "toast_granted": "Təşəkkür edirəm! İndi alarm vaxtı xəbər alacaqsınız.",
+            "toast_denied": "Bildiriş istəyi rədd edildi. Zəhmət olmasa, proqramın düzgün işləməsinə icazə verin.",
+            "toast_prompt": "Alarmları təyin etmək üçün bildirişə daxil olmağa icazə vermək lazımdır."
+          }
+        },
+        "alarmSetting": {
+          "title": "Alarm Qurğuları",
+          "locationTitle": "Alarm vaxtı üçün şəhər tapın",
+          "forLocation": "Məkan üçün alarm",
+          "calcMethod": "Hesablama metodu",
+          "selectAdhanSound": "Adhan səsini seç",
+          "selectAlarmSound": "Səsgücləndirici səsi seçin",
+          "alarmSoundDesc": "Qeyri-salat vaxtı üçün səs"
+        },
+        "qna": {
+          "title": "Sual-Cavab",
+          "qnaSource": "Mənbə",
+          "seeAnswer": "Cavaba bax",
+          "noAnswer": "Cavab yoxdur"
+        },
+        "qnaDetail": {
+          "title": "Bunun üçün cavab tapın: "
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh Counter"
+        }
+      },
+      "user": {
+        "name": "İstifadəçi | Hesab",
+        "editProfile": "Profili düzəlt",
+        "publishToFeed": "Qidalanmaq üçün dəyişikliklərimi dərc et",
+        "shareUpdateToFeed": "Bu yeniliyi də mənim qidalanmama paylaşın",
+        "statusText_ph": "Statusunuzu bəzəmək üçün italics_ və ya *bold* formatlamadan istifadə edin",
+        "statusCharsLeft": "{count} hərflər qalıb",
+        "unauthAccess": {
+          "heading": "Doğru yerdə olduğunuzdan əminsinizmi?",
+          "desc": "<p>Görünür, icazəniz olmayan səhifəyə daxil olmağa çalışırdınız. Əgər əvvəllər daxil olduğunuz səhifəyə daxil olmağa çalışırdınızsa, giriş etməyə çalışın; bu problemi həll etməlidir.</p> <p>Problem davam edərsə, xahiş edirik, bizimlə əlaqə saxlamaqda özünü sərbəst hiss edin.</p>"
+        },
+        "guest": {
+          "welcome": "Xoş gəldiniz, <strong>Qonaq!</strong>",
+          "heading": "Nə üçün giriş və ya qeydiyyatdan keçmək?",
+          "desc": "Bizim proqram üzrə hesab ilə siz bir sıra xüsusiyyətləri istifadə edə bilərsiniz. Hesab yaradaraq başlayın, əgər artıq hesabınız yoxdursa. Və ya (ya: siz ey kafirlər, qiyamətin o biri dünyanın əzabına) çox yaxın bir loqin",
+          "unlockHeading": "hesabı ilə aşağıdakı kilidi açın:",
+          "features": {
+            "engage": {
+              "heading": "Proqramda iştirak",
+              "desc": "Digər istifadəçilərlə də məşğul olun, onların yazılarına və ya istəklərinə reaksiya verin, fikrinizi şərh edin, əşyalarınızı bookmark edin və daha çox!"
+            },
+            "fatiha": {
+              "heading": "Fatiha İstinad",
+              "desc": "Yola düşən əzizlərinizin canları üçün Surə-e-Fatihə üçün müraciət edin və bütün istifadəçilərimizin duaları ilə canlarını mübarək edin!"
+            },
+            "askQues": {
+              "heading": "Suallar verin",
+              "desc": "Müxtəlif mövzularda Din &Duniya-dan suallar soruşun. Bu suallara onun möhtərəm ayətullah əl-sayyid Əli əl-Hüseyni Əs-Sistani cavab verəcəklər!"
+            },
+            "content": {
+              "heading": "üstünlük verilmiş məzmun",
+              "desc": "Hesabınıza daxil olduğunuz zaman hər zaman seçdiyiniz məzmunu və ayarları görün. Həmçinin, bütün maraqlı şeylər üçün xəbər alın!"
+            },
+            "personalized": {
+              "heading": "şəxsi paylaşım",
+              "desc": "İmzanızla şəxsi xarakterli paylaşım məzmununu təyin edin ki, dostlarınız mesaj/post paylaşarkən bilsinlər."
+            }
+          }
+        },
+        "about": {
+          "title": "Haqqında"
+        },
+        "posts": {
+          "title": "Postlar",
+          "userNoPosts": "Şəkil/üz qabığı şəklinizi dəyişdikdə və ya demizasiya olunmuş yaxınlarınız üçün surə-fatiha istədikdə, bu yazılar burada və <b>Ev</b> tabında (başqaları da) görünəcəkdir. Şəkil və ya üz qabığı şəkil əlavə etməyə çalışın?",
+          "profileNoPosts": "{name} hələ heç bir yazı hazırlamayıb."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} hələ marhumeen əlavə etməyib | Siz hələ marhumeen əlavə etməmisiniz",
+            "marhumeenAdded": "{name} marhumeen ardınca əlavə edib | Siz marhumeen ardınca əlavə etdiniz"
+          }
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Hesabınıza daxil olun",
+        "createAccount": "Hesab yarat"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Növbəti addım",
+        "goBack": "Qayıdın",
+        "confirm": "Təsdiqlə"
+      },
+      "createPost": {
+        "heading": "Bu gün nə ilə bağlıdır?",
+        "desc": "Yenilənməni paylaşmaq və ya aşağıdan bir variant istifadə etmək üçün buraya basın",
+        "request": "İstinad",
+        "askQues": "Sual ver",
+        "modal": {
+          "titles": {
+            "post": "Post Yarat — Post-da yenilənmə",
+            "livestream": "Qaraciyər",
+            "hadiyah": "Hadiyə yaradın – – Hadiyəni yeniləyin"
+          },
+          "postCta": "Post | Yenilənmə",
+          "stream": {
+            "scheduleCta": "Daha sonra üçün saxla — axın başlayın"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Bunu kimə hədiyyə etmək istəyirsiniz?",
+              "addPeopleToggle": "Qoy başqaları da bu sawabın bir hissəsi olsun!",
+              "searchInput": "Bazm və ya Əlaqə siyahınızdan momimeen dəvət edin",
+              "minUsersHeader": "İştirakçıların seçməli olduqları minimum sayı təyin etmək istəyirsiniz?",
+              "minUsersInput": "Minimal sayı daxil edin"
+            }
+          },
+          "postTime": "Nə vaxt? — Axışmağa nə vaxt başlamaq istəyirsiniz?",
+          "whereIsIt": "Bu haradadır?",
+          "findLocation": "Yeri tap",
+          "locationSubtext": "Yazınıza yer əlavə et",
+          "addLocation": "Yeri əlavə et",
+          "addPics": "Yazınıza şəkillər əlavə edin",
+          "previewDes": "Sizin postunuz digər insanları qidalandırmaq üçün belə görünərdi. İnsanlar videonu tam ekranda görmək üçün tapa bilərlər.",
+          "addToPost": "{postType} (optional) saytına əlavə et"
+        }
+      },
+      "comments": {
+        "name": "Şərh",
+        "loadPrevious": "Əvvəlki şərhləri yüklə | Əvvəlki cavabları yüklə",
+        "replyingTo": "Cavablama:",
+        "noComments": "Bu yazıda hələ şərh yoxdur",
+        "textboxPlaceholder": "Şərhinizi buraya yazın",
+        "requestToLogin": "Müzakirəyə başlamaq üçün Giriş və ya İmzala"
+      },
+      "post": {
+        "dateUntil": "Until: {date} at {time}"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "İstinad Surə-əl-Fatihə",
+          "addUpdate": "Seviləni yeniləyin – – Yaxın adamı əlavə et"
+        },
+        "heading": "Ötürən sevgilini də əlavə edin – Siyahıdan yaxın adamı seçin və ya ötüb keçən yaxın adamı əlavə edin",
+        "addNew": "Yeni Əlavə Et",
+        "subheader": "Əziz adamın təfsilatlarını da əlavə et — xahişinə mesaj da daxil edə bilərsən",
+        "form": {
+          "fullName": "Vəfat edənin tam adı",
+          "name_ph": "E.g., Syed Zeeshan Haider Abidi",
+          "fathersName": "Ata adı (Əgər varsa)",
+          "father_ph": "E.g., Syed Tauqeer Husain",
+          "male": "Kişi",
+          "female": "Qadın",
+          "relation": "Onunla münasibətin — Onunla münasibətin",
+          "demiseLabel": "Bu gün də belə olacaqmı? İstinad Namaz-e-Vəhşat",
+          "demiseText": "Sənin itkinin haqqında eşidəndə çox təəssüflənirik. Allah sənə və ailənə, bu itkiyə səbirlə dözmək üçün güc versin. Allah zalım cana can verənə ən yüksək yerləri versin. Bu variantı seçməklə, siz momineeni Namaz-e-Vahşatdan demizasiya olunmuş can üçün soruşa bilərsiniz.",
+          "optional": "Seçimli",
+          "dod": "Keçib getdi",
+          "dob": "Doğulduğu gün"
+        },
+        "relation": "Qızı — Oğlu",
+        "born": "Doğulduğu yer:",
+        "died": "Vəfat etdi:",
+        "addMsg": "İsmarış əlavə etmək istəyirsiniz?",
+        "remainingChars": "Hərflər: {count} — — Hərflər: {count} qalan",
+        "infoEditRelative": "<b>Hesab > Souls</b> bölməsində {name} üçün detalları redaktə edə bilərsiniz",
+        "saveRequestCta": "Qeyd Et & İstinad — İstinad",
+        "addUpdate": "Əlavə et | Yenilə"
+      },
+      "askQues": {
+        "title": "Sual verin",
+        "form": {
+          "quesLabel": "Sualınız",
+          "quesLabel_ph": "Sual axtarın və ya özünüzdən soruşun",
+          "similarQues": "Bu sualların artıq axtardığınız cavabı ola bilər.",
+          "quesTextHeader": "Sualınız:",
+          "selectCat": "Sual Kateqoriyanı Təyin Edin:",
+          "askAnonLabel": "Anonim şəkildə soruşun?",
+          "askAnonInfo": "Sizin adınız sizin adınızdan cavab istəyərkən Alimə göndərilməyəcək. Bu sualla proqramımız boyunca da nümayiş olunmayacaq. Lakin anonim suallara tez cavab vermək olmaz.",
+          "askViaLabel": "Via soruşun",
+          "askSistaniInfo": "Onun ən-Nəqişül-ül-ayətullah əl-Sayyid Ali Əl-Hüseyni Əs-Sistaninin ofisi tərəfindən cavablandırılacaq bir sual soruşa bilərsiniz. Sualı onların saytına (profil məlumatlarınızla birlikdə) ünvanlayacağıq. <b>Şərtlər &Şərtləri</b> düzgün oxuduğunuza əmin olun.",
+          "tncLabel": "Terminlər &Şərtlər:",
+          "showHide": "Göstər — gizlət",
+          "sistaniOrgTncInfo": "Sual verməmişdən əvvəl onların veb-səhifəsindən gətirilən fikirləri nəzərdən keçirək. Çünki aşağıda gətirilən bəndlərə riayət etmirsənsə, onlardan təkrar eşitməyəcəksən və ya cavab ala bilməyəcəksən.",
+          "userInfo": {
+            "aboutLabel": "Haqqınızda",
+            "genderLabel": "Cinsiniz",
+            "bdayLabel": "Sənin ad günün"
+          }
+        },
+        "askQuesCta": "Sualınızı verin"
+      },
+      "authPrompt": {
+        "title": "Hesab tələb olunur",
+        "defLabel": "Giriş və ya İmzala davam edəcək",
+        "infoText": "Bu xüsusiyyət istifadə etməzdən əvvəl giriş və ya qeydiyyatdan keçməyi tələb edir. Əgər siz artıq qeydiyyatdan keçmisinizsə<b>, Girişə</b> basın və ya hesabınızı yaratmaq üçün <b>Sign up</b> düyməsini basın."
+      },
+      "location": {
+        "title": "Yeri Dəyişdir",
+        "search_ph": "Yerləşdiyiniz yeri axtar",
+        "autoDetectInfo": "Yerinizi daxil edin və ya yerinizi əldə etmək üçün auto-detect icon-a basın."
+      },
+      "readText": {
+        "ctaLabel": "Oxu",
+        "title": "Dua: {title}",
+        "arabicCta": "Ərəb dili",
+        "englishCta": "İngiliscə",
+        "translatedCta": "Tərcümə olunub"
+      },
+      "reqAccess": {
+        "heading": "giriş tələb olunur",
+        "subheading": "Kameranıza daxil olmaq üçün icazəyə ehtiyacımız var",
+        "subtext": "Xahiş edirik, aşağıdakı düyməni basaraq girişə icazə verin:",
+        "ctaLabel": "girişə icazə ver"
+      },
+      "shareBtn": {
+        "subtext": "Bunu müvafiq proqramda paylaşmaq üçün aşağıdakı variantlardan birini basın:",
+        "copyText": "Məzmunu aşağıda köçürmək üçün {icon} ikonaya basın:"
+      },
+      "verifyMob": {
+        "title": "Mobili yoxla — kodu daxil edin",
+        "page1": {
+          "infoText1": "Şəxsiyyətinizi yoxlamaq üçün mobil nömrənizə ehtiyacımız var. Ola bilsin, siz də vaxtaşırı yenilənirsiniz.",
+          "infoText2": "Nömrənizi daxil edin və təsdiq kodunuzu almaq üçün düyməni basın: | Təsdiq kodunuzu almaq üçün nömrənizi daxil edin və düyməni basın:"
+        },
+        "form": {
+          "mobileLabel": "Mobil nömrə",
+          "mobileLabel_ph": "Mobil nömrənizi daxil edin",
+          "otpViaSMS": "SMS vasitəsilə əldə edin",
+          "viaWhatsApp": "WhatsApp vasitəsilə əldə edin",
+          "viaTelegram": "Telegram vasitəsilə əldə edin",
+          "viaSignal": "Siqnal vasitəsilə əldə edin"
+        },
+        "page2": {
+          "header": "Sizin nömrənizə 6 rəqəmli təsdiq kodu göndərdik ({nömrə})",
+          "enterCodeLabel": "Kod daxil edin",
+          "enterCode_ph": "6 rəqəmli kodu daxil edin",
+          "resendCode": "Resend Kodu",
+          "notUsingMobile": "<strong>{number}</strong> istifadə olunmur?",
+          "changeNumber": "Dəyişən sayı"
+        }
+      },
+      "userSettings": {
+        "personalSharingMsg": "Paylaşım mesajını kişiselize",
+        "changePwd": "Parolu dəyiş — — Şifrəni təyin et",
+        "changeLang": "Dil Dəyişdir",
+        "publishToFeed": "Dəyişikliklərimi də qidalandırmaq üçün dərc et."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Şəxsiyyət",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "İsmarışlarıma adımı əlavə et",
+          "sharingDesc": "Xarici paylaşım edərkən mesajlarınız aşağıda kimi görünə bilər:",
+          "sharingTextDemo": {
+            "0": "Bu Nauha dinlə Bazm App",
+            "1": "{name} bu Nauha-ya bazm App-da qulaq asmağı tövsiyə edir"
+          },
+          "addSignDesc": "İmzanızı da əlavə etmək istəyirsiniz?",
+          "signDesc": "Bu proqramdakı dostlarınızla istədiyinizi paylaşdıqda, imzanız mesajlara əlavə olunacaq. Məsələn, aşağıda belə görünə bilər:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Mövcud şifrənizi daxil edin:",
+          "currentPwdPH": "Hazırkı Şifrəni Daxil Et",
+          "newPwdLabel": "Yeni şifrə daxil edin:",
+          "newPwdPH": "Yeni Şifrəni Daxil Et"
+        },
+        "changeLang": {
+          "searchYourLang": "Dilinizi axtar",
+          "desc": "Proqram məzmununu görmək istədiyiniz dili seçin. Bu ifadənin seçilmiş dildə necə göründüyünü görmək üçün bir dilə klikləyin və gözləyin (tərcüməni yükləmək üçün müəyyən vaxt lazımdır)."
+        }
+      }
+    },
+    "actions": {
+      "cancel": "Ləğv etmək",
+      "notify": "Xəbər vermə",
+      "like": "Like",
+      "recited": "Oxunan",
+      "comment": "Şərh",
+      "reply": "Cavabla",
+      "bookmark": "Nişan",
+      "audienceHeader": "Momineen who {action}d | Momineen who {action}d this"
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Sənin adın",
+          "placeholder": "Tam adınızı daxil edin"
+        },
+        "email": {
+          "label": "E-poçt",
+          "placeholder": "Qeydiyyatdan keçmiş e-mail — — E-mailinizi daxil edin"
+        },
+        "password": {
+          "label": "Şifrə",
+          "placeholder": "Şifrəniz — Şifrə daxil edin"
+        },
+        "rememberLogin": "Giriş yadda saxla",
+        "forgotPwd": "Şifrəni unutdun?",
+        "connectUsing": "Ya da, əlaqə vasitəsi ilə",
+        "useSavedAccount": "Qeyd edilmiş hesabları işlət",
+        "lastLogin": "Axırıncı giriş",
+        "needAccount": "Hesab lazımdır?"
+      },
+      "gotoSignup": "Zəyunət",
+      "alreadyHasAccount": "Artıq hesab var?",
+      "gotoLogin": "Loqin",
+      "gotoProfile": "Profil",
+      "msgForAuthUser": "<p>Biz düşünürük ki, siz səhvən buraya enmisiniz, çünki artıq girişdəsiniz.</p> <p>Profilinizin necə göründüyünü yoxlamaq və ya digər bölmələrə baxmaq üçün aşağıdakı linklərdən birini istifadə edə bilərsiniz:</p>"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Bazm { platformasını quraşdır }",
+          "desc": "Android proqramını daha yaxşı təcrübə, şəxsi məzmun, bildirişlər və maraq göstərdiyiniz hər şeyi ətrafınızdan yükləyin! | Daha yaxşı təcrübə əldə etmək üçün app qısa yol (bookmark) quraşdırın. Cihazınızda güc-bəla ilə yer alsa da, tez bir zamanda proqrama qayıtmağınıza kömək edir.",
+          "cta": {
+            "action": "Quraşdır",
+            "skip": "Bəlkə sonra"
+          }
+        },
+        "prompt": {
+          "heading": "Bazm qısa yol quraşdırın?"
+        }
+      },
+      "webFeedback": {
+        "heading": "İndiyədək təcrübəniz necədir?",
+        "text": "<p>Yeni proqramı bəyənirsiniz? Yaxşılığa nail ola biləcəyimiz bir şey varmı? Sizin üçün təcrübəni yaxşılaşdırmaq üçün xahiş edirik, sizin rəylərinizlə bizə kömək edin!</p> <p>Bunun üçün cəmi bir neçə dəqiqə vaxt lazım olacaqdı. Vaxtınızı yüksək qiymətləndiririk!</p>",
+        "cta": "Geribildirim ver",
+        "dismiss": "Bəlkə sonra"
+      },
+      "advertise": {
+        "heading": "Bazm-da reklam",
+        "text": "<p>Bazm-da məhsulunuz ilə bütün dünyada milyonlarla Şiya müsəlmanlarına çatın və ya markalar və istifadəçilərlə məşğul olun.</p> <p>1 dollar/günə qədər aşağı qiymətə start!</p>",
+        "cta": "Daha çox öyrənin"
+      },
+      "upgradeSafari": {
+        "header": "Safari üzrə məhdud təcrübə",
+        "description": "<strong>Bu brauzer (Safari) ən yaxşı təcrübə üçün optimizm deyil</strong>. Bizim app burada istifadə davam edərək, siz belə xəbərdarlıq bildirişlər bir sıra xüsusiyyətləri nəzərdən qaçıracaq, yaxın yenilənmələr, offline rejimi və daha çox.<br/> Təkmilləşdirilmiş təcrübə üçün aşağıda qeyd olunan brauzerlərdən birini əldə etməyinizi tövsiyə edirik. Brauzeri AppStore-dan yükləmək üçün düymələrdən hər hansı birini basın:",
+        "ctas": {
+          "getGoogle": "Google Chrome əldə edin",
+          "getFirefox": "Mozilla Firefox əldə edin",
+          "getOpera": "Opera Toxun",
+          "skip": "Bəlkə sonra"
+        },
+        "toast": "Problem deyil. Növbəti görüşədək!"
+      },
+      "cookieBanner": {
+        "firstPara": "Biz sizin {device} heç bir cookies saxlamaq deyil, bizim app istifadə üçüncü tərəf apps might (məsələn, Google Analytics). Biz, əksinə, hər hansı vacib məlumatların saxlanılması üçün daimi saxlama istifadə edirik. Əksər hallarda, bu, anbarda və tranfer zamanı şifrələnir.",
+        "secondPara": "Bu proqramdan istifadə etməyə davam etməklə, siz bununla bizim seçimlərimizlə bağlı heç bir məsələnizin olmadığını təsdiq edirsiniz. Kukilərimiz və məlumat istifadəmiz haqqında daha ətraflı məlumat əldə etmək üçün <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy</a>."
+      }
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "sq": {
+    "common": {
+      "refresh": "Tërhiq për t'u freskuar",
+      "refreshing": "Freskuese...",
+      "loadingMore": "Duke ngarkuar më shumë...",
+      "dismiss": "Hiqe",
+      "invite": "Ftoje",
+      "showMore": "Shfaq më shumë| Shih më shumë",
+      "play": "Luaj",
+      "pause": "Pauzë",
+      "playing": "Duke luajtur",
+      "paused": "Pauzë",
+      "watch": "Shiko",
+      "read": "Lexo",
+      "authors": "Autori | Autorë",
+      "languages": "Gjuha| Gjuhët",
+      "clear": "E qartë",
+      "cancel": "Anulo",
+      "change": "Ndrysho",
+      "continue": "Vazhdo",
+      "select": "Zgjidh",
+      "saveChanges": "Ruaj ndryshimet| Ruaj | Përditëso",
+      "newBadge": "I ri",
+      "login": "Hyrje",
+      "logout": "Logout",
+      "signup": "Regjistrohu",
+      "settings": "Rregullimet",
+      "cookiePolicy": "Politika e biskotave",
+      "privacy": "Privaciteti",
+      "contactUs": "Na kontaktoni",
+      "home": "Shtëpi",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Ti",
+      "retry": "Ritry",
+      "send": "Dërgo",
+      "submit": "Parashtro",
+      "share": "Ndaje",
+      "at": "në",
+      "untilNextTime": "S'ka problem. Deri në kohën tjetër!"
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Shërbimi i paarritshëm në këtë moment. Ju lutem provoni përsëri më vonë.",
+        "unknown": "Ndodhi një gabim i panjohur. Ju lutem provoni përsëri më vonë."
+      },
+      "content": {
+        "unavailable": "E pamundur ngarkimi i përmbajtjes në këtë kohë. Të lutem provoje përsëri pas pak.",
+        "itemDetailUnavailable": "E pamundur gjetja e detajeve për këtë {element}",
+        "loadMoreError": "Gabim gjatë ngarkimit të më shumë artikujve. Ju lutem provoni përsëri më vonë."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Shtëpi"
+      },
+      "postDetail": {
+        "commonTitle": "Detaji",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Sureja-fatiha > Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Figura e profilit",
+        "bannerUpdateTitle": "Figurë e mbuluar (e çaktivizuar)",
+        "statusUpdateTitle": "Rifreskimi i gjendjes"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Shtëpi"
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Zijaaraat",
+          "dua": "Duas",
+          "munajat": "Munajat",
+          "books": "Libra"
+        },
+        "inviteFriends": "ftoji miqtë e tu",
+        "notShia": "Jo Shia?",
+        "contacts": {
+          "accessRequestHeader": "Kërkohet hyrja e kontakteve",
+          "accessRequestDesc": "Ne kërkojmë aksesin e kontakteve tuaja për të sugjeruar njerëzit shiitë në telefonin tuaj për të ftuar në këtë app."
+        },
+        "audio": "Audio",
+        "video": "Video",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Uroji miqve tuaj!",
+          "wishCtaLabel": "DËSHIRË"
+        },
+        "books": {
+          "booksByAuthor": "Libra nga {autori}",
+          "booksInLang": "Libra në {lang}",
+          "filterBy": "Filtro nga:",
+          "matching": {
+            "authors": "me autorë që përputhen",
+            "lang": "me gjuhë që përputhen",
+            "title": "me përputhje titulli"
+          }
+        },
+        "booksFilter": {
+          "title": "Gjej libër nga autori",
+          "searchBox": "Kërko autori sipas emrit",
+          "selectLang": "Zgjidh një gjuhë:"
+        },
+        "bookDetails": {
+          "title": "{title} — Gjej më shumë libra falas si ky në Bazm",
+          "aboutBook": "Rreth librit:"
+        }
+      },
+      "tools": {
+        "name": "Vegla",
+        "salatAlarmDesc": "Vër alarme për Azaanin sipas kohës tënde lokale",
+        "sehriAlarmDesc": "Alarm për Sehrin, ose edhe një zile zgjimi në numrin tuaj para Sehrit!",
+        "sehriAlarmOptionDisabled": "Alarme për kohën e Sherit gjatë muajit të Ramazanit (në dispozicion vetëm gjatë Ramazanit)",
+        "tasbeehCounterDesc": "Recitoni Duas, Kur'an dhe Tasbeeh në modalitetin përsëritës lehtësisht me audio tasbeeh counter",
+        "qnaLabel": "ÇnA (Masle-Masajeli)",
+        "qnaDesc": "Kërkoni dhe bëni pyetje ose gjeni përgjigje për masle-masayel nga jeta juaj e përditshme në çështjet e Islamit.",
+        "alarms": {
+          "salatAlarms": "Alarme me salat| Alarme të përditshme për sallata",
+          "sehriAlarms": "Alarmet e Ramadan Sehrit",
+          "gettingLocation": "Po marr vendndodhjen tënde. Të lutem prit...",
+          "settingsTip": "Ndrysho <b>pozicionin</b> dhe preferencat në rregullimet e alarmit. Kliko Ikonën Rregullimet për të filluar.",
+          "setAlarmHeader": "Vër alarme të përditshme",
+          "imsakLabel": "Imsak",
+          "sehriEndTime": "Koha për fundin e Sehrit",
+          "minToImsak": "{min} mins para Imsak | {hour} orë para Imsak",
+          "minToImsakDesc": "Bie alarmi {min} minuta para përfundimit të kohës së Sehrit | Alarmi bie {min} orë para përfundimit të kohës së Sehrit",
+          "notRamadan": "Duket se ende nuk është Ramazani. Ju lutem kthehuni gjatë ose pak para Ramazanit për të vendosur Alarmet për Sehrin",
+          "push": {
+            "heading": "Kërkohet aksesi i njoftimit",
+            "desc_request": "Alarmi funksionon duke dërguar njoftime shtytjeje në kohë të caktuara. Pa qasje në shtytje, aplikacioni nuk do të funksionojë në mënyrën e pritur. Me mirësjellje lejoni hyrjen në njoftimin tuaj të shtytjes në mënyrë që ne të mund t'ju informojmë në kohë alarmi.",
+            "desc_denied": "Ju <strong>mohuat hyrjen e njoftimit më parë.</strong> Kërkohet që njoftimet push të punojnë siç duhet. Dërgojmë njoftime në kohën e alarmit.<br/> Me mirësjellje lejo hyrjen për të shtypur njoftimet duke shtypur butonin.",
+            "cta": "Lejo",
+            "toast_granted": "Faleminderit! Tani do të lajmërohesh në kohë alarmi.",
+            "toast_denied": "Kërkesa e njoftimit u refuzua. Ju lutem lejoni që hyrja për app të funksionojë siç duhet.",
+            "toast_prompt": "Duhet të lejosh hyrjen e njoftimeve për të vënë alarme."
+          }
+        },
+        "alarmSetting": {
+          "title": "Rregullimet e alarmit",
+          "locationTitle": "Gjej qytetin për kohën e alarmit",
+          "forLocation": "Alarm për vendndodhjen",
+          "calcMethod": "Metoda e llogaritjes",
+          "selectAdhanSound": "Zgjidh tingullin Adhan",
+          "selectAlarmSound": "Zgjidh tingullin e alarmit",
+          "alarmSoundDesc": "Zë për kohë jo të sallata"
+        },
+        "qna": {
+          "title": "Pyetje-Përgjigje",
+          "qnaSource": "Burimi",
+          "seeAnswer": "Shih përgjigjen",
+          "noAnswer": "S'ka përgjigje"
+        },
+        "qnaDetail": {
+          "title": "Gjej përgjigjet për: "
+        },
+        "tasbeehCounter": {
+          "title": "Banaku i Tasbeehut"
+        }
+      },
+      "user": {
+        "name": "Përdoruesi | Llogari",
+        "editProfile": "Ndrysho profilin",
+        "publishToFeed": "Botoni ndryshimet e mia për t'u ushqyer",
+        "shareUpdateToFeed": "Gjithashtu ndaje këtë përditësim në ushqimin tim",
+        "statusText_ph": "Përdor formatimin _italics_ ose *bold* për të dekoruar statusin tënd",
+        "statusCharsLeft": "{count} gërmat majtas",
+        "unauthAccess": {
+          "heading": "Je i sigurt që je në vendin e duhur?",
+          "desc": "<p>Duket sikur po mundoheshe të hyje në një faqe për të cilën nuk kishe leje. Nëse po përpiqesh të hysh në një faqe që ke hyrë më parë, përpiqu të hysh; që duhet të zgjidhë problemin.</p> Ju <p>lutem, ndihuni të lirë të na kontaktoni nëse problemi vazhdon.</p>"
+        },
+        "guest": {
+          "welcome": "Mirë se erdhët, <strong>Mysafir!</strong>",
+          "heading": "Pse të regjistrosh apo të regjistrosh?",
+          "desc": "Me një llogari në aplikacionin tonë, ju mund të përdorni një numër karakteristikash. Fillo duke krijuar një llogari, nëse nuk ke një llogari tashmë. Ose, vetëm hyrje!",
+          "unlockHeading": "zhblloko në vazhdim me një llogari:",
+          "features": {
+            "engage": {
+              "heading": "Angazho në app",
+              "desc": "Angazhohuni me përdoruesit e tjerë, reagoni ndaj postimeve apo kërkesave të tyre, komentoni mendimin tuaj, libërshënoni artikujt tuaj dhe shumë më tepër!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha Kërkesë",
+              "desc": "Postoni kërkesë për suren-e-Fatiha për shpirtrat e të dashurve tuaj të larguar dhe bekoni shpirtrat e tyre me lutjet e të gjithë përdoruesve tanë!"
+            },
+            "askQues": {
+              "heading": "Bëj pyetje",
+              "desc": "Bëni pyetje nga Deen & Duniya në tema të ndryshme për t'u përgjigjur nga eminenca e tij, Ayatullah El-Sayyid Ali El-Husseini El-Sistani!"
+            },
+            "content": {
+              "heading": "përmbajtja e preferuar",
+              "desc": "Gjithmonë shihni përmbajtjen dhe rregullimet tuaja të preferuara kur jeni të regjistruar në llogarinë tuaj. Gjithashtu, njoftohuni për të gjitha gjërat interesante!"
+            },
+            "personalized": {
+              "heading": "ndarja e personalizuar",
+              "desc": "Vendosni përmbajtjen e ndarjes të personalizuar me nënshkrimin tuaj në mënyrë që miqtë tuaj të dinë kur ndani një mesazh/postim."
+            }
+          }
+        },
+        "about": {
+          "title": "Rreth"
+        },
+        "posts": {
+          "title": "Postet",
+          "userNoPosts": "Kur ndryshoni imazhin tuaj të fotografisë/mbulimit, ose kur kërkoni surah-fatiha për të dashurit tuaj të vdekur, këto postime do të shfaqen këtu dhe në tab <b>home</b> (të të tjerëve gjithashtu). Përpiqu të shtosh një figurë apo të mbulosh figurën?",
+          "profileNoPosts": "Emri nuk ka bërë asnjë post akoma."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} nuk është shtuar marhumeen ende | Nuk ke shtuar ende marhumeen",
+            "marhumeenAdded": "{name} ka shtuar marhumeen pas marhumeen | Ju keni shtuar pas marhumeen"
+          }
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Hyrje në llogarinë tuaj",
+        "createAccount": "Krijo një llogari"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Hapi tjetër",
+        "goBack": "Kthehu mbrapa",
+        "confirm": "Konfirmo"
+      },
+      "createPost": {
+        "heading": "Për çfarë bëhet sot?",
+        "desc": "Kliko këtu për të ndarë një përditësim ose për të përdorur një opsion nga poshtë",
+        "request": "Kërkesë",
+        "askQues": "Bëj një pyetje",
+        "modal": {
+          "titles": {
+            "post": "Krijo postën | Posta e rifreskimit",
+            "livestream": "Livestream",
+            "hadiyah": "Krijo Hadijahun| Rifresko Hadijahun"
+          },
+          "postCta": "Post | Rifreskim",
+          "stream": {
+            "scheduleCta": "Kurse për më vonë | Fillo streaming"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Kujt do t'ia dhurosh këtë?",
+              "addPeopleToggle": "Le të jenë edhe të tjerët pjesë e këtij sharre!",
+              "searchInput": "Ftoje momimeen nga Bazm ose lista e kontakteve",
+              "minUsersHeader": "Dëshironi të vendosni numrin minimal që pjesëmarrësit duhet të zgjedhin?",
+              "minUsersInput": "Shkruaj numrin minimal"
+            }
+          },
+          "postTime": "Kur është? - Kur do të fillosh të bësh streaming?",
+          "whereIsIt": "Ku është?",
+          "findLocation": "Gjej vendndodhjen",
+          "locationSubtext": "Shto pozicionin tek posta jote",
+          "addLocation": "Shto pozicionin",
+          "addPics": "Shto fotografi në postimin tënd",
+          "previewDes": "Kjo është se si postimi juaj do të shfaqet në ushqim të njerëzve të tjerë. Njerëzit mund të filmojnë videon për ta parë atë në ekran të plotë.",
+          "addToPost": "Shto tek {postType} (opsionale)"
+        }
+      },
+      "comments": {
+        "name": "Komente",
+        "loadPrevious": "Ngarko komentet e mëparshme | Ngarko përgjigjet e mëparshme",
+        "replyingTo": "Duke iu përgjigjur:",
+        "noComments": "Ende nuk ka komente për këtë postim",
+        "textboxPlaceholder": "Shkruaj komentin tënd këtu",
+        "requestToLogin": "Login ose Signup për të filluar diskutimin"
+      },
+      "post": {
+        "dateUntil": "Deri në: {data} në {time}"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Kërko suren el-fatiha",
+          "addUpdate": "Përditëso njeriun e dashur| Shto njeriun e dashur"
+        },
+        "heading": "Shto një njeri të dashur që ka kaluar | Zgjidh një njeri të dashur nga lista ose shto një njeri të dashur që ka kaluar",
+        "addNew": "Shto i ri",
+        "subheader": "Shto hollësi për njeriun tënd të dashur| Mund të përfshish edhe një mesazh në kërkesën tënde",
+        "form": {
+          "fullName": "Emri i plotë i të ndjerit",
+          "name_ph": "P.sh., Sied Zeeshan Haider Abidi",
+          "fathersName": "Emri i babait (nëse është në dispozicion)",
+          "father_ph": "P.sh., Syed Tauqeer Husain",
+          "male": "Mashkull",
+          "female": "Femra",
+          "relation": "Marrëdhënia jote me të— marrëdhënia jote me të",
+          "demiseLabel": "E shkatërruar sot? Kërko Namaz-e-Wahshat",
+          "demiseText": "Na vjen shumë keq që po dëgjojmë për humbjen tënde. All-llahu ju jep juve dhe familjes suaj forcën për ta duruar këtë humbje me durim dhe All-llahu e shpërbleftë shpirtin e humbur me vendet më të larta në Jannah. Zgjedhja e këtij opsioni ju mundëson të kërkoni momineen për Namaz-e-Wahshat për shpirtin e shkatërruar.",
+          "optional": "Opsionale",
+          "dod": "Vdiq.",
+          "dob": "Ka lindur në"
+        },
+        "relation": "Vajza e | Birit të",
+        "born": "Lindur:",
+        "died": "Vdiq:",
+        "addMsg": "Dëshiron të shtosh një mesazh?",
+        "remainingChars": "Gërmat: {count} | Karakteret: {count} që mbeten",
+        "infoEditRelative": "Ju mund të redaktoni detajet për {emri} në seksionin e <b>llogarisë suaj > Souls</b>",
+        "saveRequestCta": "Ruaj > Kërko| Kërkesë",
+        "addUpdate": "Shto:— Rifresko"
+      },
+      "askQues": {
+        "title": "Bëj një pyetje",
+        "form": {
+          "quesLabel": "Pyetja jote",
+          "quesLabel_ph": "Kërko për një pyetje ose bëj tënden",
+          "similarQues": "Këto pyetje mund të kenë tashmë përgjigjen që po kërkoni.",
+          "quesTextHeader": "Pyetja juaj:",
+          "selectCat": "Kategori pyetjesh:",
+          "askAnonLabel": "Pyet Anonymously?",
+          "askAnonInfo": "Emri juaj nuk do t'i dërgohet Dijetarit kur të kërkojë një përgjigje në emrin tuaj, dhe as nuk do të shfaqet në të gjithë app-in tonë me këtë pyetje. Por pyetjet anonime mund të mos marrin përgjigje shpejt.",
+          "askViaLabel": "Pyet Via",
+          "askSistaniInfo": "Ju mund të bëni një pyetje për të marrë përgjigje nga zyra e eminences së tij, Ayatullah Al-Sayyid Ali Al-Husseini El-Sistani. Ne do të përcjellë pyetjen në faqen e tyre të internetit (së bashku me informacionin e profilit tuaj). Sigurohu që t'i kesh lexuar siç duhet <b>Termat & Kushtet</b>.",
+          "tncLabel": "Kushtet:",
+          "showHide": "Shfaq | Fshihu",
+          "sistaniOrgTncInfo": "Shqyrtoni pikat e mëposhtme nga faqja e tyre e internetit para se të bëni një pyetje, sepse nëse nuk u përmbaheni pikave të mëposhtme, mund të mos dëgjoni më prej tyre ose mund të mos merrni ndonjë përgjigje.",
+          "userInfo": {
+            "aboutLabel": "Për ty.",
+            "genderLabel": "Gjinia jote",
+            "bdayLabel": "Ditëlindja jote"
+          }
+        },
+        "askQuesCta": "Bëj pyetjen tënde"
+      },
+      "authPrompt": {
+        "title": "Kërkohet llogari",
+        "defLabel": "Login ose Signup për të vazhduar",
+        "infoText": "Kjo veçori kërkon që ju të regjistroheni ose të regjistroheni para se të mund ta përdorni atë. Kliko <b>Login</b> nëse jeni regjistruar tashmë, ose kliko <b>Regjistrohu</b> për të krijuar llogarinë tuaj."
+      },
+      "location": {
+        "title": "Ndrysho vendndodhjen",
+        "search_ph": "Kërko vendndodhjen tënde",
+        "autoDetectInfo": "Shkruaj vendndodhjen ose kliko ikonën e auto-detektimit për të marrë vendndodhjen tënde."
+      },
+      "readText": {
+        "ctaLabel": "Lexo",
+        "title": "Dua: {titulli}",
+        "arabicCta": "Arabisht",
+        "englishCta": "Anglisht",
+        "translatedCta": "Përkthyer"
+      },
+      "reqAccess": {
+        "heading": "kërkohet hyrja",
+        "subheading": "Na duhet leje për të hyrë në kamerën tuaj.",
+        "subtext": "Ju lutem lejoni hyrjen duke shtypur butonin më poshtë:",
+        "ctaLabel": "lejo hyrjen"
+      },
+      "shareBtn": {
+        "subtext": "Kliko një nga opsionet më poshtë për ta ndarë këtë në app-in përkatës:",
+        "copyText": "Ikona e klikuar {icon} për të kopjuar më poshtë përmbajtjen:"
+      },
+      "verifyMob": {
+        "title": "Verifiko Mobile—Shkruaj kodin",
+        "page1": {
+          "infoText1": "Na duhet numri juaj celular për të verifikuar identitetin tuaj. Mund të marrësh edhe përditësime të herëpashershme.",
+          "infoText2": "Shkruaj numrin tënd dhe kliko butonin për të marrë kodin tënd të konfirmimit: | Shkruaj numrin tënd dhe kliko një buton për të marrë kodin tënd të konfirmimit:"
+        },
+        "form": {
+          "mobileLabel": "Numri i celularit",
+          "mobileLabel_ph": "Shkruaj numrin e celularit",
+          "otpViaSMS": "Merr nëpërmjet SMS-së",
+          "viaWhatsApp": "Merr nëpërmjet WhatsApp",
+          "viaTelegram": "Merrni nëpërmjet Telegramit",
+          "viaSignal": "Merr nëpërmjet Sinjalit"
+        },
+        "page2": {
+          "header": "Kemi dërguar një kod konfirmimi me 6 shifra tek numri juaj ({numri})",
+          "enterCodeLabel": "Shkruaj kodin",
+          "enterCode_ph": "Shkruaj kodin me 6 shifra",
+          "resendCode": "Kodi i rishendimeve",
+          "notUsingMobile": "Duke mos përdorur <strong>{numër}?</strong>",
+          "changeNumber": "Ndrysho numrin"
+        }
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personalizo mesazhin e ndarjes",
+        "changePwd": "Ndrysho Fjalëkalimin—Vendos Fjalëkalimin",
+        "changeLang": "Ndrysho gjuhën",
+        "publishToFeed": "Botoni edhe ndryshimet e mia për t'u ushqyer."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalizimi",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Shto emrin tim tek mesazhet",
+          "sharingDesc": "Kur ndani nga jashtë, mesazhet tuaja mund të duken si më poshtë:",
+          "sharingTextDemo": {
+            "0": "Dëgjo këtë Nauha në Bazm App",
+            "1": "{name} rekomandon dëgjimin e kësaj Nauha në Bazm App"
+          },
+          "addSignDesc": "Do të shtosh edhe firmën tënde?",
+          "signDesc": "Kur të ndani dëshirën tuaj me miqtë në këtë app, nënshkrimi juaj do t'u shtohet mesazheve. Për shembull, mund të shfaqet si më poshtë:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Shkruaj fjalëkalimin tënd ekzistues:",
+          "currentPwdPH": "Shkruaj Fjalëkalimin aktual",
+          "newPwdLabel": "Shkruaj një fjalëkalim të ri:",
+          "newPwdPH": "Shkruaj Fjalëkalimin e ri"
+        },
+        "changeLang": {
+          "searchYourLang": "Kërko gjuhën tënde",
+          "desc": "Zgjidhni gjuhën në të cilën dëshironi të shihni përmbajtjen e aplikacionit. Kliko në një gjuhë dhe prit (duhet kohë për të ngarkuar përkthimin) për të parë se si shfaqet kjo frazë në gjuhën e zgjedhur."
+        }
+      }
+    },
+    "actions": {
+      "cancel": "Anulo",
+      "notify": "Lajmëro",
+      "like": "Si",
+      "recited": "Recituar",
+      "comment": "Koment",
+      "reply": "Përgjigju",
+      "bookmark": "Libërshënues",
+      "audienceHeader": "Momineen i cili {action}d | Momineen i cili {veprim}d këtë"
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Emri yt",
+          "placeholder": "Shkruaj emrin tënd të plotë"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Email i regjistruar | Shkruaj emailin tënd"
+        },
+        "password": {
+          "label": "Fjalëkalimi",
+          "placeholder": "Fjalëkalimi—Shkruaj një fjalëkalim"
+        },
+        "rememberLogin": "Kujto hyrjen",
+        "forgotPwd": "Harrove Fjalëkalimin?",
+        "connectUsing": "Ose, lidhu duke përdorur",
+        "useSavedAccount": "Përdor llogaritë e ruajtura",
+        "lastLogin": "Hyrja e fundit",
+        "needAccount": "Ke nevojë për llogari?"
+      },
+      "gotoSignup": "Regjistrohu në Goto",
+      "alreadyHasAccount": "Tashmë ke një llogari?",
+      "gotoLogin": "Hyrje Goto",
+      "gotoProfile": "Profili Goto",
+      "msgForAuthUser": "<p>Ne mendojmë se ju zbarkuan këtu gabimisht, si ju tashmë jeni të vendosur në.</p> <p>Ju mund të kontrolloni profilin tuaj për të parë se si duket, ose të përdorni një nga lidhjet më poshtë për të shfletoni seksione të tjera:</p>"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Instalo Bazm { platformë }",
+          "desc": "Shkarko app Android për një përvojë më të mirë, përmbajtje të personalizuar, njoftime dhe çdo gjë të interesit tuaj nga rreth jush! | Instalo shkurtesën e aplikacionit (bookmark) për ta hyrë direkt nga ekrani i shtëpisë herën tjetër për një përvojë më të mirë! Ajo mezi merr ndonjë hapësirë në pajisjen tuaj por ju ndihmon të ktheheni në app shpejt.",
+          "cta": {
+            "action": "Instalo",
+            "skip": "Mbase më vonë"
+          }
+        },
+        "prompt": {
+          "heading": "Instalo shkurtesa Bazm?"
+        }
+      },
+      "webFeedback": {
+        "heading": "Si është përvoja jote deri tani?",
+        "text": "Të <p>pëlqen aplikacioni i ri? A ka ndonjë gjë që mund ta përmirësojmë? Ju lutem na ndihmoni me feedback-in tuaj për të përmirësuar përvojën për ju!</p> <p>Kjo do të merrte vetëm disa minuta dhe ne e vlerësojmë shumë kohën tuaj!</p>",
+        "cta": "Jep reagime",
+        "dismiss": "Mbase më vonë"
+      },
+      "advertise": {
+        "heading": "Reklamoni në Bazm",
+        "text": "<p>Të arrijnë miliona muslimanë shiitë në të gjithë botën me produktin tuaj në Bazm ose të angazhohen me markat dhe përdoruesit.</p> <p>Fillo për 1 dollarë në ditë!</p>",
+        "cta": "Mëso më shumë"
+      },
+      "upgradeSafari": {
+        "header": "Përvojë e kufizuar në Safari",
+        "description": "<strong>Ky shfletues (Safari) nuk është i optimizuar për përvojën më të mirë</strong>. Duke vazhduar të përdorni app tonë këtu, ju do të mungojnë në një numër të karakteristikave të tilla njoftimet e alarmit, pranë nga updates, mode offline dhe shumë më tepër.<br/> Ne ju rekomandojmë të merrni një nga shfletuesit e listuar më poshtë për një përvojë të përmirësuar. Kliko ndonjë nga butonat për të shkarkuar shfletuesin nga AppStore:",
+        "ctas": {
+          "getGoogle": "Merr Google Chrome",
+          "getFirefox": "Merr Mozilla Firefox",
+          "getOpera": "Merr Opera Touch",
+          "skip": "Mbase më vonë"
+        },
+        "toast": "S'ka problem. Deri herën tjetër!"
+      },
+      "cookieBanner": {
+        "firstPara": "Ne nuk ruajmë ndonjë cookies në {pajisjen tuaj} por aplikacionet e palëve të treta të përdorura në app-in tonë mund të (të tilla si, Google Analytics). Ne në vend të kësaj përdorim ruajtjen e përhershme për të ruajtur çdo të dhënë të rëndësishme, dhe në shumicën e rasteve, kjo është e enkriptuar në ruajtje dhe gjatë tranferit.",
+        "secondPara": "Duke vazhduar përdorimin e këtij aplikacioni, ju konfirmoni që nuk keni ndonjë problem me zgjedhjet tona. Për të gjetur më shumë rreth cookies dhe përdorimit të të dhënave tona, shihni <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+      }
+    }
+  }
+}

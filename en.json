@@ -37,7 +37,8 @@
       "send": "Send",
       "submit": "Submit",
       "share": "Share",
-      "at": "at"
+      "at": "at",
+      "untilNextTime": "No problem. Until nextTime!"
     },
     "errors": {
       "service": {
@@ -331,12 +332,9 @@
         "askQuesCta": "Ask your question"
       },
       "authPrompt": {
+        "title": "Account required",
         "defLabel": "Login or Signup to continue",
         "infoText": "This feature requires you to login or register before you could use it. Click <b>Login</b> if you are already registered, or click <b>Sign up</b> to create your account."
-      },
-      "cookieBanner": {
-        "firstPara": "We do not store any cookies on your {device} but third party apps used in our app might (such as, Google Analytics). We instead use permanent storage to store any important data, and in most cases, this is encrypted in storage and during tranfer.",
-        "secondPara": "By continuing to use this app, you hereby confirm that you don't have any issues with our choices. To find out more about our cookies and data use, see our <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
       },
       "location": {
         "title": "Change Location",
@@ -388,6 +386,34 @@
         "changePwd": "Change Password | Set Password",
         "changeLang": "Change Language",
         "publishToFeed": "Publish my changes to feed too."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalization",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Add my name to messages",
+          "sharingDesc": "When sharing externally, your messages may look like below:",
+          "sharingTextDemo": [
+            "Listen to this Nauha on Bazm App",
+            "{name} recommends listening to this Nauha on Bazm App"
+          ],
+          "addSignDesc": "Want to add your signature too?",
+          "addSignPlaceholder": "For example,\nWith best wishes,\n{name}",
+          "signDesc": "When you share your wish with friends on this app, your signature will be added to the messages. For example, it might appear as below:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Enter your existing password:",
+          "currentPwdPH": "Enter Current Password",
+          "newPwdLabel": "Enter a new password:",
+          "newPwdPH": "Enter New Password"
+        },
+        "changeLang": {
+          "searchYourLang": "Search your language",
+          "desc": "Choose the language in which you would like to see the app content. Click on a language and wait (it takes sometime to load the translation) to see how this phrase appears in selected language."
+        }
       }
     },
     "actions": {
@@ -430,8 +456,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Install Bazm on { platform }",
-          "desc": "Install our app for Android for a better experience! Get personalized experience, notifications and don't miss out on interesting things from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
+          "heading": "Install Bazm { platform }",
+          "desc": "Download Android app for a better experience, personalized content, notifications and everything of your interest from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
           "cta": {
             "action": "Install",
             "skip": "Maybe later"
@@ -462,6 +488,10 @@
           "skip": "Maybe later"
         },
         "toast": "No problem. Until next time!"
+      },
+      "cookieBanner": {
+        "firstPara": "We do not store any cookies on your {device} but third party apps used in our app might (such as, Google Analytics). We instead use permanent storage to store any important data, and in most cases, this is encrypted in storage and during tranfer.",
+        "secondPara": "By continuing to use this app, you hereby confirm that you don't have any issues with our choices. To find out more about our cookies and data use, see our <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
       }
     }
   }

@@ -1,0 +1,496 @@
+{
+  "af": {
+    "common": {
+      "refresh": "Trek om te verfris",
+      "refreshing": "Verfris...",
+      "loadingMore": "Laai meer...",
+      "dismiss": "Ontslaan",
+      "invite": "Nooi",
+      "showMore": "Wys meer| Sien meer",
+      "play": "Speel",
+      "pause": "Pouseer",
+      "playing": "Speel",
+      "paused": "Pouseer",
+      "watch": "Kyk",
+      "read": "Lees",
+      "authors": "Skrywer| Skrywers",
+      "languages": "Taal| Tale",
+      "clear": "Duidelik",
+      "cancel": "Kanselleer",
+      "change": "Verander",
+      "continue": "Voortgaan",
+      "select": "Kies",
+      "saveChanges": "Stoor veranderinge| Stoor | Werk by",
+      "newBadge": "Nuwe",
+      "login": "Aanteken",
+      "logout": "Logout",
+      "signup": "Teken in",
+      "settings": "Instellings",
+      "cookiePolicy": "Koekie beleid",
+      "privacy": "Privaatheid",
+      "contactUs": "Kontak ons",
+      "home": "Huis",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Jy",
+      "retry": "Probeer",
+      "send": "Stuur",
+      "submit": "Dien in",
+      "share": "Deel",
+      "at": "By",
+      "untilNextTime": "Geen probleem nie. Tot volgende keer!"
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Diens is op die oomblik nie beskikbaar nie. Probeer asseblief later weer.",
+        "unknown": "'n Onbekende fout het voorgekom. Probeer asseblief later weer."
+      },
+      "content": {
+        "unavailable": "Kon nie die inhoud op hierdie tydstip laai nie. Probeer asseblief 'n rukkie weer.",
+        "itemDetailUnavailable": "Kon nie besonderhede vir hierdie {item vind nie}",
+        "loadMoreError": "Kon nie meer items laai nie. Probeer asseblief later weer."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Huis"
+      },
+      "postDetail": {
+        "commonTitle": "Besonderhede",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Profielfoto",
+        "bannerUpdateTitle": "Voorbladbeeld (afgebaken)",
+        "statusUpdateTitle": "Statusopdatering"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Huis"
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "books": "Boeke"
+        },
+        "inviteFriends": "nooi jou vriende uit",
+        "notShia": "Nie Shia nie?",
+        "contacts": {
+          "accessRequestHeader": "Kontakte Toegang vereis",
+          "accessRequestDesc": "Ons benodig u kontakte se toegang om Shia-mense in u telefoonboek voor te stel om na hierdie app uit te nooi."
+        },
+        "audio": "Oudio",
+        "video": "Video",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Wens jou vriende toe!",
+          "wishCtaLabel": "WENS"
+        },
+        "books": {
+          "booksByAuthor": "Boeke deur {author}",
+          "booksInLang": "Books in {lang}",
+          "filterBy": "Filter deur:",
+          "matching": {
+            "authors": "met skrywers wat ooreenstem met",
+            "lang": "met tale wat ooreenstem met",
+            "title": "met titel wat ooreenstem"
+          }
+        },
+        "booksFilter": {
+          "title": "Vind boek deur skrywer",
+          "searchBox": "Soek skrywer volgens naam",
+          "selectLang": "Kies 'n taal:"
+        },
+        "bookDetails": {
+          "title": "{titel} — Vind meer gratis boeke soos hierdie op Bazm",
+          "aboutBook": "Oor boek:"
+        }
+      },
+      "tools": {
+        "name": "Gereedskap",
+        "salatAlarmDesc": "Stel alarms vir Azaan volgens jou plaaslike tye",
+        "sehriAlarmDesc": "Stel alarm vir Sehri, of kry selfs 'n wekroep op jou nommer voor Sehri!",
+        "sehriAlarmOptionDisabled": "Alarms vir Sheri-tyd gedurende die maand Ramadan (slegs beskikbaar tydens Ramadan)",
+        "tasbeehCounterDesc": "Recite Duas, Quran en Tasbeeh op herhaal af maklik met Audio Tasbeeh toonbank",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Soek en vra vrae of vind antwoorde op masle-masayel uit jou daaglikse lewe oor sake van Islam.",
+        "alarms": {
+          "salatAlarms": "Salat Alarms | Daaglikse Salat Alarms",
+          "sehriAlarms": "Ramadan Sehri Alarms",
+          "gettingLocation": "Kry jou ligging. Wag asseblief...",
+          "settingsTip": "Verander <b>Ligging</b> en voorkeure in Alarminstellings. Klik Instellings-ikoon om te begin.",
+          "setAlarmHeader": "Stel daaglikse alarms",
+          "imsakLabel": "Imsak",
+          "sehriEndTime": "Tyd vir die einde van Sehri",
+          "minToImsak": "{min} mins voor Imsak | {hour} hour before Imsak",
+          "minToImsakDesc": "Alarm ringe {min} minute voor die einde van Sehri tyd | Alarm ringe {min} uur voor die einde van Sehri tyd",
+          "notRamadan": "Dit lyk asof dit nog nie Ramadan is nie. Kom asseblief terug tydens of net voor die Ramadan om die Alarms vir Sehri te stel",
+          "push": {
+            "heading": "Kennisgewing toegang vereis",
+            "desc_request": "Die alarm werk deur stootkennisgewings op aangewese tye te stuur. Sonder toegang tot druk, sal die program nie op die verwagte manier werk nie. Laat asseblief toegang tot u stootkennisgewing toe sodat ons u op alarmtye kan inlig.",
+            "desc_denied": "<strong>Jy het vroeër kennisgewingtoegang geweier.</strong> Dit is nodig vir stootkennisgewings om behoorlik te werk. Ons stuur kennisgewings op alarmtyd.<br/> Laat asseblief toegang toe om kennisgewings te druk deur op die knoppie te klik.",
+            "cta": "Laat",
+            "toast_granted": "Dankie! U sal nou op alarmtye in kennis gestel word.",
+            "toast_denied": "Kennisgewingversoek geweier. Laat asseblief die toegang vir die program toe om behoorlik te werk.",
+            "toast_prompt": "Jy moet kennisgewingtoegang toelaat om alarms te stel."
+          }
+        },
+        "alarmSetting": {
+          "title": "Alarminstellings",
+          "locationTitle": "Vind stad vir alarm tydsberekeninge",
+          "forLocation": "Alarm vir ligging",
+          "calcMethod": "Berekeningsmetode",
+          "selectAdhanSound": "Kies Adhan-klank",
+          "selectAlarmSound": "Kies Alarmklank",
+          "alarmSoundDesc": "Klank vir nie-salat tye"
+        },
+        "qna": {
+          "title": "Vraag-antwoord",
+          "qnaSource": "Bron",
+          "seeAnswer": "Sien antwoord",
+          "noAnswer": "Geen antwoord nie"
+        },
+        "qnaDetail": {
+          "title": "Vind antwoorde vir: "
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh Toonbank"
+        }
+      },
+      "user": {
+        "name": "Gebruiker| Rekening",
+        "editProfile": "Redigeer profiel",
+        "publishToFeed": "Publiseer my veranderinge om te voed",
+        "shareUpdateToFeed": "Deel ook hierdie opdatering aan my voer",
+        "statusText_ph": "Gebruik _italics_ of *bold* formatering om jou status te versier",
+        "statusCharsLeft": "{count} karakters links",
+        "unauthAccess": {
+          "heading": "Is jy seker jy is op die regte plek?",
+          "desc": "<p>Dit lyk asof u probeer het om toegang tot 'n bladsy te verkry waarvoor u nie toestemming gehad het nie. As jy probeer het om toegang te verkry tot 'n bladsy wat jy voorheen verkry het, probeer om aan te meld; Dit moet die probleem oplos.</p> <p>Voel asseblief vry om ons te kontak as die probleem voortduur.</p>"
+        },
+        "guest": {
+          "welcome": "Welkom, <strong>Gas!</strong>",
+          "heading": "Waarom aanmeld of registreer?",
+          "desc": "Met 'n rekening op ons app kan u 'n aantal funksies gebruik. Begin deur 'n rekening te skep, as jy nie reeds 'n rekening het nie. Of, teken net aan!",
+          "unlockHeading": "ontsluit volgende met 'n rekening:",
+          "features": {
+            "engage": {
+              "heading": "Betrek op program",
+              "desc": "Betrek met ander gebruikers, reageer op hul plasings of versoeke, lewer kommentaar op u mening, boekmerk u items, en soveel meer!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha Versoek",
+              "desc": "Post versoek vir Surah-e-Fatiha vir die siele van jou vertrek geliefdes en kry hul siele geseënd met gebede van al ons gebruikers!"
+            },
+            "askQues": {
+              "heading": "Vra vrae",
+              "desc": "Vra vrae van Deen & Duniya oor verskeie onderwerpe wat beantwoord moet word deur sy vooraanstaande, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "voorkeur inhoud",
+              "desc": "Sien altyd jou voorkeurinhoud en -instellings wanneer jy by jou rekening aangemeld is. Word ook in kennis gestel vir al die interessante dinge!"
+            },
+            "personalized": {
+              "heading": "gepersonaliseerde deling",
+              "desc": "Stel deelinhoud gepersonaliseer met jou handtekening sodat jou vriende weet wanneer jy 'n boodskap / pos deel."
+            }
+          }
+        },
+        "about": {
+          "title": "Oor"
+        },
+        "posts": {
+          "title": "Poste",
+          "userNoPosts": "Wanneer jy jou prentjie / omslagbeeld verander, of wanneer jy vir surah-fatiha vir jou geliefdes versoek, sal hierdie plasings hier en in <b>Home-oortjie</b> (van ander ook) verskyn. Probeer om 'n prent of omslagbeeld by te voeg?",
+          "profileNoPosts": "{name} het nog geen plasings gemaak nie."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} het nog nie marhumeen bygevoeg nie —- Jy het nog nie marhumeen bygevoeg nie",
+            "marhumeenAdded": "{name} het bygevoeg na aanleiding van marhumeen -- Jy het bygevoeg na aanleiding van marhumeen"
+          }
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Teken aan op jou rekening",
+        "createAccount": "Skep 'n rekening"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Volgende stap",
+        "goBack": "Gaan terug",
+        "confirm": "Bevestig"
+      },
+      "createPost": {
+        "heading": "Waaroor gaan dit vandag?",
+        "desc": "Klik hier om 'n bywerking te deel of 'n opsie van onder af te gebruik",
+        "request": "Versoek",
+        "askQues": "Vra vraag",
+        "modal": {
+          "titles": {
+            "post": "Skep Pos -— Werk Pos by",
+            "livestream": "Livestream",
+            "hadiyah": "Skep Hadiyah -— Update Hadiyah"
+          },
+          "postCta": "Pos| Werk by",
+          "stream": {
+            "scheduleCta": "Stoor vir later -- Begin streaming"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Aan wie wil jy dit gee?",
+              "addPeopleToggle": "Laat ander ook deel wees van hierdie saagab!",
+              "searchInput": "Nooi momimeen uit Bazm of jou Kontaklys",
+              "minUsersHeader": "Wil u 'n minimum getal instel wat deelnemers moet kies?",
+              "minUsersInput": "Voer minimum nommer in"
+            }
+          },
+          "postTime": "Wanneer is dit? | Wanneer wil jy begin stroom?",
+          "whereIsIt": "Waar is dit?",
+          "findLocation": "Vind ligging",
+          "locationSubtext": "Voeg ligging by jou pos",
+          "addLocation": "Voeg ligging by",
+          "addPics": "Voeg foto's by jou plasing",
+          "previewDes": "Dit is hoe u pos in voer van ander mense sal verskyn. Mense kan op die video tik om dit op die volle skerm te sien.",
+          "addToPost": "Voeg by {postType} (opsioneel)"
+        }
+      },
+      "comments": {
+        "name": "Kommentaar",
+        "loadPrevious": "Laai vorige kommentaar -— Laai vorige antwoorde",
+        "replyingTo": "Antwoord op:",
+        "noComments": "Geen kommentaar op hierdie pos nog nie",
+        "textboxPlaceholder": "Skryf jou kommentaar hier",
+        "requestToLogin": "Teken aan of teken aan om bespreking te begin"
+      },
+      "post": {
+        "dateUntil": "Totdat: {date} at {time}"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Versoek Surah-al-fatiha",
+          "addUpdate": "Werk geliefde by - Voeg geliefde by"
+        },
+        "heading": "Voeg 'n geliefde by wat geslaag het -- Kies 'n geliefde uit die lys of voeg 'n geliefde by wat geslaag het",
+        "addNew": "Voeg nuwe by",
+        "subheader": "Voeg besonderhede van jou geliefde by| Jy kan ook 'n boodskap in jou versoek insluit",
+        "form": {
+          "fullName": "Volle naam van oorledene",
+          "name_ph": "E.g., Syed Zeeshan Haider Abidi",
+          "fathersName": "Vader se naam (Indien beskikbaar)",
+          "father_ph": "E.g., Syed Tauqeer Husain",
+          "male": "Manlike",
+          "female": "Vroulike",
+          "relation": "Jou verhouding met haar | Jou verhouding met hom",
+          "demiseLabel": "Vandag se ondergang? Request Namaz-e-Wahshat",
+          "demiseText": "Ons is jammer om te hoor van jou verlies. Mag Allah jou en jou familie die krag gee om hierdie verlies met geduld te dra en mag Allah die verwoeste siel beloon met die hoogste plekke in Jannah. As u hierdie opsie kies, kan u momineen vir Namaz-e-Wahshat vra vir die verlate siel.",
+          "optional": "Opsioneel",
+          "dod": "Oorlede op",
+          "dob": "Gebore op"
+        },
+        "relation": "Dogter van — Seun van",
+        "born": "Gebore:",
+        "died": "Dood:",
+        "addMsg": "Wil jy 'n boodskap byvoeg?",
+        "remainingChars": "Karakters: {count} | Karakters: {count} oorblywende",
+        "infoEditRelative": "Jy kan besonderhede vir {name} in jou <b>Rekening > Siele-afdeling</b> wysig",
+        "saveRequestCta": "Stoor en versoek | Versoek",
+        "addUpdate": "Voeg by | Werk by"
+      },
+      "askQues": {
+        "title": "Vra 'n vraag",
+        "form": {
+          "quesLabel": "Jou vraag",
+          "quesLabel_ph": "Soek 'n vraag of vra jou eie",
+          "similarQues": "Hierdie vrae kan reeds die antwoord hê waarna u soek.",
+          "quesTextHeader": "Jou vraag:",
+          "selectCat": "Stel vraagkategorie:",
+          "askAnonLabel": "Vra anoniem?",
+          "askAnonInfo": "Jou naam sal nie aan die Geleerde gestuur word wanneer jy 'n antwoord namens jou versoek nie, en dit sal ook nie met hierdie vraag oor ons program vertoon word nie. Maar anonieme vrae sal dalk nie vinnig beantwoord word nie.",
+          "askViaLabel": "Vra via",
+          "askSistaniInfo": "Jy kan 'n vraag vra wat beantwoord moet word deur die kantoor van sy vooraanstaande, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Ons sal die vraag na hul webwerf stuur (saam met u profielinligting). Maak seker dat u die <b>bepalings en voorwaardes</b> behoorlik gelees het.",
+          "tncLabel": "Bepalings en voorwaardes:",
+          "showHide": "Wys| Versteek",
+          "sistaniOrgTncInfo": "Oorweeg dit om punte van hul webwerf te volg voordat u 'n vraag vra, want as u nie aan die onderstaande punte voldoen nie, hoor u moontlik nie van hulle nie, of mag u geen antwoorde ontvang nie.",
+          "userInfo": {
+            "aboutLabel": "Oor jou",
+            "genderLabel": "Jou geslag",
+            "bdayLabel": "Jou verjaarsdag"
+          }
+        },
+        "askQuesCta": "Vra jou vraag"
+      },
+      "authPrompt": {
+        "title": "Rekening vereis",
+        "defLabel": "Teken aan of teken aan om voort te gaan",
+        "infoText": "Hierdie funksie vereis dat jy aanteken of registreer voordat jy dit kan gebruik. Klik <b>Teken aan</b> as jy reeds geregistreer is, of klik <b>Teken aan</b> om jou rekening te skep."
+      },
+      "location": {
+        "title": "Verander Ligging",
+        "search_ph": "Deursoek jou ligging",
+        "autoDetectInfo": "Voer jou ligging in of klik op die outo-opsporingsikoon om jou ligging te kry."
+      },
+      "readText": {
+        "ctaLabel": "Lees",
+        "title": "Dua: {title}",
+        "arabicCta": "Arabies",
+        "englishCta": "Engels",
+        "translatedCta": "Is vertaal"
+      },
+      "reqAccess": {
+        "heading": "toegang benodig",
+        "subheading": "Ons het toestemming nodig om toegang tot jou kamera te kry",
+        "subtext": "Laat asseblief die toegang toe deur op die knoppie hieronder te klik:",
+        "ctaLabel": "laat toegang toe"
+      },
+      "shareBtn": {
+        "subtext": "Klik op een van die onderstaande opsies om dit op die onderskeie app te deel:",
+        "copyText": "Klik {icon} ikoon om onder inhoud te kopieer:"
+      },
+      "verifyMob": {
+        "title": "Verifieer Mobiele -— Voer die kode in",
+        "page1": {
+          "infoText1": "Ons het jou selfoonnommer nodig om jou identiteit te verifieer. U kan ook af en toe opdaterings kry.",
+          "infoText2": "Voer jou nommer in en klik op die knoppie om jou bevestigingskode te kry: -- Voer jou nommer in en klik op 'n knoppie om jou bevestigingskode te kry:"
+        },
+        "form": {
+          "mobileLabel": "Mobiele nommer",
+          "mobileLabel_ph": "Voer jou selfoonnommer in",
+          "otpViaSMS": "Kry via SMS",
+          "viaWhatsApp": "Kry via WhatsApp",
+          "viaTelegram": "Kry via Telegram",
+          "viaSignal": "Kry via Sein"
+        },
+        "page2": {
+          "header": "Ons het 'n 6-syfer bevestigingskode na jou nommer gestuur ({number})",
+          "enterCodeLabel": "Voer kode in",
+          "enterCode_ph": "Voer die 6-syferkode in",
+          "resendCode": "Resend Kode",
+          "notUsingMobile": "Nie die gebruik van <strong>{number}?</strong>",
+          "changeNumber": "Verander nommer"
+        }
+      },
+      "userSettings": {
+        "personalSharingMsg": "Verpersoonlik deelboodskap",
+        "changePwd": "Verander wagwoord | Stel wagwoord in",
+        "changeLang": "Verander taal",
+        "publishToFeed": "Publiseer my veranderinge om ook te voed."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Verpersoonliking",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Voeg my naam by boodskappe",
+          "sharingDesc": "Wanneer jy ekstern deel, kan jou boodskappe hieronder lyk:",
+          "sharingTextDemo": {
+            "0": "Luister na hierdie Nauha op Bazm App",
+            "1": "{name} beveel aan om na hierdie Nauha op Bazm App te luister"
+          },
+          "addSignDesc": "Wil jy ook jou handtekening byvoeg?",
+          "signDesc": "Wanneer jy jou wens met vriende op hierdie program deel, sal jou handtekening by die boodskappe gevoeg word. Byvoorbeeld, dit kan soos hieronder verskyn:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Voer jou bestaande wagwoord in:",
+          "currentPwdPH": "Voer huidige wagwoord in",
+          "newPwdLabel": "Voer 'n nuwe wagwoord in:",
+          "newPwdPH": "Voer nuwe wagwoord in"
+        },
+        "changeLang": {
+          "searchYourLang": "Deursoek jou taal",
+          "desc": "Kies die taal waarin jy die programinhoud wil sien. Klik op 'n taal en wag (dit neem iewers om die vertaling te laai) om te sien hoe hierdie frase in geselekteerde taal verskyn."
+        }
+      }
+    },
+    "actions": {
+      "cancel": "Kanselleer",
+      "notify": "Stel",
+      "like": "Soos",
+      "recited": "Opgesê",
+      "comment": "Kommentaar",
+      "reply": "Antwoord",
+      "bookmark": "Boekmerk",
+      "audienceHeader": "Momineen wat {action}d | Momineen wat {action}d this"
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Jou naam",
+          "placeholder": "Tik jou volle naam in"
+        },
+        "email": {
+          "label": "E-pos",
+          "placeholder": "Geregistreerde e-pos - Voer jou e-pos in"
+        },
+        "password": {
+          "label": "Wagwoord",
+          "placeholder": "Jou wagwoord | Voer 'n wagwoord in"
+        },
+        "rememberLogin": "Onthou aanmelding",
+        "forgotPwd": "Wagwoord vergeet?",
+        "connectUsing": "Of verbind met behulp van",
+        "useSavedAccount": "Gebruik gestoorde rekeninge",
+        "lastLogin": "Laaste aanmelding",
+        "needAccount": "Het jy 'n rekening nodig?"
+      },
+      "gotoSignup": "Goto teken in",
+      "alreadyHasAccount": "Het alreeds 'n rekening?",
+      "gotoLogin": "Goto-aanmelding",
+      "gotoProfile": "Goto Profiel",
+      "msgForAuthUser": "<p>Ons dink jy het per ongeluk hier geland, aangesien jy reeds aangemeld is.</p> <p>U kan u profiel nagaan om te sien hoe dit lyk, of een van die onderstaande skakels gebruik om deur ander afdelings te blaai:</p>"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Installeer Bazm { platform }",
+          "desc": "Laai Android -app af vir 'n beter ervaring, persoonlike inhoud, kennisgewings en alles van u belangstelling van regoor u! -— Installeer programkortpad (boekmerk) om volgende keer direk vanaf jou tuisskerm toegang daartoe te verkry vir 'n beter ervaring! Dit neem skaars enige spasie op u toestel, maar help u om vinnig weer op die app te kom.",
+          "cta": {
+            "action": "Installeer",
+            "skip": "Miskien later"
+          }
+        },
+        "prompt": {
+          "heading": "Installeer Bazm-kortpad?"
+        }
+      },
+      "webFeedback": {
+        "heading": "Hoe lyk jou ervaring tot dusver?",
+        "text": "<p>Hou jy van die nuwe app? Is daar iets wat ons kan verbeter? Help ons asseblief met u terugvoer om die ervaring vir u te verbeter!</p> <p>Dit sal net 'n paar minute neem, en ons waardeer jou tyd baie!</p>",
+        "cta": "Gee terugvoer",
+        "dismiss": "Miskien later"
+      },
+      "advertise": {
+        "heading": "Adverteer op Bazm",
+        "text": "<p>Bereik miljoene Shia Moslems regoor die wêreld met jou produk op Bazm of betrokke te raak met handelsmerke en gebruikers.</p> <p>Begin vir so laag as $ 1 per dag!</p>",
+        "cta": "Leer meer"
+      },
+      "upgradeSafari": {
+        "header": "Beperkte ervaring op Safari",
+        "description": "<strong>Hierdie blaaier (Safari) is nie geoptimaliseer vir die beste ervaring nie</strong>. Deur voort te gaan om ons app hier te gebruik, sal u 'n aantal funksies soos waarskuwingskennisgewings misloop, naby deur opdaterings, aflynmodus en soveel meer.<br/> Ons beveel aan dat u een van die onderstaande blaaiers kry vir 'n verbeterde ervaring. Klik op enige van die knoppies om die blaaier van AppStore af te laai:",
+        "ctas": {
+          "getGoogle": "Kry Google Chrome",
+          "getFirefox": "Kry Mozilla Firefox",
+          "getOpera": "Kry Opera Touch",
+          "skip": "Miskien later"
+        },
+        "toast": "Geen probleem nie. Tot volgende keer!"
+      },
+      "cookieBanner": {
+        "firstPara": "Ons stoor geen koekies op jou {toestel nie, maar derdeparty-programme wat in ons program gebruik word, kan (soos Google Analytics). Ons gebruik eerder permanente berging om enige belangrike data te stoor, en in die meeste gevalle word dit geïnkripteer in berging en tydens tranfer.",
+        "secondPara": "Deur voort te gaan om hierdie app te gebruik, bevestig u hiermee dat u geen probleme met ons keuses het nie. Om meer uit te vind oor ons koekies en datagebruik, sien ons <a href='https://bazm.in/privacy-policy' teiken='_blank'>Privacy Policy.</a>"
+      }
+    }
+  }
+}

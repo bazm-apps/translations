@@ -1,0 +1,495 @@
+{
+  "eu": {
+    "common": {
+      "refresh": "Bota gaurkotzeko",
+      "refreshing": "Freskagarria...",
+      "loadingMore": "Gehiago kargatzen...",
+      "dismiss": "Agur esan",
+      "invite": "Gonbidapena",
+      "showMore": "Gehiago erakutsi | Gehiago ikusi",
+      "play": "Jolastu",
+      "pause": "Pausa",
+      "playing": "Jolasean",
+      "paused": "Pausa",
+      "watch": "Erloju",
+      "read": "Irakurri",
+      "authors": "Egilea | Egileak",
+      "languages": "Hizkuntza | Hizkuntzak",
+      "clear": "Argi",
+      "cancel": "Ezeztatu",
+      "change": "Aldaketa",
+      "continue": "Jarraitu",
+      "select": "Aukeratu",
+      "saveChanges": "Guardar cambios | Guardar | Eguneratzea",
+      "newBadge": "Berri",
+      "login": "Saioa hasi",
+      "logout": "Saioa itxi",
+      "signup": "Egin bat",
+      "settings": "Konfigurazioa",
+      "cookiePolicy": "Cookieen politika",
+      "privacy": "Pribatutasuna",
+      "contactUs": "Jarri gurekin harremanetan",
+      "home": "Etxea",
+      "facebook": "Facebook (ingelesez",
+      "google": "Google (ingelesez",
+      "you": "Zu",
+      "retry": "Reintentatu",
+      "send": "Bidali",
+      "submit": "Bidali",
+      "share": "Partekatu",
+      "at": "Ez arazorik. Hurrengora arte!",
+      "untilNextTime": "Zerbitzua ez eskuragarri une honetan. Saia zaitez berriro geroago."
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Akats ezezagun bat gertatu da. Saia zaitez berriro geroago.",
+        "unknown": "Ezin izan zen edukia kargatu une honetan. Saia zaitez berriro une batean."
+      },
+      "content": {
+        "unavailable": "Ezin izan zen xehetasunik aurkitu elementu honi buruz.",
+        "itemDetailUnavailable": "Akatsa elementu gehiago kargatzean. Saia zaitez berriro geroago.",
+        "loadMoreError": "Etxea"
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Etxea"
+      },
+      "postDetail": {
+        "commonTitle": "Surah-fatiha",
+        "fatihaTitle": "Surah-fatiha eta Namaz-e-Wahshat",
+        "fatihaWithNamaz": "Profileko argazkia",
+        "avatarUpdateTitle": "Portadaren irudia (obsoleta)",
+        "bannerUpdateTitle": "Egoera eguneratzea",
+        "statusUpdateTitle": "Etxea"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Etxea"
+      },
+      "media": {
+        "name": "Nauhe",
+        "boxLabels": {
+          "nauhe": "Majalis",
+          "majalis": "Soaz",
+          "soaz": "Ziyaraat",
+          "ziyarat": "Duak",
+          "dua": "Munajaat",
+          "munajat": "Liburuak",
+          "books": "gonbida itz zure lagunak"
+        },
+        "inviteFriends": "Ez al zara xiita?",
+        "notShia": "Kontaktuak Behar den sarbidea",
+        "contacts": {
+          "accessRequestHeader": "Beren kontaktuetarako sarbidea eskatzen dugu, xiitak beren telefono agendan aplikazio honetara gonbidatzeko iradokitzeko.",
+          "accessRequestDesc": "Audioa"
+        },
+        "audio": "Bideoa",
+        "video": "Hijri",
+        "hijri": "Desio diet zure lagunei!",
+        "duaHome": {
+          "wishCtaText": "NAHI",
+          "wishCtaLabel": "{autorearen liburuak}"
+        },
+        "books": {
+          "booksByAuthor": "Liburuak {lang}",
+          "booksInLang": "Filtratu:",
+          "filterBy": "bat datozen egileekin",
+          "matching": {
+            "authors": "hizkuntza kointzidenteekin",
+            "lang": "titulu-kointzidentziarekin",
+            "title": "Liburua bilatu egile bakoitzeko"
+          }
+        },
+        "booksFilter": {
+          "title": "Egilea izenaren arabera bilatu",
+          "searchBox": "Aukeratu hizkuntza bat:",
+          "selectLang": "{title} — Doako liburu gehiago aurkitu ditu Bazmen"
+        },
+        "bookDetails": {
+          "title": "Liburuari buruz:",
+          "aboutBook": "Erremintak"
+        }
+      },
+      "tools": {
+        "name": "Alarmak piztu Azaanentzat, bertako ordutegien arabera",
+        "salatAlarmDesc": "Alarma Sehrirentzat, edo jaso ezazu zure zenbakian Sehri baino lehen arreta-dei bat!",
+        "sehriAlarmDesc": "Sheriren denborarako alarmak Ramadanen (Ramadanen bakarrik eskuragarri)",
+        "sehriAlarmOptionDisabled": "Duas, Corán eta Tasbeeh errezitatu, Audio Tasbeeh-ko kontagailuarekin erraz errepikatzeko moduan",
+        "tasbeehCounterDesc": "QnA (Masle-Masayel)",
+        "qnaLabel": "Bilatu eta egin galderak edo aurkitu bere eguneroko bizitzako masle-masayel-ari islamaren gaiei buruz.",
+        "qnaDesc": "Alarmas Salat | Alarmas Salat diarias",
+        "alarms": {
+          "salatAlarms": "Alarmak Sehri",
+          "sehriAlarms": "Kokapena lortzea. Itxaron...",
+          "gettingLocation": "Alarmak konfiguratzeko <b>kokapena</b> eta lehentasunak aldatu. Klik egin Konfigurazio ikonoan hasteko.",
+          "settingsTip": "Eguneroko alarmak konfiguratu",
+          "setAlarmHeader": "Imsak",
+          "imsakLabel": "Sehri bukatzeko ordua",
+          "sehriEndTime": "Imsak | {hora} Imsak baino ordu bat lehenago",
+          "minToImsak": "Alarma -alarma -ordua amaitu baino minutu batzuk lehenago | Alarma -alarma -ordua amaitu baino ordu batzuk lehenago",
+          "minToImsakDesc": "Badirudi oraindik ez dela Ramadan. Mesedez, itzuli Ramadanaren aurretik edo bertan, Sehrirentzat alarmak konfiguratzeko",
+          "notRamadan": "Jakinarazpenak eskuratu behar dira",
+          "push": {
+            "heading": "Alarmak push jakinarazpenak bidaltzen ditu izendatutako orduetan. Push-era sartu gabe, aplikazioak ez du espero bezala funtzionatuko. Mesedez, baimena eman zure jakinarazpen push-era, alarma-egoeran jakinarazi ahal izateko.",
+            "desc_request": "<strong>Aurretik jakinarazpenak egiteko aukera ukatu du.</strong> Beharrezkoa da push jakinarazpenek behar bezala funtziona dezaten. Jakinarazpenak bidaltzen ditugu alarma-orduan.<br/> Mesedez, aukera eman push jakinarazpenetara sartzeko botoian klik eginez.",
+            "desc_denied": "Eman",
+            "cta": "Eskerrik asko! Orain, alarma-egoerak jakinaraziko dio.",
+            "toast_granted": "Ukatutako jakinarazpen-eskaera. Aplikaziorako sarbideak behar bezala funtziona dezan.",
+            "toast_denied": "Jakinarazpenetara sartzeko aukera eman behar du, alarmak konfiguratzeko.",
+            "toast_prompt": "Alarma-konfigurazioa"
+          }
+        },
+        "alarmSetting": {
+          "title": "Alarma-ordutegietarako hiria aurkitu",
+          "locationTitle": "Kokapenerako alarma",
+          "forLocation": "Kalkulu-metodoa",
+          "calcMethod": "Adhanen soinua hautatu",
+          "selectAdhanSound": "Hautatu Alarma-soinua",
+          "selectAlarmSound": "Salat gabeko garaietarako soinua",
+          "alarmSoundDesc": "Galdera-Erantzuna"
+        },
+        "qna": {
+          "title": "Iturria",
+          "qnaSource": "Ikusi erantzuna",
+          "seeAnswer": "Erantzunik gabe",
+          "noAnswer": "Aurkitu erantzunak: "
+        },
+        "qnaDetail": {
+          "title": "Contador Tasbeeh"
+        },
+        "tasbeehCounter": {
+          "title": "Erabiltzailea | Kontua"
+        }
+      },
+      "user": {
+        "name": "Profila editatu",
+        "editProfile": "Nire aldaketak feed-ean argitaratzea",
+        "publishToFeed": "Eguneratze hau nire feed-ean ere partekatzea",
+        "shareUpdateToFeed": "Erabili _italics_ o *bold* formatua zure egoera apaintzeko",
+        "statusText_ph": "{count} karaktereak ezkerrean",
+        "statusCharsLeft": "Ziur al zaude leku egokian zaudela?",
+        "unauthAccess": {
+          "heading": "<p>Baimenik ez zenuen orrialde batera sartzen saiatzen ari zinela dirudi. Aurretik sartu den orrialde batera sartzen saiatzen ari banengo, saia zaitez saioa hasi; horrek arazoa konpondu beharko luke.</p> <p>Mesedez, ez jarri zalantzarik gurekin harremanetan, arazoak irauten badu.</p>",
+          "desc": "Ongi etorri, <strong>gonbidatua!</strong>"
+        },
+        "guest": {
+          "welcome": "Zergatik hasi saioa edo erregistratu?",
+          "heading": "Gure aplikazioan kontu bat jarrita, funtzio batzuk erabil ditzakezu. Kontu bat sortzen hasten da, oraindik konturik ez badu. Edo, besterik gabe, hasi saioa!",
+          "desc": "kontu batekin desblokeatu:",
+          "unlockHeading": "Aplikazioan parte hartzea",
+          "features": {
+            "engage": {
+              "heading": "Beste erabiltzaile batzuekin hitz egin, bere argitalpen edo eskaerei erantzun, bere iritzia eman, artikuluak markatu eta askoz gehiago!",
+              "desc": "Fatiharen ondorengo eskaera"
+            },
+            "fatiha": {
+              "heading": "Argitara ezazu Surah-e-Fatiharen eskaria bere hildakoen arimentzat, eta bedeinka ditzala bere arimak gure erabiltzaile guztien otoitzekin!",
+              "desc": "Galderak egin"
+            },
+            "askQues": {
+              "heading": "Egin galderak Deen & Duniyaren inguruan, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistaniren gorentasunagatik erantzungo diren hainbat gairi buruz!",
+              "desc": "eduki gogokoena"
+            },
+            "content": {
+              "heading": "Beti ikusten ditu bere edukia eta konfigurazio gogokoena, bere kontuan saioa hasi duenean. Gainera, gauza interesgarri guztien jakinarazpenak jasotzen ditu!",
+              "desc": "erabilera partekatu pertsonalizatua"
+            },
+            "personalized": {
+              "heading": "Konfiguratu edukia zure sinadurarekin pertsonalizatuta partekatzeko, zure lagunek jakin dezaten noiz partekatzen duzun mezu/ argitalpen bat.",
+              "desc": "Zerbaiti buruz"
+            }
+          }
+        },
+        "about": {
+          "title": "Mezuak"
+        },
+        "posts": {
+          "title": "Bere argazkia / azaleko irudia aldatzen duenean, edo hildako maiteentzat surah-fatiha eskatzen duenean, argitalpen hauek hemen eta <b>hasierako betilean</b> agertuko dira (beste batzuenak ere bai). Saiatuko al zara azaleko irudi bat edo irudi bat gehitzen?",
+          "userNoPosts": "Oraindik ez du argitalpenik egin.",
+          "profileNoPosts": "Marhumeen"
+        },
+        "marhumeen": {
+          "title": "Oraindik ez da marhumeen | Oraindik ez duzu erantsi",
+          "header": {
+            "marhumeenNotAdded": "Hurrengo marhumeen | Hurrengo marhumeen-a gehitu du.",
+            "marhumeenAdded": "Saioa hasi zure kontuan"
+          }
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Kontu bat sortzea",
+        "createAccount": "Hurrengo urratsa"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Itzuli",
+        "goBack": "Baieztatu",
+        "confirm": "Zer da gaur?"
+      },
+      "createPost": {
+        "heading": "Klik egin hemen eguneratze bat partekatzeko edo beheko aukera bat erabili",
+        "desc": "Eskatu",
+        "request": "Galdera egin",
+        "askQues": "Argitalpena sortzea | Argitalpena eguneratzea",
+        "modal": {
+          "titles": {
+            "post": "Zuzeneko transmisioa",
+            "livestream": "Crear Hadiyah | Hadiyah eguneratzea",
+            "hadiyah": "Post | Eguneratzea"
+          },
+          "postCta": "Gorde beranduago | Streaminga hasi",
+          "stream": {
+            "scheduleCta": "Nori oparitu nahi diozu hau?"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Utzi beste batzuk sawab honen parte izan daitezen!",
+              "addPeopleToggle": "Gonbidatu Bazm edo zure kontaktuen zerrendako momimeen-era",
+              "searchInput": "Parte-hartzaileek aukeratu behar duten gutxieneko kopurua ezarri nahi duzu?",
+              "minUsersHeader": "Sartu gutxieneko zenbakia",
+              "minUsersInput": "Noiz da? —Noiz hasi nahi duzu transmititzen?"
+            }
+          },
+          "postTime": "Non?",
+          "whereIsIt": "Kokapena bilatu",
+          "findLocation": "Kokapena gehitu zure argitalpenari",
+          "locationSubtext": "Kokapena gehitu",
+          "addLocation": "Gehitu irudiak zure argitalpenari",
+          "addPics": "Horrela, bere argitalpena beste pertsona batzuen feed-ean agertuko litzateke. Pertsonek bideoa jo dezakete pantaila osoan ikusteko.",
+          "previewDes": "Gaineratu {postType} (aukeran)",
+          "addToPost": "Iruzkinak"
+        }
+      },
+      "comments": {
+        "name": "Aurreko iruzkinak kargatzea | Aurreko erantzunak kargatzea",
+        "loadPrevious": "Honi erantzunez:",
+        "replyingTo": "Oraindik ez iruzkinik post honetan",
+        "noComments": "Idatzi zure iruzkina hemen",
+        "textboxPlaceholder": "Saioa hasi edo erregistratu eztabaida hasteko",
+        "requestToLogin": "Noiz arte: {data} {orduan}"
+      },
+      "post": {
+        "dateUntil": "Surah-al-fatiha eskatu"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Pertsona maitatu bat eguneratzea | Pertsona maitatu bat eranste",
+          "addUpdate": "Gaineratu hil den pertsona maitatu bat | zerrendako pertsona maitatu bat hautatu edo hil den pertsona maitatu bati eraso"
+        },
+        "heading": "Gehitu berria",
+        "addNew": "Gaineratu zure nahiaren xehetasunak | mezu bat ere sar dezakezu zure eskaeran",
+        "subheader": "Hildakoaren izen osoa",
+        "form": {
+          "fullName": "Adibidez, Syed Zeeshan Haider Abidi",
+          "name_ph": "Aitaren izena (eskuragarri badago)",
+          "fathersName": "Adibidez, Syed Tauqeer Husain",
+          "father_ph": "Gizonezko",
+          "male": "Emea",
+          "female": "Berarekin duzun harremana | Zure harremana harekin—.",
+          "relation": "Desagertua gaur? Namaz-e-Wahshat eskatu",
+          "demiseLabel": "Asko sentitzen dugu haren galeraz jakin izana. Allahk zuri eta zure familiari indarra eman diezaiola galera hori pazientziaz jasateko eta Allahk Jannahko lekurik garaienekin arima hila saritzeko. Aukera hau aukeratzeak momineen Namaz-e-Wahshat-i hildako arima eskatzeko aukera ematen dizu.",
+          "demiseText": "Aukeran",
+          "optional": "Hil egin zen",
+          "dod": "Jaio zen",
+          "dob": "|— Seme-alaba"
+        },
+        "relation": "Jaio:",
+        "born": "Hil egin zen:",
+        "died": "Mezu bat erantsi nahi duzu?",
+        "addMsg": "Adibidea:",
+        "remainingChars": "(izena) xehetasunak argitaratu ditzakezu <b>Kontu > Almas</b> atalean",
+        "infoEditRelative": "Gordetzea eta eskatzea — Eskatzea",
+        "saveRequestCta": "Gehitu | Eguneratzea",
+        "addUpdate": "Galdera bat egin"
+      },
+      "askQues": {
+        "title": "Zure galdera",
+        "form": {
+          "quesLabel": "Bilatu galdera bat edo egin zeurea",
+          "quesLabel_ph": "Litekeena da galdera horiek dagoeneko izatea bilatzen ari den erantzuna.",
+          "similarQues": "Zure galdera:",
+          "quesTextHeader": "Galdera-kategoria ezarri:",
+          "selectCat": "Anonimoki galdetu?",
+          "askAnonLabel": "Bere izena ez da bekadunari bidaliko bere izenean erantzun bat eskatzen duenean, eta ez da gure aplikazioan azalduko galdera honekin. Baina galdera anonimoak ez dira azkar erantzungo.",
+          "askAnonInfo": "Galdetu",
+          "askViaLabel": "Galdera bat egin dezakezu bere gorentasunaren bulegoak, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani-k, erantzuteko. Galdera zure webgunera bidaliko dugu (profileko informazioarekin batera). Egiazta ezazu <b>hitzak eta baldintzak</b> behar bezala irakurri dituela.",
+          "askSistaniInfo": "Hitzak eta Baldintzak:",
+          "tncLabel": "Erakutsi | Ezkutatzea",
+          "showHide": "Kontuan hartu zure webguneko puntuak galdera bat egin aurretik, zeren eta, hurrengo puntuekin bat egiten ez badu, baliteke haien erantzunik ez jasotzea edo erantzunik ez jasotzea.",
+          "sistaniOrgTncInfo": "Zutaz",
+          "userInfo": {
+            "aboutLabel": "Zure generoa",
+            "genderLabel": "Zure urtebetetzea",
+            "bdayLabel": "Egin zure galdera"
+          }
+        },
+        "askQuesCta": "Eskatutako kontua"
+      },
+      "authPrompt": {
+        "title": "Hasi saioa edo erregistatu jarraitzeko",
+        "defLabel": "Funtzio hori dela eta, saioa hasi edo erregistratu egin behar da erabili ahal izan baino lehen. Klik egin <b>saioa hastean</b>, baldin eta erregistratuta badago edo <b>erregistratzeko</b> klik egiten badu bere kontua sortzeko.",
+        "infoText": "Kokapena aldatu"
+      },
+      "location": {
+        "title": "Bilatu zure kokapena",
+        "search_ph": "Sartu zure kokapena edo klik egin detekzio automatikoko ikonoan, kokapena lortzeko.",
+        "autoDetectInfo": "Irakurri"
+      },
+      "readText": {
+        "ctaLabel": "Irakurri",
+        "title": "Arabiar",
+        "arabicCta": "Ingelesa",
+        "englishCta": "Testu itzulia",
+        "translatedCta": "behar den sarbidea"
+      },
+      "reqAccess": {
+        "heading": "Zure kamerara sartzeko baimena behar dugu",
+        "subheading": "Mesedez, utzi beheko botoian klik eginez sartzen:",
+        "subtext": "sarbidea ahalbidetzea",
+        "ctaLabel": "Klik egin jarraian, dagokion aplikazioan hori partekatzeko:"
+      },
+      "shareBtn": {
+        "subtext": "Klik egin {icon} ikonoan, jarraian edukia kopiatzeko:",
+        "copyText": "Verify Mobile | Sartu kodea"
+      },
+      "verifyMob": {
+        "title": "Telefono mugikorraren zenbakia behar dugu zure nortasuna egiaztatzeko. Noizean behingo eguneratzeak ere jaso ditzake.",
+        "page1": {
+          "infoText1": "Sartu zure zenbakia eta klik egin botoian, bere baieztapen-kodea lortzeko: | Sartu zure zenbakia eta klik egin botoi batean, bere baieztapen-kodea lortzeko:",
+          "infoText2": "Telefono mugikorraren zenbakia"
+        },
+        "form": {
+          "mobileLabel": "Sartu zure mugikorraren zenbakia",
+          "mobileLabel_ph": "SMS bidez lortu",
+          "otpViaSMS": "Lortu WhatsApp bidez",
+          "viaWhatsApp": "Telegramen bidez lortu",
+          "viaTelegram": "Signal bidez lortu",
+          "viaSignal": "6 digituko baieztapen-kode bat bidali dugu zure zenbakira ({número})"
+        },
+        "page2": {
+          "header": "Sartu kodea",
+          "enterCodeLabel": "Sartu 6 digituko kodea",
+          "enterCode_ph": "Kodea berriro bidali",
+          "resendCode": "Ez al duzu <strong>{number}erabiltzen?</strong>",
+          "notUsingMobile": "Zenbakia aldatu",
+          "changeNumber": "Erabilera partekatuko mezua pertsonalizatzea"
+        }
+      },
+      "userSettings": {
+        "personalSharingMsg": "Pasahitza aldatu | Pasahitza ezarri",
+        "changePwd": "Hizkuntza aldatu",
+        "changeLang": "Nire aldaketak feed-ean ere argitaratzen ditu.",
+        "publishToFeed": "Pertsonalizazioa"
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "@:comps.userSettings.changePwd",
+          "changePwd": "@:comps.userSettings.changeLang",
+          "setLang": "Nire izena mezuei erantsi"
+        },
+        "sign": {
+          "addNameToMsgs": "Kanpoan partekatzean, bere mezuak honako hauek erakusten dira:",
+          "sharingDesc": "Entzun Nauha hau Bazm App-en",
+          "sharingTextDemo": {
+            "0": "{name} aplikazio hau entzutea gomendatzen du Nauha on Bazm",
+            "1": "Zure sinadura ere gehitu nahi duzu?"
+          },
+          "addSignDesc": "Adibidez",
+          "signDesc": "Sartu zure pasahitza:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Sartu egungo pasahitza",
+          "currentPwdPH": "Sartu pasahitz berri bat:",
+          "newPwdLabel": "Sartu pasahitz berri bat",
+          "newPwdPH": "Bilatu zure hizkuntza"
+        },
+        "changeLang": {
+          "searchYourLang": "Aukeratu aplikazioaren edukia zein hizkuntzatan ikusi nahi duzun. Egin klik hizkuntza batean eta itxaron (denbora pixka bat behar da itzulpena kargatzeko) esaldi hau aukeratutako hizkuntzan nola agertzen den ikusteko.",
+          "desc": "Ezeztatu"
+        }
+      }
+    },
+    "actions": {
+      "cancel": "Ezeztatu",
+      "notify": "Gustatu",
+      "like": "Errezitatua",
+      "recited": "Iruzkina",
+      "comment": "Erantzuna",
+      "reply": "Markatzaile",
+      "bookmark": "Momineen who {action}d | Momineen who {action}d this",
+      "audienceHeader": "Deitzen zara"
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Sartu zure izen osoa",
+          "placeholder": "Posta elektroniko"
+        },
+        "email": {
+          "label": "Erregistratutako posta elektronikoa | Sartu zure posta elektronikoa",
+          "placeholder": "Pasahitza"
+        },
+        "password": {
+          "label": "Pasahitza | Pasahitz bat sartu",
+          "placeholder": "Bileraren hasiera gogoratu"
+        },
+        "rememberLogin": "Ahaztu al zuen pasahitza?",
+        "forgotPwd": "Edo, bestela, ekiltza zaitez erabiliz",
+        "connectUsing": "Kontuak gordeta erabili",
+        "useSavedAccount": "Azken saioa",
+        "lastLogin": "Konturik behar al duzu?",
+        "needAccount": "Goto Registrate"
+      },
+      "gotoSignup": "Ba al duzu konturik?",
+      "alreadyHasAccount": "Saioa hasi",
+      "gotoLogin": "Profilera joan",
+      "gotoProfile": "<p>Uste dugu hemen huts egin zuela, saioa hasi baita dagoeneko.</p> <p>Zure profila egiazta dezakezu nola ikusten den ikusteko, edo jarraianko esteka bat erabil dezakezu beste atal batzuetan nabigatzeko:</p>",
+      "msgForAuthUser": "Instalatu Bazm { plataforma }"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Deskargatu Android aplikazioa esperientzia hobea, eduki pertsonalizatua, jakinarazpenak eta zure inguruneaz interesatzen zaizun guztia egiteko! | Aplikazioaren sarbide zuzena (markagailua) jarri, zuzenean bere hasierako pantailatik sartzeko, esperientzia hobea izateko! Ia ez du bere gailuan lekurik hartzen, baina aplikaziora azkar itzultzen laguntzen dio.",
+          "desc": "Instalatu",
+          "cta": {
+            "action": "Agian geroago",
+            "skip": "Bazm-eko sarbide zuzena instalatu?"
+          }
+        },
+        "prompt": {
+          "heading": "Nolakoa da zure esperientzia orain arte?"
+        }
+      },
+      "webFeedback": {
+        "heading": "<p>Gustatzen al zaizu aplikazio berria? Ba al ezer hobetu dezakegunik? Mesedez, lagun iezaguzu zure iruzkinekin zure esperientzia hobetzeko!</p> <p>Horrek minutu batzuk besterik ez lituzke hartuko, eta asko estimatzen dugu haren denbora!</p>",
+        "text": "Atzera-elikatua ematea",
+        "cta": "Agian geroago",
+        "dismiss": "Bazm-eko sarbide zuzena instalatu?"
+      },
+      "advertise": {
+        "heading": "<p>Mundu osoko milioika musulman xiitarengana iristen da Bazm-en duen produktuarekin edo markekin eta erabiltzaileekin interaktuatzen du.</p> <p>Has zaitez $ 1 / día!</p>",
+        "text": "Ikasi gehiago",
+        "cta": "Esperientzia mugatua Safarin"
+      },
+      "upgradeSafari": {
+        "header": "<strong>Nabigatzaile hau (Safari) ez esperientziarik onenerako optimizatuta</strong>. Hemen aplikazioa erabiltzen jarraitzean, funtzio batzuk galduko dira, hala nola alerta-jakinarazpenak, gertuko eguneratzeak, konexiorik gabeko modua eta askoz gehiago.<br/> Jarraian zerrendatutako nabigatzaileetako bat lortzea gomendatzen dizugu, esperientzia hobetu baterako. Klik egin edozein bototan AppStore nabigatzailea deskargatzeko:",
+        "description": "Google Chrome eskuratu",
+        "ctas": {
+          "getGoogle": "Mozilla Firefox eskuratu",
+          "getFirefox": "Opera Touch lortu",
+          "getOpera": "Agian geroago",
+          "skip": "Bazm-eko sarbide zuzena instalatu?"
+        },
+        "toast": "Ez dugu cookierik gordetzen bere {dispositiboan}, baina gure aplikazioan erabiltzen diren hirugarrenen aplikazioak (Google Analytics bezala) izan daitezke. Horren ordez, biltegiratze iraunkorra erabiltzen dugu edozein datu garrantzitsu gordetzeko, eta, kasu gehienetan, hori biltegiratzean eta transferrean zifratzen da."
+      },
+      "cookieBanner": {
+        "firstPara": "Aplikazio hau erabiltzen jarraitzean, gure aukerekin inolako arazorik ez duela baieztatu du. Gure cookieei eta datuen erabilerari buruzko informazio gehiago lortzeko, kontsultatu gure <a href='https://bazm.in/privacy-policy' target='_blank'> Pribatutasunpolitika.</a>"
+      }
+    }
+  }
+}
