@@ -1,0 +1,496 @@
+{
+  "ca": {
+    "common": {
+      "refresh": "Tireu per actualitzar",
+      "refreshing": "Refrescant...",
+      "loadingMore": "S'està carregant més...",
+      "dismiss": "Acomiadar",
+      "invite": "Convidar",
+      "showMore": "Mostra'n més | Mostra'n més",
+      "play": "Jugar",
+      "pause": "Aturar",
+      "playing": "Jugant",
+      "paused": "Aturar",
+      "watch": "Mirar",
+      "read": "Llegir",
+      "authors": "autor | Autors",
+      "languages": "| Llengües",
+      "clear": "Clar",
+      "cancel": "Cancel·lar",
+      "change": "Canviar",
+      "continue": "Continuar",
+      "select": "Seleccionar",
+      "saveChanges": "Desa els canvis | Desa | Actualitza",
+      "newBadge": "Nou",
+      "login": "Connexió",
+      "logout": "Logout",
+      "signup": "Inscriure",
+      "settings": "Configuració",
+      "cookiePolicy": "Política de cookies",
+      "privacy": "Privacitat",
+      "contactUs": "Contacta amb nosaltres",
+      "home": "Llar",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Tu",
+      "retry": "Reintenta",
+      "send": "Enviar",
+      "submit": "Sotmetre",
+      "share": "Compartir",
+      "at": "a",
+      "untilNextTime": "De res. Fins el proper temps!"
+    },
+    "errors": {
+      "service": {
+        "unavailable": "El servei no està disponible en aquest moment. Torneu-ho a provar més tard.",
+        "unknown": "S'ha produït un error desconegut. Torneu-ho a provar més tard."
+      },
+      "content": {
+        "unavailable": "No s'ha pogut carregar el contingut en aquest moment. Torneu-ho a provar d'aquí a un temps.",
+        "itemDetailUnavailable": "No s'han pogut trobar els detalls d'aquest {element}",
+        "loadMoreError": "No s'han pogut carregar més elements. Torneu-ho a provar més tard."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Llar"
+      },
+      "postDetail": {
+        "commonTitle": "Detall",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Imatge de perfil",
+        "bannerUpdateTitle": "Imatge de portada (obsoleta)",
+        "statusUpdateTitle": "Actualització de l'estat"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Llar"
+      },
+      "media": {
+        "name": "Mitjans",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "books": "Llibres"
+        },
+        "inviteFriends": "Convida els teus amics",
+        "notShia": "No és xiïta?",
+        "contacts": {
+          "accessRequestHeader": "Cal accés als contactes",
+          "accessRequestDesc": "Necessitem l'accés dels vostres contactes per suggerir a les persones xiïtes de la vostra llibreta telefònica que convidin a aquesta aplicació."
+        },
+        "audio": "Àudio",
+        "video": "Vídeo",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Desitgeu-ho als vostres amics!",
+          "wishCtaLabel": "DESITJAR"
+        },
+        "books": {
+          "booksByAuthor": "Llibres de {author}",
+          "booksInLang": "Llibres a {lang}",
+          "filterBy": "Filtra per:",
+          "matching": {
+            "authors": "amb autors que coincideixen",
+            "lang": "amb les llengües que coincideixen",
+            "title": "amb la coincidència de títols"
+          }
+        },
+        "booksFilter": {
+          "title": "Cerca un llibre de l'autor",
+          "searchBox": "Cerca l'autor pel nom",
+          "selectLang": "Seleccioneu un idioma:"
+        },
+        "bookDetails": {
+          "title": "{title} — Trobeu més llibres gratuïts com aquest a Bazm",
+          "aboutBook": "Quant al llibre:"
+        }
+      },
+      "tools": {
+        "name": "Eines",
+        "salatAlarmDesc": "Estableix alarmes per a l'Azaan segons els teus horaris locals",
+        "sehriAlarmDesc": "Establiu alarma per a Sehri o fins i tot rebeu un toc d'atenció al vostre número abans de Sehri.",
+        "sehriAlarmOptionDisabled": "Alarmes per a l'hora de Sheri durant el mes de Ramadà (disponible només durant el Ramadà)",
+        "tasbeehCounterDesc": "Recita Duas, Alcorà i Tasbeeh en mode de repetició fàcilment amb comptador tasbeeh d'àudio",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Cerqueu i feu preguntes o trobeu respostes a masle-masayel de la vostra vida quotidiana en qüestions d'Islam.",
+        "alarms": {
+          "salatAlarms": "Alarmes Salat | Alarmes de Salat diàries",
+          "sehriAlarms": "Alarmes Sehri del Ramadà",
+          "gettingLocation": "Aconsegueix la teva ubicació. Espereu...",
+          "settingsTip": "Canvia <b>la ubicació</b> i les preferències a la configuració d'alarma. Feu clic a La icona Configuració per començar.",
+          "setAlarmHeader": "Defineix les alarmes diàries",
+          "imsakLabel": "Imsak",
+          "sehriEndTime": "L'hora del final de Sehri",
+          "minToImsak": "{min} mins before Imsak | {hour} hour before Imsak",
+          "minToImsakDesc": "Sona l'alarma {min} minuts abans del final de l'hora sehri | Sona l'alarma {min} hora abans del final de l'hora de Sehri",
+          "notRamadan": "Sembla que encara no és el Ramadà. Si us plau, torneu durant o just abans del Ramadà per posar les alarmes per a Sehri",
+          "push": {
+            "heading": "Cal accedir a la notificació",
+            "desc_request": "L'alarma funciona enviant notificacions push en hores designades. Sense accés a push, l'aplicació no funcionarà de la manera esperada. Permeteu l'accés a la vostra notificació push perquè puguem informar-vos en moments d'alarma.",
+            "desc_denied": "<strong>Heu denegat l'accés a les notificacions abans.</strong> És necessari que les notificacions automàtiques funcionin correctament. Enviem notificacions en temps d'alarma.<br/> Permeteu l'accés a les notificacions automàtiques fent clic al botó.",
+            "cta": "Permetre",
+            "toast_granted": "Gràcies! Ara se us notificarà en horari d'alarma.",
+            "toast_denied": "S'ha denegat la sol·licitud de notificació. Permeteu que l'accés a l'aplicació funcioni correctament.",
+            "toast_prompt": "Heu de permetre l'accés a les notificacions per establir alarmes."
+          }
+        },
+        "alarmSetting": {
+          "title": "Configuració de l'alarma",
+          "locationTitle": "Cercar la ciutat per als temps d'alarma",
+          "forLocation": "Alarma per a la ubicació",
+          "calcMethod": "Mètode de càlcul",
+          "selectAdhanSound": "Selecciona el so d'Adhan",
+          "selectAlarmSound": "Selecciona el so de l'alarma",
+          "alarmSoundDesc": "So per a temps no salats"
+        },
+        "qna": {
+          "title": "Pregunta-resposta",
+          "qnaSource": "Font",
+          "seeAnswer": "Veure resposta",
+          "noAnswer": "Sense resposta"
+        },
+        "qnaDetail": {
+          "title": "Trobeu respostes per a: "
+        },
+        "tasbeehCounter": {
+          "title": "Comptador de Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Usuari | Compte",
+        "editProfile": "Edita el perfil",
+        "publishToFeed": "Publica els meus canvis al canal de continguts",
+        "shareUpdateToFeed": "Comparteix també aquesta actualització al meu feed",
+        "statusText_ph": "Utilitza el format _cursiva_ o *negreta* per decorar el teu estat",
+        "statusCharsLeft": "{count} caràcters esquerra",
+        "unauthAccess": {
+          "heading": "Estàs segur que estàs en el lloc adequat?",
+          "desc": "<p>Sembla que estàveu intentant accedir a una pàgina per a la qual no teníeu permís. Si intentàveu accedir a una pàgina a la qual heu accedit anteriorment, proveu d'iniciar la sessió; això hauria de resoldre el problema.</p> <p>Si us plau, no dubteu a posar-vos en contacte amb nosaltres si el problema persisteix.</p>"
+        },
+        "guest": {
+          "welcome": "Benvingut, <strong>convidat!</strong>",
+          "heading": "Per què iniciar sessió o registrar-se?",
+          "desc": "Amb un compte a la nostra aplicació, podeu utilitzar diverses funcions. Comenceu creant un compte si encara no teniu cap compte. O, simplement, inici de sessió!",
+          "unlockHeading": "desbloqueja el següent amb un compte:",
+          "features": {
+            "engage": {
+              "heading": "Interaccionar amb l'aplicació",
+              "desc": "Interactueu amb altres usuaris, reaccioneu a les seves publicacions o sol·licituds, comenteu la vostra opinió, marqueu els vostres elements i molt més."
+            },
+            "fatiha": {
+              "heading": "Sol·licitud de Publicació Fatiha",
+              "desc": "Sol·licitud de Surah-e-Fatiha per a les ànimes dels seus éssers estimats difunts i aconseguir que les seves ànimes beneïts amb les oracions de tots els nostres usuaris!"
+            },
+            "askQues": {
+              "heading": "Preguntes",
+              "desc": "Feu preguntes de Deen & Duniya sobre diversos temes que es respondran amb la seva eminència, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "contingut preferit",
+              "desc": "Consulteu sempre el contingut i la configuració que preferiu quan hàgiu iniciat la sessió al compte. A més, avisa't de totes les coses interessants!"
+            },
+            "personalized": {
+              "heading": "compartició personalitzada",
+              "desc": "Definiu l'ús compartit de contingut personalitzat amb la vostra signatura perquè els vostres amics sàpiguen quan compartiu un missatge o una publicació."
+            }
+          }
+        },
+        "about": {
+          "title": "Sobre"
+        },
+        "posts": {
+          "title": "Llocs",
+          "userNoPosts": "Quan canvieu la imatge o la imatge de portada o quan sol·liciteu surah-fatiha per als vostres éssers estimats desmesurada, aquestes publicacions apareixeran aquí i a la pestanya <b>Inici</b> (també d'altres). Proveu d'afegir una imatge o una imatge de portada?",
+          "profileNoPosts": "{name} encara no ha fet cap publicació."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} encara no ha afegit marhumeen | Encara no heu afegit marhumeen",
+            "marhumeenAdded": "{name} ha afegit seguint marhumeen | Heu afegit després de marhumeen"
+          }
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Inicia la sessió al teu compte",
+        "createAccount": "Crear un compte"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Pas següent",
+        "goBack": "Tornar",
+        "confirm": "Confirmar"
+      },
+      "createPost": {
+        "heading": "De què es tracta avui?",
+        "desc": "Feu clic aquí per compartir una actualització o utilitzar una opció des de baix",
+        "request": "Demanar",
+        "askQues": "Fer pregunta",
+        "modal": {
+          "titles": {
+            "post": "Crea una publicació | Actualitza la publicació",
+            "livestream": "Transmissió en directe",
+            "hadiyah": "Crea Hadiyah | Actualitza Hadiyah"
+          },
+          "postCta": "Publicació | Actualització",
+          "stream": {
+            "scheduleCta": "Desa per a més endavant | Inicia la reproducció"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "A qui vols regalar això?",
+              "addPeopleToggle": "Que els altres també formin part d'aquest sawab!",
+              "searchInput": "Convida momimeen de Bazm o la teva llista de contactes",
+              "minUsersHeader": "Voleu establir el nombre mínim que els participants han de triar?",
+              "minUsersInput": "Introduïu el número mínim"
+            }
+          },
+          "postTime": "Quan és? —Quan voleu començar a transmetre?",
+          "whereIsIt": "On és?",
+          "findLocation": "Cerca la ubicació",
+          "locationSubtext": "Afegir ubicació a la publicació",
+          "addLocation": "Afegeix una ubicació",
+          "addPics": "Afegir imatges a la publicació",
+          "previewDes": "Així és com apareixeria la teva publicació al feed d'altres persones. Els usuaris poden tocar el vídeo per veure'l a pantalla completa.",
+          "addToPost": "Afegeix-ho a l'{postType} (opcional)"
+        }
+      },
+      "comments": {
+        "name": "Comentaris",
+        "loadPrevious": "Carrega els comentaris anteriors | Carrega les respostes anteriors",
+        "replyingTo": "Responent a:",
+        "noComments": "Encara no hi ha comentaris en aquest post",
+        "textboxPlaceholder": "Escriu el teu comentari aquí",
+        "requestToLogin": "Inicia la sessió o registra't per iniciar la discussió"
+      },
+      "post": {
+        "dateUntil": "Fins a: {date} a {time}"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Sol·licita Surah-al-fatiha",
+          "addUpdate": "Actualitza un ésser estimat | Afegeix un ésser estimat"
+        },
+        "heading": "Afegir un ésser estimat que hagi transmès | Seleccioneu un ésser estimat de la llista o afegiu un ésser estimat que hagi transmès",
+        "addNew": "Afegeix-ne un de nou",
+        "subheader": "Afegeix detalls del teu ésser estimat | També pots incloure un missatge a la teva sol·licitud",
+        "form": {
+          "fullName": "Nom complet dels difunts",
+          "name_ph": "Per exemple, Syed Zeeshan Haider Abidi",
+          "fathersName": "El nom del pare (si està disponible)",
+          "father_ph": "Per exemple, Syed Tauqeer Husain",
+          "male": "Mascle",
+          "female": "Femella",
+          "relation": "La teva relació amb ella | La teva relació amb ell",
+          "demiseLabel": "Desmentit avui? Sol·licita Namaz-e-Wahshat",
+          "demiseText": "Ens sap molt de greu la seva pèrdua. Que Al·là us doni a vosaltres i a la vostra família la força per suportar aquesta pèrdua amb paciència i que Al·là recompensi l'ànima demisada amb els llocs més alts de Jannah. L'elecció d'aquesta opció us permet demanar a momineen namaz-e-Wahshat per a l'ànima demisada.",
+          "optional": "Opcional",
+          "dod": "Va morir el",
+          "dob": "Va néixer el"
+        },
+        "relation": "Filla de | Fill de",
+        "born": "Nascut:",
+        "died": "Va morir:",
+        "addMsg": "Vols afegir un missatge?",
+        "remainingChars": "Caràcters: {count} | Caràcters: {count} restants",
+        "infoEditRelative": "Podeu editar els detalls de {name} a la secció <b>> Ànimes del compte</b>",
+        "saveRequestCta": "Desa &sol·licitud | Sol·licitud",
+        "addUpdate": "Afegeix | Actualitza"
+      },
+      "askQues": {
+        "title": "Fer una pregunta",
+        "form": {
+          "quesLabel": "La teva pregunta",
+          "quesLabel_ph": "Cerqueu una pregunta o feu la vostra",
+          "similarQues": "Aquestes preguntes poden tenir la resposta que estàs buscant.",
+          "quesTextHeader": "La teva pregunta:",
+          "selectCat": "Defineix la categoria de la pregunta:",
+          "askAnonLabel": "Preguntar de forma anònima?",
+          "askAnonInfo": "El vostre nom no s'enviarà a l'acadèmic en sol·licitar una resposta en nom vostre, ni es mostrarà a la nostra aplicació amb aquesta pregunta. Però és possible que les preguntes anònimes no es responguin ràpidament.",
+          "askViaLabel": "Pregunta a través",
+          "askSistaniInfo": "Podeu fer una pregunta per ser contestada per l'oficina de la seva eminència, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Anem a reenviar la pregunta a la seva pàgina web (juntament amb la seva informació de perfil). Assegureu-vos que heu llegit correctament els <b>termes i condicions</b>.",
+          "tncLabel": "Termes i condicions:",
+          "showHide": "Mostra | Amaga",
+          "sistaniOrgTncInfo": "Penseu en els següents punts del seu lloc web abans de fer una pregunta, ja que si no us adheriu als punts següents, és possible que no en rebeu cap resposta o que no rebeu cap resposta.",
+          "userInfo": {
+            "aboutLabel": "Sobre tu",
+            "genderLabel": "El teu gènere",
+            "bdayLabel": "El teu aniversari"
+          }
+        },
+        "askQuesCta": "Fes la teva pregunta"
+      },
+      "authPrompt": {
+        "title": "Cal un compte",
+        "defLabel": "Inicia la sessió o registra't per continuar",
+        "infoText": "Aquesta característica requereix que inicieu la sessió o registreu-vos abans de poder utilitzar-la. Feu clic a <b>Inicia la sessió</b> si ja esteu registrat o feu clic a <b>Registra't</b> per crear el teu compte."
+      },
+      "location": {
+        "title": "Canvia la ubicació",
+        "search_ph": "Cerca a la teva ubicació",
+        "autoDetectInfo": "Introduïu la vostra ubicació o feu clic a la icona de detecció automàtica per obtenir la vostra ubicació."
+      },
+      "readText": {
+        "ctaLabel": "Llegir",
+        "title": "Dua: {title}",
+        "arabicCta": "Àrab",
+        "englishCta": "Anglès",
+        "translatedCta": "Traduït"
+      },
+      "reqAccess": {
+        "heading": "Accés necessari",
+        "subheading": "Necessitem permís per accedir a la teva càmera",
+        "subtext": "Permeteu l'accés fent clic al botó següent:",
+        "ctaLabel": "permet l'accés"
+      },
+      "shareBtn": {
+        "subtext": "Feu clic en una de les opcions següents per compartir-ho a l'aplicació respectiva:",
+        "copyText": "S'ha fet clic a la icona {icon} per copiar-la a sota del contingut:"
+      },
+      "verifyMob": {
+        "title": "Verifica el mòbil | Introduïu el codi",
+        "page1": {
+          "infoText1": "Necessitem el teu número de mòbil per verificar la teva identitat. També podeu rebre actualitzacions ocasionals.",
+          "infoText2": "Introdueix el teu número i fes clic al botó per obtenir el codi de confirmació: | Introdueix el teu número i fes clic en un botó per obtenir el codi de confirmació:"
+        },
+        "form": {
+          "mobileLabel": "Número de mòbil",
+          "mobileLabel_ph": "Introdueix el teu número de mòbil",
+          "otpViaSMS": "Obtenir per SMS",
+          "viaWhatsApp": "Obtenir a través de WhatsApp",
+          "viaTelegram": "Obtenir a través de Telegram",
+          "viaSignal": "Obtenir a través del Signal"
+        },
+        "page2": {
+          "header": "Hem enviat un codi de confirmació de 6 dígits al vostre número ({number})",
+          "enterCodeLabel": "Introduïu el codi",
+          "enterCode_ph": "Introduïu el codi de 6 dígits",
+          "resendCode": "Torna a enviar el codi",
+          "notUsingMobile": "No utilitzeu <strong>{number}?</strong>",
+          "changeNumber": "Canvia el número"
+        }
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personalitza el missatge d'ús compartit",
+        "changePwd": "Canvia la contrasenya | Defineix la contrasenya",
+        "changeLang": "Canvia l'idioma",
+        "publishToFeed": "Publica també els meus canvis al canal de continguts."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalització",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Afegeix el meu nom als missatges",
+          "sharingDesc": "Quan comparteixes missatges externament, és possible que els teus missatges semblen els següents:",
+          "sharingTextDemo": {
+            "0": "Escolta aquesta Nauha a l'aplicació Bazm",
+            "1": "{name} recomana escoltar aquesta Nauha a l'aplicació Bazm"
+          },
+          "addSignDesc": "Vols afegir també la teva signatura?",
+          "signDesc": "Quan compartiu el vostre desig amb amics en aquesta aplicació, la vostra signatura s'afegirà als missatges. Per exemple, pot aparèixer com a continuació:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Introduïu la contrasenya existent:",
+          "currentPwdPH": "Introduïu la contrasenya actual",
+          "newPwdLabel": "Introduïu una contrasenya nova:",
+          "newPwdPH": "Introduïu una contrasenya nova"
+        },
+        "changeLang": {
+          "searchYourLang": "Cerca a la teva llengua",
+          "desc": "Trieu l'idioma en què voleu veure el contingut de l'aplicació. Feu clic en un idioma i espereu (en algun moment es triga a carregar la traducció) per veure com apareix aquesta frase en l'idioma seleccionat."
+        }
+      }
+    },
+    "actions": {
+      "cancel": "Cancel·lar",
+      "notify": "Notificar",
+      "like": "Agradar",
+      "recited": "Recita",
+      "comment": "Comentari",
+      "reply": "Resposta",
+      "bookmark": "Marcador",
+      "audienceHeader": "Momineen who {action}d | Momineen who {action}d this"
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "El teu nom",
+          "placeholder": "Introdueix el teu nom complet"
+        },
+        "email": {
+          "label": "Correu electrònic",
+          "placeholder": "Correu electrònic certificat | Introduïu el vostre correu electrònic"
+        },
+        "password": {
+          "label": "Contrasenya",
+          "placeholder": "La vostra contrasenya | Introduïu una contrasenya"
+        },
+        "rememberLogin": "Recorda l'inici de sessió",
+        "forgotPwd": "Heu oblidat la contrasenya?",
+        "connectUsing": "O bé, connecta't amb",
+        "useSavedAccount": "Utilitza els comptes desats",
+        "lastLogin": "Últim inici de sessió",
+        "needAccount": "Necessites un compte?"
+      },
+      "gotoSignup": "Registre de Goto",
+      "alreadyHasAccount": "Ja tens un compte?",
+      "gotoLogin": "Goto Inici de sessió",
+      "gotoProfile": "Perfil de Goto",
+      "msgForAuthUser": "<p>Creiem que heu aterrat aquí per error, ja que ja heu iniciat la sessió.</p> <p>Podeu consultar el vostre perfil per veure com es veu o utilitzar un dels enllaços següents per navegar per altres seccions:</p>"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Install Bazm { platform }",
+          "desc": "Descarrega't l'aplicació d'Android per obtenir una millor experiència, contingut personalitzat, notificacions i tot el que t'interessi des del teu voltant! | Instal·leu drecera d'aplicació (marcador) per accedir-hi directament des de la pantalla d'inici la propera vegada per obtenir una millor experiència. Amb prou feines ocupa espai al dispositiu, però us ajuda a tornar a l'aplicació ràpidament.",
+          "cta": {
+            "action": "Instal·lar",
+            "skip": "Potser més tard"
+          }
+        },
+        "prompt": {
+          "heading": "Voleu instal·lar la drecera del Bazm?"
+        }
+      },
+      "webFeedback": {
+        "heading": "Com és la teva experiència fins ara?",
+        "text": "<p>T'agrada la nova app? Hi ha alguna cosa que puguem millorar? Ajuda'ns amb els teus comentaris per millorar l'experiència!</p> <p>Això trigaria només uns minuts, i us agraïm molt el vostre temps!</p>",
+        "cta": "Donar comentaris",
+        "dismiss": "Potser més tard"
+      },
+      "advertise": {
+        "heading": "Anunci a Bazm",
+        "text": "<p>Arribar a milions de musulmans xiïtes de tot el món amb el seu producte a Bazm o interactuar amb marques i usuaris.</p> <p>Comenceu per tan baix com $ 1 / dia!</p>",
+        "cta": "Més informació"
+      },
+      "upgradeSafari": {
+        "header": "Experiència limitada en Safari",
+        "description": "<strong>Aquest navegador (Safari) no està optimitzat per a la millor experiència</strong>. Si continueu utilitzant la nostra aplicació aquí, perdreu diverses funcions, com ara notificacions d'alertes, a prop d'actualitzacions, mode fora de línia i molt més.<br/> Us recomanem que obtingueu un dels navegadors que s'indiquen a continuació per obtenir una experiència millorada. Feu clic a qualsevol dels botons per descarregar el navegador des d'AppStore:",
+        "ctas": {
+          "getGoogle": "Obtenir Google Chrome",
+          "getFirefox": "Obtén el Firefox de Mozilla",
+          "getOpera": "Aconsegueix el toc de l'òpera",
+          "skip": "Potser més tard"
+        },
+        "toast": "De res. Fins a la propera!"
+      },
+      "cookieBanner": {
+        "firstPara": "No emmagatzemem cap cookie al vostre {dispositiu] però sí que les aplicacions de tercers utilitzades a la nostra aplicació poden (com ara Google Analytics). En lloc d'això, utilitzem emmagatzematge permanent per emmagatzemar qualsevol dada important, i en la majoria dels casos, això es xifra en emmagatzematge i durant el transvas.",
+        "secondPara": "Si continues a utilitzar aquesta aplicació, confirmes que no tens cap problema amb les nostres opcions. Per obtenir més informació sobre les nostres galetes i l'ús de dades, consulteu la nostra <a href='https://bazm.in/privacy-policy' target='_blank'>Política de privacitat >.</a>"
+      }
+    }
+  }
+}
