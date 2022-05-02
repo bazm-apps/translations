@@ -52,9 +52,7 @@
       }
     },
     "navbar": {
-      "home": {
-        "title": "Home"
-      },
+      "home": { "title": "Home" },
       "postDetail": {
         "commonTitle": "Detail",
         "fatihaTitle": "Surah-fatiha",
@@ -65,9 +63,7 @@
       }
     },
     "tabs": {
-      "home": {
-        "name": "Home"
-      },
+      "home": { "name": "Home" },
       "media": {
         "name": "Media",
         "boxLabels": {
@@ -77,6 +73,7 @@
           "ziyarat": "Ziyaraat",
           "dua": "Duas",
           "munajat": "Munajaat",
+          "munajaat": "Munajaat",
           "books": "Books"
         },
         "inviteFriends": "invite your friends",
@@ -127,9 +124,17 @@
           "settingsTip": "Change <b>Location</b> and preferences in Alarm settings. Click Settings icon to start.",
           "setAlarmHeader": "Set Daily Alarms",
           "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Sunset",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Midnight",
           "sehriEndTime": "Time for end of Sehri",
-          "minToImsak": "{min} mins before Imsak | {hour} hour before Imsak",
-          "minToImsakDesc": "Alarm rings {min} minutes before end of Sehri time | Alarm rings {min} hour before end of Sehri time",
+          "minToImsak": ["{min} mins before Imsak", "{hour} hour before Imsak"],
+          "minToImsakDesc": [
+            "Alarm rings {min} minutes before end of Sehri time",
+            "Alarm rings {hour} hour before end of Sehri time"
+          ],
           "notRamadan": "Looks like it's not Ramadan yet. Please come back during or just before the Ramadan to set the Alarms for Sehri",
           "push": {
             "heading": "Notification access required",
@@ -148,7 +153,11 @@
           "calcMethod": "Calculation method",
           "selectAdhanSound": "Select Adhan sound",
           "selectAlarmSound": "Select Alarm sound",
-          "alarmSoundDesc": "Sound for non-salat times"
+          "alarmSoundDesc": "Sound for non-salat times",
+          "timesPeekHeading": "Display times banner",
+          "timesPeekDesc": "You can disable display of quick view of times for Salat here:",
+          "timesPeekHome": "Show on feeds page:",
+          "timesPeekTools": "Show on tools page:"
         },
         "qna": {
           "title": "Question-Answer",
@@ -156,12 +165,8 @@
           "seeAnswer": "See answer",
           "noAnswer": "No answer"
         },
-        "qnaDetail": {
-          "title": "Find answers for: "
-        },
-        "tasbeehCounter": {
-          "title": "Tasbeeh Counter"
-        }
+        "qnaDetail": { "title": "Answers for: {ques}" },
+        "tasbeehCounter": { "title": "Tasbeeh Counter" }
       },
       "user": {
         "name": "User | Account",
@@ -202,9 +207,7 @@
             }
           }
         },
-        "about": {
-          "title": "About"
-        },
+        "about": { "title": "About" },
         "posts": {
           "title": "Posts",
           "userNoPosts": "When you change your picture/cover image, or when you request for surah-fatiha for your demised loved ones, these posts will appear here and in <b>Home</b> tab (of others too). Try adding a picture or cover image?",
@@ -231,6 +234,12 @@
         "goBack": "Go back",
         "confirm": "Confirm"
       },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Location unavailable. Please set it by clicking the icon to see quick-view of Salat-times.",
+          "unknownError": "An error occurred. Could not load times at this moment."
+        }
+      },
       "createPost": {
         "heading": "What's today about?",
         "desc": "Click here to share an update or use an option from below",
@@ -243,9 +252,7 @@
             "hadiyah": "Create Hadiyah | Update Hadiyah"
           },
           "postCta": "Post | Update",
-          "stream": {
-            "scheduleCta": "Save for later | Start Streaming"
-          },
+          "stream": { "scheduleCta": "Save for later | Start Streaming" },
           "hadiya": {
             "dedication": {
               "placeholder": "Who do you want to gift this to?",
@@ -273,9 +280,7 @@
         "textboxPlaceholder": "Write your comment here",
         "requestToLogin": "Login or Signup to start discussion"
       },
-      "post": {
-        "dateUntil": "Until: {date} at {time}"
-      },
+      "post": { "dateUntil": "Until: {date} at {time}" },
       "addEditRel": {
         "title": {
           "request": "Request Surah-al-fatiha",
@@ -339,7 +344,8 @@
       "location": {
         "title": "Change Location",
         "search_ph": "Search your location",
-        "autoDetectInfo": "Enter your location or click the auto-detect icon to get your location."
+        "autoDetectInfo": "Enter your location or click the auto-detect icon to get your location.",
+        "setLocation": "Set location"
       },
       "readText": {
         "ctaLabel": "Read",
@@ -428,10 +434,7 @@
     },
     "authPage": {
       "form": {
-        "name": {
-          "label": "Your name",
-          "placeholder": "Enter your full name"
-        },
+        "name": { "label": "Your name", "placeholder": "Enter your full name" },
         "email": {
           "label": "Email",
           "placeholder": "Registered Email | Enter your email"
@@ -458,14 +461,9 @@
         "card": {
           "heading": "Install Bazm { platform }",
           "desc": "Download Android app for a better experience, personalized content, notifications and everything of your interest from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
-          "cta": {
-            "action": "Install",
-            "skip": "Maybe later"
-          }
+          "cta": { "action": "Install", "skip": "Maybe later" }
         },
-        "prompt": {
-          "heading": "Install Bazm shortcut?"
-        }
+        "prompt": { "heading": "Install Bazm shortcut?" }
       },
       "webFeedback": {
         "heading": "How is your experience so far?",
@@ -492,6 +490,52 @@
       "cookieBanner": {
         "firstPara": "We do not store any cookies on your {device} but third party apps used in our app might (such as, Google Analytics). We instead use permanent storage to store any important data, and in most cases, this is encrypted in storage and during tranfer.",
         "secondPara": "By continuing to use this app, you hereby confirm that you don't have any issues with our choices. To find out more about our cookies and data use, see our <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Social Network App for Shia muslims around the world! Download the app today.",
+      "home": {
+        "title": "Bazm - Online Shia community app!",
+        "description": "Bazm app is the Shia community app that meets all your daily needs of deen & mazhab. Find Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books, etc. for all dates and occasions. Watch and do live-stream events and majalis with Shia-muslims around the world from the convenience of your home. Join today!"
+      },
+      "feed": {
+        "title": "Find tailored content and share with shia community around you and the world",
+        "description": "Find and share news, events, and content with shia momineen around, and keep them informed about any events you're hosting. Learn about anything happening near you on the app."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal and so much more for you!",
+        "description": "Find Nauhe, Majalis, Dua, Aamaal, ziyarat and so much more for all dates and occasion. Watch and do live-stream majalis from the convenience of your home! Join the Shia social network app that helps you with routine tasks of deen & mazhab. Join today!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Daily Azaan alarm, question-answer and tools for Shia muslims",
+        "description": "Get daily reminder for Adhan, find & ask question-answer on topics of deen & islam, or request Surah-fatiha or Namaz-e-Wahshat for your marhumeen, and more tools on Bazm. Join the Shia social network app that helps you with routine tasks of deen. Find Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat for all dates and occasions. Live-stream events and majalis from the convenience of your home. Join today!"
+      },
+      "tasbeehCounter": {
+        "title": "Automatic tasbeeh counter with Voice __ Tasbeeh Counter tool",
+        "description": "Reciting countless tasbeeh is now easier with our Audio tasbeeh counters. Recite your tasbeeh while you're driving or working, still keeping track of the count with voice counters. Get this tool and others like it on Bazm app. Download today."
+      },
+      "accountHome": {
+        "title": "Bazm - Create your free account today and get help with your daily needs of deen!",
+        "description": "Join the Bazm app today to meet all your needs to deeniyat. Find nohe/nauhe, majalis, dua, ziyarat, aamaal for all dates and occasions. Live-stream and watch majalis & events from around you; find posts, content and momineen from around you and the world, and so much more on the app. Join today!"
+      },
+      "nauheListPage": {
+        "title": "Listen to Nauhe from popular nauhakhwan around the world",
+        "description": "Listen to nauhe from all years and all popular nauhakhwan from around the world on Bazm app. Download today."
+      },
+      "soazListPage": {
+        "title": "Listen to Soaz from popular Soazkhwan around the world",
+        "description": "Listen to Soaz from all years and all popular Soazkhwan from around the world on Bazm app. Download today."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal, etc. on Bazm",
+        "description": "Find audio/video majalis from Maulana and Zakir-e-Ahlbayt from near you and around the world. Listen to and watch latest majalis and livestream sessions on Bazm app. Download the app today and join millions of Shi'a muslims around the world!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas and aamaal for the month of {month} on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal, etc. on Bazm",
+          "Duas and aamaal for all months on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal, etc. on Bazm"
+        ],
+        "description": "Find duas, aamaal, ziyarat and munajat for all months on Bazm, date and event wise. Download the app today and join millions of Shi'a muslims around the world!"
       }
     }
   }
