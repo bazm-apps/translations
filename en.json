@@ -365,7 +365,7 @@
         "copyText": "Clicked {icon} icon to copy below content:"
       },
       "verifyMob": {
-        "title": "Verify Mobile | Enter the code",
+        "title": ["Verify Mobile", "Enter the code"],
         "page1": {
           "infoText1": "We need your mobile number to verify your identity. You may also get occasional updates.",
           "infoText2": "Enter your number and click the button to get your confirmation code: | Enter your number and click a button to get your confirmation code:"
@@ -420,6 +420,30 @@
           "searchYourLang": "Search your language",
           "desc": "Choose the language in which you would like to see the app content. Click on a language and wait (it takes sometime to load the translation) to see how this phrase appears in selected language."
         }
+      },
+      "forgotPwd": {
+        "title": "Forgot password?",
+        "introText": "Resetting your password is easy. Select a method to continue:",
+        "usePhoneCta": "Use Phone",
+        "useEmailCta": "Use Email",
+        "sendEmailIntro": "Enter the email address that you created your account with, and we'll send an email with link to setup a new password for your account.",
+        "emailInputLabel": "Your registered email",
+        "sendEmailCta": "Send Reset Email",
+        "sentEmailText": "If you have an account with us, you will get a password-reset email shortly on <strong>{email}</strong>. Kindly check your email for the link.",
+        "notUsingEmailText": "Not using <strong>{email}?</strong>",
+        "changeEmailCta": "Change Email",
+        "phoneIntroText": "Enter the phone-number added to your account. We'll send an OTP to verify your ownership, and in the next step, you will be able to create a new password.",
+        "phoneInputLabel": "Your mobile number",
+        "sendOtpCta": "Send OTP",
+        "backToLoginCta": "Back to Login",
+        "disclaimerText": "Please note that you'll get an {item} only if you have the {item} registered with us"
+      },
+      "resetPwd": {
+        "title": "Reset Password",
+        "introText": "Set a secure password for your account here. Click {icon} to ensure that you're entering the right password.",
+        "pwdInputLabel": "Set new password",
+        "pwdInputPH": "Enter new password",
+        "invalidPwdChars": "Invalid characters in password"
       }
     },
     "actions": {
@@ -437,11 +461,11 @@
         "name": { "label": "Your name", "placeholder": "Enter your full name" },
         "email": {
           "label": "Email",
-          "placeholder": "Registered Email | Enter your email"
+          "placeholder": ["Your registered email", "Enter your email"]
         },
         "password": {
           "label": "Password",
-          "placeholder": "Your password | Enter a password"
+          "placeholder": ["Your password", "Enter a password"]
         },
         "rememberLogin": "Remember login",
         "forgotPwd": "Forgot Password?",
