@@ -38,18 +38,30 @@
       "submit": "Submit",
       "share": "Share",
       "at": "at",
-      "untilNextTime": "No problem. Until nextTime!"
+      "untilNextTime": "No problem. Until nextTime!",
+      "plzWait": "Please wait.."
     },
     "errors": {
       "service": {
         "unavailable": "Service unavailable at this moment. Please try again later.",
-        "unknown": "An unknown error occurred. Please try again later."
+        "unknown": "An unknown error occurred. Please try again later.",
+        "general": "An error occurred while processing your request. Please try again later."
       },
       "content": {
         "unavailable": "Could not load the content at this time. Please try again in a while.",
         "itemDetailUnavailable": "Could not find details for this {item}",
         "loadMoreError": "Failed to load more items. Please try again later."
       }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "notify": "Notify",
+      "like": "Like",
+      "recited": "Recited",
+      "comment": "Comment",
+      "reply": "Reply",
+      "bookmark": "Bookmark",
+      "audienceHeader": "Momineen who {action}d | Momineen who {action}d this"
     },
     "navbar": {
       "home": { "title": "Home" },
@@ -144,7 +156,10 @@
             "toast_granted": "Thank you! You will get notified at alarm times now.",
             "toast_denied": "Notification request denied. Please allow the access for app to work properly.",
             "toast_prompt": "You need to allow notification access to set alarms."
-          }
+          },
+          "jsAlarmSetSuccess": "Alarms set successfully",
+          "jsAlarmSetError": "Error in setting alarms. Please try again later.",
+          "jsAlarmSnoozed": "Alarm snoozed for 10 minutes"
         },
         "alarmSetting": {
           "title": "Alarm Settings",
@@ -157,7 +172,8 @@
           "timesPeekHeading": "Display times banner",
           "timesPeekDesc": "You can disable display of quick view of times for Salat here:",
           "timesPeekHome": "Show on feeds page:",
-          "timesPeekTools": "Show on tools page:"
+          "timesPeekTools": "Show on tools page:",
+          "jsOtherSettingsSaved": "Other settings saved. Location was not changed."
         },
         "qna": {
           "title": "Question-Answer",
@@ -175,6 +191,7 @@
         "shareUpdateToFeed": "Also share this update to my feed",
         "statusText_ph": "Use _italics_ or *bold* formatting to decorate your status",
         "statusCharsLeft": "{count} characters left",
+        "jsImgUploadSuccess": "Images uploaded successfully!",
         "unauthAccess": {
           "heading": "Are you sure you're at the right place?",
           "desc": "<p>It looks like you were trying to access a page for which you didn't have permission. If you were trying to access a page you've accessed previously, try to login; that should solve the problem.</p><p>Please feel free to contact us if the problem persists.</p>"
@@ -207,7 +224,10 @@
             }
           }
         },
-        "about": { "title": "About" },
+        "about": {
+          "title": "About",
+          "jsStatusUpdateFail": "Failed to update status. Please try again later."
+        },
         "posts": {
           "title": "Posts",
           "userNoPosts": "When you change your picture/cover image, or when you request for surah-fatiha for your demised loved ones, these posts will appear here and in <b>Home</b> tab (of others too). Try adding a picture or cover image?",
@@ -218,7 +238,9 @@
           "header": {
             "marhumeenNotAdded": "{name} hasn't marhumeen added yet | You haven't added marhumeen yet",
             "marhumeenAdded": "{name} has added following marhumeen | You have added following marhumeen"
-          }
+          },
+          "jsDeletePrompt": "Deleting records for <b>{fullName}</b> will also delete all previous requests made for {gender}! Continue?",
+          "jsDeleted": "Deleted records for {marhumeen}"
         }
       }
     },
@@ -269,7 +291,13 @@
           "addLocation": "Add location",
           "addPics": "Add pictures to your post",
           "previewDes": "This is how your post would appear in feed of other people. People can tap on the video to see it in full screen.",
-          "addToPost": "Add to {postType} (optional)"
+          "addToPost": "Add to {postType} (optional)",
+          "jsImgUploadFail": "Image was not uploaded",
+          "jsAddDetailToPost": "Please add details to your post",
+          "jsValidEndDate": "Please choose a valid end date",
+          "jsSetLocation": "Please set location for the post",
+          "jsRemLocation": "Please set a location or remove that section",
+          "jsAddImg": "Please add images or remove that section"
         }
       },
       "comments": {
@@ -311,7 +339,10 @@
         "remainingChars": "Characters: {count} | Characters: {count} remaining",
         "infoEditRelative": "You can edit details for {name} in your <b>Account > Souls</b> section",
         "saveRequestCta": "Save & Request | Request",
-        "addUpdate": "Add | Update"
+        "addUpdate": "Add | Update",
+        "jsAddSuccess": "Added your loved one successfully!",
+        "jsAddFail": "Failed to add your loved one. Please try again later.",
+        "jsReqSuccess": "Request submitted succesfully."
       },
       "askQues": {
         "title": "Ask a question",
@@ -345,7 +376,9 @@
         "title": "Change Location",
         "search_ph": "Search your location",
         "autoDetectInfo": "Enter your location or click the auto-detect icon to get your location.",
-        "setLocation": "Set location"
+        "setLocation": "Set location",
+        "jsMatchNotFound": "Could not find any matching locations..",
+        "jsEnterValidLoc": "Please enter a valid location"
       },
       "readText": {
         "ctaLabel": "Read",
@@ -362,6 +395,7 @@
       },
       "shareBtn": {
         "subtext": "Click one of the options below to share this on respective app:",
+        "jsCopyToCB": "Copied to your clipboard",
         "copyText": "Clicked {icon} icon to copy below content:"
       },
       "verifyMob": {
@@ -385,7 +419,9 @@
           "resendCode": "Resend Code",
           "notUsingMobile": "Not using <strong>{number}?</strong>",
           "changeNumber": "Change Number"
-        }
+        },
+        "jsVerifySuccess": "Mobile verified successfully",
+        "jsVerifyError": "An error occurred. Please try again later."
       },
       "userSettings": {
         "personalSharingMsg": "Personalize Sharing message",
@@ -419,7 +455,12 @@
         "changeLang": {
           "searchYourLang": "Search your language",
           "desc": "Choose the language in which you would like to see the app content. Click on a language and wait (it takes sometime to load the translation) to see how this phrase appears in selected language."
-        }
+        },
+        "jsPwdInvalid": "Password has invalid characters.",
+        "jsPwdCharCount": "Password cannot be less than 8 characters.",
+        "jsSelectLang": "Please select a language first.",
+        "jsLangSet": "Language has been set to {lang}",
+        "jsPrefSaved": "Personalization settings saved."
       },
       "forgotPwd": {
         "title": "Forgot password?",
@@ -436,25 +477,27 @@
         "phoneInputLabel": "Your mobile number",
         "sendOtpCta": "Send OTP",
         "backToLoginCta": "Back to Login",
-        "disclaimerText": "Please note that you'll get an {item} only if you have the {item} registered with us"
+        "disclaimerText": "Please note that you'll get an {item} only if you have the {item} registered with us",
+        "jsMailSent": "Mail sent"
       },
       "resetPwd": {
         "title": "Reset Password",
         "introText": "Set a secure password for your account here. Click {icon} to ensure that you're entering the right password.",
         "pwdInputLabel": "Set new password",
         "pwdInputPH": "Enter new password",
-        "invalidPwdChars": "Invalid characters in password"
+        "invalidPwdChars": "Invalid characters in password",
+        "jsResetSuccess": "Password reset successfully!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Failed to load the track. Please try again later."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} deleted successfully."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Nothing to update!",
+        "jsProfileUpdated": "Profile updated!"
       }
-    },
-    "actions": {
-      "cancel": "Cancel",
-      "notify": "Notify",
-      "like": "Like",
-      "recited": "Recited",
-      "comment": "Comment",
-      "reply": "Reply",
-      "bookmark": "Bookmark",
-      "audienceHeader": "Momineen who {action}d | Momineen who {action}d this"
     },
     "authPage": {
       "form": {
@@ -472,13 +515,35 @@
         "connectUsing": "Or, connect using",
         "useSavedAccount": "Use saved accounts",
         "lastLogin": "Last login",
-        "needAccount": "Need an account?"
+        "needAccount": "Need an account?",
+        "form": {
+          "jsEnterFullName": "Please enter your full name.",
+          "jsEnterValidName": "Please enter a valid name.",
+          "jsEnterValidEmail": [
+            "Please enter a valid email.",
+            "The email has invalid characters. Please enter a valid email."
+          ],
+          "jsSelectCountryCode": "Please select your country code from list",
+          "jsEnterMobile": "Please enter your mobile number.",
+          "jsEnterValidMobile": "Please enter a valid mobile number",
+          "jsEnterPwd": "Please enter your password!",
+          "jsEnterValidPwd": [
+            "Password has invalid characters. Please enter a valid password.",
+            "Password should be at least {num} characters."
+          ],
+          "jsAccountSuccess": "Account created successfully",
+          "jsFbError": "Could not get your Facebook account details. Please try again."
+        },
+        "resetPwdSuccess": "You can use your new password to login now"
       },
       "gotoSignup": "Goto Sign Up",
       "alreadyHasAccount": "Already have an account?",
       "gotoLogin": "Goto Login",
       "gotoProfile": "Goto Profile",
-      "msgForAuthUser": "<p>We think you landed here by mistake, as you are already logged in.</p><p>You can check your profile to see how it looks, or use one of the links below to browse other sections:</p>"
+      "msgForAuthUser": "<p>We think you landed here by mistake, as you are already logged in.</p><p>You can check your profile to see how it looks, or use one of the links below to browse other sections:</p>",
+      "jsLoggedOut": "You have been logged out.",
+      "jsLogoutHeading": "Logout from account?",
+      "jsLogoutText": "This will delete the information saved locally which enables logging in <b>quickly</b>. Continue?"
     },
     "banners": {
       "appInstall": {
