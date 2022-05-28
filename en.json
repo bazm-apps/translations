@@ -4,6 +4,8 @@
       "refresh": "Pull to refresh",
       "refreshing": "Refreshing...",
       "loadingMore": "Loading more...",
+      "checking": "Checking...",
+      "sendOtp": "Sending OTP..",
       "dismiss": "Dismiss",
       "invite": "Invite",
       "showMore": "Show more | See more",
@@ -51,6 +53,9 @@
         "unavailable": "Could not load the content at this time. Please try again in a while.",
         "itemDetailUnavailable": "Could not find details for this {item}",
         "loadMoreError": "Failed to load more items. Please try again later."
+      },
+      "url": {
+        "invalid": "Invalid URL. Please try with a new URL."
       }
     },
     "actions": {
@@ -173,6 +178,7 @@
           "timesPeekDesc": "You can disable display of quick view of times for Salat here:",
           "timesPeekHome": "Show on feeds page:",
           "timesPeekTools": "Show on tools page:",
+          "jsConfirmLocChange": "Changing your location will cancel all the previously set alarms. Continue?",
           "jsOtherSettingsSaved": "Other settings saved. Location was not changed."
         },
         "qna": {
@@ -353,16 +359,17 @@
           "quesTextHeader": "Your Question:",
           "selectCat": "Set Question Category:",
           "askAnonLabel": "Ask Anonymously?",
-          "askAnonInfo": "Your name will not be sent to the Scholar when requesting an answer on your behalf, neither will it be display across our app with this question. But anonymous questions may not be answered quickly.",
+          "askAnonInfo": "Your name will not be sent to the Scholar when requesting an answer on your behalf, neither will it be displayed across our app with this question. But anonymous questions may not be answered quickly.",
           "askViaLabel": "Ask Via",
           "askSistaniInfo": "You can ask a question to be answered by the office of his eminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. We will forward the question to their website (along with your profile information). Make sure you've read the <b>Terms & Conditions</b> properly.",
           "tncLabel": "Terms & Conditions:",
-          "showHide": "Show | Hide",
+          "showHide": ["Show", "Hide"],
           "sistaniOrgTncInfo": "Consider following points from their website before you ask a question, because if you do not adhere to below points, you may not hear back from them, or may not receive any answers.",
           "userInfo": {
             "aboutLabel": "About you",
             "genderLabel": "Your gender",
-            "bdayLabel": "Your birthday"
+            "bdayLabel": "Your birthday",
+            "bdayDesc": "You can ask question only if you're over 09 years old. If you're still interested, please contact us."
           }
         },
         "askQuesCta": "Ask your question"
@@ -402,7 +409,10 @@
         "title": ["Verify Mobile", "Enter the code"],
         "page1": {
           "infoText1": "We need your mobile number to verify your identity. You may also get occasional updates.",
-          "infoText2": "Enter your number and click the button to get your confirmation code: | Enter your number and click a button to get your confirmation code:"
+          "infoText2": [
+            "Enter your number and click the button to get your confirmation code:",
+            "Enter your number and click a button to get your confirmation code:"
+          ]
         },
         "form": {
           "mobileLabel": "Mobile Number",
@@ -421,7 +431,10 @@
           "changeNumber": "Change Number"
         },
         "jsVerifySuccess": "Mobile verified successfully",
-        "jsVerifyError": "An error occurred. Please try again later."
+        "jsVerifyError": "An error occurred. Please try again later.",
+        "jsSendOtpFailed": "Failed to send OTP. Please try again later.",
+        "jsSendOtpSuccess": "OTP sent to {mobile}",
+        "jsTooManyRequests": "Looks like you've tried too many times already. Please wait a minute or two and try again."
       },
       "userSettings": {
         "personalSharingMsg": "Personalize Sharing message",
@@ -491,9 +504,7 @@
       "mediaPlayer": {
         "jsTrackLoadFailed": "Failed to load the track. Please try again later."
       },
-      "moreBtn": {
-        "jsItemDeleted": "{item} deleted successfully."
-      },
+      "moreBtn": { "jsItemDeleted": "{item} deleted successfully." },
       "editProfileModal": {
         "jsEmptyData": "Nothing to update!",
         "jsProfileUpdated": "Profile updated!"
