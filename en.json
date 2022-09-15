@@ -38,10 +38,36 @@
       "retry": "Retry",
       "send": "Send",
       "submit": "Submit",
-      "share": "Share",
+      "share": "Share | Share now",
       "at": "at",
       "untilNextTime": "No problem. Until nextTime!",
-      "plzWait": "Please wait.."
+      "plzWait": "Please wait..",
+      "saving": "Saving.. | Updating..",
+      "search": "Search",
+      "late": "Late",
+      "done": "Done",
+      "featureUnavailable": "This feature will be available soon. Thanks fro showing interest!",
+      "actions": {
+        "cancel": "Cancel",
+        "notify": "Notify",
+        "like": "Like",
+        "recited": "Recited",
+        "comment": "Comment",
+        "reply": "Reply",
+        "bookmark": "Bookmark",
+        "uploading": "Uploading..",
+        "deleting": "Deleting..",
+        "requesting": "Requesting..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Sorry, you cannot share {fileType} files here",
+        "jsUpdateAvailable": {
+          "header": "Update available",
+          "message": "You are seeing cached version of the app. Click 'Refresh' to update and load new content and features.",
+          "cta": "Refresh"
+        },
+        "jsImgUploaded": "Image uploaded successfully!",
+        "jsImgUploadErr": "Image upload failed. Please try again later."
+      }
     },
     "errors": {
       "service": {
@@ -58,18 +84,10 @@
         "invalid": "Invalid URL. Please try with a new URL."
       }
     },
-    "actions": {
-      "cancel": "Cancel",
-      "notify": "Notify",
-      "like": "Like",
-      "recited": "Recited",
-      "comment": "Comment",
-      "reply": "Reply",
-      "bookmark": "Bookmark",
-      "audienceHeader": "Momineen who {action}d | Momineen who {action}d this"
-    },
     "navbar": {
-      "home": { "title": "Home" },
+      "home": {
+        "title": "Home"
+      },
       "postDetail": {
         "commonTitle": "Detail",
         "fatihaTitle": "Surah-fatiha",
@@ -80,7 +98,14 @@
       }
     },
     "tabs": {
-      "home": { "name": "Home" },
+      "home": {
+        "name": "Home",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Share this request across your network and reach out to more people!"
+          }
+        }
+      },
       "media": {
         "name": "Media",
         "boxLabels": {
@@ -140,6 +165,7 @@
           "gettingLocation": "Getting your location. Please wait...",
           "settingsTip": "Change <b>Location</b> and preferences in Alarm settings. Click Settings icon to start.",
           "setAlarmHeader": "Set Daily Alarms",
+          "setAlarmOnAppDesc": "Setting alarms is available only on the app",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
           "zuhrLabel": "Zuhr",
@@ -147,7 +173,10 @@
           "maghribLabel": "Maghrib",
           "midnightLabel": "Midnight",
           "sehriEndTime": "Time for end of Sehri",
-          "minToImsak": ["{min} mins before Imsak", "{hour} hour before Imsak"],
+          "minToImsak": [
+            "{min} mins before Imsak",
+            "{hour} hour before Imsak"
+          ],
           "minToImsakDesc": [
             "Alarm rings {min} minutes before end of Sehri time",
             "Alarm rings {hour} hour before end of Sehri time"
@@ -187,8 +216,13 @@
           "seeAnswer": "See answer",
           "noAnswer": "No answer"
         },
-        "qnaDetail": { "title": "Answers for: {ques}" },
-        "tasbeehCounter": { "title": "Tasbeeh Counter" }
+        "qnaDetail": {
+          "title": "Answers for: {ques}",
+          "jsSubmitSuccess": "You question has been submitted successfully. We'll update you once we receive answer on it."
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh Counter"
+        }
       },
       "user": {
         "name": "User | Account",
@@ -245,6 +279,7 @@
             "marhumeenNotAdded": "{name} hasn't marhumeen added yet | You haven't added marhumeen yet",
             "marhumeenAdded": "{name} has added following marhumeen | You have added following marhumeen"
           },
+          "jsDeleteHeader": "Are you sure?",
           "jsDeletePrompt": "Deleting records for <b>{fullName}</b> will also delete all previous requests made for {gender}! Continue?",
           "jsDeleted": "Deleted records for {marhumeen}"
         }
@@ -273,6 +308,13 @@
         "desc": "Click here to share an update or use an option from below",
         "request": "Request",
         "askQues": "Ask Question",
+        "sheetOptions": {
+          "header": "Make a request",
+          "subheader": "Make a request from momineen for your marhumeen or yourself.",
+          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat at Zari-e-Imam Husain (a.s.) on your behalf"
+        },
         "modal": {
           "titles": {
             "post": "Create Post | Update Post",
@@ -280,7 +322,9 @@
             "hadiyah": "Create Hadiyah | Update Hadiyah"
           },
           "postCta": "Post | Update",
-          "stream": { "scheduleCta": "Save for later | Start Streaming" },
+          "stream": {
+            "scheduleCta": "Save for later | Start Streaming"
+          },
           "hadiya": {
             "dedication": {
               "placeholder": "Who do you want to gift this to?",
@@ -290,7 +334,10 @@
               "minUsersInput": "Enter minimum number"
             }
           },
-          "postTime": "When is it? | When do you want to start streaming?",
+          "postTime": [
+            "When is it?",
+            "When do you want to start streaming?"
+          ],
           "whereIsIt": "Where is it?",
           "findLocation": "Find location",
           "locationSubtext": "Add location to your post",
@@ -303,7 +350,11 @@
           "jsValidEndDate": "Please choose a valid end date",
           "jsSetLocation": "Please set location for the post",
           "jsRemLocation": "Please set a location or remove that section",
-          "jsAddImg": "Please add images or remove that section"
+          "jsAddImg": "Please add images or remove that section",
+          "jsInvalidDate": [
+            "Please set a valid start date ",
+            "Please set a valid start date  or remove that section"
+          ]
         }
       },
       "comments": {
@@ -314,41 +365,89 @@
         "textboxPlaceholder": "Write your comment here",
         "requestToLogin": "Login or Signup to start discussion"
       },
-      "post": { "dateUntil": "Until: {date} at {time}" },
+      "post": {
+        "addressYou": "You",
+        "addressing": "your | his | her",
+        "itemTypes": {
+          "avatar": "avatar image",
+          "banner": "banner image",
+          "status": "profile status"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> updated {addressing} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Until: {date} at {time}",
+        "privatePost": "This post is visible only to you",
+        "descZiyaratRequest": "You requested Ziyarat to be performed on your behalf at *haram* of Imam Husain (a.s.) on *{date}*"
+      },
       "addEditRel": {
         "title": {
           "request": "Request Surah-al-fatiha",
-          "addUpdate": "Update loved one | Add loved one"
+          "addUpdate": [
+            "Update loved one",
+            "Add loved one"
+          ]
         },
-        "heading": "Add a loved-one who has passed on | Select a loved one from the list or add a loved-one who has passed on",
+        "heading": [
+          "Add a loved-one who has passed on",
+          "Select a loved one from the list or add a loved-one who has passed on"
+        ],
         "addNew": "Add New",
-        "subheader": "Add details of your loved one | You can also include a message in your request",
+        "subheader": [
+          "Add details of your loved one",
+          "You can also include a message in your request"
+        ],
         "form": {
+          "jsAddImg": "Add image for your loved one",
+          "jsRemoveImg": "Remove image",
           "fullName": "Full Name Of Deceased",
           "name_ph": "E.g., Syed Zeeshan Haider Abidi",
           "fathersName": "Father's Name (If available)",
           "father_ph": "E.g., Syed Tauqeer Husain",
-          "male": "Male",
-          "female": "Female",
-          "relation": "Your relationship with her | Your relationship with him",
+          "nameError": "Please enter full name withour any special characters",
+          "genderLabel": "Gender",
+          "genderValue": [
+            "Female",
+            "Male"
+          ],
+          "relation": [
+            "Marhooma is your",
+            "Marhoom is your"
+          ],
+          "selectRelation": "Select Relation",
           "demiseLabel": "Demised today? Request Namaz-e-Wahshat",
           "demiseText": "We're very sorry to hear about your loss. May Allah give you and your family the strength to bear this loss with patience and may Allah reward the demised soul with highest places in Jannah. Choosing this option enables you to ask momineen for Namaz-e-Wahshat for the demised soul.",
           "optional": "Optional",
           "dod": "Passed away on",
           "dob": "Was born on"
         },
-        "relation": "Daughter of | Son of",
+        "relation": [
+          "Daughter of",
+          "Son of"
+        ],
         "born": "Born:",
         "died": "Died:",
         "addMsg": "Want to add a message?",
-        "addMsg_ph": "Example:\n Inna lillahi wa inna ilaihe raje'un. Please recite a surah-e-fatiha and 2-rak'at namaz-e-wahshat for my uncle, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, who left us all crying behind to meet his creator.",
+        "addMsg_ph": "For example:\nInna lillahi wa inna ilaihe raje'un. Please recite a surah-e-fatiha and 2-rak'at namaz-e-wahshat for my uncle, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, who left us all crying behind to meet his creator.",
         "remainingChars": "Characters: {count} | Characters: {count} remaining",
-        "infoEditRelative": "You can edit details for {name} in your <b>Account > Souls</b> section",
-        "saveRequestCta": "Save & Request | Request",
+        "infoEditRelative": "You can edit details for {name} in your <b>Account > Marhumeen</b> section",
+        "saveRequestCta": [
+          "Save & Request",
+          "Request"
+        ],
         "addUpdate": "Add | Update",
-        "jsAddSuccess": "Added your loved one successfully!",
+        "jsRequesting": "Requesting..",
+        "jsAddSuccess": [
+          "Added your loved one successfully!",
+          "Update your loved one successfully!"
+        ],
         "jsAddFail": "Failed to add your loved one. Please try again later.",
-        "jsReqSuccess": "Request submitted succesfully."
+        "jsReqSuccess": "Request submitted succesfully.",
+        "jsGettingMarhumeen": "Getting your marhumeen.."
       },
       "askQues": {
         "title": "Ask a question",
@@ -363,14 +462,18 @@
           "askViaLabel": "Ask Via",
           "askSistaniInfo": "You can ask a question to be answered by the office of his eminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. We will forward the question to their website (along with your profile information). Make sure you've read the <b>Terms & Conditions</b> properly.",
           "tncLabel": "Terms & Conditions:",
-          "showHide": ["Show", "Hide"],
+          "showHide": [
+            "Show",
+            "Hide"
+          ],
           "sistaniOrgTncInfo": "Consider following points from their website before you ask a question, because if you do not adhere to below points, you may not hear back from them, or may not receive any answers.",
           "userInfo": {
             "aboutLabel": "About you",
             "genderLabel": "Your gender",
             "bdayLabel": "Your birthday",
             "bdayDesc": "You can ask question only if you're over 09 years old. If you're still interested, please contact us."
-          }
+          },
+          "jsQuesAdded": "Question added successfully."
         },
         "askQuesCta": "Ask your question"
       },
@@ -384,8 +487,17 @@
         "search_ph": "Search your location",
         "autoDetectInfo": "Enter your location or click the auto-detect icon to get your location.",
         "setLocation": "Set location",
+        "ipAddress": "IP address",
+        "alarmLocation": "Alarm location",
+        "basedOn": "Location based on your {selector}",
+        "jsDetecting": "Detecting, please wait..",
+        "jsPermDenied": "Location permission denied for app. Please reset the location preference for this app by visiting Settings section in your phone.",
+        "jsPosUnavailable": "We're sorry, but position is not available for this phone right now. Please try again later.",
         "jsMatchNotFound": "Could not find any matching locations..",
-        "jsEnterValidLoc": "Please enter a valid location"
+        "jsEnterValidLoc": "Please enter a valid location",
+        "jsGeoUnavailable": "We're sorry, but position is not available for this phone right now. Please try again later.",
+        "jsLocMissing": "Could not find your location. Please enter location manually.",
+        "jsSelectedLoc": "There's an error with this location. Please try again"
       },
       "readText": {
         "ctaLabel": "Read",
@@ -403,10 +515,13 @@
       "shareBtn": {
         "subtext": "Click one of the options below to share this on respective app:",
         "jsCopyToCB": "Copied to your clipboard",
-        "copyText": "Clicked {icon} icon to copy below content:"
+        "copyText": "Click <b>Copy</b> icon above to copy the below content:"
       },
       "verifyMob": {
-        "title": ["Verify Mobile", "Enter the code"],
+        "title": [
+          "Verify Mobile",
+          "Enter the code"
+        ],
         "page1": {
           "infoText1": "We need your mobile number to verify your identity. You may also get occasional updates.",
           "infoText2": [
@@ -504,22 +619,53 @@
       "mediaPlayer": {
         "jsTrackLoadFailed": "Failed to load the track. Please try again later."
       },
-      "moreBtn": { "jsItemDeleted": "{item} deleted successfully." },
+      "moreBtn": {
+        "jsItemDeleted": "{item} deleted successfully.",
+        "jsErrReporting": "Cannot report this at the moment. Please try again later.",
+        "jsAlreadyReported": "You've already reported this {item}. You cannot report it more than once.",
+        "jsPromptHeading": "Reporting an item results in it's lower chances of appearing in your or other's feed/pages. Do you still want to report this?",
+        "jsReporting": "Reporting {itemType}..",
+        "jsReportingErr": "Could not submit your request at this moment. Please try again later.",
+        "jsReported": "{item} reported. Thanks for your contribution."
+      },
       "editProfileModal": {
         "jsEmptyData": "Nothing to update!",
         "jsProfileUpdated": "Profile updated!"
+      },
+      "reqZiyarat": {
+        "title": "Request Ziyarat",
+        "cta": "Request",
+        "header": "Request Ziyarat at Imam Hussain (a.s.) Shrine in Karbala on your behalf.",
+        "desc": {
+          "p1": "Every Friday, have <strong>Ziyarat recited on your behalf</strong> at the Shrine of Imam Hussain(a.s.) in Karbala, Iraq! All you need to do is make request <strong>before end of Thursday evening</strong>. You're never too late though; if your request comes in too late, it will be enrolled for the following week.",
+          "p2": "We'll notify you when the ziyarat has been recited on your behalf.",
+          "p3": "Note: When you request for the first time, your details will be shared with our service provider. Please read our Terms & Conditions to know more."
+        },
+        "jsRegistered": "Thank you! Your request is registered successfully. You will get a confirmation mail shortly.",
+        "jsAlreadyRegistered": "You have already registered for Ziyarat this Thursday. Register next week for next week's ziyarat.",
+        "jsConfirm": "To register for this request, we need to share your details (eg, full name, gender, etc.) with our service provider. This is required for the first time only. Kindly confirm to proceed.",
+        "jsDeclined": "Okay! Maybe later."
       }
     },
     "authPage": {
       "form": {
-        "name": { "label": "Your name", "placeholder": "Enter your full name" },
+        "name": {
+          "label": "Your name",
+          "placeholder": "Enter your full name"
+        },
         "email": {
           "label": "Email",
-          "placeholder": ["Your registered email", "Enter your email"]
+          "placeholder": [
+            "Your registered email",
+            "Enter your email"
+          ]
         },
         "password": {
           "label": "Password",
-          "placeholder": ["Your password", "Enter a password"]
+          "placeholder": [
+            "Your password",
+            "Enter a password"
+          ]
         },
         "rememberLogin": "Remember login",
         "forgotPwd": "Forgot Password?",
@@ -527,25 +673,24 @@
         "useSavedAccount": "Use saved accounts",
         "lastLogin": "Last login",
         "needAccount": "Need an account?",
-        "form": {
-          "jsEnterFullName": "Please enter your full name.",
-          "jsEnterValidName": "Please enter a valid name.",
-          "jsEnterValidEmail": [
-            "Please enter a valid email.",
-            "The email has invalid characters. Please enter a valid email."
-          ],
-          "jsSelectCountryCode": "Please select your country code from list",
-          "jsEnterMobile": "Please enter your mobile number.",
-          "jsEnterValidMobile": "Please enter a valid mobile number",
-          "jsEnterPwd": "Please enter your password!",
-          "jsEnterValidPwd": [
-            "Password has invalid characters. Please enter a valid password.",
-            "Password should be at least {num} characters."
-          ],
-          "jsAccountSuccess": "Account created successfully",
-          "jsFbError": "Could not get your Facebook account details. Please try again."
-        },
-        "resetPwdSuccess": "You can use your new password to login now"
+        "resetPwdSuccess": "You can use your new password to login now",
+        "jsEnterFullName": "Please enter your full name.",
+        "jsEnterValidName": "Please enter a valid name.",
+        "jsEnterValidEmail": [
+          "Please enter a valid email.",
+          "The email has invalid characters. Please enter a valid email."
+        ],
+        "jsSelectCountryCode": "Please select your country code from list",
+        "jsEnterMobile": "Please enter your mobile number.",
+        "jsEnterValidMobile": "Please enter a valid mobile number",
+        "jsEnterPwd": "Please enter your password!",
+        "jsEnterValidPwd": [
+          "Password has invalid characters. Please enter a valid password.",
+          "Password should be at least {num} characters."
+        ],
+        "jsAccountSuccess": "Account created successfully",
+        "jsFbError": "Could not get your Facebook account details. Please try again.",
+        "jsPromptClosedErr": "Login prompt was closed before finishing. Please try again."
       },
       "gotoSignup": "Goto Sign Up",
       "alreadyHasAccount": "Already have an account?",
@@ -561,9 +706,17 @@
         "card": {
           "heading": "Install Bazm { platform }",
           "desc": "Download Android app for a better experience, personalized content, notifications and everything of your interest from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
-          "cta": { "action": "Install", "skip": "Maybe later" }
+          "cta": {
+            "action": "Install",
+            "skip": "Maybe later"
+          }
         },
-        "prompt": { "heading": "Install Bazm shortcut?" }
+        "prompt": {
+          "heading": "Install Bazm shortcut?"
+        },
+        "popover": {
+          "text": "Click on the Share icon (looks like one on the right) <strong>BELOW</strong> and then click <strong>Add to Home Screen</strong>. Click \"Save\" to finish, and then you can access the app from shortcut on your homescreen!"
+        }
       },
       "webFeedback": {
         "heading": "How is your experience so far?",
@@ -588,8 +741,9 @@
         "toast": "No problem. Until next time!"
       },
       "cookieBanner": {
-        "firstPara": "We do not store any cookies on your {device} but third party apps used in our app might (such as, Google Analytics). We instead use permanent storage to store any important data, and in most cases, this is encrypted in storage and during tranfer.",
-        "secondPara": "By continuing to use this app, you hereby confirm that you don't have any issues with our choices. To find out more about our cookies and data use, see our <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+        "header": "About saving Cookies on your device",
+        "p1": "We do not store any cookies on your {device} but third party apps used in our app might (such as, Google Analytics). We instead use permanent storage to store any important data, and in most cases, this is encrypted in storage and during transfer.",
+        "p2": "By continuing to use this app, you hereby confirm that you don't have any issues with our choices. To find out more about our cookies and data use, see our <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
       }
     },
     "meta": {
