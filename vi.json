@@ -1,1 +1,809 @@
-undefined
+{
+  "vi": {
+    "common": {
+      "refresh": "Kéo để làm mới",
+      "refreshing": "Làm mới...",
+      "loadingMore": "Đang tải thêm ...",
+      "checking": "Kiểm tra...",
+      "sendOtp": "Gửi OTP..",
+      "dismiss": "Bỏ",
+      "invite": "Mời",
+      "showMore": "Hiển thị nhiều hơn | Xem thêm",
+      "play": "Chơi",
+      "pause": "Tạm dừng",
+      "playing": "Chơi",
+      "paused": "Tạm dừng",
+      "watch": "Xem",
+      "read": "Đọc",
+      "authors": "Tác giả | Tác giả",
+      "languages": "Ngôn ngữ | Ngôn ngữ",
+      "clear": "Trong",
+      "cancel": "Hủy",
+      "change": "Thay đổi",
+      "continue": "Tiếp tục",
+      "select": "Lựa",
+      "saveChanges": "Lưu thay đổi | Lưu | Cập nhật",
+      "newBadge": "Mới",
+      "login": "Đăng nhập",
+      "logout": "Đăng xuất",
+      "signup": "Đăng ký",
+      "settings": "Cài đặt",
+      "cookiePolicy": "Chính sách cookie",
+      "privacy": "Sự riêng tư",
+      "contactUs": "Liên hệ với chúng tôi",
+      "home": "Nhà",
+      "facebook": "Trang chủ",
+      "google": "Google ·",
+      "you": "Mày",
+      "retry": "Thử lại",
+      "send": "Gửi",
+      "submit": "Trình",
+      "share": "Chia sẻ | Chia sẻ ngay",
+      "at": "tại",
+      "untilNextTime": "Không vấn đề gì. Cho đến lần sauTime!",
+      "plzWait": "Hãy chờ..",
+      "saving": "Tiết kiệm.. | Đang cập nhật..",
+      "search": "Tìm kiếm",
+      "late": "Muộn",
+      "done": "Thực hiện",
+      "featureUnavailable": "Tính năng này sẽ sớm ra mắt. Cảm ơn fro cho thấy sự quan tâm!",
+      "actions": {
+        "cancel": "Hủy",
+        "notify": "Thông báo",
+        "like": "Như",
+        "recited": "Đọc thuộc lòng",
+        "comment": "Bình luận",
+        "reply": "Trả lời",
+        "bookmark": "Thẻ đánh dấu",
+        "uploading": "Tải lên..",
+        "deleting": "Xóa..",
+        "requesting": "Yêu cầu..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Rất tiếc, bạn không thể chia sẻ tệp {fileType} tại đây",
+        "jsUpdateAvailable": {
+          "header": "Cập nhật có sẵn",
+          "message": "Bạn đang thấy phiên bản được lưu trong bộ nhớ cache của ứng dụng. Nhấp vào 'Làm mới' để cập nhật và tải nội dung và tính năng mới.",
+          "cta": "Làm tươi"
+        },
+        "jsImgUploaded": "Hình ảnh được tải lên thành công!",
+        "jsImgUploadErr": "Tải lên hình ảnh không thành công. Vui lòng thử lại sau."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Dịch vụ không khả dụng tại thời điểm này. Vui lòng thử lại sau.",
+        "unknown": "Đã xảy ra lỗi không xác định. Vui lòng thử lại sau.",
+        "general": "Đã xảy ra lỗi trong khi xử lý yêu cầu của bạn. Vui lòng thử lại sau."
+      },
+      "content": {
+        "unavailable": "Không thể tải nội dung tại thời điểm này. Vui lòng thử lại sau một lúc.",
+        "itemDetailUnavailable": "Không thể tìm thấy chi tiết cho {item} này",
+        "loadMoreError": "Không thể tải thêm mục. Vui lòng thử lại sau."
+      },
+      "url": {
+        "invalid": "URL không hợp lệ. Vui lòng thử với một URL mới."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Nhà"
+      },
+      "postDetail": {
+        "commonTitle": "Chi tiết",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha &Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Ảnh hồ sơ",
+        "bannerUpdateTitle": "Ảnh bìa (Không dùng nữa)",
+        "statusUpdateTitle": "Cập nhật trạng thái"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Nhà",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Chia sẻ yêu cầu này trên mạng của bạn và tiếp cận với nhiều người hơn!"
+          }
+        }
+      },
+      "media": {
+        "name": "Phương tiện",
+        "boxLabels": {
+          "nauhe": "Nauhe ·",
+          "majalis": "Majalis ·",
+          "soaz": "Soaz ·",
+          "ziyarat": "Ziyaraat ·",
+          "dua": "Duas ·",
+          "munajat": "Munajaat ·",
+          "munajaat": "Munajaat ·",
+          "books": "Sách vở"
+        },
+        "inviteFriends": "mời bạn bè của bạn",
+        "notShia": "Không phải Shia?",
+        "contacts": {
+          "accessRequestHeader": "Liên hệ Truy cập yêu cầu",
+          "accessRequestDesc": "Chúng tôi yêu cầu quyền truy cập của các liên hệ của bạn để đề xuất những người Shia trong danh bạ của bạn để mời vào ứng dụng này."
+        },
+        "audio": "Âm thanh",
+        "video": "Video",
+        "hijri": "Hijri ·",
+        "duaHome": {
+          "wishCtaText": "Chúc bạn bè của bạn!",
+          "wishCtaLabel": "MUỐN"
+        },
+        "books": {
+          "booksByAuthor": "Sách của {author}",
+          "booksInLang": "Sách trong {lang}",
+          "filterBy": "Lọc theo:",
+          "matching": {
+            "authors": "với các tác giả phù hợp",
+            "lang": "với các ngôn ngữ phù hợp",
+            "title": "với đối sánh tiêu đề"
+          }
+        },
+        "booksFilter": {
+          "title": "Tìm sách của tác giả",
+          "searchBox": "Tìm kiếm tác giả theo tên",
+          "selectLang": "Chọn một ngôn ngữ:"
+        },
+        "bookDetails": {
+          "title": "{title} — Tìm thêm sách miễn phí như thế này trên Bazm",
+          "aboutBook": "Về sách:"
+        }
+      },
+      "tools": {
+        "name": "Công cụ",
+        "salatAlarmDesc": "Đặt báo thức cho Azaan theo giờ địa phương của bạn",
+        "sehriAlarmDesc": "Đặt Báo thức cho Sehri hoặc thậm chí nhận cuộc gọi cảnh tỉnh về số của bạn trước Sehri!",
+        "sehriAlarmOptionDisabled": "Báo thức cho thời gian Sheri trong tháng Ramadan (chỉ có sẵn trong tháng Ramadan)",
+        "tasbeehCounterDesc": "Đọc thuộc lòng Duas, Kinh Qur'an và Tasbeeh ở chế độ lặp lại một cách dễ dàng với bộ đếm Tasbeeh âm thanh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Tìm kiếm và đặt câu hỏi hoặc tìm câu trả lời cho masle-masayel từ cuộc sống hàng ngày của bạn về các vấn đề hồi giáo.",
+        "alarms": {
+          "salatAlarms": "Báo động Salat | Báo động Salat hàng ngày",
+          "sehriAlarms": "Báo động Ramadan Sehri",
+          "gettingLocation": "Nhận vị trí của bạn. Hãy chờ...",
+          "settingsTip": "Thay đổi <b>Vị trí</b> và tùy chọn trong cài đặt Báo thức. Nhấp chuột Cài đặt biểu tượng để bắt đầu.",
+          "setAlarmHeader": "Đặt báo thức hàng ngày",
+          "setAlarmOnAppDesc": "Đặt báo thức chỉ khả dụng trên ứng dụng",
+          "imsakLabel": "Imsak ·",
+          "fajrLabel": "Fajr ·",
+          "zuhrLabel": "Zuhr ·",
+          "sunsetLabel": "Hoàng hôn",
+          "maghribLabel": "Maghrib ·",
+          "midnightLabel": "Nửa đêm",
+          "sehriEndTime": "Thời gian kết thúc Sehri",
+          "minToImsak": [
+            "{min} phút trước Imsak",
+            "{giờ} giờ trước Imsak"
+          ],
+          "minToImsakDesc": [
+            "Chuông báo thức {min} vài phút trước khi kết thúc thời gian Sehri",
+            "Chuông báo thức đổ chuông {giờ} giờ trước khi kết thúc thời gian Sehri"
+          ],
+          "notRamadan": "Có vẻ như đó vẫn chưa phải là tháng Ramadan. Vui lòng quay lại trong hoặc ngay trước tháng Ramadan để đặt Báo thức cho Sehri",
+          "push": {
+            "heading": "Yêu cầu quyền truy cập thông báo",
+            "desc_request": "Báo thức hoạt động bằng cách gửi thông báo đẩy vào những thời điểm được chỉ định. Nếu không có quyền truy cập để đẩy, ứng dụng sẽ không hoạt động theo cách mong đợi. Vui lòng cho phép truy cập vào thông báo đẩy của bạn để chúng tôi có thể thông báo cho bạn vào thời điểm báo động.",
+            "desc_denied": "<strong>Bạn đã từ chối quyền truy cập thông báo trước đó.</strong> Nó là cần thiết để thông báo đẩy hoạt động bình thường. Chúng tôi gửi thông báo vào thời điểm báo động.<br/> Vui lòng cho phép truy cập vào thông báo đẩy bằng cách nhấp vào nút.",
+            "cta": "Cho phép",
+            "toast_granted": "Cảm ơn bạn! Bạn sẽ nhận được thông báo vào thời điểm báo động ngay bây giờ.",
+            "toast_denied": "Yêu cầu thông báo bị từ chối. Vui lòng cho phép quyền truy cập để ứng dụng hoạt động bình thường.",
+            "toast_prompt": "Bạn cần cho phép truy cập thông báo để đặt báo thức."
+          },
+          "jsAlarmSetSuccess": "Báo thức được đặt thành công",
+          "jsAlarmSetError": "Lỗi trong việc đặt báo thức. Vui lòng thử lại sau.",
+          "jsAlarmSnoozed": "Báo thức báo lại trong 10 phút"
+        },
+        "alarmSetting": {
+          "title": "Cài đặt báo thức",
+          "locationTitle": "Tìm thành phố để biết thời gian Báo thức",
+          "forLocation": "Báo thức cho vị trí",
+          "calcMethod": "Phương pháp tính toán",
+          "selectAdhanSound": "Chọn âm thanh Adhan",
+          "selectAlarmSound": "Chọn Biểu tượng Âm thanh báo thức",
+          "alarmSoundDesc": "Âm thanh cho thời gian không salat",
+          "timesPeekHeading": "Biểu ngữ Thời gian hiển thị",
+          "timesPeekDesc": "Bạn có thể tắt hiển thị chế độ xem nhanh thời gian cho Salat tại đây:",
+          "timesPeekHome": "Hiển thị trên trang nguồn cấp dữ liệu:",
+          "timesPeekTools": "Hiển thị trên trang công cụ:",
+          "jsConfirmLocChange": "Thay đổi vị trí của bạn sẽ hủy tất cả các báo thức đã đặt trước đó. Tiếp tục?",
+          "jsOtherSettingsSaved": "Đã lưu các cài đặt khác. Vị trí không thay đổi."
+        },
+        "qna": {
+          "title": "Câu hỏi-Trả lời",
+          "qnaSource": "Nguồn",
+          "seeAnswer": "Xem câu trả lời",
+          "noAnswer": "Không có câu trả lời"
+        },
+        "qnaDetail": {
+          "title": "Câu trả lời cho: {ques}",
+          "jsSubmitSuccess": "Câu hỏi của bạn đã được gửi thành công. Chúng tôi sẽ cập nhật cho bạn khi chúng tôi nhận được câu trả lời về nó."
+        },
+        "tasbeehCounter": {
+          "title": "Quầy Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Người dùng | Tài khoản",
+        "editProfile": "Chỉnh sửa hồ sơ",
+        "publishToFeed": "Xuất bản các thay đổi của tôi lên nguồn cấp dữ liệu",
+        "shareUpdateToFeed": "Đồng thời chia sẻ cập nhật này với nguồn cấp dữ liệu của tôi",
+        "statusText_ph": "Sử dụng định dạng _italics_ hoặc *bold* để trang trí trạng thái của bạn",
+        "statusCharsLeft": "{đếm} ký tự còn lại",
+        "jsImgUploadSuccess": "Hình ảnh được tải lên thành công!",
+        "unauthAccess": {
+          "heading": "Bạn có chắc mình đang ở đúng nơi không?",
+          "desc": "<p>Có vẻ như bạn đang cố gắng truy cập vào một trang mà bạn không có quyền. Nếu bạn đang cố gắng truy cập một trang bạn đã truy cập trước đó, hãy thử đăng nhập; điều đó sẽ giải quyết vấn đề.</p> <p>Xin vui lòng liên hệ với chúng tôi nếu sự cố vẫn tiếp diễn.</p>"
+        },
+        "guest": {
+          "welcome": "Chào mừng quý <strong>khách!</strong>",
+          "heading": "Tại sao phải Đăng nhập hoặc Đăng ký?",
+          "desc": "Với một tài khoản trên ứng dụng của chúng tôi, bạn có thể sử dụng một số tính năng. Bắt đầu bằng cách tạo tài khoản, nếu bạn chưa có tài khoản. Hoặc, chỉ cần đăng nhập!",
+          "unlockHeading": "mở khóa sau bằng tài khoản:",
+          "features": {
+            "engage": {
+              "heading": "Tương tác trên ứng dụng",
+              "desc": "Tương tác với những người dùng khác, bày tỏ cảm xúc với bài đăng hoặc yêu cầu của họ, nhận xét ý kiến của bạn, đánh dấu các mục của bạn và hơn thế nữa!"
+            },
+            "fatiha": {
+              "heading": "Đăng yêu cầu Fatiha",
+              "desc": "Đăng yêu cầu Surah-e-Fatiha cho linh hồn của những người thân yêu đã ra đi của bạn và giúp linh hồn của họ được ban phước với những lời cầu nguyện của tất cả người dùng của chúng tôi!"
+            },
+            "askQues": {
+              "heading": "Đặt câu hỏi",
+              "desc": "Đặt câu hỏi từ Deen &Duniya về các chủ đề khác nhau để được trả lời bởi sự nổi tiếng của anh ấy, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "nội dung ưa thích",
+              "desc": "Luôn xem nội dung và cài đặt ưa thích của bạn khi bạn đăng nhập vào tài khoản của mình. Ngoài ra, hãy nhận thông báo cho tất cả những điều thú vị!"
+            },
+            "personalized": {
+              "heading": "chia sẻ được cá nhân hóa",
+              "desc": "Đặt chia sẻ nội dung được cá nhân hóa bằng chữ ký của bạn để bạn bè của bạn biết khi nào bạn chia sẻ tin nhắn / bài đăng."
+            }
+          }
+        },
+        "about": {
+          "title": "Về",
+          "jsStatusUpdateFail": "Không thể cập nhật trạng thái. Vui lòng thử lại sau."
+        },
+        "posts": {
+          "title": "Bài viết",
+          "userNoPosts": "Khi bạn thay đổi hình ảnh / ảnh bìa của mình hoặc khi bạn yêu cầu surah-fatiha cho những người thân yêu đã nghỉ việc của mình, những bài đăng này sẽ xuất hiện ở đây và trong tab <b>Trang chủ</b> (của những người khác nữa). Hãy thử thêm ảnh hoặc ảnh bìa?",
+          "profileNoPosts": "{name} chưa thực hiện bất kỳ bài viết nào."
+        },
+        "marhumeen": {
+          "title": "Marhumeen ·",
+          "header": {
+            "marhumeenNotAdded": "{name} chưa thêm marhumeen | Bạn vẫn chưa thêm marhumeen",
+            "marhumeenAdded": "{name} đã được thêm vào sau marhumeen | Bạn đã thêm sau marhumeen"
+          },
+          "jsDeleteHeader": "Bạn có chắc không?",
+          "jsDeletePrompt": "Xóa bản ghi cho <b>{fullName}</b> cũng sẽ xóa tất cả các yêu cầu trước đó được thực hiện cho {gender}! Tiếp tục?",
+          "jsDeleted": "Đã xóa bản ghi cho {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Đăng nhập vào tài khoản của bạn",
+        "createAccount": "Tạo một tài khoản"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Bước tiếp theo",
+        "goBack": "Quay lại",
+        "confirm": "Xác nhận"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Vị trí không khả dụng. Vui lòng đặt nó bằng cách nhấp vào biểu tượng để xem nhanh thời gian Salat.",
+          "unknownError": "Đã xảy ra lỗi. Không thể tải thời gian tại thời điểm này."
+        }
+      },
+      "langPrompt": {
+        "title": "Sử dụng ứng dụng trong {langLabel}?",
+        "desc": {
+          "p1": "Có vẻ như bạn đang truy cập ứng dụng từ {countryName}. Bạn có muốn xem nội dung và các điều khiển bằng một trong các ngôn ngữ sau được sử dụng trong khu vực không? Nhấp vào lựa chọn của bạn và sau đó nhấp vào 'Lưu' để tiếp tục.",
+          "p2": "Hoặc, loại bỏ cửa sổ bật lên này để tiếp tục sử dụng ứng dụng bằng ngôn ngữ mặc định."
+        },
+        "choices": {
+          "useLang": [
+            "Có, sử dụng {langName}",
+            "Sử dụng {langName}"
+          ],
+          "useEngling": "Tiếp tục bằng tiếng Anh"
+        },
+        "langError": "Đã xảy ra lỗi khi tải bản dịch cho {langName}. Vui lòng thử lại sau."
+      },
+      "createPost": {
+        "heading": "Hôm nay nói về cái gì?",
+        "desc": "Nhấp vào đây để chia sẻ bản cập nhật hoặc sử dụng tùy chọn từ bên dưới",
+        "request": "Yêu cầu",
+        "askQues": "Đặt câu hỏi",
+        "sheetOptions": {
+          "header": "Đưa ra yêu cầu",
+          "subheader": "Đưa ra yêu cầu từ momineen cho marhumeen của bạn hoặc chính bạn.",
+          "requestFatiha": "Surah-fatiha / Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat tại Zari-e-Imam Husain (a.s.) thay mặt bạn"
+        },
+        "modal": {
+          "titles": {
+            "post": "Tạo bài đăng | Cập nhật bài đăng",
+            "livestream": "Phát trực tiếp",
+            "hadiyah": "Tạo Hadiyah | Cập nhật Hadiyah"
+          },
+          "postCta": "Post | Cập nhật",
+          "stream": {
+            "scheduleCta": "Lưu để sử dụng sau | Bắt đầu phát trực tuyến"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Bạn muốn tặng món quà này cho ai?",
+              "addPeopleToggle": "Hãy để những người khác cũng là một phần của cưa này!",
+              "searchInput": "Mời momimeen từ Bazm hoặc danh sách Liên hệ của bạn",
+              "minUsersHeader": "Bạn muốn đặt số lượng tối thiểu mà người tham gia cần chọn?",
+              "minUsersInput": "Nhập số lượng tối thiểu"
+            }
+          },
+          "postTime": [
+            "Nó là khi nào?",
+            "Khi nào bạn muốn bắt đầu phát trực tuyến?"
+          ],
+          "whereIsIt": "Nó ở đâu?",
+          "findLocation": "Tìm vị trí",
+          "locationSubtext": "Thêm vị trí vào bài viết của bạn",
+          "addLocation": "Thêm vị trí",
+          "addPics": "Thêm ảnh vào bài đăng của bạn",
+          "previewDes": "Đây là cách bài viết của bạn sẽ xuất hiện trong nguồn cấp dữ liệu của người khác. Mọi người có thể nhấn vào video để xem video ở chế độ toàn màn hình.",
+          "addToPost": "Thêm vào {postType} (tùy chọn)",
+          "jsImgUploadFail": "Hình ảnh không được tải lên",
+          "jsAddDetailToPost": "Vui lòng thêm chi tiết vào bài viết của bạn",
+          "jsValidEndDate": "Vui lòng chọn ngày kết thúc hợp lệ",
+          "jsSetLocation": "Vui lòng đặt vị trí cho bài đăng",
+          "jsRemLocation": "Vui lòng đặt vị trí hoặc xóa phần đó",
+          "jsAddImg": "Vui lòng thêm hình ảnh hoặc xóa phần đó",
+          "jsInvalidDate": [
+            "Vui lòng đặt ngày bắt đầu hợp lệ ",
+            "Vui lòng đặt ngày bắt đầu hợp lệ hoặc xóa phần đó"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Ý kiến",
+        "loadPrevious": "Tải các nhận xét trước đó | Tải các câu trả lời trước đó",
+        "replyingTo": "Trả lời:",
+        "noComments": "Không có ý kiến về bài đăng này được nêu ra",
+        "textboxPlaceholder": "Viết bình luận của bạn ở đây",
+        "requestToLogin": "Đăng nhập hoặc Đăng ký để bắt đầu thảo luận"
+      },
+      "post": {
+        "addressYou": "Mày",
+        "addressing": "của bạn | của anh ấy | cô ấy",
+        "itemTypes": {
+          "avatar": "hình ảnh đại diện",
+          "banner": "ảnh biểu ngữ",
+          "status": "trạng thái hồ sơ"
+        },
+        "displayPhrase": {
+          "common": "<strong>{tên người dùng}</strong> đã cập nhật {addressing} {item}",
+          "fatiha": [
+            "<strong>{tên người dùng}</strong> đã yêu cầu surah-fatiha cho {addressing} {relation}",
+            "<strong>{tên người dùng}</strong> đã yêu cầu surah-fatiha &namaz-e-wahshat cho {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Cho đến: {date} at {time}",
+        "privatePost": "Bài đăng này chỉ hiển thị với bạn",
+        "descZiyaratRequest": "Bạn đã yêu cầu Ziyarat được thực hiện thay mặt bạn tại * haram * của Imam Husain (a.s.) vào * {date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Yêu cầu Surah-al-fatiha",
+          "addUpdate": [
+            "Cập nhật người thân yêu",
+            "Thêm người thân yêu"
+          ]
+        },
+        "heading": [
+          "Thêm một người thân yêu đã qua đời",
+          "Chọn một người thân yêu từ danh sách hoặc thêm một người thân yêu đã qua đời"
+        ],
+        "addNew": "Thêm mới",
+        "subheader": [
+          "Thêm thông tin chi tiết về người thân yêu của bạn",
+          "Bạn cũng có thể đưa tin nhắn vào yêu cầu của mình"
+        ],
+        "form": {
+          "jsAddImg": "Thêm hình ảnh cho người thân yêu của bạn",
+          "jsRemoveImg": "Xóa hình ảnh",
+          "fullName": "Tên đầy đủ của người đã khuất",
+          "name_ph": "Ví dụ: Syed Zeeshan Haider Abidi",
+          "fathersName": "Tên của cha (Nếu có)",
+          "father_ph": "Ví dụ: Syed Tauqeer Husain",
+          "nameError": "Vui lòng nhập tên đầy đủ với bất kỳ ký tự đặc biệt nào của bạn",
+          "genderLabel": "Giống",
+          "genderValue": [
+            "Cái",
+            "Đực"
+          ],
+          "relation": [
+            "Marhooma là của bạn",
+            "Marhoom là của bạn"
+          ],
+          "selectRelation": "Chọn mối quan hệ",
+          "demiseLabel": "Hôm nay đã bỏ cuộc? Yêu cầu Namaz-e-Wahshat",
+          "demiseText": "Chúng tôi rất tiếc khi biết về sự mất mát của bạn. Cầu mong Allah cho bạn và gia đình bạn sức mạnh để chịu đựng sự mất mát này với sự kiên nhẫn và cầu mong Allah thưởng cho linh hồn bị bỏ rơi với những vị trí cao nhất trong Jannah. Chọn tùy chọn này cho phép bạn hỏi momineen cho Namaz-e-Wahshat cho linh hồn bị bỏ rơi.",
+          "optional": "Tùy chọn",
+          "dod": "Đã qua đời vào ngày",
+          "dob": "Được sinh ra trên"
+        },
+        "relation": [
+          "Con gái của",
+          "Con trai của"
+        ],
+        "born": "Sinh:",
+        "died": "Chết:",
+        "addMsg": "Bạn muốn thêm thư?",
+        "remainingChars": "Ký tự: {count} | Ký tự: {count} còn lại",
+        "infoEditRelative": "Bạn có thể chỉnh sửa chi tiết cho {name} trong phần <b>Tài khoản > Marhumeen</b> của mình",
+        "saveRequestCta": [
+          "Lưu &yêu cầu",
+          "Yêu cầu"
+        ],
+        "addUpdate": "Thêm | Cập nhật",
+        "jsRequesting": "Yêu cầu..",
+        "jsAddSuccess": [
+          "Đã thêm người thân yêu của bạn thành công!",
+          "Cập nhật thành công người thân yêu của bạn!"
+        ],
+        "jsAddFail": "Không thể thêm người thân yêu của bạn. Vui lòng thử lại sau.",
+        "jsReqSuccess": "Yêu cầu được gửi thành công.",
+        "jsGettingMarhumeen": "Bắt marhumeen của bạn.."
+      },
+      "askQues": {
+        "title": "Đặt câu hỏi",
+        "form": {
+          "quesLabel": "Câu hỏi của bạn",
+          "quesLabel_ph": "Tìm kiếm câu hỏi hoặc hỏi câu hỏi của riêng bạn",
+          "similarQues": "Những câu hỏi này có thể đã có câu trả lời mà bạn đang tìm kiếm.",
+          "quesTextHeader": "Câu hỏi của bạn:",
+          "selectCat": "Đặt danh mục câu hỏi:",
+          "askAnonLabel": "Hỏi ẩn danh?",
+          "askAnonInfo": "Tên của bạn sẽ không được gửi đến Scholar khi yêu cầu câu trả lời thay mặt bạn, cũng sẽ không được hiển thị trên ứng dụng của chúng tôi với câu hỏi này. Nhưng những câu hỏi ẩn danh có thể không được trả lời nhanh chóng.",
+          "askViaLabel": "Hỏi qua",
+          "askSistaniInfo": "Bạn có thể đặt một câu hỏi để được trả lời bởi văn phòng nổi tiếng của ông, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Chúng tôi sẽ chuyển tiếp câu hỏi đến trang web của họ (cùng với thông tin hồ sơ của bạn). Đảm bảo rằng bạn đã đọc đúng <b>Điều khoản &Điều kiện</b>.",
+          "tncLabel": "Điều khoản &điều kiện:",
+          "showHide": [
+            "Tỏ ra",
+            "Giấu"
+          ],
+          "sistaniOrgTncInfo": "Cân nhắc các điểm sau từ trang web của họ trước khi bạn đặt câu hỏi, bởi vì nếu bạn không tuân thủ các điểm dưới đây, bạn có thể không nhận được phản hồi từ họ hoặc có thể không nhận được bất kỳ câu trả lời nào.",
+          "userInfo": {
+            "aboutLabel": "Về bạn",
+            "genderLabel": "Giới tính của bạn",
+            "bdayLabel": "Sinh nhật của bạn",
+            "bdayDesc": "Bạn chỉ có thể đặt câu hỏi nếu bạn trên 09 tuổi. Nếu bạn vẫn quan tâm, vui lòng liên hệ với chúng tôi."
+          },
+          "jsQuesAdded": "Câu hỏi được thêm thành công."
+        },
+        "askQuesCta": "Đặt câu hỏi của bạn"
+      },
+      "authPrompt": {
+        "title": "Yêu cầu tài khoản",
+        "defLabel": "Đăng nhập hoặc Đăng ký để tiếp tục",
+        "infoText": "Tính năng này yêu cầu bạn đăng nhập hoặc đăng ký trước khi có thể sử dụng nó. Nhấp vào <b>Đăng nhập</b> nếu bạn đã đăng ký hoặc nhấp vào <b>Đăng ký</b> để tạo tài khoản của bạn."
+      },
+      "location": {
+        "title": "Thay đổi vị trí",
+        "search_ph": "Tìm kiếm vị trí của bạn",
+        "autoDetectInfo": "Nhập vị trí của bạn hoặc nhấp vào biểu tượng tự động phát hiện để lấy vị trí của bạn.",
+        "setLocation": "Đặt vị trí",
+        "ipAddress": "Địa chỉ IP",
+        "alarmLocation": "Vị trí báo động",
+        "basedOn": "Vị trí dựa trên {bộ chọn} của bạn",
+        "jsDetecting": "Phát hiện, xin vui lòng chờ đợi..",
+        "jsPermDenied": "Quyền truy cập thông tin vị trí bị từ chối đối với ứng dụng. Vui lòng đặt lại tùy chọn vị trí cho ứng dụng này bằng cách truy cập phần Cài đặt trong điện thoại của bạn.",
+        "jsPosUnavailable": "Chúng tôi rất tiếc, nhưng vị trí không có sẵn cho điện thoại này ngay bây giờ. Vui lòng thử lại sau.",
+        "jsMatchNotFound": "Không thể tìm thấy bất kỳ vị trí phù hợp nào..",
+        "jsEnterValidLoc": "Vui lòng nhập địa điểm hợp lệ",
+        "jsGeoUnavailable": "Chúng tôi rất tiếc, nhưng vị trí không có sẵn cho điện thoại này ngay bây giờ. Vui lòng thử lại sau.",
+        "jsLocMissing": "Không thể tìm thấy vị trí của bạn. Vui lòng nhập vị trí theo cách thủ công.",
+        "jsSelectedLoc": "Đã xảy ra lỗi với vị trí này. Vui lòng thử lại"
+      },
+      "readText": {
+        "ctaLabel": "Đọc",
+        "title": "Dua: {title}",
+        "arabicCta": "Tiếng A-rập",
+        "englishCta": "Tiếng Anh",
+        "translatedCta": "Dịch"
+      },
+      "reqAccess": {
+        "heading": "yêu cầu quyền truy cập",
+        "subheading": "Chúng tôi cần sự cho phép để truy cập máy ảnh của bạn",
+        "subtext": "Vui lòng cho phép truy cập bằng cách nhấp vào nút bên dưới:",
+        "ctaLabel": "cho phép truy cập"
+      },
+      "shareBtn": {
+        "subtext": "Nhấp vào một trong các tùy chọn bên dưới để chia sẻ tùy chọn này trên ứng dụng tương ứng:",
+        "jsCopyToCB": "Đã sao chép vào khay nhớ tạm của bạn",
+        "copyText": "Nhấp vào <b>Sao chép</b> biểu tượng ở trên để sao chép nội dung bên dưới:"
+      },
+      "verifyMob": {
+        "title": [
+          "Xác minh thiết bị di động",
+          "Nhập mã"
+        ],
+        "page1": {
+          "infoText1": "Chúng tôi cần số điện thoại di động của bạn để xác minh danh tính của bạn. Bạn cũng có thể nhận được các bản cập nhật không thường xuyên.",
+          "infoText2": [
+            "Nhập số của bạn và nhấp vào nút để nhận mã xác nhận của bạn:",
+            "Nhập số của bạn và nhấp vào nút để nhận mã xác nhận của bạn:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Số điện thoại di động",
+          "mobileLabel_ph": "Nhập số điện thoại di động của bạn",
+          "otpViaSMS": "Nhận qua TIN NHẮN SMS",
+          "viaWhatsApp": "Nhận thông qua WhatsApp",
+          "viaTelegram": "Nhận qua Telegram",
+          "viaSignal": "Nhận thông qua Signal"
+        },
+        "page2": {
+          "header": "Chúng tôi đã gửi mã xác nhận gồm 6 chữ số đến số của bạn ({số})",
+          "enterCodeLabel": "Nhập mã",
+          "enterCode_ph": "Nhập mã gồm 6 chữ số",
+          "resendCode": "Gửi lại mã",
+          "notUsingMobile": "Bạn không sử dụng <strong>{number}?</strong>",
+          "changeNumber": "Thay đổi số"
+        },
+        "jsVerifySuccess": "Thiết bị di động đã được xác minh thành công",
+        "jsVerifyError": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
+        "jsSendOtpFailed": "Không thể gửi OTP. Vui lòng thử lại sau.",
+        "jsSendOtpSuccess": "OTP được gửi đến {di động}",
+        "jsTooManyRequests": "Có vẻ như bạn đã thử quá nhiều lần rồi. Vui lòng đợi một hoặc hai phút và thử lại."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Cá nhân hóa tin nhắn Chia sẻ",
+        "changePwd": "Thay đổi mật khẩu | Đặt mật khẩu",
+        "changeLang": "Thay đổi ngôn ngữ",
+        "publishToFeed": "Cũng xuất bản các thay đổi của tôi lên nguồn cấp dữ liệu."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Cá nhân",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Thêm tên tôi vào thư",
+          "sharingDesc": "Khi chia sẻ ra bên ngoài, tin nhắn của bạn có thể trông giống như bên dưới:",
+          "sharingTextDemo": [
+            "Nghe Nauha này trên Ứng dụng Bazm",
+            "{name} khuyên bạn nên nghe Nauha này trên Ứng dụng Bazm"
+          ],
+          "addSignDesc": "Bạn cũng muốn thêm chữ ký của mình?",
+          "signDesc": "Khi bạn chia sẻ mong muốn của mình với bạn bè trên ứng dụng này, chữ ký của bạn sẽ được thêm vào tin nhắn. Ví dụ: nó có thể xuất hiện như bên dưới:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Nhập mật khẩu hiện có của bạn:",
+          "currentPwdPH": "Nhập mật khẩu hiện tại",
+          "newPwdLabel": "Nhập mật khẩu mới:",
+          "newPwdPH": "Nhập mật khẩu mới"
+        },
+        "changeLang": {
+          "searchYourLang": "Tìm kiếm ngôn ngữ của bạn",
+          "desc": "Chọn ngôn ngữ mà bạn muốn xem nội dung ứng dụng. Nhấp vào một ngôn ngữ và đợi (phải mất một lúc nào đó để tải bản dịch) để xem cụm từ này xuất hiện như thế nào trong ngôn ngữ đã chọn."
+        },
+        "jsPwdInvalid": "Mật khẩu có các ký tự không hợp lệ.",
+        "jsPwdCharCount": "Mật khẩu không được nhỏ hơn 8 ký tự.",
+        "jsSelectLang": "Vui lòng chọn một ngôn ngữ trước.",
+        "jsLangSet": "Ngôn ngữ đã được đặt thành {lang}",
+        "jsPrefSaved": "Đã lưu cài đặt cá nhân hóa."
+      },
+      "forgotPwd": {
+        "title": "Quên mật khẩu?",
+        "introText": "Đặt lại mật khẩu của bạn rất dễ dàng. Chọn một phương pháp để tiếp tục:",
+        "usePhoneCta": "Sử dụng điện thoại",
+        "useEmailCta": "Sử dụng Email",
+        "sendEmailIntro": "Nhập địa chỉ email mà bạn đã dùng để tạo tài khoản và chúng tôi sẽ gửi email có liên kết để thiết lập mật khẩu mới cho tài khoản của bạn.",
+        "emailInputLabel": "Email đã đăng ký của bạn",
+        "sendEmailCta": "Gửi email đặt lại",
+        "sentEmailText": "Nếu bạn có tài khoản với chúng tôi, bạn sẽ sớm nhận được email đặt lại mật khẩu trên <strong>{email}</strong>. Vui lòng kiểm tra email của bạn để tìm liên kết.",
+        "notUsingEmailText": "Bạn không sử dụng <strong>{email}?</strong>",
+        "changeEmailCta": "Thay đổi email",
+        "phoneIntroText": "Nhập số điện thoại đã thêm vào tài khoản của bạn. Chúng tôi sẽ gửi mã OTP để xác minh quyền sở hữu của bạn và trong bước tiếp theo, bạn sẽ có thể tạo mật khẩu mới.",
+        "phoneInputLabel": "Số điện thoại di động của bạn",
+        "sendOtpCta": "Gửi OTP",
+        "backToLoginCta": "Quay lại Đăng nhập",
+        "disclaimerText": "Xin lưu ý rằng bạn sẽ chỉ nhận được {item} nếu bạn đã đăng ký {item} với chúng tôi",
+        "jsMailSent": "Thư đã gửi"
+      },
+      "resetPwd": {
+        "title": "Đặt lại mật khẩu",
+        "introText": "Đặt mật khẩu an toàn cho tài khoản của bạn tại đây. Nhấp vào {icon} để đảm bảo rằng bạn đang nhập đúng mật khẩu.",
+        "pwdInputLabel": "Đặt mật khẩu mới",
+        "pwdInputPH": "Nhập mật khẩu mới",
+        "invalidPwdChars": "Ký tự không hợp lệ trong mật khẩu",
+        "jsResetSuccess": "Đặt lại mật khẩu thành công!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Không thể tải bản nhạc. Vui lòng thử lại sau."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} đã xóa thành công.",
+        "jsErrReporting": "Không thể báo cáo điều này vào lúc này. Vui lòng thử lại sau.",
+        "jsAlreadyReported": "Bạn đã báo cáo {item} này rồi đấy. Bạn không thể báo cáo nhiều lần.",
+        "jsPromptHeading": "Việc báo cáo một mặt hàng dẫn đến cơ hội xuất hiện trong nguồn cấp dữ liệu/trang của bạn hoặc của người khác thấp hơn. Bạn vẫn muốn báo cáo điều này?",
+        "jsReporting": "Báo cáo {itemType}..",
+        "jsReportingErr": "Không thể gửi yêu cầu của bạn tại thời điểm này. Vui lòng thử lại sau.",
+        "jsReported": "{item} báo cáo. Cảm ơn sự đóng góp của bạn."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Không có gì để cập nhật!",
+        "jsProfileUpdated": "Hồ sơ đã cập nhật!"
+      },
+      "reqZiyarat": {
+        "title": "Yêu cầu Ziyarat",
+        "cta": "Yêu cầu",
+        "header": "Yêu cầu Ziyarat tại Đền thờ Imam Hussain (a.s.) ở Karbala thay mặt bạn.",
+        "desc": {
+          "p1": "Thứ Sáu hàng tuần, <strong>hãy để Ziyarat đọc thay mặt bạn</strong> tại Đền thờ Imam Hussain (a.s.) ở Karbala, Iraq! Tất cả những gì bạn cần làm là đưa ra yêu cầu <strong>trước khi kết thúc buổi tối thứ Năm</strong>. Tuy nhiên, bạn không bao giờ là quá muộn; nếu yêu cầu của bạn đến quá muộn, nó sẽ được đăng ký cho tuần tiếp theo.",
+          "p2": "Chúng tôi sẽ thông báo cho bạn khi ziyarat đã được đọc thay mặt bạn.",
+          "p3": "Lưu ý: Khi bạn yêu cầu lần đầu tiên, thông tin chi tiết của bạn sẽ được chia sẻ với nhà cung cấp dịch vụ của chúng tôi. Vui lòng đọc Điều khoản &Điều kiện của chúng tôi để biết thêm chi tiết."
+        },
+        "jsRegistered": "Cảm ơn bạn! Yêu cầu của bạn đã được đăng ký thành công. Bạn sẽ nhận được một thư xác nhận trong thời gian ngắn.",
+        "jsAlreadyRegistered": "Bạn đã đăng ký Ziyarat vào thứ Năm tuần này. Đăng ký vào tuần tới cho ziyarat của tuần tới.",
+        "jsConfirm": "Để đăng ký yêu cầu này, chúng tôi cần chia sẻ thông tin chi tiết của bạn (ví dụ: tên đầy đủ, giới tính, v.v.) với nhà cung cấp dịch vụ của chúng tôi. Điều này chỉ được yêu cầu cho lần đầu tiên. Vui lòng xác nhận để tiếp tục.",
+        "jsDeclined": "Ok! Có lẽ sau này."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Tên bạn",
+          "placeholder": "Nhập tên đầy đủ của bạn"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": [
+            "Email đã đăng ký của bạn",
+            "Nhập email của bạn"
+          ]
+        },
+        "password": {
+          "label": "Mật khẩu",
+          "placeholder": [
+            "Mật khẩu của bạn",
+            "Nhập mật khẩu"
+          ]
+        },
+        "rememberLogin": "Nhớ đăng nhập",
+        "forgotPwd": "Quên mật khẩu?",
+        "connectUsing": "Hoặc, kết nối bằng cách sử dụng",
+        "useSavedAccount": "Sử dụng tài khoản đã lưu",
+        "lastLogin": "Lần đăng nhập gần đây nhất",
+        "needAccount": "Bạn cần một tài khoản?",
+        "resetPwdSuccess": "Bạn có thể sử dụng mật khẩu mới của mình để đăng nhập ngay bây giờ",
+        "jsEnterFullName": "Vui lòng nhập tên đầy đủ của bạn.",
+        "jsEnterValidName": "Vui lòng nhập tên hợp lệ.",
+        "jsEnterValidEmail": [
+          "Vui lòng nhập một email hợp lệ.",
+          "Email có các ký tự không hợp lệ. Vui lòng nhập một email hợp lệ."
+        ],
+        "jsSelectCountryCode": "Vui lòng chọn mã quốc gia của bạn từ danh sách",
+        "jsEnterMobile": "Vui lòng nhập số điện thoại di động của bạn.",
+        "jsEnterValidMobile": "Vui lòng nhập số điện thoại di động hợp lệ",
+        "jsEnterPwd": "Vui lòng nhập mật khẩu của bạn!",
+        "jsEnterValidPwd": [
+          "Mật khẩu có các ký tự không hợp lệ. Vui lòng nhập mật khẩu hợp lệ.",
+          "Mật khẩu phải có ít nhất các ký tự {num}."
+        ],
+        "jsAccountSuccess": "Tài khoản được tạo thành công",
+        "jsFbError": "Không thể lấy chi tiết tài khoản Facebook của bạn. Vui lòng thử lại.",
+        "jsPromptClosedErr": "Lời nhắc đăng nhập đã được đóng trước khi kết thúc. Vui lòng thử lại."
+      },
+      "gotoSignup": "Goto Đăng ký",
+      "alreadyHasAccount": "Bạn đã có tài khoản?",
+      "gotoLogin": "Goto Đăng nhập",
+      "gotoProfile": "Hồ sơ Goto",
+      "msgForAuthUser": "<p>Chúng tôi nghĩ rằng bạn đã hạ cánh ở đây do nhầm lẫn, vì bạn đã đăng nhập.</p> <p>Bạn có thể kiểm tra hồ sơ của mình để xem nó trông như thế nào hoặc sử dụng một trong các liên kết bên dưới để duyệt qua các phần khác:</p>",
+      "jsLoggedOut": "Bạn đã đăng xuất.",
+      "jsLogoutHeading": "Đăng xuất khỏi tài khoản?",
+      "jsLogoutText": "Thao tác này sẽ xóa thông tin được lưu cục bộ cho phép đăng nhập <b>nhanh chóng</b>. Tiếp tục?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Cài đặt Bazm { nền tảng }",
+          "desc": "Tải xuống ứng dụng Android để có trải nghiệm tốt hơn, nội dung được cá nhân hóa, thông báo và mọi thứ bạn quan tâm từ xung quanh bạn! | Cài đặt phím tắt ứng dụng (dấu trang) để truy cập trực tiếp từ màn hình chính của bạn vào lần tới để có trải nghiệm tốt hơn! Nó hầu như không chiếm bất kỳ dung lượng nào trên thiết bị của bạn nhưng giúp bạn quay lại ứng dụng một cách nhanh chóng.",
+          "cta": {
+            "action": "Cài đặt",
+            "skip": "Có lẽ sau này"
+          }
+        },
+        "prompt": {
+          "heading": "Cài đặt phím tắt Bazm?"
+        },
+        "popover": {
+          "text": "Nhấp vào biểu tượng Chia sẻ (trông giống như một biểu tượng ở bên phải) <strong>BÊN DƯỚI</strong> và sau đó nhấp vào <strong>Thêm vào Màn hình chính</strong>. Nhấp vào \"Lưu\" để hoàn tất và sau đó bạn có thể truy cập ứng dụng từ phím tắt trên màn hình chính của mình!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Kinh nghiệm của bạn cho đến nay như thế nào?",
+        "text": "<p>Bạn có thích ứng dụng mới không? Có điều gì chúng ta có thể cải thiện không? Vui lòng giúp chúng tôi với phản hồi của bạn để cải thiện trải nghiệm cho bạn!</p> <p>Quá trình này sẽ chỉ mất vài phút và chúng tôi đánh giá rất cao thời gian của bạn!</p>",
+        "cta": "Gửi phản hồi",
+        "dismiss": "Có lẽ sau này"
+      },
+      "advertise": {
+        "heading": "Quảng cáo trên Bazm",
+        "text": "<p>Tiếp cận hàng triệu người Hồi giáo Shia trên khắp thế giới bằng sản phẩm của bạn trên Bazm hoặc tương tác với các thương hiệu và người dùng.</p> <p>Bắt đầu với giá thấp nhất là $ 1 / ngày!</p>",
+        "cta": "Tìm hiểu thêm"
+      },
+      "upgradeSafari": {
+        "header": "Trải nghiệm hạn chế trên Safari",
+        "description": "<strong>Trình duyệt này (Safari) không được tối ưu hóa để có trải nghiệm tốt nhất</strong>. Bằng cách tiếp tục sử dụng ứng dụng của chúng tôi tại đây, bạn sẽ bỏ lỡ một số tính năng như thông báo cảnh báo, gần bằng các bản cập nhật, chế độ ngoại tuyến và hơn thế nữa.<br/> Chúng tôi khuyên bạn nên tải một trong các trình duyệt được liệt kê dưới đây để có trải nghiệm được cải thiện. Nhấp vào bất kỳ nút nào để tải xuống trình duyệt từ AppStore:",
+        "ctas": {
+          "getGoogle": "Tải Google Chrome",
+          "getFirefox": "Tải Mozilla Firefox",
+          "getOpera": "Tải Opera Touch",
+          "skip": "Có lẽ sau này"
+        },
+        "toast": "Không vấn đề gì. Cho đến lần tiếp theo!"
+      },
+      "cookieBanner": {
+        "header": "Giới thiệu về cách lưu Cookie trên thiết bị của bạn",
+        "p1": "Chúng tôi không lưu trữ bất kỳ cookie nào trên {thiết bị} của bạn nhưng các ứng dụng của bên thứ ba được sử dụng trong ứng dụng của chúng tôi có thể (chẳng hạn như Google Analytics). Thay vào đó, chúng tôi sử dụng bộ nhớ vĩnh viễn để lưu trữ bất kỳ dữ liệu quan trọng nào và trong hầu hết các trường hợp, dữ liệu này được mã hóa trong bộ nhớ và trong quá trình truyền.",
+        "p2": "Bằng cách tiếp tục sử dụng ứng dụng này, bạn xác nhận rằng bạn không gặp bất kỳ vấn đề nào với các lựa chọn của chúng tôi. Để tìm hiểu thêm về cookie và việc sử dụng dữ liệu của chúng tôi, hãy xem <a href='https://bazm.in/privacy-policy' target='_blank'>Chính sách quyền riêng tư.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Ứng dụng mạng xã hội cho người Hồi giáo Shia trên toàn thế giới! Tải xuống ứng dụng ngay hôm nay.",
+      "home": {
+        "title": "Bazm - Ứng dụng cộng đồng Shia trực tuyến!",
+        "description": "Ứng dụng Bazm là ứng dụng cộng đồng Shia đáp ứng mọi nhu cầu hàng ngày của bạn về deen &mazhab. Tìm Nauhe, Majalis, Dua, Aamaal, Ziyarat, Sách, v.v. cho tất cả các ngày và dịp. Xem và thực hiện các sự kiện phát trực tiếp và majalis với người Hồi giáo Shia trên khắp thế giới từ sự thuận tiện của ngôi nhà của bạn. Tham gia ngay hôm nay!"
+      },
+      "feed": {
+        "title": "Tìm nội dung phù hợp và chia sẻ với cộng đồng shia xung quanh bạn và thế giới",
+        "description": "Tìm và chia sẻ tin tức, sự kiện và nội dung với shia momineen xung quanh và thông báo cho họ về bất kỳ sự kiện nào bạn đang tổ chức. Tìm hiểu về bất cứ điều gì xảy ra gần bạn trên ứng dụng."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal và nhiều hơn nữa cho bạn!",
+        "description": "Tìm Nauhe, Majalis, Dua, Aamaal, ziyarat và nhiều hơn nữa cho tất cả các ngày và dịp. Xem và phát trực tiếp majalis từ sự tiện lợi của ngôi nhà của bạn! Tham gia ứng dụng mạng xã hội Shia giúp bạn thực hiện các công việc thường ngày của deen &mazhab. Tham gia ngay hôm nay!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Báo động Azaan hàng ngày, câu hỏi-câu trả lời và công cụ cho người Hồi giáo Shia",
+        "description": "Nhận lời nhắc hàng ngày cho Adhan, tìm và đặt câu hỏi-câu trả lời về các chủ đề của deen &islam, hoặc yêu cầu Surah-fatiha hoặc Namaz-e-Wahshat cho marhumeen của bạn và nhiều công cụ khác trên Bazm. Tham gia ứng dụng mạng xã hội Shia giúp bạn thực hiện các công việc thường ngày của deen. Tìm Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat cho tất cả các ngày và dịp. Các sự kiện phát trực tiếp và majalis từ sự tiện lợi của ngôi nhà của bạn. Tham gia ngay hôm nay!"
+      },
+      "tasbeehCounter": {
+        "title": "Bộ đếm tasbeeh tự động với công cụ Voice __ Tasbeeh Counter",
+        "description": "Việc đọc thuộc lòng vô số tasbeeh giờ đây trở nên dễ dàng hơn với các quầy tasbeeh Âm thanh của chúng tôi. Đọc thuộc lòng tasbeeh của bạn trong khi bạn đang lái xe hoặc làm việc, vẫn theo dõi số đếm bằng bộ đếm giọng nói. Tải xuống công cụ này và những công cụ khác tương tự như nó trên ứng dụng Bazm. Tải xuống ngay hôm nay."
+      },
+      "accountHome": {
+        "title": "Bazm - Tạo tài khoản miễn phí của bạn ngay hôm nay và nhận trợ giúp với nhu cầu hàng ngày của bạn về deen!",
+        "description": "Tham gia ứng dụng Bazm ngay hôm nay để đáp ứng mọi nhu cầu của bạn để deeniyat. Tìm nohe / nauhe, majalis, dua, ziyarat, aamaal cho tất cả các ngày và dịp. Phát trực tiếp và xem majalis &các sự kiện từ xung quanh bạn; tìm các bài đăng, nội dung và momineen từ khắp nơi bạn và thế giới, và nhiều hơn nữa trên ứng dụng. Tham gia ngay hôm nay!"
+      },
+      "nauheListPage": {
+        "title": "Nghe Nauhe từ nauhakhwan nổi tiếng trên toàn thế giới",
+        "description": "Nghe nauhe từ mọi năm và tất cả nauhakhwan phổ biến từ khắp nơi trên thế giới trên ứng dụng Bazm. Tải xuống ngay hôm nay."
+      },
+      "soazListPage": {
+        "title": "Nghe Soaz từ Soazkhwan nổi tiếng trên toàn thế giới",
+        "description": "Nghe Soaz từ mọi năm và tất cả soazkhwan nổi tiếng từ khắp nơi trên thế giới trên ứng dụng Bazm. Tải xuống ngay hôm nay."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis trên Bazm - Tìm thêm nauhe, audio/video majalis, dua, ziyarat, aamaal, v.v. trên Bazm",
+        "description": "Tìm majalis âm thanh / video từ Maulana và Zakir-e-Ahlbayt từ gần bạn và trên toàn thế giới. Nghe và xem các phiên majalis và livestream mới nhất trên ứng dụng Bazm. Tải xuống ứng dụng ngay hôm nay và tham gia cùng hàng triệu người Hồi giáo Shi'a trên khắp thế giới!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas và aamaal cho tháng {tháng} trên Bazm - Tìm thêm nauhe, âm thanh / video majalis, dua, ziyarat, aamaal, v.v. trên Bazm",
+          "Duas và aamaal trong tất cả các tháng trên Bazm - Tìm thêm nauhe, âm thanh / video majalis, dua, ziyarat, aamaal, v.v. trên Bazm"
+        ],
+        "description": "Tìm duas, aamaal, ziyarat và munajat cho tất cả các tháng trên Bazm, ngày và sự kiện khôn ngoan. Tải xuống ứng dụng ngay hôm nay và tham gia cùng hàng triệu người Hồi giáo Shi'a trên khắp thế giới!"
+      }
+    }
+  }
+}

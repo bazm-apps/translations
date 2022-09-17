@@ -1,1 +1,809 @@
-undefined
+{
+  "tr": {
+    "common": {
+      "refresh": "Yenilemek için çekin",
+      "refreshing": "Canlandırıcı...",
+      "loadingMore": "Daha fazlası yükleniyor...",
+      "checking": "Denetimi...",
+      "sendOtp": "OTP Gönderme ..",
+      "dismiss": "Kapatmak",
+      "invite": "Davet etmek",
+      "showMore": "Daha fazlasını göster | Daha fazlasını gör",
+      "play": "Oynamak",
+      "pause": "Duraklatıldı",
+      "playing": "Oynamak",
+      "paused": "Duraklatıldı",
+      "watch": "Bakmak",
+      "read": "Okumak",
+      "authors": "Yazar | Yazarlar",
+      "languages": "Dil | Diller",
+      "clear": "Berrak",
+      "cancel": "İptal",
+      "change": "Değiştirmek",
+      "continue": "Devam etmek",
+      "select": "Seçmek",
+      "saveChanges": "Değişiklikleri kaydetme | Kaydet | Güncelleme",
+      "newBadge": "Yeni",
+      "login": "Oturum açma",
+      "logout": "Oturum kapatma",
+      "signup": "Kaydol",
+      "settings": "Ayarlar",
+      "cookiePolicy": "Çerez politikası",
+      "privacy": "Gizlilik",
+      "contactUs": "Bizimle iletişime geçin",
+      "home": "Ev",
+      "facebook": "Şili",
+      "google": "Google Mağazası",
+      "you": "Sen",
+      "retry": "Yeni -den deneme",
+      "send": "Gönder",
+      "submit": "Gönder",
+      "share": "Paylaş | Şimdi paylaş",
+      "at": "da",
+      "untilNextTime": "Sorun değil. Bir dahaki sefere kadar!",
+      "plzWait": "Lütfen bekleyin..",
+      "saving": "Tasarruf.. | Güncelleniyor..",
+      "search": "Aramak",
+      "late": "Geç",
+      "done": "Yapılmış",
+      "featureUnavailable": "Bu özellik yakında kullanıma sunulacaktır. İlgi gösteren fro teşekkürler!",
+      "actions": {
+        "cancel": "İptal",
+        "notify": "Bildirmek",
+        "like": "Gibi",
+        "recited": "Okunduğu",
+        "comment": "Yorum",
+        "reply": "Yanıt",
+        "bookmark": "Yer işareti",
+        "uploading": "Yükleme..",
+        "deleting": "Silme..",
+        "requesting": "Isteyen..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Üzgünüz, {fileType} dosyalarını burada paylaşamıyorsunuz",
+        "jsUpdateAvailable": {
+          "header": "Güncelleme mevcut",
+          "message": "Uygulamanın önbelleğe alınmış sürümünü görüyorsunuz. Yeni içerik ve özellikleri güncellemek ve yüklemek için 'Yenile'yi tıklayın.",
+          "cta": "Yenilemek"
+        },
+        "jsImgUploaded": "Resim başarıyla yüklendi!",
+        "jsImgUploadErr": "Resim yükleme başarısız oldu. Lütfen daha sonra tekrar deneyin."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Hizmet şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+        "unknown": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+        "general": "İsteğiniz işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+      },
+      "content": {
+        "unavailable": "İçerik şu anda yüklenemedi. Lütfen bir süre sonra tekrar deneyin.",
+        "itemDetailUnavailable": "Bu {öğe} için ayrıntılar bulunamadı",
+        "loadMoreError": "Daha fazla öğe yüklenemedi. Lütfen daha sonra tekrar deneyin."
+      },
+      "url": {
+        "invalid": "Geçersiz URL. Lütfen yeni bir URL ile deneyin."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Ev"
+      },
+      "postDetail": {
+        "commonTitle": "Ayrıntı",
+        "fatihaTitle": "Fatiha Suresi",
+        "fatihaWithNamaz": "Sure-Fatih ve Namaz-ı Vahşat",
+        "avatarUpdateTitle": "Profil resmi",
+        "bannerUpdateTitle": "Kapak Resmi (Kullanımdan Kaldırıldı)",
+        "statusUpdateTitle": "Durum güncellemesi"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Ev",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Bu isteği ağınızda paylaşın ve daha fazla kişiye ulaşın!"
+          }
+        }
+      },
+      "media": {
+        "name": "Medya",
+        "boxLabels": {
+          "nauhe": "Arjantin",
+          "majalis": "Meclis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Kitaplar"
+        },
+        "inviteFriends": "arkadaşlarınızı davet edin",
+        "notShia": "Şii değil misiniz?",
+        "contacts": {
+          "accessRequestHeader": "Kişiler Erişim gerekli",
+          "accessRequestDesc": "Telefon defterinizdeki Şii kişileri bu uygulamaya davet etmelerini önermek için kişilerinizin erişimine ihtiyacımız var."
+        },
+        "audio": "Ses",
+        "video": "Video",
+        "hijri": "Hicri",
+        "duaHome": {
+          "wishCtaText": "Arkadaşlarına dileklerimle!",
+          "wishCtaLabel": "DİLEMEK"
+        },
+        "books": {
+          "booksByAuthor": "{yazar} tarafından yazılan kitaplar",
+          "booksInLang": "{lang} içindeki kitaplar",
+          "filterBy": "Filtreleme ölçütü:",
+          "matching": {
+            "authors": "yazarlarla eşleşen yazarlarla",
+            "lang": "eşleşen dillerle",
+            "title": "başlık eşleştirme ile"
+          }
+        },
+        "booksFilter": {
+          "title": "Yazara göre kitap bulma",
+          "searchBox": "Yazarı adına göre ara",
+          "selectLang": "Bir dil seçin:"
+        },
+        "bookDetails": {
+          "title": "{title} — Bazm'da bunun gibi daha fazla ücretsiz kitap bul",
+          "aboutBook": "Kitap hakkında:"
+        }
+      },
+      "tools": {
+        "name": "Araçları",
+        "salatAlarmDesc": "Yerel saatlerinize göre Azaan için alarmlar ayarlayın",
+        "sehriAlarmDesc": "Sehri için Alarm kurun, hatta Sehri'den önce numaranızdan uyandırma çağrısı alın!",
+        "sehriAlarmOptionDisabled": "Ramazan ayı boyunca Sheri zamanı alarmları (sadece Ramazan ayında kullanılabilir)",
+        "tasbeehCounterDesc": "Ses Tasbeeh sayacı ile tekrar modunda Dua, Kur'an ve Tasbeeh okuyun",
+        "qnaLabel": "Soru-Cevap (Masle-Masayel)",
+        "qnaDesc": "İslam meseleleri hakkında günlük hayatınızdan masle-masayel'e sorular arayın ve sorun veya cevaplar bulun.",
+        "alarms": {
+          "salatAlarms": "Salat Alarmları | Günlük Salat Alarmları",
+          "sehriAlarms": "Ramazan Şehri Alarmları",
+          "gettingLocation": "Konumunuzu alma. Lütfen bekleyin...",
+          "settingsTip": "Alarm ayarlarında <b>Konumu</b> ve tercihleri değiştirin. Başlamak için Ayarlar simgesine tıklayın.",
+          "setAlarmHeader": "Günlük Alarmları Ayarlama",
+          "setAlarmOnAppDesc": "Alarm ayarlama yalnızca uygulamada kullanılabilir",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fecr",
+          "zuhrLabel": "Zühr",
+          "sunsetLabel": "Gün batımı",
+          "maghribLabel": "Mağrib",
+          "midnightLabel": "Gece yarısı",
+          "sehriEndTime": "Sehri'nin bitiş zamanı",
+          "minToImsak": [
+            "{min} mins before Imsak",
+            "{saat} Imsak'tan bir saat önce"
+          ],
+          "minToImsakDesc": [
+            "Sehri zamanının bitiminden dakikalar önce alarm çalar {min}",
+            "Alarm Sehri saatinin bitiminden bir saat önce {saat} çalar"
+          ],
+          "notRamadan": "Henüz Ramazan değil gibi görünüyor. Lütfen Ramazan ayında veya hemen öncesinde Sehri için Alarmları ayarlamak üzere geri dönün",
+          "push": {
+            "heading": "Bildirim erişimi gerekli",
+            "desc_request": "Alarm, belirlenen zamanlarda push bildirimleri göndererek çalışır. Push'a erişim olmadan, uygulama beklenen şekilde çalışmaz. Alarm saatlerinde sizi bilgilendirebilmemiz için lütfen anlık bildiriminize erişime izin verin.",
+            "desc_denied": "<strong>Daha önce bildirim erişimini reddettiniz.</strong> Anlık bildirimlerin düzgün çalışması için gereklidir. Alarm anında bildirim gönderiyoruz.<br/> Lütfen düğmeye tıklayarak push bildirimlerine erişime izin verin.",
+            "cta": "İzin vermek",
+            "toast_granted": "Teşekkürler! Şimdi alarm saatlerinde bildirim alacaksınız.",
+            "toast_denied": "Bildirim isteği reddedildi. Lütfen uygulamanın düzgün çalışması için erişime izin verin.",
+            "toast_prompt": "Alarmları ayarlamak için bildirim erişimine izin vermeniz gerekir."
+          },
+          "jsAlarmSetSuccess": "Alarmlar başarıyla ayarlandı",
+          "jsAlarmSetError": "Alarm ayarında hata. Lütfen daha sonra tekrar deneyin.",
+          "jsAlarmSnoozed": "Alarm 10 dakika ertelendi"
+        },
+        "alarmSetting": {
+          "title": "Alarm Ayarları",
+          "locationTitle": "Alarm zamanlamaları için şehir bulun",
+          "forLocation": "Konum alarmı",
+          "calcMethod": "Hesaplama yöntemi",
+          "selectAdhanSound": "Adhan sesini seçin",
+          "selectAlarmSound": "Alarm sesi'ni seçin",
+          "alarmSoundDesc": "Salat olmayan zamanlar için ses",
+          "timesPeekHeading": "Ekran süreleri banner'ı",
+          "timesPeekDesc": "Salat için zamanların hızlı görünümünün görüntülenmesini buradan devre dışı bırakabilirsiniz:",
+          "timesPeekHome": "Feed'ler sayfasında göster:",
+          "timesPeekTools": "Araçlar sayfasında göster:",
+          "jsConfirmLocChange": "Konumunuzu değiştirmek, önceden ayarlanmış tüm alarmları iptal eder. Devam etmek?",
+          "jsOtherSettingsSaved": "Diğer ayarlar kaydedilir. Konum değiştirilmedi."
+        },
+        "qna": {
+          "title": "Soru-Cevap",
+          "qnaSource": "Kaynak",
+          "seeAnswer": "Yanıta bakın",
+          "noAnswer": "Cevap yok"
+        },
+        "qnaDetail": {
+          "title": "Cevaplar: {ques}",
+          "jsSubmitSuccess": "Sorunuz başarıyla gönderildi. Yanıt aldığımızda sizi bilgilendireceğiz."
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh Sayacı"
+        }
+      },
+      "user": {
+        "name": "Kullanıcı | Hesap",
+        "editProfile": "Profili Düzenle",
+        "publishToFeed": "Feed için yaptığım değişiklikleri yayınlama",
+        "shareUpdateToFeed": "Ayrıca bu güncellemeyi feed'imde paylaş",
+        "statusText_ph": "Durumunuzu süslemek için _italics_ veya *bold* biçimlendirmesini kullanın",
+        "statusCharsLeft": "{count} karakter kaldı",
+        "jsImgUploadSuccess": "Resimler başarıyla yüklendi!",
+        "unauthAccess": {
+          "heading": "Doğru yerde olduğunuzdan emin misiniz?",
+          "desc": "<p>İzninizin olmadığı bir sayfaya erişmeye çalışıyor gibi görünüyorsunuz. Daha önce eriştiğiniz bir sayfaya erişmeye çalışıyorsanız, giriş yapmayı deneyin; bu sorunu çözmeli.</p> <p>Sorun devam ederse lütfen bizimle iletişime geçmekten çekinmeyin.</p>"
+        },
+        "guest": {
+          "welcome": "Hoşgeldiniz, <strong>Misafir!</strong>",
+          "heading": "Neden Giriş Yap veya Kayıt Olmalıyım?",
+          "desc": "Uygulamamızdaki bir hesapla, bir dizi özelliği kullanabilirsiniz. Henüz bir hesabınız yoksa bir hesap oluşturarak başlayın. Veya, sadece giriş yapın!",
+          "unlockHeading": "bir hesapla aşağıdakilerin kilidini açın:",
+          "features": {
+            "engage": {
+              "heading": "Uygulamada etkileşim kurun",
+              "desc": "Diğer kullanıcılarla etkileşim kurun, yayınlarına veya isteklerine tepki verin, fikrinize yorum yapın, öğelerinizi yer imlerine ekleyin ve çok daha fazlasını yapın!"
+            },
+            "fatiha": {
+              "heading": "Fatiha Sonrası İstek",
+              "desc": "Ayrılan sevdiklerinizin ruhları için Surah-e-Fatiha için istek gönderin ve ruhlarını tüm kullanıcılarımızın dualarıyla kutsayın!"
+            },
+            "askQues": {
+              "heading": "Soru Sor",
+              "desc": "Deen & Duniya'dan, seçkin Ayetullah Al-Sayyid Ali Al-Husseini Al-Sistani tarafından cevaplandırılacak çeşitli konularda sorular sorun!"
+            },
+            "content": {
+              "heading": "tercih edilen içerik",
+              "desc": "Hesabınıza giriş yaptığınızda her zaman tercih ettiğiniz içeriği ve ayarları görün. Ayrıca, tüm ilginç şeyler için bildirim alın!"
+            },
+            "personalized": {
+              "heading": "kişiselleştirilmiş paylaşım",
+              "desc": "İçeriği imzanızla kişiselleştirerek arkadaşlarınızın bir mesajı/gönderiyi ne zaman paylaştığınızı bilmesini sağlayın."
+            }
+          }
+        },
+        "about": {
+          "title": "Hakkında",
+          "jsStatusUpdateFail": "Durum güncelleştirilemedi. Lütfen daha sonra tekrar deneyin."
+        },
+        "posts": {
+          "title": "Mesaj",
+          "userNoPosts": "Resminizi / kapak resminizi değiştirdiğinizde veya ölen sevdikleriniz için sure-fatiha talep ettiğinizde, bu yayınlar burada ve <b>Ana Sayfa</b> sekmesinde (başkalarının da) görünecektir. Resim veya kapak resmi eklemeyi deneyin?",
+          "profileNoPosts": "{name} henüz herhangi bir gönderi yapmadı."
+        },
+        "marhumeen": {
+          "title": "Arjantin",
+          "header": {
+            "marhumeenNotAdded": "{name} henüz marhumeen eklenmedi | Marhumeen'i henüz eklemediniz",
+            "marhumeenAdded": "{name} marhumeen'den sonra ekledi | Siz marhumeen'den sonra eklediniz"
+          },
+          "jsDeleteHeader": "Emin misiniz?",
+          "jsDeletePrompt": "<b>{fullName}</b> kayıtlarının silinmesi, {gender} için yapılan önceki tüm istekleri de siler! Devam etmek?",
+          "jsDeleted": "{marhumeen} için silinen kayıtlar"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Hesabınıza giriş yapın",
+        "createAccount": "Bir hesap oluşturun"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Sonraki adım",
+        "goBack": "Geri Git",
+        "confirm": "Onaylamak"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Konum kullanılamıyor. Salat zamanlarının hızlı görünümünü görmek için lütfen simgeye tıklayarak ayarlayın.",
+          "unknownError": "Bir hata oluştu. Şu anda zaman yüklenemedi."
+        }
+      },
+      "langPrompt": {
+        "title": "{langLabel} içinde uygulama mı kullanıyorsunuz?",
+        "desc": {
+          "p1": "Uygulamaya {countryName} adresinden erişiyor gibi görünüyorsunuz. Bölgede konuşulan aşağıdaki dillerden birinde içerik ve denetimler görmek ister misiniz? Seçiminize tıklayın ve ardından devam etmek için 'Kaydet'i tıklayın.",
+          "p2": "Alternatif olarak, uygulamayı varsayılan dilde kullanmaya devam etmek için bu açılır pencereyi kapatın."
+        },
+        "choices": {
+          "useLang": [
+            "Evet, {langName} kullanın",
+            "{langName} kullanın"
+          ],
+          "useEngling": "İngilizce devam et"
+        },
+        "langError": "{langName} çevirileri yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+      },
+      "createPost": {
+        "heading": "Bugün ne hakkında?",
+        "desc": "Bir güncellemeyi paylaşmak veya aşağıdan bir seçenek kullanmak için buraya tıklayın",
+        "request": "İstek",
+        "askQues": "Soru Sor",
+        "sheetOptions": {
+          "header": "İstekte bulunun",
+          "subheader": "Momineen'den marhumeen'iniz veya kendiniz için bir istekte bulunun.",
+          "requestFatiha": "Sure-fetih/Namaz-ı Vahşat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat at Zari-e-Imam Husain (a.s.) sizin adınıza"
+        },
+        "modal": {
+          "titles": {
+            "post": "Gönderi Oluştur | Gönderiyi Güncelle",
+            "livestream": "Canlı Yayın",
+            "hadiyah": "Hadiyah Oluştur | Hadiyah'ı Güncelle"
+          },
+          "postCta": "Gönderi | Güncelleme",
+          "stream": {
+            "scheduleCta": "Daha sonrası için kaydet | Akışı Başlat"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Bunu kime hediye etmek istiyorsun?",
+              "addPeopleToggle": "Bırakın başkaları da bu sawab'ın bir parçası olsun!",
+              "searchInput": "Momimeen'i Bazm'dan veya Kişi listenizden davet edin",
+              "minUsersHeader": "Katılımcıların seçmesi gereken minimum sayıyı mı ayarlamak istiyorsunuz?",
+              "minUsersInput": "Minimum sayıyı girin"
+            }
+          },
+          "postTime": [
+            "Ne zaman?",
+            "Yayın yapmaya ne zaman başlamak istiyorsunuz?"
+          ],
+          "whereIsIt": "Nerede?",
+          "findLocation": "Konum bul",
+          "locationSubtext": "Gönderinize konum ekleme",
+          "addLocation": "Konum ekle",
+          "addPics": "Gönderinize resim ekleme",
+          "previewDes": "Gönderiniz diğer kişilerin akışında bu şekilde görünür. İnsanlar videoyu tam ekranda görmek için videoya dokunabilir.",
+          "addToPost": "{postType} öğesine ekle (isteğe bağlı)",
+          "jsImgUploadFail": "Resim yüklenmedi",
+          "jsAddDetailToPost": "Lütfen gönderinize ayrıntıları ekleyin",
+          "jsValidEndDate": "Lütfen geçerli bir bitiş tarihi seçin",
+          "jsSetLocation": "Lütfen gönderinin konumunu ayarlayın",
+          "jsRemLocation": "Lütfen bir konum belirleyin veya bu bölümü kaldırın",
+          "jsAddImg": "Lütfen resim ekleyin veya bu bölümü kaldırın",
+          "jsInvalidDate": [
+            "Lütfen geçerli bir başlangıç tarihi belirleyin ",
+            "Lütfen geçerli bir başlangıç tarihi belirleyin veya bu bölümü kaldırın"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Yorum",
+        "loadPrevious": "Önceki yorumları yükle | Önceki yanıtları yükle",
+        "replyingTo": "Yanıt:",
+        "noComments": "Bu yazı için henüz yorum yok",
+        "textboxPlaceholder": "Yorumunuzu buraya yazın",
+        "requestToLogin": "Tartışmayı başlatmak için Giriş Yap veya Kaydol"
+      },
+      "post": {
+        "addressYou": "Sen",
+        "addressing": "senin | onun | onun",
+        "itemTypes": {
+          "avatar": "avatar resmi",
+          "banner": "banner resmi",
+          "status": "profil durumu"
+        },
+        "displayPhrase": {
+          "common": "{<strong>kullanıcıadı</strong>} güncellendi {adresleme} {öğe}",
+          "fatiha": [
+            "{<strong>kullanıcıadı} {</strong>adresleme} {ilişki} için surah-fatiha istendi",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Until: {date} at {time}",
+        "privatePost": "Bu gönderi yalnızca sizin tarafınızdan görülebilir",
+        "descZiyaratRequest": "Ziyarat'ın sizin adınıza İmam Hüseyin'in (a.s.) *haram*'ında *{tarih}* tarihinde yapılmasını talep ettiniz."
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Sure-ül Fatiha'yı İsteyin",
+          "addUpdate": [
+            "Sevdiklerinizi güncelleyin",
+            "Sevdiklerinizi ekleyin"
+          ]
+        },
+        "heading": [
+          "Vefat eden sevilen birini ekleyin",
+          "Listeden sevilen birini seçin veya vefat eden sevilen birini ekleyin"
+        ],
+        "addNew": "Yeni Ekle",
+        "subheader": [
+          "Sevdiklerinizin ayrıntılarını ekleyin",
+          "İsteğinize bir mesaj da ekleyebilirsiniz"
+        ],
+        "form": {
+          "jsAddImg": "Sevdikleriniz için resim ekleyin",
+          "jsRemoveImg": "Resmi kaldır",
+          "fullName": "Merhumun Tam Adı",
+          "name_ph": "Örneğin, Syed Zeeshan Haider Abidi",
+          "fathersName": "Baba Adı (Varsa)",
+          "father_ph": "Örneğin, Syed Tauqeer Husain",
+          "nameError": "Lütfen özel karakterlerimizle tam adınızı girin",
+          "genderLabel": "Cinsiyet",
+          "genderValue": [
+            "Dişi",
+            "Erkek"
+          ],
+          "relation": [
+            "Marhooma senin",
+            "Marhoom senin"
+          ],
+          "selectRelation": "İlişkiyi Seç",
+          "demiseLabel": "Bugün öldünüz mü? Namaz-e-Wahshat İsteyin",
+          "demiseText": "Kaybınızı duyduğumuz için çok üzgünüz. Allah size ve ailenize bu kayba sabırla katlanma gücü versin ve Allah ölen ruhu Cenne'de en yüksek yerlerle mükâfatlandırsın. Bu seçeneği seçmek, momineen'den ölmüş ruh için Namaz-e-Wahshat'ı istemenizi sağlar.",
+          "optional": "Opsiyonel",
+          "dod": "Vefat etti",
+          "dob": "Doğduğu yer"
+        },
+        "relation": [
+          "Kızı",
+          "Oğlu"
+        ],
+        "born": "Doğmuş:",
+        "died": "Öldü:",
+        "addMsg": "Bir mesaj eklemek ister misiniz?",
+        "remainingChars": "Karakterler: {count} | Karakterler: {count} kalan",
+        "infoEditRelative": "{name} ile ilgili ayrıntıları <b>Hesap > Marhumeen</b> bölümünüzde düzenleyebilirsiniz.",
+        "saveRequestCta": [
+          "Kaydet ve İste",
+          "İstek"
+        ],
+        "addUpdate": "Ekle | Güncelleme",
+        "jsRequesting": "Isteyen..",
+        "jsAddSuccess": [
+          "Sevdiklerinizi başarıyla eklediniz!",
+          "Sevdiklerinizi başarıyla güncelleyin!"
+        ],
+        "jsAddFail": "Sevdiklerinizi ekleyemedim. Lütfen daha sonra tekrar deneyin.",
+        "jsReqSuccess": "İstek başarıyla gönderildi.",
+        "jsGettingMarhumeen": "Marhumeen'inizi almak.."
+      },
+      "askQues": {
+        "title": "Bir soru sor",
+        "form": {
+          "quesLabel": "Sorunuz",
+          "quesLabel_ph": "Bir soru arayın veya kendi kendinize sorun",
+          "similarQues": "Bu sorular zaten aradığınız cevaba sahip olabilir.",
+          "quesTextHeader": "Sorunuz:",
+          "selectCat": "Soru Kategorisini Ayarla:",
+          "askAnonLabel": "Anonim Olarak Sor?",
+          "askAnonInfo": "Sizin adınıza bir cevap talep ederken adınız Bilgin'e gönderilmeyecek, uygulamamızda bu soruyla birlikte görüntülenmeyecektir. Ancak anonim sorular hızlı bir şekilde cevaplanamayabilir.",
+          "askViaLabel": "Üzerinden Sor",
+          "askSistaniInfo": "Seçkin makamı Ayetullah Al-Sayyid Ali Al-Husseini Al-Sistani'nin ofisi tarafından cevaplandırılacak bir soru sorabilirsiniz. Soruyu web sitelerine ileteceğiz (profil bilgilerinizle birlikte). <b>Şartlar ve Koşullar'ı</b> doğru okuduğunuzdan emin olun.",
+          "tncLabel": "Şartlar ve Koşullar:",
+          "showHide": [
+            "Göstermek",
+            "Gizlemek"
+          ],
+          "sistaniOrgTncInfo": "Bir soru sormadan önce web sitelerinden aşağıdaki noktaları göz önünde bulundurun, çünkü aşağıdaki noktalara uymazsanız, onlardan geri dönüş alamayabilirsiniz veya herhangi bir cevap alamayabilirsiniz.",
+          "userInfo": {
+            "aboutLabel": "Hakkınızda",
+            "genderLabel": "Cinsiyetiniz",
+            "bdayLabel": "Doğum gününüz",
+            "bdayDesc": "Sadece 09 yaşın üzerindeyseniz soru sorabilirsiniz. Hala ilgileniyorsanız, lütfen bizimle iletişime geçin."
+          },
+          "jsQuesAdded": "Soru başarıyla eklendi."
+        },
+        "askQuesCta": "Sorunuzu sorun"
+      },
+      "authPrompt": {
+        "title": "Hesap gerekli",
+        "defLabel": "Devam etmek için Giriş Yap veya Kaydol",
+        "infoText": "Bu özellik, kullanmadan önce giriş yapmanızı veya kaydolmanızı gerektirir. Zaten kayıtlıysanız <b>Oturum Aç'ı</b> tıklayın veya hesabınızı oluşturmak için <b>Kaydol'u</b> tıklayın."
+      },
+      "location": {
+        "title": "Konumu Değiştir",
+        "search_ph": "Konumunuzu arama",
+        "autoDetectInfo": "Konumunuzu girin veya konumunuzu almak için otomatik algıla simgesini tıklayın.",
+        "setLocation": "Konumu ayarla",
+        "ipAddress": "IP adresi",
+        "alarmLocation": "Alarm konumu",
+        "basedOn": "{seçici} öğenize dayalı konum",
+        "jsDetecting": "Tespit ediliyor, lütfen bekleyiniz..",
+        "jsPermDenied": "Uygulama için konum izni reddedildi. Lütfen telefonunuzdaki Ayarlar bölümünü ziyaret ederek bu uygulama için konum tercihini sıfırlayın.",
+        "jsPosUnavailable": "Üzgünüz, ancak konum şu anda bu telefon için mevcut değil. Lütfen daha sonra tekrar deneyin.",
+        "jsMatchNotFound": "Eşleşen herhangi bir konum bulunamadı..",
+        "jsEnterValidLoc": "Lütfen geçerli bir konum girin",
+        "jsGeoUnavailable": "Üzgünüz, ancak konum şu anda bu telefon için mevcut değil. Lütfen daha sonra tekrar deneyin.",
+        "jsLocMissing": "Konumunuz bulunamadı. Lütfen konumu manuel olarak girin.",
+        "jsSelectedLoc": "Bu konumla ilgili bir hata var. Lütfen tekrar deneyin"
+      },
+      "readText": {
+        "ctaLabel": "Okumak",
+        "title": "Dua: {title}",
+        "arabicCta": "Arapça",
+        "englishCta": "İngilizce",
+        "translatedCta": "Çevrilmiş"
+      },
+      "reqAccess": {
+        "heading": "erişim gerekli",
+        "subheading": "Kameranıza erişmek için izne ihtiyacımız var",
+        "subtext": "Lütfen aşağıdaki düğmeye tıklayarak erişime izin verin:",
+        "ctaLabel": "erişime izin ver"
+      },
+      "shareBtn": {
+        "subtext": "Bunu ilgili uygulamada paylaşmak için aşağıdaki seçeneklerden birini tıklayın:",
+        "jsCopyToCB": "Panonuza kopyalandı",
+        "copyText": "Aşağıdaki içeriği kopyalamak için yukarıdaki <b>Kopyala</b> simgesini tıklayın:"
+      },
+      "verifyMob": {
+        "title": [
+          "Mobil Cihazları Doğrulama",
+          "Kodu girin"
+        ],
+        "page1": {
+          "infoText1": "Kimliğinizi doğrulamak için cep telefonu numaranıza ihtiyacımız var. Ayrıca zaman zaman güncellemeler de alabilirsiniz.",
+          "infoText2": [
+            "Numaranızı girin ve onay kodunuzu almak için düğmeye tıklayın:",
+            "Numaranızı girin ve onay kodunuzu almak için bir düğmeye tıklayın:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Cep Telefonu Numarası",
+          "mobileLabel_ph": "Cep telefonu numaranızı girin",
+          "otpViaSMS": "SMS ile alın",
+          "viaWhatsApp": "WhatsApp ile edinin",
+          "viaTelegram": "Telegram ile edinin",
+          "viaSignal": "Signal ile alın"
+        },
+        "page2": {
+          "header": "Numaranıza 6 haneli bir onay kodu gönderdik ({number})",
+          "enterCodeLabel": "Kodu Girin",
+          "enterCode_ph": "6 haneli kodu girin",
+          "resendCode": "Kodu Yeniden Gönder",
+          "notUsingMobile": "<strong>{number} kullanmıyor musunuz?</strong>",
+          "changeNumber": "Numarayı Değiştir"
+        },
+        "jsVerifySuccess": "Mobil cihazlar başarıyla doğrulandı",
+        "jsVerifyError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+        "jsSendOtpFailed": "OTP gönderilemedi. Lütfen daha sonra tekrar deneyin.",
+        "jsSendOtpSuccess": "OTP {mobile} adresine gönderildi",
+        "jsTooManyRequests": "Görünüşe göre zaten çok fazla kez denedin. Lütfen bir veya iki dakika bekleyin ve tekrar deneyin."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Paylaşım mesajını kişiselleştir",
+        "changePwd": "Şifreyi Değiştir | Şifreyi Ayarla",
+        "changeLang": "Dili Değiştir",
+        "publishToFeed": "Değişikliklerimi feed'de de yayınla."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Kişiselleştirme",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Mesajlara adımı ekle",
+          "sharingDesc": "Harici olarak paylaşırken, mesajlarınız aşağıdaki gibi görünebilir:",
+          "sharingTextDemo": [
+            "Bu Nauha'yı Bazm App'te dinleyin",
+            "{name} bu Nauha'yı Bazm App'te dinlemenizi önerir"
+          ],
+          "addSignDesc": "İmzanızı da eklemek ister misiniz?",
+          "signDesc": "Dileğinizi bu uygulamada arkadaşlarınızla paylaştığınızda, imzanız mesajlara eklenecektir. Örneğin, aşağıdaki gibi görünebilir:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Mevcut şifrenizi girin:",
+          "currentPwdPH": "Geçerli Şifreyi Girin",
+          "newPwdLabel": "Yeni bir şifre girin:",
+          "newPwdPH": "Yeni Şifre Girin"
+        },
+        "changeLang": {
+          "searchYourLang": "Dilinizde arama yapın",
+          "desc": "Uygulama içeriğini görmek istediğiniz dili seçin. Bir dile tıklayın ve bu ifadenin seçilen dilde nasıl göründüğünü görmek için bekleyin (çevirinin yüklenmesi biraz zaman alır)."
+        },
+        "jsPwdInvalid": "Parola geçersiz karakterler içeriyor.",
+        "jsPwdCharCount": "Şifre 8 karakterden az olamaz.",
+        "jsSelectLang": "Lütfen önce bir dil seçin.",
+        "jsLangSet": "Dil {lang} olarak ayarlandı",
+        "jsPrefSaved": "Kişiselleştirme ayarları kaydedildi."
+      },
+      "forgotPwd": {
+        "title": "Şifrenizi mi unuttunuz?",
+        "introText": "Şifrenizi sıfırlamak kolaydır. Devam etmek için bir yöntem seçin:",
+        "usePhoneCta": "Telefonu Kullan",
+        "useEmailCta": "E-posta Kullan",
+        "sendEmailIntro": "Hesabınızı oluşturmak için kullandığınız e-posta adresini girdiğinizde, hesabınız için yeni bir şifre belirleme bağlantısını içeren bir e-posta göndeririz.",
+        "emailInputLabel": "Kayıtlı e-posta adresiniz",
+        "sendEmailCta": "Sıfırlama E-postası Gönder",
+        "sentEmailText": "Bizde bir hesabınız varsa, kısa bir süre sonra {email} adresinden bir şifre sıfırlama <strong>e-postası</strong> alacaksınız. Bağlantı için lütfen e-postanızı kontrol edin.",
+        "notUsingEmailText": "<strong>{email} kullanmıyor musunuz?</strong>",
+        "changeEmailCta": "E-postayı Değiştir",
+        "phoneIntroText": "Hesabınıza eklenen telefon numarasını girin. Sahipliğinizi doğrulamak için bir OTP göndeririz ve bir sonraki adımda yeni bir şifre oluşturabilirsiniz.",
+        "phoneInputLabel": "Cep telefonu numaranız",
+        "sendOtpCta": "OTP Gönder",
+        "backToLoginCta": "Giriş Yap'a Geri Dön",
+        "disclaimerText": "Lütfen bir {item} alacağınızı ancak {item} bize kayıtlıysa alacağınızı unutmayın.",
+        "jsMailSent": "Gönderilen posta"
+      },
+      "resetPwd": {
+        "title": "Şifreyi Sıfırla",
+        "introText": "Burada hesabınız için güvenli bir şifre belirleyin. Doğru şifreyi girdiğinizden emin olmak için {icon} simgesine tıklayın.",
+        "pwdInputLabel": "Yeni şifre belirle",
+        "pwdInputPH": "Yeni şifre girin",
+        "invalidPwdChars": "Şifredeki geçersiz karakterler",
+        "jsResetSuccess": "Şifre sıfırlama başarıyla sıfırlandı!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Parça yüklenemedi. Lütfen daha sonra tekrar deneyin."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} başarıyla silindi.",
+        "jsErrReporting": "Şu anda bunu rapor edemiyorum. Lütfen daha sonra tekrar deneyin.",
+        "jsAlreadyReported": "Bu {öğe} öğesini zaten bildirdiniz. Bunu birden fazla kez bildiremezsiniz.",
+        "jsPromptHeading": "Bir öğenin bildirilmesi, sizin veya başkalarının feed'inde/sayfalarında görünme olasılığının daha düşük olmasına neden olur. Bunu hala bildirmek istiyor musunuz?",
+        "jsReporting": "Raporlama {itemType}..",
+        "jsReportingErr": "Şu anda isteğinizi gönderemedim. Lütfen daha sonra tekrar deneyin.",
+        "jsReported": "{item} bildirildi. Katkılarınız için teşekkür ederiz."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Güncellenecek bir şey yok!",
+        "jsProfileUpdated": "Profil güncellendi!"
+      },
+      "reqZiyarat": {
+        "title": "Ziyarat'ı İsteyin",
+        "cta": "İstek",
+        "header": "Sizin adınıza Kerbela'daki İmam Hüseyin (a.s.) Türbesi'nde Ziyarat'ı isteyin.",
+        "desc": {
+          "p1": "Her Cuma günü Irak'ın Kerbela kentinde İmam Hüseyin(a.s.) Türbesi'nde <strong>Ziyarat'ı sizin adınıza okutturun</strong>! Tek yapmanız gereken <strong>Perşembe akşamı bitmeden talepte bulunmak</strong>. Yine de asla geç kalmazsınız; isteğiniz çok geç gelirse, bir sonraki hafta için kaydedilecektir.",
+          "p2": "Ziyarat sizin adınıza okunduğunda sizi bilgilendireceğiz.",
+          "p3": "Not: İlk kez talepte bulunduğunuzda, bilgileriniz servis sağlayıcımızla paylaşılacaktır. Daha fazla bilgi edinmek için lütfen Şartlar ve Koşullarımızı okuyun."
+        },
+        "jsRegistered": "Teşekkürler! İsteğiniz başarıyla kaydedildi. Kısa süre içinde bir onay e-postası alacaksınız.",
+        "jsAlreadyRegistered": "Bu Perşembe Ziyarat'a zaten kayıt oldunuz. Gelecek haftaki ziyarat için gelecek hafta kayıt olun.",
+        "jsConfirm": "Bu talebe kaydolmak için bilgilerinizi (ör. tam adınız, cinsiyetiniz vb.) servis sağlayıcımızla paylaşmamız gerekir. Bu yalnızca ilk kez gereklidir. Lütfen devam etmek için onaylayın.",
+        "jsDeclined": "Tamam! Belki daha sonra."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Adınız",
+          "placeholder": "Tam adınızı girin"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": [
+            "Kayıtlı e-posta adresiniz",
+            "E-posta adresinizi girin"
+          ]
+        },
+        "password": {
+          "label": "Parola",
+          "placeholder": [
+            "Şifreniz",
+            "Bir şifre girin"
+          ]
+        },
+        "rememberLogin": "Girişi hatırla",
+        "forgotPwd": "Şifrenizi mi unuttunuz?",
+        "connectUsing": "Veya, kullanarak bağlanın",
+        "useSavedAccount": "Kayıtlı hesapları kullanma",
+        "lastLogin": "Son giriş",
+        "needAccount": "Bir hesaba mı ihtiyacınız var?",
+        "resetPwdSuccess": "Şimdi giriş yapmak için yeni şifrenizi kullanabilirsiniz",
+        "jsEnterFullName": "Lütfen tam adınızı girin.",
+        "jsEnterValidName": "Lütfen geçerli bir ad girin.",
+        "jsEnterValidEmail": [
+          "Lütfen geçerli bir e-posta adresi girin.",
+          "E-postada geçersiz karakterler var. Lütfen geçerli bir e-posta adresi girin."
+        ],
+        "jsSelectCountryCode": "Lütfen listeden ülke kodunuzu seçin",
+        "jsEnterMobile": "Lütfen cep telefonu numaranızı girin.",
+        "jsEnterValidMobile": "Lütfen geçerli bir cep telefonu numarası girin",
+        "jsEnterPwd": "Lütfen şifrenizi giriniz!",
+        "jsEnterValidPwd": [
+          "Parola geçersiz karakterler içeriyor. Lütfen geçerli bir şifre girin.",
+          "Parola en az {num} karakter olmalıdır."
+        ],
+        "jsAccountSuccess": "Hesap başarıyla oluşturuldu",
+        "jsFbError": "Facebook hesap bilgileriniz alınamadı. Lütfen tekrar deneyin.",
+        "jsPromptClosedErr": "Oturum açma istemi tamamlanmadan önce kapatıldı. Lütfen tekrar deneyin."
+      },
+      "gotoSignup": "Kaydolmak için git",
+      "alreadyHasAccount": "Zaten bir hesabınız mı var?",
+      "gotoLogin": "Git Giriş",
+      "gotoProfile": "Profil Paylaş",
+      "msgForAuthUser": "<p>Zaten giriş yaptığınız için buraya yanlışlıkla geldiğinizi düşünüyoruz.</p> <p>Nasıl göründüğünü görmek için profilinizi kontrol edebilir veya diğer bölümlere göz atmak için aşağıdaki bağlantılardan birini kullanabilirsiniz:</p>",
+      "jsLoggedOut": "Oturumunuz kapatıldı.",
+      "jsLogoutHeading": "Hesaptan çıkış mı yapıyorsunuz?",
+      "jsLogoutText": "Bu, yerel olarak kaydedilen bilgileri siler ve bu da <b>hızlı</b> bir şekilde oturum açılmasını sağlar. Devam etmek?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Bazm { platform } yükleyin",
+          "desc": "Daha iyi bir deneyim, kişiselleştirilmiş içerik, bildirimler ve çevrenizden ilginizi çeken her şey için Android uygulamasını indirin! | Daha iyi bir deneyim için bir dahaki sefere doğrudan ana ekranınızdan erişmek için uygulama kısayolunu (yer imi) yükleyin! Cihazınızda neredeyse hiç yer kaplamaz, ancak uygulamaya hızlı bir şekilde geri dönmenize yardımcı olur.",
+          "cta": {
+            "action": "Yüklemek",
+            "skip": "Belki daha sonra"
+          }
+        },
+        "prompt": {
+          "heading": "Bazm kısayolunu yükle?"
+        },
+        "popover": {
+          "text": "AŞAĞIDAKİ Paylaş simgesine (sağdaki gibi görünür) <strong></strong> tıklayın ve ardından <strong>Ana Ekrana Ekle'ye</strong> tıklayın. Bitirmek için \"Kaydet\" i tıklayın ve ardından uygulamaya ana ekranınızdaki kısayoldan erişebilirsiniz!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Şimdiye kadarki deneyiminiz nasıl?",
+        "text": "<p>Yeni uygulamayı beğendiniz mi? Geliştirebileceğimiz bir şey var mı? Lütfen sizin için deneyimi geliştirmek için geri bildiriminizle bize yardımcı olun!</p> <p>Bu sadece birkaç dakika sürecek ve zaman ayırdığınız için çok teşekkür ederiz!</p>",
+        "cta": "Geri bildirimde bulunun",
+        "dismiss": "Belki daha sonra"
+      },
+      "advertise": {
+        "heading": "Bazm'da reklam verin",
+        "text": "<p>Bazm'daki ürününüzle dünyanın dört bir yanındaki milyonlarca Şii Müslüman'a ulaşın veya markalar ve kullanıcılarla etkileşime geçin.</p> <p>$ 1 / gün kadar düşük bir fiyata başlayın!</p>",
+        "cta": "Daha fazla bilgi edinin"
+      },
+      "upgradeSafari": {
+        "header": "Safari'de sınırlı deneyim",
+        "description": "<strong>Bu tarayıcı (Safari) en iyi deneyim için optimize edilmemiştir</strong>. Uygulamamızı burada kullanmaya devam ederek, uyarı bildirimleri, güncellemelerin yakınında, çevrimdışı mod ve çok daha fazlası gibi bir dizi özelliği kaçıracaksınız.<br/> Daha iyi bir deneyim için aşağıda listelenen tarayıcılardan birini edinmenizi öneririz. Tarayıcıyı AppStore'dan indirmek için düğmelerden herhangi birine tıklayın:",
+        "ctas": {
+          "getGoogle": "Google Chrome'u edinin",
+          "getFirefox": "Mozilla Firefox'u edinin",
+          "getOpera": "Opera Touch'ı edinin",
+          "skip": "Belki daha sonra"
+        },
+        "toast": "Sorun değil. Bir dahaki sefere kadar!"
+      },
+      "cookieBanner": {
+        "header": "Çerezleri cihazınıza kaydetme hakkında",
+        "p1": "{cihazınızda} herhangi bir çerez saklamıyoruz, ancak uygulamamızda kullanılan üçüncü taraf uygulamaları (Google Analytics gibi) olabilir. Bunun yerine, önemli verileri depolamak için kalıcı depolama kullanırız ve çoğu durumda bu, depolamada ve aktarım sırasında şifrelenir.",
+        "p2": "Bu uygulamayı kullanmaya devam ederek, seçimlerimizle ilgili herhangi bir sorununuz olmadığını onaylarsınız. Çerezlerimiz ve veri kullanımımız hakkında daha fazla bilgi edinmek için <a href='https://bazm.in/privacy-policy' target='_blank'>Gizlilik Politikamıza bakın.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Dünyanın dört bir yanındaki Şii Müslümanlar için Sosyal Ağ Uygulaması! Uygulamayı bugün indirin.",
+      "home": {
+        "title": "Bazm - Çevrimiçi Şii topluluk uygulaması!",
+        "description": "Bazm uygulaması, tüm günlük deen ve mazhab ihtiyaçlarınızı karşılayan Şii topluluk uygulamasıdır. Tüm tarihler ve durumlar için Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kitaplar, vb. Evinizin rahatlığında dünyanın dört bir yanındaki Şii Müslümanlarla canlı yayın etkinlikleri ve meclisleri izleyin ve yapın. Bugün katılın!"
+      },
+      "feed": {
+        "title": "Size özel içerikler bulun ve etrafınızdaki ve dünyadaki Şii topluluğuyla paylaşın",
+        "description": "Etrafınızdaki shia momineen ile haberleri, etkinlikleri ve içerikleri bulun ve paylaşın ve ev sahipliği yaptığınız etkinlikler hakkında onları bilgilendirin. Uygulamada yakınınızda olan her şey hakkında bilgi edinin."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal ve sizin için çok daha fazlası!",
+        "description": "Tüm tarihler ve durumlar için Nauhe, Majalis, Dua, Aamaal, ziyarat ve çok daha fazlasını bulun. Evinizin rahatlığında canlı yayın macalis'i izleyin ve yapın! Deen ve mazhab'ın rutin görevlerinde size yardımcı olan Shia sosyal ağ uygulamasına katılın. Bugün katılın!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Günlük Azaan alarmı, soru-cevap ve Şii Müslümanlar için araçlar",
+        "description": "Ezan için günlük hatırlatma alın, deen ve islam konularında soru-cevap bulun ve sorun veya marhumeen'iniz için Surah-fatiha veya Namaz-e-Wahshat ve Bazm'da daha fazla araç isteyin. Deen'in rutin görevlerinde size yardımcı olan Shia sosyal ağ uygulamasına katılın. Tüm tarihler ve durumlar için Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat'ı bulun. Evinizin rahatlığında etkinlikleri ve macalileri canlı yayınlayın. Bugün katılın!"
+      },
+      "tasbeehCounter": {
+        "title": "Sesli otomatik tasbeeh sayacı __ Tasbeeh Counter aracı",
+        "description": "Sayısız tesbih okumak, Ses tasbeeh sayaçlarımızla artık daha kolay. Araba kullanırken veya çalışırken tadımbinizi ezbere söyleyin, yine de ses sayaçlarıyla sayımı takip edin. Bu aracı ve benzerlerini Bazm uygulamasında edinin."
+      },
+      "accountHome": {
+        "title": "Bazm - Bugün ücretsiz hesabınızı oluşturun ve günlük deen ihtiyaçlarınız konusunda yardım alın!",
+        "description": "Deeniyat'a yönelik tüm ihtiyaçlarınızı karşılamak için bugün Bazm uygulamasına katılın. Tüm tarihler ve durumlar için nohe / nauhe, majalis, dua, ziyarat, aamaal'ı bulun. Çevrenizdeki mecellileri ve etkinlikleri canlı yayınlayın ve izleyin; Etrafınızdaki ve dünyadaki gönderileri, içerikleri ve momineenleri ve çok daha fazlasını uygulamada bulun."
+      },
+      "nauheListPage": {
+        "title": "Nauhe'yi dünyanın dört bir yanındaki popüler nauhakhwan'dan dinleyin",
+        "description": "Tüm yıllardan nauhe'yi ve dünyanın dört bir yanından gelen tüm popüler nauhakhwan'ları Bazm uygulamasında dinleyin."
+      },
+      "soazListPage": {
+        "title": "Soaz'ı dünyanın dört bir yanındaki popüler Soazkhwan'dan dinleyin",
+        "description": "Tüm yıllardan Soaz'ı ve dünyanın dört bir yanından gelen tüm popüler Soazkhwan'ları Bazm uygulamasında dinleyin."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Bazm'da daha fazla nauhe, audio/video majalis, dua, ziyarat, aamaal, vb. bulun",
+        "description": "Yakınlarınızdan ve dünyanın dört bir yanından Mevlana ve Zakir-e-Ehlbeyt'ten ses/video macalis'i bulun. Bazm uygulamasında en son mecellileri ve canlı yayın oturumlarını dinleyin ve izleyin. Uygulamayı bugün indirin ve dünyadaki milyonlarca Şii Müslümana katılın!"
+      },
+      "duasPage": {
+        "title": [
+          "Bazm'da {ay} ayı için Duas ve aamaal - Bazm'da daha fazla nauhe, ses/video majalis, dua, ziyarat, aamaal, vb. Bulun",
+          "Bazm'daki tüm aylar için Duas ve aamaal - Bazm'da daha fazla nauhe, ses / video majalis, dua, ziyarat, aamaal, vb. Bulun"
+        ],
+        "description": "Bazm'daki tüm aylar için dua, aamaal, ziyarat ve munajat'ı bulun, tarih ve olay açısından. Uygulamayı bugün indirin ve dünyadaki milyonlarca Şii Müslümana katılın!"
+      }
+    }
+  }
+}

@@ -1,1 +1,809 @@
-undefined
+{
+  "pl": {
+    "common": {
+      "refresh": "Pociągnij, aby odświeżyć",
+      "refreshing": "Orzeźwiające...",
+      "loadingMore": "Ładowanie więcej...",
+      "checking": "Sprawdzanie...",
+      "sendOtp": "Wysyłanie OTP..",
+      "dismiss": "Zwolnić",
+      "invite": "Zaprosić",
+      "showMore": "Pokaż więcej | Zobacz więcej",
+      "play": "Grać",
+      "pause": "Wstrzymana",
+      "playing": "Odtwarzanie",
+      "paused": "Wstrzymana",
+      "watch": "Zegarek",
+      "read": "Czytać",
+      "authors": "Autor | Autorzy",
+      "languages": "Język | Języki",
+      "clear": "Jasny",
+      "cancel": "Anuluj",
+      "change": "Zmieniać",
+      "continue": "Kontynuować",
+      "select": "Wybrać",
+      "saveChanges": "Zapisz zmiany | Zapisz | Aktualizacja",
+      "newBadge": "Nowy",
+      "login": "Login",
+      "logout": "Wyloguj",
+      "signup": "Zarejestruj się",
+      "settings": "Ustawienia",
+      "cookiePolicy": "Polityka dotycząca plików cookie",
+      "privacy": "Prywatność",
+      "contactUs": "Skontaktuj się z nami",
+      "home": "Dom",
+      "facebook": "Na Facebooku",
+      "google": "Wyszukiwarka Google",
+      "you": "Ty",
+      "retry": "Ponów próbę",
+      "send": "Wyślij",
+      "submit": "Prześlij",
+      "share": "Udostępnij | Udostępnij teraz",
+      "at": "przy",
+      "untilNextTime": "Nie ma sprawy. Do następnego razu!",
+      "plzWait": "Czekaj..",
+      "saving": "Oszczędność.. | Aktualizacja.",
+      "search": "Szukać",
+      "late": "Późny",
+      "done": "Gotowy",
+      "featureUnavailable": "Ta funkcja będzie dostępna wkrótce. Dziękujemy za zainteresowanie!",
+      "actions": {
+        "cancel": "Anuluj",
+        "notify": "Zawiadomić",
+        "like": "Lubić",
+        "recited": "Recytowane",
+        "comment": "Komentarz",
+        "reply": "Odpowiedź",
+        "bookmark": "Zakładka",
+        "uploading": "Przesyłanie..",
+        "deleting": "Usuwanie..",
+        "requesting": "Żądanie..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Przepraszamy, nie możesz tutaj udostępniać plików {fileType}",
+        "jsUpdateAvailable": {
+          "header": "Dostępna aktualizacja",
+          "message": "Widzisz buforowaną wersję aplikacji. Kliknij \"Odśwież\", aby zaktualizować i załadować nową zawartość i funkcje.",
+          "cta": "Odświeżyć"
+        },
+        "jsImgUploaded": "Obraz przesłany pomyślnie!",
+        "jsImgUploadErr": "Przesyłanie obrazu nie powiodło się. Spróbuj ponownie później."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Usługa jest obecnie niedostępna. Spróbuj ponownie później.",
+        "unknown": "Wystąpił nieznany błąd. Spróbuj ponownie później.",
+        "general": "Wystąpił błąd podczas przetwarzania żądania. Spróbuj ponownie później."
+      },
+      "content": {
+        "unavailable": "W tej chwili nie można załadować zawartości. Spróbuj ponownie za chwilę.",
+        "itemDetailUnavailable": "Nie można znaleźć szczegółów dotyczących tego {przedmiotu}",
+        "loadMoreError": "Nie udało się załadować więcej elementów. Spróbuj ponownie później."
+      },
+      "url": {
+        "invalid": "Nieprawidłowy adres URL. Spróbuj użyć nowego adresu URL."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Dom"
+      },
+      "postDetail": {
+        "commonTitle": "Detal",
+        "fatihaTitle": "Sura-fatiha",
+        "fatihaWithNamaz": "Sura-fatiha i Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Zdjęcie profilowe",
+        "bannerUpdateTitle": "Obraz okładki (przestarzały)",
+        "statusUpdateTitle": "Aktualizacja statusu"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Dom",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Udostępnij to żądanie w całej sieci i dotrzyj do większej liczby osób!"
+          }
+        }
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe •",
+          "majalis": "Majalis •",
+          "soaz": "Soaz •",
+          "ziyarat": "Ziyaraat •",
+          "dua": "Duas •",
+          "munajat": "Munajaat •",
+          "munajaat": "Munajaat •",
+          "books": "Książki"
+        },
+        "inviteFriends": "zaproś znajomych",
+        "notShia": "Nie szyita?",
+        "contacts": {
+          "accessRequestHeader": "Wymagany dostęp do kontaktów",
+          "accessRequestDesc": "Wymagamy dostępu Twoich kontaktów, aby zasugerować szyitom w twojej książce telefonicznej zaproszenie do tej aplikacji."
+        },
+        "audio": "Dźwięk",
+        "video": "Wideo",
+        "hijri": "Hidżri",
+        "duaHome": {
+          "wishCtaText": "Życzę znajomym!",
+          "wishCtaLabel": "ŻYCZYĆ"
+        },
+        "books": {
+          "booksByAuthor": "Książki {autor}",
+          "booksInLang": "Książki w {język}",
+          "filterBy": "Filtruj według:",
+          "matching": {
+            "authors": "z dopasowanymi autorami",
+            "lang": "z dopasowaniem języków",
+            "title": "z dopasowaniem tytułu"
+          }
+        },
+        "booksFilter": {
+          "title": "Znajdź książkę według autora",
+          "searchBox": "Wyszukaj autora według nazwy",
+          "selectLang": "Wybierz język:"
+        },
+        "bookDetails": {
+          "title": "{title} — Znajdź więcej takich darmowych książek na Bazm",
+          "aboutBook": "O książce:"
+        }
+      },
+      "tools": {
+        "name": "Narzędzia",
+        "salatAlarmDesc": "Ustaw alarmy dla Azaan zgodnie z lokalnymi godzinami",
+        "sehriAlarmDesc": "Ustaw alarm dla Sehri, a nawet zadzwoń na swój numer przed Sehri!",
+        "sehriAlarmOptionDisabled": "Alarmy czasu Sheri w miesiącu Ramadan (dostępne tylko podczas Ramadanu)",
+        "tasbeehCounterDesc": "Recytuj Duas, Koran i Tasbeeh w trybie powtarzania z łatwością dzięki licznikowi Audio Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Szukaj i zadawaj pytania lub znajdź odpowiedzi na masle-masayel z codziennego życia w sprawach islamu.",
+        "alarms": {
+          "salatAlarms": "Alarmy Salat | Codzienne alarmy Salat",
+          "sehriAlarms": "Alarmy Ramadan Sehri",
+          "gettingLocation": "Uzyskiwanie lokalizacji. Czekaj...",
+          "settingsTip": "Zmień <b>lokalizację</b> i preferencje w ustawieniach alarmu. Kliknij ikonę Ustawienia, aby rozpocząć.",
+          "setAlarmHeader": "Ustawianie codziennych alarmów",
+          "setAlarmOnAppDesc": "Ustawianie alarmów jest dostępne tylko w aplikacji",
+          "imsakLabel": "Imsak •",
+          "fajrLabel": "Fajr •",
+          "zuhrLabel": "Zuhr •",
+          "sunsetLabel": "Zachód słońca",
+          "maghribLabel": "Maghrib •",
+          "midnightLabel": "Północ",
+          "sehriEndTime": "Czas na koniec Sehri",
+          "minToImsak": [
+            "{min} mins przed Imsak",
+            "{godzina} godzina przed Imsakiem"
+          ],
+          "minToImsakDesc": [
+            "Dzwonki alarmowe {min} minut przed końcem czasu Sehri",
+            "Alarm dzwoni {godzina} godzina przed końcem czasu Sehri"
+          ],
+          "notRamadan": "Wygląda na to, że to jeszcze nie Ramadan. Proszę wrócić w trakcie lub tuż przed Ramadanem, aby ustawić alarmy dla Sehri",
+          "push": {
+            "heading": "Wymagany dostęp do powiadomień",
+            "desc_request": "Alarm działa poprzez wysyłanie powiadomień push w wyznaczonych godzinach. Bez dostępu do push aplikacja nie będzie działać w oczekiwany sposób. Prosimy o zezwolenie na dostęp do powiadomień push, abyśmy mogli poinformować Cię o tym w godzinach alarmu.",
+            "desc_denied": "<strong>Wcześniej odmówiono dostępu do powiadomień.</strong> Jest to wymagane, aby powiadomienia push działały poprawnie. Wysyłamy powiadomienia w czasie alarmu.<br/> Prosimy o zezwolenie na dostęp do powiadomień push, klikając przycisk.",
+            "cta": "Pozwolić",
+            "toast_granted": "Dziękuję! Otrzymasz powiadomienie o alarmach.",
+            "toast_denied": "Żądanie powiadomienia odrzucone. Zezwól aplikacji na prawidłowe działanie.",
+            "toast_prompt": "Musisz zezwolić na dostęp do powiadomień, aby ustawić alarmy."
+          },
+          "jsAlarmSetSuccess": "Alarmy ustawione pomyślnie",
+          "jsAlarmSetError": "Błąd podczas ustawiania alarmów. Spróbuj ponownie później.",
+          "jsAlarmSnoozed": "Alarm drzemał przez 10 minut"
+        },
+        "alarmSetting": {
+          "title": "Ustawienia alarmu",
+          "locationTitle": "Znajdź miasto dla Alarmy",
+          "forLocation": "Alarm lokalizacji",
+          "calcMethod": "Metoda obliczania",
+          "selectAdhanSound": "Wybierz dźwięk Adhan",
+          "selectAlarmSound": "Wybierz Dźwięk alarmu",
+          "alarmSoundDesc": "Dźwięk w czasach innych niż salat",
+          "timesPeekHeading": "Baner czasów wyświetlania",
+          "timesPeekDesc": "Możesz wyłączyć wyświetlanie szybkiego podglądu godzin dla Salat tutaj:",
+          "timesPeekHome": "Pokaż na stronie kanałów:",
+          "timesPeekTools": "Pokaż na stronie narzędzi:",
+          "jsConfirmLocChange": "Zmiana lokalizacji spowoduje anulowanie wszystkich wcześniej ustawionych alarmów. Kontynuować?",
+          "jsOtherSettingsSaved": "Inne zapisane ustawienia. Lokalizacja nie została zmieniona."
+        },
+        "qna": {
+          "title": "Pytanie-odpowiedź",
+          "qnaSource": "Źródło",
+          "seeAnswer": "Zobacz odpowiedź",
+          "noAnswer": "Brak odpowiedzi"
+        },
+        "qnaDetail": {
+          "title": "Odpowiedzi dla: {ques}",
+          "jsSubmitSuccess": "Twoje pytanie zostało przesłane pomyślnie. Poinformujemy Cię, gdy otrzymamy odpowiedź na ten temat."
+        },
+        "tasbeehCounter": {
+          "title": "Licznik Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Użytkownik | Konto",
+        "editProfile": "Edytuj profil",
+        "publishToFeed": "Publikowanie zmian w kanale",
+        "shareUpdateToFeed": "Udostępnij tę aktualizację również w moim kanale",
+        "statusText_ph": "Użyj formatowania _italics_ lub *bold*, aby ozdobić swój status",
+        "statusCharsLeft": "{count} pozostało znaków",
+        "jsImgUploadSuccess": "Obrazy przesłane pomyślnie!",
+        "unauthAccess": {
+          "heading": "Czy jesteś pewien, że jesteś we właściwym miejscu?",
+          "desc": "<p>Wygląda na to, że próbujesz uzyskać dostęp do strony, do której nie masz uprawnień. Jeśli próbujesz uzyskać dostęp do strony, do której wcześniej uzyskałeś dostęp, spróbuj się zalogować; to powinno rozwiązać problem.</p> <p>Skontaktuj się z nami, jeśli problem będzie się powtarzał.</p>"
+        },
+        "guest": {
+          "welcome": "Witaj, <strong>gościu!</strong>",
+          "heading": "Dlaczego warto się zalogować lub zarejestrować?",
+          "desc": "Mając konto w naszej aplikacji, możesz korzystać z wielu funkcji. Zacznij od utworzenia konta, jeśli jeszcze go nie masz. Lub po prostu zaloguj się!",
+          "unlockHeading": "odblokuj następujące elementy za pomocą konta:",
+          "features": {
+            "engage": {
+              "heading": "Zaangażuj się w aplikacji",
+              "desc": "Kontaktuj się z innymi użytkownikami, reaguj na ich posty lub prośby, komentuj swoją opinię, dodawaj swoje przedmioty do zakładek i wiele więcej!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha Prośba",
+              "desc": "Opublikuj prośbę o Surah-e-Fatiha dla dusz swoich zmarłych bliskich i pobłogosław ich dusze modlitwami wszystkich naszych użytkowników!"
+            },
+            "askQues": {
+              "heading": "Zadawaj pytania",
+              "desc": "Zadawaj pytania od Deen & Duniya na różne tematy, na które odpowie jego eminencja, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "preferowane treści",
+              "desc": "Zawsze sprawdzaj preferowane treści i ustawienia po zalogowaniu się na swoje konto. Otrzymuj również powiadomienia o wszystkich interesujących rzeczach!"
+            },
+            "personalized": {
+              "heading": "spersonalizowane udostępnianie",
+              "desc": "Ustaw udostępnianie zawartości spersonalizowanej za pomocą Twojego podpisu, aby Twoi znajomi wiedzieli, kiedy udostępniasz wiadomość/post."
+            }
+          }
+        },
+        "about": {
+          "title": "Około",
+          "jsStatusUpdateFail": "Aktualizacja stanu nie powiodła się. Spróbuj ponownie później."
+        },
+        "posts": {
+          "title": "Posty",
+          "userNoPosts": "Kiedy zmienisz swoje zdjęcie / zdjęcie okładki lub gdy poprosisz o surah-fatiha dla swoich zmarłych bliskich, te posty pojawią się tutaj i w zakładce <b>Strona główna</b> (również innych). Spróbuj dodać zdjęcie lub obraz okładki?",
+          "profileNoPosts": "{name} nie opublikował jeszcze żadnych postów."
+        },
+        "marhumeen": {
+          "title": "Marhumeen •",
+          "header": {
+            "marhumeenNotAdded": "{name} nie dodał jeszcze marhumeen | Nie dodałeś jeszcze marhumeen",
+            "marhumeenAdded": "{name} dodał po marhumeen | Dodałeś następujące marhumeen"
+          },
+          "jsDeleteHeader": "Czy na pewno?",
+          "jsDeletePrompt": "Usunięcie rekordów dla <b>{fullName}</b> spowoduje również usunięcie wszystkich poprzednich próśb dotyczących {gender}! Kontynuować?",
+          "jsDeleted": "Usunięte rekordy dla {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Zaloguj się na swoje konto",
+        "createAccount": "Załóż konto"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Następny krok",
+        "goBack": "Przejdź wstecz",
+        "confirm": "Potwierdzić"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Lokalizacja niedostępna. Ustaw go, klikając ikonę, aby zobaczyć szybki podgląd Salat-times.",
+          "unknownError": "Wystąpił błąd. W tej chwili nie można załadować czasów."
+        }
+      },
+      "langPrompt": {
+        "title": "Używasz aplikacji w {langLabel}?",
+        "desc": {
+          "p1": "Wygląda na to, że uzyskujesz dostęp do aplikacji z {countryName}. Czy chcesz widzieć zawartość i kontrolki w jednym z następujących języków używanych w regionie? Kliknij swój wybór, a następnie kliknij \"Zapisz\", aby kontynuować.",
+          "p2": "Możesz też odrzucić to wyskakujące okienko, aby kontynuować korzystanie z aplikacji w języku domyślnym."
+        },
+        "choices": {
+          "useLang": [
+            "Tak, użyj {langName}",
+            "Użyj {langName}"
+          ],
+          "useEngling": "Kontynuuj w języku angielskim"
+        },
+        "langError": "Wystąpił błąd podczas ładowania tłumaczeń dla {langName}. Spróbuj ponownie później."
+      },
+      "createPost": {
+        "heading": "O co chodzi dzisiaj?",
+        "desc": "Kliknij tutaj, aby udostępnić aktualizację lub skorzystać z opcji z poniższej strony",
+        "request": "Prosić",
+        "askQues": "Zadaj pytanie",
+        "sheetOptions": {
+          "header": "Złóż wniosek",
+          "subheader": "Złóż prośbę od momineen o swój marhumeen lub siebie.",
+          "requestFatiha": "Sura-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat w Zari-e-Imam Husain (a.s.) w Twoim imieniu"
+        },
+        "modal": {
+          "titles": {
+            "post": "Utwórz post | Aktualizuj post",
+            "livestream": "Transmisja na żywo",
+            "hadiyah": "Utwórz Hadiyah | Aktualizacja Hadiyah"
+          },
+          "postCta": "Post | Aktualizacja",
+          "stream": {
+            "scheduleCta": "Zapisz na później | Rozpocznij przesyłanie strumieniowe"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Komu chcesz to podarować?",
+              "addPeopleToggle": "Niech inni też będą częścią tego sawabu!",
+              "searchInput": "Zaproś momimeen z Bazm lub swojej listy kontaktów",
+              "minUsersHeader": "Chcesz ustawić minimalną liczbę, którą uczestnicy muszą wybrać?",
+              "minUsersInput": "Wprowadź minimalną liczbę"
+            }
+          },
+          "postTime": [
+            "Kiedy to jest?",
+            "Kiedy chcesz rozpocząć transmisję strumieniową?"
+          ],
+          "whereIsIt": "Gdzie to jest?",
+          "findLocation": "Znajdź lokalizację",
+          "locationSubtext": "Dodawanie lokalizacji do posta",
+          "addLocation": "Dodaj lokalizację",
+          "addPics": "Dodawanie zdjęć do posta",
+          "previewDes": "W ten sposób Twój post będzie wyglądał w kanale innych osób. Ludzie mogą dotknąć filmu, aby zobaczyć go na pełnym ekranie.",
+          "addToPost": "Dodaj do {postType} (opcjonalnie)",
+          "jsImgUploadFail": "Obraz nie został przesłany",
+          "jsAddDetailToPost": "Dodaj szczegóły do swojego posta",
+          "jsValidEndDate": "Wybierz prawidłową datę zakończenia",
+          "jsSetLocation": "Ustaw lokalizację posta",
+          "jsRemLocation": "Ustaw lokalizację lub usuń tę sekcję",
+          "jsAddImg": "Dodaj zdjęcia lub usuń tę sekcję",
+          "jsInvalidDate": [
+            "Ustaw prawidłową datę rozpoczęcia ",
+            "Ustaw prawidłową datę rozpoczęcia lub usuń tę sekcję"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Komentarze",
+        "loadPrevious": "Załaduj poprzednie komentarze | Załaduj poprzednie odpowiedzi",
+        "replyingTo": "Odpowiadając na:",
+        "noComments": "Brak komentarzy do tego postu",
+        "textboxPlaceholder": "Napisz swój komentarz tutaj",
+        "requestToLogin": "Zaloguj się lub Zarejestruj się, aby rozpocząć dyskusję"
+      },
+      "post": {
+        "addressYou": "Ty",
+        "addressing": "Twoja | jego | jej",
+        "itemTypes": {
+          "avatar": "obraz awatara",
+          "banner": "obraz banera",
+          "status": "status profilu"
+        },
+        "displayPhrase": {
+          "common": "<strong>{nazwa_użytkownika}</strong> zaktualizowana {adresowanie} {element}",
+          "fatiha": [
+            "<strong>{nazwa_użytkownika}</strong> zażądała surah-fatiha dla {addressing} {relation}",
+            "<strong>{nazwa_użytkownika}</strong> poprosiła o surah-fatiha & namaz-e-wahshat dla {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Do: {data} o {godzina}",
+        "privatePost": "Ten post jest widoczny tylko dla Ciebie",
+        "descZiyaratRequest": "Poprosiłeś o wykonanie Ziyarat w Twoim imieniu w *haram* Imama Husaina (a.s.) w dniu *{date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Poproś o Surah-al-fatiha",
+          "addUpdate": [
+            "Zaktualizuj ukochaną osobę",
+            "Dodaj ukochaną osobę"
+          ]
+        },
+        "heading": [
+          "Dodaj ukochaną osobę, która odeszła",
+          "Wybierz ukochaną osobę z listy lub dodaj ukochaną osobę, która odeszła"
+        ],
+        "addNew": "Dodaj nowy",
+        "subheader": [
+          "Dodaj szczegóły ukochanej osoby",
+          "Możesz również dołączyć wiadomość do swojego żądania"
+        ],
+        "form": {
+          "jsAddImg": "Dodaj obraz dla ukochanej osoby",
+          "jsRemoveImg": "Usuń obraz",
+          "fullName": "Imię i nazwisko zmarłego",
+          "name_ph": "Np. Syed Zeeshan Haider Abidi",
+          "fathersName": "Imię ojca (jeśli jest dostępne)",
+          "father_ph": "Np. Syed Tauqeer Husain",
+          "nameError": "Wpisz imię i nazwisko za pomocą znaków specjalnych",
+          "genderLabel": "Płeć",
+          "genderValue": [
+            "Samica",
+            "Mężczyzna"
+          ],
+          "relation": [
+            "Marhooma jest twoim",
+            "Marhoom jest twój"
+          ],
+          "selectRelation": "Wybierz relację",
+          "demiseLabel": "Umarł dzisiaj? Poproś o Namaz-e-Wahshat",
+          "demiseText": "Bardzo nam przykro słyszeć o Twojej stracie. Niech Allah da tobie i twojej rodzinie siłę, aby cierpliwie znosić tę stratę i niech Allah nagrodzi zmarłą duszę najwyższymi miejscami w Jannah. Wybranie tej opcji pozwala poprosić momineen o Namaz-e-Wahshat dla zmarłej duszy.",
+          "optional": "Fakultatywny",
+          "dod": "Zmarł w dniu",
+          "dob": "Urodziła się w dniu"
+        },
+        "relation": [
+          "Córka",
+          "Syn"
+        ],
+        "born": "Urodzony:",
+        "died": "Zmarł:",
+        "addMsg": "Chcesz dodać wiadomość?",
+        "remainingChars": "Znaki: {count} | Znaki: {count} pozostałe",
+        "infoEditRelative": "Możesz edytować szczegóły {name} w sekcji <b>Konto > Marhumeen</b>",
+        "saveRequestCta": [
+          "Zapisz i zamów",
+          "Prosić"
+        ],
+        "addUpdate": "Dodaj | Aktualizacja",
+        "jsRequesting": "Żądanie..",
+        "jsAddSuccess": [
+          "Dodał swoją ukochaną osobę pomyślnie!",
+          "Zaktualizuj swoją ukochaną osobę z powodzeniem!"
+        ],
+        "jsAddFail": "Nie udało się dodać ukochanej osoby. Spróbuj ponownie później.",
+        "jsReqSuccess": "Wniosek złożony pomyślnie.",
+        "jsGettingMarhumeen": "Zdobywanie marhumeen.."
+      },
+      "askQues": {
+        "title": "Zadaj pytanie",
+        "form": {
+          "quesLabel": "Twoje pytanie",
+          "quesLabel_ph": "Wyszukaj pytanie lub zadaj własne",
+          "similarQues": "Te pytania mogą już zawierać odpowiedź, której szukasz.",
+          "quesTextHeader": "Twoje pytanie:",
+          "selectCat": "Ustaw kategorię pytań:",
+          "askAnonLabel": "Pytaj anonimowo?",
+          "askAnonInfo": "Twoje imię i nazwisko nie zostanie wysłane do Scholar, gdy poprosisz o odpowiedź w Twoim imieniu, ani nie będzie wyświetlane w naszej aplikacji z tym pytaniem. Ale anonimowe pytania mogą nie zostać szybko udzielone.",
+          "askViaLabel": "Zapytaj Via",
+          "askSistaniInfo": "Możesz zadać pytanie, na które odpowie jego eminencja Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Prześlemy pytanie na ich stronę internetową (wraz z informacjami o Twoim profilu). Upewnij się, że prawidłowo przeczytałeś <b>Regulamin</b>.",
+          "tncLabel": "Regulamin:",
+          "showHide": [
+            "Pokazać",
+            "Ukrywać"
+          ],
+          "sistaniOrgTncInfo": "Rozważ śledzenie punktów z ich strony internetowej, zanim zadasz pytanie, ponieważ jeśli nie zastosujesz się do poniższych punktów, możesz nie otrzymać od nich odpowiedzi lub możesz nie otrzymać żadnych odpowiedzi.",
+          "userInfo": {
+            "aboutLabel": "O Tobie",
+            "genderLabel": "Twoja płeć",
+            "bdayLabel": "Twoje urodziny",
+            "bdayDesc": "Możesz zadać pytanie tylko wtedy, gdy masz ponad 09 lat. Jeśli nadal jesteś zainteresowany, skontaktuj się z nami."
+          },
+          "jsQuesAdded": "Pytanie dodane pomyślnie."
+        },
+        "askQuesCta": "Zadaj pytanie"
+      },
+      "authPrompt": {
+        "title": "Wymagane konto",
+        "defLabel": "Zaloguj się lub Zarejestruj się, aby kontynuować",
+        "infoText": "Ta funkcja wymaga zalogowania się lub zarejestrowania, zanim będzie można z niej korzystać. Kliknij <b>Zaloguj się</b>, jeśli jesteś już zarejestrowany, lub kliknij <b>Zarejestruj się</b>, aby utworzyć konto."
+      },
+      "location": {
+        "title": "Zmień lokalizację",
+        "search_ph": "Wyszukaj swoją lokalizację",
+        "autoDetectInfo": "Wprowadź swoją lokalizację lub kliknij ikonę automatycznego wykrywania, aby uzyskać informacje o swojej lokalizacji.",
+        "setLocation": "Ustaw lokalizację",
+        "ipAddress": "Adres IP",
+        "alarmLocation": "Lokalizacja alarmu",
+        "basedOn": "Lokalizacja na podstawie {selektora}",
+        "jsDetecting": "Wykrywanie, proszę czekać..",
+        "jsPermDenied": "Odmowa uprawnień do lokalizacji dla aplikacji. Zresetuj preferencje lokalizacji dla tej aplikacji, odwiedzając sekcję Ustawienia w telefonie.",
+        "jsPosUnavailable": "Przepraszamy, ale pozycja nie jest obecnie dostępna dla tego telefonu. Spróbuj ponownie później.",
+        "jsMatchNotFound": "Nie można znaleźć żadnych pasujących lokalizacji.",
+        "jsEnterValidLoc": "Podaj prawidłową lokalizację",
+        "jsGeoUnavailable": "Przepraszamy, ale pozycja nie jest obecnie dostępna dla tego telefonu. Spróbuj ponownie później.",
+        "jsLocMissing": "Nie można znaleźć Twojej lokalizacji. Podaj lokalizację ręcznie.",
+        "jsSelectedLoc": "Wystąpił błąd w tej lokalizacji. Spróbuj ponownie"
+      },
+      "readText": {
+        "ctaLabel": "Czytać",
+        "title": "Dua: {tytuł}",
+        "arabicCta": "Arabski",
+        "englishCta": "Angielski",
+        "translatedCta": "Przetłumaczony"
+      },
+      "reqAccess": {
+        "heading": "wymagany dostęp",
+        "subheading": "Potrzebujemy pozwolenia, aby uzyskać dostęp do Twojej kamery",
+        "subtext": "Zezwól na dostęp, klikając poniższy przycisk:",
+        "ctaLabel": "zezwól na dostęp"
+      },
+      "shareBtn": {
+        "subtext": "Kliknij jedną z poniższych opcji, aby udostępnić ją w odpowiedniej aplikacji:",
+        "jsCopyToCB": "Skopiowane do schowka",
+        "copyText": "Kliknij <b>ikonę Kopiuj</b> powyżej, aby skopiować poniższą zawartość:"
+      },
+      "verifyMob": {
+        "title": [
+          "Zweryfikuj telefon komórkow",
+          "Wprowadź kod"
+        ],
+        "page1": {
+          "infoText1": "Potrzebujemy Twojego numeru telefonu komórkowego, aby zweryfikować Twoją tożsamość. Możesz także otrzymywać okazjonalne aktualizacje.",
+          "infoText2": [
+            "Wprowadź swój numer i kliknij przycisk, aby otrzymać kod potwierdzający:",
+            "Wprowadź swój numer i kliknij przycisk, aby otrzymać kod potwierdzający:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Numer telefonu komórkowego",
+          "mobileLabel_ph": "Wpisz swój numer telefonu komórkowego",
+          "otpViaSMS": "Uzyskaj sms",
+          "viaWhatsApp": "Uzyskaj dostęp przez WhatsApp",
+          "viaTelegram": "Uzyskaj dostęp przez Telegram",
+          "viaSignal": "Uzyskaj dostęp przez Signal"
+        },
+        "page2": {
+          "header": "Wysłaliśmy 6-cyfrowy kod potwierdzający na Twój numer ({number})",
+          "enterCodeLabel": "Wprowadź kod",
+          "enterCode_ph": "Wprowadź 6-cyfrowy kod",
+          "resendCode": "Wyślij ponownie kod",
+          "notUsingMobile": "Nie używasz <strong>{number}?</strong>",
+          "changeNumber": "Zmień numer"
+        },
+        "jsVerifySuccess": "Telefon komórkowy zweryfikowany pomyślnie",
+        "jsVerifyError": "Wystąpił błąd. Spróbuj ponownie później.",
+        "jsSendOtpFailed": "Nie udało się wysłać OTP. Spróbuj ponownie później.",
+        "jsSendOtpSuccess": "OTP wysłane do {mobile}",
+        "jsTooManyRequests": "Wygląda na to, że próbowałeś już zbyt wiele razy. Poczekaj minutę lub dwie i spróbuj ponownie."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personalizowanie wiadomości udostępniania",
+        "changePwd": "Zmień hasło | Ustaw hasło",
+        "changeLang": "Zmień język",
+        "publishToFeed": "Opublikuj również moje zmiany w kanale."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalizacja",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Dodawanie mojego imienia i nazwiska do wiadomości",
+          "sharingDesc": "Podczas udostępniania zewnętrznego wiadomości mogą wyglądać następująco:",
+          "sharingTextDemo": [
+            "Posłuchaj tej aplikacji Nauha na Bazm",
+            "{name} zaleca słuchanie tego Nauha w aplikacji Bazm"
+          ],
+          "addSignDesc": "Chcesz też dodać swój podpis?",
+          "signDesc": "Kiedy podzielisz się swoim życzeniem ze znajomymi w tej aplikacji, Twój podpis zostanie dodany do wiadomości. Na przykład może wyglądać następująco:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Wprowadź istniejące hasło:",
+          "currentPwdPH": "Wprowadź bieżące hasło",
+          "newPwdLabel": "Wprowadź nowe hasło:",
+          "newPwdPH": "Wprowadź nowe hasło"
+        },
+        "changeLang": {
+          "searchYourLang": "Wyszukiwanie w twoim języku",
+          "desc": "Wybierz język, w którym chcesz wyświetlić zawartość aplikacji. Kliknij język i poczekaj (załadowanie tłumaczenia zajmuje trochę czasu), aby zobaczyć, jak ta fraza pojawia się w wybranym języku."
+        },
+        "jsPwdInvalid": "Hasło zawiera nieprawidłowe znaki.",
+        "jsPwdCharCount": "Hasło nie może być krótsze niż 8 znaków.",
+        "jsSelectLang": "Najpierw wybierz język.",
+        "jsLangSet": "Język został ustawiony na {lang}",
+        "jsPrefSaved": "Zapisane ustawienia personalizacji."
+      },
+      "forgotPwd": {
+        "title": "Zapomniałeś hasła?",
+        "introText": "Zresetowanie hasła jest łatwe. Wybierz metodę, aby kontynuować:",
+        "usePhoneCta": "Korzystanie z telefonu",
+        "useEmailCta": "Korzystanie z poczty e-mail",
+        "sendEmailIntro": "Wpisz adres e-mail, za pomocą którego utworzono konto, a my wyślemy wiadomość e-mail z linkiem do skonfigurowania nowego hasła do konta.",
+        "emailInputLabel": "Twój zarejestrowany adres e-mail",
+        "sendEmailCta": "Wyślij wiadomość e-mail dotyczącą resetowania",
+        "sentEmailText": "Jeśli masz u nas konto, wkrótce otrzymasz wiadomość e-mail z resetowaniem hasła na <strong>{email}</strong>. Prosimy o sprawdzenie adresu e-mail pod kątem linku.",
+        "notUsingEmailText": "Nie używasz <strong>{email}?</strong>",
+        "changeEmailCta": "Zmień adres e-mail",
+        "phoneIntroText": "Wprowadź numer telefonu dodany do konta. Wyślemy OTP, aby zweryfikować Twoją własność, aw następnym kroku będziesz mógł utworzyć nowe hasło.",
+        "phoneInputLabel": "Twój numer telefonu komórkowego",
+        "sendOtpCta": "Wyślij OTP",
+        "backToLoginCta": "Powrót do logowania",
+        "disclaimerText": "Pamiętaj, że otrzymasz {przedmiot} tylko wtedy, gdy {przedmiot} jest u nas zarejestrowany.",
+        "jsMailSent": "Wysłana poczta"
+      },
+      "resetPwd": {
+        "title": "Zresetuj hasło",
+        "introText": "Ustaw bezpieczne hasło do swojego konta tutaj. Kliknij {icon}, aby upewnić się, że wprowadzasz poprawne hasło.",
+        "pwdInputLabel": "Ustaw nowe hasło",
+        "pwdInputPH": "Wprowadź nowe hasło",
+        "invalidPwdChars": "Nieprawidłowe znaki w haśle",
+        "jsResetSuccess": "Resetowanie hasła powiodło się!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Nie udało się załadować ścieżki. Spróbuj ponownie później."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} usunięty pomyślnie.",
+        "jsErrReporting": "W tej chwili nie mogę tego zgłosić. Spróbuj ponownie później.",
+        "jsAlreadyReported": "Ten {przedmiot} został już zgłoszony. Nie można go zgłosić więcej niż raz.",
+        "jsPromptHeading": "Zgłoszenie produktu powoduje, że ma on mniejsze szanse na pojawienie się w Twoim lub innych kanałach/stronach. Czy nadal chcesz to zgłosić?",
+        "jsReporting": "Raportowanie {itemType}..",
+        "jsReportingErr": "W tej chwili nie można przesłać wniosku. Spróbuj ponownie później.",
+        "jsReported": "{item} zgłoszony. Dziękujemy za Twój wkład."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Nic do aktualizacji!",
+        "jsProfileUpdated": "Profil zaktualizowany!"
+      },
+      "reqZiyarat": {
+        "title": "Poproś o Ziyarat",
+        "cta": "Prosić",
+        "header": "Poproś o Ziyarat w Imam Hussain (a.s.) Shrine w Karbali w twoim imieniu.",
+        "desc": {
+          "p1": "W każdy piątek <strong>odmawiajcie Ziyarat w waszym imieniu</strong> w Sanktuarium Imama Hussaina (a.s.) w Karbali w Iraku! Wszystko, co musisz zrobić, to złożyć wniosek <strong>przed końcem czwartkowego wieczoru</strong>. Nigdy jednak nie jest za późno; jeśli Twoja prośba wpłynie zbyt późno, zostanie zapisana na następny tydzień.",
+          "p2": "Powiadomimy Cię, gdy ziyarat zostanie wyrecytowany w Twoim imieniu.",
+          "p3": "Uwaga: Gdy poprosisz o to po raz pierwszy, Twoje dane zostaną udostępnione naszemu usługodawcy. Przeczytaj nasze Warunki, aby dowiedzieć się więcej."
+        },
+        "jsRegistered": "Dziękuję! Twoja prośba została pomyślnie zarejestrowana. Wkrótce otrzymasz wiadomość e-mail z potwierdzeniem.",
+        "jsAlreadyRegistered": "Zarejestrowałeś się już w Ziyarat w ten czwartek. Zarejestruj się w przyszłym tygodniu na przyszłotygodniowy ziyarat.",
+        "jsConfirm": "Aby zarejestrować się na to żądanie, musimy udostępnić Twoje dane (np. Imię i nazwisko, płeć itp.) naszemu usługodawcy. Jest to wymagane tylko po raz pierwszy. Prosimy o potwierdzenie, aby kontynuować.",
+        "jsDeclined": "Porządku! Może później."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Imię i nazwisko",
+          "placeholder": "Wpisz swoje imię i nazwisko"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": [
+            "Twój zarejestrowany adres e-mail",
+            "Wpisz swój adres e-mail"
+          ]
+        },
+        "password": {
+          "label": "Hasło",
+          "placeholder": [
+            "Twoje hasło",
+            "Wprowadź hasło"
+          ]
+        },
+        "rememberLogin": "Zapamiętaj login",
+        "forgotPwd": "Zapomniałeś hasła?",
+        "connectUsing": "Możesz też połączyć się za pomocą",
+        "useSavedAccount": "Korzystanie z zapisanych kont",
+        "lastLogin": "Ostatnie logowanie",
+        "needAccount": "Potrzebujesz konta?",
+        "resetPwdSuccess": "Możesz użyć nowego hasła, aby zalogować się teraz",
+        "jsEnterFullName": "Wpisz swoje imię i nazwisko.",
+        "jsEnterValidName": "Podaj poprawną nazwę.",
+        "jsEnterValidEmail": [
+          "Podaj poprawny adres e-mail.",
+          "Wiadomość e-mail zawiera nieprawidłowe znaki. Podaj poprawny adres e-mail."
+        ],
+        "jsSelectCountryCode": "Wybierz kod kraju z listy",
+        "jsEnterMobile": "Podaj swój numer telefonu komórkowego.",
+        "jsEnterValidMobile": "Podaj prawidłowy numer telefonu komórkowego",
+        "jsEnterPwd": "Podaj swoje hasło!",
+        "jsEnterValidPwd": [
+          "Hasło zawiera nieprawidłowe znaki. Podaj prawidłowe hasło.",
+          "Hasło powinno zawierać co najmniej znaki {num}."
+        ],
+        "jsAccountSuccess": "Konto utworzone pomyślnie",
+        "jsFbError": "Nie można uzyskać danych konta na Facebooku. Spróbuj ponownie.",
+        "jsPromptClosedErr": "Monit logowania został zamknięty przed zakończeniem. Spróbuj ponownie."
+      },
+      "gotoSignup": "Idź do rejestracji",
+      "alreadyHasAccount": "Masz już konto?",
+      "gotoLogin": "Przejdź do logowania",
+      "gotoProfile": "Profil Goto",
+      "msgForAuthUser": "<p>Uważamy, że wylądowałeś tutaj przez pomyłkę, ponieważ jesteś już zalogowany.</p> <p>Możesz sprawdzić swój profil, aby zobaczyć, jak wygląda, lub użyć jednego z poniższych linków, aby przejrzeć inne sekcje:</p>",
+      "jsLoggedOut": "Zostałeś wylogowany.",
+      "jsLogoutHeading": "Wylogować się z konta?",
+      "jsLogoutText": "Spowoduje to usunięcie informacji zapisanych lokalnie, co umożliwi <b>szybkie</b> zalogowanie. Kontynuować?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Zainstaluj Bazm { platform }",
+          "desc": "Pobierz aplikację na Androida, aby uzyskać lepsze wrażenia, spersonalizowane treści, powiadomienia i wszystko, co Cię interesuje, z otoczenia! | Zainstaluj skrót do aplikacji (zakładkę), aby uzyskać do niego dostęp bezpośrednio z ekranu głównego następnym razem, aby uzyskać lepsze wrażenia! Prawie nie zajmuje miejsca na urządzeniu, ale pomaga szybko wrócić do aplikacji.",
+          "cta": {
+            "action": "Instalować",
+            "skip": "Może później"
+          }
+        },
+        "prompt": {
+          "heading": "Zainstaluj skrót Bazm?"
+        },
+        "popover": {
+          "text": "Kliknij ikonę Udostępnij (wygląda jak ikona po prawej) <strong>PONIŻEJ,</strong> a następnie kliknij <strong>Dodaj do ekranu głównego</strong>. Kliknij \"Zapisz\", aby zakończyć, a następnie możesz uzyskać dostęp do aplikacji ze skrótu na ekranie głównym!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Jakie są twoje dotychczasowe doświadczenia?",
+        "text": "<p>Czy podoba Ci się nowa aplikacja? Czy jest coś, co możemy poprawić? Pomóż nam ze swoją opinią, aby poprawić wrażenia dla Ciebie!</p> <p>Zajęłoby to tylko kilka minut, a my bardzo doceniamy Twój czas!</p>",
+        "cta": "Przekaż opinię",
+        "dismiss": "Może później"
+      },
+      "advertise": {
+        "heading": "Reklamuj się na Bazm",
+        "text": "<p>Dotrzyj do milionów szyickich muzułmanów na całym świecie ze swoim produktem na Bazm lub nawiąż kontakt z markami i użytkownikami.</p> <p>Zacznij już od $1/dzień!</p>",
+        "cta": "Dowiedz się więcej"
+      },
+      "upgradeSafari": {
+        "header": "Ograniczone doświadczenie w Safari",
+        "description": "<strong>Ta przeglądarka (Safari) nie jest zoptymalizowana pod kątem najlepszych wrażeń</strong>. Kontynuując korzystanie z naszej aplikacji tutaj, przegapisz wiele funkcji, takich jak powiadomienia o alertach, w pobliżu aktualizacji, tryb offline i wiele więcej.<br/> Zalecamy skorzystanie z jednej z poniższych przeglądarek, aby poprawić jakość działania. Kliknij dowolny przycisk, aby pobrać przeglądarkę z AppStore:",
+        "ctas": {
+          "getGoogle": "Pobierz Google Chrome",
+          "getFirefox": "Pobierz przeglądarkę Mozilla Firefox",
+          "getOpera": "Pobierz Opera Touch",
+          "skip": "Może później"
+        },
+        "toast": "Nie ma sprawy. Do następnego razu!"
+      },
+      "cookieBanner": {
+        "header": "Informacje o zapisywaniu plików cookie na urządzeniu",
+        "p1": "Nie przechowujemy żadnych plików cookie na Twoim {urządzeniu}, ale aplikacje stron trzecich używane w naszej aplikacji mogą (takie jak Google Analytics). Zamiast tego używamy stałego przechowywania do przechowywania wszelkich ważnych danych, aw większości przypadków jest to szyfrowane w pamięci masowej i podczas przesyłania.",
+        "p2": "Kontynuując korzystanie z tej aplikacji, niniejszym potwierdzasz, że nie masz żadnych problemów z naszymi wyborami. Aby dowiedzieć się więcej o naszych plikach cookie i wykorzystaniu danych, zapoznaj się z naszą <a href='https://bazm.in/privacy-policy' target='_blank'>Polityka prywatności.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Aplikacja społecznościowa dla szyickich muzułmanów na całym świecie! Pobierz aplikację już dziś.",
+      "home": {
+        "title": "Bazm - Internetowa aplikacja społeczności szyickiej!",
+        "description": "Aplikacja Bazm to aplikacja społeczności szyickiej, która spełnia wszystkie codzienne potrzeby deen & mazhab. Znajdź Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books itp. dla wszystkich dat i okazji. Oglądaj i rób wydarzenia na żywo i majalis z szyickimi muzułmanami na całym świecie z wygody swojego domu. Dołącz już dziś!"
+      },
+      "feed": {
+        "title": "Znajdź dostosowane treści i podziel się nimi ze społecznością szyicką wokół Ciebie i świata",
+        "description": "Znajduj i udostępniaj wiadomości, wydarzenia i treści z szyickim momineen i informuj ich o wszelkich wydarzeniach, które organizujesz. Dowiedz się o wszystkim, co dzieje się w Twojej okolicy w aplikacji."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal i wiele więcej dla Ciebie!",
+        "description": "Znajdź Nauhe, Majalis, Dua, Aamaal, ziyarat i wiele więcej na wszystkie daty i okazje. Oglądaj i streamuj na żywo majalis z wygody swojego domu! Dołącz do szyickiej aplikacji społecznościowej, która pomaga w rutynowych zadaniach deen & mazhab. Dołącz już dziś!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Codzienny alarm Azaan, pytania i odpowiedzi oraz narzędzia dla szyickich muzułmanów",
+        "description": "Otrzymuj codzienne przypomnienia dla Adhan, znajdź i zadaj pytania-odpowiedzi na tematy deen i islamu lub poproś Surah-fatiha lub Namaz-e-Wahshat o marhumeen i więcej narzędzi na Bazm. Dołącz do szyickiej aplikacji społecznościowej, która pomaga w rutynowych zadaniach deen. Znajdź Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat na wszystkie daty i okazje. Transmituj na żywo wydarzenia i majalis z wygody Twojego domu. Dołącz już dziś!"
+      },
+      "tasbeehCounter": {
+        "title": "Automatyczny licznik tasbeeh z narzędziem Voice __ Tasbeeh Counter",
+        "description": "Recytowanie niezliczonych tasbeeh jest teraz łatwiejsze dzięki naszym licznikom audio tasbeeh. Recytuj swoje tasbeeh podczas jazdy lub pracy, wciąż śledząc liczniki głosowe. Pobierz to narzędzie i inne podobne w aplikacji Bazm. Pobierz już dziś."
+      },
+      "accountHome": {
+        "title": "Bazm - Załóż darmowe konto już dziś i uzyskaj pomoc w codziennych potrzebach deen!",
+        "description": "Dołącz do aplikacji Bazm już dziś, aby spełnić wszystkie Twoje potrzeby związane z deeniyat. Znajdź nohe / nauhe, majalis, dua, ziyarat, aamaal dla wszystkich dat i okazji. Transmituj na żywo i oglądaj majalis i wydarzenia z twojego otoczenia; znajdź posty, treści i momineen z całego świata i wiele więcej w aplikacji. Dołącz już dziś!"
+      },
+      "nauheListPage": {
+        "title": "Posłuchaj Nauhe z popularnego nauhakhwan na całym świecie",
+        "description": "Posłuchaj nauhe ze wszystkich lat i wszystkich popularnych nauhakhwan z całego świata w aplikacji Bazm. Pobierz już dziś."
+      },
+      "soazListPage": {
+        "title": "Posłuchaj Soaz z popularnego Soazkhwan na całym świecie",
+        "description": "Posłuchaj Soaz ze wszystkich lat i wszystkich popularnych Soazkhwan z całego świata w aplikacji Bazm. Pobierz już dziś."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Znajdź więcej nauhe, audio/video majalis, dua, ziyarat, aamaal, etc. na Bazm",
+        "description": "Znajdź audio/wideo majalis z Maulana i Zakir-e-Ahlbayt z bliska i z całego świata. Słuchaj i oglądaj najnowsze majalis i sesje na żywo w aplikacji Bazm. Pobierz aplikację już dziś i dołącz do milionów szyickich muzułmanów na całym świecie!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas i aamaal na miesiąc {miesiąc} na Bazm - Znajdź więcej nauhe, audio / wideo majalis, dua, ziyarat, aamaal itp.",
+          "Duas i aamaal na wszystkie miesiące na Bazm - Znajdź więcej nauhe, audio / wideo majalis, dua, ziyarat, aamaal itp."
+        ],
+        "description": "Znajdź duas, aamaal, ziyarat i munajat przez wszystkie miesiące na Bazm, data i wydarzenie. Pobierz aplikację już dziś i dołącz do milionów szyickich muzułmanów na całym świecie!"
+      }
+    }
+  }
+}
