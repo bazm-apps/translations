@@ -1,1 +1,809 @@
-undefined
+{
+  "cs": {
+    "common": {
+      "refresh": "Obnovení tahem",
+      "refreshing": "Osvěžující...",
+      "loadingMore": "Načítání více...",
+      "checking": "Kontrolování...",
+      "sendOtp": "Odesílání OTP..",
+      "dismiss": "Propustit",
+      "invite": "Pozvat",
+      "showMore": "Zobrazit více | Zobrazit více",
+      "play": "Hrát",
+      "pause": "Pozastaveno",
+      "playing": "Hrací",
+      "paused": "Pozastaveno",
+      "watch": "Sledovat",
+      "read": "Číst",
+      "authors": "Autor | Autoři",
+      "languages": "Jazyk | Jazyky",
+      "clear": "Jasný",
+      "cancel": "Zrušit",
+      "change": "Vyměnit",
+      "continue": "Pokračovat",
+      "select": "Vybrat",
+      "saveChanges": "Uložit změny | Uložit | Aktualizovat",
+      "newBadge": "Nový",
+      "login": "Přihlášení do systému",
+      "logout": "Odhlášení od sítě",
+      "signup": "Registrace",
+      "settings": "Nastavení",
+      "cookiePolicy": "Zásady používání souborů cookie",
+      "privacy": "Soukromí",
+      "contactUs": "Kontaktujte nás",
+      "home": "Domov",
+      "facebook": "Moderátor",
+      "google": "Vyhledávač Google",
+      "you": "Ty",
+      "retry": "Zkusit ještě jednou",
+      "send": "Poslat",
+      "submit": "Podat",
+      "share": "Sdílet | Sdílet nyní",
+      "at": "u",
+      "untilNextTime": "Žádný problém. Do příště!",
+      "plzWait": "Počkejte prosím..",
+      "saving": "Zachraňování.. | Aktualizace..",
+      "search": "Hledání",
+      "late": "Pozdě",
+      "done": "Hotový",
+      "featureUnavailable": "Tato funkce bude brzy k dispozici. Děkujeme za projevení zájmu!",
+      "actions": {
+        "cancel": "Zrušit",
+        "notify": "Uvědomit",
+        "like": "Jako",
+        "recited": "Přednášel",
+        "comment": "Komentář",
+        "reply": "Odpověď",
+        "bookmark": "Záložka",
+        "uploading": "Nahrávání..",
+        "deleting": "Mazání..",
+        "requesting": "Požadování..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Je nám líto, ale nemůžete zde sdílet soubory {fileType}",
+        "jsUpdateAvailable": {
+          "header": "K dispozici je aktualizace",
+          "message": "Zobrazuje se verze aplikace uložená v mezipaměti. Kliknutím na tlačítko Aktualizovat aktualizujete a načtete nový obsah a funkce.",
+          "cta": "Osvěžit"
+        },
+        "jsImgUploaded": "Obrázek byl úspěšně nahrán!",
+        "jsImgUploadErr": "Nahrání obrázku se nezdařilo. Zkuste to prosím znovu později."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Služba není v tuto chvíli k dispozici. Zkuste to prosím znovu později.",
+        "unknown": "Došlo k neznámé chybě. Zkuste to prosím znovu později.",
+        "general": "Při zpracování požadavku došlo k chybě. Zkuste to prosím znovu později."
+      },
+      "content": {
+        "unavailable": "V tuto chvíli nelze načíst obsah. Zkuste to prosím za chvíli znovu.",
+        "itemDetailUnavailable": "Nelze najít podrobnosti o této {item}",
+        "loadMoreError": "Nepodařilo se načíst další položky. Zkuste to prosím znovu později."
+      },
+      "url": {
+        "invalid": "Neplatná adresa URL. Zkuste to prosím s novou adresou URL."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Domov"
+      },
+      "postDetail": {
+        "commonTitle": "Detail",
+        "fatihaTitle": "Súra-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Profilový obrázek",
+        "bannerUpdateTitle": "Titulní obrázek (zastaralé)",
+        "statusUpdateTitle": "Aktualizace stavu"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Domov",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Sdílejte tento požadavek ve své síti a oslovte více lidí!"
+          }
+        }
+      },
+      "media": {
+        "name": "Média",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Moderátor",
+          "soaz": "Moderátor",
+          "ziyarat": "Ziyaraat",
+          "dua": "Moderátor",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Knihy"
+        },
+        "inviteFriends": "pozvěte své přátele",
+        "notShia": "Nejste šíité?",
+        "contacts": {
+          "accessRequestHeader": "Kontakty Je vyžadován přístup",
+          "accessRequestDesc": "Vyžadujeme přístup vašich kontaktů, abychom mohli navrhnout šíitské lidi ve vašem telefonním seznamu, aby pozvali do této aplikace."
+        },
+        "audio": "Audio",
+        "video": "Video",
+        "hijri": "Hidžra",
+        "duaHome": {
+          "wishCtaText": "Přeji svým přátelům!",
+          "wishCtaLabel": "PŘÁNÍ"
+        },
+        "books": {
+          "booksByAuthor": "Knihy od {autora}",
+          "booksInLang": "Knihy v {lang}",
+          "filterBy": "Filtrovat podle:",
+          "matching": {
+            "authors": "s autory odpovídajícími",
+            "lang": "s odpovídajícími jazyky",
+            "title": "s odpovídajícím názvem"
+          }
+        },
+        "booksFilter": {
+          "title": "Najít knihu podle autora",
+          "searchBox": "Vyhledat autora podle jména",
+          "selectLang": "Vyberte jazyk:"
+        },
+        "bookDetails": {
+          "title": "{title} — Najděte další knihy zdarma, jako je tato, na Bazmu",
+          "aboutBook": "O knize:"
+        }
+      },
+      "tools": {
+        "name": "Nářadí",
+        "salatAlarmDesc": "Nastavte budíky pro Azaan podle vašich místních časů",
+        "sehriAlarmDesc": "Nastavte Budík pro Sehri, nebo dokonce dostat budíček na své číslo před Sehri!",
+        "sehriAlarmOptionDisabled": "Alarmy pro čas Sheri během měsíce ramadánu (k dispozici pouze během ramadánu)",
+        "tasbeehCounterDesc": "Recitujte Duas, Korán a Tasbeeh v režimu opakování snadno pomocí počítadla Audio Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Hledejte a pokládejte otázky nebo najděte odpovědi na masle-masayel z vašeho každodenního života o záležitostech islámu.",
+        "alarms": {
+          "salatAlarms": "Salat Alarms | Denní Salat Alarmy",
+          "sehriAlarms": "Ramadán Sehri Alarmy",
+          "gettingLocation": "Získání vaší polohy. Počkejte prosím...",
+          "settingsTip": "Změňte <b>polohu</b> a předvolby v nastavení Budíku. Klikněte na ikonu Nastavení pro spuštění.",
+          "setAlarmHeader": "Nastavení denních budíků",
+          "setAlarmOnAppDesc": "Nastavení budíků je k dispozici pouze v aplikaci",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Moderátor",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Západ slunce",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Půlnoc",
+          "sehriEndTime": "Čas do konce Sehri",
+          "minToImsak": [
+            "{min} minut před Imsakem",
+            "{hodina} hodinu před Imsakem"
+          ],
+          "minToImsakDesc": [
+            "Zazvoní budík {min} minut před koncem času Sehri",
+            "Zazvoní budík {hodina} hodinu před koncem času Sehri"
+          ],
+          "notRamadan": "Vypadá to, že ještě není ramadán. Vraťte se prosím během ramadánu nebo těsně před ním a nastavte alarmy pro Sehri",
+          "push": {
+            "heading": "Je vyžadován přístup k oznámení",
+            "desc_request": "Alarm funguje tak, že odesílá push notifikace v určených časech. Bez přístupu k push nebude aplikace fungovat očekávaným způsobem. Povolte prosím přístup k vašemu push notifikátu, abychom vás mohli informovat v době alarmu.",
+            "desc_denied": "<strong>Dříve jste odepřeli přístup k oznámení.</strong> Je nutné, aby nabízená oznámení fungovala správně. Zasíláme oznámení v době alarmu.<br/> Laskavě povolte přístup k nabízeným oznámením kliknutím na tlačítko.",
+            "cta": "Povolit",
+            "toast_granted": "Děkuju! Nyní budete upozorněni v době budíku.",
+            "toast_denied": "Žádost o oznámení byla zamítnuta. Povolte aplikaci přístup, aby fungovala správně.",
+            "toast_prompt": "Chcete-li nastavit budíky, musíte povolit přístup k oznámením."
+          },
+          "jsAlarmSetSuccess": "Úspěšně nastavené alarmy",
+          "jsAlarmSetError": "Chyba při nastavování alarmů. Zkuste to prosím znovu později.",
+          "jsAlarmSnoozed": "Alarm odložen na 10 minut"
+        },
+        "alarmSetting": {
+          "title": "Nastavení alarmu",
+          "locationTitle": "Najít město pro časování alarmů",
+          "forLocation": "Alarm pro umístění",
+          "calcMethod": "Metoda výpočtu",
+          "selectAdhanSound": "Vyberte zvuk Adhan",
+          "selectAlarmSound": "Vyberte Zvuk alarmu",
+          "alarmSoundDesc": "Zvuk pro non-salat časy",
+          "timesPeekHeading": "Banner s časy zobrazení",
+          "timesPeekDesc": "Zobrazení rychlého zobrazení časů pro Salat můžete zakázat zde:",
+          "timesPeekHome": "Zobrazit na stránce informačních kanálů:",
+          "timesPeekTools": "Zobrazit na stránce nástrojů:",
+          "jsConfirmLocChange": "Změna polohy zruší všechny dříve nastavené budíky. Pokračovat?",
+          "jsOtherSettingsSaved": "Další uložená nastavení. Umístění se nezměnilo."
+        },
+        "qna": {
+          "title": "Otázka-odpověď",
+          "qnaSource": "Zdroj",
+          "seeAnswer": "Viz odpověď",
+          "noAnswer": "Žádná odpověď"
+        },
+        "qnaDetail": {
+          "title": "Odpovědi pro: {ques}",
+          "jsSubmitSuccess": "Váš dotaz byl úspěšně odeslán. Jakmile na ni obdržíme odpověď, budeme vás informovat."
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh Counter"
+        }
+      },
+      "user": {
+        "name": "Uživatel | Účet",
+        "editProfile": "Upravit profil",
+        "publishToFeed": "Publikování změn ve zdroji",
+        "shareUpdateToFeed": "Sdílet tuto aktualizaci také v mém zdroji",
+        "statusText_ph": "Použijte formátování _kurzíva_ nebo *tučné* k ozdobení svého stavu",
+        "statusCharsLeft": "{count} znaků vlevo",
+        "jsImgUploadSuccess": "Obrázky byly úspěšně nahrány!",
+        "unauthAccess": {
+          "heading": "Jste si jisti, že jste na správném místě?",
+          "desc": "<p>Vypadá to, že jste se pokoušeli získat přístup na stránku, pro kterou jste neměli oprávnění. Pokud jste se pokoušeli získat přístup ke stránce, na kterou jste vstoupili dříve, zkuste se přihlásit; to by mělo problém vyřešit.</p> <p>Neváhejte nás kontaktovat, pokud problém přetrvává.</p>"
+        },
+        "guest": {
+          "welcome": "Vítejte, <strong>host!</strong>",
+          "heading": "Proč se přihlásit nebo zaregistrovat?",
+          "desc": "S účtem v naší aplikaci můžete používat řadu funkcí. Začněte vytvořením účtu, pokud ještě účet nemáte. Nebo se jen přihlaste!",
+          "unlockHeading": "odemknout následující pomocí účtu:",
+          "features": {
+            "engage": {
+              "heading": "Interakce v aplikaci",
+              "desc": "Komunikujte s ostatními uživateli, reagujte na jejich příspěvky nebo požadavky, komentujte svůj názor, uložte si položky do záložek a mnoho dalšího!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha Žádost",
+              "desc": "Pošlete žádost o Surah-e-Fatiha pro duše vašich zesnulých milovaných a nechte jejich duše požehnané modlitbami všech našich uživatelů!"
+            },
+            "askQues": {
+              "heading": "Ptát",
+              "desc": "Zeptejte se Deena a Duniyi na různá témata, na které odpoví jeho eminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "preferovaný obsah",
+              "desc": "Když jste přihlášeni ke svému účtu, vždy uvidíte preferovaný obsah a nastavení. Také se nechte upozornit na všechny zajímavé věci!"
+            },
+            "personalized": {
+              "heading": "personalizované sdílení",
+              "desc": "Nastavte obsah sdílení přizpůsobený vaším podpisem, aby vaši přátelé věděli, kdy sdílíte zprávu nebo příspěvek."
+            }
+          }
+        },
+        "about": {
+          "title": "Asi",
+          "jsStatusUpdateFail": "Aktualizace stavu se nezdařila. Zkuste to prosím znovu později."
+        },
+        "posts": {
+          "title": "Odesílá",
+          "userNoPosts": "Když změníte svůj obrázek / titulní obrázek, nebo když požádáte o súru-fatiha pro své zesnulé blízké, tyto příspěvky se objeví zde a na kartě <b>Domů</b> (i ostatních). Zkuste přidat obrázek nebo titulní obrázek?",
+          "profileNoPosts": "{name} ještě nevytvořil žádné příspěvky."
+        },
+        "marhumeen": {
+          "title": "Moderátor",
+          "header": {
+            "marhumeenNotAdded": "{name} ještě nepřidal marhumeen | Ještě jste nepřidali marhumeen",
+            "marhumeenAdded": "{name} přidal následující marhumeen | Přidali jste následující marhumeen"
+          },
+          "jsDeleteHeader": "Opravdu?",
+          "jsDeletePrompt": "Odstraněním záznamů pro <b>{fullName}</b> odstraníte také všechny předchozí požadavky na {gender}! Pokračovat?",
+          "jsDeleted": "Odstraněné záznamy pro {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Přihlaste se ke svému účtu",
+        "createAccount": "Vytvořit účet"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Další krok",
+        "goBack": "Vrať se",
+        "confirm": "Potvrdit"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Umístění není k dispozici. Nastavte jej kliknutím na ikonu pro zobrazení rychlého zobrazení časů Salat.",
+          "unknownError": "Došlo k chybě. V tuto chvíli nelze načíst časy."
+        }
+      },
+      "langPrompt": {
+        "title": "Použít aplikaci v {langLabel}?",
+        "desc": {
+          "p1": "Vypadá to, že k aplikaci přistupujete z {countryName}. Chcete vidět obsah a ovládací prvky v jednom z následujících jazyků, kterými se v této oblasti mluví? Klikněte na svůj výběr a poté pokračujte kliknutím na tlačítko \"Uložit\".",
+          "p2": "Nebo toto vyskakovací okno zavřete, abyste mohli pokračovat v používání aplikace ve výchozím jazyce."
+        },
+        "choices": {
+          "useLang": [
+            "Ano, použijte {langName}",
+            "Použijte {langName}"
+          ],
+          "useEngling": "Pokračovat v angličtině"
+        },
+        "langError": "Při načítání překladů pro {langName} došlo k chybě. Zkuste to prosím znovu později."
+      },
+      "createPost": {
+        "heading": "O čem je dnešek?",
+        "desc": "Kliknutím sem můžete sdílet aktualizaci nebo použít možnost zespodu",
+        "request": "Prosba",
+        "askQues": "Zeptejte se",
+        "sheetOptions": {
+          "header": "Podat žádost",
+          "subheader": "Požádejte momineen o svůj marhumeen nebo o sebe.",
+          "requestFatiha": "Súra-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat ve společnosti Zari-e-Imam Husain (a.s.) vaším jménem"
+        },
+        "modal": {
+          "titles": {
+            "post": "Vytvořit příspěvek | Aktualizovat příspěvek",
+            "livestream": "Živý přenos",
+            "hadiyah": "Vytvořit Hadiyah | Aktualizovat Hadiyah"
+          },
+          "postCta": "Příspěvek | Aktualizovat",
+          "stream": {
+            "scheduleCta": "Uložit na později | Zahájit streamování"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Komu to chcete darovat?",
+              "addPeopleToggle": "Nechť jsou součástí tohoto sawabu i ostatní!",
+              "searchInput": "Pozvěte momimeen z Bazmu nebo ze svého seznamu kontaktů",
+              "minUsersHeader": "Chcete nastavit minimální počet, který si účastníci musí vybrat?",
+              "minUsersInput": "Zadejte minimální počet"
+            }
+          },
+          "postTime": [
+            "Kdy to je?",
+            "Kdy chcete začít streamovat?"
+          ],
+          "whereIsIt": "Kde to je?",
+          "findLocation": "Najít místo",
+          "locationSubtext": "Přidání polohy k příspěvku",
+          "addLocation": "Přidat místo",
+          "addPics": "Přidání obrázků do příspěvku",
+          "previewDes": "Takto by se váš příspěvek zobrazoval v kanálu jiných lidí. Lidé mohou klepnout na video a vidět ho na celé obrazovce.",
+          "addToPost": "Přidat do {postType} (volitelné)",
+          "jsImgUploadFail": "Obrázek nebyl nahrán",
+          "jsAddDetailToPost": "Přidejte prosím podrobnosti do svého příspěvku",
+          "jsValidEndDate": "Zvolte platné datum ukončení",
+          "jsSetLocation": "Nastavte prosím umístění příspěvku",
+          "jsRemLocation": "Nastavte umístění nebo odeberte tuto sekci",
+          "jsAddImg": "Přidejte obrázky nebo odeberte tuto sekci",
+          "jsInvalidDate": [
+            "Nastavte platné datum zahájení ",
+            "Nastavte platné počáteční datum nebo odeberte tuto sekci"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Komentáře",
+        "loadPrevious": "Načíst předchozí komentáře | Načíst předchozí odpovědi",
+        "replyingTo": "Odpovídám na:",
+        "noComments": "Zatím žádné komentáře k tomuto příspěvku",
+        "textboxPlaceholder": "Napište svůj komentář zde",
+        "requestToLogin": "Přihlaste se nebo se zaregistrujte a začněte diskutovat"
+      },
+      "post": {
+        "addressYou": "Ty",
+        "addressing": "tvá | jeho | její",
+        "itemTypes": {
+          "avatar": "obrázek avatara",
+          "banner": "obrázek banneru",
+          "status": "stav profilu"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> aktualizováno {adresování} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> požádal surah-fatiha pro {addressing} {relation}",
+            "<strong>{username}</strong> požádal surah-fatiha & namaz-e-wahshat pro {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Do: {date} v {time}",
+        "privatePost": "Tento příspěvek je viditelný pouze pro vás",
+        "descZiyaratRequest": "Požádali jste, aby byl Ziyarat proveden vaším jménem v *haram* Imáma Husaina (a.s.) dne *{date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Žádost o súru-al-fatiha",
+          "addUpdate": [
+            "Aktualizujte milovaného člověka",
+            "Přidat milovaného člověka"
+          ]
+        },
+        "heading": [
+          "Přidání milovaného člověka, který zemřel",
+          "Vyberte milovanou osobu ze seznamu nebo přidejte milovanou osobu, která zemřela"
+        ],
+        "addNew": "Přidat nový",
+        "subheader": [
+          "Přidejte podrobnosti o svém blízkém",
+          "Do žádosti můžete také zahrnout zprávu."
+        ],
+        "form": {
+          "jsAddImg": "Přidejte obrázek pro své blízké",
+          "jsRemoveImg": "Odstranit obrázek",
+          "fullName": "Celé jméno zesnulého",
+          "name_ph": "Např. Syed Zeeshan Haider Abidi",
+          "fathersName": "Jméno otce (je-li k dispozici)",
+          "father_ph": "Např. Syed Tauqeer Husain",
+          "nameError": "Zadejte prosím celé jméno s našimi speciálními znaky",
+          "genderLabel": "Pohlaví",
+          "genderValue": [
+            "Ženský",
+            "Muž"
+          ],
+          "relation": [
+            "Marhooma je vaše",
+            "Marhoom je váš"
+          ],
+          "selectRelation": "Vybrat relaci",
+          "demiseLabel": "Zanikl dnes? Žádost Namaz-e-Wahshat",
+          "demiseText": "Je nám velmi líto, že slyšíme o vaší ztrátě. Kéž Alláh dá vám a vaší rodině sílu trpělivě snášet tuto ztrátu a nechť Alláh odmění zem zmítanou duši nejvyššími místy v Jannah. Volba této možnosti vám umožní požádat momineen o Namaz-e-Wahshat pro zemřelou duši.",
+          "optional": "Volitelný",
+          "dod": "Zemřel dne",
+          "dob": "Narodil se dne"
+        },
+        "relation": [
+          "Dcera",
+          "Syn"
+        ],
+        "born": "Narozený:",
+        "died": "Umřel:",
+        "addMsg": "Chcete přidat zprávu?",
+        "remainingChars": "Znaky: {count} | Znaky: {count} zbývající",
+        "infoEditRelative": "Podrobnosti pro {name} můžete upravit ve svém <b>účtu > sekci Marhumeen</b>",
+        "saveRequestCta": [
+          "Uložit a požádat",
+          "Prosba"
+        ],
+        "addUpdate": "Přidat | Aktualizovat",
+        "jsRequesting": "Požadování..",
+        "jsAddSuccess": [
+          "Úspěšně přidal svého blízkého!",
+          "Aktualizujte svého blízkého úspěšně!"
+        ],
+        "jsAddFail": "Nepodařilo se přidat svého blízkého. Zkuste to prosím znovu později.",
+        "jsReqSuccess": "Žádost byla úspěšně podána.",
+        "jsGettingMarhumeen": "Získání vašeho marhumeen .."
+      },
+      "askQues": {
+        "title": "Zeptejte se",
+        "form": {
+          "quesLabel": "Váš dotaz",
+          "quesLabel_ph": "Vyhledejte otázku nebo položte vlastní",
+          "similarQues": "Tyto otázky již mohou mít odpověď, kterou hledáte.",
+          "quesTextHeader": "Vaše otázka:",
+          "selectCat": "Nastavit kategorii otázek:",
+          "askAnonLabel": "Zeptat se anonymně?",
+          "askAnonInfo": "Vaše jméno nebude zasláno službě Scholar, když požadujete odpověď vaším jménem, ani nebude zobrazeno v celé naší aplikaci s touto otázkou. Anonymní otázky však nemusí být zodpovězeny rychle.",
+          "askViaLabel": "Zeptejte se přes",
+          "askSistaniInfo": "Můžete položit otázku, na kterou má odpovědět kancelář jeho eminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Otázku předáme na jejich webové stránky (spolu s informacemi o vašem profilu). Ujistěte se, že jste si správně <b>přečetli Smluvní podmínky</b>.",
+          "tncLabel": "Obchodní podmínky:",
+          "showHide": [
+            "Ukázat",
+            "Schovat"
+          ],
+          "sistaniOrgTncInfo": "Zvažte sledování bodů z jejich webových stránek, než položíte otázku, protože pokud nebudete dodržovat níže uvedené body, nemusíte se od nich ozvat nebo nemusíte obdržet žádné odpovědi.",
+          "userInfo": {
+            "aboutLabel": "O vás",
+            "genderLabel": "Vaše pohlaví",
+            "bdayLabel": "Vaše narozeniny",
+            "bdayDesc": "Můžete se zeptat pouze v případě, že je vám více než 09 let. Pokud máte stále zájem, kontaktujte nás."
+          },
+          "jsQuesAdded": "Otázka byla úspěšně přidána."
+        },
+        "askQuesCta": "Zeptejte se"
+      },
+      "authPrompt": {
+        "title": "Vyžadován účet",
+        "defLabel": "Přihlaste se nebo zaregistrujte se a pokračujte",
+        "infoText": "Tato funkce vyžaduje, abyste se před použitím přihlásili nebo zaregistrovali. Klikněte na <b>Přihlásit se</b>, pokud jste již zaregistrováni, nebo klikněte na <b>Zaregistrovat se</b> a vytvořte si účet."
+      },
+      "location": {
+        "title": "Změnit umístění",
+        "search_ph": "Vyhledávání v lokalitě",
+        "autoDetectInfo": "Zadejte svou polohu nebo klikněte na ikonu automatické detekce, abyste získali svou polohu.",
+        "setLocation": "Nastavit polohu",
+        "ipAddress": "IP adresa",
+        "alarmLocation": "Umístění alarmu",
+        "basedOn": "Umístění na základě vašeho {selektoru}",
+        "jsDetecting": "Detekce, počkejte prosím..",
+        "jsPermDenied": "Oprávnění k určování polohy bylo aplikaci odepřeno. Obnovte předvolbu polohy pro tuto aplikaci v části Nastavení v telefonu.",
+        "jsPosUnavailable": "Je nám líto, ale pozice není pro tento telefon momentálně k dispozici. Zkuste to prosím znovu později.",
+        "jsMatchNotFound": "Nelze najít žádné odpovídající umístění.",
+        "jsEnterValidLoc": "Zadejte platné místo",
+        "jsGeoUnavailable": "Je nám líto, ale pozice není pro tento telefon momentálně k dispozici. Zkuste to prosím znovu později.",
+        "jsLocMissing": "Nelze najít vaši polohu. Zadejte polohu ručně.",
+        "jsSelectedLoc": "U tohoto umístění došlo k chybě. Zkuste to prosím znovu"
+      },
+      "readText": {
+        "ctaLabel": "Číst",
+        "title": "Dua: {title}",
+        "arabicCta": "Arabština",
+        "englishCta": "Angličtina",
+        "translatedCta": "Přeložený"
+      },
+      "reqAccess": {
+        "heading": "je vyžadován přístup",
+        "subheading": "Potřebujeme povolení k přístupu k vaší kameře",
+        "subtext": "Povolte přístup kliknutím na tlačítko níže:",
+        "ctaLabel": "Povolit přístup"
+      },
+      "shareBtn": {
+        "subtext": "Kliknutím na jednu z níže uvedených možností můžete sdílet v příslušné aplikaci:",
+        "jsCopyToCB": "Zkopírováno do schránky",
+        "copyText": "Kliknutím na ikonu <b>Kopírovat</b> výše zkopírujte níže uvedený obsah:"
+      },
+      "verifyMob": {
+        "title": [
+          "Ověřit mobilní zařízení",
+          "Zadejte kód"
+        ],
+        "page1": {
+          "infoText1": "K ověření vaší totožnosti potřebujeme vaše mobilní číslo. Můžete také získat příležitostné aktualizace.",
+          "infoText2": [
+            "Zadejte své číslo a kliknutím na tlačítko získáte potvrzovací kód:",
+            "Zadejte své číslo a kliknutím na tlačítko získáte potvrzovací kód:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Číslo mobilního telefonu",
+          "mobileLabel_ph": "Zadejte číslo svého mobilního telefonu",
+          "otpViaSMS": "Dostat se přes SMS",
+          "viaWhatsApp": "Získat přes WhatsApp",
+          "viaTelegram": "Dostat se přes Telegram",
+          "viaSignal": "Dostat se přes signál"
+        },
+        "page2": {
+          "header": "Na vaše číslo ({číslo}) jsme poslali 6místný potvrzovací kód",
+          "enterCodeLabel": "Zadejte kód",
+          "enterCode_ph": "Zadejte 6místný kód",
+          "resendCode": "Znovu odeslat kód",
+          "notUsingMobile": "Nepoužíváte <strong>{číslo}?</strong>",
+          "changeNumber": "Změnit číslo"
+        },
+        "jsVerifySuccess": "Mobilní ověření úspěšně",
+        "jsVerifyError": "Došlo k chybě. Zkuste to prosím znovu později.",
+        "jsSendOtpFailed": "Odeslání jednorázového hesla se nezdařilo. Zkuste to prosím znovu později.",
+        "jsSendOtpSuccess": "Jednorázové heslo odesláno na adresu {mobile}",
+        "jsTooManyRequests": "Vypadá to, že jste to už zkoušeli příliš mnohokrát. Počkejte minutu nebo dvě a zkuste to znovu."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Zpráva Přizpůsobit sdílení",
+        "changePwd": "Změnit heslo | Nastavit heslo",
+        "changeLang": "Změnit jazyk",
+        "publishToFeed": "Publikujte také mé změny v kanálu."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalizace",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Přidání mého jména do zpráv",
+          "sharingDesc": "Při externím sdílení mohou vaše zprávy vypadat takto:",
+          "sharingTextDemo": [
+            "Poslechněte si tuto aplikaci Nauha na Bazm",
+            "{name} doporučuje poslouchat tuto aplikaci Nauha na Bazm"
+          ],
+          "addSignDesc": "Chcete také přidat svůj podpis?",
+          "signDesc": "Když sdílíte své přání s přáteli v této aplikaci, váš podpis bude přidán do zpráv. Může se například zobrazit takto:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Zadejte své stávající heslo:",
+          "currentPwdPH": "Zadejte aktuální heslo",
+          "newPwdLabel": "Zadejte nové heslo:",
+          "newPwdPH": "Zadejte nové heslo"
+        },
+        "changeLang": {
+          "searchYourLang": "Vyhledávání ve vašem jazyce",
+          "desc": "Vyberte jazyk, ve kterém chcete obsah aplikace zobrazit. Klikněte na jazyk a počkejte (načtení překladu nějakou dobu trvá), abyste viděli, jak se tato fráze objeví ve vybraném jazyce."
+        },
+        "jsPwdInvalid": "Heslo obsahuje neplatné znaky.",
+        "jsPwdCharCount": "Heslo nesmí být kratší než 8 znaků.",
+        "jsSelectLang": "Nejprve vyberte jazyk.",
+        "jsLangSet": "Jazyk byl nastaven na {lang}",
+        "jsPrefSaved": "Uložena nastavení přizpůsobení."
+      },
+      "forgotPwd": {
+        "title": "Zapomněli jste heslo?",
+        "introText": "Resetování hesla je snadné. Vyberte metodu, ve které chcete pokračovat:",
+        "usePhoneCta": "Používat telefon",
+        "useEmailCta": "Použít e-mail",
+        "sendEmailIntro": "Zadejte e-mailovou adresu, pomocí které jste vytvořili účet, a my vám pošleme e-mail s odkazem na nastavení nového hesla pro váš účet.",
+        "emailInputLabel": "Váš registrovaný e-mail",
+        "sendEmailCta": "Odeslat resetovací e-mail",
+        "sentEmailText": "Pokud u nás máte účet, brzy obdržíte e-mail pro obnovení hesla na <strong>{email}</strong>. Laskavě zkontrolujte svůj e-mail pro odkaz.",
+        "notUsingEmailText": "Nepoužíváte <strong>{email}?</strong>",
+        "changeEmailCta": "Změnit e-mail",
+        "phoneIntroText": "Zadejte telefonní číslo přidané k vašemu účtu. Pošleme OTP k ověření vašeho vlastnictví a v dalším kroku budete moci vytvořit nové heslo.",
+        "phoneInputLabel": "Vaše mobilní číslo",
+        "sendOtpCta": "Odeslat jednorázové heslo",
+        "backToLoginCta": "Zpět na Přihlášení",
+        "disclaimerText": "Vezměte prosím na vědomí, že {item} obdržíte pouze v případě, že máte {item} u nás zaregistrovanou",
+        "jsMailSent": "Odeslaná pošta"
+      },
+      "resetPwd": {
+        "title": "Obnovit heslo",
+        "introText": "Zde si nastavte bezpečné heslo pro svůj účet. Klikněte na {icon} a ujistěte se, že zadáváte správné heslo.",
+        "pwdInputLabel": "Nastavit nové heslo",
+        "pwdInputPH": "Zadejte nové heslo",
+        "invalidPwdChars": "Neplatné znaky v hesle",
+        "jsResetSuccess": "Resetování hesla proběhlo úspěšně!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Nepodařilo se načíst stopu. Zkuste to prosím znovu později."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} byl úspěšně odstraněn.",
+        "jsErrReporting": "V tuto chvíli to nelze nahlásit. Zkuste to prosím znovu později.",
+        "jsAlreadyReported": "Tuto {položku} jste již nahlásili. Nemůžete to nahlásit více než jednou.",
+        "jsPromptHeading": "Nahlášení položky má za následek nižší pravděpodobnost, že se objeví ve vašem nebo cizím zdroji/stránkách. Chcete to přesto nahlásit?",
+        "jsReporting": "Vytváření sestav {itemType}..",
+        "jsReportingErr": "V tuto chvíli nelze odeslat vaši žádost. Zkuste to prosím znovu později.",
+        "jsReported": "{položka} hlášena. Díky za váš příspěvek."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Není co aktualizovat!",
+        "jsProfileUpdated": "Profil aktualizován!"
+      },
+      "reqZiyarat": {
+        "title": "Žádost Ziyarat",
+        "cta": "Prosba",
+        "header": "Požádejte svým jménem o Ziyarat ve svatyni Imam Hussain (a.s.) v Karbale.",
+        "desc": {
+          "p1": "Každý pátek se <strong>Ziyarat modlete vaším jménem</strong> ve svatyni imáma Hussaina (as) v Karbale v Iráku! Vše, co musíte udělat, je podat žádost <strong>do konce čtvrtečního večera</strong>. Nikdy však nejste pozdě; Pokud vaše žádost přijde příliš pozdě, bude zaregistrována na následující týden.",
+          "p2": "Budeme vás informovat, když bude ziyarat recitován vaším jménem.",
+          "p3": "Poznámka: Když o to požádáte poprvé, vaše údaje budou sdíleny s naším poskytovatelem služeb. Přečtěte si prosím naše Smluvní podmínky, abyste se dozvěděli více."
+        },
+        "jsRegistered": "Děkuju! Vaše žádost byla úspěšně zaregistrována. Brzy obdržíte potvrzovací e-mail.",
+        "jsAlreadyRegistered": "Již jste se zaregistrovali na Ziyarat tento čtvrtek. Zaregistrujte se příští týden na ziyarat na příští týden.",
+        "jsConfirm": "Abychom se mohli zaregistrovat k této žádosti, musíme sdílet vaše údaje (např. celé jméno, pohlaví atd.) s naším poskytovatelem služeb. To je vyžadováno pouze poprvé. Potvrďte prosím, že budete pokračovat.",
+        "jsDeclined": "OK! Možná později."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Tvoje jméno",
+          "placeholder": "Zadejte své celé jméno"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": [
+            "Váš registrovaný e-mail",
+            "Zadejte svůj e-mail"
+          ]
+        },
+        "password": {
+          "label": "Heslo",
+          "placeholder": [
+            "Vaše heslo",
+            "Zadejte heslo"
+          ]
+        },
+        "rememberLogin": "Zapamatovat si přihlášení",
+        "forgotPwd": "Zapomněli jste heslo?",
+        "connectUsing": "Nebo se připojte pomocí",
+        "useSavedAccount": "Použití uložených účtů",
+        "lastLogin": "Poslední přihlášení",
+        "needAccount": "Potřebujete účet?",
+        "resetPwdSuccess": "Nyní můžete použít své nové heslo k přihlášení",
+        "jsEnterFullName": "Zadejte prosím své celé jméno.",
+        "jsEnterValidName": "Zadejte platné jméno.",
+        "jsEnterValidEmail": [
+          "Zadejte prosím platný e-mail.",
+          "E-mail obsahuje neplatné znaky. Zadejte prosím platný e-mail."
+        ],
+        "jsSelectCountryCode": "Vyberte prosím kód země ze seznamu",
+        "jsEnterMobile": "Zadejte prosím číslo svého mobilního telefonu.",
+        "jsEnterValidMobile": "Zadejte platné číslo mobilního telefonu",
+        "jsEnterPwd": "Zadejte prosím své heslo!",
+        "jsEnterValidPwd": [
+          "Heslo obsahuje neplatné znaky. Zadejte platné heslo.",
+          "Heslo by mělo být alespoň {počet} znaků."
+        ],
+        "jsAccountSuccess": "Účet byl úspěšně vytvořen",
+        "jsFbError": "Nelze získat podrobnosti o vašem účtu na Facebooku. Zkuste to prosím znovu.",
+        "jsPromptClosedErr": "Výzva k přihlášení byla před dokončením uzavřena. Zkuste to prosím znovu."
+      },
+      "gotoSignup": "Přejít na Zaregistrovat se",
+      "alreadyHasAccount": "Už máte účet?",
+      "gotoLogin": "Goto Přihlášení",
+      "gotoProfile": "Goto Profil",
+      "msgForAuthUser": "<p>Myslíme si, že jste zde přistáli omylem, protože jste již přihlášeni.</p> <p>Můžete zkontrolovat svůj profil a zjistit, jak vypadá, nebo použít jeden z níže uvedených odkazů k procházení dalších sekcí:</p>",
+      "jsLoggedOut": "Byli jste odhlášeni.",
+      "jsLogoutHeading": "Odhlásit se z účtu?",
+      "jsLogoutText": "Tím se odstraní informace uložené místně, což umožňuje <b>rychlé</b> přihlášení. Pokračovat?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Instalovat Bazm { platforma }",
+          "desc": "Stáhněte si aplikaci pro Android pro lepší zážitek, personalizovaný obsah, oznámení a vše, co vás zajímá z okolí! | Nainstalujte zástupce aplikace (záložku) pro přístup k němu přímo z domovské obrazovky příště pro lepší zážitek! Sotva zabírá místo na vašem zařízení, ale pomůže vám rychle se vrátit do aplikace.",
+          "cta": {
+            "action": "Nainstalovat",
+            "skip": "Možná později"
+          }
+        },
+        "prompt": {
+          "heading": "Nainstalovat zástupce Bazm?"
+        },
+        "popover": {
+          "text": "Klikněte na ikonu Sdílet (vypadá jako jedna vpravo) <strong>NÍŽE</strong> a poté klikněte na <strong>tlačítko Přidat na domovskou obrazovku</strong>. Klikněte na \"Uložit\" pro dokončení, a pak můžete přistupovat k aplikaci ze zástupce na domovské obrazovce!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Jaké jsou vaše dosavadní zkušenosti?",
+        "text": "<p>Líbí se vám nová aplikace? Je něco, co můžeme zlepšit? Prosím, pomozte nám s vaší zpětnou vazbou, abychom zlepšili zážitek pro vás!</p> <p>To by trvalo jen několik minut a velmi si vážíme vašeho času!</p>",
+        "cta": "Poskytněte zpětnou vazbu",
+        "dismiss": "Možná později"
+      },
+      "advertise": {
+        "heading": "Inzerujte na Bazm",
+        "text": "<p>Oslovte miliony šíitských muslimů po celém světě se svým produktem na Bazmu nebo se spojte se značkami a uživateli.</p> <p>Začněte již za $ 1 / den!</p>",
+        "cta": "Víc se uč"
+      },
+      "upgradeSafari": {
+        "header": "Omezené zkušenosti v Safari",
+        "description": "<strong>Tento prohlížeč (Safari) není optimalizován pro nejlepší zážitek</strong>. Tím, že budete pokračovat v používání naší aplikace zde, přijdete o řadu funkcí, jako jsou výstražná oznámení, aktualizace v blízkosti, režim offline a mnoho dalšího.<br/> Doporučujeme vám získat jeden z níže uvedených prohlížečů pro lepší zážitek. Kliknutím na kterékoli z tlačítek stáhnete prohlížeč z AppStore:",
+        "ctas": {
+          "getGoogle": "Získat Google Chrome",
+          "getFirefox": "Získat Mozilla Firefox",
+          "getOpera": "Získat Opera Touch",
+          "skip": "Možná později"
+        },
+        "toast": "Žádný problém. Zatím!"
+      },
+      "cookieBanner": {
+        "header": "O ukládání souborů cookie do zařízení",
+        "p1": "Na vašem {zařízení} neukládáme žádné soubory cookie, ale aplikace třetích stran používané v naší aplikaci mohou (například Google Analytics). Místo toho používáme trvalé úložiště k ukládání všech důležitých dat a ve většině případů je šifrováno v úložišti a během přenosu.",
+        "p2": "Pokračováním v používání této aplikace tímto potvrzujete, že nemáte žádné problémy s našimi volbami. Chcete-li se dozvědět více o našich souborech cookie a používání dat, přečtěte si naše <a href='https://bazm.in/privacy-policy' target='_blank'>Zásady ochrany osobních údajů.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Aplikace sociální sítě pro šíitské muslimy po celém světě! Stáhněte si aplikaci ještě dnes.",
+      "home": {
+        "title": "Bazm - Online Shia komunitní aplikace!",
+        "description": "Aplikace Bazm je shia komunitní aplikace, která splňuje všechny vaše každodenní potřeby deen & mazhab. Najděte Nauhe, Majalis, Dua, Aamaal, Ziyarat, knihy atd. Pro všechna data a příležitosti. Sledujte a dělejte živé přenosy událostí a majalis se šíitskými muslimy po celém světě z pohodlí vašeho domova. Přidejte se ještě dnes!"
+      },
+      "feed": {
+        "title": "Najděte přizpůsobený obsah a sdílejte ho s komunitou shia kolem vás a po celém světě",
+        "description": "Vyhledávejte a sdílejte zprávy, události a obsah se shia momineen kolem a informujte je o všech událostech, které pořádáte. Přečtěte si o všem, co se děje ve vašem okolí v aplikaci."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal a mnoho dalšího pro vás!",
+        "description": "Najděte Nauhe, Majalis, Dua, Aamaal, ziyarat a mnoho dalšího pro všechna data a příležitosti. Sledujte a dělejte živé vysílání majalis z pohodlí vašeho domova! Připojte se k aplikaci shia sociální sítě, která vám pomůže s rutinními úkoly deen & mazhab. Přidejte se ještě dnes!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Denní Azaan alarm, otázka-odpověď a nástroje pro šíitské muslimy",
+        "description": "Získejte každodenní připomenutí pro Adhan, najděte a položte otázku-odpověď na témata deen a islám, nebo požádejte Surah-fatiha nebo Namaz-e-Wahshat pro vaše marhumeen a další nástroje na Bazm. Připojte se k aplikaci shia sociální sítě, která vám pomůže s rutinními úkoly deen. Najděte Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat pro všechna data a příležitosti. Živé přenosy událostí a majalis z pohodlí vašeho domova. Přidejte se ještě dnes!"
+      },
+      "tasbeehCounter": {
+        "title": "Automatické počítadlo tasbeeh s nástrojem Voice __ Tasbeeh Counter",
+        "description": "Recitování nesčetných tasbeeh je nyní snazší s našimi Audio tasbeeh čítači. Recitujte tasbeeh, když řídíte nebo pracujete, a stále sledujte počet pomocí hlasových čítačů. Získejte tento nástroj a další podobné v aplikaci Bazm. Stáhněte si ještě dnes."
+      },
+      "accountHome": {
+        "title": "Bazm - Vytvořte si bezplatný účet ještě dnes a získejte pomoc s vašimi každodenními potřebami deen!",
+        "description": "Připojte se k aplikaci Bazm ještě dnes, abyste splnili všechny své potřeby deeniyat. Najděte nohe / nauhe, majalis, dua, ziyarat, aamaal pro všechna data a příležitosti. Živě streamujte a sledujte majalis a události z okolí; najít příspěvky, obsah a momineen z celého světa, a mnohem více v aplikaci. Připojte se ještě dnes!"
+      },
+      "nauheListPage": {
+        "title": "Poslouchejte Nauhe z populární nauhakhwan po celém světě",
+        "description": "Poslouchejte nauhe ze všech let a všechny populární nauhakhwan z celého světa na aplikaci Bazm. Stáhnout ještě dnes."
+      },
+      "soazListPage": {
+        "title": "Poslouchejte Soaz z populárního Soazkhwan po celém světě",
+        "description": "Poslouchejte Soaz ze všech let a všechny populární Soazkhwan z celého světa na aplikaci Bazm. Stáhnout ještě dnes."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis na Bazm - Více na nauhe, audio/video majalis, dua, ziyarat, aamaal, atd. na Bazmu",
+        "description": "Najděte audio / video majalis z Maulana a Zakir-e-Ahlbayt z blízkého okolí a z celého světa. Poslouchejte a sledujte nejnovější relace majalis a livestream v aplikaci Bazm. Stáhněte si aplikaci ještě dnes a připojte se k milionům šíitských muslimů po celém světě!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas a aamaal za měsíc {měsíc} na Bazm - Najít více nauhe, audio / video majalis, dua, ziyarat, aamaal, atd. Na Bazm",
+          "Duas a aamaal pro všechny měsíce na Bazm - Najděte více nauhe, audio / video majalis, dua, ziyarat, aamaal, atd. Na Bazm"
+        ],
+        "description": "Najděte duas, aamaal, ziyarat a munajat pro všechny měsíce na Bazmu, datum a událost. Stáhněte si aplikaci ještě dnes a připojte se k milionům šíitských muslimů po celém světě!"
+      }
+    }
+  }
+}

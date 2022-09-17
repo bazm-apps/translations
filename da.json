@@ -1,1 +1,809 @@
-undefined
+{
+  "da": {
+    "common": {
+      "refresh": "Træk for at opdatere",
+      "refreshing": "Forfriskende...",
+      "loadingMore": "Indlæser mere ...",
+      "checking": "Kontrol...",
+      "sendOtp": "Afsendelse af OTP..",
+      "dismiss": "Afskedige",
+      "invite": "Indbyde",
+      "showMore": "Vis mere | Se mere",
+      "play": "Spille",
+      "pause": "Standsede",
+      "playing": "Spille",
+      "paused": "Standsede",
+      "watch": "Ur",
+      "read": "Læse",
+      "authors": "Forfatter | Forfattere",
+      "languages": "Sprog | Sprog",
+      "clear": "Tydelig",
+      "cancel": "Aflyse",
+      "change": "Forandre",
+      "continue": "Fortsætte",
+      "select": "Markere",
+      "saveChanges": "Gem ændringer | Gem | Opdater",
+      "newBadge": "Ny",
+      "login": "Login",
+      "logout": "Logout",
+      "signup": "Tilmeld dig",
+      "settings": "Indstillinger",
+      "cookiePolicy": "Cookie politik",
+      "privacy": "Privatliv",
+      "contactUs": "Kontakt os",
+      "home": "Hjem",
+      "facebook": "Se hele annoncen",
+      "google": "København.",
+      "you": "Du",
+      "retry": "Prøv",
+      "send": "Sende",
+      "submit": "Indsende",
+      "share": "Del | Del nu",
+      "at": "ved",
+      "untilNextTime": "Intet problem. Indtil næste gang!",
+      "plzWait": "Vent venligst..",
+      "saving": "Besparelse.. | Ajourføring..",
+      "search": "Søge",
+      "late": "Sen",
+      "done": "Gjort",
+      "featureUnavailable": "Denne funktion vil snart være tilgængelig. Tak for at vise interesse!",
+      "actions": {
+        "cancel": "Aflyse",
+        "notify": "Melde",
+        "like": "Synes om",
+        "recited": "Fremsagde",
+        "comment": "Kommentar",
+        "reply": "Svar",
+        "bookmark": "Bogmærke",
+        "uploading": "Uploade..",
+        "deleting": "Slette..",
+        "requesting": "Anmoder om..",
+        "audienceHeader": "Momineen hvem {action}d | Momineen hvem {action}d dette",
+        "jsShareFileTypeError": "Beklager, du kan ikke dele {fileType}-filer her",
+        "jsUpdateAvailable": {
+          "header": "Opdatering tilgængelig",
+          "message": "Klik på 'Opdater' for at opdatere og indlæse nyt indhold og nye funktioner.",
+          "cta": "Opdatere"
+        },
+        "jsImgUploaded": "Billede uploadet med succes!",
+        "jsImgUploadErr": "Upload af billede mislykkedes. Prøv igen senere."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Tjenesten er ikke tilgængelig i øjeblikket. Prøv igen senere.",
+        "unknown": "Der opstod en ukendt fejl. Prøv igen senere.",
+        "general": "Der opstod en fejl under behandlingen af din anmodning. Prøv igen senere."
+      },
+      "content": {
+        "unavailable": "Kunne ikke indlæse indholdet på nuværende tidspunkt. Prøv igen om et stykke tid.",
+        "itemDetailUnavailable": "Kunne ikke finde detaljer for denne {item}",
+        "loadMoreError": "Der kunne ikke indlæses flere elementer. Prøv igen senere."
+      },
+      "url": {
+        "invalid": "Ugyldig URL. Prøv med en ny URL."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Hjem"
+      },
+      "postDetail": {
+        "commonTitle": "Detalje",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha &Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Profilbillede",
+        "bannerUpdateTitle": "Forsidebillede (udfaset)",
+        "statusUpdateTitle": "Statusopdatering"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Hjem",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Del denne anmodning på tværs af dit netværk, og nå ud til flere mennesker!"
+          }
+        }
+      },
+      "media": {
+        "name": "Medie",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Bøger"
+        },
+        "inviteFriends": "inviter dine venner",
+        "notShia": "Ikke shiamuslimer?",
+        "contacts": {
+          "accessRequestHeader": "Adgang til kontakter kræves",
+          "accessRequestDesc": "Vi kræver, at dine kontakters adgang foreslår shiamuslimer i din telefonbog at invitere til denne app."
+        },
+        "audio": "Lyd",
+        "video": "Video",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Ønsk dine venner!",
+          "wishCtaLabel": "ØNSKE"
+        },
+        "books": {
+          "booksByAuthor": "Bøger af {forfatter}",
+          "booksInLang": "Bøger i {lang}",
+          "filterBy": "Filtrer efter:",
+          "matching": {
+            "authors": "med forfattere, der matcher",
+            "lang": "med sprog, der matcher",
+            "title": "med matchning af titel"
+          }
+        },
+        "booksFilter": {
+          "title": "Find bog af forfatter",
+          "searchBox": "Søg forfatteren efter navn",
+          "selectLang": "Vælg et sprog:"
+        },
+        "bookDetails": {
+          "title": "{title} — Find flere gratis bøger som denne på Bazm",
+          "aboutBook": "Om bog:"
+        }
+      },
+      "tools": {
+        "name": "Værktøjer",
+        "salatAlarmDesc": "Indstil alarmer til Azaan i henhold til dine lokale tider",
+        "sehriAlarmDesc": "Indstil alarm til Sehri, eller få endda et wake-up call på dit nummer før Sehri!",
+        "sehriAlarmOptionDisabled": "Alarmer for Sheri-tid i Ramadan-måneden (kun tilgængelig under Ramadan)",
+        "tasbeehCounterDesc": "Reciter duaer, koraner og tasbeeh i gentagelsestilstand nemt med Audio Tasbeeh-tælleren",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Søg og stil spørgsmål eller find svar på masle-masayel fra dit daglige liv om spørgsmål om islam.",
+        "alarms": {
+          "salatAlarms": "Salat alarmer -- Daglige salat alarmer",
+          "sehriAlarms": "Ramadan Sehri alarmer",
+          "gettingLocation": "Få din placering. Vent venligst...",
+          "settingsTip": "Skift <b>placering</b> og præferencer i Alarmindstillinger. Klik på ikonet Indstillinger for at starte.",
+          "setAlarmHeader": "Indstil daglige alarmer",
+          "setAlarmOnAppDesc": "Indstilling af alarmer er kun tilgængelig i appen",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Solnedgang",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Midnat",
+          "sehriEndTime": "Tid til slutningen af Sehri",
+          "minToImsak": [
+            "{min} minutter før Imsak",
+            "{time} time før Imsak"
+          ],
+          "minToImsakDesc": [
+            "Alarmen ringer {min} minutter før udgangen af Sehri-tiden",
+            "Alarmen ringer {time} time før udgangen af Sehri-tiden"
+          ],
+          "notRamadan": "Det ser ud til, at det ikke er Ramadan endnu. Kom tilbage under eller lige før Ramadanen for at indstille alarmerne til Sehri",
+          "push": {
+            "heading": "Meddelelsesadgang påkrævet",
+            "desc_request": "Alarmen fungerer ved at sende push-meddelelser på bestemte tidspunkter. Uden adgang til push fungerer appen ikke på forventet måde. Giv venligst adgang til din push-meddelelse, så vi kan informere dig på alarmtider.",
+            "desc_denied": "<strong>Du har nægtet meddelelsesadgang tidligere.</strong> Det er nødvendigt for push-notifikationer at fungere korrekt. Vi sender meddelelser på alarmtidspunktet.<br/> Tillad venligst adgang til push-meddelelser ved at klikke på knappen.",
+            "cta": "Tillade",
+            "toast_granted": "Tak! Du får besked på alarmtider nu.",
+            "toast_denied": "Anmodning om underretning afvist. Giv adgang til, at appen fungerer korrekt.",
+            "toast_prompt": "Du skal tillade meddelelsesadgang for at indstille alarmer."
+          },
+          "jsAlarmSetSuccess": "Alarmer indstillet med succes",
+          "jsAlarmSetError": "Fejl ved indstilling af alarmer. Prøv igen senere.",
+          "jsAlarmSnoozed": "Alarm snoozet i 10 minutter"
+        },
+        "alarmSetting": {
+          "title": "Alarm indstillinger",
+          "locationTitle": "Find by for Alarmtider",
+          "forLocation": "Alarm for placering",
+          "calcMethod": "Beregningsmetode",
+          "selectAdhanSound": "Vælg Adhan-lyd",
+          "selectAlarmSound": "Vælg Alarmlyd",
+          "alarmSoundDesc": "Lyd til ikke-salattider",
+          "timesPeekHeading": "Banneret Vis tider",
+          "timesPeekDesc": "Du kan deaktivere visning af hurtig visning af tider for Salat her:",
+          "timesPeekHome": "Vis på feeds side:",
+          "timesPeekTools": "Vis på værktøjssiden:",
+          "jsConfirmLocChange": "Ændring af din placering annullerer alle de tidligere indstillede alarmer. Fortsætte?",
+          "jsOtherSettingsSaved": "Andre indstillinger gemt. Placeringen blev ikke ændret."
+        },
+        "qna": {
+          "title": "Spørgsmål-svar",
+          "qnaSource": "Kilde",
+          "seeAnswer": "Se svar",
+          "noAnswer": "Intet svar"
+        },
+        "qnaDetail": {
+          "title": "Svar til: {ques}",
+          "jsSubmitSuccess": "Dit spørgsmål er blevet indsendt med succes. Vi opdaterer dig, når vi modtager svar på det."
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh tæller"
+        }
+      },
+      "user": {
+        "name": "Bruger | Konto",
+        "editProfile": "Rediger profil",
+        "publishToFeed": "Publicere mine ændringer i feedet",
+        "shareUpdateToFeed": "Del også denne opdatering til mit feed",
+        "statusText_ph": "Brug formateringen _kursiv_ eller *fed* til at dekorere din status",
+        "statusCharsLeft": "{count} tegn tilbage",
+        "jsImgUploadSuccess": "Billeder uploadet med succes!",
+        "unauthAccess": {
+          "heading": "Er du sikker på, at du er på det rigtige sted?",
+          "desc": "<p>Det ser ud til, at du forsøgte at få adgang til en side, som du ikke havde tilladelse til. Hvis du forsøgte at få adgang til en side, du tidligere har fået adgang til, skal du prøve at logge ind; det burde løse problemet.</p> <p>Du er velkommen til at kontakte os, hvis problemet fortsætter.</p>"
+        },
+        "guest": {
+          "welcome": "Velkommen, <strong>gæst!</strong>",
+          "heading": "Hvorfor logge ind eller registrere?",
+          "desc": "Med en konto i vores app kan du bruge en række funktioner. Kom i gang ved at oprette en konto, hvis du ikke allerede har en konto. Eller bare log ind!",
+          "unlockHeading": "låse følgende op med en konto:",
+          "features": {
+            "engage": {
+              "heading": "Deltag i app",
+              "desc": "Engager dig med andre brugere, reager på deres indlæg eller anmodninger, kommenter din mening, bogmærke dine varer og meget mere!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha-anmodning",
+              "desc": "Send anmodning om Surah-e-Fatiha for sjælene hos dine afdøde kære og få deres sjæle velsignet med bønner fra alle vores brugere!"
+            },
+            "askQues": {
+              "heading": "Stil spørgsmål",
+              "desc": "Stil spørgsmål fra Deen &Duniya om forskellige emner, der skal besvares af hans fremtrædende rolle, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "foretrukket indhold",
+              "desc": "Se altid dit foretrukne indhold og dine foretrukne indstillinger, når du er logget ind på din konto. Få også besked om alle de interessante ting!"
+            },
+            "personalized": {
+              "heading": "personlig deling",
+              "desc": "Indstil delingsindhold, der er tilpasset din signatur, så dine venner ved, hvornår du deler en besked/et opslag."
+            }
+          }
+        },
+        "about": {
+          "title": "Omtrent",
+          "jsStatusUpdateFail": "Status kunne ikke opdateres. Prøv igen senere."
+        },
+        "posts": {
+          "title": "Indlæg",
+          "userNoPosts": "Når du ændrer dit billede/forsidebillede, eller når du anmoder om surah-fatiha til dine afdøde kære, vises disse indlæg her og på fanen <b>Hjem</b> (også af andre). Prøv at tilføje et billede eller et coverbillede?",
+          "profileNoPosts": "{name} har ikke lavet nogen indlæg endnu."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} har ikke marhumeen tilføjet endnu | Du har ikke tilføjet marhumeen endnu",
+            "marhumeenAdded": "{name} har tilføjet følgende marhumeen | Du har tilføjet følgende marhumeen"
+          },
+          "jsDeleteHeader": "Er du sikker?",
+          "jsDeletePrompt": "Sletning af poster for <b>{fullName}</b> vil også slette alle tidligere anmodninger om {gender}! Fortsætte?",
+          "jsDeleted": "Slettede poster for {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Log ind på din konto",
+        "createAccount": "Opret en konto"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Næste trin",
+        "goBack": "Gå tilbage",
+        "confirm": "Bekræfte"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Placering ikke tilgængelig. Indstil det ved at klikke på ikonet for at se hurtig visning af Salat-tider.",
+          "unknownError": "Der opstod en fejl. Kunne ikke indlæse tider i øjeblikket."
+        }
+      },
+      "langPrompt": {
+        "title": "Brug app i {langLabel}?",
+        "desc": {
+          "p1": "Det ser ud til, at du får adgang til appen fra {countryName}. Vil du se indhold og kontrolelementer på et af følgende sprog, der tales i området? Klik på dit valg, og klik derefter på 'Gem' for at fortsætte.",
+          "p2": "Eller afvis denne popup for at fortsætte med at bruge appen på standardsproget."
+        },
+        "choices": {
+          "useLang": [
+            "Ja, brug {langName}",
+            "Brug {langName}"
+          ],
+          "useEngling": "Fortsæt på engelsk"
+        },
+        "langError": "Der opstod en fejl under indlæsning af oversættelserne til {langName}. Prøv igen senere."
+      },
+      "createPost": {
+        "heading": "Hvad handler det om i dag?",
+        "desc": "Klik her for at dele en opdatering eller bruge en mulighed nedefra",
+        "request": "Bøn",
+        "askQues": "Stil spørgsmål",
+        "sheetOptions": {
+          "header": "Foretag en anmodning",
+          "subheader": "Lav en anmodning fra momineen til din marhumeen eller dig selv.",
+          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat på Zari-e-Imam Hussein (as) på dine vegne"
+        },
+        "modal": {
+          "titles": {
+            "post": "Opret indlæg | Opdater indlæg",
+            "livestream": "Livestream",
+            "hadiyah": "Opret Hadiyah | Opdater Hadiyah"
+          },
+          "postCta": "Indlæg | Opdatering",
+          "stream": {
+            "scheduleCta": "Gem til senere | Start streaming"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Hvem vil du give dette til?",
+              "addPeopleToggle": "Lad andre også være en del af denne sawab!",
+              "searchInput": "Inviter momimeen fra Bazm eller din kontaktliste",
+              "minUsersHeader": "Vil du indstille det mindste antal, som deltagerne skal vælge?",
+              "minUsersInput": "Angiv minimum antal"
+            }
+          },
+          "postTime": [
+            "Hvornår er det?",
+            "Hvornår vil du begynde at streame?"
+          ],
+          "whereIsIt": "Hvor er det?",
+          "findLocation": "Find placering",
+          "locationSubtext": "Føj placering til dit indlæg",
+          "addLocation": "Tilføj placering",
+          "addPics": "Føj billeder til dit indlæg",
+          "previewDes": "Sådan vises dit indlæg i andre menneskers feed. Folk kan trykke på videoen for at se den i fuld skærm.",
+          "addToPost": "Føj til {postType} (valgfrit)",
+          "jsImgUploadFail": "Billedet blev ikke uploadet",
+          "jsAddDetailToPost": "Tilføj venligst detaljer til dit indlæg",
+          "jsValidEndDate": "Vælg en gyldig slutdato",
+          "jsSetLocation": "Angiv placering for indlægget",
+          "jsRemLocation": "Angiv en placering, eller fjern dette afsnit",
+          "jsAddImg": "Tilføj billeder eller fjern dette afsnit",
+          "jsInvalidDate": [
+            "Angiv en gyldig startdato ",
+            "Angiv en gyldig startdato, eller fjern dette afsnit"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Kommentarer",
+        "loadPrevious": "Indlæs tidligere kommentarer | Indlæs tidligere svar",
+        "replyingTo": "Svar til:",
+        "noComments": "Ingen kommentarer til dette indlæg endnu",
+        "textboxPlaceholder": "Skriv din kommentar her",
+        "requestToLogin": "Log ind eller Tilmeld dig for at starte diskussionen"
+      },
+      "post": {
+        "addressYou": "Du",
+        "addressing": "din | hans | hende",
+        "itemTypes": {
+          "avatar": "avatar billede",
+          "banner": "banner billede",
+          "status": "profil status"
+        },
+        "displayPhrase": {
+          "common": "<strong>{brugernavn}</strong> opdateret {adressering} {item}",
+          "fatiha": [
+            "<strong>{brugernavn}</strong> anmodet surah-fatiha for {adressering} {relation}",
+            "<strong>{brugernavn}</strong> anmodet surah-fatiha &namaz-e-wahshat for {adressering} {relation}"
+          ]
+        },
+        "dateUntil": "Indtil: {dato} på {tidspunkt}",
+        "privatePost": "Dette indlæg er kun synligt for dig",
+        "descZiyaratRequest": "Du anmodede om, at Ziyarat blev udført på dine vegne hos *haram* imam Hussein (as) på *{dato}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Anmod om Surah-al-fatiha",
+          "addUpdate": [
+            "Opdater elskede",
+            "Tilføj elsket"
+          ]
+        },
+        "heading": [
+          "Tilføj en elsket, der er gået videre",
+          "Vælg en elsket fra listen, eller tilføj en elsket, der er gået videre"
+        ],
+        "addNew": "Tilføj nyt",
+        "subheader": [
+          "Tilføj detaljer om din elskede",
+          "Du kan også medtage en besked i din anmodning"
+        ],
+        "form": {
+          "jsAddImg": "Tilføj billede til din elskede",
+          "jsRemoveImg": "Fjern billede",
+          "fullName": "Afdødes fulde navn",
+          "name_ph": "F.eks. Syed Zeeshan Haider Abidi",
+          "fathersName": "Fars navn (hvis tilgængeligt)",
+          "father_ph": "F.eks. Syed Tauqeer Husain",
+          "nameError": "Indtast det fulde navn medvores specialtegn",
+          "genderLabel": "Køn",
+          "genderValue": [
+            "Kvindelig",
+            "Mandlig"
+          ],
+          "relation": [
+            "Marhooma er din",
+            "Marhoom er din"
+          ],
+          "selectRelation": "Vælg Relation",
+          "demiseLabel": "Død i dag? Anmod om Namaz-e-Wahshat",
+          "demiseText": "Vi er meget kede af at høre om dit tab. Må Allah give dig og din familie styrken til at bære dette tab med tålmodighed, og må Allah belønne den afdøde sjæl med de højeste pladser i Jannah. Ved at vælge denne mulighed kan du bede momineen om Namaz-e-Wahshat til den afdøde sjæl.",
+          "optional": "Valgfri",
+          "dod": "Afgik ved døden den",
+          "dob": "Blev født den"
+        },
+        "relation": [
+          "Datter af",
+          "Søn af"
+        ],
+        "born": "Født:",
+        "died": "Døde:",
+        "addMsg": "Vil du tilføje en besked?",
+        "remainingChars": "Tegn: {count} | Tegn: {count} tilbage",
+        "infoEditRelative": "Du kan redigere oplysninger om {name} i afsnittet <b>Konto > Marhumeen</b>",
+        "saveRequestCta": [
+          "Gem og anmod",
+          "Bøn"
+        ],
+        "addUpdate": "Tilføj | Opdatering",
+        "jsRequesting": "Anmoder om..",
+        "jsAddSuccess": [
+          "Tilføjet din elskede med succes!",
+          "Opdater din elskede med succes!"
+        ],
+        "jsAddFail": "Undladt at tilføje din elskede. Prøv igen senere.",
+        "jsReqSuccess": "Anmodning indsendt med succes.",
+        "jsGettingMarhumeen": "Få din marhumeen.."
+      },
+      "askQues": {
+        "title": "Stil et spørgsmål",
+        "form": {
+          "quesLabel": "Dit spørgsmål",
+          "quesLabel_ph": "Søg efter et spørgsmål, eller stil dit eget",
+          "similarQues": "Disse spørgsmål har muligvis allerede det svar, du leder efter.",
+          "quesTextHeader": "Dit spørgsmål:",
+          "selectCat": "Indstil spørgsmålskategori:",
+          "askAnonLabel": "Spørg anonymt?",
+          "askAnonInfo": "Dit navn vil ikke blive sendt til forskeren, når du anmoder om et svar på dine vegne, og det vil heller ikke blive vist i vores app med dette spørgsmål. Men anonyme spørgsmål besvares muligvis ikke hurtigt.",
+          "askViaLabel": "Spørg Via",
+          "askSistaniInfo": "Du kan stille et spørgsmål, der skal besvares af kontoret for hans fremtrædende stilling, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Vi videresender spørgsmålet til deres hjemmeside (sammen med dine profiloplysninger). Sørg for, at du har læst <b>vilkår og betingelser</b> korrekt.",
+          "tncLabel": "Vilkår og betingelser:",
+          "showHide": [
+            "Vise",
+            "Skjule"
+          ],
+          "sistaniOrgTncInfo": "Overvej at følge punkter fra deres hjemmeside, før du stiller et spørgsmål, for hvis du ikke overholder nedenstående punkter, hører du muligvis ikke tilbage fra dem eller modtager muligvis ikke nogen svar.",
+          "userInfo": {
+            "aboutLabel": "Om dig",
+            "genderLabel": "Dit køn",
+            "bdayLabel": "Din fødselsdag",
+            "bdayDesc": "Du kan kun stille spørgsmål, hvis du er over 09 år gammel. Hvis du stadig er interesseret, bedes du kontakte os."
+          },
+          "jsQuesAdded": "Spørgsmål tilføjet med succes."
+        },
+        "askQuesCta": "Stil dit spørgsmål"
+      },
+      "authPrompt": {
+        "title": "Konto påkrævet",
+        "defLabel": "Log ind eller Tilmeld dig for at fortsætte",
+        "infoText": "Denne funktion kræver, at du logger ind eller registrerer dig, før du kan bruge den. Klik på <b>Log på,</b> hvis du allerede er registreret, eller klik på <b>Tilmeld dig</b> for at oprette din konto."
+      },
+      "location": {
+        "title": "Skift placering",
+        "search_ph": "Søg i din placering",
+        "autoDetectInfo": "Indtast din placering, eller klik på ikonet for automatisk registrering for at få din placering.",
+        "setLocation": "Indstil placering",
+        "ipAddress": "IP-adresse",
+        "alarmLocation": "Alarm placering",
+        "basedOn": "Placering baseret på din {selector}",
+        "jsDetecting": "Detektion, vent venligst ..",
+        "jsPermDenied": "Placeringstilladelse nægtet for app. Nulstil placeringspræferencen for denne app ved at besøge afsnittet Indstillinger på din telefon.",
+        "jsPosUnavailable": "Vi beklager, men stillingen er ikke tilgængelig for denne telefon lige nu. Prøv igen senere.",
+        "jsMatchNotFound": "Kunne ikke finde nogen matchende placeringer.",
+        "jsEnterValidLoc": "Indtast en gyldig placering",
+        "jsGeoUnavailable": "Vi beklager, men stillingen er ikke tilgængelig for denne telefon lige nu. Prøv igen senere.",
+        "jsLocMissing": "Kunne ikke finde din placering. Indtast placering manuelt.",
+        "jsSelectedLoc": "Der er en fejl med denne placering. Prøv igen"
+      },
+      "readText": {
+        "ctaLabel": "Læse",
+        "title": "Dua: {title}",
+        "arabicCta": "Arabisk",
+        "englishCta": "Engelsk",
+        "translatedCta": "Oversat"
+      },
+      "reqAccess": {
+        "heading": "adgang påkrævet",
+        "subheading": "Vi skal have tilladelse til at få adgang til dit kamera",
+        "subtext": "Tillad adgang ved at klikke på knappen nedenfor:",
+        "ctaLabel": "tillad adgang"
+      },
+      "shareBtn": {
+        "subtext": "Klik på en af nedenstående muligheder for at dele dette på den respektive app:",
+        "jsCopyToCB": "Kopieret til udklipsholderen",
+        "copyText": "Klik på <b>Kopiér</b> ikonet ovenfor for at kopiere nedenstående indhold:"
+      },
+      "verifyMob": {
+        "title": [
+          "Bekræft mobil",
+          "Indtast koden"
+        ],
+        "page1": {
+          "infoText1": "Vi har brug for dit mobilnummer for at bekræfte din identitet. Du kan også få lejlighedsvise opdateringer.",
+          "infoText2": [
+            "Indtast dit nummer, og klik på knappen for at få din bekræftelseskode:",
+            "Indtast dit nummer, og klik på en knap for at få din bekræftelseskode:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Mobilnummer",
+          "mobileLabel_ph": "Indtast dit mobilnummer",
+          "otpViaSMS": "Få via SMS",
+          "viaWhatsApp": "Kom via WhatsApp",
+          "viaTelegram": "Kom via Telegram",
+          "viaSignal": "Kom via Signal"
+        },
+        "page2": {
+          "header": "Vi har sendt en 6-cifret bekræftelseskode til dit nummer ({number})",
+          "enterCodeLabel": "Indtast kode",
+          "enterCode_ph": "Indtast den 6-cifrede kode",
+          "resendCode": "Send kode igen",
+          "notUsingMobile": "Bruger du ikke <strong>{number}?</strong>",
+          "changeNumber": "Skift nummer"
+        },
+        "jsVerifySuccess": "Mobil verificeret",
+        "jsVerifyError": "Der opstod en fejl. Prøv igen senere.",
+        "jsSendOtpFailed": "Kunne ikke sende OTP. Prøv igen senere.",
+        "jsSendOtpSuccess": "OTP sendt til {mobile}",
+        "jsTooManyRequests": "Det ser ud til, at du allerede har prøvet for mange gange. Vent et minut eller to, og prøv igen."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Tilpas meddelelsen Deling",
+        "changePwd": "Skift adgangskode | Indstil adgangskode",
+        "changeLang": "Skift sprog",
+        "publishToFeed": "Offentliggør også mine ændringer til feed."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalisering",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Føj mit navn til beskeder",
+          "sharingDesc": "Når du deler eksternt, kan dine meddelelser se ud som nedenfor:",
+          "sharingTextDemo": [
+            "Lyt til denne Nauha på Bazm App",
+            "{name} anbefaler at lytte til denne Nauha på Bazm App"
+          ],
+          "addSignDesc": "Vil du også tilføje din signatur?",
+          "signDesc": "Når du deler dit ønske med venner på denne app, føjes din signatur til meddelelserne. Det kan f.eks. se ud som nedenfor:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Indtast din eksisterende adgangskode:",
+          "currentPwdPH": "Indtast nuværende adgangskode",
+          "newPwdLabel": "Indtast en ny adgangskode:",
+          "newPwdPH": "Indtast ny adgangskode"
+        },
+        "changeLang": {
+          "searchYourLang": "Søg på dit sprog",
+          "desc": "Vælg det sprog, som du vil se appindholdet på. Klik på et sprog og vent (det tager engang at indlæse oversættelsen) for at se, hvordan denne sætning vises på det valgte sprog."
+        },
+        "jsPwdInvalid": "Adgangskoden har ugyldige tegn.",
+        "jsPwdCharCount": "Adgangskoden må ikke være mindre end 8 tegn.",
+        "jsSelectLang": "Vælg først et sprog.",
+        "jsLangSet": "Sprog er indstillet til {lang}",
+        "jsPrefSaved": "Indstillinger for tilpasning gemt."
+      },
+      "forgotPwd": {
+        "title": "Glemt adgangskode?",
+        "introText": "Det er nemt at nulstille din adgangskode. Vælg en metode til at fortsætte:",
+        "usePhoneCta": "Brug telefon",
+        "useEmailCta": "Brug e-mail",
+        "sendEmailIntro": "Indtast den e-mailadresse, du oprettede din konto med, så sender vi en e-mail med link for at konfigurere en ny adgangskode til din konto.",
+        "emailInputLabel": "Din registrerede e-mail",
+        "sendEmailCta": "Send nulstil e-mail",
+        "sentEmailText": "Hvis du har en konto hos os, får du en e-mail til nulstilling af adgangskode inden for kort tid på <strong>{email}</strong>. Tjek venligst din e-mail for linket.",
+        "notUsingEmailText": "Bruger du ikke <strong>{email}?</strong>",
+        "changeEmailCta": "Skift e-mail",
+        "phoneIntroText": "Indtast det telefonnummer, der er føjet til din konto. Vi sender en OTP for at bekræfte dit ejerskab, og i det næste trin kan du oprette en ny adgangskode.",
+        "phoneInputLabel": "Dit mobilnummer",
+        "sendOtpCta": "Send OTP",
+        "backToLoginCta": "Tilbage til Login",
+        "disclaimerText": "Bemærk, at du kun får en {vare}, hvis du har {varen} registreret hos os",
+        "jsMailSent": "Mail sendt"
+      },
+      "resetPwd": {
+        "title": "Nulstil adgangskode",
+        "introText": "Indstil en sikker adgangskode til din konto her. Klik på {icon} for at sikre, at du indtaster den rigtige adgangskode.",
+        "pwdInputLabel": "Indstil ny adgangskode",
+        "pwdInputPH": "Indtast ny adgangskode",
+        "invalidPwdChars": "Ugyldige tegn i adgangskode",
+        "jsResetSuccess": "Nulstilling af adgangskode med succes!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Sporet kunne ikke indlæses. Prøv igen senere."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} slettet med succes.",
+        "jsErrReporting": "Kan ikke rapportere dette i øjeblikket. Prøv igen senere.",
+        "jsAlreadyReported": "Du har allerede rapporteret denne {item}. Du kan ikke rapportere det mere end én gang.",
+        "jsPromptHeading": "Rapportering af en vare resulterer i, at den har lavere chancer for at blive vist på dit eller andres feed/sider. Vil du stadig rapportere dette?",
+        "jsReporting": "Rapportering af {itemType}..",
+        "jsReportingErr": "Kunne ikke indsende din anmodning på nuværende tidspunkt. Prøv igen senere.",
+        "jsReported": "{item} rapporteret. Tak for dit bidrag."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Intet at opdatere!",
+        "jsProfileUpdated": "Profil opdateret!"
+      },
+      "reqZiyarat": {
+        "title": "Anmod om Ziyarat",
+        "cta": "Bøn",
+        "header": "Anmod om Ziyarat ved Imam Hussain (as) Helligdommen i Karbala på dine vegne.",
+        "desc": {
+          "p1": "Hver fredag skal <strong>Ziyarat recitere på dine vegne</strong> ved Imam Husseins(as) helligdom i Karbala, Irak! Alt du skal gøre er at fremsætte anmodning <strong>inden udgangen af torsdag aften</strong>. Du er dog aldrig for sent; hvis din anmodning kommer for sent, vil den blive tilmeldt den følgende uge.",
+          "p2": "Vi giver dig besked, når ziyarat er blevet reciteret på dine vegne.",
+          "p3": "Bemærk: Når du anmoder om det første gang, deles dine oplysninger med vores tjenesteudbyder. Læs venligst vores vilkår og betingelser for at vide mere."
+        },
+        "jsRegistered": "Tak! Din anmodning er registreret med succes. Du får en bekræftelsesmail snarest.",
+        "jsAlreadyRegistered": "Du har allerede tilmeldt dig Ziyarat denne torsdag. Tilmeld dig næste uges ziyarat.",
+        "jsConfirm": "For at tilmelde dig denne anmodning skal vi dele dine oplysninger (f.eks. Fulde navn, køn osv.) med vores tjenesteudbyder. Dette kræves kun for første gang. Bekræft venligst at fortsætte.",
+        "jsDeclined": "Okay! Måske senere."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Dit navn",
+          "placeholder": "Indtast dit fulde navn"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": [
+            "Din registrerede e-mail",
+            "Indtast din e-mail"
+          ]
+        },
+        "password": {
+          "label": "Kodeord",
+          "placeholder": [
+            "Din adgangskode",
+            "Indtast en adgangskode"
+          ]
+        },
+        "rememberLogin": "Husk login",
+        "forgotPwd": "Glemt adgangskode?",
+        "connectUsing": "Eller opret forbindelse ved hjælp af",
+        "useSavedAccount": "Brug gemte konti",
+        "lastLogin": "Sidste login",
+        "needAccount": "Har du brug for en konto?",
+        "resetPwdSuccess": "Du kan bruge din nye adgangskode til at logge ind nu",
+        "jsEnterFullName": "Indtast dit fulde navn.",
+        "jsEnterValidName": "Indtast et gyldigt navn.",
+        "jsEnterValidEmail": [
+          "Indtast en gyldig e-mail.",
+          "E-mailen har ugyldige tegn. Indtast en gyldig e-mail."
+        ],
+        "jsSelectCountryCode": "Vælg din landekode fra listen",
+        "jsEnterMobile": "Indtast dit mobilnummer.",
+        "jsEnterValidMobile": "Indtast et gyldigt mobilnummer",
+        "jsEnterPwd": "Indtast venligst din adgangskode!",
+        "jsEnterValidPwd": [
+          "Adgangskoden har ugyldige tegn. Indtast en gyldig adgangskode.",
+          "Adgangskoden skal være mindst {num} tegn."
+        ],
+        "jsAccountSuccess": "Konto oprettet",
+        "jsFbError": "Kunne ikke få dine Facebook-kontooplysninger. Prøv igen.",
+        "jsPromptClosedErr": "Login-prompten blev lukket, før den blev afsluttet. Prøv igen."
+      },
+      "gotoSignup": "Gå til Tilmeld dig",
+      "alreadyHasAccount": "Har du allerede en konto?",
+      "gotoLogin": "Gå til login",
+      "gotoProfile": "Gå til profil",
+      "msgForAuthUser": "<p>Vi tror, du landede her ved en fejl, da du allerede er logget ind.</p> <p>Du kan tjekke din profil for at se, hvordan den ser ud, eller bruge et af nedenstående links til at gennemse andre sektioner:</p>",
+      "jsLoggedOut": "Du er logget ud.",
+      "jsLogoutHeading": "Log ud fra konto?",
+      "jsLogoutText": "Dette vil slette de oplysninger, der er gemt lokalt, hvilket gør det muligt at logge ind <b>hurtigt</b>. Fortsætte?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Installer Bazm { platform }",
+          "desc": "Download Android-appen for en bedre oplevelse, personligt indhold, meddelelser og alt af din interesse omkring dig! | Installer appgenvej (bogmærke) for at få adgang til den direkte fra din startskærm næste gang for en bedre oplevelse! Det tager næsten ingen plads på din enhed, men hjælper dig med at komme hurtigt tilbage på appen.",
+          "cta": {
+            "action": "Installere",
+            "skip": "Måske senere"
+          }
+        },
+        "prompt": {
+          "heading": "Installer Bazm genvej?"
+        },
+        "popover": {
+          "text": "Klik på ikonet Del (ligner et til højre) <strong>NEDENFOR</strong>, og klik derefter på <strong>Føj til startskærmen</strong>. Klik på \"Gem\" for at afslutte, og så kan du få adgang til appen fra genvej på din startskærm!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Hvordan er din oplevelse indtil videre?",
+        "text": "<p>Kan du lide den nye app? Er der noget, vi kan forbedre? Hjælp os med din feedback for at forbedre oplevelsen for dig!</p> <p>Dette ville kun tage et par minutter, og vi sætter stor pris på din tid!</p>",
+        "cta": "Giv feedback",
+        "dismiss": "Måske senere"
+      },
+      "advertise": {
+        "heading": "Annoncer på Bazm",
+        "text": "<p>Nå ud til millioner af shiamuslimer over hele verden med dit produkt på Bazm, eller engager dig med brands og brugere.</p> <p>Start for så lavt som $ 1 / dag!</p>",
+        "cta": "Lær mere"
+      },
+      "upgradeSafari": {
+        "header": "Begrænset oplevelse på Safari",
+        "description": "<strong>Denne browser (Safari) er ikke optimeret til den bedste oplevelse</strong>. Ved at fortsætte med at bruge vores app her, vil du gå glip af en række funktioner såsom alarmmeddelelser, nær ved opdateringer, offline-tilstand og meget mere.<br/> Vi anbefaler dig at få en af nedenstående browsere for en forbedret oplevelse. Klik på en af knapperne for at downloade browseren fra AppStore:",
+        "ctas": {
+          "getGoogle": "Hent Google Chrome",
+          "getFirefox": "Hent Mozilla Firefox",
+          "getOpera": "Hent Opera Touch",
+          "skip": "Måske senere"
+        },
+        "toast": "Intet problem. Indtil næste gang!"
+      },
+      "cookieBanner": {
+        "header": "Om at gemme cookies på din enhed",
+        "p1": "Vi gemmer ingen cookies på din {enhed}, men tredjepartsapps, der bruges i vores app, kan muligvis (såsom Google Analytics). Vi bruger i stedet permanent opbevaring til at gemme vigtige data, og i de fleste tilfælde er dette krypteret i opbevaring og under overførsel.",
+        "p2": "Ved at fortsætte med at bruge denne app bekræfter du hermed, at du ikke har nogen problemer med vores valg. For at finde ud af mere om vores cookies og databrug, se vores <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Social Network App til shia muslimer rundt om i verden! Download appen i dag.",
+      "home": {
+        "title": "Bazm - Online Shia samfund app!",
+        "description": "Bazm-appen er Shia-fællesskabsappen, der opfylder alle dine daglige behov hos deen &mazhab. Find Nauhe, Majalis, Dua, Aamaal, Ziyarat, Bøger osv. til alle datoer og lejligheder. Se og lav live-stream begivenheder og majalis med shia-muslimer rundt om i verden fra bekvemmeligheden af dit hjem. Tilmeld dig i dag!"
+      },
+      "feed": {
+        "title": "Find skræddersyet indhold og del med shia-fællesskabet omkring dig og verden",
+        "description": "Find og del nyheder, begivenheder og indhold med shia momineen rundt omkring, og hold dem informeret om eventuelle begivenheder, du er vært for. Få mere at vide om alt, der sker i nærheden af dig, i appen."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal og meget mere til dig!",
+        "description": "Find Nauhe, Majalis, Dua, Aamaal, ziyarat og meget mere til alle datoer og lejligheder. Se og gør live-stream majalis fra bekvemmeligheden af dit hjem! Deltag i Shia social network app, der hjælper dig med rutinemæssige opgaver af deen &mazhab. Tilmeld dig i dag!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Daglig azaan alarm, spørgsmål-svar og værktøjer til shia muslimer",
+        "description": "Få daglig påmindelse om Adhan, find og still spørgsmål-svar om emner som deen &islam, eller anmod om Surah-fatiha eller Namaz-e-Wahshat til din marhumeen og flere værktøjer på Bazm. Deltag i Shia sociale netværksapp, der hjælper dig med rutinemæssige opgaver af deen. Find Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat til alle datoer og lejligheder. Live-stream begivenheder og majalis fra bekvemmeligheden af dit hjem. Tilmeld dig i dag!"
+      },
+      "tasbeehCounter": {
+        "title": "Automatisk tasbeeh tæller med Voice __ Tasbeeh Counter værktøj",
+        "description": "Det er nu nemmere at recitere utallige tasbeeh med vores Audio tasbeeh-tællere. Reciter din tasbeeh, mens du kører eller arbejder, og hold stadig styr på tællingen med stemmetællere. Få dette værktøj og andre som det på Bazm app."
+      },
+      "accountHome": {
+        "title": "Bazm - Opret din gratis konto i dag og få hjælp til dine daglige behov for deen!",
+        "description": "Tilmeld dig Bazm-appen i dag for at imødekomme alle dine behov for at deeniyat. Find nohe/ nauhe, majalis, dua, ziyarat, aamaal til alle datoer og lejligheder. Live-stream og se majalis &events fra omkring dig; find indlæg, indhold og momineen fra hele dig og verden, og meget mere på appen."
+      },
+      "nauheListPage": {
+        "title": "Lyt til Nauhe fra populære nauhakhwan rundt om i verden",
+        "description": "Lyt til nauhe fra alle årgange og alle populære nauhakhwan fra hele verden på Bazm app."
+      },
+      "soazListPage": {
+        "title": "Lyt til Soaz fra populære Soazkhwan rundt om i verden",
+        "description": "Lyt til Soaz fra alle år og alle populære Soazkhwan fra hele verden på Bazm app."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis på Bazm - Find mere nauhe, audio/video majalis, dua, ziyarat, aamaal osv. på Bazm",
+        "description": "Find audio/video majalis fra Maulana og Zakir-e-Ahlbayt fra nær dig og rundt om i verden. Lyt til og se de seneste majalis og livestream sessioner på Bazm app. Download appen i dag og slut dig til millioner af shiamuslimer over hele verden!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas og aamaal for måneden {måned} på Bazm - Find mere nauhe, audio / video majalis, dua, ziyarat, aamaal osv. på Bazm",
+          "Duas og aamaal for alle måneder på Bazm - Find mere nauhe, audio / video majalis, dua, ziyarat, aamaal osv. på Bazm"
+        ],
+        "description": "Find duas, aamaal, ziyarat og munajat for alle måneder på Bazm, dato og begivenhedsmæssigt. Download appen i dag og slut dig til millioner af shiamuslimer over hele verden!"
+      }
+    }
+  }
+}

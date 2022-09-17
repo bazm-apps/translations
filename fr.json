@@ -1,1 +1,809 @@
-undefined
+{
+  "fr": {
+    "common": {
+      "refresh": "Tirer pour actualiser",
+      "refreshing": "Rafraîchissant...",
+      "loadingMore": "Chargement plus...",
+      "checking": "Vérification...",
+      "sendOtp": "Envoi d’OTP..",
+      "dismiss": "Congédier",
+      "invite": "Inviter",
+      "showMore": "Afficher plus | Voir plus",
+      "play": "Jouer",
+      "pause": "Pause",
+      "playing": "Jeu",
+      "paused": "Pause",
+      "watch": "Montre",
+      "read": "Lire",
+      "authors": "Auteur | Auteurs",
+      "languages": "Langue | Langues",
+      "clear": "Clair",
+      "cancel": "Annuler",
+      "change": "Changement",
+      "continue": "Continuer",
+      "select": "Choisir",
+      "saveChanges": "Enregistrer les modifications | Enregistrer | Mettre à jour",
+      "newBadge": "Nouveau",
+      "login": "Connectez-vous",
+      "logout": "Déconnexion",
+      "signup": "S’enregistrer",
+      "settings": "Paramètres",
+      "cookiePolicy": "Politique en matière de cookies",
+      "privacy": "Vie privée",
+      "contactUs": "Contactez-nous",
+      "home": "Domicile",
+      "facebook": "Facebook (en anglais seulement",
+      "google": "Google (en anglais seulement",
+      "you": "Vous",
+      "retry": "Réessayer",
+      "send": "Envoyer",
+      "submit": "Envoyer",
+      "share": "Partager | Partager maintenant",
+      "at": "à",
+      "untilNextTime": "Aucun problème. Jusqu’à nextTime!",
+      "plzWait": "Veuillez patienter..",
+      "saving": "Épargne.. | Mise à jour..",
+      "search": "Rechercher",
+      "late": "Tard",
+      "done": "Fait",
+      "featureUnavailable": "Cette fonctionnalité sera bientôt disponible. Merci d’avoir montré de l’intérêt!",
+      "actions": {
+        "cancel": "Annuler",
+        "notify": "Notifier",
+        "like": "Comme",
+        "recited": "Récité",
+        "comment": "Commentaire",
+        "reply": "Répondre",
+        "bookmark": "Signet",
+        "uploading": "Téléchargement..",
+        "deleting": "Suppression..",
+        "requesting": "Demande..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Désolé, vous ne pouvez pas partager les fichiers {fileType} ici",
+        "jsUpdateAvailable": {
+          "header": "Mise à jour disponible",
+          "message": "Vous voyez la version mise en cache de l’application. Cliquez sur « Actualiser » pour mettre à jour et charger de nouveaux contenus et fonctionnalités.",
+          "cta": "Rafraîchir"
+        },
+        "jsImgUploaded": "Image téléchargée avec succès!",
+        "jsImgUploadErr": "Le téléchargement de l’image a échoué. Veuillez réessayer plus tard."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Service indisponible pour le moment. Veuillez réessayer plus tard.",
+        "unknown": "Une erreur inconnue s’est produite. Veuillez réessayer plus tard.",
+        "general": "Une erreur s’est produite lors du traitement de votre demande. Veuillez réessayer plus tard."
+      },
+      "content": {
+        "unavailable": "Impossible de charger le contenu pour le moment. Veuillez réessayer dans un moment.",
+        "itemDetailUnavailable": "Impossible de trouver les détails de cet {item}",
+        "loadMoreError": "Impossible de charger plus d’éléments. Veuillez réessayer plus tard."
+      },
+      "url": {
+        "invalid": "URL non valide. Veuillez essayer avec une nouvelle URL."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Domicile"
+      },
+      "postDetail": {
+        "commonTitle": "Détail",
+        "fatihaTitle": "Sourate-fatiha",
+        "fatihaWithNamaz": "Sourate-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Photo de profil",
+        "bannerUpdateTitle": "Image de couverture (obsolète)",
+        "statusUpdateTitle": "Mise à jour de l’état"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Domicile",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Partagez cette demande sur votre réseau et atteignez plus de personnes!"
+          }
+        }
+      },
+      "media": {
+        "name": "Média",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Livres"
+        },
+        "inviteFriends": "invitez vos amis",
+        "notShia": "Pas chiite ?",
+        "contacts": {
+          "accessRequestHeader": "Contacts Accès requis",
+          "accessRequestDesc": "Nous avons besoin de l’accès de vos contacts pour suggérer des chiites dans votre annuaire téléphonique à inviter à cette application."
+        },
+        "audio": "Audio",
+        "video": "Vidéo",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Souhaitez à vos amis!",
+          "wishCtaLabel": "SOUHAITER"
+        },
+        "books": {
+          "booksByAuthor": "Livres de {auteur}",
+          "booksInLang": "Livres dans {lang}",
+          "filterBy": "Filtrer par :",
+          "matching": {
+            "authors": "avec des auteurs correspondants",
+            "lang": "avec correspondance des langues",
+            "title": "avec correspondance de titre"
+          }
+        },
+        "booksFilter": {
+          "title": "Trouver un livre par auteur",
+          "searchBox": "Rechercher l’auteur par nom",
+          "selectLang": "Sélectionnez une langue :"
+        },
+        "bookDetails": {
+          "title": "{title} — Trouvez plus de livres gratuits comme celui-ci sur Bazm",
+          "aboutBook": "À propos du livre:"
+        }
+      },
+      "tools": {
+        "name": "Outils",
+        "salatAlarmDesc": "Définissez des alarmes pour Azaan selon vos heures locales",
+        "sehriAlarmDesc": "Réglez l’alarme pour Sehri, ou même recevez un appel de réveil sur votre numéro avant Sehri!",
+        "sehriAlarmOptionDisabled": "Alarmes pour l’heure Sheri pendant le mois de Ramadan (disponible uniquement pendant le Ramadan)",
+        "tasbeehCounterDesc": "Récitez du Duas, du Coran et du Tasbeeh en mode répétition facilement avec le compteur Audio Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Cherchez et posez des questions ou trouvez des réponses au masle-masayel de votre vie quotidienne sur les questions de l’Islam.",
+        "alarms": {
+          "salatAlarms": "Alarmes salatales | Alarmes salatales quotidiennes",
+          "sehriAlarms": "Alarmes Ramadan Sehri",
+          "gettingLocation": "Obtenir votre emplacement. Veuillez patienter...",
+          "settingsTip": "Modifiez <b>l’emplacement</b> et les préférences dans les paramètres d’alarme. Cliquez sur l’icône Paramètres pour commencer.",
+          "setAlarmHeader": "Définir des alarmes quotidiennes",
+          "setAlarmOnAppDesc": "Le réglage des alarmes n’est disponible que sur l’application",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Coucher de soleil",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Minuit",
+          "sehriEndTime": "Il est temps pour la fin de Sehri",
+          "minToImsak": [
+            "{min} minutes avant Imsak",
+            "{heure} heure avant Imsak"
+          ],
+          "minToImsakDesc": [
+            "L’alarme sonne {min} quelques minutes avant la fin de l’heure Sehri",
+            "L’alarme sonne {heure} heure avant la fin de l’heure Sehri"
+          ],
+          "notRamadan": "On dirait que ce n’est pas encore le Ramadan. S’il vous plaît revenir pendant ou juste avant le Ramadan pour régler les alarmes pour Sehri",
+          "push": {
+            "heading": "Accès aux notifications requis",
+            "desc_request": "L’alarme fonctionne en envoyant des notifications push à des moments désignés. Sans accès au push, l’application ne fonctionnera pas de la manière attendue. Veuillez autoriser l’accès à votre notification push afin que nous puissions vous informer aux heures d’alarme.",
+            "desc_denied": "<strong>Vous avez refusé l’accès aux notifications plus tôt.</strong> Il est nécessaire pour que les notifications push fonctionnent correctement. Nous envoyons des notifications au moment de l’alarme.<br/> Veuillez autoriser l’accès aux notifications push en cliquant sur le bouton.",
+            "cta": "Permettre",
+            "toast_granted": "Merci! Vous serez averti aux heures d’alarme maintenant.",
+            "toast_denied": "Demande de notification refusée. Veuillez autoriser l’accès à l’application pour qu’elle fonctionne correctement.",
+            "toast_prompt": "Vous devez autoriser l’accès aux notifications pour définir des alarmes."
+          },
+          "jsAlarmSetSuccess": "Alarmes réglées avec succès",
+          "jsAlarmSetError": "Erreur lors du réglage des alarmes. Veuillez réessayer plus tard.",
+          "jsAlarmSnoozed": "Alarme suspendue pendant 10 minutes"
+        },
+        "alarmSetting": {
+          "title": "Paramètres d’alarme",
+          "locationTitle": "Trouver la ville pour les horaires d’alarme",
+          "forLocation": "Alarme pour l’emplacement",
+          "calcMethod": "Méthode de calcul",
+          "selectAdhanSound": "Sélectionnez le son Adhan",
+          "selectAlarmSound": "Sélectionnez Son d’alarme",
+          "alarmSoundDesc": "Son pour les temps non salat",
+          "timesPeekHeading": "Bannière des heures d’affichage",
+          "timesPeekDesc": "Vous pouvez désactiver l’affichage de l’affichage rapide des heures pour Salat ici:",
+          "timesPeekHome": "Afficher sur la page des flux :",
+          "timesPeekTools": "Afficher sur la page des outils :",
+          "jsConfirmLocChange": "La modification de votre position annulera toutes les alarmes précédemment définies. Continuer?",
+          "jsOtherSettingsSaved": "Autres paramètres enregistrés. L’emplacement n’a pas été modifié."
+        },
+        "qna": {
+          "title": "Question-Réponse",
+          "qnaSource": "Source",
+          "seeAnswer": "Voir la réponse",
+          "noAnswer": "Pas de réponse"
+        },
+        "qnaDetail": {
+          "title": "Réponses pour : {ques}",
+          "jsSubmitSuccess": "Votre question a été soumise avec succès. Nous vous tiendrons au courant une fois que nous aurons reçu la réponse à ce sujet."
+        },
+        "tasbeehCounter": {
+          "title": "Compteur Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Utilisateur | Compte",
+        "editProfile": "Modifier le profil",
+        "publishToFeed": "Publier mes modifications dans le flux",
+        "shareUpdateToFeed": "Partagez également cette mise à jour sur mon flux",
+        "statusText_ph": "Utilisez la mise en forme _italique_ ou *gras* pour décorer votre statut",
+        "statusCharsLeft": "{count} caractères restants",
+        "jsImgUploadSuccess": "Images téléchargées avec succès!",
+        "unauthAccess": {
+          "heading": "Êtes-vous sûr d’être au bon endroit?",
+          "desc": "<p>Il semble que vous essayiez d’accéder à une page pour laquelle vous n’aviez pas l’autorisation. Si vous essayiez d’accéder à une page à laquelle vous avez accédé précédemment, essayez de vous connecter ; cela devrait résoudre le problème.</p> <p>N’hésitez pas à nous contacter si le problème persiste.</p>"
+        },
+        "guest": {
+          "welcome": "Bienvenue, <strong>Invité!</strong>",
+          "heading": "Pourquoi se connecter ou s’inscrire?",
+          "desc": "Avec un compte sur notre application, vous pouvez utiliser un certain nombre de fonctionnalités. Commencez par créer un compte, si vous n’avez pas encore de compte. Ou, connectez-vous simplement!",
+          "unlockHeading": "déverrouiller ce qui suit avec un compte:",
+          "features": {
+            "engage": {
+              "heading": "S’engager sur l’application",
+              "desc": "Interagissez avec d’autres utilisateurs, réagissez à leurs publications ou demandes, commentez votre opinion, ajoutez vos articles à vos favoris et bien plus encore!"
+            },
+            "fatiha": {
+              "heading": "Demande Post Fatiha",
+              "desc": "Postez une demande de sourate-e-Fatiha pour les âmes de vos proches décédés et obtenez leurs âmes bénies avec les prières de tous nos utilisateurs!"
+            },
+            "askQues": {
+              "heading": "Poser des questions",
+              "desc": "Posez des questions de Deen & Duniya sur divers sujets auxquels son éminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani, répondra!"
+            },
+            "content": {
+              "heading": "contenu préféré",
+              "desc": "Consultez toujours votre contenu et vos paramètres préférés lorsque vous êtes connecté à votre compte. Aussi, soyez averti pour toutes les choses intéressantes!"
+            },
+            "personalized": {
+              "heading": "partage personnalisé",
+              "desc": "Définissez le contenu de partage personnalisé avec votre signature afin que vos amis sachent quand vous partagez un message/ une publication."
+            }
+          }
+        },
+        "about": {
+          "title": "Environ",
+          "jsStatusUpdateFail": "Impossible de mettre à jour l’état. Veuillez réessayer plus tard."
+        },
+        "posts": {
+          "title": "Messages",
+          "userNoPosts": "Lorsque vous changez votre photo / image de couverture, ou lorsque vous demandez une sourate-fatiha pour vos proches décédés, ces messages apparaîtront ici et dans <b>l’onglet Accueil</b> (des autres aussi). Essayez d’ajouter une image ou une image de couverture?",
+          "profileNoPosts": "{name} n’a pas encore publié de message."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} n’a pas encore ajouté marhumeen | Vous n’avez pas encore ajouté marhumeen",
+            "marhumeenAdded": "{name} a ajouté après marhumeen | Vous avez ajouté après marhumeen"
+          },
+          "jsDeleteHeader": "Es-tu sûr?",
+          "jsDeletePrompt": "La suppression des enregistrements pour <b>{fullName}</b> supprimera également toutes les demandes précédentes effectuées pour {gender}! Continuer?",
+          "jsDeleted": "Enregistrements supprimés pour {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Connectez-vous à votre compte",
+        "createAccount": "Créer un compte"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Prochaine étape",
+        "goBack": "Retour",
+        "confirm": "Confirmer"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Emplacement indisponible. Veuillez le définir en cliquant sur l’icône pour voir l’affichage rapide des horaires salat.",
+          "unknownError": "Une erreur s’est produite. Impossible de charger les temps pour le moment."
+        }
+      },
+      "langPrompt": {
+        "title": "Utiliser l’application dans {langLabel}?",
+        "desc": {
+          "p1": "Il semble que vous accédiez à l’application à partir de {countryName}. Souhaitez-vous voir le contenu et les contrôles dans l’une des langues suivantes parlées dans la région ? Cliquez sur votre choix, puis cliquez sur « Enregistrer » pour continuer.",
+          "p2": "Ou, fermez cette fenêtre contextuelle pour continuer à utiliser l’application dans la langue par défaut."
+        },
+        "choices": {
+          "useLang": [
+            "Oui, utilisez {langName}",
+            "Utiliser {langName}"
+          ],
+          "useEngling": "Continuer en anglais"
+        },
+        "langError": "Une erreur s’est produite lors du chargement des traductions pour {langName}. Veuillez réessayer plus tard."
+      },
+      "createPost": {
+        "heading": "De quoi s’agit-il aujourd’hui ?",
+        "desc": "Cliquez ici pour partager une mise à jour ou utiliser une option ci-dessous",
+        "request": "Demander",
+        "askQues": "Poser une question",
+        "sheetOptions": {
+          "header": "Faire une demande",
+          "subheader": "Faites une demande de momineen pour votre marhumeen ou vous-même.",
+          "requestFatiha": "Sourate-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat à Zari-e-Imam Husain (as) en votre nom"
+        },
+        "modal": {
+          "titles": {
+            "post": "Créer une publication | Mettre à jour la publication",
+            "livestream": "Diffusion en direct",
+            "hadiyah": "Créer Hadiyah | Mettre à jour Hadiyah"
+          },
+          "postCta": "Publier | Mise à jour",
+          "stream": {
+            "scheduleCta": "Enregistrer pour plus tard | Démarrer la diffusion en continu"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "À qui voulez-vous offrir cela?",
+              "addPeopleToggle": "Que les autres fassent aussi partie de ce sawab !",
+              "searchInput": "Invitez momimeen de Bazm ou de votre liste de contacts",
+              "minUsersHeader": "Vous souhaitez définir le nombre minimum que les participants doivent choisir ?",
+              "minUsersInput": "Entrez le nombre minimum"
+            }
+          },
+          "postTime": [
+            "Quand est-ce que c’est?",
+            "Quand voulez-vous commencer à diffuser?"
+          ],
+          "whereIsIt": "C’est où?",
+          "findLocation": "Trouver un emplacement",
+          "locationSubtext": "Ajouter un emplacement à votre publication",
+          "addLocation": "Ajouter un emplacement",
+          "addPics": "Ajouter des photos à votre publication",
+          "previewDes": "C’est ainsi que votre message apparaîtrait dans le flux d’autres personnes. Les gens peuvent appuyer sur la vidéo pour la voir en plein écran.",
+          "addToPost": "Ajouter à {postType} (facultatif)",
+          "jsImgUploadFail": "L’image n’a pas été téléchargée",
+          "jsAddDetailToPost": "S’il vous plaît ajouter des détails à votre message",
+          "jsValidEndDate": "Veuillez choisir une date de fin valide",
+          "jsSetLocation": "Veuillez définir l’emplacement de la publication",
+          "jsRemLocation": "Veuillez définir un emplacement ou supprimer cette section",
+          "jsAddImg": "Veuillez ajouter des images ou supprimer cette section",
+          "jsInvalidDate": [
+            "Veuillez définir une date de début valide ",
+            "Veuillez définir une date de début valide ou supprimer cette section"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Commentaires",
+        "loadPrevious": "Charger les commentaires précédents | Charger les réponses précédentes",
+        "replyingTo": "Répondre à :",
+        "noComments": "Pas encore de commentaire sur cet article",
+        "textboxPlaceholder": "Écrivez votre commentaire ici",
+        "requestToLogin": "Connectez-vous ou inscrivez-vous pour lancer la discussion"
+      },
+      "post": {
+        "addressYou": "Vous",
+        "addressing": "votre | son | elle",
+        "itemTypes": {
+          "avatar": "image d’avatar",
+          "banner": "image de bannière",
+          "status": "état du profil"
+        },
+        "displayPhrase": {
+          "common": "<strong>{nom d’utilisateur}</strong> mis à jour {adressage} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> requested sourah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Jusqu’à : {date} à {time}",
+        "privatePost": "Cet article n’est visible que par vous",
+        "descZiyaratRequest": "Vous avez demandé que Ziyarat soit exécuté en votre nom au *haram* de l’Imam Husain (as) le *{date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Demander Sourate-al-fatiha",
+          "addUpdate": [
+            "Mettre à jour l’être cher",
+            "Ajouter un être cher"
+          ]
+        },
+        "heading": [
+          "Ajouter un être cher décédé",
+          "Sélectionnez un être cher dans la liste ou ajoutez un être cher décédé"
+        ],
+        "addNew": "Ajouter un nouveau",
+        "subheader": [
+          "Ajouter les détails de votre proche",
+          "Vous pouvez également inclure un message dans votre demande"
+        ],
+        "form": {
+          "jsAddImg": "Ajouter une image pour votre proche",
+          "jsRemoveImg": "Supprimer l’image",
+          "fullName": "Nom complet du défunt",
+          "name_ph": "Par exemple, Syed Zeeshan Haider Abidi",
+          "fathersName": "Nom du père (si disponible)",
+          "father_ph": "Par exemple, Syed Tauqeer Husain",
+          "nameError": "Veuillez entrer le nom complet avec nos caractères spéciaux",
+          "genderLabel": "Genre",
+          "genderValue": [
+            "Femelle",
+            "Mâle"
+          ],
+          "relation": [
+            "Marhooma est votre",
+            "Marhoom est votre"
+          ],
+          "selectRelation": "Sélectionner une relation",
+          "demiseLabel": "Vous avez disparu aujourd’hui ? Demander Namaz-e-Wahshat",
+          "demiseText": "Nous sommes très désolés d’apprendre votre perte. Qu’Allah vous donne, à vous et à votre famille, la force de supporter cette perte avec patience et qu’Allah récompense l’âme déchue avec les plus hautes places à Jannah. Choisir cette option vous permet de demander à momineen Namaz-e-Wahshat pour l’âme déchue.",
+          "optional": "Optionnel",
+          "dod": "Décédé le",
+          "dob": "Est né le"
+        },
+        "relation": [
+          "Fille de",
+          "Fils de"
+        ],
+        "born": "Né:",
+        "died": "Mort:",
+        "addMsg": "Vous souhaitez ajouter un message ?",
+        "remainingChars": "Caractères : {count} | Caractères : {count} restants",
+        "infoEditRelative": "Vous pouvez modifier les détails de {name} dans votre <b>compte > section Marhumeen</b>",
+        "saveRequestCta": [
+          "Enregistrer et demander",
+          "Demander"
+        ],
+        "addUpdate": "Ajouter | Mettre à jour",
+        "jsRequesting": "Demande..",
+        "jsAddSuccess": [
+          "Ajouté votre bien-aimé avec succès!",
+          "Mettez à jour votre proche avec succès!"
+        ],
+        "jsAddFail": "Impossible d’ajouter votre proche. Veuillez réessayer plus tard.",
+        "jsReqSuccess": "Demande soumise avec succès.",
+        "jsGettingMarhumeen": "Obtenir votre marhumeen.."
+      },
+      "askQues": {
+        "title": "Poser une question",
+        "form": {
+          "quesLabel": "Votre question",
+          "quesLabel_ph": "Recherchez une question ou posez la vôtre",
+          "similarQues": "Ces questions ont peut-être déjà la réponse que vous recherchez.",
+          "quesTextHeader": "Votre question :",
+          "selectCat": "Définir la catégorie de question :",
+          "askAnonLabel": "Demandez anonymement?",
+          "askAnonInfo": "Votre nom ne sera pas envoyé au boursier lorsque vous demandez une réponse en votre nom, et il ne sera pas affiché dans notre application avec cette question. Mais les questions anonymes peuvent ne pas être répondues rapidement.",
+          "askViaLabel": "Demandez via",
+          "askSistaniInfo": "Vous pouvez poser une question à laquelle le bureau de son éminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani, répondra. Nous transmettrons la question à leur site Web (avec les informations de votre profil). Assurez-vous d’avoir bien lu les <b>Conditions générales</b>.",
+          "tncLabel": "Termes et conditions:",
+          "showHide": [
+            "Montrer",
+            "Cacher"
+          ],
+          "sistaniOrgTncInfo": "Pensez à suivre les points de leur site Web avant de poser une question, car si vous ne respectez pas les points ci-dessous, vous risquez de ne pas avoir de réponses de leur part ou de ne pas recevoir de réponses.",
+          "userInfo": {
+            "aboutLabel": "À propos de vous",
+            "genderLabel": "Votre sexe",
+            "bdayLabel": "Votre anniversaire",
+            "bdayDesc": "Vous ne pouvez poser des questions que si vous avez plus de 9 ans. Si vous êtes toujours intéressé, veuillez nous contacter."
+          },
+          "jsQuesAdded": "Question ajoutée avec succès."
+        },
+        "askQuesCta": "Posez votre question"
+      },
+      "authPrompt": {
+        "title": "Compte requis",
+        "defLabel": "Connectez-vous ou inscrivez-vous pour continuer",
+        "infoText": "Cette fonctionnalité nécessite que vous vous connectiez ou que vous vous inscriviez avant de pouvoir l’utiliser. Cliquez sur <b>Connexion</b> si vous êtes déjà inscrit, ou cliquez sur <b>S’inscrire</b> pour créer votre compte."
+      },
+      "location": {
+        "title": "Changer d’emplacement",
+        "search_ph": "Rechercher votre emplacement",
+        "autoDetectInfo": "Entrez votre emplacement ou cliquez sur l’icône de détection automatique pour obtenir votre emplacement.",
+        "setLocation": "Définir l’emplacement",
+        "ipAddress": "Adresse IP",
+        "alarmLocation": "Emplacement de l’alarme",
+        "basedOn": "Emplacement basé sur votre {sélecteur}",
+        "jsDetecting": "Détection, veuillez patienter..",
+        "jsPermDenied": "Autorisation de localisation refusée pour l’application. Veuillez réinitialiser la préférence de localisation de cette application en visitant la section Paramètres de votre téléphone.",
+        "jsPosUnavailable": "Nous sommes désolés, mais la position n’est pas disponible pour ce téléphone pour le moment. Veuillez réessayer plus tard.",
+        "jsMatchNotFound": "Impossible de trouver des emplacements correspondants..",
+        "jsEnterValidLoc": "Veuillez entrer un emplacement valide",
+        "jsGeoUnavailable": "Nous sommes désolés, mais la position n’est pas disponible pour ce téléphone pour le moment. Veuillez réessayer plus tard.",
+        "jsLocMissing": "Impossible de trouver votre emplacement. Veuillez saisir l’emplacement manuellement.",
+        "jsSelectedLoc": "Il y a une erreur avec cet emplacement. Veuillez réessayer"
+      },
+      "readText": {
+        "ctaLabel": "Lire",
+        "title": "Dua: {titre}",
+        "arabicCta": "Arabe",
+        "englishCta": "Anglais",
+        "translatedCta": "Langue cible"
+      },
+      "reqAccess": {
+        "heading": "accès requis",
+        "subheading": "Nous avons besoin d’une autorisation pour accéder à votre caméra",
+        "subtext": "Veuillez autoriser l’accès en cliquant sur le bouton ci-dessous :",
+        "ctaLabel": "autoriser l’accès"
+      },
+      "shareBtn": {
+        "subtext": "Cliquez sur l’une des options ci-dessous pour la partager sur l’application respective:",
+        "jsCopyToCB": "Copié dans votre presse-papiers",
+        "copyText": "Cliquez sur <b>l’icône Copier</b> ci-dessus pour copier le contenu ci-dessous :"
+      },
+      "verifyMob": {
+        "title": [
+          "Vérifier mobile",
+          "Entrez le code"
+        ],
+        "page1": {
+          "infoText1": "Nous avons besoin de votre numéro de téléphone mobile pour vérifier votre identité. Vous pouvez également obtenir des mises à jour occasionnelles.",
+          "infoText2": [
+            "Entrez votre numéro et cliquez sur le bouton pour obtenir votre code de confirmation :",
+            "Entrez votre numéro et cliquez sur un bouton pour obtenir votre code de confirmation :"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Numéro de téléphone portable",
+          "mobileLabel_ph": "Entrez votre numéro de téléphone mobile",
+          "otpViaSMS": "Obtenir par SMS",
+          "viaWhatsApp": "Obtenir via WhatsApp",
+          "viaTelegram": "Obtenir via Telegram",
+          "viaSignal": "Obtenir via Signal"
+        },
+        "page2": {
+          "header": "Nous avons envoyé un code de confirmation à 6 chiffres à votre numéro ({number})",
+          "enterCodeLabel": "Entrez le code",
+          "enterCode_ph": "Entrez le code à 6 chiffres",
+          "resendCode": "Renvoyer le code",
+          "notUsingMobile": "Vous n’utilisez pas <strong>{number} ?</strong>",
+          "changeNumber": "Changer de numéro"
+        },
+        "jsVerifySuccess": "Mobile vérifié avec succès",
+        "jsVerifyError": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+        "jsSendOtpFailed": "Impossible d’envoyer OTP. Veuillez réessayer plus tard.",
+        "jsSendOtpSuccess": "OTP envoyé à {mobile}",
+        "jsTooManyRequests": "On dirait que vous avez déjà essayé trop de fois. Veuillez patienter une minute ou deux et réessayer."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personnaliser le message de partage",
+        "changePwd": "Modifier le mot de passe | Définir le mot de passe",
+        "changeLang": "Changer la langue",
+        "publishToFeed": "Publiez également mes modifications dans le flux."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personnalisation",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Ajouter mon nom aux messages",
+          "sharingDesc": "Lorsque vous partagez en externe, vos messages peuvent ressembler à ce qui suit :",
+          "sharingTextDemo": [
+            "Écoutez ce Nauha sur l’application Bazm",
+            "{name} recommande d’écouter ce Nauha sur l’application Bazm"
+          ],
+          "addSignDesc": "Vous souhaitez également ajouter votre signature ?",
+          "signDesc": "Lorsque vous partagez votre souhait avec des amis sur cette application, votre signature sera ajoutée aux messages. Par exemple, il peut apparaître comme ci-dessous:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Entrez votre mot de passe existant :",
+          "currentPwdPH": "Entrez le mot de passe actuel",
+          "newPwdLabel": "Entrez un nouveau mot de passe :",
+          "newPwdPH": "Entrez un nouveau mot de passe"
+        },
+        "changeLang": {
+          "searchYourLang": "Rechercher votre langue",
+          "desc": "Choisissez la langue dans laquelle vous souhaitez voir le contenu de l’application. Cliquez sur une langue et attendez (il faut un certain temps pour charger la traduction) pour voir comment cette phrase apparaît dans la langue sélectionnée."
+        },
+        "jsPwdInvalid": "Le mot de passe a des caractères non valides.",
+        "jsPwdCharCount": "Le mot de passe ne peut pas comporter moins de 8 caractères.",
+        "jsSelectLang": "Veuillez d’abord sélectionner une langue.",
+        "jsLangSet": "La langue a été définie sur {lang}",
+        "jsPrefSaved": "Paramètres de personnalisation enregistrés."
+      },
+      "forgotPwd": {
+        "title": "Mot de passe oublié?",
+        "introText": "La réinitialisation de votre mot de passe est facile. Sélectionnez une méthode pour continuer :",
+        "usePhoneCta": "Utiliser le téléphone",
+        "useEmailCta": "Utiliser le courrier électronique",
+        "sendEmailIntro": "Entrez l’adresse e-mail avec laquelle vous avez créé votre compte et nous vous enverrons un e-mail avec un lien pour configurer un nouveau mot de passe pour votre compte.",
+        "emailInputLabel": "Votre adresse e-mail enregistrée",
+        "sendEmailCta": "Envoyer un e-mail de réinitialisation",
+        "sentEmailText": "Si vous avez un compte chez nous, vous recevrez un e-mail de réinitialisation de mot de passe sous peu sur <strong>{email}</strong>. Veuillez vérifier votre e-mail pour le lien.",
+        "notUsingEmailText": "Vous n’utilisez pas <strong>{email} ?</strong>",
+        "changeEmailCta": "Modifier l’adresse e-mail",
+        "phoneIntroText": "Entrez le numéro de téléphone ajouté à votre compte. Nous enverrons un OTP pour vérifier votre propriété, et à l’étape suivante, vous pourrez créer un nouveau mot de passe.",
+        "phoneInputLabel": "Votre numéro de téléphone portable",
+        "sendOtpCta": "Envoyer OTP",
+        "backToLoginCta": "Retour à Connexion",
+        "disclaimerText": "Veuillez noter que vous recevrez un {item} uniquement si vous avez le {item} enregistré chez nous",
+        "jsMailSent": "Courrier envoyé"
+      },
+      "resetPwd": {
+        "title": "Réinitialiser le mot de passe",
+        "introText": "Définissez un mot de passe sécurisé pour votre compte ici. Cliquez sur {icon} pour vous assurer que vous entrez le bon mot de passe.",
+        "pwdInputLabel": "Définir un nouveau mot de passe",
+        "pwdInputPH": "Entrez un nouveau mot de passe",
+        "invalidPwdChars": "Caractères non valides dans le mot de passe",
+        "jsResetSuccess": "Réinitialisation du mot de passe avec succès!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Impossible de charger la piste. Veuillez réessayer plus tard."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} supprimé avec succès.",
+        "jsErrReporting": "Je ne peux pas le signaler pour le moment. Veuillez réessayer plus tard.",
+        "jsAlreadyReported": "Vous avez déjà signalé ce {item}. Vous ne pouvez pas le signaler plus d’une fois.",
+        "jsPromptHeading": "Le signalement d’un élément entraîne une probabilité moindre d’apparaître dans votre flux / pages ou dans celui d’un autre. Voulez-vous toujours signaler cela?",
+        "jsReporting": "Rapport {itemType}..",
+        "jsReportingErr": "Impossible de soumettre votre demande pour le moment. Veuillez réessayer plus tard.",
+        "jsReported": "{item} signalé. Merci pour votre contribution."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Rien à mettre à jour !",
+        "jsProfileUpdated": "Profil mis à jour!"
+      },
+      "reqZiyarat": {
+        "title": "Demander Ziyarat",
+        "cta": "Demander",
+        "header": "Demandez Ziyarat au sanctuaire Imam Hussain (a.s.) à Karbala en votre nom.",
+        "desc": {
+          "p1": "Chaque vendredi, <strong>faites réciter Ziyarat en votre nom</strong> au sanctuaire de l’Imam Hussain (as) à Karbala, en Irak ! Tout ce que vous avez à faire est de faire la demande <strong>avant la fin du jeudi soir</strong>. Mais il n’est jamais trop tard; si votre demande arrive trop tard, elle sera inscrite pour la semaine suivante.",
+          "p2": "Nous vous informerons lorsque le ziyarat aura été récité en votre nom.",
+          "p3": "Remarque: Lorsque vous demandez pour la première fois, vos coordonnées seront partagées avec notre fournisseur de services. Veuillez lire nos Conditions générales pour en savoir plus."
+        },
+        "jsRegistered": "Merci! Votre demande est enregistrée avec succès. Vous recevrez un e-mail de confirmation sous peu.",
+        "jsAlreadyRegistered": "Vous vous êtes déjà inscrit à Ziyarat ce jeudi. Inscrivez-vous la semaine prochaine pour le ziyarat de la semaine prochaine.",
+        "jsConfirm": "Pour vous inscrire à cette demande, nous devons partager vos coordonnées (par exemple, nom complet, sexe, etc.) avec notre fournisseur de services. Ceci est requis pour la première fois seulement. Veuillez confirmer votre présence.",
+        "jsDeclined": "D’accord! Peut-être plus tard."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Votre nom",
+          "placeholder": "Entrez votre nom complet"
+        },
+        "email": {
+          "label": "Messagerie électronique",
+          "placeholder": [
+            "Votre adresse e-mail enregistrée",
+            "Entrez votre adresse e-mail"
+          ]
+        },
+        "password": {
+          "label": "Mot de passe",
+          "placeholder": [
+            "Votre mot de passe",
+            "Entrez un mot de passe"
+          ]
+        },
+        "rememberLogin": "Se souvenir de la connexion",
+        "forgotPwd": "Mot de passe oublié?",
+        "connectUsing": "Ou, connectez-vous en utilisant",
+        "useSavedAccount": "Utiliser des comptes enregistrés",
+        "lastLogin": "Dernière connexion",
+        "needAccount": "Besoin d’un compte ?",
+        "resetPwdSuccess": "Vous pouvez utiliser votre nouveau mot de passe pour vous connecter maintenant",
+        "jsEnterFullName": "Veuillez entrer votre nom complet.",
+        "jsEnterValidName": "Veuillez entrer un nom valide.",
+        "jsEnterValidEmail": [
+          "Veuillez saisir un e-mail valide.",
+          "L’e-mail contient des caractères non valides. Veuillez saisir un e-mail valide."
+        ],
+        "jsSelectCountryCode": "Veuillez sélectionner votre code de pays dans la liste",
+        "jsEnterMobile": "Veuillez saisir votre numéro de téléphone portable.",
+        "jsEnterValidMobile": "Veuillez saisir un numéro de téléphone mobile valide",
+        "jsEnterPwd": "Veuillez entrer votre mot de passe!",
+        "jsEnterValidPwd": [
+          "Le mot de passe a des caractères non valides. Veuillez saisir un mot de passe valide.",
+          "Le mot de passe doit comporter au moins {num}."
+        ],
+        "jsAccountSuccess": "Compte créé avec succès",
+        "jsFbError": "Impossible d’obtenir les détails de votre compte Facebook. Veuillez réessayer.",
+        "jsPromptClosedErr": "L’invite de connexion a été fermée avant la fin. Veuillez réessayer."
+      },
+      "gotoSignup": "Aller s’inscrire",
+      "alreadyHasAccount": "Vous avez déjà un compte ?",
+      "gotoLogin": "Connexion Goto",
+      "gotoProfile": "Profil Goto",
+      "msgForAuthUser": "<p>Nous pensons que vous avez atterri ici par erreur, car vous êtes déjà connecté.</p> <p>Vous pouvez vérifier votre profil pour voir à quoi il ressemble, ou utiliser l’un des liens ci-dessous pour parcourir d’autres sections:</p>",
+      "jsLoggedOut": "Vous avez été déconnecté.",
+      "jsLogoutHeading": "Déconnexion du compte?",
+      "jsLogoutText": "Cela supprimera les informations enregistrées localement, ce qui permet de se connecter <b>rapidement</b>. Continuer?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Installer Bazm { platform }",
+          "desc": "Téléchargez l’application Android pour une meilleure expérience, un contenu personnalisé, des notifications et tout ce qui vous intéresse autour de vous! | Installez le raccourci de l’application (signet) pour y accéder directement à partir de votre écran d’accueil la prochaine fois pour une meilleure expérience! Il prend à peine de l’espace sur votre appareil, mais vous aide à revenir rapidement sur l’application.",
+          "cta": {
+            "action": "Installer",
+            "skip": "Peut-être plus tard"
+          }
+        },
+        "prompt": {
+          "heading": "Installer le raccourci Bazm ?"
+        },
+        "popover": {
+          "text": "Cliquez sur l’icône Partager (ressemble à celle de droite) <strong>CI-DESSOUS</strong>, puis cliquez sur <strong>Ajouter à l’écran d’accueil</strong>. Cliquez sur « Enregistrer » pour terminer, puis vous pouvez accéder à l’application à partir du raccourci sur votre écran d’accueil!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Quelle est votre expérience jusqu’à présent?",
+        "text": "<p>Aimez-vous la nouvelle application? Y a-t-il quelque chose que nous pouvons améliorer? S’il vous plaît aidez-nous avec vos commentaires pour améliorer l’expérience pour vous!</p> <p>Cela ne prendrait que quelques minutes, et nous apprécions grandement votre temps!</p>",
+        "cta": "Donner votre avis",
+        "dismiss": "Peut-être plus tard"
+      },
+      "advertise": {
+        "heading": "Annoncez sur Bazm",
+        "text": "<p>Atteignez des millions de musulmans chiites à travers le monde avec votre produit sur Bazm ou engagez-vous avec des marques et des utilisateurs.</p> <p>Commencez pour aussi peu que 1 $ / jour!</p>",
+        "cta": "Pour en savoir plus"
+      },
+      "upgradeSafari": {
+        "header": "Expérience limitée sur Safari",
+        "description": "<strong>Ce navigateur (Safari) n’est pas optimisé pour la meilleure expérience</strong>. En continuant à utiliser notre application ici, vous manquerez un certain nombre de fonctionnalités telles que les notifications d’alerte, les mises à jour à proximité, le mode hors ligne et bien plus encore.<br/> Nous vous recommandons d’obtenir l’un des navigateurs répertoriés ci-dessous pour une expérience améliorée. Cliquez sur l’un des boutons pour télécharger le navigateur depuis l’AppStore :",
+        "ctas": {
+          "getGoogle": "Obtenir Google Chrome",
+          "getFirefox": "Obtenez Mozilla Firefox",
+          "getOpera": "Obtenez Opera Touch",
+          "skip": "Peut-être plus tard"
+        },
+        "toast": "Aucun problème. Jusqu’à la prochaine fois!"
+      },
+      "cookieBanner": {
+        "header": "À propos de l’enregistrement de cookies sur votre appareil",
+        "p1": "Nous ne stockons aucun cookie sur votre {appareil}, mais des applications tierces utilisées dans notre application le peuvent (telles que Google Analytics). Nous utilisons plutôt un stockage permanent pour stocker toutes les données importantes, et dans la plupart des cas, celles-ci sont cryptées pendant le stockage et pendant le transfert.",
+        "p2": "En continuant à utiliser cette application, vous confirmez par la présente que vous n’avez aucun problème avec nos choix. Pour en savoir plus sur nos cookies et notre utilisation des données, consultez notre <a href='https://bazm.in/privacy-policy' target='_blank'>Politique de confidentialité.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Application de réseau social pour les musulmans chiites du monde entier! Téléchargez l’application dès aujourd’hui.",
+      "home": {
+        "title": "Bazm - Application de communauté chiite en ligne!",
+        "description": "L’application Bazm est l’application de la communauté chiite qui répond à tous vos besoins quotidiens de deen & mazhab. Trouvez Nauhe, Majalis, Dua, Aamaal, Ziyarat, Livres, etc. pour toutes les dates et occasions. Regardez et diffusez en direct des événements et des majalis avec des musulmans chiites du monde entier depuis la commodité de votre maison. Inscrivez-vous dès aujourd’hui!"
+      },
+      "feed": {
+        "title": "Trouvez du contenu sur mesure et partagez-le avec la communauté chiite autour de vous et dans le monde",
+        "description": "Trouvez et partagez des nouvelles, des événements et du contenu avec des mamans chiites, et tenez-les au courant de tous les événements que vous organisez. En savoir plus sur tout ce qui se passe près de chez vous sur l’application."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal et bien plus encore pour vous!",
+        "description": "Trouvez Nauhe, Majalis, Dua, Aamaal, ziyarat et bien plus encore pour toutes les dates et occasions. Regardez et diffusez en direct des majalis depuis la commodité de votre maison! Rejoignez l’application de réseau social chiite qui vous aide avec les tâches de routine de deen & mazhab. Inscrivez-vous dès aujourd’hui!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Alarme quotidienne azaan, questions-réponses et outils pour les musulmans chiites",
+        "description": "Recevez un rappel quotidien pour Adhan, trouvez et posez des questions-réponses sur des sujets de deen et d’islam, ou demandez Surah-fatiha ou Namaz-e-Wahshat pour votre marhumeen, et plus d’outils sur Bazm. Rejoignez l’application de réseau social chiite qui vous aide avec les tâches de routine de deen. Retrouvez Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat pour toutes les dates et occasions. Diffusez en direct des événements et des majalis depuis la commodité de votre maison. Inscrivez-vous dès aujourd’hui!"
+      },
+      "tasbeehCounter": {
+        "title": "Compteur de tasbeeh automatique avec outil Voice __ Tasbeeh Counter",
+        "description": "Réciter d’innombrables tasbeeh est maintenant plus facile avec nos compteurs Audio tasbeeh. Récitez votre tasbeeh pendant que vous conduisez ou travaillez, tout en gardant une trace du compte avec des compteurs vocaux. Obtenez cet outil et d’autres comme lui sur l’application Bazm. Téléchargez dès aujourd’hui."
+      },
+      "accountHome": {
+        "title": "Bazm - Créez votre compte gratuit dès aujourd’hui et obtenez de l’aide pour vos besoins quotidiens de deen!",
+        "description": "Rejoignez l’application Bazm dès aujourd’hui pour répondre à tous vos besoins en matière de deeniyat. Trouvez nohe/nauhe, majalis, dua, ziyarat, aamaal pour toutes les dates et occasions. Diffusez en direct et regardez des majalis et des événements autour de vous; trouvez des publications, du contenu et des momineen de votre entourage et du monde entier, et bien plus encore sur l’application. Inscrivez-vous dès aujourd’hui !"
+      },
+      "nauheListPage": {
+        "title": "Écoutez Nauhe du populaire nauhakhwan du monde entier",
+        "description": "Écoutez les nauhe de toutes les années et tous les nauhakhwan populaires du monde entier sur l’application Bazm. Téléchargez dès aujourd’hui."
+      },
+      "soazListPage": {
+        "title": "Écoutez Soaz du populaire Soazkhwan du monde entier",
+        "description": "Écoutez Soaz de toutes les années et tous les Soazkhwan populaires du monde entier sur l’application Bazm. Téléchargez dès aujourd’hui."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis sur Bazm - Trouver plus de nauhe, audio/vidéo majalis, dua, ziyarat, aamaal, etc. sur Bazm",
+        "description": "Trouvez des majalis audio / vidéo de Maulana et Zakir-e-Ahlbayt près de chez vous et dans le monde entier. Écoutez et regardez les dernières sessions majalis et livestream sur l’application Bazm. Téléchargez l’application dès aujourd’hui et rejoignez des millions de musulmans chiites à travers le monde !"
+      },
+      "duasPage": {
+        "title": [
+          "Duas et aamaal pour le mois de {mois} sur Bazm - Retrouvez plus de nauhe, audio/vidéo majalis, dua, ziyarat, aamaal, etc. sur Bazm",
+          "Duas et aamaal pour tous les mois sur Bazm - Retrouvez plus de nauhe, audio/vidéo majalis, dua, ziyarat, aamaal, etc. sur Bazm"
+        ],
+        "description": "Trouvez duas, aamaal, ziyarat et munajat pour tous les mois sur Bazm, date et événement. Téléchargez l’application dès aujourd’hui et rejoignez des millions de musulmans chiites à travers le monde !"
+      }
+    }
+  }
+}

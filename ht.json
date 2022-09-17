@@ -1,1 +1,809 @@
-undefined
+{
+  "ht": {
+    "common": {
+      "refresh": "Rale rafrechisman",
+      "refreshing": "Rafrechi ...",
+      "loadingMore": "Chaje plis ...",
+      "checking": "Tcheke ...",
+      "sendOtp": "Voye OTP ...",
+      "dismiss": "Rejte",
+      "invite": "Envite",
+      "showMore": "Montre plis —Gade plis",
+      "play": "Jwe",
+      "pause": "Yon poz",
+      "playing": "Jwe",
+      "paused": "Yon poz",
+      "watch": "Veye",
+      "read": "Li",
+      "authors": "Otè---list.",
+      "languages": "Lang —Lang",
+      "clear": "Klè",
+      "cancel": "Anile",
+      "change": "Chanje",
+      "continue": "Kontinye",
+      "select": "Chwazi",
+      "saveChanges": "Sove chanjman —Sove —Mizajou",
+      "newBadge": "New",
+      "login": "Konekte",
+      "logout": "Logout",
+      "signup": "Enskri",
+      "settings": "Anviwònman",
+      "cookiePolicy": "Règleman bonbon",
+      "privacy": "konfidansyalite",
+      "contactUs": "Kontakte nou",
+      "home": "Lakay",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Ou",
+      "retry": "Retri",
+      "send": "Voye",
+      "submit": "Soumèt",
+      "share": "Pataje —- Pataje kounye a",
+      "at": "alèz",
+      "untilNextTime": "Pa gen pwoblem. Jiska pwochen!",
+      "plzWait": "Tanpri..",
+      "saving": "Ekonomoji ... -- Mete ajou ...",
+      "search": "Fouye",
+      "late": "Ta",
+      "done": "Fè",
+      "featureUnavailable": "Karakteristik sa a ap disponib byento. Mèsi fro ki montre enterè!",
+      "actions": {
+        "cancel": "Anile",
+        "notify": "Enfòme",
+        "like": "Renmen",
+        "recited": "Resite",
+        "comment": "Kòmantè",
+        "reply": "repons",
+        "bookmark": "Makè",
+        "uploading": "Uploading ...",
+        "deleting": "Efase ...",
+        "requesting": "Mande ...",
+        "audienceHeader": "Momineen ki {action}d— Momineen ki {action}d this",
+        "jsShareFileTypeError": "Padon, ou pa ka pataje {fileType} files isit la",
+        "jsUpdateAvailable": {
+          "header": "Mizajou disponib",
+          "message": "Ou ap wè vèsyon kach nan app a. Klike sou 'Rafrechi' mete ajou ak chaj nouvo kontni ak karakteristik.",
+          "cta": "Rafrechi"
+        },
+        "jsImgUploaded": "Imaj Telechaje avèk siksè!",
+        "jsImgUploadErr": "Imaj Upload echwe. Tanpri eseye ankò pita."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Sèvis ki pa ka fè sèvis nan moman sa a. Tanpri eseye ankò pita.",
+        "unknown": "Yon erè enkoni te fèt. Tanpri eseye ankò pita.",
+        "general": "Yon erè ki te fèt pandan y ap trete demann ou an. Tanpri eseye ankò pita."
+      },
+      "content": {
+        "unavailable": "Pa t 'kapab chaje kontni an nan moman sa a. Tanpri eseye ankò nan yon ti tan.",
+        "itemDetailUnavailable": "Pa t 'kapab jwenn detay pou sa a {item}",
+        "loadMoreError": "Echwe pou pou chaje plis atik. Tanpri eseye ankò pita."
+      },
+      "url": {
+        "invalid": "Invalid URL. Tanpri eseye ak yon nouvo URL."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Lakay"
+      },
+      "postDetail": {
+        "commonTitle": "Detay",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha - Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Foto pwofil",
+        "bannerUpdateTitle": "Kouvri Imaj (Deprese)",
+        "statusUpdateTitle": "Estati aktyalizasyon"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Lakay",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Pataje demann sa a atravè rezo ou epi rive jwenn soti nan plis moun!"
+          }
+        }
+      },
+      "media": {
+        "name": "Medya",
+        "boxLabels": {
+          "nauhe": "Naue",
+          "majalis": "majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "munajaat",
+          "munajaat": "munajaat",
+          "books": "Liv"
+        },
+        "inviteFriends": "envite zanmi ou yo",
+        "notShia": "Pa Shia?",
+        "contacts": {
+          "accessRequestHeader": "Kontak aksè obligatwa",
+          "accessRequestDesc": "Nou mande pou aksè kontak ou yo sijere moun Shia nan liv telefòn ou a envite nan app sa a."
+        },
+        "audio": "Odyo",
+        "video": "Videyo",
+        "hijri": "ijri",
+        "duaHome": {
+          "wishCtaText": "Swete zanmi ou!",
+          "wishCtaLabel": "SWETE"
+        },
+        "books": {
+          "booksByAuthor": "Liv by {author}",
+          "booksInLang": "Liv in {lang}",
+          "filterBy": "Filtè pa:",
+          "matching": {
+            "authors": "avèk otè matche",
+            "lang": "ak lang matche",
+            "title": "antye"
+          }
+        },
+        "booksFilter": {
+          "title": "Jwenn liv pa otè",
+          "searchBox": "Otè rechèch pa non",
+          "selectLang": "Chwazi yon lang:"
+        },
+        "bookDetails": {
+          "title": "{} — Jwenn plis liv gratis tankou sa a sou Bazm",
+          "aboutBook": "Konsènan liv:"
+        }
+      },
+      "tools": {
+        "name": "Zouti",
+        "salatAlarmDesc": "Fikse alèt pou Azaan kòm pou chak fwa lokal ou yo",
+        "sehriAlarmDesc": "Fikse Alam pou Sehri, oswa menm jwenn yon apèl reveye-up sou nimewo ou anvan Sehri!",
+        "sehriAlarmOptionDisabled": "Alam pou tan Sheri pandan mwa Ramadan (disponib sèlman pandan Ramadan)",
+        "tasbeehCounterDesc": "Recite Duas, Quran ak Tasbeeh sou mòd repete fasil ak kontwa Audio Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Rechèch ak Poze kesyon oswa jwenn repons pou masayel soti nan lavi chak jou ou sou zafè Islam.",
+        "alarms": {
+          "salatAlarms": "Alarms- chak jou Salat Almars",
+          "sehriAlarms": "Ramadan Almars",
+          "gettingLocation": "Jwenn kote ou ye a. Tanpri...",
+          "settingsTip": "Chanje <b>kote</b> ak preferans nan anviwònman Alarm. Klike sou Anviwònman icon yo kòmanse.",
+          "setAlarmHeader": "Mete Almè chak jou",
+          "setAlarmOnAppDesc": "Anviwònman alam ki disponib sèlman sou app a",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Sunset",
+          "maghribLabel": "Majò",
+          "midnightLabel": "Minui",
+          "sehriEndTime": "Tan pou fen Sehri",
+          "minToImsak": [
+            "{min} mins anvan Imsak",
+            "{èdtan} èdtan anvan Imsak"
+          ],
+          "minToImsakDesc": [
+            "Alarm bag {min} minit anvan fen tan Sehri",
+            "Alarm bag {èdtan} èdtan anvan fen tan Sehri"
+          ],
+          "notRamadan": "Sanble li pa Ramadan ankò. Tanpri tounen pandan oswa jis anvan Ramadan an mete Alarms yo pou Sehri",
+          "push": {
+            "heading": "Aksè notifikasyon obligatwa",
+            "desc_request": "Alam la ap travay pa voye notifikasyon pouse nan fwa deziyen. San yo pa jwenn aksè a pouse, app pa pral travay nan fason espere. Tanpri pèmèt aksè nan notifikasyon pouse ou pou ke nou ka enfòme ou nan fwa alam.",
+            "desc_denied": "<strong>Ou te refize notifikasyon aksè a pi bonè.</strong> Li obligatwa pou pouse-notifikasyon yo travay byen. Nou voye notifikasyon nan tan<br/> alar. Tanpri pèmèt aksè a pouse notifikasyon pa klike sou bouton an.",
+            "cta": "Pèmèt",
+            "toast_granted": "Mèsi! Ou pral jwenn avize nan tan alarman kounye a.",
+            "toast_denied": "Demann Notifikasyon refize. Tanpri pèmèt aksè a pou app nan travay byen.",
+            "toast_prompt": "Ou bezwen pèmèt notifikasyon aksè a mete alam yo."
+          },
+          "jsAlarmSetSuccess": "Alam yo mete avèk siksè",
+          "jsAlarmSetError": "Erè nan mete alèt. Tanpri eseye ankò pita.",
+          "jsAlarmSnoozed": "Alarm snozed pou 10 minit"
+        },
+        "alarmSetting": {
+          "title": "Anviwònman alarm",
+          "locationTitle": "Jwenn vil pou tan alarm",
+          "forLocation": "Alarm pou kote",
+          "calcMethod": "Metòd kalkil",
+          "selectAdhanSound": "Chwazi son Adhan",
+          "selectAlarmSound": "Chwazi Alarm son",
+          "alarmSoundDesc": "Son pou fwa ki pa salat",
+          "timesPeekHeading": "Montre fwa banyè",
+          "timesPeekDesc": "Ou ka enfim ekspozisyon nan gade rapid nan fwa pou Salat isit la:",
+          "timesPeekHome": "Montre nan paj manje:",
+          "timesPeekTools": "Montre sou zouti paj:",
+          "jsConfirmLocChange": "Chanje kote ou ye a pral anile tout alam yo deja mete. Kontinye?",
+          "jsOtherSettingsSaved": "Lòt anviwònman sove. Kote yo pa te chanje."
+        },
+        "qna": {
+          "title": "Repons kesyon-an",
+          "qnaSource": "Sous",
+          "seeAnswer": "Gade repons",
+          "noAnswer": "Pa gen repons"
+        },
+        "qnaDetail": {
+          "title": "Repons for: {ques}",
+          "jsSubmitSuccess": "Yo te soumèt ou kesyon avèk siksè. Nou pral mete ajou ou yon fwa nou resevwa repons sou li."
+        },
+        "tasbeehCounter": {
+          "title": "Kontrefè Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Itilizatè -- Kont",
+        "editProfile": "Edit Pwofil",
+        "publishToFeed": "Pibliye chanjman mwen yo manje",
+        "shareUpdateToFeed": "Epitou pataje aktyalizasyon sa a bay manje mwen",
+        "statusText_ph": "Sèvi ak _italics_ oswa *fonse * fòma dekore estati ou",
+        "statusCharsLeft": "{count} characters left",
+        "jsImgUploadSuccess": "Imaj Uploaded avèk siksè!",
+        "unauthAccess": {
+          "heading": "Èske ou sèten ou nan plas la dwat?",
+          "desc": "<p>Li sanble ke ou te ap eseye jwenn aksè nan yon paj pou ki ou pa t 'gen pèmisyon. Si ou te eseye jwenn aksè nan yon paj ou te jwenn aksè deja, eseye konekte; sa ta dwe rezoud pwoblèm nan.</p> <p>Tanpri, ezite kontakte nou si pwoblèm nan pèsiste.</p>"
+        },
+        "guest": {
+          "welcome": "Byenveni, <strong>Envite!</strong>",
+          "heading": "Poukisa Login oswa Enskri?",
+          "desc": "Avèk yon kont sou app nou an, ou ka itilize yon kantite karakteristik. Jwenn te kòmanse pa kreye yon kont, si ou pa gen yon kont deja. Oswa, jis konekte!",
+          "unlockHeading": "déblotché swiv ak yon kont:",
+          "features": {
+            "engage": {
+              "heading": "Angaje sou app",
+              "desc": "Angaje ak itilizatè lòt, reyaji nan posts yo oswa demann, kòmantè opinyon ou, makè atik ou, ak anpil plis!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha demann",
+              "desc": "Post demann pou Surah-e-Fatiha pou nanm yo nan moun ou renmen yo epi pou yo jwenn nanm yo beni ak priyè nan tout itilizatè nou yo!"
+            },
+            "askQues": {
+              "heading": "Poze kesyon",
+              "desc": "Poze kesyon soti nan Deen & Duniya sou divès sijè yo dwe reponn pa eminans li, Ayatullah Al-Sayid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "kontni pi pi piti",
+              "desc": "Toujou wè kontni pi pito ou ak anviwònman lè w ap louvri sesyon an nan kont ou. Epitou, jwenn avize pou tout bagay sa yo enteresan!"
+            },
+            "personalized": {
+              "heading": "pataje pèsonalize",
+              "desc": "Mete kontni pataje pèsonalize ak siyati ou pou ke zanmi ou konnen lè ou pataje yon mesaj / pòs."
+            }
+          }
+        },
+        "about": {
+          "title": "Sou",
+          "jsStatusUpdateFail": "Echwe pou pou mete ajou estati. Tanpri eseye ankò pita."
+        },
+        "posts": {
+          "title": "Posts",
+          "userNoPosts": "Lè ou chanje imaj foto ou / kouvri imaj ou, oswa lè ou mande pou surah-fatiha pou moun ou renmen yo, posts sa yo ap parèt isit la ak nan tab <b>Kay</b> (lòt moun tou). Eseye ajoute yon foto oswa kouvri imaj?",
+          "profileNoPosts": "{name} hasn pa te fè okenn pòs ankò."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} pa marhumeen te ajoute ankò —Ou pa te ajoute marhumeen ankò",
+            "marhumeenAdded": "{name} te ajoute swiv marhumeen —Ou te ajoute swiv marhumeen"
+          },
+          "jsDeleteHeader": "Eske ou si?",
+          "jsDeletePrompt": "Efase records for <b>{fullName}</b> pral tou efase tout requests anvan yo te fè for {gender}! Kontinye?",
+          "jsDeleted": "Deleted records for {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Konekte nan kont ou",
+        "createAccount": "Kreye yon kont"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "pwochen etap",
+        "goBack": "Tounen",
+        "confirm": "Konfime"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Kote ki pa ka fèt. Tanpri mete l 'pa klike sou icon nan yo wè vi rapid-gade nan Salat-fwa.",
+          "unknownError": "Gen yon erè ki te fèt. Pa t 'kapab chaje fwa nan moman sa a."
+        }
+      },
+      "langPrompt": {
+        "title": "Use app in {langLabel}?",
+        "desc": {
+          "p1": "Li sanble tankou w ap jwenn aksè nan app a soti nan {peyi Ayiti}. Èske ou ta renmen wè kontni ak kontwòl nan youn nan lang sa yo pale nan rejyon an? Klike sou chwa ou ak Lè sa a, klike sou 'Sove' kontinye.",
+          "p2": "Oswa, ranvwaye popup sa a kontinye lè l sèvi avèk app a nan lang default."
+        },
+        "choices": {
+          "useLang": [
+            "Wi, use {langName}",
+            "Use {langName}"
+          ],
+          "useEngling": "Kontinye nan lang angle"
+        },
+        "langError": "Yon erè te fèt pandan y ap chaje tradiksyon yo for {langName}. Tanpri eseye ankò pita."
+      },
+      "createPost": {
+        "heading": "Ki sa ki nan jodi a sou?",
+        "desc": "Klike la a pou pataje yon ajou oswa itilize yon opsyon ki anba a",
+        "request": "Demand",
+        "askQues": "Poze kesyon",
+        "sheetOptions": {
+          "header": "Fè yon demann",
+          "subheader": "Fè yon demann nan men momine pou marhumeen ou oswa tèt ou.",
+          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat nan Zari-e-Imam Husain (a.s.) sou non ou"
+        },
+        "modal": {
+          "titles": {
+            "post": "Kreye Post -- Mizajou Post",
+            "livestream": "Livestream",
+            "hadiyah": "Kreye Hadiya -- Mizajou Hadiyah"
+          },
+          "postCta": "Post-- Mizajou",
+          "stream": {
+            "scheduleCta": "Sove pou pita -- Kòmanse difizminasyon"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Ki moun ou vle kado sa a?",
+              "addPeopleToggle": "Kite lòt moun fè pati sawa sa a tou!",
+              "searchInput": "Envite momise nan Bazm oswa lis kontak ou",
+              "minUsersHeader": "Vle mete nimewo minimòm ke patisipan yo bezwen chwazi?",
+              "minUsersInput": "Antre nimewo minimòm"
+            }
+          },
+          "postTime": [
+            "Ki lè li ye?",
+            "Kilè ou vle kòmanse difizyon?"
+          ],
+          "whereIsIt": "Ki kote li ye?",
+          "findLocation": "Jwenn kote",
+          "locationSubtext": "Ajoute kote nan pòs ou",
+          "addLocation": "Ajoute kote",
+          "addPics": "Ajoute foto nan pòs ou",
+          "previewDes": "Sa a se ki jan pòs ou ta parèt nan manje nan lòt moun. Moun ka tape sou videyo a yo wè li nan ekran plen.",
+          "addToPost": "Add to {postType} (optional)",
+          "jsImgUploadFail": "Imaj pa te Uploaded",
+          "jsAddDetailToPost": "Tanpri ajoute detay nan pòs ou",
+          "jsValidEndDate": "Tanpri chwazi yon dat fen valab",
+          "jsSetLocation": "Tanpri mete kote pou pòs la",
+          "jsRemLocation": "Tanpri mete yon kote oswa retire seksyon sa a",
+          "jsAddImg": "Tanpri ajoute imaj oswa retire seksyon sa a",
+          "jsInvalidDate": [
+            "Tanpri mete yon dat demaraj valab ",
+            "Tanpri mete yon dat kòmanse valab oswa retire seksyon sa a"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Kòmantè",
+        "loadPrevious": "Chaj kòmantè anvan -- Chaj repons anvan yo",
+        "replyingTo": "Reponn:",
+        "noComments": "Pa gen kòmantè sou pòs sa a ankò",
+        "textboxPlaceholder": "Ekri kòmantè ou isit la",
+        "requestToLogin": "Login oswa Enskripsyon pou kòmanse diskisyon"
+      },
+      "post": {
+        "addressYou": "Ou",
+        "addressing": "ou - li —",
+        "itemTypes": {
+          "avatar": "imaj avatar",
+          "banner": "imaj banyè",
+          "status": "estati pwofil"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> updated {addressing} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Until: {date} at {time}",
+        "privatePost": "Pòs sa a vizib sèlman pou ou",
+        "descZiyaratRequest": "Ou te mande Ziyarat yo dwe fèt sou non ou nan *haram* nan Imam Husain (a.s.) sou *{date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Demann Surah-al-fatiha",
+          "addUpdate": [
+            "Mizajou moun yo renmen",
+            "Ajoute moun ou renmen"
+          ]
+        },
+        "heading": [
+          "Ajoute yon moun ou renmen ki te pase sou",
+          "Chwazi yon moun ou renmen nan lis la oswa ajoute yon moun ou renmen ki te pase sou"
+        ],
+        "addNew": "Ajoute nouvo",
+        "subheader": [
+          "Ajoute detay sou moun ou renmen yo",
+          "Ou ka gen ladan tou yon mesaj nan demann ou an"
+        ],
+        "form": {
+          "jsAddImg": "Ajoute imaj pou moun ou renmen yo",
+          "jsRemoveImg": "Retire imaj",
+          "fullName": "Non konplè moun ki mouri",
+          "name_ph": "E.g., Syed Zeeshan Haider Abidi",
+          "fathersName": "Non Papa a (Si disponib)",
+          "father_ph": "E.g., Syed Tauqeer Husain",
+          "nameError": "Tanpri antre non konplè ak nenpòt karaktè espesyal",
+          "genderLabel": "Sèks",
+          "genderValue": [
+            "Femèl",
+            "Gason"
+          ],
+          "relation": [
+            "Marhooma se pou ou",
+            "Marhoom se pou ou"
+          ],
+          "selectRelation": "Chwazi Relasyon",
+          "demiseLabel": "Demisyone jodi a? Demann Namaz-e-Wahshat",
+          "demiseText": "Nou trè regrèt tande pale de pèt ou. Se pou Allah ba ou ak fanmi ou fòs pou pote pèt sa a avèk pasyans epi yo ka Allah rekonpanse nanm nan demisyone ak kote ki pi wo nan Janna. Chwazi opsyon sa a pèmèt ou mande momineen pou Namaz-e-Wahshat pou nanm nan demisyone.",
+          "optional": "Si ou opsyonèl",
+          "dod": "Te pase sou",
+          "dob": "te fèt"
+        },
+        "relation": [
+          "Pitit fi",
+          "Pitit gason de"
+        ],
+        "born": "Fèt:",
+        "died": "Mouri:",
+        "addMsg": "Vle ajoute yon mesaj?",
+        "remainingChars": "Karaktè: {count} —Karaktè: {count} rete",
+        "infoEditRelative": "Ou ka edite detay pou {non} nan kont ou > seksyon <b>Marhumeen</b>",
+        "saveRequestCta": [
+          "Sove - Demann",
+          "Demand"
+        ],
+        "addUpdate": "Ajoute -- Mizajou",
+        "jsRequesting": "Mande ...",
+        "jsAddSuccess": [
+          "Te ajoute moun ou renmen an avèk siksè!",
+          "Mete ajou moun ou renmen an avèk siksè!"
+        ],
+        "jsAddFail": "Echwe pou pou ajoute moun ou renmen an. Tanpri eseye ankò pita.",
+        "jsReqSuccess": "Demann soumèt avèk siksè.",
+        "jsGettingMarhumeen": "Jwenn marhumeen ou ..."
+      },
+      "askQues": {
+        "title": "Poze yon kesyon",
+        "form": {
+          "quesLabel": "Kesyon ou an",
+          "quesLabel_ph": "Chèche yon kesyon oswa mande pwòp ou a",
+          "similarQues": "Kesyon sa yo ka deja gen repons lan w ap chèche pou.",
+          "quesTextHeader": "Kesyon ou:",
+          "selectCat": "Fikse kategori:",
+          "askAnonLabel": "Mande Anonim?",
+          "askAnonInfo": "Non ou pa pral voye nan Bib la lè w ap mande yon repons sou non ou, ni li pa pral parèt atravè app nou an ak kesyon sa a. Men, kesyon anonim yo ka pa reponn byen vit.",
+          "askViaLabel": "Mande Via",
+          "askSistaniInfo": "Ou ka poze yon kesyon pou reponn pa biwo eminans li, Ayatullah Al-Sayid Ali Al-Husseini Al-Sistani. Nou pral voye kesyon an nan sit entènèt yo (ansanm ak enfòmasyon pwofil ou). Asire ou ke ou te li <b>tèm yo - Kondisyon yo</b> byen.",
+          "tncLabel": "Tèm ak Kondisyon:",
+          "showHide": [
+            "Montre",
+            "Sere"
+          ],
+          "sistaniOrgTncInfo": "Konsidere pwen swiv pwen ki soti nan sit entènèt yo anvan ou poze yon kesyon, paske si ou pa konfòme ou anba pwen yo, ou ka pa tande tounen nan men yo, oswa ou ka pa resevwa okenn repons.",
+          "userInfo": {
+            "aboutLabel": "Konsènan ou",
+            "genderLabel": "Sèks ou",
+            "bdayLabel": "Anivèsè nesans ou",
+            "bdayDesc": "Ou ka poze kesyon sèlman si w gen plis pase 09 ane fin vye granmoun. Si ou toujou enterese, tanpri kontakte nou."
+          },
+          "jsQuesAdded": "Kesyon te ajoute avèk siksè."
+        },
+        "askQuesCta": "Poze kesyon ou an"
+      },
+      "authPrompt": {
+        "title": "Kont obligatwa",
+        "defLabel": "Login oswa Enskripsyon kontinye",
+        "infoText": "Karakteristik sa a mande pou ou konekte oswa enskri anvan ou ta ka itilize li. Klike <b>sou Login</b> si ou deja anrejistre, oswa klike sou <b>Enskri jiska</b> kreye kont ou."
+      },
+      "location": {
+        "title": "Chanjman kote",
+        "search_ph": "Chèche kote ou ye a",
+        "autoDetectInfo": "Antre kote ou ye a oswa klike sou icon oto-detekte a jwenn kote ou ye a.",
+        "setLocation": "Fikse kote",
+        "ipAddress": "adrès IP",
+        "alarmLocation": "kote alarm",
+        "basedOn": "Location baze on your {selector}",
+        "jsDetecting": "Detekte, tanpri rete tann ...",
+        "jsPermDenied": "Pèmisyon kote refize pou app. Tanpri Reyajiste preferans kote pou app sa a pa vizite seksyon anviwònman nan telefòn ou.",
+        "jsPosUnavailable": "Nou regrèt, men pozisyon pa disponib pou telefòn sa a kounye a. Tanpri eseye ankò pita.",
+        "jsMatchNotFound": "Pa t 'kapab jwenn nenpòt kote matche ...",
+        "jsEnterValidLoc": "Tanpri antre nan yon kote ki valab",
+        "jsGeoUnavailable": "Nou regrèt, men pozisyon pa disponib pou telefòn sa a kounye a. Tanpri eseye ankò pita.",
+        "jsLocMissing": "Pa t 'kapab jwenn kote ou ye a. Tanpri antre nan kote manyèlman.",
+        "jsSelectedLoc": "Genyen yon erè ak kote sa a. Tanpri eseye ankò"
+      },
+      "readText": {
+        "ctaLabel": "Li",
+        "title": "Dua: {title}",
+        "arabicCta": "Arab",
+        "englishCta": "Anglè",
+        "translatedCta": "Tradui"
+      },
+      "reqAccess": {
+        "heading": "aksè obligatwa",
+        "subheading": "Nou bezwen pèmisyon jwenn aksè nan kamera ou",
+        "subtext": "Tanpri pèmèt aksè a pa klike sou bouton ki anba a:",
+        "ctaLabel": "pèmèt aksè"
+      },
+      "shareBtn": {
+        "subtext": "Klike sou youn nan opsyon ki anba yo pou pataje sa a sou app respektif:",
+        "jsCopyToCB": "Kopye nan papye ou",
+        "copyText": "Klike sou icon <b>kopi</b> pi wo a pou kopye kontni ki anba a:"
+      },
+      "verifyMob": {
+        "title": [
+          "Verifye Mobil",
+          "Antre kòd la"
+        ],
+        "page1": {
+          "infoText1": "Nou bezwen nimewo mobil ou pou verifye idantite w. Ou ka jwenn dènye nouvèl okazyonèl tou.",
+          "infoText2": [
+            "Antre nimewo ou epi klike sou bouton an pou jwenn kòd konfimasyon ou:",
+            "Antre nimewo ou epi klike sou yon bouton pou jwenn kòd konfimasyon ou:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Nimewo mobil",
+          "mobileLabel_ph": "Antre nimewo mobil ou",
+          "otpViaSMS": "Jwenn atravè SMS",
+          "viaWhatsApp": "Jwenn atravè WhatsApp",
+          "viaTelegram": "Jwenn atravè Telegram",
+          "viaSignal": "Jwenn via Siyal"
+        },
+        "page2": {
+          "header": "Nou te voye yon 6-chif konfimasyon kòd to nimewo ou ({ni{ni})",
+          "enterCodeLabel": "Antre kòd",
+          "enterCode_ph": "Antre kòd la 6-chif",
+          "resendCode": "Kòd resansman",
+          "notUsingMobile": "Pa itilize <strong>{ni}?</strong>",
+          "changeNumber": "Chanjman Nimewo"
+        },
+        "jsVerifySuccess": "Mobil verifye avèk siksè",
+        "jsVerifyError": "Gen yon erè ki te fèt. Tanpri eseye ankò pita.",
+        "jsSendOtpFailed": "Echwe pou voye OTP. Tanpri eseye ankò pita.",
+        "jsSendOtpSuccess": "OTP sent to {mobile}",
+        "jsTooManyRequests": "Sanble ou te eseye twòp fwa deja. Tanpri rete tann yon minit oswa de epi eseye ankò."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Pèsonalize pataje mesaj",
+        "changePwd": "Chanje modpas —Mete modpas",
+        "changeLang": "Chanje Lang",
+        "publishToFeed": "Pibliye chanjman mwen yo manje tou."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Pèsonalizasyon",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Ajoute non mwen nan mesaj",
+          "sharingDesc": "Lè w ap pataje ekstèn, mesaj ou yo ka sanble anba a:",
+          "sharingTextDemo": [
+            "Koute sa Nauha sou Bazm App",
+            "{name} recommends koute sa a Nauha on Bazm App"
+          ],
+          "addSignDesc": "Vle ajoute siyati ou tou?",
+          "signDesc": "Lè ou pataje volonte ou ak zanmi sou app sa a, siyati ou yo pral ajoute nan mesaj yo. Pou egzanp, li ta ka parèt kòm anba a:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Antre modpas ki egziste deja ou:",
+          "currentPwdPH": "Antre nan Modpas Aktyèl",
+          "newPwdLabel": "Antre nan yon nouvo modpas:",
+          "newPwdPH": "Antre nan Nouvo modpas"
+        },
+        "changeLang": {
+          "searchYourLang": "Rechèch lang ou",
+          "desc": "Chwazi lang ou ta renmen wè kontni an app. Klike sou yon lang epi rete tann (li pran pafwa chaje tradiksyon an) yo wè ki jan fraz sa a parèt nan lang chwazi."
+        },
+        "jsPwdInvalid": "Modpas gen karaktè envalid.",
+        "jsPwdCharCount": "Modpas pa ka mwens pase 8 karaktè.",
+        "jsSelectLang": "Tanpri chwazi yon lang an premye.",
+        "jsLangSet": "Lang is te mete pou {lang}",
+        "jsPrefSaved": "Anviwònman pèsonalizasyon sove."
+      },
+      "forgotPwd": {
+        "title": "Bliye modpas?",
+        "introText": "Reyajiste modpas ou fasil. Chwazi yon metòd pou kontinye:",
+        "usePhoneCta": "Itilize telefòn",
+        "useEmailCta": "Sèvi ak imèl",
+        "sendEmailIntro": "Antre nan adrès imel la ke ou te kreye kont ou ak, epi nou pral voye yon imèl ak lyen yo konfigurasyon yon nouvo modpas pou kont ou.",
+        "emailInputLabel": "Imèl ki anrejistre ou",
+        "sendEmailCta": "Voye Imèl Reyaji",
+        "sentEmailText": "Si ou gen yon kont avèk nou, ou pral jwenn yon imèl modpas-reyajiste yon ti tan sou <strong>{imèl}</strong>. Tanpri tcheke imèl ou pou lyen an.",
+        "notUsingEmailText": "Noting <strong>{email}?</strong>",
+        "changeEmailCta": "Chanjman Imèl",
+        "phoneIntroText": "Antre nan nimewo telefòn lan te ajoute nan kont ou. Nou pral voye yon OTP verifye pwopriyetè ou, ak nan pwochen etap la, ou yo pral kapab kreye yon nouvo modpas.",
+        "phoneInputLabel": "Nimewo mobil ou",
+        "sendOtpCta": "Voye patipri",
+        "backToLoginCta": "Retounen nan Login",
+        "disclaimerText": "Tanpri sonje ke ou pral jwenn yon {item} sèlman si ou gen {item} anrejistre avèk nou",
+        "jsMailSent": "Lapòs voye"
+      },
+      "resetPwd": {
+        "title": "Modpas Reyajiste",
+        "introText": "Mete yon modpas sekirite pou kont ou isit la. Klike sou {icon} asire ke w ap antre nan modpas la dwa.",
+        "pwdInputLabel": "Mete nouvo modpas",
+        "pwdInputPH": "Antre nan nouvo modpas",
+        "invalidPwdChars": "Karaktè envalid nan modpas",
+        "jsResetSuccess": "Modpas Reyajiste avèk siksè!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Si li pa t chaje tras la. Tanpri eseye ankò pita."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} efleted avèk siksè.",
+        "jsErrReporting": "Pa kapab rapòte sa nan moman sa a. Tanpri eseye ankò pita.",
+        "jsAlreadyReported": "Ou te deja rapòte sa a {item}. Ou pa ka rapòte li plis pase yon fwa.",
+        "jsPromptHeading": "Rapòte yon atik rezilta nan li pi ba chans pou parèt nan manje oswa lòt la manje / paj. Èske ou toujou vle rapòte sa?",
+        "jsReporting": "Reporting {itemType}..",
+        "jsReportingErr": "Pa t 'kapab soumèt demann ou an nan moman sa a. Tanpri eseye ankò pita.",
+        "jsReported": "{item} reported. Mèsi pou kontribisyon ou."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Pa gen anyen yo mete ajou!",
+        "jsProfileUpdated": "Pwofil mete ajou!"
+      },
+      "reqZiyarat": {
+        "title": "Demann Ziyarat",
+        "cta": "Demand",
+        "header": "Demann Ziyarat nan Imam Hussain (a.s.) Shrine nan Karbala sou non ou.",
+        "desc": {
+          "p1": "Chak vandredi, gen <strong>Ziyarat resite sou non ou</strong> nan Shrine nan Imam Hussain (a.s.) nan Karbala, Irak! Tout sa ou bezwen fè se mande <strong>anvan fen jedi swa</strong>. Ou pa janm twò ta menm si; si demann ou an vini twò ta, li pral enskri pou semèn sa a.",
+          "p2": "Nou pral fè w konnen lè ziyarat la te resite sou non ou.",
+          "p3": "Remak: Lè ou mande pou premye fwa, detay ou yo pral pataje ak founisè sèvis nou an. Tanpri li tèm nou yo & Kondisyon yo konnen plis."
+        },
+        "jsRegistered": "Mèsi! Demann ou anrejistre avèk siksè. Ou pral jwenn yon lapòs konfimasyon yon ti tan.",
+        "jsAlreadyRegistered": "Ou te deja anrejistre pou Ziyarat Jedi sa a. Enskri semèn pwochèn pou ziyarat semèn pwochèn nan.",
+        "jsConfirm": "Pou enskri pou demann sa a, nou bezwen pataje detay ou (egzanp, non konplè, sèks, elatriye) ak founisè sèvis nou an. Sa a obligatwa pou la pwemye fwa sèlman. Byen konfime pou kontinye.",
+        "jsDeclined": "Oke! Petèt pita."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Non ou",
+          "placeholder": "Antre non konplè ou"
+        },
+        "email": {
+          "label": "Imel",
+          "placeholder": [
+            "Imèl ki anrejistre ou",
+            "Antre nan imèl ou"
+          ]
+        },
+        "password": {
+          "label": "Modpas",
+          "placeholder": [
+            "Modpas ou",
+            "Antre nan yon modpas"
+          ]
+        },
+        "rememberLogin": "Sonje koneksyon",
+        "forgotPwd": "Bliye modpas?",
+        "connectUsing": "Oswa, konekte lè l sèvi avèk",
+        "useSavedAccount": "Sèvi ak kont sove",
+        "lastLogin": "Dènye login",
+        "needAccount": "Bezwen yon kont?",
+        "resetPwdSuccess": "Ou ka itilize nouvo modpas ou a konekte kounye a",
+        "jsEnterFullName": "Tanpri antre non konplè ou.",
+        "jsEnterValidName": "Tanpri antre nan yon non valab.",
+        "jsEnterValidEmail": [
+          "Tanpri antre nan yon imèl ki valab.",
+          "Imèl la gen karaktè envalid. Tanpri antre nan yon imèl ki valab."
+        ],
+        "jsSelectCountryCode": "Tanpri chwazi kòd peyi ou nan lis",
+        "jsEnterMobile": "Tanpri antre nimewo mobil ou.",
+        "jsEnterValidMobile": "Tanpri antre nan yon nimewo mobil ki valab",
+        "jsEnterPwd": "Tanpri antre nan modpas ou!",
+        "jsEnterValidPwd": [
+          "Modpas gen karaktè envalid. Tanpri antre nan yon modpas ki valab.",
+          "Password ta dwe at omwen {num} karacters."
+        ],
+        "jsAccountSuccess": "Kont kreye avèk siksè",
+        "jsFbError": "Pa t 'kapab jwenn detay kont Facebook ou. Tanpri eseye ankò.",
+        "jsPromptClosedErr": "Login te fèmen anvan fini. Tanpri eseye ankò."
+      },
+      "gotoSignup": "Goto enskri",
+      "alreadyHasAccount": "Deja gen yon kont?",
+      "gotoLogin": "Goto Login",
+      "gotoProfile": "Goto Profil",
+      "msgForAuthUser": "<p>Nou panse ke ou te ateri isit la pa erè, menm jan ou deja louvri sesyon an.</p> <p>Ou ka tcheke pwofil ou a wè ki jan li sanble, oswa itilize youn nan lyen ki anba yo browse lòt seksyon:</p>",
+      "jsLoggedOut": "Ou te louvri sesyon an deyò.",
+      "jsLogoutHeading": "Logout soti nan kont?",
+      "jsLogoutText": "Sa a pral efase enfòmasyon an sove lokalman ki pèmèt antre nan <b>byen vit</b>. Kontinye?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Install Bazm { platform }",
+          "desc": "Download app android pou yon eksperyans pi bon, kontni pèsonalize, notifikasyon ak tout bagay nan enterè ou soti nan bò kote ou! -Enstale rakoursi app (makè) jwenn aksè nan li dirèkteman nan ekran lakay ou pwochen fwa pou yon eksperyans pi bon! Li apèn pran nenpòt espas sou aparèy ou an, men ede ou jwenn tounen sou app a byen vit.",
+          "cta": {
+            "action": "Enstale",
+            "skip": "petèt pita"
+          }
+        },
+        "prompt": {
+          "heading": "Enstale Bazm rakoure?"
+        },
+        "popover": {
+          "text": "Klike sou ikòn nan Pataje (sanble yon sèl sou bò dwat la) <strong>ANBA</strong> a ak Lè sa a, klike <strong>sou ajoute nan ekran kay la</strong>. Klike sou \"Sove\" fini, ak Lè sa a, ou ka jwenn aksè nan app a soti nan rakoursi sou ekran kay ou!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Ki jan eksperyans ou byen lwen tèlman?",
+        "text": "<p>Èske ou renmen nouvo app a? Èske gen yon bagay nou ka amelyore? Tanpri ede nou ak fidbak ou a amelyore eksperyans nan pou ou!</p> <p>Sa a ta pran sèlman kèk minit, epi nou trè apresye tan ou!</p>",
+        "cta": "Bay fidbak",
+        "dismiss": "petèt pita"
+      },
+      "advertise": {
+        "heading": "Piblisite sou Bazm",
+        "text": "<p>Rive nan dè milyon de mizilman Shia atravè mond lan ak pwodwi ou sou Bazm oswa angaje ak mak ak itilizatè yo.</p> <p>Kòmanse pou osi ba ke $ 1 / jou!</p>",
+        "cta": "Aprann plis"
+      },
+      "upgradeSafari": {
+        "header": "Eksperyans limite sou Safari",
+        "description": "<strong>Navigatè sa a (Safari) pa optimisé pou eksperyans nan pi bon</strong>. Pa kontinye sèvi ak app nou an isit la, ou pral manke soti sou yon kantite karakteristik notifikasyon alèt sa yo, tou pre pa dènye nouvèl, mòd offline ak anpil plis.<br/> Nou rekòmande ou jwenn youn nan navigatè ki nan lis ki nan lis pou yon eksperyans amelyore. Klike sou nenpòt nan bouton yo download navigatè a soti nan AppStore:",
+        "ctas": {
+          "getGoogle": "Jwenn Google Chrome",
+          "getFirefox": "Jwenn Mozilla Firefox",
+          "getOpera": "Jwenn Opera Manyen",
+          "skip": "petèt pita"
+        },
+        "toast": "Pa gen pwoblem. Jiska pwochenn fwa!"
+      },
+      "cookieBanner": {
+        "header": "Sou ekonomojèn bonbon sou aparèy ou an",
+        "p1": "Nou pa magazen okenn bonbon sou {aparèy ou} men twazyèm pati apps yo itilize nan app nou an ta ka (tankou, Google Analytics). Nou olye pou yo sèvi ak depo pèmanan nan magazen nenpòt done enpòtan, ak nan pifò ka yo, sa a se chifre nan depo ak pandan transfè.",
+        "p2": "Pa kontinye sèvi ak app sa a, ou konfime ke ou pa gen okenn pwoblèm ak chwa nou yo. Pou jwenn plis enfòmasyon sou bonbon nou yo ak itilizasyon done, gade <a href='https://bazm.in/privacy-policy's sib='_blank'>Privacy Règleman.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Rezo Sosyal App pou mizilman Shia atravè mond lan! Telechaje app a jodi a.",
+      "home": {
+        "title": "Bazm - Sou entènèt Shia app kominote!",
+        "description": "App bazm se app a Shia kominote ki satisfè tout bezwen chak jou ou nan deen &mazhab. Jwenn Nauhe, Majalis, Dua, Aamaal, Ziyarat, Liv, elatriye pou tout dat ak okazyon. Gade epi fè evènman ap viv-kouran ak majalis ak Shia-Mizilman atravè mond lan soti nan konvenyans nan kay ou. Antre nan jodi a!"
+      },
+      "feed": {
+        "title": "Jwenn kontni pwepare ak pataje ak kominote shia bò kote ou ak mond lan",
+        "description": "Jwenn ak pataje nouvèl, evènman, ak kontni ak shia momineen alantou, epi kenbe yo enfòme sou nenpòt evènman w ap hosting. Aprann sou anyen k ap pase tou pre ou sou app a."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal ak pi plis pou ou!",
+        "description": "Jwenn Nauhe, Majalis, Dua, Aamaal, ziyarat ak anpil plis pou tout dat ak okazyon. Gade epi fè ap viv-kouran majalis soti nan konvenyans nan kay ou! Antre nan app rezo sosyal la Shia ki ede ou ak travay woutin nan deen &mazhab. Antre nan jodi a!"
+      },
+      "toolsHome": {
+        "title": "Bazm - chak jou alam Azaan, kesyon-repons ak zouti pou mizilman Shia",
+        "description": "Jwenn rapèl chak jou pou Adhan, jwenn - poze kesyon-repons sou sijè de deen - islam, oswa mande Surah-fatiha oswa Namaz-e-Wahshat pou marhumeen ou, ak plis zouti sou Bazm. Antre nan app rezo sosyal Shia ki ede ou ak travay woutin nan deen. Jwenn Nohe /Nauhe, Majalis, Dua, Aamaal, Ziyarat pou tout dat ak okazyon. Evènman ap viv-kouran ak majalis nan konvenyans nan kay ou. Antre nan jodi a!"
+      },
+      "tasbeehCounter": {
+        "title": "Kontrefè tasbe otomatik ak Vwa __ Tasbeeh Konte zouti",
+        "description": "Resite inonbrabl tabèn se kounye a pi fasil ak konte tab odyo nou yo. Resite tab ou pandan w ap kondwi oswa travay, toujou kenbe tras nan konte a ak kontwa vwa. Jwenn zouti sa a ak lòt moun tankou li sou App Bazm Download jodi a."
+      },
+      "accountHome": {
+        "title": "Bazm - Kreye kont gratis ou jodi a epi pou yo jwenn èd ak bezwen chak jou ou nan deen!",
+        "description": "Antre nan app Bazm la jodi a satisfè tout bezwen ou yo deniyat. Jwenn nohe /nauhe, majalis, dua, ziyarat, aamaal pou tout dat ak okazyon. Viv-kouran epi gade majalis & evènman nan bò kote ou; jwenn posts, kontni ak momine soti nan bò kote ou ak mond lan, ak anpil plis sou app a Join jodi a!"
+      },
+      "nauheListPage": {
+        "title": "Koute Nauhe soti nan popilè nauhakhwan atravè mond lan",
+        "description": "Koute vaksen soti nan tout ane ak tout popilè nauhakhwan soti nan atravè mond lan sou Bazm app. Download jodi a."
+      },
+      "soazListPage": {
+        "title": "Koute Soaz soti nan popilè Soazkhwan atravè mond lan",
+        "description": "Koute Soaz soti nan tout ane ak tout popilè Soazkhwan soti nan atravè mond lan sou baz app. Download jodi a."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Find plis nauhe, audio/video majalis, dua, ziyarat, aamaal, elatriye on Bazm",
+        "description": "Jwenn odyo / videyo majalis soti nan Maulana ak Zakir-e-Ahlbayt soti nan tou pre ou ak atravè mond lan. Koute epi gade dènye majalis ak sesyon livestream sou app Bazm. Telechaje app a jodi a epi rantre nan dè milyon de Shi'a mizilman atravè mond lan!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas ak aamaal pou mwa a nan {mwa} on Bazm - Jwenn plis nauhe, odyo/videyo majalis, dua, ziyarat, aamaal, elatriye on Bazm",
+          "Duas ak amaal pou tout mwa sou Bazm - Jwenn plis nauhe, odyo / videyo majalis, dua, ziyarat, aamaal, elatriye sou Bazm"
+        ],
+        "description": "Jwenn duas, aamaal, ziyarat ak munajat pou tout mwa sou Bazm, dat ak evènman ki gen bon sans. Telechaje app a jodi a epi rantre nan dè milyon de Shi'a mizilman atravè mond lan!"
+      }
+    }
+  }
+}

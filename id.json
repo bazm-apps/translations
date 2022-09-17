@@ -1,1 +1,809 @@
-undefined
+{
+  "id": {
+    "common": {
+      "refresh": "Tarik untuk menyegarkan",
+      "refreshing": "Menyegarkan...",
+      "loadingMore": "Memuat lebih banyak ...",
+      "checking": "Memeriksa...",
+      "sendOtp": "Mengirim OTP..",
+      "dismiss": "Mengabaikan",
+      "invite": "Mengundang",
+      "showMore": "Tampilkan lebih banyak | Lihat lebih banyak",
+      "play": "Bermain",
+      "pause": "Berhenti",
+      "playing": "Bermain",
+      "paused": "Berhenti",
+      "watch": "Menonton",
+      "read": "Membaca",
+      "authors": "Penulis | Penulis",
+      "languages": "Bahasa | Bahasa",
+      "clear": "Jelas",
+      "cancel": "Membatalkan",
+      "change": "Ubah",
+      "continue": "Terus",
+      "select": "Pilih",
+      "saveChanges": "Simpan perubahan | Simpan | Perbarui",
+      "newBadge": "Baru",
+      "login": "Login",
+      "logout": "Logout",
+      "signup": "Tandatangan",
+      "settings": "Pengaturan",
+      "cookiePolicy": "Kebijakan cookie",
+      "privacy": "Privasi",
+      "contactUs": "Hubungi",
+      "home": "Rumah",
+      "facebook": "Situs Web",
+      "google": "Google (dalam bahasa Inggris",
+      "you": "Kamu",
+      "retry": "Pengulangan",
+      "send": "Kirim",
+      "submit": "Tunduk",
+      "share": "Bagikan | Bagikan sekarang",
+      "at": "di",
+      "untilNextTime": "Tidak ada masalah. Sampai nextTime!",
+      "plzWait": "Harap tunggu..",
+      "saving": "Menyimpan.. | Memperbarui..",
+      "search": "Mencari",
+      "late": "Terlambat",
+      "done": "Selesai",
+      "featureUnavailable": "Fitur ini akan segera tersedia. Terima kasih telah menunjukkan minat!",
+      "actions": {
+        "cancel": "Membatalkan",
+        "notify": "Memberitahu",
+        "like": "Suka",
+        "recited": "Dibacakan",
+        "comment": "Komentar",
+        "reply": "Jawab",
+        "bookmark": "Tandai",
+        "uploading": "Meng..",
+        "deleting": "Menghapus..",
+        "requesting": "Meminta..",
+        "audienceHeader": "Momineen yang {action}d | Momineen yang {action}d ini",
+        "jsShareFileTypeError": "Maaf, Anda tidak dapat berbagi file {fileType} di sini",
+        "jsUpdateAvailable": {
+          "header": "Pembaruan tersedia",
+          "message": "Anda melihat versi aplikasi yang di-cache.",
+          "cta": "Refresh"
+        },
+        "jsImgUploaded": "Gambar berhasil diunggah!",
+        "jsImgUploadErr": "Unggahan gambar gagal. Silakan coba lagi nanti."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Layanan tidak tersedia saat ini. Silakan coba lagi nanti.",
+        "unknown": "Terjadi kesalahan yang tidak diketahui. Silakan coba lagi nanti.",
+        "general": "Terjadi kesalahan saat memproses permintaan Anda. Silakan coba lagi nanti."
+      },
+      "content": {
+        "unavailable": "Tidak dapat memuat konten saat ini. Silakan coba lagi sebentar lagi.",
+        "itemDetailUnavailable": "Tidak dapat menemukan detail untuk {item} ini",
+        "loadMoreError": "Gagal memuat lebih banyak item. Silakan coba lagi nanti."
+      },
+      "url": {
+        "invalid": "URL tidak valid. Silakan coba dengan URL baru."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Rumah"
+      },
+      "postDetail": {
+        "commonTitle": "Detail",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Gambar profil",
+        "bannerUpdateTitle": "Gambar Sampul (Tidak digunakan lagi)",
+        "statusUpdateTitle": "Pembaruan status"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Rumah",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Bagikan permintaan ini di seluruh jaringan Anda dan jangkau lebih banyak orang!"
+          }
+        }
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Buku"
+        },
+        "inviteFriends": "undang teman Anda",
+        "notShia": "Bukan Syiah?",
+        "contacts": {
+          "accessRequestHeader": "Akses Kontak diperlukan",
+          "accessRequestDesc": "Kami memerlukan akses kontak Anda untuk menyarankan orang-orang Syiah di buku telepon Anda untuk diundang ke aplikasi ini."
+        },
+        "audio": "Audio",
+        "video": "Video",
+        "hijri": "Hijriah",
+        "duaHome": {
+          "wishCtaText": "Semoga teman-teman Anda!",
+          "wishCtaLabel": "MAU"
+        },
+        "books": {
+          "booksByAuthor": "Buku oleh {penulis}",
+          "booksInLang": "Buku-buku dalam {lang}",
+          "filterBy": "Filter oleh:",
+          "matching": {
+            "authors": "dengan penulis yang cocok",
+            "lang": "dengan pencocokan bahasa",
+            "title": "dengan pencocokan judul"
+          }
+        },
+        "booksFilter": {
+          "title": "Temukan buku berdasarkan penulis",
+          "searchBox": "Cari penulis berdasarkan nama",
+          "selectLang": "Pilih bahasa:"
+        },
+        "bookDetails": {
+          "title": "{title} — Temukan lebih banyak buku gratis seperti ini di Bazm",
+          "aboutBook": "Tentang buku:"
+        }
+      },
+      "tools": {
+        "name": "Perkakas",
+        "salatAlarmDesc": "Setel alarm untuk Azaan sesuai waktu setempat Anda",
+        "sehriAlarmDesc": "Setel Alarm untuk Sehri, atau bahkan dapatkan panggilan bangun di nomor Anda sebelum Sehri!",
+        "sehriAlarmOptionDisabled": "Alarm untuk waktu Sheri selama bulan Ramadhan (hanya tersedia selama Ramadhan)",
+        "tasbeehCounterDesc": "Ucapkan Duas, Quran dan Tasbeeh pada mode ulangi dengan mudah dengan penghitung Audio Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Cari dan Ajukan pertanyaan atau temukan jawaban masle-masayel dari kehidupan sehari-hari Anda tentang masalah Islam.",
+        "alarms": {
+          "salatAlarms": "Alarm Salat | Alarm Salat Harian",
+          "sehriAlarms": "Alarm Sehri Ramadhan",
+          "gettingLocation": "Mendapatkan lokasi Anda. Harap tunggu...",
+          "settingsTip": "Ubah <b>Lokasi</b> dan preferensi di pengaturan Alarm. Klik ikon Pengaturan untuk memulai.",
+          "setAlarmHeader": "Setel Alarm Harian",
+          "setAlarmOnAppDesc": "Mengatur alarm hanya tersedia di aplikasi",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Matahari terbenam",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Tengah malam",
+          "sehriEndTime": "Saatnya berakhirnya Sehri",
+          "minToImsak": [
+            "{min} menit sebelum Imsak",
+            "{jam} jam sebelum Imsak"
+          ],
+          "minToImsakDesc": [
+            "Alarm berbunyi {min} menit sebelum akhir waktu Sehri",
+            "Alarm berbunyi {jam} jam sebelum akhir waktu Sehri"
+          ],
+          "notRamadan": "Sepertinya ini belum Ramadhan. Silakan kembali selama atau tepat sebelum Ramadhan untuk mengatur Alarm untuk Sehri",
+          "push": {
+            "heading": "Akses notifikasi diperlukan",
+            "desc_request": "Alarm bekerja dengan mengirimkan pemberitahuan push pada waktu yang ditentukan. Tanpa akses ke push, aplikasi tidak akan berfungsi dengan cara yang diharapkan. Mohon izinkan akses ke pemberitahuan push Anda sehingga kami dapat memberi tahu Anda pada waktu-waktu alarm.",
+            "desc_denied": "<strong>Anda menolak akses notifikasi sebelumnya.</strong> Diperlukan agar pemberitahuan push berfungsi dengan baik. Kami mengirim pemberitahuan pada waktu alarm.<br/> Mohon izinkan akses ke pemberitahuan push dengan mengklik tombol.",
+            "cta": "Memperbolehkan",
+            "toast_granted": "Terima kasih! Anda akan mendapatkan pemberitahuan pada waktu-waktu alarm sekarang.",
+            "toast_denied": "Permintaan pemberitahuan ditolak. Harap izinkan akses aplikasi berfungsi dengan baik.",
+            "toast_prompt": "Anda perlu mengizinkan akses pemberitahuan untuk mengatur alarm."
+          },
+          "jsAlarmSetSuccess": "Alarm berhasil diatur",
+          "jsAlarmSetError": "Kesalahan dalam mengatur alarm. Silakan coba lagi nanti.",
+          "jsAlarmSnoozed": "Alarm diendus selama 10 menit"
+        },
+        "alarmSetting": {
+          "title": "Pengaturan Alarm",
+          "locationTitle": "Temukan kota untuk pengaturan waktu alarm",
+          "forLocation": "Alarm untuk lokasi",
+          "calcMethod": "Metode perhitungan",
+          "selectAdhanSound": "Pilih suara Adzan",
+          "selectAlarmSound": "Pilih Suara alarm",
+          "alarmSoundDesc": "Suara untuk waktu non-salat",
+          "timesPeekHeading": "Spanduk waktu tampilan",
+          "timesPeekDesc": "Anda dapat menonaktifkan tampilan tampilan cepat waktu untuk Salat di sini:",
+          "timesPeekHome": "Tampilkan di halaman feed:",
+          "timesPeekTools": "Tampilkan di halaman alat:",
+          "jsConfirmLocChange": "Mengubah lokasi Anda akan membatalkan semua alarm yang disetel sebelumnya. Terus?",
+          "jsOtherSettingsSaved": "Pengaturan lain disimpan. Lokasi tidak berubah."
+        },
+        "qna": {
+          "title": "Pertanyaan-Jawaban",
+          "qnaSource": "Sumber",
+          "seeAnswer": "Lihat jawaban",
+          "noAnswer": "Tidak ada jawaban"
+        },
+        "qnaDetail": {
+          "title": "Jawaban untuk: {ques}",
+          "jsSubmitSuccess": "Pertanyaan Anda telah berhasil diajukan. Kami akan memperbarui Anda setelah kami menerima jawabannya."
+        },
+        "tasbeehCounter": {
+          "title": "Konter Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Pengguna | Akun",
+        "editProfile": "Edit Profil",
+        "publishToFeed": "Memublikasikan perubahan saya ke feed",
+        "shareUpdateToFeed": "Juga bagikan pembaruan ini ke umpan saya",
+        "statusText_ph": "Gunakan pemformatan _italics_ atau *bold* untuk menghias status Anda",
+        "statusCharsLeft": "{count} karakter kiri",
+        "jsImgUploadSuccess": "Gambar berhasil diunggah!",
+        "unauthAccess": {
+          "heading": "Apakah Anda yakin berada di tempat yang tepat?",
+          "desc": "<p>Sepertinya Anda mencoba mengakses halaman yang tidak Anda miliki izinnya. Jika Anda mencoba mengakses halaman yang telah Anda akses sebelumnya, coba masuk; yang seharusnya menyelesaikan masalah.</p> <p>Jangan ragu untuk menghubungi kami jika masalah berlanjut.</p>"
+        },
+        "guest": {
+          "welcome": "Selamat datang, <strong>Tamu!</strong>",
+          "heading": "Mengapa Login atau Registrasi?",
+          "desc": "Dengan akun di aplikasi kami, Anda dapat menggunakan sejumlah fitur. Mulailah dengan membuat akun, jika Anda belum memiliki akun. Atau, login saja!",
+          "unlockHeading": "buka kunci berikut dengan akun:",
+          "features": {
+            "engage": {
+              "heading": "Terlibat di aplikasi",
+              "desc": "Terlibat dengan pengguna lain, bereaksi terhadap posting atau permintaan mereka, komentari pendapat Anda, bookmark item Anda, dan banyak lagi!"
+            },
+            "fatiha": {
+              "heading": "Posting Permintaan Fatiha",
+              "desc": "Posting permintaan untuk Surah-e-Fatiha untuk jiwa orang-orang terkasih Anda yang telah meninggal dan dapatkan jiwa mereka diberkati dengan doa dari semua pengguna kami!"
+            },
+            "askQues": {
+              "heading": "Ajukan Pertanyaan",
+              "desc": "Ajukan pertanyaan dari Deen &Duniya tentang berbagai topik yang akan dijawab oleh tokohnya, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "konten yang disukai",
+              "desc": "Selalu lihat konten dan setelan pilihan Anda saat Anda masuk ke akun Anda. Juga, dapatkan pemberitahuan untuk semua hal menarik!"
+            },
+            "personalized": {
+              "heading": "berbagi yang dipersonalisasi",
+              "desc": "Atur berbagi konten yang dipersonalisasi dengan tanda tangan Anda sehingga teman Anda tahu kapan Anda membagikan pesan/postingan."
+            }
+          }
+        },
+        "about": {
+          "title": "Sekitar",
+          "jsStatusUpdateFail": "Gagal memperbarui status. Silakan coba lagi nanti."
+        },
+        "posts": {
+          "title": "Posting",
+          "userNoPosts": "Ketika Anda mengubah gambar / gambar sampul Anda, atau ketika Anda meminta surah-fatiha untuk orang yang Anda cintai yang telah meninggal, posting ini akan muncul di sini dan di tab <b>Beranda</b> (orang lain juga). Coba tambahkan gambar atau gambar sampul?",
+          "profileNoPosts": "{name} belum membuat postingan apa pun."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} belum ditambahkan marhumeen | Anda belum menambahkan marhumeen",
+            "marhumeenAdded": "{name} telah ditambahkan mengikuti marhumeen | Anda telah menambahkan mengikuti marhumeen"
+          },
+          "jsDeleteHeader": "Kamu yakin?",
+          "jsDeletePrompt": "Menghapus catatan untuk <b>{fullName}</b> juga akan menghapus semua permintaan sebelumnya yang dibuat untuk {gender}! Terus?",
+          "jsDeleted": "Catatan yang dihapus untuk {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Login ke akun Anda",
+        "createAccount": "Buat akun"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Langkah berikutnya",
+        "goBack": "Kembali",
+        "confirm": "Mengkonfirmasi"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Lokasi tidak tersedia. Silakan atur dengan mengklik ikon untuk melihat tampilan cepat Salat-times.",
+          "unknownError": "Terjadi kesalahan. Tidak dapat memuat waktu pada saat ini."
+        }
+      },
+      "langPrompt": {
+        "title": "Gunakan aplikasi di {langLabel}?",
+        "desc": {
+          "p1": "Sepertinya Anda mengakses aplikasi dari {countryName}. Apakah Anda ingin melihat konten dan kontrol dalam salah satu bahasa berikut yang digunakan di wilayah ini? Klik pilihan Anda dan kemudian klik 'Simpan' untuk melanjutkan.",
+          "p2": "Atau, tutup popup ini untuk terus menggunakan aplikasi dalam bahasa default."
+        },
+        "choices": {
+          "useLang": [
+            "Ya, gunakan {langName}",
+            "Gunakan {langName}"
+          ],
+          "useEngling": "Lanjutkan dalam bahasa Inggris"
+        },
+        "langError": "Terjadi kesalahan saat memuat terjemahan untuk {langName}. Silakan coba lagi nanti."
+      },
+      "createPost": {
+        "heading": "Tentang apa hari ini?",
+        "desc": "Klik di sini untuk membagikan pembaruan atau menggunakan opsi dari bawah",
+        "request": "Minta",
+        "askQues": "Ajukan Pertanyaan",
+        "sheetOptions": {
+          "header": "Membuat permintaan",
+          "subheader": "Buat permintaan dari momineen untuk marhumeen Anda atau diri Anda sendiri.",
+          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat di Zari-e-Imam Husain (a.s.) atas nama Anda"
+        },
+        "modal": {
+          "titles": {
+            "post": "Buat Posting | Perbarui Posting",
+            "livestream": "Streaming langsung",
+            "hadiyah": "Buat Hadiyah | Update Hadiyah"
+          },
+          "postCta": "Posting | Perbarui",
+          "stream": {
+            "scheduleCta": "Simpan untuk nanti | Mulai Streaming"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Kepada siapa Anda ingin menghadiahkan ini?",
+              "addPeopleToggle": "Biarkan orang lain menjadi bagian dari sawab ini juga!",
+              "searchInput": "Undang momimeen dari Bazm atau daftar Kontak Anda",
+              "minUsersHeader": "Ingin menetapkan jumlah minimum yang harus dipilih peserta?",
+              "minUsersInput": "Masukkan angka minimum"
+            }
+          },
+          "postTime": [
+            "Kapan itu?",
+            "Kapan Anda ingin memulai streaming?"
+          ],
+          "whereIsIt": "Dimana itu?",
+          "findLocation": "Temukan lokasi",
+          "locationSubtext": "Menambahkan lokasi ke postingan Anda",
+          "addLocation": "Tambahkan lokasi",
+          "addPics": "Menambahkan gambar ke postingan Anda",
+          "previewDes": "Ini adalah bagaimana posting Anda akan muncul di feed orang lain. Orang-orang dapat mengetuk video untuk melihatnya dalam layar penuh.",
+          "addToPost": "Tambahkan ke {postType} (opsional)",
+          "jsImgUploadFail": "Gambar tidak diunggah",
+          "jsAddDetailToPost": "Silakan tambahkan detail ke posting Anda",
+          "jsValidEndDate": "Silakan pilih tanggal akhir yang valid",
+          "jsSetLocation": "Silakan atur lokasi untuk posting",
+          "jsRemLocation": "Silakan atur lokasi atau hapus bagian itu",
+          "jsAddImg": "Silakan tambahkan gambar atau hapus bagian itu",
+          "jsInvalidDate": [
+            "Harap tetapkan tanggal mulai yang valid ",
+            "Harap tetapkan tanggal mulai yang valid atau hapus bagian itu"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Komentar",
+        "loadPrevious": "Muat komentar sebelumnya | Muat balasan sebelumnya",
+        "replyingTo": "Membalas:",
+        "noComments": "Belum ada komentar di posting ini",
+        "textboxPlaceholder": "Tulis komentar Anda di sini",
+        "requestToLogin": "Login atau Daftar untuk memulai diskusi"
+      },
+      "post": {
+        "addressYou": "Kamu",
+        "addressing": "milikmu | miliknya | dia",
+        "itemTypes": {
+          "avatar": "gambar avatar",
+          "banner": "gambar spanduk",
+          "status": "status profil"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> diperbarui {pengalamatan} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> meminta surah-fatiha untuk {addressing} {relasi}",
+            "<strong>{username}</strong> meminta surah-fatiha & namaz-e-wahshat untuk {addressing} {relasi}"
+          ]
+        },
+        "dateUntil": "Sampai: {date} pada {time}",
+        "privatePost": "Posting ini hanya dapat dilihat oleh Anda",
+        "descZiyaratRequest": "Anda meminta Ziyarat untuk dilakukan atas nama Anda di *haram* Imam Husain (a.s.) pada *{tanggal}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Permintaan Surah-al-fatiha",
+          "addUpdate": [
+            "Perbarui orang yang dicintai",
+            "Tambahkan orang yang dicintai"
+          ]
+        },
+        "heading": [
+          "Tambahkan orang yang dicintai yang telah meninggal",
+          "Pilih orang yang dicintai dari daftar atau tambahkan orang yang dicintai yang telah meninggal"
+        ],
+        "addNew": "Tambahkan Baru",
+        "subheader": [
+          "Tambahkan detail orang yang Anda cintai",
+          "Anda juga dapat menyertakan pesan dalam permintaan Anda"
+        ],
+        "form": {
+          "jsAddImg": "Tambahkan gambar untuk orang yang Anda cintai",
+          "jsRemoveImg": "Hapus gambar",
+          "fullName": "Nama Lengkap Almarhum",
+          "name_ph": "Misalnya, Syed Zeeshan Haider Abidi",
+          "fathersName": "Nama Ayah (Jika tersedia)",
+          "father_ph": "Misalnya, Syed Tauqeer Husain",
+          "nameError": "Silakan masukkan nama lengkap dengan karakter khusus apa pun",
+          "genderLabel": "Jenis kelamin",
+          "genderValue": [
+            "Perempuan",
+            "Laki-laki"
+          ],
+          "relation": [
+            "Marhooma adalah milikmu",
+            "Marhoom adalah milikmu"
+          ],
+          "selectRelation": "Pilih Relasi",
+          "demiseLabel": "Mati hari ini? Minta Namaz-e-Wahshat",
+          "demiseText": "Kami sangat menyesal mendengar tentang kehilangan Anda. Semoga Allah memberi Anda dan keluarga Anda kekuatan untuk menanggung kehilangan ini dengan kesabaran dan semoga Allah membalas jiwa yang telah meninggal dengan tempat tertinggi di Jannah. Memilih opsi ini memungkinkan Anda untuk meminta momineen untuk Namaz-e-Wahshat untuk jiwa yang mati.",
+          "optional": "Fakultatif",
+          "dod": "Meninggal dunia pada",
+          "dob": "Lahir pada"
+        },
+        "relation": [
+          "Putri dari",
+          "Putra dari"
+        ],
+        "born": "Lahir:",
+        "died": "Meninggal:",
+        "addMsg": "Ingin menambahkan pesan?",
+        "remainingChars": "Karakter: {count} | Karakter: {count} yang tersisa",
+        "infoEditRelative": "Anda dapat mengedit detail untuk {nama} di bagian <b>Akun > Marhumeen</b> Anda",
+        "saveRequestCta": [
+          "Simpan & Minta",
+          "Minta"
+        ],
+        "addUpdate": "Tambahkan | Perbarui",
+        "jsRequesting": "Meminta..",
+        "jsAddSuccess": [
+          "Menambahkan orang yang Anda cintai dengan sukses!",
+          "Perbarui orang yang Anda cintai dengan sukses!"
+        ],
+        "jsAddFail": "Gagal menambahkan orang yang Anda cintai. Silakan coba lagi nanti.",
+        "jsReqSuccess": "Permintaan yang diajukan dengan sukses.",
+        "jsGettingMarhumeen": "Mendapatkan marhumeen Anda.."
+      },
+      "askQues": {
+        "title": "Ajukan pertanyaan",
+        "form": {
+          "quesLabel": "Pertanyaan Anda",
+          "quesLabel_ph": "Cari pertanyaan atau tanyakan pertanyaan Anda sendiri",
+          "similarQues": "Pertanyaan-pertanyaan ini mungkin sudah memiliki jawaban yang Anda cari.",
+          "quesTextHeader": "Pertanyaan Anda:",
+          "selectCat": "Atur Kategori Pertanyaan:",
+          "askAnonLabel": "Tanyakan Secara Anonim?",
+          "askAnonInfo": "Nama Anda tidak akan dikirim ke Cendekiawan saat meminta jawaban atas nama Anda, juga tidak akan ditampilkan di seluruh aplikasi kami dengan pertanyaan ini. Tetapi pertanyaan anonim mungkin tidak dijawab dengan cepat.",
+          "askViaLabel": "Tanyakan Melalui",
+          "askSistaniInfo": "Anda dapat mengajukan pertanyaan untuk dijawab oleh kantor terkemukanya, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Kami akan meneruskan pertanyaan tersebut ke situs web mereka (bersama dengan informasi profil Anda). Pastikan Anda telah membaca <b>Syarat &Ketentuan</b> dengan benar.",
+          "tncLabel": "Syarat &Ketentuan:",
+          "showHide": [
+            "Memperlihatkan",
+            "Menyembunyikan"
+          ],
+          "sistaniOrgTncInfo": "Pertimbangkan poin-poin berikut dari situs web mereka sebelum Anda mengajukan pertanyaan, karena jika Anda tidak mematuhi poin-poin di bawah ini, Anda mungkin tidak mendengar kabar dari mereka, atau mungkin tidak menerima jawaban apa pun.",
+          "userInfo": {
+            "aboutLabel": "Tentang Anda",
+            "genderLabel": "Jenis kelamin Anda",
+            "bdayLabel": "Ulang tahunmu",
+            "bdayDesc": "Anda dapat mengajukan pertanyaan hanya jika Anda berusia di atas 09 tahun. Jika Anda masih tertarik, silakan hubungi kami."
+          },
+          "jsQuesAdded": "Pertanyaan berhasil ditambahkan."
+        },
+        "askQuesCta": "Ajukan pertanyaan Anda"
+      },
+      "authPrompt": {
+        "title": "Akun yang diperlukan",
+        "defLabel": "Login atau Daftar untuk melanjutkan",
+        "infoText": "Fitur ini mengharuskan Anda untuk masuk atau mendaftar sebelum Anda dapat menggunakannya. Klik <b>Login</b> jika Anda sudah terdaftar, atau klik <b>Daftar</b> untuk membuat akun Anda."
+      },
+      "location": {
+        "title": "Ubah Lokasi",
+        "search_ph": "Cari lokasi Anda",
+        "autoDetectInfo": "Masukkan lokasi Anda atau klik ikon deteksi otomatis untuk mendapatkan lokasi Anda.",
+        "setLocation": "Atur lokasi",
+        "ipAddress": "Alamat IP",
+        "alarmLocation": "Lokasi alarm",
+        "basedOn": "Lokasi berdasarkan {pemilih} Anda",
+        "jsDetecting": "Mendeteksi, harap tunggu..",
+        "jsPermDenied": "Izin lokasi ditolak untuk aplikasi. Silakan atur ulang preferensi lokasi untuk aplikasi ini dengan mengunjungi bagian Pengaturan di ponsel Anda.",
+        "jsPosUnavailable": "Maaf, tetapi posisi tidak tersedia untuk ponsel ini sekarang. Silakan coba lagi nanti.",
+        "jsMatchNotFound": "Tidak dapat menemukan lokasi yang cocok..",
+        "jsEnterValidLoc": "Silakan masukkan lokasi yang valid",
+        "jsGeoUnavailable": "Maaf, tetapi posisi tidak tersedia untuk ponsel ini sekarang. Silakan coba lagi nanti.",
+        "jsLocMissing": "Tidak dapat menemukan lokasi Anda. Silakan masukkan lokasi secara manual.",
+        "jsSelectedLoc": "Ada kesalahan dengan lokasi ini. Silakan coba lagi"
+      },
+      "readText": {
+        "ctaLabel": "Membaca",
+        "title": "Dua: {judul}",
+        "arabicCta": "Arab",
+        "englishCta": "Inggris",
+        "translatedCta": "Diterjemahkan"
+      },
+      "reqAccess": {
+        "heading": "akses diperlukan",
+        "subheading": "Kami memerlukan izin untuk mengakses kamera Anda",
+        "subtext": "Harap izinkan akses dengan mengklik tombol di bawah ini:",
+        "ctaLabel": "izinkan akses"
+      },
+      "shareBtn": {
+        "subtext": "Klik salah satu opsi di bawah ini untuk membagikannya di aplikasi masing-masing:",
+        "jsCopyToCB": "Disalin ke clipboard Anda",
+        "copyText": "Klik <b>ikon Salin</b> di atas untuk menyalin konten di bawah ini:"
+      },
+      "verifyMob": {
+        "title": [
+          "Verifikasi Seluler",
+          "Masukkan kode"
+        ],
+        "page1": {
+          "infoText1": "Kami memerlukan nomor ponsel Anda untuk memverifikasi identitas Anda. Anda juga mungkin mendapatkan pembaruan sesekali.",
+          "infoText2": [
+            "Masukkan nomor Anda dan klik tombol untuk mendapatkan kode konfirmasi Anda:",
+            "Masukkan nomor Anda dan klik tombol untuk mendapatkan kode konfirmasi Anda:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Nomer hp",
+          "mobileLabel_ph": "Masukkan nomor ponsel Anda",
+          "otpViaSMS": "Dapatkan melalui SMS",
+          "viaWhatsApp": "Dapatkan melalui WhatsApp",
+          "viaTelegram": "Dapatkan melalui Telegram",
+          "viaSignal": "Dapatkan melalui Signal"
+        },
+        "page2": {
+          "header": "Kami telah mengirimkan kode konfirmasi 6 digit ke nomor Anda ({nomor})",
+          "enterCodeLabel": "Masukkan Kode",
+          "enterCode_ph": "Masukkan kode 6 digit",
+          "resendCode": "Kirim Ulang Kode",
+          "notUsingMobile": "Tidak menggunakan <strong>{number}?</strong>",
+          "changeNumber": "Ubah Nomor"
+        },
+        "jsVerifySuccess": "Seluler berhasil diverifikasi",
+        "jsVerifyError": "Terjadi kesalahan. Silakan coba lagi nanti.",
+        "jsSendOtpFailed": "Gagal mengirim OTP. Silakan coba lagi nanti.",
+        "jsSendOtpSuccess": "OTP dikirim ke {mobile}",
+        "jsTooManyRequests": "Sepertinya Anda sudah mencoba terlalu sering. Harap tunggu satu atau dua menit dan coba lagi."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personalisasi pesan Berbagi",
+        "changePwd": "Ubah Kata Sandi | Atur Kata Sandi",
+        "changeLang": "Ganti Bahasa",
+        "publishToFeed": "Publikasikan perubahan saya ke feed juga."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalisasi",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Menambahkan nama saya ke pesan",
+          "sharingDesc": "Saat berbagi secara eksternal, pesan Anda mungkin terlihat seperti di bawah ini:",
+          "sharingTextDemo": [
+            "Dengarkan Nauha ini di Bazm App",
+            "{name} merekomendasikan untuk mendengarkan Nauha ini di Bazm App"
+          ],
+          "addSignDesc": "Ingin menambahkan tanda tangan Anda juga?",
+          "signDesc": "Saat Anda berbagi keinginan Anda dengan teman-teman di aplikasi ini, tanda tangan Anda akan ditambahkan ke pesan. Misalnya, mungkin muncul seperti di bawah ini:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Masukkan kata sandi yang ada:",
+          "currentPwdPH": "Masukkan Kata Sandi Saat Ini",
+          "newPwdLabel": "Masukkan kata sandi baru:",
+          "newPwdPH": "Masukkan Kata Sandi Baru"
+        },
+        "changeLang": {
+          "searchYourLang": "Cari bahasa Anda",
+          "desc": "Pilih bahasa tempat Anda ingin melihat konten aplikasi. Klik pada bahasa dan tunggu (kadang-kadang perlu memuat terjemahan) untuk melihat bagaimana frasa ini muncul dalam bahasa yang dipilih."
+        },
+        "jsPwdInvalid": "Kata sandi memiliki karakter yang tidak valid.",
+        "jsPwdCharCount": "Kata sandi tidak boleh kurang dari 8 karakter.",
+        "jsSelectLang": "Silakan pilih bahasa terlebih dahulu.",
+        "jsLangSet": "Bahasa telah diatur ke {lang}",
+        "jsPrefSaved": "Pengaturan personalisasi disimpan."
+      },
+      "forgotPwd": {
+        "title": "Lupa kata sandi?",
+        "introText": "Mengatur ulang kata sandi Anda itu mudah. Pilih metode untuk melanjutkan:",
+        "usePhoneCta": "Gunakan Telepon",
+        "useEmailCta": "Gunakan Email",
+        "sendEmailIntro": "Masukkan alamat email tempat Anda membuat akun, dan kami akan mengirim email berisi tautan untuk menyiapkan kata sandi baru untuk akun Anda.",
+        "emailInputLabel": "Email terdaftar Anda",
+        "sendEmailCta": "Kirim Reset Email",
+        "sentEmailText": "Jika Anda memiliki akun dengan kami, Anda akan segera mendapatkan email pengaturan ulang kata sandi di <strong>{email}</strong>. Silakan periksa email Anda untuk tautannya.",
+        "notUsingEmailText": "Tidak menggunakan <strong>{email}?</strong>",
+        "changeEmailCta": "Ubah Email",
+        "phoneIntroText": "Masukkan nomor telepon yang ditambahkan ke akun Anda. Kami akan mengirimkan OTP untuk memverifikasi kepemilikan Anda, dan pada langkah berikutnya, Anda akan dapat membuat kata sandi baru.",
+        "phoneInputLabel": "Nomor ponsel Anda",
+        "sendOtpCta": "Kirim OTP",
+        "backToLoginCta": "Kembali ke Login",
+        "disclaimerText": "Harap dicatat bahwa Anda akan mendapatkan {item} hanya jika Anda memiliki {item} yang terdaftar dengan kami",
+        "jsMailSent": "Email terkirim"
+      },
+      "resetPwd": {
+        "title": "Setel Ulang Kata Sandi",
+        "introText": "Tetapkan kata sandi yang aman untuk akun Anda di sini. Klik {icon} untuk memastikan bahwa Anda memasukkan kata sandi yang benar.",
+        "pwdInputLabel": "Atur kata sandi baru",
+        "pwdInputPH": "Masukkan kata sandi baru",
+        "invalidPwdChars": "Karakter tidak valid dalam kata sandi",
+        "jsResetSuccess": "Berhasil mengatur ulang kata sandi!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Gagal memuat trek. Silakan coba lagi nanti."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} berhasil dihapus.",
+        "jsErrReporting": "Tidak dapat melaporkan ini saat ini. Silakan coba lagi nanti.",
+        "jsAlreadyReported": "Anda telah melaporkan {item} ini. Anda tidak dapat melaporkannya lebih dari sekali.",
+        "jsPromptHeading": "Melaporkan item menghasilkan peluang yang lebih rendah untuk muncul di feed/halaman Anda atau orang lain. Apakah Anda masih ingin melaporkan ini?",
+        "jsReporting": "Pelaporan {itemType}..",
+        "jsReportingErr": "Tidak dapat mengirimkan permintaan Anda saat ini. Silakan coba lagi nanti.",
+        "jsReported": "{item} dilaporkan. Terima kasih atas kontribusi Anda."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Tidak ada yang perlu diperbarui!",
+        "jsProfileUpdated": "Profil diperbarui!"
+      },
+      "reqZiyarat": {
+        "title": "Permintaan Ziyarat",
+        "cta": "Minta",
+        "header": "Minta Ziyarat di Kuil Imam Husain (a.s.) di Karbala atas nama Anda.",
+        "desc": {
+          "p1": "Setiap hari Jumat, <strong>ziyarat membacakan atas nama Anda</strong> di Kuil Imam Husain (a.s.) di Karbala, Irak! Yang perlu Anda lakukan adalah membuat permintaan <strong>sebelum akhir Kamis malam</strong>. Anda tidak pernah terlambat; jika permintaan Anda terlambat masuk, itu akan didaftarkan untuk minggu berikutnya.",
+          "p2": "Kami akan memberi tahu Anda ketika ziyarat telah dibacakan atas nama Anda.",
+          "p3": "Catatan: Saat Anda meminta untuk pertama kalinya, detail Anda akan dibagikan dengan penyedia layanan kami. Silakan baca Syarat &Ketentuan kami untuk mengetahui lebih lanjut."
+        },
+        "jsRegistered": "Terima kasih! Permintaan Anda berhasil didaftarkan. Anda akan segera mendapatkan email konfirmasi.",
+        "jsAlreadyRegistered": "Anda telah mendaftar ke Ziyarat Kamis ini. Daftar minggu depan untuk ziyarat minggu depan.",
+        "jsConfirm": "Untuk mendaftar permintaan ini, kami perlu membagikan detail Anda (misalnya, nama lengkap, jenis kelamin, dll.) dengan penyedia layanan kami. Ini diperlukan untuk pertama kalinya saja. Mohon konfirmasi untuk melanjutkan.",
+        "jsDeclined": "Oke! Mungkin nanti."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Namamu",
+          "placeholder": "Masukkan nama lengkap Anda"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": [
+            "Email terdaftar Anda",
+            "Masukkan email Anda"
+          ]
+        },
+        "password": {
+          "label": "Kata sandi",
+          "placeholder": [
+            "Kata sandi Anda",
+            "Masukkan kata sandi"
+          ]
+        },
+        "rememberLogin": "Ingat login",
+        "forgotPwd": "Lupa Password?",
+        "connectUsing": "Atau, sambungkan menggunakan",
+        "useSavedAccount": "Menggunakan akun yang disimpan",
+        "lastLogin": "Login terakhir",
+        "needAccount": "Butuh akun?",
+        "resetPwdSuccess": "Anda dapat menggunakan kata sandi baru Anda untuk masuk sekarang",
+        "jsEnterFullName": "Silakan masukkan nama lengkap Anda.",
+        "jsEnterValidName": "Silakan masukkan nama yang valid.",
+        "jsEnterValidEmail": [
+          "Silakan masukkan email yang valid.",
+          "Email memiliki karakter yang tidak valid. Silakan masukkan email yang valid."
+        ],
+        "jsSelectCountryCode": "Silakan pilih kode negara Anda dari daftar",
+        "jsEnterMobile": "Silakan masukkan nomor ponsel Anda.",
+        "jsEnterValidMobile": "Silakan masukkan nomor ponsel yang valid",
+        "jsEnterPwd": "Silakan masukkan kata sandi Anda!",
+        "jsEnterValidPwd": [
+          "Kata sandi memiliki karakter yang tidak valid. Silakan masukkan kata sandi yang valid.",
+          "Kata sandi harus setidaknya {num} karakter."
+        ],
+        "jsAccountSuccess": "Akun berhasil dibuat",
+        "jsFbError": "Tidak bisa mendapatkan detail akun Facebook Anda. Silakan coba lagi.",
+        "jsPromptClosedErr": "Prompt login ditutup sebelum selesai. Silakan coba lagi."
+      },
+      "gotoSignup": "Goto Daftar",
+      "alreadyHasAccount": "Sudah punya akun?",
+      "gotoLogin": "Goto Login",
+      "gotoProfile": "Profil Goto",
+      "msgForAuthUser": "<p>Kami pikir Anda mendarat di sini secara tidak sengaja, karena Anda sudah masuk.</p> <p>Anda dapat memeriksa profil Anda untuk melihat tampilannya, atau menggunakan salah satu tautan di bawah ini untuk menelusuri bagian lain:</p>",
+      "jsLoggedOut": "Anda telah keluar.",
+      "jsLogoutHeading": "Logout dari akun?",
+      "jsLogoutText": "Ini akan menghapus informasi yang disimpan secara lokal yang memungkinkan masuk <b>dengan cepat</b>. Terus?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Instal Bazm { platform }",
+          "desc": "Unduh aplikasi Android untuk pengalaman yang lebih baik, konten yang dipersonalisasi, pemberitahuan, dan semua yang Anda minati dari sekitar Anda! | Instal pintasan aplikasi (bookmark) untuk mengaksesnya langsung dari layar beranda Anda lain kali untuk pengalaman yang lebih baik! Ini hampir tidak membutuhkan ruang apa pun di perangkat Anda tetapi membantu Anda kembali ke aplikasi dengan cepat.",
+          "cta": {
+            "action": "Pasang",
+            "skip": "Mungkin nanti"
+          }
+        },
+        "prompt": {
+          "heading": "Instal pintasan Bazm?"
+        },
+        "popover": {
+          "text": "Klik ikon Bagikan (terlihat seperti satu di sebelah kanan) <strong>DI BAWAH dan</strong> kemudian klik <strong>Tambahkan ke Layar Beranda</strong>. Klik \"Simpan\" untuk menyelesaikannya, dan kemudian Anda dapat mengakses aplikasi dari pintasan di layar beranda Anda!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Bagaimana pengalaman Anda sejauh ini?",
+        "text": "<p>Apakah Anda suka aplikasi baru? Apakah ada sesuatu yang bisa kita tingkatkan? Tolong bantu kami dengan umpan balik Anda untuk meningkatkan pengalaman bagi Anda!</p> <p>Ini hanya akan memakan waktu beberapa menit, dan kami sangat menghargai waktu Anda!</p>",
+        "cta": "Berikan umpan balik",
+        "dismiss": "Mungkin nanti"
+      },
+      "advertise": {
+        "heading": "Beriklan di Bazm",
+        "text": "<p>Jangkau jutaan muslim Syiah di seluruh dunia dengan produk Anda di Bazm atau terlibat dengan merek dan pengguna.</p> <p>Mulailah dengan harga serendah $1/hari!</p>",
+        "cta": "Pelajari lebih lanjut"
+      },
+      "upgradeSafari": {
+        "header": "Pengalaman terbatas di Safari",
+        "description": "<strong>Browser ini (Safari) tidak dioptimalkan untuk pengalaman terbaik</strong>. Dengan terus menggunakan aplikasi kami di sini, Anda akan kehilangan sejumlah fitur seperti pemberitahuan peringatan, dekat dengan pembaruan, mode offline, dan banyak lagi.<br/> Kami menyarankan Anda untuk mendapatkan salah satu browser yang tercantum di bawah ini untuk pengalaman yang lebih baik. Klik salah satu tombol untuk mengunduh browser dari AppStore:",
+        "ctas": {
+          "getGoogle": "Dapatkan Google Chrome",
+          "getFirefox": "Dapatkan Mozilla Firefox",
+          "getOpera": "Dapatkan Opera Touch",
+          "skip": "Mungkin nanti"
+        },
+        "toast": "Tidak ada masalah. Hingga lain waktu!"
+      },
+      "cookieBanner": {
+        "header": "Tentang menyimpan Cookie di perangkat Anda",
+        "p1": "Kami tidak menyimpan cookie apa pun di {perangkat} Anda, tetapi aplikasi pihak ketiga yang digunakan dalam aplikasi kami mungkin (seperti, Google Analytics). Kami malah menggunakan penyimpanan permanen untuk menyimpan data penting apa pun, dan dalam banyak kasus, ini dienkripsi dalam penyimpanan dan selama transfer.",
+        "p2": "Dengan terus menggunakan aplikasi ini, Anda dengan ini mengonfirmasi bahwa Anda tidak memiliki masalah dengan pilihan kami. Untuk mengetahui lebih lanjut tentang cookie dan penggunaan data kami, lihat <a href='https://bazm.in/privacy-policy' target='_blank'>Kebijakan Privasi.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Aplikasi Jejaring Sosial untuk Muslim Syiah di seluruh dunia! Unduh aplikasinya hari ini.",
+      "home": {
+        "title": "Bazm - Aplikasi komunitas Syiah Online!",
+        "description": "Aplikasi Bazm adalah aplikasi komunitas Syiah yang memenuhi semua kebutuhan deen &mazhab harian Anda. Temukan Nauhe, Majalis, Dua, Aamaal, Ziyarat, Buku, dll. untuk semua tanggal dan kesempatan. Tonton dan lakukan acara streaming langsung dan majalis dengan muslim Syiah di seluruh dunia dari kenyamanan rumah Anda. Bergabunglah hari ini!"
+      },
+      "feed": {
+        "title": "Temukan konten yang disesuaikan dan bagikan dengan komunitas syiah di sekitar Anda dan dunia",
+        "description": "Temukan dan bagikan berita, acara, dan konten dengan shia momineen di sekitar, dan beri tahu mereka tentang acara apa pun yang Anda selenggarakan. Pelajari tentang apa pun yang terjadi di dekat Anda di aplikasi."
+      },
+      "mediaHome": {
+        "title": "Bazm – Nauhe, Majalis, Dua, Ziyarat, Aamaal, dan banyak lagi untuk Anda!",
+        "description": "Temukan Nauhe, Majalis, Dua, Aamaal, ziyarat dan banyak lagi untuk semua tanggal dan acara. Tonton dan lakukan majalis streaming langsung dari kenyamanan rumah Anda! Bergabunglah dengan aplikasi jejaring sosial Syiah yang membantu Anda dengan tugas rutin deen & mazhab. Bergabunglah hari ini!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Alarm Azaan harian, tanya jawab dan alat untuk muslim Syiah",
+        "description": "Dapatkan pengingat harian untuk Adzan, temukan & ajukan tanya jawab tentang topik deen &islam, atau minta Surah-fatiha atau Namaz-e-Wahshat untuk marhumeen Anda, dan lebih banyak alat di Bazm. Bergabunglah dengan aplikasi jejaring sosial Syiah yang membantu Anda dengan tugas rutin deen. Temukan Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat untuk semua tanggal dan kesempatan. Acara streaming langsung dan majalis dari kenyamanan rumah Anda. Bergabunglah hari ini!"
+      },
+      "tasbeehCounter": {
+        "title": "Penghitung tasbeeh otomatis dengan Alat Voice __ Tasbeeh Counter",
+        "description": "Melafalkan tasbeeh yang tak terhitung jumlahnya sekarang lebih mudah dengan penghitung Tasbeeh audio kami. Ucapkan tasbeeh Anda saat Anda mengemudi atau bekerja, tetap melacak hitungan dengan penghitung suara. Dapatkan alat ini dan yang lainnya seperti itu di aplikasi Bazm."
+      },
+      "accountHome": {
+        "title": "Bazm - Buat akun gratis Anda hari ini dan dapatkan bantuan dengan kebutuhan deen harian Anda!",
+        "description": "Bergabunglah dengan aplikasi Bazm hari ini untuk memenuhi semua kebutuhan Anda untuk deeniyat. Temukan nohe/nauhe, majalis, dua, ziyarat, aamaal untuk semua tanggal dan kesempatan. Streaming langsung dan tonton majalis & acara dari sekitar Anda; temukan posting, konten, dan momineen dari seluruh Anda dan dunia, dan banyak lagi di aplikasi."
+      },
+      "nauheListPage": {
+        "title": "Dengarkan Nauhe dari nauhakhwan populer di seluruh dunia",
+        "description": "Dengarkan nauhe dari semua tahun dan semua nauhakhwan populer dari seluruh dunia di aplikasi Bazm."
+      },
+      "soazListPage": {
+        "title": "Dengarkan Soaz dari Soazkhwan populer di seluruh dunia",
+        "description": "Dengarkan Soaz dari semua tahun dan semua Soazkhwan populer dari seluruh dunia di aplikasi Bazm."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal, dll. di Bazm",
+        "description": "Temukan majalis audio/video dari Maulana dan Zakir-e-Ahlbayt dari dekat Anda dan di seluruh dunia. Dengarkan dan tonton sesi majalis dan streaming langsung terbaru di aplikasi Bazm. Unduh aplikasinya hari ini dan bergabunglah dengan jutaan muslim Syi'ah di seluruh dunia!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas dan aamaal untuk bulan {bulan} di Bazm - Temukan lebih banyak nauhe, majalis audio /video, dua, ziyarat, aamaal, dll. di Bazm",
+          "Duas dan aamaal selama berbulan-bulan di Bazm - Temukan lebih banyak nauhe, majalis audio / video, dua, ziyarat, aamaal, dll. di Bazm"
+        ],
+        "description": "Temukan duas, aamaal, ziyarat dan munajat untuk semua bulan di Bazm, tanggal dan peristiwa bijaksana. Unduh aplikasinya hari ini dan bergabunglah dengan jutaan muslim Syi'ah di seluruh dunia!"
+      }
+    }
+  }
+}

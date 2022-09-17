@@ -1,1 +1,809 @@
-undefined
+{
+  "fi": {
+    "common": {
+      "refresh": "Päivitä vetämällä",
+      "refreshing": "Virkistävä...",
+      "loadingMore": "Ladataan lisää ...",
+      "checking": "Tarkistaminen...",
+      "sendOtp": "OTP:n lähettäminen..",
+      "dismiss": "Erottaa",
+      "invite": "Kutsua",
+      "showMore": "Näytä lisää -— Katso lisää",
+      "play": "Leikkiä",
+      "pause": "Keskeytetty",
+      "playing": "Soittaminen",
+      "paused": "Keskeytetty",
+      "watch": "Katsella",
+      "read": "Lukea",
+      "authors": "Kirjoittaja -— Tekijät",
+      "languages": "Kieli | Kielet",
+      "clear": "Selvä",
+      "cancel": "Perua",
+      "change": "Muuttaa",
+      "continue": "Jatkaa",
+      "select": "Valikoida",
+      "saveChanges": "Tallenna muutokset | Tallenna | Päivitä",
+      "newBadge": "Uusi",
+      "login": "Sisäänkirjautuminen",
+      "logout": "Uloskirjaus",
+      "signup": "Kiinnittää",
+      "settings": "Asetukset",
+      "cookiePolicy": "Evästekäytäntö",
+      "privacy": "Yksityisyys",
+      "contactUs": "Ota yhteyttä",
+      "home": "Koti",
+      "facebook": "Facebook-sivut",
+      "google": "Google-ohjelma",
+      "you": "Sinä",
+      "retry": "Yritä",
+      "send": "Lähettää",
+      "submit": "Alistua",
+      "share": "Jaa -— Jaa nyt",
+      "at": "At",
+      "untilNextTime": "Ei hätää. Seuraavaan asti!",
+      "plzWait": "Ole hyvä ja odota..",
+      "saving": "Säästäminen.. | Päivittäminen..",
+      "search": "Etsiä",
+      "late": "Myöhään",
+      "done": "Valmis",
+      "featureUnavailable": "Tämä ominaisuus on pian käytettävissä. Kiitos edestakaisin osoittamalla kiinnostusta!",
+      "actions": {
+        "cancel": "Perua",
+        "notify": "Ilmoittaa",
+        "like": "Kaltainen",
+        "recited": "Lausui",
+        "comment": "Kommentti",
+        "reply": "Vastaus",
+        "bookmark": "Kirjanmerkki",
+        "uploading": "Lataaminen..",
+        "deleting": "Poistaminen..",
+        "requesting": "Pyytää..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Valitettavasti et voi jakaa {fileType}-tiedostoja täällä",
+        "jsUpdateAvailable": {
+          "header": "Päivitys saatavilla",
+          "message": "Näet sovelluksen välimuistissa olevan version.",
+          "cta": "Virkistää"
+        },
+        "jsImgUploaded": "Kuvan lataus onnistui!",
+        "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä myöhemmin uudelleen."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Palvelu ei ole tällä hetkellä käytettävissä. Yritä myöhemmin uudelleen.",
+        "unknown": "Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen.",
+        "general": "Pyyntöäsi käsiteltäessä tapahtui virhe. Yritä myöhemmin uudelleen."
+      },
+      "content": {
+        "unavailable": "Sisältöä ei voitu ladata tällä hetkellä. Yritä hetken kuluttua uudelleen.",
+        "itemDetailUnavailable": "Tämän {kohteen} tietoja ei löytynyt",
+        "loadMoreError": "Uusien kohteiden lataaminen epäonnistui. Yritä myöhemmin uudelleen."
+      },
+      "url": {
+        "invalid": "Virheellinen URL-osoite. Kokeile uudella URL-osoitteella."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Koti"
+      },
+      "postDetail": {
+        "commonTitle": "Yksityiskohta",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Profiilikuva",
+        "bannerUpdateTitle": "Kansikuva (vanhentunut)",
+        "statusUpdateTitle": "Tilan päivitys"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Koti",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Jaa tämä pyyntö koko verkostossasi ja ota yhteyttä useampiin ihmisiin!"
+          }
+        }
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Kirjat"
+        },
+        "inviteFriends": "kutsu ystäväsi",
+        "notShia": "Ei shiiaa?",
+        "contacts": {
+          "accessRequestHeader": "Yhteystietojen käyttö vaaditaan",
+          "accessRequestDesc": "Edellytämme, että yhteystietosi voivat ehdottaa puhelinluettelossasi shiialaisia kutsumaan tähän sovellukseen."
+        },
+        "audio": "Audio",
+        "video": "Video",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Toivotan ystävillesi!",
+          "wishCtaLabel": "TOIVOTTAA"
+        },
+        "books": {
+          "booksByAuthor": "Kirjoja {kirjailija}",
+          "booksInLang": "Kirjat {lang}",
+          "filterBy": "Suodata mukaan:",
+          "matching": {
+            "authors": "tekijöiden vastaavuuksien kanssa",
+            "lang": "kielten vastaavuudella",
+            "title": "otsikon vastaavuudella"
+          }
+        },
+        "booksFilter": {
+          "title": "Etsi kirja tekijältä",
+          "searchBox": "Hae tekijää nimen perusteella",
+          "selectLang": "Valitse kieli:"
+        },
+        "bookDetails": {
+          "title": "{title} — Löydä lisää tällaisia ilmaisia kirjoja Bazmista",
+          "aboutBook": "Tietoja kirjasta:"
+        }
+      },
+      "tools": {
+        "name": "Välineet",
+        "salatAlarmDesc": "Aseta hälytykset Azaanille paikallisten aikojen mukaan",
+        "sehriAlarmDesc": "Aseta hälytys Sehrille tai saat jopa herätyksen numeroosi ennen Sehriä!",
+        "sehriAlarmOptionDisabled": "Hälytykset Sherin ajasta ramadanin aikana (käytettävissä vain ramadanin aikana)",
+        "tasbeehCounterDesc": "Lausu Duas, Koraani ja Tasbeeh toistotilassa helposti Audio Tasbeeh -laskurin avulla",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Etsi ja kysy kysymyksiä tai löydä vastauksia masle-masayelille jokapäiväisestä elämästäsi islamin asioista.",
+        "alarms": {
+          "salatAlarms": "Salat-hälytykset -- Päivittäiset Salat-hälytykset",
+          "sehriAlarms": "Ramadan Sehrin hälytykset",
+          "gettingLocation": "Sijainnin hankkiminen. Ole hyvä ja odota...",
+          "settingsTip": "Muuta <b>sijaintia</b> ja asetuksia hälytysasetuksissa. Klikkaus Asetukset -kuvaketta aloittaaksesi.",
+          "setAlarmHeader": "Aseta päivittäiset hälytykset",
+          "setAlarmOnAppDesc": "Hälytysten asettaminen on käytettävissä vain sovelluksessa",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Auringonlasku",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Keskiyö",
+          "sehriEndTime": "Sehrin lopun aika",
+          "minToImsak": [
+            "{min} mins ennen Imsakia",
+            "{tunti} tuntia ennen Imsakia"
+          ],
+          "minToImsakDesc": [
+            "Hälytys soi {min} minuuttia ennen Sehrin ajan päättymistä",
+            "Hälytys soi {tunti} tuntia ennen Sehrin ajan päättymistä"
+          ],
+          "notRamadan": "Näyttää siltä, että se ei ole vielä ramadan. Tule takaisin ramadanin aikana tai juuri ennen sitä asettaaksesi hälytykset Sehrille",
+          "push": {
+            "heading": "Ilmoitusoikeus vaaditaan",
+            "desc_request": "Hälytys toimii lähettämällä push-ilmoituksia määrättyinä aikoina. Ilman push-pääsyä sovellus ei toimi odotetulla tavalla. Salli ystävällisesti pääsy push-ilmoitukseesi, jotta voimme ilmoittaa sinulle hälytysaikoina.",
+            "desc_denied": "<strong>Olet aiemmin evännyt ilmoituskäytön.</strong> Sitä tarvitaan, jotta push-ilmoitukset toimisivat oikein. Lähetämme ilmoituksia hälytyksen aikaan.<br/> Salli ystävällisesti pääsy push-ilmoituksiin napsauttamalla painiketta.",
+            "cta": "Sallia",
+            "toast_granted": "Kiitos! Saat ilmoituksen hälytysaikoina nyt.",
+            "toast_denied": "Ilmoituspyyntö evätty. Anna sovelluksen käyttöluvan toimia oikein.",
+            "toast_prompt": "Sinun on sallittava ilmoitusten käyttö hälytysten asettamiseksi."
+          },
+          "jsAlarmSetSuccess": "Hälytykset asetettu onnistuneesti",
+          "jsAlarmSetError": "Virhe hälytysten asettamisessa. Yritä myöhemmin uudelleen.",
+          "jsAlarmSnoozed": "Hälytys torkkui 10 minuuttia"
+        },
+        "alarmSetting": {
+          "title": "Hälytysasetukset",
+          "locationTitle": "Etsi kaupunki hälytysten ajoituksille",
+          "forLocation": "Hälytys sijainnista",
+          "calcMethod": "Laskentamenetelmä",
+          "selectAdhanSound": "Valitse Adhan-ääni",
+          "selectAlarmSound": "Valitse Hälytysääni",
+          "alarmSoundDesc": "Ääni ei-salat-aikoina",
+          "timesPeekHeading": "Näytä ajat -banneri",
+          "timesPeekDesc": "Voit poistaa Salatin nopean ajannäkymän näyttämisen käytöstä täällä:",
+          "timesPeekHome": "Näytä syötesivulla:",
+          "timesPeekTools": "Näytä työkalusivulla:",
+          "jsConfirmLocChange": "Sijainnin vaihtaminen peruuttaa kaikki aiemmin asetetut hälytykset. Jatkaa?",
+          "jsOtherSettingsSaved": "Muut tallennetut asetukset. Sijaintia ei muutettu."
+        },
+        "qna": {
+          "title": "Kysymys-vastaus",
+          "qnaSource": "Lähde",
+          "seeAnswer": "Katso vastaus",
+          "noAnswer": "Ei vastausta"
+        },
+        "qnaDetail": {
+          "title": "Vastaukset tuotteelle: {ques}",
+          "jsSubmitSuccess": "Kysymyksesi on lähetetty onnistuneesti. Päivitämme sinut, kun saamme siihen vastauksen."
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh-laskuri"
+        }
+      },
+      "user": {
+        "name": "Käyttäjä | Tili",
+        "editProfile": "Muokkaa profiilia",
+        "publishToFeed": "Syötteeseen tehtyjen muutosten julkaiseminen",
+        "shareUpdateToFeed": "Jaa tämä päivitys myös syötteeseeni",
+        "statusText_ph": "Käytä _kursivointia_ tai *lihavoitua* muotoilua tilan koristeluun",
+        "statusCharsLeft": "{kreivi} merkit jäljellä",
+        "jsImgUploadSuccess": "Kuvat ladattu onnistuneesti!",
+        "unauthAccess": {
+          "heading": "Oletko varma, että olet oikeassa paikassa?",
+          "desc": "<p>Näyttää siltä, että yritit käyttää sivua, johon sinulla ei ollut lupaa. Jos yritit käyttää sivua, jolla olet aiemmin käynyt, yritä kirjautua sisään. sen pitäisi ratkaista ongelma.</p> <p>Ota rohkeasti yhteyttä, jos ongelma jatkuu.</p>"
+        },
+        "guest": {
+          "welcome": "Tervetuloa, <strong>vieras!</strong>",
+          "heading": "Miksi kirjautua sisään tai rekisteröityä?",
+          "desc": "Sovelluksellamme olevalla tilillä voit käyttää useita ominaisuuksia. Aloita luomalla tili, jos sinulla ei vielä ole tiliä. Tai vain kirjaudu sisään!",
+          "unlockHeading": "avaa seuraavat tiedot tilillä:",
+          "features": {
+            "engage": {
+              "heading": "Osallistu sovellukseen",
+              "desc": "Ole yhteydessä muihin käyttäjiin, reagoi heidän viesteihinsä tai pyyntöihinsä, kommentoi mielipiteesi, lisää tuotteesi kirjanmerkkeihin ja paljon muuta!"
+            },
+            "fatiha": {
+              "heading": "Lähetä Fatiha-pyyntö",
+              "desc": "Lähetä pyyntö Surah-e-Fatihalle edesmenneiden rakkaidesi sieluille ja siunaa heidän sielunsa kaikkien käyttäjiemme rukouksilla!"
+            },
+            "askQues": {
+              "heading": "Esitä kysymyksiä",
+              "desc": "Kysy Deen &Duniyan kysymyksiä eri aiheista, joihin hänen eminenssinsä Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani vastaa!"
+            },
+            "content": {
+              "heading": "ensisijainen sisältö",
+              "desc": "Näet aina haluamasi sisällön ja asetukset, kun olet kirjautunut tilillesi. Saat myös ilmoituksen kaikista mielenkiintoisista asioista!"
+            },
+            "personalized": {
+              "heading": "henkilökohtainen jakaminen",
+              "desc": "Määritä allekirjoituksellasi personoidun sisällön jakaminen, jotta ystäväsi tietävät, milloin jaat viestin/julkaisun."
+            }
+          }
+        },
+        "about": {
+          "title": "Noin",
+          "jsStatusUpdateFail": "Tilan päivittäminen epäonnistui. Yritä myöhemmin uudelleen."
+        },
+        "posts": {
+          "title": "Virkaa",
+          "userNoPosts": "Kun vaihdat kuvasi/kansikuvasi tai kun pyydät surah-fatihaa tuhoutuneille rakkaillesi, nämä viestit näkyvät täällä ja Koti-välilehdellä <b></b> (myös muista). Yritätkö lisätä kuvan tai kansikuvan?",
+          "profileNoPosts": "{name} ei ole vielä tehnyt yhtään viestiä."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} ei ole vielä lisännyt marhumeenia -— Et ole vielä lisännyt marhumeenia",
+            "marhumeenAdded": "{name} on lisännyt marhumeenin jälkeen -— Olet lisännyt marhumeenin jälkeen"
+          },
+          "jsDeleteHeader": "Oletko varma?",
+          "jsDeletePrompt": "<b>Tietueiden poistaminen {fullName}:</b>sta poistaa myös kaikki aiemmat {gender}:lle tehdyt pyynnöt! Jatkaa?",
+          "jsDeleted": "{marhumeen}:n poistetut tietueet"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Kirjaudu tilillesi",
+        "createAccount": "Luo tili"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Seuraava vaihe",
+        "goBack": "Mene takaisin",
+        "confirm": "Vahvistaa"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Sijainti ei ole käytettävissä. Aseta se napsauttamalla kuvaketta nähdäksesi salat-aikojen pikanäkymän.",
+          "unknownError": "Tapahtui virhe. Ei voinut ladata aikoja tällä hetkellä."
+        }
+      },
+      "langPrompt": {
+        "title": "Käytätkö sovellusta {langLabel}:ssa?",
+        "desc": {
+          "p1": "Näyttää siltä, että käytät sovellusta osoitteesta {countryName}. Haluatko nähdä sisällön ja ohjausobjektit jollakin seuraavista kielistä, joita puhutaan alueella? Napsauta valintaasi ja napsauta sitten 'Tallenna' jatkaaksesi.",
+          "p2": "Voit myös hylätä tämän ponnahdusikkunan, jos haluat jatkaa sovelluksen käyttöä oletuskielellä."
+        },
+        "choices": {
+          "useLang": [
+            "Kyllä, käytä {langName}",
+            "Käytä {langName}-parametria"
+          ],
+          "useEngling": "Jatka englanniksi"
+        },
+        "langError": "{langName}:n käännöksiä ladattaessa tapahtui virhe. Yritä myöhemmin uudelleen."
+      },
+      "createPost": {
+        "heading": "Mistä tänään on kyse?",
+        "desc": "Klikkaa tästä jakaaksesi päivityksen tai käyttääksesi alla olevaa vaihtoehtoa",
+        "request": "Pyytää",
+        "askQues": "Kysy kysymys",
+        "sheetOptions": {
+          "header": "Tee pyyntö",
+          "subheader": "Tee momineen-pyyntö marhumeenillesi tai itsellesi.",
+          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat at Zari-e-Imam Husain (a.s.) puolestasi"
+        },
+        "modal": {
+          "titles": {
+            "post": "Luo viesti -— Päivitä viesti",
+            "livestream": "Suora lähetys",
+            "hadiyah": "Luo Hadiyah -- Päivitä Hadiyah"
+          },
+          "postCta": "Viesti -— Päivitys",
+          "stream": {
+            "scheduleCta": "Tallenna myöhempää käyttöä varten | Aloita suoratoisto"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Kenelle haluat lahjoittaa tämän?",
+              "addPeopleToggle": "Antakaa muidenkin olla osa tätä sahaa!",
+              "searchInput": "Momimeenin kutsuminen Bazmista tai yhteystietoluettelostasi",
+              "minUsersHeader": "Haluatko asettaa vähimmäismäärän, joka osallistujien on valittava?",
+              "minUsersInput": "Syötä vähimmäismäärä"
+            }
+          },
+          "postTime": [
+            "Milloin se on?",
+            "Milloin haluat aloittaa suoratoiston?"
+          ],
+          "whereIsIt": "Missä se on?",
+          "findLocation": "Etsi sijainti",
+          "locationSubtext": "Sijainnin lisääminen julkaisuun",
+          "addLocation": "Lisää sijainti",
+          "addPics": "Kuvien lisääminen julkaisuun",
+          "previewDes": "Näin julkaisusi näkyisi muiden ihmisten syötteessä. Ihmiset voivat napauttaa videota nähdäkseen sen koko näytössä.",
+          "addToPost": "Lisää {postType}:een (valinnainen)",
+          "jsImgUploadFail": "Kuvaa ei ole ladattu",
+          "jsAddDetailToPost": "Ole hyvä ja lisää tietoja viestiisi",
+          "jsValidEndDate": "Valitse kelvollinen päättymispäivä",
+          "jsSetLocation": "Ole hyvä ja aseta viestille sijainti",
+          "jsRemLocation": "Aseta sijainti tai poista kyseinen osio",
+          "jsAddImg": "Lisää kuvia tai poista kyseinen osio",
+          "jsInvalidDate": [
+            "Aseta kelvollinen aloituspäivä ",
+            "Aseta kelvollinen aloituspäivä tai poista kyseinen osio"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Kommentit",
+        "loadPrevious": "Lataa aiemmat kommentit | Lataa aiemmat vastaukset",
+        "replyingTo": "Vastaus:",
+        "noComments": "Ei vielä kommentteja tästä viestistä",
+        "textboxPlaceholder": "Kirjoita kommenttisi tähän",
+        "requestToLogin": "Kirjaudu sisään tai rekisteröidy aloittaaksesi keskustelun"
+      },
+      "post": {
+        "addressYou": "Sinä",
+        "addressing": "sinun -- hänen -- hän",
+        "itemTypes": {
+          "avatar": "avatar-kuva",
+          "banner": "bannerin kuva",
+          "status": "profiilin tila"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> updated {addressing} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> pyysi surah-fatihaa {addressing} {relation} -kohteelle",
+            "<strong>{username}</strong> pyydetty surah-fatiha &namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Kunnes: {date} at {time}",
+        "privatePost": "Tämä viesti näkyy vain sinulle",
+        "descZiyaratRequest": "Pyysit Ziyaratia suorittamaan puolestasi imaami Husainin (a.s.) *haramissa* *{päivämäärä}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Pyydä Surah-al-fatihaa",
+          "addUpdate": [
+            "Päivitä rakkaasi",
+            "Lisää rakastettu"
+          ]
+        },
+        "heading": [
+          "Lisää rakkaasi, joka on siirtynyt eteenpäin",
+          "Valitse läheinen luettelosta tai lisää läheinen, joka on siirtynyt eteenpäin"
+        ],
+        "addNew": "Lisää uusi",
+        "subheader": [
+          "Lisää rakkaasi tiedot",
+          "Voit myös sisällyttää viestin pyyntöösi"
+        ],
+        "form": {
+          "jsAddImg": "Lisää kuva rakkaallesi",
+          "jsRemoveImg": "Poista kuva",
+          "fullName": "Kuolleen koko nimi",
+          "name_ph": "Esimerkiksi Syed Zeeshan Haider Abidi",
+          "fathersName": "Isän nimi (Jos saatavilla)",
+          "father_ph": "Esimerkiksi Syed Tauqeer Husain",
+          "nameError": "Kirjoita koko nimi erikoismerkkien kanssa",
+          "genderLabel": "Sukupuoli",
+          "genderValue": [
+            "Naispuolinen",
+            "Mies"
+          ],
+          "relation": [
+            "Marhooma on sinun",
+            "Marhoom on sinun"
+          ],
+          "selectRelation": "Valitse relaatio",
+          "demiseLabel": "Kuolitko tänään? Pyydä Namaz-e-Wahshatia",
+          "demiseText": "Olemme hyvin pahoillamme kuullessamme menetyksestäsi. Antakoon Allah sinulle ja perheellesi voimaa kestää tämä menetys kärsivällisesti ja palkitkoon Allah palkitkoon tuhoutuneen sielun korkeimmilla paikoilla Jannahissa. Kun valitset tämän vaihtoehdon, voit pyytää momineenilta Namaz-e-Wahshatia tuhoutuneelle sielulle.",
+          "optional": "Valinnainen",
+          "dod": "Kuoli",
+          "dob": "Syntyi"
+        },
+        "relation": [
+          "Tytär",
+          "Poika"
+        ],
+        "born": "Syntynyt:",
+        "died": "Kuoli:",
+        "addMsg": "Haluatko lisätä viestin?",
+        "remainingChars": "Merkit: {count} | Merkit: {count} jäljellä",
+        "infoEditRelative": "Voit muokata {name}:n tietoja <b>Tili > Marhumeen</b> -osiossa",
+        "saveRequestCta": [
+          "Tallenna ja pyydä",
+          "Pyytää"
+        ],
+        "addUpdate": "Lisää -— Päivitä",
+        "jsRequesting": "Pyytää..",
+        "jsAddSuccess": [
+          "Lisäsi rakkaasi onnistuneesti!",
+          "Päivitä rakkaasi onnistuneesti!"
+        ],
+        "jsAddFail": "Ei onnistunut lisäämään rakkaasi. Yritä myöhemmin uudelleen.",
+        "jsReqSuccess": "Pyyntö on lähetetty onnistuneesti.",
+        "jsGettingMarhumeen": "Hanki marhumeenisi.."
+      },
+      "askQues": {
+        "title": "Esitä kysymys",
+        "form": {
+          "quesLabel": "Kysymyksesi",
+          "quesLabel_ph": "Hae kysymystä tai kysy omalta",
+          "similarQues": "Näillä kysymyksillä voi olla jo etsimäsi vastaus.",
+          "quesTextHeader": "Kysymyksesi:",
+          "selectCat": "Aseta kysymysluokka:",
+          "askAnonLabel": "Kysy nimettömänä?",
+          "askAnonInfo": "Nimeäsi ei lähetetä tutkijalle, kun pyydät vastausta puolestasi, eikä sitä näytetä sovelluksessamme tämän kysymyksen kanssa. Mutta nimettömiin kysymyksiin ei välttämättä vastata nopeasti.",
+          "askViaLabel": "Kysy vialta",
+          "askSistaniInfo": "Voit esittää kysymyksen, johon hänen eminenssinsä Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistanin toimisto vastaa. Välitämme kysymyksen heidän verkkosivustolleen (yhdessä profiilitietojesi kanssa). Varmista, että olet lukenut <b>käyttöehdot</b> oikein.",
+          "tncLabel": "Säännöt & Ehdot:",
+          "showHide": [
+            "Näyttää",
+            "Piilottaa"
+          ],
+          "sistaniOrgTncInfo": "Harkitse heidän verkkosivustonsa kohtien seuraamista ennen kuin esität kysymyksen, koska jos et noudata alla olevia kohtia, et ehkä kuule niistä tai et ehkä saa vastauksia.",
+          "userInfo": {
+            "aboutLabel": "Tietoa sinusta",
+            "genderLabel": "Sinun sukupuolesi",
+            "bdayLabel": "Syntymäpäiväsi",
+            "bdayDesc": "Voit esittää kysymyksen vain, jos olet yli 09-vuotias. Jos olet edelleen kiinnostunut, ota meihin yhteyttä."
+          },
+          "jsQuesAdded": "Kysymys lisätty onnistuneesti."
+        },
+        "askQuesCta": "Esitä kysymyksesi"
+      },
+      "authPrompt": {
+        "title": "Tili vaaditaan",
+        "defLabel": "Kirjaudu sisään tai rekisteröidy jatkaaksesi",
+        "infoText": "Tämä ominaisuus edellyttää, että kirjaudut sisään tai rekisteröidyt ennen kuin voit käyttää sitä. Klikkaa <b>Kirjaudu sisään</b>, jos olet jo rekisteröitynyt, tai luo tilisi valitsemalla <b>Rekisteröidy</b>."
+      },
+      "location": {
+        "title": "Vaihda sijainti",
+        "search_ph": "Hae sijainnistasi",
+        "autoDetectInfo": "Anna sijaintisi tai napsauta automaattisen tunnistamisen kuvaketta saadaksesi sijaintisi.",
+        "setLocation": "Aseta sijainti",
+        "ipAddress": "IP-osoite",
+        "alarmLocation": "Hälytyksen sijainti",
+        "basedOn": "Sijainti perustuu {valitsimeen}",
+        "jsDetecting": "Havaitseminen, odota..",
+        "jsPermDenied": "Sovelluksen sijaintilupa on evätty. Nollaa tämän sovelluksen sijaintiasetukset käymällä puhelimesi Asetukset-osiossa.",
+        "jsPosUnavailable": "Olemme pahoillamme, mutta paikka ei ole tällä hetkellä käytettävissä tälle puhelimelle. Yritä myöhemmin uudelleen.",
+        "jsMatchNotFound": "Vastaavia sijainteja ei löytynyt..",
+        "jsEnterValidLoc": "Anna kelvollinen sijainti",
+        "jsGeoUnavailable": "Olemme pahoillamme, mutta paikka ei ole tällä hetkellä käytettävissä tälle puhelimelle. Yritä myöhemmin uudelleen.",
+        "jsLocMissing": "Sijaintiasi ei löytynyt. Syötä sijainti manuaalisesti.",
+        "jsSelectedLoc": "Tässä sijainnissa on virhe. Yritä uudelleen"
+      },
+      "readText": {
+        "ctaLabel": "Lukea",
+        "title": "Dua: {title}",
+        "arabicCta": "Arabia",
+        "englishCta": "Englanti",
+        "translatedCta": "Käännetty"
+      },
+      "reqAccess": {
+        "heading": "pääsy vaaditaan",
+        "subheading": "Tarvitsemme luvan käyttää kameraasi",
+        "subtext": "Salli pääsy napsauttamalla alla olevaa painiketta:",
+        "ctaLabel": "salli pääsy"
+      },
+      "shareBtn": {
+        "subtext": "Napsauta yhtä alla olevista vaihtoehdoista jakaaksesi tämän vastaavassa sovelluksessa:",
+        "jsCopyToCB": "Kopioitu leikepöydälle",
+        "copyText": "Napsauta <b>yllä olevaa Kopioi-kuvaketta</b> kopioidaksesi alla olevan sisällön:"
+      },
+      "verifyMob": {
+        "title": [
+          "Vahvista mobiili",
+          "Syötä koodi"
+        ],
+        "page1": {
+          "infoText1": "Tarvitsemme matkapuhelinnumerosi henkilöllisyytesi vahvistamiseen. Saatat myös saada satunnaisia päivityksiä.",
+          "infoText2": [
+            "Anna numerosi ja napsauta painiketta saadaksesi vahvistuskoodisi:",
+            "Anna numerosi ja napsauta painiketta saadaksesi vahvistuskoodisi:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Matkapuhelinnumero",
+          "mobileLabel_ph": "Anna matkapuhelinnumerosi",
+          "otpViaSMS": "Hanki tekstiviestillä",
+          "viaWhatsApp": "Hanki WhatsAppin kautta",
+          "viaTelegram": "Hanki Telegramin kautta",
+          "viaSignal": "Hanki signaalin kautta"
+        },
+        "page2": {
+          "header": "Olemme lähettäneet 6-numeroisen vahvistuskoodin numeroosi ({numero})",
+          "enterCodeLabel": "Syötä koodi",
+          "enterCode_ph": "Syötä 6-numeroinen koodi",
+          "resendCode": "Lähetä koodi uudelleen",
+          "notUsingMobile": "Etkö käytä <strong>{number}:ia?</strong>",
+          "changeNumber": "Muuta numeroa"
+        },
+        "jsVerifySuccess": "Mobiilivahvistettu onnistuneesti",
+        "jsVerifyError": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
+        "jsSendOtpFailed": "OTP:n lähettäminen epäonnistui. Yritä myöhemmin uudelleen.",
+        "jsSendOtpSuccess": "OTP lähetetty osoitteeseen {mobile}",
+        "jsTooManyRequests": "Näyttää siltä, että olet kokeillut jo liian monta kertaa. Odota hetki tai kaksi ja yritä uudelleen."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Jakamisen viestin mukauttaminen",
+        "changePwd": "Vaihda salasana | Aseta salasana",
+        "changeLang": "Vaihda kieli",
+        "publishToFeed": "Julkaise muutokset myös syötteeseen."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Mukauttaminen",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Nimen lisääminen viesteihin",
+          "sharingDesc": "Kun jaat ulkoisesti, viestisi voivat näyttää alla olevilta:",
+          "sharingTextDemo": [
+            "Kuuntele tämä Nauha Bazm-sovelluksessa",
+            "{name} suosittelee kuuntelemaan tätä Nauhaa Bazm-sovelluksessa"
+          ],
+          "addSignDesc": "Haluatko lisätä myös allekirjoituksesi?",
+          "signDesc": "Kun jaat toiveesi ystävien kanssa tällä sovelluksella, allekirjoituksesi lisätään viesteihin. Se voi esimerkiksi näkyä seuraavanlaisesti:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Anna olemassa oleva salasanasi:",
+          "currentPwdPH": "Anna nykyinen salasana",
+          "newPwdLabel": "Anna uusi salasana:",
+          "newPwdPH": "Anna uusi salasana"
+        },
+        "changeLang": {
+          "searchYourLang": "Hae kielestäsi",
+          "desc": "Valitse kieli, jolla haluat nähdä sovelluksen sisällön. Napsauta kieltä ja odota (käännöksen lataaminen vie jonkin aikaa) nähdäksesi, miten tämä lause näkyy valitulla kielellä."
+        },
+        "jsPwdInvalid": "Salasanassa on virheellisiä merkkejä.",
+        "jsPwdCharCount": "Salasana voi olla alle 8 merkkiä.",
+        "jsSelectLang": "Valitse ensin kieli.",
+        "jsLangSet": "Kieleksi on asetettu {lang}",
+        "jsPrefSaved": "Mukautusasetukset tallennettu."
+      },
+      "forgotPwd": {
+        "title": "Unohditko salasanasi?",
+        "introText": "Salasanan vaihtaminen on helppoa. Valitse menetelmä jatkaaksesi:",
+        "usePhoneCta": "Käytä puhelinta",
+        "useEmailCta": "Sähköpostin käyttäminen",
+        "sendEmailIntro": "Anna sähköpostiosoite, jolla loit tilisi, niin lähetämme sähköpostiviestin, jossa on linkki uuden salasanan määrittämiseksi tilillesi.",
+        "emailInputLabel": "Rekisteröity sähköpostiosoitteesi",
+        "sendEmailCta": "Lähetä palauta sähköposti",
+        "sentEmailText": "Jos sinulla on tili meillä, saat salasanan vaihtosähköpostin pian <strong>{email}</strong>. Tarkista ystävällisesti sähköpostistasi linkki.",
+        "notUsingEmailText": "Etkö käytä <strong>{email}:ia?</strong>",
+        "changeEmailCta": "Vaihda sähköposti",
+        "phoneIntroText": "Anna tiliisi lisätty puhelinnumero. Lähetämme OTP:n vahvistamaan omistajuutesi, ja seuraavassa vaiheessa voit luoda uuden salasanan.",
+        "phoneInputLabel": "Matkapuhelinnumerosi",
+        "sendOtpCta": "Lähetä OTP",
+        "backToLoginCta": "Takaisin sisäänkirjautumiseen",
+        "disclaimerText": "Huomaa, että saat {item} vain, jos sinulla on {item} rekisteröity meille",
+        "jsMailSent": "Lähetetty sähköposti"
+      },
+      "resetPwd": {
+        "title": "Nollaa salasana",
+        "introText": "Aseta tilillesi turvallinen salasana täällä. Napsauta {kuvake} varmistaaksesi, että annat oikean salasanan.",
+        "pwdInputLabel": "Aseta uusi salasana",
+        "pwdInputPH": "Anna uusi salasana",
+        "invalidPwdChars": "Virheelliset merkit salasanassa",
+        "jsResetSuccess": "Salasanan nollaus onnistui!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Radan lataaminen epäonnistui. Yritä myöhemmin uudelleen."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} poistettu onnistuneesti.",
+        "jsErrReporting": "Ei voi ilmoittaa tästä tällä hetkellä. Yritä myöhemmin uudelleen.",
+        "jsAlreadyReported": "Olet jo ilmiantanut tämän {kohteen}. Et voi ilmoittaa siitä useammin kuin kerran.",
+        "jsPromptHeading": "Tuotteen ilmiantaminen johtaa siihen, että sen mahdollisuudet näkyä sinun tai muiden syötteissä tai sivuilla ovat pienemmät. Haluatteko silti ilmoittaa tästä?",
+        "jsReporting": "Raportointi {itemType}..",
+        "jsReportingErr": "Et voinut lähettää pyyntöäsi tällä hetkellä. Yritä myöhemmin uudelleen.",
+        "jsReported": "{item} raportoitu. Kiitos panoksestasi."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Ei mitään päivitettävää!",
+        "jsProfileUpdated": "Profiili päivitetty!"
+      },
+      "reqZiyarat": {
+        "title": "Pyydä Ziyarat",
+        "cta": "Pyytää",
+        "header": "Pyydä Ziyarat imaami Hussainissa (a.s.) Pyhäkkö Karbalassa puolestasi.",
+        "desc": {
+          "p1": "Joka perjantai, onko <strong>Ziyarat lausunut puolestasi</strong> imaami Hussainin pyhäkössä (a.s.) Karbalassa, Irakissa! Sinun tarvitsee vain tehdä pyyntö <strong>ennen torstai-illan loppua</strong>. Et kuitenkaan ole koskaan liian myöhässä; Jos pyyntösi tulee liian myöhään, se rekisteröidään seuraavalle viikolle.",
+          "p2": "Ilmoitamme sinulle, kun ziyarat on lausuttu puolestasi.",
+          "p3": "Huomautus: Kun pyydät ensimmäistä kertaa, tietosi jaetaan palveluntarjoajallemme. Ole hyvä ja lue käyttöehtomme saadaksesi lisätietoja."
+        },
+        "jsRegistered": "Kiitos! Pyyntösi on rekisteröity onnistuneesti. Saat vahvistuspostin pian.",
+        "jsAlreadyRegistered": "Olet jo rekisteröitynyt Ziyaratiin tänä torstaina. Ilmoittaudu ensi viikolla ensi viikon ziyaratiin.",
+        "jsConfirm": "Jotta voimme rekisteröityä tähän pyyntöön, meidän on jaettava tietosi (esim. koko nimi, sukupuoli jne.) palveluntarjoajamme kanssa. Tämä vaaditaan vain ensimmäistä kertaa. Vahvista ystävällisesti jatkaaksesi.",
+        "jsDeclined": "Okei! Ehkä myöhemmin."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Nimesi",
+          "placeholder": "Anna koko nimesi"
+        },
+        "email": {
+          "label": "Sähköposti",
+          "placeholder": [
+            "Rekisteröity sähköpostiosoitteesi",
+            "Kirjoita sähköpostiosoitteesi"
+          ]
+        },
+        "password": {
+          "label": "Salasana",
+          "placeholder": [
+            "Salasanasi",
+            "Anna salasana"
+          ]
+        },
+        "rememberLogin": "Muista kirjautuminen",
+        "forgotPwd": "Unohditko salasanasi?",
+        "connectUsing": "Voit myös muodostaa yhteyden käyttämällä",
+        "useSavedAccount": "Tallennettujen tilien käyttäminen",
+        "lastLogin": "Viimeisin kirjautuminen",
+        "needAccount": "Tarvitsetko tilin?",
+        "resetPwdSuccess": "Voit käyttää uutta salasanaasi kirjautuaksesi sisään nyt",
+        "jsEnterFullName": "Ole hyvä ja kirjoita koko nimesi.",
+        "jsEnterValidName": "Anna kelvollinen nimi.",
+        "jsEnterValidEmail": [
+          "Anna kelvollinen sähköpostiosoite.",
+          "Sähköpostissa on virheellisiä merkkejä. Anna kelvollinen sähköpostiosoite."
+        ],
+        "jsSelectCountryCode": "Valitse maakoodisi luettelosta",
+        "jsEnterMobile": "Anna matkapuhelinnumerosi.",
+        "jsEnterValidMobile": "Anna kelvollinen matkapuhelinnumero",
+        "jsEnterPwd": "Ole hyvä ja anna salasanasi!",
+        "jsEnterValidPwd": [
+          "Salasanassa on virheellisiä merkkejä. Anna kelvollinen salasana.",
+          "Salasanan tulee olla vähintään {num}-merkkinen."
+        ],
+        "jsAccountSuccess": "Tilin luominen onnistui",
+        "jsFbError": "Facebook-tilisi tietoja ei löytynyt. Yritä uudelleen.",
+        "jsPromptClosedErr": "Kirjautumiskehote suljettiin ennen valmistumista. Yritä uudelleen."
+      },
+      "gotoSignup": "Goto Rekisteröidy",
+      "alreadyHasAccount": "Onko sinulla jo tili?",
+      "gotoLogin": "Goto-kirjautuminen",
+      "gotoProfile": "Goto-profiili",
+      "msgForAuthUser": "<p>Luulemme, että olet laskeutunut tänne vahingossa, koska olet jo kirjautunut sisään.</p> <p>Voit tarkistaa profiilistasi, miltä se näyttää, tai selata muita osioita jollakin alla olevista linkeistä:</p>",
+      "jsLoggedOut": "Sinut on kirjautunut ulos.",
+      "jsLogoutHeading": "Kirjaudutko ulos tililtä?",
+      "jsLogoutText": "Tämä poistaa paikallisesti tallennetut tiedot, mikä mahdollistaa kirjautumisen <b>nopeasti</b>. Jatkaa?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Asenna Bazm { platform }",
+          "desc": "Lataa Android-sovellus saadaksesi paremman kokemuksen, henkilökohtaisen sisällön, ilmoitukset ja kaiken kiinnostavan ympäriltäsi! | Asenna sovelluksen pikakuvake (kirjanmerkki), jotta voit käyttää sitä suoraan aloitusnäytöltäsi seuraavalla kerralla paremman kokemuksen saamiseksi! Se vie tuskin mitään tilaa laitteellasi, mutta auttaa sinua palaamaan sovellukseen nopeasti.",
+          "cta": {
+            "action": "Asentaa",
+            "skip": "Ehkä myöhemmin"
+          }
+        },
+        "prompt": {
+          "heading": "Asenna Bazm-pikakuvake?"
+        },
+        "popover": {
+          "text": "Napsauta Alla olevaa Jaa-kuvaketta (näyttää oikealta<strong>) ja</strong> napsauta sitten <strong>Lisää aloitusnäyttöön</strong>. Napsauta \"Tallenna\" lopettaaksesi, ja sitten voit käyttää sovellusta aloitusnäytön pikakuvakkeesta!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Millainen on tähänastinen kokemuksesi?",
+        "text": "<p>Pidätkö uudesta sovelluksesta? Onko jotain, mitä voimme parantaa? Ole hyvä ja auta meitä palautteessasi parantaaksesi kokemustasi!</p> <p>Tämä veisi vain muutaman minuutin, ja arvostamme suuresti aikaasi!</p>",
+        "cta": "Anna palautetta",
+        "dismiss": "Ehkä myöhemmin"
+      },
+      "advertise": {
+        "heading": "Mainosta Bazmissa",
+        "text": "<p>Tavoita miljoonia shiiamuslimeja ympäri maailmaa tuotteellasi Bazmilla tai ole yhteydessä tuotemerkkeihin ja käyttäjiin.</p> <p>Aloita niinkin alhaisella hinnalla kuin 1 dollari/päivä!</p>",
+        "cta": "Opi lisää"
+      },
+      "upgradeSafari": {
+        "header": "Rajoitettu käyttökokemus Safarissa",
+        "description": "<strong>Tätä selainta (Safari) ei ole optimoitu parhaan kokemuksen saavuttamiseksi</strong>. Jatkamalla sovelluksemme käyttöä täällä menetät useita ominaisuuksia, kuten hälytysilmoituksia, lähellä päivityksiä, offline-tilaa ja paljon muuta.<br/> Suosittelemme, että hankit jonkin alla luetelluista selaimista parantaaksesi käyttökokemusta. Napsauta mitä tahansa painiketta ladataksesi selaimen AppStoresta:",
+        "ctas": {
+          "getGoogle": "Hanki Google Chrome",
+          "getFirefox": "Hanki Mozilla Firefox",
+          "getOpera": "Hanki Opera Touch",
+          "skip": "Ehkä myöhemmin"
+        },
+        "toast": "Ei hätää. Ensi kertaan!"
+      },
+      "cookieBanner": {
+        "header": "Tietoja evästeiden tallentamisesta laitteellesi",
+        "p1": "Emme tallenna evästeitä {laitteeseesi}, mutta sovelluksessamme käytetyt kolmannen osapuolen sovellukset (kuten Google Analytics). Käytämme sen sijaan pysyvää tallennustilaa tärkeiden tietojen tallentamiseen, ja useimmissa tapauksissa tämä salataan tallennustilassa ja siirron aikana.",
+        "p2": "Jatkamalla tämän sovelluksen käyttöä vahvistat täten, että sinulla ei ole ongelmia valintojemme kanssa. Lisätietoja evästeistämme ja tietojen käytöstämme on <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Sosiaalisen verkoston sovellus shiiamuslimeille ympäri maailmaa! Lataa sovellus jo tänään.",
+      "home": {
+        "title": "Bazm - Online Shia -yhteisösovellus!",
+        "description": "Bazm-sovellus on Shia-yhteisösovellus, joka täyttää kaikki päivittäiset deen & mazhab -tarpeesi. Löydä Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kirjat jne. Katso ja tee live-stream-tapahtumia ja majalis shiiamuslimien kanssa ympäri maailmaa kotisi mukavuudesta. Liity tänään!"
+      },
+      "feed": {
+        "title": "Löydä räätälöityä sisältöä ja jaa shia-yhteisön kanssa ympäri maailmaa",
+        "description": "Etsi ja jaa uutisia, tapahtumia ja sisältöä shia momineenin kanssa ja pidä heidät ajan tasalla kaikista järjestämistäsi tapahtumista. Lue lisää kaikesta, mitä tapahtuu lähelläsi sovelluksessa."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal ja paljon muuta sinulle!",
+        "description": "Löydä Nauhe, Majalis, Dua, Aamaal, ziyarat ja paljon muuta kaikista treffeistä ja tilaisuuksista. Katso ja suoratoista majalis mukavasti kotisi mukavuudesta! Liity Shia-sosiaalisen verkoston sovellukseen, joka auttaa sinua deen & mazhabin rutiinitehtävissä. Liity tänään!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Päivittäinen Azaan-hälytys, kysymys-vastaus ja työkalut shiiamuslimeille",
+        "description": "Hanki päivittäinen muistutus Adhanille, etsi ja kysy kysymys-vastaus aiheista deen &islam tai pyydä Surah-fatihaa tai Namaz-e-Wahshatia marhumeenillesi ja lisää työkaluja Bazmiin. Liity Shia-sosiaalisen verkoston sovellukseen, joka auttaa sinua deenin rutiinitehtävissä. Löydä Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat kaikkiin päivämääriin ja tilaisuuksiin. Suoratoista tapahtumia ja maloja mukavasti kotonasi. Liity tänään!"
+      },
+      "tasbeehCounter": {
+        "title": "Automaattinen tasbeeh-laskuri Voice __ Tasbeeh Counter -työkalulla",
+        "description": "Lukemattomien tasbeehin lausuminen on nyt helpompaa Audio tasbeeh -laskureillamme. Lausu tasbeeh ajaessasi tai työskennellessäsi, silti seuraamalla laskentaa äänilaskurien avulla. Hanki tämä työkalu ja muut sen kaltaiset Bazm-sovelluksesta."
+      },
+      "accountHome": {
+        "title": "Bazm - Luo ilmainen tilisi jo tänään ja saat apua päivittäisiin deen-tarpeisiisi!",
+        "description": "Liity Bazm-sovellukseen jo tänään täyttääksesi kaikki deeniyat-tarpeesi. Etsi nohe/nauhe, majalis, dua, ziyarat, aamaal kaikkiin päivämääriin ja tilaisuuksiin. Suoratoista ja katso majalis &tapahtumia ympäriltäsi; löydä viestejä, sisältöä ja momineenia ympäri sinua ja maailmaa ja paljon muuta sovelluksesta."
+      },
+      "nauheListPage": {
+        "title": "Kuuntele Nauhea suositusta nauhakhwanista ympäri maailmaa",
+        "description": "Kuuntele nauhea kaikilta vuosilta ja kaikkia suosittuja nauhakhwaneja ympäri maailmaa Bazm-sovelluksesta."
+      },
+      "soazListPage": {
+        "title": "Kuuntele Soazia suositusta Soazkhwanista ympäri maailmaa",
+        "description": "Kuuntele Soazia kaikilta vuosilta ja kaikkia suosittuja Soazkhwania ympäri maailmaa Bazm-sovelluksessa."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Löydä lisää nauhe, audio/video majalis, dua, ziyarat, aamaal jne.",
+        "description": "Löydä ääni-/video-majalis Maulanalta ja Zakir-e-Ahlbaytilta läheltäsi ja ympäri maailmaa. Kuuntele ja katso uusimmat majalis- ja livestriimausistunnot Bazm-sovelluksessa. Lataa sovellus jo tänään ja liity miljoonien shiiamuslimien joukkoon ympäri maailmaa!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas ja aamaal for the month of the month} Bazm - Löydä lisää nauhe, audio/video majalis, dua, ziyarat, aamaal jne.",
+          "Duas ja aamaal kaikkina kuukausina Bazmissa - Löydä lisää nauhe, audio/video majalis, dua, ziyarat, aamaal jne."
+        ],
+        "description": "Löydä duas, aamaal, ziyarat ja munajat kaikkina kuukausina Bazmista, päivämäärä ja tapahtuma viisas. Lataa sovellus jo tänään ja liity miljoonien shiiamuslimien joukkoon ympäri maailmaa!"
+      }
+    }
+  }
+}
