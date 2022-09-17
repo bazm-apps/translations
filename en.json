@@ -482,6 +482,22 @@
         "defLabel": "Login or Signup to continue",
         "infoText": "This feature requires you to login or register before you could use it. Click <b>Login</b> if you are already registered, or click <b>Sign up</b> to create your account."
       },
+      "langPrompt": {
+        "title": "Use app in {langLabel}?",
+        "desc": {
+          "p1": "It looks like you 're accessing the app from { countryName }. Would you like to see content and controls in one of the following languages spoken in the region ? Click on your language and 'Save' your choice to continue.",
+          "p2": "Or you can dismiss this popup to continue using the app in English!"
+        },
+        "langError": "An error occurred while loading translations for {langName}.Please try again later",
+        "choices": {
+          "useEngligh": "No, continue in English",
+          "selectFrom": "Or choose from one of the following languages:",
+          "useLang": [
+            "Yes, use {langName}",
+            "Use {langName}"
+          ]
+        }
+      },
       "location": {
         "title": "Change Location",
         "search_ph": "Search your location",
