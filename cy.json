@@ -1,1 +1,809 @@
-undefined
+{
+  "cy": {
+    "common": {
+      "refresh": "Tynnu i adnewyddu",
+      "refreshing": "Adnewyddu...",
+      "loadingMore": "Llwytho mwy ...",
+      "checking": "Gwirio...",
+      "sendOtp": "Anfon OTP..",
+      "dismiss": "Diswyddo",
+      "invite": "Gwahodd",
+      "showMore": "Dangos mwy | Gweler mwy",
+      "play": "Chwarae",
+      "pause": "Oediedig",
+      "playing": "Chwarae",
+      "paused": "Oediedig",
+      "watch": "Gwylio",
+      "read": "Darllen",
+      "authors": "Awdur | Awduron",
+      "languages": "Iaith | Ieithoedd",
+      "clear": "Clirio",
+      "cancel": "Canslo",
+      "change": "Newid",
+      "continue": "Parhau",
+      "select": "Dewis",
+      "saveChanges": "Cadw newidiadau | Cadw | Diweddariad",
+      "newBadge": "Newydd",
+      "login": "Mewngofnod",
+      "logout": "Logiout",
+      "signup": "Ymuno",
+      "settings": "Gosodiadau",
+      "cookiePolicy": "Polisi cwcis",
+      "privacy": "Preifatrwydd",
+      "contactUs": "Cysylltu â ni",
+      "home": "Cartref",
+      "facebook": "Facebook",
+      "google": "Rhannwch",
+      "you": "Ti",
+      "retry": "Ailgynnig",
+      "send": "Anfon",
+      "submit": "Cynnig",
+      "share": "Rhannu | Rhannwch nawr",
+      "at": "ar",
+      "untilNextTime": "Dim problem. Tan y Cyfnod Nesaf!",
+      "plzWait": "Arhoswch os gwelwch yn dda..",
+      "saving": "Achubiaeth.. | Diweddaru..",
+      "search": "Chwilio",
+      "late": "Hwyr",
+      "done": "Wneud",
+      "featureUnavailable": "Bydd y nodwedd hon ar gael yn fuan. Diolch fro yn dangos diddordeb!",
+      "actions": {
+        "cancel": "Canslo",
+        "notify": "Hysbysu",
+        "like": "Hoffi",
+        "recited": "Adroddir",
+        "comment": "Sylw",
+        "reply": "Ateb",
+        "bookmark": "Dalennod",
+        "uploading": "Lanlwytho..",
+        "deleting": "Ddileu..",
+        "requesting": "Gofyn..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Sori, ni allwch rannu ffeiliau {fileType} yma",
+        "jsUpdateAvailable": {
+          "header": "Y diweddaraf ar gael",
+          "message": "Rydych yn gweld fersiwn cached o'r app. Cliciwch 'Adnewyddu' i ddiweddaru a llwytho cynnwys a nodweddion newydd.",
+          "cta": "Adnewyddu"
+        },
+        "jsImgUploaded": "Delwedd wedi ei uwchlwytho'n llwyddiannus!",
+        "jsImgUploadErr": "Methodd uwchlwytho delweddau. Ceisiwch eto nes ymlaen."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Gwasanaeth ddim ar gael ar hyn o bryd. Ceisiwch eto nes ymlaen.",
+        "unknown": "Camgymeriad anhysbys ddigwyddodd. Ceisiwch eto nes ymlaen.",
+        "general": "Digwyddodd camgymeriad wrth brosesu eich cais. Ceisiwch eto nes ymlaen."
+      },
+      "content": {
+        "unavailable": "Allai ddim llwytho'r cynnwys ar hyn o bryd. Ceisiwch eto ymhen ychydig.",
+        "itemDetailUnavailable": "Allai ddim dod o hyd i fanylion ar gyfer yr {eitem} hon.",
+        "loadMoreError": "Wedi methu llwytho mwy o eitemau. Ceisiwch eto nes ymlaen."
+      },
+      "url": {
+        "invalid": "URL annilys. Ceisiwch gyda URL newydd."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Cartref"
+      },
+      "postDetail": {
+        "commonTitle": "Manylder",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha &Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Llun proffil",
+        "bannerUpdateTitle": "Delwedd y Clawr (Deprecated)",
+        "statusUpdateTitle": "Diweddariad statws"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Cartref",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Rhannwch y cais hwn ar draws eich rhwydwaith ac estyn allan at fwy o bobl!"
+          }
+        }
+      },
+      "media": {
+        "name": "Cyfryngau",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duwies",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Llyfrau"
+        },
+        "inviteFriends": "gwahodd eich ffrindiau",
+        "notShia": "Nid Shia?",
+        "contacts": {
+          "accessRequestHeader": "Angen Mynediad Cysylltiadau",
+          "accessRequestDesc": "Rydym yn gofyn am fynediad eich cysylltiadau i awgrymu pobl Shia yn eich llyfr ffôn i wahodd i'r ap hwn."
+        },
+        "audio": "Sain",
+        "video": "Fideo",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Dymuno'n dda i'ch ffrindiau!",
+          "wishCtaLabel": "DYMUNO"
+        },
+        "books": {
+          "booksByAuthor": "Llyfrau gan {awdur}",
+          "booksInLang": "Llyfrau yn {lang}",
+          "filterBy": "Cyfyngu yn ôl:",
+          "matching": {
+            "authors": "gydag awduron yn paru",
+            "lang": "gydag ieithoedd yn paru",
+            "title": "gyda paru teitl"
+          }
+        },
+        "booksFilter": {
+          "title": "Canfod llyfr gan awdur",
+          "searchBox": "Chwilio awdur yn ôl enw",
+          "selectLang": "Dewiswch iaith:"
+        },
+        "bookDetails": {
+          "title": "{teitl} — Dewch o hyd i fwy o lyfrau am ddim fel hyn ar Bazm",
+          "aboutBook": "Ynglŷn â llyfr:"
+        }
+      },
+      "tools": {
+        "name": "Offer",
+        "salatAlarmDesc": "Gosod larymau i Azaan yn unol â'ch amseroedd lleol",
+        "sehriAlarmDesc": "Gosod Larwm ar gyfer Sehri, neu hyd yn oed gael galwad deffro ar eich rhif cyn Sehri!",
+        "sehriAlarmOptionDisabled": "Larymau am amser Sheri yn ystod mis Ramadan (ar gael yn ystod Ramadan yn unig)",
+        "tasbeehCounterDesc": "Recite Duas, Quran a Tasbeeh ar y modd ailadrodd yn hawdd gyda cownter Sain Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Chwiliwch a Gofynnwch gwestiynau neu ddod o hyd i atebion i masle-masayel o'ch bywyd bob dydd ar faterion Islam.",
+        "alarms": {
+          "salatAlarms": "Larymau Salat | Larymau Salat Dyddiol",
+          "sehriAlarms": "Larymau Ramadan Sehri",
+          "gettingLocation": "Cael eich lleoliad. Arhoswch os gwelwch yn dda...",
+          "settingsTip": "Newid <b>Lleoliad</b> a dewisiadau mewn gosodiadau Larwm. Cliciwch eicon Settings i ddechrau.",
+          "setAlarmHeader": "Gosod Larymau Dyddiol",
+          "setAlarmOnAppDesc": "Gosod larymau ar yr ap yn unig",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Machlud",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Canol Nos",
+          "sehriEndTime": "Amser i ddiwedd Sehri",
+          "minToImsak": [
+            "{min} mins cyn Imsak",
+            "{awr} awr cyn Imsak"
+          ],
+          "minToImsakDesc": [
+            "Modrwyau larwm {min} munud cyn diwedd amser Sehri",
+            "Modrwyau larwm {awr} awr cyn diwedd amser Sehri"
+          ],
+          "notRamadan": "Edrych fel nad yw'n Ramadan eto. Dewch yn ôl yn ystod neu ychydig cyn y Ramadan i osod y Larymau ar gyfer Sehri",
+          "push": {
+            "heading": "Angen mynediad hysbysu",
+            "desc_request": "Mae'r larwm yn gweithio trwy anfon hysbysiadau gwthio ar adegau dynodedig. Heb fynediad i wthio, ni fydd ap yn gweithio yn y ffordd ddisgwyliedig. Yn garedig caniatáu mynediad i'ch hysbysiad gwthio fel y gallwn eich hysbysu ar adegau larwm.",
+            "desc_denied": "<strong>Fe wnaethoch chi wadu mynediad hysbysu yn gynharach.</strong> Mae ei angen er mwyn gwthio hysbysiadau i weithio'n iawn. Rydym yn anfon hysbysiadau ar amser larwm.<br/> Yn garedig iawn caniatáu mynediad i wthio hysbysiadau trwy glicio ar y botwm.",
+            "cta": "Caniatáu",
+            "toast_granted": "Diolch! Byddwch yn cael gwybod ar amseroedd larwm nawr.",
+            "toast_denied": "Gwadu cais hysbysu. Gadewch i'r mynediad i ap weithio'n iawn.",
+            "toast_prompt": "Mae angen i chi ganiatáu mynediad hysbysu i osod larymau."
+          },
+          "jsAlarmSetSuccess": "Larymau yn gosod yn llwyddiannus",
+          "jsAlarmSetError": "Camgymeriad wrth osod larymau. Ceisiwch eto nes ymlaen.",
+          "jsAlarmSnoozed": "Larwm wedi'i snoozio am 10 munud"
+        },
+        "alarmSetting": {
+          "title": "Gosodiadau Larwm",
+          "locationTitle": "Dod o hyd i amseru Dinas am Larwm",
+          "forLocation": "Larwm am leoliad",
+          "calcMethod": "Dull cyfrifo",
+          "selectAdhanSound": "Dewis sain Adhan",
+          "selectAlarmSound": "Dewiswch Sain larwm",
+          "alarmSoundDesc": "Sain am gyfnodau di-salat",
+          "timesPeekHeading": "Baner amseroedd arddangos",
+          "timesPeekDesc": "Gallwch analluogi arddangos amseroedd cyflym ar gyfer Salat yma:",
+          "timesPeekHome": "Dangoswch ar dudalen ffrydiau:",
+          "timesPeekTools": "Dangoswch ar dudalen offer:",
+          "jsConfirmLocChange": "Bydd newid eich lleoliad yn canslo'r holl larymau gosod blaenorol. Parhau?",
+          "jsOtherSettingsSaved": "Lleoliadau eraill wedi'u hachub. Ni newidiwyd lleoliad."
+        },
+        "qna": {
+          "title": "Ateb Cwestiwn",
+          "qnaSource": "Ffynhonnell",
+          "seeAnswer": "Gweler ateb",
+          "noAnswer": "Dim ateb"
+        },
+        "qnaDetail": {
+          "title": "Atebion i: {ques}",
+          "jsSubmitSuccess": "Rwyt ti'n cwestiynu wedi cael ei gyflwyno'n llwyddiannus. Byddwn yn eich diweddaru unwaith y byddwn yn cael ateb arno."
+        },
+        "tasbeehCounter": {
+          "title": "Cownter Tasbeeh"
+        }
+      },
+      "user": {
+        "name": "Defnyddiwr | Cyfrif",
+        "editProfile": "Proffil Golygu",
+        "publishToFeed": "Cyhoeddi fy newidiadau i fwydo",
+        "shareUpdateToFeed": "Hefyd yn rhannu'r diweddariad hwn i'm ffrwd",
+        "statusText_ph": "Defnyddiwch fformatio _italics_ neu *beiddgar* i addurno'ch statws",
+        "statusCharsLeft": "{cyfrif} cymeriadau ar ôl",
+        "jsImgUploadSuccess": "Delweddau wedi eu huwchlwytho'n llwyddiannus!",
+        "unauthAccess": {
+          "heading": "Ydych chi'n siŵr eich bod chi yn y lle iawn?",
+          "desc": "<p>Mae'n edrych fel eich bod yn ceisio cael mynediad i dudalen nad oedd gennych ganiatâd ar ei gyfer. Os oeddech chi'n ceisio cael mynediad i dudalen rydych chi wedi'i gyrchu o'r blaen, ceisiwch fewngofnodi; dylai hynny ddatrys y broblem.</p> <p>Mae croeso i chi gysylltu â ni os yw'r broblem yn parhau.</p>"
+        },
+        "guest": {
+          "welcome": "Croeso, <strong>Gwestai!</strong>",
+          "heading": "Pam Mewngofnodi neu Gofrestru?",
+          "desc": "Gyda chyfrif ar ein app, gallwch ddefnyddio nifer o nodweddion. Dechreuwch trwy greu cyfrif, os nad oes gennych gyfrif yn barod. Neu, dim ond mewngofnodi!",
+          "unlockHeading": "datgloi yn dilyn gyda chyfrif:",
+          "features": {
+            "engage": {
+              "heading": "Ymgysylltu â'r ap",
+              "desc": "Ymgysylltu â defnyddwyr eraill, ymateb i'w swyddi neu geisiadau, sylwch eich barn, llyfrnodi eich eitemau, a chymaint mwy!"
+            },
+            "fatiha": {
+              "heading": "Cais Post Fatiha",
+              "desc": "Cais post am Surah-e-Fatiha am eneidiau eich anwyliaid ymadawedig a chael eu heneidiau wedi eu bendithio â gweddïau o'n holl ddefnyddwyr!"
+            },
+            "askQues": {
+              "heading": "Gofyn Cwestiynau",
+              "desc": "Gofynnwch gwestiynau gan Deen &Duniya ar wahanol bynciau i'w hateb gan ei hel atgofion, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "cynnwys sy'n cael ei ffafrio",
+              "desc": "Gwelwch eich hoff gynnwys a gosodiadau bob amser pan fyddwch wedi mewngofnodi i'ch cyfrif. Hefyd, cael gwybod am yr holl bethau diddorol!"
+            },
+            "personalized": {
+              "heading": "rhannu wedi'i bersonoli",
+              "desc": "Gosodwch rannu cynnwys wedi'i bersonoli â'ch llofnod fel bod eich ffrindiau'n gwybod pan fyddwch chi'n rhannu neges/post."
+            }
+          }
+        },
+        "about": {
+          "title": "Ynghylch",
+          "jsStatusUpdateFail": "Wedi methu diweddaru statws. Ceisiwch eto nes ymlaen."
+        },
+        "posts": {
+          "title": "Swyddi",
+          "userNoPosts": "Pan fyddwch yn newid eich llun/delwedd clawr, neu pan fyddwch yn gofyn am surah-fatiha ar gyfer eich anwyliaid demêr, bydd y swyddi hyn yn ymddangos yma ac yn <b>y tab Cartref</b> (o rai eraill hefyd). Rhowch gynnig ar ychwanegu llun neu ddelwedd clawr?",
+          "profileNoPosts": "Nid yw {enw} wedi gwneud unrhyw swyddi eto."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} hasn't marhumeen added yet | You haven't added marhumeen yet",
+            "marhumeenAdded": "Mae {enw} wedi ychwanegu yn dilyn marhumeen | Rydych wedi ychwanegu yn dilyn marhumeen"
+          },
+          "jsDeleteHeader": "Wyt ti'n siŵr?",
+          "jsDeletePrompt": "Bydd dileu cofnodion ar gyfer <b>{fullName}</b> hefyd yn dileu'r holl geisiadau blaenorol a wnaed am {gender}! Parhau?",
+          "jsDeleted": "Deleted records for {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Mewngofnodi i'ch cyfrif",
+        "createAccount": "Creu cyfrif"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Y cam nesaf",
+        "goBack": "Cer nôl",
+        "confirm": "Cadarnhau"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Lleoliad ddim ar gael. Gosodwch hi trwy glicio ar yr eicon i weld golwg gyflym ar Salat-times.",
+          "unknownError": "Camgymeriad ddigwyddodd. Allai ddim llwytho amseroedd ar hyn o bryd."
+        }
+      },
+      "langPrompt": {
+        "title": "Use app in {langLabel}?",
+        "desc": {
+          "p1": "Mae'n edrych fel eich bod yn cyrchu'r ap o {countryName}. Hoffech chi weld cynnwys a rheolaethau yn un o'r ieithoedd canlynol a siaredir yn y rhanbarth? Cliciwch ar eich dewis ac yna cliciwch ar 'Save' i barhau.",
+          "p2": "Neu, wfftio'r popup hwn i barhau i ddefnyddio'r ap mewn iaith ddiofyn."
+        },
+        "choices": {
+          "useLang": [
+            "Ie, defnyddiwch {langName}",
+            "Use {langName}"
+          ],
+          "useEngling": "Parhau yn Saesneg"
+        },
+        "langError": "Digwyddodd gwall wrth lwytho'r cyfieithiadau ar gyfer {langName}. Ceisiwch eto nes ymlaen."
+      },
+      "createPost": {
+        "heading": "Beth sydd eisiau heddiw?",
+        "desc": "Cliciwch yma i rannu diweddariad neu ddefnyddio opsiwn o isod",
+        "request": "Cais",
+        "askQues": "Gofyn cwestiwn",
+        "sheetOptions": {
+          "header": "Gwneud cais",
+          "subheader": "Gwnewch gais gan momineen am eich marhumeen neu chi eich hun.",
+          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat yn Zari-e-Imam Husain (a.s.) ar eich rhan"
+        },
+        "modal": {
+          "titles": {
+            "post": "Creu Post | Y Post Diweddaru",
+            "livestream": "Llif byw",
+            "hadiyah": "Creu Hadiyah | Update Hadiyah"
+          },
+          "postCta": "Post | Diweddariad",
+          "stream": {
+            "scheduleCta": "Cadw am yn hwyrach | Dechrau Ffrydio"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "I bwy ydych chi am roi hyn?",
+              "addPeopleToggle": "Gadewch i eraill fod yn rhan o'r sawab hwn hefyd!",
+              "searchInput": "Gwahodd momimeen gan Bazm neu'ch rhestr Gyswllt",
+              "minUsersHeader": "Eisiau gosod isafswm nifer y mae angen i gyfranogwyr ei ddewis?",
+              "minUsersInput": "Rhowch isafswm rhif"
+            }
+          },
+          "postTime": [
+            "Pryd mae hi?",
+            "Pryd ydych chi eisiau dechrau ffrydio?"
+          ],
+          "whereIsIt": "Ble yw e?",
+          "findLocation": "Canfod lleoliad",
+          "locationSubtext": "Ychwanegu lleoliad i'ch swydd",
+          "addLocation": "Ychwanegu lleoliad",
+          "addPics": "Ychwanegu lluniau i'ch post",
+          "previewDes": "Dyma sut y byddai eich swydd yn ymddangos mewn porthiant o bobl eraill. Gall pobl tapio ar y fideo i'w weld yn y sgrin lawn.",
+          "addToPost": "Ychwanegu at {postType} (dewisol)",
+          "jsImgUploadFail": "Ni uwchlwythwyd delwedd",
+          "jsAddDetailToPost": "Ychwanegwch fanylion i'ch post",
+          "jsValidEndDate": "Dewiswch ddyddiad gorffen dilys",
+          "jsSetLocation": "Gosodwch leoliad ar gyfer y swydd",
+          "jsRemLocation": "Gosodwch leoliad neu ddileu'r adran honno",
+          "jsAddImg": "Ychwanegwch ddelweddau neu ddileu'r adran honno",
+          "jsInvalidDate": [
+            "Gosodwch ddyddiad cychwyn dilys ",
+            "Gosodwch ddyddiad cychwyn dilys neu ddileu'r adran honno"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Sylwadau",
+        "loadPrevious": "Llwyth o sylwadau blaenorol | Llwyth o atebion blaenorol",
+        "replyingTo": "Ateb i:",
+        "noComments": "Dim sylwadau ar y swydd hon eto",
+        "textboxPlaceholder": "Ysgrifennwch eich sylw yma",
+        "requestToLogin": "Mewngofnodi neu Cofrestru i ddechrau trafodaeth"
+      },
+      "post": {
+        "addressYou": "Ti",
+        "addressing": "eich | ei | hi",
+        "itemTypes": {
+          "avatar": "delwedd avatar",
+          "banner": "delwedd faner",
+          "status": "statws proffil"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> diweddaru {addressing} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha &namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Tan: {dyddiad} ar {amser}",
+        "privatePost": "Mae'r swydd hon i'w gweld i chi yn unig",
+        "descZiyaratRequest": "Fe wnaethoch ofyn i Ziyarat gael ei berfformio ar eich rhan yn *haram* o Imam Husain (a.s.) ar *{date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Request Surah-al-fatiha",
+          "addUpdate": [
+            "Diweddaru anwylyn",
+            "Ychwanegu anwylyn"
+          ]
+        },
+        "heading": [
+          "Ychwanegwch anwylyn sydd wedi trosglwyddo",
+          "Dewiswch un annwyl o'r rhestr neu ychwanegu rhywun annwyl sydd wedi trosglwyddo"
+        ],
+        "addNew": "Ychwanegu Newydd",
+        "subheader": [
+          "Ychwanegwch fanylion eich anwylyn",
+          "Gallwch hefyd gynnwys neges yn eich cais"
+        ],
+        "form": {
+          "jsAddImg": "Ychwanegwch ddelwedd ar gyfer eich anwylyn",
+          "jsRemoveImg": "Tynnu delwedd",
+          "fullName": "Enw llawn Ymadawedig",
+          "name_ph": "E.e., Syed Zeeshan Haider Abidi",
+          "fathersName": "Enw'r Tad (Os yw ar gael)",
+          "father_ph": "E.e., Syed Tauqeer Husain",
+          "nameError": "Nodwch enw llawn yn gwywo unrhyw gymeriadau arbennig",
+          "genderLabel": "Rhyw",
+          "genderValue": [
+            "Benyw",
+            "Gwryw"
+          ],
+          "relation": [
+            "Marhooma yw eich",
+            "Marhoom yw eich"
+          ],
+          "selectRelation": "Dewis Perthynas",
+          "demiseLabel": "Demised heddiw? Request Namaz-e-Wahshat",
+          "demiseText": "Mae'n ddrwg iawn gennym glywed am eich colled. Boed i Allah roi'r nerth i chi a'ch teulu i ysgwyddo'r golled hon gydag amynedd a gall Allah wobrwyo'r enaid demên â'r lleoedd uchaf yn Jannah. Mae dewis yr opsiwn hwn yn eich galluogi i ofyn i momineen ar gyfer Namaz-e-Wahshat ar gyfer yr enaid demên.",
+          "optional": "Dewisol",
+          "dod": "Wedi'i drosglwyddo",
+          "dob": "Cafodd ei eni ar"
+        },
+        "relation": [
+          "Merch",
+          "Ap"
+        ],
+        "born": "Anwyd:",
+        "died": "Marw:",
+        "addMsg": "Eisiau ychwanegu neges?",
+        "remainingChars": "Cymeriadau: {cyfrif} | Cymeriadau: {cyfrif} yn weddill",
+        "infoEditRelative": "Gallwch olygu manylion ar gyfer {enw} yn eich <b>Cyfrif > Marhumeen</b> adran",
+        "saveRequestCta": [
+          "Cadw & Cais",
+          "Cais"
+        ],
+        "addUpdate": "Ychwanegu | Diweddariad",
+        "jsRequesting": "Gofyn..",
+        "jsAddSuccess": [
+          "Ychwanegodd eich anwylyn yn llwyddiannus!",
+          "Diweddaru eich anwylyn yn llwyddiannus!"
+        ],
+        "jsAddFail": "Wedi methu ag ychwanegu eich anwylyn. Ceisiwch eto nes ymlaen.",
+        "jsReqSuccess": "Cais a gyflwynwyd yn succesful.",
+        "jsGettingMarhumeen": "Cael eich marhumeen.."
+      },
+      "askQues": {
+        "title": "Gofyn cwestiwn",
+        "form": {
+          "quesLabel": "Eich cwestiwn",
+          "quesLabel_ph": "Chwiliwch am gwestiwn neu gofynnwch eich hun",
+          "similarQues": "Efallai bod gan y cwestiynau hyn yr ateb rydych chi'n chwilio amdano'n barod.",
+          "quesTextHeader": "Eich cwestiwn:",
+          "selectCat": "Gosod Categori Cwestiwn:",
+          "askAnonLabel": "Gofyn yn ddienw?",
+          "askAnonInfo": "Ni fydd eich enw yn cael ei anfon at yr Ysgolhaig wrth ofyn am ateb ar eich rhan, ni fydd yn cael ei arddangos ar draws ein ap gyda'r cwestiwn hwn chwaith. Ond mae'n bosib na fydd cwestiynau dienw yn cael eu hateb yn gyflym.",
+          "askViaLabel": "Holi Via",
+          "askSistaniInfo": "Gallwch ofyn cwestiwn i'w ateb gan swyddfa ei hel atgofion, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Byddwn yn anfon y cwestiwn at eu gwefan (ynghyd â'ch gwybodaeth proffil). Gwnewch yn siŵr eich bod wedi darllen y <b>Telerau ac Amodau</b> yn iawn.",
+          "tncLabel": "Telerau ac Amodau:",
+          "showHide": [
+            "Dangos",
+            "Cuddio"
+          ],
+          "sistaniOrgTncInfo": "Ystyriwch ddilyn pwyntiau o'u gwefan cyn i chi ofyn cwestiwn, oherwydd os nad ydych chi'n cadw at y pwyntiau isod, efallai na chlywch yn ôl ganddyn nhw, neu efallai na fyddwch yn derbyn unrhyw atebion.",
+          "userInfo": {
+            "aboutLabel": "Mwya'ch diddordeb",
+            "genderLabel": "Eich rhyw",
+            "bdayLabel": "Dy ben-blwydd",
+            "bdayDesc": "Gallwch ofyn cwestiwn dim ond os ydych chi dros 09 mlwydd oed. Os oes gennych ddiddordeb o hyd, cysylltwch â ni."
+          },
+          "jsQuesAdded": "Ychwanegodd cwestiwn yn llwyddiannus."
+        },
+        "askQuesCta": "Gofynnwch eich cwestiwn"
+      },
+      "authPrompt": {
+        "title": "Angen cyfrif",
+        "defLabel": "Mewngofnodi neu Cofrestru i barhau",
+        "infoText": "Mae'r nodwedd hon yn gofyn ichi fewngofnodi neu gofrestru cyn y gallech ei defnyddio. Cliciwch <b>Mewngofnodi</b> os ydych wedi cofrestru'n barod, neu cliciwch <b>Cofrestrwch i</b> greu eich cyfrif."
+      },
+      "location": {
+        "title": "Newid lleoliad",
+        "search_ph": "Chwiliwch eich lleoliad",
+        "autoDetectInfo": "Rhowch eich lleoliad neu cliciwch yr eicon auto-detect i gael eich lleoliad.",
+        "setLocation": "Gosod lleoliad",
+        "ipAddress": "Cyfeiriad IP",
+        "alarmLocation": "Lleoliad larwm",
+        "basedOn": "Lleoliad yn seiliedig ar eich {selector}",
+        "jsDetecting": "Canfod, arhoswch..",
+        "jsPermDenied": "Gwadu caniatâd lleoliad ar gyfer ap. Ailosodwch y dewis lleoliad ar gyfer yr ap hwn drwy ymweld ag adran Gosodiadau yn eich ffôn.",
+        "jsPosUnavailable": "Mae'n ddrwg gennym, ond nid yw safle ar gael ar gyfer y ffôn hwn ar hyn o bryd. Ceisiwch eto nes ymlaen.",
+        "jsMatchNotFound": "Ni allai ddod o hyd i unrhyw leoliadau cyfatebol..",
+        "jsEnterValidLoc": "Nodwch leoliad dilys",
+        "jsGeoUnavailable": "Mae'n ddrwg gennym, ond nid yw safle ar gael ar gyfer y ffôn hwn ar hyn o bryd. Ceisiwch eto nes ymlaen.",
+        "jsLocMissing": "Allai ddim dod o hyd i'ch lleoliad. Rhowch leoliad â llaw.",
+        "jsSelectedLoc": "Mae gwall gyda'r lleoliad hwn. Rhowch gynnig arni eto"
+      },
+      "readText": {
+        "ctaLabel": "Darllen",
+        "title": "Dua: {teitl}",
+        "arabicCta": "Arabeg",
+        "englishCta": "Saesneg",
+        "translatedCta": "Wedi'i gyfieithu"
+      },
+      "reqAccess": {
+        "heading": "angen mynediad",
+        "subheading": "Mae angen caniatâd arnom i gael mynediad i'ch camera",
+        "subtext": "Plîs gadewch y mynediad trwy glicio ar y botwm isod:",
+        "ctaLabel": "caniatáu mynediad"
+      },
+      "shareBtn": {
+        "subtext": "Cliciwch un o'r opsiynau isod i rannu hyn ar yr ap perthnasol:",
+        "jsCopyToCB": "Wedi'i gopïo i'ch clipfwrdd",
+        "copyText": "Cliciwch <b>Copi</b> eicon uchod i gopïo'r cynnwys isod:"
+      },
+      "verifyMob": {
+        "title": [
+          "Gwirio Symudol",
+          "Rhowch y cod"
+        ],
+        "page1": {
+          "infoText1": "Mae angen eich rhif symudol arnom i wirio'ch hunaniaeth. Efallai y cewch ddiweddariadau achlysurol hefyd.",
+          "infoText2": [
+            "Rhowch eich rhif a chliciwch ar y botwm i gael eich cod cadarnhau:",
+            "Rhowch eich rhif a chliciwch botwm i gael eich cod cadarnhau:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Rhif Symudol",
+          "mobileLabel_ph": "Rhowch eich rhif symudol",
+          "otpViaSMS": "Ewch trwy SMS",
+          "viaWhatsApp": "Gallwch ddod trwy WhatsApp",
+          "viaTelegram": "Ewch trwy Telegram",
+          "viaSignal": "Ewch trwy Signal"
+        },
+        "page2": {
+          "header": "Rydym wedi anfon cod cadarnhau 6-digid at eich rhif ({rhif})",
+          "enterCodeLabel": "Rhowch god",
+          "enterCode_ph": "Rhowch y cod 6-digid",
+          "resendCode": "Cod Resend",
+          "notUsingMobile": "Ddim yn defnyddio <strong>{rhif}?</strong>",
+          "changeNumber": "Newid Nifer"
+        },
+        "jsVerifySuccess": "Symudol wedi'i ddilysu'n llwyddiannus",
+        "jsVerifyError": "Camgymeriad ddigwyddodd. Ceisiwch eto nes ymlaen.",
+        "jsSendOtpFailed": "Wedi methu ag anfon OTP. Ceisiwch eto nes ymlaen.",
+        "jsSendOtpSuccess": "OTP yn cael ei anfon i {symudol}",
+        "jsTooManyRequests": "Edrych fel eich bod wedi trio gormod o weithiau'n barod. Arhoswch funud neu ddau a cheisiwch eto."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personoli Rhannu neges",
+        "changePwd": "Newid Cyfrinair | Set Password",
+        "changeLang": "Newid Iaith",
+        "publishToFeed": "Cyhoeddi fy newidiadau i fwydo hefyd."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personoli",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Ychwanegu fy enw at negeseuon",
+          "sharingDesc": "Wrth rannu'n allanol, gall eich negeseuon edrych fel isod:",
+          "sharingTextDemo": [
+            "Gwrandewch ar hyn Nauha ar Ap Bazm",
+            "{enw} yn argymell gwrando ar hyn Nauha ar Bazm App"
+          ],
+          "addSignDesc": "Eisiau ychwanegu eich llofnod hefyd?",
+          "signDesc": "Pan fyddwch yn rhannu eich dymuniad gyda ffrindiau ar yr ap hwn, bydd eich llofnod yn cael ei ychwanegu at y negeseuon. Er enghraifft, gallai ymddangos fel isod:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Rhowch eich cyfrinair presennol:",
+          "currentPwdPH": "Rhowch y Cyfrinair Cyfredol",
+          "newPwdLabel": "Rhowch gyfrinair newydd:",
+          "newPwdPH": "Rhowch Gyfrinair Newydd"
+        },
+        "changeLang": {
+          "searchYourLang": "Chwiliwch eich iaith",
+          "desc": "Dewiswch yr iaith yr hoffech chi weld cynnwys yr ap ynddi. Cliciwch ar iaith ac aros (mae'n cymryd rywbryd i lwytho'r cyfieithiad) i weld sut mae'r ymadrodd hwn yn ymddangos mewn iaith ddethol."
+        },
+        "jsPwdInvalid": "Mae gan gyfrinair gymeriadau annilys.",
+        "jsPwdCharCount": "Ni all cyfrinair fod yn llai nag 8 cymeriad.",
+        "jsSelectLang": "Dewiswch iaith yn gyntaf.",
+        "jsLangSet": "Mae iaith wedi ei gosod i {lang}",
+        "jsPrefSaved": "Gosodiadau personoli wedi'u hachub."
+      },
+      "forgotPwd": {
+        "title": "Cyfrinair anghofiedig?",
+        "introText": "Mae ailosod eich cyfrinair yn hawdd. Dewiswch ddull i barhau:",
+        "usePhoneCta": "Defnyddio ffôn",
+        "useEmailCta": "Defnyddio e-bost",
+        "sendEmailIntro": "Rhowch y cyfeiriad e-bost y gwnaethoch chi greu eich cyfrif gyda nhw, a byddwn yn anfon e-bost gyda dolen i osod cyfrinair newydd ar gyfer eich cyfrif.",
+        "emailInputLabel": "Eich e-bost cofrestredig",
+        "sendEmailCta": "Anfon e-bost Ailosod",
+        "sentEmailText": "Os oes gennych gyfrif gyda ni, byddwch yn cael e-bost ailosod cyfrinair yn fuan ar <strong>{e-bost}</strong>. Gwiriwch eich e-bost yn garedig ar gyfer y ddolen.",
+        "notUsingEmailText": "Ddim yn defnyddio <strong>{e-bost}?</strong>",
+        "changeEmailCta": "Newid e-bost",
+        "phoneIntroText": "Rhowch y rhif ffôn a ychwanegwyd at eich cyfrif. Byddwn yn anfon OTP i wirio'ch perchnogaeth, ac yn y cam nesaf, byddwch yn gallu creu cyfrinair newydd.",
+        "phoneInputLabel": "Eich rhif symudol",
+        "sendOtpCta": "Anfon OTP",
+        "backToLoginCta": "Yn ôl i Login",
+        "disclaimerText": "Nodwch y cewch {eitem} yn unig os oes gennych yr {eitem} sydd wedi cofrestru gyda ni",
+        "jsMailSent": "Anfon post"
+      },
+      "resetPwd": {
+        "title": "Ailosod Cyfrinair",
+        "introText": "Gosodwch gyfrinair diogel ar gyfer eich cyfrif yma. Cliciwch {eicon} i sicrhau eich bod yn mynd i mewn i'r cyfrinair cywir.",
+        "pwdInputLabel": "Gosod cyfrinair newydd",
+        "pwdInputPH": "Rhowch gyfrinair newydd",
+        "invalidPwdChars": "Cymeriadau annilys mewn cyfrinair",
+        "jsResetSuccess": "Ailosod cyfrinair yn llwyddiannus!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Wedi methu llwytho'r trac. Ceisiwch eto nes ymlaen."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{eitem} wedi ei dileu'n llwyddiannus.",
+        "jsErrReporting": "Methu adrodd hyn ar hyn o bryd. Ceisiwch eto nes ymlaen.",
+        "jsAlreadyReported": "Rydych chi eisoes wedi adrodd yr {eitem} hon. Ni allwch ei riportio fwy nag unwaith.",
+        "jsPromptHeading": "Mae adrodd eitem yn arwain at y siawns is o ymddangos yn eich ffrwd/tudalennau eraill. Ydych chi'n dal eisiau adrodd hyn?",
+        "jsReporting": "Reporting {itemType}..",
+        "jsReportingErr": "Allai ddim cyflwyno eich cais ar hyn o bryd. Ceisiwch eto nes ymlaen.",
+        "jsReported": "{eitem} adroddwyd. Diolch am eich cyfraniad."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Dim i'w ddiweddaru!",
+        "jsProfileUpdated": "Proffil wedi'i ddiweddaru!"
+      },
+      "reqZiyarat": {
+        "title": "Cais Ziyarat",
+        "cta": "Cais",
+        "header": "Cais Ziyarat yn Imam Hussain (a.s.) Shrine yn Karbala ar eich rhan.",
+        "desc": {
+          "p1": "Bob dydd Gwener, mae <strong>Ziyarat wedi adrodd ar eich rhan</strong> yn Shrine Imam Hussain(a.s.) yn Karbala, Irac! Y cyfan sydd angen i chi ei wneud yw gwneud cais <strong>cyn diwedd nos Iau</strong>. Ond dydych chi byth yn rhy hwyr; os daw eich cais i mewn yn rhy hwyr, bydd wedi cofrestru ar gyfer yr wythnos ganlynol.",
+          "p2": "Byddwn yn eich hysbysu pan fydd y ziyarat wedi'i adrodd ar eich rhan.",
+          "p3": "Sylwer: Pan fyddwch yn gofyn am y tro cyntaf, caiff eich manylion eu rhannu gyda'n darparwr gwasanaeth. Darllenwch ein Telerau ac Amodau i wybod mwy."
+        },
+        "jsRegistered": "Diolch! Mae eich cais wedi'i gofrestru'n llwyddiannus. Fe gewch chi bost cadarnhau yn fuan.",
+        "jsAlreadyRegistered": "Rydych eisoes wedi cofrestru ar gyfer Ziyarat ddydd Iau hwn. Cofrestrwch wythnos nesaf ar gyfer ziyarat yr wythnos nesaf.",
+        "jsConfirm": "Er mwyn cofrestru ar gyfer y cais hwn, mae angen i ni rannu eich manylion (ee, enw llawn, rhyw, ac ati) gyda'n darparwr gwasanaeth. Mae angen hyn am y tro cyntaf yn unig. Cadarnhewch yn garedig i fynd ymlaen.",
+        "jsDeclined": "Ocê! Efallai nes 'mlaen."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Dy enw",
+          "placeholder": "Rhowch eich enw llawn"
+        },
+        "email": {
+          "label": "E-bost",
+          "placeholder": [
+            "Eich e-bost cofrestredig",
+            "Rhowch eich e-bost"
+          ]
+        },
+        "password": {
+          "label": "Cyfrinair",
+          "placeholder": [
+            "Eich cyfrinair",
+            "Rhowch gyfrinair"
+          ]
+        },
+        "rememberLogin": "Cofio mewngofnodi",
+        "forgotPwd": "Cyfrinair Anghofiedig?",
+        "connectUsing": "Neu, cysylltu gan ddefnyddio",
+        "useSavedAccount": "Defnyddio cyfrifon a arbedwyd",
+        "lastLogin": "Mewngofnodi olaf",
+        "needAccount": "Angen cyfrif?",
+        "resetPwdSuccess": "Gallwch ddefnyddio eich cyfrinair newydd i fewngofnodi nawr",
+        "jsEnterFullName": "Rhowch eich enw llawn.",
+        "jsEnterValidName": "Rhowch enw dilys.",
+        "jsEnterValidEmail": [
+          "Rhowch e-bost dilys.",
+          "Mae gan yr e-bost gymeriadau annilys. Rhowch e-bost dilys."
+        ],
+        "jsSelectCountryCode": "Dewiswch eich cod gwlad o'r rhestr",
+        "jsEnterMobile": "Rhowch eich rhif symudol.",
+        "jsEnterValidMobile": "Nodwch rif symudol dilys",
+        "jsEnterPwd": "Rhowch eich cyfrinair!",
+        "jsEnterValidPwd": [
+          "Mae gan gyfrinair gymeriadau annilys. Rhowch gyfrinair dilys.",
+          "Dylai cyfrinair fod o leiaf {num} cymeriadau."
+        ],
+        "jsAccountSuccess": "Cyfrif a grëwyd yn llwyddiannus",
+        "jsFbError": "Allai ddim cael manylion eich cyfrif Facebook. Rhowch gynnig arni eto.",
+        "jsPromptClosedErr": "Cafodd Login prompt ei gau cyn gorffen. Rhowch gynnig arni eto."
+      },
+      "gotoSignup": "Goto Cofrestru",
+      "alreadyHasAccount": "Eisoes â chyfrif?",
+      "gotoLogin": "Goto Login",
+      "gotoProfile": "Proffil Goto",
+      "msgForAuthUser": "<p>Rydyn ni'n meddwl eich bod wedi glanio yma trwy gamgymeriad, gan eich bod eisoes wedi mewngofnodi.</p> <p>Gallwch wirio'ch proffil i weld sut mae'n edrych, neu ddefnyddio un o'r dolenni isod i bori adrannau eraill:</p>",
+      "jsLoggedOut": "Rwyt ti wedi cael dy logio allan.",
+      "jsLogoutHeading": "Logout o gyfrif?",
+      "jsLogoutText": "Bydd hyn yn dileu'r wybodaeth a arbedir yn lleol sy'n galluogi <b>mewngofnodi'n gyflym</b>. Parhau?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Gosod Bazm { llwyfan }",
+          "desc": "Lawrlwythwch ap Android am brofiad gwell, cynnwys wedi'i bersonoli, hysbysiadau a phopeth o'ch diddordeb o'ch cwmpas! | Gosod llwybr byr app (llyfrnod) i'w gyrchu'n uniongyrchol o'ch sgrin gartref y tro nesaf am brofiad gwell! Prin ei fod yn cymryd unrhyw le ar eich dyfais ond yn eich helpu i ddychwelyd ar yr ap yn gyflym.",
+          "cta": {
+            "action": "Gosod",
+            "skip": "Efallai nes 'mlaen"
+          }
+        },
+        "prompt": {
+          "heading": "Gosod llwybr byr Bazm?"
+        },
+        "popover": {
+          "text": "Cliciwch ar yr eicon Share (yn edrych fel un ar y dde) <strong>ISOD</strong> ac yna cliciwch <strong>Add to Home Screen</strong>. Cliciwch \"Save\" i orffen, ac yna gallwch gael mynediad i'r ap o shortcut ar eich sgrin gartref!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Sut mae dy brofiad di hyd yn hyn?",
+        "text": "<p>Ydych chi'n hoffi'r ap newydd? Oes rhywbeth allwn ni wella? Plîs helpwch ni gyda'ch adborth i wella'r profiad i chi!</p> <p>Dim ond ychydig funudau fyddai hyn yn ei gymryd, ac rydym yn gwerthfawrogi'n fawr eich amser!</p>",
+        "cta": "Rhowch adborth",
+        "dismiss": "Efallai nes 'mlaen"
+      },
+      "advertise": {
+        "heading": "Hysbysebu ar Bazm",
+        "text": "<p>Cyrraedd miliynau o fwslemiaid Shia ledled y byd gyda'ch cynnyrch ar Bazm neu ymgysylltu â brandiau a defnyddwyr.</p> <p>Dechreuwch am mor isel â $ 1 / dydd!</p>",
+        "cta": "Dysgu mwy"
+      },
+      "upgradeSafari": {
+        "header": "Profiad cyfyngedig ar Safari",
+        "description": "<strong>Nid yw'r porwr hwn (Safari) wedi'i optimeiddio ar gyfer y profiad gorau</strong>. Trwy barhau i ddefnyddio ein app yma, byddwch yn colli allan ar nifer o nodweddion hysbysiadau rhybudd o'r fath, ger trwy ddiweddariadau, modd all-lein a chymaint mwy.<br/> Rydym yn argymell eich bod yn cael un o borwyr rhestredig isod ar gyfer profiad gwell. Cliciwch ar unrhyw un o'r botymau i lawrlwytho'r porwr o AppStore:",
+        "ctas": {
+          "getGoogle": "Cael Google Chrome",
+          "getFirefox": "Hafan Mozilla Firefox",
+          "getOpera": "Cysylltwch ag Opera",
+          "skip": "Efallai nes 'mlaen"
+        },
+        "toast": "Dim problem. Tan y tro nesaf!"
+      },
+      "cookieBanner": {
+        "header": "Ynglŷn ag arbed Cwcis ar eich dyfais",
+        "p1": "Nid ydym yn storio unrhyw gwcis ar eich {dyfais} ond gallai apiau trydydd parti a ddefnyddir yn ein app (fel, Google Analytics). Yn hytrach, rydyn ni'n defnyddio storfa barhaol i storio unrhyw ddata pwysig, ac yn y rhan fwyaf o achosion, mae hyn yn cael ei amgryptio o ran storio ac wrth drosglwyddo.",
+        "p2": "Drwy barhau i ddefnyddio'r ap hwn, rydych chi hereby yn cadarnhau nad oes gennych unrhyw broblemau gyda'n dewisiadau. I gael gwybod mwy am ein cwcis a'n defnyddio data, edrychwch ar ein <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Ap Rhwydwaith Cymdeithasol ar gyfer Mwslimiaid Shia ledled y byd! Lawrlwythwch yr ap heddiw.",
+      "home": {
+        "title": "Bazm - Ap cymunedol Shia Ar-lein!",
+        "description": "Ap Bazm yw ap cymunedol Shia sy'n diwallu eich holl anghenion dyddiol o deen &mazhab. Find Nauhe, Majalis, Dua, Aamaal, Ziyarat, Llyfrau, ac ati ar gyfer pob dyddiad ac achlysur. Gwyliwch a gwnewch ddigwyddiadau llif byw a majalis gyda Shia-fwslemiaid ledled y byd o hwylustod eich cartref. Ymunwch heddiw!"
+      },
+      "feed": {
+        "title": "Dewch o hyd i gynnwys wedi'i deilwra a'i rannu gyda chymuned shia o'ch cwmpas a'r byd",
+        "description": "Dewch o hyd i newyddion, digwyddiadau, a chynnwys gyda shia momineen o gwmpas, a'u hysbysu am unrhyw ddigwyddiadau rydych chi'n eu cynnal. Dysgwch am unrhyw beth sy'n digwydd yn agos atoch chi ar yr ap."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal a chymaint mwy i chi!",
+        "description": "Dewch o hyd i Nauhe, Majalis, Dua, Aamaal, ziyarat a chymaint mwy ar gyfer pob dyddiad ac achlysur. Gwyliwch a gwnewch majalis llif byw o hwylustod eich cartref! Ymunwch ag ap rhwydwaith cymdeithasol Shia sy'n eich helpu gyda thasgau arferol o deen &mazhab. Ymunwch heddiw!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Larwm Azaan Dyddiol, ateb cwestiwn ac offer ar gyfer mwslimiaid Shia",
+        "description": "Mynnwch nodyn atgoffa dyddiol am Adhan, dewch o hyd i ateb cwestiwn ar bynciau deen &islam, neu ofyn am Surah-fatiha neu Namaz-e-Wahshat ar gyfer eich marhumeen, a mwy o offer ar Bazm. Ymunwch ag ap rhwydwaith cymdeithasol Shia sy'n eich helpu gyda thasgau arferol o deen. Dewch o hyd i Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat ar gyfer pob dyddiad ac achlysur. Digwyddiadau llif byw a majalis o hwylustod eich cartref. Ymunwch heddiw!"
+      },
+      "tasbeehCounter": {
+        "title": "Cownter tasbeeh awtomatig gyda Llais __ Tasbeeh Counter tool",
+        "description": "Mae adrodd tasbeeh di-ri bellach yn haws gyda'n cownteri Tasbeeh Sain. Adroddwch eich tasbeeh tra'ch bod chi'n gyrru neu'n gweithio, yn dal i gadw golwg ar y cyfrif gyda chownteri llais. Cael yr offeryn hwn ac eraill tebyg iddo ar app Bazm. Lawrlwythwch heddiw."
+      },
+      "accountHome": {
+        "title": "Bazm - Creu eich cyfrif rhad ac am ddim heddiw a chael help gyda'ch anghenion dyddiol deen!",
+        "description": "Ymunwch â'r ap Bazm heddiw i gwrdd â'ch holl anghenion i deeniyat. Find nohe/nauhe, majalis, dua, ziyarat, aamaal for all dates and occasions. Llif byw a gwylio majalis & digwyddiadau o'ch cwmpas; dod o hyd i swyddi, cynnwys a momineen o'ch cwmpas a'r byd, a chymaint mwy ar yr ap. Ymunwch heddiw!"
+      },
+      "nauheListPage": {
+        "title": "Gwrandewch ar Nauhe o nauhakhwan poblogaidd ledled y byd",
+        "description": "Gwrandewch ar nauhe o bob blwyddyn a phob nauhakhwan poblogaidd o bedwar ban byd ar ap Bazm. Lawrlwytho heddiw."
+      },
+      "soazListPage": {
+        "title": "Gwrandewch ar Soaz o Soazkhwan poblogaidd ledled y byd",
+        "description": "Gwrandewch ar Soaz o bob blwyddyn a phob un poblogaidd Soazkhwan o bob cwr o'r byd ar ap Bazm. Lawrlwythwch heddiw."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal, etc. ar Bazm",
+        "description": "Dewch o hyd i majalis sain/fideo o Maulana a Zakir-e-Ahlbayt o'ch bron ac o amgylch y byd. Gwrandewch ar a gwylio'r majalis diweddaraf a sesiynau llif byw ar ap Bazm. Lawrlwythwch yr ap heddiw ac ymunwch â miliynau o Fwslemiaid Shi'a ledled y byd!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas ac aamaal am fis {mis} ar Bazm - Dewch o hyd i fwy o nauhe, sain/fideo majalis, dua, ziyarat, aamaal, ac ati ar Bazm",
+          "Duas ac aamaal am bob mis ar Bazm - Dewch o hyd i fwy o nauhe, sain/fideo majalis, dua, ziyarat, aamaal, ac ati ar Bazm"
+        ],
+        "description": "Find duas, aamaal, ziyarat a munajat am bob mis ar Bazm, dyddiad a digwyddiad doeth. Lawrlwythwch yr ap heddiw ac ymunwch â miliynau o Fwslemiaid Shi'a ledled y byd!"
+      }
+    }
+  }
+}

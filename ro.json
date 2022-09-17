@@ -1,1 +1,809 @@
-undefined
+{
+  "ro": {
+    "common": {
+      "refresh": "Trageți pentru a reîmprospăta",
+      "refreshing": "Răcoritoare...",
+      "loadingMore": "Încărcarea mai mult ...",
+      "checking": "Verificarea...",
+      "sendOtp": "Trimiterea OTP..",
+      "dismiss": "A concedia",
+      "invite": "Invita",
+      "showMore": "Arată mai mult – Vezi mai multe",
+      "play": "Juca",
+      "pause": "Întrerupt",
+      "playing": "Joc",
+      "paused": "Întrerupt",
+      "watch": "Ceas",
+      "read": "Citi",
+      "authors": "Autor -- Autori",
+      "languages": "Limbă | Limbi",
+      "clear": "Clar",
+      "cancel": "Anula",
+      "change": "Schimbare",
+      "continue": "Continua",
+      "select": "Alege",
+      "saveChanges": "Salvarea modificărilor | Salvare | Actualizare",
+      "newBadge": "Nou",
+      "login": "Login",
+      "logout": "Deconectare",
+      "signup": "Înscrie-te",
+      "settings": "Setări",
+      "cookiePolicy": "Politica privind cookie-urile",
+      "privacy": "Intimitate",
+      "contactUs": "Contactați-ne",
+      "home": "Domiciliu",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Tu",
+      "retry": "Reîncercare",
+      "send": "Expedia",
+      "submit": "Prezinte",
+      "share": "Distribuie – – Distribuie acum",
+      "at": "la",
+      "untilNextTime": "Nicio problemă. Până la ora viitoare!",
+      "plzWait": "Te rog să aştepţi..",
+      "saving": "Economisire.. | Actualizarea..",
+      "search": "Căutare",
+      "late": "Târziu",
+      "done": "Făcut",
+      "featureUnavailable": "Această caracteristică va fi disponibilă în curând. Multumesc fro care arată interes!",
+      "actions": {
+        "cancel": "Anula",
+        "notify": "Notifica",
+        "like": "Plăcea",
+        "recited": "Recitat",
+        "comment": "Comentariu",
+        "reply": "Răspunde",
+        "bookmark": "Marcaj",
+        "uploading": "Încărcarea..",
+        "deleting": "Ştergerea..",
+        "requesting": "Solicită..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Ne pare rău, nu puteți partaja fișiere {fileType} aici",
+        "jsUpdateAvailable": {
+          "header": "Actualizare disponibilă",
+          "message": "Vedeți versiunea memorată în cache a aplicației. Faceți clic pe \"Reîmprospătare\" pentru a actualiza și a încărca conținut și caracteristici noi.",
+          "cta": "Împrospăta"
+        },
+        "jsImgUploaded": "Imagine încărcată cu succes!",
+        "jsImgUploadErr": "Încărcarea imaginilor nu a reușit. Încercați din nou mai târziu."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Serviciu indisponibil în acest moment. Încercați din nou mai târziu.",
+        "unknown": "A apărut o eroare necunoscută. Încercați din nou mai târziu.",
+        "general": "A apărut o eroare în timpul procesării solicitării dvs. Încercați din nou mai târziu."
+      },
+      "content": {
+        "unavailable": "Nu a putut încărca conținutul în acest moment. Vă rugăm să încercați din nou într-un timp.",
+        "itemDetailUnavailable": "Nu am putut găsi detalii pentru acest {element}",
+        "loadMoreError": "Nu a reușit să încarce mai multe elemente. Încercați din nou mai târziu."
+      },
+      "url": {
+        "invalid": "Adresă URL nevalidă. Vă rugăm să încercați cu un URL nou."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Domiciliu"
+      },
+      "postDetail": {
+        "commonTitle": "Amănunt",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Imagine de profil",
+        "bannerUpdateTitle": "Imagine de copertă (perimată)",
+        "statusUpdateTitle": "Actualizarea stării"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Domiciliu",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Partajați această solicitare în întreaga rețea și contactați mai multe persoane!"
+          }
+        }
+      },
+      "media": {
+        "name": "Media",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Cărţi"
+        },
+        "inviteFriends": "invită-ți prietenii",
+        "notShia": "Nu shia?",
+        "contacts": {
+          "accessRequestHeader": "Persoane de contact Access necesare",
+          "accessRequestDesc": "Avem nevoie de accesul persoanelor de contact pentru a sugera persoanelor șiite din agenda telefonică pentru a invita la această aplicație."
+        },
+        "audio": "Audio",
+        "video": "Video",
+        "hijri": "Hijri",
+        "duaHome": {
+          "wishCtaText": "Urează-ți prietenii!",
+          "wishCtaLabel": "DORINȚĂ"
+        },
+        "books": {
+          "booksByAuthor": "Cărți de {autor}",
+          "booksInLang": "Cărți în {lang}",
+          "filterBy": "Filtrați după:",
+          "matching": {
+            "authors": "cu autori de potrivire",
+            "lang": "cu potrivirea limbilor",
+            "title": "cu potrivirea titlului"
+          }
+        },
+        "booksFilter": {
+          "title": "Găsiți carte după autor",
+          "searchBox": "Căutare autor după nume",
+          "selectLang": "Selectați o limbă:"
+        },
+        "bookDetails": {
+          "title": "{title} — Găsiți mai multe cărți gratuite ca aceasta pe Bazm",
+          "aboutBook": "Despre carte:"
+        }
+      },
+      "tools": {
+        "name": "Instrumente",
+        "salatAlarmDesc": "Setați alarme pentru Azaan conform orelor locale",
+        "sehriAlarmDesc": "Setați de alarmă pentru Sehri, sau chiar a lua un semnal de alarmă pe numărul dumneavoastră înainte de Sehri!",
+        "sehriAlarmOptionDisabled": "Alarme pentru sheri timp în timpul lunii Ramadanului (disponibil numai în timpul Ramadanului)",
+        "tasbeehCounterDesc": "Recită Duas, Coran și Tasbeeh pe modul repeta cu ușurință cu audio Tasbeeh contra",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Căutați și puneți întrebări sau găsiți răspunsuri la masle-masayel din viața de zi cu zi pe probleme de Islam.",
+        "alarms": {
+          "salatAlarms": "Salat Alarme -- Daily Salat Alarme",
+          "sehriAlarms": "Ramadan Sehri Alarme",
+          "gettingLocation": "Obținerea locației. Te rog să aştepţi...",
+          "settingsTip": "Modificați <b>locația</b> și preferințele în setările de alarmă. Faceți clic pe pictograma Setări pentru a începe.",
+          "setAlarmHeader": "Setarea alarmelor zilnice",
+          "setAlarmOnAppDesc": "Setarea alarmelor este disponibilă numai în aplicație",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Apus",
+          "maghribLabel": "Maghrib",
+          "midnightLabel": "Miezul nopții",
+          "sehriEndTime": "Timp pentru sfârșitul Sehri",
+          "minToImsak": [
+            "{min} mins înainte de Imsak",
+            "{oră} oră înainte de Imsak"
+          ],
+          "minToImsakDesc": [
+            "Alarma sună {min} cu câteva minute înainte de sfârșitul timpului Sehri",
+            "Sună alarma {oră} oră înainte de sfârșitul timpului Sehri"
+          ],
+          "notRamadan": "Se pare ca nu este Ramadan încă. Vă rugăm să reveniți în timpul sau chiar înainte de Ramadan pentru a seta alarmele pentru Sehri",
+          "push": {
+            "heading": "Este necesar accesul la notificare",
+            "desc_request": "Alarma funcționează prin trimiterea de notificări push la orele desemnate. Fără acces la împingere, aplicația nu va funcționa în modul așteptat. Vă rugăm să permiteți accesul la notificarea push, astfel încât să vă putem informa la orele de alarmă.",
+            "desc_denied": "<strong>Ați refuzat accesul la notificare mai devreme.</strong> Este necesar ca notificările push să funcționeze corect. Trimitem notificări la ora alarmei.<br/> Vă rugăm să permiteți accesul la notificările push făcând clic pe buton.",
+            "cta": "Permite",
+            "toast_granted": "Vă mulțumesc! Veți primi notificări la momente de alarmă acum.",
+            "toast_denied": "Cerere de notificare refuzată. Vă rugăm să permiteți accesul pentru ca aplicația să funcționeze corect.",
+            "toast_prompt": "Trebuie să permiteți accesul la notificări pentru a seta alarme."
+          },
+          "jsAlarmSetSuccess": "Alarme setate cu succes",
+          "jsAlarmSetError": "Eroare la setarea alarmelor. Încercați din nou mai târziu.",
+          "jsAlarmSnoozed": "Alarma snoozed timp de 10 minute"
+        },
+        "alarmSetting": {
+          "title": "Setări alarmă",
+          "locationTitle": "Găsiți orașul pentru temporizările de alarmă",
+          "forLocation": "Alarmă pentru locație",
+          "calcMethod": "Metoda de calcul",
+          "selectAdhanSound": "Selectează Sunet Adhan",
+          "selectAlarmSound": "Selectați Sunet de alarmă",
+          "alarmSoundDesc": "Sunet pentru non-salate ori",
+          "timesPeekHeading": "Bannerul pentru timpii de afișare",
+          "timesPeekDesc": "Puteți dezactiva afișarea de vizualizare rapidă a ori pentru Salat aici:",
+          "timesPeekHome": "Afișați pe pagina de fluxuri:",
+          "timesPeekTools": "Afișați pe pagina instrumente:",
+          "jsConfirmLocChange": "Schimbarea locației va anula toate alarmele setate anterior. Continua?",
+          "jsOtherSettingsSaved": "Alte setări salvate. Locația nu a fost schimbată."
+        },
+        "qna": {
+          "title": "Întrebare-răspuns",
+          "qnaSource": "Sursă",
+          "seeAnswer": "Vezi răspunsul",
+          "noAnswer": "Nici un răspuns"
+        },
+        "qnaDetail": {
+          "title": "Răspunsuri pentru: {ques}",
+          "jsSubmitSuccess": "Întrebarea dumneavoastră a fost trimisă cu succes. Vă vom actualiza după ce vom primi răspuns cu privire la aceasta."
+        },
+        "tasbeehCounter": {
+          "title": "Tasbeeh Counter"
+        }
+      },
+      "user": {
+        "name": "Utilizator | Cont",
+        "editProfile": "Editare profil",
+        "publishToFeed": "Publicarea modificărilor în flux",
+        "shareUpdateToFeed": "De asemenea, partajați această actualizare la feed-ul meu",
+        "statusText_ph": "Utilizați formatarea _italics_ sau *bold* pentru a vă decora starea",
+        "statusCharsLeft": "{count} caractere stânga",
+        "jsImgUploadSuccess": "Imagini încărcate cu succes!",
+        "unauthAccess": {
+          "heading": "Ești sigur că ești la locul potrivit?",
+          "desc": "<p>Se pare ca ai fost încercarea de a accesa o pagină pentru care nu ați avut permisiunea. Dacă ați încercat să accesați o pagină pe care ați accesat-o anterior, încercați să vă conectați; care ar trebui să rezolve problema.</p> <p>Vă rugăm să nu ezitați să ne contactați în cazul în care problema persistă.</p>"
+        },
+        "guest": {
+          "welcome": "Bine ai venit, <strong>Oaspete!</strong>",
+          "heading": "De ce să vă conectați sau să vă înregistrați?",
+          "desc": "Cu un cont în aplicația noastră, puteți utiliza o serie de funcții. Începeți prin a crea un cont, dacă nu aveți deja un cont. Sau, doar login!",
+          "unlockHeading": "deblocați următoarele cu un cont:",
+          "features": {
+            "engage": {
+              "heading": "Implicați-vă în aplicație",
+              "desc": "Interacționați cu alți utilizatori, reacționați la postările sau solicitările lor, comentați-vă opinia, marcați-vă articolele și multe altele!"
+            },
+            "fatiha": {
+              "heading": "Post Fatiha Cerere",
+              "desc": "Post cerere pentru Surah-e-Fatiha pentru sufletele celor dragi plecați și de a lua sufletele lor binecuvântat cu rugăciuni ale tuturor utilizatorilor noștri!"
+            },
+            "askQues": {
+              "heading": "Puneți întrebări",
+              "desc": "Puneți întrebări de la Deen și Duniya pe diverse teme la care să răspundă eminența sa, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "conținut preferat",
+              "desc": "Vedeți întotdeauna conținutul și setările preferate atunci când sunteți conectat la cont. De asemenea, anunțați-vă pentru toate lucrurile interesante!"
+            },
+            "personalized": {
+              "heading": "partajare personalizată",
+              "desc": "Setați partajarea conținutului personalizat cu semnătura dvs., astfel încât prietenii să știe când partajați un mesaj/o postare."
+            }
+          }
+        },
+        "about": {
+          "title": "Despre",
+          "jsStatusUpdateFail": "Nu a reușit să actualizeze starea. Încercați din nou mai târziu."
+        },
+        "posts": {
+          "title": "Mesaje",
+          "userNoPosts": "Când vă schimbați imaginea / imaginea de copertă sau când solicitați surah-fatiha pentru cei dragi demizați, aceste postări vor apărea aici și în fila <b>Acasă</b> (și a altora). Încercați să adăugați o imagine sau o imagine de copertă?",
+          "profileNoPosts": "{name} nu a făcut încă nicio postare."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} hasn't marhumeen added yet | You haven't added marhumeen yet",
+            "marhumeenAdded": "{name} a adăugat următoarele marhumeen -— Ați adăugat următoarele marhumeen"
+          },
+          "jsDeleteHeader": "Eşti sigur?",
+          "jsDeletePrompt": "Ștergerea înregistrărilor pentru <b>{fullName}</b> va șterge, de asemenea, toate solicitările anterioare făcute pentru {gender}! Continua?",
+          "jsDeleted": "Înregistrări șterse pentru {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Conectați-vă la contul dvs.",
+        "createAccount": "Creați un cont"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Pasul următor",
+        "goBack": "Întoarce-te",
+        "confirm": "Confirma"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Locație indisponibilă. Vă rugăm să setați-l făcând clic pe pictograma pentru a vedea rapid-vedere de Salat-ori.",
+          "unknownError": "A apărut o eroare. Nu a putut încărca ori în acest moment."
+        }
+      },
+      "langPrompt": {
+        "title": "Utilizați aplicația în {langLabel}?",
+        "desc": {
+          "p1": "Se pare că accesați aplicația din {countryName}. Doriți să vedeți conținut și controale într-una dintre următoarele limbi vorbite în regiune? Faceți clic pe alegerea dvs., apoi faceți clic pe \"Salvați\" pentru a continua.",
+          "p2": "Sau închideți această fereastră pop-up pentru a continua să utilizați aplicația în limba implicită."
+        },
+        "choices": {
+          "useLang": [
+            "Da, utilizați {langName}",
+            "Utilizați {langName}"
+          ],
+          "useEngling": "Continuați în limba engleză"
+        },
+        "langError": "A apărut o eroare la încărcarea traducerilor pentru {langName}. Încercați din nou mai târziu."
+      },
+      "createPost": {
+        "heading": "Despre ce este vorba astăzi?",
+        "desc": "Faceți clic aici pentru a partaja o actualizare sau pentru a utiliza o opțiune de mai jos",
+        "request": "Cerere",
+        "askQues": "Pune întrebarea",
+        "sheetOptions": {
+          "header": "Faceți o solicitare",
+          "subheader": "Face o cerere de la momineen pentru marhumeen dumneavoastră sau tine.",
+          "requestFatiha": "Surah-fatiha / Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat la Zari-e-Imam Husain (a.s.) în numele dumneavoastră"
+        },
+        "modal": {
+          "titles": {
+            "post": "Creare postare - Actualizați postarea",
+            "livestream": "Transmisie în direct",
+            "hadiyah": "Creați Hadiyah -- Update Hadiyah"
+          },
+          "postCta": "Post -- Update",
+          "stream": {
+            "scheduleCta": "Salvează pentru mai târziu - Începeți redarea în flux"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Cui vrei să-i faci cadou asta?",
+              "addPeopleToggle": "Lăsați-i și pe alții să facă parte din acest sawab!",
+              "searchInput": "Invită momimeen din Bazm sau din lista ta de contacte",
+              "minUsersHeader": "Doriți să setați numărul minim pe care participanții trebuie să-l aleagă?",
+              "minUsersInput": "Introduceți numărul minim"
+            }
+          },
+          "postTime": [
+            "Când este?",
+            "Când doriți să începeți redarea în flux?"
+          ],
+          "whereIsIt": "Unde este?",
+          "findLocation": "Găsiți locația",
+          "locationSubtext": "Adaugă locație la postare",
+          "addLocation": "Adăugarea locației",
+          "addPics": "Adăugarea imaginilor la postare",
+          "previewDes": "Acesta este modul în care postarea ta ar apărea în fluxul de alte persoane. Utilizatorii pot atinge videoclipul pentru a-l vedea pe ecran complet.",
+          "addToPost": "Adăugare la {postType} (opțional)",
+          "jsImgUploadFail": "Imaginea nu a fost încărcată",
+          "jsAddDetailToPost": "Vă rugăm să adăugați detalii la postarea dvs.",
+          "jsValidEndDate": "Vă rugăm să alegeți o dată de încheiere validă",
+          "jsSetLocation": "Vă rugăm să setați locația pentru postare",
+          "jsRemLocation": "Vă rugăm să setați o locație sau să eliminați secțiunea respectivă",
+          "jsAddImg": "Vă rugăm să adăugați imagini sau să eliminați secțiunea respectivă",
+          "jsInvalidDate": [
+            "Vă rugăm să setați o dată de începere validă ",
+            "Vă rugăm să setați o dată de începere validă sau să eliminați secțiunea respectivă"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Comentarii",
+        "loadPrevious": "Încărcarea comentariilor anterioare — Încărcarea răspunsurilor anterioare",
+        "replyingTo": "Răspunzând la:",
+        "noComments": "Nici un comentariu pe acest post încă",
+        "textboxPlaceholder": "Scrie comentariul tau aici",
+        "requestToLogin": "Conectare sau înscriere pentru a începe discuția"
+      },
+      "post": {
+        "addressYou": "Tu",
+        "addressing": "dumneavoastră - lui - ei",
+        "itemTypes": {
+          "avatar": "imagine avatar",
+          "banner": "imagine banner",
+          "status": "starea profilului"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> updated {addressing} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> a solicitat surah-fatiha pentru {adresare} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Până la: {date} la {ora}",
+        "privatePost": "Acest post este vizibil numai pentru tine",
+        "descZiyaratRequest": "Ați solicitat ca Ziyarat să fie efectuat în numele dumneavoastră la *haram* al imamului Husain (a.s.) pe *{date}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Cerere Surah-al-fatiha",
+          "addUpdate": [
+            "Actualizați persoana iubită",
+            "Adăugarea persoanei iubite"
+          ]
+        },
+        "heading": [
+          "Adăugați o persoană dragă care a trecut mai departe",
+          "Selectați o persoană dragă din listă sau adăugați o persoană dragă care a transmis mai departe"
+        ],
+        "addNew": "Adăugare nou",
+        "subheader": [
+          "Adaugă detalii despre persoana iubită",
+          "De asemenea, puteți include un mesaj în solicitarea dvs."
+        ],
+        "form": {
+          "jsAddImg": "Adaugă imagine pentru persoana iubită",
+          "jsRemoveImg": "Eliminarea imaginii",
+          "fullName": "Numele complet al decedatului",
+          "name_ph": "De exemplu, Syed Zeeshan Haider Abidi",
+          "fathersName": "Numele tatălui (dacă este disponibil)",
+          "father_ph": "De exemplu, Syed Tauqeer Husain",
+          "nameError": "Vă rugăm să introduceți numele complet cuor orice caractere speciale",
+          "genderLabel": "Gen",
+          "genderValue": [
+            "Feminin",
+            "Mascul"
+          ],
+          "relation": [
+            "Marhooma este dvs.",
+            "Marhoom este dvs."
+          ],
+          "selectRelation": "Selectați Relația",
+          "demiseLabel": "Demizat astăzi? Cerere Namaz-e-Wahshat",
+          "demiseText": "Ne pare foarte rău să auzim despre pierderea ta. Fie ca Allah să vă dea vouă și familiei voastre tăria de a suporta această pierdere cu răbdare și fie ca Allah să răsplătească sufletul demizat cu cele mai înalte locuri din Jannah. Alegerea acestei opțiuni vă permite să cereți momineen pentru Namaz-e-Wahshat pentru sufletul demizat.",
+          "optional": "Facultativ",
+          "dod": "A murit pe",
+          "dob": "S-a născut pe"
+        },
+        "relation": [
+          "Fiica lui",
+          "Fiul lui"
+        ],
+        "born": "Născut:",
+        "died": "Murit:",
+        "addMsg": "Doriți să adăugați un mesaj?",
+        "remainingChars": "Caractere: {count} | Caractere: {count} rămase",
+        "infoEditRelative": "Puteți edita detalii pentru {name} în secțiunea <b>Cont > Marhumeen</b>",
+        "saveRequestCta": [
+          "Salvare și solicitare",
+          "Cerere"
+        ],
+        "addUpdate": "Adăugare | Actualizare",
+        "jsRequesting": "Solicită..",
+        "jsAddSuccess": [
+          "Adaugă-ți persoana iubită cu succes!",
+          "Actualizează-ți persoana iubită cu succes!"
+        ],
+        "jsAddFail": "Nu a reușit să adauge persoana iubită. Încercați din nou mai târziu.",
+        "jsReqSuccess": "Cerere depusă cu succes.",
+        "jsGettingMarhumeen": "Noțiuni de bază marhumeen dumneavoastră.."
+      },
+      "askQues": {
+        "title": "Pune o întrebare",
+        "form": {
+          "quesLabel": "Întrebarea dvs.",
+          "quesLabel_ph": "Căutați o întrebare sau adresați-vă propria întrebare",
+          "similarQues": "Este posibil ca aceste întrebări să aibă deja răspunsul pe care îl căutați.",
+          "quesTextHeader": "Întrebarea dvs.:",
+          "selectCat": "Setați categoria de întrebări:",
+          "askAnonLabel": "Întrebați anonim?",
+          "askAnonInfo": "Numele tău nu va fi trimis cercetătorului atunci când soliciți un răspuns în numele tău și nici nu va fi afișat în aplicația noastră cu această întrebare. Dar este posibil ca întrebările anonime să nu primească un răspuns rapid.",
+          "askViaLabel": "Adresați-vă prin intermediul",
+          "askSistaniInfo": "Puteți pune o întrebare la care să răspundeți de către biroul eminenței sale, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Vom transmite întrebarea către site-ul lor web (împreună cu informațiile de profil). Asigurați-vă că ați citit <b>corect Termenii și condițiile</b>.",
+          "tncLabel": "Termeni și condiții:",
+          "showHide": [
+            "Arăta",
+            "Ascunde"
+          ],
+          "sistaniOrgTncInfo": "Luați în considerare următoarele puncte de pe site-ul lor înainte de a pune o întrebare, deoarece dacă nu respectați punctele de mai jos, este posibil să nu auziți înapoi de la ele sau să nu primiți răspunsuri.",
+          "userInfo": {
+            "aboutLabel": "Despre tine",
+            "genderLabel": "Sexul dvs.",
+            "bdayLabel": "Ziua ta de naștere",
+            "bdayDesc": "Puteți pune întrebări numai dacă aveți peste 09 ani. Dacă sunteți în continuare interesat, vă rugăm să ne contactați."
+          },
+          "jsQuesAdded": "Întrebare adăugată cu succes."
+        },
+        "askQuesCta": "Puneți întrebarea dvs."
+      },
+      "authPrompt": {
+        "title": "Cont necesar",
+        "defLabel": "Conectare sau Înscriere pentru a continua",
+        "infoText": "Această caracteristică necesită să vă conectați sau să vă înregistrați înainte de a o putea utiliza. Faceți clic pe <b>Conectare</b> dacă sunteți deja înregistrat sau faceți clic pe <b>Înregistrare</b> pentru a vă crea contul."
+      },
+      "location": {
+        "title": "Schimbați locația",
+        "search_ph": "Căutați în locația dvs.",
+        "autoDetectInfo": "Introduceți locația sau faceți clic pe pictograma detectare automată pentru a obține locația.",
+        "setLocation": "Setarea locației",
+        "ipAddress": "Adresă IP",
+        "alarmLocation": "Locația alarmei",
+        "basedOn": "Locația bazată pe {selectorul dvs.}",
+        "jsDetecting": "Detectarea, vă rugăm să așteptați..",
+        "jsPermDenied": "Permisiunea de locație refuzată pentru aplicație. Vă rugăm să resetați preferința de locație pentru această aplicație accesând secțiunea Setări din telefon.",
+        "jsPosUnavailable": "Ne pare rău, dar poziția nu este disponibilă pentru acest telefon chiar acum. Încercați din nou mai târziu.",
+        "jsMatchNotFound": "Nu a putut găsi nici o locație de potrivire..",
+        "jsEnterValidLoc": "Vă rugăm să introduceți o locație validă",
+        "jsGeoUnavailable": "Ne pare rău, dar poziția nu este disponibilă pentru acest telefon chiar acum. Încercați din nou mai târziu.",
+        "jsLocMissing": "Nu a putut găsi locația dvs. Vă rugăm să introduceți locația manual.",
+        "jsSelectedLoc": "Există o eroare cu această locație. Vă rugăm să încercați din nou"
+      },
+      "readText": {
+        "ctaLabel": "Citi",
+        "title": "Dua: {title}",
+        "arabicCta": "Arabă",
+        "englishCta": "Engleză",
+        "translatedCta": "Tradus"
+      },
+      "reqAccess": {
+        "heading": "este necesar accesul",
+        "subheading": "Avem nevoie de permisiunea de a accesa camera dvs.",
+        "subtext": "Vă rugăm să permiteți accesul făcând clic pe butonul de mai jos:",
+        "ctaLabel": "permite accesul"
+      },
+      "shareBtn": {
+        "subtext": "Faceți clic pe una dintre opțiunile de mai jos pentru a partaja acest lucru în aplicația respectivă:",
+        "jsCopyToCB": "Copiat în clipboard",
+        "copyText": "Faceți clic pe pictograma <b>Copiere</b> de mai sus pentru a copia conținutul de mai jos:"
+      },
+      "verifyMob": {
+        "title": [
+          "Verificați mobilul",
+          "Introduceți codul"
+        ],
+        "page1": {
+          "infoText1": "Avem nevoie de numărul tău de mobil pentru a-ți verifica identitatea. De asemenea, este posibil să primiți actualizări ocazionale.",
+          "infoText2": [
+            "Introduceți numărul și faceți clic pe buton pentru a obține codul de confirmare:",
+            "Introduceți numărul și faceți clic pe un buton pentru a obține codul de confirmare:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Număr de telefon mobil",
+          "mobileLabel_ph": "Introduceți numărul de telefon mobil",
+          "otpViaSMS": "Obțineți prin SMS",
+          "viaWhatsApp": "Treceți prin WhatsApp",
+          "viaTelegram": "Ia prin Telegram",
+          "viaSignal": "Treceți prin semnal"
+        },
+        "page2": {
+          "header": "Am trimis un cod de confirmare din 6 cifre la numărul tău ({număr})",
+          "enterCodeLabel": "Introduceți codul",
+          "enterCode_ph": "Introduceți codul din 6 cifre",
+          "resendCode": "Retrimiterea codului",
+          "notUsingMobile": "Nu utilizați <strong>{number}?</strong>",
+          "changeNumber": "Modificare număr"
+        },
+        "jsVerifySuccess": "Mobil verificat cu succes",
+        "jsVerifyError": "A apărut o eroare. Încercați din nou mai târziu.",
+        "jsSendOtpFailed": "Nu a reușit să trimită OTP. Încercați din nou mai târziu.",
+        "jsSendOtpSuccess": "OTP trimis la {mobile}",
+        "jsTooManyRequests": "Se pare ca ai incercat deja de prea multe ori. Vă rugăm să așteptați un minut sau două și încercați din nou."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personalizarea mesajelor de partajare",
+        "changePwd": "Schimbați parola - - Setați parola",
+        "changeLang": "Schimbarea limbii",
+        "publishToFeed": "Publicați modificările mele pentru a alimenta prea."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalizare",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Adăugarea numelui meu la mesaje",
+          "sharingDesc": "Atunci când partajați extern, este posibil ca mesajele să arate mai jos:",
+          "sharingTextDemo": [
+            "Ascultați acest Nauha pe Bazm App",
+            "{name} recomandă să ascultați acest Nauha pe aplicația Bazm"
+          ],
+          "addSignDesc": "Doriți să adăugați și semnătura dvs.?",
+          "signDesc": "Când îți împărtășești dorința cu prietenii din această aplicație, semnătura ta va fi adăugată la mesaje. De exemplu, poate apărea după cum urmează:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Introduceți parola existentă:",
+          "currentPwdPH": "Introduceți parola curentă",
+          "newPwdLabel": "Introduceți o parolă nouă:",
+          "newPwdPH": "Introduceți o parolă nouă"
+        },
+        "changeLang": {
+          "searchYourLang": "Căutați în limba dvs.",
+          "desc": "Alegeți limba în care doriți să vedeți conținutul aplicației. Faceți clic pe o limbă și așteptați (durează cândva să încărcați traducerea) pentru a vedea cum apare această frază în limba selectată."
+        },
+        "jsPwdInvalid": "Parola are caractere nevalide.",
+        "jsPwdCharCount": "Parola nu poate fi mai mică de 8 caractere.",
+        "jsSelectLang": "Vă rugăm să selectați mai întâi o limbă.",
+        "jsLangSet": "Limba a fost setată la {lang}",
+        "jsPrefSaved": "Setările de personalizare salvate."
+      },
+      "forgotPwd": {
+        "title": "Ai uitat parola?",
+        "introText": "Resetarea parolei este ușoară. Selectați o metodă pentru a continua:",
+        "usePhoneCta": "Utilizarea telefonului",
+        "useEmailCta": "Utilizarea e-mailului",
+        "sendEmailIntro": "Introduceți adresa de e-mail cu care v-ați creat contul și vom trimite un e-mail cu link pentru a configura o nouă parolă pentru contul dvs.",
+        "emailInputLabel": "Adresa de e-mail înregistrată",
+        "sendEmailCta": "Trimiterea e-mailului de resetare",
+        "sentEmailText": "Dacă aveți un cont la noi, veți primi un e-mail de resetare a parolei în scurt timp pe <strong>{e-mail}</strong>. Vă rugăm să verificați e-mail pentru link-ul.",
+        "notUsingEmailText": "Nu utilizați <strong>{email}?</strong>",
+        "changeEmailCta": "Modificarea e-mailului",
+        "phoneIntroText": "Introduceți numărul de telefon adăugat la contul dvs. Vom trimite un OTP pentru a vă verifica dreptul de proprietate, iar în pasul următor, veți putea crea o nouă parolă.",
+        "phoneInputLabel": "Numărul tău de telefon mobil",
+        "sendOtpCta": "Trimite OTP",
+        "backToLoginCta": "Înapoi la Conectare",
+        "disclaimerText": "Vă rugăm să rețineți că veți primi un {articol} numai dacă aveți {articolul} înregistrat la noi",
+        "jsMailSent": "Mail trimis"
+      },
+      "resetPwd": {
+        "title": "Resetare parolă",
+        "introText": "Setați o parolă sigură pentru contul dvs. aici. Faceți clic pe {pictogramă} pentru a vă asigura că introduceți parola corectă.",
+        "pwdInputLabel": "Setarea parolei noi",
+        "pwdInputPH": "Introduceți o parolă nouă",
+        "invalidPwdChars": "Caractere nevalide în parolă",
+        "jsResetSuccess": "Resetarea parolei cu succes!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Nu a reușit să încarce pista. Încercați din nou mai târziu."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} șterse cu succes.",
+        "jsErrReporting": "Nu se poate raporta acest lucru în acest moment. Încercați din nou mai târziu.",
+        "jsAlreadyReported": "Ați raportat deja acest {element}. Nu îl puteți raporta de mai multe ori.",
+        "jsPromptHeading": "Raportarea unui articol are ca rezultat șanse mai mici de a apărea în feedul/paginile tale sau ale altuia. Mai doriți să raportați acest lucru?",
+        "jsReporting": "Raportare {itemType}..",
+        "jsReportingErr": "Nu a putut depune cererea dumneavoastră în acest moment. Încercați din nou mai târziu.",
+        "jsReported": "{item} raportat. Vă mulțumim pentru contribuția dumneavoastră."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Nimic de actualizat!",
+        "jsProfileUpdated": "Profil actualizat!"
+      },
+      "reqZiyarat": {
+        "title": "Solicitați Ziyarat",
+        "cta": "Cerere",
+        "header": "Cerere Ziyarat la Imam Hussain (a.s.) Altar în Karbala în numele dumneavoastră.",
+        "desc": {
+          "p1": "În fiecare vineri, au <strong>Ziyarat recitat în numele dumneavoastră</strong> la Altarul imam hussain (a.s.) în Karbala, Irak! Tot ce trebuie să faceți este să faceți o cerere <strong>înainte de sfârșitul serii de joi</strong>. Nu ești niciodată prea târziu, totuși; în cazul în care cererea dumneavoastră vine prea târziu, aceasta va fi înscrisă pentru săptămâna următoare.",
+          "p2": "Vă vom anunța când ziyaratul a fost recitat în numele dvs.",
+          "p3": "Notă: Atunci când solicitați pentru prima dată, detaliile dumneavoastră vor fi partajate cu furnizorul nostru de servicii. Vă rugăm să citiți Termenii și condițiile noastre pentru a afla mai multe."
+        },
+        "jsRegistered": "Vă mulțumesc! Cererea dumneavoastră este înregistrată cu succes. Veți primi un e-mail de confirmare în scurt timp.",
+        "jsAlreadyRegistered": "V-ați înregistrat deja pentru Ziyarat această joi. Inregistreaza-te saptamana viitoare pentru ziyarat de săptămâna viitoare.",
+        "jsConfirm": "Pentru a vă înregistra pentru această solicitare, trebuie să partajăm detaliile dumneavoastră (de exemplu, numele complet, sexul etc.) cu furnizorul nostru de servicii. Acest lucru este necesar doar pentru prima dată. Vă rugăm să confirmați să continuați.",
+        "jsDeclined": "Ok! Poate mai târziu."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Numele tău",
+          "placeholder": "Introduceți numele complet"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": [
+            "Adresa de e-mail înregistrată",
+            "Introduceți adresa de e-mail"
+          ]
+        },
+        "password": {
+          "label": "Parolă",
+          "placeholder": [
+            "Parola dvs.",
+            "Introduceți o parolă"
+          ]
+        },
+        "rememberLogin": "Amintiți-vă de conectare",
+        "forgotPwd": "Ai uitat parola?",
+        "connectUsing": "Sau conectați-vă utilizând",
+        "useSavedAccount": "Utilizați conturile salvate",
+        "lastLogin": "Ultima conectare",
+        "needAccount": "Aveți nevoie de un cont?",
+        "resetPwdSuccess": "Puteți utiliza noua parolă pentru a vă conecta acum",
+        "jsEnterFullName": "Vă rugăm să introduceți numele complet.",
+        "jsEnterValidName": "Vă rugăm să introduceți un nume valid.",
+        "jsEnterValidEmail": [
+          "Vă rugăm să introduceți un e-mail valid.",
+          "E-mailul are caractere nevalide. Vă rugăm să introduceți un e-mail valid."
+        ],
+        "jsSelectCountryCode": "Vă rugăm să selectați codul de țară din listă",
+        "jsEnterMobile": "Vă rugăm să introduceți numărul de telefon mobil.",
+        "jsEnterValidMobile": "Vă rugăm să introduceți un număr de telefon mobil valid",
+        "jsEnterPwd": "Vă rugăm să introduceți parola!",
+        "jsEnterValidPwd": [
+          "Parola are caractere nevalide. Vă rugăm să introduceți o parolă validă.",
+          "Parola ar trebui să fie de cel puțin {num} caractere."
+        ],
+        "jsAccountSuccess": "Cont creat cu succes",
+        "jsFbError": "Nu a putut obține detaliile contului tău de Facebook. Vă rugăm să încercați din nou.",
+        "jsPromptClosedErr": "Promptul de conectare a fost închis înainte de a termina. Vă rugăm să încercați din nou."
+      },
+      "gotoSignup": "Du-te la Înscrie-te",
+      "alreadyHasAccount": "Aveți deja un cont?",
+      "gotoLogin": "Goto Login",
+      "gotoProfile": "Profilul Goto",
+      "msgForAuthUser": "<p>Credem că ați aterizat aici din greșeală, deoarece sunteți deja conectat.</p> <p>Îți poți verifica profilul pentru a vedea cum arată sau poți folosi unul dintre linkurile de mai jos pentru a răsfoi alte secțiuni:</p>",
+      "jsLoggedOut": "Ați fost deconectat.",
+      "jsLogoutHeading": "Deconectați-vă de la cont?",
+      "jsLogoutText": "Acest lucru va șterge informațiile salvate local, ceea ce permite conectarea <b>rapidă</b>. Continua?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Instalați Bazm { platform }",
+          "desc": "Descarcă aplicația Android pentru o experiență mai bună, conținut personalizat, notificări și tot ceea ce te interesează din jurul tău! | Instalați comanda rapidă a aplicației (marcaj în document) pentru a o accesa direct de pe ecranul de pornire data viitoare, pentru o experiență mai bună! Abia necesită spațiu pe dispozitiv, dar vă ajută să reveniți rapid la aplicație.",
+          "cta": {
+            "action": "Instala",
+            "skip": "Poate mai târziu"
+          }
+        },
+        "prompt": {
+          "heading": "Instalați comanda rapidă Bazm?"
+        },
+        "popover": {
+          "text": "Faceți clic pe pictograma Partajare (arată ca una din dreapta) <strong>DE MAI JOS</strong> și apoi faceți clic pe <strong>Adăugare la ecranul de pornire</strong>. Faceți clic pe \"Salvați\" pentru a termina, apoi puteți accesa aplicația din comanda rapidă de pe ecranul de pornire!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Cum este experiența ta de până acum?",
+        "text": "<p>Îți place noua aplicație? Există ceva ce putem îmbunătăți? Vă rugăm să ne ajutați cu feedback-ul dumneavoastră pentru a îmbunătăți experiența pentru dvs.!</p> <p>Acest lucru ar dura doar câteva minute, iar noi apreciem foarte mult timpul tau!</p>",
+        "cta": "Oferiți feedback",
+        "dismiss": "Poate mai târziu"
+      },
+      "advertise": {
+        "heading": "Publicitate pe Bazm",
+        "text": "<p>Ajunge la milioane de musulmani șiiți din întreaga lume cu produsul tău pe Bazm sau interacționează cu branduri și utilizatori.</p> <p>Începeți pentru cât mai scăzut de $ 1/day!</p>",
+        "cta": "Află mai multe"
+      },
+      "upgradeSafari": {
+        "header": "Experiență limitată în Safari",
+        "description": "<strong>Acest browser (Safari) nu este optimizat pentru cea mai bună experiență</strong>. Continuând să utilizați aplicația noastră aici, veți pierde o serie de funcții, cum ar fi notificările de alertă, aproape de actualizări, modul offline și multe altele.<br/> Vă recomandăm să obțineți unul dintre browserele enumerate mai jos pentru o experiență îmbunătățită. Faceți clic pe oricare dintre butoane pentru a descărca browserul din AppStore:",
+        "ctas": {
+          "getGoogle": "Obțineți Google Chrome",
+          "getFirefox": "Obțineți Mozilla Firefox",
+          "getOpera": "Obțineți Opera Touch",
+          "skip": "Poate mai târziu"
+        },
+        "toast": "Nicio problemă. Până data viitoare!"
+      },
+      "cookieBanner": {
+        "header": "Despre salvarea cookie-urilor pe dispozitivul dvs.",
+        "p1": "Nu stocăm cookie-uri pe {dispozitivul dvs.}, dar aplicațiile terțe utilizate în aplicația noastră ar putea (cum ar fi Google Analytics). În schimb, folosim stocarea permanentă pentru a stoca orice date importante și, în majoritatea cazurilor, acestea sunt criptate în stocare și în timpul transferului.",
+        "p2": "Continuând să utilizați această aplicație, confirmați prin prezenta că nu aveți probleme cu alegerile noastre. Pentru a afla mai multe despre cookie-urile și utilizarea datelor noastre, consultați <a href='https://bazm.in/privacy-policy' target='_blank'>Politica de confidențialitate.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Social Network App pentru musulmanii șiiți din întreaga lume! Descărcați aplicația astăzi.",
+      "home": {
+        "title": "Bazm - Aplicație comunitară online Shia!",
+        "description": "Aplicația Bazm este aplicația comunității Shia care răspunde tuturor nevoilor tale zilnice de deen & mazhab. Găsiți Nauhe, Majalis, Dua, Aamaal, Ziyarat, Cărți etc. pentru toate datele și ocaziile. Urmăriți și faceți evenimente live-stream și majalis cu șiiți-musulmani din întreaga lume din comoditatea casei tale. Alăturați-vă astăzi!"
+      },
+      "feed": {
+        "title": "Găsiți conținut personalizat și partajați cu comunitatea shia din jurul vostru și din întreaga lume",
+        "description": "Găsiți și împărtășiți știri, evenimente și conținut cu shia momineen în jur și țineți-i la curent cu orice evenimente pe care le găzduiți. Află mai multe despre orice se întâmplă în apropierea ta în aplicație."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal și multe altele pentru tine!",
+        "description": "Găsiți Nauhe, Majalis, Dua, Aamaal, ziyarat și multe altele pentru toate datele și ocaziile. Uita-te si fa live-stream majalis din comoditatea casei tale! Alăturați-vă aplicației de rețea socială Shia care vă ajută cu sarcini de rutină de deen și mazhab. Alăturați-vă astăzi!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Alarmă zilnică azaană, răspuns la întrebări și instrumente pentru musulmanii șiiți",
+        "description": "Ia memento de zi cu zi pentru Adhan, găsi și pune întrebare-răspuns pe teme deen & Islam, sau cererea Surah-fatiha sau Namaz-e-Wahshat pentru marhumeen dumneavoastră, și mai multe instrumente pe Bazm. Alăturați-vă aplicației de rețea socială Shia care vă ajută cu sarcini de rutină deen. Găsiți Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat pentru toate datele și ocaziile. Evenimente live-stream și majalis din confortul casei tale. Alăturați-vă astăzi!"
+      },
+      "tasbeehCounter": {
+        "title": "Contor automat de tasbeeh cu instrumentul Voice __ Tasbeeh Counter",
+        "description": "Recitarea tasbeeh nenumărate este acum mai ușor cu contoare noastre audio tasbeeh. Recită-ți tasbeeh-ul în timp ce conduci sau lucrezi, ținând totuși evidența numărului cu contoare vocale. Obțineți acest instrument și alții ca el pe aplicația Bazm. Descărcați astăzi."
+      },
+      "accountHome": {
+        "title": "Bazm - Creați-vă contul gratuit astăzi și obțineți ajutor cu nevoile zilnice deen!",
+        "description": "Alăturați-vă astăzi aplicației Bazm pentru a vă satisface toate nevoile de a vă deeniyat. Găsi nohe / nauhe, majalis, dua, ziyarat, aamaal pentru toate datele și ocaziile. Live-stream și urmăriți majalis & evenimente din jurul tău; găsiți postări, conținut și momineen din jurul vostru și din lume și multe altele în aplicație. Alăturați-vă astăzi!"
+      },
+      "nauheListPage": {
+        "title": "Ascultați Nauhe din nauhakhwan populare din întreaga lume",
+        "description": "Ascultați nauhe din toți anii și toate nauhakhwan populare din întreaga lume pe aplicația Bazm. Descărcați astăzi."
+      },
+      "soazListPage": {
+        "title": "Ascultați Soaz de la soazkhwan populare din întreaga lume",
+        "description": "Ascultați Soaz din toți anii și toate soazkhwan populare din întreaga lume pe aplicația Bazm. Descărcați astăzi."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal, etc. on Bazm",
+        "description": "Găsiți majalis audio / video de la Maulana și Zakir-e-Ahlbayt din apropierea ta și din întreaga lume. Ascultați și urmăriți cele mai recente sesiuni de majalis și livestream pe aplicația Bazm. Descărcați aplicația astăzi și alăturați-vă milioanelor de musulmani șiiți din întreaga lume!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas și aamaal pentru luna {lună} pe Bazm - Găsiți mai multe nauhe, majalis audio / video, dua, ziyarat, aamaal etc. pe Bazm",
+          "Duas și aamaal pentru toate lunile pe Bazm - Găsiți mai multe nauhe, audio / video majalis, dua, ziyarat, aamaal, etc pe Bazm"
+        ],
+        "description": "Găsi duas, aamaal, ziyarat și munajat pentru toate lunile pe Bazm, data și eveniment înțelept. Descărcați aplicația astăzi și alăturați-vă milioanelor de musulmani șiiți din întreaga lume!"
+      }
+    }
+  }
+}
