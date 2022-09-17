@@ -1,1 +1,809 @@
-undefined
+{
+  "hr": {
+    "common": {
+      "refresh": "Povuci za osvježavanje",
+      "refreshing": "Osvježavajući...",
+      "loadingMore": "Učitavanje više...",
+      "checking": "Provjera...",
+      "sendOtp": "Slanje OTP..",
+      "dismiss": "Odbaciti",
+      "invite": "Pozvati",
+      "showMore": "Pokaži više | Vidi više",
+      "play": "Igrati",
+      "pause": "Pauzirano",
+      "playing": "Igranje",
+      "paused": "Pauzirano",
+      "watch": "Gledati",
+      "read": "Čitati",
+      "authors": "Autor | Autori",
+      "languages": "Jezik | Jezici",
+      "clear": "Jasan",
+      "cancel": "Otkazati",
+      "change": "Mijenjati",
+      "continue": "Nastaviti",
+      "select": "Odabirati",
+      "saveChanges": "Spremanje promjena — — — Spremanje — — ažuriranje",
+      "newBadge": "Nov",
+      "login": "Prijava",
+      "logout": "Odjava",
+      "signup": "Prijavi se",
+      "settings": "Postavkama",
+      "cookiePolicy": "Pravila o kolačićima",
+      "privacy": "Privatnost",
+      "contactUs": "Obratite nam se",
+      "home": "Dom",
+      "facebook": "Facebook",
+      "google": "Google",
+      "you": "Ti",
+      "retry": "Pokušati ponovno",
+      "send": "Slati",
+      "submit": "Predati se",
+      "share": "Zajedničko korištenje | Zajedničko korištenje sada",
+      "at": "u",
+      "untilNextTime": "Nema frke. Do sljedećeg Puta!",
+      "plzWait": "Molim te čekaj..",
+      "saving": "Ušteda.. | Ažuriranje..",
+      "search": "Pretraživanje",
+      "late": "Kasno",
+      "done": "Učinjeno",
+      "featureUnavailable": "Ova će značajka uskoro biti dostupna. Hvala fro pokazujući interes!",
+      "actions": {
+        "cancel": "Otkazati",
+        "notify": "Obavijestiti",
+        "like": "Kao",
+        "recited": "Recitirano",
+        "comment": "Komentar",
+        "reply": "Odgovor",
+        "bookmark": "Knjižna oznaka",
+        "uploading": "Upload..",
+        "deleting": "Brisanje..",
+        "requesting": "Traži..",
+        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "jsShareFileTypeError": "Nažalost, ovdje ne možete zajednički koristiti datoteke {fileType}",
+        "jsUpdateAvailable": {
+          "header": "Dostupno ažuriranje",
+          "message": "Prikazujete predmemoriranu verziju aplikacije.",
+          "cta": "Osvježiti"
+        },
+        "jsImgUploaded": "Slika uspješno prenesena!",
+        "jsImgUploadErr": "Prijenos slike nije uspio. Pokušajte ponovo kasnije."
+      }
+    },
+    "errors": {
+      "service": {
+        "unavailable": "Usluga trenutno nije dostupna. Pokušajte ponovo kasnije.",
+        "unknown": "Došlo je do nepoznate pogreške. Pokušajte ponovo kasnije.",
+        "general": "Došlo je do pogreške tijekom obrade vašeg zahtjeva. Pokušajte ponovo kasnije."
+      },
+      "content": {
+        "unavailable": "Trenutno nije moguće učitati sadržaj. Pokušajte ponovo za neko vrijeme.",
+        "itemDetailUnavailable": "Nije moguće pronaći detalje za ovu {stavku}",
+        "loadMoreError": "Učitavanje više stavki nije uspjelo. Pokušajte ponovo kasnije."
+      },
+      "url": {
+        "invalid": "URL nije valjan. Pokušajte s novim URL-om."
+      }
+    },
+    "navbar": {
+      "home": {
+        "title": "Dom"
+      },
+      "postDetail": {
+        "commonTitle": "Detalj",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "avatarUpdateTitle": "Slika profila",
+        "bannerUpdateTitle": "Naslovna slika (zastarjela)",
+        "statusUpdateTitle": "Ažuriranje stanja"
+      }
+    },
+    "tabs": {
+      "home": {
+        "name": "Dom",
+        "postDetail": {
+          "shareRequest": {
+            "header": "Podijelite ovaj zahtjev na cijeloj mreži i obratite se većem broju ljudi!"
+          }
+        }
+      },
+      "media": {
+        "name": "Mediji",
+        "boxLabels": {
+          "nauhe": "Nauhe",
+          "majalis": "Majalis",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Duas",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
+          "books": "Knjige"
+        },
+        "inviteFriends": "pozovite svoje prijatelje",
+        "notShia": "Ne Shia?",
+        "contacts": {
+          "accessRequestHeader": "Potreban je pristup kontaktima",
+          "accessRequestDesc": "Potreban nam je pristup vaših kontakata kako bismo predložili šijitskim osobama u vašem telefonskom imeniku da ih pozovu u ovu aplikaciju."
+        },
+        "audio": "Audio",
+        "video": "Video",
+        "hijri": "Hidžri",
+        "duaHome": {
+          "wishCtaText": "Poželite svojim prijateljima!",
+          "wishCtaLabel": "ŽELJA"
+        },
+        "books": {
+          "booksByAuthor": "Knjige autora {autora}",
+          "booksInLang": "Knjige u programu {lang}",
+          "filterBy": "Filtriraj po:",
+          "matching": {
+            "authors": "s podudaranjem autora",
+            "lang": "s podudaranjem jezika",
+            "title": "s podudaranjem naslova"
+          }
+        },
+        "booksFilter": {
+          "title": "Pronađi knjigu po autoru",
+          "searchBox": "Pretraži autora po imenu",
+          "selectLang": "Odaberite jezik:"
+        },
+        "bookDetails": {
+          "title": "{title} — Pronađite još besplatnih knjiga poput ove na Bazmu",
+          "aboutBook": "O knjizi:"
+        }
+      },
+      "tools": {
+        "name": "Alati",
+        "salatAlarmDesc": "Postavljanje alarma za Azaan prema lokalnom vremenu",
+        "sehriAlarmDesc": "Postavite alarm za Sehrija ili čak primite poziv za buđenje na svoj broj prije Sehrija!",
+        "sehriAlarmOptionDisabled": "Alarmi za Sheri vrijeme tijekom mjeseca Ramazana (dostupni samo tijekom Ramazana)",
+        "tasbeehCounterDesc": "Recite Duas, Kur'an i Tasbeeh na ponovljenom načinu rada jednostavno uz brojač Audio Tasbeeh",
+        "qnaLabel": "QnA (Masle-Masayel)",
+        "qnaDesc": "Pretražite i postavljajte pitanja ili pronađite odgovore na masle-masayel iz vašeg svakodnevnog života o pitanjima islama.",
+        "alarms": {
+          "salatAlarms": "Salat Alarms | Dnevni alarmi salate",
+          "sehriAlarms": "Ramadan Sehri Alarmi",
+          "gettingLocation": "Uzimajući svoju lokaciju. Molim te čekaj...",
+          "settingsTip": "Promijenite <b>mjesto</b> i preference u postavkama alarma. Kliknite ikonu Postavke da biste započeli.",
+          "setAlarmHeader": "Postavljanje dnevnih alarma",
+          "setAlarmOnAppDesc": "Postavljanje alarma dostupno je samo u aplikaciji",
+          "imsakLabel": "Imsak",
+          "fajrLabel": "Fajr",
+          "zuhrLabel": "Zuhr",
+          "sunsetLabel": "Zalazak sunca",
+          "maghribLabel": "Magrib",
+          "midnightLabel": "Ponoć",
+          "sehriEndTime": "Vrijeme je za kraj Sehrija",
+          "minToImsak": [
+            "{min} mins prije imsaka",
+            "{sat vremena} sata prije Imsaka"
+          ],
+          "minToImsakDesc": [
+            "Alarm zvoni {min} nekoliko minuta prije kraja Sehri vremena",
+            "Alarm zvoni {sat vremena} prije kraja Sehri vremena"
+          ],
+          "notRamadan": "Izgleda da još nije ramazan. Molim vas, vratite se za vrijeme ili neposredno prije Ramazana da postavite alarme za Sehrija.",
+          "push": {
+            "heading": "Potreban je pristup obavijesti",
+            "desc_request": "Alarm radi slanjem push obavijesti u određeno vrijeme. Bez pristupa pushu, aplikacija neće raditi na očekivani način. Ljubazno dopustite pristup vašoj push obavijesti kako bismo vas mogli obavijestiti u vrijeme alarma.",
+            "desc_denied": "<strong>Ranije ste odbili pristup obavijesti.</strong> Potrebno je da push-obavijesti ispravno rade. Šaljemo obavijesti u vrijeme alarma.<br/> Ljubazno dopustite pristup push obavijesti klikom na gumb.",
+            "cta": "Dozvoliti",
+            "toast_granted": "Hvala! Bit ćete obaviješteni u trenutku uzbune.",
+            "toast_denied": "Odbijen je zahtjev za obavješćivanje. Dopustite da pristup aplikaciji radi ispravno.",
+            "toast_prompt": "Morate dopustiti pristup obavijestima za postavljanje alarma."
+          },
+          "jsAlarmSetSuccess": "Alarmi su uspješno postavljeni",
+          "jsAlarmSetError": "Pogreška pri postavljanju alarma. Pokušajte ponovo kasnije.",
+          "jsAlarmSnoozed": "Alarm je njuškao 10 minuta"
+        },
+        "alarmSetting": {
+          "title": "Postavke alarma",
+          "locationTitle": "Pronađite grad za vrijeme alarma",
+          "forLocation": "Alarm za lokaciju",
+          "calcMethod": "Način izračuna",
+          "selectAdhanSound": "Odabir zvuka Adhan",
+          "selectAlarmSound": "Odabir zvuka alarma",
+          "alarmSoundDesc": "Zvuk za vrijeme bez salate",
+          "timesPeekHeading": "Natpis Vrijeme prikaza",
+          "timesPeekDesc": "Prikaz brzog prikaza vremena za Salat možete onemogućiti ovdje:",
+          "timesPeekHome": "Pokaži na stranici sažecima sadržaja:",
+          "timesPeekTools": "Pokaži na stranici alati:",
+          "jsConfirmLocChange": "Promjenom lokacije otkazat ćete sve prethodno postavljene alarme. Nastaviti?",
+          "jsOtherSettingsSaved": "Ostale spremljene postavke. Lokacija nije promijenjena."
+        },
+        "qna": {
+          "title": "Odgovor na pitanje",
+          "qnaSource": "Izvor",
+          "seeAnswer": "Pogledajte odgovor",
+          "noAnswer": "Nema odgovora"
+        },
+        "qnaDetail": {
+          "title": "Odgovori za: {ques}",
+          "jsSubmitSuccess": "Vaše pitanje je uspješno poslano. Obavijestit ćemo vas nakon što dobijemo odgovor na njega."
+        },
+        "tasbeehCounter": {
+          "title": "Brojač Tasbeeha"
+        }
+      },
+      "user": {
+        "name": "Korisnik | račun",
+        "editProfile": "Uređivanje profila",
+        "publishToFeed": "Objavi moje promjene u sažetku sadržaja",
+        "shareUpdateToFeed": "Zajedničko korištenje ovog ažuriranja na moj sažetak sadržaja",
+        "statusText_ph": "Za ukrašavanje statusa koristite _kurziv_ ili *podebljano* oblikovanje",
+        "statusCharsLeft": "{count} znakova lijevo",
+        "jsImgUploadSuccess": "Slike uspješno prenesene!",
+        "unauthAccess": {
+          "heading": "Jeste li sigurni da ste na pravom mjestu?",
+          "desc": "<p>Izgleda da ste pokušavali pristupiti stranici za koju niste imali dozvolu. Ako ste pokušavali pristupiti stranici kojoj ste prethodno pristupili, pokušajte se prijaviti; to bi trebalo riješiti problem.</p> <p>Slobodno nas kontaktirajte ako se problem nastavi.</p>"
+        },
+        "guest": {
+          "welcome": "Dobro došli, <strong>gosti!</strong>",
+          "heading": "Zašto se prijaviti ili registrirati?",
+          "desc": "S računom u našoj aplikaciji možete koristiti brojne značajke. Započnite stvaranjem računa ako već nemate račun. Ili, samo se prijavite!",
+          "unlockHeading": "otključaj sljedeće pomoću računa:",
+          "features": {
+            "engage": {
+              "heading": "Uključite se u aplikaciju",
+              "desc": "Surađujte s drugim korisnicima, reagirajte na njihove postove ili zahtjeve, komentirajte svoje mišljenje, označite svoje stavke i još mnogo toga!"
+            },
+            "fatiha": {
+              "heading": "Objavi Fatiha zahtjev",
+              "desc": "Objavite zahtjev za Surah-e-Fatihu za duše svojih preminulih najmilijih i blagoslovite njihove duše molitvama svih naših korisnika!"
+            },
+            "askQues": {
+              "heading": "Postavljanje pitanja",
+              "desc": "Postavljajte pitanja deena i Duniye o raznim temama na koje će odgovoriti njegova eminencija, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+            },
+            "content": {
+              "heading": "preferirani sadržaj",
+              "desc": "Uvijek pogledajte željeni sadržaj i postavke kada ste prijavljeni na svoj račun. Također, primite obavijest za sve zanimljive stvari!"
+            },
+            "personalized": {
+              "heading": "personalizirano zajedničko korištenje",
+              "desc": "Postavite zajedničko korištenje sadržaja personaliziranog potpisom tako da vaši prijatelji znaju kada dijelite poruku/objavu."
+            }
+          }
+        },
+        "about": {
+          "title": "O",
+          "jsStatusUpdateFail": "Ažuriranje statusa nije uspjelo. Pokušajte ponovo kasnije."
+        },
+        "posts": {
+          "title": "Postove",
+          "userNoPosts": "Kada promijenite sliku / naslovnu sliku ili kada zatražite surah-fatihu za svoje demizirane najmilije, ti će se postovi pojaviti ovdje i na kartici <b>Početna stranica</b> (i drugih). Pokušajte dodati sliku ili naslovnu sliku?",
+          "profileNoPosts": "{name} još nije objavio nijedan post."
+        },
+        "marhumeen": {
+          "title": "Marhumeen",
+          "header": {
+            "marhumeenNotAdded": "{name} još nije dodano marhumeen | Još niste dodali marhumeen",
+            "marhumeenAdded": "{name} je dodao following marhumeen | Dodali ste nakon marhumeena"
+          },
+          "jsDeleteHeader": "Jesi siguran?",
+          "jsDeletePrompt": "Brisanje zapisa za <b>{fullName}</b> izbrisat će i sve prethodne zahtjeve za {gender}! Nastaviti?",
+          "jsDeleted": "Izbrisani zapisi za {marhumeen}"
+        }
+      }
+    },
+    "sidemenu": {
+      "left": {
+        "accountLogin": "Prijava na svoj račun",
+        "createAccount": "Stvaranje računa"
+      }
+    },
+    "comps": {
+      "common": {
+        "nextStep": "Sljedeći korak",
+        "goBack": "Vrati se",
+        "confirm": "Potvrditi"
+      },
+      "timesBanner": {
+        "errors": {
+          "locUnavailable": "Lokacija nije dostupna. Postavite ga klikom na ikonu da biste vidjeli brzi prikaz Salat-timesa.",
+          "unknownError": "Došlo je do pogreške. U ovom trenutku nije moguće učitati vrijeme."
+        }
+      },
+      "langPrompt": {
+        "title": "Koristite aplikaciju u programu {langLabel}?",
+        "desc": {
+          "p1": "Čini se da aplikaciji pristupate iz programa {countryName}. Želite li vidjeti sadržaj i kontrole na jednom od sljedećih jezika koji se govore u regiji? Kliknite na svoj izbor, a zatim kliknite 'Spremi' da biste nastavili.",
+          "p2": "Ili odbacite ovaj skočni prozor da biste nastavili koristiti aplikaciju na zadanom jeziku."
+        },
+        "choices": {
+          "useLang": [
+            "Da, koristi {langName}",
+            "Koristi {langName}"
+          ],
+          "useEngling": "Nastavi na engleskom jeziku"
+        },
+        "langError": "Došlo je do pogreške tijekom učitavanja prijevoda za {langName}. Pokušajte ponovo kasnije."
+      },
+      "createPost": {
+        "heading": "O čemu se danas radi?",
+        "desc": "Kliknite ovdje da biste podijelili ažuriranje ili koristili opciju odozdo",
+        "request": "Zahtjev",
+        "askQues": "Postavite pitanje",
+        "sheetOptions": {
+          "header": "Upućivanje zahtjeva",
+          "subheader": "Zatražite od momineena za svoj marhumeen ili sebe.",
+          "requestFatiha": "Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Sehat *",
+          "requestZiyarat": "Ziyarat u Zari-e-Imam Husain (a.s.) u vaše ime"
+        },
+        "modal": {
+          "titles": {
+            "post": "Stvori objavu — — Ažuriraj objavu",
+            "livestream": "Livestream",
+            "hadiyah": "Stvori Hadiyah | Ažuriraj Hadiyah"
+          },
+          "postCta": "Objava | Ažuriranje",
+          "stream": {
+            "scheduleCta": "Spremi za kasnije — — Započni strujanje"
+          },
+          "hadiya": {
+            "dedication": {
+              "placeholder": "Kome to želiš pokloniti?",
+              "addPeopleToggle": "Neka i drugi budu dio ove piljevine!",
+              "searchInput": "Pozovite momimeen iz Bazma ili svoj popis kontakata",
+              "minUsersHeader": "Želite li postaviti minimalni broj koji sudionici trebaju odabrati?",
+              "minUsersInput": "Unesite minimalni broj"
+            }
+          },
+          "postTime": [
+            "Kada je?",
+            "Kada želite započeti streaming?"
+          ],
+          "whereIsIt": "Gdje je?",
+          "findLocation": "Pronađi mjesto",
+          "locationSubtext": "Dodavanje lokacije u objavu",
+          "addLocation": "Dodaj mjesto",
+          "addPics": "Dodavanje slika u objavu",
+          "previewDes": "Tako bi se vaš post pojavio u feedu drugih ljudi. Korisnici mogu dodirnuti videozapis da bi ga vidjeli na cijelom zaslonu.",
+          "addToPost": "Dodaj u {postType} (neobavezno)",
+          "jsImgUploadFail": "Slika nije prenesena",
+          "jsAddDetailToPost": "Dodajte detalje u objavu",
+          "jsValidEndDate": "Odaberite valjani datum završetka",
+          "jsSetLocation": "Postavite mjesto objave",
+          "jsRemLocation": "Postavite mjesto ili uklonite tu sekciju",
+          "jsAddImg": "Dodajte slike ili uklonite tu sekciju",
+          "jsInvalidDate": [
+            "Postavite valjani datum početka ",
+            "Postavite valjani datum početka ili uklonite tu sekciju"
+          ]
+        }
+      },
+      "comments": {
+        "name": "Komentari",
+        "loadPrevious": "Učitavanje prethodnih komentara | Učitavanje prethodnih odgovora",
+        "replyingTo": "Odgovaranje na:",
+        "noComments": "Još nema komentara na ovaj post",
+        "textboxPlaceholder": "Ovdje napišite svoj komentar",
+        "requestToLogin": "Prijava ili prijava za početak rasprave"
+      },
+      "post": {
+        "addressYou": "Ti",
+        "addressing": "vaš | njegov | ona",
+        "itemTypes": {
+          "avatar": "avatarska slika",
+          "banner": "slika natpisa",
+          "status": "stanje profila"
+        },
+        "displayPhrase": {
+          "common": "<strong>{username}</strong> ažurirano {adresiranje} {item}",
+          "fatiha": [
+            "<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
+        },
+        "dateUntil": "Do: {date} u {time}",
+        "privatePost": "Ovaj je post vidljiv samo vama",
+        "descZiyaratRequest": "Zatražili ste da Ziyarat bude izveden u vaše ime u *haram* imama Husaina (a.s.) na *{datum}*"
+      },
+      "addEditRel": {
+        "title": {
+          "request": "Zahtjev Surah-al-fatiha",
+          "addUpdate": [
+            "Ažuriranje voljene osobe",
+            "Dodavanje voljene osobe"
+          ]
+        },
+        "heading": [
+          "Dodajte voljenu osobu koja je preminula",
+          "Odaberite voljenu osobu s popisa ili dodajte voljenu osobu koja je prošla dalje"
+        ],
+        "addNew": "Dodaj novo",
+        "subheader": [
+          "Dodavanje detalja o voljenoj osobi",
+          "U zahtjev možete uključiti i poruku"
+        ],
+        "form": {
+          "jsAddImg": "Dodavanje slike za voljenu osobu",
+          "jsRemoveImg": "Ukloni sliku",
+          "fullName": "Puno ime pokojnika",
+          "name_ph": "Npr. Syed Zeeshan Haider Abidi",
+          "fathersName": "Očevo ime (ako je dostupno)",
+          "father_ph": "Npr. Syed Tauqeer Husain",
+          "nameError": "Unesite puno ime s našim posebnim znakovima",
+          "genderLabel": "Spol",
+          "genderValue": [
+            "Ženka",
+            "Muški"
+          ],
+          "relation": [
+            "Marhooma je tvoja.",
+            "Marhoom je tvoj."
+          ],
+          "selectRelation": "Odabir odnosa",
+          "demiseLabel": "Demiziran danas? Zahtjev Namaz-e-Wahshat",
+          "demiseText": "Jako nam je žao zbog vašeg gubitka. Neka Allah date vama i vašoj obitelji snagu da sa strpljenjem podnesete ovaj gubitak i neka Allah nagradi omalovaženu dušu najvišim mjestima u Jannahu. Odabir ove opcije omogućuje vam da od momineena zatražite Namaz-e-Wahshat za demiziranu dušu.",
+          "optional": "Neobavezan",
+          "dod": "Preminuo",
+          "dob": "Rođen je na"
+        },
+        "relation": [
+          "Kći",
+          "Sin"
+        ],
+        "born": "Rođen:",
+        "died": "Umro:",
+        "addMsg": "Želite li dodati poruku?",
+        "remainingChars": "Znakovi: {count} | Preostali znakovi: {broj}",
+        "infoEditRelative": "Detalje za {name} možete uređivati u odjeljku <b>Račun > Marhumeen</b>",
+        "saveRequestCta": [
+          "Spremi i zahtjev",
+          "Zahtjev"
+        ],
+        "addUpdate": "Dodaj | Ažuriraj",
+        "jsRequesting": "Traži..",
+        "jsAddSuccess": [
+          "Uspješno ste dodali voljenu osobu!",
+          "Uspješno ažurirajte svoju voljenu osobu!"
+        ],
+        "jsAddFail": "Dodavanje voljene osobe nije uspjelo. Pokušajte ponovo kasnije.",
+        "jsReqSuccess": "Zahtjev podnesen uspješno.",
+        "jsGettingMarhumeen": "Uzimajući svoj marhumeen.."
+      },
+      "askQues": {
+        "title": "Postavljanje pitanja",
+        "form": {
+          "quesLabel": "Vaše pitanje",
+          "quesLabel_ph": "Potražite pitanje ili postavite svoje",
+          "similarQues": "Ova pitanja možda već imaju odgovor koji tražite.",
+          "quesTextHeader": "Vaše pitanje:",
+          "selectCat": "Postavi kategoriju pitanja:",
+          "askAnonLabel": "Pitajte anonimno?",
+          "askAnonInfo": "Vaše ime neće biti poslano Znanstveniku kada zatražite odgovor u vaše ime, niti će biti prikazano u našoj aplikaciji s ovim pitanjem. Ali na anonimna pitanja možda neće biti brzo odgovoreno.",
+          "askViaLabel": "Pitaj putem",
+          "askSistaniInfo": "Možete postaviti pitanje na koje će odgovoriti ured njegove eminencije, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Pitanje ćemo proslijediti njihovoj web stranici (zajedno s podacima o vašem profilu). Provjerite jeste li pravilno <b>pročitali Uvjete i odredbe</b>.",
+          "tncLabel": "Uvjeti i odredbe:",
+          "showHide": [
+            "Pokazati",
+            "Sakriti"
+          ],
+          "sistaniOrgTncInfo": "Razmotrite sljedeće točke s njihove web stranice prije nego što postavite pitanje, jer ako se ne pridržavate donjih točaka, možda vam se neće javiti ili možda nećete dobiti odgovore.",
+          "userInfo": {
+            "aboutLabel": "O vama",
+            "genderLabel": "Vaš spol",
+            "bdayLabel": "Vaš rođendan",
+            "bdayDesc": "Možete postaviti pitanje samo ako ste stariji od 09 godina. Ako ste još uvijek zainteresirani, obratite nam se."
+          },
+          "jsQuesAdded": "Pitanje je uspješno dodano."
+        },
+        "askQuesCta": "Postavite svoje pitanje"
+      },
+      "authPrompt": {
+        "title": "Potreban je račun",
+        "defLabel": "Prijava ili prijava za nastavak",
+        "infoText": "Ova značajka zahtijeva da se prijavite ili registrirate prije nego što je možete koristiti. Kliknite <b>Prijava</b> ako ste već registrirani ili kliknite Prijava da biste <b>stvorili</b> račun."
+      },
+      "location": {
+        "title": "Promijeni mjesto",
+        "search_ph": "Pretražite svoju lokaciju",
+        "autoDetectInfo": "Unesite svoju lokaciju ili kliknite ikonu automatskog otkrivanja da biste dobili svoju lokaciju.",
+        "setLocation": "Postavi mjesto",
+        "ipAddress": "IP adresa",
+        "alarmLocation": "Mjesto alarma",
+        "basedOn": "Mjesto temeljeno na vašem {selektoru}",
+        "jsDetecting": "Otkrivajući, molim vas pričekajte.",
+        "jsPermDenied": "Za aplikaciju je odbijeno dopuštenje za lokaciju. Ponovno postavite postavke lokacije za ovu aplikaciju tako da posjetite odjeljak Postavke na telefonu.",
+        "jsPosUnavailable": "Žao nam je, ali položaj trenutno nije dostupan za ovaj telefon. Pokušajte ponovo kasnije.",
+        "jsMatchNotFound": "Nije moguće pronaći nijednu podudarnu lokaciju.",
+        "jsEnterValidLoc": "Unesite valjano mjesto",
+        "jsGeoUnavailable": "Žao nam je, ali položaj trenutno nije dostupan za ovaj telefon. Pokušajte ponovo kasnije.",
+        "jsLocMissing": "Nije moguće pronaći vašu lokaciju. Unesite lokaciju ručno.",
+        "jsSelectedLoc": "Došlo je do pogreške s ovim mjestom. Pokušajte ponovo"
+      },
+      "readText": {
+        "ctaLabel": "Čitati",
+        "title": "Dua: {title}",
+        "arabicCta": "Arapski",
+        "englishCta": "Engleski",
+        "translatedCta": "Preveden"
+      },
+      "reqAccess": {
+        "heading": "potreban je pristup",
+        "subheading": "Potrebna nam je dozvola za pristup vašoj kameri",
+        "subtext": "Dopustite pristup klikom na donji gumb:",
+        "ctaLabel": "dopusti pristup"
+      },
+      "shareBtn": {
+        "subtext": "Kliknite jednu od mogućnosti u nastavku da biste to podijelili u odgovarajućoj aplikaciji:",
+        "jsCopyToCB": "Kopirano u međuspremnik",
+        "copyText": "Kliknite <b>Gornju</b> ikonu Kopiraj da biste kopirali donji sadržaj:"
+      },
+      "verifyMob": {
+        "title": [
+          "Provjera mobilnog uređaja",
+          "Unesite šifru"
+        ],
+        "page1": {
+          "infoText1": "Trebamo vaš broj mobitela da potvrdimo vaš identitet. Možda ćete dobiti i povremena ažuriranja.",
+          "infoText2": [
+            "Unesite svoj broj i kliknite gumb da biste dobili kôd potvrde:",
+            "Unesite svoj broj i kliknite gumb da biste dobili kôd potvrde:"
+          ]
+        },
+        "form": {
+          "mobileLabel": "Broj mobitela",
+          "mobileLabel_ph": "Unesite broj mobitela",
+          "otpViaSMS": "Nabavite putem SMS-a",
+          "viaWhatsApp": "Nabavite putem WhatsAppa",
+          "viaTelegram": "Nabavite putem Telegrama",
+          "viaSignal": "Nabavite putem signala"
+        },
+        "page2": {
+          "header": "Poslali smo šesteroznamenkasti kôd potvrde na vaš broj ({broj})",
+          "enterCodeLabel": "Unesite šifru",
+          "enterCode_ph": "Unesite šesteroznamenkasti kod",
+          "resendCode": "Ponovno pošalji šifru",
+          "notUsingMobile": "Ne koristite <strong>{broj}?</strong>",
+          "changeNumber": "Promijeni broj"
+        },
+        "jsVerifySuccess": "Uspješno potvrđeno na mobilnom uređaju",
+        "jsVerifyError": "Došlo je do pogreške. Pokušajte ponovo kasnije.",
+        "jsSendOtpFailed": "Slanje OTP-a nije uspjelo. Pokušajte ponovo kasnije.",
+        "jsSendOtpSuccess": "OTP poslan na {mobile}",
+        "jsTooManyRequests": "Izgleda da si već previše puta pokušao. Pričekajte minutu ili dvije i pokušajte ponovno."
+      },
+      "userSettings": {
+        "personalSharingMsg": "Personalizacija poruke o zajedničkom korištenju",
+        "changePwd": "Promjena lozinke — — – postavljanje lozinke",
+        "changeLang": "Promijeni jezik",
+        "publishToFeed": "Objavite i moje promjene za sažetak sadržaja."
+      },
+      "userSettingsModal": {
+        "title": {
+          "personalize": "Personalizacija",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
+        },
+        "sign": {
+          "addNameToMsgs": "Dodaj moje ime u poruke",
+          "sharingDesc": "Kada dijelite izvana, vaše poruke mogu izgledati kao u nastavku:",
+          "sharingTextDemo": [
+            "Slušajte ovu Nauhu na Bazm aplikaciji",
+            "{name} preporučuje slušanje ove Nauhe u bazm aplikaciji"
+          ],
+          "addSignDesc": "Želite li dodati i svoj potpis?",
+          "signDesc": "Kada podijelite svoju želju s prijateljima u ovoj aplikaciji, vaš će se potpis dodati porukama. Na primjer, može se pojaviti kao u nastavku:"
+        },
+        "changePwd": {
+          "currentPwdLabel": "Unesite postojeću lozinku:",
+          "currentPwdPH": "Unesite trenutnu lozinku",
+          "newPwdLabel": "Unesite novu lozinku:",
+          "newPwdPH": "Unesite novu lozinku"
+        },
+        "changeLang": {
+          "searchYourLang": "Pretraživanje jezika",
+          "desc": "Odaberite jezik na kojem želite vidjeti sadržaj aplikacije. Kliknite na jezik i pričekajte (potrebno je neko vrijeme za učitavanje prijevoda) da biste vidjeli kako se ova fraza pojavljuje na odabranom jeziku."
+        },
+        "jsPwdInvalid": "Lozinka ima znakove koji nisu valjani.",
+        "jsPwdCharCount": "Lozinka ne može biti manja od 8 znakova.",
+        "jsSelectLang": "Najprije odaberite jezik.",
+        "jsLangSet": "Jezik je postavljen na {lang}",
+        "jsPrefSaved": "Spremljene su postavke personalizacije."
+      },
+      "forgotPwd": {
+        "title": "Zaboravili ste lozinku?",
+        "introText": "Resetiranje lozinke je jednostavno. Odaberite metodu za nastavak:",
+        "usePhoneCta": "Koristi telefon",
+        "useEmailCta": "Koristi e-poštu",
+        "sendEmailIntro": "Unesite adresu e-pošte s kojom ste stvorili račun, a mi ćemo poslati e-poruku s vezom na postavljanje nove lozinke za vaš račun.",
+        "emailInputLabel": "Vaša registrirana e-pošta",
+        "sendEmailCta": "Pošalji ponovno postavljanje e-pošte",
+        "sentEmailText": "Ako imate račun kod nas, uskoro ćete dobiti e-poruku za ponovno postavljanje lozinke na <strong>{e-mail}</strong>. Ljubazno provjerite svoju e-poštu za vezu.",
+        "notUsingEmailText": "Ne koristite <strong>{e-mail}?</strong>",
+        "changeEmailCta": "Promjena e-pošte",
+        "phoneIntroText": "Unesite telefonski broj dodan na vaš račun. Poslat ćemo OTP da potvrdi vaše vlasništvo, a u sljedećem koraku moći ćete stvoriti novu lozinku.",
+        "phoneInputLabel": "Vaš broj mobitela",
+        "sendOtpCta": "Pošalji OTP",
+        "backToLoginCta": "Povratak na prijavu",
+        "disclaimerText": "Imajte na umu da ćete dobiti {stavku} samo ako imate registriranu stavku {item} kod nas",
+        "jsMailSent": "Poslana pošta"
+      },
+      "resetPwd": {
+        "title": "Vrati izvornu lozinku",
+        "introText": "Ovdje postavite sigurnu lozinku za svoj račun. Kliknite {icon} da biste bili sigurni da unosite pravu lozinku.",
+        "pwdInputLabel": "Postavljanje nove lozinke",
+        "pwdInputPH": "Unesite novu lozinku",
+        "invalidPwdChars": "Znakovi u lozinki nisu valjani",
+        "jsResetSuccess": "Uspješno resetiranje lozinke!"
+      },
+      "mediaPlayer": {
+        "jsTrackLoadFailed": "Učitavanje zapisa nije uspjelo. Pokušajte ponovo kasnije."
+      },
+      "moreBtn": {
+        "jsItemDeleted": "{item} je uspješno izbrisan.",
+        "jsErrReporting": "Trenutno to nije moguće prijaviti. Pokušajte ponovo kasnije.",
+        "jsAlreadyReported": "Već ste prijavili ovu {stavku}. Ne možete ga prijaviti više od jednom.",
+        "jsPromptHeading": "Prijavljivanje stavke rezultira manjim izgledima za pojavljivanje u sažetku/stranicama vašeg ili drugoga. Želite li i dalje prijaviti ovo?",
+        "jsReporting": "Izvješćivanje {itemType}..",
+        "jsReportingErr": "Trenutno nije moguće poslati vaš zahtjev. Pokušajte ponovo kasnije.",
+        "jsReported": "{item} prijavljen. Hvala na doprinosu."
+      },
+      "editProfileModal": {
+        "jsEmptyData": "Nema se što ažurirati!",
+        "jsProfileUpdated": "Profil ažuriran!"
+      },
+      "reqZiyarat": {
+        "title": "Zahtjev Ziyarat",
+        "cta": "Zahtjev",
+        "header": "Zatražite Ziyarata u svetištu imama Hussaina (a.s.) u Karbali u vaše ime.",
+        "desc": {
+          "p1": "Svakog petka, <strong>neka Ziyarat recitira u vaše ime</strong> u svetištu imama Hussaina (a.s.) u Karbali, Irak! Sve što trebate učiniti je zatražiti <strong>prije kraja četvrtka navečer</strong>. Nikad nisi zakasnio. ako vaš zahtjev stigne prekasno, bit će upisan za sljedeći tjedan.",
+          "p2": "Obavijestit ćemo vas kada ziyarat bude recitiran u vaše ime.",
+          "p3": "Napomena: Kada prvi put zatražite, vaši će se podaci podijeliti s našim pružateljem usluga. Molimo pročitajte naše Uvjete i odredbe kako biste saznali više."
+        },
+        "jsRegistered": "Hvala! Vaš je zahtjev uspješno registriran. Uskoro ćete dobiti poruku s potvrdom.",
+        "jsAlreadyRegistered": "Već ste se prijavili za Ziyarat ovog četvrtka. Registrirajte se sljedeći tjedan za ziyarat sljedećeg tjedna.",
+        "jsConfirm": "Da bismo se registrirali za ovaj zahtjev, moramo podijeliti vaše podatke (npr. Puno ime, spol itd.) s našim pružateljem usluga. To je potrebno samo prvi put. Ljubazno potvrdite da nastavite.",
+        "jsDeclined": "U redu! Možda kasnije."
+      }
+    },
+    "authPage": {
+      "form": {
+        "name": {
+          "label": "Tvoje ime",
+          "placeholder": "Unesite svoje puno ime i prezime"
+        },
+        "email": {
+          "label": "E-pošta",
+          "placeholder": [
+            "Vaša registrirana e-pošta",
+            "Unesite e-poštu"
+          ]
+        },
+        "password": {
+          "label": "Lozinka",
+          "placeholder": [
+            "Vaša lozinka",
+            "Unesite lozinku"
+          ]
+        },
+        "rememberLogin": "Zapamtite prijavu",
+        "forgotPwd": "Zaboravili ste lozinku?",
+        "connectUsing": "Ili se povežite pomoću",
+        "useSavedAccount": "Korištenje spremljenih računa",
+        "lastLogin": "Posljednja prijava",
+        "needAccount": "Trebate račun?",
+        "resetPwdSuccess": "Za prijavu sada možete koristiti novu lozinku",
+        "jsEnterFullName": "Unesite svoje puno ime i prezime.",
+        "jsEnterValidName": "Unesite valjani naziv.",
+        "jsEnterValidEmail": [
+          "Unesite valjanu e-poštu.",
+          "E-pošta ima znakove koji nisu valjani. Unesite valjanu e-poštu."
+        ],
+        "jsSelectCountryCode": "Odaberite pozivni broj države s popisa",
+        "jsEnterMobile": "Unesite svoj broj mobitela.",
+        "jsEnterValidMobile": "Unesite valjani broj mobitela",
+        "jsEnterPwd": "Unesite lozinku!",
+        "jsEnterValidPwd": [
+          "Lozinka ima znakove koji nisu valjani. Unesite valjanu lozinku.",
+          "Lozinka bi trebala biti najmanje {num} znakova."
+        ],
+        "jsAccountSuccess": "Račun je uspješno stvoren",
+        "jsFbError": "Nije moguće dohvatiti podatke o vašem Facebook računu. Pokušajte ponovo.",
+        "jsPromptClosedErr": "Upit za prijavu zatvoren je prije završetka. Pokušajte ponovo."
+      },
+      "gotoSignup": "Goto prijava",
+      "alreadyHasAccount": "Već imate račun?",
+      "gotoLogin": "Goto Prijava",
+      "gotoProfile": "Goto profil",
+      "msgForAuthUser": "<p>Mislimo da ste sletjeli ovdje greškom, jer ste već prijavljeni.</p> <p>Možete provjeriti svoj profil da biste vidjeli kako izgleda ili upotrijebite jednu od veza u nastavku za pregledavanje drugih odjeljaka:</p>",
+      "jsLoggedOut": "Odjavljeni ste.",
+      "jsLogoutHeading": "Odjava s računa?",
+      "jsLogoutText": "Time ćete izbrisati podatke spremljene lokalno, što omogućuje <b>brzu</b> prijavu. Nastaviti?"
+    },
+    "banners": {
+      "appInstall": {
+        "card": {
+          "heading": "Install Bazm { platform }",
+          "desc": "Preuzmite Android aplikaciju za bolje iskustvo, personalizirani sadržaj, obavijesti i sve što vas zanima iz oko sebe! | Instalirajte prečac aplikacije (knjižna oznaka) da biste mu sljedeći put pristupili izravno s početnog zaslona radi boljeg iskustva! Jedva zauzima prostor na vašem uređaju, ali vam pomaže da se brzo vratite u aplikaciju.",
+          "cta": {
+            "action": "Instalirati",
+            "skip": "Možda kasnije"
+          }
+        },
+        "prompt": {
+          "heading": "Instalirati Bazm prečac?"
+        },
+        "popover": {
+          "text": "Kliknite ikonu Zajedničko korištenje (izgleda kao ona s desne strane) <strong>ISPOD,</strong> a zatim kliknite <strong>Dodaj na početni zaslon</strong>. Kliknite \"Spremi\" da biste završili, a zatim aplikaciji možete pristupiti iz prečaca na početnom zaslonu!"
+        }
+      },
+      "webFeedback": {
+        "heading": "Kakvo je vaše iskustvo do sada?",
+        "text": "<p>Sviđa li vam se nova aplikacija? Možemo li nešto poboljšati? Molimo vas da nam pomognete sa svojim povratnim informacijama kako biste poboljšali iskustvo za vas!</p> <p>To bi trajalo samo nekoliko minuta i iznimno cijenimo vaše vrijeme!</p>",
+        "cta": "Dajte povratne informacije",
+        "dismiss": "Možda kasnije"
+      },
+      "advertise": {
+        "heading": "Oglašavajte se na Bazmu",
+        "text": "<p>Dosegnite milijune šijitskih muslimana širom svijeta svojim proizvodom na Bazmu ili se bavite robnim markama i korisnicima.</p> <p>Počnite za samo $1/day!</p>",
+        "cta": "Uči više"
+      },
+      "upgradeSafari": {
+        "header": "Ograničeno iskustvo na Safariju",
+        "description": "<strong>Ovaj preglednik (Safari) nije optimiziran za najbolje iskustvo</strong>. Nastavkom korištenja naše aplikacije ovdje propustit ćete brojne značajke kao što su obavijesti upozorenja, u blizini ažuriranja, izvanmrežnog načina rada i još mnogo toga.<br/> Preporučujemo vam da nabavite jedan od dolje navedenih preglednika za poboljšano iskustvo. Kliknite bilo koji od gumba da biste preuzeli preglednik iz AppStorea:",
+        "ctas": {
+          "getGoogle": "Nabavite Google Chrome",
+          "getFirefox": "Nabavite Mozilla Firefox",
+          "getOpera": "Nabavite operni dodir",
+          "skip": "Možda kasnije"
+        },
+        "toast": "Nema frke. Do sljedećeg puta!"
+      },
+      "cookieBanner": {
+        "header": "O spremanju kolačića na vaš uređaj",
+        "p1": "Ne pohranjujemo kolačiće na vaš {uređaj}, ali aplikacije trećih strana koje se koriste u našoj aplikaciji mogu (kao što je Google Analytics). Umjesto toga, koristimo trajnu pohranu za pohranu bilo kakvih važnih podataka, a u većini slučajeva to je šifrirano u pohrani i tijekom prijenosa.",
+        "p2": "Nastavkom korištenja ove aplikacije potvrđujete da nemate problema s našim izborom. Da biste saznali više o našim kolačićima i korištenju podataka, pogledajte našu <a href='https://bazm.in/privacy-policy' target='_blank'> Pravila o privatnosti.</a>"
+      }
+    },
+    "meta": {
+      "titleBranding": " __ Bazm - Aplikacija društvene mreže za šijitske muslimane širom svijeta! Preuzmite aplikaciju već danas.",
+      "home": {
+        "title": "Bazm - Online Shia aplikacija zajednice!",
+        "description": "Bazm aplikacija je shia aplikacija zajednice koja zadovoljava sve vaše dnevne potrebe deen & mazhab. Pronađite Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books itd. za sve datume i prigode. Gledajte i radite događaje uživo i majalis sa šijitskim muslimanima širom svijeta iz udobnosti vašeg doma. Pridružite se već danas!"
+      },
+      "feed": {
+        "title": "Pronađite prilagođeni sadržaj i podijelite sa šijitskom zajednicom oko sebe i svijeta",
+        "description": "Pronađite i podijelite vijesti, događaje i sadržaj uz shia momineen i informirajte ih o svim događajima koje organizirate. Saznajte više o svemu što se događa u vašoj blizini u aplikaciji."
+      },
+      "mediaHome": {
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal i još mnogo toga za vas!",
+        "description": "Pronađite Nauhe, Majalis, Dua, Aamaal, ziyarat i još mnogo toga za sve datume i prigode. Gledajte i radite live-stream majalis iz udobnosti vašeg doma! Pridružite se shia aplikaciji društvene mreže koja vam pomaže u rutinskim zadacima deen & mazhab. Pridružite se već danas!"
+      },
+      "toolsHome": {
+        "title": "Bazm - Daily Azaan alarm, odgovor na pitanja i alati za šijitske muslimane",
+        "description": "Nabavite dnevni podsjetnik za Adhan, pronađite i pitajte odgovor na pitanja o temama deen & islam ili zatražite Surah-fatiha ili Namaz-e-Wahshat za svoj marhumeen i još alata na Bazmu. Pridružite se aplikaciji Shia društvene mreže koja vam pomaže u rutinskim zadacima deen-a. Pronađite Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat za sve datume i prigode. Live-stream događaji i majalis iz udobnosti vašeg doma. Pridružite se već danas!"
+      },
+      "tasbeehCounter": {
+        "title": "Automatski brojač tasbeeha pomoću alata Voice __ Tasbeeh Counter",
+        "description": "Recitiranje bezbroj tasbeeha sada je lakše s našim brojačima audio tasbeeha. Recite svoj tasbeeh dok vozite ili radite, još uvijek prateći broj s glasovnim brojačima. Nabavite ovaj alat i druge slične u bazm aplikaciji."
+      },
+      "accountHome": {
+        "title": "Bazm - Danas izradite svoj besplatni račun i potražite pomoć u svakodnevnim potrebama deena!",
+        "description": "Pridružite se aplikaciji Bazm već danas kako biste zadovoljili sve svoje potrebe za deeniyatom. Pronađite nohe/nauhe, majalis, dua, ziyarat, aamaal za sve datume i prigode. Live-stream i gledati majalis & događaje iz oko sebe; pronađite postove, sadržaj i momineen iz cijelog sebe i svijeta i još mnogo toga na aplikaciji."
+      },
+      "nauheListPage": {
+        "title": "Poslušajte Nauhea iz popularnog nauhakhwana širom svijeta",
+        "description": "Slušajte nauhe iz svih godina i sve popularne nauhakhwan iz cijelog svijeta na Bazm aplikaciji."
+      },
+      "soazListPage": {
+        "title": "Poslušajte Soaza iz popularnog Soazkhwana diljem svijeta",
+        "description": "Slušajte Soaza iz svih godina i sve popularne Soazkhwan iz cijelog svijeta na Bazm aplikaciji."
+      },
+      "majalisList": {
+        "title": "{type} majalis/majlis on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal itd. on Bazm",
+        "description": "Pronađite audio/video majalis iz Maulane i Zakir-e-Ahlbayta iz blizine i širom svijeta. Slušajte i gledajte najnovije majalis i livestream sesije u aplikaciji Bazm. Preuzmite aplikaciju danas i pridružite se milijunima šijitskih muslimana širom svijeta!"
+      },
+      "duasPage": {
+        "title": [
+          "Duas i aamaal za mjesec {mjesec} na Bazmu - Pronađite više nauhe, audio /video majalis, dua, ziyarat, aamaal itd. na Bazmu",
+          "Duas i aamaal za sve mjesece na Bazmu - Pronađite više nauhe, audio / video majalis, dua, ziyarat, aamaal, itd. na Bazmu"
+        ],
+        "description": "Pronađite duas, aamaal, ziyarat i munajat za sve mjesece na Bazmu, datum i događaj mudar. Preuzmite aplikaciju danas i pridružite se milijunima šijitskih muslimana širom svijeta!"
+      }
+    }
+  }
+}

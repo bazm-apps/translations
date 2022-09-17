@@ -1,5 +1,4 @@
 {
-  "description": "This (EN) file is an exception in file-structure. Other translation files will have different structures. This comment won't be passed along in api-response.",
   "en": {
     "common": {
       "refresh": "Pull to refresh",
@@ -174,7 +173,10 @@
           "maghribLabel": "Maghrib",
           "midnightLabel": "Midnight",
           "sehriEndTime": "Time for end of Sehri",
-          "minToImsak": ["{min} mins before Imsak", "{hour} hour before Imsak"],
+          "minToImsak": [
+            "{min} mins before Imsak",
+            "{hour} hour before Imsak"
+          ],
           "minToImsakDesc": [
             "Alarm rings {min} minutes before end of Sehri time",
             "Alarm rings {hour} hour before end of Sehri time"
@@ -308,7 +310,10 @@
           "p2": "Or, dismiss this popup to continue using the app in default language."
         },
         "choices": {
-          "useLang": ["Yes, use {langName}", "Use {langName}"],
+          "useLang": [
+            "Yes, use {langName}",
+            "Use {langName}"
+          ],
           "useEngling": "Continue in English"
         },
         "langError": "An error occurred while loading the translations for {langName}. Please try again later."
@@ -344,7 +349,10 @@
               "minUsersInput": "Enter minimum number"
             }
           },
-          "postTime": ["When is it?", "When do you want to start streaming?"],
+          "postTime": [
+            "When is it?",
+            "When do you want to start streaming?"
+          ],
           "whereIsIt": "Where is it?",
           "findLocation": "Find location",
           "locationSubtext": "Add location to your post",
@@ -359,7 +367,8 @@
           "jsRemLocation": "Please set a location or remove that section",
           "jsAddImg": "Please add images or remove that section",
           "jsInvalidDate": [
-            "Please set a valid start date ", "Please set a valid start date  or remove that section"
+            "Please set a valid start date ",
+            "Please set a valid start date  or remove that section"
           ]
         }
       },
@@ -381,7 +390,10 @@
         },
         "displayPhrase": {
           "common": "<strong>{username}</strong> updated {addressing} {item}",
-          "fatiha": ["<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}", "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"]
+          "fatiha": [
+            "<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+          ]
         },
         "dateUntil": "Until: {date} at {time}",
         "privatePost": "This post is visible only to you",
@@ -390,7 +402,10 @@
       "addEditRel": {
         "title": {
           "request": "Request Surah-al-fatiha",
-          "addUpdate": ["Update loved one", "Add loved one"]
+          "addUpdate": [
+            "Update loved one",
+            "Add loved one"
+          ]
         },
         "heading": [
           "Add a loved-one who has passed on",
@@ -410,7 +425,10 @@
           "father_ph": "E.g., Syed Tauqeer Husain",
           "nameError": "Please enter full name withour any special characters",
           "genderLabel": "Gender",
-          "genderValue": ["Female", "Male"],
+          "genderValue": [
+            "Female",
+            "Male"
+          ],
           "relation": [
             "Marhooma is your",
             "Marhoom is your"
@@ -422,17 +440,26 @@
           "dod": "Passed away on",
           "dob": "Was born on"
         },
-        "relation": ["Daughter of", "Son of"],
+        "relation": [
+          "Daughter of",
+          "Son of"
+        ],
         "born": "Born:",
         "died": "Died:",
         "addMsg": "Want to add a message?",
         "addMsg_ph": "For example:\nInna lillahi wa inna ilaihe raje'un. Please recite a surah-e-fatiha and 2-rak'at namaz-e-wahshat for my uncle, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, who left us all crying behind to meet his creator.",
         "remainingChars": "Characters: {count} | Characters: {count} remaining",
         "infoEditRelative": "You can edit details for {name} in your <b>Account > Marhumeen</b> section",
-        "saveRequestCta": ["Save & Request", "Request"],
+        "saveRequestCta": [
+          "Save & Request",
+          "Request"
+        ],
         "addUpdate": "Add | Update",
         "jsRequesting": "Requesting..",
-        "jsAddSuccess": ["Added your loved one successfully!", "Update your loved one successfully!"],
+        "jsAddSuccess": [
+          "Added your loved one successfully!",
+          "Update your loved one successfully!"
+        ],
         "jsAddFail": "Failed to add your loved one. Please try again later.",
         "jsReqSuccess": "Request submitted succesfully.",
         "jsGettingMarhumeen": "Getting your marhumeen.."
@@ -450,7 +477,10 @@
           "askViaLabel": "Ask Via",
           "askSistaniInfo": "You can ask a question to be answered by the office of his eminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. We will forward the question to their website (along with your profile information). Make sure you've read the <b>Terms & Conditions</b> properly.",
           "tncLabel": "Terms & Conditions:",
-          "showHide": ["Show", "Hide"],
+          "showHide": [
+            "Show",
+            "Hide"
+          ],
           "sistaniOrgTncInfo": "Consider following points from their website before you ask a question, because if you do not adhere to below points, you may not hear back from them, or may not receive any answers.",
           "userInfo": {
             "aboutLabel": "About you",
@@ -503,7 +533,10 @@
         "copyText": "Click <b>Copy</b> icon above to copy the below content:"
       },
       "verifyMob": {
-        "title": ["Verify Mobile", "Enter the code"],
+        "title": [
+          "Verify Mobile",
+          "Enter the code"
+        ],
         "page1": {
           "infoText1": "We need your mobile number to verify your identity. You may also get occasional updates.",
           "infoText2": [
@@ -637,11 +670,17 @@
         },
         "email": {
           "label": "Email",
-          "placeholder": ["Your registered email", "Enter your email"]
+          "placeholder": [
+            "Your registered email",
+            "Enter your email"
+          ]
         },
         "password": {
           "label": "Password",
-          "placeholder": ["Your password", "Enter a password"]
+          "placeholder": [
+            "Your password",
+            "Enter a password"
+          ]
         },
         "rememberLogin": "Remember login",
         "forgotPwd": "Forgot Password?",
