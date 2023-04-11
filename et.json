@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeehi loendur"
+        },
+        "khumsLabel": "Khumsi kalkulaator",
+        "khumsDesc": "Arvutage oma khums või lisage varem makstud khums. See aitab teil aastate jooksul oma khumide üle arvestust pidada.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blogi: arvutage khums tõhusalt",
+              "p1": "<a href='{href}' target='_blank'>Jälgige meie ajaveebi,</a> mis toob igal aastal esile khumide arvutamise põhielemendid.",
+              "p2": "Lahtiütlus: Ajaveeb EI OLE juhend. <strong>Järgige oma Marjahi otsuseid Khumsi arvutamiseks</strong>. <span id='blog-info-link' color='primary'>Lisateabe saamiseks klõpsake siin</span> .",
+              "blogInfo": "Ülaltoodud ajaveeb põhineb al-islam.org, sistani.org artiklitel ja meie aruteludel mõne teise teadlasega. Khumsi arvutamiseks peaksite alati järgima oma Marjahi otsuseid.",
+              "dismissCta": "Ei huvita"
+            },
+            "title": "Teie Khumsi arvutused",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />järgmise arvutuse jaoks",
+            "muqammasDesc": "Põhineb viimase aasta arvutustel",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imaam (a.s.)",
+            "paid": "Makstud:",
+            "remaining": "Ülejäänud:",
+            "newMuqammas": "Uued muqammad:",
+            "jsDeleted": "Khumsi arvutus kustutati edukalt!",
+            "prompts": {
+              "delete": {
+                "header": "Kas kustutada Khumsi arvutus?",
+                "desc": "Kas olete kindel, et soovite selle kustutada? Ka kõik seotud dokumendid kustutatakse!"
+              }
+            },
+            "empty": {
+              "header": "Ühtegi khumit pole veel lisatud",
+              "subtext": "Alustage khumsi arvutuse lisamisega. Klõpsake alloleval nupul."
+            }
+          },
+          "detail": {
+            "title": "Teie Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas järgmiseks arvutuseks",
+            "calcHeader": "Põhineb allpool toodud arvutusel:",
+            "savingsHeader": "Kokkuhoid",
+            "conversionInfo": "Konverteeritakse {amount}-ks, mis põhineb {xchgRateDate} {xchgRate} vahetuskursil",
+            "expensesHeader": "Kulud",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Eelmised muqammad",
+            "paymentsHeader": "Khumide eest tehtud maksed:",
+            "error": {
+              "header": "Oh uh, viga tekkis!",
+              "desc": "Tundub, et me ei leia selle khums-arvutuse kohta midagi. See võib olla kas tingitud sellest, et üks meie teenustest ei töötanud, või võib-olla otsite aegunud andmeid.<br /><br/ >Proovige lehte värskendada või pöörduge meie poole, kui arvate, et meie poolt on viga."
+            },
+            "js": {
+              "recordDeleteFailed": "Selle kirje kustutamisel ilmnes tõrge. Proovige uuesti või kui viga püsib, tulge hiljem uuesti.",
+              "recordDeleted": "Kirje on edukalt kustutatud",
+              "deleteRecordHeader": "Kas kustutada kirje?",
+              "deleteRecordDesc": "Kas olete kindel, et soovite selle kirje kustutada? Kõik sellele kirjele lisatud manused kustutatakse samuti!"
+            }
+          },
+          "calc": {
+            "subtext": "Täitke allolev vorm, et arvutada oma khums. Valikulised väljad on näidatud. Klõpsake jaotise kohta lisateabe saamiseks alloleval teabeikoonil.",
+            "blog": "Seotud: Lugege meie ajaveebi teemal <a href='{href}' target='_blank'>Kuidas khumsi tõhusalt<a> arvutada</a>",
+            "dateRange": "Valige kuupäevavahemik:",
+            "dateRangeInfo": "Tavaliselt arvutavad inimesed khums majandusaasta (nt aprillist märtsini) või kalendriaasta (jaanuar kuni dets) kohta.",
+            "startDate": "Alguskuupäev:",
+            "endDate": "Lõppkuupäev:",
+            "savings": {
+              "header": "Kokkuhoid",
+              "desc": "Säästude/saldo lisamine oma konto(de)le",
+              "info": "Saate lisada summasid erinevates valuutades, kuid khums arvutatakse lõpuks ühisrahas tänase vahetuskursi alusel.",
+              "form": {
+                "label": "Etikett",
+                "placeholder": "Nt Palgakonto",
+                "amountLabel": "Summa",
+                "amountPlaceholder": "Sisestage summa",
+                "remarks": "Kas teil on selle punkti kohta märkusi?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Võlad/kohustused/kulud</strong> – valikuline",
+              "subtext": "Lisage kõik kohesed võlad, kohustused või kulud",
+              "info": "Osa saldost olevast summast võib olla khumide puhul mahaarvatav. Lisateabe saamiseks järgige meie ülaltoodud linki <strong>Arvutage khums tõhusalt</strong> .",
+              "form": {
+                "placeholder": "Nt tasumisele kuuluv üür"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Eelmised Muqammad</strong> – valikuline",
+              "subtext": "Eelmise perioodi maksejärgselt järele jäänud jääk",
+              "info": "Kui maksate khumsi esimest korda, on Muqammas NULL. Kui olete siia salvestanud varasemad arvutused, saate sünkroonida varasema perioodi Muqammasi kasutamiseks."
+            },
+            "mainCurrencyHeader": "Valige peamine valuuta",
+            "mainCurrencyInfo": "Millist valuutat peaksime khumide arvutamiseks kasutama?",
+            "customRates": {
+              "header": "<strong>Vahetuskursside kasutamine</strong>",
+              "subtext": "Neid valuutakursse kasutatakse arvutamiseks. Saate neid kohandatud väärtuste kasutamiseks muuta.",
+              "info": "Kui tegemist on ajalooliste andmetega, näiteks kui lisate arvutused enam kui aasta tagusest ajast, kui vahetuskursid ei olnud samad, mis täna, saate ise määrata vahetuskursside kohandatud väärtused.",
+              "rateValuePH": "{currency}, nt 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Arvutama",
+            "pageError": {
+              "header": "Ilmnes tõrge",
+              "desc": "Lehe jaoks vajalikke andmeid ei õnnestunud saada. Laadige leht uuesti või proovige hiljem uuesti."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Kas kustutada märkused?",
+                "deleteText": "Kas olete kindel, et soovite selle üksuse märkused kustutada?"
+              },
+              "choicePrompt": {
+                "addHeader": "Lisama",
+                "savings": "Lisa uus kirje hoiustele",
+                "liability": "Kohustustele uue kirje lisamine"
+              },
+              "rowOptions": {
+                "header": "Mida sa sellega teha tahad?",
+                "duplicate": "Duplikaatkirje loomine",
+                "remarks": "Lisage selle kohta märkused",
+                "delete": "Kustutage see kirje"
+              },
+              "apiError": "Ilmnes tõrge. Proovige uuesti."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Jah, kasutage valikut {langName}",
             "Funktsiooni {langName} kasutamine"
           ],
-          "useEngling": "Jätka inglise keeles"
+          "useEngling": "Jätka inglise keeles",
+          "useEnglish": "Jätka inglise keeles",
+          "selectFrom": "Või valige üks järgmistest alternatiivkeeltest."
         },
         "langError": "{langName}-i tõlgete laadimisel ilmnes tõrge. Proovige hiljem uuesti."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Olete juba sel neljapäeval Ziyaratile registreerunud. Registreeruge järgmisel nädalal järgmise nädala ziyaratile.",
         "jsConfirm": "Selle taotluse registreerimiseks peame jagama teie andmeid (nt täisnimi, sugu jne) meie teenusepakkujaga. See on vajalik ainult esimest korda. Palun kinnitage, et jätkate.",
         "jsDeclined": "Okei! Võib-olla hiljem."
+      },
+      "currencySelector": {
+        "title": "Valige valuuta",
+        "baseCurrency": "Baasvaluuta",
+        "compHasOwnRates": "Seda valijat kasutaval lehel on oma vahetuskursid, millel võivad olla ajaloolised väärtused. Seetõttu siin näidatud määrasid valikul ei rakendata.",
+        "cancelCta": "Tühistama",
+        "doneCta": "Teinud"
+      },
+      "mqmsSelector": {
+        "title": "Valige Muqammas summa",
+        "dateAdded": "Lisatud: {date}",
+        "cancelCta": "Tühistama",
+        "doneCta": "Valima"
+      },
+      "khumsPaymentRecord": {
+        "title": "Maksekirje lisamine",
+        "paymentFor": "Tasumine {khumsType} eest",
+        "totalAmount": "Kogusumma: {amount}",
+        "form": {
+          "amountLabel": "Summa",
+          "amountPlaceholder": "Sisestage summa",
+          "amountErr": "Summa ei tohi olla suurem kui Khums",
+          "dateLabel": "Üleandmise kuupäev – valikuline",
+          "dateInfo": "Kuupäev, millal raha saatsite",
+          "remarks": "Märkused, kui neid on?",
+          "remarksInfo": "Nt \"Makstakse sularahas\"",
+          "attach": "Manuste lisamine",
+          "attachInfo": "Saate lisada maksekviitungeid (ainult pilte) hilisemaks viitamiseks"
+        }
       }
     },
     "authPage": {
