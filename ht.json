@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Kontrefè Tasbeeh"
+        },
+        "khumsLabel": "Khums kalkilatè",
+        "khumsDesc": "Kalkile khum ou, oswa ajoute nenpòt ki khums deja peye. Li ede ou ak dosye-kenbe nan khum ou sou ane yo.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Kalkile khums efisyans",
+              "p1": "<a href='{href}' target='_blank'>Swiv blog nou</a> an ki mete aksan sou atik kle nan kalkil khums chak ane.",
+              "p2": "Reklamasyon: Blog la se PA yon gid. <strong>Swiv desizyon Marjah ou pou kalkil Khums</strong>. <span id='blog-info-link' color='primary'>Klike la a</span> pou plis enfòmasyon.",
+              "blogInfo": "Blog ki anwo a baze sou atik ki soti nan al-islam.org, sistani.org, ak diskisyon nou yo ak kèk lòt entelektyèl. Ou ta dwe toujou swiv desizyon yo pa Marjah ou pou kalkil Khums.",
+              "dismissCta": "Pa enterese"
+            },
+            "title": "Kalkil Khums ou yo",
+            "nextMuqammasHeading": "<strong>Madanm</strong><br />pou pwochen kalkil",
+            "muqammasDesc": "Baze sou kalkil soti nan dènye ane a",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Peye:",
+            "remaining": "Rete:",
+            "newMuqammas": "Nouvo muqammas:",
+            "jsDeleted": "Khums kalkil efase avèk siksè!",
+            "prompts": {
+              "delete": {
+                "header": "Efase Khums Kalkil?",
+                "desc": "Èske ou sèten ou vle efase sa a? Tout dokiman ki gen rapò yo pral efase tou!"
+              }
+            },
+            "empty": {
+              "header": "Pa gen khums te ajoute ankò",
+              "subtext": "Kòmanse pa ajoute yon kalkil khums. Klike sou bouton ki anba a."
+            }
+          },
+          "detail": {
+            "title": "Khum ou yo",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas pou pwochen kalkil",
+            "calcHeader": "Baze sou kalkil ki anba a:",
+            "savingsHeader": "Ekonoloji",
+            "conversionInfo": "Konvèti nan {amount} ki baze sou echanj-pousantaj nan {xchgRate} sou {xchgRateDate}",
+            "expensesHeader": "Depans",
+            "mqmsHeader": "Madanm",
+            "prevMqms": "Anvan madanm",
+            "paymentsHeader": "Peman yo te fè pou khums:",
+            "error": {
+              "header": "Oh uh, yon erè ki te fèt!",
+              "desc": "Li sanble ke nou pa ka jwenn anyen sou sa a khum-kalkil. Li ta ka swa paske youn nan sèvis nou yo fonksyone, oswa petèt w ap chèche pou done vòlè.<br /><br/ >Eseye rafrechi paj la, oswa lonje lamen ban nou si ou panse gen erè sou pati nou an."
+            },
+            "js": {
+              "recordDeleteFailed": "Yon erè ki te fèt pandan y ap eseye efase dosye sa a. Tanpri eseye ankò, oswa si erè a pèsiste, vini ankò pita.",
+              "recordDeleted": "Dosye efase avèk siksè",
+              "deleteRecordHeader": "Efase dosye?",
+              "deleteRecordDesc": "Èske ou sèten ou vle efase dosye sa a? Nenpòt atachman te ajoute nan dosye sa a pral efase kòm byen!"
+            }
+          },
+          "calc": {
+            "subtext": "Ranpli fòm ki anba a pou kalkile khum ou yo. Jaden si ou endike. Klike sou info-icon anba a pou konnen plis bagay sou seksyon an.",
+            "blog": "Ki gen rapò: Li blog nou an sou <a href='{href}' target='_blank'>Kòman yo kalkile khums avèk efikasite<a></a>",
+            "dateRange": "Chwazi dat ranje:",
+            "dateRangeInfo": "Tipikman, moun kalkile khums pou yon ane finansye (egzanp, soti nan Avril rive mas) oswa yon ane Kalandriye (Jan pou rive desanm)",
+            "startDate": "Kòmanse dat:",
+            "endDate": "Dat fen:",
+            "savings": {
+              "header": "Ekonoloji",
+              "desc": "Ajoute ekonomi / balans atravè kont ou (yo)",
+              "info": "Ou ka ajoute kantite lajan nan lajan diferan, men khums se evantyèlman kalkile nan lajan sèl ki baze sou pousantaj echanj jodi a.",
+              "form": {
+                "label": "Etikèt",
+                "placeholder": "E.g., Salè kont",
+                "amountLabel": "Montan",
+                "amountPlaceholder": "Antre montan",
+                "remarks": "Nenpòt remak sou atik sa a?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Dèt / Responsablite /Depans</strong> - Si ou vle",
+              "subtext": "Ajoute nenpòt dèt imedya, responsablite oswa depans",
+              "info": "Gen kèk nan kantite ekilib ki ka franchiz pou khums. Swiv lyen nou an pi wo a <strong>Kalkile khums efizaman</strong> pou konnen plis.",
+              "form": {
+                "placeholder": "E.g., Lwaye dwe"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Anvan Muqammas</strong> - Si ou vle",
+              "subtext": "Balans te kite apre yo fin peye khums nan peryòd anvan an",
+              "info": "Si w ap peye khums pou la pwemye fwa, Muqammas yo pral ZEWO. Si ou te kalkil anvan sove isit la, ou ka senk yo sèvi ak Muqammas soti nan peryòd pi bonè."
+            },
+            "mainCurrencyHeader": "Chwazi lajan prensipal",
+            "mainCurrencyInfo": "Ki lajan nou ta dwe itilize pou kalkile khum yo?",
+            "customRates": {
+              "header": "<strong>Sèvi ak pousantaj echanj</strong>",
+              "subtext": "Pousantaj lajan sa yo echanj pousantaj yo pral itilize pou kalkil. Ou ka chanje yo pou itilize valè koutim.",
+              "info": "Lè w ap fè fas ak done istorik, tankou lè ajoute kalkil pou khums soti nan plis pase yon ane de sa lè pousantaj yo echanj-pousantaj yo pa te menm jan jodi a, ou ka mete valè koutim pou echanj-pousantaj tèt ou.",
+              "rateValuePH": "Nan {currency}, pa e.g., 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "kalkile",
+            "pageError": {
+              "header": "Gen yon erè ki te fèt",
+              "desc": "Echwe pou pou jwenn done yo mande pou paj la. Tanpri reload paj la oswa eseye ankò pita."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Efase remak?",
+                "deleteText": "Èske ou sèten ou vle efase remak pou atik sa a?"
+              },
+              "choicePrompt": {
+                "addHeader": "Ajoute",
+                "savings": "Ajoute nouvo antre nan ekonoloji",
+                "liability": "Ajoute nouvo antre nan responsablite"
+              },
+              "rowOptions": {
+                "header": "Kisa ou vle fè ak sa?",
+                "duplicate": "Kreye antre kopi doub",
+                "remarks": "Ajoute remak pou sa",
+                "delete": "Efase antre sa a"
+              },
+              "apiError": "Gen yon erè ki te fèt. Tanpri eseye ankò."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Wi, use {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Kontinye nan lang angle"
+          "useEngling": "Kontinye nan lang angle",
+          "useEnglish": "Kontinye nan lang angle",
+          "selectFrom": "Oswa, chwazi nan youn nan lang altène sa yo:"
         },
         "langError": "Yon erè te fèt pandan y ap chaje tradiksyon yo for {langName}. Tanpri eseye ankò pita."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Ou te deja anrejistre pou Ziyarat Jedi sa a. Enskri semèn pwochèn pou ziyarat semèn pwochèn nan.",
         "jsConfirm": "Pou enskri pou demann sa a, nou bezwen pataje detay ou (egzanp, non konplè, sèks, elatriye) ak founisè sèvis nou an. Sa a obligatwa pou la pwemye fwa sèlman. Byen konfime pou kontinye.",
         "jsDeclined": "Oke! Petèt pita."
+      },
+      "currencySelector": {
+        "title": "Chwazi lajan",
+        "baseCurrency": "lajan baz",
+        "compHasOwnRates": "Paj la lè l sèvi avèk selektè sa a gen pwòp pousantaj echanj-pousantaj ki ka gen valè istorik. Se poutèt sa, pousantaj yo montre isit la pa pral aplike sou seleksyon.",
+        "cancelCta": "Anile",
+        "doneCta": "Fè"
+      },
+      "mqmsSelector": {
+        "title": "Chwazi Muqammas kantite lajan",
+        "dateAdded": "Te ajoute sou: {date}",
+        "cancelCta": "Anile",
+        "doneCta": "Chwazi"
+      },
+      "khumsPaymentRecord": {
+        "title": "Ajoute Dosye Peman",
+        "paymentFor": "Peman pou {khumsType}",
+        "totalAmount": "Kantite total: {amount}",
+        "form": {
+          "amountLabel": "Montan",
+          "amountPlaceholder": "Antre montan",
+          "amountErr": "Kantite lajan pa kapab plis pase Khums",
+          "dateLabel": "Dat transfè : Si ou vle",
+          "dateInfo": "Dat lè ou voye lajan an",
+          "remarks": "Remak, si genyen?",
+          "remarksInfo": "E.g., 'Peye nan lajan kach'",
+          "attach": "Ajoute atachman",
+          "attachInfo": "Ou ka ajoute resi peman (imaj sèlman) pou pita referans"
+        }
       }
     },
     "authPage": {
