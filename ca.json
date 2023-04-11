@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Comptador de Tasbeeh"
+        },
+        "khumsLabel": "Calculadora khums",
+        "khumsDesc": "Calculeu els vostres khums o afegiu-hi els khums pagats prèviament. T'ajuda a mantenir el registre dels teus khums al llarg dels anys.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Bloc: Calcular khums de manera eficient",
+              "p1": "<a href='{href}' target='_blank'>Segueix el nostre blog</a> que destaca elements clau en el càlcul de khums cada any.",
+              "p2": "Exempció de responsabilitat: El bloc NO és una guia. <strong>Seguiu les sentències del vostre marjah per al càlcul de Khums</strong>. <span id='blog-info-link' color='primary'>Feu clic aquí</span> per obtenir més informació.",
+              "blogInfo": "El bloc anterior es basa en articles de al-islam.org, sistani.org i les nostres discussions amb alguns altres estudiosos. Sempre heu de seguir les sentències del vostre marjah per al càlcul de Khums.",
+              "dismissCta": "No t'interessa"
+            },
+            "title": "Els vostres càlculs de Khums",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />per al següent càlcul",
+            "muqammasDesc": "Segons càlculs de l'any passat",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Pagat:",
+            "remaining": "Restant:",
+            "newMuqammas": "Nous muqammas:",
+            "jsDeleted": "El càlcul de Khums s'ha suprimit amb èxit!",
+            "prompts": {
+              "delete": {
+                "header": "Eliminar càlcul de Khums?",
+                "desc": "Estàs segur que vols eliminar això? Tots els documents relacionats també s'eliminaran."
+              }
+            },
+            "empty": {
+              "header": "Encara no s'han afegit khums",
+              "subtext": "Comenceu afegint un càlcul de khums. Feu clic al botó següent."
+            }
+          },
+          "detail": {
+            "title": "Els teus Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas per al següent càlcul",
+            "calcHeader": "A partir del càlcul següent:",
+            "savingsHeader": "Estalvi",
+            "conversionInfo": "Convertit a {amount} en funció del tipus de canvi de {xchgRate} a {xchgRateDate}",
+            "expensesHeader": "Despeses",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas anteriors",
+            "paymentsHeader": "Pagaments realitzats per khums:",
+            "error": {
+              "header": "Oh uh, s'ha produït un error!",
+              "desc": "Sembla que no podem trobar res sobre aquest càlcul de khums. Pot ser perquè un dels nostres serveis ha funcionat malament o potser busqueu dades obsoletes.<br /><br/ >Proveu d'actualitzar la pàgina o poseu-vos en contacte amb nosaltres si creieu que hi ha un error per part nostra."
+            },
+            "js": {
+              "recordDeleteFailed": "S'ha produït un error en intentar suprimir aquest registre. Torneu-ho a provar o, si l'error persisteix, torneu-ho a provar més tard.",
+              "recordDeleted": "Registre suprimit amb èxit",
+              "deleteRecordHeader": "Suprimeix el registre?",
+              "deleteRecordDesc": "Esteu segur que voleu suprimir aquest registre? Tots els fitxers adjunts afegits a aquest registre també se suprimiran."
+            }
+          },
+          "calc": {
+            "subtext": "Omple el següent formulari per calcular els teus khums. S'indiquen els camps opcionals. Feu clic a la icona d'informació següent per obtenir més informació sobre la secció.",
+            "blog": "Relacionat: Llegiu el nostre blog sobre <a href='{href}' target='_blank'>Com calcular khums de manera<a> eficient</a>",
+            "dateRange": "Seleccioneu l'interval de dates:",
+            "dateRangeInfo": "Normalment, la gent calcula khums per a un exercici (per exemple, d'abril a març) o un any natural (de gener a desembre)",
+            "startDate": "Data d'inici:",
+            "endDate": "Data de finalització:",
+            "savings": {
+              "header": "Estalvi",
+              "desc": "Afegiu estalvis / saldos als vostres comptes",
+              "info": "Podeu afegir quantitats en diferents monedes, però finalment es calcula en moneda única en funció del tipus de canvi actual.",
+              "form": {
+                "label": "Etiquetar",
+                "placeholder": "P. ex., Compte nòmina",
+                "amountLabel": "Quantitat",
+                "amountPlaceholder": "Introduïu Import",
+                "remarks": "Alguna observació sobre aquest tema?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Deutes/Passius/Despeses</strong> — Opcional",
+              "subtext": "Afegiu-hi deutes, passius o despeses immediats",
+              "info": "Una part de l'import del saldo pot ser deduïble per a l'exercici de la seva activitat. Seguiu el nostre enllaç anterior <strong>Calcula els khums de manera eficient</strong> per saber-ne més.",
+              "form": {
+                "placeholder": "Per exemple, lloguer degut"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas anteriors</strong> — Opcional",
+              "subtext": "Saldo deixat després de pagar els khums en el període anterior",
+              "info": "Si pagues khums per primera vegada, muqammas serà ZERO. Si teniu càlculs anteriors desats aquí, podeu sincronitzar-vos per utilitzar Muqammas del període anterior."
+            },
+            "mainCurrencyHeader": "Seleccioneu la moneda principal",
+            "mainCurrencyInfo": "Quina moneda hem d'utilitzar per calcular els khums?",
+            "customRates": {
+              "header": "<strong>Ús dels tipus de canvi</strong>",
+              "subtext": "Aquests tipus de canvi de divises s'utilitzaran per al càlcul. Podeu canviar-los perquè utilitzin valors personalitzats.",
+              "info": "Quan es tracta de dades històriques, com quan s'afegeixen càlculs per a khums de fa més d'un any, quan els tipus de canvi no eren els mateixos que avui en dia, podeu establir valors personalitzats per als tipus de canvi vosaltres mateixos.",
+              "rateValuePH": "En {currency}, per exemple, 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Calcular",
+            "pageError": {
+              "header": "S'ha produït un error",
+              "desc": "No s'han obtingut les dades necessàries per a la pàgina. Torneu a carregar la pàgina o torneu-ho a provar més tard."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Suprimiu les observacions?",
+                "deleteText": "Estàs segur que vols eliminar comentaris d'aquest article?"
+              },
+              "choicePrompt": {
+                "addHeader": "Sumar",
+                "savings": "Afegeix una nova entrada a Estalvi",
+                "liability": "Afegir nova entrada a Passius"
+              },
+              "rowOptions": {
+                "header": "Què vols fer amb això?",
+                "duplicate": "Crear una entrada duplicada",
+                "remarks": "Afegiu observacions per a això",
+                "delete": "Suprimeix aquesta entrada"
+              },
+              "apiError": "S'ha produït un error. Torneu-ho a provar."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Sí, utilitzeu {langName}",
             "Utilitzeu {langName}"
           ],
-          "useEngling": "Continuar en anglès"
+          "useEngling": "Continuar en anglès",
+          "useEnglish": "Continuar en anglès",
+          "selectFrom": "O bé, seleccioneu entre un dels idiomes alternatius següents:"
         },
         "langError": "S'ha produït un error en carregar les traduccions de {langName}. Torneu-ho a provar més tard."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Ja s'ha inscrit a Ziyarat aquest dijous. Registreu-vos la setmana que ve per al ziyarat de la setmana que ve.",
         "jsConfirm": "Per registrar-nos en aquesta sol·licitud, hem de compartir les vostres dades (per exemple, nom complet, sexe, etc.) amb el nostre proveïdor de serveis. Això només es requereix per primera vegada. Si us plau, confirmeu-ho per continuar.",
         "jsDeclined": "Bé! Potser més tard."
+      },
+      "currencySelector": {
+        "title": "Seleccioneu la moneda",
+        "baseCurrency": "Moneda base",
+        "compHasOwnRates": "La pàgina que utilitza aquest selector té els seus propis tipus de canvi que poden tenir valors històrics. Per tant, les tarifes que es mostren aquí no s'aplicaran sobre la selecció.",
+        "cancelCta": "Cancel·lar",
+        "doneCta": "Fet"
+      },
+      "mqmsSelector": {
+        "title": "Seleccioneu quantitat de Muqammas",
+        "dateAdded": "Afegit a: {date}",
+        "cancelCta": "Cancel·lar",
+        "doneCta": "Seleccionar"
+      },
+      "khumsPaymentRecord": {
+        "title": "Afegeix un registre de pagament",
+        "paymentFor": "Pagament de {khumsType}",
+        "totalAmount": "Import total: {amount}",
+        "form": {
+          "amountLabel": "Quantitat",
+          "amountPlaceholder": "Introduïu Import",
+          "amountErr": "La quantitat no pot ser superior a Khums",
+          "dateLabel": "Data de transferència — Opcional",
+          "dateInfo": "Data en què vas enviar els diners",
+          "remarks": "Observacions, si n'hi ha?",
+          "remarksInfo": "Per exemple, \"Pagat en efectiu\"",
+          "attach": "Afegir fitxers adjunts",
+          "attachInfo": "Podeu afegir rebuts de pagament (només imatges) per a la seva posterior consulta"
+        }
       }
     },
     "authPage": {
