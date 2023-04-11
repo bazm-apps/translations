@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Brojač Tasbeeha"
+        },
+        "khumsLabel": "Khums kalkulator",
+        "khumsDesc": "Izračunajte svoje khume ili dodajte prethodno plaćene khume. Pomaže vam u vođenju evidencije o vašim khumima tijekom godina.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Učinkovito izračunajte khumove",
+              "p1": "<a href='{href}' target='_blank'>Pratite naš blog</a> koji svake godine ističe ključne stavke u izračunu khuma.",
+              "p2": "Izjava o odricanju odgovornosti: Blog NIJE vodič. <strong>Slijedite presude vaše Marjah za Khums izračun</strong>. <span id='blog-info-link' color='primary'>Kliknite ovdje</span> za više informacija.",
+              "blogInfo": "Gornji blog temelji se na člancima iz al-islam.org, sistani.org i našim raspravama s nekoliko drugih znanstvenika. Uvijek biste trebali slijediti presude svoje Marjah za izračun Khumsa.",
+              "dismissCta": "Nije zainteresirano"
+            },
+            "title": "Vaši Khums izračuni",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />za sljedeći izračun",
+            "muqammasDesc": "Na temelju izračuna iz prošle godine",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Plaća:",
+            "remaining": "Preostali:",
+            "newMuqammas": "Nove muqammme:",
+            "jsDeleted": "Khums izračun uspješno izbrisan!",
+            "prompts": {
+              "delete": {
+                "header": "Želite li izbrisati izračun Khumsa?",
+                "desc": "Jeste li sigurni da to želite izbrisati? Izbrisat će se i svi povezani dokumenti!"
+              }
+            },
+            "empty": {
+              "header": "Još nema dodanih khumsa",
+              "subtext": "Započnite dodavanjem izračuna khumsa. Kliknite na donji gumb."
+            }
+          },
+          "detail": {
+            "title": "Vaši Khumsi",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas za sljedeći izračun",
+            "calcHeader": "Na temelju donjeg izračuna:",
+            "savingsHeader": "Štednja",
+            "conversionInfo": "Pretvara se u {amount} na temelju tečaja {xchgRate} na {xchgRateDate}",
+            "expensesHeader": "Troškovi",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Prethodne muqammme",
+            "paymentsHeader": "Plaćanja za khums:",
+            "error": {
+              "header": "Došlo je do greške!",
+              "desc": "Izgleda da ne možemo naći ništa o ovom khums-izračunu. To bi moglo biti ili zato što se jedna od naših usluga pokvarila, ili možda tražite ustajale podatke.<br /><br/ >Pokušajte osvježiti stranicu ili nam se obratite ako mislite da postoji pogreška s naše strane."
+            },
+            "js": {
+              "recordDeleteFailed": "Došlo je do pogreške prilikom pokušaja brisanja ovog zapisa. Pokušajte ponovo ili ako se pogreška nastavi, vratite se kasnije.",
+              "recordDeleted": "Zapis je uspješno izbrisan",
+              "deleteRecordHeader": "Želite li izbrisati zapis?",
+              "deleteRecordDesc": "Jeste li sigurni da želite izbrisati ovaj zapis? Izbrisat će se i svi privici dodani ovom zapisu!"
+            }
+          },
+          "calc": {
+            "subtext": "Ispunite donji obrazac kako biste izračunali svoje khumove. Naznačena su neobavezna polja. Kliknite ikonu informacija u nastavku da biste saznali više o odjeljku.",
+            "blog": "Vezani članci Pročitajte naš blog o <a href='{href}' target='_blank'>tome kako učinkovito<a> izračunati khums</a>",
+            "dateRange": "Odaberite datumski raspon:",
+            "dateRangeInfo": "Obično ljudi izračunavaju khums za financijsku godinu (npr. Od travnja do ožujka) ili Kalendarsku godinu (od siječnja do prosinca)",
+            "startDate": "Početni datum:",
+            "endDate": "Datum završetka:",
+            "savings": {
+              "header": "Štednja",
+              "desc": "Dodavanje štednje/salda na račune",
+              "info": "Možete dodati iznose u različitim valutama, ali khums se na kraju izračunava u jedinstvenoj valuti na temelju današnjeg tečaja.",
+              "form": {
+                "label": "Etiketa",
+                "placeholder": "Npr. račun za plaće",
+                "amountLabel": "Iznos",
+                "amountPlaceholder": "Unesite iznos",
+                "remarks": "Ima li primjedbi o ovoj stavci?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Dugovi/obveze/rashodi</strong> — neobvezno",
+              "subtext": "Dodajte sve neposredne dugove, obveze ili troškove",
+              "info": "Dio iznosa iz stanja može se odbiti za khums. Slijedite našu <strong>gornju vezu Učinkovito izračunajte khums</strong> kako biste saznali više.",
+              "form": {
+                "placeholder": "Npr., Rok najma"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Prethodne Muqammas</strong> — neobavezno",
+              "subtext": "Saldo ostao nakon plaćanja khumsa u prethodnom razdoblju",
+              "info": "Ako plaćate khums po prvi put, Muqammas će biti NULA. Ako ste ovdje spremili prethodne izračune, možete se sinkronizirati da biste koristili Muqammas iz prethodnog razdoblja."
+            },
+            "mainCurrencyHeader": "Odabir glavne valute",
+            "mainCurrencyInfo": "Koju valutu trebamo koristiti za izračunavanje khuma?",
+            "customRates": {
+              "header": "<strong>Korištenje tečajeva</strong>",
+              "subtext": "Ti će se valutni tečajevi koristiti za izračun. Možete ih promijeniti tako da koriste prilagođene vrijednosti.",
+              "info": "Kada se radi o povijesnim podacima, na primjer kada se dodaje izračun za khums od prije više od godinu dana kada tečajevi nisu bili isti kao danas, možete sami postaviti prilagođene vrijednosti za tečajeve.",
+              "rateValuePH": "U {currency}, npr. 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Izračunati",
+            "pageError": {
+              "header": "Došlo je do pogreške",
+              "desc": "Dohvaćanje podataka potrebnih za stranicu nije uspjelo. Ponovno učitajte stranicu ili pokušajte ponovo kasnije."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Želite li izbrisati primjedbe?",
+                "deleteText": "Jeste li sigurni da želite izbrisati primjedbe za ovu stavku?"
+              },
+              "choicePrompt": {
+                "addHeader": "Dodati",
+                "savings": "Dodaj novi unos u štednju",
+                "liability": "Dodavanje novog unosa obvezama"
+              },
+              "rowOptions": {
+                "header": "Što želite učiniti s tim?",
+                "duplicate": "Stvaranje dupliciranog unosa",
+                "remarks": "Dodaj primjedbe za ovo",
+                "delete": "Izbriši ovaj unos"
+              },
+              "apiError": "Došlo je do pogreške. Pokušajte ponovo."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Da, koristi {langName}",
             "Koristi {langName}"
           ],
-          "useEngling": "Nastavi na engleskom jeziku"
+          "useEngling": "Nastavi na engleskom jeziku",
+          "useEnglish": "Nastavi na engleskom jeziku",
+          "selectFrom": "Ili odaberite jedan od sljedećih alternativnih jezika:"
         },
         "langError": "Došlo je do pogreške tijekom učitavanja prijevoda za {langName}. Pokušajte ponovo kasnije."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Već ste se prijavili za Ziyarat ovog četvrtka. Registrirajte se sljedeći tjedan za ziyarat sljedećeg tjedna.",
         "jsConfirm": "Da bismo se registrirali za ovaj zahtjev, moramo podijeliti vaše podatke (npr. Puno ime, spol itd.) s našim pružateljem usluga. To je potrebno samo prvi put. Ljubazno potvrdite da nastavite.",
         "jsDeclined": "U redu! Možda kasnije."
+      },
+      "currencySelector": {
+        "title": "Odabir valute",
+        "baseCurrency": "Osnovna valuta",
+        "compHasOwnRates": "Stranica koja koristi ovaj birač ima vlastite tečajeve koji mogu imati povijesne vrijednosti. Stoga se ovdje prikazane cijene neće primjenjivati na odabir.",
+        "cancelCta": "Otkazati",
+        "doneCta": "Učinjeno"
+      },
+      "mqmsSelector": {
+        "title": "Odaberite iznos Muqammas",
+        "dateAdded": "Dodano: {date}",
+        "cancelCta": "Otkazati",
+        "doneCta": "Odabirati"
+      },
+      "khumsPaymentRecord": {
+        "title": "Dodaj zapis o plaćanju",
+        "paymentFor": "Plaćanje za {khumsType}",
+        "totalAmount": "Ukupan iznos: {amount}",
+        "form": {
+          "amountLabel": "Iznos",
+          "amountPlaceholder": "Unesite iznos",
+          "amountErr": "Iznos ne može biti veći od Khumsa",
+          "dateLabel": "Datum prijenosa — neobavezno",
+          "dateInfo": "Datum kada ste poslali novac",
+          "remarks": "Primjedbe, ako ih ima?",
+          "remarksInfo": "Npr. \"Plaćeno u gotovini\"",
+          "attach": "Dodavanje privitaka",
+          "attachInfo": "Potvrde o plaćanju (samo slike) možete dodati za kasniju referencu"
+        }
       }
     },
     "authPage": {
