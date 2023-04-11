@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh Toonbank"
+        },
+        "khumsLabel": "Khums sakrekenaar",
+        "khumsDesc": "Bereken jou khums, of voeg enige voorheen betaalde khums by. Dit help jou met rekordhouding van jou khums oor die jare.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Bereken khums doeltreffend",
+              "p1": "<a href='<span class=\"notranslate\">href</span>' target='_blank'>Volg ons blog</a> wat sleutelitems in die berekening van khums elke jaar uitlig.",
+              "p2": "Vrywaring: Die blog is NIE 'n gids nie. <strong>Volg beslissings van jou Marjah vir Khums-berekening</strong>. <span id='blog-info-link' color='primary'>Klik hier</span> vir meer inligting.",
+              "blogInfo": "Bogenoemde blog is gebaseer op artikels uit al-islam.org, sistani.org en ons besprekings met 'n paar ander geleerdes. U moet altyd die beslissings van u Marjah vir Khums-berekening volg.",
+              "dismissCta": "Stel nie belang nie"
+            },
+            "title": "Jou Khums-berekeninge",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />vir volgende berekening",
+            "muqammasDesc": "Gebaseer op berekeninge van die jongste jaar",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Betaal:",
+            "remaining": "Oor:",
+            "newMuqammas": "Nuwe muqammas:",
+            "jsDeleted": "Khums-berekening is suksesvol uitgevee!",
+            "prompts": {
+              "delete": {
+                "header": "Skrap Khums-berekening?",
+                "desc": "Is u seker dat u dit wil uitvee? Alle verwante dokumente sal ook uitgevee word!"
+              }
+            },
+            "empty": {
+              "header": "Nog geen khums bygevoeg nie",
+              "subtext": "Begin deur 'n khums-berekening by te voeg. Klik op die knoppie hieronder."
+            }
+          },
+          "detail": {
+            "title": "Jou Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas vir volgende berekening",
+            "calcHeader": "Gebaseer op onderstaande berekening:",
+            "savingsHeader": "Spaargeld",
+            "conversionInfo": "Omgeskakel na <span class=\"notranslate\">amount</span> gebaseer op wisselkoers van <span class=\"notranslate\">xchgRate</span> op <span class=\"notranslate\">xchgRateDate</span>",
+            "expensesHeader": "Uitgawes",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Vorige muqammas",
+            "paymentsHeader": "Betalings gemaak vir khums:",
+            "error": {
+              "header": "O uh, 'n fout het voorgekom!",
+              "desc": "Dit lyk asof ons niks oor hierdie khums-berekening kan vind nie. Dit kan óf wees omdat een van ons dienste wanfunksioneer het, óf miskien is u op soek na verouderde data.<br /><br/ >Probeer om die bladsy te verfris, of kontak ons as u dink dat daar fout van ons kant is."
+            },
+            "js": {
+              "recordDeleteFailed": "'N Fout het voorgekom tydens die poging om hierdie rekord uit te vee. Probeer asseblief weer, of as die fout voortduur, kom later weer.",
+              "recordDeleted": "Rekord succesfully uitgevee",
+              "deleteRecordHeader": "Vee rekord uit?",
+              "deleteRecordDesc": "Is u seker dat u hierdie rekord wil uitvee? Enige aanhangsels wat by hierdie rekord gevoeg word, sal ook uitgevee word!"
+            }
+          },
+          "calc": {
+            "subtext": "Vul die vorm hieronder in om jou khums te bereken. Opsionele velde word aangedui. Klik op die inligting-ikoon hieronder om meer oor die afdeling te wete te kom.",
+            "blog": "Related: Lees ons blog oor <a href='<span class=\"notranslate\">href</span>' target='_blank'>Hoe om khums doeltreffend <a>te bereken",
+            "dateRange": "Kies datumreeks:",
+            "dateRangeInfo": "Mense bereken gewoonlik khums vir 'n finansiële jaar (bv. van April tot Maart) of 'n Kalenderjaar (Jan tot Des)",
+            "startDate": "Begindatum:",
+            "endDate": "Einddatum:",
+            "savings": {
+              "header": "Spaargeld",
+              "desc": "Voeg besparings / saldo by u rekening (s)",
+              "info": "U kan bedrae in verskillende geldeenhede byvoeg, maar khums word uiteindelik in enkele geldeenheid bereken op grond van vandag se wisselkoers.",
+              "form": {
+                "label": "Etiket",
+                "placeholder": "Bv. Salarisrekening",
+                "amountLabel": "Bedrag",
+                "amountPlaceholder": "Voer bedrag in",
+                "remarks": "Enige opmerkings oor hierdie item?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Skuld/Laste/Uitgawes</strong> — Opsioneel",
+              "subtext": "Voeg onmiddellike skuld, laste of uitgawes by",
+              "info": "Sommige van die bedrag van balans kan aftrekbaar wees vir khums. Volg ons skakel hierbo <strong>Bereken khums doeltreffend</strong> om meer te wete te kom.",
+              "form": {
+                "placeholder": "Bv. Huur verskuldig"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Vorige Muqammas</strong> - Opsioneel",
+              "subtext": "Balans gelaat nadat khums in die vorige periode betaal is",
+              "info": "As jy vir die eerste keer khums betaal, sal Muqammas NUL wees. As u vorige berekeninge hier gestoor het, kan u sinchroniseer om Muqammas van vroeër te gebruik."
+            },
+            "mainCurrencyHeader": "Kies hoofgeldeenheid",
+            "mainCurrencyInfo": "Watter geldeenheid moet ons gebruik om khums te bereken?",
+            "customRates": {
+              "header": "<strong>Gebruik wisselkoerse</strong>",
+              "subtext": "Hierdie wisselkoerse sal vir berekening gebruik word. U kan dit verander om persoonlike waardes te gebruik.",
+              "info": "By die hantering van historiese data, soos by die berekening van khums van meer as 'n jaar gelede toe die wisselkoerse nie dieselfde was as vandag nie, kan jy self persoonlike waardes vir wisselkoerse stel.",
+              "rateValuePH": "In <span class=\"notranslate\">currency</span>byvoorbeeld 1 <span class=\"notranslate\">mainCurrency</span> = 80,21 <span class=\"notranslate\">currency</span>"
+            },
+            "calculateCta": "Bereken",
+            "pageError": {
+              "header": "'N Fout het voorgekom",
+              "desc": "Kon nie die data wat vir die bladsy benodig word, kry nie. Herlaai asseblief die bladsy of probeer later weer."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Vee opmerkings uit?",
+                "deleteText": "Is u seker dat u opmerkings vir hierdie item wil uitvee?"
+              },
+              "choicePrompt": {
+                "addHeader": "Voeg",
+                "savings": "Voeg nuwe inskrywing by Spaargeld",
+                "liability": "Voeg nuwe toegang tot Laste by"
+              },
+              "rowOptions": {
+                "header": "Wat wil jy hiermee doen?",
+                "duplicate": "Skep duplikaatinskrywing",
+                "remarks": "Voeg opmerkings hiervoor by",
+                "delete": "Vee hierdie inskrywing uit"
+              },
+              "apiError": "'N Fout het voorgekom. Probeer asseblief weer."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Yes, use {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Gaan voort in Engels"
+          "useEngling": "Gaan voort in Engels",
+          "useEnglish": "Gaan voort in Engels",
+          "selectFrom": "Of kies uit een van die volgende alternatiewe tale:"
         },
         "langError": "'n Fout het voorgekom terwyl die vertalings vir {langName}. Probeer asseblief later weer."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Jy het reeds donderdag vir Ziyarat geregistreer. Registreer volgende week vir volgende week se ziyarat.",
         "jsConfirm": "Om vir hierdie versoek te registreer, moet ons u besonderhede (bv. volle naam, geslag, ens.) met ons diensverskaffer deel. Dit is net vir die eerste keer nodig. Bevestig asseblief om voort te gaan.",
         "jsDeclined": "Oukei! Miskien later."
+      },
+      "currencySelector": {
+        "title": "Kies geldeenheid",
+        "baseCurrency": "Basiese geldeenheid",
+        "compHasOwnRates": "Die bladsy wat hierdie keurder gebruik, het sy eie wisselkoerse wat historiese waardes kan hê. Daarom sal tariewe wat hier getoon word nie op keuring toegepas word nie.",
+        "cancelCta": "Kanselleer",
+        "doneCta": "Gedoen"
+      },
+      "mqmsSelector": {
+        "title": "Kies Muqammas bedrag",
+        "dateAdded": "Bygevoeg op: <span class=\"notranslate\">date</span>",
+        "cancelCta": "Kanselleer",
+        "doneCta": "Kies"
+      },
+      "khumsPaymentRecord": {
+        "title": "Voeg betalingsrekord by",
+        "paymentFor": "Betaling vir <span class=\"notranslate\">khumsType</span>",
+        "totalAmount": "Totale bedrag: <span class=\"notranslate\">amount</span>",
+        "form": {
+          "amountLabel": "Bedrag",
+          "amountPlaceholder": "Voer bedrag in",
+          "amountErr": "Bedrag kan nie meer as Khums wees nie",
+          "dateLabel": "Oordragdatum — Opsioneel",
+          "dateInfo": "Datum waarop u die geld gestuur het",
+          "remarks": "Opmerkings, indien enige?",
+          "remarksInfo": "Bv. 'Kontant betaal'",
+          "attach": "Voeg aanhangsels by",
+          "attachInfo": "U kan betalingskwitansies (slegs beelde) byvoeg vir latere verwysing</a></a>"
+        }
       }
     },
     "authPage": {
