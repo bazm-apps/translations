@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh Counter"
+        },
+        "khumsLabel": "Khums kalkulačka",
+        "khumsDesc": "Vypočítejte své khumy nebo přidejte dříve zaplacené khums. Pomáhá vám s vedením záznamů vašich khumů v průběhu let.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Vypočítejte khums efektivně",
+              "p1": "<a href='{href}' target='_blank'>Sledujte náš blog,</a> který každoročně upozorňuje na klíčové položky při výpočtu khumů.",
+              "p2": "Zřeknutí se odpovědnosti: Blog NENÍ průvodce. <strong>Postupujte podle rozhodnutí vašeho Marjah pro výpočet Khums</strong>. Pro více informací <span id='blog-info-link' color='primary'>klikněte zde</span> .",
+              "blogInfo": "Výše uvedený blog je založen na článcích z al-islam.org, sistani.org a našich diskusích s několika dalšími učenci. Vždy byste se měli řídit rozhodnutími vašeho Marjah pro výpočet Khums.",
+              "dismissCta": "Nezajímá mě"
+            },
+            "title": "Vaše Khums výpočty",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />pro další výpočet",
+            "muqammasDesc": "Na základě výpočtů z posledního roku",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (as)",
+            "paid": "Placený:",
+            "remaining": "Zbývající:",
+            "newMuqammas": "Nové muqammy:",
+            "jsDeleted": "Khums výpočet úspěšně smazán!",
+            "prompts": {
+              "delete": {
+                "header": "Smazat Khums výpočet?",
+                "desc": "Opravdu chcete tuto položku odstranit? Všechny související dokumenty budou také smazány!"
+              }
+            },
+            "empty": {
+              "header": "Zatím nebyly přidány žádné khumy",
+              "subtext": "Začněte přidáním výpočtu khums. Klikněte na tlačítko níže."
+            }
+          },
+          "detail": {
+            "title": "Vaše Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas pro další výpočet",
+            "calcHeader": "Na základě níže uvedeného výpočtu:",
+            "savingsHeader": "Úspory",
+            "conversionInfo": "Přepočte se na {amount} na základě směnného kurzu {xchgRate} na {xchgRateDate}",
+            "expensesHeader": "Výlohy",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Předchozí muqammas",
+            "paymentsHeader": "Platby za khumy:",
+            "error": {
+              "header": "Oh uh, došlo k chybě!",
+              "desc": "Vypadá to, že o tomto khums-kalkulu nemůžeme nic najít. Může to být buď proto, že některá z našich služeb nefunguje, nebo možná hledáte zastaralá data.<br /><br/ >Zkuste stránku obnovit nebo nás kontaktujte, pokud si myslíte, že je chyba na naší straně."
+            },
+            "js": {
+              "recordDeleteFailed": "Při pokusu o odstranění tohoto záznamu došlo k chybě. Zkuste to prosím znovu, nebo pokud chyba přetrvává, přijďte znovu později.",
+              "recordDeleted": "Záznam byl úspěšně odstraněn",
+              "deleteRecordHeader": "Smazat záznam?",
+              "deleteRecordDesc": "Opravdu chcete odstranit tento záznam? Všechny přílohy přidané k tomuto záznamu budou také smazány!"
+            }
+          },
+          "calc": {
+            "subtext": "Vyplňte níže uvedený formulář a vypočítejte své khums. Nepovinná pole jsou označena. Kliknutím na informační ikonu níže se dozvíte více o této sekci.",
+            "blog": "Příbuzný:Přečtěte si náš blog o <a href='{href}' target='_blank'>tom, jak efektivně<a> vypočítat khums</a>",
+            "dateRange": "Vyberte časové období:",
+            "dateRangeInfo": "Lidé obvykle počítají khums pro finanční rok (např. Od dubna do března) nebo kalendářní rok (leden až prosinec)",
+            "startDate": "Datum zahájení:",
+            "endDate": "Datum ukončení:",
+            "savings": {
+              "header": "Úspory",
+              "desc": "Přidejte úspory/zůstatek na všech účtech",
+              "info": "Můžete přidat částky v různých měnách, ale khums se nakonec vypočítá v jedné měně na základě dnešního směnného kurzu.",
+              "form": {
+                "label": "Označit",
+                "placeholder": "Např. mzdový účet",
+                "amountLabel": "Množství",
+                "amountPlaceholder": "Zadejte částku",
+                "remarks": "Máte k tomuto bodu nějaké připomínky?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Dluhy/závazky/výdaje</strong> – volitelné",
+              "subtext": "Přidejte jakékoli okamžité dluhy, závazky nebo výdaje",
+              "info": "Část částky ze zůstatku může být odpočitatelná pro khums. Postupujte podle výše uvedeného odkazu <strong>Vypočítejte khums efektivně</strong> , abyste věděli více.",
+              "form": {
+                "placeholder": "Např. dlužné nájemné"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Předchozí Muqammas</strong> — Volitelné",
+              "subtext": "Zůstatek zbývající po zaplacení khumů v předchozím období",
+              "info": "Pokud platíte khums poprvé, Muqammas bude NULA. Pokud jste zde uložili předchozí výpočty, můžete synchronizovat a použít Muqamma z dřívějšího období."
+            },
+            "mainCurrencyHeader": "Vyberte hlavní měnu",
+            "mainCurrencyInfo": "Jakou měnu bychom měli použít k výpočtu khums?",
+            "customRates": {
+              "header": "<strong>Použití směnných kurzů</strong>",
+              "subtext": "Tyto směnné kurzy budou použity pro výpočet. Můžete je změnit tak, aby používaly vlastní hodnoty.",
+              "info": "Při práci s historickými daty, například při přidávání výpočtu pro khums z doby před více než rokem, kdy směnné kurzy nebyly stejné jako dnes, můžete nastavit vlastní hodnoty směnných kurzů sami.",
+              "rateValuePH": "V {currency}např. 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Vypočítat",
+            "pageError": {
+              "header": "Došlo k chybě",
+              "desc": "Nepodařilo se získat data požadovaná pro stránku. Obnovte stránku nebo akci opakujte později."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Smazat poznámky?",
+                "deleteText": "Opravdu chcete odstranit poznámky k této položce?"
+              },
+              "choicePrompt": {
+                "addHeader": "Přidat",
+                "savings": "Přidat nový záznam do Spoření",
+                "liability": "Přidat novou položku do pasiv"
+              },
+              "rowOptions": {
+                "header": "Co s tím chcete dělat?",
+                "duplicate": "Vytvořit duplicitní položku",
+                "remarks": "Přidejte k tomu poznámky",
+                "delete": "Odstranit tuto položku"
+              },
+              "apiError": "Došlo k chybě. Zkuste to prosím znovu."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Ano, použijte {langName}",
             "Použijte {langName}"
           ],
-          "useEngling": "Pokračovat v angličtině"
+          "useEngling": "Pokračovat v angličtině",
+          "useEnglish": "Pokračovat v angličtině",
+          "selectFrom": "Nebo vyberte jeden z následujících alternativních jazyků:"
         },
         "langError": "Při načítání překladů pro {langName} došlo k chybě. Zkuste to prosím znovu později."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Již jste se zaregistrovali na Ziyarat tento čtvrtek. Zaregistrujte se příští týden na ziyarat na příští týden.",
         "jsConfirm": "Abychom se mohli zaregistrovat k této žádosti, musíme sdílet vaše údaje (např. celé jméno, pohlaví atd.) s naším poskytovatelem služeb. To je vyžadováno pouze poprvé. Potvrďte prosím, že budete pokračovat.",
         "jsDeclined": "OK! Možná později."
+      },
+      "currencySelector": {
+        "title": "Vyberte měnu",
+        "baseCurrency": "Základní měna",
+        "compHasOwnRates": "Stránka používající tento selektor má své vlastní směnné kurzy, které mohou mít historické hodnoty. Proto zde uvedené sazby nebudou použity při výběru.",
+        "cancelCta": "Zrušit",
+        "doneCta": "Hotový"
+      },
+      "mqmsSelector": {
+        "title": "Vyberte částku Muqammas",
+        "dateAdded": "Přidáno dne: {date}",
+        "cancelCta": "Zrušit",
+        "doneCta": "Vybrat"
+      },
+      "khumsPaymentRecord": {
+        "title": "Přidat záznam platby",
+        "paymentFor": "Platba za {khumsType}",
+        "totalAmount": "Celková částka: {amount}",
+        "form": {
+          "amountLabel": "Množství",
+          "amountPlaceholder": "Zadejte částku",
+          "amountErr": "Částka nemůže být větší než Khums",
+          "dateLabel": "Datum předání – volitelné",
+          "dateInfo": "Datum, kdy jste peníze odeslali",
+          "remarks": "Poznámky, pokud nějaké?",
+          "remarksInfo": "Např. \"Platba v hotovosti\"",
+          "attach": "Přidání příloh",
+          "attachInfo": "Potvrzení o platbě (pouze obrázky) můžete přidat pro pozdější použití"
+        }
       }
     },
     "authPage": {
