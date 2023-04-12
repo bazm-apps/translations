@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klõpsake allpool ikooni Jaga (näeb välja nagu üks <strong>paremal) ja</strong> seejärel klõpsake nuppu <strong>Lisa avakuvale</strong>. Lõpetamiseks klõpsake nuppu \"Salvesta\" ja seejärel pääsete rakendusele juurde avaekraani otsetee kaudu!"
+        },
+        "nonSafari": {
+          "heading": "Bazm töötab Apple Safaris paremini",
+          "desc": "Sellel brauseril on piiratud funktsioonid, samas kui Safari brauser võimaldab meie rakendusel paremini toimida, sealhulgas tõukemärguanded ja rakenduse otsetee.",
+          "subtext": "Avage oma telefonis <strong>Safari rakendus</strong> ja minge parema kogemuse saamiseks <strong>{url}</strong>.",
+          "skipCta": "Jätka hoopis siin"
         }
       },
       "webFeedback": {
