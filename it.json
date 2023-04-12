@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Contatore Tasbeeh"
+        },
+        "khumsLabel": "Calcolatore Khums",
+        "khumsDesc": "Calcola i tuoi khums o aggiungi qualsiasi khums precedentemente pagato. Ti aiuta con la registrazione dei tuoi khums nel corso degli anni.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Calcola i khum in modo efficiente",
+              "p1": "<a href='{href}' target='_blank'>Segui il nostro blog</a> che evidenzia gli elementi chiave nel calcolo del khums ogni anno.",
+              "p2": "Disclaimer: Il blog NON è una guida. <strong>Segui le sentenze del tuo Marjah per il calcolo di Khums</strong>. <span id='blog-info-link' color='primary'>Clicca qui</span> per maggiori informazioni.",
+              "blogInfo": "Il blog di cui sopra si basa su articoli di al-islam.org, sistani.org e sulle nostre discussioni con alcuni altri studiosi. Dovresti sempre seguire le regole del tuo Marjah per il calcolo di Khums.",
+              "dismissCta": "Non interessato"
+            },
+            "title": "I tuoi calcoli Khums",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />per il prossimo calcolo",
+            "muqammasDesc": "Sulla base dei calcoli dell'anno scorso",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Pagato:",
+            "remaining": "Rimanente:",
+            "newMuqammas": "Nuovi muqamma:",
+            "jsDeleted": "Calcolo di Khums cancellato con successo!",
+            "prompts": {
+              "delete": {
+                "header": "Eliminare il calcolo di Khums?",
+                "desc": "Sei sicuro di volerlo eliminare? Anche tutti i documenti correlati verranno cancellati!"
+              }
+            },
+            "empty": {
+              "header": "Nessun khums ancora aggiunto",
+              "subtext": "Inizia aggiungendo un calcolo khums. Clicca sul pulsante qui sotto."
+            }
+          },
+          "detail": {
+            "title": "Il tuo Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas per il prossimo calcolo",
+            "calcHeader": "Sulla base del calcolo seguente:",
+            "savingsHeader": "Risparmi",
+            "conversionInfo": "Convertito in {amount} in base al tasso di cambio del {xchgRate} del {xchgRateDate}",
+            "expensesHeader": "Spese",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas precedenti",
+            "paymentsHeader": "Pagamenti effettuati per khums:",
+            "error": {
+              "header": "Oh uh, si è verificato un errore!",
+              "desc": "Sembra che non riusciamo a trovare nulla su questo calcolo khums. Potrebbe essere perché uno dei nostri servizi non funziona correttamente, o forse stai cercando dati obsoleti.<br /><br/ >Prova ad aggiornare la pagina o contattaci se pensi che ci sia un errore da parte nostra."
+            },
+            "js": {
+              "recordDeleteFailed": "Si è verificato un errore durante il tentativo di eliminare questo record. Riprova o, se l'errore persiste, torna più tardi.",
+              "recordDeleted": "Registra cancellato con successo",
+              "deleteRecordHeader": "Eliminare il record?",
+              "deleteRecordDesc": "Eliminare questo record? Anche tutti gli allegati aggiunti a questo record verranno eliminati!"
+            }
+          },
+          "calc": {
+            "subtext": "Compila il modulo sottostante per calcolare il tuo khums. I campi facoltativi sono indicati. Fai clic sull'icona delle informazioni qui sotto per saperne di più sulla sezione.",
+            "blog": "Relazionato: Leggi il nostro blog su <a href='{href}' target='_blank'>Come calcolare il khums in modo efficiente<a></a>",
+            "dateRange": "Seleziona l'intervallo di date:",
+            "dateRangeInfo": "In genere, le persone calcolano il khums per un anno finanziario (ad esempio, da aprile a marzo) o un anno solare (da gennaio a dicembre)",
+            "startDate": "Data di inizio:",
+            "endDate": "Data di fine:",
+            "savings": {
+              "header": "Risparmi",
+              "desc": "Aggiungi risparmi / saldo tra i tuoi account",
+              "info": "È possibile aggiungere importi in diverse valute, ma il khums viene infine calcolato in una valuta unica in base al tasso di cambio odierno.",
+              "form": {
+                "label": "Etichetta",
+                "placeholder": "Ad esempio, Conto stipendi",
+                "amountLabel": "Importo",
+                "amountPlaceholder": "Inserisci l'importo",
+                "remarks": "Qualche osservazione su questo articolo?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Debiti/passività/spese</strong> — Facoltativo",
+              "subtext": "Aggiungi eventuali debiti, passività o spese immediate",
+              "info": "Parte dell'importo dal saldo può essere deducibile per i khum. Segui il nostro link sopra <strong>Calcola khums in modo efficiente</strong> per saperne di più.",
+              "form": {
+                "placeholder": "E.g., Rent due"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas precedente</strong> — Opzionale",
+              "subtext": "Saldo residuo dopo aver pagato khums nel periodo precedente",
+              "info": "Se stai pagando khums per la prima volta, Muqammas sarà ZERO. Se hai salvato qui i calcoli precedenti, puoi eseguire la sincronizzazione per utilizzare i Muqammas del periodo precedente."
+            },
+            "mainCurrencyHeader": "Seleziona la valuta principale",
+            "mainCurrencyInfo": "Quale valuta dovremmo usare per calcolare il khums?",
+            "customRates": {
+              "header": "<strong>Utilizzo dei tassi di cambio</strong>",
+              "subtext": "Questi tassi di cambio saranno utilizzati per il calcolo. È possibile modificarli per utilizzare valori personalizzati.",
+              "info": "Quando si tratta di dati storici, ad esempio quando si aggiungono calcoli per khums di oltre un anno fa, quando i tassi di cambio non erano gli stessi di oggi, è possibile impostare valori personalizzati per i tassi di cambio.",
+              "rateValuePH": "In {currency}, e.g., 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Calcolare",
+            "pageError": {
+              "header": "Si è verificato un errore",
+              "desc": "Impossibile ottenere i dati richiesti per la pagina. Ricarica la pagina o riprova più tardi."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Eliminare le osservazioni?",
+                "deleteText": "Sei sicuro di voler eliminare le osservazioni per questo articolo?"
+              },
+              "choicePrompt": {
+                "addHeader": "Aggiungere",
+                "savings": "Aggiungi nuova voce a Risparmio",
+                "liability": "Aggiungi nuova voce a Passività"
+              },
+              "rowOptions": {
+                "header": "Cosa vuoi fare con questo?",
+                "duplicate": "Creare una voce duplicata",
+                "remarks": "Aggiungi osservazioni per questo",
+                "delete": "Cancella questa voce"
+              },
+              "apiError": "Si è verificato un errore. Riprova."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Sì, usa {langName}",
             "Usa {langName}"
           ],
-          "useEngling": "Continua in inglese"
+          "useEngling": "Continua in inglese",
+          "useEnglish": "Continua in inglese",
+          "selectFrom": "In alternativa, selezionare una delle seguenti lingue alternative:"
         },
         "langError": "Si è verificato un errore durante il caricamento delle traduzioni per {langName}. Riprova più tardi."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Ti sei già registrato per Ziyarat questo giovedì. Registrati la prossima settimana per lo ziyarat della prossima settimana.",
         "jsConfirm": "Per registrarci a questa richiesta, abbiamo bisogno di condividere i tuoi dati (ad esempio, nome completo, sesso, ecc.) con il nostro fornitore di servizi. Questo è richiesto solo per la prima volta. Si prega di confermare di procedere.",
         "jsDeclined": "Ok! Forse più tardi."
+      },
+      "currencySelector": {
+        "title": "Seleziona valuta",
+        "baseCurrency": "Valuta di base",
+        "compHasOwnRates": "La pagina che utilizza questo selettore ha i propri tassi di cambio che possono avere valori storici. Pertanto, le tariffe qui indicate non verranno applicate alla selezione.",
+        "cancelCta": "Annulla",
+        "doneCta": "Fatto"
+      },
+      "mqmsSelector": {
+        "title": "Seleziona l'importo Muqammas",
+        "dateAdded": "Aggiunta il: {date}",
+        "cancelCta": "Annulla",
+        "doneCta": "Selezionare"
+      },
+      "khumsPaymentRecord": {
+        "title": "Aggiungi record di pagamento",
+        "paymentFor": "Pagamento per {khumsType}",
+        "totalAmount": "Importo totale: {amount}",
+        "form": {
+          "amountLabel": "Importo",
+          "amountPlaceholder": "Inserisci l'importo",
+          "amountErr": "L'importo non può essere superiore a Khums",
+          "dateLabel": "Data di trasferimento — Opzionale",
+          "dateInfo": "Data in cui hai inviato il denaro",
+          "remarks": "Osservazioni, se ce ne sono?",
+          "remarksInfo": "Ad esempio, \"Pagato in contanti\"",
+          "attach": "Aggiungere allegati",
+          "attachInfo": "È possibile aggiungere ricevute di pagamento (solo immagini) per riferimento successivo"
+        }
       }
     },
     "authPage": {
