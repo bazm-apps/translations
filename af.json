@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klik op die Deel-ikoon (lyk soos een aan die regterkant) <strong>HIERONDER</strong> en klik dan <strong>Voeg by die tuisskerm</strong>. Klik op \"Stoor\" om klaar te maak, en dan het u toegang tot die app vanaf die kortpad op u tuisskerm!"
+        },
+        "nonSafari": {
+          "heading": "Bazm werk beter op Apple Safari",
+          "desc": "Hierdie blaaier het beperkte funksies, terwyl Safari-blaaier ons program in staat stel om beter te presteer, insluitend Push-kennisgewings en App-kortpad.",
+          "subtext": "<strong>Maak Safari-toepassing</strong> op jou foon oop en moet <strong>{url}</strong> vir 'n beter ervaring.",
+          "skipCta": "Gaan eerder hier voort"
         }
       },
       "webFeedback": {
