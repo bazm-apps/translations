@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL invalidu. Ipprova b'URL ġdid."
+      },
+      "page404": {
+        "title": "Il-paġna ma nstabitx",
+        "desc": "Ma stajniex insibu l-paġna li qed tfittex!",
+        "ctaLabel": "Goto Home"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Żid hemżiet",
           "attachInfo": "Tista' żżid irċevuti ta' ħlas (stampi biss) għal referenza aktar tard"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Agħżel il-Pajjiż",
+        "searchPH": "Il-pajjiż tat-tiftix bl-isem jew bil-kodiċi tal-iddajljar"
       }
     },
     "authPage": {
