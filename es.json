@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Haga clic en el icono Compartir (se parece a uno a la derecha) <strong>DEBAJO</strong> y luego haga clic en <strong>Agregar a la pantalla de inicio</strong>. Haga clic en \"Guardar\" para finalizar, ¡y luego puede acceder a la aplicación desde el acceso directo en su pantalla de inicio!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funciona mejor en Apple Safari",
+          "desc": "Este navegador tiene funciones limitadas, mientras que el navegador Safari permite que nuestra aplicación funcione mejor, incluidas las notificaciones push y el acceso directo a la aplicación.",
+          "subtext": "<strong>Abra la aplicación Safari</strong> en su teléfono y vaya a <strong>{url}</strong> para una mejor experiencia.",
+          "skipCta": "Continúe aquí en su lugar"
         }
       },
       "webFeedback": {
