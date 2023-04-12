@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Nieprawidłowy adres URL. Spróbuj użyć nowego adresu URL."
+      },
+      "page404": {
+        "title": "Nie znaleziono strony",
+        "desc": "Nie możemy znaleźć strony, której szukasz!",
+        "ctaLabel": "Idź do domu"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Dodawanie załączników",
           "attachInfo": "Możesz dodać pokwitowania płatności (tylko obrazy) do późniejszego wykorzystania"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Wybierz kraj",
+        "searchPH": "Wyszukaj kraj według nazwy lub numeru kierunkowego"
       }
     },
     "authPage": {
