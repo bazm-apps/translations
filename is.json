@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Smelltu á Share táknið (lítur út eins og einn til hægri) <strong>HÉR að neðan</strong> og smelltu síðan á <strong>Bæta við heimaskjáinn</strong>. Smelltu á \"Vista\" til að klára og þá geturðu fengið aðgang að forritinu með flýtileið á heimaskjánum þínum!"
+        },
+        "nonSafari": {
+          "heading": "Bazm virkar betur á Apple Safari",
+          "desc": "Þessi vafri hefur takmarkaða eiginleika, en Safari vafrinn gerir forritinu okkar kleift að standa sig betur, þar á meðal Push-tilkynningar og App-flýtileið.",
+          "subtext": "<strong>Opnaðu Safari appið</strong> í símanum þínum og farðu <strong>{url}</strong> til betri upplifunar.",
+          "skipCta": "Haltu áfram hér í staðinn"
         }
       },
       "webFeedback": {
