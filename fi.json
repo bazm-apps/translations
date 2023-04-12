@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Kuvan lataus onnistui!",
         "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä myöhemmin uudelleen."
-      }
+      },
+      "unknown": "Tuntematon"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Noin",
-          "jsStatusUpdateFail": "Tilan päivittäminen epäonnistui. Yritä myöhemmin uudelleen."
+          "jsStatusUpdateFail": "Tilan päivittäminen epäonnistui. Yritä myöhemmin uudelleen.",
+          "statusTextInfo": "Lisää jotain lyhyttä itsestäsi, kuten kuka olet tai mitä teet!",
+          "statusCta": "Lisää tila | Päivitä tila",
+          "addCity": "Lisää kaupunki",
+          "gender": "Mies | Nainen",
+          "addGender": "Lisää sukupuoli",
+          "addBday": "Lisää syntymäpäivä",
+          "addRelation": "Lisää suhde",
+          "joinDate": "Liittynyt: {date}"
         },
         "posts": {
           "title": "Virkaa",
