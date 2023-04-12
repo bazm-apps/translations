@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Števec Tasbeeh"
+        },
+        "khumsLabel": "Kalkulator Khums",
+        "khumsDesc": "Izračunajte svoje khums ali dodajte katero koli prej plačano khums. Pomaga vam pri vodenju zapisov vaših khumov skozi leta.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Učinkovito izračunajte khums",
+              "p1": "<a href='{href}' target='_blank'>Sledite našemu blogu</a> , ki vsako leto izpostavi ključne elemente pri izračunu khumov.",
+              "p2": "Odklanjevalec odgovornosti: Blog ni vodnik. <strong>Sledite sodbam vaše Marjah za Khums izračun</strong>. Za <span id='blog-info-link' color='primary'>več</span> informacij kliknite tukaj.",
+              "blogInfo": "Zgornji blog temelji na člankih iz al-islam.org, sistani.org, in naših razprav z nekaj drugimi učenjaki. Vedno bi moral slediti razsodbam marjah za Khumsov izračun.",
+              "dismissCta": "Ni zainteresirana"
+            },
+            "title": "Vaši Khums izračuni",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />za naslednji izračun",
+            "muqammasDesc": "Na podlagi izračunov iz zadnjega leta",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Plača:",
+            "remaining": "Preostalih:",
+            "newMuqammas": "Nove mukame:",
+            "jsDeleted": "Khumsov izračun uspešno izbrisan!",
+            "prompts": {
+              "delete": {
+                "header": "Izbrišite Khumsov izračun?",
+                "desc": "Ali ste prepričani, da želite to izbrisati? Tudi vsi povezani dokumenti bodo izbrisani!"
+              }
+            },
+            "empty": {
+              "header": "Ni dodanih khums še",
+              "subtext": "Začnite z dodajanjem izračuna khums. Kliknite na spodnji gumb."
+            }
+          },
+          "detail": {
+            "title": "Vaši Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas za naslednji izračun",
+            "calcHeader": "Na podlagi spodnjega izračuna:",
+            "savingsHeader": "Prihranki",
+            "conversionInfo": "Pretvorjeno v {amount} na podlagi menjalnega tečaja {xchgRate} na {xchgRateDate}",
+            "expensesHeader": "Stroški",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Prejšnje mukame",
+            "paymentsHeader": "Plačila za khums:",
+            "error": {
+              "header": "Oh uh, prišlo je do napake!",
+              "desc": "Videti je, da ne moremo najti ničesar o tem khums-izračunu. Morda zato, ker je ena od naših storitev pokvarjen, ali pa iščete stale podatke.<br /><br/ >Poskusite osvežiti stran ali pa se nam dohitite, če mislite, da je napaka na naši strani."
+            },
+            "js": {
+              "recordDeleteFailed": "Med poskusom brisanja tega zapisa je prišlo do napake. Poskusite znova ali če se napaka nadaljuje, se znova oglasite pozneje.",
+              "recordDeleted": "Zapis, ki je bil dovolj izbrisan",
+              "deleteRecordHeader": "Izbrisati zapis?",
+              "deleteRecordDesc": "Ali ste prepričani, da želite izbrisati ta zapis? Vse priloge, dodane v ta zapis, bodo prav tako izbrisane!"
+            }
+          },
+          "calc": {
+            "subtext": "Izpolnite spodnji obrazec, da izračunate svoje khums. Označena so izbirna polja. Kliknite info-ikono spodaj, če želite vedeti več o razdelku.",
+            "blog": "Sorodno: Preberite naš blog o Kako učinkovito izračunati <a href='{href}' target='_blank'>khums<a></a>",
+            "dateRange": "Izberite časovni obseg:",
+            "dateRangeInfo": "Običajno ljudje izračunajo khums za proračunsko leto (npr. od aprila do marca) ali koledarsko leto (od jan do dec)",
+            "startDate": "Začetni datum:",
+            "endDate": "Končni datum:",
+            "savings": {
+              "header": "Prihranki",
+              "desc": "Dodajanje prihrankov/salda v račune",
+              "info": "Zneske lahko dodate v različnih valutah, vendar se khumi na koncu izračunajo v enotni valuti na podlagi današnje valute.",
+              "form": {
+                "label": "Oznaka",
+                "placeholder": "Npr.",
+                "amountLabel": "Znesek",
+                "amountPlaceholder": "Vnesite znesek",
+                "remarks": "Je kaj pripomb glede tega elementa?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Dolgovi/obveznosti/odhodki</strong> – Neobvezno",
+              "subtext": "Dodajte vse takojšnje dolgove, obveznosti ali odhodke",
+              "info": "Del zneska iz bilance se lahko odšteje za khums. Sledite naši povezavi nad <strong>Izračunajte khums učinkovito vedeti</strong> več.",
+              "form": {
+                "placeholder": "Npr."
+              }
+            },
+            "mqms": {
+              "header": "<strong>Prejšnje Muqammas</strong> – Neobvezno",
+              "subtext": "Stanje, ki je ostalo po plačilu khums v prejšnjem obdobju",
+              "info": "Če boš prvič plačeval khums, bo Muqammas nič. Če ste tukaj shranili prejšnje izračune, lahko sinhronizirate uporabo Muqammas iz prejšnjega obdobja."
+            },
+            "mainCurrencyHeader": "Izberite glavno valuto",
+            "mainCurrencyInfo": "Katero valuto naj uporabimo za izračun khumov?",
+            "customRates": {
+              "header": "<strong>Uporaba menjalnih tečajev</strong>",
+              "subtext": "Ti menjalni tečaji se bodo uporabljali za izračun. Spremenite jih lahko, če želite uporabiti vrednosti po meri.",
+              "info": "Pri obravnavanju zgodovinskih podatkov, na primer pri dodajanju izračuna za khums iz pred več kot enim letom, ko menjalni tečaji niso bili enaki kot danes, lahko sami določite vrednosti po meri za menjalne tečaje.",
+              "rateValuePH": "V {currency}, npr. 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Oceniti",
+            "pageError": {
+              "header": "Prišlo je do napake",
+              "desc": "Podatkov, potrebnih za stran, ni bilo mogoče dobiti. Znova naložite stran ali poskusite znova pozneje."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Izbrisati pripombe?",
+                "deleteText": "Ali ste prepričani, da želite izbrisati pripombe za ta element?"
+              },
+              "choicePrompt": {
+                "addHeader": "Dodati",
+                "savings": "Dodajanje novega vnosa v varčevanje",
+                "liability": "Dodajanje novega vnosa v obveznosti"
+              },
+              "rowOptions": {
+                "header": "Kaj bi rad naredil s tem?",
+                "duplicate": "Ustvarjanje podvojenega vnosa",
+                "remarks": "Dodaj pripombe za to",
+                "delete": "Izbriši ta vnos"
+              },
+              "apiError": "Prišlo je do napake. Poskusite znova."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Da, uporabite {langName}",
             "Uporabi {langName}"
           ],
-          "useEngling": "Nadaljuj v angleščini"
+          "useEngling": "Nadaljuj v angleščini",
+          "useEnglish": "Nadaljuj v angleščini",
+          "selectFrom": "Ali pa izberite iz enega od naslednjih nadomestnih jezikov:"
         },
         "langError": "Pri nalaganju prevodov za {langName}je prišlo do napake. Poskusite znova pozneje."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Ta četrtek ste se že prijavili na Ziyarat. Naslednji teden se prijavite za ziyarat.",
         "jsConfirm": "Za prijavo na to zahtevo moramo vaše podatke (npr. polno ime, spol itd.) deliti z našim ponudnikom storitev. To je potrebno samo prvič. Potrdite, da nadaljujete.",
         "jsDeclined": "Okej! Mogoče kasneje."
+      },
+      "currencySelector": {
+        "title": "Izberite valuto",
+        "baseCurrency": "Osnovna valuta",
+        "compHasOwnRates": "Stran, ki uporablja ta izbirnik, ima svoje menjalne tečaje, ki imajo lahko zgodovinske vrednosti. Zato se cene, prikazane tukaj, ne bodo uporabljale pri izbiri.",
+        "cancelCta": "Odpovedati",
+        "doneCta": "Storiti"
+      },
+      "mqmsSelector": {
+        "title": "Izberite Znesek Muqammas",
+        "dateAdded": "Dodano dne: {date}",
+        "cancelCta": "Odpovedati",
+        "doneCta": "Izbrati"
+      },
+      "khumsPaymentRecord": {
+        "title": "Dodaj zapis plačila",
+        "paymentFor": "Plačilo za {khumsType}",
+        "totalAmount": "Skupni znesek: {amount}",
+        "form": {
+          "amountLabel": "Znesek",
+          "amountPlaceholder": "Vnesite znesek",
+          "amountErr": "Znesek ne more biti več kot Khums",
+          "dateLabel": "Datum prenosa – Neobvezno",
+          "dateInfo": "Datum, ko ste poslali denar",
+          "remarks": "Pripombe, če sploh?",
+          "remarksInfo": "Npr. \"Plačano v gotovini\"",
+          "attach": "Dodajanje prilog",
+          "attachInfo": "Za poznejše sklicevanje lahko dodate potrdila o plačilu (samo slike)"
+        }
       }
     },
     "authPage": {
