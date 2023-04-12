@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Ongeldige URL. Probeer het met een nieuwe URL."
+      },
+      "page404": {
+        "title": "Pagina niet gevonden",
+        "desc": "We konden de pagina die u zoekt niet vinden!",
+        "ctaLabel": "Ga naar Home"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Bijlagen toevoegen",
           "attachInfo": "U kunt betalingsbewijzen toevoegen (alleen afbeeldingen) voor latere referentie"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Selecteer land",
+        "searchPH": "Zoek land op naam of kiescode"
       }
     },
     "authPage": {
