@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL batili. Tafadhali jaribu na URL mpya."
+      },
+      "page404": {
+        "title": "Ukurasa haupatikani",
+        "desc": "Hatukuweza kupata ukurasa unaotafuta!",
+        "ctaLabel": "Nyumbani kwa Goto"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Ongeza viambatisho",
           "attachInfo": "Unaweza kuongeza risiti za malipo (picha tu) kwa kumbukumbu ya baadaye"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Chagua Nchi",
+        "searchPH": "Tafuta nchi kwa jina au msimbo wa kupiga"
       }
     },
     "authPage": {
