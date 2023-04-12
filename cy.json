@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL annilys. Ceisiwch gyda URL newydd."
+      },
+      "page404": {
+        "title": "Tudalen heb ei chanfod",
+        "desc": "Ni allem ddod o hyd i'r dudalen rydych chi'n chwilio amdani!",
+        "ctaLabel": "Goto Cartref"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Ychwanegu atodiadau",
           "attachInfo": "Gallwch ychwanegu derbynebau talu (delweddau yn unig) i gyfeirio'n ddiweddarach"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Dewis Gwlad",
+        "searchPH": "Chwiliwch wlad yn ôl enw neu deial-god"
       }
     },
     "authPage": {
