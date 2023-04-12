@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Neplatná adresa URL. Skúste použiť novú adresu URL."
+      },
+      "page404": {
+        "title": "Stránka sa nenašla",
+        "desc": "Nepodarilo sa nám nájsť stránku, ktorú hľadáte!",
+        "ctaLabel": "Prejsť na domovskú stránku"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Pridávanie príloh",
           "attachInfo": "Potvrdenia o platbe (iba obrázky) môžete pridať na neskoršie použitie"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Vyberte krajinu",
+        "searchPH": "Vyhľadávanie krajiny podľa názvu alebo predvoľby"
       }
     },
     "authPage": {
