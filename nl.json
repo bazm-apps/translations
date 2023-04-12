@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Afbeelding succesvol geüpload!",
         "jsImgUploadErr": "Het uploaden van afbeeldingen is mislukt. Probeer het later opnieuw."
-      }
+      },
+      "unknown": "Onbekend"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Over",
-          "jsStatusUpdateFail": "Kan de status niet bijwerken. Probeer het later opnieuw."
+          "jsStatusUpdateFail": "Kan de status niet bijwerken. Probeer het later opnieuw.",
+          "statusTextInfo": "Voeg iets korts over jezelf toe, zoals, wie ben je of wat doe je!",
+          "statusCta": "Status toevoegen | Updatestatus",
+          "addCity": "Stad toevoegen",
+          "gender": "Man | Vrouw",
+          "addGender": "Geslacht toevoegen",
+          "addBday": "Verjaardag toevoegen",
+          "addRelation": "Relatie toevoegen",
+          "joinDate": "Lid sinds: {date}"
         },
         "posts": {
           "title": "Berichten",
