@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Geçersiz URL. Lütfen yeni bir URL ile deneyin."
+      },
+      "page404": {
+        "title": "Sayfa bulunamadı",
+        "desc": "Aradığınız sayfayı bulamadık!",
+        "ctaLabel": "Ana Sayfa"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Ek ekleme",
           "attachInfo": "Daha sonra başvurmak üzere ödeme makbuzları (yalnızca resimler) ekleyebilirsiniz"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Ülke Seçiniz",
+        "searchPH": "Ülkeyi ada veya arama koduna göre arayın"
       }
     },
     "authPage": {
