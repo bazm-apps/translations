@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh Sayacı"
+        },
+        "khumsLabel": "Khums Hesap Makinesi",
+        "khumsDesc": "Khum'larınızı hesaplayın veya daha önce ödenmiş khum'ları ekleyin. Yıllar boyunca khumlarınızın kaydını tutmanıza yardımcı olur.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Khums'u verimli bir şekilde hesaplayın",
+              "p1": "Her yıl hum hesaplamasında önemli öğeleri vurgulayan <a href='{href}' target='_blank'>blogumuzu takip edin</a>.",
+              "p2": "Yasal Uyarı: Blog bir rehber DEĞİLDİR. <strong>Khums hesaplaması için Marjah'ınızın kararlarını takip edin</strong>. Daha fazla bilgi için <span id='blog-info-link' color='primary'>buraya tıklayın</span> .",
+              "blogInfo": "Yukarıdaki blog, al-islam.org, sistani.org'in makalelerine ve diğer birkaç akademisyenle yaptığımız tartışmalara dayanmaktadır. Khums hesaplaması için her zaman Marjah'ınızın kararlarına uymalısınız.",
+              "dismissCta": "İlgilenmiyorum"
+            },
+            "title": "Khums Hesaplamalarınız",
+            "nextMuqammasHeading": "<strong>Mukamalar</strong><br />bir sonraki hesaplama için",
+            "muqammasDesc": "Son yıla ait hesaplamalara göre",
+            "sahmeSadat": "Sahm-ı Sedat",
+            "sahmeImam": "Sahm-ı İmam (a.s.)",
+            "paid": "Ödenen:",
+            "remaining": "Kalan:",
+            "newMuqammas": "Yeni mukammalar:",
+            "jsDeleted": "Khums hesaplaması başarıyla silindi!",
+            "prompts": {
+              "delete": {
+                "header": "Khums Hesaplamasını Sil?",
+                "desc": "Bunu silmek istediğinizden emin misiniz? İlgili tüm belgeler de silinecek!"
+              }
+            },
+            "empty": {
+              "header": "Henüz khum eklenmedi",
+              "subtext": "Bir khums hesaplaması ekleyerek başlayın. Aşağıdaki düğmeye tıklayın."
+            }
+          },
+          "detail": {
+            "title": "Sizin Khum'larınız",
+            "header": "Khums Adası",
+            "mqmsInfo": "Bir sonraki hesaplama için Mukyamlar",
+            "calcHeader": "Aşağıdaki hesaplamaya dayanarak:",
+            "savingsHeader": "Tasarruf",
+            "conversionInfo": "{amount}'daki döviz kuruna göre {xchgRate}'e {xchgRateDate} dönüştürülür",
+            "expensesHeader": "Gider",
+            "mqmsHeader": "Mukamalar",
+            "prevMqms": "Önceki muqammas",
+            "paymentsHeader": "Hum için yapılan ödemeler:",
+            "error": {
+              "header": "Oh uh, bir hata oluştu!",
+              "desc": "Görünüşe göre bu hums hesaplaması hakkında hiçbir şey bulamıyoruz. Bunun nedeni hizmetlerimizden birinin arızalı olması veya eski veriler arıyor olmanız olabilir.<br /><br/ >Sayfayı yenilemeyi deneyin veya bizim tarafımızdan bir hata olduğunu düşünüyorsanız bize ulaşın."
+            },
+            "js": {
+              "recordDeleteFailed": "Bu kaydı silmeye çalışırken bir hata oluştu. Lütfen tekrar deneyin veya hata devam ederse daha sonra tekrar gelin.",
+              "recordDeleted": "Kayıt başarıyla silindi",
+              "deleteRecordHeader": "Kaydı sil?",
+              "deleteRecordDesc": "Bu kaydı silmek istediğinizden emin misiniz? Bu kayda eklenen tüm ekler de silinecektir!"
+            }
+          },
+          "calc": {
+            "subtext": "Khums'unuzu hesaplamak için aşağıdaki formu doldurun. İsteğe bağlı alanlar belirtilmiştir. Bölüm hakkında daha fazla bilgi edinmek için aşağıdaki bilgi simgesini tıklayın.",
+            "blog": "İlgili: <a href='{href}' target='_blank'>Khums verimli<a> bir şekilde nasıl hesaplanır konulu</a> blogumuzu okuyun",
+            "dateRange": "Tarih aralığını seçin:",
+            "dateRangeInfo": "Tipik olarak, insanlar bir mali yıl (örneğin, Nisan'dan Mart'a kadar) veya bir Takvim yılı (Ocak'tan Aralık'a) için hums hesaplarlar.",
+            "startDate": "Başlangıç tarihi:",
+            "endDate": "Bitiş tarihi:",
+            "savings": {
+              "header": "Tasarruf",
+              "desc": "Hesaplarınıza tasarruf/bakiye ekleyin",
+              "info": "Farklı para birimlerinde tutarlar ekleyebilirsiniz, ancak khums sonunda bugünün döviz kuruna göre tek para biriminde hesaplanır.",
+              "form": {
+                "label": "Etiket",
+                "placeholder": "Örneğin, Maaş hesabı",
+                "amountLabel": "Miktar",
+                "amountPlaceholder": "Tutarı Girin",
+                "remarks": "Bu öğe hakkında herhangi bir yorumunuz var mı?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Borçlar/Borçlar/Giderler</strong> — İsteğe Bağlı",
+              "subtext": "Acil borçları, yükümlülükleri veya giderleri ekleyin",
+              "info": "Bakiyedeki miktarın bir kısmı hums için düşülebilir. Daha fazla bilgi edinmek için yukarıdaki bağlantımızı takip edin <strong>Khums'u verimli bir şekilde hesaplayın</strong> .",
+              "form": {
+                "placeholder": "Örneğin, Ödenmesi gereken kira"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Önceki Mumyalar</strong> — İsteğe Bağlı",
+              "subtext": "Önceki dönemde hum ödedikten sonra kalan bakiye",
+              "info": "Eğer ilk defa hum ödüyorsanız, Mukama SIFIR olacaktır. Buraya kaydedilmiş önceki hesaplamalarınız varsa, önceki döneme ait Mukamaları kullanmak için senkronize edebilirsiniz."
+            },
+            "mainCurrencyHeader": "Ana para birimini seçin",
+            "mainCurrencyInfo": "Khumları hesaplamak için hangi para birimini kullanmalıyız?",
+            "customRates": {
+              "header": "<strong>Döviz kurlarını kullanma</strong>",
+              "subtext": "Bu döviz kurları hesaplama için kullanılacaktır. Özel değerler kullanmak için bunları değiştirebilirsiniz.",
+              "info": "Döviz kurlarının bugünküyle aynı olmadığı bir yıldan uzun bir süre önceki humlar için hesaplama eklerken olduğu gibi, geçmiş verilerle uğraşırken, döviz kurları için özel değerler ayarlayabilirsiniz.",
+              "rateValuePH": "{currency}, örneğin, 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Hesaplamak",
+            "pageError": {
+              "header": "Bir hata oluştu",
+              "desc": "Sayfa için gereken veriler alınamadı. Lütfen sayfayı yeniden yükleyin veya daha sonra tekrar deneyin."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Açıklamaları silmek?",
+                "deleteText": "Bu öğenin açıklamalarını silmek istediğinizden emin misiniz?"
+              },
+              "choicePrompt": {
+                "addHeader": "Eklemek",
+                "savings": "Tasarruflar'a yeni giriş ekleme",
+                "liability": "Yükümlülüklere yeni giriş ekleme"
+              },
+              "rowOptions": {
+                "header": "Bununla ne yapmak istiyorsunuz?",
+                "duplicate": "Yinelenen giriş oluşturma",
+                "remarks": "Bunun için açıklamalar ekle",
+                "delete": "Bu girdiyi sil"
+              },
+              "apiError": "Bir hata oluştu. Lütfen tekrar deneyin."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Evet, {langName} kullanın",
             "{langName} kullanın"
           ],
-          "useEngling": "İngilizce devam et"
+          "useEngling": "İngilizce devam et",
+          "useEnglish": "İngilizce devam et",
+          "selectFrom": "Veya aşağıdaki alternatif dillerden birini seçin:"
         },
         "langError": "{langName} çevirileri yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Bu Perşembe Ziyarat'a zaten kayıt oldunuz. Gelecek haftaki ziyarat için gelecek hafta kayıt olun.",
         "jsConfirm": "Bu talebe kaydolmak için bilgilerinizi (ör. tam adınız, cinsiyetiniz vb.) servis sağlayıcımızla paylaşmamız gerekir. Bu yalnızca ilk kez gereklidir. Lütfen devam etmek için onaylayın.",
         "jsDeclined": "Tamam! Belki daha sonra."
+      },
+      "currencySelector": {
+        "title": "Para birimi seçin",
+        "baseCurrency": "Baz Para Birimi",
+        "compHasOwnRates": "Bu seçiciyi kullanan sayfanın, tarihsel değerleri olabilecek kendi döviz kurları vardır. Bu nedenle, burada gösterilen oranlar seçime uygulanmayacaktır.",
+        "cancelCta": "İptal",
+        "doneCta": "Yapılmış"
+      },
+      "mqmsSelector": {
+        "title": "Muqammas miktarını seçin",
+        "dateAdded": "Eklendi: {date}",
+        "cancelCta": "İptal",
+        "doneCta": "Seçmek"
+      },
+      "khumsPaymentRecord": {
+        "title": "Ödeme Kaydı Ekle",
+        "paymentFor": "{khumsType} için ödeme",
+        "totalAmount": "Toplam tutar: {amount}",
+        "form": {
+          "amountLabel": "Miktar",
+          "amountPlaceholder": "Tutarı Girin",
+          "amountErr": "Miktar Khums'tan fazla olamaz",
+          "dateLabel": "Transfer tarihi — İsteğe bağlı",
+          "dateInfo": "Parayı gönderdiğiniz tarih",
+          "remarks": "Varsa açıklamalar?",
+          "remarksInfo": "Örneğin, \"Nakit olarak ödenir\"",
+          "attach": "Ek ekleme",
+          "attachInfo": "Daha sonra başvurmak üzere ödeme makbuzları (yalnızca resimler) ekleyebilirsiniz"
+        }
       }
     },
     "authPage": {
