@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL tidak valid. Silakan coba dengan URL baru."
+      },
+      "page404": {
+        "title": "Halaman tidak ditemukan",
+        "desc": "Kami tidak dapat menemukan halaman yang Anda cari!",
+        "ctaLabel": "Beranda Goto"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Menambahkan lampiran",
           "attachInfo": "Anda dapat menambahkan tanda terima pembayaran (hanya gambar) untuk referensi nanti"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Pilih Negara",
+        "searchPH": "Cari negara berdasarkan nama atau kode panggilan"
       }
     },
     "authPage": {
