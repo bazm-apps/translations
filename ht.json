@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Invalid URL. Tanpri eseye ak yon nouvo URL."
+      },
+      "page404": {
+        "title": "Paj yo pa jwenn",
+        "desc": "Nou pa t 'kapab jwenn paj la w ap chèche pou!",
+        "ctaLabel": "Ale lakay"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Ajoute atachman",
           "attachInfo": "Ou ka ajoute resi peman (imaj sèlman) pou pita referans"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Peyi chwazi",
+        "searchPH": "Rechèch peyi pa non oswa dyalòg"
       }
     },
     "authPage": {
