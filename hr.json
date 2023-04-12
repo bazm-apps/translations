@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Slika uspješno prenesena!",
         "jsImgUploadErr": "Prijenos slike nije uspio. Pokušajte ponovo kasnije."
-      }
+      },
+      "unknown": "Nepoznat"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "O",
-          "jsStatusUpdateFail": "Ažuriranje statusa nije uspjelo. Pokušajte ponovo kasnije."
+          "jsStatusUpdateFail": "Ažuriranje statusa nije uspjelo. Pokušajte ponovo kasnije.",
+          "statusTextInfo": "Dodajte nešto kratko o sebi, na primjer, tko ste vi ili što radite!",
+          "statusCta": "Dodaj status | Ažuriraj stanje",
+          "addCity": "Dodaj grad",
+          "gender": "Muškarac -— Žensko",
+          "addGender": "Dodaj spol",
+          "addBday": "Dodaj rođendan",
+          "addRelation": "Dodaj odnos",
+          "joinDate": "Pridruženo: {date}"
         },
         "posts": {
           "title": "Postove",
