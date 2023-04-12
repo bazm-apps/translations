@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klik pada ikon Kongsi (kelihatan seperti satu di sebelah kanan) <strong>BAWAH</strong> dan kemudian klik <strong>Tambah ke Skrin Utama</strong>. Klik \"Simpan\" untuk menyelesaikan, dan kemudian anda boleh mengakses aplikasi dari pintasan pada skrin utama anda!"
+        },
+        "nonSafari": {
+          "heading": "Bazm berfungsi lebih baik pada Apple Safari",
+          "desc": "Pelayar ini mempunyai ciri terhad, manakala pelayar Safari membolehkan apl kami menunjukkan prestasi yang lebih baik, termasuk pemberitahuan Push-dan Pintasan Aplikasi.",
+          "subtext": "<strong>Buka apl Safari</strong> pada telefon anda dan pergi ke <strong>{url}</strong> untuk pengalaman yang lebih baik.",
+          "skipCta": "Teruskan di sini sebaliknya"
         }
       },
       "webFeedback": {
