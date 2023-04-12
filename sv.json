@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Ogiltig URL. Försök med en ny URL."
+      },
+      "page404": {
+        "title": "Sidan hittades inte",
+        "desc": "Vi kunde inte hitta sidan du letar efter!",
+        "ctaLabel": "Gå till startsidan"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Lägga till bilagor",
           "attachInfo": "Du kan lägga till betalningskvitton (endast bilder) för senare referens"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Välj land",
+        "searchPH": "Sök land efter namn eller uppringningsnummer"
       }
     },
     "authPage": {
