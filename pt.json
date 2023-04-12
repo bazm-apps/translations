@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Clique no ícone Compartilhar (parece um à direita) <strong>ABAIXO</strong> e, em seguida, clique em <strong>Adicionar à tela inicial</strong>. Clique em \"Salvar\" para terminar e, em seguida, você pode acessar o aplicativo a partir de atalho na sua tela inicial!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funciona melhor no Apple Safari",
+          "desc": "Este navegador tem recursos limitados, enquanto o navegador Safari permite que nosso aplicativo tenha um melhor desempenho, incluindo notificações push e atalho do aplicativo.",
+          "subtext": "<strong>Abra a aplicação Safari</strong> no seu telemóvel e <strong> aceda a{url}</strong> para uma melhor experiência.",
+          "skipCta": "Continue aqui em vez disso"
         }
       },
       "webFeedback": {
