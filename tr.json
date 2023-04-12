@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Resim başarıyla yüklendi!",
         "jsImgUploadErr": "Resim yükleme başarısız oldu. Lütfen daha sonra tekrar deneyin."
-      }
+      },
+      "unknown": "Bilinmeyen"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Hakkında",
-          "jsStatusUpdateFail": "Durum güncelleştirilemedi. Lütfen daha sonra tekrar deneyin."
+          "jsStatusUpdateFail": "Durum güncelleştirilemedi. Lütfen daha sonra tekrar deneyin.",
+          "statusTextInfo": "Kendiniz hakkında kısa bir şey ekleyin, örneğin, siz kimsiniz veya ne yapıyorsunuz!",
+          "statusCta": "Durum Ekle | Durumu Güncelle",
+          "addCity": "Şehir Ekle",
+          "gender": "Erkek | Kadın",
+          "addGender": "Cinsiyet Ekle",
+          "addBday": "Doğum Günü Ekle",
+          "addRelation": "İlişki Ekle",
+          "joinDate": "Katıldı: {date}"
         },
         "posts": {
           "title": "Mesaj",
