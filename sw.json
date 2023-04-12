@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Uzoefu wako ukoje hadi sasa?"
+        },
+        "nonSafari": {
+          "heading": "Bazm inafanya kazi vizuri kwenye Apple Safari",
+          "desc": "Kivinjari hiki kina vipengele vichache, wakati kivinjari cha Safari kinawezesha programu yetu kufanya vizuri zaidi, ikiwa ni pamoja na arifa za Push na App-shortcut.",
+          "subtext": "<strong>Fungua programu ya Safari</strong> kwenye simu yako na goto <strong>{url}</strong> kwa uzoefu bora.",
+          "skipCta": "Endelea hapa badala yake"
         }
       },
       "webFeedback": {
