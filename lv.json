@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Noklikšķiniet uz kopīgošanas ikonas (izskatās kā viena labajā pusē) <strong>ZEMĀK</strong> un pēc tam noklikšķiniet uz <strong>Pievienot sākuma ekrānam</strong>. Noklikšķiniet uz \"Saglabāt\", lai pabeigtu, un pēc tam varat piekļūt lietotnei no saīsnes sākuma ekrānā!"
+        },
+        "nonSafari": {
+          "heading": "Bazm labāk darbojas Apple Safari",
+          "desc": "Šai pārlūkprogrammai ir ierobežotas funkcijas, savukārt Safari pārlūks ļauj mūsu lietotnei darboties labāk, tostarp pašpiegādes paziņojumiem un lietotņu saīsnēm.",
+          "subtext": "<strong>Atveriet Safari lietotni</strong> savā tālrunī un goto <strong>{url}</strong>, lai iegūtu labāku pieredzi.",
+          "skipCta": "Tā vietā turpiniet šeit"
         }
       },
       "webFeedback": {
