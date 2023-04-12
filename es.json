@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "¡Imagen cargada con éxito!",
         "jsImgUploadErr": "Error al cargar la imagen. Inténtelo de nuevo más tarde."
-      }
+      },
+      "unknown": "Desconocido"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Acerca de",
-          "jsStatusUpdateFail": "Error al actualizar el estado. Inténtelo de nuevo más tarde."
+          "jsStatusUpdateFail": "Error al actualizar el estado. Inténtelo de nuevo más tarde.",
+          "statusTextInfo": "Agrega algo breve sobre ti, como quién eres o qué haces.",
+          "statusCta": "Agregar estado | Estado de actualización",
+          "addCity": "Añadir ciudad",
+          "gender": "Hombre | Femenino",
+          "addGender": "Agregar género",
+          "addBday": "Agregar cumpleaños",
+          "addRelation": "Agregar relación",
+          "joinDate": "Se unió: {date}"
         },
         "posts": {
           "title": "Mensajes",
