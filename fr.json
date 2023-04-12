@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Image téléchargée avec succès!",
         "jsImgUploadErr": "Le téléchargement de l’image a échoué. Veuillez réessayer plus tard."
-      }
+      },
+      "unknown": "Inconnu"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Environ",
-          "jsStatusUpdateFail": "Impossible de mettre à jour l’état. Veuillez réessayer plus tard."
+          "jsStatusUpdateFail": "Impossible de mettre à jour l’état. Veuillez réessayer plus tard.",
+          "statusTextInfo": "Ajoutez quelque chose de bref sur vous-même, par exemple, qui êtes-vous ou que faites-vous!",
+          "statusCta": "Ajouter un état | État de la mise à jour",
+          "addCity": "Ajouter une ville",
+          "gender": "Homme | Femme",
+          "addGender": "Ajouter le sexe",
+          "addBday": "Ajouter un anniversaire",
+          "addRelation": "Ajouter une relation",
+          "joinDate": "Membre depuis : {date}"
         },
         "posts": {
           "title": "Messages",
