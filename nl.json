@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klik op het pictogram Delen (ziet eruit als een aan de rechterkant) <strong>HIERONDER</strong> en klik vervolgens op <strong>Toevoegen aan startscherm</strong>. Klik op \"Opslaan\" om te voltooien en vervolgens hebt u toegang tot de app via een snelkoppeling op uw startscherm!"
+        },
+        "nonSafari": {
+          "heading": "Bazm werkt beter op Apple Safari",
+          "desc": "Deze browser heeft beperkte functies, terwijl de Safari-browser onze app in staat stelt om beter te presteren, inclusief pushmeldingen en app-snelkoppeling.",
+          "subtext": "<strong>Open de Safari-app</strong> op uw telefoon en ga naar <strong>{url}</strong> voor een betere ervaring.",
+          "skipCta": "Ga hier in plaats daarvan verder"
         }
       },
       "webFeedback": {
