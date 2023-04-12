@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Nhấp vào biểu tượng Chia sẻ (trông giống như một biểu tượng ở bên phải) <strong>BÊN DƯỚI</strong> và sau đó nhấp vào <strong>Thêm vào Màn hình chính</strong>. Nhấp vào \"Lưu\" để hoàn tất và sau đó bạn có thể truy cập ứng dụng từ phím tắt trên màn hình chính của mình!"
+        },
+        "nonSafari": {
+          "heading": "Bazm hoạt động tốt hơn trên Apple Safari",
+          "desc": "Trình duyệt này có các tính năng hạn chế, trong khi trình duyệt Safari cho phép ứng dụng của chúng tôi hoạt động tốt hơn, bao gồm Thông báo đẩy và Phím tắt ứng dụng.",
+          "subtext": "<strong>Mở ứng dụng Safari</strong> trên điện thoại của bạn và <strong>{url}</strong> goto để có trải nghiệm tốt hơn.",
+          "skipCta": "Thay vào đó, hãy tiếp tục ở đây"
         }
       },
       "webFeedback": {
