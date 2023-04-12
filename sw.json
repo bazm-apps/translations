@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Picha imepakiwa kwa mafanikio!",
         "jsImgUploadErr": "Upakiaji wa picha ulishindwa. Tafadhali jaribu tena baadaye."
-      }
+      },
+      "unknown": "Isiyojulikana"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Kuhusu",
-          "jsStatusUpdateFail": "Imeshindwa kusasisha hali. Tafadhali jaribu tena baadaye."
+          "jsStatusUpdateFail": "Imeshindwa kusasisha hali. Tafadhali jaribu tena baadaye.",
+          "statusTextInfo": "Ongeza kitu kifupi kuhusu wewe mwenyewe, kama vile, wewe ni nani au unafanya nini!",
+          "statusCta": "Ongeza Hali | Hali ya Sasisho",
+          "addCity": "Ongeza Jiji",
+          "gender": "Mwanaume | Mwanamke",
+          "addGender": "Ongeza Jinsia",
+          "addBday": "Ongeza Siku ya Kuzaliwa",
+          "addRelation": "Ongeza Uhusiano",
+          "joinDate": "Alijiunga: {date}"
         },
         "posts": {
           "title": "Posts",
