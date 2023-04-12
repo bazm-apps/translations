@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Kliknij ikonę Udostępnij (wygląda jak ikona po prawej) <strong>PONIŻEJ,</strong> a następnie kliknij <strong>Dodaj do ekranu głównego</strong>. Kliknij \"Zapisz\", aby zakończyć, a następnie możesz uzyskać dostęp do aplikacji ze skrótu na ekranie głównym!"
+        },
+        "nonSafari": {
+          "heading": "Bazm działa lepiej na Apple Safari",
+          "desc": "Ta przeglądarka ma ograniczone funkcje, podczas gdy przeglądarka Safari umożliwia naszej aplikacji lepsze działanie, w tym powiadomienia push i skrót do aplikacji.",
+          "subtext": "<strong>Otwórz aplikację Safari</strong> na telefonie i przejdź do <strong>{url}</strong>, aby uzyskać lepsze wrażenia.",
+          "skipCta": "Zamiast tego kontynuuj tutaj"
         }
       },
       "webFeedback": {
