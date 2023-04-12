@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh skaitītājs"
+        },
+        "khumsLabel": "Khums Kalkulators",
+        "khumsDesc": "Aprēķiniet savus khums vai pievienojiet iepriekš apmaksātus khums. Tas palīdz jums veikt jūsu khums uzskaiti gadu gaitā.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Emuārs: Efektīvi aprēķiniet khums",
+              "p1": "<a href='{href}' target='_blank'>Sekojiet mūsu emuāram</a> , kurā katru gadu tiek izcelti galvenie khums aprēķināšanas vienumi.",
+              "p2": "Atruna: Emuārs NAV ceļvedis. <strong>Sekojiet sava Marjah nolēmumiem Khums aprēķinam</strong>. <span id='blog-info-link' color='primary'>Noklikšķiniet šeit</span> , lai iegūtu vairāk informācijas.",
+              "blogInfo": "Iepriekš minētais emuārs ir balstīts uz rakstiem no al-islam.org, sistani.org un mūsu diskusijām ar dažiem citiem zinātniekiem. Jums vienmēr jāievēro jūsu Marjah nolēmumi, lai aprēķinātu Khums.",
+              "dismissCta": "Neinteresē"
+            },
+            "title": "Jūsu Khums aprēķini",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />nākamajam aprēķinam",
+            "muqammasDesc": "Pamatojoties uz pēdējā gada aprēķiniem",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Maksāts:",
+            "remaining": "Atlikušo:",
+            "newMuqammas": "Jaunas muqammas:",
+            "jsDeleted": "Khums aprēķins veiksmīgi izdzēsts!",
+            "prompts": {
+              "delete": {
+                "header": "Dzēst Khums aprēķinu?",
+                "desc": "Vai tiešām vēlaties to izdzēst? Tiks dzēsti arī visi saistītie dokumenti!"
+              }
+            },
+            "empty": {
+              "header": "Vēl nav pievienoti khums",
+              "subtext": "Sāciet, pievienojot khums aprēķinu. Noklikšķiniet uz pogas zemāk."
+            }
+          },
+          "detail": {
+            "title": "Jūsu Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas nākamajam aprēķinam",
+            "calcHeader": "Pamatojoties uz zemāk esošo aprēķinu:",
+            "savingsHeader": "Ietaupījumu",
+            "conversionInfo": "Konvertēts uz {amount} , pamatojoties uz {xchgRate} maiņas kursu {xchgRateDate}",
+            "expensesHeader": "Izdevumi",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Iepriekšējās muqammas",
+            "paymentsHeader": "Maksājumi, kas veikti par khums:",
+            "error": {
+              "header": "Ak uh, radās kļūda!",
+              "desc": "Izskatās, ka mēs neko nevaram atrast par šo khums-aprēķinu. Tas var būt vai nu tāpēc, ka kāds no mūsu pakalpojumiem ir nepareizi darbojies, vai varbūt jūs meklējat novecojušus datus.<br /><br/ >Mēģiniet atsvaidzināt lapu vai sazinieties ar mums, ja domājat, ka no mūsu puses ir kļūda."
+            },
+            "js": {
+              "recordDeleteFailed": "Mēģinot izdzēst šo ierakstu, radās kļūda. Lūdzu, mēģiniet vēlreiz vai, ja kļūda joprojām pastāv, vēlāk nāciet vēlreiz.",
+              "recordDeleted": "Ieraksts veiksmīgi izdzēsts",
+              "deleteRecordHeader": "Dzēst ierakstu?",
+              "deleteRecordDesc": "Vai tiešām vēlaties izdzēst šo ierakstu? Tiks dzēsti arī visi šim ierakstam pievienotie pielikumi!"
+            }
+          },
+          "calc": {
+            "subtext": "Aizpildiet zemāk esošo veidlapu, lai aprēķinātu savus khums. Ir norādīti neobligātie lauki. Noklikšķiniet uz informācijas ikonas zemāk, lai uzzinātu vairāk par sadaļu.",
+            "blog": "Saistītie: Lasiet mūsu emuāru par <a href='{href}' target='_blank'>to, kā efektīvi<a> aprēķināt khums</a>",
+            "dateRange": "Atlasiet datumu diapazonu:",
+            "dateRangeInfo": "Parasti cilvēki aprēķina khums finanšu gadam (piemēram, no aprīļa līdz martam) vai kalendārajam gadam (no janvāra līdz decembrim)",
+            "startDate": "Sākuma datums:",
+            "endDate": "Beigu datums:",
+            "savings": {
+              "header": "Ietaupījumu",
+              "desc": "Uzkrājumu/atlikuma pievienošana savā(-os) kontā(-os)",
+              "info": "Jūs varat pievienot summas dažādās valūtās, bet khums galu galā tiek aprēķināts vienotajā valūtā, pamatojoties uz šodienas valūtas kursu.",
+              "form": {
+                "label": "Etiķetes",
+                "placeholder": "Piemēram, algas konts",
+                "amountLabel": "Summa",
+                "amountPlaceholder": "Ievadiet summu",
+                "remarks": "Vai ir kādas piezīmes par šo punktu?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Parādi/saistības/izdevumi</strong> – pēc izvēles",
+              "subtext": "Pievienojiet tūlītējus parādus, saistības vai izdevumus",
+              "info": "Daļa no summas no atlikuma var būt atskaitāma par khumiem. Sekojiet mūsu saitei iepriekš <strong>Aprēķiniet khums efektīvi</strong> , lai uzzinātu vairāk.",
+              "form": {
+                "placeholder": "Piemēram, īres maksas termiņš"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Iepriekšējās Muqammas</strong> — pēc izvēles",
+              "subtext": "Atlikums, kas palicis pēc khums samaksas iepriekšējā periodā",
+              "info": "Ja jūs maksājat khums pirmo reizi, Muqammas būs NULLE. Ja šeit ir saglabāti iepriekšējie aprēķini, varat sinhronizēt, lai izmantotu agrāka perioda Muqammas."
+            },
+            "mainCurrencyHeader": "Izvēlieties galveno valūtu",
+            "mainCurrencyInfo": "Kuru valūtu mums vajadzētu izmantot, lai aprēķinātu khums?",
+            "customRates": {
+              "header": "<strong>Valūtas kursu izmantošana</strong>",
+              "subtext": "Šie valūtas maiņas kursi tiks izmantoti aprēķiniem. Varat tos mainīt, lai izmantotu pielāgotas vērtības.",
+              "info": "Strādājot ar vēsturiskajiem datiem, piemēram, pievienojot aprēķinus par khumiem no vairāk nekā gada, kad valūtas kursi nebija tādi paši kā šodien, jūs pats varat iestatīt pielāgotas valūtas kursu vērtības.",
+              "rateValuePH": "{currency}, piemēram, 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Aprēķināt",
+            "pageError": {
+              "header": "Radās kļūda",
+              "desc": "Neizdevās iegūt lapai nepieciešamos datus. Lūdzu, atkārtoti ielādējiet lapu vai vēlāk mēģiniet vēlreiz."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Dzēst piezīmes?",
+                "deleteText": "Vai tiešām vēlaties dzēst piezīmes par šo vienumu?"
+              },
+              "choicePrompt": {
+                "addHeader": "Pievienot",
+                "savings": "Jauna ieraksta pievienošana uzkrājumam",
+                "liability": "Jauna ieraksta pievienošana saistībām"
+              },
+              "rowOptions": {
+                "header": "Ko jūs vēlaties ar to darīt?",
+                "duplicate": "Ieraksta dublikāta izveide",
+                "remarks": "Pievienojiet piezīmes par to",
+                "delete": "Dzēst šo ierakstu"
+              },
+              "apiError": "Radās kļūda. Lūdzu, mēģiniet vēlreiz."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Jā, izmantojiet {langName}",
             "Izmantojiet {langName}"
           ],
-          "useEngling": "Turpināt angļu valodā"
+          "useEngling": "Turpināt angļu valodā",
+          "useEnglish": "Turpināt angļu valodā",
+          "selectFrom": "Vai arī atlasiet kādu no šīm alternatīvajām valodām:"
         },
         "langError": "Ielādējot {langName} tulkojumus, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Jūs jau esat reģistrējies Ziyarat šo ceturtdien. Reģistrējieties nākamnedēļ nākamās nedēļas ziyarat.",
         "jsConfirm": "Lai reģistrētos šim pieprasījumam, mums ir jādalās ar jūsu informāciju (piemēram, pilnu vārdu, dzimumu utt.) ar mūsu pakalpojumu sniedzēju. Tas ir nepieciešams tikai pirmo reizi. Lūdzu, apstipriniet, lai turpinātu.",
         "jsDeclined": "Labi! Varbūt vēlāk."
+      },
+      "currencySelector": {
+        "title": "Izvēlēties valūtu",
+        "baseCurrency": "Pamatvalūtu",
+        "compHasOwnRates": "Lapai, kas izmanto šo atlasītāju, ir savi valūtas kursi, kuriem var būt vēsturiskas vērtības. Tāpēc šeit norādītās likmes atlasei netiks piemērotas.",
+        "cancelCta": "Atcelt",
+        "doneCta": "Darīts"
+      },
+      "mqmsSelector": {
+        "title": "Izvēlieties Muqammas summu",
+        "dateAdded": "Pievienots: {date}",
+        "cancelCta": "Atcelt",
+        "doneCta": "Atlasiet"
+      },
+      "khumsPaymentRecord": {
+        "title": "Maksājuma ieraksta pievienošana",
+        "paymentFor": "Samaksa par {khumsType}",
+        "totalAmount": "Kopējā summa: {amount}",
+        "form": {
+          "amountLabel": "Summa",
+          "amountPlaceholder": "Ievadiet summu",
+          "amountErr": "Summa nedrīkst būt lielāka par Khums",
+          "dateLabel": "Pārsūtīšanas datums – pēc izvēles",
+          "dateInfo": "Datums, kad nosūtījāt naudu",
+          "remarks": "Piezīmes, ja tādas ir?",
+          "remarksInfo": "Piemēram, \"Maksā skaidrā naudā\"",
+          "attach": "Pielikumu pievienošana",
+          "attachInfo": "Varat pievienot maksājumu kvītis (tikai attēlus) vēlākai atsaucei"
+        }
       }
     },
     "authPage": {
