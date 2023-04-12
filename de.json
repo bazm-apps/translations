@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klicken Sie <strong>UNTEN</strong> auf das Symbol Freigeben (sieht aus wie eines auf der rechten Seite) und klicken Sie dann auf <strong>Zum Startbildschirm hinzufügen</strong>. Klicken Sie auf \"Speichern\", um den Vorgang abzuschließen, und dann können Sie über die Verknüpfung auf Ihrem Startbildschirm auf die App zugreifen!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funktioniert besser auf Apple Safari",
+          "desc": "Dieser Browser verfügt über eingeschränkte Funktionen, während der Safari-Browser es unserer App ermöglicht, eine bessere Leistung zu erbringen, einschließlich Push-Benachrichtigungen und App-Verknüpfungen.",
+          "subtext": "Öffnen Sie die <strong>Safari-App</strong> auf Ihrem Telefon und gehen Sie zu <strong>{url}</strong>, um ein besseres Erlebnis zu erhalten.",
+          "skipCta": "Fahren Sie stattdessen hier fort"
         }
       },
       "webFeedback": {
