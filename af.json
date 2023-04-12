@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Beeld suksesvol opgelaai!",
         "jsImgUploadErr": "Beeldoplaai het misluk. Probeer asseblief later weer."
-      }
+      },
+      "unknown": "Onbekende"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Oor",
-          "jsStatusUpdateFail": "Kon nie status bywerk nie. Probeer asseblief later weer."
+          "jsStatusUpdateFail": "Kon nie status bywerk nie. Probeer asseblief later weer.",
+          "statusTextInfo": "Voeg iets kortliks oor jouself by, soos, wie is jy of wat doen jy!",
+          "statusCta": "Voeg status by | Dateer status op",
+          "addCity": "Voeg stad by",
+          "gender": "Manlik | Vroulik",
+          "addGender": "Voeg geslag by",
+          "addBday": "Voeg verjaarsdag by",
+          "addRelation": "Voeg verhouding by",
+          "joinDate": "Aangesluit: {date}"
         },
         "posts": {
           "title": "Poste",
