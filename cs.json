@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Obrázek byl úspěšně nahrán!",
         "jsImgUploadErr": "Nahrání obrázku se nezdařilo. Zkuste to prosím znovu později."
-      }
+      },
+      "unknown": "Neznámý"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Asi",
-          "jsStatusUpdateFail": "Aktualizace stavu se nezdařila. Zkuste to prosím znovu později."
+          "jsStatusUpdateFail": "Aktualizace stavu se nezdařila. Zkuste to prosím znovu později.",
+          "statusTextInfo": "Přidejte něco stručného o sobě, například, kdo jste nebo co děláte!",
+          "statusCta": "Přidat stav | Aktualizovat stav",
+          "addCity": "Přidat město",
+          "gender": "muž | žena",
+          "addGender": "Přidat pohlaví",
+          "addBday": "Přidat narozeniny",
+          "addRelation": "Přidat relaci",
+          "joinDate": "Založen: {date}"
         },
         "posts": {
           "title": "Odesílá",
