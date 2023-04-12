@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klik ikon Bagikan (terlihat seperti satu di sebelah kanan) <strong>DI BAWAH dan</strong> kemudian klik <strong>Tambahkan ke Layar Beranda</strong>. Klik \"Simpan\" untuk menyelesaikannya, dan kemudian Anda dapat mengakses aplikasi dari pintasan di layar beranda Anda!"
+        },
+        "nonSafari": {
+          "heading": "Bazm bekerja lebih baik di Apple Safari",
+          "desc": "Browser ini memiliki fitur terbatas, sementara browser Safari memungkinkan aplikasi kami berkinerja lebih baik, termasuk pemberitahuan Push dan pintasan Aplikasi.",
+          "subtext": "<strong>Buka aplikasi Safari</strong> di ponsel Anda dan buka <strong>{url}</strong> untuk pengalaman yang lebih baik.",
+          "skipCta": "Lanjutkan di sini sebagai gantinya"
         }
       },
       "webFeedback": {
