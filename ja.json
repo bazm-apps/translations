@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "画像が正常にアップロードされました!",
         "jsImgUploadErr": "イメージのアップロードに失敗しました。しばらくしてからもう一度お試しください。"
-      }
+      },
+      "unknown": "不明"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "に関しては",
-          "jsStatusUpdateFail": "ステータスの更新に失敗しました。しばらくしてからもう一度お試しください。"
+          "jsStatusUpdateFail": "ステータスの更新に失敗しました。しばらくしてからもう一度お試しください。",
+          "statusTextInfo": "あなたは誰ですか、あなたは何をしているのかなど、あなた自身について簡単な何かを追加してください!",
+          "statusCta": "ステータスの追加 | ステータスの更新",
+          "addCity": "都市を追加",
+          "gender": "男性 | 女性",
+          "addGender": "性別を追加",
+          "addBday": "誕生日を追加",
+          "addRelation": "リレーションシップの追加",
+          "joinDate": "加入日: {date}"
         },
         "posts": {
           "title": "楨",
