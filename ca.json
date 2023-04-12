@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Feu clic a la icona Comparteix (té l'aspecte d'un a la dreta) <strong>A CONTINUACIÓ</strong> i, a continuació, feu clic <strong>a Afegeix a la pantalla d'inici</strong>. Feu clic a \"Desa\" per finalitzar i, a continuació, podeu accedir a l'aplicació des de la drecera a la pantalla d'inici."
+        },
+        "nonSafari": {
+          "heading": "Bazm funciona millor a Apple Safari",
+          "desc": "Aquest navegador té funcions limitades, mentre que el navegador Safari permet que la nostra aplicació funcioni millor, incloses les notificacions automàtiques i la drecera d'aplicacions.",
+          "subtext": "<strong>Obriu l'aplicació Safari</strong> al telèfon i teniu <strong>{url}</strong> per obtenir una millor experiència.",
+          "skipCta": "Continueu aquí en el seu lloc"
         }
       },
       "webFeedback": {
