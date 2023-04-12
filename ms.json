@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Imej berjaya dimuat naik!",
         "jsImgUploadErr": "Muat naik imej gagal. Sila cuba lagi kemudian."
-      }
+      },
+      "unknown": "Tidak diketahui"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Tentang",
-          "jsStatusUpdateFail": "Gagal mengemas kini status. Sila cuba lagi kemudian."
+          "jsStatusUpdateFail": "Gagal mengemas kini status. Sila cuba lagi kemudian.",
+          "statusTextInfo": "Tambah sesuatu yang ringkas tentang diri anda, seperti, siapa anda atau apa yang anda lakukan!",
+          "statusCta": "Tambah Status | Kemas Kini Status",
+          "addCity": "Tambah Bandar",
+          "gender": "Lelaki | Perempuan",
+          "addGender": "Tambah Jantina",
+          "addBday": "Tambah Hari Lahir",
+          "addRelation": "Tambah Perhubungan",
+          "joinDate": "Menyertai: {date}"
         },
         "posts": {
           "title": "Posting",
