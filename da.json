@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Billede uploadet med succes!",
         "jsImgUploadErr": "Upload af billede mislykkedes. Prøv igen senere."
-      }
+      },
+      "unknown": "Ukendt"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Omtrent",
-          "jsStatusUpdateFail": "Status kunne ikke opdateres. Prøv igen senere."
+          "jsStatusUpdateFail": "Status kunne ikke opdateres. Prøv igen senere.",
+          "statusTextInfo": "Tilføj noget kort om dig selv, såsom, hvem er du, eller hvad laver du!",
+          "statusCta": "Tilføj status | Opdater status",
+          "addCity": "Tilføj by",
+          "gender": "Mand — Kvinde",
+          "addGender": "Tilføj køn",
+          "addBday": "Tilføj fødselsdag",
+          "addRelation": "Tilføj relation",
+          "joinDate": "Tilmeldt: {date}"
         },
         "posts": {
           "title": "Indlæg",
