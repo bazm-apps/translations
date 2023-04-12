@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Cliquez sur l’icône Partager (ressemble à celle de droite) <strong>CI-DESSOUS</strong>, puis cliquez sur <strong>Ajouter à l’écran d’accueil</strong>. Cliquez sur « Enregistrer » pour terminer, puis vous pouvez accéder à l’application à partir du raccourci sur votre écran d’accueil!"
+        },
+        "nonSafari": {
+          "heading": "Bazm fonctionne mieux sur Apple Safari",
+          "desc": "Ce navigateur a des fonctionnalités limitées, tandis que le navigateur Safari permet à notre application de mieux fonctionner, y compris les notifications push et le raccourci d’application.",
+          "subtext": "<strong>Ouvrez l’application Safari</strong> sur votre téléphone et accédez à <strong>{url}</strong> pour une meilleure expérience.",
+          "skipCta": "Continuez ici à la place"
         }
       },
       "webFeedback": {
