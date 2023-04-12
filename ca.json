@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL no vàlida. Proveu-ho amb un URL nou."
+      },
+      "page404": {
+        "title": "Pàgina no trobada",
+        "desc": "No hem pogut trobar la pàgina que busques!",
+        "ctaLabel": "Goto Inici"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Afegir fitxers adjunts",
           "attachInfo": "Podeu afegir rebuts de pagament (només imatges) per a la seva posterior consulta"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Seleccioneu País",
+        "searchPH": "Cerca país per nom o codi de marcatge"
       }
     },
     "authPage": {
