@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "이미지가 성공적으로 업로드되었습니다!",
         "jsImgUploadErr": "이미지 업로드에 실패했습니다. 나중에 다시 시도하십시오."
-      }
+      },
+      "unknown": "알려지지 않은"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "약",
-          "jsStatusUpdateFail": "상태를 업데이트하지 못했습니다. 나중에 다시 시도하십시오."
+          "jsStatusUpdateFail": "상태를 업데이트하지 못했습니다. 나중에 다시 시도하십시오.",
+          "statusTextInfo": "당신이 누구인지 또는 무엇을하는지와 같은 자신에 대해 간단한 것을 추가하십시오!",
+          "statusCta": "상태 추가 | 상태 업데이트",
+          "addCity": "도시 추가",
+          "gender": "남성 | 여성",
+          "addGender": "성별 추가",
+          "addBday": "생일 추가",
+          "addRelation": "관계 추가",
+          "joinDate": "가입: {date}"
         },
         "posts": {
           "title": "게시물",
