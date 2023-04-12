@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL nije valjan. Pokušajte s novim URL-om."
+      },
+      "page404": {
+        "title": "Stranica nije pronađena",
+        "desc": "Nismo mogli pronaći stranicu koju tražite!",
+        "ctaLabel": "Goto Home"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Dodavanje privitaka",
           "attachInfo": "Potvrde o plaćanju (samo slike) možete dodati za kasniju referencu"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Odaberi državu",
+        "searchPH": "Pretraži zemlju prema imenu ili pozivnom kodu"
       }
     },
     "authPage": {
