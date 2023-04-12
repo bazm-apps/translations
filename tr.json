@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "AŞAĞIDAKİ Paylaş simgesine (sağdaki gibi görünür) <strong></strong> tıklayın ve ardından <strong>Ana Ekrana Ekle'ye</strong> tıklayın. Bitirmek için \"Kaydet\" i tıklayın ve ardından uygulamaya ana ekranınızdaki kısayoldan erişebilirsiniz!"
+        },
+        "nonSafari": {
+          "heading": "Bazm, Apple Safari'de daha iyi çalışıyor",
+          "desc": "Bu tarayıcı sınırlı özelliklere sahipken, Safari tarayıcısı Push bildirimleri ve Uygulama kısayolu dahil olmak üzere uygulamamızın daha iyi performans göstermesini sağlar.",
+          "subtext": "Telefonunuzda <strong>Safari uygulamasını açın</strong> ve daha iyi bir deneyim için <strong>{url}</strong> gidin.",
+          "skipCta": "Bunun yerine buradan devam edin"
         }
       },
       "webFeedback": {
