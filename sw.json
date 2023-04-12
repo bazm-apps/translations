@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Kaunta ya Tasbeeh"
+        },
+        "khumsLabel": "Khums Calculator",
+        "khumsDesc": "Hesabu khums zako, au ongeza khums zozote zilizolipwa hapo awali. Inakusaidia na utunzaji wa kumbukumbu ya khums zako zaidi ya miaka.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Hesabu khums kwa ufanisi",
+              "p1": "<a href='{href}' target='_blank'>Fuata blogu yetu</a> ambayo inaonyesha vitu muhimu katika hesabu ya khums kila mwaka.",
+              "p2": "Kanusho: Blogu sio mwongozo. <strong>Fuata maamuzi ya Marjah yako kwa hesabu ya Khums</strong>. <span id='blog-info-link' color='primary'>Bonyeza hapa</span> kwa maelezo zaidi.",
+              "blogInfo": "Blogu hapo juu inategemea makala kutoka kwa al-islam.org, sistani.org, na majadiliano yetu na wasomi wengine wachache. Unapaswa kufuata daima maamuzi ya Marjah yako kwa hesabu ya Khums.",
+              "dismissCta": "Haipendezi"
+            },
+            "title": "Hesabu zako za Khums",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />kwa hesabu inayofuata",
+            "muqammasDesc": "Kulingana na mahesabu kutoka mwaka wa hivi karibuni",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Kulipwa:",
+            "remaining": "Iliyobaki:",
+            "newMuqammas": "Muqammas mpya:",
+            "jsDeleted": "Hesabu ya Khums ilifutwa kwa mafanikio!",
+            "prompts": {
+              "delete": {
+                "header": "Futa Hesabu ya Khums?",
+                "desc": "Una uhakika unataka kufuta hii? Nyaraka zote zinazohusiana zitafutwa pia!"
+              }
+            },
+            "empty": {
+              "header": "Hakuna khums iliyoongezwa bado",
+              "subtext": "Anza kwa kuongeza hesabu ya khums. Bofya kwenye kitufe hapa chini."
+            }
+          },
+          "detail": {
+            "title": "Khums zako",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas kwa hesabu ijayo",
+            "calcHeader": "Kulingana na hesabu hapa chini:",
+            "savingsHeader": "Akiba",
+            "conversionInfo": "Imebadilishwa kuwa {amount} kulingana na kiwango cha kubadilishana cha {xchgRate} kwenye {xchgRateDate}",
+            "expensesHeader": "Gharama",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas wa awali",
+            "paymentsHeader": "Malipo yaliyofanywa kwa khums:",
+            "error": {
+              "header": "Oh uh, kosa lilitokea!",
+              "desc": "Inaonekana kama hatuwezi kupata chochote kuhusu hesabu hii ya khums. Inaweza kuwa ama kwa sababu moja ya huduma zetu iliharibika, au labda unatafuta data ya stale.<br /><br/ >Jaribu kuburudisha ukurasa, au utufikie ikiwa unafikiri kuna makosa kwa upande wetu."
+            },
+            "js": {
+              "recordDeleteFailed": "Kosa lilitokea wakati wa kujaribu kufuta rekodi hii. Tafadhali jaribu tena, au ikiwa kosa linaendelea, njoo tena baadaye.",
+              "recordDeleted": "Rekodi yafutwa kwa ufanisi",
+              "deleteRecordHeader": "Futa rekodi?",
+              "deleteRecordDesc": "Una uhakika unataka kufuta rekodi hii? Viambatisho vyovyote vilivyoongezwa kwenye rekodi hii vitafutwa pia!"
+            }
+          },
+          "calc": {
+            "subtext": "Jaza fomu hapa chini ili kuhesabu khums zako. Mashamba ya hiari yanaonyeshwa. Bofya info-icon hapa chini ili kujua zaidi kuhusu sehemu.",
+            "blog": "Zinazohusiana: Soma blogi yetu juu ya <a href='{href}' target='_blank'>Jinsi ya kuhesabu khums kwa<a> ufanisi</a>",
+            "dateRange": "Chagua aina ya tarehe:",
+            "dateRangeInfo": "Kwa kawaida, watu huhesabu khums kwa mwaka wa fedha (kwa mfano, kutoka Aprili hadi Machi) au mwaka wa Kalenda (Jan hadi Desemba)",
+            "startDate": "Tarehe ya kuanza:",
+            "endDate": "Tarehe ya mwisho:",
+            "savings": {
+              "header": "Akiba",
+              "desc": "Ongeza akiba/salio kwenye akaunti yako(s)",
+              "info": "Unaweza kuongeza kiasi katika sarafu tofauti, lakini khums hatimaye huhesabiwa kwa sarafu moja kulingana na kiwango cha ubadilishaji wa leo.",
+              "form": {
+                "label": "Lebo",
+                "placeholder": "Mfano, Akaunti ya mshahara",
+                "amountLabel": "Kiasi",
+                "amountPlaceholder": "Ingiza Kiasi",
+                "remarks": "Matamshi yoyote kuhusu kipengee hiki?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Madeni/Liabilities/Expenses</strong> — Hiari",
+              "subtext": "Ongeza madeni, madeni au gharama zozote za haraka",
+              "info": "Kiasi fulani kutoka kwa usawa kinaweza kukatwa kwa khums. Fuata kiungo chetu hapo juu <strong>Calculate khums kwa ufanisi</strong> ili kujua zaidi.",
+              "form": {
+                "placeholder": "Mfano, Kodi inayostahili"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas waliotangulia</strong> — Hiari",
+              "subtext": "Mizani iliyoachwa baada ya kulipa khums katika kipindi kilichopita",
+              "info": "Ikiwa unalipa khums kwa mara ya kwanza, Muqammas itakuwa ZERO. Ikiwa una mahesabu ya awali yaliyohifadhiwa hapa, unaweza kusawazisha kutumia Muqammas kutoka kipindi cha awali."
+            },
+            "mainCurrencyHeader": "Chagua sarafu kuu",
+            "mainCurrencyInfo": "Ni sarafu gani tunapaswa kutumia kuhesabu khums?",
+            "customRates": {
+              "header": "<strong>Kutumia viwango vya ubadilishaji</strong>",
+              "subtext": "Viwango hivi vya ubadilishaji wa sarafu vitatumika kwa hesabu. Unaweza kuzibadilisha ili kutumia maadili ya desturi.",
+              "info": "Wakati wa kushughulika na data ya kihistoria, kama vile wakati wa kuongeza hesabu kwa khums kutoka zaidi ya mwaka mmoja uliopita wakati viwango vya ubadilishaji havikuwa sawa na leo, unaweza kuweka maadili ya desturi kwa viwango vya ubadilishaji mwenyewe.",
+              "rateValuePH": "Katika {currency}, kwa mfano, 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Kokotoa",
+            "pageError": {
+              "header": "Kosa lilitokea",
+              "desc": "Imeshindwa kupata data inayohitajika kwa ukurasa. Tafadhali pakia tena ukurasa au jaribu tena baadaye."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Futa matamshi?",
+                "deleteText": "Una uhakika unataka kufuta matamshi ya kipengee hiki?"
+              },
+              "choicePrompt": {
+                "addHeader": "Ongeza",
+                "savings": "Ongeza ingizo jipya kwenye Akiba",
+                "liability": "Ongeza ingizo jipya kwa Liabilities"
+              },
+              "rowOptions": {
+                "header": "Unataka kufanya nini katika hili?",
+                "duplicate": "Unda kuingia kwa duplicate",
+                "remarks": "Ongeza matamshi kwa hili",
+                "delete": "Futa kiingilio hiki"
+              },
+              "apiError": "Kosa lilitokea. Tafadhali jaribu tena."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Ndiyo, tumia {langName}",
             "Tumia {langName}"
           ],
-          "useEngling": "Endelea kwa Kiingereza"
+          "useEngling": "Endelea kwa Kiingereza",
+          "useEnglish": "Endelea kwa Kiingereza",
+          "selectFrom": "Au, chagua kutoka kwa mojawapo ya lugha mbadala zifuatazo:"
         },
         "langError": "Kosa lilitokea wakati wa kupakia tafsiri za {langName}. Tafadhali jaribu tena baadaye."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Kujiandikisha kwa ombi hili, tunahitaji kushiriki maelezo yako (kwa mfano, jina kamili, jinsia, nk) na mtoa huduma wetu. Hii inahitajika kwa mara ya kwanza tu. Tafadhali thibitisha kuendelea.",
         "jsConfirm": "Sawa! Pengine baadaye.",
         "jsDeclined": "Jina lako"
+      },
+      "currencySelector": {
+        "title": "Chagua sarafu",
+        "baseCurrency": "Sarafu ya msingi",
+        "compHasOwnRates": "Ukurasa unaotumia mteuzi huyu una viwango vya ubadilishaji ambavyo vinaweza kuwa na maadili ya kihistoria. Kwa hiyo, viwango vinavyoonyeshwa hapa havitatumika kwenye uteuzi.",
+        "cancelCta": "Katisha",
+        "doneCta": "Kufanyika"
+      },
+      "mqmsSelector": {
+        "title": "Chagua kiasi cha Muqammas",
+        "dateAdded": "Aliongeza kwenye: {date}",
+        "cancelCta": "Katisha",
+        "doneCta": "Teua"
+      },
+      "khumsPaymentRecord": {
+        "title": "Ongeza rekodi ya malipo",
+        "paymentFor": "Malipo kwa {khumsType}",
+        "totalAmount": "Jumla ya kiasi: {amount}",
+        "form": {
+          "amountLabel": "Kiasi",
+          "amountPlaceholder": "Ingiza Kiasi",
+          "amountErr": "Kiasi hakiwezi kuwa zaidi ya Khums",
+          "dateLabel": "Tarehe ya uhamisho — Hiari",
+          "dateInfo": "Tarehe ulipotuma pesa",
+          "remarks": "Matamshi, kama yapo?",
+          "remarksInfo": "Mfano, 'Kulipwa kwa pesa taslimu'",
+          "attach": "Ongeza viambatisho",
+          "attachInfo": "Unaweza kuongeza risiti za malipo (picha tu) kwa kumbukumbu ya baadaye"
+        }
       }
     },
     "authPage": {
