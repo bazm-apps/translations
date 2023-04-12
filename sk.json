@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Kliknite na ikonu Zdieľať (vyzerá ako ikona vpravo) <strong>NIŽŠIE</strong> a potom kliknite na položku <strong>Pridať na plochu</strong>. Kliknutím na tlačidlo \"Uložiť\" dokončite prácu a potom môžete získať prístup k aplikácii zo skratky na domovskej obrazovke!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funguje lepšie v prehliadači Apple Safari",
+          "desc": "Tento prehliadač má obmedzené funkcie, zatiaľ čo prehliadač Safari umožňuje našej aplikácii lepší výkon, vrátane upozornení push a skratiek aplikácií.",
+          "subtext": "<strong>Otvorte aplikáciu Safari</strong> v telefóne a prejdite na <strong>{url}</strong> pre lepší zážitok.",
+          "skipCta": "Pokračujte radšej tu"
         }
       },
       "webFeedback": {
