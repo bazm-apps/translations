@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klike sou ikòn nan Pataje (sanble yon sèl sou bò dwat la) <strong>ANBA</strong> a ak Lè sa a, klike <strong>sou ajoute nan ekran kay la</strong>. Klike sou \"Sove\" fini, ak Lè sa a, ou ka jwenn aksè nan app a soti nan rakoursi sou ekran kay ou!"
+        },
+        "nonSafari": {
+          "heading": "Bazm travay pi byen sou Apple Safari",
+          "desc": "Navigatè sa a gen karakteristik limite, pandan y ap navigatè Safari pèmèt app nou an fè pi byen, ki gen ladan pouse-notifikasyon ak App-rakoursi.",
+          "subtext": "<strong>Louvri app Safari sou telefòn</strong> ou ak ale <strong>{url}</strong> pou yon eksperyans pi bon.",
+          "skipCta": "Kontinye isit la olye"
         }
       },
       "webFeedback": {
