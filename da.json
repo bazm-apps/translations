@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Ugyldig URL. Prøv med en ny URL."
+      },
+      "page404": {
+        "title": "Siden blev ikke fundet",
+        "desc": "Vi kunne ikke finde den side, du leder efter!",
+        "ctaLabel": "Gå til Hjem"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Tilføj vedhæftede filer",
           "attachInfo": "Du kan tilføje betalingskvitteringer (kun billeder) til senere reference"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Vælg land",
+        "searchPH": "Søg efter land efter navn eller opkaldskode"
       }
     },
     "authPage": {
