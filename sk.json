@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Obrázok bol úspešne nahraný!",
         "jsImgUploadErr": "Nahrávanie obrázkov zlyhalo. Skúste to znova neskôr."
-      }
+      },
+      "unknown": "Neznámy"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "O",
-          "jsStatusUpdateFail": "Nepodarilo sa aktualizovať stav. Skúste to znova neskôr."
+          "jsStatusUpdateFail": "Nepodarilo sa aktualizovať stav. Skúste to znova neskôr.",
+          "statusTextInfo": "Pridajte niečo stručné o sebe, napríklad, kto ste alebo čo robíte!",
+          "statusCta": "Pridať stav | Stav aktualizácie",
+          "addCity": "Pridať mesto",
+          "gender": "Muž | Žena",
+          "addGender": "Pridať pohlavie",
+          "addBday": "Pridať narodeniny",
+          "addRelation": "Pridať vzťah",
+          "joinDate": "Vstúpil: {date}"
         },
         "posts": {
           "title": "Príspevky",
