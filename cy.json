@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Delwedd wedi ei uwchlwytho'n llwyddiannus!",
         "jsImgUploadErr": "Methodd uwchlwytho delweddau. Ceisiwch eto nes ymlaen."
-      }
+      },
+      "unknown": "Anhysbys"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Ynghylch",
-          "jsStatusUpdateFail": "Wedi methu diweddaru statws. Ceisiwch eto nes ymlaen."
+          "jsStatusUpdateFail": "Wedi methu diweddaru statws. Ceisiwch eto nes ymlaen.",
+          "statusTextInfo": "Ychwanegwch rywbeth byr amdanoch chi'ch hun, fel, pwy ydych chi neu beth ydych chi'n ei wneud!",
+          "statusCta": "Ychwanegu Statws | Statws Diweddaru",
+          "addCity": "Ychwanegu Dinas",
+          "gender": "Gwryw | Benyw",
+          "addGender": "Ychwanegu rhywedd",
+          "addBday": "Ychwanegu pen-blwydd",
+          "addRelation": "Ychwanegu Perthynas",
+          "joinDate": "Ymunodd: {date}"
         },
         "posts": {
           "title": "Swyddi",
