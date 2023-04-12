@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Vaizdas įkeltas sėkmingai!",
         "jsImgUploadErr": "Nepavyko įkelti vaizdo. Bandykite dar kartą vėliau."
-      }
+      },
+      "unknown": "Nežinomas"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Apie",
-          "jsStatusUpdateFail": "Nepavyko atnaujinti būsenos. Bandykite dar kartą vėliau."
+          "jsStatusUpdateFail": "Nepavyko atnaujinti būsenos. Bandykite dar kartą vėliau.",
+          "statusTextInfo": "Pridėkite ką nors trumpo apie save, pavyzdžiui, kas esate jūs arba ką darote!",
+          "statusCta": "Pridėti būseną | Atnaujinti būseną",
+          "addCity": "Pridėti miestą",
+          "gender": "Vyras | Moteris",
+          "addGender": "Pridėti lytį",
+          "addBday": "Pridėti gimtadienį",
+          "addRelation": "Pridėti ryšį",
+          "joinDate": "Prisijungė: {date}"
         },
         "posts": {
           "title": "Pranešimų",
