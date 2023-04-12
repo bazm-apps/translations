@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Faceți clic pe pictograma Partajare (arată ca una din dreapta) <strong>DE MAI JOS</strong> și apoi faceți clic pe <strong>Adăugare la ecranul de pornire</strong>. Faceți clic pe \"Salvați\" pentru a termina, apoi puteți accesa aplicația din comanda rapidă de pe ecranul de pornire!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funcționează mai bine pe Apple Safari",
+          "desc": "Acest browser are funcții limitate, în timp ce browserul Safari permite aplicației noastre să funcționeze mai bine, inclusiv notificări push și comenzi rapide pentru aplicații.",
+          "subtext": "<strong>Deschideți aplicația Safari</strong> pe telefon și accesați <strong>{url}</strong> pentru o experiență mai bună.",
+          "skipCta": "Continuați aici în schimb"
         }
       },
       "webFeedback": {
