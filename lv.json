@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Nederīgs URL. Lūdzu, mēģiniet izmantot jaunu URL."
+      },
+      "page404": {
+        "title": "Lapa nav atrasta",
+        "desc": "Mēs nevarējām atrast meklēto lapu!",
+        "ctaLabel": "Goto mājas"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Pielikumu pievienošana",
           "attachInfo": "Varat pievienot maksājumu kvītis (tikai attēlus) vēlākai atsaucei"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Izvēlieties valsti",
+        "searchPH": "Meklēt valsti pēc vārda vai numura koda"
       }
     },
     "authPage": {
