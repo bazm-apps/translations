@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh-räknare"
+        },
+        "khumsLabel": "Khums kalkylator",
+        "khumsDesc": "Beräkna dina khums eller lägg till tidigare betalda khums. Det hjälper dig med journalföring av dina khums genom åren.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blogg: Beräkna khums effektivt",
+              "p1": "<a href='{href}' target='_blank'>Följ vår blogg</a> som belyser viktiga poster i beräkningen av khums varje år.",
+              "p2": "Ansvarsfriskrivning: Bloggen är INTE en guide. <strong>Följ domslut från din Marjah för Khums beräkning</strong>. <span id='blog-info-link' color='primary'>Klicka här</span> för mer info.",
+              "blogInfo": "Ovanstående blogg är baserad på artiklar från al-islam.org, sistani.org och våra diskussioner med några andra forskare. Du bör alltid följa domarna från din Marjah för Khums beräkning.",
+              "dismissCta": "Inte intresserad"
+            },
+            "title": "Dina Khums-beräkningar",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />för nästa beräkning",
+            "muqammasDesc": "Baserat på beräkningar från senaste året",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam(A)",
+            "paid": "Betalad:",
+            "remaining": "Resterande:",
+            "newMuqammas": "Nya muqammas:",
+            "jsDeleted": "Khums beräkning raderad framgångsrikt!",
+            "prompts": {
+              "delete": {
+                "header": "Ta bort Khums-beräkning?",
+                "desc": "Är du säker på att du vill ta bort detta? Alla relaterade dokument kommer också att raderas!"
+              }
+            },
+            "empty": {
+              "header": "Inga khums tillagda ännu",
+              "subtext": "Börja med att lägga till en khums-beräkning. Klicka på knappen nedan."
+            }
+          },
+          "detail": {
+            "title": "Din Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas för nästa beräkning",
+            "calcHeader": "Baserat på nedanstående beräkning:",
+            "savingsHeader": "Besparingar",
+            "conversionInfo": "Omräknat till {amount} baserat på växelkursen {xchgRate} på {xchgRateDate}",
+            "expensesHeader": "Kostnader",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Tidigare muqammas",
+            "paymentsHeader": "Betalningar för khums:",
+            "error": {
+              "header": "Åh öh, ett fel inträffade!",
+              "desc": "Det verkar som om vi inte kan hitta något om denna khums-beräkning. Det kan antingen bero på att en av våra tjänster inte fungerade, eller kanske du letar efter inaktuella data.<br /><br/ >Prova att uppdatera sidan eller kontakta oss om du tror att det finns fel från vår sida."
+            },
+            "js": {
+              "recordDeleteFailed": "Ett fel uppstod vid försök att ta bort den här posten. Försök igen, eller om felet kvarstår, kom igen senare.",
+              "recordDeleted": "Spela in raderad framgångsrikt",
+              "deleteRecordHeader": "Ta bort post?",
+              "deleteRecordDesc": "Är du säker på att du vill ta bort den här posten? Alla bilagor som läggs till i den här posten kommer också att raderas!"
+            }
+          },
+          "calc": {
+            "subtext": "Fyll i formuläret nedan för att beräkna dina khums. Valfria fält anges. Klicka på info-ikonen nedan för att veta mer om avsnittet.",
+            "blog": "Relaterad: Läs vår blogg om <a href='{href}' target='_blank'>Hur man beräknar khums effektivt<a></a>",
+            "dateRange": "Välj datumintervall:",
+            "dateRangeInfo": "Vanligtvis beräknar människor khums för ett räkenskapsår (t.ex. från april till mars) eller ett kalenderår (januari till december)",
+            "startDate": "Startdatum:",
+            "endDate": "Slutdatum:",
+            "savings": {
+              "header": "Besparingar",
+              "desc": "Lägg till besparingar/saldo på ditt/dina konto(n)",
+              "info": "Du kan lägga till belopp i olika valutor, men khums beräknas så småningom i en enda valuta baserat på dagens växelkurs.",
+              "form": {
+                "label": "Etikett",
+                "placeholder": "T.ex. Lönekonto",
+                "amountLabel": "Belopp",
+                "amountPlaceholder": "Ange belopp",
+                "remarks": "Några kommentarer om denna artikel?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Skulder/skulder/kostnader</strong> – frivillig",
+              "subtext": "Lägg till eventuella omedelbara skulder, skulder eller utgifter",
+              "info": "En del av beloppet från saldot kan vara avdragsgillt för khums. Följ vår länk ovan <strong>Beräkna khums effektivt</strong> för att veta mer.",
+              "form": {
+                "placeholder": "T.ex. Förfallen hyra"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Tidigare Muqammas</strong> - Valfritt",
+              "subtext": "Saldo kvar efter att ha betalat khums under föregående period",
+              "info": "Om du betalar khums för första gången kommer Muqammas att vara NOLL. Om du har sparat tidigare beräkningar här kan du synkronisera för att använda Muqammas från tidigare period."
+            },
+            "mainCurrencyHeader": "Välj huvudvaluta",
+            "mainCurrencyInfo": "Vilken valuta ska vi använda för att beräkna khums?",
+            "customRates": {
+              "header": "<strong>Använda valutakurser</strong>",
+              "subtext": "Dessa valutakurser kommer att användas för beräkningen. Du kan ändra dem så att anpassade värden används.",
+              "info": "När du hanterar historiska data, till exempel när du lägger till beräkningar för khums från över ett år sedan när växelkurserna inte var desamma som idag, kan du själv ställa in anpassade värden för valutakurser.",
+              "rateValuePH": "I {currency}t.ex. 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Beräkna",
+            "pageError": {
+              "header": "Ett fel uppstod",
+              "desc": "Det gick inte att hämta de data som krävs för sidan. Ladda om sidan eller försök igen senare."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Ta bort kommentarer?",
+                "deleteText": "Är du säker på att du vill ta bort kommentarer för det här objektet?"
+              },
+              "choicePrompt": {
+                "addHeader": "Addera",
+                "savings": "Lägg till ny post i Besparingar",
+                "liability": "Lägg till ny post i Skulder"
+              },
+              "rowOptions": {
+                "header": "Vad vill du göra med detta?",
+                "duplicate": "Skapa dubblettpost",
+                "remarks": "Lägg till kommentarer för detta",
+                "delete": "Ta bort denna post"
+              },
+              "apiError": "Ett fel uppstod. Försök igen."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Ja, använd {langName}",
             "Använd {langName}"
           ],
-          "useEngling": "Fortsätt på engelska"
+          "useEngling": "Fortsätt på engelska",
+          "useEnglish": "Fortsätt på engelska",
+          "selectFrom": "Du kan också välja något av följande alternativa språk:"
         },
         "langError": "Ett fel uppstod vid inläsning av översättningarna för {langName}. Försök igen senare."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Du har redan registrerat dig för Ziyarat denna torsdag. Anmäl dig nästa vecka till nästa veckas ziyarat.",
         "jsConfirm": "För att registrera dig för denna begäran måste vi dela dina uppgifter (t.ex. fullständigt namn, kön etc.) med vår tjänsteleverantör. Detta krävs endast för första gången. Vänligen bekräfta att fortsätta.",
         "jsDeclined": "Okej! Kanske senare."
+      },
+      "currencySelector": {
+        "title": "Välj valuta",
+        "baseCurrency": "Basvaluta",
+        "compHasOwnRates": "Sidan som använder denna väljare har sina egna växelkurser som kan ha historiska värden. Därför kommer priser som visas här inte att tillämpas vid urval.",
+        "cancelCta": "Annullera",
+        "doneCta": "Färdig"
+      },
+      "mqmsSelector": {
+        "title": "Välj Muqammas belopp",
+        "dateAdded": "Tillagd: {date}",
+        "cancelCta": "Annullera",
+        "doneCta": "Utvald"
+      },
+      "khumsPaymentRecord": {
+        "title": "Lägg till betalningspost",
+        "paymentFor": "Betalning för {khumsType}",
+        "totalAmount": "Totalt belopp: {amount}",
+        "form": {
+          "amountLabel": "Belopp",
+          "amountPlaceholder": "Ange belopp",
+          "amountErr": "Beloppet kan inte vara mer än Khums",
+          "dateLabel": "Datum för överlåtelse – frivillig",
+          "dateInfo": "Datum då du skickade pengarna",
+          "remarks": "Eventuella anmärkningar?",
+          "remarksInfo": "T.ex. \"Betalas kontant\"",
+          "attach": "Lägga till bilagor",
+          "attachInfo": "Du kan lägga till betalningskvitton (endast bilder) för senare referens"
+        }
       }
     },
     "authPage": {
