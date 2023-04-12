@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Napsauta Alla olevaa Jaa-kuvaketta (näyttää oikealta<strong>) ja</strong> napsauta sitten <strong>Lisää aloitusnäyttöön</strong>. Napsauta \"Tallenna\" lopettaaksesi, ja sitten voit käyttää sovellusta aloitusnäytön pikakuvakkeesta!"
+        },
+        "nonSafari": {
+          "heading": "Bazm toimii paremmin Apple Safarilla",
+          "desc": "Tällä selaimella on rajoitetut ominaisuudet, kun taas Safari-selain antaa sovelluksemme toimia paremmin, mukaan lukien Push-ilmoitukset ja App-pikakuvake.",
+          "subtext": "<strong>Avaa Safari-sovellus</strong> puhelimellasi ja siirry <strong>{url}</strong> saadaksesi paremman kokemuksen.",
+          "skipCta": "Jatka sen sijaan tästä"
         }
       },
       "webFeedback": {
