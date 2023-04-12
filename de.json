@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Ungültige URL. Bitte versuchen Sie es mit einer neuen URL."
+      },
+      "page404": {
+        "title": "Seite nicht gefunden",
+        "desc": "Wir konnten die von Ihnen gesuchte Seite nicht finden!",
+        "ctaLabel": "Zur Startseite"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Anhänge hinzufügen",
           "attachInfo": "Sie können Zahlungsbelege (nur Bilder) zur späteren Verwendung hinzufügen"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Wählen Sie ein Land aus",
+        "searchPH": "Land nach Name oder Vorwahl suchen"
       }
     },
     "authPage": {
