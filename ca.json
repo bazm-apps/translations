@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Imatge penjada amb èxit!",
         "jsImgUploadErr": "La càrrega d'imatges ha fallat. Torneu-ho a provar més tard."
-      }
+      },
+      "unknown": "Desconegut"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Sobre",
-          "jsStatusUpdateFail": "No s'ha pogut actualitzar l'estat. Torneu-ho a provar més tard."
+          "jsStatusUpdateFail": "No s'ha pogut actualitzar l'estat. Torneu-ho a provar més tard.",
+          "statusTextInfo": "Afegiu alguna cosa breu sobre vosaltres mateixos, com ara, qui sou o què feu.",
+          "statusCta": "Afegeix estat | Estat d'actualització",
+          "addCity": "Afegeix ciutat",
+          "gender": "Masculí | Femení",
+          "addGender": "Afegeix sexe",
+          "addBday": "Afegeix aniversari",
+          "addRelation": "Afegeix una relació",
+          "joinDate": "A: {date}"
         },
         "posts": {
           "title": "Llocs",
