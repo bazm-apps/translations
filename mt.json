@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Ikklikkja fuq l-ikona Share (tidher qisha waħda fuq il-lemin) <strong>HAWN TAĦT</strong> u mbagħad ikklikkja <strong>Żid mal-Iskrin tad-Dar</strong>. Ikklikkja \"Issejvja\" biex tispiċċa, u allura tista' taċċessa l-app minn shortcut fuq l-iskrin tad-dar tiegħek!"
+        },
+        "nonSafari": {
+          "heading": "Bazm jaħdem aħjar fuq Apple Safari",
+          "desc": "Dan il-browser għandu karatteristiċi limitati, filwaqt li l-browser Safari jippermetti lill-app tagħna taħdem aħjar, inklużi Push-notifications u App-shortcut.",
+          "subtext": "<strong>Iftaħ l-app Safari</strong> fuq it-telefon tiegħek u mur <strong>{url}</strong> għal esperjenza aħjar.",
+          "skipCta": "Kompli hawn minflok"
         }
       },
       "webFeedback": {
