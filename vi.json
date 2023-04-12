@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Quầy Tasbeeh"
+        },
+        "khumsLabel": "Máy Tính Khums",
+        "khumsDesc": "Tính toán khums của bạn, hoặc thêm bất kỳ khums nào đã trả trước đó. Nó giúp bạn lưu giữ hồ sơ của khums của bạn trong những năm qua.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Tính toán khums hiệu quả",
+              "p1": "<a href='{href}' target='_blank'>Theo dõi blog của chúng tôi</a> để nêu bật các mục chính trong tính toán khums hàng năm.",
+              "p2": "Tuyên bố từ chối trách nhiệm: Blog KHÔNG phải là hướng dẫn. <strong>Thực hiện theo các phán quyết của Marjah của bạn để tính toán Khums</strong>. <span id='blog-info-link' color='primary'>Nhấp vào đây</span> để biết thêm thông tin.",
+              "blogInfo": "Blog trên dựa trên các bài viết từ al-islam.org, sistani.org và các cuộc thảo luận của chúng tôi với một vài học giả khác. Bạn nên luôn luôn tuân theo các phán quyết của Marjah của bạn để tính toán Khums.",
+              "dismissCta": "Không quan tâm"
+            },
+            "title": "Tính toán Khums của bạn",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />để tính toán tiếp theo",
+            "muqammasDesc": "Dựa trên tính toán từ năm gần nhất",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Trả tiền:",
+            "remaining": "Còn lại:",
+            "newMuqammas": "Muqammas mới:",
+            "jsDeleted": "Tính toán của Khums đã xóa thành công!",
+            "prompts": {
+              "delete": {
+                "header": "Xóa Tính toán Khums?",
+                "desc": "Bạn có chắc chắn muốn xóa nội dung này không? Tất cả các tài liệu liên quan cũng sẽ bị xóa!"
+              }
+            },
+            "empty": {
+              "header": "Chưa có khums nào được thêm vào",
+              "subtext": "Bắt đầu bằng cách thêm một phép tính khums. Nhấp vào nút bên dưới."
+            }
+          },
+          "detail": {
+            "title": "Khums của bạn",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas cho tính toán tiếp theo",
+            "calcHeader": "Dựa trên tính toán dưới đây:",
+            "savingsHeader": "Tiết kiệm",
+            "conversionInfo": "Quy đổi sang {amount} dựa trên tỷ giá hối đoái {xchgRate} trên {xchgRateDate}",
+            "expensesHeader": "Phí",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas trước đây",
+            "paymentsHeader": "Thanh toán cho khums:",
+            "error": {
+              "header": "Oh uh, một lỗi đã xảy ra!",
+              "desc": "Có vẻ như chúng ta không thể tìm thấy bất cứ điều gì về tính toán khums này. Có thể là do một trong các dịch vụ của chúng tôi bị trục trặc hoặc có thể bạn đang tìm kiếm dữ liệu cũ.<br /><br/ >Hãy thử làm mới trang hoặc liên hệ với chúng tôi nếu bạn cho rằng có lỗi từ phía chúng tôi."
+            },
+            "js": {
+              "recordDeleteFailed": "Đã xảy ra lỗi khi cố gắng xóa bản ghi này. Vui lòng thử lại hoặc nếu lỗi vẫn tiếp diễn, hãy quay lại sau.",
+              "recordDeleted": "Ghi lại đã xóa thành công",
+              "deleteRecordHeader": "Xóa bản ghi?",
+              "deleteRecordDesc": "Bạn có chắc chắn muốn xóa bản ghi này không? Mọi tệp đính kèm được thêm vào bản ghi này cũng sẽ bị xóa!"
+            }
+          },
+          "calc": {
+            "subtext": "Điền vào mẫu dưới đây để tính toán khums của bạn. Các trường tùy chọn được chỉ định. Nhấp vào biểu tượng thông tin bên dưới để biết thêm về phần này.",
+            "blog": "Liên quan: Đọc blog của chúng tôi trên <a href='{href}' target='_blank'>Cách tính toán khums hiệu quả<a></a>",
+            "dateRange": "Chọn phạm vi ngày:",
+            "dateRangeInfo": "Thông thường, mọi người tính toán khums cho một năm tài chính (ví dụ: từ tháng Tư đến tháng Ba) hoặc một năm dương lịch (tháng Giêng đến tháng Mười Hai)",
+            "startDate": "Ngày bắt đầu:",
+            "endDate": "Ngày kết thúc:",
+            "savings": {
+              "header": "Tiết kiệm",
+              "desc": "Thêm tiền tiết kiệm/số dư trên (các) tài khoản của bạn",
+              "info": "Bạn có thể thêm số tiền bằng các loại tiền tệ khác nhau, nhưng khums cuối cùng được tính bằng đơn vị tiền tệ duy nhất dựa trên tỷ giá hối đoái ngày nay.",
+              "form": {
+                "label": "Nhãn",
+                "placeholder": "Ví dụ: Tài khoản lương",
+                "amountLabel": "Lượng",
+                "amountPlaceholder": "Nhập số tiền",
+                "remarks": "Bất kỳ nhận xét về mặt hàng này?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Nợ / Nợ / Chi phí</strong> - Tùy chọn",
+              "subtext": "Thêm bất kỳ khoản nợ, nợ phải trả hoặc chi phí ngay lập tức",
+              "info": "Một số tiền từ số dư có thể được khấu trừ cho khums. Theo liên kết của chúng tôi ở trên <strong>Tính toán khums hiệu quả</strong> để biết thêm.",
+              "form": {
+                "placeholder": "Ví dụ: Tiền thuê đến hạn"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas trước</strong> — Tùy chọn",
+              "subtext": "Số dư còn lại sau khi thanh toán trong kỳ trước",
+              "info": "Nếu bạn trả tiền khums lần đầu tiên, Muqammas sẽ KHÔNG. Nếu bạn đã lưu các phép tính trước đó ở đây, bạn có thể đồng bộ hóa để sử dụng Muqammas từ khoảng thời gian trước đó."
+            },
+            "mainCurrencyHeader": "Chọn đơn vị tiền tệ chính",
+            "mainCurrencyInfo": "Chúng ta nên sử dụng loại tiền tệ nào để tính toán khums?",
+            "customRates": {
+              "header": "<strong>Sử dụng tỷ giá hối đoái</strong>",
+              "subtext": "Các tỷ giá hối đoái tiền tệ này sẽ được sử dụng để tính toán. Bạn có thể thay đổi chúng để sử dụng các giá trị tùy chỉnh.",
+              "info": "Khi xử lý dữ liệu lịch sử, chẳng hạn như khi thêm tính toán cho tỷ giá hối đoái từ hơn một năm trước khi tỷ giá hối đoái không giống như hiện nay, bạn có thể tự đặt giá trị tùy chỉnh cho tỷ giá hối đoái.",
+              "rateValuePH": "Trong {currency}, ví dụ: 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Tính toán",
+            "pageError": {
+              "header": "Đã xảy ra lỗi",
+              "desc": "Không lấy được dữ liệu cần thiết cho trang. Vui lòng tải lại trang hoặc thử lại sau."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Xóa nhận xét?",
+                "deleteText": "Bạn có chắc chắn muốn xóa nhận xét cho mục này không?"
+              },
+              "choicePrompt": {
+                "addHeader": "Thêm",
+                "savings": "Thêm mục nhập mới vào Tiết kiệm",
+                "liability": "Thêm mục nhập mới vào Nợ phải trả"
+              },
+              "rowOptions": {
+                "header": "Bạn muốn làm gì với điều này?",
+                "duplicate": "Tạo mục nhập trùng lặp",
+                "remarks": "Thêm nhận xét cho điều này",
+                "delete": "Xóa mục này"
+              },
+              "apiError": "Đã xảy ra lỗi. Vui lòng thử lại."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Có, sử dụng {langName}",
             "Sử dụng {langName}"
           ],
-          "useEngling": "Tiếp tục bằng tiếng Anh"
+          "useEngling": "Tiếp tục bằng tiếng Anh",
+          "useEnglish": "Tiếp tục bằng tiếng Anh",
+          "selectFrom": "Hoặc, chọn từ một trong các ngôn ngữ thay thế sau:"
         },
         "langError": "Đã xảy ra lỗi khi tải bản dịch cho {langName}. Vui lòng thử lại sau."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Bạn đã đăng ký Ziyarat vào thứ Năm tuần này. Đăng ký vào tuần tới cho ziyarat của tuần tới.",
         "jsConfirm": "Để đăng ký yêu cầu này, chúng tôi cần chia sẻ thông tin chi tiết của bạn (ví dụ: tên đầy đủ, giới tính, v.v.) với nhà cung cấp dịch vụ của chúng tôi. Điều này chỉ được yêu cầu cho lần đầu tiên. Vui lòng xác nhận để tiếp tục.",
         "jsDeclined": "Ok! Có lẽ sau này."
+      },
+      "currencySelector": {
+        "title": "Chọn đơn vị tiền tệ",
+        "baseCurrency": "Đồng tiền yết giá",
+        "compHasOwnRates": "Trang sử dụng bộ chọn này có tỷ giá hối đoái riêng có thể có các giá trị lịch sử. Do đó, mức giá hiển thị ở đây sẽ không được áp dụng khi lựa chọn.",
+        "cancelCta": "Hủy",
+        "doneCta": "Thực hiện"
+      },
+      "mqmsSelector": {
+        "title": "Chọn số lượng Muqammas",
+        "dateAdded": "Thêm vào: {date}",
+        "cancelCta": "Hủy",
+        "doneCta": "Lựa"
+      },
+      "khumsPaymentRecord": {
+        "title": "Thêm hồ sơ thanh toán",
+        "paymentFor": "Thanh toán cho {khumsType}",
+        "totalAmount": "Tổng số tiền: {amount}",
+        "form": {
+          "amountLabel": "Lượng",
+          "amountPlaceholder": "Nhập số tiền",
+          "amountErr": "Số tiền không thể nhiều hơn Khums",
+          "dateLabel": "Ngày chuyển — Tùy chọn",
+          "dateInfo": "Ngày bạn gửi tiền",
+          "remarks": "Ghi chú, nếu có?",
+          "remarksInfo": "Ví dụ: \"Thanh toán bằng tiền mặt\"",
+          "attach": "Thêm tệp đính kèm",
+          "attachInfo": "Bạn có thể thêm biên lai thanh toán (chỉ hình ảnh) để tham khảo sau"
+        }
       }
     },
     "authPage": {
