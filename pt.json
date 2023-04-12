@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL inválido. Por favor, tente com uma nova URL."
+      },
+      "page404": {
+        "title": "Página não encontrada",
+        "desc": "Não conseguimos encontrar a página que você está procurando!",
+        "ctaLabel": "Goto Início"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Adicionar anexos",
           "attachInfo": "Você pode adicionar recibos de pagamento (somente imagens) para referência posterior"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Selecione o País",
+        "searchPH": "Pesquisar país por nome ou código de discagem"
       }
     },
     "authPage": {
