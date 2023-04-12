@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Kaunter Tasbeeh"
+        },
+        "khumsLabel": "Kalkulator Khums",
+        "khumsDesc": "Kira khums anda, atau tambah sebarang khums yang dibayar sebelum ini. Ia membantu anda menyimpan rekod khums anda selama bertahun-tahun.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Kira khums dengan cekap",
+              "p1": "<a href='{href}' target='_blank'>Ikuti blog kami</a> yang menyerlahkan item penting dalam pengiraan khums setiap tahun.",
+              "p2": "Penafian: Blog BUKAN panduan. <strong>Ikut ketetapan Marjah anda untuk pengiraan Khums</strong>. <span id='blog-info-link' color='primary'>Klik di sini</span> untuk maklumat lanjut.",
+              "blogInfo": "Blog di atas adalah berdasarkan artikel dari al-islam.org, sistani.org, dan perbincangan kami dengan beberapa ulama lain. Anda harus sentiasa mengikut ketetapan oleh Marjah anda untuk pengiraan Khums.",
+              "dismissCta": "Tidak berminat"
+            },
+            "title": "Pengiraan Khums Anda",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />untuk pengiraan seterusnya",
+            "muqammasDesc": "Berdasarkan pengiraan dari tahun terkini",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Dibayar:",
+            "remaining": "Baki:",
+            "newMuqammas": "Muqammas baharu:",
+            "jsDeleted": "Pengiraan Khums berjaya dipadamkan!",
+            "prompts": {
+              "delete": {
+                "header": "Padam Pengiraan Khums?",
+                "desc": "Adakah anda pasti mahu memadamkannya? Semua dokumen yang berkaitan juga akan dipadamkan!"
+              }
+            },
+            "empty": {
+              "header": "Tiada khums ditambah lagi",
+              "subtext": "Mulakan dengan menambah pengiraan khums. Klik pada butang di bawah."
+            }
+          },
+          "detail": {
+            "title": "Khums anda",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas untuk pengiraan seterusnya",
+            "calcHeader": "Berdasarkan pengiraan di bawah:",
+            "savingsHeader": "Simpanan",
+            "conversionInfo": "Ditukar kepada {amount} berdasarkan kadar pertukaran {xchgRate} pada {xchgRateDate}",
+            "expensesHeader": "Perbelanjaan",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas terdahulu",
+            "paymentsHeader": "Bayaran yang dibuat untuk khums:",
+            "error": {
+              "header": "Oh uh, ralat berlaku!",
+              "desc": "Nampaknya kita tidak dapat mencari apa-apa mengenai pengiraan khums ini. Ini mungkin sama ada kerana salah satu perkhidmatan kami tidak berfungsi, atau mungkin anda mencari data basi.<br /><br/ >Cuba segarkan semula halaman atau hubungi kami jika anda rasa terdapat ralat di pihak kami."
+            },
+            "js": {
+              "recordDeleteFailed": "Ralat berlaku semasa cuba memadamkan rekod ini. Sila cuba lagi, atau jika ralat berterusan, datang lagi kemudian.",
+              "recordDeleted": "Rekod dipadam dengan teliti",
+              "deleteRecordHeader": "Padamkan rekod?",
+              "deleteRecordDesc": "Adakah anda pasti mahu memadamkan rekod ini? Sebarang lampiran yang ditambahkan pada rekod ini juga akan dipadamkan!"
+            }
+          },
+          "calc": {
+            "subtext": "Isi borang di bawah untuk mengira khums anda. Medan pilihan ditunjukkan. Klik ikon maklumat di bawah untuk mengetahui lebih lanjut mengenai bahagian.",
+            "blog": "Berkaitan: Baca blog kami tentang <a href='{href}' target='_blank'>Cara mengira khums dengan cekap<a></a>",
+            "dateRange": "Pilih julat tarikh:",
+            "dateRangeInfo": "Biasanya, orang mengira khums untuk tahun kewangan (contohnya, dari April hingga Mac) atau tahun Kalendar (Jan hingga Dis)",
+            "startDate": "Tarikh mula:",
+            "endDate": "Tarikh tamat:",
+            "savings": {
+              "header": "Simpanan",
+              "desc": "Tambah simpanan/baki di seluruh akaun anda",
+              "info": "Anda boleh menambah jumlah dalam mata wang yang berbeza, tetapi khums akhirnya dikira dalam mata wang tunggal berdasarkan kadar pertukaran hari ini.",
+              "form": {
+                "label": "Label",
+                "placeholder": "Contohnya, akaun Gaji",
+                "amountLabel": "Jumlah",
+                "amountPlaceholder": "Masukkan Amaun",
+                "remarks": "Apa-apa kenyataan mengenai item ini?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Hutang/Liabiliti/Perbelanjaan</strong> — Pilihan",
+              "subtext": "Tambah sebarang hutang, liabiliti atau perbelanjaan serta-merta",
+              "info": "Sesetengah amaun dari baki boleh ditolak untuk khums. Ikuti pautan kami di atas <strong>Kira khums dengan cekap</strong> untuk mengetahui lebih lanjut.",
+              "form": {
+                "placeholder": "Cth., Sewa perlu dibayar"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas Terdahulu</strong> — Pilihan",
+              "subtext": "Baki ditinggalkan selepas membayar khums dalam tempoh sebelumnya",
+              "info": "Jika anda membayar khum buat kali pertama, Muqammas ialah SIFAR. Jika pengiraan anda telah disimpan di sini, anda boleh menyegerakkan untuk menggunakan Muqammas dari tempoh sebelumnya."
+            },
+            "mainCurrencyHeader": "Pilih mata wang utama",
+            "mainCurrencyInfo": "Mata wang mana yang harus kita gunakan untuk mengira khums?",
+            "customRates": {
+              "header": "<strong>Menggunakan kadar pertukaran</strong>",
+              "subtext": "Kadar pertukaran mata wang ini akan digunakan untuk pengiraan. Anda boleh mengubahnya untuk menggunakan nilai tersuai.",
+              "info": "Apabila berurusan dengan data sejarah, seperti ketika menambah pengiraan untuk khums dari lebih setahun yang lalu apabila kadar pertukaran tidak sama seperti hari ini, anda boleh menetapkan nilai tersuai untuk kadar pertukaran sendiri.",
+              "rateValuePH": "Dalam {currency}, contohnya, 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Mengira",
+            "pageError": {
+              "header": "Ralat berlaku",
+              "desc": "Gagal mendapatkan data yang diperlukan untuk halaman tersebut. Sila muatkan semula halaman atau cuba lagi kemudian."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Padamkan kata-kata?",
+                "deleteText": "Adakah anda pasti mahu memadamkan kenyataan untuk item ini?"
+              },
+              "choicePrompt": {
+                "addHeader": "Menambah",
+                "savings": "Tambah kemasukan baru ke Simpanan",
+                "liability": "Tambah entri baru kepada Liabiliti"
+              },
+              "rowOptions": {
+                "header": "Apa yang anda mahu lakukan dengan ini?",
+                "duplicate": "Buat entri pendua",
+                "remarks": "Tambah kenyataan untuk ini",
+                "delete": "Memadamkan entri ini"
+              },
+              "apiError": "Ralat berlaku. Sila cuba lagi."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Ya, gunakan {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Teruskan dalam Bahasa Inggeris"
+          "useEngling": "Teruskan dalam Bahasa Inggeris",
+          "useEnglish": "Teruskan dalam Bahasa Inggeris",
+          "selectFrom": "Atau, pilih salah satu bahasa alternatif berikut:"
         },
         "langError": "Ralat berlaku semasa memuatkan terjemahan untuk {langName}. Sila cuba lagi kemudian."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Anda telah pun mendaftar untuk Ziyarat khamis ini. Daftar minggu depan untuk ziyarat minggu depan.",
         "jsConfirm": "Untuk mendaftar permintaan ini, kami perlu berkongsi maklumat anda (cth, nama penuh, jantina, dll.) dengan penyedia perkhidmatan kami. Ini diperlukan buat kali pertama sahaja. Sila sahkan untuk meneruskan.",
         "jsDeclined": "Okay! Mungkin kemudian."
+      },
+      "currencySelector": {
+        "title": "Pilih matawang",
+        "baseCurrency": "Mata Wang Asas",
+        "compHasOwnRates": "Halaman yang menggunakan pemilih ini mempunyai kadar pertukaran sendiri yang mungkin mempunyai nilai sejarah. Oleh itu, kadar yang ditunjukkan di sini tidak akan digunakan pada pemilihan.",
+        "cancelCta": "Batal",
+        "doneCta": "Dilakukan"
+      },
+      "mqmsSelector": {
+        "title": "Pilih jumlah Muqammas",
+        "dateAdded": "Ditambah pada: {date}",
+        "cancelCta": "Batal",
+        "doneCta": "Pilih"
+      },
+      "khumsPaymentRecord": {
+        "title": "Tambah Rekod Pembayaran",
+        "paymentFor": "Bayaran untuk {khumsType}",
+        "totalAmount": "Jumlah keseluruhan: {amount}",
+        "form": {
+          "amountLabel": "Jumlah",
+          "amountPlaceholder": "Masukkan Amaun",
+          "amountErr": "Amaun tidak boleh melebihi Khums",
+          "dateLabel": "Tarikh pemindahan — Pilihan",
+          "dateInfo": "Tarikh apabila anda menghantar wang",
+          "remarks": "Kenyataan, jika ada?",
+          "remarksInfo": "Contohnya, 'Dibayar secara tunai'",
+          "attach": "Menambah lampiran",
+          "attachInfo": "Anda boleh menambah resit pembayaran (imej sahaja) untuk rujukan kemudian"
+        }
       }
     },
     "authPage": {
