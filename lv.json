@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Attēls veiksmīgi augšupielādēts!",
         "jsImgUploadErr": "Attēlu augšupielāde neizdevās. Lūdzu, vēlāk mēģiniet vēlreiz."
-      }
+      },
+      "unknown": "Nepazīstams"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Par",
-          "jsStatusUpdateFail": "Neizdevās atjaunināt statusu. Lūdzu, vēlāk mēģiniet vēlreiz."
+          "jsStatusUpdateFail": "Neizdevās atjaunināt statusu. Lūdzu, vēlāk mēģiniet vēlreiz.",
+          "statusTextInfo": "Pievienojiet kaut ko īsu par sevi, piemēram, kas jūs esat vai ko jūs darāt!",
+          "statusCta": "Pievienot statusu | Atjaunināšanas statuss",
+          "addCity": "Pievienot pilsētu",
+          "gender": "Vīrietis | Sieviete",
+          "addGender": "Pievienot dzimumu",
+          "addBday": "Pievienot dzimšanas dienu",
+          "addRelation": "Relāciju pievienošana",
+          "joinDate": "Pievienojās: {date}"
         },
         "posts": {
           "title": "Posts",
