@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klicka på ikonen Dela (ser ut som en till höger) <strong>NEDAN</strong> och klicka sedan på <strong>Lägg till på startskärmen</strong>. Klicka på \"Spara\" för att avsluta, och sedan kan du komma åt appen från genvägen på din startskärm!"
+        },
+        "nonSafari": {
+          "heading": "Bazm fungerar bättre på Apple Safari",
+          "desc": "Den här webbläsaren har begränsade funktioner, medan Safari-webbläsaren gör det möjligt för vår app att prestera bättre, inklusive push-meddelanden och appgenväg.",
+          "subtext": "<strong>Öppna Safari-appen</strong> på din telefon och gå till <strong>{url}</strong> för en bättre upplevelse.",
+          "skipCta": "Fortsätt här istället"
         }
       },
       "webFeedback": {
