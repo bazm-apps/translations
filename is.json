@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Ógild vefslóð. Vinsamlegast reyndu með nýja vefslóð."
+      },
+      "page404": {
+        "title": "Síða fannst ekki",
+        "desc": "Við fundum ekki síðuna sem þú ert að leita að!",
+        "ctaLabel": "Goto Home"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Bæta við viðhengi",
           "attachInfo": "Hægt er að bæta við greiðslukvittunum (aðeins myndum) til síðari tilvísunar"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Veldu land",
+        "searchPH": "Leita land eftir nafni eða hringikóða"
       }
     },
     "authPage": {
