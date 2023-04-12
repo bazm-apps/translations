@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "タスビーカウンター"
+        },
+        "khumsLabel": "クムス計算機",
+        "khumsDesc": "クムを計算するか、以前に支払ったクムを追加します。それは何年にもわたってあなたのクムの記録管理に役立ちます。",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "ブログ:クムを効率的に計算する",
+              "p1": "毎年クムの計算における重要な項目を強調する<a href='{href}' target='_blank'>私たちのブログに従ってください</a>。",
+              "p2": "免責事項:ブログはガイドではありません。 <strong>クムス計算のためのあなたのマルジャの判決に従ってください</strong>。詳細については <span id='blog-info-link' color='primary'>、ここをクリックしてください</span> 。",
+              "blogInfo": "上記のブログは、al-islam.org、sistani.org、および他の数人の学者との議論からの記事に基づいています。あなたは常にクムス計算のためのあなたのマルジャによる判決に従うべきです。",
+              "dismissCta": "興味がない"
+            },
+            "title": "あなたのクムス計算",
+            "nextMuqammasHeading": "<strong>ムカンマ</strong><br />次の計算のために",
+            "muqammasDesc": "直近の計算に基づく",
+            "sahmeSadat": "サーム・エ・サダト",
+            "sahmeImam": "サーム・エ・イマーム",
+            "paid": "有料：",
+            "remaining": "残り：",
+            "newMuqammas": "新しいムカンマ:",
+            "jsDeleted": "クムスの計算が正常に削除されました!",
+            "prompts": {
+              "delete": {
+                "header": "クムス計算を削除しますか?",
+                "desc": "これを削除してもよろしいですか?関連ドキュメントもすべて削除されます!"
+              }
+            },
+            "empty": {
+              "header": "まだクムは追加されていません",
+              "subtext": "クムス計算を追加することから始めます。下のボタンをクリックしてください。"
+            }
+          },
+          "detail": {
+            "title": "あなたのクムス",
+            "header": "クムス",
+            "mqmsInfo": "次の計算のためのムカンマ",
+            "calcHeader": "以下の計算に基づく:",
+            "savingsHeader": "貯蓄",
+            "conversionInfo": "{xchgRateDate}の為替レートに基づく{xchgRate}{amount}に換算",
+            "expensesHeader": "経費",
+            "mqmsHeader": "ムカンマ",
+            "prevMqms": "以前のムカンマ",
+            "paymentsHeader": "クムの支払い:",
+            "error": {
+              "header": "ああ、エラーが発生しました!",
+              "desc": "このクムス計算については何も見つからないようです。サービスの1つが誤動作したか、古いデータを探している可能性があります。<br /><br/ >ページを更新するか、当社の側にエラーがあると思われる場合はお問い合わせください。"
+            },
+            "js": {
+              "recordDeleteFailed": "このレコードの削除中にエラーが発生しました。もう一度やり直すか、エラーが続く場合は、後でもう一度やり直してください。",
+              "recordDeleted": "レコードが正常に削除されました",
+              "deleteRecordHeader": "レコードを削除しますか?",
+              "deleteRecordDesc": "このレコードを削除してもよろしいですか?このレコードに追加された添付ファイルも削除されます。"
+            }
+          },
+          "calc": {
+            "subtext": "以下のフォームに記入して、クムを計算してください。オプションのフィールドが示されます。セクションの詳細については、下の情報アイコンをクリックしてください。",
+            "blog": "関連:に関するブログを読む <a href='{href}' target='_blank'>クムを効率的に<a>計算する方法</a>",
+            "dateRange": "日付範囲を選択:",
+            "dateRangeInfo": "通常、人々は会計年度(例えば、4月から3月まで)または暦年(1月から12月)のクムを計算します",
+            "startDate": "受講開始日:",
+            "endDate": "終了日:",
+            "savings": {
+              "header": "貯蓄",
+              "desc": "アカウント全体で貯蓄/残高を追加する",
+              "info": "異なる通貨で金額を追加できますが、khumsは最終的に今日の為替レートに基づいて単一通貨で計算されます。",
+              "form": {
+                "label": "ラベル",
+                "placeholder": "例:給与口座",
+                "amountLabel": "量",
+                "amountPlaceholder": "金額を入力",
+                "remarks": "このアイテムについて何かコメントはありますか?"
+              }
+            },
+            "expenses": {
+              "header": "負債<strong>/負債/費用</strong> — オプション",
+              "subtext": "即時の債務、負債、または費用を追加する",
+              "info": "残高からの金額の一部は、クムの控除対象となる場合があります。上記のリンクをたどってください <strong>クムを効率的に計算する</strong> 詳細を知るために。",
+              "form": {
+                "placeholder": "例:家賃未払い"
+              }
+            },
+            "mqms": {
+              "header": "<strong>前 ムカンマ</strong> — オプション",
+              "subtext": "前の期間にクムを支払った後に残った残高",
+              "info": "初めてクムを支払う場合、ムカマはゼロになります。以前の計算をここに保存した場合は、同期して以前の期間のMuqammaを使用できます。"
+            },
+            "mainCurrencyHeader": "主要通貨を選択",
+            "mainCurrencyInfo": "クムの計算にはどの通貨を使用する必要がありますか?",
+            "customRates": {
+              "header": "<strong>為替レートの使用</strong>",
+              "subtext": "これらの為替レートが計算に使用されます。カスタム値を使用するように変更できます。",
+              "info": "為替レートが今日と同じではなかった1年以上前のクムの計算を追加する場合など、履歴データを扱う場合は、為替レートのカスタム値を自分で設定できます。",
+              "rateValuePH": "{currency}では、例えば、1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "計算する",
+            "pageError": {
+              "header": "エラーが発生しました",
+              "desc": "ページに必要なデータを取得できませんでした。ページを再読み込みするか、後でもう一度やり直してください。"
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "コメントを削除しますか?",
+                "deleteText": "このアイテムの注釈を削除してもよろしいですか?"
+              },
+              "choicePrompt": {
+                "addHeader": "足す",
+                "savings": "貯蓄に新しいエントリを追加する",
+                "liability": "負債に新しいエントリを追加する"
+              },
+              "rowOptions": {
+                "header": "これで何をしたいですか?",
+                "duplicate": "重複エントリの作成",
+                "remarks": "これにコメントを追加する",
+                "delete": "このエントリを削除する"
+              },
+              "apiError": "エラーが発生しました。もう一度やり直してください。"
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "はい、{langName} を使用してください。",
             "{langName} を使用する"
           ],
-          "useEngling": "英語で続ける"
+          "useEngling": "英語で続ける",
+          "useEnglish": "英語で続ける",
+          "selectFrom": "または、次のいずれかの代替言語を選択します。"
         },
         "langError": "{langName} の翻訳の読み込み中にエラーが発生しました。しばらくしてからもう一度お試しください。"
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "あなたはすでに今週の木曜日にZiyaratに登録しています。来週のジヤラットに来週登録してください。",
         "jsConfirm": "このリクエストに登録するには、お客様の詳細(フルネーム、性別など)をサービスプロバイダーと共有する必要があります。これは初めての場合にのみ必要です。続行することを親切に確認してください。",
         "jsDeclined": "大丈夫です！たぶん後で。"
+      },
+      "currencySelector": {
+        "title": "通貨を選択",
+        "baseCurrency": "基本通貨",
+        "compHasOwnRates": "このセレクターを使用するページには、履歴値を持つ可能性のある独自の為替レートがあります。したがって、ここに示す料金は選択には適用されません。",
+        "cancelCta": "キャンセル",
+        "doneCta": "完成です"
+      },
+      "mqmsSelector": {
+        "title": "ムカマスの量を選択",
+        "dateAdded": "ここに追加: {date}",
+        "cancelCta": "キャンセル",
+        "doneCta": "選ぶ"
+      },
+      "khumsPaymentRecord": {
+        "title": "支払レコードの追加",
+        "paymentFor": "{khumsType}の支払い",
+        "totalAmount": "合計金額: {amount}",
+        "form": {
+          "amountLabel": "量",
+          "amountPlaceholder": "金額を入力",
+          "amountErr": "金額はクムスを超えることはできません",
+          "dateLabel": "転送日 — オプション",
+          "dateInfo": "送金した日付",
+          "remarks": "備考、もしあれば?",
+          "remarksInfo": "例:「現金で支払われる」",
+          "attach": "添付ファイルの追加",
+          "attachInfo": "後で参照できるように、支払い領収書(画像のみ)を追加できます"
+        }
       }
     },
     "authPage": {
