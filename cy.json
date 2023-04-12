@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Cownter Tasbeeh"
+        },
+        "khumsLabel": "Cyfrifiannell Khums",
+        "khumsDesc": "Cyfrifa dy khums, neu ychwanegwch unrhyw khums a dalwyd yn flaenorol. Mae'n eich helpu gyda chadw cofnodion o'ch khums dros y blynyddoedd.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Cyfrifwch khums yn effeithlon",
+              "p1": "<a href='{href}' target='_blank'>Dilynwch ein blog</a> sy'n tynnu sylw at eitemau allweddol wrth gyfrifo khums bob blwyddyn.",
+              "p2": "Ymwadiad: NID canllaw yw'r blog. <strong>Dilynwch ddyfarniadau eich Marjah ar gyfer cyfrifiad Khums</strong>. <span id='blog-info-link' color='primary'>Cliciwch yma</span> am fwy o wybodaeth.",
+              "blogInfo": "Mae'r blog uchod yn seiliedig ar erthyglau gan al-islam.org, sistani.org, a'n trafodaethau gydag ambell ysgolhaig arall. Dylech bob amser ddilyn y dyfarniadau gan eich Marjah ar gyfer cyfrifiad Khums.",
+              "dismissCta": "Dim diddordeb"
+            },
+            "title": "Eich Cyfrifiadau Khums",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />ar gyfer cyfrifiad nesaf",
+            "muqammasDesc": "Yn seiliedig ar gyfrifiadau o'r flwyddyn ddiweddaraf",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Talu:",
+            "remaining": "Gweddill:",
+            "newMuqammas": "Muqammas newydd:",
+            "jsDeleted": "Cyfrifiad Khums wedi'i ddileu'n llwyddiannus!",
+            "prompts": {
+              "delete": {
+                "header": "Dileu Cyfrifiad Khums?",
+                "desc": "Ydych chi'n siŵr eich bod chi am ddileu hyn? Bydd yr holl ddogfennau cysylltiedig yn cael eu dileu hefyd!"
+              }
+            },
+            "empty": {
+              "header": "Dim khums wedi eu hychwanegu eto",
+              "subtext": "Dechreuwch drwy ychwanegu cyfrifiad khums. Cliciwch ar y botwm isod."
+            }
+          },
+          "detail": {
+            "title": "Eich Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas ar gyfer cyfrifiad nesaf",
+            "calcHeader": "Yn seiliedig ar gyfrifiad isod:",
+            "savingsHeader": "Arbedion",
+            "conversionInfo": "Wedi'i drosi i {amount} yn seiliedig ar gyfradd cyfnewid {xchgRate} ar {xchgRateDate}",
+            "expensesHeader": "Treuliau",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas blaenorol",
+            "paymentsHeader": "Taliadau a wnaed ar gyfer khums:",
+            "error": {
+              "header": "O uh, digwyddodd gwall!",
+              "desc": "Mae'n edrych fel na allwn ddod o hyd i unrhyw beth am y khums-calculation hwn. Gallai fod naill ai oherwydd bod un o'n gwasanaethau wedi camweithredu, neu efallai eich bod chi'n chwilio am ddata grisiau.<br /><br/ >Ceisiwch adnewyddu'r dudalen, neu estyn allan atom os ydych chi'n meddwl bod gwall ar ein rhan."
+            },
+            "js": {
+              "recordDeleteFailed": "Digwyddodd camgymeriad wrth geisio dileu'r cofnod hwn. Ceisiwch eto, neu os yw'r gwall yn parhau, dewch eto yn ddiweddarach.",
+              "recordDeleted": "Record wedi ei ddileu'n succesful",
+              "deleteRecordHeader": "Dileu record?",
+              "deleteRecordDesc": "Ydych chi'n siŵr eich bod am ddileu'r cofnod hwn? Bydd unrhyw atodiadau a ychwanegir at y cofnod hwn yn cael eu dileu hefyd!"
+            }
+          },
+          "calc": {
+            "subtext": "Llenwch y ffurflen isod i gyfrifo'ch khums. Nodir meysydd dewisol. Cliciwch info-icon isod i wybod mwy am yr adran.",
+            "blog": "Cysylltiedig: Darllenwch ein blog ar <a href='{href}' target='_blank'>Sut i gyfrifo khums yn<a> effeithlon</a>",
+            "dateRange": "Dewis ystod dyddiadau:",
+            "dateRangeInfo": "Fel arfer, mae pobl yn cyfrifo khums am flwyddyn ariannol (ee, o Ebrill i Fawrth) neu flwyddyn Galendr (Ionawr i Rhag)",
+            "startDate": "Dyddiad cychwyn:",
+            "endDate": "Dyddiad gorffen:",
+            "savings": {
+              "header": "Arbedion",
+              "desc": "Ychwanegu arbedion/cydbwysedd ar draws eich cyfrif(au)",
+              "info": "Gallwch ychwanegu symiau mewn gwahanol arian, ond cyfrifir khums yn y pen draw mewn arian sengl yn seiliedig ar gyfradd gyfnewid heddiw.",
+              "form": {
+                "label": "Label",
+                "placeholder": "E.e., cyfrif cyflog",
+                "amountLabel": "Swm",
+                "amountPlaceholder": "Rhowch Swm",
+                "remarks": "Unrhyw sylwadau am yr eitem hon?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Dyledion/Rhwymedigaethau/Treuliau</strong> — dewisol",
+              "subtext": "Ychwanegu unrhyw ddyledion, rhwymedigaethau neu dreuliau ar unwaith",
+              "info": "Gall rhywfaint o'r swm o gydbwysedd gael ei ddidynnu ar gyfer khums. Dilynwch ein dolen uchod <strong>Calculate khums yn effeithlon</strong> i wybod mwy.",
+              "form": {
+                "placeholder": "E.e., Rhent yn ddyledus"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas blaenorol</strong> — dewisol",
+              "subtext": "Balans wedi'i adael ar ôl talu khums yn y cyfnod blaenorol",
+              "info": "Os ydych chi'n talu khums am y tro cyntaf, bydd Muqammas yn ZERO. Os oes gennych gyfrifiadau blaenorol wedi'u cadw yma, gallwch sync i ddefnyddio Muqammas o'r cyfnod cynharach."
+            },
+            "mainCurrencyHeader": "Dewis prif arian cyfred",
+            "mainCurrencyInfo": "Pa arian cyfred dylen ni ei ddefnyddio i gyfrifo khums?",
+            "customRates": {
+              "header": "<strong>Defnyddio cyfraddau cyfnewid</strong>",
+              "subtext": "Bydd y cyfraddau cyfnewid arian hyn yn cael eu defnyddio i'w cyfrifo. Gallwch eu newid i ddefnyddio gwerthoedd arferiad.",
+              "info": "Wrth ymdrin â data hanesyddol, megis wrth ychwanegu cyfrifiad ar gyfer khums o dros flwyddyn yn ôl pan nad oedd y cyfraddau cyfnewid yr un fath â heddiw, gallwch osod gwerthoedd arferol ar gyfer cyfraddau cyfnewid eich hun.",
+              "rateValuePH": "Yn {currency}, e.e., 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Gyfrifo",
+            "pageError": {
+              "header": "Digwyddodd camgymeriad",
+              "desc": "Wedi methu â chael y data sydd ei angen ar gyfer y dudalen. Cofiwch ail-lwytho'r dudalen neu rhowch gynnig arni eto nes ymlaen."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Dileu sylwadau?",
+                "deleteText": "Ydych chi'n siŵr eich bod chi am ddileu sylwadau ar gyfer yr eitem hon?"
+              },
+              "choicePrompt": {
+                "addHeader": "Adio",
+                "savings": "Ychwanegu mynediad newydd i Gynilion",
+                "liability": "Ychwanegu mynediad newydd at Rwymedigaethau"
+              },
+              "rowOptions": {
+                "header": "Beth ydych chi am ei wneud â hyn?",
+                "duplicate": "Creu cofnod dyblyg",
+                "remarks": "Ychwanegu sylwadau ar gyfer hyn",
+                "delete": "Dileu'r cofnod hwn"
+              },
+              "apiError": "Digwyddodd gwall. Rhowch gynnig arni eto."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Ie, defnyddiwch {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Parhau yn Saesneg"
+          "useEngling": "Parhau yn Saesneg",
+          "useEnglish": "Parhau yn Saesneg",
+          "selectFrom": "Neu, dewiswch o un o'r ieithoedd eilrif canlynol:"
         },
         "langError": "Digwyddodd gwall wrth lwytho'r cyfieithiadau ar gyfer {langName}. Ceisiwch eto nes ymlaen."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Rydych eisoes wedi cofrestru ar gyfer Ziyarat ddydd Iau hwn. Cofrestrwch wythnos nesaf ar gyfer ziyarat yr wythnos nesaf.",
         "jsConfirm": "Er mwyn cofrestru ar gyfer y cais hwn, mae angen i ni rannu eich manylion (ee, enw llawn, rhyw, ac ati) gyda'n darparwr gwasanaeth. Mae angen hyn am y tro cyntaf yn unig. Cadarnhewch yn garedig i fynd ymlaen.",
         "jsDeclined": "Ocê! Efallai nes 'mlaen."
+      },
+      "currencySelector": {
+        "title": "Dewis arian cyfred",
+        "baseCurrency": "Arian cyfred sylfaen",
+        "compHasOwnRates": "Mae gan y dudalen sy'n defnyddio'r detholwr hwn gyfraddau cyfnewid ei hun a allai fod â gwerthoedd hanesyddol. Felly, ni fydd cyfraddau a ddangosir yma yn cael eu cymhwyso ar ddetholiad.",
+        "cancelCta": "Canslo",
+        "doneCta": "Wneud"
+      },
+      "mqmsSelector": {
+        "title": "Dewis Muqammas swm",
+        "dateAdded": "Ychwanegodd ar: {date}",
+        "cancelCta": "Canslo",
+        "doneCta": "Dewis"
+      },
+      "khumsPaymentRecord": {
+        "title": "Ychwanegu cofnod taliad",
+        "paymentFor": "Talu am {khumsType}",
+        "totalAmount": "Cyfanswm: {amount}",
+        "form": {
+          "amountLabel": "Swm",
+          "amountPlaceholder": "Rhowch Swm",
+          "amountErr": "Ni all swm fod yn fwy na Khums",
+          "dateLabel": "Dyddiad trosglwyddo — dewisol",
+          "dateInfo": "Dyddiad pan anfonoch chi'r arian",
+          "remarks": "Sylwadau, os o gwbl?",
+          "remarksInfo": "E.e., 'Talwyd mewn arian parod'",
+          "attach": "Ychwanegu atodiadau",
+          "attachInfo": "Gallwch ychwanegu derbynebau talu (delweddau yn unig) i gyfeirio'n ddiweddarach"
+        }
       }
     },
     "authPage": {
