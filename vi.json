@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Hình ảnh được tải lên thành công!",
         "jsImgUploadErr": "Tải lên hình ảnh không thành công. Vui lòng thử lại sau."
-      }
+      },
+      "unknown": "Không biết"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Về",
-          "jsStatusUpdateFail": "Không thể cập nhật trạng thái. Vui lòng thử lại sau."
+          "jsStatusUpdateFail": "Không thể cập nhật trạng thái. Vui lòng thử lại sau.",
+          "statusTextInfo": "Thêm một cái gì đó ngắn gọn về bản thân, chẳng hạn như, bạn là ai hoặc bạn làm gì!",
+          "statusCta": "Thêm trạng thái | Cập nhật trạng thái",
+          "addCity": "Thêm thành phố",
+          "gender": "Nam | Nữ",
+          "addGender": "Thêm giới tính",
+          "addBday": "Thêm sinh nhật",
+          "addRelation": "Thêm mối quan hệ",
+          "joinDate": "Đã tham gia: {date}"
         },
         "posts": {
           "title": "Bài viết",
