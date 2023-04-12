@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "타스비 카운터"
+        },
+        "khumsLabel": "쿰스 계산기",
+        "khumsDesc": "khums를 계산하거나 이전에 지불 한 khums를 추가하십시오. 수년에 걸쳐 khums를 기록하는 데 도움이 됩니다.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "블로그: 효율적으로 쿰 계산",
+              "p1": "매년 khums 계산의 핵심 항목을 강조하는 <a href='{href}' target='_blank'>블로그를 따르십시오</a>.",
+              "p2": "면책 조항 : 블로그는 가이드가 아닙니다. <strong>Khums 계산에 대한 Marjah의 판결을 따르십시오</strong>. 자세한 내용을 보려면 <span id='blog-info-link' color='primary'>여기를 클릭하십시오</span> .",
+              "blogInfo": "위의 블로그는 al-islam.org, sistani.org 의 기사와 몇몇 다른 학자들과의 토론을 기반으로합니다. 당신은 항상 Khums 계산에 대한 Marjah의 판결을 따라야 합니다.",
+              "dismissCta": "관심 없음"
+            },
+            "title": "당신의 쿰스 계산",
+            "nextMuqammasHeading": "<strong>무카마스</strong><br />다음 계산을 위해",
+            "muqammasDesc": "최근 연도의 계산을 기반으로",
+            "sahmeSadat": "삼-에-사다트",
+            "sahmeImam": "삼-에-이맘 (a.s.)",
+            "paid": "지불:",
+            "remaining": "나머지:",
+            "newMuqammas": "새로운 무캄마스:",
+            "jsDeleted": "쿰스 계산이 성공적으로 삭제되었습니다!",
+            "prompts": {
+              "delete": {
+                "header": "쿰스 계산을 삭제하시겠습니까?",
+                "desc": "이것을 삭제하시겠습니까? 모든 관련 문서도 삭제됩니다!"
+              }
+            },
+            "empty": {
+              "header": "아직 쿰이 추가되지 않았습니다.",
+              "subtext": "먼저 khums 계산을 추가합니다. 아래 버튼을 클릭하십시오."
+            }
+          },
+          "detail": {
+            "title": "당신의 쿰스",
+            "header": "쿰스",
+            "mqmsInfo": "다음 계산을 위한 무캄마",
+            "calcHeader": "아래 계산에 따라:",
+            "savingsHeader": "저축",
+            "conversionInfo": "{xchgRateDate} {xchgRate}의 환율에 따라 {amount}로 변환",
+            "expensesHeader": "경비",
+            "mqmsHeader": "무카마스",
+            "prevMqms": "이전 무카마",
+            "paymentsHeader": "쿰에 대한 지불 :",
+            "error": {
+              "header": "오 어, 오류가 발생했습니다!",
+              "desc": "이 khums 계산에 대해 아무것도 찾을 수 없는 것 같습니다. 서비스 중 하나가 오작동했거나 오래된 데이터를 찾고 있기 때문일 수 있습니다.<br /><br/ >페이지를 새로고침하거나 오류가 있다고 생각되면 저희에게 연락하십시오."
+            },
+            "js": {
+              "recordDeleteFailed": "이 레코드를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 오류가 지속되면 나중에 다시 오십시오.",
+              "recordDeleted": "성공적으로 삭제 된 기록",
+              "deleteRecordHeader": "레코드를 삭제하시겠습니까?",
+              "deleteRecordDesc": "이 레코드를 삭제하시겠습니까? 이 레코드에 추가된 모든 첨부 파일도 삭제됩니다!"
+            }
+          },
+          "calc": {
+            "subtext": "아래 양식을 작성하여 khums를 계산하십시오. 선택적 필드가 표시됩니다. 아래의 정보 아이콘을 클릭하여 섹션에 대해 자세히 알아보십시오.",
+            "blog": "관련 : <a href='{href}' target='_blank'>khums를 효율적으로<a> 계산하는 방법에</a> 대한 블로그 읽기",
+            "dateRange": "날짜 범위 선택:",
+            "dateRangeInfo": "일반적으로 사람들은 회계 연도 (예 : 4 월에서 3 월까지) 또는 역년 (1 월에서 12 월까지)에 대해 khums를 계산합니다.",
+            "startDate": "시작 날짜:",
+            "endDate": "종료일:",
+            "savings": {
+              "header": "저축",
+              "desc": "계정 전체에 저축/잔액 추가",
+              "info": "다른 통화로 금액을 추가할 수 있지만 khums는 결국 오늘의 환율을 기준으로 단일 통화로 계산됩니다.",
+              "form": {
+                "label": "레이블",
+                "placeholder": "예: 급여 계정",
+                "amountLabel": "분량",
+                "amountPlaceholder": "금액 입력",
+                "remarks": "이 항목에 대한 의견이 있습니까?"
+              }
+            },
+            "expenses": {
+              "header": "부채/<strong>부채/비용</strong> — 선택 사항",
+              "subtext": "즉각적인 부채, 부채 또는 비용 추가",
+              "info": "잔액 금액의 일부는 khums에 대해 공제될 수 있습니다. 위의 링크를 따르십시오 <strong>khums를 효율적으로 계산</strong> 하여 더 많은 것을 알 수 있습니다.",
+              "form": {
+                "placeholder": "예: 임대료 납부"
+              }
+            },
+            "mqms": {
+              "header": "<strong>이전 무카마</strong> — 선택 사항",
+              "subtext": "이전 기간에 쿰을 지불 한 후 남은 잔액",
+              "info": "처음으로 쿰을 지불하는 경우 Muqammas는 ZERO가 됩니다. 여기에 이전 계산을 저장한 경우 이전 기간의 Muqammas를 사용하도록 동기화할 수 있습니다."
+            },
+            "mainCurrencyHeader": "주 통화 선택",
+            "mainCurrencyInfo": "khums를 계산할 때 어떤 통화를 사용해야 합니까?",
+            "customRates": {
+              "header": "<strong>환율 사용</strong>",
+              "subtext": "이 환율은 계산에 사용됩니다. 사용자 지정 값을 사용하도록 변경할 수 있습니다.",
+              "info": "환율이 오늘과 같지 않았던 1년 전의 khums에 대한 계산을 추가하는 경우와 같이 과거 데이터를 처리할 때 환율에 대한 사용자 지정 값을 직접 설정할 수 있습니다.",
+              "rateValuePH": "{currency}에서, 예를 들어, 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "계산하다",
+            "pageError": {
+              "header": "오류가 발생했습니다.",
+              "desc": "페이지에 필요한 데이터를 가져오지 못했습니다. 페이지를 새로고침하거나 나중에 다시 시도하십시오."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "비고를 삭제하시겠습니까?",
+                "deleteText": "이 항목에 대한 설명을 삭제하시겠습니까?"
+              },
+              "choicePrompt": {
+                "addHeader": "더하다",
+                "savings": "저축에 새 항목 추가",
+                "liability": "부채에 새 항목 추가"
+              },
+              "rowOptions": {
+                "header": "이것으로 무엇을하고 싶습니까?",
+                "duplicate": "중복 항목 만들기",
+                "remarks": "이에 대한 설명 추가",
+                "delete": "이 항목 삭제"
+              },
+              "apiError": "오류가 발생했습니다. 다시 시도하십시오."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "예, {langName}을 사용하십시오.",
             "{langName} 사용"
           ],
-          "useEngling": "영어로 계속"
+          "useEngling": "영어로 계속",
+          "useEnglish": "영어로 계속",
+          "selectFrom": "또는 다음 대체 언어 중 하나를 선택합니다."
         },
         "langError": "{langName}에 대한 번역을 로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하십시오."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "이번 목요일에 이미 Ziyarat에 등록했습니다. 다음 주에 다음 주 지야랏에 등록하십시오.",
         "jsConfirm": "이 요청에 등록하려면 귀하의 세부 정보 (예 : 성명, 성별 등)를 서비스 제공 업체와 공유해야합니다. 이것은 처음에만 필요합니다. 친절하게 계속 진행하십시오.",
         "jsDeclined": "그래! 다음에 하죠."
+      },
+      "currencySelector": {
+        "title": "통화 선택",
+        "baseCurrency": "기본 통화",
+        "compHasOwnRates": "이 선택기를 사용하는 페이지에는 과거 값을 가질 수있는 자체 환율이 있습니다. 따라서 여기에 표시된 요금은 선택 시 적용되지 않습니다.",
+        "cancelCta": "취소",
+        "doneCta": "수행"
+      },
+      "mqmsSelector": {
+        "title": "무카마 금액 선택",
+        "dateAdded": "추가됨: {date}",
+        "cancelCta": "취소",
+        "doneCta": "고르다"
+      },
+      "khumsPaymentRecord": {
+        "title": "결제 기록 추가",
+        "paymentFor": "{khumsType} 대한 지불",
+        "totalAmount": "총 금액: {amount}",
+        "form": {
+          "amountLabel": "분량",
+          "amountPlaceholder": "금액 입력",
+          "amountErr": "금액은 쿰스보다 클 수 없습니다.",
+          "dateLabel": "전송 날짜 — 선택 사항",
+          "dateInfo": "송금한 날짜",
+          "remarks": "발언이 있다면?",
+          "remarksInfo": "예: '현금으로 결제'",
+          "attach": "첨부 파일 추가",
+          "attachInfo": "나중에 참조할 수 있도록 결제 영수증(이미지만)을 추가할 수 있습니다."
+        }
       }
     },
     "authPage": {
