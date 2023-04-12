@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "L-immaġni mtella 'b'suċċess!",
         "jsImgUploadErr": "It-tlugħ tal-immaġni falla. Jekk jogħġbok erġa' pprova aktar tard."
-      }
+      },
+      "unknown": "Mhux magħruf"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Dwar",
-          "jsStatusUpdateFail": "Ma rnexxilux jaġġorna l-istatus. Jekk jogħġbok erġa' pprova aktar tard."
+          "jsStatusUpdateFail": "Ma rnexxilux jaġġorna l-istatus. Jekk jogħġbok erġa' pprova aktar tard.",
+          "statusTextInfo": "Żid xi ħaġa qasira dwarek innifsek, bħal, min int jew x'tagħmel!",
+          "statusCta": "Żid l-Istatus | Aġġorna l-Istatus",
+          "addCity": "Żid Belt",
+          "gender": "Raġel | Mara",
+          "addGender": "Żid Sess",
+          "addBday": "Żid Għeluq is-Sena",
+          "addRelation": "Żid Relazzjoni",
+          "joinDate": "Ingħaqad: {date}"
         },
         "posts": {
           "title": "Postijiet",
