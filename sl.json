@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Kliknite ikono Skupna raba (izgleda kot ena na desni) <strong>SPODAJ</strong> in kliknite <strong>Dodaj na domači zaslon</strong>. Kliknite »Shrani« za dokončanje, nato pa lahko do aplikacije dostopate iz bližnjice na domači zaslon!"
+        },
+        "nonSafari": {
+          "heading": "Bazm deluje bolje na Apple Safari",
+          "desc": "Ta brskalnik ima omejene funkcije, medtem ko brskalnik Safari omogoča boljše izvajanje naše aplikacije, vključno s push-notifications in App-bližnjico.",
+          "subtext": "<strong>Odprite aplikacijo Safari</strong> v telefonu in{url}<strong> za boljšo </strong> izkušnjo.",
+          "skipCta": "Namesto tega nadaljujte tukaj"
         }
       },
       "webFeedback": {
