@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Pilt on edukalt üles laaditud!",
         "jsImgUploadErr": "Pildi üleslaadimine nurjus. Proovige hiljem uuesti."
-      }
+      },
+      "unknown": "Tundmatu"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Umbes",
-          "jsStatusUpdateFail": "Oleku värskendamine nurjus. Proovige hiljem uuesti."
+          "jsStatusUpdateFail": "Oleku värskendamine nurjus. Proovige hiljem uuesti.",
+          "statusTextInfo": "Lisa midagi lühikest enda kohta, näiteks, kes sa oled või mida sa teed!",
+          "statusCta": "Lisa olek -- värskenda olekut",
+          "addCity": "Lisa linn",
+          "gender": "Mees -- Naine",
+          "addGender": "Lisage sugu",
+          "addBday": "Lisa sünnipäev",
+          "addRelation": "Seose lisamine",
+          "joinDate": "liitunud: {date}"
         },
         "posts": {
           "title": "Postitusi",
