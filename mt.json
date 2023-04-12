@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Il-Counter tasbeeh"
+        },
+        "khumsLabel": "Khums Calculator",
+        "khumsDesc": "Ikkalkula l-khums tiegħek, jew żid kwalunkwe khums imħallsa qabel. Jgħinek fiż-żamma tar-rekords tal-khums tiegħek matul is-snin.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Ikkalkula l-khums b'mod effiċjenti",
+              "p1": "<a href='{href}' target='_blank'>Segwi l-blog tagħna</a> li jenfasizza oġġetti ewlenin fil-kalkolu tal-khums kull sena.",
+              "p2": "Ċaħda: Il-blog MHUX gwida. <strong>Segwi d-deċiżjonijiet tal-Marjah tiegħek għall-kalkolu tal-Khums</strong>. <span id='blog-info-link' color='primary'>Ikklikkja hawn</span> għal aktar informazzjoni.",
+              "blogInfo": "Il-blog ta 'hawn fuq huwa bbażat fuq artikli minn al-islam.org, sistani.org, u d-diskussjonijiet tagħna ma' ftit studjużi oħra. Dejjem għandek issegwi d-deċiżjonijiet mill-Marjah tiegħek għall-kalkolu Khums.",
+              "dismissCta": "Mhux interessat"
+            },
+            "title": "Il-Kalkoli tal-Khums tiegħek",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />għall-kalkolu li jmiss",
+            "muqammasDesc": "Abbażi tal-kalkoli mill-aħħar sena",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Mħallsa:",
+            "remaining": "Rimanenti:",
+            "newMuqammas": "Muħammas ġodda:",
+            "jsDeleted": "Kalkolu Khums imħassar b'suċċess!",
+            "prompts": {
+              "delete": {
+                "header": "Ħassar il-Kalkolu tal-Khums?",
+                "desc": "Żgur tixtieq tħassar dan? Id-dokumenti relatati kollha se jitħassru wkoll!"
+              }
+            },
+            "empty": {
+              "header": "L-ebda khums miżjuda s'issa",
+              "subtext": "Ibda billi żżid kalkolu tal-khums. Ikklikkja fuq il-buttuna hawn taħt."
+            }
+          },
+          "detail": {
+            "title": "Khums tiegħek",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas għall-kalkolu li jmiss",
+            "calcHeader": "Abbażi tal-kalkolu ta' hawn taħt:",
+            "savingsHeader": "Tfaddil",
+            "conversionInfo": "Maqluba għal {amount} bbażata fuq ir-rata tal-kambju tal- {xchgRate} fuq {xchgRateDate}",
+            "expensesHeader": "Spejjeż",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas preċedenti",
+            "paymentsHeader": "Ħlasijiet magħmula għal khums:",
+            "error": {
+              "header": "Oh uh, sar żball!",
+              "desc": "Jidher li ma nistgħu nsibu xejn dwar dan il-kalkolu tal-khums. Jista 'jkun jew minħabba li wieħed mis-servizzi tagħna ma jaħdimx sew, jew forsi qed tfittex dejta staġnata.<br /><br/ >Ipprova aġġorna l-paġna, jew tilħaqna jekk taħseb li hemm żball min-naħa tagħna."
+            },
+            "js": {
+              "recordDeleteFailed": "Sar żball waqt li kien qed jipprova jħassar dan ir-rekord. Erġa' pprova, jew jekk l-iżball jippersisti, erġa' ejja aktar tard.",
+              "recordDeleted": "Rekord imħassar b'mod suċċess",
+              "deleteRecordHeader": "Ħassar ir-rekord?",
+              "deleteRecordDesc": "Żgur tixtieq tħassar dan ir-rekord? Kwalunkwe hemża miżjuda ma' dan ir-rekord titħassar ukoll!"
+            }
+          },
+          "calc": {
+            "subtext": "Imla l-formola hawn taħt biex tikkalkula l-khums tiegħek. Oqsma fakultattivi huma indikati. Ikklikkja info-icon hawn taħt biex tkun taf aktar dwar it-taqsima.",
+            "blog": "Relatat: Aqra l-blog tagħna dwar <a href='{href}' target='_blank'>Kif tikkalkula l-khums b'mod effiċjenti<a></a>",
+            "dateRange": "Agħżel il-firxa tad-data:",
+            "dateRangeInfo": "Tipikament, in-nies jikkalkulaw khums għal sena finanzjarja (eż. minn April sa Marzu) jew sena Kalendarja (Jan sa Diċembru)",
+            "startDate": "Data tal-bidu:",
+            "endDate": "Data tat-tmiem:",
+            "savings": {
+              "header": "Tfaddil",
+              "desc": "Żid tfaddil/bilanċ fil-kont(ijiet) tiegħek",
+              "info": "Tista 'żżid ammonti f'muniti differenti, iżda khums huwa eventwalment ikkalkulat f'munita waħda bbażata fuq ir-rata tal-kambju tal-lum.",
+              "form": {
+                "label": "Tikketta",
+                "placeholder": "Pereżempju, Kont tas-salarju",
+                "amountLabel": "Ammont",
+                "amountPlaceholder": "Daħħal l-Ammont",
+                "remarks": "Xi rimarki dwar dan l-item?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Djun/Obbligazzjonijiet/Spejjeż</strong> – Fakultattiv",
+              "subtext": "Żid kwalunkwe dejn, obbligazzjonijiet jew spejjeż immedjati",
+              "info": "Uħud mill-ammont mill-bilanċ jistgħu jitnaqqsu għall-khums. Segwi <strong>l-link tagħna hawn fuq Ikkalkula l-khums b'mod effiċjenti</strong> biex tkun taf aktar.",
+              "form": {
+                "placeholder": "Pereżempju, Kera dovuta"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas preċedenti</strong> - Fakultattiv",
+              "subtext": "Bilanċ li jifdal wara l-ħlas tal-khums fil-perjodu preċedenti",
+              "info": "Jekk qed tħallas khums għall-ewwel darba, Muqammas se jkun ZERO. Jekk għandek kalkoli preċedenti ssejvjati hawn, tista 'tissinkronizza biex tuża Muqammas minn perjodu preċedenti."
+            },
+            "mainCurrencyHeader": "Agħżel il-munita ewlenija",
+            "mainCurrencyInfo": "Liema munita għandna nużaw biex nikkalkulaw il-khums?",
+            "customRates": {
+              "header": "<strong>L-użu tar-rati tal-kambju</strong>",
+              "subtext": "Dawn ir-rati tal-kambju tal-munita se jintużaw għall-kalkolu. Tista 'tbiddilhom biex tuża valuri tad-dwana.",
+              "info": "Meta tittratta dejta storika, bħal meta żżid kalkolu għal khums minn aktar minn sena ilu meta r-rati tal-kambju ma kinux l-istess bħal-lum, tista 'tissettja valuri tad-dwana għar-rati tal-kambju int stess.",
+              "rateValuePH": "Fil- {currency}, eż., 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Ikkalkula",
+            "pageError": {
+              "header": "Sar żball",
+              "desc": "Ma rnexxilux jikseb id-dejta meħtieġa għall-paġna. Erġa' tagħbija l-paġna jew erġa' pprova aktar tard."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Ħassar ir-rimarki?",
+                "deleteText": "Żgur tixtieq tħassar ir-rimarki għal dan l-item?"
+              },
+              "choicePrompt": {
+                "addHeader": "Żid",
+                "savings": "Żid entrata ġdida fl-Iffrankar",
+                "liability": "Żid entrata ġdida mal-Obbligazzjonijiet"
+              },
+              "rowOptions": {
+                "header": "X'tixtieq tagħmel b'dan?",
+                "duplicate": "Oħloq entrata duplikata",
+                "remarks": "Żid rimarki għal dan",
+                "delete": "Ħassar din l-entrata"
+              },
+              "apiError": "Sar żball. Erġa' pprova."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Iva, uża {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Kompli bl-Ingliż"
+          "useEngling": "Kompli bl-Ingliż",
+          "useEnglish": "Kompli bl-Ingliż",
+          "selectFrom": "Jew, agħżel minn waħda mil-lingwi alternattivi li ġejjin:"
         },
         "langError": "Sar żball waqt it-tagħbija tat-traduzzjonijiet għal {langName}. Jekk jogħġbok erġa' pprova aktar tard."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Diġà rreġistrajt għal Ziyarat illum il-Ħamis. Irreġistra l-ġimgħa d-dieħla għaż-ziyarat tal-ġimgħa d-dieħla.",
         "jsConfirm": "Biex nirreġistraw għal din it-talba, jeħtieġ li naqsmu d-dettalji tiegħek (eż., isem sħiħ, sess, eċċ.) mal-fornitur tas-servizz tagħna. Dan huwa meħtieġ għall-ewwel darba biss. Jekk jogħġbok ikkonferma li tipproċedi.",
         "jsDeclined": "Tajjeb! Forsi aktar tard."
+      },
+      "currencySelector": {
+        "title": "Agħżel il-munita",
+        "baseCurrency": "Munita Bażi",
+        "compHasOwnRates": "Il-paġna li tuża dan is-selettur għandha r-rati tal-kambju tagħha stess li jista' jkollhom valuri storiċi. Għalhekk, ir-rati murija hawnhekk mhux se jiġu applikati fuq l-għażla.",
+        "cancelCta": "Ikkanċella",
+        "doneCta": "Magħmul"
+      },
+      "mqmsSelector": {
+        "title": "Agħżel l-ammont ta' Muqammas",
+        "dateAdded": "Miżjud fuq: {date}",
+        "cancelCta": "Ikkanċella",
+        "doneCta": "Agħżel"
+      },
+      "khumsPaymentRecord": {
+        "title": "Żid Ir-Rekord tal-Ħlas",
+        "paymentFor": "Ħlas għal {khumsType}",
+        "totalAmount": "Ammont totali: {amount}",
+        "form": {
+          "amountLabel": "Ammont",
+          "amountPlaceholder": "Daħħal l-Ammont",
+          "amountErr": "L-ammont ma jistax ikun aktar minn Khums",
+          "dateLabel": "Data tat-trasferiment — Fakultattiva",
+          "dateInfo": "Data meta bgħatt il-flus",
+          "remarks": "Rimarki, jekk hemm?",
+          "remarksInfo": "Pereżempju, \"Imħallas fi flus kontanti\"",
+          "attach": "Żid hemżiet",
+          "attachInfo": "Tista' żżid irċevuti ta' ħlas (stampi biss) għal referenza aktar tard"
+        }
       }
     },
     "authPage": {
