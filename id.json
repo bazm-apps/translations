@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Gambar berhasil diunggah!",
         "jsImgUploadErr": "Unggahan gambar gagal. Silakan coba lagi nanti."
-      }
+      },
+      "unknown": "Diketahui"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Sekitar",
-          "jsStatusUpdateFail": "Gagal memperbarui status. Silakan coba lagi nanti."
+          "jsStatusUpdateFail": "Gagal memperbarui status. Silakan coba lagi nanti.",
+          "statusTextInfo": "Tambahkan sesuatu yang singkat tentang diri Anda, seperti, siapa Anda atau apa yang Anda lakukan!",
+          "statusCta": "Tambahkan Status | Perbarui Status",
+          "addCity": "Tambahkan Kota",
+          "gender": "Laki-laki | Perempuan",
+          "addGender": "Tambahkan Jenis Kelamin",
+          "addBday": "Tambahkan Ulang Tahun",
+          "addRelation": "Tambahkan Hubungan",
+          "joinDate": "Bergabung: {date}"
         },
         "posts": {
           "title": "Posting",
