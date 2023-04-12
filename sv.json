@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Bilden har laddats upp!",
         "jsImgUploadErr": "Bildöverföringen misslyckades. Försök igen senare."
-      }
+      },
+      "unknown": "Okänd"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Om",
-          "jsStatusUpdateFail": "Det gick inte att uppdatera status. Försök igen senare."
+          "jsStatusUpdateFail": "Det gick inte att uppdatera status. Försök igen senare.",
+          "statusTextInfo": "Lägg till något kort om dig själv, till exempel, vem är du eller vad gör du!",
+          "statusCta": "Lägg till status | Uppdatera status",
+          "addCity": "Lägg till stad",
+          "gender": "Man | Kvinna",
+          "addGender": "Lägg till kön",
+          "addBday": "Lägg till födelsedag",
+          "addRelation": "Lägg till relation",
+          "joinDate": "Blev medlem: {date}"
         },
         "posts": {
           "title": "Inlägg",
