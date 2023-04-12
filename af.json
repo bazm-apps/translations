@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Ongeldige URL. Probeer asseblief met 'n nuwe URL."
+      },
+      "page404": {
+        "title": "Bladsy nie gevind nie",
+        "desc": "Ons kon nie die bladsy vind waarna jy soek nie!",
+        "ctaLabel": "Goto Huis"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Voeg aanhangsels by",
           "attachInfo": "U kan betalingskwitansies (slegs beelde) byvoeg vir latere verwysing</a></a>"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Kies land",
+        "searchPH": "Soek land volgens naam of inbelkode"
       }
     },
     "authPage": {
