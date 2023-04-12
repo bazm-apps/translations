@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh Counter"
+        },
+        "khumsLabel": "Khums Calculator",
+        "khumsDesc": "Calculați khum-urile sau adăugați orice khum plătit anterior. Vă ajută cu ținerea evidenței khum-urilor de-a lungul anilor.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Calculați khum-urile în mod eficient",
+              "p1": "<a href='{href}' target='_blank'>Urmați blog-ul nostru</a> care evidențiază elemente cheie în calculul khums în fiecare an.",
+              "p2": "Disclaimer: Blog-ul nu este un ghid. <strong>Urmați hotărârile marjah-ului pentru calculul Khums</strong>. <span id='blog-info-link' color='primary'>Click aici</span> pentru mai multe informații.",
+              "blogInfo": "Blog-ul de mai sus se bazează pe articole din al-islam.org, sistani.org, precum și discuțiile noastre cu câțiva oameni de știință alte. Tu ar trebui să urmeze întotdeauna hotărârile de marjah dumneavoastră pentru calculul Khums.",
+              "dismissCta": "Nu este interesat"
+            },
+            "title": "Calculele tale Khums",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />pentru următorul calcul",
+            "muqammasDesc": "Pe baza calculelor din ultimul an",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Plătit:",
+            "remaining": "Rămase:",
+            "newMuqammas": "Muqammas noi:",
+            "jsDeleted": "Calculul Khums s-a șters cu succes!",
+            "prompts": {
+              "delete": {
+                "header": "Ștergeți Khums de calcul?",
+                "desc": "Sunteți sigur că doriți să ștergeți acest lucru? Toate documentele aferente vor fi șterse și ele!"
+              }
+            },
+            "empty": {
+              "header": "Nu khums adăugat încă",
+              "subtext": "Începeți prin a adăuga un calcul khums. Faceți clic pe butonul de mai jos."
+            }
+          },
+          "detail": {
+            "title": "Khums dvs.",
+            "header": "Kume",
+            "mqmsInfo": "Muqammas pentru următorul calcul",
+            "calcHeader": "Pe baza calculului de mai jos:",
+            "savingsHeader": "Economii",
+            "conversionInfo": "Convertit în {amount} pe baza cursului de schimb al {xchgRate} pe {xchgRateDate}",
+            "expensesHeader": "Cheltuielile",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Muqammas anterioare",
+            "paymentsHeader": "Plăți efectuate pentru khume:",
+            "error": {
+              "header": "Oh, uh, a apărut o eroare!",
+              "desc": "Se pare ca nu putem gasi nimic despre acest calcul khums. Ar putea fi fie din cauza faptului că unul dintre serviciile noastre a funcționat defectuos, fie poate că căutați date învechite.<br /><br/ >Încercați să reîmprospătați pagina sau contactați-ne dacă credeți că există erori din partea noastră."
+            },
+            "js": {
+              "recordDeleteFailed": "A apărut o eroare în timp ce încercați să ștergeți această înregistrare. Încercați din nou sau, dacă eroarea persistă, veniți din nou mai târziu.",
+              "recordDeleted": "Înregistrare ștearsă cu succes",
+              "deleteRecordHeader": "Ștergeți înregistrarea?",
+              "deleteRecordDesc": "Sunteți sigur că doriți să ștergeți această înregistrare? Orice atașamente adăugate la această înregistrare vor fi șterse, de asemenea!"
+            }
+          },
+          "calc": {
+            "subtext": "Completați formularul de mai jos pentru a calcula khums dumneavoastră. Câmpurile opționale sunt indicate. Faceți clic pe pictograma info de mai jos pentru a afla mai multe despre secțiune.",
+            "blog": "Legate de: Citiți blog-ul nostru pe <a href='{href}' target='_blank'>Cum de a calcula khums eficient<a></a>",
+            "dateRange": "Selectați intervalul de date:",
+            "dateRangeInfo": "De obicei, oamenii calculează khums pentru un an financiar (de exemplu,, din aprilie până în martie) sau un an calendaristic (de la ian la decembrie)",
+            "startDate": "Data de începere:",
+            "endDate": "Data de încheiere:",
+            "savings": {
+              "header": "Economii",
+              "desc": "Adăugați economii/solduri în contul (conturile) dvs.",
+              "info": "Puteți adăuga sume în valute diferite, dar khums este în cele din urmă calculat în monedă unică pe baza cursului de schimb de astăzi.",
+              "form": {
+                "label": "Etichetă",
+                "placeholder": "De exemplu, Contul de salarii",
+                "amountLabel": "Sumă",
+                "amountPlaceholder": "Introduceți Suma",
+                "remarks": "Orice observații cu privire la acest punct?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Datorii/Datorii/Cheltuieli</strong> – Opțional",
+              "subtext": "Adăugați orice datorii, datorii sau cheltuieli imediate",
+              "info": "O parte din suma din sold poate fi deductibilă pentru khums. Urmați link-ul nostru de mai sus <strong>Calculați khums eficient</strong> pentru a ști mai multe.",
+              "form": {
+                "placeholder": "De exemplu, Chiria datorată"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Muqammas anterioare</strong> - Opțional",
+              "subtext": "Soldul rămas după plata khum-urilor în perioada anterioară",
+              "info": "Dacă plătiți khums pentru prima dată, Muqammas va fi ZERO. Dacă ați salvat calculele anterioare aici, puteți sincroniza pentru a utiliza Muqammas din perioada anterioară."
+            },
+            "mainCurrencyHeader": "Selectați moneda principală",
+            "mainCurrencyInfo": "Ce monedă ar trebui să folosim pentru a calcula khumele?",
+            "customRates": {
+              "header": "<strong>Utilizarea cursurilor de schimb</strong>",
+              "subtext": "Aceste cursuri de schimb valutar vor fi utilizate pentru calcul. Le puteți modifica pentru a utiliza valori particularizate.",
+              "info": "Atunci când aveți de-a face cu date istorice, cum ar fi atunci când adăugați calcule pentru khum-uri de acum mai bine de un an, când cursurile de schimb nu erau aceleași ca astăzi, puteți seta singur valori personalizate pentru cursurile de schimb.",
+              "rateValuePH": "În {currency}, de exemplu, 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Calcula",
+            "pageError": {
+              "header": "A apărut o eroare",
+              "desc": "Nu a reușit să obțină datele necesare pentru pagină. Vă rugăm să reîncărcați pagina sau încercați din nou mai târziu."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Ștergeți remarcile?",
+                "deleteText": "Sunteți sigur că doriți să ștergeți observațiile pentru acest element?"
+              },
+              "choicePrompt": {
+                "addHeader": "Adăuga",
+                "savings": "Adăugarea unei noi intrări la Economii",
+                "liability": "Adăugați o nouă intrare la Pasive"
+              },
+              "rowOptions": {
+                "header": "Ce vrei să faci cu asta?",
+                "duplicate": "Crearea unei intrări dublate",
+                "remarks": "Adăugați observații pentru acest lucru",
+                "delete": "Ștergeți această intrare"
+              },
+              "apiError": "A apărut o eroare. Vă rugăm să încercați din nou."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Da, utilizați {langName}",
             "Utilizați {langName}"
           ],
-          "useEngling": "Continuați în limba engleză"
+          "useEngling": "Continuați în limba engleză",
+          "useEnglish": "Continuați în limba engleză",
+          "selectFrom": "Sau selectați una dintre următoarele limbi alternative:"
         },
         "langError": "A apărut o eroare la încărcarea traducerilor pentru {langName}. Încercați din nou mai târziu."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "V-ați înregistrat deja pentru Ziyarat această joi. Inregistreaza-te saptamana viitoare pentru ziyarat de săptămâna viitoare.",
         "jsConfirm": "Pentru a vă înregistra pentru această solicitare, trebuie să partajăm detaliile dumneavoastră (de exemplu, numele complet, sexul etc.) cu furnizorul nostru de servicii. Acest lucru este necesar doar pentru prima dată. Vă rugăm să confirmați să continuați.",
         "jsDeclined": "Ok! Poate mai târziu."
+      },
+      "currencySelector": {
+        "title": "Selectați moneda",
+        "baseCurrency": "Moneda de bază",
+        "compHasOwnRates": "Pagina care utilizează acest selector are propriile cursuri de schimb care pot avea valori istorice. Prin urmare, tarifele prezentate aici nu vor fi aplicate la selecție.",
+        "cancelCta": "Anula",
+        "doneCta": "Făcut"
+      },
+      "mqmsSelector": {
+        "title": "Selectați suma Muqammas",
+        "dateAdded": "Adăugat la: {date}",
+        "cancelCta": "Anula",
+        "doneCta": "Alege"
+      },
+      "khumsPaymentRecord": {
+        "title": "Adăugarea înregistrării de plată",
+        "paymentFor": "Plata pentru {khumsType}",
+        "totalAmount": "Suma totală: {amount}",
+        "form": {
+          "amountLabel": "Sumă",
+          "amountPlaceholder": "Introduceți Suma",
+          "amountErr": "Suma nu poate fi mai mare decât Khums",
+          "dateLabel": "Data transferului – Opțional",
+          "dateInfo": "Data la care ați trimis banii",
+          "remarks": "Remarci, dacă există?",
+          "remarksInfo": "De exemplu, \"Plătit în numerar\"",
+          "attach": "Adăugarea atașărilor",
+          "attachInfo": "Puteți adăuga chitanțe de plată (numai imagini) pentru referințe ulterioare"
+        }
       }
     },
     "authPage": {
