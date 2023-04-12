@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Imagine încărcată cu succes!",
         "jsImgUploadErr": "Încărcarea imaginilor nu a reușit. Încercați din nou mai târziu."
-      }
+      },
+      "unknown": "Necunoscut"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Despre",
-          "jsStatusUpdateFail": "Nu a reușit să actualizeze starea. Încercați din nou mai târziu."
+          "jsStatusUpdateFail": "Nu a reușit să actualizeze starea. Încercați din nou mai târziu.",
+          "statusTextInfo": "Adaugă ceva scurt despre tine, cum ar fi, cine ești tu sau ce faci!",
+          "statusCta": "Adăugare stare | Actualizare stare",
+          "addCity": "Adăugare oraș",
+          "gender": "Bărbat -- Femeie",
+          "addGender": "Adăugați sex",
+          "addBday": "Adăugați o zi de naștere",
+          "addRelation": "Adăugarea relației",
+          "joinDate": "S-au alăturat: {date}"
         },
         "posts": {
           "title": "Mesaje",
