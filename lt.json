@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Neteisingas URL. Pabandykite su nauju URL."
+      },
+      "page404": {
+        "title": "Puslapis nerastas",
+        "desc": "Mums nepavyko rasti puslapio, kurio ieškote!",
+        "ctaLabel": "\"Goto\" pagrindinis puslapis"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Priedų įtraukimas",
           "attachInfo": "Galite pridėti mokėjimo kvitus (tik vaizdus) vėlesniam naudojimui"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Pasirinkite šalį",
+        "searchPH": "Ieškoti šalyje pagal vardą ir numerį"
       }
     },
     "authPage": {
