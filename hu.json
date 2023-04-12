@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh számláló"
+        },
+        "khumsLabel": "Khums kalkulátor",
+        "khumsDesc": "Számítsa ki a khumjait, vagy adjon hozzá korábban fizetett khumokat. Segít a khumok nyilvántartásában az évek során.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Számítsa ki hatékonyan a khumokat",
+              "p1": "<a href='{href}' target='_blank'>Kövesse blogunkat</a> , amely minden évben kiemeli a khums kiszámításának kulcsfontosságú elemeit.",
+              "p2": "Jogi nyilatkozat: A blog NEM útmutató. <strong>Kövesse Marjah döntéseit a Khums számításához</strong>. <span id='blog-info-link' color='primary'>További információért kattintson ide</span> .",
+              "blogInfo": "A fenti blog al-islam.org, sistani.org cikkein és néhány más tudóssal folytatott beszélgetéseinken alapul. Mindig kövesse a Marjah for Khums számításának döntéseit.",
+              "dismissCta": "Nem érdekel"
+            },
+            "title": "A Khums számításai",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />a következő számításhoz",
+            "muqammasDesc": "A legutóbbi év számításai alapján",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Fizetett:",
+            "remaining": "Megmaradó:",
+            "newMuqammas": "Új mukammák:",
+            "jsDeleted": "Khums számítás sikeresen törölve!",
+            "prompts": {
+              "delete": {
+                "header": "Törölje a Khums számítást?",
+                "desc": "Biztosan törölni szeretné ezt? Az összes kapcsolódó dokumentum is törlődik!"
+              }
+            },
+            "empty": {
+              "header": "Még nincsenek khumok hozzáadva",
+              "subtext": "Kezdje egy khums számítás hozzáadásával. Kattintson az alábbi gombra."
+            }
+          },
+          "detail": {
+            "title": "A Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas a következő számításhoz",
+            "calcHeader": "Az alábbi számítás alapján:",
+            "savingsHeader": "Takarékbetét",
+            "conversionInfo": "Átszámítva {amount}-re a {xchgRateDate} {xchgRate} árfolyama alapján",
+            "expensesHeader": "Költségek",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Korábbi muqammák",
+            "paymentsHeader": "Khumsért fizetett összegek:",
+            "error": {
+              "header": "Ó, uh, hiba történt!",
+              "desc": "Úgy tűnik, nem találunk semmit erről a khums-számításról. Ennek oka lehet az, hogy az egyik szolgáltatásunk meghibásodott, vagy talán elavult adatokat keres.<br /><br/ >Próbálja meg frissíteni az oldalt, vagy vegye fel velünk a kapcsolatot, ha úgy gondolja, hogy hiba történt a részünkről."
+            },
+            "js": {
+              "recordDeleteFailed": "Hiba történt a rekord törlése közben. Kérjük, próbálja újra, vagy ha a hiba továbbra is fennáll, jöjjön újra később.",
+              "recordDeleted": "A felvétel sikeresen törölve",
+              "deleteRecordHeader": "Rekord törlése?",
+              "deleteRecordDesc": "Biztosan törli ezt a rekordot? A rekordhoz hozzáadott mellékletek is törlődnek!"
+            }
+          },
+          "calc": {
+            "subtext": "Töltse ki az alábbi űrlapot a khums kiszámításához. Az opcionális mezők megjelennek. Kattintson az alábbi info-ikonra, ha többet szeretne megtudni a szakaszról.",
+            "blog": "Összefüggő:Olvassa el blogunkat <a href='{href}' target='_blank'>Hogyan lehet hatékonyan<a> kiszámítani a khumokat</a>",
+            "dateRange": "Válassza ki a dátumtartományt:",
+            "dateRangeInfo": "Általában az emberek kiszámítják a khumokat egy pénzügyi évre (pl. Áprilistól márciusig) vagy egy naptári évre (januártól decemberig)",
+            "startDate": "Kezdő dátum:",
+            "endDate": "Befejezés dátuma:",
+            "savings": {
+              "header": "Takarékbetét",
+              "desc": "Megtakarítás/egyenleg hozzáadása a fiók(ok)hoz",
+              "info": "Különböző pénznemekben is hozzáadhat összegeket, de a khums kiszámítása végül egyetlen pénznemben történik a mai árfolyam alapján.",
+              "form": {
+                "label": "Címke",
+                "placeholder": "Pl. Fizetési számla",
+                "amountLabel": "Mennyiség",
+                "amountPlaceholder": "Adja meg az összeget",
+                "remarks": "Van valami észrevétele ezzel a tétellel kapcsolatban?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Tartozások/kötelezettségek/kiadások</strong> – választható",
+              "subtext": "Adja hozzá az azonnali adósságokat, kötelezettségeket vagy kiadásokat",
+              "info": "Az egyenlegből származó összeg egy része levonható a khums számára. Kövesse a fenti linkünket <strong>Számítsa ki hatékonyan a khumokat</strong> , hogy többet tudjon meg.",
+              "form": {
+                "placeholder": "Pl. Esedékes bérleti díj"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Előző Muqammas</strong> – opcionális",
+              "subtext": "Az előző időszakban a khums fizetése után maradt egyenleg",
+              "info": "Ha először fizetsz khumsot, a Muqammas NULLA lesz. Ha korábbi számításait ide mentette, szinkronizálhatja a korábbi időszak Muqammas használatával."
+            },
+            "mainCurrencyHeader": "Válassza ki a fő pénznemet",
+            "mainCurrencyInfo": "Melyik pénznemet használjuk a khums kiszámításához?",
+            "customRates": {
+              "header": "<strong>Átváltási árfolyamok használata</strong>",
+              "subtext": "Ezeket a valutaárfolyamokat használjuk a számításhoz. Módosíthatja őket egyéni értékek használatára.",
+              "info": "Ha előzményadatokkal foglalkozik, például amikor több mint egy évvel ezelőtti khumokat számol ki, amikor az árfolyamok nem voltak azonosak a maiakkal, saját maga is beállíthat egyéni árfolyamértékeket.",
+              "rateValuePH": "{currency}, pl. 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Kiszámít",
+            "pageError": {
+              "header": "Hiba történt",
+              "desc": "Nem sikerült lekérni az oldalhoz szükséges adatokat. Kérjük, töltse be újra az oldalt, vagy próbálja újra később."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Megjegyzések törlése?",
+                "deleteText": "Biztosan törli az elemhez tartozó megjegyzéseket?"
+              },
+              "choicePrompt": {
+                "addHeader": "Hozzáad",
+                "savings": "Új bejegyzés hozzáadása a Megtakarításokhoz",
+                "liability": "Új bejegyzés hozzáadása a Kötelezettségek elemhez"
+              },
+              "rowOptions": {
+                "header": "Mit akarsz ezzel kezdeni?",
+                "duplicate": "Ismétlődő bejegyzés létrehozása",
+                "remarks": "Ehhez adjon hozzá megjegyzéseket",
+                "delete": "A bejegyzés törlése"
+              },
+              "apiError": "Hiba történt. Kérjük, próbálja újra."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Igen, használja a következőt: {langName}",
             "{langName} használata"
           ],
-          "useEngling": "Folytatás angolul"
+          "useEngling": "Folytatás angolul",
+          "useEnglish": "Folytatás angolul",
+          "selectFrom": "Vagy válasszon az alábbi alternatív nyelvek közül:"
         },
         "langError": "Hiba történt a {langName} fordításainak betöltésekor. Kérjük, próbálja újra később."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Ön már regisztrált a Ziyaratba ezen a csütörtökön. Regisztráljon a jövő héten a jövő heti ziyaratra.",
         "jsConfirm": "A kérésre való regisztrációhoz meg kell osztanunk az Ön adatait (pl. Teljes név, nem stb.) szolgáltatónkkal. Ez csak most először szükséges. Kérjük, erősítse meg a folytatást.",
         "jsDeclined": "Oké! Talán később."
+      },
+      "currencySelector": {
+        "title": "Válassza ki a pénznemet",
+        "baseCurrency": "Alappénznem",
+        "compHasOwnRates": "Az ezt a választót használó oldal saját átváltási árfolyamokkal rendelkezik, amelyek múltbeli értékekkel rendelkezhetnek. Ezért az itt feltüntetett árak nem érvényesek a kiválasztáskor.",
+        "cancelCta": "Érvénytelenít",
+        "doneCta": "Kész"
+      },
+      "mqmsSelector": {
+        "title": "Válassza ki a Muqammas összeget",
+        "dateAdded": "Hozzáadva: {date}",
+        "cancelCta": "Érvénytelenít",
+        "doneCta": "Kiválaszt"
+      },
+      "khumsPaymentRecord": {
+        "title": "Fizetési rekord hozzáadása",
+        "paymentFor": "Fizetés {khumsType}",
+        "totalAmount": "Teljes összeg: {amount}",
+        "form": {
+          "amountLabel": "Mennyiség",
+          "amountPlaceholder": "Adja meg az összeget",
+          "amountErr": "Az összeg nem lehet több, mint Khums",
+          "dateLabel": "Átadás dátuma – opcionális",
+          "dateInfo": "A pénz elküldésének dátuma",
+          "remarks": "Megjegyzések, ha vannak?",
+          "remarksInfo": "Pl. \"készpénzben fizetve\"",
+          "attach": "Mellékletek hozzáadása",
+          "attachInfo": "Hozzáadhat fizetési nyugtákat (csak képeket) későbbi felhasználás céljából"
+        }
       }
     },
     "authPage": {
