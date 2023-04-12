@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL không hợp lệ. Vui lòng thử với một URL mới."
+      },
+      "page404": {
+        "title": "Không tìm thấy trang",
+        "desc": "Chúng tôi không thể tìm thấy trang bạn đang tìm kiếm!",
+        "ctaLabel": "Trang chủ Goto"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Thêm tệp đính kèm",
           "attachInfo": "Bạn có thể thêm biên lai thanh toán (chỉ hình ảnh) để tham khảo sau"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Chọn Quốc gia",
+        "searchPH": "Tìm kiếm quốc gia theo tên hoặc mã số"
       }
     },
     "authPage": {
