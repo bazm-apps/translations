@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Kliknite ikonu Zajedničko korištenje (izgleda kao ona s desne strane) <strong>ISPOD,</strong> a zatim kliknite <strong>Dodaj na početni zaslon</strong>. Kliknite \"Spremi\" da biste završili, a zatim aplikaciji možete pristupiti iz prečaca na početnom zaslonu!"
+        },
+        "nonSafari": {
+          "heading": "Bazm bolje radi na Apple Safariju",
+          "desc": "Ovaj preglednik ima ograničene značajke, dok safari preglednik omogućuje našoj aplikaciji bolju izvedbu, uključujući push-obavijesti i prečac za aplikacije.",
+          "subtext": "<strong>Otvorite aplikaciju Safari</strong> na telefonu i goto <strong>{url}</strong> za bolje iskustvo.",
+          "skipCta": "Umjesto toga nastavite ovdje"
         }
       },
       "webFeedback": {
