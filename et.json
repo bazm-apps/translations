@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Sobimatu URL. Proovige uue URL-iga."
+      },
+      "page404": {
+        "title": "Lehte ei leitud",
+        "desc": "Me ei leidnud otsitavat lehte!",
+        "ctaLabel": "Mine koju"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Manuste lisamine",
           "attachInfo": "Saate lisada maksekviitungeid (ainult pilte) hilisemaks viitamiseks"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Valige riik",
+        "searchPH": "Otsige riiki nime või valimiskoodi järgi"
       }
     },
     "authPage": {
