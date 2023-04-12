@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Cliciwch ar yr eicon Share (yn edrych fel un ar y dde) <strong>ISOD</strong> ac yna cliciwch <strong>Add to Home Screen</strong>. Cliciwch \"Save\" i orffen, ac yna gallwch gael mynediad i'r ap o shortcut ar eich sgrin gartref!"
+        },
+        "nonSafari": {
+          "heading": "Mae Bazm yn gweithio'n well ar Apple Safari",
+          "desc": "Mae gan y porwr hwn nodweddion cyfyngedig, tra bod porwr Safari yn galluogi ein app i berfformio'n well, gan gynnwys hysbysiadau Gwthio a llwybr byr App.",
+          "subtext": "<strong>Agor ap Safari</strong> ar eich ffôn a goto <strong>{url}</strong> am brofiad gwell.",
+          "skipCta": "Parhau yma yn lle"
         }
       },
       "webFeedback": {
