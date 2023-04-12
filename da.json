@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klik på ikonet Del (ligner et til højre) <strong>NEDENFOR</strong>, og klik derefter på <strong>Føj til startskærmen</strong>. Klik på \"Gem\" for at afslutte, og så kan du få adgang til appen fra genvej på din startskærm!"
+        },
+        "nonSafari": {
+          "heading": "Bazm fungerer bedre på Apple Safari",
+          "desc": "Denne browser har begrænsede funktioner, mens Safari-browseren gør det muligt for vores app at fungere bedre, herunder push-notifikationer og app-genvej.",
+          "subtext": "<strong>Åbn Safari-appen</strong> på din telefon, og gå til <strong>{url}</strong> for at få en bedre oplevelse.",
+          "skipCta": "Fortsæt her i stedet"
         }
       },
       "webFeedback": {
