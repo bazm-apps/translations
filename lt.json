@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Spustelėkite bendrinimo piktogramą (atrodo kaip viena dešinėje) <strong>ŽEMIAU</strong>, tada spustelėkite <strong>Pridėti prie pagrindinio ekrano</strong>. Spustelėkite \"Išsaugoti\", kad užbaigtumėte, tada galėsite pasiekti programą iš nuorodos pagrindiniame ekrane!"
+        },
+        "nonSafari": {
+          "heading": "\"Bazm\" geriau veikia \"Apple Safari\".",
+          "desc": "Ši naršyklė turi ribotas funkcijas, o \"Safari\" naršyklė leidžia mūsų programai veikti geriau, įskaitant tiesioginius pranešimus ir programos sparčiuosius klavišus.",
+          "subtext": "<strong>Atidarykite \"Safari\" programą</strong> savo telefone ir eikite <strong>{url}</strong>, kad gautumėte geresnę patirtį.",
+          "skipCta": "Vietoj to tęskite čia"
         }
       },
       "webFeedback": {
