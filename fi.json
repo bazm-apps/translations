@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Virheellinen URL-osoite. Kokeile uudella URL-osoitteella."
+      },
+      "page404": {
+        "title": "Sivua ei löydy",
+        "desc": "Emme löytäneet etsimääsi sivua!",
+        "ctaLabel": "Goto Etusivu"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Liitteiden lisääminen",
           "attachInfo": "Voit lisätä maksukuitit (vain kuvat) myöhempää käyttöä varten"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Valitse maa",
+        "searchPH": "Hae maasta nimen tai valintanumeron perusteella"
       }
     },
     "authPage": {
