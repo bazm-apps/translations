@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh teljari"
+        },
+        "khumsLabel": "Khums reiknivél",
+        "khumsDesc": "Reiknaðu khums þína, eða bættu við áður greiddum khums. Það hjálpar þér við skráningu khums þinna í gegnum árin.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Reiknaðu khums á skilvirkan hátt",
+              "p1": "<a href='{href}' target='_blank'>Fylgdu blogginu okkar</a> sem dregur fram lykilatriði í útreikningi á khums á hverju ári.",
+              "p2": "Fyrirvari: Bloggið er EKKI leiðarvísir. <strong>Fylgdu úrskurðum Marjah þíns fyrir útreikning Khums</strong>. <span id='blog-info-link' color='primary'>Smelltu hér</span> til að fá frekari upplýsingar.",
+              "blogInfo": "Ofangreint blogg er byggt á greinum frá al-islam.org, sistani.org og umræðum okkar við nokkra aðra fræðimenn. Þú ættir alltaf að fylgja úrskurðum Marjah þíns fyrir útreikning Khums.",
+              "dismissCta": "Hef ekki áhuga"
+            },
+            "title": "Khums útreikningar þínir",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />fyrir næsta útreikning",
+            "muqammasDesc": "Byggt á útreikningum frá síðasta ári",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Greiddur:",
+            "remaining": "Eftirstandandi:",
+            "newMuqammas": "Ný muqammas:",
+            "jsDeleted": "Khums útreikningi eytt með góðum árangri!",
+            "prompts": {
+              "delete": {
+                "header": "Eyða Khums útreikningi?",
+                "desc": "Ertu viss um að þú viljir eyða þessu? Öllum tengdum skjölum verður eytt líka!"
+              }
+            },
+            "empty": {
+              "header": "Engum khums bætt við ennþá",
+              "subtext": "Byrjaðu á því að bæta við khums útreikningi. Smelltu á hnappinn hér að neðan."
+            }
+          },
+          "detail": {
+            "title": "Khumarnir þínir",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas fyrir næsta útreikning",
+            "calcHeader": "Byggt á neðangreindum útreikningi:",
+            "savingsHeader": "Sparnaður",
+            "conversionInfo": "Umreiknað í {amount} miðað við gengi {xchgRate} á {xchgRateDate}",
+            "expensesHeader": "Útgjöld",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Fyrri muqammas",
+            "paymentsHeader": "Greiðslur fyrir khums:",
+            "error": {
+              "header": "Oh uh, villa kom upp!",
+              "desc": "Við virðumst ekki geta fundið neitt um þennan khums-útreikning. Það gæti verið annað hvort vegna þess að ein af þjónustunum okkar bilaði, eða kannski ertu að leita að gömlum gögnum.<br /><br/ >Prófaðu að endurnýja síðuna eða hafðu samband við okkur ef þú heldur að það sé villa af okkar hálfu."
+            },
+            "js": {
+              "recordDeleteFailed": "Villa kom upp þegar reynt var að eyða þessari færslu. Vinsamlegast reyndu aftur, eða ef villan er viðvarandi, komdu aftur síðar.",
+              "recordDeleted": "Skrá eytt succesfully",
+              "deleteRecordHeader": "Eyða færslu?",
+              "deleteRecordDesc": "Ertu viss um að þú viljir eyða þessari færslu? Öllum viðhengjum sem bætt er við þessa skrá verður einnig eytt!"
+            }
+          },
+          "calc": {
+            "subtext": "Fylltu út formið hér að neðan til að reikna khums þína. Valfrjálsir reitir eru tilgreindir. Smelltu á upplýsingatáknið hér að neðan til að vita meira um hlutann.",
+            "blog": "Tengt: Lestu bloggið okkar um <a href='{href}' target='_blank'>Hvernig á að reikna khums á skilvirkan hátt<a></a>",
+            "dateRange": "Veldu dagsetningarbil:",
+            "dateRangeInfo": "Venjulega reiknar fólk khums fyrir fjárhagsár (td frá apríl til mars) eða almanaksár (jan til des)",
+            "startDate": "Upphafsdagsetning:",
+            "endDate": "Lokadagsetning:",
+            "savings": {
+              "header": "Sparnaður",
+              "desc": "Bættu við sparnaði/innistæðu á milli reikninga þinna",
+              "info": "Þú getur bætt við upphæðum í mismunandi gjaldmiðlum, en khums er að lokum reiknað í einum gjaldmiðli miðað við gengi dagsins í dag.",
+              "form": {
+                "label": "Merkimiði",
+                "placeholder": "T.d. launareikningur",
+                "amountLabel": "Magn",
+                "amountPlaceholder": "Sláðu inn upphæð",
+                "remarks": "Einhverjar athugasemdir um þennan hlut?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Skuldir/skuldir/útgjöld</strong> — valkvætt",
+              "subtext": "Bættu við öllum tafarlausum skuldum, skuldum eða útgjöldum",
+              "info": "Hluti fjárhæðarinnar frá eftirstöðvum kann að vera frádráttarbær fyrir khums. Fylgdu krækjunni okkar hér að ofan <strong>Reiknaðu khums á skilvirkan hátt</strong> til að vita meira.",
+              "form": {
+                "placeholder": "T.d. gjaldfallin leiga"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Fyrri muqammas</strong> — Valkvætt",
+              "subtext": "Eftirstöðvar eftir að hafa greitt khums á fyrra tímabili",
+              "info": "Ef þú ert að borga khums í fyrsta skipti verður Muqammas ZERO. Ef þú hefur vistað fyrri útreikninga hér, geturðu samstillt til að nota Muqammas frá fyrra tímabili."
+            },
+            "mainCurrencyHeader": "Veldu aðalgjaldmiðil",
+            "mainCurrencyInfo": "Hvaða gjaldmiðil ættum við að nota til að reikna khums?",
+            "customRates": {
+              "header": "<strong>Notkun gengis</strong>",
+              "subtext": "Þetta gengi gjaldmiðla verður notað til útreikninga. Þú getur breytt þeim til að nota sérsniðin gildi.",
+              "info": "Þegar fjallað er um söguleg gögn, eins og þegar þú bætir við útreikningum fyrir khums frá því fyrir rúmu ári þegar gengi krónunnar var ekki það sama og í dag, getur þú stillt sérsniðin gildi fyrir gengi sjálfur.",
+              "rateValuePH": "Í {currency}t.d. 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Reikna",
+            "pageError": {
+              "header": "Villa kom upp",
+              "desc": "Tókst ekki að fá gögnin sem krafist er fyrir síðuna. Vinsamlegast endurhlaðið síðuna eða reyndu aftur síðar."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Eyða athugasemdum?",
+                "deleteText": "Ertu viss um að þú viljir eyða athugasemdum fyrir þetta atriði?"
+              },
+              "choicePrompt": {
+                "addHeader": "Bæta við",
+                "savings": "Bæta nýrri færslu við Sparnað",
+                "liability": "Bæta nýrri færslu við skuldir"
+              },
+              "rowOptions": {
+                "header": "Hvað viltu gera við þetta?",
+                "duplicate": "Búa til tvítekna færslu",
+                "remarks": "Bæta við athugasemdum fyrir þetta",
+                "delete": "Eyða þessari færslu"
+              },
+              "apiError": "Villa kom upp. Reyndu aftur."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Já, notaðu {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Halda áfram á ensku"
+          "useEngling": "Halda áfram á ensku",
+          "useEnglish": "Halda áfram á ensku",
+          "selectFrom": "Eða veldu úr einu af eftirfarandi öðrum tungumálum:"
         },
         "langError": "Villa kom upp við hleðslu þýðinganna fyrir {langName}. Vinsamlegast reyndu aftur síðar."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Þú hefur þegar skráð þig í Ziyarat á fimmtudaginn. Skráðu þig í næstu viku í ziyarat í næstu viku.",
         "jsConfirm": "Til að skrá okkur fyrir þessari beiðni þurfum við að deila upplýsingum þínum (td fullu nafni, kyni o.s.frv.) með þjónustuaðila okkar. Þetta er aðeins nauðsynlegt í fyrsta skipti. Vinsamlegast staðfestu að halda áfram.",
         "jsDeclined": "Ókei! Kannski seinna."
+      },
+      "currencySelector": {
+        "title": "Veldu gjaldmiðil",
+        "baseCurrency": "Grunngjaldmiðill",
+        "compHasOwnRates": "Síðan sem notar þennan valmöguleika hefur eigin gengi sem kann að hafa sögulegt gildi. Þess vegna verða taxtar sem hér eru sýndir ekki notaðir við val.",
+        "cancelCta": "Afturkalla",
+        "doneCta": "Búinn"
+      },
+      "mqmsSelector": {
+        "title": "Veldu Muqammas upphæð",
+        "dateAdded": "Bætt við: {date}",
+        "cancelCta": "Afturkalla",
+        "doneCta": "Velja"
+      },
+      "khumsPaymentRecord": {
+        "title": "Bæta við greiðslufærslu",
+        "paymentFor": "Greiðsla fyrir {khumsType}",
+        "totalAmount": "Heildarupphæð : {amount}",
+        "form": {
+          "amountLabel": "Magn",
+          "amountPlaceholder": "Sláðu inn upphæð",
+          "amountErr": "Upphæð getur ekki verið hærri en Khums",
+          "dateLabel": "Flutningsdagur — Valkvætt",
+          "dateInfo": "Dagsetningin þegar þú sendir peningana",
+          "remarks": "Athugasemdir, ef einhverjar eru?",
+          "remarksInfo": "T.d.: \"Greitt í reiðufé\"",
+          "attach": "Bæta við viðhengi",
+          "attachInfo": "Hægt er að bæta við greiðslukvittunum (aðeins myndum) til síðari tilvísunar"
+        }
       }
     },
     "authPage": {
