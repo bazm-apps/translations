@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "A kép feltöltése sikeresen megtörtént!",
         "jsImgUploadErr": "A képfeltöltés sikertelen volt. Kérjük, próbálja újra később."
-      }
+      },
+      "unknown": "Ismeretlen"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Körülbelül",
-          "jsStatusUpdateFail": "Nem sikerült frissíteni az állapotot. Kérjük, próbálja újra később."
+          "jsStatusUpdateFail": "Nem sikerült frissíteni az állapotot. Kérjük, próbálja újra később.",
+          "statusTextInfo": "Adj hozzá valami rövidet magadról, például, hogy ki vagy vagy vagy mit csinálsz!",
+          "statusCta": "Állapot hozzáadása | Állapot frissítése",
+          "addCity": "Város hozzáadása",
+          "gender": "Férfi | Nő",
+          "addGender": "Nem hozzáadása",
+          "addBday": "Születésnap hozzáadása",
+          "addRelation": "Kapcsolat hozzáadása",
+          "joinDate": "Csatlakozott: {date}"
         },
         "posts": {
           "title": "Hozzászólás",
