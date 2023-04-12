@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Obraz przesłany pomyślnie!",
         "jsImgUploadErr": "Przesyłanie obrazu nie powiodło się. Spróbuj ponownie później."
-      }
+      },
+      "unknown": "Nieznany"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Około",
-          "jsStatusUpdateFail": "Aktualizacja stanu nie powiodła się. Spróbuj ponownie później."
+          "jsStatusUpdateFail": "Aktualizacja stanu nie powiodła się. Spróbuj ponownie później.",
+          "statusTextInfo": "Dodaj coś krótkiego o sobie, na przykład, kim jesteś lub co robisz!",
+          "statusCta": "Dodaj status | Status aktualizacji",
+          "addCity": "Dodaj miasto",
+          "gender": "Mężczyzna | Kobieta",
+          "addGender": "Dodaj płeć",
+          "addBday": "Dodaj urodziny",
+          "addRelation": "Dodaj relację",
+          "joinDate": "Dołączył: {date}"
         },
         "posts": {
           "title": "Posty",
