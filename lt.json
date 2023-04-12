@@ -222,6 +222,124 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh skaitiklis"
+        },
+        "khumsLabel": "Khums Skaičiuoklė",
+        "khumsDesc": "Apskaičiuokite savo khums arba pridėkite anksčiau sumokėtus khums. Tai padeda jums registruoti savo khums per daugelį metų.",
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Dienoraštis: efektyviai apskaičiuokite khums",
+              "p1": "<a href='{href}' target='_blank'>Sekite mūsų tinklaraštį</a> , kuriame pabrėžiami pagrindiniai elementai skaičiuojant khums kiekvienais metais.",
+              "p2": "Atsakomybės apribojimas: Tinklaraštis NĖRA vadovas. <strong>Vykdykite savo Mardžos sprendimus Khumso skaičiavimui</strong>. Norėdami gauti daugiau informacijos, <span id='blog-info-link' color='primary'>spustelėkite čia</span> .",
+              "blogInfo": "Aukščiau pateiktas tinklaraštis yra pagrįstas al-islam.org, sistani.org straipsniais ir mūsų diskusijomis su keliais kitais mokslininkais. Jūs visada turėtumėte vadovautis savo Marjah sprendimais dėl Khumso skaičiavimo.",
+              "dismissCta": "Neįdomu"
+            },
+            "title": "Jūsų \"Khums\" skaičiavimai",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />kitam skaičiavimui",
+            "muqammasDesc": "Remiantis praėjusių metų skaičiavimais",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imamas (a.s.)",
+            "paid": "Mokama:",
+            "remaining": "Likusių:",
+            "newMuqammas": "Naujos muqammas:",
+            "jsDeleted": "Khums skaičiavimas sėkmingai ištrintas!",
+            "prompts": {
+              "delete": {
+                "header": "Ištrinti Khums skaičiavimą?",
+                "desc": "Ar tikrai norite tai ištrinti? Visi susiję dokumentai taip pat bus ištrinti!"
+              }
+            },
+            "empty": {
+              "header": "Dar nepridėta khumų",
+              "subtext": "Pradėkite pridėdami khums skaičiavimą. Spustelėkite žemiau esantį mygtuką."
+            }
+          },
+          "detail": {
+            "title": "Jūsų Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas kitam skaičiavimui",
+            "calcHeader": "Remiantis toliau pateiktais skaičiavimais:",
+            "savingsHeader": "Santaupos",
+            "conversionInfo": "Perskaičiuota į {amount} pagal {xchgRate} keitimo kursą pagal {xchgRateDate}",
+            "expensesHeader": "Išlaidos",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Ankstesnės muqammas",
+            "paymentsHeader": "Mokėjimai, atlikti už khums:",
+            "error": {
+              "header": "O uh, įvyko klaida!",
+              "desc": "Panašu, kad nieko nerandame apie šį khums skaičiavimą. Taip gali būti dėl to, kad viena iš mūsų paslaugų sugedo, arba galbūt ieškote pasenusių duomenų.<br /><br/ >Pabandykite atnaujinti puslapį arba susisiekite su mumis, jei manote, kad esame klaidingi."
+            },
+            "js": {
+              "recordDeleteFailed": "Bandant panaikinti šį įrašą įvyko klaida. Bandykite dar kartą arba, jei klaida išlieka, grįžkite dar kartą vėliau.",
+              "recordDeleted": "Įrašas sėkmingai panaikintas",
+              "deleteRecordHeader": "Naikinti įrašą?",
+              "deleteRecordDesc": "Ar tikrai norite ištrinti šį įrašą? Visi priedai, įtraukti į šį įrašą, taip pat bus ištrinti!"
+            }
+          },
+          "calc": {
+            "subtext": "Užpildykite žemiau esančią formą, kad apskaičiuotumėte savo khums. Nurodomi neprivalomi laukai. Spustelėkite toliau pateiktą informacijos piktogramą, kad sužinotumėte daugiau apie skyrių.",
+            "blog": "Susijęs: Perskaitykite mūsų tinklaraštį <a href='{href}' target='_blank'>apie tai, kaip efektyviai<a> apskaičiuoti khums</a>",
+            "dateRange": "Pasirinkite dienų seką:",
+            "dateRangeInfo": "Paprastai žmonės skaičiuoja khums už finansinius metus (pvz., Nuo balandžio iki kovo) arba kalendorinius metus (nuo sausio iki gruodžio)",
+            "startDate": "Pradžios data:",
+            "endDate": "Pabaigos data:",
+            "savings": {
+              "header": "Santaupos",
+              "desc": "Pridėkite santaupų / likučio visoje (-ose) paskyroje (-ose)",
+              "info": "Galite pridėti sumas skirtingomis valiutomis, tačiau khums galiausiai apskaičiuojamas viena valiuta pagal šiandienos valiutos kursą.",
+              "form": {
+                "label": "Etiketė",
+                "placeholder": "Pvz., Atlyginimo sąskaita",
+                "amountLabel": "Suma",
+                "amountPlaceholder": "Įveskite sumą",
+                "remarks": "Ar turite pastabų dėl šio elemento?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Skolos/įsipareigojimai/išlaidos</strong> – neprivaloma",
+              "subtext": "Pridėkite visas tiesiogines skolas, įsipareigojimus ar išlaidas",
+              "info": "Dalis sumos iš balanso gali būti išskaičiuota už khumus. Sekite aukščiau esančią nuorodą <strong>Efektyviai apskaičiuokite khums,</strong> kad sužinotumėte daugiau.",
+              "form": {
+                "placeholder": "Pvz., nuomos mokestis"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Ankstesnis Muqammas</strong> – neprivalomas",
+              "subtext": "Likutis, likęs sumokėjus khums praėjusiu laikotarpiu",
+              "info": "Jei mokate khums pirmą kartą, Muqammas bus NULIS. Jei čia išsaugojote ankstesnius skaičiavimus, galite sinchronizuoti, kad galėtumėte naudoti ankstesnio laikotarpio Muqammas."
+            },
+            "mainCurrencyHeader": "Pasirinkite pagrindinę valiutą",
+            "mainCurrencyInfo": "Kokią valiutą turėtume naudoti apskaičiuodami khumus?",
+            "customRates": {
+              "header": "<strong>Valiutų kursų naudojimas</strong>",
+              "subtext": "Šie valiutų keitimo kursai bus naudojami skaičiavimui. Galite juos pakeisti, kad būtų naudojamos pasirinktinės reikšmės.",
+              "info": "Dirbdami su istoriniais duomenimis, pavyzdžiui, pridėdami skaičiavimus khums, palyginti su daugiau nei prieš metus, kai valiutų kursai nebuvo tokie patys kaip šiandien, galite patys nustatyti pasirinktines valiutų kursų reikšmes.",
+              "rateValuePH": "{currency}, pvz., 1 {mainCurrency} = 80,21 {currency}"
+            },
+            "calculateCta": "Apskaičiuoti",
+            "pageError": {
+              "header": "Įvyko klaida",
+              "desc": "Nepavyko gauti puslapiui reikalingų duomenų. Iš naujo įkelkite puslapį arba bandykite dar kartą vėliau."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Ištrinti pastabas?",
+                "deleteText": "Ar tikrai norite ištrinti šio elemento pastabas?"
+              },
+              "choicePrompt": {
+                "addHeader": "Pridėti",
+                "savings": "Pridėkite naują įrašą prie santaupų",
+                "liability": "Pridėti naują įrašą prie įsipareigojimų"
+              },
+              "rowOptions": {
+                "header": "Ką norite su tuo daryti?",
+                "duplicate": "Pasikartojančio įrašo kūrimas",
+                "remarks": "Pridėkite pastabų dėl to",
+                "delete": "Naikinti šį įrašą"
+              },
+              "apiError": "Įvyko klaida. Bandykite dar kartą."
+            }
+          }
         }
       },
       "user": {
@@ -314,7 +432,9 @@
             "Taip, naudokite {langName}",
             "Naudokite {langName}"
           ],
-          "useEngling": "Tęsti anglų kalba"
+          "useEngling": "Tęsti anglų kalba",
+          "useEnglish": "Tęskite anglų kalbą",
+          "selectFrom": "Arba pasirinkite vieną iš šių alternatyvių kalbų:"
         },
         "langError": "Įkeliant {langName} vertimus įvyko klaida. Bandykite dar kartą vėliau."
       },
@@ -658,6 +778,35 @@
         "jsAlreadyRegistered": "Jūs jau užsiregistravote \"Ziyarat\" šį ketvirtadienį. Registruokitės kitą savaitę į kitos savaitės ziyarat.",
         "jsConfirm": "Norėdami užsiregistruoti šiai užklausai, turime pasidalinti jūsų duomenimis (pvz., vardu, pavarde, lytimi ir kt.) su mūsų paslaugų teikėju. Tai reikalinga tik pirmą kartą. Maloniai patvirtinkite, kad tęstumėte.",
         "jsDeclined": "Gerai! Gal vėliau."
+      },
+      "currencySelector": {
+        "title": "Pasirinkite valiutą",
+        "baseCurrency": "Bazinė valiuta",
+        "compHasOwnRates": "Puslapis, kuriame naudojamas šis parinkiklis, turi savo valiutų kursus, kurie gali turėti istorines vertes. Todėl čia nurodytos normos nebus taikomos atrankai.",
+        "cancelCta": "Atšaukti",
+        "doneCta": "Padaryta"
+      },
+      "mqmsSelector": {
+        "title": "Pasirinkite Muqammas sumą",
+        "dateAdded": "Papildyta: {date}",
+        "cancelCta": "Atšaukti",
+        "doneCta": "Žymėti"
+      },
+      "khumsPaymentRecord": {
+        "title": "Mokėjimo įrašo įtraukimas",
+        "paymentFor": "Mokėjimas už {khumsType}",
+        "totalAmount": "Bendra suma: {amount}",
+        "form": {
+          "amountLabel": "Suma",
+          "amountPlaceholder": "Įveskite sumą",
+          "amountErr": "Suma negali būti didesnė už Khums",
+          "dateLabel": "Perkėlimo data – neprivaloma",
+          "dateInfo": "Data, kada išsiuntėte pinigus",
+          "remarks": "Pastabos, jei tokių yra?",
+          "remarksInfo": "Pvz., \"Apmokėta grynaisiais pinigais\"",
+          "attach": "Priedų įtraukimas",
+          "attachInfo": "Galite pridėti mokėjimo kvitus (tik vaizdus) vėlesniam naudojimui"
+        }
       }
     },
     "authPage": {
