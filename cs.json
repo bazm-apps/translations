@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Neplatná adresa URL. Zkuste to prosím s novou adresou URL."
+      },
+      "page404": {
+        "title": "Stránka nenalezena",
+        "desc": "Nepodařilo se nám najít stránku, kterou hledáte!",
+        "ctaLabel": "Přejít na domovskou stránku"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Přidání příloh",
           "attachInfo": "Potvrzení o platbě (pouze obrázky) můžete přidat pro pozdější použití"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Vyberte zemi",
+        "searchPH": "Hledaná země podle jména nebo číselného kódu"
       }
     },
     "authPage": {
