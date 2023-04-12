@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Mynd hlaðið upp með góðum árangri!",
         "jsImgUploadErr": "Upphleðsla mynda mistókst. Vinsamlegast reyndu aftur síðar."
-      }
+      },
+      "unknown": "Óþekktur"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Um",
-          "jsStatusUpdateFail": "Mistókst að uppfæra stöðu. Vinsamlegast reyndu aftur síðar."
+          "jsStatusUpdateFail": "Mistókst að uppfæra stöðu. Vinsamlegast reyndu aftur síðar.",
+          "statusTextInfo": "Bættu við einhverju stuttu um sjálfan þig, svo sem, hver ert þú eða hvað gerir þú!",
+          "statusCta": "Bæta við stöðu | Uppfæra stöðu",
+          "addCity": "Bæta við borg",
+          "gender": "Karl | Kona",
+          "addGender": "Bæta við kyni",
+          "addBday": "Bæta við afmælisdegi",
+          "addRelation": "Bæta við sambandi",
+          "joinDate": "Skráði sig: {date}"
         },
         "posts": {
           "title": "Innlegg",
