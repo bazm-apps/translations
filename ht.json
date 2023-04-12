@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Imaj Telechaje avèk siksè!",
         "jsImgUploadErr": "Imaj Upload echwe. Tanpri eseye ankò pita."
-      }
+      },
+      "unknown": "Enkoni"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Sou",
-          "jsStatusUpdateFail": "Echwe pou pou mete ajou estati. Tanpri eseye ankò pita."
+          "jsStatusUpdateFail": "Echwe pou pou mete ajou estati. Tanpri eseye ankò pita.",
+          "statusTextInfo": "Ajoute yon bagay tou kout sou tèt ou, tankou, ki moun ou ye oswa ki sa ou fè!",
+          "statusCta": "Ajoute estati -- Estati Mizajou",
+          "addCity": "Ajoute Vil la",
+          "gender": "Gason -- Fi",
+          "addGender": "Ajoute sèks",
+          "addBday": "Ajoute anivèsè nesans",
+          "addRelation": "Ajoute relasyon",
+          "joinDate": "Ansanm: {date}"
         },
         "posts": {
           "title": "Posts",
