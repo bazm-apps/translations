@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Adresă URL nevalidă. Vă rugăm să încercați cu un URL nou."
+      },
+      "page404": {
+        "title": "Pagina nu a fost găsită",
+        "desc": "Nu am putut găsi pagina pe care o căutați!",
+        "ctaLabel": "Du-te la Domiciliu"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Adăugarea atașărilor",
           "attachInfo": "Puteți adăuga chitanțe de plată (numai imagini) pentru referințe ulterioare"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Selectați Țara",
+        "searchPH": "Căutați în țară după nume sau cod de apelare"
       }
     },
     "authPage": {
