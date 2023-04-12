@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Slika uspešno naložena!",
         "jsImgUploadErr": "Nalaganje slik ni uspelo. Poskusite znova pozneje."
-      }
+      },
+      "unknown": "Neznan"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Približno",
-          "jsStatusUpdateFail": "Posodobitev stanja ni uspela. Poskusite znova pozneje."
+          "jsStatusUpdateFail": "Posodobitev stanja ni uspela. Poskusite znova pozneje.",
+          "statusTextInfo": "Dodajte nekaj kratkega o sebi, na primer, kdo ste ali kaj počnete!",
+          "statusCta": "Dodaj stanje –– Stanje posodobitve",
+          "addCity": "Dodaj mesto",
+          "gender": "Moški | Ženska",
+          "addGender": "Dodaj spol",
+          "addBday": "Dodaj rojstni dan",
+          "addRelation": "Dodaj odnos",
+          "joinDate": "Pridruži se: {date}"
         },
         "posts": {
           "title": "Delovnih mest",
