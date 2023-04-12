@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Klikněte na ikonu Sdílet (vypadá jako jedna vpravo) <strong>NÍŽE</strong> a poté klikněte na <strong>tlačítko Přidat na domovskou obrazovku</strong>. Klikněte na \"Uložit\" pro dokončení, a pak můžete přistupovat k aplikaci ze zástupce na domovské obrazovce!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funguje lépe na Apple Safari",
+          "desc": "Tento prohlížeč má omezené funkce, zatímco prohlížeč Safari umožňuje naší aplikaci lépe fungovat, včetně oznámení push a zkratky aplikace.",
+          "subtext": "<strong>Otevřete aplikaci Safari</strong> v telefonu a přejděte na <strong>{url}</strong> pro lepší zážitek.",
+          "skipCta": "Místo toho pokračujte zde"
         }
       },
       "webFeedback": {
