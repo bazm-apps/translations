@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Kattintson a Megosztás ikonra (úgy néz ki, mint a jobb oldalon lévő) <strong>ALÁBB</strong>, majd kattintson a <strong>Hozzáadás a kezdőképernyőhöz gombra</strong>. A befejezéshez kattintson a \"Mentés\" gombra, majd elérheti az alkalmazást a kezdőképernyő parancsikonjáról!"
+        },
+        "nonSafari": {
+          "heading": "A Bazm jobban működik az Apple Safariban",
+          "desc": "Ez a böngésző korlátozott funkciókkal rendelkezik, míg a Safari böngésző lehetővé teszi alkalmazásunk jobb teljesítményét, beleértve a push-értesítéseket és az alkalmazás-parancsikonokat.",
+          "subtext": "<strong>Nyissa meg a Safari alkalmazást</strong> a telefonján, és lépjen <strong>{url}</strong> a jobb élmény érdekében.",
+          "skipCta": "Folytassa inkább itt"
         }
       },
       "webFeedback": {
