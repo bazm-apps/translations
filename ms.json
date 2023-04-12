@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "URL tidak sah. Sila cuba dengan URL baharu."
+      },
+      "page404": {
+        "title": "Halaman tidak dijumpai",
+        "desc": "Kami tidak dapat mencari halaman yang anda cari!",
+        "ctaLabel": "Laman Utama Goto"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Menambah lampiran",
           "attachInfo": "Anda boleh menambah resit pembayaran (imej sahaja) untuk rujukan kemudian"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Pilih Negara",
+        "searchPH": "Cari negara mengikut nama atau kod dail"
       }
     },
     "authPage": {
