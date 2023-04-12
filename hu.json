@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Érvénytelen URL. Kérjük, próbálkozzon egy új URL-lel."
+      },
+      "page404": {
+        "title": "Az oldal nem található",
+        "desc": "Nem találtuk a keresett oldalt!",
+        "ctaLabel": "Goto főoldal"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Mellékletek hozzáadása",
           "attachInfo": "Hozzáadhat fizetési nyugtákat (csak képeket) későbbi felhasználás céljából"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Ország kiválasztása",
+        "searchPH": "Ország keresése név vagy tárcsázási kód alapján"
       }
     },
     "authPage": {
