@@ -896,6 +896,12 @@
         },
         "popover": {
           "text": "Fai clic sull'icona Condividi (simile a quella a destra) <strong>SOTTO</strong> e quindi fai clic su <strong>Aggiungi alla schermata Home</strong>. Fai clic su \"Salva\" per terminare, quindi puoi accedere all'app dal collegamento sulla schermata iniziale!"
+        },
+        "nonSafari": {
+          "heading": "Bazm funziona meglio su Apple Safari",
+          "desc": "Questo browser ha funzionalità limitate, mentre il browser Safari consente alla nostra app di funzionare meglio, comprese le notifiche push e le scorciatoie delle app.",
+          "subtext": "<strong>Apri l'app Safari</strong> sul tuo telefono e vai a <strong>{url}</strong> per un'esperienza migliore.",
+          "skipCta": "Continua qui invece"
         }
       },
       "webFeedback": {
