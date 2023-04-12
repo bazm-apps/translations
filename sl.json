@@ -82,6 +82,11 @@
       },
       "url": {
         "invalid": "Neveljaven URL. Poskusite z novim URL-jem."
+      },
+      "page404": {
+        "title": "Stran ni najdena",
+        "desc": "Nismo našli strani, ki jo iščete!",
+        "ctaLabel": "Goto Domov"
       }
     },
     "navbar": {
@@ -807,6 +812,10 @@
           "attach": "Dodajanje prilog",
           "attachInfo": "Za poznejše sklicevanje lahko dodate potrdila o plačilu (samo slike)"
         }
+      },
+      "dialCodeSelector": {
+        "title": "Izberi državo",
+        "searchPH": "Poišči državo po imenu ali klicni kodi"
       }
     },
     "authPage": {
