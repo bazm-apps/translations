@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Immagine caricata con successo!",
         "jsImgUploadErr": "Caricamento dell'immagine non riuscito. Riprova più tardi."
-      }
+      },
+      "unknown": "Sconosciuto"
     },
     "errors": {
       "service": {
@@ -389,7 +390,15 @@
         },
         "about": {
           "title": "Circa",
-          "jsStatusUpdateFail": "Impossibile aggiornare lo stato. Riprova più tardi."
+          "jsStatusUpdateFail": "Impossibile aggiornare lo stato. Riprova più tardi.",
+          "statusTextInfo": "Aggiungi qualcosa di breve su di te, ad esempio, chi sei o cosa fai!",
+          "statusCta": "Aggiungi stato | Stato aggiornamento",
+          "addCity": "Aggiungi città",
+          "gender": "Maschio | Femmina",
+          "addGender": "Aggiungi sesso",
+          "addBday": "Aggiungi compleanno",
+          "addRelation": "Aggiungi relazione",
+          "joinDate": "Iscritto dal: {date}"
         },
         "posts": {
           "title": "Messaggi",
