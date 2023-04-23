@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Razložite s pravilnim sklicevanjem in v kontekstu shia muslimanov. Prav tako mi navedite sklice kot seznam s povezavami do virov."
+        "quesAppend": "Razložite s pravilnim sklicevanjem in v kontekstu shia muslimanov. Prav tako mi navedite sklice kot seznam s povezavami do virov.",
+        "newQues": "Živjo, začnimo nov pogovor. Spodaj sem poizvedbo:\n{quesTex}",
+        "continuePrev": "Nadaljujmo z razpravo iz {date}. {quesTex}"
       }
     }
   }
