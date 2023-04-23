@@ -977,6 +977,11 @@
         ],
         "description": "Trova duas, aamaal, ziyarat e munajat per tutti i mesi su Bazm, data ed evento saggio. Scarica l'app oggi e unisciti a milioni di musulmani sciiti in tutto il mondo!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Spiegare con riferimenti corretti e nel contesto ai musulmani sciiti. Inoltre, forniscimi riferimenti come elenco con collegamenti alle fonti."
+      }
     }
   }
 }
