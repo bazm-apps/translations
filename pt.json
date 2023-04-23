@@ -977,6 +977,11 @@
         ],
         "description": "Encontre dois, aamaal, ziyarat e munajat para todos os meses em Bazm, data e evento sábio. Baixe o aplicativo hoje e junte-se a milhões de muçulmanos xiitas em todo o mundo!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Explique com referências corretas e no contexto para os muçulmanos xiitas. Além disso, forneça-me referências como lista com links para fontes."
+      }
     }
   }
 }
