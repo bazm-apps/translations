@@ -977,6 +977,11 @@
         ],
         "description": "Troba duas, aamaal, ziyarat i munajat per a tots els mesos a Bazm, data i esdeveniment savi. Descarregueu l'aplicació avui mateix i uniu-vos a milions de musulmans xiïtes de tot el món!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Explicar amb referències correctes i en context als xiïtes. A més, proporcioneu-me referències com a llista amb enllaços a fonts."
+      }
     }
   }
 }
