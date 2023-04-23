@@ -977,6 +977,11 @@
         ],
         "description": "Vind duas, aamaal, ziyarat en munajat voor alle maanden op Bazm, datum en evenement verstandig. Download de app vandaag nog en sluit je aan bij miljoenen sjiitische moslims over de hele wereld!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Leg uit met correcte verwijzingen en in context aan sjiitische moslims. Geef me ook referenties als lijst met links naar bronnen."
+      }
     }
   }
 }
