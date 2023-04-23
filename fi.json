@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Selitä oikeilla viitteillä ja kontekstissa shiiamuslimeille. Anna minulle myös viitteet luettelona, jossa on linkkejä lähteisiin."
+        "quesAppend": "Selitä oikeilla viitteillä ja kontekstissa shiiamuslimeille. Anna minulle myös viitteet luettelona, jossa on linkkejä lähteisiin.",
+        "newQues": "Hei, aloitetaan uusi keskustelu. Minulla on alla oleva kysely:\n{quesTex}",
+        "continuePrev": "Jatketaan keskustelua {date}. {quesTex}"
       }
     }
   }
