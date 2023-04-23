@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Objasnite točnim referencama i u kontekstu šijitskih muslimana. Također, pružite mi reference kao popis s vezama na izvore."
+        "quesAppend": "Objasnite točnim referencama i u kontekstu šijitskih muslimana. Također, pružite mi reference kao popis s vezama na izvore.",
+        "newQues": "Bok, započnimo novi razgovor. U nastavku imam upit:\n{quesTex}",
+        "continuePrev": "Nastavimo našu raspravu od {date}. {quesTex}"
       }
     }
   }
