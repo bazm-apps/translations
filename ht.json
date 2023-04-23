@@ -977,6 +977,11 @@
         ],
         "description": "Jwenn duas, aamaal, ziyarat ak munajat pou tout mwa sou Bazm, dat ak evènman ki gen bon sans. Telechaje app a jodi a epi rantre nan dè milyon de Shi'a mizilman atravè mond lan!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Eksplike ak referans kòrèk ak nan kontèks pou shia mizilman yo. Epitou, bay m 'referans kòm lis ak lyen ki mennen nan sous."
+      }
     }
   }
 }
