@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Leg uit met correcte verwijzingen en in context aan sjiitische moslims. Geef me ook referenties als lijst met links naar bronnen."
+        "quesAppend": "Leg uit met correcte verwijzingen en in context aan sjiitische moslims. Geef me ook referenties als lijst met links naar bronnen.",
+        "newQues": "Hallo, laten we een nieuw gesprek beginnen. Ik heb onderstaande vraag:\n{quesTex}",
+        "continuePrev": "Laten we onze discussie voortzetten vanuit {date}. {quesTex}"
       }
     }
   }
