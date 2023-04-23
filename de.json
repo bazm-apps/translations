@@ -977,6 +977,11 @@
         ],
         "description": "Finden Sie Duas, Aamaal, Ziyarat und Munajat für alle Monate auf Bazm, Datum und Veranstaltung. Laden Sie die App noch heute herunter und schließen Sie sich Millionen von schiitischen Muslimen auf der ganzen Welt an!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Erklären Sie mit korrekten Referenzen und im Kontext zu schiitischen Muslimen. Stellen Sie mir auch Referenzen als Liste mit Links zu Quellen zur Verfügung."
+      }
     }
   }
 }
