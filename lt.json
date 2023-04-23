@@ -977,6 +977,11 @@
         ],
         "description": "Raskite duas, aamaal, ziyarat ir munajat visiems mėnesiams Bazm, data ir įvykis protingas. Atsisiųskite programą šiandien ir prisijunkite prie milijonų šiitų musulmonų visame pasaulyje!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Paaiškinkite teisingomis nuorodomis ir kontekste apie musulmonus šiitus. Be to, pateikite man nuorodas kaip sąrašą su nuorodomis į šaltinius."
+      }
     }
   }
 }
