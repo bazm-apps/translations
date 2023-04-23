@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Esboniwch gyda chyfeiriadau cywir ac yn eu cyd-destun i fwslemiaid Shia. Hefyd, rhowch gyfeiriadau i mi fel rhestr gyda dolenni at ffynonellau."
+        "quesAppend": "Esboniwch gyda chyfeiriadau cywir ac yn eu cyd-destun i fwslemiaid Shia. Hefyd, rhowch gyfeiriadau i mi fel rhestr gyda dolenni at ffynonellau.",
+        "newQues": "Helo, gadewch i ni ddechrau sgwrs newydd. Rwyf wedi isod ymholiad:\n{quesTex}",
+        "continuePrev": "Gadewch i ni barhau â'n trafodaeth gan {date}. {quesTex}"
       }
     }
   }
