@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Explicați cu referințe corecte și în context musulmanilor șiiți. De asemenea, oferă-mi referințe ca listă cu link-uri către surse."
+        "quesAppend": "Explicați cu referințe corecte și în context musulmanilor șiiți. De asemenea, oferă-mi referințe ca listă cu link-uri către surse.",
+        "newQues": "Bună, să începem o nouă conversație. Am interogare de mai jos:\n{quesTex}",
+        "continuePrev": "Să continuăm discuția noastră din {date}. {quesTex}"
       }
     }
   }
