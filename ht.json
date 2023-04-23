@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Eksplike ak referans kòrèk ak nan kontèks pou shia mizilman yo. Epitou, bay m 'referans kòm lis ak lyen ki mennen nan sous."
+        "quesAppend": "Eksplike ak referans kòrèk ak nan kontèks pou shia mizilman yo. Epitou, bay m 'referans kòm lis ak lyen ki mennen nan sous.",
+        "newQues": "Hi, kite a kòmanse yon nouvo konvèsasyon. Mwen te anba a rechèch:\n{quesTex}",
+        "continuePrev": "Ann kontinye konvèsasyon nou soti nan {date}. {quesTex}"
       }
     }
   }
