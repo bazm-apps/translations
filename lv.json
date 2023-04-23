@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Paskaidrojiet ar pareizām atsaucēm un kontekstā ar šiītu musulmaņiem. Sniedziet man arī atsauces kā sarakstu ar saitēm uz avotiem."
+        "quesAppend": "Paskaidrojiet ar pareizām atsaucēm un kontekstā ar šiītu musulmaņiem. Sniedziet man arī atsauces kā sarakstu ar saitēm uz avotiem.",
+        "newQues": "Sveiki, sāksim jaunu sarunu. Zemāk esmu jautājis:\n{quesTex}",
+        "continuePrev": "Turpināsim mūsu diskusiju no {date}. {quesTex}"
       }
     }
   }
