@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Verduidelik met korrekte verwysings en in konteks aan sjiïtiese Moslems. Gee ook vir my verwysings as lys met skakels na bronne."
+        "quesAppend": "Verduidelik met korrekte verwysings en in konteks aan sjiïtiese Moslems. Gee ook vir my verwysings as lys met skakels na bronne.",
+        "newQues": "Hallo, kom ons begin 'n nuwe gesprek. Ek het hieronder navraag gedoen:\n{quesTex}",
+        "continuePrev": "Kom ons gaan voort met ons bespreking van {date}af. {quesTex}"
       }
     }
   }
