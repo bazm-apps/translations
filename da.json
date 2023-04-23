@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Forklar med korrekte referencer og i sammenhæng til shia-muslimer. Giv mig også referencer som liste med links til kilder."
+        "quesAppend": "Forklar med korrekte referencer og i sammenhæng til shia-muslimer. Giv mig også referencer som liste med links til kilder.",
+        "newQues": "Hej, lad os starte en ny samtale. Jeg har nedenstående forespørgsel:\n{quesTex}",
+        "continuePrev": "Lad os fortsætte vores diskussion fra {date}. {quesTex}"
       }
     }
   }
