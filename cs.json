@@ -977,6 +977,11 @@
         ],
         "description": "Najděte duas, aamaal, ziyarat a munajat pro všechny měsíce na Bazmu, datum a událost. Stáhněte si aplikaci ještě dnes a připojte se k milionům šíitských muslimů po celém světě!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Vysvětlete se správnými odkazy a v kontextu šíitským muslimům. Také mi poskytněte reference jako seznam s odkazy na zdroje."
+      }
     }
   }
 }
