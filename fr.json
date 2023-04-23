@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Expliquez avec des références correctes et dans le contexte aux musulmans chiites. Aussi, fournissez-moi des références sous forme de liste avec des liens vers des sources."
+        "quesAppend": "Expliquez avec des références correctes et dans le contexte aux musulmans chiites. Aussi, fournissez-moi des références sous forme de liste avec des liens vers des sources.",
+        "newQues": "Bonjour, commençons une nouvelle conversation. J’ai la requête ci-dessous:\n{quesTex}",
+        "continuePrev": "Poursuivons notre discussion à partir de {date}. {quesTex}"
       }
     }
   }
