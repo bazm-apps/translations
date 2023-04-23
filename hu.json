@@ -977,6 +977,11 @@
         ],
         "description": "Keresse meg a duas, az aamaal, a ziyarat és a munajat minden hónapot a Bazm-on, a dátum és az esemény bölcs. Töltsd le az alkalmazást még ma, és csatlakozz több millió síita muszlimhoz szerte a világon!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Magyarázza el helyes hivatkozásokkal és kontextusban a síita muszlimokat. Ezenkívül adjon nekem hivatkozásokat listaként a forrásokra mutató linkekkel."
+      }
     }
   }
 }
