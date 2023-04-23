@@ -977,6 +977,11 @@
         ],
         "description": "Tìm duas, aamaal, ziyarat và munajat cho tất cả các tháng trên Bazm, ngày và sự kiện khôn ngoan. Tải xuống ứng dụng ngay hôm nay và tham gia cùng hàng triệu người Hồi giáo Shi'a trên khắp thế giới!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Giải thích với các tài liệu tham khảo chính xác và trong ngữ cảnh cho người Hồi giáo Shia. Ngoài ra, cung cấp cho tôi tài liệu tham khảo dưới dạng danh sách với các liên kết đến các nguồn."
+      }
     }
   }
 }
