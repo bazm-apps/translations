@@ -977,6 +977,11 @@
         ],
         "description": "Leia duas, aamaal, ziyarat ja munajat kõigiks kuudeks Bazmil, kuupäeva ja sündmuse järgi. Laadige rakendus alla juba täna ja liituge miljonite šiiitide moslemitega kogu maailmas!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Selgitage õigete viidetega ja kontekstis šiia moslemitele. Samuti esitage mulle viited loendina koos linkidega allikatele."
+      }
     }
   }
 }
