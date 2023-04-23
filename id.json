@@ -977,6 +977,11 @@
         ],
         "description": "Temukan duas, aamaal, ziyarat dan munajat untuk semua bulan di Bazm, tanggal dan peristiwa bijaksana. Unduh aplikasinya hari ini dan bergabunglah dengan jutaan muslim Syi'ah di seluruh dunia!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Jelaskan dengan referensi yang benar dan dalam konteks muslim Syiah. Juga, berikan saya referensi sebagai daftar dengan tautan ke sumber."
+      }
     }
   }
 }
