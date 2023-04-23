@@ -976,6 +976,11 @@
           "Pata duas, aamaal, ziyarat na munajat kwa miezi yote kwenye Bazm, tarehe na tukio la busara. Pakua programu leo na ujiunge na mamilioni ya Waislamu wa Shi'a duniani kote!"
         ]
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Eleza kwa marejeo sahihi na kwa muktadha kwa Waislamu wa shia. Pia, nipe marejeleo kama orodha na viungo kwa vyanzo."
+      }
     }
   }
 }
