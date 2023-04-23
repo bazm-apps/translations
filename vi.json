@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Giải thích với các tài liệu tham khảo chính xác và trong ngữ cảnh cho người Hồi giáo Shia. Ngoài ra, cung cấp cho tôi tài liệu tham khảo dưới dạng danh sách với các liên kết đến các nguồn."
+        "quesAppend": "Giải thích với các tài liệu tham khảo chính xác và trong ngữ cảnh cho người Hồi giáo Shia. Ngoài ra, cung cấp cho tôi tài liệu tham khảo dưới dạng danh sách với các liên kết đến các nguồn.",
+        "newQues": "Xin chào, chúng ta hãy bắt đầu một cuộc trò chuyện mới. Tôi đã truy vấn bên dưới:\n{quesTex}",
+        "continuePrev": "Hãy tiếp tục thảo luận của chúng tôi từ {date}. {quesTex}"
       }
     }
   }
