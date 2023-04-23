@@ -67,7 +67,8 @@
         },
         "jsImgUploaded": "Image uploaded successfully!",
         "jsImgUploadErr": "Image upload failed. Please try again later."
-      }
+      },
+      "unknown": "Unknown"
     },
     "errors": {
       "service": {
@@ -82,6 +83,11 @@
       },
       "url": {
         "invalid": "Invalid URL. Please try with a new URL."
+      },
+      "page404": {
+        "title": "Page not found",
+        "desc": "We could not find the page you're looking for!",
+        "ctaLabel": "Goto Home"
       }
     },
     "navbar": {
@@ -159,6 +165,8 @@
         "tasbeehCounterDesc": "Recite Duas, Quran and Tasbeeh on repeat mode easily with Audio Tasbeeh counter",
         "qnaLabel": "QnA (Masle-Masayel)",
         "qnaDesc": "Search and Ask questions or find answers to masle-masayel from your daily life on matters of Islam.",
+        "khumsLabel": "Khums Calculator",
+        "khumsDesc": "Calculate your khums, or add any previously paid khums. It helps you with record-keeping of your khums over the years.",
         "alarms": {
           "salatAlarms": "Salat Alarms | Daily Salat Alarms",
           "sehriAlarms": "Ramadan Sehri Alarms",
@@ -222,6 +230,122 @@
         },
         "tasbeehCounter": {
           "title": "Tasbeeh Counter"
+        },
+        "khums": {
+          "list": {
+            "blog": {
+              "title": "Blog: Calculate khums efficiently",
+              "p1": "<a href='{href}' target='_blank'>Follow our blog</a> that highlights key items in calculation of khums every year.",
+              "p2": "Disclaimer: The blog is NOT a guide. <strong>Follow rulings of your Marjah for Khums calculation</strong>. <span id='blog-info-link' color='primary'>Click here</span> for more info.",
+              "blogInfo": "The above blog is based on articles from al-islam.org, sistani.org, and our discussions with a few other scholars. You should always follow the rulings by your Marjah for Khums calculation.",
+              "dismissCta": "Not interested"
+            },
+            "title": "Your Khums Calculations",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br />for next calculation",
+            "muqammasDesc": "Based on calculations from latest year",
+            "sahmeSadat": "Sahm-e-Sadat",
+            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "paid": "Paid:",
+            "remaining": "Remaining:",
+            "newMuqammas": "New muqammas:",
+            "jsDeleted": "Khums calculation deleted successfully!",
+            "prompts": {
+              "delete": {
+                "header": "Delete Khums Calculation?",
+                "desc": "Are you sure you want to delete this? All related documents will be deleted too!"
+              }
+            },
+            "empty": {
+              "header": "No khums added yet",
+              "subtext": "Start by adding a khums calculation. Click on the button below."
+            }
+          },
+          "detail": {
+            "title": "Your Khums",
+            "header": "Khums",
+            "mqmsInfo": "Muqammas for next calculation",
+            "calcHeader": "Based on below calculation:",
+            "savingsHeader": "Savings",
+            "conversionInfo": "Converted to {amount} based on exchange-rate of {xchgRate} on {xchgRateDate}",
+            "expensesHeader": "Expenses",
+            "mqmsHeader": "Muqammas",
+            "prevMqms": "Previous muqammas",
+            "paymentsHeader": "Payments made for khums:",
+            "error": {
+              "header": "Oh uh, an error occurred!",
+              "desc": "It looks like we cannot find anything about this khums-calculation. It could be either because one of our services malfunctioned, or maybe you're looking for stale data.<br /><br/ >Try refreshing the page, or reach out to us if you think there's error on our part."
+            },
+            "js": {
+              "recordDeleteFailed": "An error occurred while trying to delete this record. Please try again, or if the error persists, come again later.",
+              "recordDeleted": "Record deleted succesfully",
+              "deleteRecordHeader": "Delete record?",
+              "deleteRecordDesc": "Are you sure you want to delete this record? Any attachments added to this record will be deleted as well!"
+            }
+          },
+          "calc": {
+            "subtext": "Fill the form below to calculate your khums. Optional fields are indicated. Click info-icon below to know more about the section.",
+            "blog": "Related: Read our blog on <a href='{href}' target='_blank'>How to calculate khums efficiently<a>",
+            "dateRange": "Select date range:",
+            "dateRangeInfo": "Typically, people calculate khums for a financial year (eg, from April to March) or a Calendar year (Jan to Dec)",
+            "startDate": "Starting date:",
+            "endDate": "End date:",
+            "savings": {
+              "header": "Savings",
+              "desc": "Add savings/balance across your account(s)",
+              "info": "You can add amounts in different currencies, but khums is eventually calculated in single currency based on today's exchange rate.",
+              "form": {
+                "label": "Label",
+                "placeholder": "E.g., Salary account",
+                "amountLabel": "Amount",
+                "amountPlaceholder": "Enter Amount",
+                "remarks": "Any remarks about this item?"
+              }
+            },
+            "expenses": {
+              "header": "<strong>Debts/Liabilities/Expenses</strong> — Optional",
+              "subtext": "Add any immediate debts, liabilities or expenses",
+              "info": "Some of the amount from balance may be deductible for khums. Follow our link above <strong>Calculate khums efficiently</strong> to know more.",
+              "form": {
+                "placeholder": "E.g., Rent due"
+              }
+            },
+            "mqms": {
+              "header": "<strong>Previous Muqammas</strong> — Optional",
+              "subtext": "Balance left after paying khums in the previous period",
+              "info": "If you're paying khums for the first time, Muqammas will be ZERO. If you've previous calculations saved here, you can sync to use Muqammas from earlier period."
+            },
+            "mainCurrencyHeader": "Select main currency",
+            "mainCurrencyInfo": "Which currency should we use to calculate khums?",
+            "customRates": {
+              "header": "<strong>Using exchange rates</strong>",
+              "subtext": "These currency exchange-rates will be used for calculation. You can change them to use custom values.",
+              "info": "When dealing with historical data, such as when adding calculation for khums from over a year ago when the exchange-rates were not same as today, you can set custom values for exchange-rates yourself.",
+              "rateValuePH": "In {currency}, e.g., 1 {mainCurrency} = 80.21 {currency}"
+            },
+            "calculateCta": "Calculate",
+            "pageError": {
+              "header": "An error occurred",
+              "desc": "Failed to get the data required for the page. Please reload the page or try again later."
+            },
+            "js": {
+              "remarks": {
+                "deleteHeader": "Delete remarks?",
+                "deleteText": "Are you sure you want to delete remarks for this item?"
+              },
+              "choicePrompt": {
+                "addHeader": "Add",
+                "savings": "Add new entry to Savings",
+                "liability": "Add new entry to Liabilities"
+              },
+              "rowOptions": {
+                "header": "What do you want to do with this?",
+                "duplicate": "Create duplicate entry",
+                "remarks": "Add remarks for this",
+                "delete": "Delete this entry"
+              },
+              "apiError": "An error occurred. Please try again."
+            }
+          }
         }
       },
       "user": {
@@ -266,7 +390,15 @@
         },
         "about": {
           "title": "About",
-          "jsStatusUpdateFail": "Failed to update status. Please try again later."
+          "jsStatusUpdateFail": "Failed to update status. Please try again later.",
+          "statusTextInfo": "Add something brief about yourself, such as, who are you or what do you do!",
+          "statusCta": "Add Status | Update Status",
+          "addCity": "Add City",
+          "gender": "Male | Female",
+          "addGender": "Add Gender",
+          "addBday": "Add Birthday",
+          "addRelation": "Add Relationship",
+          "joinDate": "Joined: {date}"
         },
         "posts": {
           "title": "Posts",
@@ -314,7 +446,8 @@
             "Yes, use {langName}",
             "Use {langName}"
           ],
-          "useEngling": "Continue in English"
+          "useEnglish": "Continue in English",
+          "selectFrom": "Or, select from one of the following alternate languages:"
         },
         "langError": "An error occurred while loading the translations for {langName}. Please try again later."
       },
@@ -660,6 +793,39 @@
         "jsAlreadyRegistered": "You have already registered for Ziyarat this Thursday. Register next week for next week's ziyarat.",
         "jsConfirm": "To register for this request, we need to share your details (eg, full name, gender, etc.) with our service provider. This is required for the first time only. Kindly confirm to proceed.",
         "jsDeclined": "Okay! Maybe later."
+      },
+      "currencySelector": {
+        "title": "Select currency",
+        "baseCurrency": "Base Currency",
+        "compHasOwnRates": "The page using this selector has it's own exchange-rates which may have historical values. Therefore, rates shown here will not be applied on selection.",
+        "cancelCta": "Cancel",
+        "doneCta": "Done"
+      },
+      "mqmsSelector": {
+        "title": "Select Muqammas amount",
+        "dateAdded": "Added on: {date}",
+        "cancelCta": "Cancel",
+        "doneCta": "Select"
+      },
+      "khumsPaymentRecord": {
+        "title": "Add Payment Record",
+        "paymentFor": "Payment for {khumsType}",
+        "totalAmount": "Total amount: {amount}",
+        "form": {
+          "amountLabel": "Amount",
+          "amountPlaceholder": "Enter Amount",
+          "amountErr": "Amount cannot be more than Khums",
+          "dateLabel": "Transfer date — Optional",
+          "dateInfo": "Date when you sent the money",
+          "remarks": "Remarks, if any?",
+          "remarksInfo": "E.g., 'Paid in cash'",
+          "attach": "Add attachments",
+          "attachInfo": "You can add payment receipts (images only) for later reference"
+        }
+      },
+      "dialCodeSelector": {
+        "title": "Select Country",
+        "searchPH": "Search country by name or dial-code"
       }
     },
     "authPage": {
@@ -720,7 +886,7 @@
       "appInstall": {
         "card": {
           "heading": "Install Bazm { platform }",
-          "desc": "Download Android app for a better experience, personalized content, notifications and everything of your interest from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
+          "desc": "Download our Android app for a better experience, personalized content, notifications and everything of your interest from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
           "cta": {
             "action": "Install",
             "skip": "Maybe later"
@@ -731,6 +897,12 @@
         },
         "popover": {
           "text": "Click on the Share icon (looks like one on the right) <strong>BELOW</strong> and then click <strong>Add to Home Screen</strong>. Click \"Save\" to finish, and then you can access the app from shortcut on your homescreen!"
+        },
+        "nonSafari": {
+          "heading": "Bazm works better on Apple Safari",
+          "desc": "This browser has limited features, while Safari browser enables our app to perform better, including Push-notifications and App-shortcut.",
+          "subtext": "<strong>Open Safari app</strong> on your phone and goto <strong>{url}</strong> for a better experience.",
+          "skipCta": "Continue here instead"
         }
       },
       "webFeedback": {
@@ -806,6 +978,12 @@
         ],
         "description": "Find duas, aamaal, ziyarat and munajat for all months on Bazm, date and event wise. Download the app today and join millions of Shi'a muslims around the world!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Explain with correct references and in context to shia muslims. Also, provide me references as list with links to sources."
+      }
     }
-  }
+  },
+  "publishedOn": 1682235914143
 }
