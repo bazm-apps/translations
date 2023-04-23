@@ -977,6 +977,11 @@
         ],
         "description": "Finndu duas, aamaal, ziyarat og munajat fyrir alla mánuði á Bazm, dagsetning og atburður vitur. Sæktu appið í dag og taktu þátt í milljónum Shi'a múslima um allan heim!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Útskýrðu með réttum tilvísunum og í samhengi við shia múslima. Gefðu mér einnig tilvísanir sem lista með tenglum á heimildir."
+      }
     }
   }
 }
