@@ -977,6 +977,11 @@
         ],
         "description": "Znajdź duas, aamaal, ziyarat i munajat przez wszystkie miesiące na Bazm, data i wydarzenie. Pobierz aplikację już dziś i dołącz do milionów szyickich muzułmanów na całym świecie!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Wyjaśnij z poprawnymi odniesieniami i w kontekście szyickich muzułmanów. Podaj mi również referencje jako listę z linkami do źródeł."
+      }
     }
   }
 }
