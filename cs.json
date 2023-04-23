@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Vysvětlete se správnými odkazy a v kontextu šíitským muslimům. Také mi poskytněte reference jako seznam s odkazy na zdroje."
+        "quesAppend": "Vysvětlete se správnými odkazy a v kontextu šíitským muslimům. Také mi poskytněte reference jako seznam s odkazy na zdroje.",
+        "newQues": "Ahoj, pojďme začít novou konverzaci. Níže jsem se dotazoval:\n{quesTex}",
+        "continuePrev": "Pokračujme v naší diskusi od {date}. {quesTex}"
       }
     }
   }
