@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Explique con referencias correctas y en contexto a los musulmanes chiítas. Además, proporcióneme referencias como lista con enlaces a fuentes."
+        "quesAppend": "Explique con referencias correctas y en contexto a los musulmanes chiítas. Además, proporcióneme referencias como lista con enlaces a fuentes.",
+        "newQues": "Hola, comencemos una nueva conversación. He consultado a continuación:\n{quesTex}",
+        "continuePrev": "Continuemos nuestra discusión desde {date}. {quesTex}"
       }
     }
   }
