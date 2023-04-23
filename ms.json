@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Terangkan dengan rujukan yang betul dan dalam konteks kepada syiah umat Islam. Juga, berikan saya rujukan sebagai senarai dengan pautan ke sumber."
+        "quesAppend": "Terangkan dengan rujukan yang betul dan dalam konteks kepada syiah umat Islam. Juga, berikan saya rujukan sebagai senarai dengan pautan ke sumber.",
+        "newQues": "Hai, mari kita mulakan perbualan baru. Saya mempunyai pertanyaan di bawah:\n{quesTex}",
+        "continuePrev": "Mari kita teruskan perbincangan kita dari {date}. {quesTex}"
       }
     }
   }
