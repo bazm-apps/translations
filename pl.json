@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Wyjaśnij z poprawnymi odniesieniami i w kontekście szyickich muzułmanów. Podaj mi również referencje jako listę z linkami do źródeł."
+        "quesAppend": "Wyjaśnij z poprawnymi odniesieniami i w kontekście szyickich muzułmanów. Podaj mi również referencje jako listę z linkami do źródeł.",
+        "newQues": "Cześć, zacznijmy nową rozmowę. Mam poniżej zapytanie:\n{quesTex}",
+        "continuePrev": "Kontynuujmy naszą dyskusję od {date}. {quesTex}"
       }
     }
   }
