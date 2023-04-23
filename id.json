@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Jelaskan dengan referensi yang benar dan dalam konteks muslim Syiah. Juga, berikan saya referensi sebagai daftar dengan tautan ke sumber."
+        "quesAppend": "Jelaskan dengan referensi yang benar dan dalam konteks muslim Syiah. Juga, berikan saya referensi sebagai daftar dengan tautan ke sumber.",
+        "newQues": "Hai, mari kita mulai percakapan baru. Saya memiliki pertanyaan di bawah ini:\n{quesTex}",
+        "continuePrev": "Mari kita lanjutkan pembahasan kita dari {date}. {quesTex}"
       }
     }
   }
