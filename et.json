@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Selgitage õigete viidetega ja kontekstis šiia moslemitele. Samuti esitage mulle viited loendina koos linkidega allikatele."
+        "quesAppend": "Selgitage õigete viidetega ja kontekstis šiia moslemitele. Samuti esitage mulle viited loendina koos linkidega allikatele.",
+        "newQues": "Tere, alustame uut vestlust. Mul on allpool päring:\n{quesTex}",
+        "continuePrev": "Jätkame oma arutelu {date}. {quesTex}"
       }
     }
   }
