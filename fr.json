@@ -977,6 +977,11 @@
         ],
         "description": "Trouvez duas, aamaal, ziyarat et munajat pour tous les mois sur Bazm, date et événement. Téléchargez l’application dès aujourd’hui et rejoignez des millions de musulmans chiites à travers le monde !"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Expliquez avec des références correctes et dans le contexte aux musulmans chiites. Aussi, fournissez-moi des références sous forme de liste avec des liens vers des sources."
+      }
     }
   }
 }
