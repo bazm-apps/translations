@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Útskýrðu með réttum tilvísunum og í samhengi við shia múslima. Gefðu mér einnig tilvísanir sem lista með tenglum á heimildir."
+        "quesAppend": "Útskýrðu með réttum tilvísunum og í samhengi við shia múslima. Gefðu mér einnig tilvísanir sem lista með tenglum á heimildir.",
+        "newQues": "Hæ, hefjum nýtt samtal. Ég hef hér að neðan fyrirspurn:\n{quesTex}",
+        "continuePrev": "Höldum áfram umræðu okkar frá {date}. {quesTex}"
       }
     }
   }
