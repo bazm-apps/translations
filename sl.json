@@ -977,6 +977,11 @@
         ],
         "description": "Poiščite duas, aamaal, ziyarat in munajat za vse mesece na Bazm, datum in dogodek pametno. Prenesite aplikacijo danes in se pridružite milijonom Shi'a muslimanov po vsem svetu!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Razložite s pravilnim sklicevanjem in v kontekstu shia muslimanov. Prav tako mi navedite sklice kot seznam s povezavami do virov."
+      }
     }
   }
 }
