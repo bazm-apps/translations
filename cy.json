@@ -977,6 +977,11 @@
         ],
         "description": "Find duas, aamaal, ziyarat a munajat am bob mis ar Bazm, dyddiad a digwyddiad doeth. Lawrlwythwch yr ap heddiw ac ymunwch â miliynau o Fwslemiaid Shi'a ledled y byd!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Esboniwch gyda chyfeiriadau cywir ac yn eu cyd-destun i fwslemiaid Shia. Hefyd, rhowch gyfeiriadau i mi fel rhestr gyda dolenni at ffynonellau."
+      }
     }
   }
 }
