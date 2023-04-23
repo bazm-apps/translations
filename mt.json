@@ -977,6 +977,11 @@
         ],
         "description": "Sib duas, aamaal, ziyarat u munajat għax-xhur kollha fuq Bazm, data u avveniment għaqli. Niżżel l-app illum u ingħaqad ma 'miljuni ta' Musulmani Xiiti madwar id-dinja!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Spjega b'referenzi korretti u f'kuntest għall-Musulmani shia. Ukoll, ipprovdili referenzi bħala lista b'links għal sorsi."
+      }
     }
   }
 }
