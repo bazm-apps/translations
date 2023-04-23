@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Doğru referanslarla ve bağlamda Şii Müslümanlara açıklayın. Ayrıca, kaynaklara bağlantılar içeren liste olarak referanslar sağlayın."
+        "quesAppend": "Doğru referanslarla ve bağlamda Şii Müslümanlara açıklayın. Ayrıca, kaynaklara bağlantılar içeren liste olarak referanslar sağlayın.",
+        "newQues": "Merhaba, yeni bir konuşma başlatalım. Aşağıda sorguladım:\n{quesTex}",
+        "continuePrev": "Tartışmamıza {date}devam edelim. {quesTex}"
       }
     }
   }
