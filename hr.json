@@ -977,6 +977,11 @@
         ],
         "description": "Pronađite duas, aamaal, ziyarat i munajat za sve mjesece na Bazmu, datum i događaj mudar. Preuzmite aplikaciju danas i pridružite se milijunima šijitskih muslimana širom svijeta!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Objasnite točnim referencama i u kontekstu šijitskih muslimana. Također, pružite mi reference kao popis s vezama na izvore."
+      }
     }
   }
 }
