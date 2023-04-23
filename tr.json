@@ -977,6 +977,11 @@
         ],
         "description": "Bazm'daki tüm aylar için dua, aamaal, ziyarat ve munajat'ı bulun, tarih ve olay açısından. Uygulamayı bugün indirin ve dünyadaki milyonlarca Şii Müslümana katılın!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Doğru referanslarla ve bağlamda Şii Müslümanlara açıklayın. Ayrıca, kaynaklara bağlantılar içeren liste olarak referanslar sağlayın."
+      }
     }
   }
 }
