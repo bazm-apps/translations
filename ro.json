@@ -977,6 +977,11 @@
         ],
         "description": "Găsi duas, aamaal, ziyarat și munajat pentru toate lunile pe Bazm, data și eveniment înțelept. Descărcați aplicația astăzi și alăturați-vă milioanelor de musulmani șiiți din întreaga lume!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Explicați cu referințe corecte și în context musulmanilor șiiți. De asemenea, oferă-mi referințe ca listă cu link-uri către surse."
+      }
     }
   }
 }
