@@ -981,9 +981,11 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Explain with correct references and in context to shia muslims. Also, provide me references as list with links to sources."
+        "quesAppend": "Explain with correct references and in context to shia muslims. Also, provide me references as list with links to sources.",
+        "newQues": "Hi, let's start a new conversation. I've below query:\n{quesTex}",
+        "continuePrev": "Let's continue our discussion from {date}. {quesTex}"
       }
     }
   },
-  "publishedOn": 1682236410734
+  "publishedOn": 1682291742427
 }
