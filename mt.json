@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Spjega b'referenzi korretti u f'kuntest għall-Musulmani shia. Ukoll, ipprovdili referenzi bħala lista b'links għal sorsi."
+        "quesAppend": "Spjega b'referenzi korretti u f'kuntest għall-Musulmani shia. Ukoll, ipprovdili referenzi bħala lista b'links għal sorsi.",
+        "newQues": "Hi, ejja nibdew konversazzjoni ġdida. Għandi hawn taħt mistoqsija:\n{quesTex}",
+        "continuePrev": "Ejja nkomplu d-diskussjoni tagħna minn {date}. {quesTex}"
       }
     }
   }
