@@ -979,7 +979,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Eleza kwa marejeo sahihi na kwa muktadha kwa Waislamu wa shia. Pia, nipe marejeleo kama orodha na viungo kwa vyanzo."
+        "quesAppend": "Eleza kwa marejeo sahihi na kwa muktadha kwa Waislamu wa shia. Pia, nipe marejeleo kama orodha na viungo kwa vyanzo.",
+        "newQues": "Halo, tuanze mazungumzo mapya. Nimeweka hapa chini swali:\n{quesTex}",
+        "continuePrev": "Tuendelee na mjadala wetu kuanzia {date}. {quesTex}"
       }
     }
   }
