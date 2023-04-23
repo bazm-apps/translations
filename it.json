@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Spiegare con riferimenti corretti e nel contesto ai musulmani sciiti. Inoltre, forniscimi riferimenti come elenco con collegamenti alle fonti."
+        "quesAppend": "Spiegare con riferimenti corretti e nel contesto ai musulmani sciiti. Inoltre, forniscimi riferimenti come elenco con collegamenti alle fonti.",
+        "newQues": "Ciao, iniziamo una nuova conversazione. Ho qui sotto la domanda:\n{quesTex}",
+        "continuePrev": "Continuiamo la nostra discussione da {date}. {quesTex}"
       }
     }
   }
