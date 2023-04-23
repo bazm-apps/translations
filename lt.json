@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Paaiškinkite teisingomis nuorodomis ir kontekste apie musulmonus šiitus. Be to, pateikite man nuorodas kaip sąrašą su nuorodomis į šaltinius."
+        "quesAppend": "Paaiškinkite teisingomis nuorodomis ir kontekste apie musulmonus šiitus. Be to, pateikite man nuorodas kaip sąrašą su nuorodomis į šaltinius.",
+        "newQues": "Sveiki, pradėkime naują pokalbį. Žemiau pateikiau užklausą:\n{quesTex}",
+        "continuePrev": "Tęskime diskusiją nuo {date}. {quesTex}"
       }
     }
   }
