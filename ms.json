@@ -977,6 +977,11 @@
         ],
         "description": "Cari dua, aamaal, ziyarat dan munajat selama berbulan-bulan pada Bazm, tarikh dan peristiwa bijak. Muat turun aplikasi hari ini dan sertai berjuta-juta umat Syiah di seluruh dunia!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Terangkan dengan rujukan yang betul dan dalam konteks kepada syiah umat Islam. Juga, berikan saya rujukan sebagai senarai dengan pautan ke sumber."
+      }
     }
   }
 }
