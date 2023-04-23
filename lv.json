@@ -977,6 +977,11 @@
         ],
         "description": "Atrodiet duas, aamaal, ziyarat un munajat visus mēnešus Bazm, datums un pasākums gudrs. Lejupielādējiet lietotni šodien un pievienojieties miljoniem šiītu musulmaņu visā pasaulē!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Paskaidrojiet ar pareizām atsaucēm un kontekstā ar šiītu musulmaņiem. Sniedziet man arī atsauces kā sarakstu ar saitēm uz avotiem."
+      }
     }
   }
 }
