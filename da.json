@@ -977,6 +977,11 @@
         ],
         "description": "Find duas, aamaal, ziyarat og munajat for alle måneder på Bazm, dato og begivenhedsmæssigt. Download appen i dag og slut dig til millioner af shiamuslimer over hele verden!"
       }
+    },
+    "server": {
+      "bot": {
+        "quesAppend": "Forklar med korrekte referencer og i sammenhæng til shia-muslimer. Giv mig også referencer som liste med links til kilder."
+      }
     }
   }
 }
