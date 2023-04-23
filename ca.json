@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Explicar amb referències correctes i en context als xiïtes. A més, proporcioneu-me referències com a llista amb enllaços a fonts."
+        "quesAppend": "Explicar amb referències correctes i en context als xiïtes. A més, proporcioneu-me referències com a llista amb enllaços a fonts.",
+        "newQues": "Hola, comencem una nova conversa. Tinc la següent consulta:\n{quesTex}",
+        "continuePrev": "Continuem la nostra discussió des de {date}. {quesTex}"
       }
     }
   }
