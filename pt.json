@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Explique com referências corretas e no contexto para os muçulmanos xiitas. Além disso, forneça-me referências como lista com links para fontes."
+        "quesAppend": "Explique com referências corretas e no contexto para os muçulmanos xiitas. Além disso, forneça-me referências como lista com links para fontes.",
+        "newQues": "Oi, vamos começar uma nova conversa. Abaixo tenho consulta:\n{quesTex}",
+        "continuePrev": "Vamos continuar nossa discussão a partir de {date}. {quesTex}"
       }
     }
   }
