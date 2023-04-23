@@ -980,7 +980,9 @@
     },
     "server": {
       "bot": {
-        "quesAppend": "Erklären Sie mit korrekten Referenzen und im Kontext zu schiitischen Muslimen. Stellen Sie mir auch Referenzen als Liste mit Links zu Quellen zur Verfügung."
+        "quesAppend": "Erklären Sie mit korrekten Referenzen und im Kontext zu schiitischen Muslimen. Stellen Sie mir auch Referenzen als Liste mit Links zu Quellen zur Verfügung.",
+        "newQues": "Hallo, lass uns ein neues Gespräch beginnen. Ich habe unten abgefragt:\n{quesTex}",
+        "continuePrev": "Lassen Sie uns unsere Diskussion von {date}fortsetzen . {quesTex}"
       }
     }
   }
