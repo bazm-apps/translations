@@ -66,9 +66,22 @@
           "cta": "Refrescar"
         },
         "jsImgUploaded": "Imatge penjada amb èxit!",
-        "jsImgUploadErr": "La càrrega d'imatges ha fallat. Torneu-ho a provar més tard."
+        "jsImgUploadErr": "La càrrega d'imatges ha fallat. Torneu-ho a provar més tard.",
+        "jsLoadingDelay": "Està trigant una mica més del que s'esperava. Espereu mentre processem aquesta sol·licitud."
       },
-      "unknown": "Desconegut"
+      "unknown": "Desconegut",
+      "close": "Tancar",
+      "yes": "Sí",
+      "no": "No",
+      "idk": "No ho sé",
+      "completed!": "Completat!",
+      "pushPrompt": {
+        "heading": "Estigues al dia",
+        "desc": "T'agrada el que veus? No us perdeu mai cap actualització i estigueu informats de tot el que passa al voltant amb les notificacions.<br />Et podem enviar notificacions?",
+        "cancelCta": "Pregunta'm més tard",
+        "okCta": "Segur!",
+        "jsPushUnsupported": "Push no és compatible amb aquest dispositiu. És possible que us perdeu les notificacions!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmes posades amb èxit",
           "jsAlarmSetError": "Error en la configuració d'alarmes. Torneu-ho a provar més tard.",
-          "jsAlarmSnoozed": "Alarma encesa durant 10 minuts"
+          "jsAlarmSnoozed": "Alarma encesa durant 10 minuts",
+          "sunriseLabel": "Ortus",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Llar"
         },
         "alarmSetting": {
           "title": "Configuració d'alarma",
@@ -398,7 +415,10 @@
           "addGender": "Afegeix sexe",
           "addBday": "Afegeix aniversari",
           "addRelation": "Afegeix una relació",
-          "joinDate": "A: {date}"
+          "joinDate": "A: {date}",
+          "privateInfoDesc": "Aquesta informació només és visible per a vosaltres i veieu contingut i funcions basades en això.",
+          "idSetupCta": "Configuració de la vostra identitat",
+          "idVerifyCta": "Verificar"
         },
         "posts": {
           "title": "Llocs",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "N'estàs segur?",
           "jsDeletePrompt": "Si suprimiu registres de <b>{fullName}</b> també se suprimiran totes les sol·licituds anteriors fetes per a {gender}! Continuar?",
           "jsDeleted": "Registres suprimits per a {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verifiqueu la vostra identitat xiïta | Verifiqueu la vostra identitat sadat",
+          "p1": "Has indicat al teu perfil que ets musulmà xiïta. Verificar aquesta informació us permetrà més funcions i ens ajudarà a construir una comunitat verificada de musulmans xiïtes.",
+          "p2": "Si us plau, verifiqueu la vostra identitat; No trigarà gaire",
+          "noReminder": "No em tornis a recordar",
+          "dismissCta": "Ara no",
+          "startCta": "Començar"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Primer heu de verificar-vos per poder verificar altres persones.",
+          "jsLinkExpired": "Aquest enllaç no és vàlid o ha caducat. Si us plau, demaneu-li a un amic que enviï una nova sol·licitud.",
+          "confirm": {
+            "heading": "Verificar la identitat del compte",
+            "msg": "Ajudeu {firstName} obtenir {genderLabel1} informació del compte. Això {genderLabel2} permetrà accedir a més funcions de la nostra aplicació",
+            "jsSkip": "Cap problema. Si canvieu d'opinió, podeu tornar a visitar aquest enllaç per verificar-lo més endavant."
+          }
+        },
+        "myKhums": {
+          "title": "Els meus Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Enviar OTP",
         "backToLoginCta": "Tornar a l'inici de sessió",
         "disclaimerText": "Tingueu en compte que només obtindreu un {element} si teniu el {item} registrat amb nosaltres",
-        "jsMailSent": "Correu enviat"
+        "jsMailSent": "Correu enviat",
+        "title2": "Reclama el teu compte",
+        "claimIntroHeading": "Reclama el teu compte ràpidament!",
+        "claimIntroText": "Gràcies per acompanyar-nos. Ara hem creat un compte per a tu. Per accedir al compte, restabliu-ne la contrasenya mitjançant un dels mètodes següents:"
       },
       "resetPwd": {
         "title": "Restableix la contrasenya",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Seleccioneu País",
         "searchPH": "Cerca país per nom o codi de marcatge"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Completa el teu perfil",
+            "desc": "Els perfils incomplets tenen accés limitat a les funcions de la nostra aplicació. Tenir el teu perfil actualitzat t'ajuda de diverses maneres. Fes clic aquí per saber-ne més.",
+            "item1": {
+              "header": "Els perfils complets es verifiquen fàcilment",
+              "p1": "Quan sol·liciteu la verificació del compte (pas següent), ajuda els altres a verificar-vos fàcilment quan us coneixen o poden veure tota la informació necessària per verificar-vos.",
+              "p2": "Els perfils incomplets triguen molt més a verificar-se. No voldríem que se't bloquegés l'ús de les funcions de la nostra aplicació."
+            },
+            "item2": {
+              "header": "Veure el contingut adequat",
+              "p1": "Veieu contingut basat en el vostre entorn. Quan tinguem informació correcta sobre tu, veuràs contingut més rellevant.",
+              "p2": "Per exemple, si heu actualitzat la vostra ubicació correctament, és probable que primer vegeu publicacions del vostre entorn."
+            },
+            "cta": "Completa el teu perfil"
+          },
+          "identity": {
+            "header": "Configuració de la vostra identitat",
+            "desc": "Donem la benvinguda a tothom a la nostra aplicació, però com que algunes funcions són útils (i pensades) només per als musulmans xiïtes, aquesta informació ens ajuda a servir-vos les funcions adequades. Fes clic aquí per saber-ne més.",
+            "item1": {
+              "header": "Funcions d'accés per als musulmans xiïtes",
+              "p1": "Diverses funcions de la nostra aplicació estan construïdes per musulmans xiïtes. Alguns d'ells són:",
+              "ul": "<li>Sol·licitud de Surah-fatiha i Namaz-e-Wahshat</li><li>Calculadora khums</li><li>Ajut financer (khums) per a Sadat momineen</li>",
+              "p2": "Per accedir a aquestes funcions, heu de verificar la vostra identitat (ja sigui ara o, si ho decidiu, més endavant)"
+            },
+            "item2": {
+              "header": "Podeu ajudar a momineen in need!",
+              "p1": "Fins i tot si no voleu que se us verifiqui, és possible que hi hagi altres persones que vulguin obtenir la verificació per aprofitar aquestes funcions.",
+              "p2": "Només els comptes verificats poden verificar aquest momineen. La verificació també ens ajuda a crear una comunitat xiïta verificada."
+            },
+            "item3": {
+              "header": "La teva informació sempre és privada",
+              "p1": "<strong>Entenem que es tracta d'una informació sensible</strong> i mai exposarem aquesta informació públicament sense el vostre consentiment, però encara es poden fer inferències de vegades. Per exemple, quan sol·liciteu la verificació d'altres momineen, sabran que sou un xiïta.",
+              "p2": "Podeu fer clic al botó següent per obtenir més informació sobre el nostre procés."
+            },
+            "cta": "Organització"
+          }
+        },
+        "idSetup": {
+          "header": "Gairebé fet!",
+          "desc": "Podeu ometre aquest pas si esteu satisfet amb els nostres valors predefinits per a la vostra configuració de privadesa i comunicacions. No fa mal fer-hi una ullada, però!",
+          "privacy": {
+            "header": "Configura la teva privacitat",
+            "p1": "Definiu què poden veure els altres:",
+            "ul": "<li>Definiu una configuració de visibilitat per a les vostres publicacions. Defineix si qualsevol persona dins o fora de Bazm pot veure les vostres publicacions (per exemple, quan algú les comparteix en una altra plataforma)</li><li>Definir qui pot veure què quan visita el teu perfil</li><li>Definir com es mostra la vostra informació als altres</li>"
+          },
+          "comm": {
+            "header": "Configuració de les comunicacions",
+            "p1": "Defineix com i quan vols que ens comuniquem amb tu:",
+            "ul": "<li>Definir les preferències de notificacions</li><li>Subscriure's o cancel·lar la subscripció a les notificacions de correus electrònics</li><li>Subscriure's o cancel·lar la subscripció als recordatoris</li>"
+          },
+          "cta": "Organització"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Verificar el mòbil",
+            "desc": "Feu clic a l'enllaç següent per verificar el vostre número de mòbil:",
+            "cta": "Iniciar la verificació al mòbil",
+            "completed": "Mòbil verificat correctament"
+          },
+          "email": {
+            "header": "Verificar el correu electrònic",
+            "desc": "Feu clic a l'enllaç següent per obtenir el correu electrònic de verificació a la safata d'entrada.",
+            "cta": "Iniciar la verificació al mòbil",
+            "completed": "Mòbil verificat correctament",
+            "form": {
+              "inputLabel": "El teu correu electrònic:",
+              "ph": "Introdueix el teu email",
+              "cta": "Enllaç de verificació del correu electrònic"
+            },
+            "sent": {
+              "desc": "A continuació s'ha enviat un correu electrònic a la vostra adreça de correu electrònic. Feu clic a l'enllaç del vostre correu electrònic per verificar la vostra adreça de correu electrònic.",
+              "incorrect": "Correu electrònic incorrecte?",
+              "change": "Canviar"
+            },
+            "resendCta": "Tornar a enviar correu electrònic",
+            "openEmailCta": "Obrir correu electrònic",
+            "verified": "Correu electrònic verificat correctament!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Configuració completa del compte",
+        "desc": "Per desbloquejar les funcions del compte, finalitzeu la configuració del compte. Només has de fer-ho una vegada i t'ajuda a verificar les teves dades, la teva identitat i configurar les opcions de privacitat.",
+        "gotoPageCta": "Continua la configuració",
+        "dontRemind": "No em tornis a recordar",
+        "dismissCta": "Posteriorment",
+        "jsConfirmSkip": {
+          "header": "Continuar més tard?",
+          "msg": "Si completeu aquest pas, es desbloquejaran moltes funcions a l'aplicació, però també podeu completar aquest pas més endavant. Només cal que aneu a la pestanya \"Usuari\" i continueu des d'allà.",
+          "btns": {
+            "confirm": "Sí, més tard",
+            "cancel": "Fes-ho ara"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Configureu la vostra identitat",
+        "form": {
+          "religion": {
+            "label": "Selecciona la teva religió:",
+            "infoText": "Una sèrie de característiques només rellevants per als musulmans es basen en aquesta informació. Aquestes dades només seran visibles per a vostè; no obstant això, encara es poden fer inferències (com, per exemple, quan s'utilitza una de les funcions disponibles només per als musulmans)",
+            "muslim": "Musulmà",
+            "nonMuslim": "No musulmans"
+          },
+          "sect": {
+            "label": "Tria la teva secta",
+            "infoText": "Característiques com ara Sol·licitud de <strong>Ziyarat, Sol·licitud d'ajuda, càlcul de Khums, etc</strong> . requereixen que verifiqueu la vostra identitat xiïta. A més, els usuaris no verificats tenen accés limitat a les funcions.",
+            "shia": "Shia",
+            "sunni": "No xiïtes"
+          },
+          "thanksNonMuslim": "Gràcies per mostrar interès en unir-se a la nostra app. Esperem que trobeu contingut útil aquí. Si us plau, mostreu respecte a la comunitat i compliu les nostres normes.",
+          "sadat": {
+            "label": "Ets Sadat?",
+            "infoText": "Aquesta informació s'utilitza en funcions destinades als musulmans sadat-xiïtes. Tot i això, mai no es mostra com ho és per a ningú. Haureu de verificar el vostre estat de sadat abans de poder fer ús d'aquests serveis.",
+            "sadat": "Sí",
+            "nonSadat": "No"
+          },
+          "requested": "Verificació sol·licitada",
+          "required": "Verificació necessària",
+          "verifyInfo": {
+            "modalCta": "Què és això?",
+            "p1": "Per accedir a funcions destinades als musulmans xiïtes, heu de verificar la vostra identitat xiïta.",
+            "p2": "Si sou un Shia-Sadat, també ho haureu de verificar. Podeu aparellar-lo a la mateixa sol·licitud de verificació; simplement seleccioneu <strong>Sadat</strong> a dalt."
+          },
+          "verifyCta": "Verificar",
+          "skipInfo": "Podeu ometre la verificació si no voleu utilitzar les funcions esmentades. Per actualitzar només la informació, feu clic a <strong>Desa i continua</strong>",
+          "thankSunni": {
+            "p1": "Gràcies per mostrar interès per la nostra app. Malgrat aquestes divisions mundanes, tots els musulmans són germans de fe i pertanyen a la mateixa Ummah del profeta Mahoma (PBUH)",
+            "p2": "Esperem que trobeu contingut aquí útil i ens ajudi a entendre'ns millor.",
+            "p3": "Per a qualsevol consulta o consulta sobre les nostres polítiques o qualsevol cosa, sempre pots contactar amb nosaltres."
+          }
+        },
+        "cta": [
+          "Salvar",
+          "Desa i continua"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Verificar el compte per a {name}",
+        "heading": "Pots respondre a continuació informació sobre {firstName}? Si no és així, rebutgeu aquesta sol·licitud.",
+        "desc": "Només tens dos intents de verificar!",
+        "descP1": "Quan envieu aquest formulari, compararem la informació amb el que {firstName} proporcionat en sol·licitar la verificació. Si us plau, presta atenció perquè només tens dos intents d'omplir correctament aquest formulari. Si continueu fallant, no podreu tornar a verificar {firstName} més endavant.",
+        "descP2": "Si no sabeu {firstName}, rebutgeu aquesta sol·licitud. Els avisarem i els demanarem que contactin amb una altra persona.",
+        "rejectRequestCta": "Rebutjar sol·licitud",
+        "form": {
+          "heading": "Responeu a les preguntes següents sobre {firstName} i feu clic a Envia:",
+          "q1": "Com saps {firstName}?",
+          "q2": "Religió:",
+          "q3": "Secta:",
+          "q4": "És {firstName} Sadat?",
+          "q5": "Alguna cosa més que t'agradaria afegir?"
+        }
+      },
+      "editPrefModal": {
+        "title": "La vostra configuració de privadesa",
+        "privacy": {
+          "header": "Configuració de privadesa",
+          "desc": "Definiu qui pot veure el següent de vosaltres o del vostre compte:",
+          "form": {
+            "posts": "Les teves publicacions",
+            "status": "Les actualitzacions d'estat",
+            "requests": "Les teves sol·licituds",
+            "relationship": "L'estat de la vostra relació",
+            "birthday": "La vostra data de naixement (no l'any)",
+            "location": "La teva ubicació"
+          },
+          "disclaimer": {
+            "heading": "* Encara es poden fer inferències sobre això",
+            "p": "Tot i que aquesta informació potser s'amaga al vostre perfil, encara es poden fer algunes inferències. Per exemple, si la publicació es mostra a un usuari, pot inferir que viviu a prop (en funció del lloc on es mostri aquesta publicació al seu feed)."
+          },
+          "values": {
+            "everyone": "Tothom",
+            "users": "Només Momineen",
+            "shias": "Només xiïtes",
+            "me": "Només jo"
+          }
+        },
+        "comm": {
+          "header": "Configuració de la comunicació",
+          "desc": "Defineix com t'agradaria comunicar-te",
+          "form": {
+            "push": {
+              "header": "Notificacions push",
+              "nearby": "Per a publicacions d'usuaris propers",
+              "daily": "Les nostres actualitzacions diàries"
+            },
+            "email": {
+              "header": "Notificacions per correu electrònic",
+              "weekly": "Butlletí setmanal",
+              "monthly": "Correus electrònics de resum mensual"
+            },
+            "cta": "Actualitzar"
+          }
+        },
+        "js": {
+          "changeSaved": "Canvis desats correctament"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Refusar",
+        "title": "Rebutjar sol·licitud",
+        "reasonLabel": "Per què no voleu verificar aquest compte?",
+        "reasonPh": "Ho farem saber {userName} i els demanarem que es posin en contacte amb una altra persona per verificar-la."
+      },
+      "haadiHome": {
+        "title": "Comença la discussió | Les teves discussions amb Haadi",
+        "item": {
+          "added": "S'ha afegit {date}",
+          "tokensUsed": "Fitxes utilitzades: {tokens}",
+          "readContinue": "Llegir o continuar la discussió"
+        },
+        "blank": {
+          "heading": "Comença una nova discussió",
+          "desc": "No tens converses prèvies. Inicieu una nova discussió enviant la vostra consulta a continuació."
+        },
+        "introLink": "Llegeix més sobre Haadi, o bé",
+        "inputPh": "Comença una nova discussió",
+        "quesHelp": {
+          "invalid": "Les preguntes amb 5 o més paraules tenen més sentit..",
+          "goodLen": "Això sembla una bona pregunta!",
+          "excellent": "Mai està de més explicar la teva pregunta. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Pregunta-ho a Haadi",
+        "infoText": "Per finalitzar aquesta discussió i iniciar una conversa nova, feu clic al botó següent",
+        "newChatCTA": "Nova discussió",
+        "inputPH": "Fer una pregunta",
+        "empty": {
+          "heading": "No he pogut trobar aquesta conversa",
+          "p1": "S'ha produït un error en intentar obtenir aquesta conversa. Comproveu l'URL i torneu-ho a provar.",
+          "p2": "Si això continua passant, poseu-vos en contacte amb nosaltres."
+        },
+        "jsNewChatInfo": "Aquest és l'inici d'una nova conversa amb Haadi. Heu triat habilitar el context per a Haadi mentre responeu a les vostres preguntes. Sempre podeu desactivar aquesta opció a la configuració o veure què significa això per a vosaltres."
+      },
+      "aboutHaadi": {
+        "title": "Coneix Haadi, el teu amic bot per navegar per l'islam xiïta!",
+        "desc": "Feu clic a cadascun d'aquests resums per obtenir més informació o trobeu més informació sobre Haadi i les condicions d'ús al <a href={blogLink} target='_system'>our blog",
+        "agreement": "Entenc i estic d'acord amb les Condicions d'ús"
       }
     },
     "authPage": {
