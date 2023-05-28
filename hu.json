@@ -66,9 +66,22 @@
           "cta": "Felfrissít"
         },
         "jsImgUploaded": "A kép feltöltése sikeresen megtörtént!",
-        "jsImgUploadErr": "A képfeltöltés sikertelen volt. Kérjük, próbálja újra később."
+        "jsImgUploadErr": "A képfeltöltés sikertelen volt. Kérjük, próbálja újra később.",
+        "jsLoadingDelay": "A vártnál kicsit tovább tart. Kérjük, várjon, amíg feldolgozzuk ezt a kérést."
       },
-      "unknown": "Ismeretlen"
+      "unknown": "Ismeretlen",
+      "close": "Bezár",
+      "yes": "Igen",
+      "no": "Nem",
+      "idk": "Nem tudom",
+      "completed!": "Befejezett!",
+      "pushPrompt": {
+        "heading": "Maradjon naprakész",
+        "desc": "Tetszik, amit látsz? Soha ne maradjon le egyetlen frissítésről sem, és maradjon értesítést mindenről, ami az értesítésekkel történik.<br />Küldhetünk Önnek értesítéseket?",
+        "cancelCta": "Kérdezzen később",
+        "okCta": "Biztos!",
+        "jsPushUnsupported": "A leküldés nem támogatott ezen az eszközön. Lehet, hogy lemaradsz az értesítésekről!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "A riasztások sikeresen beállítva",
           "jsAlarmSetError": "Hiba a riasztások beállításában. Kérjük, próbálja újra később.",
-          "jsAlarmSnoozed": "A riasztás 10 percig szundikált"
+          "jsAlarmSnoozed": "A riasztás 10 percig szundikált",
+          "sunriseLabel": "Napkelte",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Otthon"
         },
         "alarmSetting": {
           "title": "Riasztási beállítások",
@@ -398,7 +415,10 @@
           "addGender": "Nem hozzáadása",
           "addBday": "Születésnap hozzáadása",
           "addRelation": "Kapcsolat hozzáadása",
-          "joinDate": "Csatlakozott: {date}"
+          "joinDate": "Csatlakozott: {date}",
+          "privateInfoDesc": "Ezek az információk csak Ön számára láthatók, és ennek alapján látja a tartalmat és a funkciókat.",
+          "idSetupCta": "Az identitás beállítása",
+          "idVerifyCta": "Igazol"
         },
         "posts": {
           "title": "Hozzászólás",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Biztos vagy benne?",
           "jsDeletePrompt": "A <b>{fullName}</b> rekordjainak törlése a {gender} összes korábbi kérését is törli! Folytatódik?",
           "jsDeleted": "{marhumeen} törölt rekordjai"
+        },
+        "verifyCard": {
+          "title": "Ellenőrizze síita identitását | Ellenőrizze Szadat identitását",
+          "p1": "A profilodban jelezted, hogy síita muszlim vagy. Ezen információk ellenőrzése további funkciókat tesz lehetővé az Ön számára, és segít nekünk a síita muszlimok ellenőrzött közösségének felépítésében.",
+          "p2": "Kérjük, igazolja személyazonosságát; Nem tart sokáig",
+          "noReminder": "Ne emlékeztessen újra",
+          "dismissCta": "Ne most",
+          "startCta": "Elkezd"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Először igazolnia kell, mielőtt másokat ellenőrizhetne!",
+          "jsLinkExpired": "Ez a hivatkozás érvénytelen vagy lejárt. Kérjük, kérje meg barátját, hogy küldjön új kérést.",
+          "confirm": {
+            "heading": "Fiókidentitás ellenőrzése",
+            "msg": "Segítsen {firstName} {genderLabel1} fiókadatok ellenőrzésében. Ez lehetővé teszi a {genderLabel2} számára, hogy alkalmazásunk további funkcióihoz hozzáférjenek",
+            "jsSkip": "Nem gond. Ha meggondolja magát, később újra felkeresheti ezt a linket."
+          }
+        },
+        "myKhums": {
+          "title": "Az én Khumsom"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "OTP küldése",
         "backToLoginCta": "Vissza a bejelentkezéshez",
         "disclaimerText": "Felhívjuk figyelmét, hogy {item} csak akkor kap egy {item} sablont, ha az {item} regisztrálva van nálunk",
-        "jsMailSent": "Elküldött levelek"
+        "jsMailSent": "Elküldött levelek",
+        "title2": "Fiók igénylése",
+        "claimIntroHeading": "Igényelje fiókját gyorsan!",
+        "claimIntroText": "Köszönjük, hogy csatlakozott hozzánk. Most létrehoztunk Önnek egy fiókot. Hozzáférhet fiókjához a jelszó visszaállításával az alábbi módszerek egyikével:"
       },
       "resetPwd": {
         "title": "Jelszó visszaállítása",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Ország kiválasztása",
         "searchPH": "Ország keresése név vagy tárcsázási kód alapján"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Töltse ki profilját",
+            "desc": "A hiányos profilok korlátozott hozzáféréssel rendelkeznek alkalmazásunk funkcióihoz. A profil frissítése számos módon segít. Kattintson ide, ha többet szeretne megtudni.",
+            "item1": {
+              "header": "Teljes profilok könnyen ellenőrizhetők",
+              "p1": "Amikor fiókellenőrzést kér (következő lépés), segít másoknak abban, hogy könnyen ellenőrizzék Önt, ha ismerik Önt, vagy látják az ellenőrzéshez szükséges összes információt.",
+              "p2": "A hiányos profilok ellenőrzése sokkal tovább tart. Nem szeretnénk, ha letiltanánk az alkalmazásunk funkcióinak használatát."
+            },
+            "item2": {
+              "header": "A megfelelő tartalom megtekintése",
+              "p1": "A tartalom a környezete alapján jelenik meg. Ha helyes információkkal rendelkezünk Önről, relevánsabb tartalmat láthat.",
+              "p2": "Ha például helyesen frissítetted a tartózkodási helyedet, akkor valószínűbb, hogy először a környezetedből származó bejegyzéseket fogod látni."
+            },
+            "cta": "Töltse ki profilját"
+          },
+          "identity": {
+            "header": "Az identitás beállítása",
+            "desc": "Mindenkit szívesen látunk az alkalmazásunkban, de mivel egyes funkciók csak a síita muszlimok számára hasznosak (és szánták), ezek az információk segítenek nekünk a megfelelő funkciók kiszolgálásában. Kattintson ide, ha többet szeretne megtudni.",
+            "item1": {
+              "header": "Hozzáférési funkciók síita muszlimok számára",
+              "p1": "Alkalmazásunk számos funkciója síita muszlimokból épül fel. Néhány közülük:",
+              "ul": "<li>Szúra-fatiha és Namaz-e-Wahshat kérése</li><li>Khums kalkulátor</li><li>Pénzügyi támogatás (khums) Szadat Momineen számára</li>",
+              "p2": "A funkciók eléréséhez igazolnia kell személyazonosságát (akár most, akár később)"
+            },
+            "item2": {
+              "header": "Segíthetsz a rászoruló momineennek!",
+              "p1": "Még ha nem is szeretné, hogy ellenőrizzék, lehetnek mások, akik ellenőrizni szeretnék ezeket a funkciókat.",
+              "p2": "Csak ellenőrzött fiókok ellenőrizhetik az ilyen momineen-t. Az igazolás abban is segít, hogy ellenőrzött síita közösséget építsünk."
+            },
+            "item3": {
+              "header": "Az Ön adatai mindig privátak",
+              "p1": "<strong>Megértjük, hogy ez érzékeny információ</strong> , és soha nem tesszük közzé ezeket az információkat nyilvánosan az Ön beleegyezése nélkül, de néha még mindig lehet következtetéseket levonni. Például, ha igazolást kérsz más momineenektől, tudni fogják, hogy síita vagy.",
+              "p2": "Az alábbi gombra kattintva többet tudhat meg folyamatunkról."
+            },
+            "cta": "Beállít"
+          }
+        },
+        "idSetup": {
+          "header": "Majdnem kész!",
+          "desc": "Ezt a lépést kihagyhatja, ha elégedett az adatvédelmi és kommunikációs beállításaihoz előre beállított értékekkel. Nem árt azonban megnézni!",
+          "privacy": {
+            "header": "Az adatvédelem beállítása",
+            "p1": "Határozza meg, hogy mások mit láthatnak:",
+            "ul": "<li>Állítsd be a bejegyzéseid láthatósági beállításait. Meghatározza, hogy bejegyzéseit bárki láthatja-e a Bazm-on vagy azon kívül (pl. Amikor valaki megosztja egy másik platformon)</li><li>Beállíthatod, hogy ki mit láthat, amikor felkeresi a profilodat</li><li>Annak beállítása, hogy hogyan jelenjenek meg az Ön adatai mások számára</li>"
+          },
+          "comm": {
+            "header": "Kommunikációs beállítások beállítása",
+            "p1": "Határozza meg, hogyan és mikor szeretné, hogy kommunikáljunk Önnel:",
+            "ul": "<li>Az értesítési beállítások megadása</li><li>Feliratkozás vagy leiratkozás az e-mailekről szóló értesítésekre</li><li>Feliratkozás vagy leiratkozás emlékeztetőkre</li>"
+          },
+          "cta": "Beállít"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "A mobil igazolása",
+            "desc": "Kattintson az alábbi linkre mobilszámának igazolásához:",
+            "cta": "Mobilos igazolás indítása",
+            "completed": "Mobil ellenőrzés sikeresen"
+          },
+          "email": {
+            "header": "Az e-mail-cím ellenőrzése",
+            "desc": "Kattintson az alábbi linkre, hogy ellenőrző e-mailt kapjon a postaládájába.",
+            "cta": "Mobilos igazolás indítása",
+            "completed": "Mobil ellenőrzés sikeresen",
+            "form": {
+              "inputLabel": "Az Ön e-mail címe:",
+              "ph": "Írja be e-mail címét",
+              "cta": "E-mail ellenőrző link"
+            },
+            "sent": {
+              "desc": "E-mailt küldtünk az alábbi e-mail címére. Kattintson az e-mailben található linkre az e-mail cím megerősítéséhez.",
+              "incorrect": "Helytelen e-mail cím?",
+              "change": "Változás"
+            },
+            "resendCta": "E-mail újraküldése",
+            "openEmailCta": "E-mail megnyitása",
+            "verified": "Az e-mail sikeresen ellenőrizve!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Teljes fiókbeállítás",
+        "desc": "Oldja fel fiókja funkcióit a fiók beállításának befejezésével. Csak egyszer kell megtennie, és ez segít ellenőrizni adatait, személyazonosságát és beállításait Adatvédelmi beállítások az Ön számára.",
+        "gotoPageCta": "Telepítés folytatása",
+        "dontRemind": "Ne emlékeztessen újra",
+        "dismissCta": "Később",
+        "jsConfirmSkip": {
+          "header": "Folytassa később?",
+          "msg": "Ennek a lépésnek a végrehajtása számos funkciót felold az alkalmazásban, de ezt a lépést később is elvégezheti. Csak lépjen a \"Felhasználó\" fülre, és folytassa onnan.",
+          "btns": {
+            "confirm": "Igen, később",
+            "cancel": "Tegye meg most"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Az identitás beállítása",
+        "form": {
+          "religion": {
+            "label": "Válassza ki vallását:",
+            "infoText": "Számos, csak a muszlimok számára releváns funkció ezen az információn alapul. Ezek az adatok csak az Ön számára lesznek láthatók; Azonban továbbra is lehet következtetéseket levonni (például ha csak muszlimok számára elérhető funkciók egyikét használja)",
+            "muslim": "Muzulmán",
+            "nonMuslim": "Nem muszlim"
+          },
+          "sect": {
+            "label": "Válassza ki a szektát",
+            "infoText": "Az olyan funkciók, mint a <strong>Ziyarat kérése, a segélykérés, a Khums kiszámítása stb., Megkövetelik,</strong> hogy igazolja síita személyazonosságát. Emellett a nem ellenőrzött felhasználók korlátozott hozzáféréssel rendelkeznek a funkciókhoz.",
+            "shia": "Shia",
+            "sunni": "Nem síiták"
+          },
+          "thanksNonMuslim": "Köszönjük, hogy érdeklődést mutatott az alkalmazáshoz való csatlakozás iránt. Reméljük, hogy hasznos tartalmat talál itt. Kérjük, mutasson tiszteletet a közösség iránt, és tartsa be szabályainkat.",
+          "sadat": {
+            "label": "Szadat vagy?",
+            "infoText": "Ezeket az információkat a szadat-síita muszlimoknak szánt funkciókban használják. Azonban soha nem jelenik meg úgy, mint bárki számára. A szolgáltatások igénybevétele előtt ellenőriznie kell a szadat-állapotát.",
+            "sadat": "Igen",
+            "nonSadat": "Nem"
+          },
+          "requested": "Kért ellenőrzés",
+          "required": "Ellenőrzés szükséges",
+          "verifyInfo": {
+            "modalCta": "Mi ez?",
+            "p1": "A síita muszlimoknak szánt funkciókhoz való hozzáféréshez igazolnia kell síita személyazonosságát.",
+            "p2": "Ha síita szadat vagy, ezt is ellenőrizned kell. Párosíthatja ugyanabban az ellenőrzési kérelemben; egyszerűen válassza ki a <strong>fenti Szadat</strong> lehetőséget."
+          },
+          "verifyCta": "Igazol",
+          "skipInfo": "Kihagyhatja az ellenőrzést, ha nem szeretné használni az említett funkciókat. Ha csak az adatokat szeretné frissíteni, kattintson a <strong>Mentés és folytatás</strong> gombra",
+          "thankSunni": {
+            "p1": "Köszönjük, hogy érdeklődést mutatott alkalmazásunk iránt. E világi megosztottság ellenére minden muszlim testvér a hitben, és Mohamed próféta ugyanazon ummájához tartozik",
+            "p2": "Reméljük, hogy hasznosnak találja az itt található tartalmat, és segít jobban megérteni egymást.",
+            "p3": "Az irányelveinkkel vagy bármi mással kapcsolatos kérdéssel/aggodalommal bármikor felveheti velünk a kapcsolatot."
+          }
+        },
+        "cta": [
+          "Megment",
+          "Mentés és folytatás"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Ellenőrizze a {name} fiókját",
+        "heading": "Tudsz válaszolni az alábbi információkra {firstName}? Ha nem, utasítsa el ezt a kérést.",
+        "desc": "Csak két igazolási kísérlete van!",
+        "descP1": "Amikor elküldi ezt az űrlapot, összevetjük az információkat azzal, amit {firstName} az ellenőrzés kérésekor megadtak. Kérjük, figyeljen, mert csak két kísérlete van az űrlap helyes kitöltésére. Ha továbbra sem sikerül, a jövőben nem fogja tudni újra ellenőrizni {firstName} .",
+        "descP2": "Ha nem ismeri {firstName}, utasítsa el ezt a kérést. Tudatni fogjuk velük, és megkérjük őket, hogy érjenek el valaki mást.",
+        "rejectRequestCta": "Kérelem elutasítása",
+        "form": {
+          "heading": "Válaszolj a {firstName} kapcsolatos következő kérdésekre, majd kattints a Küldés gombra:",
+          "q1": "Honnan tudod, {firstName}?",
+          "q2": "Vallás:",
+          "q3": "Szekta:",
+          "q4": "A {firstName} Sadat?",
+          "q5": "Van még valami, amit hozzá szeretne adni?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Az Ön adatvédelmi beállításai",
+        "privacy": {
+          "header": "Adatvédelmi beállítások",
+          "desc": "Beállíthatod, hogy ki láthatja a követőidet tőled vagy a fiókodban:",
+          "form": {
+            "posts": "Az Ön bejegyzései",
+            "status": "Az Ön állapotfrissítései",
+            "requests": "Az Ön kérései",
+            "relationship": "A kapcsolati állapotod",
+            "birthday": "Az Ön születési dátuma (nem az év)",
+            "location": "Az Ön tartózkodási helye"
+          },
+          "disclaimer": {
+            "heading": "* Erről még lehet következtetéseket levonni",
+            "p": "Annak ellenére, hogy ezek az információk rejtve lehetnek a profilodon, néhány következtetés még mindig levonható. Ha például a bejegyzésed megjelenik egy felhasználónak, arra következtethet, hogy közel laksz (az alapján, hogy a bejegyzés hol jelenik meg a hírfolyamában)"
+          },
+          "values": {
+            "everyone": "Mindenki",
+            "users": "Csak Momineen",
+            "shias": "Csak síiták",
+            "me": "Csak én"
+          }
+        },
+        "comm": {
+          "header": "Kommunikációs beállítások",
+          "desc": "Állítsa be, hogyan szeretne kommunikálni",
+          "form": {
+            "push": {
+              "header": "Leküldéses értesítések",
+              "nearby": "Közeli felhasználók bejegyzéseihez",
+              "daily": "Napi frissítéseink"
+            },
+            "email": {
+              "header": "E-mail értesítések",
+              "weekly": "Heti hírlevél",
+              "monthly": "Havi összefoglaló e-mailek"
+            },
+            "cta": "Frissít"
+          }
+        },
+        "js": {
+          "changeSaved": "A módosítások mentése sikeresen megtörtént"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Elutasít",
+        "title": "Kérelem elutasítása",
+        "reasonLabel": "Miért nem szeretné igazolni ezt a fiókot?",
+        "reasonPh": "Értesíteni fogjuk {userName} , és megkérjük őket, hogy vegyék fel a kapcsolatot valaki mással ellenőrzés céljából"
+      },
+      "haadiHome": {
+        "title": "Beszélgetés indítása | Megbeszéléseid Haadival",
+        "item": {
+          "added": "Hozzáadott {date}",
+          "tokensUsed": "Használt tokenek: {tokens}",
+          "readContinue": "Beszélgetés elolvasása vagy folytatása"
+        },
+        "blank": {
+          "heading": "Új beszélgetés indítása",
+          "desc": "Nincs korábbi beszélgetése. Indítson új beszélgetést az alábbi kérdés beküldésével."
+        },
+        "introLink": "Tudjon meg többet a Haadiról, vagy",
+        "inputPh": "Új beszélgetés indítása",
+        "quesHelp": {
+          "invalid": "Az 5 vagy több szóból álló kérdéseknek több értelme van.",
+          "goodLen": "Ez jó kérdésnek tűnik!",
+          "excellent": "Soha nem árt elmagyarázni a kérdését. Dicsőség!"
+        }
+      },
+      "askHaadi": {
+        "title": "Kérdezze meg Haadi-t",
+        "infoText": "A beszélgetés befejezéséhez és új beszélgetés indításához kattintson az alábbi gombra",
+        "newChatCTA": "Új beszélgetés",
+        "inputPH": "Kérdés feltevése",
+        "empty": {
+          "heading": "Nem található ez a beszélgetés",
+          "p1": "Hiba történt a beszélgetés lekérése közben. Ellenőrizze az URL-t, és próbálja újra.",
+          "p2": "Ha ez továbbra is megtörténik, kérjük, vegye fel velünk a kapcsolatot."
+        },
+        "jsNewChatInfo": "Ez egy új beszélgetés kezdete Haadival. Úgy döntött, hogy engedélyezi a Haadi kontextusát a kérdések megválaszolása közben. Ezt az opciót bármikor letilthatja a beállításokban, vagy megnézheti, mit jelent ez az Ön számára."
+      },
+      "aboutHaadi": {
+        "title": "Ismerd meg Haadit, a botbarátodat, hogy eligazodj a síita iszlámban!",
+        "desc": "Kattintson ezekre az összefoglalókra, ha többet szeretne olvasni, vagy többet szeretne megtudni a Haadiról és a használati <a href= feltételekről{blogLink} target='_system'>blogunkban",
+        "agreement": "Megértettem és elfogadom a használati feltételeket"
       }
     },
     "authPage": {
