@@ -66,9 +66,22 @@
           "cta": "Atnaujinti"
         },
         "jsImgUploaded": "Vaizdas įkeltas sėkmingai!",
-        "jsImgUploadErr": "Nepavyko įkelti vaizdo. Bandykite dar kartą vėliau."
+        "jsImgUploadErr": "Nepavyko įkelti vaizdo. Bandykite dar kartą vėliau.",
+        "jsLoadingDelay": "Tai užtrunka šiek tiek ilgiau, nei tikėtasi. Palaukite, kol apdorosime šią užklausą."
       },
-      "unknown": "Nežinomas"
+      "unknown": "Nežinomas",
+      "close": "Uždaryti",
+      "yes": "Taip",
+      "no": "Ne",
+      "idk": "Nežinau",
+      "completed!": "Baigtas!",
+      "pushPrompt": {
+        "heading": "Sekite naujienas",
+        "desc": "Patinka tai, ką matote? Niekada nepraleiskite naujinimo ir būkite informuoti apie viską, kas vyksta su pranešimais.<br />Ar galime jums siųsti pranešimus?",
+        "cancelCta": "Paklauskite manęs vėliau",
+        "okCta": "Tikrai!",
+        "jsPushUnsupported": "Šiame įrenginyje nepalaikomas \"Push\". Galite praleisti pranešimus!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Žadintuvai sėkmingai nustatyti",
           "jsAlarmSetError": "Klaida nustatant žadintuvus. Bandykite dar kartą vėliau.",
-          "jsAlarmSnoozed": "Žadintuvas snūduriavo 10 minučių"
+          "jsAlarmSnoozed": "Žadintuvas snūduriavo 10 minučių",
+          "sunriseLabel": "Aušra",
+          "dhuhrLabel": "Zuhras",
+          "asrLabel": "Asr",
+          "ishaLabel": "Namon"
         },
         "alarmSetting": {
           "title": "Žadintuvo nustatymai",
@@ -398,7 +415,10 @@
           "addGender": "Pridėti lytį",
           "addBday": "Pridėti gimtadienį",
           "addRelation": "Pridėti ryšį",
-          "joinDate": "Prisijungė: {date}"
+          "joinDate": "Prisijungė: {date}",
+          "privateInfoDesc": "Ši informacija matoma tik jums ir jūs matote turinį bei funkcijas, pagrįstas tuo.",
+          "idSetupCta": "Nustatykite savo tapatybę",
+          "idVerifyCta": "Patikrinti"
         },
         "posts": {
           "title": "Pranešimų",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Ar tikrai?",
           "jsDeletePrompt": "Ištrynus <b>{fullName}</b> įrašus, taip pat bus ištrintos visos ankstesnės {gender} užklausos! Tęsti?",
           "jsDeleted": "Panaikinti {marhumeen} įrašai"
+        },
+        "verifyCard": {
+          "title": "Patvirtinkite savo šiitų tapatybę | Patvirtinkite savo Sadat tapatybę",
+          "p1": "Savo profilyje nurodėte, kad esate musulmonas šiitas. Patvirtinę šią informaciją, jums bus suteikta daugiau funkcijų ir galėsime sukurti patvirtintą šiitų musulmonų bendruomenę.",
+          "p2": "Maloniai patvirtinkite savo tapatybę; tai neužtruks ilgai",
+          "noReminder": "Daugiau man neprimink",
+          "dismissCta": "Ne dabar",
+          "startCta": "Imti"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Pirmiausia turite būti patvirtinti, kad galėtumėte patvirtinti kitus!",
+          "jsLinkExpired": "Ši nuoroda negalioja arba jos galiojimo laikas pasibaigęs. Paprašykite draugo atsiųsti naują užklausą.",
+          "confirm": {
+            "heading": "Paskyros tapatybės patvirtinimas",
+            "msg": "Padėkite {firstName} patvirtinti {genderLabel1} paskyros informaciją. Tai leis {genderLabel2} pasiekti daugiau mūsų programos funkcijų",
+            "jsSkip": "Jokių problemų. Jei apsigalvosite, galėsite dar kartą peržiūrėti šią nuorodą, kad patvirtintumėte vėliau."
+          }
+        },
+        "myKhums": {
+          "title": "Mano Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Siųsti OTP",
         "backToLoginCta": "Grįžti į prisijungimą",
         "disclaimerText": "Atminkite, kad {elementą} gausite tik tuo atveju, jei {elementą} užregistravote pas mus",
-        "jsMailSent": "Išsiųstas paštas"
+        "jsMailSent": "Išsiųstas paštas",
+        "title2": "Gaukite teises į savo sąskaitą",
+        "claimIntroHeading": "Greitai atsiimkite savo sąskaitą!",
+        "claimIntroText": "Dėkojame, kad prisijungėte prie mūsų. Dabar sukūrėme jums paskyrą. Gaukite prieigą prie savo paskyros iš naujo nustatydami slaptažodį vienu iš šių būdų:"
       },
       "resetPwd": {
         "title": "Iš naujo nustatyti slaptažodį",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Pasirinkite šalį",
         "searchPH": "Ieškoti šalyje pagal vardą ir numerį"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Užpildykite savo profilį",
+            "desc": "Neužbaigti profiliai turi ribotą prieigą prie mūsų programos funkcijų. Profilio atnaujinimas padeda jums įvairiais būdais. Spauskite čia norėdami sužinoti daugiau.",
+            "item1": {
+              "header": "Išsamūs profiliai lengvai patvirtinami",
+              "p1": "Kai prašoma patvirtinti paskyrą (kitas veiksmas), tai padeda kitiems lengvai jus patvirtinti, kai jie jus pažįsta arba mato visą patvirtinimui reikalingą informaciją apie jus.",
+              "p2": "Neužbaigtų profilių patvirtinimas užtrunka daug ilgiau. Nenorėtume, kad jums būtų uždrausta naudotis programos funkcijomis."
+            },
+            "item2": {
+              "header": "Peržiūrėkite tinkamą turinį",
+              "p1": "Jūs matote turinį pagal savo aplinką. Kai turėsime teisingą informaciją apie jus, matysite aktualesnį turinį.",
+              "p2": "Pavyzdžiui, jei teisingai atnaujinote savo vietą, labiau tikėtina, kad pirmiausia pamatysite įrašus iš savo aplinkos."
+            },
+            "cta": "Užpildykite savo profilį"
+          },
+          "identity": {
+            "header": "Nustatykite savo tapatybę",
+            "desc": "Mes sveikiname visus mūsų programoje, bet kadangi kai kurios funkcijos yra naudingos (ir skirtos) tik musulmonams šiitams, ši informacija padeda mums suteikti jums tinkamas funkcijas. Spauskite čia norėdami sužinoti daugiau.",
+            "item1": {
+              "header": "Prieigos funkcijos musulmonams šiitams",
+              "p1": "Daugelis mūsų programos funkcijų yra sukurtos iš musulmonų šiitų. Kai kurie iš jų yra:",
+              "ul": "<li>Prašymas dėl Surah-fatiha ir Namaz-e-Wahshat</li><li>Khums Skaičiuoklė</li><li>Finansinė pagalba (khums) Sadat momineen</li>",
+              "p2": "Norėdami pasiekti šias funkcijas, turite patvirtinti savo tapatybę (dabar arba, jei pasirinksite, vėliau)"
+            },
+            "item2": {
+              "header": "Jūs galite padėti momineen, kuriam reikia pagalbos!",
+              "p1": "Net jei nenorite būti patvirtinti, gali būti kitų, kurie gali norėti gauti patvirtinimą, kad galėtų naudotis šiomis funkcijomis.",
+              "p2": "Tik patvirtintos paskyros gali patvirtinti tokį momineeną. Patvirtinimas taip pat padeda mums sukurti patikrintą šiitų bendruomenę."
+            },
+            "item3": {
+              "header": "Jūsų informacija visada yra privati",
+              "p1": "<strong>Suprantame, kad tai yra neskelbtina informacija</strong> , ir niekada neatskleisime šios informacijos viešai be jūsų sutikimo, tačiau kartais vis tiek galima padaryti išvadas. Pavyzdžiui, kai paprašysite patvirtinimo iš kitų momineenų, jie žinos, kad esate šiitai.",
+              "p2": "Galite spustelėti žemiau esantį mygtuką, kad sužinotumėte daugiau apie mūsų procesą."
+            },
+            "cta": "Sąrankos"
+          }
+        },
+        "idSetup": {
+          "header": "Beveik baigta!",
+          "desc": "Galite praleisti šį veiksmą, jei esate patenkinti mūsų iš anksto nustatytomis privatumo ir ryšių nustatymų vertėmis. Vis dėlto nepakenks pažvelgti!",
+          "privacy": {
+            "header": "Privatumo nustatymas",
+            "p1": "Apibrėžkite, ką gali matyti kiti:",
+            "ul": "<li>Nustatykite savo įrašų matomumo nustatymus. Tai apibrėžia, ar jūsų įrašus gali matyti kas nors \"Bazm\" ar ne \"Bazm\" (pvz., Kai kas nors jais dalijasi kitoje platformoje)</li><li>Nustatymas, kas ką gali matyti apsilankęs jūsų profilyje</li><li>Nustatymas, kaip jūsų informacija bus rodoma kitiems</li>"
+          },
+          "comm": {
+            "header": "Ryšių parametrų nustatymas",
+            "p1": "Apibrėžkite, kaip ir kada norėtumėte, kad mes su jumis bendrautume:",
+            "ul": "<li>Pranešimų nuostatų nustatymas</li><li>El. laiškų pranešimų prenumeravimas arba prenumeratos atsisakymas</li><li>Priminimų prenumeravimas arba prenumeratos atsisakymas</li>"
+          },
+          "cta": "Sąrankos"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Mobiliojo telefono patvirtinimas",
+            "desc": "Spustelėkite toliau pateiktą nuorodą, kad patvirtintumėte savo mobiliojo telefono numerį:",
+            "cta": "Pradėti mobiliojo įrenginio patvirtinimą",
+            "completed": "Mobilusis patvirtintas sėkmingai"
+          },
+          "email": {
+            "header": "El. pašto patvirtinimas",
+            "desc": "Spustelėkite toliau pateiktą nuorodą, kad gautuosiuose gautumėte patvirtinimo el. laišką.",
+            "cta": "Pradėti mobiliojo įrenginio patvirtinimą",
+            "completed": "Mobilusis patvirtintas sėkmingai",
+            "form": {
+              "inputLabel": "Jūsų el. paštas:",
+              "ph": "Įveskite savo el. pašto adresą",
+              "cta": "El. pašto tikrinimo saitas"
+            },
+            "sent": {
+              "desc": "El. laiškas buvo išsiųstas toliau nurodytu el. pašto adresu. Spustelėkite nuorodą savo el. laiške, kad patvirtintumėte savo el. pašto adresą.",
+              "incorrect": "Neteisingas el. paštas?",
+              "change": "Keisti"
+            },
+            "resendCta": "Iš naujo siųsti el. laišką",
+            "openEmailCta": "Atidaryti el. paštą",
+            "verified": "El. paštas sėkmingai patvirtintas!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Užbaigti paskyros sąranką",
+        "desc": "Atrakinkite paskyros funkcijas užbaigdami paskyros sąranką. Tai turite padaryti tik vieną kartą ir tai padeda patvirtinti jūsų duomenis, tapatybę ir nustatyti privatumo parinktis.",
+        "gotoPageCta": "Tęsti sąranką",
+        "dontRemind": "Daugiau man neprimink",
+        "dismissCta": "Vėliau",
+        "jsConfirmSkip": {
+          "header": "Tęsti vėliau?",
+          "msg": "Atlikę šį veiksmą atrakinsite daugybę programos funkcijų, tačiau šį veiksmą galėsite atlikti ir vėliau. Tiesiog eikite į skirtuką \"Vartotojas\" ir tęskite iš ten.",
+          "btns": {
+            "confirm": "Taip, vėliau",
+            "cancel": "Padarykite tai dabar"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Nustatykite savo tapatybę",
+        "form": {
+          "religion": {
+            "label": "Pasirinkite savo religiją:",
+            "infoText": "Remiantis šia informacija, yra keletas funkcijų, aktualių tik musulmonams. Šie duomenys bus matomi tik jums; tačiau vis tiek galima daryti išvadas (pvz., kai naudojate vieną iš funkcijų, prieinamų tik musulmonams)",
+            "muslim": "Musulmonas",
+            "nonMuslim": "Ne musulmonai"
+          },
+          "sect": {
+            "label": "Pasirinkite savo sektą",
+            "infoText": "Tokios funkcijos kaip <strong>prašymas dėl Ziyarat, pagalbos prašymas, Khums skaičiavimas ir kt</strong> . reikalauja, kad patvirtintumėte savo šiitų tapatybę. Be to, nepatvirtinti vartotojai turi ribotą prieigą prie funkcijų.",
+            "shia": "Shia",
+            "sunni": "Ne šiitai"
+          },
+          "thanksNonMuslim": "Dėkojame, kad parodėte susidomėjimą prisijungti prie mūsų programos. Tikimės, kad čia rasite naudingo turinio. Prašome parodyti pagarbą bendruomenei ir laikytis mūsų taisyklių.",
+          "sadat": {
+            "label": "Ar tu Sadatas?",
+            "infoText": "Ši informacija naudojama funkcijose, skirtose Sadat-shia musulmonams. Tačiau jis niekada niekam nerodomas toks, koks yra. Kad galėtumėte naudotis šiomis paslaugomis, turėsite patvirtinti savo sadat būseną.",
+            "sadat": "Taip",
+            "nonSadat": "Ne"
+          },
+          "requested": "Prašomas patikrinimas",
+          "required": "Būtinas patikrinimas",
+          "verifyInfo": {
+            "modalCta": "Kas tai?",
+            "p1": "Norėdami gauti prieigą prie funkcijų, skirtų musulmonams šiitams, turite patvirtinti savo šiitų tapatybę.",
+            "p2": "Jei esate šiitų sadatas, turėsite tai patikrinti. Galite susieti jį toje pačioje patvirtinimo užklausoje; tiesiog pasirinkite <strong>Sadat</strong> aukščiau."
+          },
+          "verifyCta": "Patikrinti",
+          "skipInfo": "Galite praleisti patvirtinimą, jei nenorite naudoti minėtų funkcijų. Jei norite tik atnaujinti informaciją, spustelėkite <strong>Įrašyti ir tęsti</strong>",
+          "thankSunni": {
+            "p1": "Dėkojame, kad rodote susidomėjimą mūsų programa. Nepaisant šių pasaulietiškų susiskaldymų, visi musulmonai yra tikėjimo broliai ir priklauso tam pačiam pranašo Mahometo Ummah (PBUH)",
+            "p2": "Tikimės, kad čia pateiktas turinys jums bus naudingas ir padės mums geriau suprasti vienas kitą.",
+            "p3": "Jei turite klausimų / rūpesčių dėl mūsų politikos ar bet ko kito, visada galite susisiekti su mumis."
+          }
+        },
+        "cta": [
+          "Taupyti",
+          "Išsaugoti ir tęsti"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Paskyros patvirtinimas {name}",
+        "heading": "Ar galite atsakyti į žemiau pateiktą informaciją apie {firstName}? Jei ne, atmeskite šį prašymą.",
+        "desc": "Jūs turite tik du bandymus patikrinti!",
+        "descP1": "Kai pateiksite šią formą, mes suderinsime informaciją su tuo, kas {firstName} pateikta prašant patvirtinimo. Atkreipkite dėmesį, nes teisingai užpildyti šią formą turite tik du bandymus. Jei vis tiek nepavyks, ateityje negalėsite {firstName} dar kartą patvirtinti.",
+        "descP2": "Jei {firstName}nežinote , atmeskite šią užklausą. Mes jiems pranešime ir paprašysime susisiekti su kuo nors kitu.",
+        "rejectRequestCta": "Atmesti užklausą",
+        "form": {
+          "heading": "Atsakykite į šiuos klausimus apie {firstName} ir spustelėkite Pateikti:",
+          "q1": "Kaip žinoti, {firstName}?",
+          "q2": "Religija:",
+          "q3": "Sekta:",
+          "q4": "Ar {firstName} Sadatas?",
+          "q5": "Ką dar norėtumėte pridėti?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Jūsų privatumo nustatymai",
+        "privacy": {
+          "header": "Privatumo nustatymai",
+          "desc": "Nustatykite, kas gali matyti šiuos jūsų arba jūsų paskyros duomenis:",
+          "form": {
+            "posts": "Jūsų įrašai",
+            "status": "Jūsų būsenos atnaujinimai",
+            "requests": "Jūsų užklausos",
+            "relationship": "Jūsų santykių būsena",
+            "birthday": "Jūsų gimimo data (ne metai)",
+            "location": "Jūsų vietovė"
+          },
+          "disclaimer": {
+            "heading": "* Apie tai dar galima daryti išvadas",
+            "p": "Nors ši informacija gali būti paslėpta jūsų profilyje, vis tiek galima padaryti tam tikras išvadas. Pavyzdžiui, jei jūsų įrašas rodomas naudotojui, jis gali daryti išvadą, kad gyvenate arti (atsižvelgiant į tai, kur tas įrašas rodomas jo sklaidos kanale)"
+          },
+          "values": {
+            "everyone": "Visi",
+            "users": "Tik Momineen",
+            "shias": "Tik šiitai",
+            "me": "Tik aš"
+          }
+        },
+        "comm": {
+          "header": "Ryšio nustatymai",
+          "desc": "Nustatykite, kaip norėtumėte bendrauti",
+          "form": {
+            "push": {
+              "header": "\"Push\" pranešimai",
+              "nearby": "Netoliese esančių naudotojų įrašams",
+              "daily": "Mūsų kasdieniai atnaujinimai"
+            },
+            "email": {
+              "header": "El. pašto pranešimai",
+              "weekly": "Savaitinis naujienlaiškis",
+              "monthly": "Mėnesio suvestinės el. laiškai"
+            },
+            "cta": "Naujinti"
+          }
+        },
+        "js": {
+          "changeSaved": "Pakeitimai sėkmingai išsaugoti"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Atmesti",
+        "title": "Atmesti prašymą",
+        "reasonLabel": "Kodėl nenorite patvirtinti šio abonemento?",
+        "reasonPh": "Mes {userName} pranešime ir paprašysime susisiekti su kuo nors kitu, kad būtų patvirtintas"
+      },
+      "haadiHome": {
+        "title": "Pradėkite diskusiją | Jūsų diskusijos su Haadi",
+        "item": {
+          "added": "Papildyta {date}",
+          "tokensUsed": "Naudojami žetonai: {tokens}",
+          "readContinue": "Skaityti arba tęsti diskusiją"
+        },
+        "blank": {
+          "heading": "Pradėkite naują diskusiją",
+          "desc": "Jūs neturite jokių ankstesnių pokalbių. Pradėkite naują diskusiją pateikdami toliau pateiktą užklausą."
+        },
+        "introLink": "Skaitykite daugiau apie Haadi arba",
+        "inputPh": "Pradėkite naują diskusiją",
+        "quesHelp": {
+          "invalid": "Klausimai su 5 ar daugiau žodžių yra prasmingesni..",
+          "goodLen": "Tai atrodo kaip geras klausimas!",
+          "excellent": "Niekada neskauda paaiškinti savo klausimą. Ačiū!"
+        }
+      },
+      "askHaadi": {
+        "title": "Klauskite Haadi",
+        "infoText": "Norėdami baigti šią diskusiją ir pradėti naują pokalbį, spustelėkite žemiau esantį mygtuką",
+        "newChatCTA": "Nauja diskusija",
+        "inputPH": "Užduokite klausimą",
+        "empty": {
+          "heading": "Nepavyko rasti šio pokalbio",
+          "p1": "Bandant užmegzti šį pokalbį įvyko klaida. Patikrinkite URL ir bandykite dar kartą.",
+          "p2": "Jei taip nutinka ir toliau, maloniai susisiekite su mumis."
+        },
+        "jsNewChatInfo": "Tai naujo pokalbio su Haadi pradžia. Atsakydami į klausimus pasirinkote įjungti \"Haadi\" kontekstą. Visada galite išjungti šią parinktį nustatymuose arba pamatyti, ką tai reiškia jums."
+      },
+      "aboutHaadi": {
+        "title": "Susipažinkite su Haadi, savo botfriendu, kad galėtumėte naršyti šiitų islame!",
+        "desc": "Spustelėkite kiekvieną iš šių suvestinių, kad sužinotumėte daugiau, arba sužinokite daugiau apie Haadi ir naudojimo <a href= sąlygas{blogLink} target='_system'>mūsų tinklaraštyje",
+        "agreement": "Suprantu ir sutinku su naudojimo sąlygomis"
       }
     },
     "authPage": {
