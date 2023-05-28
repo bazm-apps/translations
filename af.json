@@ -66,9 +66,22 @@
           "cta": "Verfris"
         },
         "jsImgUploaded": "Beeld suksesvol opgelaai!",
-        "jsImgUploadErr": "Beeldoplaai het misluk. Probeer asseblief later weer."
+        "jsImgUploadErr": "Beeldoplaai het misluk. Probeer asseblief later weer.",
+        "jsLoadingDelay": "Dit neem bietjie langer as wat verwag is. Wag asseblief terwyl ons hierdie versoek verwerk."
       },
-      "unknown": "Onbekende"
+      "unknown": "Onbekende",
+      "close": "Sluit",
+      "yes": "Ja",
+      "no": "Nee",
+      "idk": "Ek weet nie",
+      "completed!": "Voltooi!",
+      "pushPrompt": {
+        "heading": "Bly op hoogte",
+        "desc": "Soos wat jy sien? Moet nooit 'n opdatering misloop nie en bly op hoogte van alles wat met kennisgewings gebeur.<br />Kan ons vir jou kennisgewings stuur?",
+        "cancelCta": "Vra my later",
+        "okCta": "Seker!",
+        "jsPushUnsupported": "Druk nie ondersteun op hierdie toestel nie. U kan kennisgewings misloop!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarms suksesvol gestel",
           "jsAlarmSetError": "Fout met die opstel van alarms. Probeer asseblief later weer.",
-          "jsAlarmSnoozed": "Alarm snoozed vir 10 minute"
+          "jsAlarmSnoozed": "Alarm snoozed vir 10 minute",
+          "sunriseLabel": "Sonsopkoms",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Huis"
         },
         "alarmSetting": {
           "title": "Alarminstellings",
@@ -398,7 +415,10 @@
           "addGender": "Voeg geslag by",
           "addBday": "Voeg verjaarsdag by",
           "addRelation": "Voeg verhouding by",
-          "joinDate": "Aangesluit: {date}"
+          "joinDate": "Aangesluit: {date}",
+          "privateInfoDesc": "Hierdie inligting is slegs vir u sigbaar en u sien dat inhoud en funksies hierop gebaseer is.",
+          "idSetupCta": "Stel jou identiteit op",
+          "idVerifyCta": "Verifieer"
         },
         "posts": {
           "title": "Poste",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Is jy seker?",
           "jsDeletePrompt": "Skrapping van rekords vir <b>{fullName}</b> sal ook alle vorige versoeke wat vir {gender}! Voortgaan?",
           "jsDeleted": "Geskrap rekords vir {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verifieer jou Shia-identiteit | Verifieer jou Sadat-identiteit",
+          "p1": "Jy het in jou profiel aangedui dat jy 'n Shia-Moslem is. As u hierdie inligting laat verifieer, sal u meer funksies vir u moontlik maak en ons help om 'n geverifieerde gemeenskap van Shia -Moslems te bou.",
+          "p2": "Verifieer asseblief jou identiteit; dit sal nie lank duur nie",
+          "noReminder": "Moenie my weer herinner nie",
+          "dismissCta": "Nie nou nie",
+          "startCta": "Begin"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "U moet eers geverifieer word voordat u ander kan verifieer!",
+          "jsLinkExpired": "Hierdie skakel is óf ongeldig óf dit het verval. Vra asseblief jou vriend om 'n nuwe versoek te stuur.",
+          "confirm": {
+            "heading": "Verifieer rekeningidentiteit",
+            "msg": "Help {firstName} om {genderLabel1} rekeninginligting geverifieer te kry. Dit sal {genderLabel2} in staat stel om toegang tot meer funksies op ons program te kry",
+            "jsSkip": "Geen probleem nie. As u van plan verander, kan u hierdie skakel weer besoek om later te verifieer."
+          }
+        },
+        "myKhums": {
+          "title": "My Khums"
         }
       }
     },
@@ -447,7 +487,6 @@
             "Use {langName}"
           ],
           "useEngling": "Gaan voort in Engels",
-          "useEnglish": "Gaan voort in Engels",
           "selectFrom": "Of kies uit een van die volgende alternatiewe tale:"
         },
         "langError": "'n Fout het voorgekom terwyl die vertalings vir {langName}. Probeer asseblief later weer."
@@ -753,7 +792,10 @@
         "sendOtpCta": "Stuur OTP",
         "backToLoginCta": "Terug na aanmelding",
         "disclaimerText": "Let asseblief daarop dat jy slegs 'n {item} sal kry as jy die {item} by ons geregistreer het",
-        "jsMailSent": "Pos gestuur"
+        "jsMailSent": "Pos gestuur",
+        "title2": "Eis jou rekening op",
+        "claimIntroHeading": "Eis jou rekening vinnig op!",
+        "claimIntroText": "Dankie dat jy by ons aangesluit het. Ons het nou vir jou 'n rekening geskep. Kry toegang tot jou rekening deur sy wagwoord terug te stel deur een van die volgende metodes te gebruik:"
       },
       "resetPwd": {
         "title": "Stel wagwoord terug",
@@ -825,6 +867,248 @@
       "dialCodeSelector": {
         "title": "Kies land",
         "searchPH": "Soek land volgens naam of inbelkode"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Voltooi jou profiel",
+            "desc": "Onvolledige profiele het beperkte toegang tot funksies op ons program. As u profiel opgedateer word, help dit u op verskillende maniere. Klik hier om meer te wete te kom.",
+            "item1": {
+              "header": "Volledige profiele word maklik geverifieer",
+              "p1": "Wanneer u rekeningverifikasie versoek (volgende stap), help dit ander om u maklik te verifieer wanneer hulle u ken of al die nodige inligting kan sien om oor u te verifieer.",
+              "p2": "Onvolledige profiele neem baie langer om geverifieer te word. Ons wil nie hê jy moet geblokkeer word om kenmerke op ons toepassing te gebruik nie."
+            },
+            "item2": {
+              "header": "Sien die regte inhoud",
+              "p1": "Jy sien inhoud gebaseer op jou omgewing. Wanneer ons korrekte inligting oor jou het, sien jy meer relevante inhoud.",
+              "p2": "Byvoorbeeld, as jy jou ligging korrek opgedateer het, sal jy meer waarskynlik eers plasings van jou omgewing sien."
+            },
+            "cta": "Voltooi jou profiel"
+          },
+          "identity": {
+            "header": "Stel jou identiteit op",
+            "desc": "Ons verwelkom almal op ons app, maar omdat sommige funksies slegs nuttig (en bedoel) is vir Shia -Moslems, help hierdie inligting ons om die regte funksies te bied. Klik hier om meer te wete te kom.",
+            "item1": {
+              "header": "Toegangsfunksies vir Shia -Moslems",
+              "p1": "'N Aantal funksies op ons app is gebou uit Shia -Moslems. Sommige van hulle is:",
+              "ul": "<li>Versoek vir Surah-fatiha en Namaz-e-Wahshat</li><li>Khums sakrekenaar</li><li>Finansiële hulp (khums) vir Sadat momineen</li>",
+              "p2": "Om toegang tot hierdie funksies te verkry, moet u u identiteit verifieer (hetsy nou of, as u later kies)"
+            },
+            "item2": {
+              "header": "Jy kan momineen in nood help!",
+              "p1": "Selfs as u nie geverifieer wil word nie, kan daar ander wees wat moontlik geverifieer wil word om van hierdie funksies gebruik te maak.",
+              "p2": "Slegs geverifieerde rekeninge kan sulke momineen verifieer. Verifikasie help ons ook om 'n geverifieerde Shia-gemeenskap te bou."
+            },
+            "item3": {
+              "header": "Jou inligting is altyd privaat",
+              "p1": "<strong>Ons verstaan dit is 'n sensitiewe</strong> inligting en ons sal nooit hierdie inligting in die openbaar blootstel sonder jou toestemming nie, maar afleidings kan steeds soms gemaak word. Byvoorbeeld, as u verifikasie van ander momineen versoek, sal hulle weet dat u 'n Shia is.",
+              "p2": "U kan op die onderstaande knoppie klik om meer oor ons proses te lees."
+            },
+            "cta": "Opstelling"
+          }
+        },
+        "idSetup": {
+          "header": "Amper klaar!",
+          "desc": "U kan hierdie stap oorslaan as u tevrede is met ons voorafbepaalde waardes vir u privaatheids- en kommunikasie-instellings. Dit maak egter nie seer om te kyk nie!",
+          "privacy": {
+            "header": "Stel jou privaatheid op",
+            "p1": "Definieer wat ander kan sien:",
+            "ul": "<li>Stel sigbaarheidsinstellings vir jou plasings in. Dit bepaal of jou plasings deur enigiemand op of buite Bazm gesien kan word (bv. wanneer iemand dit op 'n ander platform deel)</li><li>Stel wie kan sien wat wanneer hulle jou profiel besoek</li><li>Stel vas hoe verskyn u inligting aan ander</li>"
+          },
+          "comm": {
+            "header": "Stel kommunikasie-instellings in",
+            "p1": "Definieer hoe en wanneer wil jy hê ons moet met jou kommunikeer:",
+            "ul": "<li>Stel u kennisgewingvoorkeure in</li><li>Teken in of teken uit op kennisgewings van e-posse</li><li>Teken in of teken uit op aanmanings</li>"
+          },
+          "cta": "Opstelling"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Verifieer jou selfoon",
+            "desc": "Klik op die skakel hieronder om jou selfoonnommer te verifieer:",
+            "cta": "Begin mobiele verifikasie",
+            "completed": "Mobile suksesvol geverifieer"
+          },
+          "email": {
+            "header": "Verifieer jou e-pos",
+            "desc": "Klik op die skakel hieronder om verifikasie-e-pos in jou inkassie te kry.",
+            "cta": "Begin mobiele verifikasie",
+            "completed": "Mobile suksesvol geverifieer",
+            "form": {
+              "inputLabel": "Jou e-pos:",
+              "ph": "Voer jou e-pos in",
+              "cta": "E-pos verifikasie skakel"
+            },
+            "sent": {
+              "desc": "'n E-pos is na jou e-posadres hieronder gestuur. Klik op die skakel in jou e-pos om jou e-posadres te verifieer.",
+              "incorrect": "Verkeerde e-pos?",
+              "change": "Verander"
+            },
+            "resendCta": "Stuur e-pos weer",
+            "openEmailCta": "Maak e-pos oop",
+            "verified": "E-pos suksesvol geverifieer!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Voltooi rekeningopstelling",
+        "desc": "Ontsluit funksies vir u rekening deur u rekeningopstelling te voltooi. Jy hoef dit net een keer te doen en dit help om jou besonderhede, jou identiteit en die opstel van privaatheidsopsies vir jou te verifieer.",
+        "gotoPageCta": "Gaan voort met die opstel",
+        "dontRemind": "Moenie my weer herinner nie",
+        "dismissCta": "Later",
+        "jsConfirmSkip": {
+          "header": "Gaan later voort?",
+          "msg": "As u hierdie stap voltooi, sal u baie funksies vir u op die app ontsluit, maar u kan hierdie stap ook later voltooi. Gaan net na 'Gebruiker'-oortjie en gaan van daar af voort.",
+          "btns": {
+            "confirm": "Ja, later",
+            "cancel": "Doen dit nou"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Stel jou identiteit op",
+        "form": {
+          "religion": {
+            "label": "Kies jou godsdiens:",
+            "infoText": "'N Aantal kenmerke wat slegs relevant is vir Moslems, is gebaseer op hierdie inligting. Hierdie data sal slegs vir u sigbaar wees; Daar kan egter steeds afleidings gemaak word (soos wanneer u een van die funksies gebruik wat slegs vir Moslems beskikbaar is)",
+            "muslim": "Moslem",
+            "nonMuslim": "Nie-Moslem"
+          },
+          "sect": {
+            "label": "Kies jou sekte",
+            "infoText": "Kenmerke soos Versoek om <strong>Ziyarat, Versoek om hulp, Khums berekening, ens vereis</strong> dat jy jou Shia-identiteit verifieer. Nie-geverifieerde gebruikers het ook beperkte toegang tot funksies.",
+            "shia": "Shia",
+            "sunni": "Nie-Shia"
+          },
+          "thanksNonMuslim": "Dankie dat jy belangstelling getoon het om by ons toepassing aan te sluit. Ons hoop dat u nuttige inhoud hier vind. Toon asseblief respek aan die gemeenskap en voldoen aan ons reëls.",
+          "sadat": {
+            "label": "Is jy Sadat?",
+            "infoText": "Hierdie inligting word gebruik in funksies wat bedoel is vir Sadat-shia-Moslems. Dit word egter nooit vertoon soos vir enigiemand nie. Jy sal jou sadaatstatus moet verifieer voordat jy van hierdie dienste gebruik kan maak.",
+            "sadat": "Ja",
+            "nonSadat": "Nee"
+          },
+          "requested": "Verifikasie aangevra",
+          "required": "Verifikasie benodig",
+          "verifyInfo": {
+            "modalCta": "Wat is dit?",
+            "p1": "Om toegang te verkry tot funksies wat vir Shia -Moslems bedoel is, moet u u Shia-identiteit verifieer.",
+            "p2": "As jy 'n Shia-Sadat is, sal jy dit ook moet verifieer. U kan dit in dieselfde verifikasieversoek koppel; kies eenvoudig <strong>Sadat</strong> hierbo."
+          },
+          "verifyCta": "Verifieer",
+          "skipInfo": "U kan verifikasie oorslaan as u nie die genoemde funksies wil gebruik nie. Om slegs u inligting op te dateer, klik <strong>Stoor en gaan voort</strong>",
+          "thankSunni": {
+            "p1": "Dankie dat u belangstelling in ons app getoon het. Ten spyte van hierdie wêreldse verdeeldheid, is al die Moslems broers in geloof en behoort hulle aan dieselfde Ummah van profeet Mohammed (PBUH)",
+            "p2": "Ons hoop jy vind inhoud hier nuttig en dit help ons om mekaar beter te verstaan.",
+            "p3": "Vir enige navraag / bekommernisse oor ons beleid of enigiets, kan u ons altyd kontak."
+          }
+        },
+        "cta": [
+          "Stoor",
+          "Stoor en gaan voort"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Verifieer rekening vir {name}",
+        "heading": "Kan jy hieronder inligting oor {firstName}beantwoord? Indien nie, verwerp dan hierdie versoek.",
+        "desc": "U het net twee pogings om te verifieer!",
+        "descP1": "Wanneer u hierdie vorm indien, sal ons die inligting ooreenstem met wat {firstName} verskaf het wanneer u verifikasie versoek. Let daarop omdat u slegs twee pogings het om hierdie vorm korrek in te vul. As u steeds misluk, sal u {firstName} in die toekoms nie weer kan verifieer nie.",
+        "descP2": "As u {firstName}nie ken nie, verwerp dan hierdie versoek. Ons sal hulle laat weet en hulle vra om iemand anders te bereik.",
+        "rejectRequestCta": "Verwerp versoek",
+        "form": {
+          "heading": "Beantwoord die volgende vrae oor {firstName} en klik dien in:",
+          "q1": "Hoe weet jy {firstName}?",
+          "q2": "Godsdiens:",
+          "q3": "Sekte:",
+          "q4": "Is {firstName} Sadat?",
+          "q5": "Enigiets anders wat jy wil byvoeg?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Jou privaatheidinstellings",
+        "privacy": {
+          "header": "Privaatheidinstellings",
+          "desc": "Stel wie die volgende van jou of in jou rekening kan sien:",
+          "form": {
+            "posts": "Jou plasings",
+            "status": "Jou statusopdaterings",
+            "requests": "Jou versoeke",
+            "relationship": "Jou verhoudingstatus",
+            "birthday": "Jou geboortedatum (nie jaar nie)",
+            "location": "Jou ligging"
+          },
+          "disclaimer": {
+            "heading": "* Afleidings kan nog hieroor gemaak word",
+            "p": "Alhoewel hierdie inligting miskien op u profiel versteek is, kan daar steeds afleidings gemaak word. As u pos byvoorbeeld aan 'n gebruiker verskyn, kan hulle aflei dat u naby woon (gebaseer op waar die pos in hul voer verskyn)"
+          },
+          "values": {
+            "everyone": "Almal",
+            "users": "Slegs Momineen",
+            "shias": "Slegs Sjiïete",
+            "me": "Net ek"
+          }
+        },
+        "comm": {
+          "header": "Kommunikasie-instellings",
+          "desc": "Stel vas hoe wil u gekommunikeer word?",
+          "form": {
+            "push": {
+              "header": "Stoot kennisgewings",
+              "nearby": "Vir plasings van gebruikers in die omgewing",
+              "daily": "Ons daaglikse opdaterings"
+            },
+            "email": {
+              "header": "E-pos kennisgewings",
+              "weekly": "Weeklikse nuusbrief",
+              "monthly": "Maandelikse opsommende e-posse"
+            },
+            "cta": "Bywerking"
+          }
+        },
+        "js": {
+          "changeSaved": "Veranderinge suksesvol gestoor"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Verwerp",
+        "title": "Verwerp versoek",
+        "reasonLabel": "Waarom wil u nie hierdie rekening verifieer nie?",
+        "reasonPh": "Ons sal {userName} laat weet en hulle vra om na iemand anders uit te reik vir verifikasie"
+      },
+      "haadiHome": {
+        "title": "Begin bespreking | Jou besprekings met Haadi",
+        "item": {
+          "added": "Bygevoeg {date}",
+          "tokensUsed": "Tekens gebruik: {tokens}",
+          "readContinue": "Lees of gaan voort met bespreking"
+        },
+        "blank": {
+          "heading": "Begin nuwe bespreking",
+          "desc": "U het geen vorige gesprekke nie. Begin 'n nuwe bespreking deur jou navraag hieronder in te dien."
+        },
+        "introLink": "Lees meer oor Haadi, of",
+        "inputPh": "Begin nuwe bespreking",
+        "quesHelp": {
+          "invalid": "Vrae met 5 of meer woorde maak meer sin..",
+          "goodLen": "Dit lyk na 'n goeie vraag!",
+          "excellent": "Dit maak nooit seer om jou vraag te verduidelik nie. Koedoes!"
+        }
+      },
+      "askHaadi": {
+        "title": "Vra vir Haadi",
+        "infoText": "Om hierdie bespreking te beëindig en 'n nuwe gesprek te begin, klik op die knoppie hieronder",
+        "newChatCTA": "Nuwe bespreking",
+        "inputPH": "Vra 'n vraag",
+        "empty": {
+          "heading": "Kon hierdie gesprek nie vind nie",
+          "p1": "'N Fout het voorgekom tydens die poging om hierdie gesprek te kry. Gaan asseblief die URL na en probeer weer.",
+          "p2": "As dit aanhou gebeur, kontak ons asseblief."
+        },
+        "jsNewChatInfo": "Dit is die begin van 'n nuwe gesprek met Haadi. Jy het gekies om konteks vir Haadi moontlik te maak terwyl jy jou vrae beantwoord. U kan hierdie opsie altyd in instellings deaktiveer, of kyk wat beteken dit vir u."
+      },
+      "aboutHaadi": {
+        "title": "Ontmoet Haadi, jou botvriend om die Shia-Islam te navigeer!",
+        "desc": "Klik op elk van hierdie opsommings om meer te lees, of vind meer oor Haadi en gebruiksvoorwaardes in <a href={blogLink} target = '_system'>our blog",
+        "agreement": "Ek verstaan en stem saam met Gebruiksvoorwaardes"
       }
     },
     "authPage": {
