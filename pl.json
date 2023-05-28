@@ -66,9 +66,22 @@
           "cta": "Odświeżyć"
         },
         "jsImgUploaded": "Obraz przesłany pomyślnie!",
-        "jsImgUploadErr": "Przesyłanie obrazu nie powiodło się. Spróbuj ponownie później."
+        "jsImgUploadErr": "Przesyłanie obrazu nie powiodło się. Spróbuj ponownie później.",
+        "jsLoadingDelay": "Trwa to nieco dłużej niż oczekiwano. Poczekaj, aż przetworzymy tę prośbę."
       },
-      "unknown": "Nieznany"
+      "unknown": "Nieznany",
+      "close": "Zamykać",
+      "yes": "Tak",
+      "no": "Nie",
+      "idk": "Nie wiem",
+      "completed!": "Zakończone!",
+      "pushPrompt": {
+        "heading": "Bądź na bieżąco",
+        "desc": "Podoba Ci się to, co widzisz? Nigdy nie przegap aktualizacji i otrzymuj powiadomienia o wszystkim, co dzieje się wokół dzięki powiadomieniom.<br />Czy możemy wysyłać powiadomienia?",
+        "cancelCta": "Zapytaj mnie później",
+        "okCta": "Pewny!",
+        "jsPushUnsupported": "Funkcja Push nie jest obsługiwana na tym urządzeniu. Możesz przegapić powiadomienia!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmy ustawione pomyślnie",
           "jsAlarmSetError": "Błąd podczas ustawiania alarmów. Spróbuj ponownie później.",
-          "jsAlarmSnoozed": "Alarm drzemał przez 10 minut"
+          "jsAlarmSnoozed": "Alarm drzemał przez 10 minut",
+          "sunriseLabel": "Wschód słońca",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Dom"
         },
         "alarmSetting": {
           "title": "Ustawienia alarmu",
@@ -398,7 +415,10 @@
           "addGender": "Dodaj płeć",
           "addBday": "Dodaj urodziny",
           "addRelation": "Dodaj relację",
-          "joinDate": "Dołączył: {date}"
+          "joinDate": "Dołączył: {date}",
+          "privateInfoDesc": "Te informacje są widoczne tylko dla Ciebie i widzisz zawartość i funkcje oparte na nich.",
+          "idSetupCta": "Skonfiguruj swoją tożsamość",
+          "idVerifyCta": "Zweryfikować"
         },
         "posts": {
           "title": "Posty",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Czy na pewno?",
           "jsDeletePrompt": "Usunięcie rekordów dla <b>{fullName}</b> spowoduje również usunięcie wszystkich poprzednich próśb dotyczących {gender}! Kontynuować?",
           "jsDeleted": "Usunięte rekordy dla {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Zweryfikuj swoją tożsamość szyicką | Zweryfikuj swoją tożsamość Sadata",
+          "p1": "Zaznaczyłeś w swoim profilu, że jesteś szyickim muzułmaninem. Zweryfikowanie tych informacji umożliwi Ci więcej funkcji i pomoże nam zbudować zweryfikowaną społeczność szyickich muzułmanów.",
+          "p2": "Prosimy o zweryfikowanie swojej tożsamości; To nie potrwa długo",
+          "noReminder": "Nie przypominaj mi więcej",
+          "dismissCta": "Nie teraz",
+          "startCta": "Początek"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Musisz najpierw zostać zweryfikowany, zanim będziesz mógł zweryfikować innych!",
+          "jsLinkExpired": "Ten link jest nieprawidłowy lub wygasł. Poproś znajomego o wysłanie nowej prośby.",
+          "confirm": {
+            "heading": "Weryfikowanie tożsamości konta",
+            "msg": "Pomóż {firstName} zweryfikowaniu informacji o {genderLabel1} koncie. Umożliwi to {genderLabel2} dostęp do większej liczby funkcji w naszej aplikacji",
+            "jsSkip": "Nie ma sprawy. Jeśli zmienisz zdanie, możesz ponownie odwiedzić ten link, aby zweryfikować go później."
+          }
+        },
+        "myKhums": {
+          "title": "Moje Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Wyślij OTP",
         "backToLoginCta": "Powrót do logowania",
         "disclaimerText": "Pamiętaj, że otrzymasz {przedmiot} tylko wtedy, gdy {przedmiot} jest u nas zarejestrowany.",
-        "jsMailSent": "Wysłana poczta"
+        "jsMailSent": "Wysłana poczta",
+        "title2": "Zgłoś prawa do swojego konta",
+        "claimIntroHeading": "Szybko odbierz swoje konto!",
+        "claimIntroText": "Dziękujemy za dołączenie do nas. Utworzyliśmy dla Ciebie konto. Uzyskaj dostęp do swojego konta, resetując jego hasło za pomocą jednej z następujących metod:"
       },
       "resetPwd": {
         "title": "Zresetuj hasło",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Wybierz kraj",
         "searchPH": "Wyszukaj kraj według nazwy lub numeru kierunkowego"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Uzupełnij swój profil",
+            "desc": "Niekompletne profile mają ograniczony dostęp do funkcji w naszej aplikacji. Aktualizacja profilu pomaga na wiele sposobów. Kliknij tutaj, aby dowiedzieć się więcej.",
+            "item1": {
+              "header": "Kompletne profile są łatwo weryfikowane",
+              "p1": "Prośba o weryfikację konta (następny krok) pomaga innym osobom łatwo Cię zweryfikować, gdy Cię znają lub widzą wszystkie informacje potrzebne do weryfikacji o Tobie.",
+              "p2": "Weryfikacja niekompletnych profili trwa znacznie dłużej. Nie chcemy, abyś został zablokowany w korzystaniu z funkcji naszej aplikacji."
+            },
+            "item2": {
+              "header": "Zobacz odpowiednią treść",
+              "p1": "Widzisz treści na podstawie otoczenia. Gdy mamy poprawne informacje o Tobie, widzisz bardziej odpowiednie treści.",
+              "p2": "Jeśli na przykład poprawnie zaktualizowałeś swoją lokalizację, najprawdopodobniej najpierw zobaczysz posty z otoczenia."
+            },
+            "cta": "Uzupełnij swój profil"
+          },
+          "identity": {
+            "header": "Skonfiguruj swoją tożsamość",
+            "desc": "Witamy wszystkich w naszej aplikacji, ale ponieważ niektóre funkcje są przydatne (i przeznaczone) tylko dla szyickich muzułmanów, te informacje pomagają nam służyć Ci odpowiednimi funkcjami. Kliknij tutaj, aby dowiedzieć się więcej.",
+            "item1": {
+              "header": "Funkcje dostępu dla szyickich muzułmanów",
+              "p1": "Wiele funkcji naszej aplikacji jest zbudowanych z szyickich muzułmanów. Niektóre z nich to:",
+              "ul": "<li>Prośba o Surę-fatiha i Namaz-e-Wahshat</li><li>Kalkulator Khums</li><li>Pomoc finansowa (khums) dla Sadat momineen</li>",
+              "p2": "Aby uzyskać dostęp do tych funkcji, musisz zweryfikować swoją tożsamość (teraz lub, jeśli chcesz, później)"
+            },
+            "item2": {
+              "header": "Możesz pomóc momineen w potrzebie!",
+              "p1": "Nawet jeśli nie chcesz być weryfikowany, mogą istnieć inni, którzy mogą chcieć zostać zweryfikowani, aby skorzystać z tych funkcji.",
+              "p2": "Tylko zweryfikowane konta mogą zweryfikować takie momineen. Weryfikacja pomaga nam również budować zweryfikowaną społeczność szyicką."
+            },
+            "item3": {
+              "header": "Twoje informacje są zawsze prywatne",
+              "p1": "<strong>Rozumiemy, że są to poufne informacje</strong> i nigdy nie ujawnimy tych informacji publicznie bez Twojej zgody, ale czasami można wyciągnąć wnioski. Na przykład, gdy poprosisz o weryfikację od innych momineenów, będą wiedzieć, że jesteś szyitą.",
+              "p2": "Możesz kliknąć przycisk poniżej, aby dowiedzieć się więcej o naszym procesie."
+            },
+            "cta": "Instalacji"
+          }
+        },
+        "idSetup": {
+          "header": "Prawie gotowe!",
+          "desc": "Możesz pominąć ten krok, jeśli zgadzasz się z naszymi wstępnie ustawionymi wartościami dotyczącymi ustawień prywatności i komunikacji. Nie zaszkodzi jednak spojrzeć!",
+          "privacy": {
+            "header": "Skonfiguruj swoją prywatność",
+            "p1": "Określ, co mogą zobaczyć inni:",
+            "ul": "<li>Ustaw ustawienia widoczności swoich postów. Określa, czy Twoje posty mogą być widoczne dla każdego na Bazmie lub poza nim (np. Gdy ktoś udostępni je na innej platformie)</li><li>Określanie, kto może zobaczyć co, gdy odwiedza Twój profil</li><li>Ustawianie sposobu wyświetlania informacji innym osobom</li>"
+          },
+          "comm": {
+            "header": "Konfigurowanie ustawień komunikacji",
+            "p1": "Określ, w jaki sposób i kiedy chcesz, abyśmy się z Tobą komunikowali:",
+            "ul": "<li>Ustawianie preferencji powiadomień</li><li>Subskrybowanie lub anulowanie subskrypcji powiadomień o wiadomościach e-mail</li><li>Subskrybowanie przypomnień lub anulowanie ich subskrypcji</li>"
+          },
+          "cta": "Instalacji"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Zweryfikuj swój telefon komórkowy",
+            "desc": "Kliknij poniższy link, aby zweryfikować swój numer telefonu komórkowego:",
+            "cta": "Rozpocznij weryfikację mobilną",
+            "completed": "Mobilna weryfikacja pomyślnie"
+          },
+          "email": {
+            "header": "Zweryfikuj swój adres e-mail",
+            "desc": "Kliknij poniższy link, aby otrzymać weryfikacyjną wiadomość e-mail w skrzynce odbiorczej.",
+            "cta": "Rozpocznij weryfikację mobilną",
+            "completed": "Mobilna weryfikacja pomyślnie",
+            "form": {
+              "inputLabel": "Twój e-mail:",
+              "ph": "Wpisz swój adres e-mail",
+              "cta": "Link weryfikacyjny e-mailem"
+            },
+            "sent": {
+              "desc": "Wiadomość e-mail została wysłana na Twój adres e-mail poniżej. Kliknij link w wiadomości e-mail, aby zweryfikować swój adres e-mail.",
+              "incorrect": "Nieprawidłowy adres e-mail?",
+              "change": "Zmieniać"
+            },
+            "resendCta": "Wyślij ponownie wiadomość e-mail",
+            "openEmailCta": "Otwórz pocztę e-mail",
+            "verified": "E-mail zweryfikowany pomyślnie!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Zakończ konfigurację konta",
+        "desc": "Odblokuj funkcje swojego konta, kończąc konfigurację konta. Musisz to zrobić tylko raz, a to pomoże zweryfikować Twoje dane, tożsamość i skonfigurować opcje prywatności.",
+        "gotoPageCta": "Kontynuuj konfigurację",
+        "dontRemind": "Nie przypominaj mi więcej",
+        "dismissCta": "Później",
+        "jsConfirmSkip": {
+          "header": "Kontynuować później?",
+          "msg": "Wykonanie tego kroku odblokuje wiele funkcji aplikacji, ale możesz również wykonać ten krok później. Po prostu przejdź do zakładki \"Użytkownik\" i kontynuuj stamtąd.",
+          "btns": {
+            "confirm": "Tak, później",
+            "cancel": "Zrób to teraz"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Skonfiguruj swoją tożsamość",
+        "form": {
+          "religion": {
+            "label": "Wybierz swoją religię:",
+            "infoText": "Wiele cech istotnych tylko dla muzułmanów opiera się na tych informacjach. Dane te będą widoczne tylko dla Ciebie; Jednak nadal można wyciągać wnioski (na przykład, gdy używasz jednej z funkcji dostępnych tylko dla muzułmanów)",
+            "muslim": "Muzułmanin",
+            "nonMuslim": "Nie-muzułmanie"
+          },
+          "sect": {
+            "label": "Wybierz swoją sektę",
+            "infoText": "Funkcje takie jak prośba <strong>o Ziyarat, prośba o pomoc, obliczenia Khums itp</strong> . wymagają weryfikacji tożsamości szyickiej. Ponadto niezweryfikowani użytkownicy mają ograniczony dostęp do funkcji.",
+            "shia": "Shia",
+            "sunni": "Nie-szyici"
+          },
+          "thanksNonMuslim": "Dziękujemy za zainteresowanie dołączeniem do naszej aplikacji. Mamy nadzieję, że znajdziesz tutaj przydatne treści. Prosimy o okazanie szacunku społeczności i przestrzeganie naszych zasad.",
+          "sadat": {
+            "label": "Czy jesteś Sadat?",
+            "infoText": "Ta informacja jest używana w funkcjach przeznaczonych dla szyickich muzułmanów Sadat-shia. Jednak nigdy nie jest wyświetlany tak, jak nikomu. Będziesz musiał zweryfikować swój status sadat, zanim będziesz mógł skorzystać z tych usług.",
+            "sadat": "Tak",
+            "nonSadat": "Nie"
+          },
+          "requested": "Wymagana weryfikacja",
+          "required": "Wymagana weryfikacja",
+          "verifyInfo": {
+            "modalCta": "Co to jest?",
+            "p1": "Aby uzyskać dostęp do funkcji przeznaczonych dla szyickich muzułmanów, musisz zweryfikować swoją tożsamość szyicką.",
+            "p2": "Jeśli jesteś szyitą, musisz to również zweryfikować. Możesz sparować go w tym samym żądaniu weryfikacji. po prostu wybierz <strong>Sadat</strong> powyżej."
+          },
+          "verifyCta": "Zweryfikować",
+          "skipInfo": "Możesz pominąć weryfikację, jeśli nie chcesz korzystać z wymienionych funkcji. Aby zaktualizować tylko informacje, kliknij <strong>Zapisz i kontynuuj</strong>",
+          "thankSunni": {
+            "p1": "Dziękujemy za zainteresowanie naszą aplikacją. Pomimo tych światowych podziałów, wszyscy muzułmanie są braćmi w wierze i należą do tej samej Ummy Proroka Mahometa (pokój i błogosławieństwo Allaha z nim)",
+            "p2": "Mamy nadzieję, że znajdziesz tutaj przydatne treści i pomogą nam lepiej się zrozumieć.",
+            "p3": "W przypadku jakichkolwiek pytań/wątpliwości dotyczących naszych zasad lub czegokolwiek innego, zawsze możesz skontaktować się z nami."
+          }
+        },
+        "cta": [
+          "Zapisać",
+          "Zapisz i kontynuuj"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Zweryfikuj konto {name}",
+        "heading": "Czy możesz odpowiedzieć na poniższe informacje na temat {firstName}? Jeśli nie, odrzuć tę prośbę.",
+        "desc": "Masz tylko dwie próby weryfikacji!",
+        "descP1": "Po przesłaniu tego formularza dopasujemy informacje do tego, co {firstName} podane podczas składania wniosku o weryfikację. Zwróć uwagę, ponieważ masz tylko dwie próby poprawnego wypełnienia tego formularza. Jeśli nadal nie uda Ci się, nie będziesz w stanie ponownie zweryfikować {firstName} w przyszłości.",
+        "descP2": "Jeśli nie wiesz, {firstName}, odrzuć tę prośbę. Damy im znać i poprosimy o kontakt z kimś innym.",
+        "rejectRequestCta": "Odrzuć prośbę",
+        "form": {
+          "heading": "Odpowiedz na następujące pytania dotyczące {firstName} i kliknij Prześlij:",
+          "q1": "Skąd wiesz {firstName}?",
+          "q2": "Religia:",
+          "q3": "Sect:",
+          "q4": "Czy {firstName} Sadat?",
+          "q5": "Czy chcesz dodać coś jeszcze?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Twoje ustawienia prywatności",
+        "privacy": {
+          "header": "Ustawienia prywatności",
+          "desc": "Określ, kto może zobaczyć obserwujących Cię lub na Twoim koncie:",
+          "form": {
+            "posts": "Twoje posty",
+            "status": "Twoje aktualizacje statusu",
+            "requests": "Twoje prośby",
+            "relationship": "Twój status związku",
+            "birthday": "Twoja data urodzenia (nie rok)",
+            "location": "Twoja lokalizacja"
+          },
+          "disclaimer": {
+            "heading": "* Nadal można wyciągnąć wnioski na ten temat",
+            "p": "Nawet jeśli te informacje mogą być ukryte w Twoim profilu, nadal można wyciągnąć pewne wnioski. Jeśli na przykład post jest widoczny dla użytkownika, może on wywnioskować, że mieszkasz w pobliżu (na podstawie tego, gdzie ten post pojawia się w jego aktualnościach)"
+          },
+          "values": {
+            "everyone": "Każdy",
+            "users": "Tylko Momineen",
+            "shias": "Tylko szyici",
+            "me": "Tylko ja"
+          }
+        },
+        "comm": {
+          "header": "Ustawienia komunikacji",
+          "desc": "Ustaw, w jaki sposób chcesz się komunikować",
+          "form": {
+            "push": {
+              "header": "Powiadomienia push",
+              "nearby": "W przypadku wpisów od pobliskich użytkowników",
+              "daily": "Nasze codzienne aktualizacje"
+            },
+            "email": {
+              "header": "Powiadomienia e-mail",
+              "weekly": "Cotygodniowy newsletter",
+              "monthly": "Miesięczne wiadomości e-mail z podsumowaniem"
+            },
+            "cta": "Aktualizacja"
+          }
+        },
+        "js": {
+          "changeSaved": "Zmiany zapisane pomyślnie"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Odrzucać",
+        "title": "Odrzuć prośbę",
+        "reasonLabel": "Dlaczego nie chcesz zweryfikować tego konta?",
+        "reasonPh": "Powiadomimy {userName} i poprosimy o skontaktowanie się z kimś innym w celu weryfikacji"
+      },
+      "haadiHome": {
+        "title": "Rozpocznij dyskusję | Twoje dyskusje z Haadi",
+        "item": {
+          "added": "Dodano {date}",
+          "tokensUsed": "Wykorzystane żetony: {tokens}",
+          "readContinue": "Przeczytaj lub kontynuuj dyskusję"
+        },
+        "blank": {
+          "heading": "Rozpocznij nową dyskusję",
+          "desc": "Nie prowadzisz żadnych wcześniejszych rozmów. Rozpocznij nową dyskusję, przesyłając zapytanie poniżej."
+        },
+        "introLink": "Przeczytaj więcej o Haadi, lub",
+        "inputPh": "Rozpocznij nową dyskusję",
+        "quesHelp": {
+          "invalid": "Pytania zawierające 5 lub więcej słów mają więcej sensu.",
+          "goodLen": "To wygląda na dobre pytanie!",
+          "excellent": "Nigdy nie zaszkodzi wyjaśnić swoje pytanie. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Zapytaj Haadiego",
+        "infoText": "Aby zakończyć dyskusję i rozpocząć nową konwersację, kliknij przycisk poniżej",
+        "newChatCTA": "Nowa dyskusja",
+        "inputPH": "Zadaj pytanie",
+        "empty": {
+          "heading": "Nie można znaleźć tej rozmowy",
+          "p1": "Wystąpił błąd podczas próby nawiązania tej rozmowy. Sprawdź adres URL i spróbuj ponownie.",
+          "p2": "Jeśli tak się stanie, skontaktuj się z nami."
+        },
+        "jsNewChatInfo": "To początek nowej rozmowy z Haadim. Zdecydowałeś się włączyć kontekst dla Haadi, odpowiadając na swoje pytania. Zawsze możesz wyłączyć tę opcję w ustawieniach lub zobaczyć, co to oznacza dla Ciebie."
+      },
+      "aboutHaadi": {
+        "title": "Poznaj Haadiego, swojego bota, który porusza się po szyickim islamie!",
+        "desc": "Kliknij każde z tych podsumowań, aby przeczytać więcej lub dowiedzieć się więcej o Haadi i warunkach użytkowania w <a href={blogLink} target='_system'>nasz blog",
+        "agreement": "Rozumiem i zgadzam się z Warunkami użytkowania"
       }
     },
     "authPage": {
