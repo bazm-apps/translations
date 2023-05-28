@@ -66,9 +66,22 @@
           "cta": "Virkistää"
         },
         "jsImgUploaded": "Kuvan lataus onnistui!",
-        "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä myöhemmin uudelleen."
+        "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä myöhemmin uudelleen.",
+        "jsLoadingDelay": "Se kestää hieman odotettua kauemmin. Odota, kunnes käsittelemme tämän pyynnön."
       },
-      "unknown": "Tuntematon"
+      "unknown": "Tuntematon",
+      "close": "Sulkea",
+      "yes": "Kyllä",
+      "no": "Ei",
+      "idk": "Minä en tiedä",
+      "completed!": "Valmis!",
+      "pushPrompt": {
+        "heading": "Pysy ajan tasalla",
+        "desc": "Pidätkö näkemästäsi? Älä koskaan missaa päivitystä ja pysy ajan tasalla kaikesta ilmoitusten avulla.<br />Voimmeko lähettää sinulle ilmoituksia?",
+        "cancelCta": "Kysy myöhemmin",
+        "okCta": "Varma!",
+        "jsPushUnsupported": "Push-toimintoa ei tueta tässä laitteessa. Saatat jäädä paitsi ilmoituksista!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Hälytykset asetettu onnistuneesti",
           "jsAlarmSetError": "Virhe hälytysten asettamisessa. Yritä myöhemmin uudelleen.",
-          "jsAlarmSnoozed": "Hälytys torkkui 10 minuuttia"
+          "jsAlarmSnoozed": "Hälytys torkkui 10 minuuttia",
+          "sunriseLabel": "Auringonnousu",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Koti"
         },
         "alarmSetting": {
           "title": "Hälytysasetukset",
@@ -398,7 +415,10 @@
           "addGender": "Lisää sukupuoli",
           "addBday": "Lisää syntymäpäivä",
           "addRelation": "Lisää suhde",
-          "joinDate": "Liittynyt: {date}"
+          "joinDate": "Liittynyt: {date}",
+          "privateInfoDesc": "Nämä tiedot näkyvät vain sinulle, ja näet tähän perustuvan sisällön ja ominaisuudet.",
+          "idSetupCta": "Määritä henkilöllisyytesi",
+          "idVerifyCta": "Tarkistaa"
         },
         "posts": {
           "title": "Virkaa",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Oletko varma?",
           "jsDeletePrompt": "<b>Tietueiden poistaminen {fullName}:</b>sta poistaa myös kaikki aiemmat {gender}:lle tehdyt pyynnöt! Jatkaa?",
           "jsDeleted": "{marhumeen}:n poistetut tietueet"
+        },
+        "verifyCard": {
+          "title": "Vahvista shiia-henkilöllisyytesi | Vahvista Sadat-henkilöllisyytesi",
+          "p1": "Olet ilmoittanut profiilissasi, että olet shiiamuslimi. Näiden tietojen vahvistaminen mahdollistaa sinulle lisää ominaisuuksia ja auttaa meitä rakentamaan vahvistetun shiiamuslimien yhteisön.",
+          "p2": "Vahvista henkilöllisyytesi; Se ei vie kauan",
+          "noReminder": "Älä muistuta minua enää",
+          "dismissCta": "Ei nyt",
+          "startCta": "Aloittaa"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Sinun on ensin vahvistettava ennen kuin voit vahvistaa muita!",
+          "jsLinkExpired": "Tämä linkki on virheellinen tai vanhentunut. Pyydä ystävääsi lähettämään uusi pyyntö.",
+          "confirm": {
+            "heading": "Vahvista tilin henkilöllisyys",
+            "msg": "Auta {firstName} {genderLabel1} tilitietojen vahvistamisessa. Näin {genderLabel2} voivat käyttää sovelluksemme muita ominaisuuksia",
+            "jsSkip": "Ei hätää. Jos muutat mielesi, voit tarkistaa tämän linkin uudelleen myöhemmin."
+          }
+        },
+        "myKhums": {
+          "title": "Minun Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Lähetä OTP",
         "backToLoginCta": "Takaisin sisäänkirjautumiseen",
         "disclaimerText": "Huomaa, että saat {item} vain, jos sinulla on {item} rekisteröity meille",
-        "jsMailSent": "Lähetetty sähköposti"
+        "jsMailSent": "Lähetetty sähköposti",
+        "title2": "Tilin lunastaminen",
+        "claimIntroHeading": "Lunasta tilisi nopeasti!",
+        "claimIntroText": "Kiitos, että liityit meihin. Olemme luoneet sinulle tilin nyt. Voit käyttää tiliäsi vaihtamalla sen salasanan jollakin seuraavista tavoista:"
       },
       "resetPwd": {
         "title": "Nollaa salasana",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Valitse maa",
         "searchPH": "Hae maasta nimen tai valintanumeron perusteella"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Täydennä profiilisi",
+            "desc": "Puutteellisilla profiileilla on rajoitettu pääsy sovelluksemme ominaisuuksiin. Profiilisi päivittäminen auttaa sinua monin tavoin. Klikkaa tästä saadaksesi lisätietoja.",
+            "item1": {
+              "header": "Täydelliset profiilit vahvistetaan helposti",
+              "p1": "Kun pyydät tilin vahvistamista (seuraava vaihe), se auttaa muita vahvistamaan sinut helposti, kun he joko tuntevat sinut tai näkevät kaikki sinua koskevaan vahvistamiseen tarvittavat tiedot.",
+              "p2": "Puutteellisten profiilien vahvistaminen kestää paljon kauemmin. Emme halua, että sinua estetään käyttämästä sovelluksemme ominaisuuksia."
+            },
+            "item2": {
+              "header": "Katso oikea sisältö",
+              "p1": "Näet sisältöä ympäristön perusteella. Kun meillä on oikeat tiedot sinusta, näet osuvampaa sisältöä.",
+              "p2": "Jos olet esimerkiksi päivittänyt sijaintisi oikein, näet todennäköisemmin ensin ympäristösi julkaisut."
+            },
+            "cta": "Täydennä profiilisi"
+          },
+          "identity": {
+            "header": "Määritä henkilöllisyytesi",
+            "desc": "Toivotamme kaikki tervetulleiksi sovellukseemme, mutta koska jotkin ominaisuudet ovat hyödyllisiä (ja tarkoitettuja) vain shiiamuslimeille, nämä tiedot auttavat meitä tarjoamaan sinulle oikeat ominaisuudet. Klikkaa tästä saadaksesi lisätietoja.",
+            "item1": {
+              "header": "Shiia-muslimien pääsyominaisuudet",
+              "p1": "Monet sovelluksemme ominaisuudet on rakennettu shiiamuslimeista. Jotkut niistä ovat:",
+              "ul": "<li>Pyyntö Surah-fatihalle ja Namaz-e-Wahshatille</li><li>Khumsin laskin</li><li>Taloudellinen tuki (khums) Sadat Momineenille</li>",
+              "p2": "Jotta voit käyttää näitä ominaisuuksia, sinun on vahvistettava henkilöllisyytesi (joko nyt tai halutessasi myöhemmin)"
+            },
+            "item2": {
+              "header": "Voit auttaa apua tarvitsevia mominenia!",
+              "p1": "Vaikka et halua vahvistusta, voi olla muitakin, jotka saattavat haluta saada vahvistuksen käyttääkseen näitä ominaisuuksia.",
+              "p2": "Vain vahvistetut tilit voivat vahvistaa tällaisen äidin. Vahvistus auttaa meitä myös rakentamaan vahvistetun shiiayhteisön."
+            },
+            "item3": {
+              "header": "Tietosi ovat aina yksityisiä",
+              "p1": "<strong>Ymmärrämme, että tämä on arkaluontoista tietoa</strong> , emmekä koskaan paljasta näitä tietoja julkisesti ilman suostumustasi, mutta joskus voidaan silti tehdä päätelmiä. Esimerkiksi, kun pyydät vahvistusta muilta äideiltä, he tietävät, että olet shiia.",
+              "p2": "Voit napsauttaa alla olevaa painiketta lukeaksesi lisää prosessistamme."
+            },
+            "cta": "Asennus"
+          }
+        },
+        "idSetup": {
+          "header": "Melkein valmis!",
+          "desc": "Voit ohittaa tämän vaiheen, jos olet tyytyväinen tietosuoja- ja viestintäasetuksiesi esimääritettyihin arvoihin. Ei kuitenkaan haittaa katsoa!",
+          "privacy": {
+            "header": "Määritä tietosuojasi",
+            "p1": "Määritä, mitä muut voivat nähdä:",
+            "ul": "<li>Määritä julkaisujesi näkyvyysasetukset. Se määrittää, näkeekö kukaan viestisi Bazmissa vai sen ulkopuolella (esim. kun joku jakaa sen toisella alustalla)</li><li>Määritä, kuka voi nähdä mitäkin, kun he käyvät profiilissasi</li><li>Määritä, miten tietosi näkyvät muille</li>"
+          },
+          "comm": {
+            "header": "Tietoliikenneasetusten määrittäminen",
+            "p1": "Määritä, miten ja milloin haluat meidän kommunikoivan kanssasi:",
+            "ul": "<li>Ilmoitusasetusten määrittäminen</li><li>Sähköposti-ilmoitusten tilaaminen tai tilauksen peruuttaminen</li><li>Muistutusten tilaaminen tai tilauksen peruuttaminen</li>"
+          },
+          "cta": "Asennus"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Vahvista matkapuhelimesi",
+            "desc": "Napsauta alla olevaa linkkiä vahvistaaksesi matkapuhelinnumerosi:",
+            "cta": "Aloita mobiilivahvistus",
+            "completed": "Mobiilivahvistus onnistui"
+          },
+          "email": {
+            "header": "Vahvista sähköpostiosoitteesi",
+            "desc": "Napsauta alla olevaa linkkiä saadaksesi vahvistussähköpostin postilaatikkoosi.",
+            "cta": "Aloita mobiilivahvistus",
+            "completed": "Mobiilivahvistus onnistui",
+            "form": {
+              "inputLabel": "Sähköpostiosoitteesi:",
+              "ph": "Kirjoita sähköpostiosoitteesi",
+              "cta": "Sähköpostivarmennuslinkki"
+            },
+            "sent": {
+              "desc": "Alla olevaan sähköpostiosoitteeseesi lähetettiin sähköpostiviesti. Napsauta sähköpostissasi olevaa linkkiä vahvistaaksesi sähköpostiosoitteesi.",
+              "incorrect": "Väärä sähköpostiosoite?",
+              "change": "Muuttaa"
+            },
+            "resendCta": "Lähetä sähköposti uudelleen",
+            "openEmailCta": "Avaa sähköposti",
+            "verified": "Sähköposti vahvistettu onnistuneesti!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Viimeistele tilin määritys",
+        "desc": "Avaa tilisi ominaisuuksia viimeistelemällä tilin määritys. Sinun tarvitsee tehdä se vain kerran, ja se auttaa vahvistamaan tietosi, henkilöllisyytesi ja määrittämään tietosuoja-asetukset puolestasi.",
+        "gotoPageCta": "Jatka asennusta",
+        "dontRemind": "Älä muistuta minua enää",
+        "dismissCta": "Myöhemmin",
+        "jsConfirmSkip": {
+          "header": "Jatka myöhemmin?",
+          "msg": "Tämän vaiheen suorittaminen avaa sinulle monia ominaisuuksia sovelluksessa, mutta voit suorittaa tämän vaiheen myös myöhemmin. Mene vain Käyttäjä-välilehdelle ja jatka sieltä.",
+          "btns": {
+            "confirm": "Kyllä, myöhemmin",
+            "cancel": "Tee se nyt"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Määritä henkilöllisyytesi",
+        "form": {
+          "religion": {
+            "label": "Valitse uskontosi:",
+            "infoText": "Useat vain muslimeille merkitykselliset piirteet perustuvat näihin tietoihin. Nämä tiedot näkyvät vain sinulle; Johtopäätöksiä voidaan kuitenkin edelleen tehdä (kuten silloin, kun käytät jotakin vain muslimeille saatavilla olevista ominaisuuksista)",
+            "muslim": "Muslimi",
+            "nonMuslim": "Ei-muslimi"
+          },
+          "sect": {
+            "label": "Valitse lahkosi",
+            "infoText": "Ominaisuudet, kuten <strong>Ziyarat-pyyntö, Avunpyyntö, Khums-laskenta jne.,</strong> Edellyttävät shiia-henkilöllisyytesi vahvistamista. Myös vahvistamattomilla käyttäjillä on rajoitettu pääsy ominaisuuksiin.",
+            "shia": "Shia",
+            "sunni": "Ei-shiialainen"
+          },
+          "thanksNonMuslim": "Kiitos, että osoitit kiinnostusta liittyä sovellukseemme. Toivomme, että löydät hyödyllistä sisältöä täältä. Osoita kunnioitusta yhteisöä kohtaan ja noudata sääntöjämme.",
+          "sadat": {
+            "label": "Oletko sinä Sadat?",
+            "infoText": "Näitä tietoja käytetään Sadat-shiia-muslimeille tarkoitetuissa ominaisuuksissa. Sitä ei kuitenkaan koskaan näytetä sellaisenaan kenellekään. Sinun on vahvistettava sadat-tilasi ennen kuin voit käyttää näitä palveluita.",
+            "sadat": "Kyllä",
+            "nonSadat": "Ei"
+          },
+          "requested": "Pyydetty vahvistus",
+          "required": "Vahvistus vaaditaan",
+          "verifyInfo": {
+            "modalCta": "Mikä tämä on?",
+            "p1": "Jotta voit käyttää shiiamuslimeille tarkoitettuja ominaisuuksia, sinun on vahvistettava shiia-henkilöllisyytesi.",
+            "p2": "Jos olet shiia-sadat, sinun on vahvistettava myös se. Voit yhdistää sen samassa vahvistuspyynnössä; valitse <strong>vain Sadat</strong> yllä."
+          },
+          "verifyCta": "Tarkistaa",
+          "skipInfo": "Voit ohittaa vahvistuksen, jos et halua käyttää mainittuja ominaisuuksia. Jos haluat vain päivittää tietosi, valitse <strong>Tallenna ja jatka</strong>",
+          "thankSunni": {
+            "p1": "Kiitos, että osoitit kiinnostusta sovellustamme kohtaan. Näistä maallisista erimielisyyksistä huolimatta kaikki muslimit ovat uskonveljiä ja kuuluvat samaan profeetta Muhammedin (saas) ummaan",
+            "p2": "Toivomme, että löydät täältä hyödyllistä sisältöä ja se auttaa meitä ymmärtämään toisiamme paremmin.",
+            "p3": "Jos sinulla on kysyttävää tai huolenaiheita käytännöistämme tai mistä tahansa, voit aina ottaa meihin yhteyttä."
+          }
+        },
+        "cta": [
+          "Säästää",
+          "Tallenna & Jatka"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Vahvista tili {name}",
+        "heading": "Voitko vastata alla oleviin tietoihin {firstName}? Jos ei, hylkää tämä pyyntö.",
+        "desc": "Sinulla on vain kaksi yritystä vahvistaa!",
+        "descP1": "Kun lähetät tämän lomakkeen, vertaamme tietoja siihen, mitä {firstName} antaneet pyytäessäsi vahvistusta. Ole tarkkana, koska sinulla on vain kaksi yritystä täyttää tämä lomake oikein. Jos epäonnistut edelleen, et voi vahvistaa {firstName} uudelleen tulevaisuudessa.",
+        "descP2": "Jos et tiedä {firstName}, hylkää tämä pyyntö. Ilmoitamme heille ja pyydämme heitä tavoittamaan jonkun muun.",
+        "rejectRequestCta": "Hylkää pyyntö",
+        "form": {
+          "heading": "Vastaa seuraaviin {firstName} liittyviin kysymyksiin ja valitse Lähetä:",
+          "q1": "Mistä tiedät {firstName}?",
+          "q2": "Uskonto:",
+          "q3": "Lahko:",
+          "q4": "Onko {firstName} Sadat?",
+          "q5": "Mitä muuta haluaisit lisätä?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Tietosuoja-asetuksesi",
+        "privacy": {
+          "header": "Tietosuoja-asetukset",
+          "desc": "Määritä, ketkä näkevät sinulta tai tililläsi seuraavat tiedot:",
+          "form": {
+            "posts": "Sinun julkaisusi",
+            "status": "Tilapäivityksesi",
+            "requests": "Sinun pyyntösi",
+            "relationship": "Parisuhteesi tila",
+            "birthday": "Syntymäpäiväsi (ei vuosi)",
+            "location": "Sijaintisi"
+          },
+          "disclaimer": {
+            "heading": "* Tästä voidaan vielä tehdä johtopäätöksiä",
+            "p": "Vaikka nämä tiedot saattavat olla piilossa profiilissasi, joitain johtopäätöksiä voidaan silti tehdä. Jos julkaisusi näkyy esimerkiksi käyttäjälle, hän voi päätellä, että asut lähellä (sen perusteella, missä julkaisu näkyy hänen syötteessään)"
+          },
+          "values": {
+            "everyone": "Kaikki",
+            "users": "Vain Momineen",
+            "shias": "Vain shiiat",
+            "me": "Vain minä"
+          }
+        },
+        "comm": {
+          "header": "Viestintäasetukset",
+          "desc": "Määritä, miten haluat saada viestintää",
+          "form": {
+            "push": {
+              "header": "Push-ilmoitukset",
+              "nearby": "Lähellä olevien käyttäjien viestit",
+              "daily": "Päivittäiset päivityksemme"
+            },
+            "email": {
+              "header": "Sähköposti-ilmoitukset",
+              "weekly": "Viikoittainen uutiskirje",
+              "monthly": "Kuukausittaiset yhteenvetosähköpostit"
+            },
+            "cta": "Päivittää"
+          }
+        },
+        "js": {
+          "changeSaved": "Muutokset tallennettu onnistuneesti"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Hylätä",
+        "title": "Hylkää pyyntö",
+        "reasonLabel": "Miksi et halua vahvistaa tätä tiliä?",
+        "reasonPh": "Ilmoitamme asiasta {userName} ja pyydämme heitä ottamaan yhteyttä johonkin toiseen vahvistusta varten"
+      },
+      "haadiHome": {
+        "title": "Aloita keskustelu | Keskustelusi Haadin kanssa",
+        "item": {
+          "added": "Lisätty {date}",
+          "tokensUsed": "Käytetyt tunnukset: {tokens}",
+          "readContinue": "Lue tai jatka keskustelua"
+        },
+        "blank": {
+          "heading": "Aloita uusi keskustelu",
+          "desc": "Sinulla ei ole aiempia keskusteluja. Aloita uusi keskustelu lähettämällä kyselysi alla."
+        },
+        "introLink": "Lue lisää Haadista tai",
+        "inputPh": "Aloita uusi keskustelu",
+        "quesHelp": {
+          "invalid": "Kysymykset, joissa on vähintään 5 sanaa, ovat järkevämpiä.",
+          "goodLen": "Se näyttää hyvältä kysymykseltä!",
+          "excellent": "Kysymyksesi selittäminen ei koskaan satuta. Kunnia!"
+        }
+      },
+      "askHaadi": {
+        "title": "Kysy Haadilta",
+        "infoText": "Voit lopettaa tämän keskustelun ja aloittaa uuden keskustelun napsauttamalla alla olevaa painiketta",
+        "newChatCTA": "Uusi keskustelu",
+        "inputPH": "Esitä kysymys",
+        "empty": {
+          "heading": "Tätä keskustelua ei löytynyt",
+          "p1": "Tätä keskustelua yritettäessä tapahtui virhe. Tarkista URL-osoite ja yritä uudelleen.",
+          "p2": "Jos näin tapahtuu, ota meihin yhteyttä."
+        },
+        "jsNewChatInfo": "Tämä on uuden keskustelun alku Haadin kanssa. Olet ottanut kontekstin käyttöön Haadille vastatessasi kysymyksiisi. Voit aina poistaa tämän vaihtoehdon käytöstä asetuksissa tai katsoa, mitä tämä tarkoittaa sinulle."
+      },
+      "aboutHaadi": {
+        "title": "Tapaa Haadi, bottiystäväsi navigoidaksesi shiia-islamissa!",
+        "desc": "Napsauta kutakin näistä yhteenvedoista lukeaksesi lisää tai lue lisää Haadista ja käyttöehdoista <a href={blogLink} target='_system'>blogistamme",
+        "agreement": "Ymmärrän ja hyväksyn käyttöehdot"
       }
     },
     "authPage": {
