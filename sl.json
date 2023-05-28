@@ -66,9 +66,22 @@
           "cta": "Osvežiti"
         },
         "jsImgUploaded": "Slika uspešno naložena!",
-        "jsImgUploadErr": "Nalaganje slik ni uspelo. Poskusite znova pozneje."
+        "jsImgUploadErr": "Nalaganje slik ni uspelo. Poskusite znova pozneje.",
+        "jsLoadingDelay": "Traja malo dlje, kot smo pričakovali. Prosimo, počakajte, da obdelamo to zahtevo."
       },
-      "unknown": "Neznan"
+      "unknown": "Neznan",
+      "close": "Blizu",
+      "yes": "Da",
+      "no": "Ne",
+      "idk": "Ne vem",
+      "completed!": "Dokončan!",
+      "pushPrompt": {
+        "heading": "Bodi posodobljen",
+        "desc": "Kot to, kar vidiš? Nikoli ne zamudite posodobitve in ostanite obveščeni o vsem, kar se dogaja z obvestili.<br />Vam lahko pošljemo obvestila?",
+        "cancelCta": "Vprašaj me kasneje.",
+        "okCta": "Prepričani!",
+        "jsPushUnsupported": "V tej napravi ni podprto. Morda boste zamudili obvestila!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmi so uspešno nastavljeni",
           "jsAlarmSetError": "Napaka pri nastavitvi alarmov. Poskusite znova pozneje.",
-          "jsAlarmSnoozed": "Alarm za 10 minut"
+          "jsAlarmSnoozed": "Alarm za 10 minut",
+          "sunriseLabel": "Sunrise",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Doma"
         },
         "alarmSetting": {
           "title": "Nastavitve alarma",
@@ -398,7 +415,10 @@
           "addGender": "Dodaj spol",
           "addBday": "Dodaj rojstni dan",
           "addRelation": "Dodaj odnos",
-          "joinDate": "Pridruži se: {date}"
+          "joinDate": "Pridruži se: {date}",
+          "privateInfoDesc": "Te informacije so vidne samo za vas in vidite vsebino in funkcije, ki temeljijo na tem.",
+          "idSetupCta": "Nastavitev identitete",
+          "idVerifyCta": "Preveriti"
         },
         "posts": {
           "title": "Delovnih mest",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Si prepričan?",
           "jsDeletePrompt": "Brisanje zapisov za <b>{fullName}</b> bo izbrisalo tudi vse prejšnje zahteve za {spol}! Nadaljuj?",
           "jsDeleted": "Izbrisani zapisi za {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Preverjanje identitete Shia – – Preverjanje identitete Sadata",
+          "p1": "V profilu ste navedli, da ste šia musliman. Preverjanje teh informacij bo omogočilo več funkcij za vas in nam pomagalo zgraditi preverjeno skupnost shia muslimanov.",
+          "p2": "Prijazno preverite svojo identiteto; Ne bo trajalo dolgo.",
+          "noReminder": "Ne opomni me več.",
+          "dismissCta": "Ne zdaj",
+          "startCta": "Začetek"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Najprej morate biti preverjeni, preden lahko preverite druge!",
+          "jsLinkExpired": "Ta povezava je neveljavna ali pa je potekla. Prosimo, prosite prijatelja, da pošlje novo prošnjo.",
+          "confirm": {
+            "heading": "Preverjanje identitete računa",
+            "msg": "Pomoč {firstName} preverjanju {genderLabel1} računa. To bo {genderLabel2} dostop do več funkcij v naši aplikaciji",
+            "jsSkip": "Brez težav. Če si premislite, lahko to povezavo ponovno preverite pozneje."
+          }
+        },
+        "myKhums": {
+          "title": "Moji Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Pošlji OTP",
         "backToLoginCta": "Nazaj na prijavo",
         "disclaimerText": "Upoštevajte, da boste dobili {element} samo, če imate pri nas registriran {element}.",
-        "jsMailSent": "Poslana pošta"
+        "jsMailSent": "Poslana pošta",
+        "title2": "Zahtevajte svoj račun",
+        "claimIntroHeading": "Hitro zahtevajte svoj račun!",
+        "claimIntroText": "Hvala, da ste se nam pridružili. Ustvarili smo račun za vas. Dostop do računa lahko dostopate tako, da ponastavite geslo z enim od teh načinov:"
       },
       "resetPwd": {
         "title": "Ponastavi geslo",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Izberi državo",
         "searchPH": "Poišči državo po imenu ali klicni kodi"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Dokončanje profila",
+            "desc": "Nepopolni profili imajo omejen dostop do funkcij v naši aplikaciji. Posodabljanje profila vam pomaga na več načinov. Kliknite tukaj, če želite vedeti več.",
+            "item1": {
+              "header": "Popolni profili so enostavno preverjeni",
+              "p1": "Ko zahtevate preverjanje računa (naslednji korak), pomaga drugim, da vas enostavno preverijo, ko vas poznajo ali pa lahko vidijo vse potrebne informacije za preverjanje o vas.",
+              "p2": "Nepopolni profili trajajo veliko dlje, da se preveri. Ne želimo, da bi vam blokirali uporabo funkcij v naši aplikaciji."
+            },
+            "item2": {
+              "header": "Oglejte si pravo vsebino",
+              "p1": "Vsebino vidite na podlagi okolice. Ko imamo pravilne informacije o vas, vidite ustreznejšo vsebino.",
+              "p2": "Če ste na primer pravilno posodobili lokacijo, boste najprej videli objave iz okolice."
+            },
+            "cta": "Dokončanje profila"
+          },
+          "identity": {
+            "header": "Nastavitev identitete",
+            "desc": "Pozdravljamo vse v naši aplikaciji, vendar ker so nekatere funkcije koristne (in namenjene) samo za shia muslimane, nam te informacije pomagajo, da vam služijo pravih funkcij. Kliknite tukaj, če želite vedeti več.",
+            "item1": {
+              "header": "Funkcije dostopa za shia muslimane",
+              "p1": "Številne funkcije na naši aplikaciji so zgrajene shia muslimanov. Nekateri od njih so:",
+              "ul": "<li>Zahteva za Surah-fatiha in Namaz-e-Wahshat</li><li>Kalkulator Khums</li><li>Finančna pomoč (khums) za Sadat momineen</li>",
+              "p2": "Če želite dostopati do teh funkcij, morate preveriti svojo identiteto (ali zdaj ali, če se odločite, pozneje)"
+            },
+            "item2": {
+              "header": "Lahko pomagaš momineen v pomoč!",
+              "p1": "Tudi če ne želite biti preverjeni, lahko obstajajo drugi, ki bi morda želeli biti preverjeni, da lahko uporabijo te funkcije.",
+              "p2": "Samo preverjeni računi lahko preverijo takšne momineen. Preverjanje nam pomaga zgraditi tudi preverjeno shia skupnost."
+            },
+            "item3": {
+              "header": "Vaši podatki so vedno zasebni",
+              "p1": "<strong>Razumemo,</strong> da je to občutljiva informacija in teh informacij nikoli ne bomo javno razkrili brez vašega soglasja, vendar je mogoče včasih še vedno izreči določitev. Na primer, ko zahtevate preverjanje od drugih momineen, bodo vedeli, da ste Shia.",
+              "p2": "Če želite prebrati več o našem procesu, lahko kliknete spodnji gumb."
+            },
+            "cta": "Setup"
+          }
+        },
+        "idSetup": {
+          "header": "Skoraj končano!",
+          "desc": "Ta korak lahko preskočite, če ste zadovoljni z našimi vnaprej nastavitev za nastavitve zasebnosti in komunikacij. Ne škodi, če pogledaš!",
+          "privacy": {
+            "header": "Nastavitev zasebnosti",
+            "p1": "Določite, kaj lahko vidijo drugi:",
+            "ul": "<li>Nastavite nastavitve vidnosti za objave. Določa, ali lahko vaše objave vidi kdo na bazmu ali off (npr. ko ga nekdo deli na drugi platformi)</li><li>Nastavitev, kdo lahko kaj vidi, ko obišče vaš profil</li><li>Nastavitev, kako se vaši podatki prikažejo drugim</li>"
+          },
+          "comm": {
+            "header": "Nastavitve za nastavitev komunikacij",
+            "p1": "Določite, kako in kdaj želite, da komuniciramo z vami:",
+            "ul": "<li>Nastavitev nastavitev obvestil</li><li>Naročite se ali odjava na obvestila o e-poštnih sporočilih</li><li>Naročite se ali odjava na opomnike</li>"
+          },
+          "cta": "Setup"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Preverjanje mobilnega telefona",
+            "desc": "Kliknite spodnjo povezavo, da preverite vašo mobilno številko:",
+            "cta": "Začnite preverjanje v mobilnih napravah",
+            "completed": "Mobilno preverjanje uspešno"
+          },
+          "email": {
+            "header": "Preverjanje e-pošte",
+            "desc": "Kliknite spodnjo povezavo, da v nabiralniku dobite verifikacijo e-pošte.",
+            "cta": "Začnite preverjanje v mobilnih napravah",
+            "completed": "Mobilno preverjanje uspešno",
+            "form": {
+              "inputLabel": "Vaša e-pošta:",
+              "ph": "Vnesite e-pošto",
+              "cta": "Povezava za preverjanje e-pošte"
+            },
+            "sent": {
+              "desc": "Spodaj je bilo poslano e-poštno sporočilo na vaš e-poštni naslov. Kliknite povezavo v e-poštnem sporočilu, da preverite svoj e-poštni naslov.",
+              "incorrect": "Napačna e-pošta?",
+              "change": "Spremeniti"
+            },
+            "resendCta": "Ponovno pošiljanje e-pošte",
+            "openEmailCta": "Odpri e-pošto",
+            "verified": "E-pošta je bila uspešno preverjena!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Dokončaj nastavitev računa",
+        "desc": "Odklenite funkcije za račun tako, da dokončate nastavitev računa. To morate storiti samo enkrat in vam pomaga preveriti podrobnosti, identiteto in nastavitve Možnosti zasebnosti za vas.",
+        "gotoPageCta": "Nadaljuj z nastavitvijo",
+        "dontRemind": "Ne opomni me več.",
+        "dismissCta": "Kasneje",
+        "jsConfirmSkip": {
+          "header": "Boste nadaljevali kasneje?",
+          "msg": "Dokončanje tega koraka bo odklenil številne funkcije za vas v aplikaciji, vendar lahko dokončate ta korak tudi kasneje. Pojdite na zavihek »Uporabnik« in nadaljujte od tam.",
+          "btns": {
+            "confirm": "Ja, kasneje.",
+            "cancel": "Naredi to zdaj."
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Nastavitev identitete",
+        "form": {
+          "religion": {
+            "label": "Izberite svojo vero:",
+            "infoText": "Na teh informacijah temeljijo številne značilnosti, ki so pomembne le za muslimane. Ti podatki bodo vidni le za vas; vendar je še vedno mogoče izreči zaodloke (na primer, ko uporabljate eno od funkcij, ki je na voljo samo za muslimane)",
+            "muslim": "Musliman",
+            "nonMuslim": "Nemuslimani"
+          },
+          "sect": {
+            "label": "Izberite sekto",
+            "infoText": "Funkcije, kot so Zahteva za <strong>Ziyarat, Zahtevek za pomoč, Khums izračun, itd zahtevajo</strong> , da preverite svojo Shia identiteto. Poleg tega imajo uporabniki, ki niso preverjeni, omejen dostop do funkcij.",
+            "shia": "Shia",
+            "sunni": "Ne-Shia"
+          },
+          "thanksNonMuslim": "Hvala, ker ste pokazali zanimanje za pridružitev naši aplikaciji. Upamo, da boste tukaj našli uporabno vsebino. Prosimo, pokažite spoštovanje skupnosti in upoštevajte naša pravila.",
+          "sadat": {
+            "label": "Si ti Sadat?",
+            "infoText": "Te informacije se uporabljajo v funkcijah, namenjenih sadat-shia muslimanom. Vendar pa se nikoli ne prikaže tako, kot je za vsakogar. Preden boste lahko te storitve uporabili, boste morali preveriti stanje sadata.",
+            "sadat": "Da",
+            "nonSadat": "Ne"
+          },
+          "requested": "Zahtevano preverjanje",
+          "required": "Zahtevano preverjanje",
+          "verifyInfo": {
+            "modalCta": "Kaj je to?",
+            "p1": "Da bi dobili dostop do funkcij, namenjenih šia muslimanom, morate preveriti svojo shia identiteto.",
+            "p2": "Če ste Shia-Sadat, boste morali preveriti tudi to. Združite ga lahko v isti zahtevi za preverjanje; preprosto izberite <strong>Sadat</strong> zgoraj."
+          },
+          "verifyCta": "Preveriti",
+          "skipInfo": "Preverjanje lahko preskočite, če ne želite uporabljati omenjenih funkcij. Če želite posodobiti samo podatke, kliknite <strong>Shrani in nadaljuj</strong>",
+          "thankSunni": {
+            "p1": "Hvala, ker ste pokazali zanimanje za našo aplikacijo. Kljub tem svetovnim delitevm so vsi muslimani bratje v veri in pripadajo istemu Ummahu preroka Mohameda (PBUH)",
+            "p2": "Upamo, da vam je vsebina tukaj uporabna in nam pomaga bolje razumeti drug drugega.",
+            "p3": "Za vse poizvedbe/pomisleke glede naših pravilnikov ali karkoli drugega, se lahko vedno dohitite do nas."
+          }
+        },
+        "cta": [
+          "Shraniti",
+          "Shrani & nadaljuj"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Preverite račun za {name}",
+        "heading": "Ali lahko odgovorite spodaj informacije o {firstName}? Če ne, zavrnite to zahtevo.",
+        "desc": "Samo dva poskusa imaš, da preveriš!",
+        "descP1": "Ko boste oddali ta obrazec, bomo podatke ujemali s tem, kaj {firstName} pri zahtevi za preverjanje. Bodite pozorni, ker imate le dva poskusa pravilne izpolnitve tega obrazca. Če vam še vedno ne uspe, v prihodnosti ne boste mogli {firstName} preverjanja.",
+        "descP2": "Če ne veste, {firstName}zavrnite to zahtevo. Povedali jim bomo in jih prosili, naj pridejo do nekoga drugega.",
+        "rejectRequestCta": "Zavrni zahtevo",
+        "form": {
+          "heading": "Odgovorite na naslednja vprašanja o {firstName} in kliknite Pošlji:",
+          "q1": "Kako veš, {firstName}?",
+          "q2": "Religija:",
+          "q3": "Sekte:",
+          "q4": "Je {firstName} Sadat?",
+          "q5": "Bi še kaj dodali?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Nastavitve zasebnosti",
+        "privacy": {
+          "header": "Nastavitve zasebnosti",
+          "desc": "Nastavite, kdo lahko vidi sledeče od vas ali v računu:",
+          "form": {
+            "posts": "Vaše objave",
+            "status": "Posodobitve stanja",
+            "requests": "Vaše zahteve",
+            "relationship": "Stanje vašega odnosa",
+            "birthday": "Datum rojstva (ne leto)",
+            "location": "Vaša lokacija"
+          },
+          "disclaimer": {
+            "heading": "* Določitev je še vedno mogoče doseči o tem",
+            "p": "Čeprav so te informacije morda skrite na vašem profilu, je mogoče še vedno nekaj zakljenosti. Če se na primer vaša objava prikaže uporabniku, lahko zakjuče, da živite blizu (glede na to, kje je ta objava prikazana v viru)"
+          },
+          "values": {
+            "everyone": "Vsi",
+            "users": "Samo Momineen",
+            "shias": "Samo Shias",
+            "me": "Samo jaz."
+          }
+        },
+        "comm": {
+          "header": "Nastavitve komunikacije",
+          "desc": "Nastavitev, kako želite biti komunicirani",
+          "form": {
+            "push": {
+              "header": "Potisni obvestila",
+              "nearby": "Za objave bližnjih uporabnikov",
+              "daily": "Naše dnevne posodobitve"
+            },
+            "email": {
+              "header": "E-poštna obvestila",
+              "weekly": "Tedensko glasilo",
+              "monthly": "Mesečna e-poštna sporočila s povzetjem"
+            },
+            "cta": "Posodobitev"
+          }
+        },
+        "js": {
+          "changeSaved": "Spremembe, ki so bile uspešno shranjene"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Zavrne",
+        "title": "Zavrni zahtevo",
+        "reasonLabel": "Zakaj ne želite preveriti tega računa?",
+        "reasonPh": "Obvestili {userName} in jih prosili, naj se dohitejo do nekoga drugega za preverjanje"
+      },
+      "haadiHome": {
+        "title": "Začnite razpravo — — Vaše razprave s Haadijem",
+        "item": {
+          "added": "Dodano {date}",
+          "tokensUsed": "Uporabljeni žetoni: {tokens}",
+          "readContinue": "Branje ali nadaljevanje razprave"
+        },
+        "blank": {
+          "heading": "Začni novo razpravo",
+          "desc": "Nimaš prejšnjih pogovorov. Začnite novo razpravo tako, da podate svojo poizvedbo."
+        },
+        "introLink": "Preberite več o haadi, ali",
+        "inputPh": "Začni novo razpravo",
+        "quesHelp": {
+          "invalid": "Vprašanja s 5 ali več besedami so bolj smiselna..",
+          "goodLen": "To je videti kot dobro vprašanje!",
+          "excellent": "Nikoli ne boli, če pojasniš svoje vprašanje. Sloves!"
+        }
+      },
+      "askHaadi": {
+        "title": "Vprašaj Haadija",
+        "infoText": "Če želite končati to razpravo in začeti nov pogovor, kliknite spodnji gumb",
+        "newChatCTA": "Nova razprava",
+        "inputPH": "Postavite vprašanje",
+        "empty": {
+          "heading": "Tega pogovora ni bilo mogoče najti",
+          "p1": "Med poskusom pogovora je prišlo do napake. Preverite URL in poskusite znova.",
+          "p2": "Če se bo to še naprej dogajalo, nas kontaktirajte."
+        },
+        "jsNewChatInfo": "To je začetek novega pogovora s Haadijem. Med odgovarjanjem na vaša vprašanja ste se odločili omogočiti kontekst za Haadija. To možnost lahko vedno onemogočite v nastavitvah ali pa vidite, kaj to pomeni za vas."
+      },
+      "aboutHaadi": {
+        "title": "SpoznajTe Haadija, vašega botfriend za navigacijo Shia islam!",
+        "desc": "Kliknite vsak od teh povzetkov, da preberete več ali pa poiščite več o Haadi in <a href= pogojih uporabe v{blogLink} target='_system'>naš blog",
+        "agreement": "Razumem in se strinjam s pogoji uporabe"
       }
     },
     "authPage": {
