@@ -66,9 +66,22 @@
           "cta": "Refresh"
         },
         "jsImgUploaded": "Gambar berhasil diunggah!",
-        "jsImgUploadErr": "Unggahan gambar gagal. Silakan coba lagi nanti."
+        "jsImgUploadErr": "Unggahan gambar gagal. Silakan coba lagi nanti.",
+        "jsLoadingDelay": "Ini memakan waktu sedikit lebih lama dari yang diharapkan. Harap tunggu sementara kami memproses permintaan ini."
       },
-      "unknown": "Diketahui"
+      "unknown": "Diketahui",
+      "close": "Tutup",
+      "yes": "Ya",
+      "no": "Tidak",
+      "idk": "Saya tidak tahu",
+      "completed!": "Selesai!",
+      "pushPrompt": {
+        "heading": "Tetap upto date",
+        "desc": "Seperti apa yang Anda lihat? Jangan pernah melewatkan pembaruan dan tetap diberi tahu tentang segala sesuatu yang terjadi di sekitar dengan pemberitahuan.<br />Bisakah kami mengirimkan pemberitahuan kepada Anda?",
+        "cancelCta": "Tanya saya nanti",
+        "okCta": "Yakin!",
+        "jsPushUnsupported": "Push tidak didukung pada perangkat ini. Anda mungkin melewatkan pemberitahuan!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarm berhasil diatur",
           "jsAlarmSetError": "Kesalahan dalam mengatur alarm. Silakan coba lagi nanti.",
-          "jsAlarmSnoozed": "Alarm diendus selama 10 menit"
+          "jsAlarmSnoozed": "Alarm diendus selama 10 menit",
+          "sunriseLabel": "Matahari terbit",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Rumah"
         },
         "alarmSetting": {
           "title": "Pengaturan Alarm",
@@ -398,7 +415,10 @@
           "addGender": "Tambahkan Jenis Kelamin",
           "addBday": "Tambahkan Ulang Tahun",
           "addRelation": "Tambahkan Hubungan",
-          "joinDate": "Bergabung: {date}"
+          "joinDate": "Bergabung: {date}",
+          "privateInfoDesc": "Informasi ini hanya dapat dilihat oleh Anda dan Anda melihat konten dan fitur berdasarkan ini.",
+          "idSetupCta": "Siapkan identitas Anda",
+          "idVerifyCta": "Memverifikasi"
         },
         "posts": {
           "title": "Posting",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Kamu yakin?",
           "jsDeletePrompt": "Menghapus catatan untuk <b>{fullName}</b> juga akan menghapus semua permintaan sebelumnya yang dibuat untuk {gender}! Terus?",
           "jsDeleted": "Catatan yang dihapus untuk {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verifikasi identitas Syiah Anda | Verifikasi identitas Sadat Anda",
+          "p1": "Anda telah menunjukkan di profil Anda bahwa Anda seorang Muslim Syiah. Setelah informasi ini diverifikasi akan memungkinkan lebih banyak fitur untuk Anda dan membantu kami membangun komunitas Muslim Syiah yang terverifikasi.",
+          "p2": "Mohon verifikasi identitas Anda; Tidak akan lama",
+          "noReminder": "Jangan ingatkan saya lagi",
+          "dismissCta": "Jangan sekarang",
+          "startCta": "Mulai"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Anda harus diverifikasi terlebih dahulu sebelum dapat memverifikasi orang lain!",
+          "jsLinkExpired": "Tautan ini tidak valid atau telah kedaluwarsa. Silakan minta teman Anda untuk mengirim permintaan baru.",
+          "confirm": {
+            "heading": "Verifikasi Identitas Akun",
+            "msg": "Bantu {firstName} memverifikasi informasi akun {genderLabel1} . Ini akan memungkinkan {genderLabel2} untuk mengakses lebih banyak fitur di aplikasi kami",
+            "jsSkip": "Tidak ada masalah. Jika berubah pikiran, Anda dapat mengunjungi kembali tautan ini untuk memverifikasi nanti."
+          }
+        },
+        "myKhums": {
+          "title": "Khums Saya"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Kirim OTP",
         "backToLoginCta": "Kembali ke Login",
         "disclaimerText": "Harap dicatat bahwa Anda akan mendapatkan {item} hanya jika Anda memiliki {item} yang terdaftar dengan kami",
-        "jsMailSent": "Email terkirim"
+        "jsMailSent": "Email terkirim",
+        "title2": "Klaim akun Anda",
+        "claimIntroHeading": "Klaim akun Anda dengan cepat!",
+        "claimIntroText": "Terima kasih telah bergabung dengan kami. Kami telah membuat akun untuk Anda sekarang. Dapatkan akses ke akun Anda dengan mengatur ulang kata sandinya menggunakan salah satu metode berikut:"
       },
       "resetPwd": {
         "title": "Setel Ulang Kata Sandi",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Pilih Negara",
         "searchPH": "Cari negara berdasarkan nama atau kode panggilan"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Lengkapi profil Anda",
+            "desc": "Profil yang tidak lengkap memiliki akses terbatas ke fitur di aplikasi kami. Memperbarui profil Anda membantu Anda dalam beberapa cara. Klik di sini untuk mengetahui lebih lanjut.",
+            "item1": {
+              "header": "Profil lengkap mendapatkan Diverifikasi dengan mudah",
+              "p1": "Saat meminta verifikasi akun (langkah berikutnya), ada baiknya orang lain memverifikasi Anda dengan mudah ketika mereka mengenal Anda atau dapat melihat semua informasi yang diperlukan untuk verifikasi tentang Anda.",
+              "p2": "Profil yang tidak lengkap membutuhkan waktu lebih lama untuk diverifikasi. Kami tidak ingin Anda diblokir dari menggunakan fitur di aplikasi kami."
+            },
+            "item2": {
+              "header": "Lihat konten yang tepat",
+              "p1": "Anda melihat konten berdasarkan lingkungan sekitar Anda. Ketika kami memiliki informasi yang benar tentang Anda, Anda melihat konten yang lebih relevan.",
+              "p2": "Misalnya, jika Anda telah memperbarui lokasi Anda dengan benar, kemungkinan besar Anda akan melihat posting dari sekitar Anda terlebih dahulu."
+            },
+            "cta": "Lengkapi profil Anda"
+          },
+          "identity": {
+            "header": "Siapkan identitas Anda",
+            "desc": "Kami menyambut semua orang di aplikasi kami, tetapi karena beberapa fitur berguna (dan berarti) hanya untuk Muslim Syiah, informasi ini membantu kami menyajikan fitur yang tepat kepada Anda. Klik di sini untuk mengetahui lebih lanjut.",
+            "item1": {
+              "header": "Fitur akses untuk Muslim Syiah",
+              "p1": "Sejumlah fitur pada aplikasi kami dibangun dari Muslim Syiah. Beberapa di antaranya adalah:",
+              "ul": "<li>Permintaan untuk Surah-fatihah dan Namaz-e-Wahshat</li><li>Kalkulator Khums</li><li>Bantuan keuangan (khums) untuk Sadat momineen</li>",
+              "p2": "Untuk mengakses fitur ini, Anda perlu memverifikasi identitas Anda (baik sekarang atau, jika Anda mau, nanti)"
+            },
+            "item2": {
+              "header": "Anda dapat membantu momineen yang membutuhkan!",
+              "p1": "Bahkan jika Anda tidak ingin diverifikasi, mungkin ada orang lain yang mungkin ingin diverifikasi untuk memanfaatkan fitur ini.",
+              "p2": "Hanya akun terverifikasi yang dapat memverifikasi momineen tersebut. Verifikasi juga membantu kami membangun komunitas Syiah yang terverifikasi."
+            },
+            "item3": {
+              "header": "Informasi Anda selalu bersifat pribadi",
+              "p1": "<strong>Kami memahami ini adalah informasi sensitif</strong> dan kami tidak akan pernah mengekspos informasi ini secara publik tanpa persetujuan Anda, tetapi terkadang kesimpulan masih dapat dibuat. Misalnya, ketika Anda meminta verifikasi dari momineen lain, mereka akan tahu bahwa Anda adalah seorang Syiah.",
+              "p2": "Anda dapat mengklik tombol di bawah ini untuk membaca lebih lanjut tentang proses kami."
+            },
+            "cta": "Setup"
+          }
+        },
+        "idSetup": {
+          "header": "Hampir selesai!",
+          "desc": "Anda dapat melewati langkah ini jika puas dengan nilai prasetel kami untuk pengaturan privasi dan komunikasi Anda. Tidak ada salahnya untuk melihatnya!",
+          "privacy": {
+            "header": "Atur privasi Anda",
+            "p1": "Tentukan apa yang dapat dilihat orang lain:",
+            "ul": "<li>Atur pengaturan visibilitas untuk postingan Anda. Ini menentukan apakah posting Anda dapat dilihat oleh siapa pun di dalam atau di luar Bazm (misalnya, ketika seseorang membagikannya di platform lain)</li><li>Mengatur siapa yang dapat melihat apa ketika mereka mengunjungi profil Anda</li><li>Mengatur bagaimana informasi Anda ditampilkan kepada orang lain</li>"
+          },
+          "comm": {
+            "header": "Menyetel pengaturan komunikasi",
+            "p1": "Tentukan bagaimana dan kapan Anda ingin kami berkomunikasi dengan Anda:",
+            "ul": "<li>Mengatur preferensi notifikasi</li><li>Berlangganan atau berhenti berlangganan pemberitahuan email</li><li>Berlangganan atau berhenti berlangganan pengingat</li>"
+          },
+          "cta": "Setup"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Verifikasi ponsel Anda",
+            "desc": "Klik tautan di bawah ini untuk memverifikasi nomor ponsel Anda:",
+            "cta": "Memulai verifikasi seluler",
+            "completed": "Ponsel berhasil diverifikasi"
+          },
+          "email": {
+            "header": "Verifikasi email Anda",
+            "desc": "Klik tautan di bawah ini untuk mendapatkan email verifikasi di kotak masuk Anda.",
+            "cta": "Memulai verifikasi seluler",
+            "completed": "Ponsel berhasil diverifikasi",
+            "form": {
+              "inputLabel": "Email Anda:",
+              "ph": "Masukkan email Anda",
+              "cta": "Link verifikasi email"
+            },
+            "sent": {
+              "desc": "Email telah dikirim ke alamat email Anda di bawah ini. Klik tautan di email Anda untuk memverifikasi alamat email Anda.",
+              "incorrect": "Email salah?",
+              "change": "Ubah"
+            },
+            "resendCta": "Kirim Ulang Email",
+            "openEmailCta": "Buka Email",
+            "verified": "Email berhasil diverifikasi!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Selesaikan Pengaturan Akun",
+        "desc": "Buka fitur untuk akun Anda dengan menyelesaikan penyiapan akun. Anda hanya perlu melakukannya sekali dan ini membantu memverifikasi detail Anda, identitas Anda, dan mengatur opsi Privasi untuk Anda.",
+        "gotoPageCta": "Lanjutkan Penyiapan",
+        "dontRemind": "Jangan ingatkan saya lagi",
+        "dismissCta": "Nanti",
+        "jsConfirmSkip": {
+          "header": "Lanjutkan nanti?",
+          "msg": "Menyelesaikan langkah ini akan membuka banyak fitur untuk Anda di aplikasi, tetapi Anda juga dapat menyelesaikan langkah ini nanti. Cukup buka tab 'Pengguna' dan lanjutkan dari sana.",
+          "btns": {
+            "confirm": "Ya, nanti",
+            "cancel": "Lakukan sekarang"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Siapkan Identitas Anda",
+        "form": {
+          "religion": {
+            "label": "Pilih agama Anda:",
+            "infoText": "Sejumlah fitur yang hanya relevan bagi umat Islam didasarkan pada informasi ini. Data ini hanya akan terlihat oleh Anda; Namun, kesimpulan masih dapat dibuat (seperti, ketika Anda menggunakan salah satu fitur yang tersedia untuk Muslim saja)",
+            "muslim": "Muslim",
+            "nonMuslim": "Non-Muslim"
+          },
+          "sect": {
+            "label": "Pilih sekte Anda",
+            "infoText": "Fitur seperti Permintaan <strong>Ziyarat, Permintaan bantuan, perhitungan Khums, dll</strong> mengharuskan Anda untuk memverifikasi identitas Syiah Anda. Selain itu, pengguna yang tidak diverifikasi memiliki akses terbatas ke fitur.",
+            "shia": "Syiah",
+            "sunni": "Non-Syiah"
+          },
+          "thanksNonMuslim": "Terima kasih telah menunjukkan minat untuk bergabung dengan aplikasi kami. Kami harap Anda menemukan konten yang bermanfaat di sini. Harap tunjukkan rasa hormat kepada komunitas dan patuhi peraturan kami.",
+          "sadat": {
+            "label": "Apakah Anda Sadat?",
+            "infoText": "Informasi ini digunakan dalam fitur yang dimaksudkan untuk Muslim Sadat-Syiah. Namun, itu tidak pernah ditampilkan apa adanya kepada siapa pun. Anda perlu memverifikasi status sadat Anda sebelum Anda dapat memanfaatkan layanan ini.",
+            "sadat": "Ya",
+            "nonSadat": "Tidak"
+          },
+          "requested": "Verifikasi diminta",
+          "required": "Verifikasi diperlukan",
+          "verifyInfo": {
+            "modalCta": "Apa ini?",
+            "p1": "Untuk mendapatkan akses ke fitur yang ditujukan untuk Muslim Syiah, Anda perlu memverifikasi identitas Syiah Anda.",
+            "p2": "Jika Anda seorang Syiah-Sadat, Anda perlu memverifikasinya juga. Anda dapat memasangkannya dalam permintaan verifikasi yang sama; cukup pilih <strong>Sadat</strong> di atas."
+          },
+          "verifyCta": "Memverifikasi",
+          "skipInfo": "Anda dapat melewati verifikasi jika tidak ingin menggunakan fitur yang disebutkan. Untuk hanya memperbarui informasi, klik <strong>Simpan &; Lanjutkan</strong>",
+          "thankSunni": {
+            "p1": "Terima kasih telah menunjukkan minat pada aplikasi kami. Terlepas dari perpecahan duniawi ini, semua Muslim adalah saudara dalam iman dan milik umat Nabi Muhammad (SAW) yang sama",
+            "p2": "Kami harap Anda menemukan konten di sini bermanfaat dan membantu kami memahami satu sama lain dengan lebih baik.",
+            "p3": "Untuk pertanyaan/kekhawatiran apa pun tentang kebijakan kami atau apa pun, Anda selalu dapat menghubungi kami."
+          }
+        },
+        "cta": [
+          "Simpan",
+          "Simpan &; Lanjutkan"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Verifikasi akun untuk {name}",
+        "heading": "Bisakah Anda menjawab informasi di bawah ini tentang {firstName}? Jika tidak, tolak permintaan ini.",
+        "desc": "Anda hanya memiliki dua upaya untuk memverifikasi!",
+        "descP1": "Saat Anda mengirimkan formulir ini, kami akan mencocokkan informasi dengan apa yang {firstName} berikan saat meminta verifikasi. Harap perhatikan karena Anda hanya memiliki dua upaya untuk mengisi formulir ini dengan benar. Jika Anda masih gagal, Anda tidak akan dapat memverifikasi {firstName} lagi di masa mendatang.",
+        "descP2": "Jika Anda tidak tahu {firstName}, tolak permintaan ini. Kami akan memberi tahu mereka dan meminta mereka untuk menghubungi orang lain.",
+        "rejectRequestCta": "Tolak Permintaan",
+        "form": {
+          "heading": "Jawab pertanyaan berikut tentang {firstName} dan klik Kirim:",
+          "q1": "Bagaimana Anda tahu {firstName}?",
+          "q2": "Agama:",
+          "q3": "Sekte:",
+          "q4": "Apakah {firstName} Sadat?",
+          "q5": "Ada lagi yang ingin Anda tambahkan?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Pengaturan Privasi Anda",
+        "privacy": {
+          "header": "Pengaturan Privasi",
+          "desc": "Mengatur siapa yang dapat melihat hal berikut dari Anda atau di akun Anda:",
+          "form": {
+            "posts": "Postingan Anda",
+            "status": "Pembaruan status Anda",
+            "requests": "Permintaan Anda",
+            "relationship": "Status hubungan Anda",
+            "birthday": "Tanggal lahir Anda (bukan tahun)",
+            "location": "Lokasi Anda"
+          },
+          "disclaimer": {
+            "heading": "* Kesimpulan masih bisa dibuat tentang ini",
+            "p": "Meskipun informasi ini mungkin tersembunyi di profil Anda, beberapa kesimpulan masih dapat dibuat. Misalnya, jika postingan Anda ditampilkan kepada pengguna, mereka dapat menyimpulkan bahwa Anda tinggal dekat (berdasarkan tempat postingan tersebut muncul di feed mereka)"
+          },
+          "values": {
+            "everyone": "Orang",
+            "users": "Hanya Momineen",
+            "shias": "Hanya Syiah",
+            "me": "Hanya saya"
+          }
+        },
+        "comm": {
+          "header": "Pengaturan Komunikasi",
+          "desc": "Atur bagaimana Anda ingin dikomunikasikan",
+          "form": {
+            "push": {
+              "header": "Pemberitahuan push",
+              "nearby": "Untuk postingan dari pengguna terdekat",
+              "daily": "Pembaruan harian kami"
+            },
+            "email": {
+              "header": "Notifikasi email",
+              "weekly": "Buletin mingguan",
+              "monthly": "Email ringkasan bulanan"
+            },
+            "cta": "Pemutakhiran"
+          }
+        },
+        "js": {
+          "changeSaved": "Perubahan berhasil disimpan"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Menolak",
+        "title": "Tolak permintaan",
+        "reasonLabel": "Mengapa Anda tidak ingin memverifikasi akun ini?",
+        "reasonPh": "Kami akan memberi tahu {userName} dan meminta mereka untuk menghubungi orang lain untuk verifikasi"
+      },
+      "haadiHome": {
+        "title": "Mulai diskusi | Diskusi Anda dengan Haadi",
+        "item": {
+          "added": "Ditambahkan {date}",
+          "tokensUsed": "Token yang digunakan: {tokens}",
+          "readContinue": "Membaca atau melanjutkan diskusi"
+        },
+        "blank": {
+          "heading": "Mulai diskusi baru",
+          "desc": "Anda tidak memiliki percakapan sebelumnya. Mulai diskusi baru dengan mengirimkan kueri Anda di bawah ini."
+        },
+        "introLink": "Baca lebih lanjut tentang Haadi, atau",
+        "inputPh": "Mulai diskusi baru",
+        "quesHelp": {
+          "invalid": "Pertanyaan dengan 5 kata atau lebih lebih masuk akal ..",
+          "goodLen": "Itu terlihat seperti pertanyaan yang bagus!",
+          "excellent": "Tidak ada salahnya untuk menjelaskan pertanyaan Anda. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Tanya Haadi",
+        "infoText": "Untuk mengakhiri diskusi ini dan memulai percakapan baru, klik tombol di bawah ini",
+        "newChatCTA": "Diskusi Baru",
+        "inputPH": "Ajukan pertanyaan",
+        "empty": {
+          "heading": "Tidak dapat menemukan percakapan ini",
+          "p1": "Terjadi kesalahan saat mencoba untuk mendapatkan percakapan ini. Silakan periksa URL dan coba lagi.",
+          "p2": "Jika ini terus terjadi, silakan hubungi kami."
+        },
+        "jsNewChatInfo": "Ini adalah awal dari percakapan baru dengan Haadi. Anda telah memilih untuk mengaktifkan konteks untuk Haadi saat menjawab pertanyaan Anda. Anda selalu dapat menonaktifkan opsi ini di pengaturan, atau melihat apa artinya ini bagi Anda."
+      },
+      "aboutHaadi": {
+        "title": "Temui Haadi, teman bot Anda untuk menavigasi Islam Syiah!",
+        "desc": "Klik masing-masing ringkasan ini untuk membaca lebih lanjut, atau temukan lebih banyak tentang Haadi dan ketentuan penggunaan di <a href={blogLink} target='_system'>blog kami",
+        "agreement": "Saya memahami dan menyetujui Ketentuan penggunaan"
       }
     },
     "authPage": {
