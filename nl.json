@@ -66,9 +66,22 @@
           "cta": "Opfrissen"
         },
         "jsImgUploaded": "Afbeelding succesvol geüpload!",
-        "jsImgUploadErr": "Het uploaden van afbeeldingen is mislukt. Probeer het later opnieuw."
+        "jsImgUploadErr": "Het uploaden van afbeeldingen is mislukt. Probeer het later opnieuw.",
+        "jsLoadingDelay": "Het duurt iets langer dan verwacht. Even geduld a.u.b. terwijl we dit verzoek verwerken."
       },
-      "unknown": "Onbekend"
+      "unknown": "Onbekend",
+      "close": "Sluiten",
+      "yes": "Ja",
+      "no": "Nee",
+      "idk": "Ik weet het niet",
+      "completed!": "Volbracht!",
+      "pushPrompt": {
+        "heading": "Blijf op de hoogte",
+        "desc": "Vind je het leuk wat je ziet? Mis nooit meer een update en blijf op de hoogte van alles wat er gebeurt met meldingen.<br />Kunnen we je notificaties sturen?",
+        "cancelCta": "Vraag het me later",
+        "okCta": "Zeker!",
+        "jsPushUnsupported": "Push wordt niet ondersteund op dit apparaat. Het kan zijn dat je meldingen mist!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmen succesvol ingesteld",
           "jsAlarmSetError": "Fout bij het instellen van alarmen. Probeer het later opnieuw.",
-          "jsAlarmSnoozed": "Alarm snoozed gedurende 10 minuten"
+          "jsAlarmSnoozed": "Alarm snoozed gedurende 10 minuten",
+          "sunriseLabel": "Zonsopgang",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Thuis"
         },
         "alarmSetting": {
           "title": "Alarminstellingen",
@@ -398,7 +415,10 @@
           "addGender": "Geslacht toevoegen",
           "addBday": "Verjaardag toevoegen",
           "addRelation": "Relatie toevoegen",
-          "joinDate": "Lid sinds: {date}"
+          "joinDate": "Lid sinds: {date}",
+          "privateInfoDesc": "Deze informatie is alleen voor u zichtbaar en u ziet inhoud en functies op basis hiervan.",
+          "idSetupCta": "Uw identiteit instellen",
+          "idVerifyCta": "Verifiëren"
         },
         "posts": {
           "title": "Berichten",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Weet je het zeker?",
           "jsDeletePrompt": "Als u records voor <b>{fullName}</b> verwijdert, worden ook alle eerdere aanvragen voor {gender} verwijderd! Voortzetten?",
           "jsDeleted": "Verwijderde records voor {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verifieer uw sjiitische identiteit | Verifieer uw Sadat-identiteit",
+          "p1": "Je hebt in je profiel aangegeven dat je een sjiitische moslim bent. Als u deze informatie laat verifiëren, kunt u meer functies voor u gebruiken en kunt u een geverifieerde gemeenschap van sjiitische moslims opbouwen.",
+          "p2": "Gelieve uw identiteit te verifiëren; Het zal niet lang duren",
+          "noReminder": "Herinner me er niet meer aan",
+          "dismissCta": "Niet nu",
+          "startCta": "Beginnen"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "U moet eerst worden geverifieerd voordat u anderen kunt verifiëren!",
+          "jsLinkExpired": "Deze link is ongeldig of verlopen. Vraag je vriend om een nieuw verzoek te sturen.",
+          "confirm": {
+            "heading": "Accountidentiteit verifiëren",
+            "msg": "Help {firstName} {genderLabel1} accountgegevens te laten verifiëren. Hierdoor hebben {genderLabel2} toegang tot meer functies in onze app",
+            "jsSkip": "Geen probleem. Als u van gedachten verandert, kunt u deze link opnieuw bezoeken om dit later te verifiëren."
+          }
+        },
+        "myKhums": {
+          "title": "Mijn Khums"
         }
       }
     },
@@ -447,7 +487,6 @@
             "{langName} gebruiken"
           ],
           "useEngling": "Doorgaan in het Engels",
-          "useEnglish": "Doorgaan in het Engels",
           "selectFrom": "U kunt ook kiezen uit een van de volgende alternatieve talen:"
         },
         "langError": "Er is een fout opgetreden tijdens het laden van de vertalingen voor {langName}. Probeer het later opnieuw."
@@ -595,7 +634,8 @@
         ],
         "jsAddFail": "Kan je geliefde niet toevoegen. Probeer het later opnieuw.",
         "jsReqSuccess": "Aanvraag succesvol ingediend.",
-        "jsGettingMarhumeen": "Je marhumeen krijgen.."
+        "jsGettingMarhumeen": "Je marhumeen krijgen..",
+        "addMsg_ph": "Bijvoorbeeld:\nInna lillahi wa inna ilaihe raje'un. Reciteer alsjeblieft een surah-e-fatiha en 2-rak'at namaz-e-wahshat voor mijn oom, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, die ons allemaal huilend achterliet om zijn schepper te ontmoeten."
       },
       "askQues": {
         "title": "Stel een vraag",
@@ -719,7 +759,8 @@
             "{name} raadt aan om naar deze Nauha te luisteren op Bazm App"
           ],
           "addSignDesc": "Wil je ook je handtekening toevoegen?",
-          "signDesc": "Wanneer u uw wens deelt met vrienden op deze app, wordt uw handtekening toegevoegd aan de berichten. Het kan er bijvoorbeeld als volgt uitzien:"
+          "signDesc": "Wanneer u uw wens deelt met vrienden op deze app, wordt uw handtekening toegevoegd aan de berichten. Het kan er bijvoorbeeld als volgt uitzien:",
+          "addSignPlaceholder": "Bijvoorbeeld\nMet de beste wensen,\n{name}"
         },
         "changePwd": {
           "currentPwdLabel": "Voer uw bestaande wachtwoord in:",
@@ -753,7 +794,10 @@
         "sendOtpCta": "Otp verzenden",
         "backToLoginCta": "Terug naar Login",
         "disclaimerText": "Houd er rekening mee dat je alleen een {item} krijgt als je het {item} bij ons hebt geregistreerd",
-        "jsMailSent": "E-mail verzonden"
+        "jsMailSent": "E-mail verzonden",
+        "title2": "Uw account claimen",
+        "claimIntroHeading": "Claim uw account snel!",
+        "claimIntroText": "Bedankt voor je deelname. We hebben nu een account voor je aangemaakt. Krijg toegang tot uw account door het wachtwoord opnieuw in te stellen met een van de volgende methoden:"
       },
       "resetPwd": {
         "title": "Wachtwoord opnieuw instellen",
@@ -825,6 +869,248 @@
       "dialCodeSelector": {
         "title": "Selecteer land",
         "searchPH": "Zoek land op naam of kiescode"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Vul je profiel in",
+            "desc": "Onvolledige profielen hebben beperkte toegang tot functies in onze app. Het bijwerken van uw profiel helpt u op een aantal manieren. Klik hier voor meer informatie.",
+            "item1": {
+              "header": "Volledige profielen worden eenvoudig geverifieerd",
+              "p1": "Bij het aanvragen van accountverificatie (volgende stap) helpt het anderen om u gemakkelijk te verifiëren wanneer ze u kennen of alle benodigde informatie voor verificatie over u kunnen zien.",
+              "p2": "Het duurt veel langer voordat onvolledige profielen worden geverifieerd. We willen niet dat u wordt geblokkeerd voor het gebruik van functies in onze app."
+            },
+            "item2": {
+              "header": "Bekijk de juiste content",
+              "p1": "Je ziet content op basis van je omgeving. Wanneer we de juiste informatie over u hebben, ziet u relevantere inhoud.",
+              "p2": "Als u bijvoorbeeld uw locatie correct hebt bijgewerkt, ziet u waarschijnlijk eerst berichten uit uw omgeving."
+            },
+            "cta": "Vul je profiel in"
+          },
+          "identity": {
+            "header": "Uw identiteit instellen",
+            "desc": "We verwelkomen iedereen op onze app, maar omdat sommige functies alleen nuttig zijn (en bedoeld zijn) voor sjiitische moslims, helpt deze informatie ons om u de juiste functies te bieden. Klik hier voor meer informatie.",
+            "item1": {
+              "header": "Toegangsfuncties voor sjiitische moslims",
+              "p1": "Een aantal functies op onze app zijn gebouwd van sjiitische moslims. Sommigen van hen zijn:",
+              "ul": "<li>Verzoek om Surah-fatiha en Namaz-e-Wahshat</li><li>Khums Rekenmachine</li><li>Financiële steun (khums) voor Sadat momineen</li>",
+              "p2": "Om toegang te krijgen tot deze functies, moet u uw identiteit verifiëren (nu of, als u dat wilt, later)"
+            },
+            "item2": {
+              "header": "Je kunt mama's in nood helpen!",
+              "p1": "Zelfs als u niet wilt worden geverifieerd, kunnen er anderen zijn die mogelijk willen worden geverifieerd om deze functies te gebruiken.",
+              "p2": "Alleen geverifieerde accounts kunnen dergelijke momineen verifiëren. Verificatie helpt ons ook om een geverifieerde sjiitische gemeenschap op te bouwen."
+            },
+            "item3": {
+              "header": "Uw gegevens zijn altijd privé",
+              "p1": "<strong>We begrijpen dat dit gevoelige informatie is</strong> en we zullen deze informatie nooit openbaar maken zonder uw toestemming, maar er kunnen soms nog steeds conclusies worden getrokken. Wanneer je bijvoorbeeld verificatie vraagt aan andere momineen, zullen ze weten dat je een sjiiet bent.",
+              "p2": "U kunt op de onderstaande knop klikken om meer te lezen over ons proces."
+            },
+            "cta": "Setup"
+          }
+        },
+        "idSetup": {
+          "header": "Bijna klaar!",
+          "desc": "U kunt deze stap overslaan als u tevreden bent met onze vooraf ingestelde waarden voor uw privacy- en communicatie-instellingen. Het kan echter geen kwaad om een kijkje te nemen!",
+          "privacy": {
+            "header": "Uw privacy instellen",
+            "p1": "Definieer wat anderen kunnen zien:",
+            "ul": "<li>Stel zichtbaarheidsinstellingen in voor je berichten. Het bepaalt of uw berichten door iedereen op of buiten Bazm kunnen worden gezien (bijvoorbeeld wanneer iemand het op een ander platform deelt)</li><li>Instellen wie wat kan zien wanneer ze je profiel bezoeken</li><li>Instellen hoe uw gegevens aan anderen worden weergegeven</li>"
+          },
+          "comm": {
+            "header": "Communicatie-instellingen instellen",
+            "p1": "Bepaal hoe en wanneer u wilt dat wij met u communiceren:",
+            "ul": "<li>Uw voorkeuren voor meldingen instellen</li><li>Abonneren of afmelden voor meldingen van e-mails</li><li>Abonneren of afmelden voor herinneringen</li>"
+          },
+          "cta": "Setup"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Je mobiel verifiëren",
+            "desc": "Klik op de onderstaande link om uw mobiele nummer te verifiëren:",
+            "cta": "Mobiele verificatie starten",
+            "completed": "Mobiel succesvol geverifieerd"
+          },
+          "email": {
+            "header": "Uw e-mailadres verifiëren",
+            "desc": "Klik op de onderstaande link om een verificatie-e-mail in uw inbox te ontvangen.",
+            "cta": "Mobiele verificatie starten",
+            "completed": "Mobiel succesvol geverifieerd",
+            "form": {
+              "inputLabel": "Uw e-mail:",
+              "ph": "Voer uw e-mailadres in",
+              "cta": "Verificatielink per e-mail"
+            },
+            "sent": {
+              "desc": "Er is een e-mail verzonden naar uw e-mailadres hieronder. Klik op de link in uw e-mail om uw e-mailadres te verifiëren.",
+              "incorrect": "Onjuist e-mailadres?",
+              "change": "Veranderen"
+            },
+            "resendCta": "E-mail opnieuw verzenden",
+            "openEmailCta": "E-mail openen",
+            "verified": "E-mail succesvol geverifieerd!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Volledige accountconfiguratie",
+        "desc": "Ontgrendel functies voor uw account door uw accountconfiguratie te voltooien. U hoeft het maar één keer te doen en het helpt bij het verifiëren van uw gegevens, uw identiteit en het instellen van privacy-opties voor u.",
+        "gotoPageCta": "Doorgaan met instellen",
+        "dontRemind": "Herinner me er niet meer aan",
+        "dismissCta": "Later",
+        "jsConfirmSkip": {
+          "header": "Later doorgaan?",
+          "msg": "Als u deze stap voltooit, worden veel functies voor u ontgrendeld in de app, maar u kunt deze stap later ook voltooien. Ga gewoon naar het tabblad 'Gebruiker' en ga vanaf daar verder.",
+          "btns": {
+            "confirm": "Ja, later",
+            "cancel": "Doe het nu"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Uw identiteit instellen",
+        "form": {
+          "religion": {
+            "label": "Selecteer uw religie:",
+            "infoText": "Een aantal functies die alleen relevant zijn voor moslims zijn gebaseerd op deze informatie. Deze gegevens zijn alleen voor u zichtbaar; Er kunnen echter nog steeds gevolgtrekkingen worden gemaakt (zoals wanneer u een van de functies gebruikt die alleen voor moslims beschikbaar zijn)",
+            "muslim": "Moslim",
+            "nonMuslim": "Niet-moslim"
+          },
+          "sect": {
+            "label": "Kies je sekte",
+            "infoText": "Functies zoals Request for <strong>Ziyarat, Request for aid, Khums calculation, etc</strong> . vereisen dat je je Shia-identiteit verifieert. Ook hebben niet-geverifieerde gebruikers beperkte toegang tot functies.",
+            "shia": "Shia",
+            "sunni": "Niet-sjiitisch"
+          },
+          "thanksNonMuslim": "Bedankt voor het tonen van interesse om lid te worden van onze app. We hopen dat u hier nuttige inhoud vindt. Toon respect voor de gemeenschap en houd u aan onze regels.",
+          "sadat": {
+            "label": "Bent u Sadat?",
+            "infoText": "Deze informatie wordt gebruikt in functies die bedoeld zijn voor Sadat-sjiitische moslims. Het wordt echter nooit weergegeven zoals het aan iemand is. U moet uw sadat-status verifiëren voordat u gebruik kunt maken van deze services.",
+            "sadat": "Ja",
+            "nonSadat": "Nee"
+          },
+          "requested": "Verificatie gevraagd",
+          "required": "Verificatie vereist",
+          "verifyInfo": {
+            "modalCta": "Wat is dit?",
+            "p1": "Om toegang te krijgen tot functies die bedoeld zijn voor sjiitische moslims, moet je je sjiitische identiteit verifiëren.",
+            "p2": "Als je een Shia-Sadat bent, moet je dat ook verifiëren. U kunt het koppelen in hetzelfde verificatieverzoek; selecteer gewoon <strong>Sadat</strong> hierboven."
+          },
+          "verifyCta": "Verifiëren",
+          "skipInfo": "U kunt de verificatie overslaan als u de genoemde functies niet wilt gebruiken. Als u alleen uw gegevens wilt bijwerken, klikt u op <strong>Opslaan & Doorgaan</strong>",
+          "thankSunni": {
+            "p1": "Bedankt voor het tonen van interesse in onze app. Ondanks deze wereldse verdeeldheid zijn alle moslims broeders in het geloof en behoren ze tot dezelfde Ummah van de profeet Mohammed (vzmh)",
+            "p2": "We hopen dat je de inhoud hier nuttig vindt en het helpt ons elkaar beter te begrijpen.",
+            "p3": "Voor vragen/zorgen over ons beleid of wat dan ook, kunt u altijd contact met ons opnemen."
+          }
+        },
+        "cta": [
+          "Redden",
+          "Opslaan & Doorgaan"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Account verifiëren voor {name}",
+        "heading": "Kunt u onderstaande informatie over {firstName}beantwoorden? Zo niet, wijs dit verzoek dan af.",
+        "desc": "Je hebt maar twee pogingen om te verifiëren!",
+        "descP1": "Wanneer u dit formulier indient, zullen we de informatie matchen met wat {firstName} verstrekt bij het aanvragen van verificatie. Let goed op want je hebt maar twee pogingen om dit formulier correct in te vullen. Als u nog steeds faalt, kunt u {firstName} in de toekomst niet meer verifiëren.",
+        "descP2": "Als u niet weet {firstName}, wijs dan dit verzoek af. We laten het ze weten en vragen ze om iemand anders te bereiken.",
+        "rejectRequestCta": "Verzoek afwijzen",
+        "form": {
+          "heading": "Beantwoord de volgende vragen over {firstName} en klik op Verzenden:",
+          "q1": "Hoe weet je {firstName}?",
+          "q2": "Godsdienst:",
+          "q3": "Sekte:",
+          "q4": "Is {firstName} Sadat?",
+          "q5": "Heb je nog iets toe te voegen?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Uw privacy-instellingen",
+        "privacy": {
+          "header": "Privacy-instellingen",
+          "desc": "Stel in wie het volgende van u of in uw account kan zien:",
+          "form": {
+            "posts": "Uw berichten",
+            "status": "Uw statusupdates",
+            "requests": "Uw verzoeken",
+            "relationship": "Uw relatiestatus",
+            "birthday": "Uw geboortedatum (geen jaartal)",
+            "location": "Uw locatie"
+          },
+          "disclaimer": {
+            "heading": "* Hieruit kunnen nog steeds conclusies worden getrokken",
+            "p": "Hoewel deze informatie misschien verborgen is op uw profiel, kunnen er nog steeds enkele gevolgtrekkingen worden gemaakt. Als je bericht bijvoorbeeld wordt weergegeven aan een gebruiker, kunnen ze afleiden dat je in de buurt woont (op basis van waar dat bericht in hun feed wordt weergegeven)"
+          },
+          "values": {
+            "everyone": "Iedereen",
+            "users": "Alleen Momineen",
+            "shias": "Alleen sjiieten",
+            "me": "Alleen ik"
+          }
+        },
+        "comm": {
+          "header": "Communicatie-instellingen",
+          "desc": "Stel in hoe u wilt communiceren",
+          "form": {
+            "push": {
+              "header": "Push notificaties",
+              "nearby": "Voor berichten van gebruikers in de buurt",
+              "daily": "Onze dagelijkse updates"
+            },
+            "email": {
+              "header": "E-mail notificaties",
+              "weekly": "Wekelijkse nieuwsbrief",
+              "monthly": "Maandelijkse overzichtsmails"
+            },
+            "cta": "Update"
+          }
+        },
+        "js": {
+          "changeSaved": "Wijzigingen die zijn opgeslagen"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Verwerpen",
+        "title": "Verzoek afwijzen",
+        "reasonLabel": "Waarom wilt u dit account niet verifiëren?",
+        "reasonPh": "We laten het {userName} weten en vragen hen om contact op te nemen met iemand anders voor verificatie"
+      },
+      "haadiHome": {
+        "title": "Start discussie | Uw discussies met Haadi",
+        "item": {
+          "added": "Toegevoegd {date}",
+          "tokensUsed": "Gebruikte tokens: {tokens}",
+          "readContinue": "Lees of ga verder met de discussie"
+        },
+        "blank": {
+          "heading": "Nieuwe discussie starten",
+          "desc": "Je hebt geen eerdere gesprekken. Start een nieuwe discussie door uw vraag hieronder in te dienen."
+        },
+        "introLink": "Lees meer over Haadi, of",
+        "inputPh": "Nieuwe discussie starten",
+        "quesHelp": {
+          "invalid": "Vragen met 5 of meer woorden zijn logischer.",
+          "goodLen": "Dat lijkt me een goede vraag!",
+          "excellent": "Het kan nooit kwaad om je vraag uit te leggen. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Vraag het Haadi",
+        "infoText": "Om deze discussie te beëindigen en een nieuw gesprek te starten, klikt u op de onderstaande knop",
+        "newChatCTA": "Nieuwe discussie",
+        "inputPH": "Stel een vraag",
+        "empty": {
+          "heading": "Kon dit gesprek niet vinden",
+          "p1": "Er is een fout opgetreden tijdens het proberen dit gesprek te krijgen. Controleer de URL en probeer het opnieuw.",
+          "p2": "Als dit blijft gebeuren, neem dan contact met ons op."
+        },
+        "jsNewChatInfo": "Dit is het begin van een nieuw gesprek met Haadi. Je hebt ervoor gekozen om context voor Haadi in te schakelen tijdens het beantwoorden van je vragen. U kunt deze optie altijd uitschakelen in de instellingen, of kijken wat dit voor u betekent."
+      },
+      "aboutHaadi": {
+        "title": "Maak kennis met Haadi, je botfriend om door de sjiitische islam te navigeren!",
+        "desc": "Klik op elk van deze samenvattingen om meer te lezen, of vind meer over Haadi en gebruiksvoorwaarden in <a href={blogLink} target='_system'>onze blog",
+        "agreement": "Ik begrijp en ga akkoord met de gebruiksvoorwaarden"
       }
     },
     "authPage": {
