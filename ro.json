@@ -66,9 +66,22 @@
           "cta": "Împrospăta"
         },
         "jsImgUploaded": "Imagine încărcată cu succes!",
-        "jsImgUploadErr": "Încărcarea imaginilor nu a reușit. Încercați din nou mai târziu."
+        "jsImgUploadErr": "Încărcarea imaginilor nu a reușit. Încercați din nou mai târziu.",
+        "jsLoadingDelay": "Durează ceva mai mult decât se aștepta. Vă rugăm să așteptați în timp ce procesăm această solicitare."
       },
-      "unknown": "Necunoscut"
+      "unknown": "Necunoscut",
+      "close": "Închide",
+      "yes": "Da",
+      "no": "Nu",
+      "idk": "Nu ştiu",
+      "completed!": "Completat!",
+      "pushPrompt": {
+        "heading": "Rămâi la curent",
+        "desc": "Ca ceea ce vezi? Nu ratați niciodată o actualizare și rămâneți notificat cu privire la tot ce se întâmplă în jur cu notificările.<br />Vă putem trimite notificări?",
+        "cancelCta": "Întreabă-mă mai târziu",
+        "okCta": "Sigur!",
+        "jsPushUnsupported": "Împingeți nu este acceptat pe acest dispozitiv. Este posibil să pierdeți notificările!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarme setate cu succes",
           "jsAlarmSetError": "Eroare la setarea alarmelor. Încercați din nou mai târziu.",
-          "jsAlarmSnoozed": "Alarma snoozed timp de 10 minute"
+          "jsAlarmSnoozed": "Alarma snoozed timp de 10 minute",
+          "sunriseLabel": "Răsărit",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Domiciliu"
         },
         "alarmSetting": {
           "title": "Setări alarmă",
@@ -398,7 +415,10 @@
           "addGender": "Adăugați sex",
           "addBday": "Adăugați o zi de naștere",
           "addRelation": "Adăugarea relației",
-          "joinDate": "S-au alăturat: {date}"
+          "joinDate": "S-au alăturat: {date}",
+          "privateInfoDesc": "Aceste informații sunt vizibile numai pentru dvs., și vedeți conținut și caracteristici bazate pe acest lucru.",
+          "idSetupCta": "Configurați-vă identitatea",
+          "idVerifyCta": "Verifica"
         },
         "posts": {
           "title": "Mesaje",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Eşti sigur?",
           "jsDeletePrompt": "Ștergerea înregistrărilor pentru <b>{fullName}</b> va șterge, de asemenea, toate solicitările anterioare făcute pentru {gender}! Continua?",
           "jsDeleted": "Înregistrări șterse pentru {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verificați-vă identitatea șiită - Verificați-vă identitatea Sadat",
+          "p1": "Ai indicat în profilul tău că ești musulman șiit. Verificarea acestor informații va permite mai multe funcții pentru dumneavoastră și ne va ajuta să construim o comunitate verificată de musulmani șiiți.",
+          "p2": "Vă rugăm să vă verificați identitatea; nu va dura mult timp",
+          "noReminder": "Nu-mi amintesc din nou",
+          "dismissCta": "Nu acum",
+          "startCta": "Porni"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Trebuie să fiți mai întâi verificați înainte de a putea verifica pe alții!",
+          "jsLinkExpired": "Acest link este fie nevalid, fie a expirat. Vă rugăm să cereți prieten pentru a trimite o nouă cerere.",
+          "confirm": {
+            "heading": "Verificați identitatea contului",
+            "msg": "Ajutați- {firstName} să obțineți {genderLabel1} informații despre cont verificate. Acest lucru {genderLabel2} va permite să acceseze mai multe funcții din aplicația noastră",
+            "jsSkip": "Nicio problemă. Dacă vă răzgândiți, puteți revizui acest link pentru a verifica mai târziu."
+          }
+        },
+        "myKhums": {
+          "title": "Khums meu"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Trimite OTP",
         "backToLoginCta": "Înapoi la Conectare",
         "disclaimerText": "Vă rugăm să rețineți că veți primi un {articol} numai dacă aveți {articolul} înregistrat la noi",
-        "jsMailSent": "Mail trimis"
+        "jsMailSent": "Mail trimis",
+        "title2": "Revendică-ți contul",
+        "claimIntroHeading": "Revendică-ți contul rapid!",
+        "claimIntroText": "Vă mulțumim pentru aderarea la noi. Am creat un cont pentru tine acum. Obțineți acces la contul dvs., resetând parola acestuia utilizând una dintre următoarele metode:"
       },
       "resetPwd": {
         "title": "Resetare parolă",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Selectați Țara",
         "searchPH": "Căutați în țară după nume sau cod de apelare"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Completează-ți profilul",
+            "desc": "Profilurile incomplete au acces limitat la funcțiile din aplicația noastră. Actualizarea profilului vă ajută în mai multe moduri. Click aici pentru a afla mai multe.",
+            "item1": {
+              "header": "Profilurile complete sunt verificate cu ușurință",
+              "p1": "Atunci când solicitați verificarea contului (pasul următor), îi ajută pe alții să vă verifice cu ușurință atunci când fie vă cunosc, fie pot vedea toate informațiile necesare pentru verificarea despre dvs.",
+              "p2": "Profilurile incomplete durează mult mai mult pentru a fi verificate. Nu am dori să vi se blocheze utilizarea funcțiilor din aplicația noastră."
+            },
+            "item2": {
+              "header": "Vedeți conținutul potrivit",
+              "p1": "Vezi conținut în funcție de împrejurimile tale. Când avem informații corecte despre dvs., veți vedea conținut mai relevant.",
+              "p2": "De exemplu, dacă ți-ai actualizat corect locația, cel mai probabil vei vedea mai întâi postările din împrejurimi."
+            },
+            "cta": "Completează-ți profilul"
+          },
+          "identity": {
+            "header": "Configurați-vă identitatea",
+            "desc": "Salutăm pe toată lumea din aplicația noastră, dar pentru că unele caracteristici sunt utile (și destinate) numai pentru musulmanii șiiți, aceste informații ne ajută să vă servim caracteristicile potrivite. Click aici pentru a afla mai multe.",
+            "item1": {
+              "header": "Caracteristici de acces pentru musulmanii șiiți",
+              "p1": "O serie de funcții din aplicația noastră sunt construite din musulmani șiiți. Unele dintre ele sunt:",
+              "ul": "<li>Cerere pentru Surah-fatiha și Namaz-e-Wahshat</li><li>Khums Calculator</li><li>Ajutor financiar (khums) pentru Sadat momineen</li>",
+              "p2": "Pentru a accesa aceste caracteristici, trebuie să vă verificați identitatea (acum sau, dacă alegeți, mai târziu)"
+            },
+            "item2": {
+              "header": "Puteți ajuta momineen în nevoie!",
+              "p1": "Chiar dacă nu doriți să fiți verificat, ar putea exista și alții care ar putea dori să fie verificați pentru a beneficia de aceste funcții.",
+              "p2": "Numai conturile verificate pot verifica astfel de momineen. Verificarea ne ajută, de asemenea, să construim o comunitate șiită verificată."
+            },
+            "item3": {
+              "header": "Informațiile dumneavoastră sunt întotdeauna private",
+              "p1": "<strong>Înțelegem că aceasta este o informație sensibilă</strong> și nu vom expune niciodată aceste informații în mod public fără consimțământul dvs., dar deducțiile pot fi făcute uneori. De exemplu, atunci când solicitați verificarea de la alte momineen, ei vor ști că sunteți un șiit.",
+              "p2": "Puteți face clic pe butonul de mai jos pentru a citi mai multe despre procesul nostru."
+            },
+            "cta": "Instalare"
+          }
+        },
+        "idSetup": {
+          "header": "Aproape gata!",
+          "desc": "Puteți sări peste acest pas dacă sunteți mulțumit de valorile noastre presetate pentru setările de confidențialitate și comunicații. Nu strică să arunci o privire totuși!",
+          "privacy": {
+            "header": "Configurarea confidențialității",
+            "p1": "Definiți ce pot vedea alții:",
+            "ul": "<li>Stabilește setările de vizibilitate pentru postările tale. Acesta definește dacă postările tale pot fi văzute de oricine pe sau în afara Bazm (de exemplu, atunci când cineva îl distribuie pe o altă platformă)</li><li>Stabilește cine poate vedea ce se întâmplă atunci când îți vizitează profilul</li><li>Setarea modului în care informațiile tale apar altor persoane</li>"
+          },
+          "comm": {
+            "header": "Configurarea setărilor de comunicații",
+            "p1": "Definiți cum și când doriți să comunicăm cu dvs.:",
+            "ul": "<li>Setarea preferințelor pentru notificări</li><li>Abonarea sau dezabonarea la notificările de e-mailuri</li><li>Abonați-vă sau dezabonați-vă la mementouri</li>"
+          },
+          "cta": "Instalare"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Verificați-vă mobilul",
+            "desc": "Faceți clic pe linkul de mai jos pentru a vă verifica numărul de telefon mobil:",
+            "cta": "Începeți verificarea pe mobil",
+            "completed": "Mobil verificat cu succes"
+          },
+          "email": {
+            "header": "Verificați-vă e-mailul",
+            "desc": "Faceți clic pe linkul de mai jos pentru a obține e-mailul de verificare în inbox.",
+            "cta": "Începeți verificarea pe mobil",
+            "completed": "Mobil verificat cu succes",
+            "form": {
+              "inputLabel": "Adresa ta de e-mail:",
+              "ph": "Introduceți adresa de e-mail",
+              "cta": "Link de verificare prin e-mail"
+            },
+            "sent": {
+              "desc": "Un e-mail a fost trimis la adresa de e-mail de mai jos. Faceți clic pe linkul din e-mail pentru a vă verifica adresa de e-mail.",
+              "incorrect": "E-mail incorect?",
+              "change": "Schimbare"
+            },
+            "resendCta": "Retrimiterea e-mailului",
+            "openEmailCta": "Deschideți e-mailul",
+            "verified": "E-mail verificat cu succes!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Configurare completă a contului",
+        "desc": "Deblocați funcțiile pentru contul dvs., finalizând configurarea contului. Trebuie să o faceți o singură dată și vă ajută să vă verificați detaliile, identitatea și să configurați opțiunile de confidențialitate pentru dvs.",
+        "gotoPageCta": "Continuați configurarea",
+        "dontRemind": "Nu-mi amintesc din nou",
+        "dismissCta": "Mai târziu",
+        "jsConfirmSkip": {
+          "header": "Continuați mai târziu?",
+          "msg": "Finalizarea acestui pas va debloca multe funcții pentru tine în aplicație, dar puteți finaliza acest pas și mai târziu. Doar du-te la fila \"Utilizator\" și să continue de acolo.",
+          "btns": {
+            "confirm": "Da, mai târziu",
+            "cancel": "Fă-o acum"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Configurați-vă identitatea",
+        "form": {
+          "religion": {
+            "label": "Selectează-ți religia:",
+            "infoText": "O serie de caracteristici relevante numai pentru musulmani se bazează pe aceste informații. Aceste date vor fi vizibile numai pentru dvs.; cu toate acestea, deducțiile pot fi făcute în continuare (cum ar fi, atunci când utilizați una dintre caracteristicile disponibile numai pentru musulmani)",
+            "muslim": "Musulman",
+            "nonMuslim": "Non-musulmane"
+          },
+          "sect": {
+            "label": "Alege-ți secta",
+            "infoText": "Caracteristici precum <strong>Cererea pentru Ziyarat, Cererea de ajutor, calculul Khums etc.</strong> vă solicită să vă verificați identitatea șiită. De asemenea, utilizatorii care nu sunt verificați au acces limitat la funcții.",
+            "shia": "Shia",
+            "sunni": "Non-șiiți"
+          },
+          "thanksNonMuslim": "Vă mulțumim pentru interesul de a vă alătura aplicației noastre. Sperăm că veți găsi conținut util aici. Vă rugăm să arătați respect față de comunitate și să respectați regulile noastre.",
+          "sadat": {
+            "label": "Ești Sadat?",
+            "infoText": "Aceste informații sunt folosite în caracteristici destinate musulmanilor sadat-șiiți. Cu toate acestea, nu este niciodată afișat așa cum este pentru oricine. Va trebui să vă verificați starea sadat înainte de a putea beneficia de aceste servicii.",
+            "sadat": "Da",
+            "nonSadat": "Nu"
+          },
+          "requested": "Verificarea solicitată",
+          "required": "Verificarea necesară",
+          "verifyInfo": {
+            "modalCta": "Ce este acesta?",
+            "p1": "Pentru a avea acces la caracteristicile destinate musulmanilor șiiți, trebuie să vă verificați identitatea șiită.",
+            "p2": "Dacă sunteți un Shia-Sadat, va trebui să verificați și acest lucru. Îl puteți asocia în aceeași solicitare de verificare; pur și simplu selectați <strong>Sadat de</strong> mai sus."
+          },
+          "verifyCta": "Verifica",
+          "skipInfo": "Puteți sări peste verificare dacă nu doriți să utilizați funcțiile menționate. Pentru a vă actualiza doar informațiile, faceți clic pe <strong>Salvare și pe Continuare</strong>",
+          "thankSunni": {
+            "p1": "Vă mulțumim pentru că ați arătat interes pentru aplicația noastră. În ciuda acestor diviziuni lumești, toți musulmanii sunt frați în credință și aparțin aceleiași Ummah a Profetului Mahomed (PBUH)",
+            "p2": "Sperăm că veți găsi conținut aici util și ne ajută să ne înțelegem mai bine.",
+            "p3": "Pentru orice întrebare/nelămurire cu privire la politicile noastre sau orice altceva, ne puteți contacta oricând."
+          }
+        },
+        "cta": [
+          "Salva",
+          "Salvați și continuați"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Verificați contul pentru {name}",
+        "heading": "Puteti raspunde mai jos la informatii despre {firstName}? Dacă nu, atunci respingeți această solicitare.",
+        "desc": "Ai doar două încercări de a verifica!",
+        "descP1": "Când trimiteți acest formular, vom potrivi informațiile cu ceea ce {firstName} furnizat atunci când solicitați verificarea. Vă rugăm să acordați atenție, deoarece aveți doar două încercări de a completa corect acest formular. Dacă tot nu reușești, nu vei mai putea verifica {firstName} în viitor.",
+        "descP2": "Dacă nu știți {firstName}, atunci respingeți această solicitare. Îi vom anunța și îi vom ruga să ajungă la altcineva.",
+        "rejectRequestCta": "Respingere cerere",
+        "form": {
+          "heading": "Răspundeți la următoarele întrebări despre {firstName} și faceți clic pe Remitere:",
+          "q1": "De unde stii {firstName}?",
+          "q2": "Religie:",
+          "q3": "Sectă:",
+          "q4": "Este {firstName} Sadat?",
+          "q5": "Orice altceva pe care doriți să adăugați?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Setările de confidențialitate",
+        "privacy": {
+          "header": "Setări de confidențialitate",
+          "desc": "Setați cine poate vedea următoarele de la dvs. sau din contul dvs.:",
+          "form": {
+            "posts": "Mesajele dvs.",
+            "status": "Actualizările de stare",
+            "requests": "Solicitările dvs.",
+            "relationship": "Starea relației tale",
+            "birthday": "Data nașterii (nu anul)",
+            "location": "Locația dvs."
+          },
+          "disclaimer": {
+            "heading": "* Deducții pot fi încă făcute despre acest lucru",
+            "p": "Chiar dacă aceste informații pot fi ascunse pe profilul dvs., unele deducții pot fi făcute în continuare. De exemplu, dacă postarea ta apare unui utilizator, acesta poate deduce că trăiești aproape (în funcție de locul în care apare postarea respectivă în fluxul său)"
+          },
+          "values": {
+            "everyone": "Oricine",
+            "users": "Numai Momineen",
+            "shias": "Numai șiiți",
+            "me": "Numai eu"
+          }
+        },
+        "comm": {
+          "header": "Setări de comunicare",
+          "desc": "Setați modul în care doriți să comunicați",
+          "form": {
+            "push": {
+              "header": "Notificări push",
+              "nearby": "Pentru postările de la utilizatorii din apropiere",
+              "daily": "Actualizările noastre zilnice"
+            },
+            "email": {
+              "header": "Notificări prin e-mail",
+              "weekly": "Buletin informativ săptămânal",
+              "monthly": "E-mailuri rezumat lunare"
+            },
+            "cta": "Actualiza"
+          }
+        },
+        "js": {
+          "changeSaved": "Modificări salvate cu succes"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Respinge",
+        "title": "Respingerea cererii",
+        "reasonLabel": "De ce nu doriți să verificați acest cont?",
+        "reasonPh": "Îi vom anunța pe {userName} și îi vom ruga să se adreseze altcuiva pentru verificare"
+      },
+      "haadiHome": {
+        "title": "Începe discuția – Discuțiile tale cu Haadi",
+        "item": {
+          "added": "Adăugat {date}",
+          "tokensUsed": "Token-uri utilizate: {tokens}",
+          "readContinue": "Citiți sau continuați discuțiile"
+        },
+        "blank": {
+          "heading": "Începeți o discuție nouă",
+          "desc": "Nu aveți conversații anterioare. Începeți o discuție nouă trimițând interogarea mai jos."
+        },
+        "introLink": "Citiți mai multe despre Haadi sau",
+        "inputPh": "Începeți o discuție nouă",
+        "quesHelp": {
+          "invalid": "Întrebările cu 5 sau mai multe cuvinte au mai mult sens..",
+          "goodLen": "Asta arată ca o întrebare bună!",
+          "excellent": "Nu strică niciodată să-ți explici întrebarea. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Întreabă-l pe Haadi",
+        "infoText": "Pentru a încheia această discuție și a începe o conversație nouă, faceți clic pe butonul de mai jos",
+        "newChatCTA": "Discuție nouă",
+        "inputPH": "Pune o întrebare",
+        "empty": {
+          "heading": "Nu a putut găsi această conversație",
+          "p1": "A apărut o eroare în timp ce încercați să obțineți această conversație. Vă rugăm să verificați adresa URL și încercați din nou.",
+          "p2": "Dacă acest lucru continuă să se întâmple, vă rugăm să ne contactați."
+        },
+        "jsNewChatInfo": "Acesta este începutul unei noi conversații cu Haadi. Ați ales să activați contextul pentru Haadi în timp ce răspundeți la întrebările dvs. Puteți oricând să dezactivați această opțiune în setări sau să vedeți ce înseamnă acest lucru pentru dvs."
+      },
+      "aboutHaadi": {
+        "title": "Faceți cunoștință cu Haadi, botfriend-ul vostru pentru a naviga islamul șiit!",
+        "desc": "Faceți clic pe fiecare dintre aceste rezumate pentru a citi mai multe sau pentru a afla mai multe despre Haadi și termenii de utilizare într <a href= -{blogLink} blogul target ='_system'>",
+        "agreement": "Înțeleg și sunt de acord cu Termenii de utilizare"
       }
     },
     "authPage": {
