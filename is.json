@@ -66,9 +66,22 @@
           "cta": "Hressa"
         },
         "jsImgUploaded": "Mynd hlaðið upp með góðum árangri!",
-        "jsImgUploadErr": "Upphleðsla mynda mistókst. Vinsamlegast reyndu aftur síðar."
+        "jsImgUploadErr": "Upphleðsla mynda mistókst. Vinsamlegast reyndu aftur síðar.",
+        "jsLoadingDelay": "Þetta tekur lengri tíma en búist var við. Vinsamlegast bíðið á meðan við afgreiðum þessa beiðni."
       },
-      "unknown": "Óþekktur"
+      "unknown": "Óþekktur",
+      "close": "Loka",
+      "yes": "Já",
+      "no": "Nei",
+      "idk": "Ég veit ekki",
+      "completed!": "Búinn!",
+      "pushPrompt": {
+        "heading": "Vertu uppfærður",
+        "desc": "Líkar þér það sem þú sérð? Aldrei missa af uppfærslu og vertu tilkynnt um allt sem gerist með tilkynningum.<br />Getum við sent þér tilkynningar?",
+        "cancelCta": "Spurðu mig seinna",
+        "okCta": "Sjálfsagt!",
+        "jsPushUnsupported": "Ýta ekki studd á þessu tæki. Þú gætir misst af tilkynningum!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Viðvörunarkerfi stillt með góðum árangri",
           "jsAlarmSetError": "Villa við að stilla viðvörun. Vinsamlegast reyndu aftur síðar.",
-          "jsAlarmSnoozed": "Viðvörun snuðruð í 10 mínútur"
+          "jsAlarmSnoozed": "Viðvörun snuðruð í 10 mínútur",
+          "sunriseLabel": "Sólarupprás",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Heimili"
         },
         "alarmSetting": {
           "title": "Viðvörunarstillingar",
@@ -398,7 +415,10 @@
           "addGender": "Bæta við kyni",
           "addBday": "Bæta við afmælisdegi",
           "addRelation": "Bæta við sambandi",
-          "joinDate": "Skráði sig: {date}"
+          "joinDate": "Skráði sig: {date}",
+          "privateInfoDesc": "Þessar upplýsingar eru aðeins sýnilegar þér og þú sérð efni og eiginleika sem byggjast á þessu.",
+          "idSetupCta": "Settu upp auðkenni þitt",
+          "idVerifyCta": "Staðfesta"
         },
         "posts": {
           "title": "Innlegg",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Ertu viss?",
           "jsDeletePrompt": "Með því að eyða færslum fyrir <b>{fullName}</b> verður einnig eytt öllum fyrri beiðnum sem gerðar hafa verið um {kyn}! Halda áfram?",
           "jsDeleted": "Eytt færslum fyrir {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Staðfestu Shia auðkenni þitt | Staðfestu Sadat auðkenni þitt",
+          "p1": "Þú hefur gefið til kynna í prófílnum þínum að þú sért sjía-múslimi. Að fá þessar upplýsingar staðfestar mun gera þér kleift að bjóða upp fleiri eiginleika og hjálpa okkur að byggja upp staðfest samfélag sjíamúslima.",
+          "p2": "Vinsamlegast staðfestu hver þú ert; það mun ekki taka langan tíma",
+          "noReminder": "Ekki minna mig á það aftur.",
+          "dismissCta": "Ekki núna",
+          "startCta": "Ræsa"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Þú verður að fá staðfestingu fyrst áður en þú getur staðfest aðra!",
+          "jsLinkExpired": "Þessi tengill er annað hvort ógildur eða útrunninn. Vinsamlegast biddu vin þinn að senda nýja beiðni.",
+          "confirm": {
+            "heading": "Staðfestu auðkenni reiknings",
+            "msg": "Hjálpaðu {firstName} fá {genderLabel1} reikningsupplýsingar staðfestar. Þetta gerir {genderLabel2} kleift að fá aðgang að fleiri eiginleikum í forritinu okkar",
+            "jsSkip": "Ekkert mál. Ef þú skiptir um skoðun geturðu skoðað þennan tengil aftur til að staðfesta síðar."
+          }
+        },
+        "myKhums": {
+          "title": "Khums minn"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Sendu OTP",
         "backToLoginCta": "Til baka í innskráningu",
         "disclaimerText": "Athugaðu að þú færð aðeins {hlut} ef {item} er skráð hjá okkur",
-        "jsMailSent": "Póstur sendur"
+        "jsMailSent": "Póstur sendur",
+        "title2": "Gerðu tilkall til reikningsins þíns",
+        "claimIntroHeading": "Gerðu tilkall til reikningsins þíns fljótt!",
+        "claimIntroText": "Takk fyrir að koma. Við stofnuðum reikning fyrir þig núna. Fáðu aðgang að reikningnum þínum með því að endurstilla lykilorð hans með því að nota eina af eftirfarandi aðferðum:"
       },
       "resetPwd": {
         "title": "Endurstilla lykilorð",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Veldu land",
         "searchPH": "Leita land eftir nafni eða hringikóða"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Ljúktu við prófílinn þinn",
+            "desc": "Ófullgerð snið hafa takmarkaðan aðgang að eiginleikum í appinu okkar. Að láta uppfæra prófílinn þinn hjálpar þér á ýmsa vegu. Smelltu hér til að vita meira.",
+            "item1": {
+              "header": "Heill snið fá Staðfest auðveldlega",
+              "p1": "Þegar óskað er eftir staðfestingu reiknings (næsta skref) hjálpar það öðrum að staðfesta þig auðveldlega þegar þeir annað hvort þekkja þig eða geta séð allar nauðsynlegar upplýsingar til staðfestingar um þig.",
+              "p2": "Ófullgerð snið taka mun lengri tíma að fá staðfestingu. Við viljum ekki að þú sért útilokaður frá því að nota eiginleika í forritinu okkar."
+            },
+            "item2": {
+              "header": "Sjá rétt efni",
+              "p1": "Þú sérð efni byggt á umhverfi þínu. Þegar við höfum réttar upplýsingar um þig sérðu meira viðeigandi efni.",
+              "p2": "Til dæmis, ef þú hefur uppfært staðsetningu þína rétt, muntu líklegri sjá færslur úr umhverfinu fyrst."
+            },
+            "cta": "Ljúktu við prófílinn þinn"
+          },
+          "identity": {
+            "header": "Settu upp auðkenni þitt",
+            "desc": "Við bjóðum alla velkomna í appinu okkar, en vegna þess að sumir eiginleikar eru gagnlegir (og þýddir) aðeins fyrir sjíamúslima, hjálpa þessar upplýsingar okkur að þjóna þér réttum eiginleikum. Smelltu hér til að vita meira.",
+            "item1": {
+              "header": "Aðgangsaðgerðir fyrir Shia múslima",
+              "p1": "Nokkrir eiginleikar í appinu okkar eru byggðir af sjía-múslimum. Sum þeirra eru:",
+              "ul": "<li>Beiðni um Surah-fatiha og Namaz-e-Wahshat</li><li>Khums reiknivél</li><li>Fjárhagsaðstoð (khums) fyrir Sadat momineen</li>",
+              "p2": "Til að fá aðgang að þessum eiginleikum þarftu að staðfesta auðkenni þitt (hvort sem það er núna eða, ef þú velur það, síðar)"
+            },
+            "item2": {
+              "header": "Þú getur hjálpað momineen í neyð!",
+              "p1": "Jafnvel ef þú vilt ekki vera staðfestur, þá gætu verið aðrir sem gætu viljað fá staðfestingu til að nýta þessa eiginleika.",
+              "p2": "Aðeins staðfestir reikningar geta staðfest slíka momineen. Staðfesting hjálpar okkur einnig að byggja upp staðfest Shia samfélag."
+            },
+            "item3": {
+              "header": "Upplýsingarnar þínar eru alltaf einkamál",
+              "p1": "<strong>Við skiljum að þetta eru viðkvæmar</strong> upplýsingar og við munum aldrei afhjúpa þessar upplýsingar opinberlega án þíns samþykkis, en ályktanir er samt hægt að gera stundum. Til dæmis, þegar þú biður um staðfestingu frá öðrum momineen, munu þeir vita að þú ert Shia.",
+              "p2": "Þú getur smellt á hnappinn hér að neðan til að lesa meira um ferlið okkar."
+            },
+            "cta": "Uppsetning"
+          }
+        },
+        "idSetup": {
+          "header": "Næstum búinn!",
+          "desc": "Þú getur sleppt þessu skrefi ef þú ert ánægður með forstillt gildi okkar fyrir persónuverndar- og samskiptastillingar þínar. Það sakar samt ekki að kíkja!",
+          "privacy": {
+            "header": "Settu upp persónuvernd þína",
+            "p1": "Skilgreindu hvað aðrir geta séð:",
+            "ul": "<li>Stilltu sýnileikastillingar fyrir færslurnar þínar. Það skilgreinir hvort einhver geti séð færslurnar þínar á eða af Bazm (td þegar einhver deilir því á öðrum vettvangi)</li><li>Stilltu hverjir geta séð hvað þegar þeir heimsækja prófílinn þinn</li><li>Stilltu hvernig birtast upplýsingar þínar öðrum</li>"
+          },
+          "comm": {
+            "header": "Uppsetning samskiptastillinga",
+            "p1": "Skilgreindu hvernig og hvenær viltu að við höfum samskipti við þig:",
+            "ul": "<li>Stilltu kjörstillingar fyrir tilkynningar þínar</li><li>Gerast áskrifandi að eða segja upp áskrift að tilkynningum um tölvupóst</li><li>Gerast áskrifandi eða segja upp áskrift að áminningum</li>"
+          },
+          "cta": "Uppsetning"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Staðfestu farsímann þinn",
+            "desc": "Smelltu á tengilinn hér að neðan til að staðfesta farsímanúmerið þitt:",
+            "cta": "Ræsa staðfestingu fartækis",
+            "completed": "Farsími staðfestur með góðum árangri"
+          },
+          "email": {
+            "header": "Staðfestu tölvupóstinn þinn",
+            "desc": "Smelltu á hlekkinn hér að neðan til að fá staðfestingartölvupóst í pósthólfið þitt.",
+            "cta": "Ræsa staðfestingu fartækis",
+            "completed": "Farsími staðfestur með góðum árangri",
+            "form": {
+              "inputLabel": "Netfangið þitt:",
+              "ph": "Sláðu inn netfangið þitt",
+              "cta": "Tölvupóstur staðfestingar hlekkur"
+            },
+            "sent": {
+              "desc": "Tölvupóstur var sendur á netfangið þitt hér að neðan. Smelltu á hlekkinn í tölvupóstinum þínum til að staðfesta netfangið þitt.",
+              "incorrect": "Rangur tölvupóstur?",
+              "change": "Breyta"
+            },
+            "resendCta": "Senda tölvupóst aftur",
+            "openEmailCta": "Opna tölvupóst",
+            "verified": "Tölvupóstur staðfestur með góðum árangri!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Ljúka uppsetningu reiknings",
+        "desc": "Opnaðu eiginleika fyrir reikninginn þinn með því að klára uppsetningu reikningsins. Þú þarft aðeins að gera það einu sinni og það hjálpar til við að staðfesta upplýsingar þínar, auðkenni þitt og setja upp persónuverndarvalkosti fyrir þig.",
+        "gotoPageCta": "Halda áfram uppsetningu",
+        "dontRemind": "Ekki minna mig á það aftur.",
+        "dismissCta": "Seinna",
+        "jsConfirmSkip": {
+          "header": "Halda áfram seinna?",
+          "msg": "Að klára þetta skref mun opna marga eiginleika fyrir þig í forritinu, en þú getur líka klárað þetta skref síðar. Farðu bara á flipann \"Notandi\" og haltu áfram þaðan.",
+          "btns": {
+            "confirm": "Já, seinna",
+            "cancel": "Gerðu það núna"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Settu upp auðkenni þitt",
+        "form": {
+          "religion": {
+            "label": "Veldu trú þína:",
+            "infoText": "Nokkrir eiginleikar sem aðeins eiga við um múslima eru byggðir á þessum upplýsingum. Þessi gögn verða aðeins sýnileg þér; Hins vegar er enn hægt að draga ályktanir (eins og þegar þú notar einn af þeim eiginleikum sem aðeins eru í boði fyrir múslima)",
+            "muslim": "Múslima",
+            "nonMuslim": "Ekki múslímar"
+          },
+          "sect": {
+            "label": "Veldu sértrúarsöfnuð þinn",
+            "infoText": "Eiginleikar eins og Beiðni um <strong>Ziyarat, Beiðni um aðstoð, Khums útreikningur o.s.frv</strong> . krefjast þess að þú staðfestir Shia auðkenni þitt. Einnig hafa notendur sem ekki eru staðfestir takmarkaðan aðgang að eiginleikum.",
+            "shia": "Shia",
+            "sunni": "Ekki sjítar"
+          },
+          "thanksNonMuslim": "Takk fyrir að sýna áhuga á að taka þátt í appinu okkar. Við vonum að þú finnir gagnlegt efni hér. Vinsamlegast sýndu samfélaginu virðingu og fylgdu reglum okkar.",
+          "sadat": {
+            "label": "Ert þú Sadat?",
+            "infoText": "Þessar upplýsingar eru notaðar í eiginleikum sem ætlaðir eru Sadat-shia múslimum. Hins vegar er það aldrei sýnt eins og fyrir neinum. Þú verður að staðfesta sadat stöðu þína áður en þú getur nýtt þér þessa þjónustu.",
+            "sadat": "Já",
+            "nonSadat": "Nei"
+          },
+          "requested": "Sannprófun sem óskað er eftir",
+          "required": "Sannprófun sem krafist er",
+          "verifyInfo": {
+            "modalCta": "Hvað er þetta?",
+            "p1": "Til að fá aðgang að eiginleikum sem ætlaðir eru sjía-múslimum þarftu að staðfesta Shia auðkenni þitt.",
+            "p2": "Ef þú ert Shia-Sadat þarftu að staðfesta það líka. Þú getur parað það í sömu staðfestingarbeiðni; veldu <strong>einfaldlega Sadat</strong> hér að ofan."
+          },
+          "verifyCta": "Staðfesta",
+          "skipInfo": "Þú getur sleppt staðfestingu ef þú vilt ekki nota nefnda eiginleika. Til að uppfæra aðeins upplýsingarnar skaltu smella á <strong>Vista og halda áfram</strong>",
+          "thankSunni": {
+            "p1": "Takk fyrir að sýna appinu okkar áhuga. Þrátt fyrir þessa veraldlegu skiptingu eru allir múslimar bræður í trú og tilheyra sama Umma Múhameðs spámanns (PBUH)",
+            "p2": "Við vonum að þér finnist efni hér gagnlegt og það hjálpar okkur að skilja hvert annað betur.",
+            "p3": "Fyrir allar fyrirspurnir/áhyggjur af stefnum okkar eða eitthvað geturðu alltaf haft samband við okkur."
+          }
+        },
+        "cta": [
+          "Spara",
+          "Vista og halda áfram"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Staðfestu reikning fyrir {name}",
+        "heading": "Getur þú svarað hér að neðan upplýsingum um {firstName}? Ef ekki, hafnaðu þá beiðninni.",
+        "desc": "Þú hefur aðeins tvær tilraunir til að sannreyna!",
+        "descP1": "Þegar þú sendir inn þetta eyðublað munum við bera upplýsingarnar saman við það sem {firstName} gefið upp þegar þú óskar eftir staðfestingu. Vinsamlegast athugaðu vegna þess að þú hefur aðeins tvær tilraunir til að fylla þetta form rétt. Ef þér mistekst enn muntu ekki geta staðfest {firstName} aftur í framtíðinni.",
+        "descP2": "Ef þú veist ekki {firstName}, þá skaltu hafna þessari beiðni. Við munum láta þá vita og biðja þá um að ná til einhvers annars.",
+        "rejectRequestCta": "Beiðni um höfnun",
+        "form": {
+          "heading": "Svaraðu eftirfarandi spurningum um {firstName} og smelltu á Senda:",
+          "q1": "Hvernig veistu {firstName}?",
+          "q2": "Trúarbrögð:",
+          "q3": "Sérgrein:",
+          "q4": "Er {firstName} Sadat?",
+          "q5": "Eitthvað fleira sem þú vilt bæta við?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Persónuverndarstillingar þínar",
+        "privacy": {
+          "header": "Persónuverndarstillingar",
+          "desc": "Stilltu hverjir geta séð eftirfarandi frá þér eða á reikningnum þínum:",
+          "form": {
+            "posts": "Færslurnar þínar",
+            "status": "Stöðuuppfærslur þínar",
+            "requests": "Beiðnir þínar",
+            "relationship": "Sambandsstaða þín",
+            "birthday": "Fæðingardagur þinn (ekki ár)",
+            "location": "Staðsetningin þín"
+          },
+          "disclaimer": {
+            "heading": "* Enn er hægt að draga ályktanir um þetta",
+            "p": "Jafnvel þó að þessar upplýsingar séu kannski faldar á prófílnum þínum, þá er samt hægt að gera nokkrar ályktanir. Til dæmis, ef færslan þín birtist notanda, geta þeir ályktað að þú búir nálægt (byggt á því hvar þessi færsla birtist í straumnum þeirra)"
+          },
+          "values": {
+            "everyone": "Sérhver",
+            "users": "Aðeins Momineen",
+            "shias": "Aðeins sjítar",
+            "me": "Aðeins ég"
+          }
+        },
+        "comm": {
+          "header": "Samskiptastillingar",
+          "desc": "Stilltu hvernig viltu koma á framfæri",
+          "form": {
+            "push": {
+              "header": "Ýta tilkynningar",
+              "nearby": "Fyrir færslur frá nálægum notendum",
+              "daily": "Daglegar uppfærslur okkar"
+            },
+            "email": {
+              "header": "Tilkynningar í tölvupósti",
+              "weekly": "Vikulegt fréttabréf",
+              "monthly": "Mánaðarleg samantekt tölvupósts"
+            },
+            "cta": "Uppfæra"
+          }
+        },
+        "js": {
+          "changeSaved": "Breytingar vistaðar með góðum árangri"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Hafna",
+        "title": "Hafna beiðni",
+        "reasonLabel": "Af hverju viltu ekki staðfesta þennan reikning?",
+        "reasonPh": "Við munum láta {userName} vita og biðja þá um að hafa samband við einhvern annan til staðfestingar"
+      },
+      "haadiHome": {
+        "title": "Byrjaðu umræður | Umræður þínar við Haadi",
+        "item": {
+          "added": "Bætt við {date}",
+          "tokensUsed": "Tákn sem notuð eru: {tokens}",
+          "readContinue": "Lesa eða halda áfram umræðu"
+        },
+        "blank": {
+          "heading": "Hefja nýja umræðu",
+          "desc": "Þú átt engin samtöl áður. Byrjaðu nýja umræðu með því að senda inn fyrirspurn þína hér að neðan."
+        },
+        "introLink": "Lestu meira um Haadi, eða",
+        "inputPh": "Hefja nýja umræðu",
+        "quesHelp": {
+          "invalid": "Spurningar með 5 eða fleiri orðum eru skynsamlegri..",
+          "goodLen": "Það lítur út eins og góð spurning!",
+          "excellent": "Það sakar aldrei að útskýra spurningu þína. Frægð!"
+        }
+      },
+      "askHaadi": {
+        "title": "Spurðu Haadi",
+        "infoText": "Til að ljúka þessari umræðu og hefja nýtt samtal, smelltu á hnappinn hér að neðan",
+        "newChatCTA": "Ný umræða",
+        "inputPH": "Spyrja spurningar",
+        "empty": {
+          "heading": "Fann ekki þetta samtal",
+          "p1": "Villa kom upp þegar reynt var að ná þessu samtali. Vinsamlegast athugaðu slóðina og reyndu aftur.",
+          "p2": "Ef þetta heldur áfram að gerast, vinsamlegast hafðu samband við okkur."
+        },
+        "jsNewChatInfo": "Þetta er byrjunin á nýju samtali við Haadi. Þú hefur valið að virkja samhengi fyrir Haadi meðan þú svarar spurningum þínum. Þú getur alltaf slökkt á þessum valkosti í stillingum eða séð hvað þetta þýðir fyrir þig."
+      },
+      "aboutHaadi": {
+        "title": "Hittu Haadi, botvin þinn til að sigla um Shia islam!",
+        "desc": "Smelltu á hverja af þessum samantektum til að lesa meira, eða finna meira um Haadi og notkunarskilmála í <a href={blogLink} target ='_system'>bloggið okkar",
+        "agreement": "Ég skil og er sammála Notkunarskilmálar"
       }
     },
     "authPage": {
