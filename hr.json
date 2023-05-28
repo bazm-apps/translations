@@ -66,9 +66,22 @@
           "cta": "Osvježiti"
         },
         "jsImgUploaded": "Slika uspješno prenesena!",
-        "jsImgUploadErr": "Prijenos slike nije uspio. Pokušajte ponovo kasnije."
+        "jsImgUploadErr": "Prijenos slike nije uspio. Pokušajte ponovo kasnije.",
+        "jsLoadingDelay": "To traje malo duže nego što se očekivalo. Pričekajte dok ne obradimo ovaj zahtjev."
       },
-      "unknown": "Nepoznat"
+      "unknown": "Nepoznat",
+      "close": "Blizak",
+      "yes": "Da",
+      "no": "Ne",
+      "idk": "Ne znam",
+      "completed!": "Završen!",
+      "pushPrompt": {
+        "heading": "Budite u toku",
+        "desc": "Kao ono što vidiš? Nikada ne propustite ažuriranje i budite obaviješteni o svemu što se događa s obavijestima.<br />Možemo li vam poslati obavijesti?",
+        "cancelCta": "Pitaj me kasnije",
+        "okCta": "Siguran!",
+        "jsPushUnsupported": "Guranje nije podržano na ovom uređaju. Možda ćete propustiti obavijesti!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmi su uspješno postavljeni",
           "jsAlarmSetError": "Pogreška pri postavljanju alarma. Pokušajte ponovo kasnije.",
-          "jsAlarmSnoozed": "Alarm je njuškao 10 minuta"
+          "jsAlarmSnoozed": "Alarm je njuškao 10 minuta",
+          "sunriseLabel": "Sunčev izlazak",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Dom"
         },
         "alarmSetting": {
           "title": "Postavke alarma",
@@ -398,7 +415,10 @@
           "addGender": "Dodaj spol",
           "addBday": "Dodaj rođendan",
           "addRelation": "Dodaj odnos",
-          "joinDate": "Pridruženo: {date}"
+          "joinDate": "Pridruženo: {date}",
+          "privateInfoDesc": "Te su informacije vidljive samo vama i na temelju njih vidite sadržaj i značajke.",
+          "idSetupCta": "Postavljanje identiteta",
+          "idVerifyCta": "Ovjeriti"
         },
         "posts": {
           "title": "Postove",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Jesi siguran?",
           "jsDeletePrompt": "Brisanje zapisa za <b>{fullName}</b> izbrisat će i sve prethodne zahtjeve za {gender}! Nastaviti?",
           "jsDeleted": "Izbrisani zapisi za {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Potvrdite svoj šijitski identitet | Provjerite svoj Sadat identitet",
+          "p1": "U svom profilu ste naveli da ste šijitski musliman. Provjera ovih informacija omogućit će vam više značajki i pomoći nam u izgradnji provjerene zajednice šijitskih muslimana.",
+          "p2": "Molimo vas da potvrdite svoj identitet; Neće dugo trajati.",
+          "noReminder": "Nemoj me više podsjećati",
+          "dismissCta": "Ne sad",
+          "startCta": "Početak"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Prvo morate biti potvrđeni prije nego što možete potvrditi druge!",
+          "jsLinkExpired": "Ova veza nije valjana ili je istekla. Zamolite prijatelja da pošalje novi zahtjev.",
+          "confirm": {
+            "heading": "Provjera identiteta računa",
+            "msg": "Pomozite {firstName} provjeri {genderLabel1} podataka o računu. To će {genderLabel2} omogućiti pristup više značajki u našoj aplikaciji",
+            "jsSkip": "Nema frke. Ako se predomislite, možete ponovno posjetiti ovu vezu da biste je kasnije potvrdili."
+          }
+        },
+        "myKhums": {
+          "title": "Moji Khumi"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Pošalji OTP",
         "backToLoginCta": "Povratak na prijavu",
         "disclaimerText": "Imajte na umu da ćete dobiti {stavku} samo ako imate registriranu stavku {item} kod nas",
-        "jsMailSent": "Poslana pošta"
+        "jsMailSent": "Poslana pošta",
+        "title2": "Zatražite svoj račun",
+        "claimIntroHeading": "Brzo zatražite svoj račun!",
+        "claimIntroText": "Hvala što ste nam se pridružili. Napravili smo račun za vas. Pristupite računu tako da ponovno postavite lozinku na jedan od sljedećih načina:"
       },
       "resetPwd": {
         "title": "Vrati izvornu lozinku",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Odaberi državu",
         "searchPH": "Pretraži zemlju prema imenu ili pozivnom kodu"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Dovršavanje profila",
+            "desc": "Nepotpuni profili imaju ograničen pristup značajkama u našoj aplikaciji. Ažuriranje profila pomaže vam na više načina. Kliknite ovdje da biste saznali više.",
+            "item1": {
+              "header": "Potpuni profili lako se provjeravaju",
+              "p1": "Kada zatražite potvrdu računa (sljedeći korak), pomaže drugima da vas lako potvrde kada vas poznaju ili mogu vidjeti sve potrebne podatke za potvrdu o vama.",
+              "p2": "Provjera nepotpunih profila traje mnogo dulje. Ne bismo željeli da vam se onemogući korištenje značajki u našoj aplikaciji."
+            },
+            "item2": {
+              "header": "Pogledajte pravi sadržaj",
+              "p1": "Vidjet ćete sadržaj na temelju okoline. Kada imamo točne podatke o vama, vidjet ćete relevantniji sadržaj.",
+              "p2": "Na primjer, ako ste ispravno ažurirali svoju lokaciju, vjerojatnije je da ćete prvo vidjeti postove iz okoline."
+            },
+            "cta": "Dovršavanje profila"
+          },
+          "identity": {
+            "header": "Postavljanje identiteta",
+            "desc": "Pozdravljamo sve u našoj aplikaciji, ali budući da su neke značajke korisne (i namijenjene) samo šijitskim muslimanima, ove nam informacije pomažu da vam poslužimo prave značajke. Kliknite ovdje da biste saznali više.",
+            "item1": {
+              "header": "Pristupne značajke za šijitske muslimane",
+              "p1": "Brojne značajke na našoj aplikaciji izgrađene su od šijitskih muslimana. Neki od njih su:",
+              "ul": "<li>Zahtjev za Surah-fatiha i Namaz-e-Wahshat</li><li>Khums kalkulator</li><li>Financijska pomoć (khums) za Sadat momineen</li>",
+              "p2": "Da biste pristupili tim značajkama, morate potvrditi svoj identitet (bilo sada ili, ako to odlučite, kasnije)"
+            },
+            "item2": {
+              "header": "Možete pomoći momineen u nevolji!",
+              "p1": "Čak i ako ne želite biti potvrđeni, možda postoje i drugi koji bi mogli biti potvrđeni kako bi iskoristili ove značajke.",
+              "p2": "Samo provjereni računi mogu potvrditi takav momineen. Provjera nam također pomaže u izgradnji provjerene šijitske zajednice."
+            },
+            "item3": {
+              "header": "Vaši podaci su uvijek privatni",
+              "p1": "<strong>Razumijemo da je ovo osjetljiva informacija</strong> i nikada nećemo javno izložiti te podatke bez vašeg pristanka, ali zaključci se i dalje ponekad mogu donijeti. Na primjer, kada zatražite potvrdu od drugih momineena, znat će da ste šiit.",
+              "p2": "Možete kliknuti donji gumb da biste pročitali više o našem procesu."
+            },
+            "cta": "Podešavanje"
+          }
+        },
+        "idSetup": {
+          "header": "Skoro sam gotov!",
+          "desc": "Ovaj korak možete preskočiti ako ste zadovoljni našim unaprijed postavljenim vrijednostima za postavke privatnosti i komunikacije. Ipak, ne škodi pogledati!",
+          "privacy": {
+            "header": "Postavljanje privatnosti",
+            "p1": "Definirajte što drugi mogu vidjeti:",
+            "ul": "<li>Postavite postavke vidljivosti za svoje postove. Definira može li vaše postove vidjeti bilo tko na Bazmu ili izvan njega (npr. Kada ih netko podijeli na drugoj platformi)</li><li>Postavite tko što može vidjeti kada posjeti vaš profil</li><li>Postavljanje prikaza podataka drugima</li>"
+          },
+          "comm": {
+            "header": "Postavljanje komunikacijskih postavki",
+            "p1": "Definirajte kako i kada želite da komuniciramo s vama:",
+            "ul": "<li>Postavljanje preferenci obavijesti</li><li>Pretplata ili otkazivanje pretplate na obavijesti o porukama e-pošte</li><li>Pretplata ili otkazivanje pretplate na podsjetnike</li>"
+          },
+          "cta": "Podešavanje"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Potvrda mobitela",
+            "desc": "Kliknite donju vezu da biste potvrdili svoj broj mobitela:",
+            "cta": "Pokretanje mobilne provjere",
+            "completed": "Mobilna provjera uspješno provjerena"
+          },
+          "email": {
+            "header": "Potvrda e-pošte",
+            "desc": "Kliknite donju vezu da biste dobili e-poštu za potvrdu u pristigloj pošti.",
+            "cta": "Pokretanje mobilne provjere",
+            "completed": "Mobilna provjera uspješno provjerena",
+            "form": {
+              "inputLabel": "Vaša e-pošta:",
+              "ph": "Unesite svoju e-poštu",
+              "cta": "Veza za potvrdu e-pošte"
+            },
+            "sent": {
+              "desc": "E-poruka je poslana na vašu adresu e-pošte u nastavku. Kliknite vezu u e-pošti da biste potvrdili svoju adresu e-pošte.",
+              "incorrect": "Neispravna e-pošta?",
+              "change": "Mijenjati"
+            },
+            "resendCta": "Ponovno slanje e-pošte",
+            "openEmailCta": "Otvori e-poštu",
+            "verified": "E-pošta je uspješno potvrđena!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Dovrši postavljanje računa",
+        "desc": "Otključajte značajke za svoj račun dovršavanjem postavljanja računa. To morate učiniti samo jednom i to vam pomaže potvrditi vaše podatke, vaš identitet i postaviti opcije privatnosti za vas.",
+        "gotoPageCta": "Nastavi instalaciju",
+        "dontRemind": "Nemoj me više podsjećati",
+        "dismissCta": "Kasnije",
+        "jsConfirmSkip": {
+          "header": "Želite li nastaviti kasnije?",
+          "msg": "Dovršavanjem ovog koraka otključat ćete mnoge značajke u aplikaciji, ali ovaj korak možete dovršiti i kasnije. Samo idite na karticu 'Korisnik' i nastavite odatle.",
+          "btns": {
+            "confirm": "Da, kasnije.",
+            "cancel": "Učinite to sada"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Postavljanje identiteta",
+        "form": {
+          "religion": {
+            "label": "Odaberite svoju religiju:",
+            "infoText": "Brojne značajke relevantne samo za muslimane temelje se na tim informacijama. Ti će podaci biti vidljivi samo vama; Međutim, i dalje se mogu donositi zaključci (kao što je kada koristite jednu od značajki dostupnih samo muslimanima)",
+            "muslim": "Musliman",
+            "nonMuslim": "Nemuslimanski"
+          },
+          "sect": {
+            "label": "Odaberite sektu",
+            "infoText": "Značajke kao što su Zahtjev za <strong>Ziyarat, Zahtjev za pomoć, Khums izračun itd.</strong> zahtijevaju da potvrdite svoj šijitski identitet. Također, neprovjereni korisnici imaju ograničen pristup značajkama.",
+            "shia": "Shia",
+            "sunni": "Ne-šijiti"
+          },
+          "thanksNonMuslim": "Hvala što ste pokazali interes za pridruživanje našoj aplikaciji. Nadamo se da ćete ovdje pronaći koristan sadržaj. Molimo vas da pokažete poštovanje prema zajednici i pridržavate se naših pravila.",
+          "sadat": {
+            "label": "Jesi li ti Sadat?",
+            "infoText": "Ove se informacije koriste u značajkama namijenjenim sadat-šijitskim muslimanima. Međutim, nikada se nikome ne prikazuje. Morat ćete potvrditi svoj sadat status prije nego što možete koristiti ove usluge.",
+            "sadat": "Da",
+            "nonSadat": "Ne"
+          },
+          "requested": "Zatražena provjera",
+          "required": "Potrebna je provjera",
+          "verifyInfo": {
+            "modalCta": "Što je to?",
+            "p1": "Da biste dobili pristup značajkama namijenjenim šijitskim muslimanima, morate potvrditi svoj šijitski identitet.",
+            "p2": "Ako ste Shia-Sadat, morat ćete i to potvrditi. Možete ga upariti u istom zahtjevu za potvrdu; jednostavno odaberite <strong>Sadat</strong> gore."
+          },
+          "verifyCta": "Ovjeriti",
+          "skipInfo": "Ako ne želite koristiti navedene značajke, možete preskočiti provjeru. Da biste ažurirali samo podatke, kliknite <strong>Spremi i nastavi</strong>",
+          "thankSunni": {
+            "p1": "Hvala što ste pokazali interes za našu aplikaciju. Unatoč tim svjetovnim podjelama, svi muslimani su braća u vjeri i pripadaju istoj Ummahi proroka Muhameda (PBUH)",
+            "p2": "Nadamo se da će vam sadržaj ovdje biti koristan i da nam pomaže da se bolje razumijemo.",
+            "p3": "Za bilo kakav upit / nedoumice u vezi s našim pravilima ili bilo čime drugim, uvijek nam se možete obratiti."
+          }
+        },
+        "cta": [
+          "Spasiti",
+          "Spremi i nastavi"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Provjera računa za {name}",
+        "heading": "Možete li odgovoriti u nastavku informacije o {firstName}? Ako ne, odbijte ovaj zahtjev.",
+        "desc": "Imate samo dva pokušaja provjere!",
+        "descP1": "Kada pošaljete ovaj obrazac, uskladit ćemo podatke s onim što {firstName} pružiti prilikom traženja provjere. Obratite pažnju jer imate samo dva pokušaja ispravnog ispunjavanja ovog obrasca. Ako i dalje ne uspijete, ubuduće više nećete moći potvrditi {firstName} .",
+        "descP2": "Ako ne znate {firstName}, odbijte ovaj zahtjev. Obavijestit ćemo ih i zamoliti da dođu do nekog drugog.",
+        "rejectRequestCta": "Zahtjev za odbijanje",
+        "form": {
+          "heading": "Odgovorite na sljedeća pitanja o {firstName} i kliknite Pošalji:",
+          "q1": "Kako poznajete {firstName}?",
+          "q2": "Religija:",
+          "q3": "Sekta:",
+          "q4": "Je li {firstName} Sadat?",
+          "q5": "Želite li još nešto dodati?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Vaše postavke privatnosti",
+        "privacy": {
+          "header": "Postavke privatnosti",
+          "desc": "Postavite tko može vidjeti praćenje od vas ili na vašem računu:",
+          "form": {
+            "posts": "Vaši postovi",
+            "status": "Ažuriranja statusa",
+            "requests": "Vaši zahtjevi",
+            "relationship": "Vaš status veze",
+            "birthday": "Datum rođenja (ne godina)",
+            "location": "Vaša lokacija"
+          },
+          "disclaimer": {
+            "heading": "* O tome se još uvijek mogu donijeti zaključci",
+            "p": "Iako su te informacije možda skrivene na vašem profilu, neki se zaključci još uvijek mogu donijeti. Na primjer, ako se vaš post pojavi korisniku, može zaključiti da živite blizu (ovisno o tome gdje se taj post pojavljuje u njegovom feedu)"
+          },
+          "values": {
+            "everyone": "Svatko",
+            "users": "Samo Momineen",
+            "shias": "Samo šijiti",
+            "me": "Samo ja"
+          }
+        },
+        "comm": {
+          "header": "Postavke komunikacije",
+          "desc": "Postavite kako želite da vas komuniciraju",
+          "form": {
+            "push": {
+              "header": "Automatske obavijesti",
+              "nearby": "Za objave obližnjih korisnika",
+              "daily": "Naša dnevna ažuriranja"
+            },
+            "email": {
+              "header": "Obavijesti e-poštom",
+              "weekly": "Tjedni bilten",
+              "monthly": "Mjesečne zbirne poruke e-pošte"
+            },
+            "cta": "Ažurirati"
+          }
+        },
+        "js": {
+          "changeSaved": "Promjene su uspješno spremljene"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Odbiti",
+        "title": "Odbijanje zahtjeva",
+        "reasonLabel": "Zašto ne želite potvrditi ovaj račun?",
+        "reasonPh": "Obavijestit ćemo {userName} i zamoliti ih da se obrate nekome drugome radi provjere"
+      },
+      "haadiHome": {
+        "title": "Započnite raspravu | Vaši razgovori s Haadijem",
+        "item": {
+          "added": "Dodano {date}",
+          "tokensUsed": "Korišteni tokeni: {tokens}",
+          "readContinue": "Čitanje ili nastavak rasprave"
+        },
+        "blank": {
+          "heading": "Započni novu raspravu",
+          "desc": "Nemate prethodnih razgovora. Započnite novu raspravu slanjem upita u nastavku."
+        },
+        "introLink": "Pročitajte više o Haadiju ili",
+        "inputPh": "Započni novu raspravu",
+        "quesHelp": {
+          "invalid": "Pitanja s 5 ili više riječi imaju više smisla..",
+          "goodLen": "To izgleda kao dobro pitanje!",
+          "excellent": "Nikad ne škodi objasniti svoje pitanje. Čast!"
+        }
+      },
+      "askHaadi": {
+        "title": "Pitajte Haadija",
+        "infoText": "Da biste završili ovu raspravu i započeli novi razgovor, kliknite donji gumb",
+        "newChatCTA": "Nova rasprava",
+        "inputPH": "Postavite pitanje",
+        "empty": {
+          "heading": "Ovaj razgovor nije moguće pronaći",
+          "p1": "Došlo je do pogreške prilikom pokušaja dohvaćanja ovog razgovora. Provjerite URL i pokušajte ponovno.",
+          "p2": "Ako se to nastavi, ljubazno nas kontaktirajte."
+        },
+        "jsNewChatInfo": "Ovo je početak novog razgovora s Haadijem. Odabrali ste omogućiti kontekst za Haadija dok odgovarate na vaša pitanja. Tu mogućnost uvijek možete onemogućiti u postavkama ili vidjeti što to znači za vas."
+      },
+      "aboutHaadi": {
+        "title": "Upoznajte Haadija, svog botfrienda za navigaciju šijitskim islamom!",
+        "desc": "Kliknite svaki od ovih sažetaka da biste pročitali više ili pronašli više o Haadiju i uvjetima korištenja u <a href={blogLink} target ='_system'>naš blog",
+        "agreement": "Razumijem i slažem se s Uvjetima korištenja"
       }
     },
     "authPage": {
