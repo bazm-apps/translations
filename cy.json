@@ -66,9 +66,22 @@
           "cta": "Adnewyddu"
         },
         "jsImgUploaded": "Delwedd wedi ei uwchlwytho'n llwyddiannus!",
-        "jsImgUploadErr": "Methodd uwchlwytho delweddau. Ceisiwch eto nes ymlaen."
+        "jsImgUploadErr": "Methodd uwchlwytho delweddau. Ceisiwch eto nes ymlaen.",
+        "jsLoadingDelay": "Mae'n cymryd ychydig yn hirach na'r disgwyl. Os gwelwch yn dda aros wrth i ni brosesu'r cais hwn."
       },
-      "unknown": "Anhysbys"
+      "unknown": "Anhysbys",
+      "close": "Cau",
+      "yes": "Ie",
+      "no": "Na",
+      "idk": "Dwi ddim yn gwybod",
+      "completed!": "Cwblhau!",
+      "pushPrompt": {
+        "heading": "Aros yn gyfoes",
+        "desc": "Fel yr hyn rydych chi'n ei weld? Peidiwch byth â cholli diweddariad ac arhoswch yn ymwybodol o bopeth sy'n digwydd gyda hysbysiadau.<br />A allwn ni anfon hysbysiadau atoch chi?",
+        "cancelCta": "Gofynnwch i mi yn nes ymlaen",
+        "okCta": "Sicr!",
+        "jsPushUnsupported": "Gwthio heb ei gefnogi ar y ddyfais hon. Efallai y byddwch chi'n colli hysbysiadau!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Larymau yn gosod yn llwyddiannus",
           "jsAlarmSetError": "Camgymeriad wrth osod larymau. Ceisiwch eto nes ymlaen.",
-          "jsAlarmSnoozed": "Larwm wedi'i snoozio am 10 munud"
+          "jsAlarmSnoozed": "Larwm wedi'i snoozio am 10 munud",
+          "sunriseLabel": "Codiad yr haul",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Cartref"
         },
         "alarmSetting": {
           "title": "Gosodiadau Larwm",
@@ -398,7 +415,10 @@
           "addGender": "Ychwanegu rhywedd",
           "addBday": "Ychwanegu pen-blwydd",
           "addRelation": "Ychwanegu Perthynas",
-          "joinDate": "Ymunodd: {date}"
+          "joinDate": "Ymunodd: {date}",
+          "privateInfoDesc": "Mae'r wybodaeth hon yn weladwy i chi yn unig ac rydych chi'n gweld cynnwys a nodweddion yn seiliedig ar hyn.",
+          "idSetupCta": "Sefydlu eich hunaniaeth",
+          "idVerifyCta": "Gwireddu"
         },
         "posts": {
           "title": "Swyddi",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Wyt ti'n siŵr?",
           "jsDeletePrompt": "Bydd dileu cofnodion ar gyfer <b>{fullName}</b> hefyd yn dileu'r holl geisiadau blaenorol a wnaed am {gender}! Parhau?",
           "jsDeleted": "Deleted records for {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Gwiriwch eich hunaniaeth Shia | Gwiriwch eich hunaniaeth Sadat",
+          "p1": "Rydych chi wedi nodi yn eich proffil eich bod chi'n Mwslimaidd Shia. Bydd gwirio'r wybodaeth hon yn galluogi mwy o nodweddion i chi ac yn ein helpu i adeiladu cymuned wedi'i dilysu o Fwslimiaid Shia.",
+          "p2": "Gwiriwch eich hunaniaeth yn garedig; Ni fydd yn cymryd llawer o amser",
+          "noReminder": "Peidiwch â'm hatgoffa eto",
+          "dismissCta": "Ddim nawr",
+          "startCta": "Cychwyn"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Mae angen i chi gael eich gwirio yn gyntaf cyn y gallwch wirio eraill!",
+          "jsLinkExpired": "Mae'r ddolen hon naill ai'n annilys neu mae wedi dod i ben. Gofynnwch i'ch ffrind anfon cais newydd.",
+          "confirm": {
+            "heading": "Gwirio Hunaniaeth Cyfrif",
+            "msg": "Help {firstName} gael {genderLabel1} wybodaeth cyfrif gwirio. Bydd hyn yn galluogi {genderLabel2} i gael mynediad at fwy o nodweddion ar ein gwefan.",
+            "jsSkip": "Dim problem. Os byddwch yn newid eich meddwl, gallwch ailedrych ar y ddolen hon i wirio yn nes ymlaen."
+          }
+        },
+        "myKhums": {
+          "title": "My Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Anfon OTP",
         "backToLoginCta": "Yn ôl i Login",
         "disclaimerText": "Nodwch y cewch {eitem} yn unig os oes gennych yr {eitem} sydd wedi cofrestru gyda ni",
-        "jsMailSent": "Anfon post"
+        "jsMailSent": "Anfon post",
+        "title2": "Hawliwch eich cyfrif",
+        "claimIntroHeading": "Hawliwch eich cyfrif yn gyflym!",
+        "claimIntroText": "Diolch am ymuno â ni. Rydym wedi creu cyfrif i chi nawr. Cael mynediad i'ch cyfrif trwy ailosod ei gyfrinair gan ddefnyddio un o'r dulliau canlynol:"
       },
       "resetPwd": {
         "title": "Ailosod Cyfrinair",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Dewis Gwlad",
         "searchPH": "Chwiliwch wlad yn ôl enw neu deial-god"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Cwblhewch eich proffil",
+            "desc": "Mae gan broffiliau anghyflawn fynediad cyfyngedig i nodweddion ar ein gwefan. Mae diweddaru eich proffil yn eich helpu mewn sawl ffordd. Cliciwch yma i gael gwybod mwy.",
+            "item1": {
+              "header": "Proffiliau cyflawn yn cael eu gwirio'n hawdd",
+              "p1": "Wrth ofyn am ddilysu cyfrif (y cam nesaf), mae'n helpu eraill i'ch gwirio'n hawdd pan fyddant naill ai'n eich adnabod neu'n gallu gweld yr holl wybodaeth angenrheidiol i'w gwirio amdanoch chi.",
+              "p2": "Mae proffiliau anghyflawn yn cymryd llawer mwy o amser i gael eu gwirio. Ni fyddem am i chi gael eich rhwystro rhag defnyddio nodweddion ar ein gwefan."
+            },
+            "item2": {
+              "header": "Gweld y cynnwys cywir",
+              "p1": "Rydych chi'n gweld cynnwys yn seiliedig ar eich cwmpas. Pan fydd gennym wybodaeth gywir amdanoch chi, byddwch yn gweld cynnwys mwy perthnasol.",
+              "p2": "Er enghraifft, os ydych chi wedi diweddaru'ch lleoliad yn gywir, byddwch yn fwy tebygol o weld postiadau o'ch cwmpas yn gyntaf."
+            },
+            "cta": "Cwblhewch eich proffil"
+          },
+          "identity": {
+            "header": "Sefydlu eich hunaniaeth",
+            "desc": "Rydym yn croesawu pawb ar ein ap, ond oherwydd bod rhai nodweddion yn ddefnyddiol (ac yn golygu) ar gyfer Mwslimiaid Shia yn unig, mae'r wybodaeth hon yn ein helpu i wasanaethu'r nodweddion cywir i chi. Cliciwch yma i gael gwybod mwy.",
+            "item1": {
+              "header": "Nodweddion mynediad ar gyfer mwslimiaid Shia",
+              "p1": "Mae nifer o nodweddion ar ein app wedi'u hadeiladu o fwslimiaid Shia. Dyma rai ohonynt:",
+              "ul": "<li>Cais am Surah-fatiha a Namaz-e-Wahshat</li><li>Cyfrifiannell Khums</li><li>Cymorth ariannol (khums) ar gyfer Sadat momineen</li>",
+              "p2": "I gael mynediad at y nodweddion hyn, mae angen i chi wirio pwy ydych chi (p'un ai nawr neu, os byddwch chi'n dewis, yn nes ymlaen)."
+            },
+            "item2": {
+              "header": "Gallwch helpu i leddfu mewn angen!",
+              "p1": "Hyd yn oed os nad ydych am gael eich gwirio, efallai y bydd eraill a allai fod eisiau cael eu gwirio i fanteisio ar y nodweddion hyn.",
+              "p2": "Dim ond cyfrifon wedi'u gwirio sy'n gallu gwirio momineen o'r fath. Mae dilysu hefyd yn ein helpu i adeiladu cymuned Shia wedi'i dilysu."
+            },
+            "item3": {
+              "header": "Mae eich gwybodaeth bob amser yn breifat",
+              "p1": "Rydym yn deall bod hon yn wybodaeth sensitif ac ni fyddwn byth yn datgelu'r <strong>wybodaeth hon yn</strong> gyhoeddus heb eich caniatâd, ond gellir dod o hyd i gasgliadau weithiau. Er enghraifft, pan fyddwch chi'n gofyn am ddilysu gan momineen eraill, byddant yn gwybod eich bod yn Shia.",
+              "p2": "Gallwch glicio ar y botwm isod i ddarllen mwy am ein proses."
+            },
+            "cta": "Gosod"
+          }
+        },
+        "idSetup": {
+          "header": "Wedi'i wneud bron !",
+          "desc": "Gallwch hepgor y cam hwn os ydych chi'n hapus â'n gwerthoedd rhagosodedig ar gyfer eich gosodiadau preifatrwydd a chyfathrebu. Nid yw'n brifo i edrych!",
+          "privacy": {
+            "header": "Gosodwch eich preifatrwydd",
+            "p1": "Disgrifiwch yr hyn y gall eraill ei weld:",
+            "ul": "<li>Gosod gosodiadau gwelededd ar gyfer eich swyddi. Mae'n diffinio a all unrhyw un weld eich swyddi ar neu oddi ar Bazm (ee, pan fydd rhywun yn ei rannu ar blatfform arall)</li><li>Gosod pwy sy'n gallu gweld beth pan fyddant yn ymweld â'ch proffil</li><li>Sut mae eich gwybodaeth yn ymddangos i eraill</li>"
+          },
+          "comm": {
+            "header": "Gosod gosodiadau cyfathrebu",
+            "p1": "Disgrifiwch sut a phryd yr hoffech i ni gyfathrebu â chi:",
+            "ul": "<li>Gosod eich dewisiadau hysbysiadau</li><li>Tanysgrifio neu ddad-danysgrifio i hysbysiadau o negeseuon e-bost</li><li>Tanysgrifio neu ddad-danysgrifio i atgoffa</li>"
+          },
+          "cta": "Gosod"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Gwiriwch eich ffôn symudol",
+            "desc": "Cliciwch ar y ddolen isod i wirio eich rhif ffôn symudol:",
+            "cta": "Dechrau dilysu symudol",
+            "completed": "Gwirio symudol yn llwyddiannus"
+          },
+          "email": {
+            "header": "Gwiriwch eich e-bost",
+            "desc": "Cliciwch ar y ddolen isod i gael e-bost gwirio yn eich blwch derbyn.",
+            "cta": "Dechrau dilysu symudol",
+            "completed": "Gwirio symudol yn llwyddiannus",
+            "form": {
+              "inputLabel": "Eich e-bost:",
+              "ph": "Rhowch eich e-bost",
+              "cta": "Cyswllt gwirio e-bost"
+            },
+            "sent": {
+              "desc": "Anfonwyd e-bost at eich cyfeiriad e-bost isod. Cliciwch ar y ddolen yn eich e-bost i wirio eich cyfeiriad e-bost.",
+              "incorrect": "E-bost anghywir?",
+              "change": "Newid"
+            },
+            "resendCta": "Ail-anfon E-bost",
+            "openEmailCta": "E-bost Agored",
+            "verified": "Gwirio e-bost yn llwyddiannus!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Setup Cyfrif Cyflawn",
+        "desc": "Datgloi nodweddion ar gyfer eich cyfrif trwy orffen eich setup cyfrif. Dim ond unwaith y mae'n rhaid i chi ei wneud ac mae'n helpu i wirio eich manylion, eich hunaniaeth a sefydlu dewisiadau preifatrwydd i chi.",
+        "gotoPageCta": "Parhau i Setup",
+        "dontRemind": "Peidiwch â'm hatgoffa eto",
+        "dismissCta": "Hwyrach",
+        "jsConfirmSkip": {
+          "header": "Parhau'n ddiweddarach?",
+          "msg": "Bydd cwblhau'r cam hwn yn datgloi llawer o nodweddion i chi ar yr ap, ond gallwch gwblhau'r cam hwn yn ddiweddarach hefyd. Ewch i'r tab 'Defnyddiwr' a pharhau oddi yno.",
+          "btns": {
+            "confirm": "Ie, yn ddiweddarach",
+            "cancel": "Ei wneud yn awr"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Sefydlu Eich Hunaniaeth",
+        "form": {
+          "religion": {
+            "label": "Dewiswch eich crefydd:",
+            "infoText": "Mae nifer o nodweddion sy'n berthnasol i Fwslimiaid yn unig yn seiliedig ar y wybodaeth hon. Bydd y data hwn yn weladwy i chi yn unig; Fodd bynnag, gellir dod o hyd i gasgliadau (fel, pan fyddwch chi'n defnyddio un o'r nodweddion sydd ar gael ar gyfer Mwslimiaid yn unig)",
+            "muslim": "Mwslim",
+            "nonMuslim": "An-Fwslimaidd"
+          },
+          "sect": {
+            "label": "Dewiswch eich sect",
+            "infoText": "Mae nodweddion fel Cais am <strong>Ziyarat, Cais am gymorth, cyfrifo Khums, ac ati yn</strong> gofyn i chi wirio'ch hunaniaeth Shia. Hefyd, mae gan ddefnyddwyr heb eu gwirio fynediad cyfyngedig at nodweddion.",
+            "shia": "Shia",
+            "sunni": "Di-Shia"
+          },
+          "thanksNonMuslim": "Diolch am ddangos diddordeb mewn ymuno â'n gwefan. Rydym yn gobeithio y byddwch yn dod o hyd i gynnwys defnyddiol yma. Dangoswch barch at y gymuned a chydymffurfio â'n rheolau.",
+          "sadat": {
+            "label": "Wyt ti'n Sadat?",
+            "infoText": "Defnyddir y wybodaeth hon mewn nodweddion a olygir ar gyfer Mwslimiaid Sadat-shia. Fodd bynnag, nid yw byth yn cael ei arddangos fel y mae i unrhyw un. Bydd angen i chi wirio eich statws sadat cyn y gallech fanteisio ar y gwasanaethau hyn.",
+            "sadat": "Ie",
+            "nonSadat": "Na"
+          },
+          "requested": "Gofyn am ddilysu",
+          "required": "Angen dilysu",
+          "verifyInfo": {
+            "modalCta": "Beth yw hyn?",
+            "p1": "Er mwyn cael mynediad at nodweddion a olygir ar gyfer mwslimiaid Shia, mae angen i chi wirio'ch hunaniaeth Shia.",
+            "p2": "Os ydych chi'n Shia-Sadat, bydd angen i chi wirio hynny hefyd. Gallwch ei baru yn yr un cais dilysu; Dewiswch <strong>Sadat</strong> uchod."
+          },
+          "verifyCta": "Gwireddu",
+          "skipInfo": "Gallwch hepgor dilysu os nad ydych am ddefnyddio'r nodweddion a grybwyllwyd. I ddiweddaru eich gwybodaeth yn unig, cliciwch <strong>Cadw a Parhau</strong>",
+          "thankSunni": {
+            "p1": "Diolch am ddangos diddordeb yn ein gwefan. Er gwaethaf y rhaniadau bydol hyn, mae'r holl Fwslimiaid yn frodyr mewn ffydd ac yn perthyn i'r un Ummah o Proffwyd Muhammad (PBUH)",
+            "p2": "Rydym yn gobeithio y byddwch yn dod o hyd i gynnwys yma yn ddefnyddiol ac mae'n ein helpu i ddeall ein gilydd yn well.",
+            "p3": "Ar gyfer unrhyw ymholiad/pryderon am ein polisïau neu unrhyw beth o gwbl, gallwch gysylltu â ni bob amser."
+          }
+        },
+        "cta": [
+          "Achub",
+          "Cadw a pharhau"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Gwirio cyfrif ar gyfer {name}",
+        "heading": "Allwch chi ateb y wybodaeth isod am {firstName}? Os na, gwrthodwch y cais hwn.",
+        "desc": "Dim ond dau ymgais sydd gennych i wirio!",
+        "descP1": "Pan fyddwch yn cyflwyno'r ffurflen hon, byddwn yn paru'r wybodaeth â'r hyn a ddarparwyd {firstName} wrth ofyn am ddilysiad. Rhowch sylw oherwydd dim ond dau ymgais sydd gennych i lenwi'r ffurflen hon yn gywir. Os byddwch yn dal i fethu, ni fyddwch yn gallu gwirio' {firstName} eto yn y dyfodol.",
+        "descP2": "Os nad ydych chi'n gwybod {firstName}, yna gwrthodwch y cais hwn. Byddwn yn rhoi gwybod iddynt ac yn gofyn iddynt gyrraedd rhywun arall.",
+        "rejectRequestCta": "Gwrthod Cais",
+        "form": {
+          "heading": "Atebwch y cwestiynau canlynol am {firstName} a chliciwch Cyflwyno:",
+          "q1": "Sut ydych chi'n gwybod {firstName}?",
+          "q2": "Crefydd:",
+          "q3": "Enwad:",
+          "q4": "A yw {firstName} Sadat?",
+          "q5": "Unrhyw beth arall yr hoffech ei ychwanegu?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Eich gosodiadau preifatrwydd",
+        "privacy": {
+          "header": "Gosodiadau Preifatrwydd",
+          "desc": "Gosodwch pwy all weld canlynol gennych chi neu yn eich cyfrif:",
+          "form": {
+            "posts": "Eich swyddi",
+            "status": "Eich diweddariadau statws",
+            "requests": "Eich ceisiadau",
+            "relationship": "Eich statws perthynas",
+            "birthday": "Eich dyddiad geni (nid blwyddyn)",
+            "location": "Eich lleoliad"
+          },
+          "disclaimer": {
+            "heading": "* Gellir dod i gasgliadau am hyn o hyd",
+            "p": "Er y gall y wybodaeth hon fod wedi'i chuddio ar eich proffil, gellir gwneud rhai casgliadau o hyd. Er enghraifft, os yw'ch swydd yn ymddangos i ddefnyddiwr, gallant gasglu eich bod yn byw'n agos (yn seiliedig ar ble mae'r swydd honno'n ymddangos yn eu porthiant)"
+          },
+          "values": {
+            "everyone": "Pawb",
+            "users": "Dim ond Momineen",
+            "shias": "Dim ond Shias",
+            "me": "Dim ond fi"
+          }
+        },
+        "comm": {
+          "header": "Gosodiadau Cyfathrebu",
+          "desc": "Gosod sut hoffech chi gael eich cyfathrebu",
+          "form": {
+            "push": {
+              "header": "Hysbysiadau gwthio",
+              "nearby": "Ar gyfer swyddi gan ddefnyddwyr cyfagos",
+              "daily": "Ein diweddariadau dyddiol"
+            },
+            "email": {
+              "header": "Hysbysiadau e-bost",
+              "weekly": "Cylchlythyr wythnosol",
+              "monthly": "E-byst cryno misol"
+            },
+            "cta": "Diweddaru"
+          }
+        },
+        "js": {
+          "changeSaved": "Arbedwyd newidiadau yn llwyddiannus"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Gwrthod",
+        "title": "Gwrthod cais",
+        "reasonLabel": "Pam nad ydych chi am wirio'r cyfrif hwn?",
+        "reasonPh": "Byddwn yn rhoi gwybod i {userName}  ac yn gofyn iddynt estyn allan at rywun arall i'w wirio."
+      },
+      "haadiHome": {
+        "title": "Dechrau trafodaeth | Eich trafodaethau gyda Haadi",
+        "item": {
+          "added": "Ychwanegwyd {date}",
+          "tokensUsed": "Tocynnau a ddefnyddir: {tokens}",
+          "readContinue": "Darllen neu barhau trafodaeth"
+        },
+        "blank": {
+          "heading": "Cychwyn trafodaeth newydd",
+          "desc": "Nid ydych wedi cael unrhyw sgyrsiau blaenorol. Dechreuwch drafodaeth newydd drwy gyflwyno eich ymholiad isod."
+        },
+        "introLink": "Darllenwch fwy am Haadi, neu",
+        "inputPh": "Cychwyn trafodaeth newydd",
+        "quesHelp": {
+          "invalid": "Mae cwestiynau gyda 5 neu fwy o eiriau yn gwneud mwy o synnwyr.",
+          "goodLen": "Mae'n edrych fel cwestiwn da!",
+          "excellent": "Nid yw byth yn brifo i esbonio eich cwestiwn. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Gofynnwch i Haadi",
+        "infoText": "I orffen y drafodaeth hon a dechrau sgwrs newydd, cliciwch y botwm isod",
+        "newChatCTA": "Trafodaeth Newydd",
+        "inputPH": "Gofyn cwestiwn",
+        "empty": {
+          "heading": "Methu dod o hyd i'r sgwrs hon",
+          "p1": "Digwyddodd camgymeriad wrth geisio cael y sgwrs hon. Gwiriwch yr URL a rhowch gynnig arni eto.",
+          "p2": "Os bydd hyn yn digwydd, cysylltwch â ni yn garedig."
+        },
+        "jsNewChatInfo": "Dyma ddechrau sgwrs newydd gyda Haadi. Rydych chi wedi dewis galluogi cyd-destun i Haadi wrth ateb eich cwestiynau. Gallwch chi bob amser analluogi'r opsiwn hwn mewn lleoliadau, neu weld beth mae hyn yn ei olygu i chi."
+      },
+      "aboutHaadi": {
+        "title": "Cwrdd â Haadi, eich botfriend i lywio Islam Shia!",
+        "desc": "Cliciwch ar bob un o'r crynodebau hyn i ddarllen mwy, neu ddarganfod mwy am Haadi a thelerau defnyddio yn <a href={blogLink} target='_system'>ein blog",
+        "agreement": "Rwy'n deall ac yn cytuno â'r Telerau Defnyddio"
       }
     },
     "authPage": {
