@@ -66,9 +66,22 @@
           "cta": "Aġġorna"
         },
         "jsImgUploaded": "L-immaġni mtella 'b'suċċess!",
-        "jsImgUploadErr": "It-tlugħ tal-immaġni falla. Jekk jogħġbok erġa' pprova aktar tard."
+        "jsImgUploadErr": "It-tlugħ tal-immaġni falla. Jekk jogħġbok erġa' pprova aktar tard.",
+        "jsLoadingDelay": "Qed jieħu daqsxejn itwal milli mistenni. Stenna ftit sakemm nipproċessaw din it-talba."
       },
-      "unknown": "Mhux magħruf"
+      "unknown": "Mhux magħruf",
+      "close": "Qrib",
+      "yes": "Iva",
+      "no": "Le",
+      "idk": "Ma nafx",
+      "completed!": "Kompletati!",
+      "pushPrompt": {
+        "heading": "Ibqa' aġġornat",
+        "desc": "Bħal dak li tara? Qatt titlef aġġornament u tibqa 'notifikat dwar dak kollu li jiġri man-notifiki.<br />Nistgħu nibagħtulek notifiki?",
+        "cancelCta": "Staqsini aktar tard",
+        "okCta": "Żgur!",
+        "jsPushUnsupported": "Imbotta mhux appoġġjat fuq dan it-tagħmir. Tista' titlef in-notifiki!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "L-allarmi jissettjaw b'suċċess",
           "jsAlarmSetError": "Żball fl-issettjar tal-allarmi. Jekk jogħġbok erġa' pprova aktar tard.",
-          "jsAlarmSnoozed": "Allarm snoozed għal 10 minuti"
+          "jsAlarmSnoozed": "Allarm snoozed għal 10 minuti",
+          "sunriseLabel": "Tlugħ ix-xemx",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Dar"
         },
         "alarmSetting": {
           "title": "Issettjar ta 'l-Allarm",
@@ -398,7 +415,10 @@
           "addGender": "Żid Sess",
           "addBday": "Żid Għeluq is-Sena",
           "addRelation": "Żid Relazzjoni",
-          "joinDate": "Ingħaqad: {date}"
+          "joinDate": "Ingħaqad: {date}",
+          "privateInfoDesc": "Din l-informazzjoni hija viżibbli għalik biss u tara kontenut u karatteristiċi bbażati fuq dan.",
+          "idSetupCta": "Issettja l-identità tiegħek",
+          "idVerifyCta": "Jivverifikaw"
         },
         "posts": {
           "title": "Postijiet",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Żgur?",
           "jsDeletePrompt": "It-tħassir tar-rekords għal <b>{fullName}</b> iħassar ukoll it-talbiet kollha preċedenti li jsiru għal {gender}! Tkompli?",
           "jsDeleted": "Rekords imħassra għal {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Ivverifika l-identità Shia tiegħek -— Ivverifika l-identità Sadat tiegħek",
+          "p1": "Int indikajt fil-profil tiegħek li int Musulman Shia. Li jkollok din l-informazzjoni vverifikata tippermetti aktar karatteristiċi għalik u tgħinna nibnu komunità vverifikata ta 'Musulmani Shia.",
+          "p2": "Ġentilment ivverifika l-identità tiegħek; mhux se jieħu fit-tul",
+          "noReminder": "Terġax tfakkarni",
+          "dismissCta": "Mhux issa",
+          "startCta": "Bidu"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "L-ewwel trid tiġi vverifikat qabel ma tkun tista' tivverifika oħrajn!",
+          "jsLinkExpired": "Din il-link hija invalida jew skadiet. Jekk jogħġbok staqsik ħabib biex tibgħat talba ġdida.",
+          "confirm": {
+            "heading": "Ivverifika l-Identità tal-Kont",
+            "msg": "Għin {firstName} tikseb {genderLabel1} informazzjoni dwar il-kont ivverifikata. Dan se jippermetti lill- {genderLabel2} taċċessa aktar karatteristiċi fuq l-app tagħna",
+            "jsSkip": "Mhemmx problema. Jekk tibdel fehmtek, tista' tirrevedi din il-link biex tivverifika aktar tard."
+          }
+        },
+        "myKhums": {
+          "title": "Il-Khums tiegħi"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Ibgħat OTP",
         "backToLoginCta": "Lura għal Login",
         "disclaimerText": "Jekk jogħġbok innota li se tikseb {oġġett} biss jekk għandek il-{oġġett} irreġistrat magħna",
-        "jsMailSent": "Posta mibgħuta"
+        "jsMailSent": "Posta mibgħuta",
+        "title2": "Itlob il-kont tiegħek",
+        "claimIntroHeading": "Itlob il-kont tiegħek malajr!",
+        "claimIntroText": "Grazzi talli ngħaqadt magħna. Ħloqna kont għalik issa. Ikseb aċċess għall-kont tiegħek billi tirrisettja l-password billi tuża wieħed mill-metodi li ġejjin:"
       },
       "resetPwd": {
         "title": "Irrisettja l-Password",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Agħżel il-Pajjiż",
         "searchPH": "Il-pajjiż tat-tiftix bl-isem jew bil-kodiċi tal-iddajljar"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Imla l-profil tiegħek",
+            "desc": "Profili mhux kompluti għandhom aċċess limitat għal karatteristiċi fuq l-app tagħna. Li jkollok il-profil tiegħek aġġornat jgħinek f'numru ta 'modi. Ikklikkja hawn biex tkun taf aktar.",
+            "item1": {
+              "header": "Profili kompluti jiġu Vverifikati faċilment",
+              "p1": "Meta titlob verifika tal-kont (il-pass li jmiss), tgħin lil ħaddieħor jivverifikak faċilment meta jew ikunu jafuk jew jistgħu jaraw l-informazzjoni kollha meħtieġa għall-verifika dwarek.",
+              "p2": "Profili mhux kompluti jieħdu ħafna aktar żmien biex jiġu vverifikati. Ma rridux li tkun imblukkat milli tuża karatteristiċi fuq l-app tagħna."
+            },
+            "item2": {
+              "header": "Ara l-kontenut it-tajjeb",
+              "p1": "Tara kontenut ibbażat fuq il-madwar tiegħek. Meta jkollna informazzjoni korretta dwarek, tara kontenut aktar rilevanti.",
+              "p2": "Pereżempju, jekk aġġornajt il-post tiegħek b'mod korrett, x'aktarx tara postijiet minn madwarek l-ewwel."
+            },
+            "cta": "Imla l-profil tiegħek"
+          },
+          "identity": {
+            "header": "Issettja l-identità tiegħek",
+            "desc": "Nilqgħu lil kulħadd fuq l-app tagħna, iżda minħabba li xi karatteristiċi huma utli (u maħsuba) għall-Musulmani Xiiti biss, din l-informazzjoni tgħinna nservuk il-karatteristiċi t-tajba. Ikklikkja hawn biex tkun taf aktar.",
+            "item1": {
+              "header": "Karatteristiċi ta 'aċċess għall-Musulmani Shia",
+              "p1": "Numru ta 'karatteristiċi fuq l-app tagħna huma mibnija minn Musulmani Shia. Xi wħud minnhom huma:",
+              "ul": "<li>Talba għal Surah-fatiha u Namaz-e-Wahshat</li><li>Khums Calculator</li><li>Għajnuna finanzjarja (khums) għal Sadat momineen</li>",
+              "p2": "Biex taċċessa dawn il-karatteristiċi, jeħtieġlek tivverifika l-identità tiegħek (kemm jekk issa jew, jekk tagħżel li, aktar tard)"
+            },
+            "item2": {
+              "header": "Tista 'tgħin lil momineen fil-bżonn!",
+              "p1": "Anke jekk ma tridx tiġi vverifikat, jista 'jkun hemm oħrajn li jistgħu jkunu jridu jiġu vverifikati biex jagħmlu użu minn dawn il-karatteristiċi.",
+              "p2": "Kontijiet ivverifikati biss jistgħu jivverifikaw dan il-momineen. Il-verifika tgħinna wkoll nibnu komunità Shia vverifikata."
+            },
+            "item3": {
+              "header": "L-informazzjoni tiegħek hija dejjem privata",
+              "p1": "<strong>Aħna nifhmu li din hija informazzjoni sensittiva</strong> u qatt mhu se nesponu din l-informazzjoni pubblikament mingħajr il-kunsens tiegħek, iżda l-inferenzi xorta jistgħu jsiru kultant. Pereżempju, meta titlob verifika minn momineen ieħor, ikunu jafu li int Shia.",
+              "p2": "Tista' tikklikkja l-buttuna hawn taħt biex taqra aktar dwar il-proċess tagħna."
+            },
+            "cta": "Konfigurazzjoni"
+          }
+        },
+        "idSetup": {
+          "header": "Kważi magħmul!",
+          "desc": "Tista' taqbeż dan il-pass jekk int kuntent bil-valuri ssettjati minn qabel tagħna għall-issettjar tal-privatezza u l-komunikazzjoni tiegħek. Ma tweġġax li jkollok ħarsa għalkemm!",
+          "privacy": {
+            "header": "Issettja l-privatezza tiegħek",
+            "p1": "Iddefinixxi dak li ħaddieħor jista 'jara:",
+            "ul": "<li>Issettja l-issettjar tal-viżibilità għall-postijiet tiegħek. Jiddefinixxi jekk il-karigi tiegħek jistgħux jidhru minn xi ħadd fuq jew barra Bazm (eż. meta xi ħadd jaqsamha fuq pjattaforma oħra)</li><li>Issettja min jista' jara x'meta jżuru l-profil tiegħek</li><li>Issettja kif tidher l-informazzjoni tiegħek lil ħaddieħor</li>"
+          },
+          "comm": {
+            "header": "Issettja l-issettjar tal-komunikazzjonijiet",
+            "p1": "Iddefinixxi kif u meta tixtieqna nikkomunikaw miegħek:",
+            "ul": "<li>Issettja l-preferenzi tan-notifiki tiegħek</li><li>Abbona jew neħħi l-abbonament għal notifiki ta 'emails</li><li>Abbona jew neħħi l-abbonament għat-tfakkiriet</li>"
+          },
+          "cta": "Konfigurazzjoni"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Ivverifika l-mowbajl tiegħek",
+            "desc": "Ikklikkja fuq il-link hawn taħt biex tivverifika n-numru tal-mowbajl tiegħek:",
+            "cta": "Ibda l-verifika mobbli",
+            "completed": "Il-mowbajl ivverifikat b'suċċess"
+          },
+          "email": {
+            "header": "Ivverifika l-email tiegħek",
+            "desc": "Ikklikkja fuq il-link hawn taħt biex tikseb email ta 'verifika fl-inbox tiegħek.",
+            "cta": "Ibda l-verifika mobbli",
+            "completed": "Il-mowbajl ivverifikat b'suċċess",
+            "form": {
+              "inputLabel": "L-email tiegħek:",
+              "ph": "Daħħal l-email tiegħek",
+              "cta": "Link tal-verifika tal-email"
+            },
+            "sent": {
+              "desc": "Intbagħtet email fl-indirizz elettroniku tiegħek hawn taħt. Ikklikkja fuq il-link fl-email tiegħek biex tivverifika l-indirizz tal-email tiegħek.",
+              "incorrect": "Email Ħażin?",
+              "change": "Bidla"
+            },
+            "resendCta": "Resend Email",
+            "openEmailCta": "Iftaħ l-Email",
+            "verified": "Email ivverifikat b'suċċess!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Imla l-Konfigurazzjoni tal-Kont",
+        "desc": "Nisfruttaw il-karatteristiċi għall-kont tiegħek billi tlesti l-konfigurazzjoni tal-kont tiegħek. Trid tagħmel dan darba biss u tgħin biex tivverifika d-dettalji tiegħek, l-identità tiegħek u tissettja l-għażliet tal-privatezza għalik.",
+        "gotoPageCta": "Kompli l-Konfigurazzjoni",
+        "dontRemind": "Terġax tfakkarni",
+        "dismissCta": "Aktar tard",
+        "jsConfirmSkip": {
+          "header": "Kompli aktar tard?",
+          "msg": "It-tlestija ta 'dan il-pass tiftaħ ħafna karatteristiċi għalik fuq l-app, iżda tista' tlesti dan il-pass aktar tard ukoll. Mur biss fit-tab 'Utent' u kompli minn hemm.",
+          "btns": {
+            "confirm": "Iva, aktar tard",
+            "cancel": "Agħmel dan issa"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Issettja l-Identità Tiegħek",
+        "form": {
+          "religion": {
+            "label": "Agħżel ir-reliġjon tiegħek:",
+            "infoText": "Numru ta' karatteristiċi rilevanti biss għall-Musulmani huma bbażati fuq din l-informazzjoni. Din id-dejta tkun viżibbli għalik biss; Madankollu, xorta jistgħu jsiru inferenzi (bħal, meta tuża waħda mill-karatteristiċi disponibbli għall-Musulmani biss)",
+            "muslim": "Musulmani",
+            "nonMuslim": "Mhux Musulman"
+          },
+          "sect": {
+            "label": "Agħżel is-setta tiegħek",
+            "infoText": "Karatteristiċi bħal Talba <strong>għal Ziyarat, Talba għall-għajnuna, kalkolu Khums, eċċ jeħtieġu li tivverifika l-identità</strong> Shia tiegħek. Barra minn hekk, utenti mhux ivverifikati għandhom aċċess limitat għall-karatteristiċi.",
+            "shia": "Shia",
+            "sunni": "Mhux Shia"
+          },
+          "thanksNonMuslim": "Grazzi talli wrew interess li ningħaqdu mal-app tagħna. Nisperaw li ssib kontenut utli hawn. Jekk jogħġbok uri r-rispett lejn il-komunità u kkonforma mar-regoli tagħna.",
+          "sadat": {
+            "label": "Int Sadat?",
+            "infoText": "Din l-informazzjoni tintuża f'karatteristiċi maħsuba għall-Musulmani Sadat-shia. Madankollu, qatt ma jintwera kif inhu għal ħadd. Ikollok bżonn tivverifika l-istatus ta' sadat tiegħek qabel ma tkun tista' tuża dawn is-servizzi.",
+            "sadat": "Iva",
+            "nonSadat": "Le"
+          },
+          "requested": "Verifika mitluba",
+          "required": "Verifika meħtieġa",
+          "verifyInfo": {
+            "modalCta": "Dan x'inhu?",
+            "p1": "Biex tikseb aċċess għal karatteristiċi maħsuba għall-Musulmani Shia, trid tivverifika l-identità Shia tiegħek.",
+            "p2": "Jekk int Shia-Sadat, ikollok bżonn tivverifika dan ukoll. Tista' tgħaqqadha fl-istess talba ta' verifika; sempliċement agħżel <strong>Sadat</strong> hawn fuq."
+          },
+          "verifyCta": "Jivverifikaw",
+          "skipInfo": "Tista' taqbeż il-verifika jekk ma tixtieqx tuża l-karatteristiċi msemmija. Biex taġġorna biss l-informazzjoni tiegħek, ikklikkja <strong>Issejvja & Kompli</strong>",
+          "thankSunni": {
+            "p1": "Grazzi talli wrew interess fl-app tagħna. Minkejja dawn id-diviżjonijiet tad-dinja, il-Musulmani kollha huma aħwa fil-fidi u jappartjenu għall-istess Ummah tal-Profeta Muhammad (PBUH)",
+            "p2": "Nisperaw li ssib kontenut hawn utli u jgħinna nifhmu aħjar lil xulxin.",
+            "p3": "Għal kwalunkwe mistoqsija / tħassib dwar il-politiki tagħna jew xi ħaġa, tista 'dejjem tilħaqna."
+          }
+        },
+        "cta": [
+          "Tissejvja",
+          "Issejvja u Kompli"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Ivverifika l-kont għal {name}",
+        "heading": "Tista' twieġeb hawn taħt informazzjoni dwar {firstName}? Jekk le, allura irrifjuta din it-talba.",
+        "desc": "Għandek biss żewġ tentattivi biex tivverifika!",
+        "descP1": "Meta tissottometti din il-formola, aħna nqabblu l-informazzjoni ma 'dak li {firstName} pprovdut meta titlob verifika. Jekk jogħġbok oqgħod attent għax għandek biss żewġ tentattivi biex timla din il-formola b'mod korrett. Jekk xorta tfalli, ma tkunx tista' terġa' tivverifika {firstName} fil-futur.",
+        "descP2": "Jekk ma tafx {firstName}, allura irrifjuta din it-talba. Aħna ninfurmawhom u nitolbuhom jaslu għand xi ħadd ieħor.",
+        "rejectRequestCta": "Talba għal Ċaħda",
+        "form": {
+          "heading": "Wieġeb il-mistoqsijiet li ġejjin dwar {firstName} u kklikkja Issottometti:",
+          "q1": "Kif tkun taf {firstName}?",
+          "q2": "Reliġjon:",
+          "q3": "Setta:",
+          "q4": "{firstName} huwa Sadat?",
+          "q5": "Xi ħaġa oħra li tixtieq iżżid?"
+        }
+      },
+      "editPrefModal": {
+        "title": "L-Issettjar tal-Privatezza Tiegħek",
+        "privacy": {
+          "header": "Issettjar tal-Privatezza",
+          "desc": "Issettja min jista' jara li ġej mingħandek jew fil-kont tiegħek:",
+          "form": {
+            "posts": "Il-karigi tiegħek",
+            "status": "L-aġġornamenti ta' l-istatus tiegħek",
+            "requests": "It-talbiet tiegħek",
+            "relationship": "L-istatus tar-relazzjoni tiegħek",
+            "birthday": "Id-data tat-twelid tiegħek (mhux sena)",
+            "location": "Il-post tiegħek"
+          },
+          "disclaimer": {
+            "heading": "* L-inferenzi xorta jistgħu jsiru dwar dan",
+            "p": "Anke jekk din l-informazzjoni forsi moħbija fuq il-profil tiegħek, xorta jistgħu jsiru xi inferenzi. Pereżempju, jekk il-post tiegħek jidher lil utent, jistgħu jiddeduċu li tgħix qrib (ibbażat fuq fejn tidher dik il-kariga fl-għalf tagħhom)"
+          },
+          "values": {
+            "everyone": "Kulħadd",
+            "users": "Momineen biss",
+            "shias": "Shias biss",
+            "me": "Jien biss"
+          }
+        },
+        "comm": {
+          "header": "Issettjar tal-Komunikazzjoni",
+          "desc": "Issettja kif tixtieq tiġi kkomunikat",
+          "form": {
+            "push": {
+              "header": "Notifiki push",
+              "nearby": "Għal postijiet minn utenti fil-qrib",
+              "daily": "L-aġġornamenti tagħna ta' kuljum"
+            },
+            "email": {
+              "header": "Notifiki bl-email",
+              "weekly": "Newsletter ta' kull ġimgħa",
+              "monthly": "Emails fil-qosor ta 'kull xahar"
+            },
+            "cta": "Aġġornament"
+          }
+        },
+        "js": {
+          "changeSaved": "Bidliet issejvjati b'suċċess"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Jirrifjuta",
+        "title": "Talba għal ċaħda",
+        "reasonLabel": "Għaliex ma tridx tivverifika dan il-kont?",
+        "reasonPh": "Se nħallu lil {userName} inkunu nafu u nitolbuhom jilħqu lil xi ħadd ieħor għall-verifika"
+      },
+      "haadiHome": {
+        "title": "Ibda d-diskussjoni | Id-diskussjonijiet tiegħek ma' Haadi",
+        "item": {
+          "added": "Miżjud {date}",
+          "tokensUsed": "Tokens użati: {tokens}",
+          "readContinue": "Aqra jew kompli d-diskussjoni"
+        },
+        "blank": {
+          "heading": "Ibda diskussjoni ġdida",
+          "desc": "M'għandekx konversazzjonijiet preċedenti. Ibda diskussjoni ġdida billi tissottometti l-mistoqsija tiegħek hawn taħt."
+        },
+        "introLink": "Aqra aktar dwar Haadi, jew",
+        "inputPh": "Ibda diskussjoni ġdida",
+        "quesHelp": {
+          "invalid": "Mistoqsijiet b'5 kelmiet jew aktar jagħmlu aktar sens..",
+          "goodLen": "Dik tidher qisha mistoqsija tajba!",
+          "excellent": "Qatt ma tweġġa 'li tispjega l-mistoqsija tiegħek. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Staqsi lil Haadi",
+        "infoText": "Biex ittemm din id-diskussjoni u tibda konversazzjoni ġdida, ikklikkja l-buttuna hawn taħt",
+        "newChatCTA": "Diskussjoni Ġdida",
+        "inputPH": "Staqsi mistoqsija",
+        "empty": {
+          "heading": "Ma setax isib din il-konverżazzjoni",
+          "p1": "Sar żball waqt li kien qed jipprova jikseb din il-konversazzjoni. Iċċekkja l-URL u erġa' pprova.",
+          "p2": "Jekk dan jibqa' jiġri, ġentilment ikkuntattjana."
+        },
+        "jsNewChatInfo": "Dan huwa l-bidu ta 'konversazzjoni ġdida ma' Haadi. Int għażilt li tippermetti l-kuntest għal Haadi waqt li twieġeb il-mistoqsijiet tiegħek. Dejjem tista' tiddiżattiva din l-għażla fl-issettjar, jew tara xi jfisser għalik dan."
+      },
+      "aboutHaadi": {
+        "title": "Iltaqa 'ma' Haadi, il-botfriend tiegħek biex tinnaviga Shia islam!",
+        "desc": "Ikklikkja kull wieħed minn dawn is-sommarji biex taqra aktar, jew issib aktar dwar Haadi u termini ta 'użu fil{blogLink}mira ='_system'<a href=>blog tagħna",
+        "agreement": "Nifhem u naqbel mat-Termini tal-użu"
       }
     },
     "authPage": {
