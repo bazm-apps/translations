@@ -66,9 +66,22 @@
           "cta": "Värskenda"
         },
         "jsImgUploaded": "Pilt on edukalt üles laaditud!",
-        "jsImgUploadErr": "Pildi üleslaadimine nurjus. Proovige hiljem uuesti."
+        "jsImgUploadErr": "Pildi üleslaadimine nurjus. Proovige hiljem uuesti.",
+        "jsLoadingDelay": "See võtab oodatust natuke kauem aega. Palun oodake, kuni me seda taotlust töötleme."
       },
-      "unknown": "Tundmatu"
+      "unknown": "Tundmatu",
+      "close": "Sulgema",
+      "yes": "Jah",
+      "no": "Ei",
+      "idk": "Ma ei tea",
+      "completed!": "Lõpule viia!",
+      "pushPrompt": {
+        "heading": "Püsige asjadega kursis",
+        "desc": "Kas teile meeldib see, mida näete? Ärge kunagi jätke värskendust vahele ja olge märguannetega kursis kõigega, mis ümberringi toimub.<br />Kas saame teile teatisi saata?",
+        "cancelCta": "Küsi minult hiljem",
+        "okCta": "Kindel!",
+        "jsPushUnsupported": "Push ei toeta seda seadet. Võite märguannetest ilma jääda!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Äratused on edukalt seadistatud",
           "jsAlarmSetError": "Viga alarmide seadistamisel. Proovige hiljem uuesti.",
-          "jsAlarmSnoozed": "Äratus lükkus 10 minutiks"
+          "jsAlarmSnoozed": "Äratus lükkus 10 minutiks",
+          "sunriseLabel": "Päikesetõus",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Kodu"
         },
         "alarmSetting": {
           "title": "Alarmi seaded",
@@ -398,7 +415,10 @@
           "addGender": "Lisage sugu",
           "addBday": "Lisa sünnipäev",
           "addRelation": "Seose lisamine",
-          "joinDate": "liitunud: {date}"
+          "joinDate": "liitunud: {date}",
+          "privateInfoDesc": "See teave on nähtav ainult teile ning näete sellel põhinevat sisu ja funktsioone.",
+          "idSetupCta": "Seadistage oma identiteet",
+          "idVerifyCta": "Kontrollida"
         },
         "posts": {
           "title": "Postitusi",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Kas oled kindel?",
           "jsDeletePrompt": "<b>{fullName}</b> kirjete kustutamisel kustutatakse ka kõik varasemad {gender} kohta tehtud päringud! Jätkama?",
           "jsDeleted": "Kustutatud kirjed for {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Kontrollige oma šiiidi identiteeti -- kontrollige oma Sadati identiteeti",
+          "p1": "Olete oma profiilis märkinud, et olete šiiidi moslem. Selle teabe kontrollimine võimaldab teil rohkem funktsioone ja aitab meil luua kontrollitud šiiidi moslemite kogukonna.",
+          "p2": "Palun kontrollige oma isikut; see ei võta kaua aega",
+          "noReminder": "Ära tuleta mulle enam meelde",
+          "dismissCta": "Mitte praegu",
+          "startCta": "Alustama"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Enne kui saate teisi kinnitada, peate saama kinnituse!",
+          "jsLinkExpired": "See link on kas kehtetu või aegunud. Palun paluge oma sõbral saata uus taotlus.",
+          "confirm": {
+            "heading": "Konto identiteedi kinnitamine",
+            "msg": "Aidake {firstName} {genderLabel1} kontoteavet kinnitada. See võimaldab {genderLabel2} pääseda juurde meie rakenduse rohkematele funktsioonidele",
+            "jsSkip": "Pole probleemi. Kui muudate meelt, saate seda linki hiljem kinnitamiseks uuesti külastada."
+          }
+        },
+        "myKhums": {
+          "title": "Minu Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Saada OTP",
         "backToLoginCta": "Tagasi sisselogimise juurde",
         "disclaimerText": "Pange tähele, et saate {item} ainult siis, kui teil on {item} meie juures registreeritud",
-        "jsMailSent": "Saadetud kirjad"
+        "jsMailSent": "Saadetud kirjad",
+        "title2": "Konto väljanõudmine",
+        "claimIntroHeading": "Taotlege oma kontot kiiresti!",
+        "claimIntroText": "Täname, et liitusite meiega. Oleme teile nüüd konto loonud. Kontole juurdepääsu saamiseks lähtestage selle parool, kasutades ühte järgmistest meetoditest."
       },
       "resetPwd": {
         "title": "Lähtesta parool",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Valige riik",
         "searchPH": "Otsige riiki nime või valimiskoodi järgi"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Täitke oma profiil",
+            "desc": "Mittetäielikel profiilidel on piiratud juurdepääs meie rakenduse funktsioonidele. Profiili värskendamine aitab teid mitmel viisil. Lisateabe saamiseks klõpsake siin.",
+            "item1": {
+              "header": "Täielikud profiilid saavad hõlpsalt kinnitatud",
+              "p1": "Konto kinnitamise taotlemisel (järgmine samm) aitab see teistel teid hõlpsalt kinnitada, kui nad kas tunnevad teid või näevad kogu teie kinnitamiseks vajalikku teavet.",
+              "p2": "Mittetäielike profiilide kontrollimine võtab palju kauem aega. Me ei tahaks, et teil blokeeritaks meie rakenduse funktsioonide kasutamine."
+            },
+            "item2": {
+              "header": "Vaadake õiget sisu",
+              "p1": "Näete sisu, mis põhineb teie ümbrusel. Kui meil on teie kohta õiget teavet, näete asjakohasemat sisu.",
+              "p2": "Näiteks kui olete oma asukohta õigesti värskendanud, näete tõenäolisemalt kõigepealt oma ümbruse postitusi."
+            },
+            "cta": "Täitke oma profiil"
+          },
+          "identity": {
+            "header": "Seadistage oma identiteet",
+            "desc": "Tervitame kõiki oma rakenduses, kuid kuna mõned funktsioonid on kasulikud (ja mõeldud) ainult šiiidi moslemitele, aitab see teave meil teile õigeid funktsioone pakkuda. Lisateabe saamiseks klõpsake siin.",
+            "item1": {
+              "header": "Juurdepääsu funktsioonid šiia moslemitele",
+              "p1": "Mitmed meie rakenduse funktsioonid on ehitatud šiiidi moslemitest. Mõned neist on:",
+              "ul": "<li>Surah-fatiha ja Namaz-e-Wahshati taotlus</li><li>Khumsi kalkulaator</li><li>Rahaline abi (khums) Sadat momineenile</li>",
+              "p2": "Nendele funktsioonidele juurdepääsemiseks peate kinnitama oma identiteedi (kas kohe või soovi korral hiljem)"
+            },
+            "item2": {
+              "header": "Sa saad aidata abivajavat Momineeni!",
+              "p1": "Isegi kui te ei soovi, et teid kinnitataks, võib olla ka teisi, kes võivad soovida nende funktsioonide kasutamiseks kinnitust saada.",
+              "p2": "Ainult kinnitatud kontod saavad sellist momineeni kontrollida. Kontrollimine aitab meil luua ka kontrollitud šiiitide kogukonda."
+            },
+            "item3": {
+              "header": "Teie teave on alati privaatne",
+              "p1": "<strong>Mõistame, et see on tundlik teave</strong> ja me ei avalda seda teavet kunagi avalikult ilma teie nõusolekuta, kuid mõnikord võib siiski teha järeldusi. Näiteks kui taotlete kinnitust teistelt momineenidelt, teavad nad, et olete šiiit.",
+              "p2": "Meie protsessi kohta lisateabe saamiseks võite klõpsata alloleval nupul."
+            },
+            "cta": "Seadistus"
+          }
+        },
+        "idSetup": {
+          "header": "Peaaegu valmis!",
+          "desc": "Võite selle sammu vahele jätta, kui olete rahul meie privaatsus- ja sideseadete eelseadistatud väärtustega. See ei tee haiget, kui teil on pilk!",
+          "privacy": {
+            "header": "Seadistage oma privaatsus",
+            "p1": "Määratlege, mida teised näevad.",
+            "ul": "<li>Määrake oma postitustele nähtavuse seaded. See määratleb, kas keegi näeb teie postitusi Bazmis või väljaspool seda (nt kui keegi jagab seda teisel platvormil)</li><li>Määrake, kes mida näevad, kui nad teie profiili külastavad</li><li>Määrake, kuidas teie teave teistele kuvatakse</li>"
+          },
+          "comm": {
+            "header": "Sidesätete seadistamine",
+            "p1": "Määratlege, kuidas ja millal soovite, et me teiega suhtleksime:",
+            "ul": "<li>Märguannete eelistuste määramine</li><li>Tellige või tühistage e-kirjade teatised</li><li>Meeldetuletuste tellimine või tellimuse tühistamine</li>"
+          },
+          "cta": "Seadistus"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Mobiiltelefoni kinnitamine",
+            "desc": "Oma mobiilinumbri kinnitamiseks klõpsake alloleval lingil:",
+            "cta": "Mobiilse kinnitamise käivitamine",
+            "completed": "Mobiil on edukalt kinnitatud"
+          },
+          "email": {
+            "header": "E-posti aadressi kinnitamine",
+            "desc": "Klõpsake alloleval lingil, et saada oma postkasti kinnitusmeil.",
+            "cta": "Mobiilse kinnitamise käivitamine",
+            "completed": "Mobiil on edukalt kinnitatud",
+            "form": {
+              "inputLabel": "Teie e-posti aadress:",
+              "ph": "Sisestage oma e-posti aadress",
+              "cta": "E-posti kinnitamise link"
+            },
+            "sent": {
+              "desc": "Allpool olevale e-posti aadressile saadeti e-kiri. Klõpsake oma e-kirjas oleval lingil, et kinnitada oma e-posti aadress.",
+              "incorrect": "Vale e-post?",
+              "change": "Muutuma"
+            },
+            "resendCta": "Saada e-kiri uuesti",
+            "openEmailCta": "E-posti avamine",
+            "verified": "E-post on edukalt kinnitatud!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Täielik konto seadistamine",
+        "desc": "Avage oma konto funktsioonid, viies konto häälestamise lõpule. Peate seda tegema ainult üks kord ja see aitab kontrollida teie andmeid, teie isikut ja seadistada teie jaoks privaatsusvalikuid.",
+        "gotoPageCta": "Jätka seadistamist",
+        "dontRemind": "Ära tuleta mulle enam meelde",
+        "dismissCta": "Hiljem",
+        "jsConfirmSkip": {
+          "header": "Kas jätkata hiljem?",
+          "msg": "Selle sammu lõpuleviimine avab teie jaoks rakenduses palju funktsioone, kuid saate selle sammu ka hiljem lõpule viia. Minge lihtsalt vahekaardile \"Kasutaja\" ja jätkake sealt.",
+          "btns": {
+            "confirm": "Jah, hiljem",
+            "cancel": "Tehke seda kohe"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Seadistage oma identiteet",
+        "form": {
+          "religion": {
+            "label": "Valige oma religioon:",
+            "infoText": "Sellel teabel põhinevad mitmed ainult moslemite jaoks olulised funktsioonid. Need andmed on nähtavad ainult teile; järeldusi saab siiski teha (näiteks kui kasutate ühte ainult moslemitele saadaolevatest funktsioonidest)",
+            "muslim": "Moslem",
+            "nonMuslim": "Mittemoslem"
+          },
+          "sect": {
+            "label": "Valige oma sekt",
+            "infoText": "Sellised funktsioonid nagu <strong>Ziyarati taotlus, abitaotlus, Khumsi arvutamine jne nõuavad,</strong> et kontrolliksite oma Shia identiteeti. Samuti on kinnitamata kasutajatel piiratud juurdepääs funktsioonidele.",
+            "shia": "Shia",
+            "sunni": "Mitte-šiia"
+          },
+          "thanksNonMuslim": "Täname, et näitasite üles huvi meie rakendusega liitumise vastu. Loodame, et leiate siit kasulikku sisu. Palun näidake üles austust kogukonna vastu ja järgige meie reegleid.",
+          "sadat": {
+            "label": "Kas sa oled Sadat?",
+            "infoText": "Seda teavet kasutatakse Sadat-shia moslemitele mõeldud funktsioonides. Kuid seda ei kuvata kunagi nii, nagu see kellelegi on. Enne kui saate neid teenuseid kasutada, peate kontrollima oma sadati olekut.",
+            "sadat": "Jah",
+            "nonSadat": "Ei"
+          },
+          "requested": "Nõutav kontrollimine",
+          "required": "Kontrollimine on vajalik",
+          "verifyInfo": {
+            "modalCta": "Mis see on?",
+            "p1": "Šiia moslemitele mõeldud funktsioonidele juurdepääsu saamiseks peate kontrollima oma šiiidi identiteeti.",
+            "p2": "Kui olete Shia-Sadat, peate ka seda kontrollima. Saate selle siduda samas kinnitustaotluses; valige lihtsalt ülaltoodud <strong>Sadat</strong> ."
+          },
+          "verifyCta": "Kontrollida",
+          "skipInfo": "Võite kinnitamise vahele jätta, kui te ei soovi mainitud funktsioone kasutada. Teabe värskendamiseks klikkige käsul <strong>Salvesta ja jätka</strong>",
+          "thankSunni": {
+            "p1": "Täname, et näitasite üles huvi meie rakenduse vastu. Vaatamata nendele maistele lõhedele on kõik moslemid usuvennad ja kuuluvad samasse prohvet Muhamedi (PBUH) Ummah'sse",
+            "p2": "Loodame, et leiate siit sisu kasulikku ja see aitab meil üksteist paremini mõista.",
+            "p3": "Kui teil on küsimusi/muresid meie eeskirjade või üldse millegi kohta, võite alati meiega ühendust võtta."
+          }
+        },
+        "cta": [
+          "Salvestama",
+          "Salvesta ja jätka"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Konto kinnitamine {name} jaoks",
+        "heading": "Kas saate vastata allpool olevale teabele {firstName}kohta? Kui ei, siis lükake see taotlus tagasi.",
+        "desc": "Teil on ainult kaks katset kontrollida!",
+        "descP1": "Kui esitate selle vormi, vastendame teabe sellega, mida {firstName} kinnitamise taotlemisel esitanud. Palun pöörake tähelepanu, sest teil on ainult kaks katset seda vormi õigesti täita. Kui te ikka ebaõnnestute, ei saa te {firstName} tulevikus uuesti kinnitada.",
+        "descP2": "Kui te ei tea, {firstName}, siis lükake see taotlus tagasi. Me anname neile sellest teada ja palume neil jõuda kellegi teiseni.",
+        "rejectRequestCta": "Lükka taotlus tagasi",
+        "form": {
+          "heading": "Vastake järgmistele {firstName} puudutavatele küsimustele ja klõpsake nuppu Esita:",
+          "q1": "Kuidas sa tead, {firstName}?",
+          "q2": "Religioon:",
+          "q3": "Sekti:",
+          "q4": "Kas {firstName} on Sadat?",
+          "q5": "Veel midagi, mida sooviksite lisada?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Teie privaatsusseaded",
+        "privacy": {
+          "header": "Privaatsusseaded",
+          "desc": "Määrake, kes näevad teie või teie konto jälgijaid.",
+          "form": {
+            "posts": "Teie postitused",
+            "status": "Teie olekuvärskendused",
+            "requests": "Teie taotlused",
+            "relationship": "Teie suhtestaatus",
+            "birthday": "Teie sünnikuupäev (mitte aasta)",
+            "location": "Teie asukoht"
+          },
+          "disclaimer": {
+            "heading": "* Selle kohta saab veel järeldusi teha",
+            "p": "Kuigi see teave võib teie profiilil peidus olla, saab siiski teha mõningaid järeldusi. Näiteks kui teie postitus kuvatakse kasutajale, saavad nad järeldada, et elate lähedal (selle põhjal, kus see postitus nende voos kuvatakse)"
+          },
+          "values": {
+            "everyone": "Igaüks",
+            "users": "Ainult Momineen",
+            "shias": "Ainult šiiidid",
+            "me": "Ainult mina"
+          }
+        },
+        "comm": {
+          "header": "Suhtluse seaded",
+          "desc": "Määrake, kuidas soovite suhelda",
+          "form": {
+            "push": {
+              "header": "Tõukemärguanded",
+              "nearby": "Lähedalasuvate kasutajate postituste puhul",
+              "daily": "Meie igapäevased uuendused"
+            },
+            "email": {
+              "header": "E-posti märguanded",
+              "weekly": "Iganädalane uudiskiri",
+              "monthly": "Igakuised kokkuvõtvad e-kirjad"
+            },
+            "cta": "Uuendama"
+          }
+        },
+        "js": {
+          "changeSaved": "Edukalt salvestatud muudatused"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Tagasi lükata",
+        "title": "Taotluse tagasilükkamine",
+        "reasonLabel": "Miks te ei soovi seda kontot kinnitada?",
+        "reasonPh": "Anname {userName} sellest teada ja palume neil kontrollimiseks pöörduda kellegi teise poole"
+      },
+      "haadiHome": {
+        "title": "Alustage arutelu -- Teie arutelud Haadiga",
+        "item": {
+          "added": "Lisatud {date}",
+          "tokensUsed": "Kasutatud märgid: {tokens}",
+          "readContinue": "Arutelu lugemine või jätkamine"
+        },
+        "blank": {
+          "heading": "Alustage uut arutelu",
+          "desc": "Teil pole varasemaid vestlusi. Alustage uut arutelu, esitades oma päringu allpool."
+        },
+        "introLink": "Loe lähemalt Haadi kohta või",
+        "inputPh": "Alustage uut arutelu",
+        "quesHelp": {
+          "invalid": "5 või enama sõnaga küsimused on mõttekamad..",
+          "goodLen": "See tundub hea küsimus!",
+          "excellent": "Oma küsimuse selgitamine pole kunagi valus. Kiitus!"
+        }
+      },
+      "askHaadi": {
+        "title": "Küsi Haadilt",
+        "infoText": "Arutelu lõpetamiseks ja uue vestluse alustamiseks klõpsake allolevat nuppu",
+        "newChatCTA": "Uus arutelu",
+        "inputPH": "Esitage küsimus",
+        "empty": {
+          "heading": "Ei leidnud seda vestlust",
+          "p1": "Selle vestluse ajal ilmnes tõrge. Kontrollige URL-i ja proovige uuesti.",
+          "p2": "Kui see juhtub, võtke meiega ühendust."
+        },
+        "jsNewChatInfo": "See on uue vestluse algus Hadiga. Olete otsustanud oma küsimustele vastates lubada Haadi konteksti. Saate selle valiku alati seadetes keelata või vaadata, mida see teie jaoks tähendab."
+      },
+      "aboutHaadi": {
+        "title": "Saage tuttavaks Haadiga, oma botfriendiga, et navigeerida šiia islamis!",
+        "desc": "Klõpsake kõigil neil kokkuvõtetel, et lugeda rohkem, või lugege lisateavet Haadi ja kasutustingimuste kohta{blogLink} target='_system'>meie blogis <a href=",
+        "agreement": "Mõistan kasutustingimusi ja nõustun nendega"
       }
     },
     "authPage": {
