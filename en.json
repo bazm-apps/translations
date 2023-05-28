@@ -46,7 +46,7 @@
       "search": "Search",
       "late": "Late",
       "done": "Done",
-      "featureUnavailable": "This feature will be available soon. Thanks fro showing interest!",
+      "featureUnavailable": "This feature will be available soon. Thanks for showing interest!",
       "actions": {
         "cancel": "Cancel",
         "notify": "Notify",
@@ -66,9 +66,22 @@
           "cta": "Refresh"
         },
         "jsImgUploaded": "Image uploaded successfully!",
-        "jsImgUploadErr": "Image upload failed. Please try again later."
+        "jsImgUploadErr": "Image upload failed. Please try again later.",
+        "jsLoadingDelay": "It's taking bit longer than expected. Please wait while we process this request."
       },
-      "unknown": "Unknown"
+      "close": "Close",
+      "yes": "Yes",
+      "no": "No",
+      "idk": "I don't know",
+      "unknown": "Unknown",
+      "completed!": "Completed!",
+      "pushPrompt": {
+        "heading": "Stay upto date",
+        "desc": "Like what you see? Never miss an update and stay notified about everything happening around with notifications.<br />Can we send you notifications?",
+        "cancelCta": "Ask me later",
+        "okCta": "Sure!",
+        "jsPushUnsupported": "Push not supported on this device. You may miss out notifications!"
+      }
     },
     "errors": {
       "service": {
@@ -173,10 +186,9 @@
           "gettingLocation": "Getting your location. Please wait...",
           "settingsTip": "Change <b>Location</b> and preferences in Alarm settings. Click Settings icon to start.",
           "setAlarmHeader": "Set Daily Alarms",
-          "setAlarmOnAppDesc": "Setting alarms is available only on the app",
+          "setAlarmOnAppDesc": "On Desktop, alarm notification only appear as banner without any ring",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
           "sunsetLabel": "Sunset",
           "maghribLabel": "Maghrib",
           "midnightLabel": "Midnight",
@@ -201,7 +213,11 @@
           },
           "jsAlarmSetSuccess": "Alarms set successfully",
           "jsAlarmSetError": "Error in setting alarms. Please try again later.",
-          "jsAlarmSnoozed": "Alarm snoozed for 10 minutes"
+          "jsAlarmSnoozed": "Alarm snoozed for 10 minutes",
+          "sunriseLabel": "Sunrise",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Isha"
         },
         "alarmSetting": {
           "title": "Alarm Settings",
@@ -398,6 +414,9 @@
           "addGender": "Add Gender",
           "addBday": "Add Birthday",
           "addRelation": "Add Relationship",
+          "privateInfoDesc": "This information is visible only to you and you see content and features based this.",
+          "idSetupCta": "Setup your identity",
+          "idVerifyCta": "Verify",
           "joinDate": "Joined: {date}"
         },
         "posts": {
@@ -414,6 +433,26 @@
           "jsDeleteHeader": "Are you sure?",
           "jsDeletePrompt": "Deleting records for <b>{fullName}</b> will also delete all previous requests made for {gender}! Continue?",
           "jsDeleted": "Deleted records for {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verify your Shia identity | Verify your Sadat identity",
+          "p1": "You've indicated in your profile that you're a Shia muslim. Having this information verified will enable more features for you and help us build a verified community of Shia muslims.",
+          "p2": "Kindly verify your identity; it won't take long",
+          "noReminder": "Don't remind me again",
+          "dismissCta": "Not now",
+          "startCta": "Start"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "You need to get verified first before you can verify others!",
+          "jsLinkExpired": "This link is either invalid or it has expired. Please ask you friend to send a new request.",
+          "confirm": {
+            "heading": "Verify Account Identity",
+            "msg": "Help {firstName} get {genderLabel1} account information verified. This will enable {genderLabel2} to access more features on our app",
+            "jsSkip": "No problem. If you change your mind, you can revisit this link to verify later."
+          }
+        },
+        "myKhums": {
+          "title": "My Khums"
         }
       }
     },
@@ -610,16 +649,12 @@
           "askViaLabel": "Ask Via",
           "askSistaniInfo": "You can ask a question to be answered by the office of his eminence, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. We will forward the question to their website (along with your profile information). Make sure you've read the <b>Terms & Conditions</b> properly.",
           "tncLabel": "Terms & Conditions:",
-          "showHide": [
-            "Show",
-            "Hide"
-          ],
           "sistaniOrgTncInfo": "Consider following points from their website before you ask a question, because if you do not adhere to below points, you may not hear back from them, or may not receive any answers.",
           "userInfo": {
             "aboutLabel": "About you",
             "genderLabel": "Your gender",
             "bdayLabel": "Your birthday",
-            "bdayDesc": "You can ask question only if you're over 09 years old. If you're still interested, please contact us."
+            "bdayDesc": "You can ask question only if you're over 09 years old."
           },
           "jsQuesAdded": "Question added successfully."
         },
@@ -754,7 +789,10 @@
         "sendOtpCta": "Send OTP",
         "backToLoginCta": "Back to Login",
         "disclaimerText": "Please note that you'll get an {item} only if you have the {item} registered with us",
-        "jsMailSent": "Mail sent"
+        "jsMailSent": "Mail sent",
+        "title2": "Claim your account",
+        "claimIntroHeading": "Claim your account quickly!",
+        "claimIntroText": "Thanks for joining us. We've created an account for you now. Get access to your account by reseting it's password using one of the following methods:"
       },
       "resetPwd": {
         "title": "Reset Password",
@@ -826,6 +864,248 @@
       "dialCodeSelector": {
         "title": "Select Country",
         "searchPH": "Search country by name or dial-code"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Complete your profile",
+            "desc": "Incomplete profiles have limited access to features on our app. Having your profile updated helps you in a number of ways. Click here to know more.",
+            "item1": {
+              "header": "Complete profiles get Verified easily",
+              "p1": "When requesting account verification (next step), it helps others to verify you easily when they either know you or can see all the needed information for verification about you.",
+              "p2": "Incomplete profiles take much longer to get verified. We wouldn't want you to be blocked from using features on our app."
+            },
+            "item2": {
+              "header": "See the right content",
+              "p1": "You see content based on your surrounding. When we have correct information about you, you see more relevant content.",
+              "p2": "For example, if you have updated your location correctly, you will more likely see posts from your surrounding first."
+            },
+            "cta": "Complete your profile"
+          },
+          "identity": {
+            "header": "Setup your identity",
+            "desc": "We welcome everyone on our app, but because some features are useful (and meant) for Shia muslims only, this information help us serve you the right features. Click here to know more.",
+            "item1": {
+              "header": "Access features for Shia muslims",
+              "p1": "A number of features on our app are built of Shia muslims. Some of them are:",
+              "ul": "<li>Request for Surah-fatiha and Namaz-e-Wahshat</li><li>Khums Calculator</li><li>Financial aid (khums) for Sadat momineen</li>",
+              "p2": "To access these features, you need to verify your identity (whether now or, if you choose to, later)"
+            },
+            "item2": {
+              "header": "You can help momineen in need!",
+              "p1": "Even if you don't want to be verified, there could be others who may want to get verified to avail these features.",
+              "p2": "Only verified accounts can verify such momineen. Verification also helps us build a verified Shia community."
+            },
+            "item3": {
+              "header": "Your information is always private",
+              "p1": "<strong>We understand this is a sensitive information</strong> and we will never expose this information publicly without your consent, but inferences can still be made sometimes. For example, when you request verification from other momineen, they will know that you are a Shia.",
+              "p2": "You can click the button below to read more about our process."
+            },
+            "cta": "Setup"
+          }
+        },
+        "idSetup": {
+          "header": "Almost done!",
+          "desc": "You can skip this step if you're happy with our preset values for your privacy and communications settings. It doesn't hurt to have a look though!",
+          "privacy": {
+            "header": "Setup your privacy",
+            "p1": "Define what others can see:",
+            "ul": "<li>Set visibility settings for your posts. It defines whether your posts can be seen by anyone on or off Bazm (eg, when someone shares it on another platform)</li><li>Set who can see what when they visit your profile</li><li>Set how does your information appear to others</li>"
+          },
+          "comm": {
+            "header": "Setup communications settings",
+            "p1": "Define how and when would you like us to communicate with you:",
+            "ul": "<li>Set your notifications preferences</li><li>Subscribe or unsubscribe to notifications of emails</li><li>Subscribe or unsubscribe to reminders</li>"
+          },
+          "cta": "Setup"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Verify your mobile",
+            "desc": "Click on the link below to verify your mobile number:",
+            "cta": "Start mobile verification",
+            "completed": "Mobile verified successfully"
+          },
+          "email": {
+            "header": "Verify your email",
+            "desc": "Click on the link below to get verification email in your inbox.",
+            "cta": "Start mobile verification",
+            "completed": "Mobile verified successfully",
+            "form": {
+              "inputLabel": "Your email:",
+              "ph": "Enter your email",
+              "cta": "Email verification link"
+            },
+            "sent": {
+              "desc": "An email was sent to your email address below. Click on the link in your email to verify your email address.",
+              "incorrect": "Incorrect Email?",
+              "change": "Change"
+            },
+            "resendCta": "Resend Email",
+            "openEmailCta": "Open Email",
+            "verified": "Email verified successfully!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Complete Account Setup",
+        "desc": "Unlock features for your account by finishing your account setup. You only have to do it once and it helps verify your details, your identity and setup Privacy options for you.",
+        "gotoPageCta": "Continue Setup",
+        "dontRemind": "Don't remind me again",
+        "dismissCta": "Later",
+        "jsConfirmSkip": {
+          "header": "Continue later?",
+          "msg": "Completing this step will unlock many features for you on the app, but you can complete this step later as well. Just go to 'User' tab and continue from there.",
+          "btns": {
+            "confirm": "Yes, later",
+            "cancel": "Do it now"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Setup Your Identity",
+        "form": {
+          "religion": {
+            "label": "Select your religion:",
+            "infoText": "A number of features only relevant for muslims are based on this information. This data will only be visible to you; however, inferences can still be made (such as, when you use one of the features available for muslims only)",
+            "muslim": "Muslim",
+            "nonMuslim": "Non-muslim"
+          },
+          "sect": {
+            "label": "Choose your sect",
+            "infoText": "Features such as <strong>Request for Ziyarat, Request for aid, Khums calculation, etc.</strong> require you to verify your Shia identity. Also, non-verified users have limited access to features.",
+            "shia": "Shia",
+            "sunni": "Non-Shia"
+          },
+          "thanksNonMuslim": "Thanks for showing interest in joining our app. We hope you find useful content here. Please show respect to the community and comply with our rules.",
+          "sadat": {
+            "label": "Are you Sadat?",
+            "infoText": "This information is used in features meant for Sadat-shia muslims. However, it's never displayed as is to anyone. You will need to verify your sadat status before you could avail these services.",
+            "sadat": "Yes",
+            "nonSadat": "No"
+          },
+          "requested": "Verification requested",
+          "required": "Verification required",
+          "verifyInfo": {
+            "modalCta": "What's this?",
+            "p1": "To get access to features meant for Shia muslims, you need to verify your Shia identity.",
+            "p2": "If you are a Shia-Sadat, you will need to verify that too. You can pair it in the same verification request; simply select <strong>Sadat</strong> above."
+          },
+          "verifyCta": "Verify",
+          "skipInfo": "You can skip verification if you don't wish to use the mentioned features. To only update your information, click <strong>Save & Continue</strong>",
+          "thankSunni": {
+            "p1": "Thanks for showing interest in our app. Despite these worldly divisions, all the muslims are brothers in faith and belong to the same Ummah of Prophet Muhammad (PBUH)",
+            "p2": "We hope you find content here useful and it helps us understand each other better.",
+            "p3": "For any query/concerns about our policies or anything at all, you can always reach out to us."
+          }
+        },
+        "cta": [
+          "Save",
+          "Save & Continue"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Verify account for {name}",
+        "heading": "Can you answer below information about {firstName}? If not, then reject this request.",
+        "desc": "You only have two attempts to verify!",
+        "descP1": "When you submit this form, we will match the information with what {firstName} provided when requesting verification. Please pay attention because you only have two attempts to fill this form correctly. If you still fail, you won't be able to verify {firstName} again in future.",
+        "descP2": "If you don't know {firstName}, then reject this request. We will let them know and ask them to reach someone else.",
+        "rejectRequestCta": "Reject Request",
+        "form": {
+          "heading": "Answer following questions about {firstName} and click Submit:",
+          "q1": "How do you know {firstName}?",
+          "q2": "Religion:",
+          "q3": "Sect:",
+          "q4": "Is {firstName} Sadat?",
+          "q5": "Anything else that you would like to add?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Your Privacy Settings",
+        "privacy": {
+          "header": "Privacy Settings",
+          "desc": "Set who can see following from you or in your account:",
+          "form": {
+            "posts": "Your posts",
+            "status": "Your status updates",
+            "requests": "Your requests",
+            "relationship": "Your relationship status",
+            "birthday": "Your birthdate (not year)",
+            "location": "Your location"
+          },
+          "disclaimer": {
+            "heading": "* Inferences can still be made about this",
+            "p": "Even though this information maybe hidden on your profile, some inferences can still be made. For example, if your post appears to a user, they can infer that you live close (based on where that post appears in their feed)"
+          },
+          "values": {
+            "everyone": "Everyone",
+            "users": "Only Momineen",
+            "shias": "Only Shias",
+            "me": "Only me"
+          }
+        },
+        "comm": {
+          "header": "Communication Settings",
+          "desc": "Set how would you like to get communicated",
+          "form": {
+            "push": {
+              "header": "Push notifications",
+              "nearby": "For posts from nearby users",
+              "daily": "Our daily updates"
+            },
+            "email": {
+              "header": "Email notifications",
+              "weekly": "Weekly newsletter",
+              "monthly": "Monthly summary emails"
+            },
+            "cta": "Update"
+          }
+        },
+        "js": {
+          "changeSaved": "Changes saved successfully"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Reject",
+        "title": "Reject request",
+        "reasonLabel": "Why don't you want to verify this account?",
+        "reasonPh": "We will let {userName} know and ask them to reach out to someone else for verification"
+      },
+      "haadiHome": {
+        "title": "Start discussion | Your discussions with Haadi",
+        "item": {
+          "added": "Added {date}",
+          "tokensUsed": "Tokens used: {tokens}",
+          "readContinue": "Read or continue discussion"
+        },
+        "blank": {
+          "heading": "Start new discussion",
+          "desc": "You don't have any previous conversations. Start a new discussion by submitting your query below."
+        },
+        "introLink": "Read more about Haadi, or",
+        "inputPh": "Start new discussion",
+        "quesHelp": {
+          "invalid": "Questions with 5 or more words make more sense..",
+          "goodLen": "That looks like a good question!",
+          "excellent": "It never hurts to explain your question. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Ask Haadi",
+        "infoText": "To end this discussion and start a new conversation, click the button below",
+        "newChatCTA": "New Discussion",
+        "inputPH": "Ask a question",
+        "empty": {
+          "heading": "Could not find this conversation",
+          "p1": "An error occurred while trying to get this conversation. Please check the URL and try again.",
+          "p2": "If this keeps happening, kindly contact us."
+        },
+        "jsNewChatInfo": "This is the start of a new conversation with Haadi. You've chosen to enable context for Haadi while answering your questions. You can always disable this option in settings, or see what does this mean for you."
+      },
+      "aboutHaadi": {
+        "title": "Meet Haadi, your botfriend to navigate Shia islam!",
+        "desc": "Click each of these summaries to read more, or find more about Haadi and terms of use in <a href={blogLink} target='_system'>our blog</a>",
+        "agreement": "I understand and agree with Terms of use"
       }
     },
     "authPage": {
@@ -978,14 +1258,7 @@
         ],
         "description": "Find duas, aamaal, ziyarat and munajat for all months on Bazm, date and event wise. Download the app today and join millions of Shi'a muslims around the world!"
       }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Explain with correct references and in context to shia muslims. Also, provide me references as list with links to sources.",
-        "newQues": "Hi, let's start a new conversation. I've below query:\n{quesTex}",
-        "continuePrev": "Let's continue our discussion from {date}. {quesTex}"
-      }
     }
   },
-  "publishedOn": 1682291810093
+  "publishedOn": 1685244673889
 }
