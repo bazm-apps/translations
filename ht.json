@@ -66,9 +66,22 @@
           "cta": "Rafrechi"
         },
         "jsImgUploaded": "Imaj Telechaje avèk siksè!",
-        "jsImgUploadErr": "Imaj Upload echwe. Tanpri eseye ankò pita."
+        "jsImgUploadErr": "Imaj Upload echwe. Tanpri eseye ankò pita.",
+        "jsLoadingDelay": "Li pran ti jan pi long pase espere. Tanpri rete tann pandan nou trete demann sa a."
       },
-      "unknown": "Enkoni"
+      "unknown": "Enkoni",
+      "close": "Fèmen",
+      "yes": "Wi",
+      "no": "Non",
+      "idk": "Mwen pa konnen",
+      "completed!": "Ranpli!",
+      "pushPrompt": {
+        "heading": "Rete moute dat",
+        "desc": "Menm jan ak sa ou wè? Pa janm manke yon aktyalizasyon epi rete avize sou tout bagay k ap pase alantou ak notifikasyon.<br />Èske nou ka voye ba ou notifikasyon?",
+        "cancelCta": "Mande mwen pita",
+        "okCta": "Sèten!",
+        "jsPushUnsupported": "Pouse pa sipòte sou aparèy sa a. Ou ka rate notifikasyon!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alam yo mete avèk siksè",
           "jsAlarmSetError": "Erè nan mete alèt. Tanpri eseye ankò pita.",
-          "jsAlarmSnoozed": "Alarm snozed pou 10 minit"
+          "jsAlarmSnoozed": "Alarm snozed pou 10 minit",
+          "sunriseLabel": "Sunrise",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "ase",
+          "ishaLabel": "Lakay"
         },
         "alarmSetting": {
           "title": "Anviwònman alarm",
@@ -398,7 +415,10 @@
           "addGender": "Ajoute sèks",
           "addBday": "Ajoute anivèsè nesans",
           "addRelation": "Ajoute relasyon",
-          "joinDate": "Ansanm: {date}"
+          "joinDate": "Ansanm: {date}",
+          "privateInfoDesc": "Enfòmasyon sa a vizib sèlman pou ou epi ou wè kontni ak karakteristik ki baze sou sa a.",
+          "idSetupCta": "Enstale idantite ou",
+          "idVerifyCta": "Verifye"
         },
         "posts": {
           "title": "Posts",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Eske ou si?",
           "jsDeletePrompt": "Efase records for <b>{fullName}</b> pral tou efase tout requests anvan yo te fè for {gender}! Kontinye?",
           "jsDeleted": "Deleted records for {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Verifye idantite Shia ou —Verifye idantite Sadat ou",
+          "p1": "Ou te endike nan pwofil ou ke ou se yon mizilman Shia. Èske w gen enfòmasyon sa a verifye pral pèmèt plis karakteristik pou ou epi ede nou bati yon kominote verifye nan mizilman Shia.",
+          "p2": "Byen verifye idantite ou; sa p ap pran anpil tan",
+          "noReminder": "Pa raple m ankò",
+          "dismissCta": "Pa kounye-a",
+          "startCta": "Kòmanse"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Ou bezwen verifye anvan ou ka verifye lòt moun!",
+          "jsLinkExpired": "Lyen sa a swa envalid oswa li te eksprime. Tanpri mande w zanmi pou voye yon nouvo demann.",
+          "confirm": {
+            "heading": "Idantite kont verifye",
+            "msg": "Ede {firstName} jwenn enfòmasyon sou kont {genderLabel1} verifye. Sa a pral pèmèt {genderLabel2} jwenn aksè nan plis karakteristik sou app nou an",
+            "jsSkip": "Pa gen pwoblem. Si ou chanje lide ou, ou ka revize lyen sa a verifye pita."
+          }
+        },
+        "myKhums": {
+          "title": "Khums mwen"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Voye patipri",
         "backToLoginCta": "Retounen nan Login",
         "disclaimerText": "Tanpri sonje ke ou pral jwenn yon {item} sèlman si ou gen {item} anrejistre avèk nou",
-        "jsMailSent": "Lapòs voye"
+        "jsMailSent": "Lapòs voye",
+        "title2": "Reklamasyon kont ou",
+        "claimIntroHeading": "Reklamasyon kont ou byen vit!",
+        "claimIntroText": "Mèsi pou rantre nan nou. Nou te kreye yon kont pou ou kounye a. Jwenn aksè nan kont ou pa reyajiste li nan modpas lè l sèvi avèk youn nan metòd sa yo:"
       },
       "resetPwd": {
         "title": "Modpas Reyajiste",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Peyi chwazi",
         "searchPH": "Rechèch peyi pa non oswa dyalòg"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Ranpli pwofil ou",
+            "desc": "Des enkonplè te limite aksè a karakteristik sou app nou an. Èske w gen pwofil ou mete ajou ede ou nan yon kantite fason. Klike la a pou konnen plis.",
+            "item1": {
+              "header": "Des konplè jwenn Verifye fasil",
+              "p1": "Lè mande verifikasyon kont (pwochen etap), li ede lòt moun verifye ou fasilman lè yo swa konnen ou oswa ka wè tout enfòmasyon ki nesesè pou verifikasyon sou ou.",
+              "p2": "Des enkonplè pran pi lontan pou jwenn verifye. Nou pa ta vle ou yo dwe bloke nan lè l sèvi avèk karakteristik sou app nou an."
+            },
+            "item2": {
+              "header": "Gade kontni an dwa",
+              "p1": "Ou wè kontni ki baze sou anviwònman ou. Lè nou gen enfòmasyon kòrèk sou ou, ou wè plis kontni ki enpòtan.",
+              "p2": "Pou egzanp, si ou te mete ajou kote ou ye kòrèkteman, ou pral gen plis chans wè posts soti nan ki antoure ou an premye."
+            },
+            "cta": "Ranpli pwofil ou"
+          },
+          "identity": {
+            "header": "Enstale idantite ou",
+            "desc": "Nou akeyi tout moun sou app nou an, men paske gen kèk karakteristik ki itil (ak vle di) pou mizilman Shia sèlman, enfòmasyon sa a ede nou sèvi ou karakteristik yo dwa. Klike la a pou konnen plis.",
+            "item1": {
+              "header": "Karakteristik aksè pou mizilman Shia",
+              "p1": "Yon nimewo de karakteristik sou app nou an yo bati nan mizilman Shia. Kèk nan yo se:",
+              "ul": "<li>Demann pou Surah-fatiha ak Namaz-e-Wahshat</li><li>Khums kalkilatè</li><li>Èd finansye (khums) for Sadat momineen</li>",
+              "p2": "Pou jwenn aksè nan karakteristik sa yo, ou bezwen verifye idantite ou (si kounye a oswa, si ou chwazi, pita)"
+            },
+            "item2": {
+              "header": "Ou ka ede momine nan bezwen!",
+              "p1": "Menm si ou pa vle verifye, ta ka gen lòt moun ki ka vle jwenn verifye pou pwofite karakteristik sa yo.",
+              "p2": "Se sèlman kont verifye sa yo ki ka verifye momine sa a. Verifikasyon ede nou bati yon kominote Shia verifye."
+            },
+            "item3": {
+              "header": "Enfòmasyon ou yo toujou prive",
+              "p1": "<strong>Nou konprann sa a se yon enfòmasyon sansib</strong> epi nou pap janm ekspoze enfòmasyon sa yo piblikman san konsantman ou, men enferans ka toujou fèt pafwa. Pou egzanp, lè ou mande verifikasyon soti nan lòt momine, yo pral konnen ke ou se yon Shia.",
+              "p2": "Ou ka klike sou bouton ki anba a pou li plis sou pwosesis nou an."
+            },
+            "cta": "enstalasyon"
+          }
+        },
+        "idSetup": {
+          "header": "Prèske fè!",
+          "desc": "Ou ka sote etap sa a si w kontan ak valè prereglaj nou yo pou vi prive ou ak anviwònman kominikasyon. Li pa fè mal gen yon gade menm si!",
+          "privacy": {
+            "header": "Konfigisyon vi prive ou",
+            "p1": "Defiine sa lòt moun ka wè:",
+            "ul": "<li>Mete anviwònman vizibilite pou posts ou. Li defini si posts ou ka wè pa nenpòt moun ki sou oswa koupe Bazm (egzanp, lè yon moun pataje li sou yon lòt platfòm)</li><li>Mete ki moun ki ka wè sa lè yo vizite pwofil ou</li><li>Mete kijan enfòmasyon ou yo parèt devan lòt moun</li>"
+          },
+          "comm": {
+            "header": "Anviwònman kominikasyon enstalasyon",
+            "p1": "Defini ki jan ak kilè ou ta renmen nou kominike avèk ou:",
+            "ul": "<li>Mete preferans notifikasyon ou yo</li><li>Abònman oswa abònman nan notifikasyon nan Imèl</li><li>Abònman oswa abònman pou rapèl</li>"
+          },
+          "cta": "enstalasyon"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Verifye mobil ou",
+            "desc": "Klike sou lyen ki anba a pou verifye nimewo mobil ou:",
+            "cta": "Kòmanse verifikasyon mobil",
+            "completed": "Mobil verifye avèk siksè"
+          },
+          "email": {
+            "header": "Verifye imèl ou",
+            "desc": "Klike sou lyen ki anba a pou jwenn imèl verifikasyon nan bwat resepsyon ou.",
+            "cta": "Kòmanse verifikasyon mobil",
+            "completed": "Mobil verifye avèk siksè",
+            "form": {
+              "inputLabel": "Imèl ou:",
+              "ph": "Antre nan imèl ou",
+              "cta": "Lyen verifikasyon imèl"
+            },
+            "sent": {
+              "desc": "Yo te voye yon imèl bay adrès imel ou anba a. Klike sou lyen ki nan imèl ou pou verifye adrès imèl ou.",
+              "incorrect": "Imèl ki pa kòrèk?",
+              "change": "Chanje"
+            },
+            "resendCta": "Imèl resan",
+            "openEmailCta": "Louvri Imèl",
+            "verified": "Imèl verifye avèk siksè!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Konplè kont enstalasyon",
+        "desc": "Déblotché karakteristik pou kont ou pa fini konfigirasyon kont ou. Ou sèlman dwe fè li yon fwa epi li ede verifye detay ou yo, idantite ou ak konfigirasyon opsyon vi prive pou ou.",
+        "gotoPageCta": "Kontinye anbouteyaj",
+        "dontRemind": "Pa raple m ankò",
+        "dismissCta": "Pita",
+        "jsConfirmSkip": {
+          "header": "Kontinye pita?",
+          "msg": "Ranpli etap sa a pral déblotché anpil karakteristik pou ou sou app a, men ou ka ranpli etap sa a pita kòm byen. Jis ale nan 'itilizatè' tab epi kontinye la.",
+          "btns": {
+            "confirm": "Wi, pita",
+            "cancel": "Èske li kounye a"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Enstale Idantite ou",
+        "form": {
+          "religion": {
+            "label": "Chwazi relijyon ou:",
+            "infoText": "Yon nimewo de karakteristik sèlman ki enpòtan pou mizilman yo baze sou enfòmasyon sa a. Done sa yo pral sèlman vizib pou ou; sepandan, enferans ka toujou fèt (tankou, lè ou itilize youn nan karakteristik ki disponib pou mizilman sèlman)",
+            "muslim": "Mizilman",
+            "nonMuslim": "ki pa Mizilman"
+          },
+          "sect": {
+            "label": "Chwazi sektè ou",
+            "infoText": "Karakteristik tankou <strong>Demann pou Ziyarat, Demann pou èd, Khums kalkil, elatriye</strong> mande pou ou verifye idantite Shia ou. Epitou, itilizatè ki pa verifye yo te limite aksè a karakteristik.",
+            "shia": "Shia",
+            "sunni": "Ki pa Shia"
+          },
+          "thanksNonMuslim": "Mèsi pou montre enterè nan rantre nan app nou an. Nou espere ou jwenn kontni itil isit la. Tanpri montre respè nan kominote a epi konfòme li avèk règleman nou yo.",
+          "sadat": {
+            "label": "Èske ou se Sada?",
+            "infoText": "Enfòmasyon sa a itilize nan karakteristik vle di pou Mizilman Sadat-shia. Sepandan, li pa janm parèt tankou se pou nenpòt moun. Ou pral bezwen verifye estati sada ou anvan ou ta ka pwofite sèvis sa yo.",
+            "sadat": "Wi",
+            "nonSadat": "Non"
+          },
+          "requested": "Verifikasyon te mande",
+          "required": "Verifikasyon obligatwa",
+          "verifyInfo": {
+            "modalCta": "Kisa sa ye?",
+            "p1": "Pou jwenn aksè nan karakteristik vle di pou mizilman Shia, ou bezwen verifye idantite Shia ou.",
+            "p2": "Si ou se yon Shia-Sadat, ou pral bezwen verifye sa tou. Ou ka pè li nan demann verifikasyon an menm; tou senpleman chwazi <strong>Sadat pi</strong> wo a."
+          },
+          "verifyCta": "Verifye",
+          "skipInfo": "Ou ka sote verifikasyon si ou pa vle sèvi ak karakteristik yo mansyone. Pou sèlman mete ajou enfòmasyon ou yo, klike <strong>sou Save & Kontinye</strong>",
+          "thankSunni": {
+            "p1": "Mèsi pou montre enterè nan app nou an. Malgre divizyon mondyal sa yo, tout mizilman yo se frè nan lafwa ak fè pati menm Ummah nan Pwofèt Muhammad (PBUH)",
+            "p2": "Nou espere ou jwenn kontni isit la itil epi li ede nou konprann youn ak lòt pi byen.",
+            "p3": "Pou nenpòt rechèch / enkyetid sou règleman nou yo oswa anyen nan tout, ou ka toujou rive jwenn soti nan nou."
+          }
+        },
+        "cta": [
+          "Sove",
+          "Sove - Kontinye"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Verifye kont pou {name}",
+        "heading": "Èske w ka reponn pi ba enfòmasyon sou {firstName}? Si ou pa, Lè sa a, rejte demann sa a.",
+        "desc": "Ou sèlman gen de tantativ pou verifye!",
+        "descP1": "Lè ou soumèt fòm sa a, n ap matche ak enfòmasyon ki {firstName} bay lè w ap mande verifikasyon. Tanpri peye atansyon paske ou gen sèlman de tantativ pou ranpli fòm sa a kòrèkteman. Si ou toujou echwe, ou pa yo pral kapab verifye {firstName} ankò nan lavni.",
+        "descP2": "Si ou pa konnen {firstName}, Lè sa a, rejte demann sa a. Nou pral fè yo konnen epi mande yo pou yo rive jwenn yon lòt moun.",
+        "rejectRequestCta": "Rejte demann",
+        "form": {
+          "heading": "Reponn kesyon sa yo sou {firstName} epi klike sou soumèt:",
+          "q1": "Ki jan w fè konn {firstName}?",
+          "q2": "Relijyon:",
+          "q3": "Chwazi:",
+          "q4": "Èske {firstName} Sada?",
+          "q5": "Nenpòt lòt bagay ou ta renmen ajoute?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Anviwònman vi prive ou",
+        "privacy": {
+          "header": "Anviwònman sou konfidansyalite",
+          "desc": "Mete ki moun ki ka wè swiv ou oswa nan kont ou:",
+          "form": {
+            "posts": "Posts ou",
+            "status": "Dènye nouvèl estati ou",
+            "requests": "Demann ou yo",
+            "relationship": "Estati relasyon ou",
+            "birthday": "Nesans ou (pa ane)",
+            "location": "Kote ou ye a"
+          },
+          "disclaimer": {
+            "heading": "* Enferans ka toujou fèt sou sa",
+            "p": "Menm si enfòmasyon sa a petèt kache sou pwofil ou, kèk enferans ka toujou fèt. Pou egzanp, si pòs ou parèt nan yon itilizatè, yo ka enfere ke ou ap viv fèmen (ki baze sou ki kote pòs sa a parèt nan manje yo)"
+          },
+          "values": {
+            "everyone": "Tout moun",
+            "users": "Se sèlman Momineen",
+            "shias": "sèlman shias",
+            "me": "Sèlman mwen"
+          }
+        },
+        "comm": {
+          "header": "Anviwònman kominikasyon",
+          "desc": "Mete ki jan ou ta renmen jwenn kominike",
+          "form": {
+            "push": {
+              "header": "Notifikasyon pouse",
+              "nearby": "Pou posts soti nan itilizatè ki tou pre",
+              "daily": "Dènye nouvèl chak jou nou yo"
+            },
+            "email": {
+              "header": "Notifikasyon imèl",
+              "weekly": "Bilt chak semèn",
+              "monthly": "Imèl rezime chak mwa"
+            },
+            "cta": "Mizajou"
+          }
+        },
+        "js": {
+          "changeSaved": "Chanjman sove avèk siksè"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Rejte",
+        "title": "Rejte demann",
+        "reasonLabel": "Poukisa ou pa vle verifye istwa sa a?",
+        "reasonPh": "Nou pral kite {userName} konnen epi mande yo pou yo lonje lamen bay yon lòt moun pou verifikasyon"
+      },
+      "haadiHome": {
+        "title": "Kòmanse diskisyon -- Konvèsasyon ou avèk Haadi",
+        "item": {
+          "added": "Te ajoute {date}",
+          "tokensUsed": "Tokens itilize: {tokens}",
+          "readContinue": "Li oswa kontinye diskisyon"
+        },
+        "blank": {
+          "heading": "Kòmanse nouvo diskisyon",
+          "desc": "Ou pa gen okenn konvèsasyon anvan yo. Kòmanse yon nouvo diskisyon pa soumèt rechèch ou anba a."
+        },
+        "introLink": "Li plis sou Haadi, oswa",
+        "inputPh": "Kòmanse nouvo diskisyon",
+        "quesHelp": {
+          "invalid": "Kesyon ki gen 5 oswa plis mo fè plis sans ...",
+          "goodLen": "Sa sanble yon bon kesyon!",
+          "excellent": "Li pa janm fè mal pou eksplike kesyon ou an. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Mande Haadi",
+        "infoText": "Pou fini diskisyon sa a epi kòmanse yon nouvo konvèsasyon, klike sou bouton ki anba a",
+        "newChatCTA": "Nouvo Diskisyon",
+        "inputPH": "Poze yon kesyon",
+        "empty": {
+          "heading": "Pa t 'kapab jwenn konvèsasyon sa a",
+          "p1": "Gen yon erè ki te fèt pandan l t ap eseye jwenn konvèsasyon sa a. Tanpri tcheke URL la epi eseye ankò.",
+          "p2": "Si sa kontinye rive, avèk jantiyès, kontakte nou avèk jantiyès."
+        },
+        "jsNewChatInfo": "Sa a se kòmansman yon nouvo konvèsasyon ak Hadia. Ou te chwazi pou pèmèt kontèks pou Hadia pandan y ap reponn kesyon ou yo. Ou ka toujou enfim opsyon sa a nan anviwònman, oswa wè sa sa vle di pou ou."
+      },
+      "aboutHaadi": {
+        "title": "Rankontre Haadi, anplwaye ou pou navige Shia Islam!",
+        "desc": "Klike sou chak nan rezime sa yo li plis, oswa jwenn plis enfòmasyon sou Hadia ak tèm pou itilize nan <a href={blogLink} sib _system'_system'>our blog",
+        "agreement": "Mwen konprann epi dakò ak Tèm pou itilize"
       }
     },
     "authPage": {
