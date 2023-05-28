@@ -66,9 +66,22 @@
           "cta": "Yenilemek"
         },
         "jsImgUploaded": "Resim başarıyla yüklendi!",
-        "jsImgUploadErr": "Resim yükleme başarısız oldu. Lütfen daha sonra tekrar deneyin."
+        "jsImgUploadErr": "Resim yükleme başarısız oldu. Lütfen daha sonra tekrar deneyin.",
+        "jsLoadingDelay": "Beklenenden biraz daha uzun sürüyor. Bu isteği işleme koyarken lütfen bekleyin."
       },
-      "unknown": "Bilinmeyen"
+      "unknown": "Bilinmeyen",
+      "close": "Kapatmak",
+      "yes": "Evet",
+      "no": "Hayır",
+      "idk": "Bilmiyorum",
+      "completed!": "Tamamlandı!",
+      "pushPrompt": {
+        "heading": "Güncel kalın",
+        "desc": "Gördüklerinizi beğendiniz mi? Hiçbir güncellemeyi kaçırmayın ve bildirimlerle etrafta olup biten her şeyden haberdar olun.<br />Size bildirim gönderebilir miyiz?",
+        "cancelCta": "Bana daha sonra sor",
+        "okCta": "Emin!",
+        "jsPushUnsupported": "Push bu cihazda desteklenmiyor. Bildirimleri kaçırabilirsiniz!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmlar başarıyla ayarlandı",
           "jsAlarmSetError": "Alarm ayarında hata. Lütfen daha sonra tekrar deneyin.",
-          "jsAlarmSnoozed": "Alarm 10 dakika ertelendi"
+          "jsAlarmSnoozed": "Alarm 10 dakika ertelendi",
+          "sunriseLabel": "Güneş doğuşu",
+          "dhuhrLabel": "Arjantin",
+          "asrLabel": "Asr",
+          "ishaLabel": "Ev"
         },
         "alarmSetting": {
           "title": "Alarm Ayarları",
@@ -398,7 +415,10 @@
           "addGender": "Cinsiyet Ekle",
           "addBday": "Doğum Günü Ekle",
           "addRelation": "İlişki Ekle",
-          "joinDate": "Katıldı: {date}"
+          "joinDate": "Katıldı: {date}",
+          "privateInfoDesc": "Bu bilgiler yalnızca sizin tarafınızdan görülebilir ve buna dayalı içerik ve özellikleri görürsünüz.",
+          "idSetupCta": "Kimliğinizi ayarlama",
+          "idVerifyCta": "Doğrulamak"
         },
         "posts": {
           "title": "Mesaj",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Emin misiniz?",
           "jsDeletePrompt": "<b>{fullName}</b> kayıtlarının silinmesi, {gender} için yapılan önceki tüm istekleri de siler! Devam etmek?",
           "jsDeleted": "{marhumeen} için silinen kayıtlar"
+        },
+        "verifyCard": {
+          "title": "Şii kimliğinizi doğrulayın -- Sedat kimliğinizi doğrulayın",
+          "p1": "Profilinizde Şii Müslüman olduğunuzu belirttiniz. Bu bilgilerin doğrulanması sizin için daha fazla özellik sağlayacak ve doğrulanmış bir Şii Müslüman topluluğu oluşturmamıza yardımcı olacaktır.",
+          "p2": "Lütfen kimliğinizi doğrulayın; uzun sürmeyecek",
+          "noReminder": "Bana bir daha hatırlatma",
+          "dismissCta": "Şimdi değil",
+          "startCta": "Başlamak"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Başkalarını doğrulamadan önce doğrulanmanız gerekir!",
+          "jsLinkExpired": "Bu bağlantı geçersiz veya süresi dolmuş. Lütfen arkadaşınızdan yeni bir istek göndermesini isteyin.",
+          "confirm": {
+            "heading": "Hesap Kimliğini Doğrulama",
+            "msg": "{genderLabel1} hesap bilgilerinin doğrulanmasına yardımcı {firstName}. Bu, {genderLabel2} uygulamamızda daha fazla özelliğe erişmesini sağlayacaktır",
+            "jsSkip": "Sorun değil. Fikrinizi değiştirirseniz, daha sonra doğrulamak için bu bağlantıyı tekrar ziyaret edebilirsiniz."
+          }
+        },
+        "myKhums": {
+          "title": "Benim Khum'larım"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "OTP Gönder",
         "backToLoginCta": "Giriş Yap'a Geri Dön",
         "disclaimerText": "Lütfen bir {item} alacağınızı ancak {item} bize kayıtlıysa alacağınızı unutmayın.",
-        "jsMailSent": "Gönderilen posta"
+        "jsMailSent": "Gönderilen posta",
+        "title2": "Hesabınızı üzerinize alma",
+        "claimIntroHeading": "Hesabınızı hızlı bir şekilde talep edin!",
+        "claimIntroText": "Bize katıldığınız için teşekkür ederiz. Şimdi sizin için bir hesap oluşturduk. Aşağıdaki yöntemlerden birini kullanarak parolanızı sıfırlayarak hesabınıza erişin:"
       },
       "resetPwd": {
         "title": "Şifreyi Sıfırla",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Ülke Seçiniz",
         "searchPH": "Ülkeyi ada veya arama koduna göre arayın"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Profilinizi tamamlayın",
+            "desc": "Tamamlanmamış profiller, uygulamamızdaki özelliklere sınırlı erişime sahiptir. Profilinizin güncellenmesi size çeşitli şekillerde yardımcı olur. Daha fazla bilgi için buraya tıklayın.",
+            "item1": {
+              "header": "Profillerin tamamı kolayca Doğrulanır",
+              "p1": "Hesap doğrulaması isteğinde bulunurken (bir sonraki adım), başkalarının sizi tanıdıklarında veya hakkınızda doğrulama için gerekli tüm bilgileri gördüklerinde sizi kolayca doğrulamalarına yardımcı olur.",
+              "p2": "Tamamlanmamış profillerin doğrulanması çok daha uzun sürer. Uygulamamızdaki özellikleri kullanmanızın engellenmesini istemeyiz."
+            },
+            "item2": {
+              "header": "Doğru içeriği görün",
+              "p1": "İçeriği çevrenize göre görürsünüz. Hakkınızda doğru bilgilere sahip olduğumuzda, daha alakalı içerikler görürsünüz.",
+              "p2": "Örneğin, konumunuzu doğru bir şekilde güncellediyseniz, önce çevrenizdeki yayınları görme olasılığınız daha yüksektir."
+            },
+            "cta": "Profilinizi tamamlayın"
+          },
+          "identity": {
+            "header": "Kimliğinizi ayarlama",
+            "desc": "Uygulamamızdaki herkesi memnuniyetle karşılıyoruz, ancak bazı özellikler yalnızca Şii Müslümanlar için yararlı (ve kastedilen) olduğundan, bu bilgiler size doğru özellikleri sunmamıza yardımcı olur. Daha fazla bilgi için buraya tıklayın.",
+            "item1": {
+              "header": "Şii Müslümanlar için erişim özellikleri",
+              "p1": "Uygulamamızdaki bir dizi özellik Şii Müslümanlardan oluşmaktadır. Bunlardan bazıları şunlardır:",
+              "ul": "<li>Fatiha Suresi ve Namaz-ı Vehşat İsteği</li><li>Khums Hesap Makinesi</li><li>Sadat Momineen'e maddi yardım (khums)</li>",
+              "p2": "Bu özelliklere erişmek için kimliğinizi doğrulamanız gerekir (şimdi veya isterseniz daha sonra)"
+            },
+            "item2": {
+              "header": "İhtiyacı olan momineen'e yardım edebilirsin!",
+              "p1": "Doğrulanmak istemeseniz bile, bu özelliklerden yararlanmak için doğrulanmak isteyebilecek başkaları da olabilir.",
+              "p2": "Yalnızca doğrulanmış hesaplar bu tür momineen'leri doğrulayabilir. Doğrulama, doğrulanmış bir Şii topluluğu oluşturmamıza da yardımcı olur."
+            },
+            "item3": {
+              "header": "Bilgileriniz her zaman gizlidir",
+              "p1": "<strong>Bunun hassas bir bilgi olduğunu anlıyoruz</strong> ve bu bilgileri izniniz olmadan asla kamuya açıklamayacağız, ancak bazen çıkarımlar yapılabilir. Örneğin, diğer momineenlerden doğrulama talep ettiğinizde, sizin bir Şii olduğunuzu bileceklerdir.",
+              "p2": "Sürecimiz hakkında daha fazla bilgi edinmek için aşağıdaki butona tıklayabilirsiniz."
+            },
+            "cta": "Kurulum"
+          }
+        },
+        "idSetup": {
+          "header": "Neredeyse bitti!",
+          "desc": "Gizlilik ve iletişim ayarlarınız için önceden belirlenmiş değerlerimizden memnunsanız bu adımı atlayabilirsiniz. Yine de bir göz atmak zarar vermez!",
+          "privacy": {
+            "header": "Gizliliğinizi ayarlayın",
+            "p1": "Başkalarının neleri görebileceğini tanımlayın:",
+            "ul": "<li>Yayınlarınız için görünürlük ayarlarını yapın. Yayınlarınızın Bazm'da veya Bazm dışında herhangi biri tarafından görülüp görülemeyeceğini tanımlar (örneğin, birisi başka bir platformda paylaştığında)</li><li>Profilinizi ziyaret ettiklerinde kimlerin neleri görebileceğini ayarlama</li><li>Bilgilerinizin başkalarına nasıl görüneceğini ayarlama</li>"
+          },
+          "comm": {
+            "header": "İletişim ayarlarını yapma",
+            "p1": "Sizinle nasıl ve ne zaman iletişim kurmamızı istediğinizi tanımlayın:",
+            "ul": "<li>Bildirim tercihlerinizi ayarlama</li><li>E-posta bildirimlerine abone olma veya abonelikten çıkma</li><li>Anımsatıcılara abone olma veya abonelikten çıkma</li>"
+          },
+          "cta": "Kurulum"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Cep telefonunuzu doğrulama",
+            "desc": "Cep telefonu numaranızı doğrulamak için aşağıdaki bağlantıya tıklayın:",
+            "cta": "Mobil doğrulamayı başlatma",
+            "completed": "Mobil cihazlar başarıyla doğrulandı"
+          },
+          "email": {
+            "header": "E-postanızı doğrulama",
+            "desc": "Gelen kutunuza doğrulama e-postası almak için aşağıdaki bağlantıyı tıklayın.",
+            "cta": "Mobil doğrulamayı başlatma",
+            "completed": "Mobil cihazlar başarıyla doğrulandı",
+            "form": {
+              "inputLabel": "E-posta adresiniz:",
+              "ph": "E-posta adresinizi girin",
+              "cta": "E-posta doğrulama bağlantısı"
+            },
+            "sent": {
+              "desc": "Aşağıdaki e-posta adresinize bir e-posta gönderildi. E-posta adresinizi doğrulamak için e-postanızdaki bağlantıya tıklayın.",
+              "incorrect": "E-posta adresiniz yanlış mı?",
+              "change": "Değiştirmek"
+            },
+            "resendCta": "E-postayı Tekrar Gönder",
+            "openEmailCta": "E-postayı Aç",
+            "verified": "E-posta başarıyla doğrulandı!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Hesap kurulumunu tamamlayın",
+        "desc": "Hesap kurulumunuzu tamamlayarak hesabınızın özelliklerinin kilidini açın. Bunu yalnızca bir kez yapmanız yeterlidir ve bilgilerinizi, kimliğinizi doğrulamanıza ve sizin için Gizlilik seçeneklerini ayarlamanıza yardımcı olur.",
+        "gotoPageCta": "Kuruluma Devam Et",
+        "dontRemind": "Bana bir daha hatırlatma",
+        "dismissCta": "Sonra",
+        "jsConfirmSkip": {
+          "header": "Daha sonra devam mı edeceksiniz?",
+          "msg": "Bu adımı tamamlamak, uygulamada sizin için birçok özelliğin kilidini açacaktır, ancak bu adımı daha sonra da tamamlayabilirsiniz. Sadece 'Kullanıcı' sekmesine gidin ve oradan devam edin.",
+          "btns": {
+            "confirm": "Evet, daha sonra",
+            "cancel": "Şimdi yapın"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Kimliğinizi Ayarlama",
+        "form": {
+          "religion": {
+            "label": "Dininizi seçin:",
+            "infoText": "Sadece Müslümanlarla ilgili bazı özellikler bu bilgilere dayanmaktadır. Bu veriler yalnızca sizin tarafınızdan görülebilir; Bununla birlikte, çıkarımlar yine de yapılabilir (örneğin, yalnızca Müslümanlar için mevcut olan özelliklerden birini kullandığınızda olduğu gibi)",
+            "muslim": "Müslüman",
+            "nonMuslim": "Gayrimüslim"
+          },
+          "sect": {
+            "label": "Tarikatınızı seçin",
+            "infoText": "<strong>Ziyarat İsteği, Yardım İsteği, Khums hesaplaması gibi</strong> özellikler Şii kimliğinizi doğrulamanızı gerektirir. Ayrıca, doğrulanmamış kullanıcıların özelliklere sınırlı erişimi vardır.",
+            "shia": "Shia",
+            "sunni": "Şii olmayanlar"
+          },
+          "thanksNonMuslim": "Uygulamamıza katılmaya ilgi gösterdiğiniz için teşekkür ederiz. Umarız burada yararlı içerikler bulursunuz. Lütfen topluluğa saygı gösterin ve kurallarımıza uyun.",
+          "sadat": {
+            "label": "Sedat mısınız?",
+            "infoText": "Bu bilgi, Sedat-Şii Müslümanlara yönelik özelliklerde kullanılır. Ancak, hiçbir zaman kimseye olduğu gibi gösterilmez. Bu hizmetlerden yararlanabilmeniz için önce sadat durumunuzu doğrulamanız gerekecektir.",
+            "sadat": "Evet",
+            "nonSadat": "Hayır"
+          },
+          "requested": "Doğrulama istendi",
+          "required": "Doğrulama gerekli",
+          "verifyInfo": {
+            "modalCta": "Bu nedir?",
+            "p1": "Şii Müslümanlara yönelik özelliklere erişmek için Şii kimliğinizi doğrulamanız gerekir.",
+            "p2": "Eğer bir Şii-Sedat iseniz, bunu da doğrulamanız gerekecektir. Aynı doğrulama isteğinde eşleştirebilirsiniz; sadece yukarıda <strong>Sedat'ı</strong> seçin."
+          },
+          "verifyCta": "Doğrulamak",
+          "skipInfo": "Belirtilen özellikleri kullanmak istemiyorsanız doğrulamayı atlayabilirsiniz. Yalnızca bilgilerinizi güncellemek için <strong>Kaydet ve Devam Et'i</strong> tıklayın",
+          "thankSunni": {
+            "p1": "Uygulamamıza ilgi gösterdiğiniz için teşekkür ederiz. Bu dünyevi bölünmelere rağmen bütün Müslümanlar iman kardeşidir ve Hz. Muhammed'in (asm) aynı ümmetine mensuptur",
+            "p2": "Umarız buradaki içeriği yararlı bulursunuz ve birbirimizi daha iyi anlamamıza yardımcı olur.",
+            "p3": "Politikalarımızla ilgili herhangi bir sorunuz/endişeniz veya herhangi bir şey için bize her zaman ulaşabilirsiniz."
+          }
+        },
+        "cta": [
+          "Kurtarmak",
+          "Kaydet ve Devam Et"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Hesabı {name} için doğrulama",
+        "heading": "{firstName}hakkında aşağıdaki bilgilere cevap verebilir misiniz? Değilse, bu isteği reddedin.",
+        "desc": "Doğrulamak için yalnızca iki denemeniz var!",
+        "descP1": "Bu formu gönderdiğinizde, bilgileri doğrulama isteğinde bulunurken sağlanan {firstName} ile eşleştiririz. Lütfen dikkat edin, çünkü bu formu doğru doldurmak için yalnızca iki denemeniz vardır. Yine de başarısız olursanız, gelecekte {firstName} tekrar doğrulayamazsınız.",
+        "descP2": "{firstName}bilmiyorsanız bu isteği reddedin. Onlara haber vereceğiz ve başka birine ulaşmalarını isteyeceğiz.",
+        "rejectRequestCta": "İsteği Reddet",
+        "form": {
+          "heading": "{firstName} hakkında aşağıdaki soruları yanıtlayın ve Gönder'i tıklayın:",
+          "q1": "{firstName}nereden biliyorsun?",
+          "q2": "Din:",
+          "q3": "Mezhep:",
+          "q4": "{firstName} Sedat mı?",
+          "q5": "Eklemek istediğiniz başka bir şey var mı?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Gizlilik Ayarlarınız",
+        "privacy": {
+          "header": "Gizlilik Ayarları",
+          "desc": "Sizden veya hesabınızda kimlerin takip ettiğini görebileceğini ayarlayın:",
+          "form": {
+            "posts": "Gönderileriniz",
+            "status": "Durum güncellemeleriniz",
+            "requests": "İstekleriniz",
+            "relationship": "İlişki durumunuz",
+            "birthday": "Doğum tarihiniz (yıl değil)",
+            "location": "Bulunduğunuz yer"
+          },
+          "disclaimer": {
+            "heading": "* Bu konuda hala çıkarımlar yapılabilir",
+            "p": "Bu bilgiler profilinizde gizlenmiş olsa da, bazı çıkarımlar yapılabilir. Örneğin, gönderiniz bir kullanıcıya görünüyorsa, yakın yaşadığınızı anlayabilir (bu gönderinin akışlarında nerede göründüğüne bağlı olarak)"
+          },
+          "values": {
+            "everyone": "Herkes",
+            "users": "Sadece Momineen",
+            "shias": "Sadece Şiiler",
+            "me": "Sadece ben"
+          }
+        },
+        "comm": {
+          "header": "İletişim Ayarları",
+          "desc": "Nasıl iletişim kurmak istediğinizi ayarlayın",
+          "form": {
+            "push": {
+              "header": "Anlık bildirimler",
+              "nearby": "Yakındaki kullanıcıların gönderileri için",
+              "daily": "Günlük güncellemelerimiz"
+            },
+            "email": {
+              "header": "E-posta bildirimleri",
+              "weekly": "Haftalık haber bülteni",
+              "monthly": "Aylık özet e-postaları"
+            },
+            "cta": "Güncelleştirmek"
+          }
+        },
+        "js": {
+          "changeSaved": "Değişiklikler başarıyla kaydedildi"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Reddetmek",
+        "title": "İsteği reddet",
+        "reasonLabel": "Bu hesabı neden doğrulamak istemiyorsunuz?",
+        "reasonPh": "{userName} bildireceğiz ve doğrulama için başka birine ulaşmalarını isteyeceğiz"
+      },
+      "haadiHome": {
+        "title": "Tartışma başlat | Haadi ile tartışmalarınız",
+        "item": {
+          "added": "Eklenen {date}",
+          "tokensUsed": "Kullanılan jetonlar: {tokens}",
+          "readContinue": "Tartışmayı okuyun veya tartışmaya devam edin"
+        },
+        "blank": {
+          "heading": "Yeni tartışma başlat",
+          "desc": "Daha önce hiç konuşmanız yok. Sorgunuzu aşağıya göndererek yeni bir tartışma başlatın."
+        },
+        "introLink": "Haadi hakkında daha fazla bilgi edinin veya",
+        "inputPh": "Yeni tartışma başlat",
+        "quesHelp": {
+          "invalid": "5 veya daha fazla kelime içeren sorular daha mantıklıdır..",
+          "goodLen": "Bu iyi bir soru gibi görünüyor!",
+          "excellent": "Sorunuzu açıklamak asla acıtmaz. Şeref!"
+        }
+      },
+      "askHaadi": {
+        "title": "Haadi'ye sor",
+        "infoText": "Bu tartışmayı sonlandırmak ve yeni bir konuşma başlatmak için aşağıdaki düğmeyi tıklayın",
+        "newChatCTA": "Yeni Tartışma",
+        "inputPH": "Bir soru sor",
+        "empty": {
+          "heading": "Bu konuşma bulunamadı",
+          "p1": "Bu konuşmayı almaya çalışırken bir hata oluştu. Lütfen URL'yi kontrol edin ve tekrar deneyin.",
+          "p2": "Bu durum devam ederse, lütfen bizimle iletişime geçin."
+        },
+        "jsNewChatInfo": "Bu, Haadi ile yeni bir konuşmanın başlangıcıdır. Sorularınızı yanıtlarken Haadi için bağlamı etkinleştirmeyi seçtiniz. Bu seçeneği istediğiniz zaman ayarlardan devre dışı bırakabilir veya bunun sizin için ne anlama geldiğini görebilirsiniz."
+      },
+      "aboutHaadi": {
+        "title": "Şii İslam'da gezinmek için bot arkadaşınız Haadi ile tanışın!",
+        "desc": "Daha fazla bilgi edinmek için bu özetlerin her birini tıklayın veya blogumuzda <a href= Haadi ve kullanım şartları hakkında daha fazla bilgi{blogLink} target='_system'>",
+        "agreement": "Kullanım Koşullarını anlıyor ve kabul ediyorum"
       }
     },
     "authPage": {
