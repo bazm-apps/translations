@@ -66,9 +66,22 @@
           "cta": "Osvěžit"
         },
         "jsImgUploaded": "Obrázek byl úspěšně nahrán!",
-        "jsImgUploadErr": "Nahrání obrázku se nezdařilo. Zkuste to prosím znovu později."
+        "jsImgUploadErr": "Nahrání obrázku se nezdařilo. Zkuste to prosím znovu později.",
+        "jsLoadingDelay": "Trvá to trochu déle, než se očekávalo. Počkejte prosím, než tuto žádost zpracujeme."
       },
-      "unknown": "Neznámý"
+      "unknown": "Neznámý",
+      "close": "Zavřít",
+      "yes": "Ano",
+      "no": "Ne",
+      "idk": "Nevím",
+      "completed!": "Hotový!",
+      "pushPrompt": {
+        "heading": "Zůstaňte v obraze",
+        "desc": "Líbí se vám to, co vidíte? Nikdy nezmeškáte žádnou aktualizaci a zůstaňte informováni o všem, co se děje kolem prostřednictvím oznámení.<br />Můžeme vám zasílat oznámení?",
+        "cancelCta": "Zeptejte se později",
+        "okCta": "Jistý!",
+        "jsPushUnsupported": "Push není podporováno na tomto zařízení. Oznámení vám mohou uniknout!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Úspěšně nastavené alarmy",
           "jsAlarmSetError": "Chyba při nastavování alarmů. Zkuste to prosím znovu později.",
-          "jsAlarmSnoozed": "Alarm odložen na 10 minut"
+          "jsAlarmSnoozed": "Alarm odložen na 10 minut",
+          "sunriseLabel": "Východ slunce",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Domov"
         },
         "alarmSetting": {
           "title": "Nastavení alarmu",
@@ -398,7 +415,10 @@
           "addGender": "Přidat pohlaví",
           "addBday": "Přidat narozeniny",
           "addRelation": "Přidat relaci",
-          "joinDate": "Založen: {date}"
+          "joinDate": "Založen: {date}",
+          "privateInfoDesc": "Tyto informace jsou viditelné pouze pro vás a vidíte obsah a funkce, které jsou na nich založeny.",
+          "idSetupCta": "Nastavení identity",
+          "idVerifyCta": "Ověřit"
         },
         "posts": {
           "title": "Odesílá",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Opravdu?",
           "jsDeletePrompt": "Odstraněním záznamů pro <b>{fullName}</b> odstraníte také všechny předchozí požadavky na {gender}! Pokračovat?",
           "jsDeleted": "Odstraněné záznamy pro {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Ověřte svou šíitskou identitu | Ověřte svou identitu Sadata",
+          "p1": "Ve svém profilu jste uvedl, že jste šíitský muslim. Ověření těchto informací vám umožní více funkcí a pomůže nám vybudovat ověřenou komunitu šíitských muslimů.",
+          "p2": "Ověřte laskavě svou totožnost; Nebude to dlouho trvat",
+          "noReminder": "Příště mi to nepřipomínat",
+          "dismissCta": "Teď ne",
+          "startCta": "Začínat"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Nejprve se musíte nechat ověřit, než budete moci ověřit ostatní!",
+          "jsLinkExpired": "Tento odkaz je neplatný nebo jeho platnost vypršela. Požádejte přítele o zaslání nové žádosti.",
+          "confirm": {
+            "heading": "Ověření identity účtu",
+            "msg": "Pomozte {firstName} ověření informací o {genderLabel1} účtu. To {genderLabel2} umožní přístup k dalším funkcím v naší aplikaci",
+            "jsSkip": "Žádný problém. Pokud změníte názor, můžete tento odkaz znovu navštívit a ověřit si to později."
+          }
+        },
+        "myKhums": {
+          "title": "My Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Odeslat jednorázové heslo",
         "backToLoginCta": "Zpět na Přihlášení",
         "disclaimerText": "Vezměte prosím na vědomí, že {item} obdržíte pouze v případě, že máte {item} u nás zaregistrovanou",
-        "jsMailSent": "Odeslaná pošta"
+        "jsMailSent": "Odeslaná pošta",
+        "title2": "Potvrďte svůj účet",
+        "claimIntroHeading": "Potvrďte svůj účet rychle!",
+        "claimIntroText": "Děkujeme, že jste se k nám připojili. Nyní jsme pro vás vytvořili účet. Získejte přístup ke svému účtu resetováním hesla pomocí jedné z následujících metod:"
       },
       "resetPwd": {
         "title": "Obnovit heslo",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Vyberte zemi",
         "searchPH": "Hledaná země podle jména nebo číselného kódu"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Vyplňte svůj profil",
+            "desc": "Neúplné profily mají omezený přístup k funkcím v naší aplikaci. Aktualizace profilu vám pomůže mnoha způsoby. Klikněte zde a dozvíte se více.",
+            "item1": {
+              "header": "Kompletní profily se snadno ověří",
+              "p1": "Když žádáte o ověření účtu (další krok), pomáhá ostatním snadno vás ověřit, pokud vás buď znají, nebo mohou vidět všechny potřebné informace pro ověření o vás.",
+              "p2": "Ověření neúplných profilů trvá mnohem déle. Nechtěli bychom, aby vám bylo zablokováno používání funkcí naší aplikace."
+            },
+            "item2": {
+              "header": "Zobrazit správný obsah",
+              "p1": "Obsah se zobrazuje na základě vašeho okolí. Když o vás máme správné informace, uvidíte relevantnější obsah.",
+              "p2": "Pokud jste například správně aktualizovali polohu, s větší pravděpodobností uvidíte příspěvky z vašeho okolí jako první."
+            },
+            "cta": "Vyplňte svůj profil"
+          },
+          "identity": {
+            "header": "Nastavení identity",
+            "desc": "Vítáme každého v naší aplikaci, ale protože některé funkce jsou užitečné (a míněné) pouze pro šíitské muslimy, tyto informace nám pomáhají poskytovat vám správné funkce. Klikněte zde a dozvíte se více.",
+            "item1": {
+              "header": "Přístupové funkce pro šíitské muslimy",
+              "p1": "Řada funkcí v naší aplikaci je postavena na šíitských muslimech. Některé z nich jsou:",
+              "ul": "<li>Žádost o Surah-fatihu a Namaz-e-Wahshat</li><li>Khums kalkulačka</li><li>Finanční pomoc (khums) pro Sadat momineen</li>",
+              "p2": "Chcete-li získat přístup k těmto funkcím, musíte ověřit svou identitu (ať už nyní, nebo později, pokud se rozhodnete)"
+            },
+            "item2": {
+              "header": "Můžete pomoci momineen v nouzi!",
+              "p1": "I když nechcete být ověřeni, mohou existovat jiní, kteří mohou chtít získat ověření, aby mohli tyto funkce využívat.",
+              "p2": "Takové momineen mohou ověřit pouze ověřené účty. Ověřování nám také pomáhá budovat ověřenou šíitskou komunitu."
+            },
+            "item3": {
+              "header": "Vaše informace jsou vždy soukromé",
+              "p1": "<strong>Chápeme, že se jedná o citlivé</strong> informace a nikdy tyto informace nezveřejníme bez vašeho souhlasu, ale někdy mohou být učiněny závěry. Například, když požádáte o ověření od jiných momineen, budou vědět, že jste šíita.",
+              "p2": "Kliknutím na tlačítko níže se dozvíte více o našem procesu."
+            },
+            "cta": "Sestava"
+          }
+        },
+        "idSetup": {
+          "header": "Téměř hotovo!",
+          "desc": "Tento krok můžete přeskočit, pokud jste spokojeni s našimi přednastavenými hodnotami pro nastavení soukromí a komunikace. Není na škodu se podívat!",
+          "privacy": {
+            "header": "Nastavení soukromí",
+            "p1": "Definujte, co ostatní mohou vidět:",
+            "ul": "<li>Nastavte viditelnost pro své příspěvky. Definuje, zda vaše příspěvky může vidět někdo na Bazmu nebo mimo něj (např. Když je někdo sdílí na jiné platformě)</li><li>Nastavte, kdo uvidí co, když navštíví váš profil</li><li>Nastavení zobrazení informací ostatním</li>"
+          },
+          "comm": {
+            "header": "Nastavení komunikace",
+            "p1": "Definujte, jak a kdy chcete, abychom s vámi komunikovali:",
+            "ul": "<li>Nastavení předvoleb oznámení</li><li>Přihlášení nebo odhlášení odběru oznámení o e-mailech</li><li>Přihlášení k odběru nebo odhlášení odběru připomínek</li>"
+          },
+          "cta": "Sestava"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Ověřte svůj mobilní telefon",
+            "desc": "Kliknutím na níže uvedený odkaz ověřte číslo svého mobilního telefonu:",
+            "cta": "Spustit mobilní ověření",
+            "completed": "Mobilní zařízení ověřeno úspěšně"
+          },
+          "email": {
+            "header": "Ověření e-mailu",
+            "desc": "Kliknutím na níže uvedený odkaz získáte ověřovací e-mail do doručené pošty.",
+            "cta": "Spustit mobilní ověření",
+            "completed": "Mobilní zařízení ověřeno úspěšně",
+            "form": {
+              "inputLabel": "Váš email:",
+              "ph": "Zadejte svůj e-mail",
+              "cta": "Odkaz pro ověření e-mailu"
+            },
+            "sent": {
+              "desc": "Na níže uvedenou e-mailovou adresu byl odeslán e-mail. Kliknutím na odkaz v e-mailu ověřte svou e-mailovou adresu.",
+              "incorrect": "Nesprávný e-mail?",
+              "change": "Vyměnit"
+            },
+            "resendCta": "Znovu odeslat e-mail",
+            "openEmailCta": "Otevřít e-mail",
+            "verified": "E-mail byl úspěšně ověřen!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Kompletní nastavení účtu",
+        "desc": "Odemkněte funkce svého účtu dokončením nastavení účtu. Stačí to udělat jednou a pomůže vám to ověřit vaše údaje, vaši identitu a možnosti ochrany osobních údajů.",
+        "gotoPageCta": "Pokračovat v nastavení",
+        "dontRemind": "Příště mi to nepřipomínat",
+        "dismissCta": "Později",
+        "jsConfirmSkip": {
+          "header": "Pokračovat později?",
+          "msg": "Dokončení tohoto kroku odemkne mnoho funkcí aplikace, ale tento krok můžete dokončit i později. Stačí přejít na kartu \"Uživatel\" a pokračovat odtud.",
+          "btns": {
+            "confirm": "Ano, později",
+            "cancel": "Udělej to hned"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Nastavení identity",
+        "form": {
+          "religion": {
+            "label": "Vyberte své náboženství:",
+            "infoText": "Řada funkcí, které jsou relevantní pouze pro muslimy, je založena na těchto informacích. Tyto údaje budou viditelné pouze pro vás; Závěry však mohou být učiněny (například při použití jedné z funkcí dostupných pouze pro muslimy)",
+            "muslim": "Muslim",
+            "nonMuslim": "Nemuslimové"
+          },
+          "sect": {
+            "label": "Vyber si svou sektu",
+            "infoText": "Funkce jako Žádost o <strong>Ziyarat, Žádost o pomoc, Khums výpočet atd</strong> . Vyžadují, abyste ověřili svou šíitskou identitu. Neověření uživatelé mají také omezený přístup k funkcím.",
+            "shia": "Shia",
+            "sunni": "Nešíité"
+          },
+          "thanksNonMuslim": "Děkujeme, že jste projevili zájem o připojení k naší aplikaci. Doufáme, že zde najdete užitečný obsah. Projevte prosím respekt komunitě a dodržujte naše pravidla.",
+          "sadat": {
+            "label": "Jsi Sadat?",
+            "infoText": "Tyto informace jsou použity v rysech určených pro Sadat-šíitské muslimy. Nikdy se však nikomu nezobrazuje tak, jak je. Budete muset ověřit svůj status sadat předtím, než budete moci tyto služby využít.",
+            "sadat": "Ano",
+            "nonSadat": "Ne"
+          },
+          "requested": "Požadované ověření",
+          "required": "Vyžadováno ověření",
+          "verifyInfo": {
+            "modalCta": "Co to je?",
+            "p1": "Chcete-li získat přístup k funkcím určeným pro šíitské muslimy, musíte ověřit svou šíitskou identitu.",
+            "p2": "Pokud jste šíita Sadat, budete to muset také ověřit. Můžete ji spárovat ve stejné žádosti o ověření. jednoduše vyberte <strong>Sadat</strong> výše."
+          },
+          "verifyCta": "Ověřit",
+          "skipInfo": "Ověření můžete přeskočit, pokud nechcete uvedené funkce používat. Chcete-li pouze aktualizovat své údaje, klikněte na <strong>tlačítko Uložit a pokračovat</strong>",
+          "thankSunni": {
+            "p1": "Děkujeme, že jste projevili zájem o naši aplikaci. Navzdory těmto světským rozdělením jsou všichni muslimové bratry ve víře a patří ke stejné ummě proroka Mohameda (pokoj budiž s ním)",
+            "p2": "Doufáme, že pro vás bude obsah užitečný a pomůže nám lépe se navzájem porozumět.",
+            "p3": "Máte-li jakékoli dotazy nebo obavy týkající se našich zásad nebo čehokoli jiného, můžete se na nás kdykoli obrátit."
+          }
+        },
+        "cta": [
+          "Uložit",
+          "Uložit a pokračovat"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Ověření účtu pro {name}",
+        "heading": "Můžete odpovědět níže na informace o {firstName}? Pokud ne, pak tuto žádost zamítněte.",
+        "desc": "Na ověření máte pouze dva pokusy!",
+        "descP1": "Když odešlete tento formulář, porovnáme informace s tím, co {firstName} poskytli při žádosti o ověření. Věnujte prosím pozornost, protože máte pouze dva pokusy o správné vyplnění tohoto formuláře. Pokud se vám to stále nepodaří, nebudete {firstName} moci v budoucnu znovu ověřit.",
+        "descP2": "Pokud {firstName}nevíte, zamítněte tuto žádost. Dáme jim vědět a požádáme je, aby se obrátili na někoho jiného.",
+        "rejectRequestCta": "Žádost o zamítnutí",
+        "form": {
+          "heading": "Odpovězte na následující otázky týkající se {firstName} a klikněte na Odeslat:",
+          "q1": "Jak víte {firstName}?",
+          "q2": "Náboženství:",
+          "q3": "Sekta:",
+          "q4": "Je {firstName} Sadat?",
+          "q5": "Je ještě něco, co byste chtěli dodat?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Nastavení soukromí",
+        "privacy": {
+          "header": "Nastavení ochrany osobních údajů",
+          "desc": "Nastavte, kdo může vidět následující od vás nebo ve vašem účtu:",
+          "form": {
+            "posts": "Vaše příspěvky",
+            "status": "Aktualizace vašeho stavu",
+            "requests": "Vaše požadavky",
+            "relationship": "Váš rodinný stav",
+            "birthday": "Vaše datum narození (ne rok)",
+            "location": "Vaše poloha"
+          },
+          "disclaimer": {
+            "heading": "* O tom lze ještě vyvodit závěry",
+            "p": "I když tyto informace mohou být skryté ve vašem profilu, některé závěry mohou být stále provedeny. Pokud se například váš příspěvek zobrazí uživateli, může odvodit, že žijete blízko (podle toho, kde se tento příspěvek v jeho kanálu zobrazuje)"
+          },
+          "values": {
+            "everyone": "Každý",
+            "users": "Pouze Momineen",
+            "shias": "Pouze šíité",
+            "me": "Jen já"
+          }
+        },
+        "comm": {
+          "header": "Nastavení komunikace",
+          "desc": "Nastavte si, jak chcete být komunikováni",
+          "form": {
+            "push": {
+              "header": "Nabízená oznámení",
+              "nearby": "Pro příspěvky od uživatelů v okolí",
+              "daily": "Naše denní aktualizace"
+            },
+            "email": {
+              "header": "E-mailová oznámení",
+              "weekly": "Týdenní zpravodaj",
+              "monthly": "Měsíční souhrnné e-maily"
+            },
+            "cta": "Aktualizace"
+          }
+        },
+        "js": {
+          "changeSaved": "Změny byly úspěšně uloženy"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Odmítat",
+        "title": "Žádost o zamítnutí",
+        "reasonLabel": "Proč nechcete tento účet ověřit?",
+        "reasonPh": "Dáme {userName} vědět a požádáme je, aby se obrátili na někoho jiného pro ověření"
+      },
+      "haadiHome": {
+        "title": "Zahájit diskusi | Vaše diskuse s Haadim",
+        "item": {
+          "added": "Přidáno {date}",
+          "tokensUsed": "Použité žetony: {tokens}",
+          "readContinue": "Přečtěte si nebo pokračujte v diskusi"
+        },
+        "blank": {
+          "heading": "Zahájit novou diskuzi",
+          "desc": "Nemáte žádné předchozí konverzace. Zahajte novou diskusi odesláním dotazu níže."
+        },
+        "introLink": "Přečtěte si více o Haadi, nebo",
+        "inputPh": "Zahájit novou diskuzi",
+        "quesHelp": {
+          "invalid": "Otázky s 5 nebo více slovy dávají větší smysl.",
+          "goodLen": "To vypadá jako dobrá otázka!",
+          "excellent": "Nikdy neuškodí vysvětlit svou otázku. Sláva!"
+        }
+      },
+      "askHaadi": {
+        "title": "Zeptejte se Haadiho",
+        "infoText": "Chcete-li tuto diskusi ukončit a zahájit novou konverzaci, klikněte na tlačítko níže",
+        "newChatCTA": "Nová diskuze",
+        "inputPH": "Položit dotaz",
+        "empty": {
+          "heading": "Tuto konverzaci nelze najít",
+          "p1": "Při pokusu o získání této konverzace došlo k chybě. Zkontrolujte adresu URL a zkuste to znovu.",
+          "p2": "Pokud se to bude dít i nadále, kontaktujte nás."
+        },
+        "jsNewChatInfo": "Toto je začátek nového rozhovoru s Haadim. Rozhodli jste se povolit kontext pro Haadi při odpovídání na vaše otázky. Tuto možnost můžete kdykoli zakázat v nastavení nebo zjistit, co to pro vás znamená."
+      },
+      "aboutHaadi": {
+        "title": "Seznamte se s Haadi, vaším botfriendem, který naviguje šíitský islám!",
+        "desc": "Kliknutím na každý z těchto souhrnů se dozvíte více nebo se dozvíte více o Haadi a podmínkách použití v <a href={blogLink} target='_system'>náš blog",
+        "agreement": "Rozumím a souhlasím s Podmínkami použití"
       }
     },
     "authPage": {
