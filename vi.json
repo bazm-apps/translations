@@ -66,9 +66,22 @@
           "cta": "Làm tươi"
         },
         "jsImgUploaded": "Hình ảnh được tải lên thành công!",
-        "jsImgUploadErr": "Tải lên hình ảnh không thành công. Vui lòng thử lại sau."
+        "jsImgUploadErr": "Tải lên hình ảnh không thành công. Vui lòng thử lại sau.",
+        "jsLoadingDelay": "Nó mất nhiều thời gian hơn dự kiến. Vui lòng đợi trong khi chúng tôi xử lý yêu cầu này."
       },
-      "unknown": "Không biết"
+      "unknown": "Không biết",
+      "close": "Đóng",
+      "yes": "Có",
+      "no": "Không",
+      "idk": "Tôi không biết",
+      "completed!": "Hoàn thành!",
+      "pushPrompt": {
+        "heading": "Luôn cập nhật",
+        "desc": "Thích những gì bạn thấy? Không bao giờ bỏ lỡ bản cập nhật và luôn được thông báo về mọi thứ xảy ra xung quanh với các thông báo.<br />Chúng tôi có thể gửi thông báo cho bạn không?",
+        "cancelCta": "Hỏi tôi sau",
+        "okCta": "Chắc!",
+        "jsPushUnsupported": "Đẩy không được hỗ trợ trên thiết bị này. Bạn có thể bỏ lỡ thông báo!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Báo thức được đặt thành công",
           "jsAlarmSetError": "Lỗi trong việc đặt báo thức. Vui lòng thử lại sau.",
-          "jsAlarmSnoozed": "Báo thức báo lại trong 10 phút"
+          "jsAlarmSnoozed": "Báo thức báo lại trong 10 phút",
+          "sunriseLabel": "Bình minh",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Nhà"
         },
         "alarmSetting": {
           "title": "Cài đặt báo thức",
@@ -398,7 +415,10 @@
           "addGender": "Thêm giới tính",
           "addBday": "Thêm sinh nhật",
           "addRelation": "Thêm mối quan hệ",
-          "joinDate": "Đã tham gia: {date}"
+          "joinDate": "Đã tham gia: {date}",
+          "privateInfoDesc": "Thông tin này chỉ hiển thị cho bạn và bạn thấy nội dung và tính năng dựa trên thông tin này.",
+          "idSetupCta": "Thiết lập danh tính của bạn",
+          "idVerifyCta": "Xác minh"
         },
         "posts": {
           "title": "Bài viết",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Bạn có chắc không?",
           "jsDeletePrompt": "Xóa bản ghi cho <b>{fullName}</b> cũng sẽ xóa tất cả các yêu cầu trước đó được thực hiện cho {gender}! Tiếp tục?",
           "jsDeleted": "Đã xóa bản ghi cho {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Xác minh danh tính Shia của bạn | Xác minh danh tính Sadat của bạn",
+          "p1": "Bạn đã chỉ ra trong hồ sơ của mình rằng bạn là người Hồi giáo Shia. Việc xác minh thông tin này sẽ kích hoạt nhiều tính năng hơn cho bạn và giúp chúng tôi xây dựng một cộng đồng Hồi giáo Shia đã được xác minh.",
+          "p2": "Vui lòng xác minh danh tính của bạn; Sẽ không mất nhiều thời gian",
+          "noReminder": "Đừng nhắc nhở tôi nữa",
+          "dismissCta": "Không phải bây giờ",
+          "startCta": "Bắt đầu"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Bạn cần phải được xác minh trước khi bạn có thể xác minh những người khác!",
+          "jsLinkExpired": "Liên kết này không hợp lệ hoặc đã hết hạn. Vui lòng nhờ bạn bè của bạn gửi yêu cầu mới.",
+          "confirm": {
+            "heading": "Xác minh danh tính tài khoản",
+            "msg": "Giúp {firstName} xác minh thông tin tài khoản {genderLabel1} . Điều này sẽ cho phép {genderLabel2} truy cập nhiều tính năng hơn trên ứng dụng của chúng tôi",
+            "jsSkip": "Không vấn đề gì. Nếu đổi ý, bạn có thể truy cập lại liên kết này để xác minh sau."
+          }
+        },
+        "myKhums": {
+          "title": "Khums của tôi"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Gửi OTP",
         "backToLoginCta": "Quay lại Đăng nhập",
         "disclaimerText": "Xin lưu ý rằng bạn sẽ chỉ nhận được {item} nếu bạn đã đăng ký {item} với chúng tôi",
-        "jsMailSent": "Thư đã gửi"
+        "jsMailSent": "Thư đã gửi",
+        "title2": "Xác nhận tài khoản của bạn",
+        "claimIntroHeading": "Xác nhận tài khoản của bạn một cách nhanh chóng!",
+        "claimIntroText": "Cảm ơn bạn đã tham gia cùng chúng tôi. Chúng tôi đã tạo một tài khoản cho bạn ngay bây giờ. Nhận quyền truy cập vào tài khoản của bạn bằng cách đặt lại mật khẩu bằng một trong các phương pháp sau:"
       },
       "resetPwd": {
         "title": "Đặt lại mật khẩu",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Chọn Quốc gia",
         "searchPH": "Tìm kiếm quốc gia theo tên hoặc mã số"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Hoàn thành hồ sơ của bạn",
+            "desc": "Hồ sơ không đầy đủ có quyền truy cập hạn chế vào các tính năng trên ứng dụng của chúng tôi. Việc cập nhật hồ sơ của bạn sẽ giúp bạn theo một số cách. Bấm vào đây để biết thêm.",
+            "item1": {
+              "header": "Hoàn thành hồ sơ được Xác minh dễ dàng",
+              "p1": "Khi yêu cầu xác minh tài khoản (bước tiếp theo), nó giúp người khác xác minh bạn dễ dàng khi họ biết bạn hoặc có thể xem tất cả thông tin cần thiết để xác minh về bạn.",
+              "p2": "Hồ sơ không đầy đủ mất nhiều thời gian hơn để được xác minh. Chúng tôi không muốn bạn bị chặn sử dụng các tính năng trên ứng dụng của chúng tôi."
+            },
+            "item2": {
+              "header": "Xem nội dung phù hợp",
+              "p1": "Bạn sẽ thấy nội dung dựa trên môi trường xung quanh mình. Khi chúng tôi có thông tin chính xác về bạn, bạn sẽ thấy nội dung phù hợp hơn.",
+              "p2": "Ví dụ: nếu bạn đã cập nhật vị trí của mình một cách chính xác, nhiều khả năng bạn sẽ thấy các bài đăng từ xung quanh trước tiên."
+            },
+            "cta": "Hoàn thành hồ sơ của bạn"
+          },
+          "identity": {
+            "header": "Thiết lập danh tính của bạn",
+            "desc": "Chúng tôi hoan nghênh tất cả mọi người trên ứng dụng của chúng tôi, nhưng vì một số tính năng chỉ hữu ích (và có ý nghĩa) đối với người Hồi giáo Shia, thông tin này giúp chúng tôi cung cấp cho bạn các tính năng phù hợp. Bấm vào đây để biết thêm.",
+            "item1": {
+              "header": "Các tính năng truy cập cho người Hồi giáo Shia",
+              "p1": "Một số tính năng trên ứng dụng của chúng tôi được xây dựng từ người Hồi giáo Shia. Một số trong số đó là:",
+              "ul": "<li>Yêu cầu Surah-fatiha và Namaz-e-Wahshat</li><li>Máy Tính Khums</li><li>Hỗ trợ tài chính (khums) cho Sadat momineen</li>",
+              "p2": "Để truy cập các tính năng này, bạn cần xác minh danh tính của mình (cho dù bây giờ hay nếu bạn chọn, sau này)"
+            },
+            "item2": {
+              "header": "Bạn có thể giúp momineen khi cần!",
+              "p1": "Ngay cả khi bạn không muốn được xác minh, có thể có những người khác có thể muốn được xác minh để tận dụng các tính năng này.",
+              "p2": "Chỉ những tài khoản đã xác minh mới có thể xác minh momineen đó. Việc xác minh cũng giúp chúng tôi xây dựng một cộng đồng Shia đã được xác minh."
+            },
+            "item3": {
+              "header": "Thông tin của bạn luôn được bảo mật",
+              "p1": "<strong>Chúng tôi hiểu đây là thông tin nhạy cảm</strong> và chúng tôi sẽ không bao giờ tiết lộ công khai thông tin này mà không có sự đồng ý của bạn, nhưng đôi khi vẫn có thể đưa ra suy luận. Ví dụ: khi bạn yêu cầu xác minh từ các momineen khác, họ sẽ biết rằng bạn là người Shia.",
+              "p2": "Bạn có thể nhấp vào nút bên dưới để đọc thêm về quy trình của chúng tôi."
+            },
+            "cta": "Thiết lập"
+          }
+        },
+        "idSetup": {
+          "header": "Sắp xong rồi!",
+          "desc": "Bạn có thể bỏ qua bước này nếu hài lòng với các giá trị đặt trước của chúng tôi cho cài đặt quyền riêng tư và thông tin liên lạc của bạn. Nó không làm tổn thương để có một cái nhìn mặc dù!",
+          "privacy": {
+            "header": "Thiết lập quyền riêng tư của bạn",
+            "p1": "Xác định những gì người khác có thể xem:",
+            "ul": "<li>Đặt cài đặt hiển thị cho bài đăng của bạn. Nó xác định liệu bài đăng của bạn có thể được nhìn thấy bởi bất kỳ ai trên hoặc ngoài Bazm (ví dụ: khi ai đó chia sẻ nó trên nền tảng khác)</li><li>Đặt ai có thể xem nội dung khi họ truy cập trang cá nhân của bạn</li><li>Đặt cách thông tin của bạn hiển thị với người khác</li>"
+          },
+          "comm": {
+            "header": "Thiết lập thiết đặt liên lạc",
+            "p1": "Xác định cách thức và thời điểm bạn muốn chúng tôi liên lạc với bạn:",
+            "ul": "<li>Đặt tùy chọn thông báo của bạn</li><li>Đăng ký hoặc hủy đăng ký nhận thông báo về email</li><li>Đăng ký hoặc hủy đăng ký lời nhắc</li>"
+          },
+          "cta": "Thiết lập"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Xác minh điện thoại di động của bạn",
+            "desc": "Nhấp vào liên kết bên dưới để xác minh số điện thoại di động của bạn:",
+            "cta": "Bắt đầu xác minh trên thiết bị di động",
+            "completed": "Thiết bị di động đã được xác minh thành công"
+          },
+          "email": {
+            "header": "Xác minh email của bạn",
+            "desc": "Nhấp vào liên kết bên dưới để nhận email xác minh trong hộp thư đến của bạn.",
+            "cta": "Bắt đầu xác minh trên thiết bị di động",
+            "completed": "Thiết bị di động đã được xác minh thành công",
+            "form": {
+              "inputLabel": "Email của bạn:",
+              "ph": "Nhập email của bạn",
+              "cta": "Liên kết xác minh email"
+            },
+            "sent": {
+              "desc": "Một email đã được gửi đến địa chỉ email của bạn bên dưới. Nhấp vào liên kết trong email của bạn để xác minh địa chỉ email của bạn.",
+              "incorrect": "Email không chính xác?",
+              "change": "Thay đổi"
+            },
+            "resendCta": "Gửi lại email",
+            "openEmailCta": "Mở Email",
+            "verified": "Email đã được xác minh thành công!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Hoàn tất thiết lập tài khoản",
+        "desc": "Mở khóa các tính năng cho tài khoản của bạn bằng cách hoàn tất thiết lập tài khoản. Bạn chỉ phải làm điều đó một lần và nó giúp xác minh thông tin chi tiết, danh tính của bạn và thiết lập các tùy chọn Quyền riêng tư cho bạn.",
+        "gotoPageCta": "Tiếp tục thiết lập",
+        "dontRemind": "Đừng nhắc nhở tôi nữa",
+        "dismissCta": "Sau đó",
+        "jsConfirmSkip": {
+          "header": "Tiếp tục sau?",
+          "msg": "Hoàn thành bước này sẽ mở khóa nhiều tính năng cho bạn trên ứng dụng, nhưng bạn cũng có thể hoàn thành bước này sau. Chỉ cần chuyển đến tab 'Người dùng' và tiếp tục từ đó.",
+          "btns": {
+            "confirm": "Có, sau này",
+            "cancel": "Làm điều đó ngay bây giờ"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Thiết lập danh tính của bạn",
+        "form": {
+          "religion": {
+            "label": "Chọn tôn giáo của bạn:",
+            "infoText": "Một số tính năng chỉ phù hợp với người Hồi giáo dựa trên thông tin này. Dữ liệu này sẽ chỉ hiển thị cho bạn; Tuy nhiên, suy luận vẫn có thể được thực hiện (chẳng hạn như, khi bạn sử dụng một trong các tính năng chỉ dành cho người Hồi giáo)",
+            "muslim": "Hồi giáo",
+            "nonMuslim": "Không theo đạo Hồi"
+          },
+          "sect": {
+            "label": "Chọn giáo phái của bạn",
+            "infoText": "Các tính năng như Yêu cầu <strong>Ziyarat, Yêu cầu viện trợ, tính toán Khums, v.v</strong> . yêu cầu bạn xác minh danh tính Shia của mình. Ngoài ra, người dùng chưa được xác minh có quyền truy cập hạn chế vào các tính năng.",
+            "shia": "Shia",
+            "sunni": "Không phải Shia"
+          },
+          "thanksNonMuslim": "Cảm ơn bạn đã thể hiện sự quan tâm đến việc tham gia ứng dụng của chúng tôi. Chúng tôi hy vọng bạn tìm thấy nội dung hữu ích ở đây. Hãy thể hiện sự tôn trọng với cộng đồng và tuân thủ các quy tắc của chúng tôi.",
+          "sadat": {
+            "label": "Bạn có phải là Sadat không?",
+            "infoText": "Thông tin này được sử dụng trong các tính năng dành cho người Hồi giáo Sadat-shia. Tuy nhiên, nó không bao giờ được hiển thị như đối với bất kỳ ai. Bạn sẽ cần xác minh tình trạng sadat của mình trước khi bạn có thể tận dụng các dịch vụ này.",
+            "sadat": "Có",
+            "nonSadat": "Không"
+          },
+          "requested": "Yêu cầu xác minh",
+          "required": "Yêu cầu xác minh",
+          "verifyInfo": {
+            "modalCta": "Đây là cái gì?",
+            "p1": "Để có quyền truy cập vào các tính năng dành cho người Hồi giáo Shia, bạn cần xác minh danh tính Shia của mình.",
+            "p2": "Nếu bạn là người Shia-Sadat, bạn cũng sẽ cần phải xác minh điều đó. Bạn có thể ghép nối nó trong cùng một yêu cầu xác minh; chỉ cần chọn <strong>Sadat</strong> ở trên."
+          },
+          "verifyCta": "Xác minh",
+          "skipInfo": "Bạn có thể bỏ qua quy trình xác minh nếu không muốn sử dụng các tính năng được đề cập. Để chỉ cập nhật thông tin của bạn, hãy nhấp vào <strong>Lưu &; Tiếp tục</strong>",
+          "thankSunni": {
+            "p1": "Cảm ơn bạn đã thể hiện sự quan tâm đến ứng dụng của chúng tôi. Bất chấp những chia rẽ trần tục này, tất cả những người Hồi giáo đều là anh em trong đức tin và thuộc về cùng một Ummah của Tiên tri Muhammad (PBUH)",
+            "p2": "Chúng tôi hy vọng bạn thấy nội dung ở đây hữu ích và nó giúp chúng tôi hiểu nhau hơn.",
+            "p3": "Đối với bất kỳ câu hỏi / thắc mắc nào về chính sách của chúng tôi hoặc bất kỳ điều gì, bạn luôn có thể liên hệ với chúng tôi."
+          }
+        },
+        "cta": [
+          "Cứu",
+          "Lưu &; Tiếp tục"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Xác minh tài khoản cho {name}",
+        "heading": "Bạn có thể trả lời dưới đây thông tin về {firstName}? Nếu không, hãy từ chối yêu cầu này.",
+        "desc": "Bạn chỉ có hai lần thử để xác minh!",
+        "descP1": "Khi bạn gửi biểu mẫu này, chúng tôi sẽ khớp thông tin với những gì {firstName} cung cấp khi yêu cầu xác minh. Hãy chú ý vì bạn chỉ có hai lần thử để điền chính xác vào biểu mẫu này. Nếu vẫn thất bại, bạn sẽ không thể xác minh lại {firstName} trong tương lai.",
+        "descP2": "Nếu bạn không biết {firstName}, hãy từ chối yêu cầu này. Chúng tôi sẽ cho họ biết và yêu cầu họ liên hệ với người khác.",
+        "rejectRequestCta": "Từ chối yêu cầu",
+        "form": {
+          "heading": "Trả lời các câu hỏi sau về {firstName} và nhấp vào Gửi:",
+          "q1": "Làm thế nào để bạn biết {firstName}?",
+          "q2": "Tôn giáo:",
+          "q3": "Giáo phái:",
+          "q4": "Có phải {firstName} Sadat không?",
+          "q5": "Bất cứ điều gì khác mà bạn muốn thêm?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Cài đặt quyền riêng tư của bạn",
+        "privacy": {
+          "header": "Cài đặt quyền riêng tư",
+          "desc": "Đặt người có thể xem nội dung sau từ bạn hoặc trong tài khoản của bạn:",
+          "form": {
+            "posts": "Bài viết của bạn",
+            "status": "Cập nhật trạng thái của bạn",
+            "requests": "Yêu cầu của bạn",
+            "relationship": "Tình trạng mối quan hệ của bạn",
+            "birthday": "Ngày sinh của bạn (không phải năm)",
+            "location": "Vị trí của bạn"
+          },
+          "disclaimer": {
+            "heading": "* Vẫn có thể suy luận về điều này",
+            "p": "Mặc dù thông tin này có thể ẩn trên hồ sơ của bạn, một số suy luận vẫn có thể được thực hiện. Ví dụ: nếu bài viết của bạn xuất hiện với người dùng, họ có thể suy ra rằng bạn sống gần (dựa trên vị trí bài viết đó xuất hiện trong nguồn cấp dữ liệu của họ)"
+          },
+          "values": {
+            "everyone": "Ai ai",
+            "users": "Chỉ Momineen",
+            "shias": "Chỉ có người Shia",
+            "me": "Chỉ có tôi"
+          }
+        },
+        "comm": {
+          "header": "Cài đặt giao tiếp",
+          "desc": "Đặt cách bạn muốn được truyền đạt",
+          "form": {
+            "push": {
+              "header": "Thông báo đẩy",
+              "nearby": "Đối với bài đăng của người dùng ở gần",
+              "daily": "Cập nhật hàng ngày của chúng tôi"
+            },
+            "email": {
+              "header": "Thông báo qua email",
+              "weekly": "Bản tin hàng tuần",
+              "monthly": "Email tóm tắt hàng tháng"
+            },
+            "cta": "Cập nhật"
+          }
+        },
+        "js": {
+          "changeSaved": "Thay đổi đã lưu thành công"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Bác bỏ",
+        "title": "Từ chối yêu cầu",
+        "reasonLabel": "Tại sao bạn không muốn xác minh tài khoản này?",
+        "reasonPh": "Chúng tôi sẽ cho {userName} biết và yêu cầu họ liên hệ với người khác để xác minh"
+      },
+      "haadiHome": {
+        "title": "Bắt đầu thảo luận | Thảo luận của bạn với Haadi",
+        "item": {
+          "added": "Đã thêm {date}",
+          "tokensUsed": "Mã thông báo được sử dụng: {tokens}",
+          "readContinue": "Đọc hoặc tiếp tục thảo luận"
+        },
+        "blank": {
+          "heading": "Bắt đầu cuộc thảo luận mới",
+          "desc": "Bạn không có bất kỳ cuộc trò chuyện nào trước đó. Bắt đầu một cuộc thảo luận mới bằng cách gửi truy vấn của bạn bên dưới."
+        },
+        "introLink": "Đọc thêm về Haadi, hoặc",
+        "inputPh": "Bắt đầu cuộc thảo luận mới",
+        "quesHelp": {
+          "invalid": "Câu hỏi có từ 5 từ trở lên có ý nghĩa hơn..",
+          "goodLen": "Đó có vẻ như là một câu hỏi hay!",
+          "excellent": "Nó không bao giờ đau để giải thích câu hỏi của bạn. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Hỏi Haadi",
+        "infoText": "Để kết thúc cuộc thảo luận này và bắt đầu một cuộc trò chuyện mới, hãy nhấp vào nút bên dưới",
+        "newChatCTA": "Thảo luận mới",
+        "inputPH": "Đặt câu hỏi",
+        "empty": {
+          "heading": "Không thể tìm thấy cuộc trò chuyện này",
+          "p1": "Đã xảy ra lỗi trong khi cố gắng để có được cuộc trò chuyện này. Vui lòng kiểm tra URL và thử lại.",
+          "p2": "Nếu điều này tiếp tục xảy ra, vui lòng liên hệ với chúng tôi."
+        },
+        "jsNewChatInfo": "Đây là khởi đầu của một cuộc trò chuyện mới với Haadi. Bạn đã chọn bật ngữ cảnh cho Haadi trong khi trả lời câu hỏi của mình. Bạn luôn có thể tắt tùy chọn này trong cài đặt hoặc xem điều này có ý nghĩa gì đối với bạn."
+      },
+      "aboutHaadi": {
+        "title": "Gặp gỡ Haadi, botfriend của bạn để điều hướng Hồi giáo Shia!",
+        "desc": "Nhấp vào từng bản tóm tắt này để đọc thêm hoặc tìm thêm về Haadi và các điều khoản sử dụng trong <a href={blogLink} target = '_system'>blog của chúng tôi",
+        "agreement": "Tôi hiểu và đồng ý với Điều khoản sử dụng"
       }
     },
     "authPage": {
