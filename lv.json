@@ -66,9 +66,22 @@
           "cta": "Atsvaidzināt"
         },
         "jsImgUploaded": "Attēls veiksmīgi augšupielādēts!",
-        "jsImgUploadErr": "Attēlu augšupielāde neizdevās. Lūdzu, vēlāk mēģiniet vēlreiz."
+        "jsImgUploadErr": "Attēlu augšupielāde neizdevās. Lūdzu, vēlāk mēģiniet vēlreiz.",
+        "jsLoadingDelay": "Tas aizņem nedaudz ilgāku laiku, nekā gaidīts. Lūdzu, uzgaidiet, kamēr mēs apstrādājam šo pieprasījumu."
       },
-      "unknown": "Nepazīstams"
+      "unknown": "Nepazīstams",
+      "close": "Aizvērt",
+      "yes": "Jā",
+      "no": "Nē",
+      "idk": "Es nezinu",
+      "completed!": "Pabeigta!",
+      "pushPrompt": {
+        "heading": "Sekojiet līdzi jaunumiem",
+        "desc": "Patīk tas, ko tu redzi? Nekad nepalaidiet garām atjauninājumu un esiet informēts par visu, kas notiek apkārt, izmantojot paziņojumus.<br />Vai mēs varam jums nosūtīt paziņojumus?",
+        "cancelCta": "Jautājiet man vēlāk",
+        "okCta": "Pārliecināts!",
+        "jsPushUnsupported": "Push netiek atbalstīts šajā ierīcē. Jūs varat palaist garām paziņojumus!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Modinātāji ir veiksmīgi iestatīti",
           "jsAlarmSetError": "Kļūda, iestatot modinātājus. Lūdzu, vēlāk mēģiniet vēlreiz.",
-          "jsAlarmSnoozed": "Trauksme snauda 10 minūtes"
+          "jsAlarmSnoozed": "Trauksme snauda 10 minūtes",
+          "sunriseLabel": "Saullēkts",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Mājas"
         },
         "alarmSetting": {
           "title": "Trauksmes iestatījumi",
@@ -398,7 +415,10 @@
           "addGender": "Pievienot dzimumu",
           "addBday": "Pievienot dzimšanas dienu",
           "addRelation": "Relāciju pievienošana",
-          "joinDate": "Pievienojās: {date}"
+          "joinDate": "Pievienojās: {date}",
+          "privateInfoDesc": "Šī informācija ir redzama tikai jums, un jūs redzat uz to balstītu saturu un funkcijas.",
+          "idSetupCta": "Identitātes iestatīšana",
+          "idVerifyCta": "Pārbaudām"
         },
         "posts": {
           "title": "Posts",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Vai esi pārliecināts?",
           "jsDeletePrompt": "Dzēšot <b>{fullName}</b> ierakstus, tiks izdzēsti arī visi iepriekšējie {gender} pieprasījumi! Turpināt?",
           "jsDeleted": "Dzēsti ieraksti {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Pārbaudiet savu šiītu identitāti — pārbaudiet savu Sadat identitāti",
+          "p1": "Tu savā profilā esi norādījis, ka esi šiītu musulmanis. Šīs informācijas verificēšana nodrošinās jums vairāk funkciju un palīdzēs mums izveidot pārbaudītu šiītu musulmaņu kopienu.",
+          "p2": "Lūdzu, pārbaudiet savu identitāti; tas neaizņems ilgu laiku",
+          "noReminder": "Neatgādini man vēlreiz",
+          "dismissCta": "Ne tagad",
+          "startCta": "Sākt"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Vispirms jums ir jāpārbauda pārbaude, pirms varat verificēt citus!",
+          "jsLinkExpired": "Šī saite ir vai nu nederīga, vai arī tās derīguma termiņš ir beidzies. Lūdzu, palūdziet draugam nosūtīt jaunu pieprasījumu.",
+          "confirm": {
+            "heading": "Konta identitātes verificēšana",
+            "msg": "Palīdziet {firstName} pārbaudīt {genderLabel1} konta informāciju. Tas ļaus {genderLabel2} piekļūt vairākām mūsu lietotnes funkcijām",
+            "jsSkip": "Nav problēmu. Ja pārdomājat, varat atkārtoti apmeklēt šo saiti, lai to pārbaudītu vēlāk."
+          }
+        },
+        "myKhums": {
+          "title": "Mani Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Sūtīt OTP",
         "backToLoginCta": "Atpakaļ uz pieteikšanos",
         "disclaimerText": "Lūdzu, ņemiet vērā, ka jūs saņemsiet {item} tikai tad, ja jums būs reģistrēts {item} pie mums",
-        "jsMailSent": "Nosūtītais pasts"
+        "jsMailSent": "Nosūtītais pasts",
+        "title2": "Konta pieprasīšana",
+        "claimIntroHeading": "Pieprasiet savu kontu ātri!",
+        "claimIntroText": "Paldies, ka pievienojāties mums. Tagad mēs esam izveidojuši jums kontu. Piekļūstiet savam kontam, atiestatot tā paroli, izmantojot kādu no tālāk norādītajām metodēm."
       },
       "resetPwd": {
         "title": "Atiestatīt paroli",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Izvēlieties valsti",
         "searchPH": "Meklēt valsti pēc vārda vai numura koda"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Pabeidziet savu profilu",
+            "desc": "Nepilnīgiem profiliem ir ierobežota piekļuve mūsu lietotnes funkcijām. Profila atjaunināšana palīdz jums vairākos veidos. Noklikšķiniet šeit, lai uzzinātu vairāk.",
+            "item1": {
+              "header": "Pilni profili tiek viegli verificēti",
+              "p1": "Pieprasot konta verifikāciju (nākamā darbība), tas palīdz citiem lietotājiem jūs viegli verificēt, kad viņi jūs pazīst vai var redzēt visu nepieciešamo informāciju verifikācijai par jums.",
+              "p2": "Nepilnīgu profilu verificēšana prasa daudz ilgāku laiku. Mēs nevēlamies, lai jums tiktu liegta iespēja izmantot mūsu lietotnes funkcijas."
+            },
+            "item2": {
+              "header": "Pareizā satura skatīšana",
+              "p1": "Jūs redzat saturu, pamatojoties uz jūsu apkārtni. Ja mūsu rīcībā ir pareiza informācija par jums, jūs redzat atbilstošāku saturu.",
+              "p2": "Piemēram, ja esat pareizi atjauninājis savu atrašanās vietu, visticamāk, vispirms redzēsit ziņas no apkārtnes."
+            },
+            "cta": "Pabeidziet savu profilu"
+          },
+          "identity": {
+            "header": "Identitātes iestatīšana",
+            "desc": "Mēs sveicam visus mūsu lietotnē, taču, tā kā dažas funkcijas ir noderīgas (un domātas) tikai šiītu musulmaņiem, šī informācija palīdz mums nodrošināt jums pareizās funkcijas. Noklikšķiniet šeit, lai uzzinātu vairāk.",
+            "item1": {
+              "header": "Piekļuves funkcijas šiītu musulmaņiem",
+              "p1": "Vairākas mūsu lietotnes funkcijas ir veidotas no šiītu musulmaņiem. Daži no tiem ir:",
+              "ul": "<li>Pieprasījums pēc Surah-fatiha un Namaz-e-Wahshat</li><li>Khums Kalkulators</li><li>Finansiāls atbalsts (khums) Sadat momineen</li>",
+              "p2": "Lai piekļūtu šiem līdzekļiem, jums ir jāpārbauda sava identitāte (tagad vai, ja izvēlaties, vēlāk)"
+            },
+            "item2": {
+              "header": "Jūs varat palīdzēt momineen, kam tas ir nepieciešams!",
+              "p1": "Pat ja nevēlaties, lai jūs verificētu, iespējams, būs citi, kas vēlēsies iegūt verifikāciju, lai izmantotu šīs funkcijas.",
+              "p2": "Tikai verificēti konti var pārbaudīt šādu momineen. Verifikācija arī palīdz mums izveidot pārbaudītu šiītu kopienu."
+            },
+            "item3": {
+              "header": "Jūsu informācija vienmēr ir privāta",
+              "p1": "<strong>Mēs saprotam, ka šī ir sensitīva informācija</strong> , un mēs nekad neatklāsim šo informāciju publiski bez jūsu piekrišanas, taču dažreiz joprojām var izdarīt secinājumus. Piemēram, kad jūs pieprasāt verifikāciju no citiem momineen, viņi zinās, ka jūs esat šiīti.",
+              "p2": "Jūs varat noklikšķināt uz pogas zemāk, lai uzzinātu vairāk par mūsu procesu."
+            },
+            "cta": "Iestatīšanas"
+          }
+        },
+        "idSetup": {
+          "header": "Gandrīz pabeigts!",
+          "desc": "Varat izlaist šo darbību, ja esat apmierināts ar mūsu iepriekš iestatītajām konfidencialitātes un saziņas iestatījumu vērtībām. Tas gan nesāpēs, lai paskatītos!",
+          "privacy": {
+            "header": "Konfidencialitātes iestatīšana",
+            "p1": "Definējiet, ko citi var redzēt:",
+            "ul": "<li>Iestatiet savu ziņu redzamības iestatījumus. Tas nosaka, vai jūsu ziņas var redzēt ikviens Bazm vai ārpus tā (piemēram, ja kāds to kopīgo citā platformā)</li><li>To personu iestatīšana, kuras kuras var skatīt, kad tās apmeklē jūsu profilu</li><li>Iestatiet, kā jūsu informācija tiek rādīta citiem</li>"
+          },
+          "comm": {
+            "header": "Sakaru iestatījumu iestatīšana",
+            "p1": "Definējiet, kā un kad jūs vēlētos, lai mēs ar jums sazinātos:",
+            "ul": "<li>Paziņojumu preferenču iestatīšana</li><li>E-pasta ziņojumu paziņojumu abonēšana vai abonēšanas atcelšana</li><li>Atgādinājumu abonēšana vai abonēšanas atcelšana</li>"
+          },
+          "cta": "Iestatīšanas"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Mobilā tālruņa verificēšana",
+            "desc": "Noklikšķiniet uz saites zemāk, lai verificētu savu mobilā tālruņa numuru:",
+            "cta": "Mobilās verifikācijas sākšana",
+            "completed": "Mobilais verificēts veiksmīgi"
+          },
+          "email": {
+            "header": "E-pasta verificēšana",
+            "desc": "Noklikšķiniet uz tālāk redzamās saites, lai iesūtnē saņemtu verifikācijas e-pasta ziņojumu.",
+            "cta": "Mobilās verifikācijas sākšana",
+            "completed": "Mobilais verificēts veiksmīgi",
+            "form": {
+              "inputLabel": "Jūsu e-pasts:",
+              "ph": "Ievadiet savu e-pasta adresi",
+              "cta": "E-pasta verifikācijas saite"
+            },
+            "sent": {
+              "desc": "Uz jūsu e-pasta adresi tika nosūtīts e-pasta ziņojums zemāk. Noklikšķiniet uz saites savā e-pastā, lai verificētu savu e-pasta adresi.",
+              "incorrect": "Nepareizs e-pasts?",
+              "change": "Mainīties"
+            },
+            "resendCta": "E-pasta ziņojumu atkārtota nosūtīšana",
+            "openEmailCta": "Atvērt e-pastu",
+            "verified": "E-pasts veiksmīgi pārbaudīts!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Konta iestatīšanas pabeigšana",
+        "desc": "Atbloķējiet sava konta funkcijas, pabeidzot konta iestatīšanu. Jums tas jādara tikai vienu reizi, un tas palīdz pārbaudīt jūsu informāciju, identitāti un iestatīšanas konfidencialitātes iespējas.",
+        "gotoPageCta": "Turpināt iestatīšanu",
+        "dontRemind": "Neatgādini man vēlreiz",
+        "dismissCta": "Vēlāk",
+        "jsConfirmSkip": {
+          "header": "Turpināt vēlāk?",
+          "msg": "Pabeidzot šo darbību, lietotnē tiks atbloķētas daudzas funkcijas, taču šo darbību varēsit pabeigt arī vēlāk. Vienkārši dodieties uz cilni \"Lietotājs\" un turpiniet no turienes.",
+          "btns": {
+            "confirm": "Jā, vēlāk",
+            "cancel": "Dariet to tagad"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Iestatiet savu identitāti",
+        "form": {
+          "religion": {
+            "label": "Izvēlieties savu reliģiju:",
+            "infoText": "Uz šo informāciju balstās vairākas pazīmes, kas attiecas tikai uz musulmaņiem. Šie dati būs redzami tikai jums; Tomēr joprojām var izdarīt secinājumus (piemēram, ja izmantojat kādu no funkcijām, kas pieejamas tikai musulmaņiem)",
+            "muslim": "Musulmanis",
+            "nonMuslim": "Nemusulmaņi"
+          },
+          "sect": {
+            "label": "Izvēlies savu sektu",
+            "infoText": "Tādas funkcijas kā <strong>Ziyarat pieprasījums, palīdzības pieprasījums, Khums aprēķins utt., Prasa,</strong> lai jūs pārbaudītu savu šiītu identitāti. Arī nepārbaudītiem lietotājiem ir ierobežota piekļuve funkcijām.",
+            "shia": "Shia",
+            "sunni": "Ne-šiīti"
+          },
+          "thanksNonMuslim": "Paldies, ka izrādījāt interesi pievienoties mūsu lietotnei. Mēs ceram, ka šeit atradīsit noderīgu saturu. Lūdzu, izrādiet cieņu sabiedrībai un ievērojiet mūsu noteikumus.",
+          "sadat": {
+            "label": "Vai jūs esat Sadat?",
+            "infoText": "Šī informācija tiek izmantota funkcijās, kas paredzētas Sadat-shia musulmaņiem. Tomēr tas nekad netiek parādīts tā, kā tas ir kādam. Jums būs jāpārbauda savs sadat statuss, pirms varat izmantot šos pakalpojumus.",
+            "sadat": "Jā",
+            "nonSadat": "Nē"
+          },
+          "requested": "Pieprasītā verifikācija",
+          "required": "Nepieciešama pārbaude",
+          "verifyInfo": {
+            "modalCta": "Kas tas ir?",
+            "p1": "Lai piekļūtu funkcijām, kas paredzētas šiītu musulmaņiem, jums jāpārbauda sava šiītu identitāte.",
+            "p2": "Ja esat šiītu sadats, jums tas arī būs jāpārbauda. Varat to savienot pārī vienā un tajā pašā verifikācijas pieprasījumā; vienkārši atlasiet <strong>Sadat</strong> iepriekš."
+          },
+          "verifyCta": "Pārbaudām",
+          "skipInfo": "Varat izlaist verifikāciju, ja nevēlaties izmantot minētās funkcijas. Lai tikai atjauninātu savu informāciju, noklikšķiniet uz <strong>Saglabāt un turpināt</strong>",
+          "thankSunni": {
+            "p1": "Paldies, ka izrādījāt interesi par mūsu lietotni. Neskatoties uz šo pasaulīgo šķelšanos, visi musulmaņi ir ticības brāļi un pieder pie tā paša pravieša Muhameda Ummas (PBUH)",
+            "p2": "Mēs ceram, ka šeit saturs jums noderēs, un tas palīdzēs mums labāk saprast viens otru.",
+            "p3": "Ja jums ir kādi jautājumi/bažas par mūsu politikām vai kas cits, jūs vienmēr varat sazināties ar mums."
+          }
+        },
+        "cta": [
+          "Glābt",
+          "Saglabāt un turpināt"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Konta verificēšana {name}",
+        "heading": "Vai varat atbildēt zemāk informāciju par {firstName}? Ja nē, tad noraidiet šo pieprasījumu.",
+        "desc": "Jums ir tikai divi mēģinājumi pārbaudīt!",
+        "descP1": "Kad jūs iesniegsiet šo veidlapu, mēs saskaņosim informāciju ar to, kas {firstName} sniegts, pieprasot verifikāciju. Lūdzu, pievērsiet uzmanību, jo jums ir tikai divi mēģinājumi pareizi aizpildīt šo veidlapu. Ja jums joprojām neizdosies, turpmāk vairs nevarēsit {firstName} pārbaudīt.",
+        "descP2": "Ja nezināt {firstName}, tad noraidiet šo pieprasījumu. Mēs viņiem paziņosim un lūgsim viņus sazināties ar kādu citu.",
+        "rejectRequestCta": "Noraidīt pieprasījumu",
+        "form": {
+          "heading": "Atbildiet uz šādiem jautājumiem par {firstName} un noklikšķiniet uz Iesniegt:",
+          "q1": "Kā jūs zināt {firstName}?",
+          "q2": "Reliģija:",
+          "q3": "Sekta:",
+          "q4": "Vai {firstName} ir Sadat?",
+          "q5": "Kas vēl, ko jūs vēlētos piebilst?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Jūsu konfidencialitātes iestatījumi",
+        "privacy": {
+          "header": "Konfidencialitātes iestatījumi",
+          "desc": "To personu iestatīšana, kuras var skatīt tālāk norādīto informāciju no jums vai jūsu kontā.",
+          "form": {
+            "posts": "Jūsu ziņas",
+            "status": "Jūsu statusa atjauninājumi",
+            "requests": "Jūsu pieprasījumi",
+            "relationship": "Jūsu attiecību statuss",
+            "birthday": "Jūsu dzimšanas datums (nevis gads)",
+            "location": "Jūsu atrašanās vieta"
+          },
+          "disclaimer": {
+            "heading": "* Par to vēl var izdarīt secinājumus",
+            "p": "Lai gan šī informācija, iespējams, ir paslēpta jūsu profilā, dažus secinājumus joprojām var izdarīt. Piemēram, ja jūsu ziņa tiek rādīta lietotājam, viņš var izsecināt, ka jūs dzīvojat tuvu (pamatojoties uz to, kur šī ziņa tiek rādīta viņa plūsmā)"
+          },
+          "values": {
+            "everyone": "Visi",
+            "users": "Tikai Momineen",
+            "shias": "Tikai šitie",
+            "me": "Tikai es"
+          }
+        },
+        "comm": {
+          "header": "Komunikācijas iestatījumi",
+          "desc": "Iestatiet, kā vēlaties saņemt saziņu",
+          "form": {
+            "push": {
+              "header": "Pašpiegādes paziņojumi",
+              "nearby": "Ziņām no tuvumā esošiem lietotājiem",
+              "daily": "Mūsu ikdienas atjauninājumi"
+            },
+            "email": {
+              "header": "E-pasta paziņojumi",
+              "weekly": "Iknedēļas biļetens",
+              "monthly": "Ikmēneša kopsavilkuma e-pasta ziņojumi"
+            },
+            "cta": "Aktualizēt"
+          }
+        },
+        "js": {
+          "changeSaved": "Veiksmīgi saglabātas izmaiņas"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Noraidīt",
+        "title": "Noraidīt pieprasījumu",
+        "reasonLabel": "Kāpēc nevēlaties verificēt šo kontu?",
+        "reasonPh": "Mēs informēsim {userName} un lūgsim viņus sazināties ar kādu citu, lai veiktu pārbaudi"
+      },
+      "haadiHome": {
+        "title": "Sāciet diskusiju | Jūsu diskusijas ar Haadi",
+        "item": {
+          "added": "Pievienota {date}",
+          "tokensUsed": "Izmantotie žetoni: {tokens}",
+          "readContinue": "Lasīt vai turpināt diskusiju"
+        },
+        "blank": {
+          "heading": "Sākt jaunu diskusiju",
+          "desc": "Jums nav nevienas iepriekšējas sarunas. Sāciet jaunu diskusiju, iesniedzot savu vaicājumu tālāk."
+        },
+        "introLink": "Lasiet vairāk par Haadi vai",
+        "inputPh": "Sākt jaunu diskusiju",
+        "quesHelp": {
+          "invalid": "Jautājumiem ar 5 vai vairāk vārdiem ir lielāka jēga..",
+          "goodLen": "Tas izskatās pēc laba jautājuma!",
+          "excellent": "Tas nekad nesāpēs, lai izskaidrotu savu jautājumu. Slava!"
+        }
+      },
+      "askHaadi": {
+        "title": "Pajautā Haadi",
+        "infoText": "Lai beigtu šo diskusiju un sāktu jaunu sarunu, noklikšķiniet uz tālāk redzamās pogas",
+        "newChatCTA": "Jauna diskusija",
+        "inputPH": "Uzdot jautājumu",
+        "empty": {
+          "heading": "Nevarēju atrast šo sarunu",
+          "p1": "Mēģinot iegūt šo sarunu, radās kļūda. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.",
+          "p2": "Ja tas turpina notikt, lūdzu, sazinieties ar mums."
+        },
+        "jsNewChatInfo": "Tas ir sākums jaunai sarunai ar Haadi. Jūs esat izvēlējies iespējot kontekstu Haadi, vienlaikus atbildot uz jūsu jautājumiem. Jūs vienmēr varat atspējot šo opciju iestatījumos vai redzēt, ko tas nozīmē jums."
+      },
+      "aboutHaadi": {
+        "title": "Iepazīstieties ar Haadi, savu botfriend, lai pārvietotos šiītu islāmā!",
+        "desc": "Noklikšķiniet uz katra no šiem kopsavilkumiem, lai lasītu vairāk, vai uzziniet vairāk par Haadi un lietošanas nosacījumiem{blogLink} <a href= target='_system'>mūsu emuārā",
+        "agreement": "Es saprotu un piekrītu lietošanas noteikumiem"
       }
     },
     "authPage": {
