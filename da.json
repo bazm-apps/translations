@@ -66,9 +66,22 @@
           "cta": "Opdatere"
         },
         "jsImgUploaded": "Billede uploadet med succes!",
-        "jsImgUploadErr": "Upload af billede mislykkedes. Prøv igen senere."
+        "jsImgUploadErr": "Upload af billede mislykkedes. Prøv igen senere.",
+        "jsLoadingDelay": "Det tager lidt længere tid end forventet. Vent, mens vi behandler denne anmodning."
       },
-      "unknown": "Ukendt"
+      "unknown": "Ukendt",
+      "close": "Lukke",
+      "yes": "Ja",
+      "no": "Nej",
+      "idk": "Det ved jeg ikke",
+      "completed!": "Afsluttet!",
+      "pushPrompt": {
+        "heading": "Hold dig opdateret",
+        "desc": "Kan du lide det, du ser? Gå aldrig glip af en opdatering, og hold dig underrettet om alt, hvad der sker med notifikationer.<br />Kan vi sende dig meddelelser?",
+        "cancelCta": "Spørg mig senere",
+        "okCta": "Sikker!",
+        "jsPushUnsupported": "Push understøttes ikke på denne enhed. Du kan gå glip af meddelelser!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Alarmer indstillet med succes",
           "jsAlarmSetError": "Fejl ved indstilling af alarmer. Prøv igen senere.",
-          "jsAlarmSnoozed": "Alarm snoozet i 10 minutter"
+          "jsAlarmSnoozed": "Alarm snoozet i 10 minutter",
+          "sunriseLabel": "Solopgang",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Hjem"
         },
         "alarmSetting": {
           "title": "Alarm indstillinger",
@@ -398,7 +415,10 @@
           "addGender": "Tilføj køn",
           "addBday": "Tilføj fødselsdag",
           "addRelation": "Tilføj relation",
-          "joinDate": "Tilmeldt: {date}"
+          "joinDate": "Tilmeldt: {date}",
+          "privateInfoDesc": "Disse oplysninger er kun synlige for dig, og du kan se indhold og funktioner baseret på dette.",
+          "idSetupCta": "Konfigurer din identitet",
+          "idVerifyCta": "Kontrolere"
         },
         "posts": {
           "title": "Indlæg",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Er du sikker?",
           "jsDeletePrompt": "Sletning af poster for <b>{fullName}</b> vil også slette alle tidligere anmodninger om {gender}! Fortsætte?",
           "jsDeleted": "Slettede poster for {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Bekræft din shia-identitet | Bekræft din Sadat-identitet",
+          "p1": "Du har angivet i din profil, at du er shiamuslim. Hvis disse oplysninger er verificeret, vil det give dig flere funktioner og hjælpe os med at opbygge et verificeret fællesskab af shia-muslimer.",
+          "p2": "Bekræft venligst din identitet; Det tager ikke lang tid",
+          "noReminder": "Mind mig ikke om det igen",
+          "dismissCta": "Ikke nu",
+          "startCta": "Begynde"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Du skal først verificeres, før du kan bekræfte andre!",
+          "jsLinkExpired": "Dette link er enten ugyldigt, eller det er udløbet. Bed din ven om at sende en ny anmodning.",
+          "confirm": {
+            "heading": "Bekræft kontoidentitet",
+            "msg": "Hjælp {firstName} med at få {genderLabel1} kontooplysninger bekræftet. Dette vil gøre det muligt for {genderLabel2} at få adgang til flere funktioner i vores app",
+            "jsSkip": "Intet problem. Hvis du skifter mening, kan du gå tilbage til dette link for at bekræfte det senere."
+          }
+        },
+        "myKhums": {
+          "title": "Mine Khums"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Send OTP",
         "backToLoginCta": "Tilbage til Login",
         "disclaimerText": "Bemærk, at du kun får en {vare}, hvis du har {varen} registreret hos os",
-        "jsMailSent": "Mail sendt"
+        "jsMailSent": "Mail sendt",
+        "title2": "Gør krav på din konto",
+        "claimIntroHeading": "Gør krav på din konto hurtigt!",
+        "claimIntroText": "Tak fordi du sluttede dig til os. Vi har oprettet en konto til dig nu. Få adgang til din konto ved at nulstille adgangskoden ved hjælp af en af følgende metoder:"
       },
       "resetPwd": {
         "title": "Nulstil adgangskode",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Vælg land",
         "searchPH": "Søg efter land efter navn eller opkaldskode"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Udfyld din profil",
+            "desc": "Ufuldstændige profiler har begrænset adgang til funktioner i vores app. At have din profil opdateret hjælper dig på en række måder. Klik her for at vide mere.",
+            "item1": {
+              "header": "Komplette profiler bliver nemt verificeret",
+              "p1": "Når du anmoder om kontobekræftelse (næste trin), hjælper det andre med nemt at bekræfte dig, når de enten kender dig eller kan se alle de nødvendige oplysninger til bekræftelse om dig.",
+              "p2": "Ufuldstændige profiler tager meget længere tid at blive verificeret. Vi ønsker ikke, at du blokeres fra at bruge funktioner i vores app."
+            },
+            "item2": {
+              "header": "Se det rigtige indhold",
+              "p1": "Du ser indhold baseret på dine omgivelser. Når vi har korrekte oplysninger om dig, ser du mere relevant indhold.",
+              "p2": "For eksempel, hvis du har opdateret din placering korrekt, vil du sandsynligvis se indlæg fra dine omgivelser først."
+            },
+            "cta": "Udfyld din profil"
+          },
+          "identity": {
+            "header": "Konfigurer din identitet",
+            "desc": "Vi byder alle velkommen på vores app, men fordi nogle funktioner kun er nyttige (og ment) for shia-muslimer, hjælper disse oplysninger os med at vise dig de rigtige funktioner. Klik her for at vide mere.",
+            "item1": {
+              "header": "Adgangsfunktioner for shia-muslimer",
+              "p1": "En række funktioner på vores app er bygget af shia-muslimer. Nogle af dem er:",
+              "ul": "<li>Anmodning om Surah-fatiha og Namaz-e-Wahshat</li><li>Khums Lommeregner</li><li>Finansiel bistand (khums) til Sadat momineen</li>",
+              "p2": "For at få adgang til disse funktioner skal du bekræfte din identitet (enten nu eller, hvis du vælger det, senere)"
+            },
+            "item2": {
+              "header": "Du kan hjælpe momineen i nød!",
+              "p1": "Selvom du ikke ønsker at blive verificeret, kan der være andre, der måske ønsker at blive verificeret for at benytte disse funktioner.",
+              "p2": "Kun verificerede konti kan verificere en sådan momineen. Verificering hjælper os også med at opbygge et verificeret shiamuslimsk fællesskab."
+            },
+            "item3": {
+              "header": "Dine oplysninger er altid private",
+              "p1": "<strong>Vi forstår, at dette er følsomme</strong> oplysninger, og vi vil aldrig afsløre disse oplysninger offentligt uden dit samtykke, men der kan stadig drages slutninger nogle gange. For eksempel, når du anmoder om bekræftelse fra andre momineen, vil de vide, at du er shia.",
+              "p2": "Du kan klikke på knappen nedenfor for at læse mere om vores proces."
+            },
+            "cta": "Installationsprogrammet"
+          }
+        },
+        "idSetup": {
+          "header": "Næsten færdig!",
+          "desc": "Du kan springe dette trin over, hvis du er tilfreds med vores forudindstillede værdier for dine indstillinger for beskyttelse af personlige oplysninger og kommunikation. Det skader dog ikke at kigge!",
+          "privacy": {
+            "header": "Konfigurer dine personlige oplysninger",
+            "p1": "Definer, hvad andre kan se:",
+            "ul": "<li>Angiv indstillinger for synlighed for dine opslag. Det definerer, om dine indlæg kan ses af alle på eller uden for Bazm (f.eks. Når nogen deler det på en anden platform)</li><li>Indstil, hvem der kan se hvad, når de besøger din profil</li><li>Angiv, hvordan dine oplysninger vises for andre</li>"
+          },
+          "comm": {
+            "header": "Konfigurer kommunikationsindstillinger",
+            "p1": "Definer, hvordan og hvornår vil du have os til at kommunikere med dig:",
+            "ul": "<li>Angiv dine indstillinger for notifikationer</li><li>Abonner eller afmeld meddelelser om e-mails</li><li>Abonner eller opsig abonnement på påmindelser</li>"
+          },
+          "cta": "Installationsprogrammet"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Bekræft din mobil",
+            "desc": "Klik på linket nedenfor for at bekræfte dit mobilnummer:",
+            "cta": "Start mobilbekræftelse",
+            "completed": "Mobil bekræftet med succes"
+          },
+          "email": {
+            "header": "Bekræft din e-mail",
+            "desc": "Klik på linket nedenfor for at få bekræftelses-e-mail i din indbakke.",
+            "cta": "Start mobilbekræftelse",
+            "completed": "Mobil bekræftet med succes",
+            "form": {
+              "inputLabel": "Din e-mail:",
+              "ph": "Indtast din e-mail",
+              "cta": "Link til bekræftelse via e-mail"
+            },
+            "sent": {
+              "desc": "Der blev sendt en e-mail til din e-mailadresse nedenfor. Klik på linket i din e-mail for at bekræfte din e-mailadresse.",
+              "incorrect": "Forkert e-mail?",
+              "change": "Forandre"
+            },
+            "resendCta": "Send e-mail igen",
+            "openEmailCta": "Åbn e-mail",
+            "verified": "E-mail bekræftet med succes!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Fuldfør kontoopsætning",
+        "desc": "Lås op for funktioner til din konto ved at afslutte din kontoopsætning. Du behøver kun at gøre det én gang, og det hjælper med at bekræfte dine oplysninger, din identitet og opsætning af privatlivsindstillinger for dig.",
+        "gotoPageCta": "Fortsæt opsætningen",
+        "dontRemind": "Mind mig ikke om det igen",
+        "dismissCta": "Senere",
+        "jsConfirmSkip": {
+          "header": "Fortsæt senere?",
+          "msg": "Hvis du gennemfører dette trin, låses der op for mange funktioner for dig i appen, men du kan også gennemføre dette trin senere. Bare gå til fanen 'Bruger' og fortsæt derfra.",
+          "btns": {
+            "confirm": "Ja, senere",
+            "cancel": "Gør det nu"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Opsæt din identitet",
+        "form": {
+          "religion": {
+            "label": "Vælg din religion:",
+            "infoText": "En række funktioner, der kun er relevante for muslimer, er baseret på disse oplysninger. Disse data vil kun være synlige for dig; Der kan dog stadig drages slutninger (f.eks. når du bruger en af de funktioner, der kun er tilgængelige for muslimer)",
+            "muslim": "Muslim",
+            "nonMuslim": "Ikke-muslim"
+          },
+          "sect": {
+            "label": "Vælg din sekt",
+            "infoText": "Funktioner som anmodning <strong>om Ziyarat, anmodning om hjælp, Khums-beregning osv</strong> . kræver, at du bekræfter din shia-identitet. Ikke-bekræftede brugere har også begrænset adgang til funktioner.",
+            "shia": "Shia",
+            "sunni": "Ikke-shiamuslimer"
+          },
+          "thanksNonMuslim": "Tak fordi du viser interesse for at deltage i vores app. Vi håber, du finder nyttigt indhold her. Vis respekt for fællesskabet og overhold vores regler.",
+          "sadat": {
+            "label": "Er du Sadat?",
+            "infoText": "Disse oplysninger bruges i funktioner beregnet til sadat-shia-muslimer. Det vises dog aldrig, som det er for nogen. Du skal bekræfte din sadat-status, før du kan benytte dig af disse tjenester.",
+            "sadat": "Ja",
+            "nonSadat": "Nej"
+          },
+          "requested": "Anmodning om bekræftelse",
+          "required": "Verifikation påkrævet",
+          "verifyInfo": {
+            "modalCta": "Hvad er dette?",
+            "p1": "For at få adgang til funktioner, der er beregnet til shia-muslimer, skal du bekræfte din shia-identitet.",
+            "p2": "Hvis du er en shia-sadat, skal du også bekræfte det. Du kan parre den i den samme bekræftelsesanmodning; Du skal blot vælge <strong>Sadat</strong> ovenfor."
+          },
+          "verifyCta": "Kontrolere",
+          "skipInfo": "Du kan springe bekræftelse over, hvis du ikke ønsker at bruge de nævnte funktioner. Hvis du kun vil opdatere dine oplysninger, skal du klikke på <strong>Gem & Fortsæt</strong>",
+          "thankSunni": {
+            "p1": "Tak fordi du viser interesse for vores app. På trods af disse verdslige splittelser er alle muslimer brødre i troen og tilhører den samme ummah af profeten Muhammad (fvmh)",
+            "p2": "Vi håber, at du finder indhold her nyttigt, og det hjælper os med at forstå hinanden bedre.",
+            "p3": "For spørgsmål / bekymringer om vores politikker eller noget som helst, kan du altid kontakte os."
+          }
+        },
+        "cta": [
+          "Spare",
+          "Gem og fortsæt"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Bekræft konto for {name}",
+        "heading": "Kan du svare nedenfor oplysninger om {firstName}? Hvis ikke, skal du afvise denne anmodning.",
+        "desc": "Du har kun to forsøg på at verificere!",
+        "descP1": "Når du indsender denne formular, matcher vi oplysningerne med det, {firstName} angivet, når du anmoder om bekræftelse. Vær opmærksom, fordi du kun har to forsøg på at udfylde denne formular korrekt. Hvis du stadig fejler, kan du ikke bekræfte {firstName} igen i fremtiden.",
+        "descP2": "Hvis du ikke kender {firstName}, skal du afvise denne anmodning. Vi giver dem besked og beder dem om at kontakte en anden.",
+        "rejectRequestCta": "Afvis anmodning",
+        "form": {
+          "heading": "Besvar følgende spørgsmål om {firstName} , og klik på Send:",
+          "q1": "Hvordan ved du {firstName}?",
+          "q2": "Religion:",
+          "q3": "Sekt:",
+          "q4": "Er {firstName} Sadat?",
+          "q5": "Noget andet, du gerne vil tilføje?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Dine indstillinger for beskyttelse af personlige oplysninger",
+        "privacy": {
+          "header": "Indstillinger for beskyttelse af personlige oplysninger",
+          "desc": "Indstil, hvem der kan se følgende fra dig eller på din konto:",
+          "form": {
+            "posts": "Dine indlæg",
+            "status": "Dine statusopdateringer",
+            "requests": "Dine anmodninger",
+            "relationship": "Din civilstand",
+            "birthday": "Din fødselsdato (ikke år)",
+            "location": "Din placering"
+          },
+          "disclaimer": {
+            "heading": "* Der kan stadig drages slutninger om dette",
+            "p": "Selvom disse oplysninger måske er skjult på din profil, kan der stadig drages nogle slutninger. Hvis dit opslag f.eks. vises for en bruger, kan vedkommende udlede, at du bor tæt på (baseret på, hvor opslaget vises i vedkommendes nyheder)"
+          },
+          "values": {
+            "everyone": "Alle",
+            "users": "Kun Momineen",
+            "shias": "Kun shiamuslimer",
+            "me": "Kun mig"
+          }
+        },
+        "comm": {
+          "header": "Indstillinger for kommunikation",
+          "desc": "Indstil, hvordan du vil kommunikeres",
+          "form": {
+            "push": {
+              "header": "Push-meddelelser",
+              "nearby": "For indlæg fra brugere i nærheden",
+              "daily": "Vores daglige opdateringer"
+            },
+            "email": {
+              "header": "E-mail-meddelelser",
+              "weekly": "Ugentligt nyhedsbrev",
+              "monthly": "Månedlige oversigts-e-mails"
+            },
+            "cta": "Opdatering"
+          }
+        },
+        "js": {
+          "changeSaved": "Ændringer gemt med succes"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Afvise",
+        "title": "Afvis anmodning",
+        "reasonLabel": "Hvorfor vil du ikke bekræfte denne konto?",
+        "reasonPh": "Vi giver {userName} besked og beder dem om at kontakte en anden for bekræftelse"
+      },
+      "haadiHome": {
+        "title": "Start diskussion | Dine diskussioner med Haadi",
+        "item": {
+          "added": "Tilføjet {date}",
+          "tokensUsed": "Anvendte poletter: {tokens}",
+          "readContinue": "Læs eller fortsæt diskussionen"
+        },
+        "blank": {
+          "heading": "Start ny diskussion",
+          "desc": "Du har ikke nogen tidligere samtaler. Start en ny diskussion ved at indsende din forespørgsel nedenfor."
+        },
+        "introLink": "Læs mere om Haadi, eller",
+        "inputPh": "Start ny diskussion",
+        "quesHelp": {
+          "invalid": "Spørgsmål med 5 eller flere ord giver mere mening ..",
+          "goodLen": "Det ligner et godt spørgsmål!",
+          "excellent": "Det gør aldrig ondt at forklare dit spørgsmål. Kudos!"
+        }
+      },
+      "askHaadi": {
+        "title": "Spørg Haadi",
+        "infoText": "Hvis du vil afslutte denne diskussion og starte en ny samtale, skal du klikke på knappen nedenfor",
+        "newChatCTA": "Ny diskussion",
+        "inputPH": "Stil et spørgsmål",
+        "empty": {
+          "heading": "Kunne ikke finde denne samtale",
+          "p1": "Der opstod en fejl under forsøg på at få denne samtale. Kontroller URL'en, og prøv igen.",
+          "p2": "Hvis dette bliver ved med at ske, bedes du kontakte os."
+        },
+        "jsNewChatInfo": "Dette er starten på en ny samtale med Haadi. Du har valgt at aktivere kontekst for Haadi, mens du besvarer dine spørgsmål. Du kan altid deaktivere denne indstilling i indstillinger eller se, hvad det betyder for dig."
+      },
+      "aboutHaadi": {
+        "title": "Mød Haadi, din botfriend for at navigere i shia-islam!",
+        "desc": "Klik på hver af disse oversigter for at læse mere, eller find mere om Haadi og vilkår for anvendelse i <a href={blogLink} target='_system'>vores blog",
+        "agreement": "Jeg forstår og accepterer Vilkår for brug"
       }
     },
     "authPage": {
