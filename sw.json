@@ -66,9 +66,22 @@
           "cta": "Onesha upya"
         },
         "jsImgUploaded": "Picha imepakiwa kwa mafanikio!",
-        "jsImgUploadErr": "Upakiaji wa picha ulishindwa. Tafadhali jaribu tena baadaye."
+        "jsImgUploadErr": "Upakiaji wa picha ulishindwa. Tafadhali jaribu tena baadaye.",
+        "jsLoadingDelay": "Inachukua muda mrefu kuliko ilivyotarajiwa. Tafadhali subiri wakati tunashughulikia ombi hili."
       },
-      "unknown": "Isiyojulikana"
+      "unknown": "Isiyojulikana",
+      "close": "Funga",
+      "yes": "Ndiyo",
+      "no": "La",
+      "idk": "Sijui",
+      "completed!": "Kukamilisha!",
+      "pushPrompt": {
+        "heading": "Endelea hadi tarehe",
+        "desc": "Kama unavyoona? Kamwe usikose sasisho na uendelee kuarifiwa kuhusu kila kitu kinachotokea karibu na arifa.<br />Je, tunaweza kukutumia arifa?",
+        "cancelCta": "Niulize baadaye",
+        "okCta": "Uhakika!",
+        "jsPushUnsupported": "Push si mkono kwenye kifaa hiki. Unaweza kukosa arifa!"
+      }
     },
     "errors": {
       "service": {
@@ -199,7 +212,11 @@
           },
           "jsAlarmSetSuccess": "Kengele zilizowekwa kwa mafanikio",
           "jsAlarmSetError": "Hitilafu katika kuweka ving'ora. Tafadhali jaribu tena baadaye.",
-          "jsAlarmSnoozed": "Kengele yatanda kwa dakika 10"
+          "jsAlarmSnoozed": "Kengele yatanda kwa dakika 10",
+          "sunriseLabel": "Jua la jua",
+          "dhuhrLabel": "Zuhr",
+          "asrLabel": "Asr",
+          "ishaLabel": "Nyumbani"
         },
         "alarmSetting": {
           "title": "Mipangilio ya kengele",
@@ -398,7 +415,10 @@
           "addGender": "Ongeza Jinsia",
           "addBday": "Ongeza Siku ya Kuzaliwa",
           "addRelation": "Ongeza Uhusiano",
-          "joinDate": "Alijiunga: {date}"
+          "joinDate": "Alijiunga: {date}",
+          "privateInfoDesc": "Habari hii inaonekana kwako tu na unaona maudhui na vipengele kulingana na hii.",
+          "idSetupCta": "Sanidi utambulisho wako",
+          "idVerifyCta": "Thibitisha"
         },
         "posts": {
           "title": "Posts",
@@ -414,6 +434,26 @@
           "jsDeleteHeader": "Una uhakika?",
           "jsDeletePrompt": "Kufuta rekodi za <b>{fullName}</b> pia kutafuta maombi yote ya awali yaliyotolewa kwa {jinsia}! Kuendelea?",
           "jsDeleted": "Rekodi zilizofutwa za {marhumeen}"
+        },
+        "verifyCard": {
+          "title": "Thibitisha utambulisho wako wa Shia -- Thibitisha utambulisho wako wa Sadat",
+          "p1": "Umeonyesha katika wasifu wako kwamba wewe ni Muislamu wa Shia. Kuwa na habari hii kuthibitishwa kutawezesha vipengele zaidi kwako na kutusaidia kujenga jamii iliyothibitishwa ya Waislamu wa Shia.",
+          "p2": "Kwa fadhili thibitisha utambulisho wako; Haitachukua muda mrefu",
+          "noReminder": "Usinikumbushe tena",
+          "dismissCta": "Sio sasa",
+          "startCta": "Kuanza"
+        },
+        "verifyPrompt": {
+          "jsGetVerified": "Unahitaji kuthibitishwa kwanza kabla ya kuthibitisha wengine!",
+          "jsLinkExpired": "Kiungo hiki ni batili au kimeisha muda wake. Tafadhali wasiliana na rafiki yako ili utoe ombi jipya.",
+          "confirm": {
+            "heading": "Thibitisha Utambulisho wa Akaunti",
+            "msg": "Msaada {firstName} kupata taarifa {genderLabel1} akaunti kuthibitishwa. Hii itawawezesha {genderLabel2} kufikia vipengele zaidi kwenye programu yetu",
+            "jsSkip": "Hakuna shida. Ukibadilisha mawazo yako, unaweza kupitia tena kiungo hiki ili kuthibitisha baadaye."
+          }
+        },
+        "myKhums": {
+          "title": "Khums yangu"
         }
       }
     },
@@ -753,7 +793,10 @@
         "sendOtpCta": "Rudi kwenye Ingia",
         "backToLoginCta": "Tafadhali kumbuka kuwa utapata {item} tu ikiwa una {item} iliyosajiliwa na sisi",
         "disclaimerText": "Barua iliyotumwa",
-        "jsMailSent": "Weka upya nywila"
+        "jsMailSent": "Weka upya nywila",
+        "title2": "Madai ya akaunti yako",
+        "claimIntroHeading": "Kudai akaunti yako kwa haraka!",
+        "claimIntroText": "Shukrani kwa ajili ya kujiunga nasi. Tumekuwekea akaunti kwa ajili yako sasa. Pata ufikiaji wa akaunti yako kwa kuweka upya nywila yake kwa kutumia mojawapo ya njia zifuatazo:"
       },
       "resetPwd": {
         "title": "Weka nenosiri salama kwa akaunti yako hapa. Bofya {icon} ili kuhakikisha kuwa unaingiza nenosiri sahihi.",
@@ -825,6 +868,248 @@
       "dialCodeSelector": {
         "title": "Chagua Nchi",
         "searchPH": "Tafuta nchi kwa jina au msimbo wa kupiga"
+      },
+      "cards": {
+        "completeProfile": {
+          "profile": {
+            "header": "Kamilisha wasifu wako",
+            "desc": "Profaili zisizokamilika zina ufikiaji mdogo wa vipengele kwenye programu yetu. Kuwa na wasifu wako updated husaidia kwa njia kadhaa. Bonyeza hapa kujua zaidi.",
+            "item1": {
+              "header": "Profaili kamili zinathibitishwa kwa urahisi",
+              "p1": "Wakati wa kuomba uthibitishaji wa akaunti (hatua inayofuata), husaidia wengine kukuthibitisha kwa urahisi wakati wanakujua au wanaweza kuona habari zote zinazohitajika kwa uthibitisho juu yako.",
+              "p2": "Maelezo mafupi yasiyokamilika huchukua muda mrefu zaidi kuthibitishwa. Hatutaki uzuiliwe kutumia vipengele kwenye programu yetu."
+            },
+            "item2": {
+              "header": "Angalia maudhui ya haki",
+              "p1": "Unaona maudhui kulingana na mazingira yako. Tunapokuwa na habari sahihi juu yako, unaona maudhui muhimu zaidi.",
+              "p2": "Kwa mfano, ikiwa umesasisha eneo lako kwa usahihi, utaona machapisho kutoka kwa jirani yako kwanza."
+            },
+            "cta": "Kamilisha wasifu wako"
+          },
+          "identity": {
+            "header": "Sanidi utambulisho wako",
+            "desc": "Tunakaribisha kila mtu kwenye programu yetu, lakini kwa sababu baadhi ya vipengele ni muhimu (na maana) kwa Waislamu wa Shia tu, habari hii inatusaidia kukutumikia sifa sahihi. Bonyeza hapa kujua zaidi.",
+            "item1": {
+              "header": "Upatikanaji wa makala kwa Waislamu wa Shia",
+              "p1": "Vipengele kadhaa kwenye programu yetu vimejengwa na Waislamu wa Shia. Baadhi yao ni:",
+              "ul": "<li>Maombi ya Surah-fatiha na Namaz-e-Wahshat</li><li>Kikokotoo Cha Khums</li><li>Msaada wa kifedha (khums) kwa Sadat momineen</li>",
+              "p2": "Ili kufikia huduma hizi, unahitaji kuthibitisha utambulisho wako (iwe sasa au, ikiwa unachagua, baadaye)"
+            },
+            "item2": {
+              "header": "Unaweza kusaidia momineen katika mahitaji!",
+              "p1": "Hata kama hutaki kuthibitishwa, kunaweza kuwa na wengine ambao wanaweza kutaka kuthibitishwa ili kupata huduma hizi.",
+              "p2": "Akaunti zilizothibitishwa tu ndizo zinaweza kuthibitisha momineen kama hiyo. Uthibitishaji pia unatusaidia kujenga jamii ya Shia iliyothibitishwa."
+            },
+            "item3": {
+              "header": "Taarifa yako daima ni ya faragha",
+              "p1": "<strong>Tunaelewa hii ni habari nyeti</strong> na hatutawahi kufichua habari hii hadharani bila idhini yako, lakini inferences bado inaweza kufanywa wakati mwingine. Kwa mfano, unapoomba uthibitisho kutoka kwa momineen nyingine, watajua kuwa wewe ni Shia.",
+              "p2": "Unaweza kubofya kitufe hapa chini kusoma zaidi kuhusu mchakato wetu."
+            },
+            "cta": "Usanidi"
+          }
+        },
+        "idSetup": {
+          "header": "Karibu kufanyika!",
+          "desc": "Unaweza kuruka hatua hii ikiwa unafurahi na maadili yetu yaliyowekwa mapema kwa mipangilio yako ya faragha na mawasiliano. Hata hivyo, si vibaya kuwa na kuangalia!",
+          "privacy": {
+            "header": "Sanidi faragha yako",
+            "p1": "Fafanua kile wengine wanaweza kuona:",
+            "ul": "<li>Weka mipangilio ya mwonekano kwa machapisho yako. Inafafanua ikiwa machapisho yako yanaweza kuonekana na mtu yeyote kwenye au mbali Bazm (kwa mfano, wakati mtu anashiriki kwenye jukwaa lingine)</li><li>Weka ni nani anayeweza kuona nini wakati wanatembelea wasifu wako</li><li>Weka jinsi habari yako inavyoonekana kwa wengine</li>"
+          },
+          "comm": {
+            "header": "Mipangilio ya mawasiliano ya usanidi",
+            "p1": "Fafanua jinsi na wakati gani ungependa kuwasiliana na wewe:",
+            "ul": "<li>Weka mapendeleo yako ya arifa</li><li>Jisajili au ondoa usajili kwa arifa za barua pepe</li><li>Jisajili au ondoa usajili kwa vikumbusho</li>"
+          },
+          "cta": "Usanidi"
+        },
+        "verifyLoginInfo": {
+          "mobile": {
+            "header": "Thibitisha simu yako ya mkononi",
+            "desc": "Bofya kwenye kiungo hapa chini ili kuthibitisha nambari yako ya simu:",
+            "cta": "Anza uhakiki wa simu",
+            "completed": "Simu ya mkononi imethibitishwa kwa mafanikio"
+          },
+          "email": {
+            "header": "Thibitisha barua pepe yako",
+            "desc": "Bofya kwenye kiungo hapa chini ili kupata barua pepe ya uthibitishaji kwenye kikasha chako.",
+            "cta": "Anza uhakiki wa simu",
+            "completed": "Simu ya mkononi imethibitishwa kwa mafanikio",
+            "form": {
+              "inputLabel": "Barua pepe yako:",
+              "ph": "Ingiza barua pepe yako",
+              "cta": "Kiungo cha uthibitishaji wa barua pepe"
+            },
+            "sent": {
+              "desc": "Barua pepe ilitumwa kwa anwani yako ya barua pepe hapa chini. Bonyeza kiungo kwenye barua pepe yako ili kuthibitisha anwani yako ya barua pepe.",
+              "incorrect": "Barua pepe isiyo sahihi?",
+              "change": "Badilisha"
+            },
+            "resendCta": "Tuma tena Barua pepe",
+            "openEmailCta": "Fungua Barua pepe",
+            "verified": "Barua pepe imethibitishwa kwa mafanikio!"
+          }
+        }
+      },
+      "finishSetupPrompt": {
+        "heading": "Usanidi kamili wa Akaunti",
+        "desc": "Fungua vipengele vya akaunti yako kwa kumaliza usanidi wa akaunti yako. Lazima ufanye hivyo mara moja tu na inasaidia kuthibitisha maelezo yako, utambulisho wako na usanidi chaguzi za faragha kwako.",
+        "gotoPageCta": "Endelea Usanidi",
+        "dontRemind": "Usinikumbushe tena",
+        "dismissCta": "Baadaye",
+        "jsConfirmSkip": {
+          "header": "Endelea baadaye?",
+          "msg": "Kukamilisha hatua hii kutakufungulia vipengele vingi kwenye programu, lakini unaweza kukamilisha hatua hii baadaye pia. Nenda tu kwenye kichupo cha 'Mtumiaji' na uendelee kutoka hapo.",
+          "btns": {
+            "confirm": "Ndio, baadaye",
+            "cancel": "Fanya hivyo sasa"
+          }
+        }
+      },
+      "idSetupModal": {
+        "title": "Sanidi utambulisho wako",
+        "form": {
+          "religion": {
+            "label": "Chagua dini yako:",
+            "infoText": "Baadhi ya vipengele muhimu tu kwa Waislamu ni msingi wa taarifa hii. Data hii itaonekana kwako tu; Hata hivyo, inferences bado inaweza kufanywa (kama vile, wakati wewe kutumia moja ya makala inapatikana kwa Waislamu tu)",
+            "muslim": "Kiislamu",
+            "nonMuslim": "Wasio wa muziki"
+          },
+          "sect": {
+            "label": "Chagua madhehebu yako",
+            "infoText": "Vipengele kama vile Ombi la <strong>Ziyarat, Ombi la msaada, hesabu ya Khums, nk</strong> zinahitaji uthibitishe utambulisho wako wa Shia. Pia, watumiaji wasiothibitishwa wana ufikiaji mdogo wa vipengele.",
+            "shia": "Shia",
+            "sunni": "Wasio wa Shia"
+          },
+          "thanksNonMuslim": "Shukrani kwa ajili ya kuonyesha nia ya kujiunga na programu yetu. Tunatarajia kupata maudhui muhimu hapa. Tafadhali onyesha heshima kwa jamii na kufuata sheria zetu.",
+          "sadat": {
+            "label": "Je, wewe ni Sadat?",
+            "infoText": "Habari hii inatumika katika vipengele vinavyokusudiwa kwa Waislamu wa Sadat-shia. Hata hivyo, haijawahi kuonyeshwa kama ilivyo kwa mtu yeyote. Utahitaji kuthibitisha hali yako ya kusikitisha kabla ya kupata huduma hizi.",
+            "sadat": "Ndiyo",
+            "nonSadat": "La"
+          },
+          "requested": "Uthibitishaji umeombwa",
+          "required": "Uthibitishaji unahitajika",
+          "verifyInfo": {
+            "modalCta": "Hii ni nini?",
+            "p1": "Ili kupata huduma zilizokusudiwa kwa Waislamu wa Shia, unahitaji kuthibitisha utambulisho wako wa Shia.",
+            "p2": "Kama wewe ni Shia-Sadat, unahitaji kuthibitisha hilo pia. Unaweza kuiunganisha katika ombi sawa la uthibitishaji; Chagua tu <strong>Sadat</strong> hapo juu."
+          },
+          "verifyCta": "Thibitisha",
+          "skipInfo": "Unaweza kuruka uthibitishaji ikiwa hutaki kutumia vipengele vilivyotajwa. Ili kusasisha tu maelezo yako, bofya <strong>Hifadhi na Endelea</strong>",
+          "thankSunni": {
+            "p1": "Shukrani kwa ajili ya kuonyesha maslahi katika programu yetu. Licha ya migawanyiko hii ya kidunia, Waislamu wote ni ndugu katika imani na ni wa Ummah ule ule wa Mtume Muhammad (S.A.W.W.)",
+            "p2": "Tunatarajia kupata maudhui hapa muhimu na inatusaidia kuelewana vizuri.",
+            "p3": "Kwa swali lolote / wasiwasi kuhusu sera zetu au kitu chochote, unaweza kutufikia kila wakati."
+          }
+        },
+        "cta": [
+          "Hifadhi",
+          "Hifadhi na Endelea"
+        ]
+      },
+      "verifyShiaModal": {
+        "title": "Thibitisha akaunti ya {name}",
+        "heading": "Unaweza kujibu hapa chini habari kuhusu {firstName}? Ikiwa sivyo, basi kataa ombi hili.",
+        "desc": "Wewe tu kuwa na majaribio mawili ya kuthibitisha!",
+        "descP1": "Unapowasilisha fomu hii, tutalinganisha habari na kile {firstName} kilichotolewa wakati wa kuomba uthibitisho. Tafadhali zingatia kwa sababu una majaribio mawili tu ya kujaza fomu hii kwa usahihi. Ikiwa bado unashindwa, hutaweza kuthibitisha {firstName} tena katika siku zijazo.",
+        "descP2": "Ikiwa hujui {firstName}basi kataa ombi hili. Tutawajulisha na kuwaomba wamfikie mtu mwingine.",
+        "rejectRequestCta": "Ombi la Kukataa",
+        "form": {
+          "heading": "Jibu maswali yafuatayo kuhusu {firstName} na ubofye Tuma:",
+          "q1": "Unajuaje {firstName}?",
+          "q2": "Dini:",
+          "q3": "Sect:",
+          "q4": "Je, {firstName} Sadat?",
+          "q5": "Kitu kingine chochote ambacho ungependa kuongeza?"
+        }
+      },
+      "editPrefModal": {
+        "title": "Mipangilio yako ya Faragha",
+        "privacy": {
+          "header": "Mipangilio ya faragha",
+          "desc": "Weka ni nani anayeweza kuona yafuatayo kutoka kwako au kwenye akaunti yako:",
+          "form": {
+            "posts": "Machapisho yako",
+            "status": "Sasisho zako za hali",
+            "requests": "Maombi yako",
+            "relationship": "Hali ya uhusiano wako",
+            "birthday": "Tarehe yako ya kuzaliwa (sio mwaka)",
+            "location": "Mahali pako"
+          },
+          "disclaimer": {
+            "heading": "* Inferences bado inaweza kufanywa juu ya hii",
+            "p": "Ingawa habari hii labda imefichwa kwenye wasifu wako, baadhi ya inferences bado zinaweza kufanywa. Kwa mfano, ikiwa chapisho lako linaonekana kwa mtumiaji, wanaweza kugundua kuwa unaishi karibu (kulingana na mahali chapisho hilo linaonekana kwenye malisho yao)"
+          },
+          "values": {
+            "everyone": "Kila mmoja",
+            "users": "Momineen pekee",
+            "shias": "Washia wa pekee",
+            "me": "Ni mimi tu"
+          }
+        },
+        "comm": {
+          "header": "Mipangilio ya Mawasiliano",
+          "desc": "Weka jinsi ungependa kuwasiliana",
+          "form": {
+            "push": {
+              "header": "Arifa za kushinikiza",
+              "nearby": "Kwa machapisho kutoka kwa watumiaji wa karibu",
+              "daily": "Sasisho zetu za kila siku"
+            },
+            "email": {
+              "header": "Arifa za barua pepe",
+              "weekly": "Jarida la kila wiki",
+              "monthly": "Barua pepe za muhtasari wa kila mwezi"
+            },
+            "cta": "Sasisha"
+          }
+        },
+        "js": {
+          "changeSaved": "Mabadiliko yaliyohifadhiwa kwa mafanikio"
+        }
+      },
+      "rejectVerifyReq": {
+        "cta": "Kataa",
+        "title": "Ombi la kukataa",
+        "reasonLabel": "Kwa nini hutaki kuthibitisha akaunti hii?",
+        "reasonPh": "Tutawajulisha {userName} na kuwaomba wamfikie mtu mwingine kwa ajili ya uthibitisho"
+      },
+      "haadiHome": {
+        "title": "Anza majadiliano — — Majadiliano yako na Haadi",
+        "item": {
+          "added": "Aliongeza {date}",
+          "tokensUsed": "Tokeni zilizotumiwa: {tokens}",
+          "readContinue": "Soma au endelea na mjadala"
+        },
+        "blank": {
+          "heading": "Anzisha mjadala mpya",
+          "desc": "Huna mazungumzo ya awali. Anza mjadala mpya kwa kuwasilisha hoja yako hapa chini."
+        },
+        "introLink": "Soma zaidi kuhusu Haadi, au",
+        "inputPh": "Anzisha mjadala mpya",
+        "quesHelp": {
+          "invalid": "Maswali yenye maneno 5 au zaidi yana maana zaidi.",
+          "goodLen": "Inaonekana kama swali nzuri!",
+          "excellent": "Haijawahi kuumiza kuelezea swali lako. Heshima!"
+        }
+      },
+      "askHaadi": {
+        "title": "Ask Haadi",
+        "infoText": "Ili kumaliza mjadala huu na kuanza mazungumzo mapya, bofya kitufe hapa chini",
+        "newChatCTA": "Mjadala Mpya",
+        "inputPH": "Uliza swali",
+        "empty": {
+          "heading": "Sikuweza kupata mazungumzo haya",
+          "p1": "Kosa lilitokea wakati wa kujaribu kupata mazungumzo haya. Tafadhali angalia URL na jaribu tena.",
+          "p2": "Ikiwa hii inaendelea kutokea, wasiliana nasi kwa upole."
+        },
+        "jsNewChatInfo": "Huu ni mwanzo wa mazungumzo mapya na Haadi. Umechagua kuwezesha muktadha kwa Haadi wakati unajibu maswali yako. Unaweza kuzima chaguo hili kila wakati katika mipangilio, au uone hii inamaanisha nini kwako."
+      },
+      "aboutHaadi": {
+        "title": "Kutana na Haadi, rafiki yako wa karibu na Uislamu wa Shia!",
+        "desc": "Bonyeza kila moja ya muhtasari huu kusoma zaidi, au kupata zaidi kuhusu Haadi na masharti ya matumizi katika <a href= lengo{blogLink} ='_system'>blogi yetu",
+        "agreement": "Ninaelewa na kukubaliana na Masharti ya Matumizi"
       }
     },
     "authPage": {
