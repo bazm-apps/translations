@@ -1,21 +1,21 @@
 {
   "hu": {
     "common": {
-      "refresh": "Húzza a frissítést",
+      "refresh": "Húzás a frissítéshez",
       "refreshing": "Frissítő...",
-      "loadingMore": "Több betöltése ...",
+      "loadingMore": "Továbbiak betöltése...",
       "checking": "Ellenőrzése...",
-      "sendOtp": "OTP küldése..",
+      "sendOtp": "OTP küldése.",
       "dismiss": "Elbocsát",
       "invite": "Meghív",
-      "showMore": "Több megjelenítése | Továbbiak",
+      "showMore": "Mutass többet | Többet",
       "play": "Játszik",
       "pause": "Szüneteltetett",
       "playing": "Játszik",
       "paused": "Szüneteltetett",
       "watch": "Néz",
       "read": "Olvas",
-      "authors": "Szerző -— Szerzők",
+      "authors": "Szerző | Szerzők",
       "languages": "Nyelv | Nyelvek",
       "clear": "Világos",
       "cancel": "Érvénytelenít",
@@ -32,21 +32,21 @@
       "privacy": "Magánélet",
       "contactUs": "Kapcsolat",
       "home": "Otthon",
-      "facebook": "Facebook-oldal",
-      "google": "Google-fiók",
+      "facebook": "Facebook",
+      "google": "Google",
       "you": "Te",
       "retry": "Újra",
       "send": "Küld",
       "submit": "Előterjeszt",
-      "share": "Megosztás –— Megosztás most",
+      "share": "Megosztás | Megosztás most",
       "at": "nél",
-      "untilNextTime": "Nem gond. A következőigTime!",
+      "untilNextTime": "Nem gond. A következő alkalomig!",
       "plzWait": "Várj, kérlek..",
       "saving": "Megtakarítás.. | Frissítés..",
       "search": "Keresés",
       "late": "Késő",
       "done": "Kész",
-      "featureUnavailable": "Ez a funkció hamarosan elérhető lesz. Köszi, hogy érdeklődést mutat!",
+      "featureUnavailable": "Ez a funkció hamarosan elérhető lesz. Köszönjük, hogy érdeklődést mutatott!",
       "actions": {
         "cancel": "Érvénytelenít",
         "notify": "Értesít",
@@ -58,22 +58,22 @@
         "uploading": "Feltöltő..",
         "deleting": "Törlés..",
         "requesting": "Kérelmező..",
-        "audienceHeader": "Momineen ki {action}d | Momineen who {action}d this",
+        "audienceHeader": "Momineen, aki {action}d | Momineen, aki ezt {action}",
         "jsShareFileTypeError": "Sajnáljuk, itt nem oszthat meg {fileType} fájlokat",
         "jsUpdateAvailable": {
-          "header": "Frissítés elérhető",
-          "message": "Az alkalmazás gyorsítótárazott verzióját látja.",
+          "header": "Frissítés érhető el",
+          "message": "Az alkalmazás gyorsítótárazott verzióját látja. Kattintson a \"Frissítés\" gombra az új tartalmak és funkciók frissítéséhez és betöltéséhez.",
           "cta": "Felfrissít"
         },
-        "jsImgUploaded": "A kép feltöltése sikeresen megtörtént!",
-        "jsImgUploadErr": "A képfeltöltés sikertelen volt. Kérjük, próbálja újra később.",
+        "jsImgUploaded": "A kép feltöltése sikeres!",
+        "jsImgUploadErr": "A képfeltöltés nem sikerült. Kérjük, próbálja újra később.",
         "jsLoadingDelay": "A vártnál kicsit tovább tart. Kérjük, várjon, amíg feldolgozzuk ezt a kérést."
       },
-      "unknown": "Ismeretlen",
       "close": "Bezár",
       "yes": "Igen",
       "no": "Nem",
       "idk": "Nem tudom",
+      "unknown": "Ismeretlen",
       "completed!": "Befejezett!",
       "pushPrompt": {
         "heading": "Maradjon naprakész",
@@ -90,12 +90,12 @@
         "general": "Hiba történt a kérés feldolgozása során. Kérjük, próbálja újra később."
       },
       "content": {
-        "unavailable": "Jelenleg nem sikerült betölteni a tartalmat. Kérjük, próbálja újra egy idő múlva.",
-        "itemDetailUnavailable": "Nem találtam részleteket ehhez az {elem}",
+        "unavailable": "Jelenleg nem sikerült betölteni a tartalmat. Kérjük, próbálja újra egy kis idő múlva.",
+        "itemDetailUnavailable": "Nem található részlet ehhez a {item}",
         "loadMoreError": "Nem sikerült több elemet betölteni. Kérjük, próbálja újra később."
       },
       "url": {
-        "invalid": "Érvénytelen URL. Kérjük, próbálkozzon egy új URL-lel."
+        "invalid": "Érvénytelen URL. Kérjük, próbáljon meg új URL-t."
       },
       "page404": {
         "title": "Az oldal nem található",
@@ -109,8 +109,8 @@
       },
       "postDetail": {
         "commonTitle": "Részlet",
-        "fatihaTitle": "Surah-fatiha",
-        "fatihaWithNamaz": "Surah-fatiha &Namaz-e-Wahshat",
+        "fatihaTitle": "Szúra-fatiha",
+        "fatihaWithNamaz": "Szúra-fatiha & Namaz-e-Wahshat",
         "avatarUpdateTitle": "Profilkép",
         "bannerUpdateTitle": "Borítókép (elavult)",
         "statusUpdateTitle": "Állapotfrissítés"
@@ -121,98 +121,99 @@
         "name": "Otthon",
         "postDetail": {
           "shareRequest": {
-            "header": "Ossza meg ezt a kérést a hálózatán keresztül, és vegye fel a kapcsolatot több emberrel!"
+            "header": "Ossza meg ezt a kérést a hálózatán, és érjen el több embert!"
           }
         }
       },
       "media": {
         "name": "Média",
         "boxLabels": {
-          "nauhe": "Nauhe ·",
+          "nauhe": "Nauhe",
           "majalis": "Majalis",
-          "soaz": "Soaz ·",
-          "ziyarat": "Ziyaraat ·",
-          "dua": "Duas ·",
+          "soaz": "Soaz",
+          "ziyarat": "Ziyaraat",
+          "dua": "Kettő",
           "munajat": "Munajaat",
           "munajaat": "Munajaat",
           "books": "Könyvek"
         },
-        "inviteFriends": "hívd meg barátaidat",
+        "inviteFriends": "Hívja meg barátait",
         "notShia": "Nem síita?",
         "contacts": {
-          "accessRequestHeader": "Kontaktok Hozzáférés szükséges",
-          "accessRequestDesc": "Szükségünk van a kontaktjaid hozzáférésére, hogy a telefonkönyvedben lévő síita embereket javasoljanak, hogy hívjanak meg erre az alkalmazásra."
+          "accessRequestHeader": "Névjegyekhez való hozzáférés szükséges",
+          "accessRequestDesc": "Szükségünk van a kontaktjai hozzáférésére ahhoz, hogy síita személyeket javasolhasson a telefonkönyvében, hogy meghívják őket erre az alkalmazásra."
         },
         "audio": "Hanganyag",
         "video": "Video",
         "hijri": "Hidzsri",
         "duaHome": {
-          "wishCtaText": "Kívánok a barátaidnak!",
+          "wishCtaText": "Kívánj barátaidnak!",
           "wishCtaLabel": "KÍVÁN"
         },
         "books": {
-          "booksByAuthor": "{szerző} könyvei",
-          "booksInLang": "Könyvek {lang} nyelven",
-          "filterBy": "Szűrés a következő szerint:",
+          "booksByAuthor": "{author} könyvei",
+          "booksInLang": "Könyvek {lang}",
+          "filterBy": "Szűrés:",
           "matching": {
-            "authors": "szerzők egyeztetésével",
+            "authors": "szerzőkkel egyező",
             "lang": "nyelvegyeztetéssel",
             "title": "címegyeztetéssel"
           }
         },
         "booksFilter": {
           "title": "Könyv keresése szerző szerint",
-          "searchBox": "Keresés a szerző között név szerint",
-          "selectLang": "Válasszon ki egy nyelvet:"
+          "searchBox": "Szerző keresése név szerint",
+          "selectLang": "Válasszon nyelvet:"
         },
         "bookDetails": {
-          "title": "{title} — További ilyen ingyenes könyveket találhatsz a Bazm-on",
+          "title": "{title} — Még több ilyen ingyenes könyvet találhat a Bazm-on",
           "aboutBook": "A könyvről:"
         }
       },
       "tools": {
         "name": "Eszközök",
-        "salatAlarmDesc": "Riasztások beállítása az Azaan számára a helyi időpontoknak megfelelően",
-        "sehriAlarmDesc": "Állítsa be a Riasztást Sehri számára, vagy akár ébresztőt is kaphat a telefonszámán a Sehri előtt!",
-        "sehriAlarmOptionDisabled": "Riasztások Sheri idejére a ramadán hónapjában (csak ramadán idején érhető el)",
-        "tasbeehCounterDesc": "Mondja el a Duas- t, a Koránt és a Tasbeeh-t ismétlési módban egyszerűen az Audio Tasbeeh számlálóval",
+        "salatAlarmDesc": "Állítson be riasztásokat Azaanhoz a helyi idő szerint",
+        "sehriAlarmDesc": "Állítsa be az Ébresztést Sehri számára, vagy akár ébresztőt is kaphat a számára Sehri előtt!",
+        "sehriAlarmOptionDisabled": "Riasztások a seri időre Ramadán hónapban (csak Ramadán idején érhető el)",
+        "tasbeehCounterDesc": "Mondja el a Duas-t, a Korán-t és a Tasbeeh-t ismétlési módban egyszerűen az Audio Tasbeeh számlálóval",
         "qnaLabel": "QnA (Masle-Masayel)",
-        "qnaDesc": "Keress és tegyél fel kérdéseket, vagy keress válaszokat a mindennapi életedből származó masle-masayelre az iszlám kérdéseivel kapcsolatban.",
+        "qnaDesc": "Keressen és tegyen fel kérdéseket, vagy találjon válaszokat a mindennapi életedből származó masle-masayelre az iszlám kérdéseiben.",
+        "khumsLabel": "Khums kalkulátor",
+        "khumsDesc": "Számítsa ki a khumjait, vagy adjon hozzá korábban fizetett khumokat. Segít a khumok nyilvántartásában az évek során.",
         "alarms": {
-          "salatAlarms": "Salat riasztások -— Napi Salat riasztások",
+          "salatAlarms": "Salat riasztások | Napi Salat riasztások",
           "sehriAlarms": "Ramadan Sehri riasztások",
-          "gettingLocation": "A tartózkodási hely megszerzése. Várj, kérlek...",
-          "settingsTip": "Módosítsa <b>a Helyet</b> és a beállításokat a Riasztási beállításokban. Kattintson a Beállítások ikonra az indításhoz.",
+          "gettingLocation": "A tartózkodási hely lekérése. Várj, kérlek...",
+          "settingsTip": "Módosítsa a <b>Hely</b> és beállítások beállítást a Riasztás beállításaiban. Kattintson a Beállítások ikonra a kezdéshez.",
           "setAlarmHeader": "Napi riasztások beállítása",
-          "setAlarmOnAppDesc": "A riasztások beállítása csak az alkalmazásban érhető el",
+          "setAlarmOnAppDesc": "Az asztalon a riasztási értesítések csak szalaghirdetésként, csengetés nélkül jelennek meg",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
           "sunsetLabel": "Naplemente",
           "maghribLabel": "Magreb",
           "midnightLabel": "Éjfél",
-          "sehriEndTime": "Ideje befejezni Sehri",
+          "sehriEndTime": "A Sehri végének ideje",
           "minToImsak": [
-            "{min} percekkel Imsak előtt",
-            "{órával} órával Imsak előtt"
+            "{min} perccel Imsak előtt",
+            "{hour} órával Imsak előtt"
           ],
           "minToImsakDesc": [
-            "A riasztás {perc} perccel a Sehri-idő vége előtt cseng",
-            "A riasztás {egy órával} órával a Sehri-idő vége előtt cseng"
+            "A riasztás {min} perccel a Sehri idő vége előtt szólal meg",
+            "A riasztás {hour} órával a Sehri idő vége előtt szólal meg"
           ],
-          "notRamadan": "Úgy tűnik, hogy ez még nem ramadán. Kérjük, jöjjön vissza a ramadán alatt vagy közvetlenül előtt, hogy beállítsa a Riasztásokat Sehri számára",
+          "notRamadan": "Úgy tűnik, még nincs ramadán. Kérjük, jöjjön vissza a ramadán alatt vagy közvetlenül előtte, hogy beállítsa a riasztásokat Sehri számára",
           "push": {
-            "heading": "Értesítési hozzáférés szükséges",
-            "desc_request": "A riasztás úgy működik, hogy push értesítéseket küld a megadott időpontokban. A leküldéshez való hozzáférés nélkül az alkalmazás nem fog a várt módon működni. Kérjük, engedélyezze a hozzáférést a push értesítéshez, hogy riasztáskor tájékoztathassuk Önt.",
-            "desc_denied": "<strong>Korábban megtagadta az értesítésekhez való hozzáférést.</strong> A push-értesítések megfelelő működéséhez szükséges. Riasztási időben küldünk értesítéseket.<br/> Kérjük, engedélyezze a push értesítésekhez való hozzáférést a gombra kattintva.",
+            "heading": "Értesítéshez való hozzáférés szükséges",
+            "desc_request": "A riasztás úgy működik, hogy meghatározott időpontokban push értesítéseket küld. A push hozzáférés nélkül az alkalmazás nem fog a várt módon működni. Kérjük, engedélyezze a push értesítéshez való hozzáférést, hogy riasztási időpontokban tájékoztathassuk.",
+            "desc_denied": "<strong>Korábban megtagadta az értesítésekhez való hozzáférést.</strong> A push-értesítések megfelelő működéséhez szükséges. Riasztáskor értesítéseket küldünk.<br/>Kérjük, engedélyezze a push értesítésekhez való hozzáférést a gombra kattintva.",
             "cta": "Enged",
             "toast_granted": "Köszönöm! Most riasztási időpontokban értesítést kap.",
-            "toast_denied": "Az értesítési kérelem elutasítva. Kérjük, engedélyezze az alkalmazás hozzáférését a megfelelő működéshez.",
+            "toast_denied": "Az értesítési kérelem elutasítva. Kérjük, engedélyezze az alkalmazás megfelelő működését.",
             "toast_prompt": "A riasztások beállításához engedélyeznie kell az értesítésekhez való hozzáférést."
           },
-          "jsAlarmSetSuccess": "A riasztások sikeresen beállítva",
-          "jsAlarmSetError": "Hiba a riasztások beállításában. Kérjük, próbálja újra később.",
-          "jsAlarmSnoozed": "A riasztás 10 percig szundikált",
+          "jsAlarmSetSuccess": "A riasztások sikeresen beállítása",
+          "jsAlarmSetError": "Hiba a riasztások beállításakor. Kérjük, próbálja újra később.",
+          "jsAlarmSnoozed": "Az ébresztés 10 percig el van szundítva",
           "sunriseLabel": "Napkelte",
           "dhuhrLabel": "Zuhr",
           "asrLabel": "Asr",
@@ -220,18 +221,18 @@
         },
         "alarmSetting": {
           "title": "Riasztási beállítások",
-          "locationTitle": "Keresse meg a várost a riasztási időzítésekhez",
+          "locationTitle": "Keressen várost a riasztások időzítéséhez",
           "forLocation": "Riasztás a helyhez",
           "calcMethod": "Számítási módszer",
-          "selectAdhanSound": "Válassza ki az Adhan hangot",
+          "selectAdhanSound": "Válassza az Adhan hangot",
           "selectAlarmSound": "Válassza a Riasztási hang lehetőséget",
-          "alarmSoundDesc": "Hang a nem salatos időkhöz",
-          "timesPeekHeading": "Megjelenítési idők szalagcíme",
-          "timesPeekDesc": "Itt letilthatja a Salat idejének gyors nézetének megjelenítését:",
-          "timesPeekHome": "Megjelenítés a hírcsatornák oldalon:",
+          "alarmSoundDesc": "Hang a nem szalációs időkhöz",
+          "timesPeekHeading": "Megjelenítési idők szalagcím",
+          "timesPeekDesc": "Itt tilthatja le a Salat gyors nézetének megjelenítését:",
+          "timesPeekHome": "Megjelenítés a hírcsatornák oldalán:",
           "timesPeekTools": "Megjelenítés az eszközök oldalon:",
           "jsConfirmLocChange": "A tartózkodási hely megváltoztatása törli az összes korábban beállított riasztást. Folytatódik?",
-          "jsOtherSettingsSaved": "Egyéb beállítások mentésre kerültek. A hely nem változott."
+          "jsOtherSettingsSaved": "Egyéb mentett beállítások. A hely nem változott."
         },
         "qna": {
           "title": "Kérdés-válasz",
@@ -241,13 +242,11 @@
         },
         "qnaDetail": {
           "title": "Válaszok: {ques}",
-          "jsSubmitSuccess": "A kérdést sikeresen benyújtottuk. Frissítünk, amint választ kapunk rá."
+          "jsSubmitSuccess": "Kérdését sikeresen elküldtük. Amint választ kapunk rá, tájékoztatni fogjuk."
         },
         "tasbeehCounter": {
           "title": "Tasbeeh számláló"
         },
-        "khumsLabel": "Khums kalkulátor",
-        "khumsDesc": "Számítsa ki a khumjait, vagy adjon hozzá korábban fizetett khumokat. Segít a khumok nyilvántartásában az évek során.",
         "khums": {
           "list": {
             "blog": {
@@ -368,40 +367,40 @@
       "user": {
         "name": "Felhasználó | Fiók",
         "editProfile": "Profil szerkesztése",
-        "publishToFeed": "A módosításaim közzététele a hírcsatornában",
-        "shareUpdateToFeed": "A frissítés megosztása a hírcsatornámban is",
-        "statusText_ph": "Használjon _dőlt_ vagy *félkövér* formázást az állapotod díszítésére",
-        "statusCharsLeft": "{count} karakterek maradtak",
-        "jsImgUploadSuccess": "A képek feltöltése sikeresen megtörtént!",
+        "publishToFeed": "A hírcsatorna módosításainak közzététele",
+        "shareUpdateToFeed": "Ossza meg ezt a frissítést a hírcsatornámban is",
+        "statusText_ph": "Használjon _dőlt_ vagy *félkövér* formázást az állapot díszítéséhez",
+        "statusCharsLeft": "{count} karakter maradt",
+        "jsImgUploadSuccess": "A képek feltöltése sikeres!",
         "unauthAccess": {
-          "heading": "Biztos vagy benne, hogy jó helyen jársz?",
-          "desc": "<p>Úgy tűnik, hogy egy olyan oldalt próbált elérni, amelyhez nem volt engedélye. Ha egy korábban elért oldalhoz próbáltál hozzáférni, próbálj meg bejelentkezni; ennek meg kell oldania a problémát.</p> <p>Kérjük, forduljon hozzánk bizalommal, ha a probléma továbbra is fennáll.</p>"
+          "heading": "Biztos benne, hogy jó helyen jár?",
+          "desc": "<p>Úgy tűnik, hogy olyan oldalhoz próbált hozzáférni, amelyhez nem volt engedélye. Ha olyan oldalt próbált elérni, amelyet korábban már megkeresett, próbáljon meg bejelentkezni; Ennek meg kell oldania a problémát.</p><p>Kérjük, forduljon hozzánk bizalommal, ha a probléma továbbra is fennáll.</p>"
         },
         "guest": {
-          "welcome": "Üdvözöljük, <strong>Vendég!</strong>",
-          "heading": "Miért érdemes bejelentkezni vagy regisztrálni?",
-          "desc": "Az alkalmazásunkon található fiókkal számos funkciót használhat. Kezdje el létrehozni egy fiókot, ha még nincs fiókja. Vagy csak jelentkezzen be!",
-          "unlockHeading": "nyissa fel a következőt egy fiókkal:",
+          "welcome": "<strong>Üdvözöljük, Vendég!</strong>",
+          "heading": "Miért jelentkezzen be vagy regisztráljon?",
+          "desc": "Alkalmazásunk fiókjával számos funkciót használhat. Első lépésként hozzon létre egy fiókot, ha még nincs fiókja. Vagy csak jelentkezzen be!",
+          "unlockHeading": "A következők feloldása fiókkal:",
           "features": {
             "engage": {
-              "heading": "Kapcsolatfelvétel az alkalmazásban",
-              "desc": "Lépjen kapcsolatba más felhasználókkal, reagáljon bejegyzéseikre vagy kéréseikre, kommentálja véleményét, vegye fel a könyvjelzők közé a tételeket és még sok minden mást!"
+              "heading": "Vegyen részt az alkalmazásban",
+              "desc": "Lépjen kapcsolatba más felhasználókkal, reagáljon bejegyzéseikre vagy kéréseikre, kommentálja véleményét, könyvjelzővel lássa el tételeit és még sok minden mást!"
             },
             "fatiha": {
-              "heading": "Fatiha kérés után",
-              "desc": "Küldj kérést Surah-e-Fatiha-ra eltávozott szeretteid lelkéért, és áldd meg lelküket minden felhasználónk imáival!"
+              "heading": "Post Fatiha kérés",
+              "desc": "Küldje el a Surah-e-Fatiha iránti kérelmet elhunyt szerettei lelkéért, és áldja meg lelküket minden felhasználónk imájával!"
             },
             "askQues": {
               "heading": "Kérdéseket",
-              "desc": "Tegyen fel kérdéseket Deentől & Duniya különböző témákról, amelyekre kiválósága, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani válaszolhat!"
+              "desc": "Tegyen fel kérdéseket Deen & Duniya-tól különböző témákban, amelyekre őeminenciája, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani válaszol!"
             },
             "content": {
-              "heading": "előnyben részesített tartalom",
-              "desc": "Mindig a kívánt tartalmakat és beállításokat láthatja, amikor be van jelentkezve a fiókjába. Ezenkívül értesítést kapjon minden érdekes dologról!"
+              "heading": "Előnyben részesített tartalom",
+              "desc": "Mindig láthatod a kívánt tartalmakat és beállításokat, amikor be vagy jelentkezve a fiókodba. Ezenkívül értesítést kap minden érdekes dologról!"
             },
             "personalized": {
-              "heading": "személyre szabott megosztás",
-              "desc": "Állítsa be a tartalom megosztását személyre szabottan az aláírásával, hogy barátai tudják, mikor oszt meg egy üzenetet/bejegyzést."
+              "heading": "Személyre szabott megosztás",
+              "desc": "Állítsd be az aláírásoddal személyre szabott tartalom megosztását, hogy az ismerőseid tudják, mikor osztasz meg egy üzenetet/bejegyzést."
             }
           }
         },
@@ -415,25 +414,25 @@
           "addGender": "Nem hozzáadása",
           "addBday": "Születésnap hozzáadása",
           "addRelation": "Kapcsolat hozzáadása",
-          "joinDate": "Csatlakozott: {date}",
           "privateInfoDesc": "Ezek az információk csak Ön számára láthatók, és ennek alapján látja a tartalmat és a funkciókat.",
           "idSetupCta": "Az identitás beállítása",
-          "idVerifyCta": "Igazol"
+          "idVerifyCta": "Igazol",
+          "joinDate": "Csatlakozott: {date}"
         },
         "posts": {
           "title": "Hozzászólás",
-          "userNoPosts": "Amikor megváltoztatod a képedet/borítóképedet, vagy amikor surah-fatiha-t kérsz elhunyt szeretteidnek, ezek a bejegyzések itt és a <b>Kezdőlap</b> lapon jelennek meg (mások esetében is). Próbáljon meg képet vagy borítóképet hozzáadni?",
-          "profileNoPosts": "{name} még nem tett közzé bejegyzést."
+          "userNoPosts": "Amikor megváltoztatod a képedet/borítóképedet, vagy szúra-fatihát kérsz elhunyt szeretteidnek, ezek a bejegyzések megjelennek itt és a <b>Kezdőlap</b> lapon (másoknál is). Megpróbálsz képet vagy borítóképet hozzáadni?",
+          "profileNoPosts": "{name} még nem tett közzé bejegyzéseket."
         },
         "marhumeen": {
-          "title": "Marhumeen ·",
+          "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} még nem marhumeen-t adott hozzá -- Még nem adtál hozzá marhumeen-t",
-            "marhumeenAdded": "{name} hozzáadva a marhumeen után -- Hozzáadtad a következő marhumeen-t"
+            "marhumeenNotAdded": "{name} még nem adott hozzá marhumeent | Még nem adta hozzá a marhumeent",
+            "marhumeenAdded": "{name} hozzáadta a következő marhumeen | Ön hozzáadta a következő marhumeen"
           },
           "jsDeleteHeader": "Biztos vagy benne?",
-          "jsDeletePrompt": "A <b>{fullName}</b> rekordjainak törlése a {gender} összes korábbi kérését is törli! Folytatódik?",
-          "jsDeleted": "{marhumeen} törölt rekordjai"
+          "jsDeletePrompt": "A <b>{fullName}</b> rekordjainak törlése törli az összes korábbi {gender}kérését is. Folytatódik?",
+          "jsDeleted": "A {marhumeen} törölt rekordjai"
         },
         "verifyCard": {
           "title": "Ellenőrizze síita identitását | Ellenőrizze Szadat identitását",
@@ -459,8 +458,8 @@
     },
     "sidemenu": {
       "left": {
-        "accountLogin": "Jelentkezz be a fiókodba",
-        "createAccount": "Fiók létrehozása"
+        "accountLogin": "Jelentkezzen be fiókjába",
+        "createAccount": "Hozzon létre egy fiókot"
       }
     },
     "comps": {
@@ -472,131 +471,130 @@
       "timesBanner": {
         "errors": {
           "locUnavailable": "A hely nem érhető el. Kérjük, állítsa be az ikonra kattintva a Salat-idők gyors megtekintéséhez.",
-          "unknownError": "Hiba történt. Ebben a pillanatban nem tudta betölteni az időket."
+          "unknownError": "Hiba történt. Ebben a pillanatban nem sikerült betölteni az időket."
         }
       },
       "langPrompt": {
-        "title": "Használja az alkalmazást a {langLabel} sablonban?",
+        "title": "Használja az alkalmazást {langLabel}?",
         "desc": {
-          "p1": "Úgy tűnik, hogy az alkalmazást a {countryName} oldalról éri el. Szeretné, ha a régióban az alábbi nyelvek egyikén beszélnének tartalmakat és vezérlőket? Kattintson a választásra, majd kattintson a \"Mentés\" gombra a folytatáshoz.",
-          "p2": "Vagy utasítsa el ezt az előugró ablakot, hogy továbbra is az alapértelmezett nyelven használja az alkalmazást."
+          "p1": "Úgy tűnik, hogy az alkalmazást a {countryName}. Szeretné látni a tartalmakat és a vezérlőket a régióban beszélt alábbi nyelvek egyikén? Kattintson a választásra, majd kattintson a \"Mentés\" gombra a folytatáshoz.",
+          "p2": "Vagy zárja be ezt az előugró ablakot, ha továbbra is az alapértelmezett nyelven szeretné használni az alkalmazást."
         },
         "choices": {
           "useLang": [
-            "Igen, használja a következőt: {langName}",
-            "{langName} használata"
+            "Igen, használja {langName}",
+            "Használja {langName}"
           ],
-          "useEngling": "Folytatás angolul",
           "useEnglish": "Folytatás angolul",
           "selectFrom": "Vagy válasszon az alábbi alternatív nyelvek közül:"
         },
-        "langError": "Hiba történt a {langName} fordításainak betöltésekor. Kérjük, próbálja újra később."
+        "langError": "Hiba történt a {langName}fordításainak betöltésekor. Kérjük, próbálja újra később."
       },
       "createPost": {
         "heading": "Miről szól ma?",
-        "desc": "Kattintson ide egy frissítés megosztásához vagy egy opció használatához alulról",
+        "desc": "Kattintson ide egy frissítés megosztásához, vagy használja az alábbi lehetőséget",
         "request": "Kérés",
         "askQues": "Kérdés feltevése",
         "sheetOptions": {
           "header": "Kérés benyújtása",
-          "subheader": "Kérj egy kérést a muszminentől a marhumeenednek vagy magadnak.",
-          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat a Zari-e-Imam Husain (a.s.) címen az Ön nevében"
+          "subheader": "Kérje momineen a marhumeenjét vagy önmagát.",
+          "requestFatiha": "Szúra-fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Two-e-egészséges*",
+          "requestZiyarat": "Ziyarat at Zari-e-Imam Husain (a.s.) az Ön nevében"
         },
         "modal": {
           "titles": {
             "post": "Bejegyzés létrehozása | Bejegyzés frissítése",
             "livestream": "Élő közvetítés",
-            "hadiyah": "Hozd létre Hadiyah-t -- Frissítsd Hadiyah-t"
+            "hadiyah": "Hadiyah létrehozása | Hadiyah frissítése"
           },
-          "postCta": "Hozzászólás | Frissítés",
+          "postCta": "Közzététel | Frissítés",
           "stream": {
-            "scheduleCta": "Mentés későbbre –— Indítsa el a streamelést"
+            "scheduleCta": "Mentés későbbre | Indítsa el a streamelést"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Kinek akarod ezt ajándékozni?",
-              "addPeopleToggle": "Legyenek mások is részesei ennek a fűrésznek!",
-              "searchInput": "Hívja meg a momimeen-t a Bazmtól vagy a Névjegyzékétől",
-              "minUsersHeader": "Szeretné beállítani a résztvevők minimális számát, amelyet ki kell választaniuk?",
+              "placeholder": "Kinek szeretnéd ezt megajándékozni?",
+              "addPeopleToggle": "Hadd legyenek mások is részesei ennek a sawabnak!",
+              "searchInput": "Hívja meg a momimeent a Bazm-ból vagy a névjegyzékéből",
+              "minUsersHeader": "Szeretné beállítani a minimális számot, amelyet a résztvevőknek ki kell választaniuk?",
               "minUsersInput": "Adja meg a minimális számot"
             }
           },
           "postTime": [
-            "Mikor van ez?",
+            "Mikor van?",
             "Mikor szeretnéd elkezdeni a streamelést?"
           ],
-          "whereIsIt": "Hol van ez?",
+          "whereIsIt": "Hol van?",
           "findLocation": "Hely keresése",
-          "locationSubtext": "Hely hozzáadása a bejegyzéshez",
+          "locationSubtext": "Hely megadása a bejegyzésedhez",
           "addLocation": "Hely hozzáadása",
-          "addPics": "Képek hozzáadása a bejegyzésedhez",
-          "previewDes": "Így jelenik meg a bejegyzésed mások hírcsatornájában. Az emberek a videóra koppintva teljes képernyőn láthatják.",
-          "addToPost": "Hozzáadás a {postType} sablonhoz (nem kötelező)",
+          "addPics": "Képek hozzáadása a bejegyzéshez",
+          "previewDes": "Így jelenne meg a bejegyzésed mások hírfolyamában. Az emberek rákoppinthatnak a videóra, hogy teljes képernyőn láthassák.",
+          "addToPost": "Hozzáadás {postType} (opcionális)",
           "jsImgUploadFail": "A kép nem lett feltöltve",
-          "jsAddDetailToPost": "Kérjük, adjon hozzá részleteket a bejegyzéséhez",
+          "jsAddDetailToPost": "Kérjük, adja meg a részleteket a bejegyzéshez",
           "jsValidEndDate": "Kérjük, válasszon érvényes befejezési dátumot",
           "jsSetLocation": "Kérjük, állítsa be a bejegyzés helyét",
           "jsRemLocation": "Kérjük, állítson be egy helyet, vagy távolítsa el azt a részt",
           "jsAddImg": "Kérjük, adjon hozzá képeket, vagy távolítsa el azt a részt",
           "jsInvalidDate": [
-            "Kérjük, állítson be egy érvényes kezdési dátumot ",
-            "Kérjük, állítson be egy érvényes kezdési dátumot, vagy távolítsa el azt a szakaszt"
+            "Kérjük, adjon meg egy érvényes kezdési dátumot ",
+            "Kérjük, állítson be érvényes kezdési dátumot, vagy távolítsa el azt a szakaszt"
           ]
         }
       },
       "comments": {
         "name": "Megjegyzések",
         "loadPrevious": "Korábbi megjegyzések betöltése | Korábbi válaszok betöltése",
-        "replyingTo": "Válasz:",
+        "replyingTo": "Válasz erre:",
         "noComments": "Még nincs hozzászólás ehhez a bejegyzéshez",
-        "textboxPlaceholder": "Írja meg észrevételeit itt",
+        "textboxPlaceholder": "Írja meg megjegyzését itt",
         "requestToLogin": "Bejelentkezés vagy regisztráció a beszélgetés megkezdéséhez"
       },
       "post": {
         "addressYou": "Te",
-        "addressing": "a tiéd -- az övé -- ő",
+        "addressing": "te | az övé | ő",
         "itemTypes": {
           "avatar": "avatar kép",
-          "banner": "banner kép",
-          "status": "profil állapota"
+          "banner": "szalaghirdetés képe",
+          "status": "Profil állapota"
         },
         "displayPhrase": {
-          "common": "<strong>{felhasználónév}</strong> frissítve {címzés} {item}",
+          "common": "<strong>{username}</strong> frissített {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> kért surah-fatiha for {addressing} {relation}",
-            "<strong>{felhasználónév}</strong> kért surah-fatiha &namaz-e-wahshat for {addressing} {relation}"
+            "<strong>{username}</strong> szúra-fatihát kérte {addressing} {relation}",
+            "<strong>{username}</strong> Surah-fatiha & namaz-e-wahshat {addressing} {relation}"
           ]
         },
-        "dateUntil": "Amíg: {date} at {time} ({date} nem)",
+        "dateUntil": "Amíg: {date} at {time}",
         "privatePost": "Ez a bejegyzés csak az Ön számára látható",
-        "descZiyaratRequest": "Ön kérte, hogy Ziyaratot az Ön nevében végezzék el Husain imám (a.s.) *haram* -jában * {{dátum}*"
+        "descZiyaratRequest": "Ön kérte, hogy Ziyaratot az Ön nevében Husain imám *haram*-ján *{date}* -án végezzék el"
       },
       "addEditRel": {
         "title": {
-          "request": "Kérjen Surah-al-fatiha-t",
+          "request": "Kérés Surah-al-fatiha",
           "addUpdate": [
-            "Frissítsd a szerettedet",
-            "Szeretted hozzáadása"
+            "Frissítse szeretteit",
+            "Szerette hozzáadása"
           ]
         },
         "heading": [
-          "Adjon hozzá egy szeretett személyt, aki továbbadta",
-          "Válasszon ki egy szeretett személyt a listából, vagy adjon hozzá egy szeretett személyt, aki továbbadta"
+          "Adj hozzá egy szeretett személyt, aki elhunyt",
+          "Válasszon ki egy szeretett személyt a listából, vagy adjon hozzá egy elhunyt szerettet"
         ],
         "addNew": "Új hozzáadása",
         "subheader": [
-          "Adjon hozzá részleteket szeretteiről",
-          "Üzenetet is belefoglalhat a kérésébe"
+          "Adja meg szerette adatait",
+          "A kérésben üzenetet is megadhat"
         ],
         "form": {
-          "jsAddImg": "Kép hozzáadása szeretteinek",
+          "jsAddImg": "Kép hozzáadása kedvesének",
           "jsRemoveImg": "Kép eltávolítása",
           "fullName": "Az elhunyt teljes neve",
           "name_ph": "Pl. Syed Zeeshan Haider Abidi",
-          "fathersName": "Apa neve (ha van)",
-          "father_ph": "Pl.: Syed Tauqeer Husain",
+          "fathersName": "Apja neve (ha rendelkezésre áll)",
+          "father_ph": "Pl. Syed Tauqeer Husain",
           "nameError": "Kérjük, adja meg a teljes nevet a speciális karakterekkel együtt",
           "genderLabel": "Nem",
           "genderValue": [
@@ -604,105 +602,102 @@
             "Férfi"
           ],
           "relation": [
-            "A marhooma a te",
-            "A Marhoom a tiéd"
+            "Marhooma a tiéd",
+            "Marhoom a tiéd"
           ],
-          "selectRelation": "Reláció kiválasztása",
-          "demiseLabel": "Ma elpusztult? Ajánlat Namaz-e-Wahshat",
-          "demiseText": "Nagyon sajnálattal hallunk a veszteségedről. Allah adjon neked és családodnak erőt ahhoz, hogy türelemmel viseld el ezt a veszteséget, és Allah jutalmazza meg a meggyengült lelket Jannah legmagasabb helyeivel. Ennek a lehetőségnek a választása lehetővé teszi, hogy Momineentől kérje Namaz-e-Wahshat-ot a lehullott lélek számára.",
+          "selectRelation": "Kapcsolat kiválasztása",
+          "demiseLabel": "Ma elpusztult? Namaz-e-Wahshat kérése",
+          "demiseText": "Nagyon sajnáljuk, hogy hallottunk a veszteségéről. Allah adjon erőt neked és családodnak, hogy türelemmel viseljétek ezt a veszteséget, és Allah jutalmazza meg az elhunyt lelket a legmagasabb helyekkel Jannában. Ennek az opciónak a választása lehetővé teszi, hogy momineentől kérj Namaz-e-Wahshat-ot az elpusztult lélek számára.",
           "optional": "Szabadon választható",
           "dod": "Elhunyt",
-          "dob": "Született"
+          "dob": "Született:"
         },
         "relation": [
-          "Leánya",
+          "Lánya",
           "Fia"
         ],
         "born": "Született:",
         "died": "Meghalt:",
-        "addMsg": "Szeretne üzenetet hozzáadni?",
-        "remainingChars": "Karakterek: {count} | Karakterek: {count} megmaradt",
-        "infoEditRelative": "A {name} részleteit a <b>Fiók > Marhumeen</b> szakaszban szerkesztheti",
+        "addMsg": "Üzenetet szeretne hozzáadni?",
+        "addMsg_ph": "Például:\nInna lillahi wa inna ilaihe raje'un. Kérlek, mondj el egy szúrah-e-fatihát és 2-rak'at namaz-e-wahshat-ot nagybátyámnak, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoomnak, aki mindannyiunkat sírva hagyott hátra, hogy találkozzon teremtőjével.",
+        "remainingChars": "Karakterek: {count} | Karakterek: {count} maradt",
+        "infoEditRelative": "A {name} adatait a <b>Fiók > a Marhumeen szakaszban szerkesztheti</b>",
         "saveRequestCta": [
-          "Mentés &kérés",
+          "Mentés és kérés",
           "Kérés"
         ],
         "addUpdate": "Hozzáadás | Frissítés",
         "jsRequesting": "Kérelmező..",
         "jsAddSuccess": [
           "Sikeresen hozzáadta kedvesét!",
-          "Frissítsd szerettedet sikeresen!"
+          "Frissítse kedvesét sikeresen!"
         ],
-        "jsAddFail": "Nem sikerült hozzáadnia kedvesét. Kérjük, próbálja újra később.",
-        "jsReqSuccess": "A kérelmet sikeresen benyújtották.",
-        "jsGettingMarhumeen": "A marhumeen megszerzése.."
+        "jsAddFail": "Nem sikerült hozzáadni kedvesét. Kérjük, próbálja újra később.",
+        "jsReqSuccess": "A kérelem sikeresen benyújtva.",
+        "jsGettingMarhumeen": "A marhumeen megszerzése .."
       },
       "askQues": {
-        "title": "Tegyen fel kérdést",
+        "title": "Kérdés feltevése",
         "form": {
-          "quesLabel": "A kérdésed",
-          "quesLabel_ph": "Keressen rá egy kérdésre, vagy tegye fel a sajátját",
-          "similarQues": "Lehet, hogy ezekre a kérdésekre már megvan a keresett válasz.",
-          "quesTextHeader": "A kérdésed:",
+          "quesLabel": "Az Ön kérdése",
+          "quesLabel_ph": "Keressen rá egy kérdésre, vagy tegye fel sajátját",
+          "similarQues": "Lehet, hogy ezekre a kérdésekre már megvan a válasz, amit keres.",
+          "quesTextHeader": "Az Ön kérdése:",
           "selectCat": "Kérdéskategória beállítása:",
-          "askAnonLabel": "Névtelenül kérdezel?",
-          "askAnonInfo": "Az Ön nevét nem küldjük el a Tudósnak, amikor választ kér az Ön nevében, és nem jelenik meg az alkalmazásunkban ezzel a kérdéssel. De előfordulhat, hogy a névtelen kérdésekre nem lehet gyorsan válaszolni.",
-          "askViaLabel": "Kérdezzen via",
-          "askSistaniInfo": "Feltehet egy kérdést, amelyre az eminenciája, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani irodája válaszol. A kérdést továbbítjuk a weboldalukra (az Ön profiladataival együtt). Győződjön meg arról, hogy megfelelően elolvasta az <b>Általános Szerződési Feltételeket</b>.",
-          "tncLabel": "Felhasználási feltételek:",
-          "showHide": [
-            "Mutat",
-            "Elrejt"
-          ],
-          "sistaniOrgTncInfo": "Fontolja meg, hogy a kérdés feltevése előtt kövesse a webhelyük pontjait, mert ha nem tartja be az alábbi pontokat, előfordulhat, hogy nem hall vissza tőlük, vagy nem kap választ.",
+          "askAnonLabel": "Kérdezzen névtelenül?",
+          "askAnonInfo": "Az Ön nevét nem küldjük el a Tudósnak, amikor választ kér az Ön nevében, és az alkalmazásunkban sem jelenik meg ezzel a kérdéssel. A névtelen kérdésekre azonban nem lehet gyorsan válaszolni.",
+          "askViaLabel": "Kérdezzen Via",
+          "askSistaniInfo": "Feltehet egy kérdést, amelyet őeminenciája, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani hivatala válaszol meg. A kérdést továbbítjuk a weboldalukra (az Ön profiladataival együtt). Győződjön meg róla, hogy megfelelően elolvasta az <b>Általános Szerződési Feltételeket</b> .",
+          "tncLabel": "Általános Szerződési Feltételek:",
+          "sistaniOrgTncInfo": "Mielőtt kérdést tenne fel, fontolja meg a weboldaluk pontjainak követését, mert ha nem tartja be az alábbi pontokat, előfordulhat, hogy nem hall tőlük, vagy nem kap választ.",
           "userInfo": {
             "aboutLabel": "Rólad",
             "genderLabel": "Az Ön neme",
-            "bdayLabel": "A születésnapod",
-            "bdayDesc": "Csak akkor tehetsz fel kérdést, ha elmúltál 09 éves. Ha továbbra is érdekli, kérjük, vegye fel velünk a kapcsolatot."
+            "bdayLabel": "Az Ön születésnapja",
+            "bdayDesc": "Csak akkor tehet fel kérdést, ha elmúlt 09 éves."
           },
           "jsQuesAdded": "A kérdés sikeresen hozzáadva."
         },
-        "askQuesCta": "Tedd fel a kérdésedet"
+        "askQuesCta": "Tegye fel kérdését"
       },
       "authPrompt": {
         "title": "Fiók szükséges",
-        "defLabel": "Bejelentkezés vagy Regisztráció a folytatáshoz",
+        "defLabel": "Bejelentkezés vagy regisztráció a folytatáshoz",
         "infoText": "Ehhez a funkcióhoz be kell jelentkeznie vagy regisztrálnia kell, mielőtt használhatná. Kattintson a <b>Bejelentkezés</b> gombra, ha már regisztrált, vagy kattintson a <b>Regisztráció</b> gombra a fiók létrehozásához."
       },
       "location": {
         "title": "Hely módosítása",
-        "search_ph": "Keresés a tartózkodási helyeden",
-        "autoDetectInfo": "Adja meg tartózkodási helyét, vagy kattintson az automatikus észlelés ikonra a tartózkodási helyének megállapításához.",
+        "search_ph": "Keresés a tartózkodási helyén",
+        "autoDetectInfo": "Adja meg tartózkodási helyét, vagy kattintson az automatikus észlelés ikonra a tartózkodási hely lekéréséhez.",
         "setLocation": "Hely beállítása",
         "ipAddress": "IP-cím",
         "alarmLocation": "Riasztás helye",
-        "basedOn": "Hely a {selector} alapján",
+        "basedOn": "Tartózkodási hely a {selector} alapján",
         "jsDetecting": "Észlelés, kérjük, várjon..",
-        "jsPermDenied": "Az alkalmazás helyengedélye megtagadva. Kérjük, állítsa vissza az alkalmazás helybeállításait a telefon Beállítások részének meglátogatásával.",
+        "jsPermDenied": "A helymeghatározási engedély megtagadva az alkalmazás számára. Kérjük, állítsa vissza az alkalmazás helybeállításait a telefon Beállítások részében.",
         "jsPosUnavailable": "Sajnáljuk, de a pozíció jelenleg nem érhető el ehhez a telefonhoz. Kérjük, próbálja újra később.",
-        "jsMatchNotFound": "Nem találtam megfelelő helyet..",
+        "jsMatchNotFound": "Nem található megfelelő hely..",
         "jsEnterValidLoc": "Kérjük, adjon meg egy érvényes helyet",
         "jsGeoUnavailable": "Sajnáljuk, de a pozíció jelenleg nem érhető el ehhez a telefonhoz. Kérjük, próbálja újra később.",
-        "jsLocMissing": "Nem találtam a tartózkodási helyét. Kérjük, adja meg manuálisan a helyet.",
+        "jsLocMissing": "Nem található a tartózkodási helye. Kérjük, adja meg manuálisan a helyet.",
         "jsSelectedLoc": "Hiba történt ezzel a hellyel. Kérjük, próbálja újra"
       },
       "readText": {
         "ctaLabel": "Olvas",
-        "title": "Dua: {cím}",
+        "title": "Kettő: {title}",
         "arabicCta": "Arab",
         "englishCta": "Angol",
         "translatedCta": "Lefordított"
       },
       "reqAccess": {
-        "heading": "hozzáférés szükséges",
-        "subheading": "A kamera eléréséhez engedélyre van szükségünk",
+        "heading": "Hozzáférés szükséges",
+        "subheading": "Engedélyre van szükségünk a kamerához való hozzáféréshez",
         "subtext": "Kérjük, engedélyezze a hozzáférést az alábbi gombra kattintva:",
-        "ctaLabel": "hozzáférés engedélyezése"
+        "ctaLabel": "Hozzáférés engedélyezése"
       },
       "shareBtn": {
-        "subtext": "Kattintson az alábbi lehetőségek egyikére, hogy megossza ezt az adott alkalmazásban:",
-        "jsCopyToCB": "A vágólapra másolva",
+        "subtext": "Kattintson az alábbi lehetőségek egyikére, hogy megossza ezt a megfelelő alkalmazásban:",
+        "jsCopyToCB": "Kimásolva a vágólapra",
         "copyText": "Kattintson a fenti <b>Másolás</b> ikonra az alábbi tartalom másolásához:"
       },
       "verifyMob": {
@@ -711,36 +706,36 @@
           "Írja be a kódot"
         ],
         "page1": {
-          "infoText1": "Szükségünk van a mobilszámára a személyazonosságának igazolásához. Előfordulhat, hogy alkalmanként frissítéseket is kap.",
+          "infoText1": "Szükségünk van a mobilszámára a személyazonosságának ellenőrzéséhez. Alkalmanként frissítéseket is kaphat.",
           "infoText2": [
-            "Írja be a számát, és kattintson a gombra a megerősítő kód megszerzéséhez:",
-            "Írja be a számát, és kattintson egy gombra a megerősítő kód megszerzéséhez:"
+            "Adja meg telefonszámát, és kattintson a gombra a megerősítő kód megszerzéséhez:",
+            "Add meg a telefonszámodat, és kattints egy gombra a megerősítő kód megszerzéséhez:"
           ]
         },
         "form": {
-          "mobileLabel": "Mobilszám",
+          "mobileLabel": "Mobiltelefonszám",
           "mobileLabel_ph": "Add meg a mobilszámodat",
-          "otpViaSMS": "Jusson SMS-ben",
-          "viaWhatsApp": "Menj át a WhatsApp-on keresztül",
-          "viaTelegram": "Get via Telegram",
-          "viaSignal": "Jusson át a Signalon keresztül"
+          "otpViaSMS": "Beolvasás SMS-ben",
+          "viaWhatsApp": "Szerezd meg WhatsApp-on keresztül",
+          "viaTelegram": "Szerezd meg a táviraton keresztül",
+          "viaSignal": "Szálljon át a Signalon keresztül"
         },
         "page2": {
-          "header": "Küldtünk egy 6 jegyű megerősítő kódot a számodra ({szám})",
+          "header": "Küldtünk egy 6 számjegyű megerősítő kódot a számára ({number})",
           "enterCodeLabel": "Kód megadása",
-          "enterCode_ph": "Írja be a 6 számjegyű kódot",
+          "enterCode_ph": "Adja meg a 6 számjegyű kódot",
           "resendCode": "Kód újraküldése",
-          "notUsingMobile": "Nem használja <strong>a (z) {number} sablont?</strong>",
+          "notUsingMobile": "Nem használja <strong>{number}?</strong>",
           "changeNumber": "Szám módosítása"
         },
-        "jsVerifySuccess": "A mobil ellenőrzése sikeresen megtörtént",
+        "jsVerifySuccess": "Mobil ellenőrzés sikeresen",
         "jsVerifyError": "Hiba történt. Kérjük, próbálja újra később.",
-        "jsSendOtpFailed": "Nem sikerült elküldeni az OTP-t. Kérjük, próbálja újra később.",
-        "jsSendOtpSuccess": "{mobil} OTP-nek küldve",
-        "jsTooManyRequests": "Úgy tűnik, már túl sokszor próbálkoztál. Kérjük, várjon egy-két percet, és próbálkozzon újra."
+        "jsSendOtpFailed": "Nem sikerült elküldeni az egyszeri jelszót. Kérjük, próbálja újra később.",
+        "jsSendOtpSuccess": "Az egyszeri jelszó elküldve a {mobile}",
+        "jsTooManyRequests": "Úgy tűnik, már túl sokszor próbáltad. Várjon egy-két percet, majd próbálkozzon újra."
       },
       "userSettings": {
-        "personalSharingMsg": "Megosztási üzenet személyre szabása",
+        "personalSharingMsg": "A megosztási üzenet személyre szabása",
         "changePwd": "Jelszó módosítása | Jelszó beállítása",
         "changeLang": "Nyelv módosítása",
         "publishToFeed": "Tegye közzé a módosításaimat a hírcsatornában is."
@@ -752,14 +747,15 @@
           "setLang": "@:comps.userSettings.changeLang"
         },
         "sign": {
-          "addNameToMsgs": "A nevem hozzáadása az üzenetekhez",
-          "sharingDesc": "Külső megosztáskor az üzenetek az alábbiakhoz hasonlóan nézhetnek ki:",
+          "addNameToMsgs": "Saját név hozzáadása üzenetekhez",
+          "sharingDesc": "Külső megosztás esetén az üzenetek az alábbihoz hasonlóan nézhetnek ki:",
           "sharingTextDemo": [
-            "Hallgassa meg ezt a Nauhát a Bazm App alkalmazásban",
-            "{name} azt javasolja, hogy hallgassa meg ezt a Nauha-t a Bazm App-on"
+            "Hallgassa meg ezt a Nauhát a Bazm alkalmazásban",
+            "{name} javasolja, hogy hallgassa meg ezt a Nauhát a Bazm alkalmazásban"
           ],
-          "addSignDesc": "Szeretné hozzáadni az aláírását is?",
-          "signDesc": "Amikor megosztja kívánságát barátaival ebben az alkalmazásban, aláírását hozzáadjuk az üzenetekhez. Előfordulhat például, hogy az alábbiak szerint jelenik meg:"
+          "addSignDesc": "Szeretné Ön is aláírni?",
+          "addSignPlaceholder": "Például\nMinden jót kívánva,\n{name}",
+          "signDesc": "Amikor megosztja kívánságát barátaival ezen az alkalmazáson, aláírása hozzáadódik az üzenetekhez. Például az alábbiak szerint jelenhet meg:"
         },
         "changePwd": {
           "currentPwdLabel": "Adja meg meglévő jelszavát:",
@@ -769,30 +765,30 @@
         },
         "changeLang": {
           "searchYourLang": "Keresés a nyelvben",
-          "desc": "Válassza ki azt a nyelvet, amelyen meg szeretné tekinteni az alkalmazás tartalmát. Kattintson egy nyelvre, és várjon (a fordítás betöltése eltart egy ideig), hogy lássa, hogyan jelenik meg ez a kifejezés a kiválasztott nyelven."
+          "desc": "Válassza ki azt a nyelvet, amelyen meg szeretné tekinteni az alkalmazás tartalmát. Kattintson egy nyelvre, és várja meg (eltart egy ideig a fordítás betöltése), hogy megnézze, hogyan jelenik meg ez a kifejezés a kiválasztott nyelven."
         },
         "jsPwdInvalid": "A jelszó érvénytelen karaktereket tartalmaz.",
-        "jsPwdCharCount": "A jelszó nem lehet kevesebb 8 karakternél.",
-        "jsSelectLang": "Kérjük, először válasszon ki egy nyelvet.",
-        "jsLangSet": "A nyelv {lang} értékre lett állítva",
-        "jsPrefSaved": "A személyre szabási beállítások mentésre kerülnek."
+        "jsPwdCharCount": "A jelszó nem lehet 8 karakternél rövidebb.",
+        "jsSelectLang": "Kérjük, először válasszon nyelvet.",
+        "jsLangSet": "A nyelv beállítása {lang}",
+        "jsPrefSaved": "Személyre szabási beállítások mentve."
       },
       "forgotPwd": {
-        "title": "Elfelejtette a jelszavát?",
-        "introText": "A jelszó visszaállítása egyszerű. Válasszon ki egy módszert a folytatáshoz:",
+        "title": "Elfelejtett jelszó?",
+        "introText": "A jelszó visszaállítása egyszerű. A folytatáshoz válasszon ki egy módszert:",
         "usePhoneCta": "Telefon használata",
         "useEmailCta": "E-mail használata",
-        "sendEmailIntro": "Add meg azt az e-mail-címet, amellyel létrehoztad a fiókodat, és küldünk egy linket tartalmazó e-mailt, amellyel új jelszót állíthatsz be a fiókodhoz.",
+        "sendEmailIntro": "Add meg azt az e-mail-címet, amellyel létrehoztad a fiókodat, és küldünk egy e-mailt a fiókodhoz tartozó új jelszó beállításához szükséges hivatkozással.",
         "emailInputLabel": "Az Ön regisztrált e-mail címe",
-        "sendEmailCta": "E-mail-cím visszaállítása",
-        "sentEmailText": "Ha van fiókja nálunk, hamarosan kap egy jelszó-visszaállítási e-mailt a <strong>{email} címen</strong>. Kérjük, ellenőrizze az e-mailben a linket.",
-        "notUsingEmailText": "Nem használja a <strong>(z) {email} sablont?</strong>",
+        "sendEmailCta": "Visszaállítási e-mail küldése",
+        "sentEmailText": "Ha van fiókja nálunk, hamarosan kap egy jelszó-visszaállítási e-mailt <strong> a{email}</strong>. Kérjük, ellenőrizze e-mailjeit a linkért.",
+        "notUsingEmailText": "Nem használja <strong>{email}?</strong>",
         "changeEmailCta": "E-mail módosítása",
-        "phoneIntroText": "Adja meg a fiókjához hozzáadott telefonszámot. Küldünk egy egyszeri jelszót, hogy igazolja tulajdonjogát, és a következő lépésben létrehozhat egy új jelszót.",
+        "phoneIntroText": "Adja meg a fiókjához hozzáadott telefonszámot. Küldünk egy egyszeri jelszót a tulajdonjog igazolására, és a következő lépésben új jelszót hozhat létre.",
         "phoneInputLabel": "Az Ön mobilszáma",
         "sendOtpCta": "OTP küldése",
         "backToLoginCta": "Vissza a bejelentkezéshez",
-        "disclaimerText": "Felhívjuk figyelmét, hogy {item} csak akkor kap egy {item} sablont, ha az {item} regisztrálva van nálunk",
+        "disclaimerText": "Kérjük, vegye figyelembe, hogy csak akkor kap {item}, ha regisztrálta nálunk a {item}",
         "jsMailSent": "Elküldött levelek",
         "title2": "Fiók igénylése",
         "claimIntroHeading": "Igényelje fiókját gyorsan!",
@@ -800,7 +796,7 @@
       },
       "resetPwd": {
         "title": "Jelszó visszaállítása",
-        "introText": "Itt állítson be biztonságos jelszót fiókjához. Kattintson az {icon} gombra, hogy biztosan a megfelelő jelszót adja meg.",
+        "introText": "Itt állíthat be biztonságos jelszót fiókjához. Kattintson a {icon} gombra annak ellenőrzéséhez, hogy a megfelelő jelszót adta-e meg.",
         "pwdInputLabel": "Új jelszó beállítása",
         "pwdInputPH": "Új jelszó megadása",
         "invalidPwdChars": "Érvénytelen karakterek a jelszóban",
@@ -810,13 +806,13 @@
         "jsTrackLoadFailed": "Nem sikerült betölteni a pályát. Kérjük, próbálja újra később."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} sikeresen törölve.",
-        "jsErrReporting": "Erről jelenleg nem lehet beszámolni. Kérjük, próbálja újra később.",
-        "jsAlreadyReported": "Ezt az {elemet} már jelentetted. Nem jelentheti be többször.",
-        "jsPromptHeading": "Ha egy tételt jelentesz, akkor kisebb az esély arra, hogy megjelenjen az általad vagy mások feedjében/oldalain. Még mindig be akarja jelenteni ezt?",
-        "jsReporting": "Jelentéskészítés {itemType}..",
-        "jsReportingErr": "Ebben a pillanatban nem tudta benyújtani a kérését. Kérjük, próbálja újra később.",
-        "jsReported": "{item} jelentett. Köszönjük a közreműködést."
+        "jsItemDeleted": "{item} sikeresen törölték.",
+        "jsErrReporting": "Ezt jelenleg nem tudom jelenteni. Kérjük, próbálja újra később.",
+        "jsAlreadyReported": "Ezt már jelentette {item}. Csak egyszer jelentheti be.",
+        "jsPromptHeading": "Egy elem bejelentése azt eredményezi, hogy kisebb eséllyel jelenik meg a te vagy mások képfolyamában/oldalain. Továbbra is jelenteni szeretné ezt?",
+        "jsReporting": "Jelentési {itemType}..",
+        "jsReportingErr": "Jelenleg nem sikerült benyújtani kérését. Kérjük, próbálja újra később.",
+        "jsReported": "{item} jelentették. Köszönjük hozzájárulását."
       },
       "editProfileModal": {
         "jsEmptyData": "Nincs mit frissíteni!",
@@ -825,15 +821,15 @@
       "reqZiyarat": {
         "title": "Ziyarat kérése",
         "cta": "Kérés",
-        "header": "Kérje Ziyaratot a Hussain imám (a.s.) szentélyben Karbalában az Ön nevében.",
+        "header": "Kérje Ziyaratot a karbalai Imam Hussain (a.s.) szentélyben az Ön nevében.",
         "desc": {
-          "p1": "Minden pénteken <strong>szavaljon Ziyarat az Ön nevében</strong> Hussain imám szentélyében, Az iraki Karbalában! Mindössze annyit kell tennie, hogy <strong>csütörtök este vége előtt</strong> kérelmet nyújt be. Soha nem késik azonban túl; ha a kérése túl későn érkezik, akkor a következő hétre regisztrálják.",
-          "p2": "Értesítjük Önt, ha a ziyaratot az Ön nevében szavalták el.",
-          "p3": "Megjegyzés: Amikor először kérsz, az adataidat megosztjuk a szolgáltatónkkal. Kérjük, olvassa el általános szerződési feltételeinket, hogy többet megtudjon."
+          "p1": "Minden pénteken <strong>mondassátok el Ziyaratot a nevetekben</strong> Husszein imám szentélyében Karbalában, Irakban! Mindössze annyit kell tennie, hogy <strong>csütörtök este vége előtt</strong> kérelmet nyújt be. De soha nem késő; Ha kérése túl későn érkezik, a következő hétre regisztráljuk.",
+          "p2": "Értesíteni fogunk, ha a ziyaratot elmondták.",
+          "p3": "Megjegyzés: Amikor első alkalommal kéri, adatait megosztjuk szolgáltatónkkal. Kérjük, olvassa el Általános Szerződési Feltételeinket, ha többet szeretne megtudni."
         },
-        "jsRegistered": "Köszönöm! A kérelem regisztrálása sikeresen megtörtént. Hamarosan visszaigazoló e-mailt fog kapni.",
-        "jsAlreadyRegistered": "Ön már regisztrált a Ziyaratba ezen a csütörtökön. Regisztráljon a jövő héten a jövő heti ziyaratra.",
-        "jsConfirm": "A kérésre való regisztrációhoz meg kell osztanunk az Ön adatait (pl. Teljes név, nem stb.) szolgáltatónkkal. Ez csak most először szükséges. Kérjük, erősítse meg a folytatást.",
+        "jsRegistered": "Köszönöm! Kérését sikeresen regisztráltuk. Hamarosan kap egy visszaigazoló e-mailt.",
+        "jsAlreadyRegistered": "Ezen a csütörtökön már regisztráltál a Ziyiratra. Regisztráljon a jövő héten a jövő heti ziyaratra.",
+        "jsConfirm": "A kérelemre való regisztrációhoz meg kell osztanunk adatait (pl. Teljes név, nem stb.) szolgáltatónkkal. Erre csak az első alkalommal van szükség. Kérjük, erősítse meg a folytatást.",
         "jsDeclined": "Oké! Talán később."
       },
       "currencySelector": {
@@ -1116,13 +1112,13 @@
       "form": {
         "name": {
           "label": "A neved",
-          "placeholder": "Add meg a teljes nevedet"
+          "placeholder": "Adja meg teljes nevét"
         },
         "email": {
           "label": "E-mail",
           "placeholder": [
             "Az Ön regisztrált e-mail címe",
-            "Adja meg e-mail címét"
+            "Írja be e-mail címét"
           ]
         },
         "password": {
@@ -1132,18 +1128,18 @@
             "Adjon meg egy jelszót"
           ]
         },
-        "rememberLogin": "Ne felejtse el a bejelentkezést",
-        "forgotPwd": "Elfelejtette a jelszavát?",
-        "connectUsing": "Vagy csatlakozzon a következővel:",
+        "rememberLogin": "Bejelentkezés megjegyzése",
+        "forgotPwd": "Elfelejtett jelszó?",
+        "connectUsing": "Vagy csatlakozzon a",
         "useSavedAccount": "Mentett fiókok használata",
         "lastLogin": "Utolsó bejelentkezés",
-        "needAccount": "Szüksége van egy fiókra?",
+        "needAccount": "Szüksége van fiókra?",
         "resetPwdSuccess": "Az új jelszóval most bejelentkezhet",
         "jsEnterFullName": "Kérjük, adja meg teljes nevét.",
         "jsEnterValidName": "Kérjük, adjon meg egy érvényes nevet.",
         "jsEnterValidEmail": [
-          "Kérjük, adjon meg egy érvényes e-mailt.",
-          "Az e-mail érvénytelen karaktereket tartalmaz. Kérjük, adjon meg egy érvényes e-mailt."
+          "Kérjük, adjon meg egy érvényes e-mail címet.",
+          "Az e-mail érvénytelen karaktereket tartalmaz. Kérjük, adjon meg egy érvényes e-mail címet."
         ],
         "jsSelectCountryCode": "Kérjük, válassza ki az országkódot a listából",
         "jsEnterMobile": "Kérjük, adja meg mobilszámát.",
@@ -1151,26 +1147,26 @@
         "jsEnterPwd": "Kérjük, adja meg jelszavát!",
         "jsEnterValidPwd": [
           "A jelszó érvénytelen karaktereket tartalmaz. Kérjük, adjon meg egy érvényes jelszót.",
-          "A jelszónak legalább {num} karakternek kell lennie."
+          "A jelszónak legalább {num} karakterből kell állnia."
         ],
-        "jsAccountSuccess": "A fiók sikeresen létrejött",
-        "jsFbError": "Nem sikerült megszerezni a Facebook-fiókadatait. Kérjük, próbálja újra.",
-        "jsPromptClosedErr": "A bejelentkezési kérés a befejezés előtt bezárult. Kérjük, próbálja újra."
+        "jsAccountSuccess": "A fiók sikeresen létrehozva",
+        "jsFbError": "Nem sikerült lekérni a Facebook-fiókod adatait. Kérjük, próbálja újra.",
+        "jsPromptClosedErr": "A bejelentkezési üzenet bezárult, mielőtt befejezte volna. Kérjük, próbálja újra."
       },
-      "gotoSignup": "Goto Regisztráció",
+      "gotoSignup": "Goto regisztráció",
       "alreadyHasAccount": "Már van fiókja?",
       "gotoLogin": "Goto bejelentkezés",
       "gotoProfile": "Goto profil",
-      "msgForAuthUser": "<p>Úgy gondoljuk, hogy tévedésből szálltál ide, mivel már be vagy jelentkezve.</p> <p>Megnézheted a profilodat, hogy néz ki, vagy az alábbi linkek egyikével böngészhetsz más szakaszok között:</p>",
-      "jsLoggedOut": "Kijelentkezett.",
+      "msgForAuthUser": "<p>Úgy gondoljuk, hogy véletlenül érkeztél ide, mivel már be vagy jelentkezve.</p><p>Ellenőrizheti profilját, hogy lássa, hogyan néz ki, vagy az alábbi linkek egyikén böngészhet más szakaszok között:</p>",
+      "jsLoggedOut": "Ön ki van jelentkezve.",
       "jsLogoutHeading": "Kijelentkezés a fiókból?",
-      "jsLogoutText": "Ezzel törli a helyileg mentett információkat, amelyek lehetővé teszik a <b>gyors bejelentkezést</b>. Folytatódik?"
+      "jsLogoutText": "Ez törli a helyileg mentett információkat, ami lehetővé teszi a <b>gyors</b> bejelentkezést. Folytatódik?"
     },
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Telepítse a Bazm { platformot }",
-          "desc": "Töltse le az Android alkalmazást a jobb élményért, a személyre szabott tartalomért, az értesítésekért és minden, ami érdekli Önt körül! | Telepítse az alkalmazás parancsikonját (könyvjelzőjét), hogy legközelebb közvetlenül a kezdőképernyőről érje el a jobb élmény érdekében! Alig foglal helyet a készüléken, de segít gyorsan visszatérni az alkalmazáshoz.",
+          "heading": "Telepítse a Bazm {platform} alkalmazást",
+          "desc": "Töltse le Android alkalmazásunkat a jobb élményért, személyre szabott tartalomért, értesítésekért és mindenért, ami érdekli Önt! | Telepítse az alkalmazás parancsikonját (könyvjelzőjét), hogy legközelebb közvetlenül a kezdőképernyőről érje el a jobb élmény érdekében! Alig foglal helyet az eszközön, de segít gyorsan visszatérni az alkalmazáshoz.",
           "cta": {
             "action": "Felszerel",
             "skip": "Talán később"
@@ -1180,7 +1176,7 @@
           "heading": "Telepítse a Bazm parancsikont?"
         },
         "popover": {
-          "text": "Kattintson a Megosztás ikonra (úgy néz ki, mint a jobb oldalon lévő) <strong>ALÁBB</strong>, majd kattintson a <strong>Hozzáadás a kezdőképernyőhöz gombra</strong>. A befejezéshez kattintson a \"Mentés\" gombra, majd elérheti az alkalmazást a kezdőképernyő parancsikonjáról!"
+          "text": "Kattintson a Megosztás ikonra (úgy néz ki, mint a jobb oldalon) <strong>ALÁBB</strong> , majd kattintson a <strong>Hozzáadás a kezdőképernyőhöz</strong> gombra. Kattintson a \"Mentés\" gombra a befejezéshez, majd elérheti az alkalmazást a kezdőképernyőn található parancsikonról!"
         },
         "nonSafari": {
           "heading": "A Bazm jobban működik az Apple Safariban",
@@ -1191,83 +1187,76 @@
       },
       "webFeedback": {
         "heading": "Milyenek az eddigi tapasztalataid?",
-        "text": "<p>Tetszik az új alkalmazás? Van valami, amin javíthatnánk? Kérjük, segítsen nekünk visszajelzésével, hogy javítsuk az Élményt az Ön számára!</p> <p>Ez csak néhány percet venne igénybe, és nagyra értékeljük az idejét!</p>",
+        "text": "<p>Tetszik az új alkalmazás? Van valami, amin javíthatunk? Kérjük, segítsen nekünk visszajelzésével, hogy javítsuk az élményt az Ön számára!</p><p>Ez csak néhány percet vesz igénybe, és nagyra értékeljük az idejét!</p>",
         "cta": "Visszajelzés küldése",
         "dismiss": "Talán később"
       },
       "advertise": {
-        "heading": "Hirdessen a Bazm-on",
-        "text": "<p>Érje el a síita muszlimok millióit szerte a világon a Bazm termékével, vagy lépjen kapcsolatba márkákkal és felhasználókkal.</p> <p>Kezdje akár napi 1 dollárért is!</p>",
+        "heading": "Hirdessen a Bazm-en",
+        "text": "<p>Érj el síita muszlimok millióit szerte a világon a termékeddel a Bazm-en, vagy lépj kapcsolatba márkákkal és felhasználókkal.</p><p>Kezdje már napi 1 dollárral!</p>",
         "cta": "Tudj meg többet"
       },
       "upgradeSafari": {
         "header": "Korlátozott élmény a Safariban",
-        "description": "<strong>Ez a böngésző (Safari) nincs optimalizálva a legjobb élmény érdekében</strong>. Ha továbbra is itt használja alkalmazásunkat, lemarad számos olyan funkcióról, mint például a riasztási értesítések, a frissítések közelében, az offline mód és még sok más.<br/> Javasoljuk, hogy a jobb élmény érdekében szerezze be az alább felsorolt böngészők egyikét. Kattintson bármelyik gombra a böngésző letöltéséhez az AppStore-ból:",
+        "description": "<strong>Ez a böngésző (Safari) nincs optimalizálva a legjobb élmény érdekében</strong>. Ha továbbra is itt használja alkalmazásunkat, számos funkcióról lemarad, például riasztási értesítésekről, közeli frissítésekről, offline módról és még sok minden másról.<br/>Javasoljuk, hogy szerezze be az alább felsorolt böngészők egyikét a jobb élmény érdekében. Kattintson bármelyik gombra a böngésző letöltéséhez az AppStore-ból:",
         "ctas": {
-          "getGoogle": "Szerezze be a Google Chrome-ot",
-          "getFirefox": "Szerezze be a Mozilla Firefoxot",
-          "getOpera": "Szerezd meg az Opera Touch-ot",
+          "getGoogle": "A Google Chrome letöltése",
+          "getFirefox": "Mozilla Firefox beszerzése",
+          "getOpera": "Az Opera Touch letöltése",
           "skip": "Talán később"
         },
         "toast": "Nem gond. Viszlát!"
       },
       "cookieBanner": {
-        "header": "A cookie-k mentése az ön eszközén",
-        "p1": "Nem tárolunk cookie-kat az Ön {eszközén}, de az alkalmazásunkban használt, harmadik féltől származó alkalmazások (például a Google Analytics). Ehelyett állandó tárhelyet használunk a fontos adatok tárolására, és a legtöbb esetben ez titkosítva van a tárolásban és az átvitel során.",
-        "p2": "Az alkalmazás további használatával Ön megerősíti, hogy nincs problémája a választásainkkal. Ha többet szeretne megtudni a cookie-król és az adatok felhasználásáról, olvassa el a <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy című kiadványunkat.</a>"
+        "header": "Tudnivalók a cookie-k mentéséről az eszközén",
+        "p1": "Nem tárolunk cookie-kat az Ön {device} , de az alkalmazásunkban használt harmadik féltől származó alkalmazások (például a Google Analytics) igen. Ehelyett állandó tárhelyet használunk a fontos adatok tárolására, és a legtöbb esetben ez titkosítva van a tárolásban és az átvitel során.",
+        "p2": "Az alkalmazás további használatával ezennel megerősíti, hogy nincs problémája a választásainkkal. Ha többet szeretne megtudni a cookie-król és az adatfelhasználásról, olvassa el <a href='https://bazm.in/privacy-policy' target='_blank'>Adatvédelmi irányelveinket.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Közösségi hálózati alkalmazás síita muszlimok számára szerte a világon! Töltse le az alkalmazást még ma.",
+      "titleBranding": " __ Bazm - Közösségi hálózati alkalmazás a síita muszlimok számára szerte a világon! Töltse le az alkalmazást még ma.",
       "home": {
-        "title": "Bazm - Online síita közösségi alkalmazás!",
-        "description": "A Bazm alkalmazás a síita közösségi alkalmazás, amely kielégíti a deen &mazhab minden napi igényét. Keresse meg Nauhe, Majalis, Dua, Aamaal, Ziyarat, Könyvek stb. minden dátumhoz és alkalomhoz. Nézze meg és végezzen élőben közvetített eseményeket és madzsalikat síita-muszlimokkal szerte a világon otthona kényelméből. Csatlakozzon még ma!"
+        "title": "Bazm - online síita közösségi alkalmazás!",
+        "description": "A Bazm alkalmazás a Shia közösségi alkalmazás, amely kielégíti a deen és mazhab napi igényeit. Keresse meg Nauhe, Majalis, Dua, Aamaal, Ziyarat, Könyvek stb. minden dátumra és alkalomra. Nézze meg és csináljon élő közvetítésű eseményeket és majalikat a síita muszlimokkal szerte a világon, otthona kényelméből. Csatlakozzon még ma!"
       },
       "feed": {
-        "title": "Keressen személyre szabott tartalmat, és ossza meg a síita közösséggel ön és a világ körül",
-        "description": "Keress és ossz meg híreket, eseményeket és tartalmakat a környékbeli síita momineenekkel, és folyamatosan tájékoztatd őket az általad szervezett eseményekről. További információ bármiről, ami a közeledben történik az alkalmazásban."
+        "title": "Keressen személyre szabott tartalmakat, és ossza meg azokat a síita közösséggel körülötted és a világon",
+        "description": "Keress és ossz meg híreket, eseményeket és tartalmakat a shia momineen segítségével, és tájékoztasd őket az általad szervezett eseményekről. Tudjon meg többet bármiről, ami a közeledben történik az alkalmazásban."
       },
       "mediaHome": {
-        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal és még sok más az Ön számára!",
-        "description": "Keresse meg Nauhe-t, Majalis-t, Dua-t, Aamaal-t, ziyarat-t és még sok minden mást minden dátumhoz és alkalomhoz. Nézze meg és végezze el élőben közvetített majalis-t otthona kényelméből! Csatlakozzon a síita közösségi hálózati alkalmazáshoz, amely segít a deen &mazhab rutinfeladataiban. Csatlakozzon még ma!"
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal és még sok minden más az Ön számára!",
+        "description": "Keresse meg Nauhe, Majalis, Dua, Aamaal, ziyarat és még sok minden mást minden dátumra és alkalomra. Nézze meg és csináljon élő közvetítést majalis otthona kényelméből! Csatlakozzon a Shia közösségi hálózati alkalmazáshoz, amely segít a deen & mazhab rutinfeladataiban. Csatlakozzon még ma!"
       },
       "toolsHome": {
-        "title": "Bazm - Napi azaai riasztás, kérdés-válasz és eszközök síita muszlimok számára",
-        "description": "Szerezzen napi emlékeztetőt Adhan számára, keresse meg és tegyen fel kérdést-választ a deen és az iszlám témáiról, vagy kérjen Surah-fatiha-t vagy Namaz-e-Wahshat-t a marhumeen-hez, és további eszközöket a Bazm-hoz. Csatlakozzon a síita közösségi hálózati alkalmazáshoz, amely segít a deen rutinfeladataiban. Keresse meg Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat minden dátumot és alkalmat. Élőben közvetítse az eseményeket és a majalisokat otthona kényelméből. Csatlakozzon még ma!"
+        "title": "Bazm - Napi Azaan riasztás, kérdés-válasz és eszközök a síita muszlimok számára",
+        "description": "Napi emlékeztetőt kaphat Adhanról, kereshet és kérdéseket tehet fel a deen és az iszlám témáiban, vagy kérheti a Surah-fatihát vagy a Namaz-e-Wahshat-ot a marhumeenért, és további eszközöket a Bazm-on. Csatlakozzon a Shia közösségi hálózati alkalmazáshoz, amely segít a deen rutinfeladataiban. Keresse meg Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat minden dátumra és alkalomra. Élő közvetítés események és majalis otthona kényelméből. Csatlakozzon még ma!"
       },
       "tasbeehCounter": {
-        "title": "Automatikus tasbeeh számláló Hanggal __ Tasbeeh Counter eszközzel",
-        "description": "Számtalan tasbeeh recitálása most könnyebb az Audio tasbeeh számlálóinkkal. Mondja el a tasbeeh-t vezetés vagy munka közben, és továbbra is kövesse nyomon a számot hangszámlálókkal. Szerezze be ezt az eszközt és más hasonlókat a Bazm alkalmazásban."
+        "title": "Automatikus tasbeeh számláló Voice __ Tasbeeh Counter eszközzel",
+        "description": "Számtalan tasbeeh recitálása most könnyebb az Audio tasbeeh számlálóinkkal. Mondja el a tasbeeh-t vezetés vagy munka közben, továbbra is nyomon követve a számlálást hangszámlálókkal. Szerezd meg ezt az eszközt és másokat a Bazm alkalmazásban. Töltse le még ma."
       },
       "accountHome": {
-        "title": "Bazm - Hozza létre ingyenes fiókját még ma, és kérjen segítséget a deen napi igényeivel kapcsolatban!",
-        "description": "Csatlakozzon a Bazm alkalmazáshoz még ma, hogy minden igényét kielégítse a deeniyathoz. Keresse meg a nohe / nauhe, majalis, dua, ziyarat, aamaal minden dátumhoz és alkalomhoz. Élőben közvetíts és nézd meg a majalis &eseményeket a környezetedből; keressen bejegyzéseket, tartalmakat és momineenseket szerteszülvens önről és a világról, és még sok minden mást az alkalmazásban."
+        "title": "Bazm - Hozza létre ingyenes fiókját még ma, és kérjen segítséget a deen napi igényeihez!",
+        "description": "Csatlakozzon a Bazm alkalmazáshoz még ma, hogy megfeleljen minden igényének. Keresse meg a nohe / nauhe, majalis, dua, ziyarat, aamaal minden dátumot és alkalmat. Élő közvetítés és nézés majalis &események körülötted; Keressen bejegyzéseket, tartalmakat és momineeneket az Ön és a világ minden tájáról, és még sok minden mást az alkalmazásban. Csatlakozzon még ma!"
       },
       "nauheListPage": {
-        "title": "Hallgassa meg Nauhe-t a népszerű nauhakhwanból szerte a világon",
-        "description": "Hallgassa meg a nauhe-t minden évből és az összes népszerű nauhakhwan-t a világ minden tájáról a Bazm alkalmazásban."
+        "title": "Hallgassa meg Nauhe-t a népszerű nauhakhwan-tól szerte a világon",
+        "description": "Hallgassa meg a nauhe-t minden évben és az összes népszerű nauhakhwan-t a világ minden tájáról a Bazm alkalmazásban. Töltse le még ma."
       },
       "soazListPage": {
-        "title": "Hallgassa meg Soazt a népszerű Soazkhwanból a világ minden tájáról",
-        "description": "Hallgassa meg Soaz-t minden évből és az összes népszerű Soazkhwan-t a világ minden tájáról a Bazm alkalmazásban."
+        "title": "Hallgassa meg Soaz-t a népszerű Soazkhwan-tól szerte a világon",
+        "description": "Hallgassa meg Soazt minden évben és az összes népszerű Soazkhwan-t a világ minden tájáról a Bazm alkalmazásban. Töltse le még ma."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Keressen még nauhe, audio/video majalis, dua, ziyarat, aamaal stb. a Bazmon",
-        "description": "Keressen audio/video majalis-t Maulanából és Zakir-e-Ahlbayt-ből a közelből és a világ minden tájáról. Hallgassa meg és nézze meg a legújabb majalis és élő közvetítési munkameneteket a Bazm alkalmazásban. Töltsd le az alkalmazást még ma, és csatlakozz több millió síita muszlimhoz szerte a világon!"
+        "title": "{type} majalis / majlis a Bazm-on - További nauhe, audio / video majalis, dua, ziyarat, aamaal stb. tovább Bazm",
+        "description": "Keresse meg a Maulana és a Zakir-e-Ahlbayt audio/video majalis-ját az Ön közelében és a világ minden tájáról. Hallgassa meg és nézze meg a legújabb majalis és élő közvetítéseket a Bazm alkalmazásban. Töltse le az alkalmazást még ma, és csatlakozzon több millió síita muszlimhoz szerte a világon!"
       },
       "duasPage": {
         "title": [
-          "Duas és aamaal a {hónap} hónapra a Bazm-on - Keressen több nauhe-t, audio / video majalis-t, dua-t, ziyarat-t, aamaal-t stb. a Bazm-on",
-          "Duas és aamaal minden hónapban a Bazm-on - Keressen több nauhe-t, audio / video majalis-t, dua-t, ziyarat-t, aamaal-t stb. a Bazm-on"
+          "Duas és aamaal {month} hónapra Bazm-en - További nauhe, audio / video majalis, dua, ziyarat, aamaal stb. tovább Bazm",
+          "Duas és aamaal minden hónapban a Bazm-on - Találjon többet nauhe, audio / video majalis, dua, ziyarat, aamaal stb. tovább Bazm"
         ],
-        "description": "Keresse meg a duas, az aamaal, a ziyarat és a munajat minden hónapot a Bazm-on, a dátum és az esemény bölcs. Töltsd le az alkalmazást még ma, és csatlakozz több millió síita muszlimhoz szerte a világon!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Magyarázza el helyes hivatkozásokkal és kontextusban a síita muszlimokat. Ezenkívül adjon nekem hivatkozásokat listaként a forrásokra mutató linkekkel.",
-        "newQues": "Szia, kezdjünk új beszélgetést. Az alábbi lekérdezés:\n{quesTex}",
-        "continuePrev": "Folytassuk vitánkat {date}. {quesTex}"
+        "description": "Keresse meg a duas, aamaal, ziyarat és munajat minden hónapra Bazm-on, dátum és esemény szerint. Töltse le az alkalmazást még ma, és csatlakozzon több millió síita muszlimhoz szerte a világon!"
       }
     }
   }
