@@ -5,7 +5,7 @@
       "refreshing": "Uppfriskande...",
       "loadingMore": "Laddar mer...",
       "checking": "Kontrollera...",
-      "sendOtp": "Skickar OTP..",
+      "sendOtp": "Skickar OTP ..",
       "dismiss": "Avskeda",
       "invite": "Inbjuda",
       "showMore": "Visa mer | Visa mer",
@@ -22,7 +22,7 @@
       "change": "Förändring",
       "continue": "Fortsätta",
       "select": "Utvald",
-      "saveChanges": "Spara ändringar | Spara | Uppdatering",
+      "saveChanges": "Spara ändringar | Spara | Uppdatera",
       "newBadge": "Ny",
       "login": "Logga in",
       "logout": "Utloggning",
@@ -32,7 +32,7 @@
       "privacy": "Privatliv",
       "contactUs": "Kontakta oss",
       "home": "Hem",
-      "facebook": "Annons",
+      "facebook": "Facebook",
       "google": "Google",
       "you": "Du",
       "retry": "Igen",
@@ -40,13 +40,13 @@
       "submit": "Inlämna",
       "share": "Dela | Dela nu",
       "at": "vid",
-      "untilNextTime": "Inga problem. Tills nästa Gång!",
+      "untilNextTime": "Inga problem. Tills nästa gång!",
       "plzWait": "Snälla vänta..",
       "saving": "Besparing.. | Uppdatering..",
       "search": "Söka",
       "late": "Sen",
       "done": "Färdig",
-      "featureUnavailable": "Den här funktionen kommer snart att finnas tillgänglig. Tack för att visa intresse!",
+      "featureUnavailable": "Den här funktionen kommer snart att vara tillgänglig. Tack för visat intresse!",
       "actions": {
         "cancel": "Annullera",
         "notify": "Meddela",
@@ -58,22 +58,22 @@
         "uploading": "Uppladdning..",
         "deleting": "Ta bort..",
         "requesting": "Begär..",
-        "audienceHeader": "Momineen som {action}d | Momineen som {action}d detta",
-        "jsShareFileTypeError": "Du kan tyvärr inte dela {fileType}-filer här",
+        "audienceHeader": "Momineen som {action}d | Momineen som {action}detta",
+        "jsShareFileTypeError": "Tyvärr kan du inte dela {fileType} filer här",
         "jsUpdateAvailable": {
           "header": "Uppdatering tillgänglig",
-          "message": "Klicka på \"Uppdatera\" för att uppdatera och ladda nytt innehåll och nya funktioner.",
+          "message": "Du ser en cachad version av appen. Klicka på \"Uppdatera\" för att uppdatera och ladda nytt innehåll och funktioner.",
           "cta": "Svalka"
         },
         "jsImgUploaded": "Bilden har laddats upp!",
-        "jsImgUploadErr": "Bildöverföringen misslyckades. Försök igen senare.",
+        "jsImgUploadErr": "Det gick inte att ladda upp bilden. Försök igen senare.",
         "jsLoadingDelay": "Det tar lite längre tid än väntat. Vänta medan vi behandlar denna begäran."
       },
-      "unknown": "Okänd",
       "close": "Stänga",
       "yes": "Ja",
       "no": "Nej",
       "idk": "Jag vet inte",
+      "unknown": "Okänd",
       "completed!": "Fullbordad!",
       "pushPrompt": {
         "heading": "Håll dig uppdaterad",
@@ -86,12 +86,12 @@
     "errors": {
       "service": {
         "unavailable": "Tjänsten är inte tillgänglig just nu. Försök igen senare.",
-        "unknown": "Ett okänt fel inträffade. Försök igen senare.",
-        "general": "Ett fel uppstod när du bearbetade din begäran. Försök igen senare."
+        "unknown": "Ett okänt fel uppstod. Försök igen senare.",
+        "general": "Ett fel uppstod när din begäran bearbetades. Försök igen senare."
       },
       "content": {
-        "unavailable": "Det gick inte att ladda innehållet just nu. Försök igen om ett tag.",
-        "itemDetailUnavailable": "Det gick inte att hitta information om det här {objektet}",
+        "unavailable": "Det gick inte att läsa in innehållet just nu. Försök igen om ett tag.",
+        "itemDetailUnavailable": "Det gick inte att hitta detaljer för den här {item}",
         "loadMoreError": "Det gick inte att läsa in fler objekt. Försök igen senare."
       },
       "url": {
@@ -110,10 +110,10 @@
       "postDetail": {
         "commonTitle": "Detalj",
         "fatihaTitle": "Surah-fatiha",
-        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "fatihaWithNamaz": "Surah-fatiha och Namaz-e-Wahshat",
         "avatarUpdateTitle": "Profilbild",
-        "bannerUpdateTitle": "Omslagsbild (inaktuell)",
-        "statusUpdateTitle": "Uppdatering av status"
+        "bannerUpdateTitle": "Omslagsbild (föråldrad)",
+        "statusUpdateTitle": "Statusuppdatering"
       }
     },
     "tabs": {
@@ -121,7 +121,7 @@
         "name": "Hem",
         "postDetail": {
           "shareRequest": {
-            "header": "Dela denna begäran över ditt nätverk och nå ut till fler människor!"
+            "header": "Dela denna begäran i ditt nätverk och nå ut till fler människor!"
           }
         }
       },
@@ -132,16 +132,16 @@
           "majalis": "Majalis",
           "soaz": "Soaz",
           "ziyarat": "Ziyaraat",
-          "dua": "Duas",
+          "dua": "Två",
           "munajat": "Munajaat",
           "munajaat": "Munajaat",
           "books": "Böcker"
         },
-        "inviteFriends": "bjud in dina vänner",
+        "inviteFriends": "Bjud in dina vänner",
         "notShia": "Inte shia?",
         "contacts": {
-          "accessRequestHeader": "Kontaktåtkomst krävs",
-          "accessRequestDesc": "Vi behöver dina kontakters åtkomst för att föreslå shia-personer i din telefonbok för att bjuda in till den här appen."
+          "accessRequestHeader": "Kontakter Åtkomst krävs",
+          "accessRequestDesc": "Vi behöver dina kontakters åtkomst för att föreslå shia-personer i din telefonbok att bjuda in till den här appen."
         },
         "audio": "Ljud",
         "video": "Video",
@@ -151,11 +151,11 @@
           "wishCtaLabel": "ÖNSKA"
         },
         "books": {
-          "booksByAuthor": "Böcker av {författare}",
+          "booksByAuthor": "Böcker av {author}",
           "booksInLang": "Böcker i {lang}",
           "filterBy": "Filtrera efter:",
           "matching": {
-            "authors": "med författare som matchar",
+            "authors": "med författarmatchning",
             "lang": "med språkmatchning",
             "title": "med titelmatchning"
           }
@@ -174,43 +174,44 @@
         "name": "Arbetsredskap",
         "salatAlarmDesc": "Ställ in larm för Azaan enligt dina lokala tider",
         "sehriAlarmDesc": "Ställ in Alarm för Sehri, eller till och med få ett väckarklocka på ditt nummer före Sehri!",
-        "sehriAlarmOptionDisabled": "Larm för Sheri-tid under ramadan månad (endast tillgängligt under Ramadan)",
-        "tasbeehCounterDesc": "Recitera Duas, Koranen och Tasbeeh i upprepningsläge enkelt med Audio Tasbeeh-räknaren",
+        "sehriAlarmOptionDisabled": "Larm för Sheri-tid under Ramadan-månaden (endast tillgängligt under Ramadan)",
+        "tasbeehCounterDesc": "Recitera Duas, Koranen och Tasbeeh i upprepningsläge enkelt med Audio Tasbeeh-räknare",
         "qnaLabel": "QnA (Masle-Masayel)",
-        "qnaDesc": "Sök och ställ frågor eller hitta svar på masle-masayel från ditt dagliga liv i frågor om islam.",
+        "qnaDesc": "Sök och ställ frågor eller hitta svar på masle-masayel från ditt dagliga liv om frågor om islam.",
+        "khumsLabel": "Khums kalkylator",
+        "khumsDesc": "Beräkna dina khums eller lägg till tidigare betalda khums. Det hjälper dig med journalföring av dina khums genom åren.",
         "alarms": {
-          "salatAlarms": "Salat-larm | Dagliga Salat-larm",
+          "salatAlarms": "Salat larm | Dagliga Salat larm",
           "sehriAlarms": "Ramadan Sehri larmar",
           "gettingLocation": "Få din plats. Snälla vänta...",
-          "settingsTip": "Ändra <b>plats</b> och inställningar i Larminställningar. Klick inställningar ikonen för att starta.",
+          "settingsTip": "Ändra <b>plats</b> och inställningar i Alarm-inställningarna. Klicka på ikonen Inställningar för att starta.",
           "setAlarmHeader": "Ställ in dagliga larm",
-          "setAlarmOnAppDesc": "Inställning av larm är endast tillgängligt i appen",
+          "setAlarmOnAppDesc": "På skrivbordet visas larmmeddelanden bara som banner utan någon ring",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
           "sunsetLabel": "Solnedgång",
           "maghribLabel": "Maghrib",
           "midnightLabel": "Midnatt",
           "sehriEndTime": "Dags för slutet av Sehri",
           "minToImsak": [
-            "{min} minuter före Imsak",
-            "{timme} timme före Imsak"
+            "{min} minuter innan Imsak",
+            "{hour} timme före Imsak"
           ],
           "minToImsakDesc": [
             "Larmet ringer {min} minuter före slutet av Sehri-tiden",
-            "Larmet ringer {timme} timme före slutet av Sehri-tiden"
+            "Larmet ringer {hour} timme före slutet av Sehri-tiden"
           ],
-          "notRamadan": "Ser ut som att det inte är ramadan än. Kom tillbaka under eller strax före Ramadan för att ställa in larmen för Sehri",
+          "notRamadan": "Ser ut som det inte är Ramadan än. Kom tillbaka under eller strax före Ramadan för att ställa in larmen för Sehri",
           "push": {
-            "heading": "Meddelandeåtkomst krävs",
-            "desc_request": "Larmet fungerar genom att skicka push-meddelanden på bestämda tider. Utan åtkomst till push fungerar appen inte på förväntat sätt. Vänligen ge åtkomst till ditt push-meddelande så att vi kan informera dig vid larmtider.",
-            "desc_denied": "<strong>Du nekade åtkomst till aviseringar tidigare.</strong> Det krävs för att push-meddelanden ska fungera korrekt. Vi skickar meddelanden vid larmtid.<br/> Vänligen tillåt åtkomst till push-meddelanden genom att klicka på knappen.",
+            "heading": "Åtkomst till meddelanden krävs",
+            "desc_request": "Larmet fungerar genom att skicka push-meddelanden vid angivna tider. Utan åtkomst till push fungerar inte appen på förväntat sätt. Vänligen ge tillgång till din push-notis så att vi kan informera dig vid larmtider.",
+            "desc_denied": "<strong>Du nekade åtkomst till aviseringar tidigare.</strong> Det krävs för att push-notiser ska fungera korrekt. Vi skickar meddelanden vid larmtid.<br/>Vänligen ge tillgång till push-meddelanden genom att klicka på knappen.",
             "cta": "Tillåta",
-            "toast_granted": "Tack! Du kommer att få ett meddelande vid larmtider nu.",
-            "toast_denied": "Begäran om meddelande nekades. Tillåt åtkomst för att appen ska fungera korrekt.",
-            "toast_prompt": "Du måste tillåta åtkomst till aviseringar för att ställa in larm."
+            "toast_granted": "Tack! Du kommer att få meddelande vid larmtider nu.",
+            "toast_denied": "Begäran om anmälan nekades. Låt åtkomsten för appen fungera korrekt.",
+            "toast_prompt": "Du måste tillåta aviseringsåtkomst för att ställa in larm."
           },
-          "jsAlarmSetSuccess": "Larm har ställts in framgångsrikt",
+          "jsAlarmSetSuccess": "Larm har ställts in",
           "jsAlarmSetError": "Fel vid inställning av larm. Försök igen senare.",
           "jsAlarmSnoozed": "Larmet snoozade i 10 minuter",
           "sunriseLabel": "Soluppgång",
@@ -220,7 +221,7 @@
         },
         "alarmSetting": {
           "title": "Inställningar för larm",
-          "locationTitle": "Hitta stad för Alarmtider",
+          "locationTitle": "Hitta stad för larmtider",
           "forLocation": "Larm för plats",
           "calcMethod": "Beräkningsmetod",
           "selectAdhanSound": "Välj Adhan-ljud",
@@ -234,7 +235,7 @@
           "jsOtherSettingsSaved": "Andra inställningar sparade. Platsen ändrades inte."
         },
         "qna": {
-          "title": "Fråga-Svar",
+          "title": "Fråga-svar",
           "qnaSource": "Källa",
           "seeAnswer": "Se svar",
           "noAnswer": "Inget svar"
@@ -244,10 +245,8 @@
           "jsSubmitSuccess": "Din fråga har skickats in. Vi uppdaterar dig när vi får svar på det."
         },
         "tasbeehCounter": {
-          "title": "Tasbeeh-räknare"
+          "title": "Tasbeeh Räknare"
         },
-        "khumsLabel": "Khums kalkylator",
-        "khumsDesc": "Beräkna dina khums eller lägg till tidigare betalda khums. Det hjälper dig med journalföring av dina khums genom åren.",
         "khums": {
           "list": {
             "blog": {
@@ -370,38 +369,38 @@
         "editProfile": "Redigera profil",
         "publishToFeed": "Publicera mina ändringar i flödet",
         "shareUpdateToFeed": "Dela även den här uppdateringen till mitt flöde",
-        "statusText_ph": "Använd _kursiv_ eller * fet * formatering för att dekorera din status",
-        "statusCharsLeft": "{antal} tecken kvar",
+        "statusText_ph": "Använd _kursiv_ eller *fetstil* formatering för att dekorera din status",
+        "statusCharsLeft": "{count} tecken kvar",
         "jsImgUploadSuccess": "Bilder har laddats upp!",
         "unauthAccess": {
           "heading": "Är du säker på att du är på rätt plats?",
-          "desc": "<p>Det verkar som om du försökte komma åt en sida som du inte hade behörighet till. Om du försökte komma åt en sida som du har öppnat tidigare, försök att logga in; som borde lösa problemet.</p> <p>Tveka inte att kontakta oss om problemet kvarstår.</p>"
+          "desc": "<p>Det verkar som om du försökte komma åt en sida som du inte hade behörighet till. Om du försökte komma åt en sida som du har öppnat tidigare, försök att logga in; Det borde lösa problemet.</p><p>Kontakta oss gärna om problemet kvarstår.</p>"
         },
         "guest": {
-          "welcome": "Välkommen, <strong>gäst!</strong>",
-          "heading": "Varför logga in eller registrera sig?",
-          "desc": "Med ett konto i vår app kan du använda ett antal funktioner. Kom igång genom att skapa ett konto om du inte redan har ett konto. Eller bara logga in!",
-          "unlockHeading": "låsa upp följande med ett konto:",
+          "welcome": "<strong>Välkommen, gäst!</strong>",
+          "heading": "Varför logga in eller registrera dig?",
+          "desc": "Med ett konto i vår app kan du använda ett antal funktioner. Kom igång genom att skapa ett konto, om du inte redan har ett konto. Eller bara logga in!",
+          "unlockHeading": "Lås upp följande med ett konto:",
           "features": {
             "engage": {
               "heading": "Engagera i appen",
-              "desc": "Interagera med andra användare, reagera på deras inlägg eller förfrågningar, kommentera din åsikt, bokmärk dina objekt och så mycket mer!"
+              "desc": "Engagera dig med andra användare, reagera på deras inlägg eller förfrågningar, kommentera din åsikt, bokmärk dina artiklar och så mycket mer!"
             },
             "fatiha": {
-              "heading": "Post Fatiha-begäran",
-              "desc": "Posta begäran om Surah-e-Fatiha för själarna hos dina avlidna nära och kära och få deras själar välsignade med böner från alla våra användare!"
+              "heading": "Post Fatiha Förfrågan",
+              "desc": "Posta begäran om Surah-e-Fatiha för själarna till dina avlidna nära och kära och få deras själar välsignade med böner från alla våra användare!"
             },
             "askQues": {
               "heading": "Ställ frågor",
-              "desc": "Ställ frågor från Deen &Duniya om olika ämnen som ska besvaras av hans eminens, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+              "desc": "Ställ frågor från Deen & Duniya om olika ämnen som ska besvaras av hans eminens, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
             },
             "content": {
-              "heading": "föredraget innehåll",
-              "desc": "Se alltid önskat innehåll och inställningar när du är inloggad på ditt konto. Bli också meddelad för alla intressanta saker!"
+              "heading": "Föredraget innehåll",
+              "desc": "Se alltid önskat innehåll och önskade inställningar när du är inloggad på ditt konto. Få också meddelande om alla intressanta saker!"
             },
             "personalized": {
-              "heading": "personlig delning",
-              "desc": "Ställ in delningsinnehåll anpassat med din signatur så att dina vänner vet när du delar ett meddelande / inlägg."
+              "heading": "Personlig delning",
+              "desc": "Ställ in delning av innehåll som är anpassat med din signatur så att dina vänner vet när du delar ett meddelande/inlägg."
             }
           }
         },
@@ -415,24 +414,24 @@
           "addGender": "Lägg till kön",
           "addBday": "Lägg till födelsedag",
           "addRelation": "Lägg till relation",
-          "joinDate": "Blev medlem: {date}",
           "privateInfoDesc": "Denna information är endast synlig för dig och du ser innehåll och funktioner baserat på detta.",
           "idSetupCta": "Konfigurera din identitet",
-          "idVerifyCta": "Kontrollera"
+          "idVerifyCta": "Kontrollera",
+          "joinDate": "Blev medlem: {date}"
         },
         "posts": {
           "title": "Inlägg",
-          "userNoPosts": "När du ändrar din bild / omslagsbild, eller när du begär surah-fatiha för dina avlidna nära och kära, kommer dessa inlägg att visas här och på <b>fliken Hem</b> (av andra också). Prova att lägga till en bild eller omslagsbild?",
-          "profileNoPosts": "{namn} har inte gjort några inlägg än."
+          "userNoPosts": "När du ändrar din bild / omslagsbild, eller när du begär surah-fatiha för dina bortgångna nära och kära, kommer dessa inlägg att visas här och på <b>fliken Hem</b> (av andra också). Prova att lägga till en bild eller omslagsbild?",
+          "profileNoPosts": "{name} har inte gjort några inlägg än."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} har inte marhumeen lagt till ännu | Du har inte lagt till marhumeen ännu",
-            "marhumeenAdded": "{namn} har lagt till efter marhumeen | Du har lagt till följande marhumeen"
+            "marhumeenNotAdded": "{name} har inte marhumeen lagt till ännu | Du har inte lagt till marhumeen än",
+            "marhumeenAdded": "{name} har lagt till följande marhumeen | Du har lagt till följande marhumeen"
           },
           "jsDeleteHeader": "Är du säker?",
-          "jsDeletePrompt": "Om du tar bort poster för <b>{fullName}</b> raderas också alla tidigare förfrågningar om {gender}! Fortsätta?",
+          "jsDeletePrompt": "Om du tar bort poster för <b>{fullName}</b> raderas också alla tidigare förfrågningar som gjorts för {gender}! Fortsätta?",
           "jsDeleted": "Borttagna poster för {marhumeen}"
         },
         "verifyCard": {
@@ -471,22 +470,21 @@
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "Platsen är inte tillgänglig. Ställ in den genom att klicka på ikonen för att se snabbvy av Salat-tider.",
-          "unknownError": "Ett fel inträffade. Kunde inte ladda tider just nu."
+          "locUnavailable": "Platsen är inte tillgänglig. Ställ in det genom att klicka på ikonen för att se snabbvy över Salat-tider.",
+          "unknownError": "Ett fel uppstod. Det gick inte att ladda tider just nu."
         }
       },
       "langPrompt": {
-        "title": "Använda app i {langLabel}?",
+        "title": "Använd appen i {langLabel}?",
         "desc": {
-          "p1": "Det ser ut som om du kommer åt appen från {countryName}. Vill du se innehåll och kontroller på något av följande språk som talas i regionen? Klicka på ditt val och klicka sedan på \"Spara\" för att fortsätta.",
-          "p2": "Eller stäng det här popup-fönstret för att fortsätta använda appen på standardspråket."
+          "p1": "Det verkar som om du öppnar appen från {countryName}. Vill du se innehåll och kontroller på något av följande språk som talas i regionen? Klicka på ditt val och klicka sedan på \"Spara\" för att fortsätta.",
+          "p2": "Eller stäng den här popupen för att fortsätta använda appen på standardspråket."
         },
         "choices": {
           "useLang": [
             "Ja, använd {langName}",
             "Använd {langName}"
           ],
-          "useEngling": "Fortsätt på engelska",
           "useEnglish": "Fortsätt på engelska",
           "selectFrom": "Du kan också välja något av följande alternativa språk:"
         },
@@ -499,15 +497,15 @@
         "askQues": "Ställ fråga",
         "sheetOptions": {
           "header": "Gör en förfrågan",
-          "subheader": "Gör en begäran från momineen om din marhumeen eller dig själv.",
+          "subheader": "Gör en förfrågan från momineen för din marhumeen eller dig själv.",
           "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat på Zari-e-Imam Husain (a.s.) för din räkning"
+          "sehatDua": "Två e-felfria*",
+          "requestZiyarat": "Ziyarat på Zari-e-Imam Hossein(A) å dina vägnar"
         },
         "modal": {
           "titles": {
             "post": "Skapa inlägg | Uppdatera inlägg",
-            "livestream": "Annons",
+            "livestream": "Livestream",
             "hadiyah": "Skapa Hadiyah | Uppdatera Hadiyah"
           },
           "postCta": "Post | Uppdatering",
@@ -516,10 +514,10 @@
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Vem vill du ge det här till?",
-              "addPeopleToggle": "Låt andra vara en del av denna sawab också!",
+              "placeholder": "Vem vill du ge detta till?",
+              "addPeopleToggle": "Låt andra också vara en del av denna sågning!",
               "searchInput": "Bjud in momimeen från Bazm eller din kontaktlista",
-              "minUsersHeader": "Vill du ställa in minsta antal som deltagarna behöver välja?",
+              "minUsersHeader": "Vill du ställa in det minsta antal som deltagarna måste välja?",
               "minUsersInput": "Ange minsta antal"
             }
           },
@@ -527,15 +525,15 @@
             "När är det?",
             "När vill du börja streama?"
           ],
-          "whereIsIt": "Var är den?",
+          "whereIsIt": "Var är det?",
           "findLocation": "Hitta plats",
-          "locationSubtext": "Lägg till plats i ditt inlägg",
+          "locationSubtext": "Lägg till plats i inlägget",
           "addLocation": "Lägg till plats",
           "addPics": "Lägg till bilder i ditt inlägg",
-          "previewDes": "Så här skulle ditt inlägg se ut i andras flöde. Människor kan trycka på videon för att se den i helskärm.",
+          "previewDes": "Så här skulle ditt inlägg visas i andra personers flöde. Människor kan trycka på videon för att se den i helskärm.",
           "addToPost": "Lägg till i {postType} (valfritt)",
           "jsImgUploadFail": "Bilden laddades inte upp",
-          "jsAddDetailToPost": "Lägg till information i ditt inlägg",
+          "jsAddDetailToPost": "Lägg till detaljer i ditt inlägg",
           "jsValidEndDate": "Välj ett giltigt slutdatum",
           "jsSetLocation": "Ange plats för inlägget",
           "jsRemLocation": "Ange en plats eller ta bort det avsnittet",
@@ -548,37 +546,37 @@
       },
       "comments": {
         "name": "Kommentarer",
-        "loadPrevious": "Ladda tidigare kommentarer — Läs in tidigare svar",
-        "replyingTo": "Svar till:",
-        "noComments": "Inga kommentarer till det här inlägget ännu",
+        "loadPrevious": "Läs in tidigare kommentarer | Läs in tidigare svar",
+        "replyingTo": "Svara till:",
+        "noComments": "Inga kommentarer på det här inlägget än",
         "textboxPlaceholder": "Skriv din kommentar här",
-        "requestToLogin": "Logga in eller registrera dig för att starta diskussionen"
+        "requestToLogin": "Logga in eller Registrera dig för att starta diskussionen"
       },
       "post": {
         "addressYou": "Du",
-        "addressing": "ur | hans | henne",
+        "addressing": "Ur | Hans | Henne",
         "itemTypes": {
-          "avatar": "avatar bild",
-          "banner": "banderoll bild",
-          "status": "profil status"
+          "avatar": "Avatar bild",
+          "banner": "Bild av banderoll",
+          "status": "Profil status"
         },
         "displayPhrase": {
-          "common": "<strong>{användarnamn}</strong> uppdaterad {adressering} {objekt}",
+          "common": "<strong>{username}</strong> uppdaterad {addressing} {item}",
           "fatiha": [
-            "<strong>{användarnamn}</strong> begärd surah-fatiha för {adressering} {relation}",
-            "<strong>{användarnamn}</strong> requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+            "<strong>{username}</strong> begärde surah-fatiha för {addressing} {relation}",
+            "<strong>{username}</strong> begärde surah-fatiha &; namaz-e-wahshat för {addressing} {relation}"
           ]
         },
-        "dateUntil": "Tills: {date} vid {time}",
+        "dateUntil": "Till: {date} på {time}",
         "privatePost": "Det här inlägget är bara synligt för dig",
-        "descZiyaratRequest": "Du begärde att Ziyarat skulle utföras för din räkning på * haram * av Imam Husain (a.s.) den * {datum}*"
+        "descZiyaratRequest": "Du begärde att Ziyarat skulle utföras å dina vägnar vid *haram* av Imam Hossein(A) den *{date}*"
       },
       "addEditRel": {
         "title": {
           "request": "Begär Surah-al-fatiha",
           "addUpdate": [
             "Uppdatera älskade",
-            "Lägg till nära och kära"
+            "Lägg till älskad"
           ]
         },
         "heading": [
@@ -593,11 +591,11 @@
         "form": {
           "jsAddImg": "Lägg till bild för din älskade",
           "jsRemoveImg": "Ta bort bild",
-          "fullName": "Den avlidnes fullständiga namn",
+          "fullName": "Avlidnas fullständiga namn",
           "name_ph": "T.ex. Syed Zeeshan Haider Abidi",
           "fathersName": "Faderns namn (om tillgängligt)",
           "father_ph": "T.ex. Syed Tauqeer Husain",
-          "nameError": "Ange fullständigt namn med alla specialtecken",
+          "nameError": "Ange fullständigt namn medvåra eventuella specialtecken",
           "genderLabel": "Genus",
           "genderValue": [
             "Kvinnlig",
@@ -608,10 +606,10 @@
             "Marhoom är din"
           ],
           "selectRelation": "Välj relation",
-          "demiseLabel": "Avliden idag? Begär Namaz-e-Wahshat",
-          "demiseText": "Vi är mycket ledsna att höra om din förlust. Må Allah ge dig och din familj styrkan att bära denna förlust med tålamod och må Allah belöna den bortgångna själen med högsta platser i Jannah. Genom att välja det här alternativet kan du be momineen om Namaz-e-Wahshat för den avlidna själen.",
+          "demiseLabel": "Bortdömd idag? Begär Namaz-e-Wahshat",
+          "demiseText": "Vi är mycket ledsna att höra om din förlust. Må Allah ge dig och din familj styrkan att bära denna förlust med tålamod och må Allah belöna den bortdömda själen med högsta platser i Jannah. Genom att välja det här alternativet kan du be momineen om Namaz-e-Wahshat för den bortgångna själen.",
           "optional": "Valfri",
-          "dod": "Gick bort den",
+          "dod": "Avled den",
           "dob": "Föddes den"
         },
         "relation": [
@@ -621,21 +619,22 @@
         "born": "Född:",
         "died": "Dog:",
         "addMsg": "Vill du lägga till ett meddelande?",
-        "remainingChars": "Tecken: {antal} | Tecken: {antal} återstående",
-        "infoEditRelative": "Du kan redigera information för {name} i avsnittet <b>Konto > Marhumeen</b>",
+        "addMsg_ph": "Till exempel:\nInna lillahi wa inna ilaihe raje'un. Vänligen recitera en surah-e-fatiha och 2-rak'at namaz-e-wahshat för min farbror, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, som lämnade oss alla gråtande bakom för att träffa sin skapare.",
+        "remainingChars": "Tecken: {count} | Tecken: {count} återstående",
+        "infoEditRelative": "Du kan redigera information om {name} i avsnittet <b>Konto > Marhumeen</b>",
         "saveRequestCta": [
-          "Spara och begär",
+          "Spara & Begär",
           "Begäran"
         ],
-        "addUpdate": "Lägg till | Uppdatering",
+        "addUpdate": "Lägg till | Uppdatera",
         "jsRequesting": "Begär..",
         "jsAddSuccess": [
           "Lade till din älskade framgångsrikt!",
           "Uppdatera din älskade framgångsrikt!"
         ],
         "jsAddFail": "Det gick inte att lägga till din älskade. Försök igen senare.",
-        "jsReqSuccess": "Begäran skickas in framgångsrikt.",
-        "jsGettingMarhumeen": "Få din marhumeen.."
+        "jsReqSuccess": "Begäran har lämnats in framgångsrikt.",
+        "jsGettingMarhumeen": "Få din marhumeen .."
       },
       "askQues": {
         "title": "Ställ en fråga",
@@ -645,65 +644,61 @@
           "similarQues": "Dessa frågor kanske redan har svaret du letar efter.",
           "quesTextHeader": "Din fråga:",
           "selectCat": "Ställ in frågekategori:",
-          "askAnonLabel": "Fråga Anonymt?",
-          "askAnonInfo": "Ditt namn kommer inte att skickas till scholar när du begär ett svar för dina räkning, och det kommer inte heller att visas i vår app med den här frågan. Men anonyma frågor kanske inte besvaras snabbt.",
+          "askAnonLabel": "Fråga anonymt?",
+          "askAnonInfo": "Ditt namn kommer inte att skickas till forskaren när du begär ett svar för din räkning, och det kommer inte heller att visas i vår app med den här frågan. Men anonyma frågor kanske inte besvaras snabbt.",
           "askViaLabel": "Fråga Via",
-          "askSistaniInfo": "Du kan ställa en fråga som ska besvaras av kontoret för hans eminens, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Vi kommer att vidarebefordra frågan till deras webbplats (tillsammans med din profilinformation). Se till att du har läst <b>villkoren</b> ordentligt.",
-          "tncLabel": "Regler &villkor:",
-          "showHide": [
-            "Visa",
-            "Gömma"
-          ],
+          "askSistaniInfo": "Du kan ställa en fråga som ska besvaras av hans eminens, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Vi kommer att vidarebefordra frågan till deras hemsida (tillsammans med din profilinformation). Se till att du har läst <b>villkoren</b> ordentligt.",
+          "tncLabel": "Regler & Villkor:",
           "sistaniOrgTncInfo": "Överväg att följa punkter från deras webbplats innan du ställer en fråga, för om du inte följer nedanstående punkter kanske du inte hör tillbaka från dem eller kanske inte får några svar.",
           "userInfo": {
             "aboutLabel": "Om dig",
             "genderLabel": "Ditt kön",
             "bdayLabel": "Din födelsedag",
-            "bdayDesc": "Du kan bara ställa frågor om du är över 09 år gammal. Om du fortfarande är intresserad, vänligen kontakta oss."
+            "bdayDesc": "Du kan bara ställa frågor om du är över 09 år."
           },
-          "jsQuesAdded": "Frågan har lagts till framgångsrikt."
+          "jsQuesAdded": "Frågan har lagts till."
         },
         "askQuesCta": "Ställ din fråga"
       },
       "authPrompt": {
         "title": "Konto krävs",
-        "defLabel": "Logga in eller registrera dig för att fortsätta",
+        "defLabel": "Logga in eller Registrera dig för att fortsätta",
         "infoText": "Den här funktionen kräver att du loggar in eller registrerar dig innan du kan använda den. Klicka på <b>Logga in</b> om du redan är registrerad eller klicka på <b>Registrera dig</b> för att skapa ditt konto."
       },
       "location": {
         "title": "Ändra plats",
-        "search_ph": "Sök efter din plats",
-        "autoDetectInfo": "Ange din plats eller klicka på ikonen för automatisk upptäckt för att få din plats.",
-        "setLocation": "Ställ in plats",
+        "search_ph": "Sök på din plats",
+        "autoDetectInfo": "Ange din plats eller klicka på ikonen för automatisk identifiering för att hämta din plats.",
+        "setLocation": "Ange plats",
         "ipAddress": "IP-adress",
-        "alarmLocation": "Larmplats",
-        "basedOn": "Plats baserat på din {väljare}",
-        "jsDetecting": "Upptäck, vänta..",
-        "jsPermDenied": "Platsbehörighet nekad för app. Återställ platsinställningarna för den här appen genom att besöka avsnittet Inställningar i din telefon.",
-        "jsPosUnavailable": "Vi är ledsna, men positionen är inte tillgänglig för den här telefonen just nu. Försök igen senare.",
+        "alarmLocation": "Larm plats",
+        "basedOn": "Plats baserat på din {selector}",
+        "jsDetecting": "Upptäckar, vänta ..",
+        "jsPermDenied": "Platsbehörighet nekad för app. Återställ platsinställningen för den här appen genom att besöka avsnittet Inställningar i din telefon.",
+        "jsPosUnavailable": "Vi beklagar, men positionen är inte tillgänglig för den här telefonen just nu. Försök igen senare.",
         "jsMatchNotFound": "Det gick inte att hitta några matchande platser..",
         "jsEnterValidLoc": "Ange en giltig plats",
-        "jsGeoUnavailable": "Vi är ledsna, men positionen är inte tillgänglig för den här telefonen just nu. Försök igen senare.",
+        "jsGeoUnavailable": "Vi beklagar, men positionen är inte tillgänglig för den här telefonen just nu. Försök igen senare.",
         "jsLocMissing": "Det gick inte att hitta din plats. Ange plats manuellt.",
         "jsSelectedLoc": "Det finns ett fel med den här platsen. Försök igen"
       },
       "readText": {
         "ctaLabel": "Läsa",
-        "title": "Dua: {titel}",
+        "title": "Två: {title}",
         "arabicCta": "Arabiska",
         "englishCta": "Engelska",
         "translatedCta": "Översatt"
       },
       "reqAccess": {
-        "heading": "åtkomst krävs",
-        "subheading": "Vi behöver behörighet för att komma åt din kamera",
-        "subtext": "Tillåt åtkomst genom att klicka på knappen nedan:",
-        "ctaLabel": "tillåt åtkomst"
+        "heading": "Åtkomst krävs",
+        "subheading": "Vi behöver tillstånd för att komma åt din kamera",
+        "subtext": "Vänligen tillåt åtkomst genom att klicka på knappen nedan:",
+        "ctaLabel": "Tillåt åtkomst"
       },
       "shareBtn": {
         "subtext": "Klicka på ett av alternativen nedan för att dela detta i respektive app:",
         "jsCopyToCB": "Kopieras till Urklipp",
-        "copyText": "Klicka på <b>Kopiera</b> ikonen ovan för att kopiera innehållet nedan:"
+        "copyText": "Klicka på <b>ikonen Kopiera</b> ovan för att kopiera innehållet nedan:"
       },
       "verifyMob": {
         "title": [
@@ -711,7 +706,7 @@
           "Ange koden"
         ],
         "page1": {
-          "infoText1": "Vi behöver ditt mobilnummer för att verifiera din identitet. Du kan också få enstaka uppdateringar.",
+          "infoText1": "Vi behöver ditt mobilnummer för att verifiera din identitet. Du kan också få uppdateringar då och då.",
           "infoText2": [
             "Ange ditt nummer och klicka på knappen för att få din bekräftelsekod:",
             "Ange ditt nummer och klicka på en knapp för att få din bekräftelsekod:"
@@ -721,28 +716,28 @@
           "mobileLabel": "Mobilnummer",
           "mobileLabel_ph": "Ange ditt mobilnummer",
           "otpViaSMS": "Få via SMS",
-          "viaWhatsApp": "Få via WhatsApp",
-          "viaTelegram": "Få via Telegram",
-          "viaSignal": "Få via Signal"
+          "viaWhatsApp": "Hämta via WhatsApp",
+          "viaTelegram": "Hämta via Telegram",
+          "viaSignal": "Hämta via Signal"
         },
         "page2": {
-          "header": "Vi har skickat en 6-siffrig bekräftelsekod till ditt nummer ({nummer})",
+          "header": "Vi har skickat en 6-siffrig bekräftelsekod till ditt nummer ({number})",
           "enterCodeLabel": "Ange kod",
           "enterCode_ph": "Ange den 6-siffriga koden",
           "resendCode": "Skicka kod igen",
           "notUsingMobile": "Använder du inte <strong>{number}?</strong>",
           "changeNumber": "Ändra nummer"
         },
-        "jsVerifySuccess": "Mobil verifierad framgångsrikt",
-        "jsVerifyError": "Ett fel inträffade. Försök igen senare.",
+        "jsVerifySuccess": "Mobilen har verifierats",
+        "jsVerifyError": "Ett fel uppstod. Försök igen senare.",
         "jsSendOtpFailed": "Det gick inte att skicka OTP. Försök igen senare.",
-        "jsSendOtpSuccess": "Engångslösenord skickas till {mobile}",
-        "jsTooManyRequests": "Ser ut som att du har försökt för många gånger redan. Vänta en minut eller två och försök igen."
+        "jsSendOtpSuccess": "OTP skickas till {mobile}",
+        "jsTooManyRequests": "Det verkar som om du har försökt för många gånger redan. Vänta en minut eller två och försök igen."
       },
       "userSettings": {
         "personalSharingMsg": "Anpassa delningsmeddelande",
-        "changePwd": "Ändra lösenord — Ställ in lösenord",
-        "changeLang": "Ändra språk",
+        "changePwd": "Ändra lösenord | Ange lösenord",
+        "changeLang": "Byt språk",
         "publishToFeed": "Publicera mina ändringar i flödet också."
       },
       "userSettingsModal": {
@@ -752,55 +747,56 @@
           "setLang": "@:comps.userSettings.changeLang"
         },
         "sign": {
-          "addNameToMsgs": "Lägg till mitt namn i meddelanden",
-          "sharingDesc": "När du delar externt kan dina meddelanden se ut så här:",
+          "addNameToMsgs": "Lägga till mitt namn i meddelanden",
+          "sharingDesc": "När du delar externt kan dina meddelanden se ut som nedan:",
           "sharingTextDemo": [
             "Lyssna på denna Nauha på Bazm App",
             "{name} rekommenderar att du lyssnar på denna Nauha på Bazm App"
           ],
-          "addSignDesc": "Vill du lägga till din signatur också?",
+          "addSignDesc": "Vill du också lägga till din signatur?",
+          "addSignPlaceholder": "Till exempel\nMed vänliga hälsningar,\n{name}",
           "signDesc": "När du delar din önskan med vänner i den här appen läggs din signatur till i meddelandena. Det kan till exempel se ut som nedan:"
         },
         "changePwd": {
           "currentPwdLabel": "Ange ditt befintliga lösenord:",
-          "currentPwdPH": "Ange aktuellt lösenord",
+          "currentPwdPH": "Ange nuvarande lösenord",
           "newPwdLabel": "Ange ett nytt lösenord:",
           "newPwdPH": "Ange nytt lösenord"
         },
         "changeLang": {
           "searchYourLang": "Sök på ditt språk",
-          "desc": "Välj det språk som du vill se appinnehållet på. Klicka på ett språk och vänta (det tar någon gång att ladda översättningen) för att se hur den här frasen visas på valt språk."
+          "desc": "Välj det språk som du vill se appinnehållet på. Klicka på ett språk och vänta (det tar lite tid att ladda översättningen) för att se hur den här frasen visas på valt språk."
         },
         "jsPwdInvalid": "Lösenordet har ogiltiga tecken.",
-        "jsPwdCharCount": "Lösenordet får inte vara mindre än 8 tecken.",
+        "jsPwdCharCount": "Lösenordet får inte vara kortare än 8 tecken.",
         "jsSelectLang": "Välj ett språk först.",
         "jsLangSet": "Språket har ställts in på {lang}",
         "jsPrefSaved": "Anpassningsinställningar sparade."
       },
       "forgotPwd": {
-        "title": "Glömt lösenordet?",
+        "title": "Glömt ditt lösenord?",
         "introText": "Det är enkelt att återställa ditt lösenord. Välj en metod för att fortsätta:",
         "usePhoneCta": "Använd telefon",
         "useEmailCta": "Använd e-post",
-        "sendEmailIntro": "Ange den e-postadress som du skapade ditt konto med så skickar vi ett e-postmeddelande med en länk för att konfigurera ett nytt lösenord för ditt konto.",
+        "sendEmailIntro": "Ange e-postadressen som du skapade ditt konto med så skickar vi ett e-postmeddelande med en länk för att konfigurera ett nytt lösenord för ditt konto.",
         "emailInputLabel": "Din registrerade e-postadress",
-        "sendEmailCta": "Skicka återställningsmeddelande",
-        "sentEmailText": "Om du har ett konto hos oss får du ett e-postmeddelande om lösenordsåterställning inom kort på <strong>{email}</strong>. Vänligen kontrollera din e-post för länken.",
+        "sendEmailCta": "Skicka e-post för återställning",
+        "sentEmailText": "Om du har ett konto hos oss får du ett e-postmeddelande om återställning av lösenord inom kort på <strong>{email}</strong>. Vänligen kontrollera din e-post för länken.",
         "notUsingEmailText": "Använder du inte <strong>{email}?</strong>",
         "changeEmailCta": "Ändra e-postadress",
-        "phoneIntroText": "Ange telefonnumret som lagts till i ditt konto. Vi skickar en engångslösenord för att verifiera ditt ägarskap och i nästa steg kan du skapa ett nytt lösenord.",
+        "phoneIntroText": "Ange telefonnumret som har lagts till i ditt konto. Vi skickar en engångslösenord för att verifiera ditt ägarskap och i nästa steg kan du skapa ett nytt lösenord.",
         "phoneInputLabel": "Ditt mobilnummer",
         "sendOtpCta": "Skicka OTP",
-        "backToLoginCta": "Tillbaka till Logga in",
-        "disclaimerText": "Observera att du bara får ett {objekt} om du har {artikeln} registrerad hos oss",
-        "jsMailSent": "Skickad e-post",
+        "backToLoginCta": "Tillbaka till inloggning",
+        "disclaimerText": "Observera att du endast får en {item} om du har {item} registrerad hos oss",
+        "jsMailSent": "E-post skickad",
         "title2": "Gör anspråk på ditt konto",
         "claimIntroHeading": "Gör anspråk på ditt konto snabbt!",
         "claimIntroText": "Tack för att du gick med oss. Vi har skapat ett konto åt dig nu. Få åtkomst till ditt konto genom att återställa lösenordet med någon av följande metoder:"
       },
       "resetPwd": {
         "title": "Återställ lösenord",
-        "introText": "Ange ett säkert lösenord för ditt konto här. Klicka på {icon} för att säkerställa att du anger rätt lösenord.",
+        "introText": "Ange ett säkert lösenord för ditt konto här. Klicka på {icon} för att kontrollera att du anger rätt lösenord.",
         "pwdInputLabel": "Ange nytt lösenord",
         "pwdInputPH": "Ange nytt lösenord",
         "invalidPwdChars": "Ogiltiga tecken i lösenordet",
@@ -811,12 +807,12 @@
       },
       "moreBtn": {
         "jsItemDeleted": "{item} har tagits bort.",
-        "jsErrReporting": "Kan inte rapportera detta just nu. Försök igen senare.",
-        "jsAlreadyReported": "Du har redan rapporterat det här {objektet}. Du kan inte rapportera det mer än en gång.",
-        "jsPromptHeading": "Att rapportera ett objekt resulterar i att det är mindre chanser att visas i ditt eller andras flöde / sidor. Vill du fortfarande anmäla detta?",
+        "jsErrReporting": "Kan inte rapportera detta för tillfället. Försök igen senare.",
+        "jsAlreadyReported": "Du har redan rapporterat detta {item}. Du kan inte rapportera det mer än en gång.",
+        "jsPromptHeading": "Att rapportera ett objekt resulterar i att det är lägre chanser att visas i ditt eller andras flöde / sidor. Vill du ändå rapportera detta?",
         "jsReporting": "Rapportering {itemType}..",
         "jsReportingErr": "Det gick inte att skicka in din begäran just nu. Försök igen senare.",
-        "jsReported": "{item} rapporterad. Tack för ditt bidrag."
+        "jsReported": "{item} rapporterade. Tack för ditt bidrag."
       },
       "editProfileModal": {
         "jsEmptyData": "Inget att uppdatera!",
@@ -825,15 +821,15 @@
       "reqZiyarat": {
         "title": "Begär Ziyarat",
         "cta": "Begäran",
-        "header": "Begär Ziyarat på Imam Hussain (a.s.) Helgedom i Karbala för din räkning.",
+        "header": "Begär Ziyarat vid Imam Hossein(A) Shrine i Karbala å dina vägnar.",
         "desc": {
-          "p1": "Varje fredag, låt <strong>Ziyarat reciteras för din räkning</strong> vid Imam Hussains helgedom (a.s.) i Karbala, Irak! Allt du behöver göra är att göra förfrågan <strong>före slutet av torsdag kväll</strong>. Du är dock aldrig för sent; om din begäran kommer in för sent kommer den att registreras för nästa vecka.",
-          "p2": "Vi meddelar dig när ziyarat har reciterats för din räkning.",
-          "p3": "När du begär för första gången kommer dina uppgifter att delas med vår tjänsteleverantör. Läs våra regler och villkor för att veta mer."
+          "p1": "Varje fredag, låt <strong>Ziyarat recitera å dina vägnar</strong> vid Imam Hosseins(A) helgedom i Karbala, Irak! Allt du behöver göra är att göra en begäran <strong>före slutet av torsdag kväll</strong>. Du är dock aldrig för sent; Om din begäran kommer in för sent registreras den för följande vecka.",
+          "p2": "Vi meddelar dig när ziyarat har reciterats å dina vägnar.",
+          "p3": "Obs: När du begär för första gången kommer dina uppgifter att delas med vår tjänsteleverantör. Läs våra villkor för att veta mer."
         },
         "jsRegistered": "Tack! Din begäran har registrerats. Du kommer att få ett bekräftelsemail inom kort.",
         "jsAlreadyRegistered": "Du har redan registrerat dig för Ziyarat denna torsdag. Anmäl dig nästa vecka till nästa veckas ziyarat.",
-        "jsConfirm": "För att registrera dig för denna begäran måste vi dela dina uppgifter (t.ex. fullständigt namn, kön etc.) med vår tjänsteleverantör. Detta krävs endast för första gången. Vänligen bekräfta att fortsätta.",
+        "jsConfirm": "För att registrera oss för denna begäran måste vi dela dina uppgifter (t.ex. fullständigt namn, kön etc.) med vår tjänsteleverantör. Detta krävs endast för första gången. Vänligen bekräfta att du fortsätter.",
         "jsDeclined": "Okej! Kanske senare."
       },
       "currencySelector": {
@@ -1133,17 +1129,17 @@
           ]
         },
         "rememberLogin": "Kom ihåg inloggning",
-        "forgotPwd": "Glömt lösenord?",
+        "forgotPwd": "Glömt lösenordet?",
         "connectUsing": "Eller anslut med",
-        "useSavedAccount": "Använd sparade konton",
+        "useSavedAccount": "Använda sparade konton",
         "lastLogin": "Senaste inloggning",
         "needAccount": "Behöver du ett konto?",
         "resetPwdSuccess": "Du kan använda ditt nya lösenord för att logga in nu",
         "jsEnterFullName": "Ange ditt fullständiga namn.",
         "jsEnterValidName": "Ange ett giltigt namn.",
         "jsEnterValidEmail": [
-          "Ange ett giltigt e-postmeddelande.",
-          "E-postmeddelandet har ogiltiga tecken. Ange ett giltigt e-postmeddelande."
+          "Ange en giltig e-postadress.",
+          "E-postmeddelandet innehåller ogiltiga tecken. Ange en giltig e-postadress."
         ],
         "jsSelectCountryCode": "Välj din landskod från listan",
         "jsEnterMobile": "Ange ditt mobilnummer.",
@@ -1151,36 +1147,36 @@
         "jsEnterPwd": "Ange ditt lösenord!",
         "jsEnterValidPwd": [
           "Lösenordet har ogiltiga tecken. Ange ett giltigt lösenord.",
-          "Lösenordet ska vara minst {num} tecken."
+          "Lösenordet ska bestå av minst {num} tecken."
         ],
         "jsAccountSuccess": "Kontot har skapats",
         "jsFbError": "Det gick inte att få dina Facebook-kontouppgifter. Försök igen.",
         "jsPromptClosedErr": "Inloggningsprompten stängdes innan den avslutades. Försök igen."
       },
-      "gotoSignup": "Goto Registrera dig",
+      "gotoSignup": "Gå till Registrera dig",
       "alreadyHasAccount": "Har du redan ett konto?",
-      "gotoLogin": "Goto-inloggning",
-      "gotoProfile": "Goto-profil",
-      "msgForAuthUser": "<p>Vi tror att du landade här av misstag, eftersom du redan är inloggad.</p> <p>Du kan kontrollera din profil för att se hur den ser ut, eller använda en av länkarna nedan för att bläddra bland andra avsnitt:</p>",
+      "gotoLogin": "Gå till Logga in",
+      "gotoProfile": "Gå till profil",
+      "msgForAuthUser": "<p>Vi tror att du landade här av misstag, eftersom du redan är inloggad.</p><p>Du kan kontrollera din profil för att se hur den ser ut, eller använd en av länkarna nedan för att bläddra bland andra avsnitt:</p>",
       "jsLoggedOut": "Du har loggats ut.",
       "jsLogoutHeading": "Logga ut från konto?",
-      "jsLogoutText": "Detta tar bort informationen som sparats lokalt vilket gör det möjligt att logga in <b>snabbt</b>. Fortsätta?"
+      "jsLogoutText": "Detta tar bort informationen som sparats lokalt vilket möjliggör snabb <b>inloggning.</b> Fortsätta?"
     },
     "banners": {
       "appInstall": {
         "card": {
           "heading": "Installera Bazm { platform }",
-          "desc": "Ladda ner Android-appen för en bättre upplevelse, personligt innehåll, aviseringar och allt av ditt intresse från hela dig! | Installera appgenväg (bokmärke) för att komma åt den direkt från din startskärm nästa gång för en bättre upplevelse! Det tar knappt något utrymme på din enhet men hjälper dig att snabbt komma tillbaka till appen.",
+          "desc": "Ladda ner vår Android-app för en bättre upplevelse, personligt innehåll, aviseringar och allt du är intresserad av runt omkring dig! | Installera appgenväg (bokmärke) för att komma åt den direkt från din startskärm nästa gång för en bättre upplevelse! Det tar knappt något utrymme på din enhet men hjälper dig att snabbt komma tillbaka till appen.",
           "cta": {
             "action": "Installera",
             "skip": "Kanske senare"
           }
         },
         "prompt": {
-          "heading": "Installera Bazm genväg?"
+          "heading": "Installera Bazm-genväg?"
         },
         "popover": {
-          "text": "Klicka på ikonen Dela (ser ut som en till höger) <strong>NEDAN</strong> och klicka sedan på <strong>Lägg till på startskärmen</strong>. Klicka på \"Spara\" för att avsluta, och sedan kan du komma åt appen från genvägen på din startskärm!"
+          "text": "Klicka på ikonen Dela (ser ut som en till höger) <strong>NEDAN</strong> och klicka sedan på <strong>Lägg till på startskärmen</strong>. Klicka på \"Spara\" för att avsluta, och sedan kan du komma åt appen från genvägen på startskärmen!"
         },
         "nonSafari": {
           "heading": "Bazm fungerar bättre på Apple Safari",
@@ -1190,19 +1186,19 @@
         }
       },
       "webFeedback": {
-        "heading": "Hur är din upplevelse hittills?",
-        "text": "<p>Gillar du den nya appen? Finns det något vi kan förbättra? Hjälp oss gärna med din feedback för att förbättra upplevelsen för dig!</p> <p>Detta skulle ta bara några minuter, och vi uppskattar mycket din tid!</p>",
-        "cta": "Ge feedback",
+        "heading": "Hur är din erfarenhet hittills?",
+        "text": "<p>Gillar du den nya appen? Finns det något vi kan förbättra? Hjälp oss gärna med din feedback för att förbättra upplevelsen för dig!</p><p>Detta skulle ta bara några minuter, och vi uppskattar mycket din tid!</p>",
+        "cta": "Ge respons",
         "dismiss": "Kanske senare"
       },
       "advertise": {
         "heading": "Annonsera på Bazm",
-        "text": "<p>Nå miljontals shiamuslimer runt om i världen med din produkt på Bazm eller interagera med varumärken och användare.</p> <p>Börja för så lågt som $ 1 / dag!</p>",
+        "text": "<p>Nå miljontals shiamuslimer runt om i världen med din produkt på Bazm eller interagera med varumärken och användare.</p><p>Börja för så lågt som $ 1 / dag!</p>",
         "cta": "Lära sig mer"
       },
       "upgradeSafari": {
-        "header": "Begränsad upplevelse på Safari",
-        "description": "<strong>Den här webbläsaren (Safari) är inte optimerad för bästa upplevelse</strong>. Genom att fortsätta använda vår app här kommer du att missa ett antal funktioner som varningsmeddelanden, nära uppdateringar, offline-läge och så mycket mer.<br/> Vi rekommenderar att du skaffar en av nedanstående webbläsare för en förbättrad upplevelse. Klicka på någon av knapparna för att ladda ner webbläsaren från AppStore:",
+        "header": "Begränsad erfarenhet av Safari",
+        "description": "<strong>Den här webbläsaren (Safari) är inte optimerad för bästa upplevelse</strong>. Genom att fortsätta använda vår app här kommer du att missa ett antal funktioner som varningsmeddelanden, närliggande uppdateringar, offline-läge och så mycket mer.<br/>Vi rekommenderar att du skaffar en av nedanstående webbläsare för en förbättrad upplevelse. Klicka på någon av knapparna för att ladda ner webbläsaren från AppStore:",
         "ctas": {
           "getGoogle": "Skaffa Google Chrome",
           "getFirefox": "Skaffa Mozilla Firefox",
@@ -1213,61 +1209,54 @@
       },
       "cookieBanner": {
         "header": "Om att spara cookies på din enhet",
-        "p1": "Vi lagrar inga cookies på din {enhet} men tredjepartsappar som används i vår app kan (t.ex. Google Analytics). Vi använder istället permanent lagring för att lagra viktiga data, och i de flesta fall krypteras detta i lagring och under överföring.",
-        "p2": "Genom att fortsätta använda den här appen bekräftar du härmed att du inte har några problem med våra val. För att ta reda på mer om våra cookies och dataanvändning, se vår <a href ='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+        "p1": "Vi lagrar inga cookies på din {device} men tredjepartsappar som används i vår app kan (till exempel Google Analytics). Vi använder istället permanent lagring för att lagra all viktig data, och i de flesta fall krypteras detta i lagring och under överföring.",
+        "p2": "Genom att fortsätta använda den här appen bekräftar du härmed att du inte har några problem med våra val. För att ta reda på mer om våra cookies och dataanvändning, se vår <a href='https://bazm.in/privacy-policy' target='_blank'>sekretesspolicy.</a>"
       }
     },
     "meta": {
       "titleBranding": " __ Bazm - Social Network App för shiamuslimer runt om i världen! Ladda ner appen idag.",
       "home": {
-        "title": "Bazm - Online shia community app!",
-        "description": "Bazm-appen är Shia community-appen som uppfyller alla dina dagliga behov av deen &mazhab. Hitta Nauhe, Majalis, Dua, Aamaal, Ziyarat, Böcker, etc. för alla datum och tillfällen. Titta på och gör livestream-evenemang och majalis med shiamuslimer runt om i världen från bekvämligheten av ditt hem. Gå med idag!"
+        "title": "Bazm - Online Shia community app!",
+        "description": "Bazm app är Shia community app som uppfyller alla dina dagliga behov av deen &; mazhab. Hitta Nauhe, Majalis, Dua, Aamaal, Ziyarat, böcker, etc. för alla datum och tillfällen. Titta på och gör live-stream evenemang och majalis med shia-muslimer runt om i världen från bekvämligheten av ditt hem. Gå med idag!"
       },
       "feed": {
-        "title": "Hitta skräddarsytt innehåll och dela med shia-communityn runt dig och världen",
-        "description": "Hitta och dela nyheter, evenemang och innehåll med shia momineen runt och håll dem informerade om alla evenemang du är värd för. Läs mer om allt som händer nära dig i appen."
+        "title": "Hitta skräddarsytt innehåll och dela med shia-samhället runt dig och världen",
+        "description": "Hitta och dela nyheter, evenemang och innehåll med shia momineen runt, och håll dem informerade om alla evenemang du är värd för. Läs om allt som händer nära dig i appen."
       },
       "mediaHome": {
         "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal och så mycket mer för dig!",
-        "description": "Hitta Nauhe, Majalis, Dua, Aamaal, ziyarat och så mycket mer för alla datum och tillfällen. Titta på och gör live-stream majalis från bekvämligheten av ditt hem! Gå med i Shia sociala nätverksapp som hjälper dig med rutinmässiga uppgifter för deen &mazhab. Gå med idag!"
+        "description": "Hitta Nauhe, Majalis, Dua, Aamaal, ziyarat och så mycket mer för alla datum och tillfällen. Titta och livestreama majalis från bekvämligheten av ditt hem! Gå med i Shia sociala nätverk app som hjälper dig med rutinuppgifter deen &; mazhab. Gå med idag!"
       },
       "toolsHome": {
-        "title": "Bazm - Dagligt Azaanlarm, frågesvar och verktyg för shiamuslimer",
-        "description": "Få daglig påminnelse för Adhan, hitta och ställ frågor-svar om ämnen av deen &islam, eller be Surah-fatiha eller Namaz-e-Wahshat om din marhumeen, och fler verktyg på Bazm. Gå med i Shia sociala nätverksapp som hjälper dig med rutinmässiga uppgifter av deen. Hitta Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat för alla datum och tillfällen. Livestreama evenemang och majalis från bekvämligheten av ditt hem. Gå med idag!"
+        "title": "Bazm - Dagligt Azaan-larm, fråga-svar och verktyg för shiamuslimer",
+        "description": "Få daglig påminnelse för Adhan, hitta och fråga fråga-svar om ämnen av deen & islam, eller begär Surah-fatiha eller Namaz-e-Wahshat för din marhumeen och fler verktyg på Bazm. Gå med i Shia sociala nätverk app som hjälper dig med rutinuppgifter av deen. Hitta Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat för alla datum och tillfällen. Livestreama evenemang och majalis från bekvämligheten av ditt hem. Gå med idag!"
       },
       "tasbeehCounter": {
-        "title": "Automatisk tasbeeh-räknare med röstverktyget __ Tasbeeh Counter",
-        "description": "Att recitera otaliga tasbeeh är nu enklare med våra Audio tasbeeh-räknare. Recitera din tasbeeh medan du kör eller arbetar, håll fortfarande koll på räkningen med rösträknare. Få det här verktyget och andra gillar det på Bazm-appen."
+        "title": "Automatisk tasbeeh-räknare med röstverktyg __ Tasbeeh-räknare",
+        "description": "Att recitera otaliga tasbeeh är nu lättare med våra Audio tasbeeh-räknare. Recitera din tasbeeh medan du kör eller arbetar, håll fortfarande reda på räkningen med rösträknare. Få det här verktyget och andra som det på Bazm-appen. Ladda ner idag."
       },
       "accountHome": {
         "title": "Bazm - Skapa ditt gratis konto idag och få hjälp med dina dagliga behov av deen!",
-        "description": "Gå med i Bazm-appen idag för att möta alla dina behov av att deeniyat. Hitta nohe / nauhe, majalis, dua, ziyarat, aamaal för alla datum och tillfällen. Live-streama och titta på majalis &evenemang från hela dig; hitta inlägg, innehåll och momineen från hela dig och världen, och så mycket mer i appen."
+        "description": "Gå med i Bazm-appen idag för att möta alla dina behov till deeniyat. Hitta nohe / nauhe, majalis, dua, ziyarat, aamaal för alla datum och tillfällen. Live-stream och titta på majalis & evenemang från omkring dig; Hitta inlägg, innehåll och momineen från hela dig och världen, och så mycket mer i appen. Gå med idag!"
       },
       "nauheListPage": {
         "title": "Lyssna på Nauhe från populära nauhakhwan runt om i världen",
-        "description": "Lyssna på nauhe från alla år och alla populära nauhakhwan från hela världen på Bazm app."
+        "description": "Lyssna på nauhe från alla år och alla populära nauhakhwan från hela världen på Bazm app. Ladda ner idag."
       },
       "soazListPage": {
         "title": "Lyssna på Soaz från populära Soazkhwan runt om i världen",
-        "description": "Lyssna på Soaz från alla år och alla populära Soazkhwan från hela världen på Bazm-appen."
+        "description": "Lyssna på Soaz från alla år och alla populära Soazkhwan från hela världen på Bazm-appen. Ladda ner idag."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Hitta mer nauhe, ljud/video majalis, dua, ziyarat, aamaal, etc. på Bazm",
-        "description": "Hitta ljud/video majalis från Maulana och Zakir-e-Ahlbayt från nära dig och runt om i världen. Lyssna på och titta på de senaste majalis- och livestream-sessionerna i Bazm-appen. Ladda ner appen idag och gå med i miljontals shiamuslimer runt om i världen!"
+        "title": "{type} majalis / majlis på Bazm - Hitta mer nauhe, ljud / video majalis, dua, ziyarat, aamaal, etc. på Bazm",
+        "description": "Hitta ljud-/videomajalis från Maulana och Zakir-e-Ahlbayt nära dig och runt om i världen. Lyssna på och titta på senaste majalis och livestream-sessioner på Bazm-appen. Ladda ner appen idag och gå med miljontals shiamuslimer runt om i världen!"
       },
       "duasPage": {
         "title": [
-          "Duas och aamaal för månaden {månad} på Bazm - Hitta mer nauhe, ljud / video majalis, dua, ziyarat, aamaal, etc. på Bazm",
+          "Duas och aamaal för månaden {month} på Bazm - Hitta mer nauhe, ljud / video majalis, dua, ziyarat, aamaal, etc. på Bazm",
           "Duas och aamaal för alla månader på Bazm - Hitta mer nauhe, ljud / video majalis, dua, ziyarat, aamaal, etc. på Bazm"
         ],
-        "description": "Hitta duas, aamaal, ziyarat och munajat för alla månader på Bazm, datum och händelsemässigt. Ladda ner appen idag och gå med i miljontals shiamuslimer runt om i världen!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Förklara med korrekta referenser och i sammanhang för shiamuslimer. Ge mig också referenser som lista med länkar till källor.",
-        "newQues": "Hej, låt oss starta en ny konversation. Jag har nedan fråga:\n{quesTex}",
-        "continuePrev": "Låt oss fortsätta vår diskussion från {date}. {quesTex}"
+        "description": "Hitta duas, aamaal, ziyarat och munajat för alla månader på Bazm, datum och händelsevis. Ladda ner appen idag och gå med miljontals shiamuslimer runt om i världen!"
       }
     }
   }
