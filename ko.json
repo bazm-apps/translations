@@ -3,12 +3,12 @@
     "common": {
       "refresh": "당겨서 새로 고침",
       "refreshing": "상쾌한...",
-      "loadingMore": "더 많은 로딩 중...",
+      "loadingMore": "더 로딩 중...",
       "checking": "확인...",
-      "sendOtp": "OTP 보내기..",
+      "sendOtp": "OTP 전송..",
       "dismiss": "해고하다",
       "invite": "초대하다",
-      "showMore": "더 보기 | 더 보기",
+      "showMore": "더 보기 | 더보기",
       "play": "놀다",
       "pause": "일시 중지",
       "playing": "재생",
@@ -22,7 +22,7 @@
       "change": "잔돈",
       "continue": "계속하다",
       "select": "고르다",
-      "saveChanges": "변경 내용 저장 | 저장 | 업데이트",
+      "saveChanges": "변경 사항 저장 | 저장 | 업데이트",
       "newBadge": "새로운",
       "login": "로그인",
       "logout": "로그아웃",
@@ -32,21 +32,21 @@
       "privacy": "사생활",
       "contactUs": "문의",
       "home": "집",
-      "facebook": "페이스 북",
-      "google": "구글",
+      "facebook": "페이스북",
+      "google": "구글(Google)",
       "you": "너",
       "retry": "재시도",
       "send": "보내기",
       "submit": "전송",
       "share": "공유 | 지금 공유",
       "at": "에",
-      "untilNextTime": "문제 없어요. 다음까지!",
+      "untilNextTime": "문제 없어요. 다음까지시간!",
       "plzWait": "기다리세요..",
       "saving": "절약.. | 업데이트..",
       "search": "검색",
       "late": "늦다",
       "done": "수행",
-      "featureUnavailable": "이 기능은 곧 제공될 예정입니다. 관심을 보여줘서 고마워!",
+      "featureUnavailable": "이 기능은 곧 제공될 예정입니다. 관심을 보여 주셔서 감사합니다!",
       "actions": {
         "cancel": "취소",
         "notify": "통보하다",
@@ -58,22 +58,22 @@
         "uploading": "업로드..",
         "deleting": "삭제..",
         "requesting": "요청..",
-        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
-        "jsShareFileTypeError": "죄송합니다. 여기서 {fileType} 파일을 공유할 수 없습니다.",
+        "audienceHeader": "d를 {action}Momineen | 이것을 {action}Momineen",
+        "jsShareFileTypeError": "죄송하지만 여기서 {fileType} 파일을 공유할 수 없습니다.",
         "jsUpdateAvailable": {
-          "header": "업데이트 가능",
-          "message": "앱의 캐시된 버전이 표시됩니다. '새로 고침'을 클릭하여 새 콘텐츠 및 기능을 업데이트하고 로드합니다.",
+          "header": "업데이트 사용 가능",
+          "message": "앱의 캐시된 버전이 표시됩니다. '새로 고침'을 클릭하여 새 콘텐츠와 기능을 업데이트하고 로드합니다.",
           "cta": "리프레쉬"
         },
         "jsImgUploaded": "이미지가 성공적으로 업로드되었습니다!",
-        "jsImgUploadErr": "이미지 업로드에 실패했습니다. 나중에 다시 시도하십시오.",
+        "jsImgUploadErr": "이미지 업로드에 실패했습니다. 나중에 다시 시도해 주세요.",
         "jsLoadingDelay": "예상보다 시간이 조금 더 걸립니다. 이 요청을 처리하는 동안 잠시 기다려 주십시오."
       },
-      "unknown": "알려지지 않은",
       "close": "닫다",
       "yes": "예",
       "no": "아니요",
       "idk": "몰라요",
+      "unknown": "알려지지 않은",
       "completed!": "완료!",
       "pushPrompt": {
         "heading": "최신 상태 유지",
@@ -85,22 +85,22 @@
     },
     "errors": {
       "service": {
-        "unavailable": "현재 서비스를 사용할 수 없습니다. 나중에 다시 시도하십시오.",
-        "unknown": "알 수 없는 오류가 발생했습니다. 나중에 다시 시도하십시오.",
-        "general": "요청을 처리하는 동안 오류가 발생했습니다. 나중에 다시 시도하십시오."
+        "unavailable": "현재 서비스를 사용할 수 없습니다. 나중에 다시 시도해 주세요.",
+        "unknown": "알 수 없는 오류가 발생했습니다. 나중에 다시 시도해 주세요.",
+        "general": "요청을 처리하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주세요."
       },
       "content": {
-        "unavailable": "현재 콘텐츠를 로드할 수 없습니다. 잠시 후 다시 시도하십시오.",
-        "itemDetailUnavailable": "이 {항목}에 대한 세부 정보를 찾을 수 없습니다.",
-        "loadMoreError": "더 많은 항목을 로드하지 못했습니다. 나중에 다시 시도하십시오."
+        "unavailable": "지금은 콘텐츠를 로드할 수 없습니다. 잠시 후 다시 시도해 주세요.",
+        "itemDetailUnavailable": "이 {item}에 대한 세부 정보를 찾을 수 없습니다.",
+        "loadMoreError": "더 많은 항목을 로드하지 못했습니다. 나중에 다시 시도해 주세요."
       },
       "url": {
-        "invalid": "잘못된 URL입니다. 새 URL로 시도해 보십시오."
+        "invalid": "URL이 잘못되었습니다. 새 URL로 시도하십시오."
       },
       "page404": {
         "title": "페이지를 찾을 수 없음",
-        "desc": "원하는 페이지를 찾을 수 없습니다!",
-        "ctaLabel": "고토 홈"
+        "desc": "찾으시는 페이지를 찾을 수 없습니다!",
+        "ctaLabel": "고토 홈 (Goto Home)"
       }
     },
     "navbar": {
@@ -110,7 +110,7 @@
       "postDetail": {
         "commonTitle": "세부",
         "fatihaTitle": "수라-파티하",
-        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "fatihaWithNamaz": "수라-파티하(Surah-fatiha) & 나마즈-에-와샤트(Namaz-e-Wahshat)",
         "avatarUpdateTitle": "프로필 사진",
         "bannerUpdateTitle": "표지 이미지(더 이상 사용되지 않음)",
         "statusUpdateTitle": "상태 업데이트"
@@ -121,7 +121,7 @@
         "name": "집",
         "postDetail": {
           "shareRequest": {
-            "header": "네트워크를 통해이 요청을 공유하고 더 많은 사람들에게 다가 가십시오!"
+            "header": "네트워크를 통해 이 요청을 공유하고 더 많은 사람들에게 다가가십시오!"
           }
         }
       },
@@ -132,87 +132,88 @@
           "majalis": "마잘리스",
           "soaz": "소아즈",
           "ziyarat": "지야라트",
-          "dua": "두아스",
+          "dua": "2",
           "munajat": "무나자트",
           "munajaat": "무나자트",
           "books": "책"
         },
-        "inviteFriends": "친구 초대하기",
-        "notShia": "시아파가 아닌가?",
+        "inviteFriends": "친구 초대",
+        "notShia": "시아파가 아니야?",
         "contacts": {
           "accessRequestHeader": "연락처 액세스 필요",
-          "accessRequestDesc": "이 앱에 초대하려면 전화번호부에 Shia 사람들을 제안하기 위해 연락처의 액세스 권한이 필요합니다."
+          "accessRequestDesc": "전화번호부에 있는 시아파 사람들이 이 앱에 초대하도록 제안하려면 연락처의 액세스 권한이 필요합니다."
         },
         "audio": "오디오",
         "video": "비디오",
-        "hijri": "히지리",
+        "hijri": "회교식",
         "duaHome": {
-          "wishCtaText": "친구를 기원합니다!",
+          "wishCtaText": "친구들에게 소원을 빌어!",
           "wishCtaLabel": "소원"
         },
         "books": {
-          "booksByAuthor": "{저자}의 책",
+          "booksByAuthor": "{author}의 책",
           "booksInLang": "{lang}의 책",
           "filterBy": "필터링 기준:",
           "matching": {
-            "authors": "일치하는 작성자 사용",
-            "lang": "일치하는 언어 사용",
+            "authors": "저자 일치",
+            "lang": "언어 일치",
             "title": "제목 일치"
           }
         },
         "booksFilter": {
-          "title": "저자의 책 찾기",
+          "title": "저자별 책 찾기",
           "searchBox": "이름으로 작성자 검색",
           "selectLang": "언어 선택:"
         },
         "bookDetails": {
-          "title": "{title} — Bazm에서 이와 같은 더 많은 무료 책 찾기",
-          "aboutBook": "책에 관하여:"
+          "title": "{title} — Bazm에서 이와 같은 무료 도서 더 찾기",
+          "aboutBook": "책에 대하여:"
         }
       },
       "tools": {
         "name": "도구",
-        "salatAlarmDesc": "현지 시간에 따라 Azaan에 대한 알람 설정",
-        "sehriAlarmDesc": "Sehri에 대한 알람을 설정하거나 Sehri 전에 귀하의 번호로 모닝콜을 받으십시오!",
-        "sehriAlarmOptionDisabled": "라마단 한 달 동안의 셰리 시간 알람 (라마단 기간에만 사용 가능)",
-        "tasbeehCounterDesc": "오디오 Tasbeeh 카운터로 반복 모드에서 Duas, Quran 및 Tasbeeh를 쉽게 암송하십시오.",
-        "qnaLabel": "QnA (마슬레-마사엘)",
-        "qnaDesc": "검색하고 질문하거나 이슬람 문제에 대한 일상 생활에서 masle-masayel에 대한 답변을 찾으십시오.",
+        "salatAlarmDesc": "현지 시간에 따라 Azaan에 대한 알람을 설정하십시오.",
+        "sehriAlarmDesc": "Sehri에 알람을 설정하거나 Sehri보다 먼저 번호로 모닝콜을 받으세요!",
+        "sehriAlarmOptionDisabled": "라마단 기간 동안 셰리 시간에 대한 알람(라마단 기간에만 사용 가능)",
+        "tasbeehCounterDesc": "Audio Tasbeeh 카운터로 반복 모드에서 Duas, Quran 및 Tasbeeh를 쉽게 암송하십시오.",
+        "qnaLabel": "QnA(Masle-Masayel)",
+        "qnaDesc": "이슬람 문제에 대한 일상 생활에서 검색하고 질문하거나 masle-masayel에 대한 답변을 찾으십시오.",
+        "khumsLabel": "Khums 계산기",
+        "khumsDesc": "khums를 계산하거나 이전에 지불한 khum을 추가하십시오. 수년에 걸쳐 khums를 기록하는 데 도움이 됩니다.",
         "alarms": {
-          "salatAlarms": "살랏 알람 | 데일리 살랏 알람",
+          "salatAlarms": "살랏 알람 | 매일 살랏 알람",
           "sehriAlarms": "라마단 세리 알람",
-          "gettingLocation": "위치 확인하기. 기다리세요...",
+          "gettingLocation": "위치 파악. 기다리세요...",
           "settingsTip": "알람 설정에서 <b>위치</b> 및 기본 설정을 변경합니다. 설정 아이콘을 클릭하여 시작합니다.",
           "setAlarmHeader": "일일 알람 설정",
-          "setAlarmOnAppDesc": "알람 설정은 앱에서만 사용할 수 있습니다.",
+          "setAlarmOnAppDesc": "데스크톱에서 알람 알림은 벨소리 없이 배너로만 표시됩니다",
           "imsakLabel": "임삭",
-          "fajrLabel": "파지르",
-          "zuhrLabel": "주르",
+          "fajrLabel": "파즈르",
           "sunsetLabel": "해질녘",
           "maghribLabel": "마그리브",
           "midnightLabel": "심야",
           "sehriEndTime": "세리의 끝을 위한 시간",
           "minToImsak": [
-            "{min} mins before Imsak",
-            "임삭 전 {시간} 시간"
+            "임삭 {min}분 전",
+            "임삭 {hour}시간 전"
           ],
           "minToImsakDesc": [
-            "Sehri 시간이 끝나기 몇 분 전에 알람이 울립니다.",
-            "세리 시간이 끝나기 전 {시간} 알람이 울립니다."
+            "Sehri 시간이 끝나기 {min} 분 전에 알람이 울립니다.",
+            "Sehri 시간이 끝나기 {hour} 시간 전에 알람이 울립니다."
           ],
-          "notRamadan": "아직 라마단이 아닌 것 같습니다. 라마단 기간 중 또는 그 직전에 돌아와 세리의 경보를 설정하십시오.",
+          "notRamadan": "아직 라마단이 아닌 것 같습니다. 라마단 기간 중 또는 직전에 다시 오셔서 세리에 대한 알람을 설정하세요.",
           "push": {
             "heading": "알림 액세스 필요",
-            "desc_request": "알람은 지정된 시간에 푸시 알림을 전송하여 작동합니다. 푸시에 액세스하지 않으면 앱이 예상대로 작동하지 않습니다. 친절하게 우리가 알람 시간에 알려 드릴 수 있도록 푸시 알림에 대한 액세스를 허용하십시오.",
-            "desc_denied": "<strong>이전에 알림 액세스를 거부했습니다.</strong> 푸시 알림이 제대로 작동하려면 필요합니다. 우리는 경보 시간에 알림을 보냅니다.<br/> 친절하게 버튼을 클릭하여 푸시 알림에 대한 액세스를 허용하십시오.",
+            "desc_request": "알람은 지정된 시간에 푸시 알림을 보내 작동합니다. 푸시에 액세스하지 않으면 앱이 예상대로 작동하지 않습니다. 알람 시간에 알려드릴 수 있도록 푸시 알림에 대한 액세스를 허용해 주십시오.",
+            "desc_denied": "<strong>이전에 알림 액세스를 거부했습니다.</strong> 푸시 알림이 제대로 작동하려면 필요합니다. 알람 시간에 알림을 보냅니다.<br/>Pleasely push notifications에 대한 접근을 버튼을 클릭하여 허용하십시오.",
             "cta": "허용하다",
-            "toast_granted": "감사합니다! 당신은 지금 경보 시간에 통보를 받게됩니다.",
-            "toast_denied": "알림 요청이 거부되었습니다. 앱에 대한 액세스가 제대로 작동하도록 허용하십시오.",
+            "toast_granted": "감사합니다! 이제 알람 시간에 알림을 받게 됩니다.",
+            "toast_denied": "알림 요청이 거부되었습니다. 앱이 제대로 작동하려면 액세스를 허용하십시오.",
             "toast_prompt": "알람을 설정하려면 알림 액세스를 허용해야 합니다."
           },
           "jsAlarmSetSuccess": "알람이 성공적으로 설정되었습니다.",
-          "jsAlarmSetError": "알람을 설정하는 중 오류가 발생했습니다. 나중에 다시 시도하십시오.",
-          "jsAlarmSnoozed": "알람이 10분 동안 잠잠해졌습니다.",
+          "jsAlarmSetError": "알람 설정 오류입니다. 나중에 다시 시도해 주세요.",
+          "jsAlarmSnoozed": "알람이 10분 동안 일시 중지됨",
           "sunriseLabel": "해돋이",
           "dhuhrLabel": "주르",
           "asrLabel": "증권 시세 표시기",
@@ -221,17 +222,17 @@
         "alarmSetting": {
           "title": "알람 설정",
           "locationTitle": "알람 타이밍에 대한 도시 찾기",
-          "forLocation": "위치에 대한 알람",
+          "forLocation": "위치 경보",
           "calcMethod": "계산 방법",
-          "selectAdhanSound": "아단 사운드 선택",
+          "selectAdhanSound": "Adhan 사운드 선택",
           "selectAlarmSound": "알람 소리 선택",
-          "alarmSoundDesc": "살랏이 아닌 시간을 위한 사운드",
+          "alarmSoundDesc": "살랏이 아닌 시간에 대한 소리",
           "timesPeekHeading": "표시 시간 배너",
-          "timesPeekDesc": "여기에서 Salat에 대한 시간의 빠른 보기 표시를 비활성화할 수 있습니다.",
+          "timesPeekDesc": "여기에서 Salat의 빠른 시간 보기 표시를 비활성화할 수 있습니다.",
           "timesPeekHome": "피드 페이지에 표시:",
-          "timesPeekTools": "도구 페이지에 표시 :",
+          "timesPeekTools": "도구 페이지에 표시:",
           "jsConfirmLocChange": "위치를 변경하면 이전에 설정한 모든 알람이 취소됩니다. 계속하다?",
-          "jsOtherSettingsSaved": "다른 설정이 저장되었습니다. 위치가 변경되지 않았습니다."
+          "jsOtherSettingsSaved": "다른 설정은 저장되었습니다. 위치는 변경되지 않았습니다."
         },
         "qna": {
           "title": "질문-답변",
@@ -244,66 +245,64 @@
           "jsSubmitSuccess": "질문이 성공적으로 제출되었습니다. 답변을 받으면 업데이트하겠습니다."
         },
         "tasbeehCounter": {
-          "title": "타스비 카운터"
+          "title": "태스비 카운터"
         },
-        "khumsLabel": "쿰스 계산기",
-        "khumsDesc": "khums를 계산하거나 이전에 지불 한 khums를 추가하십시오. 수년에 걸쳐 khums를 기록하는 데 도움이 됩니다.",
         "khums": {
           "list": {
             "blog": {
-              "title": "블로그: 효율적으로 쿰 계산",
-              "p1": "매년 khums 계산의 핵심 항목을 강조하는 <a href='{href}' target='_blank'>블로그를 따르십시오</a>.",
+              "title": "블로그: 효율적인 khums 계산",
+              "p1": "매년 khums 계산의 주요 항목을 강조하는 <a href='{href}' target='_blank'>블로그를 팔로우</a>하세요.",
               "p2": "면책 조항 : 블로그는 가이드가 아닙니다. <strong>Khums 계산에 대한 Marjah의 판결을 따르십시오</strong>. 자세한 내용을 보려면 <span id='blog-info-link' color='primary'>여기를 클릭하십시오</span> .",
-              "blogInfo": "위의 블로그는 al-islam.org, sistani.org 의 기사와 몇몇 다른 학자들과의 토론을 기반으로합니다. 당신은 항상 Khums 계산에 대한 Marjah의 판결을 따라야 합니다.",
+              "blogInfo": "위의 블로그는 al-islam.org, sistani.org 의 기사와 몇몇 다른 학자들과의 토론을 기반으로 합니다. 항상 Khums 계산에 대한 Marjah의 판결을 따라야 합니다.",
               "dismissCta": "관심 없음"
             },
-            "title": "당신의 쿰스 계산",
-            "nextMuqammasHeading": "<strong>무카마스</strong><br />다음 계산을 위해",
-            "muqammasDesc": "최근 연도의 계산을 기반으로",
+            "title": "Khums 계산",
+            "nextMuqammasHeading": "<strong>무캄마스</strong><br />다음 계산을 위해",
+            "muqammasDesc": "최근 연도의 계산을 기반으로 합니다.",
             "sahmeSadat": "삼-에-사다트",
             "sahmeImam": "삼-에-이맘 (a.s.)",
             "paid": "지불:",
             "remaining": "나머지:",
-            "newMuqammas": "새로운 무캄마스:",
-            "jsDeleted": "쿰스 계산이 성공적으로 삭제되었습니다!",
+            "newMuqammas": "새로운 muqammas:",
+            "jsDeleted": "Khums 계산이 성공적으로 삭제되었습니다!",
             "prompts": {
               "delete": {
-                "header": "쿰스 계산을 삭제하시겠습니까?",
-                "desc": "이것을 삭제하시겠습니까? 모든 관련 문서도 삭제됩니다!"
+                "header": "Khums 계산을 삭제하시겠습니까?",
+                "desc": "이 파일을 삭제하시겠습니까? 모든 관련 문서도 삭제됩니다!"
               }
             },
             "empty": {
-              "header": "아직 쿰이 추가되지 않았습니다.",
+              "header": "아직 khums가 추가되지 않았습니다.",
               "subtext": "먼저 khums 계산을 추가합니다. 아래 버튼을 클릭하십시오."
             }
           },
           "detail": {
-            "title": "당신의 쿰스",
+            "title": "당신의 쿰",
             "header": "쿰스",
-            "mqmsInfo": "다음 계산을 위한 무캄마",
-            "calcHeader": "아래 계산에 따라:",
+            "mqmsInfo": "다음 계산을 위한 Muqammas",
+            "calcHeader": "아래 계산에 따르면:",
             "savingsHeader": "저축",
-            "conversionInfo": "{xchgRateDate} {xchgRate}의 환율에 따라 {amount}로 변환",
+            "conversionInfo": "{xchgRateDate} {xchgRate} 환율에 따라 {amount}로 변환",
             "expensesHeader": "경비",
-            "mqmsHeader": "무카마스",
-            "prevMqms": "이전 무카마",
-            "paymentsHeader": "쿰에 대한 지불 :",
+            "mqmsHeader": "무캄마스",
+            "prevMqms": "이전 muqammas",
+            "paymentsHeader": "khums에 대한 지불:",
             "error": {
-              "header": "오 어, 오류가 발생했습니다!",
-              "desc": "이 khums 계산에 대해 아무것도 찾을 수 없는 것 같습니다. 서비스 중 하나가 오작동했거나 오래된 데이터를 찾고 있기 때문일 수 있습니다.<br /><br/ >페이지를 새로고침하거나 오류가 있다고 생각되면 저희에게 연락하십시오."
+              "header": "오, 어, 오류가 발생했습니다!",
+              "desc": "이 khums 계산에 대해 아무것도 찾을 수 없는 것 같습니다. 서비스 중 하나가 오작동했거나 오래된 데이터를 찾고 있기 때문일 수 있습니다.<br /><br/ >페이지를 새로고침하거나 오류가 있다고 생각되면 문의해 주세요."
             },
             "js": {
-              "recordDeleteFailed": "이 레코드를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 오류가 지속되면 나중에 다시 오십시오.",
-              "recordDeleted": "성공적으로 삭제 된 기록",
-              "deleteRecordHeader": "레코드를 삭제하시겠습니까?",
+              "recordDeleteFailed": "이 레코드를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 오류가 지속되면 나중에 다시 방문하십시오.",
+              "recordDeleted": "레코드가 성공적으로 삭제되었습니다.",
+              "deleteRecordHeader": "기록을 삭제하시겠습니까?",
               "deleteRecordDesc": "이 레코드를 삭제하시겠습니까? 이 레코드에 추가된 모든 첨부 파일도 삭제됩니다!"
             }
           },
           "calc": {
-            "subtext": "아래 양식을 작성하여 khums를 계산하십시오. 선택적 필드가 표시됩니다. 아래의 정보 아이콘을 클릭하여 섹션에 대해 자세히 알아보십시오.",
+            "subtext": "아래 양식을 작성하여 khums를 계산하십시오. 선택적 필드가 표시됩니다. 아래 정보 아이콘을 클릭하면 섹션에 대해 자세히 알아볼 수 있습니다.",
             "blog": "관련 : <a href='{href}' target='_blank'>khums를 효율적으로<a> 계산하는 방법에</a> 대한 블로그 읽기",
             "dateRange": "날짜 범위 선택:",
-            "dateRangeInfo": "일반적으로 사람들은 회계 연도 (예 : 4 월에서 3 월까지) 또는 역년 (1 월에서 12 월까지)에 대해 khums를 계산합니다.",
+            "dateRangeInfo": "일반적으로 사람들은 회계 연도(예: 4월부터 3월까지) 또는 달력 연도(1월에서 12월까지)에 대해 khum을 계산합니다",
             "startDate": "시작 날짜:",
             "endDate": "종료일:",
             "savings": {
@@ -319,30 +318,30 @@
               }
             },
             "expenses": {
-              "header": "부채/<strong>부채/비용</strong> — 선택 사항",
+              "header": "<strong>부채/부채/비용</strong> — 선택 사항",
               "subtext": "즉각적인 부채, 부채 또는 비용 추가",
-              "info": "잔액 금액의 일부는 khums에 대해 공제될 수 있습니다. 위의 링크를 따르십시오 <strong>khums를 효율적으로 계산</strong> 하여 더 많은 것을 알 수 있습니다.",
+              "info": "잔액 금액 중 일부는 khums에 대해 공제 가능할 수 있습니다. 위의 링크를 따라 <strong>khums를 효율적으로 계산</strong> 하여 더 많은 것을 알 수 있습니다.",
               "form": {
                 "placeholder": "예: 임대료 납부"
               }
             },
             "mqms": {
-              "header": "<strong>이전 무카마</strong> — 선택 사항",
-              "subtext": "이전 기간에 쿰을 지불 한 후 남은 잔액",
-              "info": "처음으로 쿰을 지불하는 경우 Muqammas는 ZERO가 됩니다. 여기에 이전 계산을 저장한 경우 이전 기간의 Muqammas를 사용하도록 동기화할 수 있습니다."
+              "header": "<strong>이전 Muqammas</strong> — 선택 사항",
+              "subtext": "이전 기간에 khums를 지불한 후 남은 잔액",
+              "info": "처음으로 khums를 지불하는 경우 Muqammas는 ZERO가 됩니다. 이전 계산을 여기에 저장한 경우 이전 기간의 Muqammas를 사용하도록 동기화할 수 있습니다."
             },
-            "mainCurrencyHeader": "주 통화 선택",
-            "mainCurrencyInfo": "khums를 계산할 때 어떤 통화를 사용해야 합니까?",
+            "mainCurrencyHeader": "주요 통화 선택",
+            "mainCurrencyInfo": "khums를 계산하려면 어떤 통화를 사용해야 합니까?",
             "customRates": {
               "header": "<strong>환율 사용</strong>",
               "subtext": "이 환율은 계산에 사용됩니다. 사용자 지정 값을 사용하도록 변경할 수 있습니다.",
-              "info": "환율이 오늘과 같지 않았던 1년 전의 khums에 대한 계산을 추가하는 경우와 같이 과거 데이터를 처리할 때 환율에 대한 사용자 지정 값을 직접 설정할 수 있습니다.",
-              "rateValuePH": "{currency}에서, 예를 들어, 1 {mainCurrency} = 80.21 {currency}"
+              "info": "환율이 현재와 같지 않았던 1년 전의 khum에 대한 계산을 추가하는 경우와 같이 기록 데이터를 처리할 때 환율에 대한 사용자 지정 값을 직접 설정할 수 있습니다.",
+              "rateValuePH": "{currency}예: 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "계산하다",
             "pageError": {
               "header": "오류가 발생했습니다.",
-              "desc": "페이지에 필요한 데이터를 가져오지 못했습니다. 페이지를 새로고침하거나 나중에 다시 시도하십시오."
+              "desc": "페이지에 필요한 데이터를 가져오지 못했습니다. 페이지를 새로고침하거나 나중에 다시 시도하세요."
             },
             "js": {
               "remarks": {
@@ -355,7 +354,7 @@
                 "liability": "부채에 새 항목 추가"
               },
               "rowOptions": {
-                "header": "이것으로 무엇을하고 싶습니까?",
+                "header": "이걸로 뭘 하고 싶니?",
                 "duplicate": "중복 항목 만들기",
                 "remarks": "이에 대한 설명 추가",
                 "delete": "이 항목 삭제"
@@ -369,71 +368,71 @@
         "name": "사용자 | 계정",
         "editProfile": "프로필 편집",
         "publishToFeed": "피드에 변경 내용 게시",
-        "shareUpdateToFeed": "또한이 업데이트를 내 피드에 공유하십시오.",
-        "statusText_ph": "_italics_ 또는 *bold* 서식을 사용하여 상태를 장식합니다.",
-        "statusCharsLeft": "{개수} 문자 왼쪽",
+        "shareUpdateToFeed": "또한 이 업데이트를 내 피드에 공유하십시오.",
+        "statusText_ph": "_italics_ 또는 *bold* 서식을 사용하여 상태를 장식하십시오.",
+        "statusCharsLeft": "{count} 자 남음",
         "jsImgUploadSuccess": "이미지가 성공적으로 업로드되었습니다!",
         "unauthAccess": {
-          "heading": "올바른 장소에 있다고 확신합니까?",
-          "desc": "<p>권한이없는 페이지에 액세스하려고했던 것처럼 보입니다. 이전에 액세스한 페이지에 액세스하려는 경우 로그인을 시도하십시오. 그것은 문제를 해결해야합니다.</p> <p>문제가 지속되면 저희에게 연락 주시기 바랍니다.</p>"
+          "heading": "당신은 바로 이곳에 있다고 확신합니까?",
+          "desc": "<p>권한이 없는 페이지에 액세스하려고 시도한 것 같습니다. 이전에 액세스한 페이지에 액세스하려는 경우 로그인을 시도하십시오. 그러면 문제가 해결됩니다.</p><p>문제가 지속되면 언제든지 저희에게 연락하십시오.</p>"
         },
         "guest": {
-          "welcome": "환영합니다, <strong>손님!</strong>",
-          "heading": "왜 로그인 또는 등록해야 하나요?",
-          "desc": "우리의 응용 프로그램에 계정을 가지고, 당신은 기능의 번호를 사용할 수 있습니다. 계정이 아직 없는 경우 계정을 만들어 시작합니다. 또는 로그인하십시오!",
-          "unlockHeading": "계정으로 다음을 잠금 해제하십시오.",
+          "welcome": "<strong>환영합니다, 손님!</strong>",
+          "heading": "왜 로그인하거나 등록해야 합니까?",
+          "desc": "앱에 계정이 있으면 다양한 기능을 사용할 수 있습니다. 아직 계정이 없는 경우 계정을 만들어 시작합니다. 아니면 그냥 로그인하세요!",
+          "unlockHeading": "계정으로 팔로잉 잠금 해제:",
           "features": {
             "engage": {
-              "heading": "앱 참여",
-              "desc": "다른 사용자와 소통하고, 게시물이나 요청에 반응하고, 의견을 말하고, 항목을 북마크하는 등의 작업을 할 수 있습니다!"
+              "heading": "앱에서 참여",
+              "desc": "다른 사용자와 소통하고, 게시물이나 요청에 반응하고, 의견에 댓글을 달고, 항목을 북마크하는 등의 작업을 수행할 수 있습니다!"
             },
             "fatiha": {
-              "heading": "포스트 파티하 요청",
-              "desc": "떠나간 사랑하는 사람들의 영혼을 위해 Surah-e-Fatiha에 대한 요청을 게시하고 모든 사용자의기도로 그들의 영혼을 축복하십시오!"
+              "heading": "Fatiha 요청 게시",
+              "desc": "떠난 사랑하는 사람들의 영혼을 위한 Surah-e-Fatiha에 대한 요청을 게시하고 모든 사용자의 기도로 그들의 영혼을 축복하십시오!"
             },
             "askQues": {
               "heading": "질문",
-              "desc": "Deen & Duniya의 다양한 주제에 대해 질문하여 그의 저명한 Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani가 대답하십시오!"
+              "desc": "Deen & Duniya에게 다양한 주제에 대해 질문하고 그의 저명한 Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani가 답변하십시오!"
             },
             "content": {
               "heading": "선호하는 콘텐츠",
-              "desc": "계정에 로그인할 때 항상 원하는 콘텐츠와 설정을 볼 수 있습니다. 또한 모든 흥미로운 것들에 대한 알림을 받으십시오!"
+              "desc": "계정에 로그인하면 항상 선호하는 콘텐츠와 설정을 볼 수 있습니다. 또한 모든 흥미로운 것들에 대한 알림을 받으세요!"
             },
             "personalized": {
-              "heading": "개인화 된 공유",
-              "desc": "서명으로 개인화된 콘텐츠 공유를 설정하여 친구가 메시지/게시물을 공유할 때를 알 수 있도록 합니다."
+              "heading": "개인화된 공유",
+              "desc": "메시지/게시물을 공유할 때 친구들이 알 수 있도록 서명으로 개인화된 콘텐츠 공유를 설정합니다."
             }
           }
         },
         "about": {
           "title": "약",
-          "jsStatusUpdateFail": "상태를 업데이트하지 못했습니다. 나중에 다시 시도하십시오.",
-          "statusTextInfo": "당신이 누구인지 또는 무엇을하는지와 같은 자신에 대해 간단한 것을 추가하십시오!",
+          "jsStatusUpdateFail": "상태를 업데이트하지 못했습니다. 나중에 다시 시도해 주세요.",
+          "statusTextInfo": "당신이 누구인지 또는 무엇을 하는지와 같이 자신에 대해 간략한 내용을 추가하십시오!",
           "statusCta": "상태 추가 | 상태 업데이트",
-          "addCity": "도시 추가",
+          "addCity": "구/군/시 추가",
           "gender": "남성 | 여성",
           "addGender": "성별 추가",
           "addBday": "생일 추가",
           "addRelation": "관계 추가",
-          "joinDate": "가입: {date}",
           "privateInfoDesc": "이 정보는 귀하만 볼 수 있으며 이를 기반으로 하는 콘텐츠와 기능을 볼 수 있습니다.",
           "idSetupCta": "ID 설정",
-          "idVerifyCta": "확인"
+          "idVerifyCta": "확인",
+          "joinDate": "가입: {date}"
         },
         "posts": {
           "title": "게시물",
-          "userNoPosts": "사진 / 표지 이미지를 변경하거나 사망 한 사랑하는 사람들을 위해 surah-fatiha를 요청할 때이 게시물은 여기와 <b>홈</b> 탭 (다른 사람들도)에 나타납니다. 사진이나 표지 이미지를 추가해 보시겠습니까?",
-          "profileNoPosts": "{name}이 아직 게시물을 작성하지 않았습니다."
+          "userNoPosts": "사진/표지 이미지를 변경하거나 사망한 사랑하는 사람을 위해 surah-fatiha를 요청하면 이러한 게시물이 여기와 <b>홈</b> 탭(다른 사람들도 마찬가지)에 표시됩니다. 사진이나 표지 이미지를 추가해 보시겠습니까?",
+          "profileNoPosts": "{name} 아직 게시물을 작성하지 않았습니다."
         },
         "marhumeen": {
-          "title": "마후메엔",
+          "title": "마후민",
           "header": {
-            "marhumeenNotAdded": "{name}이(가) 아직 marhumeen을 추가하지 않았습니다. | 아직 marhumeen을 추가하지 않았습니다.",
-            "marhumeenAdded": "{name}이(가) 다음과 같은 marhumeen을 추가했습니다 | 다음과 같은 marhumeen을 추가했습니다."
+            "marhumeenNotAdded": "{name} 아직 marhumeen을 추가하지 않았습니다 | 아직 marhumeen을 추가하지 않았습니다.",
+            "marhumeenAdded": "{name} 다음과 같이 추가했습니다. marhumeen | 당신은 다음과 같은 marhumeen을 추가했습니다."
           },
           "jsDeleteHeader": "확실한가요?",
-          "jsDeletePrompt": "<b>{fullName}</b>에 대한 레코드를 삭제하면 {gender}에 대한 이전의 모든 요청도 삭제됩니다! 계속하다?",
-          "jsDeleted": "{marhumeen}에 대해 삭제된 레코드"
+          "jsDeletePrompt": "<b>{fullName}</b> 에 대한 레코드를 삭제하면 {gender}에 대한 이전 요청도 모두 삭제됩니다! 계속하다?",
+          "jsDeleted": "{marhumeen}에 대한 삭제된 레코드"
         },
         "verifyCard": {
           "title": "시아파 신원 확인 | 사다트 신원 확인",
@@ -459,7 +458,7 @@
     },
     "sidemenu": {
       "left": {
-        "accountLogin": "계정에 로그인",
+        "accountLogin": "귀하의 계정에 로그인하십시오",
         "createAccount": "계정 만들기"
       }
     },
@@ -471,60 +470,59 @@
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "위치를 사용할 수 없습니다. 아이콘을 클릭하여 Salat-times의 빠른 보기를 볼 수 있도록 설정하십시오.",
+          "locUnavailable": "위치를 사용할 수 없습니다. 아이콘을 클릭하여 설정해 보시면 Salat-times의 빠른 보기를 보실 수 있습니다.",
           "unknownError": "오류가 발생했습니다. 이 순간에 시간을로드 할 수 없습니다."
         }
       },
       "langPrompt": {
-        "title": "{langLabel}에서 앱을 사용하십니까?",
+        "title": "{langLabel}에서 앱을 사용하시겠습니까?",
         "desc": {
-          "p1": "{countryName}에서 앱에 액세스하는 것 같습니다. 해당 지역에서 사용되는 다음 언어 중 하나로 콘텐츠 및 컨트롤을 보시겠습니까? 선택 항목을 클릭 한 다음 '저장'을 클릭하여 계속하십시오.",
-          "p2": "또는 이 팝업을 해제하여 기본 언어로 앱을 계속 사용합니다."
+          "p1": "{countryName}에서 앱에 액세스하는 것 같습니다. 콘텐츠와 컨트롤을 해당 지역에서 사용되는 다음 언어 중 하나로 보고 싶으신가요? 선택 항목을 클릭한 다음 '저장'을 클릭하여 계속하십시오.",
+          "p2": "또는 이 팝업을 닫아 기본 언어로 앱을 계속 사용합니다."
         },
         "choices": {
           "useLang": [
-            "예, {langName}을 사용하십시오.",
+            "예, {langName} 사용하십시오.",
             "{langName} 사용"
           ],
-          "useEngling": "영어로 계속",
-          "useEnglish": "영어로 계속",
+          "useEnglish": "영어로 계속하기",
           "selectFrom": "또는 다음 대체 언어 중 하나를 선택합니다."
         },
-        "langError": "{langName}에 대한 번역을 로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하십시오."
+        "langError": "{langName}에 대한 번역을 로드하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주세요."
       },
       "createPost": {
         "heading": "오늘은 무엇에 관한 것입니까?",
-        "desc": "업데이트를 공유하거나 아래의 옵션을 사용하려면 여기를 클릭하십시오.",
+        "desc": "업데이트를 공유하거나 아래에서 옵션을 사용하려면 여기를 클릭하십시오.",
         "request": "요청",
         "askQues": "질문하기",
         "sheetOptions": {
           "header": "요청하기",
           "subheader": "당신의 marhumeen 또는 당신 자신을 위해 momineen에게 요청하십시오.",
-          "requestFatiha": "수라-파티하/나마즈-e-와샛",
-          "sehatDua": "두아-e-세하트 *",
-          "requestZiyarat": "Zari-e-Imam Husain (a.s.)의 Ziyarat (a.s.)"
+          "requestFatiha": "수라-파티하/나마즈-에-와샤트",
+          "sehatDua": "투-이-헬스(Two-e-Healthy)*",
+          "requestZiyarat": "Zari-e-Imam Husain (a.s.)의 Ziyarat 귀하를 대신하여"
         },
         "modal": {
           "titles": {
-            "post": "게시물 만들기 - — 게시물 업데이트",
+            "post": "게시물 작성 | 게시물 업데이트",
             "livestream": "라이브 스트림",
-            "hadiyah": "하디야 만들기 | 하디야 업데이트"
+            "hadiyah": "Hadiyah 만들기 | Hadiyah 업데이트"
           },
-          "postCta": "포스트 | 업데이트",
+          "postCta": "게시물 | 업데이트",
           "stream": {
-            "scheduleCta": "나중에 저장할 수 있도록 저장 | 스트리밍 시작"
+            "scheduleCta": "나중을 위해 저장 | 스트리밍 시작"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "누구에게 이것을 선물하고 싶습니까?",
-              "addPeopleToggle": "다른 사람들도이 사밥의 일부가되도록하십시오!",
-              "searchInput": "Bazm 또는 연락처 목록에서 momimeen 초대",
-              "minUsersHeader": "참가자가 선택해야 하는 최소 수를 설정하고 싶으신가요?",
-              "minUsersInput": "최소 숫자 입력"
+              "placeholder": "누구에게 선물하고 싶으신가요?",
+              "addPeopleToggle": "다른 사람들도 이 사밥의 일부가 되게 하십시오!",
+              "searchInput": "Bazm 또는 연락처 목록에서 momimeen을 초대하십시오.",
+              "minUsersHeader": "참가자가 선택해야 하는 최소 수를 설정하고 싶으십니까?",
+              "minUsersInput": "최소 개수 입력"
             }
           },
           "postTime": [
-            "언제 그렇습니까?",
+            "언제입니까?",
             "언제 스트리밍을 시작하시겠습니까?"
           ],
           "whereIsIt": "어디에 있어요?",
@@ -532,26 +530,26 @@
           "locationSubtext": "게시물에 위치 추가",
           "addLocation": "위치 추가",
           "addPics": "게시물에 사진 추가",
-          "previewDes": "이것은 귀하의 게시물이 다른 사람들의 피드에 나타나는 방법입니다. 사람들은 비디오를 탭하여 전체 화면으로 볼 수 있습니다.",
+          "previewDes": "이것이 귀하의 게시물이 다른 사람들의 피드에 표시되는 방식입니다. 사람들은 비디오를 탭하여 전체 화면으로 볼 수 있습니다.",
           "addToPost": "{postType}에 추가(선택 사항)",
           "jsImgUploadFail": "이미지가 업로드되지 않았습니다.",
-          "jsAddDetailToPost": "게시물에 세부 정보를 추가하십시오.",
-          "jsValidEndDate": "유효한 종료 날짜를 선택하십시오.",
-          "jsSetLocation": "게시물의 위치를 설정하십시오.",
-          "jsRemLocation": "위치를 설정하거나 해당 섹션을 제거하십시오.",
+          "jsAddDetailToPost": "게시물에 세부 정보를 추가하세요.",
+          "jsValidEndDate": "유효한 종료일을 선택하세요.",
+          "jsSetLocation": "게시물 위치를 설정하세요.",
+          "jsRemLocation": "위치를 설정하거나 해당 섹션을 삭제하세요.",
           "jsAddImg": "이미지를 추가하거나 해당 섹션을 제거하십시오.",
           "jsInvalidDate": [
-            "유효한 시작 날짜를 설정하십시오. ",
+            "유효한 시작 날짜를 설정하세요. ",
             "유효한 시작 날짜를 설정하거나 해당 섹션을 제거하십시오."
           ]
         }
       },
       "comments": {
         "name": "코멘트",
-        "loadPrevious": "이전 댓글 로드 | 이전 회신 로드",
-        "replyingTo": "회신 :",
-        "noComments": "아직이 게시물에 대한 코멘트가 없습니다.",
-        "textboxPlaceholder": "여기에 귀하의 의견을 작성하십시오.",
+        "loadPrevious": "이전 댓글 로드 | 이전 답글 로드",
+        "replyingTo": "회신 대상:",
+        "noComments": "이 게시물에 대한 코멘트가 아직 없습니다",
+        "textboxPlaceholder": "여기에 의견을 작성하십시오.",
         "requestToLogin": "로그인 또는 가입하여 토론 시작"
       },
       "post": {
@@ -563,40 +561,40 @@
           "status": "프로필 상태"
         },
         "displayPhrase": {
-          "common": "<strong>{사용자 이름</strong>} 업데이트됨 {주소 지정} {item}",
+          "common": "<strong>{username}</strong> 업데이트 된 {addressing} {item}",
           "fatiha": [
-            "<strong>{username</strong>} requested surah-fatiha for {addressing} {relation}",
-            "<strong>{username</strong>} requested surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+            "<strong>{username}</strong> {addressing} {relation} 위해 surah-fatiha를 요청했습니다.",
+            "<strong>{username}</strong> {addressing} {relation} 위해 Surah-Fatiha & Namaz-e-Wahshat를 요청했습니다."
           ]
         },
-        "dateUntil": "Until: {date} at {time}",
-        "privatePost": "이 게시물은 귀하만 볼 수 있습니다.",
-        "descZiyaratRequest": "당신은 지야랏을 *{날짜}*에 이맘 후세인(a.s.)의 *haram*에서 당신을 대신하여 수행하도록 요청했습니다."
+        "dateUntil": "종료: {date} {time}",
+        "privatePost": "이 게시물은 나만 볼 수 있습니다.",
+        "descZiyaratRequest": "당신은 *{date}*에 이맘 후세인(a.s.)의 *하람*에서 당신을 대신하여 지야랏을 수행하도록 요청했습니다."
       },
       "addEditRel": {
         "title": {
-          "request": "요청 수라-알-파티하",
+          "request": "수라-알-파티하(Surah-al-fatiha) 요청",
           "addUpdate": [
             "사랑하는 사람 업데이트",
             "사랑하는 사람 추가"
           ]
         },
         "heading": [
-          "지나간 사랑하는 사람을 추가하십시오.",
-          "목록에서 사랑하는 사람을 선택하거나 전달 한 사랑하는 사람을 추가하십시오."
+          "세상을 떠난 사랑하는 사람을 추가하십시오",
+          "목록에서 사랑하는 사람을 선택하거나 세상을 떠난 사랑하는 사람을 추가하십시오"
         ],
         "addNew": "새로 추가",
         "subheader": [
           "사랑하는 사람의 세부 정보 추가",
-          "요청에 메시지를 포함할 수도 있습니다."
+          "요청에 메시지를 포함할 수도 있습니다"
         ],
         "form": {
           "jsAddImg": "사랑하는 사람을 위한 이미지 추가",
           "jsRemoveImg": "이미지 제거",
-          "fullName": "사망자의 성명",
+          "fullName": "고인의 성명",
           "name_ph": "예: Syed Zeeshan Haider Abidi",
           "fathersName": "아버지의 이름 (가능한 경우)",
-          "father_ph": "예를 들어, Syed Tauqeer Husain",
+          "father_ph": "예: Syed Tauqeer Husain",
           "nameError": "특수 문자와 함께 전체 이름을 입력하십시오.",
           "genderLabel": "성별",
           "genderValue": [
@@ -604,15 +602,15 @@
             "남성"
           ],
           "relation": [
-            "마르후마는 당신의 것입니다",
-            "마훜은 당신의 것입니다"
+            "Marhooma는 당신의",
+            "마훔은 당신의"
           ],
           "selectRelation": "관계 선택",
-          "demiseLabel": "오늘 죽었습니까? 요청 Namaz-e-Wahshat",
-          "demiseText": "귀하의 손실에 대해 매우 유감스럽게 생각합니다. 알라가 너희와 너희 가족에게 인내로 이 상실을 감당할 힘을 주시고, 알라가 멸망한 영혼에게 잔나에서 가장 높은 자리를 차지하게 하소서. 이 옵션을 선택하면 모미넨에게 죽음 한 영혼을 위해 Namaz-e-Wahshat에게 물어볼 수 있습니다.",
+          "demiseLabel": "오늘 죽었습니까? Namaz-e-Wahshat 요청",
+          "demiseText": "귀하의 손실에 대해 듣게 되어 매우 유감입니다. 알라께서 당신과 당신의 가족에게 인내로 이 상실을 견딜 수 있는 힘을 주시고 죽은 영혼에게 잔나에서 가장 높은 자리에 상을 주시기를 빕니다. 이 옵션을 선택하면 죽은 영혼에 대한 Namaz-e-Wahshat에 대해 momineen을 요청할 수 있습니다.",
           "optional": "선택적",
-          "dod": "에 사망",
-          "dob": "에 태어났다."
+          "dod": "에 세상을 떠났습니다",
+          "dob": "에 태어났다"
         },
         "relation": [
           "의 딸",
@@ -621,10 +619,11 @@
         "born": "태어난:",
         "died": "사망:",
         "addMsg": "메시지를 추가하고 싶으신가요?",
-        "remainingChars": "문자: {count} | 문자: {count} 남은 문자",
-        "infoEditRelative": "<b>계정 > Marhumeen</b> 섹션에서 {name}에 대한 세부 정보를 편집할 수 있습니다.",
+        "addMsg_ph": "예를 들어:\nInna lillahi wa inna ilaihe raje'un. 그의 창조주를 만나기 위해 우리 모두를 울게 만든 나의 삼촌 Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom을 위해 surah-e-fatiha와 2-rak'at namaz-e-wahshat를 암송하십시오.",
+        "remainingChars": "문자: {count} | 문자: 남은 {count}",
+        "infoEditRelative": "<b>계정 > Marhumeen 섹션에서 {name}</b>에 대한 세부 정보를 편집할 수 있습니다",
         "saveRequestCta": [
-          "저장 및 요청",
+          "저장 & 요청",
           "요청"
         ],
         "addUpdate": "추가 | 업데이트",
@@ -633,77 +632,73 @@
           "사랑하는 사람을 성공적으로 추가했습니다!",
           "사랑하는 사람을 성공적으로 업데이트하십시오!"
         ],
-        "jsAddFail": "사랑하는 사람을 추가하지 못했습니다. 나중에 다시 시도하십시오.",
+        "jsAddFail": "사랑하는 사람을 추가하지 못했습니다. 나중에 다시 시도해 주세요.",
         "jsReqSuccess": "요청이 성공적으로 제출되었습니다.",
-        "jsGettingMarhumeen": "당신의 마루메엔을 얻을.."
+        "jsGettingMarhumeen": "당신의 marhumeen을 얻는.."
       },
       "askQues": {
         "title": "질문하기",
         "form": {
           "quesLabel": "귀하의 질문",
-          "quesLabel_ph": "질문을 검색하거나 직접 물어보십시오.",
-          "similarQues": "이러한 질문에는 이미 원하는 답변이 있을 수 있습니다.",
-          "quesTextHeader": "귀하의 질문 :",
+          "quesLabel_ph": "질문을 검색하거나 직접 질문하기",
+          "similarQues": "이러한 질문에는 이미 찾고 있는 답변이 있을 수 있습니다.",
+          "quesTextHeader": "귀하의 질문:",
           "selectCat": "질문 범주 설정:",
           "askAnonLabel": "익명으로 물어보세요?",
-          "askAnonInfo": "귀하의 이름은 귀하를 대신하여 답변을 요청할 때 학자에게 전송되지 않으며,이 질문과 함께 우리 앱 전체에 표시되지 않습니다. 그러나 익명의 질문은 신속하게 답변되지 않을 수 있습니다.",
-          "askViaLabel": "통해 물어보세요",
-          "askSistaniInfo": "당신은 그의 저명한 사무실, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani의 사무실에서 대답 할 질문을 할 수 있습니다. 우리는 질문을 그들의 웹 사이트 (귀하의 프로필 정보와 함께)로 전달할 것입니다. <b>이용 약관</b>을 올바르게 읽었는지 확인하십시오.",
-          "tncLabel": "약관 및 조건:",
-          "showHide": [
-            "보이다",
-            "숨기다"
-          ],
-          "sistaniOrgTncInfo": "질문을하기 전에 웹 사이트에서 다음 사항을 고려하십시오.아래 사항을 준수하지 않으면 답변을 듣지 못하거나 답변을받지 못할 수 있기 때문입니다.",
+          "askAnonInfo": "귀하를 대신하여 답변을 요청할 때 귀하의 이름은 학자에게 전송되지 않으며 이 질문과 함께 앱 전체에 표시되지도 않습니다. 그러나 익명의 질문에 신속하게 답변하지 못할 수 있습니다.",
+          "askViaLabel": "다음을 통해 문의",
+          "askSistaniInfo": "그의 저명한 사무실인 Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani에서 답변할 질문을 할 수 있습니다. 우리는 귀하의 프로필 정보와 함께 질문을 그들의 웹사이트로 전달할 것입니다. <b>이용 약관</b> 을 제대로 읽었는지 확인하십시오.",
+          "tncLabel": "이용 약관:",
+          "sistaniOrgTncInfo": "아래 사항을 준수하지 않으면 답변을 듣지 못하거나 답변을 받지 못할 수 있으므로 질문하기 전에 웹사이트의 요점을 따르는 것이 좋습니다.",
           "userInfo": {
-            "aboutLabel": "귀하에 관하여",
-            "genderLabel": "성별",
+            "aboutLabel": "당신에 대하여",
+            "genderLabel": "당신의 성별",
             "bdayLabel": "생일",
-            "bdayDesc": "09세 이상인 경우에만 질문을 할 수 있습니다. 여전히 관심이 있으시면 저희에게 연락하십시오."
+            "bdayDesc": "09세 이상인 경우에만 질문할 수 있습니다."
           },
           "jsQuesAdded": "질문이 성공적으로 추가되었습니다."
         },
         "askQuesCta": "질문하기"
       },
       "authPrompt": {
-        "title": "계정 필요",
+        "title": "필요한 계정",
         "defLabel": "계속하려면 로그인 또는 가입",
-        "infoText": "이 기능을 사용하려면 로그인하거나 등록해야 사용할 수 있습니다. 이미 등록된 경우 <b>로그인</b>을 클릭하거나 <b>등록을</b> 클릭하여 계정을 만듭니다."
+        "infoText": "이 기능을 사용하려면 먼저 로그인하거나 등록해야 합니다. 이미 등록되어 있는 경우 <b>Login(로그인</b> )을 클릭하거나 <b>Sign up(가입)</b> 을 클릭하여 계정을 만듭니다."
       },
       "location": {
         "title": "위치 변경",
-        "search_ph": "위치 검색",
-        "autoDetectInfo": "위치를 입력하거나 자동 검색 아이콘을 클릭하여 위치를 가져옵니다.",
+        "search_ph": "내 위치 검색",
+        "autoDetectInfo": "위치를 입력하거나 자동 감지 아이콘을 클릭하여 위치를 가져옵니다.",
         "setLocation": "위치 설정",
         "ipAddress": "IP 주소",
-        "alarmLocation": "알람 위치",
-        "basedOn": "{선택기}를 기반으로 한 위치",
-        "jsDetecting": "감지, 잠시만 기다려주십시오..",
+        "alarmLocation": "경보 위치",
+        "basedOn": "{selector}에 따른 위치",
+        "jsDetecting": "감지, 잠시만 기다려 주십시오..",
         "jsPermDenied": "앱에 대한 위치 권한이 거부되었습니다. 휴대 전화의 설정 섹션을 방문하여이 응용 프로그램의 위치 기본 설정을 재설정하십시오.",
-        "jsPosUnavailable": "죄송하지만 현재 이 휴대폰의 위치를 사용할 수 없습니다. 나중에 다시 시도하십시오.",
+        "jsPosUnavailable": "죄송하지만 지금은 이 전화기의 위치를 사용할 수 없습니다. 나중에 다시 시도해 주세요.",
         "jsMatchNotFound": "일치하는 위치를 찾을 수 없습니다.",
         "jsEnterValidLoc": "올바른 위치를 입력하십시오.",
-        "jsGeoUnavailable": "죄송하지만 현재 이 휴대폰의 위치를 사용할 수 없습니다. 나중에 다시 시도하십시오.",
+        "jsGeoUnavailable": "죄송하지만 지금은 이 전화기의 위치를 사용할 수 없습니다. 나중에 다시 시도해 주세요.",
         "jsLocMissing": "위치를 찾을 수 없습니다. 위치를 수동으로 입력하십시오.",
-        "jsSelectedLoc": "이 위치에 오류가 있습니다. 다시 시도하십시오."
+        "jsSelectedLoc": "이 위치에 오류가 있습니다. 다시 시도하십시오"
       },
       "readText": {
         "ctaLabel": "읽다",
-        "title": "두아: {제목}",
+        "title": "2 : {title}",
         "arabicCta": "아랍어",
         "englishCta": "영어",
         "translatedCta": "번역 언어"
       },
       "reqAccess": {
-        "heading": "액세스 필요",
-        "subheading": "카메라에 액세스 할 수있는 권한이 필요합니다.",
-        "subtext": "아래 버튼을 클릭하여 액세스를 허용하십시오 :",
+        "heading": "액세스 권한 필요",
+        "subheading": "카메라에 액세스할 수 있는 권한이 필요합니다.",
+        "subtext": "아래 버튼을 클릭하여 접근을 허용하십시오.",
         "ctaLabel": "액세스 허용"
       },
       "shareBtn": {
-        "subtext": "아래 옵션 중 하나를 클릭하여 각 앱에서 공유하십시오.",
+        "subtext": "아래 옵션 중 하나를 클릭하여 각 앱에서 공유하세요.",
         "jsCopyToCB": "클립보드에 복사됨",
-        "copyText": "위의 <b>복사</b> 아이콘을 클릭하여 아래 내용을 복사하십시오."
+        "copyText": "위의 <b>복사</b> 아이콘을 클릭하여 아래 내용을 복사합니다."
       },
       "verifyMob": {
         "title": [
@@ -711,39 +706,39 @@
           "코드 입력"
         ],
         "page1": {
-          "infoText1": "신원을 확인하기 위해 휴대폰 번호가 필요합니다. 가끔 업데이트를받을 수도 있습니다.",
+          "infoText1": "신원 확인을 위해 휴대폰 번호가 필요합니다. 가끔 업데이트를 받을 수도 있습니다.",
           "infoText2": [
-            "번호를 입력하고 버튼을 클릭하여 확인 코드를 가져옵니다.",
-            "번호를 입력하고 버튼을 클릭하여 확인 코드를 가져옵니다."
+            "전화번호를 입력하고 버튼을 클릭하여 확인 코드를 받습니다.",
+            "전화번호를 입력하고 버튼을 클릭하면 확인 코드를 받을 수 있습니다."
           ]
         },
         "form": {
           "mobileLabel": "휴대폰 번호",
-          "mobileLabel_ph": "휴대폰 번호 입력",
+          "mobileLabel_ph": "휴대폰 번호를 입력하세요",
           "otpViaSMS": "SMS를 통해 받기",
-          "viaWhatsApp": "WhatsApp을 통해 가져 오기",
-          "viaTelegram": "전보를 통해 얻기",
-          "viaSignal": "신호를 통해 얻기"
+          "viaWhatsApp": "WhatsApp을 통해 받기",
+          "viaTelegram": "텔레그램을 통해 받기",
+          "viaSignal": "시그널을 통해 받기"
         },
         "page2": {
-          "header": "6자리 확인 코드를 번호({번호})로 보냈습니다.",
+          "header": "귀하의 번호로 6자리 확인 코드를 보냈습니다({number})",
           "enterCodeLabel": "코드 입력",
           "enterCode_ph": "6자리 코드 입력",
           "resendCode": "코드 재전송",
-          "notUsingMobile": "<strong>{번호}를 사용하지 않습니까?</strong>",
-          "changeNumber": "번호 변경"
+          "notUsingMobile": "{number}사용하지 않습니까 <strong> ?</strong>",
+          "changeNumber": "변경 번호"
         },
-        "jsVerifySuccess": "모바일이 성공적으로 확인됨",
-        "jsVerifyError": "오류가 발생했습니다. 나중에 다시 시도하십시오.",
-        "jsSendOtpFailed": "OTP를 보내지 못했습니다. 나중에 다시 시도하십시오.",
-        "jsSendOtpSuccess": "OTP가 {모바일}로 전송됨",
-        "jsTooManyRequests": "이미 너무 여러 번 시도한 것 같습니다. 잠시 기다렸다가 다시 시도하십시오."
+        "jsVerifySuccess": "모바일 인증이 성공적으로 완료되었습니다.",
+        "jsVerifyError": "오류가 발생했습니다. 나중에 다시 시도해 주세요.",
+        "jsSendOtpFailed": "OTP를 보내지 못했습니다. 나중에 다시 시도해 주세요.",
+        "jsSendOtpSuccess": "OTP가 {mobile}로 전송됨",
+        "jsTooManyRequests": "이미 너무 많이 시도한 것 같습니다. 잠시 기다렸다가 다시 시도하세요."
       },
       "userSettings": {
-        "personalSharingMsg": "공유 메시지 개인 설정",
-        "changePwd": "암호 변경 | 암호 설정",
+        "personalSharingMsg": "공유 메시지 개인화",
+        "changePwd": "비밀번호 변경 | 비밀번호 설정",
         "changeLang": "언어 선택",
-        "publishToFeed": "피드에 변경 사항을 게시하십시오."
+        "publishToFeed": "피드에도 내 변경 사항을 게시합니다."
       },
       "userSettingsModal": {
         "title": {
@@ -753,121 +748,122 @@
         },
         "sign": {
           "addNameToMsgs": "메시지에 내 이름 추가",
-          "sharingDesc": "외부에서 공유할 때 메시지는 다음과 같을 수 있습니다.",
+          "sharingDesc": "외부와 공유할 때 메시지는 다음과 같을 수 있습니다.",
           "sharingTextDemo": [
-            "Bazm 앱에서이 Nauha 듣기",
-            "{name}은 Bazm App에서이 Nauha를 듣는 것이 좋습니다."
+            "Bazm 앱에서 이 Nauha 듣기",
+            "{name} Bazm 앱에서 이 Nauha를 들을 것을 권장합니다."
           ],
           "addSignDesc": "서명도 추가하고 싶으신가요?",
-          "signDesc": "이 앱에서 친구들과 소원을 공유하면 서명이 메시지에 추가됩니다. 예를 들어 다음과 같이 나타날 수 있습니다."
+          "addSignPlaceholder": "예를 들어\n행운을 빕니다.\n{name}",
+          "signDesc": "이 앱에서 친구들과 소원을 공유하면 서명이 메시지에 추가됩니다. 예를 들어 다음과 같이 표시될 수 있습니다."
         },
         "changePwd": {
           "currentPwdLabel": "기존 암호를 입력합니다.",
-          "currentPwdPH": "현재 암호 입력",
+          "currentPwdPH": "현재 비밀번호 입력",
           "newPwdLabel": "새 암호를 입력합니다.",
-          "newPwdPH": "새 암호 입력"
+          "newPwdPH": "새 비밀번호 입력"
         },
         "changeLang": {
           "searchYourLang": "언어 검색",
-          "desc": "앱 콘텐츠를 보려는 언어를 선택합니다. 언어를 클릭하고 이 문구가 선택한 언어로 어떻게 표시되는지 확인하기 위해 기다리고(번역을 로드하는 데 시간이 걸립니다.) 기다립니다."
+          "desc": "앱 콘텐츠를 보려는 언어를 선택합니다. 언어를 클릭하고 이 문구가 선택한 언어에서 어떻게 나타나는지 확인하기 위해 기다립니다(번역을 로드하는 데 시간이 걸립니다)."
         },
         "jsPwdInvalid": "암호에 잘못된 문자가 있습니다.",
-        "jsPwdCharCount": "암호는 8자 미만일 수 없습니다.",
+        "jsPwdCharCount": "비밀번호는 8자 이상이어야 합니다.",
         "jsSelectLang": "먼저 언어를 선택하십시오.",
         "jsLangSet": "언어가 {lang}로 설정되었습니다.",
-        "jsPrefSaved": "개인 설정 설정이 저장되었습니다."
+        "jsPrefSaved": "개인 설정이 저장되었습니다."
       },
       "forgotPwd": {
-        "title": "비밀번호를 잊으셨습니까?",
-        "introText": "암호를 재설정하는 것은 쉽습니다. 계속하려면 방법을 선택합니다.",
+        "title": "비밀번호를 잊으셨나요?",
+        "introText": "비밀번호 재설정은 쉽습니다. 계속할 방법을 선택합니다.",
         "usePhoneCta": "전화 사용",
         "useEmailCta": "이메일 사용",
-        "sendEmailIntro": "계정을 만든 이메일 주소를 입력하면 계정에 대한 새 암호를 설정할 수 있는 링크가 포함된 이메일이 전송됩니다.",
-        "emailInputLabel": "등록된 이메일",
+        "sendEmailIntro": "계정을 만들 때 사용한 이메일 주소를 입력하면 계정에 새 비밀번호를 설정할 수 있는 링크가 포함된 이메일을 보내드립니다.",
+        "emailInputLabel": "등록된 이메일 주소",
         "sendEmailCta": "재설정 이메일 보내기",
-        "sentEmailText": "당신이 우리와 함께 계정이있는 경우, 당신은 <strong>곧 {email}</strong>에 암호 재설정 이메일을 받게됩니다. 친절하게 링크에 대한 귀하의 이메일을 확인하십시오.",
-        "notUsingEmailText": "<strong>{email}</strong>을 사용하지 않나요?",
+        "sentEmailText": "계정이 있는 경우 <strong>{email}</strong>곧 비밀번호 재설정 이메일을 받게 됩니다. 이메일에서 링크를 확인하십시오.",
+        "notUsingEmailText": "{email}사용하지 않습니까 <strong> ?</strong>",
         "changeEmailCta": "이메일 변경",
-        "phoneIntroText": "계정에 추가된 전화 번호를 입력합니다. 소유권을 확인하기 위해 OTP를 보내드리며, 다음 단계에서는 새 암호를 만들 수 있습니다.",
+        "phoneIntroText": "계정에 추가된 전화번호를 입력합니다. 소유권을 확인하기 위해 OTP를 보내드리며, 다음 단계에서 새 비밀번호를 만들 수 있습니다.",
         "phoneInputLabel": "휴대폰 번호",
-        "sendOtpCta": "OTP 보내기",
+        "sendOtpCta": "OTP 전송",
         "backToLoginCta": "로그인으로 돌아가기",
-        "disclaimerText": "{item}이 등록된 경우에만 {item}을 받게 됩니다.",
-        "jsMailSent": "보낸 메일",
+        "disclaimerText": "{item} 등록한 경우에만 {item} 받을 수 있습니다",
+        "jsMailSent": "메일 발송",
         "title2": "계정 신청하기",
         "claimIntroHeading": "계정을 빠르게 신청하세요!",
         "claimIntroText": "함께 해주셔서 감사합니다. 이제 계정을 만들었습니다. 다음 방법 중 하나를 사용하여 암호를 재설정하여 계정에 액세스하십시오."
       },
       "resetPwd": {
         "title": "비밀번호 재설정",
-        "introText": "여기에서 계정에 대한 보안 암호를 설정합니다. {icon}을 클릭하여 올바른 암호를 입력했는지 확인합니다.",
-        "pwdInputLabel": "새 암호 설정",
-        "pwdInputPH": "새 암호 입력",
-        "invalidPwdChars": "암호에 잘못된 문자",
-        "jsResetSuccess": "비밀번호 재설정이 성공적이었습니다!"
+        "introText": "여기에서 계정에 대한 보안 비밀번호를 설정하세요. {icon} 클릭하여 올바른 암호를 입력했는지 확인합니다.",
+        "pwdInputLabel": "새 비밀번호 설정",
+        "pwdInputPH": "새 비밀번호 입력",
+        "invalidPwdChars": "암호에 잘못된 문자가 있습니다.",
+        "jsResetSuccess": "비밀번호 재설정에 성공했습니다!"
       },
       "mediaPlayer": {
-        "jsTrackLoadFailed": "트랙을 로드하지 못했습니다. 나중에 다시 시도하십시오."
+        "jsTrackLoadFailed": "트랙을 로드하지 못했습니다. 나중에 다시 시도해 주세요."
       },
       "moreBtn": {
-        "jsItemDeleted": "{항목}이(가) 성공적으로 삭제되었습니다.",
-        "jsErrReporting": "현재로서는 이를 보고할 수 없습니다. 나중에 다시 시도하십시오.",
-        "jsAlreadyReported": "이미 이 {항목}을 보고했습니다. 두 번 이상 신고할 수 없습니다.",
-        "jsPromptHeading": "항목을 보고하면 귀하 또는 다른 사람의 피드/페이지에 나타날 가능성이 낮아집니다. 아직도 신고하고 싶으신가요?",
+        "jsItemDeleted": "{item} 성공적으로 삭제되었습니다.",
+        "jsErrReporting": "현재로서는 보고할 수 없습니다. 나중에 다시 시도해 주세요.",
+        "jsAlreadyReported": "이미 이 {item}신고했습니다. 두 번 이상 신고할 수 없습니다.",
+        "jsPromptHeading": "항목을 신고하면 귀하 또는 다른 사람의 피드/페이지에 나타날 가능성이 낮아집니다. 그래도 신고하시겠습니까?",
         "jsReporting": "보고 {itemType}..",
-        "jsReportingErr": "현재 요청을 제출할 수 없습니다. 나중에 다시 시도하십시오.",
-        "jsReported": "{항목}이보고되었습니다. 귀하의 기여에 감사드립니다."
+        "jsReportingErr": "현재 요청을 제출할 수 없습니다. 나중에 다시 시도해 주세요.",
+        "jsReported": "{item} 보고했다. 참여해주셔서 감사합니다."
       },
       "editProfileModal": {
         "jsEmptyData": "업데이트 할 것이 없습니다!",
-        "jsProfileUpdated": "프로필 업데이트!"
+        "jsProfileUpdated": "프로필이 업데이트되었습니다!"
       },
       "reqZiyarat": {
-        "title": "요청 지야랏",
+        "title": "지야랏 요청",
         "cta": "요청",
-        "header": "당신을 대신하여 카르발라의 이맘 후세인 (a.s.) 신사에서 지야랏을 요청하십시오.",
+        "header": "당신을 대신하여 카르발라에 있는 이맘 후세인(Imam Hussain, a.s.) 사원에서 지야랏(Ziyarat)을 요청하십시오.",
         "desc": {
-          "p1": "매주 금요일, 지야랏이 이라크 카르발라에 있는 이맘 후세인(이맘 후세인) 신사에서 <strong>당신을 대신하여 암송</strong>하게 하소서! <strong>목요일 저녁이 끝나기 전에</strong> 요청하기 만하면됩니다. 당신은 결코 너무 늦지 않았습니다. 요청이 너무 늦게 들어오면 다음 주에 등록됩니다.",
-          "p2": "우리는 ziyarat가 당신을 대신하여 암송되었을 때 당신에게 통보 할 것입니다.",
-          "p3": "참고: 처음 요청하면 세부 정보가 서비스 제공업체와 공유됩니다. 자세한 내용은 이용 약관을 읽어보십시오."
+          "p1": "매주 금요일, 이라크 카르발라에 있는 이맘 후세인 신전에서 <strong>지야랏을 낭송</strong> 해 보세요! <strong>목요일 저녁이 끝나기 전에</strong> 요청하기만 하면 됩니다. 하지만 너무 늦지 않았습니다. 요청이 너무 늦게 들어오면 다음 주에 등록됩니다.",
+          "p2": "귀하를 대신하여 지야랏이 낭송되면 알려드리겠습니다.",
+          "p3": "참고: 처음 요청하면 귀하의 세부 정보가 당사 서비스 제공업체와 공유됩니다. 더 많은 것을 알기 위해 우리의 이용 약관을 읽으십시오."
         },
         "jsRegistered": "감사합니다! 요청이 성공적으로 등록되었습니다. 곧 확인 메일을 받게 됩니다.",
-        "jsAlreadyRegistered": "이번 목요일에 이미 Ziyarat에 등록했습니다. 다음 주에 다음 주 지야랏에 등록하십시오.",
-        "jsConfirm": "이 요청에 등록하려면 귀하의 세부 정보 (예 : 성명, 성별 등)를 서비스 제공 업체와 공유해야합니다. 이것은 처음에만 필요합니다. 친절하게 계속 진행하십시오.",
+        "jsAlreadyRegistered": "이번 주 목요일에 이미 Ziyarat에 등록했습니다. 다음 주 지야랏에 다음 주에 등록하십시오.",
+        "jsConfirm": "이 요청에 등록하려면 귀하의 세부 정보(예: 성명, 성별 등)를 서비스 제공업체와 공유해야 합니다. 이것은 처음에만 필요합니다. 계속 진행하려면 확인하십시오.",
         "jsDeclined": "그래! 다음에 하죠."
       },
       "currencySelector": {
         "title": "통화 선택",
         "baseCurrency": "기본 통화",
-        "compHasOwnRates": "이 선택기를 사용하는 페이지에는 과거 값을 가질 수있는 자체 환율이 있습니다. 따라서 여기에 표시된 요금은 선택 시 적용되지 않습니다.",
+        "compHasOwnRates": "이 선택기를 사용하는 페이지에는 과거 값이 있을 수 있는 자체 환율이 있습니다. 따라서 여기에 표시된 요금은 선택 항목에 적용되지 않습니다.",
         "cancelCta": "취소",
         "doneCta": "수행"
       },
       "mqmsSelector": {
-        "title": "무카마 금액 선택",
-        "dateAdded": "추가됨: {date}",
+        "title": "Muqammas 금액 선택",
+        "dateAdded": "추가: {date}",
         "cancelCta": "취소",
         "doneCta": "고르다"
       },
       "khumsPaymentRecord": {
         "title": "결제 기록 추가",
-        "paymentFor": "{khumsType} 대한 지불",
-        "totalAmount": "총 금액: {amount}",
+        "paymentFor": "{khumsType}에 대한 지불",
+        "totalAmount": "총액: {amount}",
         "form": {
           "amountLabel": "분량",
           "amountPlaceholder": "금액 입력",
-          "amountErr": "금액은 쿰스보다 클 수 없습니다.",
-          "dateLabel": "전송 날짜 — 선택 사항",
-          "dateInfo": "송금한 날짜",
-          "remarks": "발언이 있다면?",
-          "remarksInfo": "예: '현금으로 결제'",
+          "amountErr": "금액은 Khums를 초과할 수 없습니다.",
+          "dateLabel": "Transfer date — 선택 사항",
+          "dateInfo": "송금 날짜",
+          "remarks": "비고가 있다면?",
+          "remarksInfo": "예: '현금으로 지불'",
           "attach": "첨부 파일 추가",
-          "attachInfo": "나중에 참조할 수 있도록 결제 영수증(이미지만)을 추가할 수 있습니다."
+          "attachInfo": "나중에 참조할 수 있도록 결제 영수증(이미지만 해당)을 추가할 수 있습니다"
         }
       },
       "dialCodeSelector": {
         "title": "국가 선택",
-        "searchPH": "이름 또는 전화 번호로 국가 검색"
+        "searchPH": "이름 또는 다이얼 코드로 국가 검색"
       },
       "cards": {
         "completeProfile": {
@@ -1116,158 +1112,151 @@
       "form": {
         "name": {
           "label": "사용자 이름",
-          "placeholder": "전체 이름 입력"
+          "placeholder": "성명을 입력하세요"
         },
         "email": {
           "label": "이메일",
           "placeholder": [
-            "등록된 이메일",
-            "이메일 입력"
+            "등록된 이메일 주소",
+            "이메일 주소 입력"
           ]
         },
         "password": {
           "label": "암호",
           "placeholder": [
             "비밀번호",
-            "암호 입력"
+            "암호를 입력합니다"
           ]
         },
-        "rememberLogin": "로그인 기억하기",
-        "forgotPwd": "비밀번호를 잊으셨습니까?",
-        "connectUsing": "또는 다음을 사용하여 연결",
+        "rememberLogin": "로그인 기억",
+        "forgotPwd": "비밀번호를 잊으셨나요?",
+        "connectUsing": "또는 다음을 사용하여 연결합니다.",
         "useSavedAccount": "저장된 계정 사용",
         "lastLogin": "마지막 로그인",
         "needAccount": "계정이 필요하신가요?",
-        "resetPwdSuccess": "새 암호를 사용하여 지금 로그인 할 수 있습니다.",
-        "jsEnterFullName": "전체 이름을 입력하십시오.",
-        "jsEnterValidName": "유효한 이름을 입력하십시오.",
+        "resetPwdSuccess": "지금 새 비밀번호를 사용하여 로그인할 수 있습니다",
+        "jsEnterFullName": "성명을 입력해 주세요.",
+        "jsEnterValidName": "올바른 이름을 입력하십시오.",
         "jsEnterValidEmail": [
-          "유효한 이메일을 입력하십시오.",
-          "이메일에 잘못된 문자가 있습니다. 유효한 이메일을 입력하십시오."
+          "유효한 이메일 주소를 입력해 주세요.",
+          "이메일에 잘못된 문자가 있습니다. 유효한 이메일 주소를 입력해 주세요."
         ],
         "jsSelectCountryCode": "목록에서 국가 코드를 선택하십시오.",
-        "jsEnterMobile": "휴대폰 번호를 입력하십시오.",
-        "jsEnterValidMobile": "유효한 휴대폰 번호를 입력하십시오.",
-        "jsEnterPwd": "비밀번호를 입력하십시오!",
+        "jsEnterMobile": "휴대폰 번호를 입력해 주세요.",
+        "jsEnterValidMobile": "유효한 휴대폰 번호를 입력하세요.",
+        "jsEnterPwd": "비밀번호를 입력해 주세요!",
         "jsEnterValidPwd": [
-          "암호에 잘못된 문자가 있습니다. 유효한 암호를 입력하십시오.",
-          "암호는 {num}자 이상이어야 합니다."
+          "암호에 잘못된 문자가 있습니다. 유효한 비밀번호를 입력해 주세요.",
+          "암호는 {num} 자 이상이어야 합니다."
         ],
         "jsAccountSuccess": "계정이 성공적으로 생성되었습니다.",
-        "jsFbError": "Facebook 계정 세부 정보를 가져올 수 없습니다. 다시 시도하십시오.",
+        "jsFbError": "Facebook 계정 세부 정보를 얻을 수 없습니다. 다시 시도하십시오.",
         "jsPromptClosedErr": "완료하기 전에 로그인 프롬프트가 닫혔습니다. 다시 시도하십시오."
       },
-      "gotoSignup": "고토 가입",
+      "gotoSignup": "Goto 회원가입",
       "alreadyHasAccount": "이미 계정이 있으신가요?",
-      "gotoLogin": "고토 로그인",
+      "gotoLogin": "Goto 로그인",
       "gotoProfile": "고토 프로필",
-      "msgForAuthUser": "<p>우리는 당신이 이미 로그인했기 때문에 실수로 여기에 도착했다고 생각합니다.</p> <p>프로필이 어떻게 보이는지 확인하거나 아래 링크 중 하나를 사용하여 다른 섹션을 탐색할 수 있습니다.</p>",
+      "msgForAuthUser": "<p>이미 로그인되어 있으므로 실수로 여기에 착륙한 것 같습니다.</p><p>프로필을 확인하여 어떻게 보이는지 확인하거나 아래 링크 중 하나를 사용하여 다른 섹션을 탐색할 수 있습니다.</p>",
       "jsLoggedOut": "로그아웃되었습니다.",
       "jsLogoutHeading": "계정에서 로그아웃하시겠습니까?",
-      "jsLogoutText": "이렇게 하면 로컬에 저장된 정보가 삭제되어 빠르게 로그인할 <b>수 있습니다</b>. 계속하다?"
+      "jsLogoutText": "이렇게 하면 로컬에 저장된 정보가 삭제되어 <b>빠르게</b> 로그인할 수 있습니다. 계속하다?"
     },
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "설치 Bazm { 플랫폼 }",
-          "desc": "더 나은 경험, 개인화 된 콘텐츠, 알림 및 주변에서 관심있는 모든 것을 위해 Android 앱을 다운로드하십시오! | 앱 바로 가기(책갈피)를 설치하여 다음 번에 홈 화면에서 직접 액세스하여 더 나은 환경을 제공합니다! 장치의 공간을 거의 차지하지 않지만 앱을 빠르게 다시 사용할 수 있습니다.",
+          "heading": "Bazm { 플랫폼 } 설치",
+          "desc": "더 나은 경험, 개인화된 콘텐츠, 알림 및 주변의 관심 있는 모든 것을 위해 Android 앱을 다운로드하세요! | 앱 바로 가기 (북마크)를 설치하여 다음 번에 더 나은 경험을 위해 홈 화면에서 직접 액세스하십시오! 기기의 공간을 거의 차지하지 않지만 앱을 빠르게 사용할 수 있도록 도와줍니다.",
           "cta": {
             "action": "설치하다",
             "skip": "다음에 하죠"
           }
         },
         "prompt": {
-          "heading": "Bazm 바로 가기를 설치하시겠습니까?"
+          "heading": "Bazm 바로 가기를 설치 하시겠습니까?"
         },
         "popover": {
-          "text": "<strong>아래의</strong> 공유 아이콘(오른쪽에 있는 아이콘처럼 보임)을 클릭한 다음 <strong>홈 화면에 추가를</strong> 클릭합니다. \"저장\"을 클릭하여 완료되면 홈 화면의 바로 가기에서 앱에 액세스 할 수 있습니다!"
+          "text": "<strong>아래의</strong> 공유 아이콘(오른쪽에 있는 모양)을 클릭한 다음 <strong>홈 화면에 추가를</strong> 클릭합니다. \"저장\"을 클릭하여 완료하면 홈 화면의 바로 가기에서 앱에 액세스할 수 있습니다!"
         },
         "nonSafari": {
-          "heading": "Bazm은 애플 사파리에서 더 잘 작동합니다.",
-          "desc": "이 브라우저에는 기능이 제한되어 있지만 Safari 브라우저를 사용하면 푸시 알림 및 앱 바로 가기를 포함하여 앱이 더 잘 수행 될 수 있습니다.",
-          "subtext": "휴대폰에서 <strong>Safari 앱을 열고</strong> 더 나은 경험을 위해 <strong>{url}</strong> 로 이동하십시오.",
-          "skipCta": "대신 여기에서 계속하십시오."
+          "heading": "Bazm은 Apple Safari에서 더 잘 작동합니다.",
+          "desc": "이 브라우저는 기능이 제한되어 있지만 Safari 브라우저를 사용하면 푸시 알림 및 앱 바로 가기를 포함하여 앱이 더 잘 작동할 수 있습니다.",
+          "subtext": "휴대폰에서 <strong>Safari 앱을 열고</strong> 더 나은 경험을 위해 <strong>{url}</strong> 로 이동합니다.",
+          "skipCta": "대신 여기에서 계속하세요"
         }
       },
       "webFeedback": {
         "heading": "지금까지의 경험은 어떻습니까?",
-        "text": "<p>새 앱이 마음에 드십니까? 우리가 개선 할 수있는 것이 있습니까? 귀하의 의견을 도와 귀하의 경험을 개선하십시오!</p> <p>이 작업은 몇 분 밖에 걸리지 않으며 시간을 보내 주셔서 대단히 감사합니다!</p>",
-        "cta": "피드백 제공",
+        "text": "<p>새로운 앱이 마음에 드시나요? 우리가 개선할 수 있는 것이 있습니까? 경험을 개선하기 위해 피드백을 보내주세요!</p><p>이 작업은 몇 분 밖에 걸리지 않으며 시간을 내주셔서 감사합니다!</p>",
+        "cta": "피드백 보내기",
         "dismiss": "다음에 하죠"
       },
       "advertise": {
-        "heading": "Bazm에 광고",
-        "text": "<p>Bazm에서 제품을 사용하여 전 세계 수백만 명의 시아파 무슬림에게 다가 가거나 브랜드 및 사용자와 교류하십시오.</p> <p>$ 1 / day만큼 낮게 시작하십시오!</p>",
+        "heading": "Bazm에 광고하기",
+        "text": "<p>Bazm에서 제품을 사용하여 전 세계 수백만 명의 시아파 무슬림에게 도달하거나 브랜드 및 사용자와 소통하십시오.</p><p>최저 $1/일로 시작하세요!</p>",
         "cta": "더 알아보세요"
       },
       "upgradeSafari": {
-        "header": "사파리에서의 제한된 경험",
-        "description": "<strong>이 브라우저 (Safari)는 최상의 경험을 위해 최적화되지 않았습니다</strong>. 여기에서 앱을 계속 사용하면 업데이트, 오프라인 모드 등과 같은 경고 알림과 같은 여러 기능을 놓칠 수 있습니다.<br/> 향상된 경험을 위해 아래 나열된 브라우저 중 하나를 사용하는 것이 좋습니다. 버튼 중 하나를 클릭하여 AppStore에서 브라우저를 다운로드합니다.",
+        "header": "Safari의 제한된 경험",
+        "description": "<strong>이 브라우저(Safari)는 최상의 경험을 위해 최적화되지 않았습니다</strong>. 여기에서 앱을 계속 사용하면 경고 알림, 업데이트 근처, 오프라인 모드 등과 같은 여러 기능을 놓치게 됩니다.<br/>향상된 경험을 위해 아래 나열된 브라우저 중 하나를 사용하는 것이 좋습니다. 버튼 중 하나를 클릭하여 AppStore에서 브라우저를 다운로드하십시오.",
         "ctas": {
-          "getGoogle": "구글 크롬 받기",
-          "getFirefox": "모질라 파이어 폭스 가져 오기",
-          "getOpera": "오페라 터치 받기",
+          "getGoogle": "Google 크롬 받기",
+          "getFirefox": "모질라 파이어폭스 받기",
+          "getOpera": "Opera Touch 받기",
           "skip": "다음에 하죠"
         },
         "toast": "문제 없어요. 다음까지!"
       },
       "cookieBanner": {
-        "header": "장치에 쿠키 저장에 관하여",
-        "p1": "당사는 귀하의 {기기}에 쿠키를 저장하지 않지만 당사 앱에서 사용되는 타사 앱(예: Google 애널리틱스)을 저장할 수 있습니다. 대신 중요한 데이터를 저장하기 위해 영구 저장소를 사용하며, 대부분의 경우 저장소와 전송 중에 암호화됩니다.",
-        "p2": "이 응용 프로그램을 계속 사용함으로써, 당신은 당신이 우리의 선택에 어떤 문제가 없다는 것을 확인합니다. 쿠키 및 데이터 사용에 대한 자세한 내용은 <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy를 참조하십시오.</a>"
+        "header": "장치에 쿠키 저장에 대해",
+        "p1": "당사는 귀하의 {device} 에 쿠키를 저장하지 않지만 당사 앱에 사용되는 타사 앱(예: Google Analytics)은 저장할 수 있습니다. 대신 영구 저장소를 사용하여 중요한 데이터를 저장하며 대부분의 경우 저장 및 전송 중에 암호화됩니다.",
+        "p2": "이 앱을 계속 사용함으로써 귀하는 당사의 선택에 문제가 없음을 확인합니다. 쿠키 및 데이터 사용에 대한 자세한 내용은 <a href='https://bazm.in/privacy-policy' target='_blank'>개인 정보 보호 정책을 참조하십시오.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - 전 세계의 시아파 무슬림을위한 소셜 네트워크 앱! 지금 앱을 다운로드하십시오.",
+      "titleBranding": " __ Bazm - 전 세계 시아파 무슬림을 위한 소셜 네트워크 앱! 지금 앱을 다운로드하세요.",
       "home": {
         "title": "Bazm - 온라인 시아파 커뮤니티 앱!",
-        "description": "Bazm 앱은 deen & mazhab의 모든 일상적인 요구를 충족시키는 Shia 커뮤니티 앱입니다. Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books 등을 모든 날짜와 경우에 찾으십시오. 집의 편리함에서 전 세계의 시아파 무슬림들과 함께 라이브 스트림 이벤트와 마잘리스를보고 즐기십시오. 오늘 가입하세요!"
+        "description": "Bazm 앱은 deen & mazhab의 모든 일상적인 요구를 충족시키는 Shia 커뮤니티 앱입니다. Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books 등을 찾으십시오. 모든 날짜와 행사에 대해. 집에서 편리하게 전 세계의 시아파 무슬림과 함께 이벤트와 majalis를 시청하고 생중계하십시오. 지금 가입하세요!"
       },
       "feed": {
-        "title": "맞춤형 콘텐츠를 찾고 귀하와 전 세계의 shia 커뮤니티와 공유하십시오.",
-        "description": "shia momineen과 함께 뉴스, 이벤트 및 콘텐츠를 찾아 공유하고, 호스팅하는 모든 이벤트에 대한 정보를 유지하십시오. 앱에서 가까운 곳에서 일어나는 일에 대해 알아보세요."
+        "title": "맞춤형 콘텐츠를 찾고 전 세계의 시아파 커뮤니티와 공유하십시오.",
+        "description": "주변의 shia momineen과 함께 뉴스, 이벤트 및 콘텐츠를 찾아 공유하고 주최하는 모든 이벤트에 대한 정보를 제공하십시오. 앱에서 주변에서 일어나는 모든 일에 대해 알아보세요."
       },
       "mediaHome": {
-        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal 그리고 당신을 위해 훨씬 더!",
-        "description": "Nauhe, Majalis, Dua, Aamaal, ziyarat 등을 모든 날짜와 행사에 대해 찾으십시오. 집의 편리함에서 라이브 스트림 마잘리스를보고 즐기십시오! deen & mazhab의 일상적인 작업에 도움이되는 Shia 소셜 네트워크 앱에 가입하십시오. 오늘 가입하세요!"
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal 등 다양한 기능을 제공합니다!",
+        "description": "모든 날짜와 행사에 대해 Nauhe, Majalis, Dua, Aamaal, ziyarat 등을 찾으십시오. 집에서 편리하게 majalis를 시청하고 라이브 스트리밍하세요! Deen & mazhab의 일상적인 작업을 도와주는 Shia 소셜 네트워크 앱에 가입하십시오. 지금 가입하세요!"
       },
       "toolsHome": {
-        "title": "Bazm - 시아파 무슬림을 위한 일일 아자안 경보, 질문-답변 및 도구",
-        "description": "Adhan에 대한 매일 알림을 받고, deen & islam의 주제에 대한 질문 답변을 찾아 묻거나, Surah-fatiha 또는 Namaz-e-Wahshat에게 marhumeen에 대한 요청과 Bazm에 대한 더 많은 도구를 요청하십시오. 딘의 일상적인 작업에 도움이되는 Shia 소셜 네트워크 앱에 가입하십시오. 모든 날짜와 경우에 Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat를 찾으십시오. 라이브 스트림 이벤트와 마잘리스는 집의 편리함에서 비롯됩니다. 오늘 가입하세요!"
+        "title": "Bazm - 시아파 무슬림을 위한 일일 Azaan 알람, 질문-답변 및 도구",
+        "description": "Adhan에 대한 일일 알림을 받고, deen & 이슬람 주제에 대한 질문 답변을 찾아 묻거나, marhumeen에 대한 Surah-fatiha 또는 Namaz-e-Wahshat을 요청하고, Bazm에서 더 많은 도구를 요청하십시오. Deen의 일상적인 작업을 도와주는 Shia 소셜 네트워크 앱에 가입하세요. 모든 날짜와 행사에 대해 Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat를 찾으십시오. 라이브 스트림 이벤트와 majalis는 집에서 편리하게 이용할 수 있습니다. 지금 가입하세요!"
       },
       "tasbeehCounter": {
-        "title": "음성 __ Tasbeeh 카운터 도구가있는 자동 tasbeeh 카운터",
-        "description": "무수한 tasbeeh를 암송하는 것은 이제 오디오 tasbeeh 카운터로 더 쉬워졌습니다. 운전하거나 일하는 동안 tasbeeh를 암송하고 음성 카운터로 카운트를 추적하십시오. Bazm 앱에서이 도구와 다른 도구를 사용하십시오. 오늘 다운로드하십시오."
+        "title": "음성 __ Tasbeeh 카운터 도구가 있는 자동 tasbeeh 카운터",
+        "description": "이제 Audio tasbeeh 카운터를 사용하면 셀 수 없이 많은 tasbeeh를 암송하는 것이 더 쉬워졌습니다. 운전 중이거나 일하는 동안 음성 카운터로 카운트를 추적하면서 tasbeeh를 암송하십시오. 이 도구와 이와 유사한 다른 도구를 Bazm 앱에서 다운로드하십시오."
       },
       "accountHome": {
-        "title": "Bazm - 오늘 무료 계정을 만들고 deen의 일상적인 요구에 대한 도움을 받으십시오!",
-        "description": "오늘 Bazm 앱에 가입하여 deeniyat에 대한 모든 요구 사항을 충족하십시오. 모든 날짜와 경우에 nohe / nauhe, majalis, dua, ziyarat, aamaal을 찾으십시오. 라이브 스트리밍과 시청 majalis & 이벤트 당신 주위에서; 당신과 전 세계의 게시물, 콘텐츠 및 momineen을 찾을 수 있으며, 앱에서 훨씬 더 많은 것을 찾으십시오. 오늘 가입하십시오!"
+        "title": "Bazm - 오늘 무료 계정을 만들고 deen의 일상적인 요구 사항에 대한 도움을 받으세요!",
+        "description": "오늘 Bazm 앱에 가입하여 deeniyat에 대한 모든 요구 사항을 충족하십시오. 모든 날짜와 행사에 대해 nohe/nauhe, majalis, dua, ziyarat, aamaal을 찾으십시오. 라이브 스트리밍 및 주변의 majalis 및 이벤트 시청; 게시물, 콘텐츠, 당신과 전 세계의 momineen, 그리고 앱에서 훨씬 더 많은 것을 찾을 수 있습니다. 지금 가입하세요!"
       },
       "nauheListPage": {
-        "title": "전 세계의 인기있는 nauhakhwan의 Nauhe를 들어보십시오.",
-        "description": "Bazm 응용 프로그램에서 모든 년 및 전 세계의 모든 인기있는 nauhakhwan에서 nauhe를 들어보십시오. 오늘 다운로드하십시오."
+        "title": "전 세계적으로 인기 있는 nauhakhwan의 Nauhe를 들어보세요.",
+        "description": "Bazm 앱에서 전 세계의 모든 인기 nauhe와 모든 인기 nauhakhwan을 들어보세요."
       },
       "soazListPage": {
-        "title": "전 세계의 인기있는 Soazkhwan의 Soaz를 들어보십시오.",
-        "description": "Bazm 앱에서 모든 년 동안 Soaz와 전 세계의 모든 인기있는 Soazkhwan을 들어보십시오. 오늘 다운로드하십시오."
+        "title": "전 세계적으로 인기 있는 Soazkhwan의 Soaz를 들어보세요.",
+        "description": "Bazm 앱에서 전 세계의 모든 인기 Soaz와 모든 인기 Soazkhwan을 들어보세요."
       },
       "majalisList": {
-        "title": "{type} majalis / majlis on Bazm - Bazm에서 더 많은 nauhe, audio/video majalis, dua, ziyarat, aamaal 등을 찾으십시오.",
-        "description": "Maulana와 Zakir-e-Ahlbayt의 오디오 / 비디오 majalis를 가까운 곳과 전 세계에서 찾으십시오. Bazm 앱에서 최신 majalis 및 라이브 스트림 세션을 듣고 시청하십시오. 오늘 앱을 다운로드하고 전 세계 수백만 명의 시아파 무슬림들과 함께하십시오!"
+        "title": "{type} majalis/majlis on Bazm - 더 많은 nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 찾습니다. Bazm에서",
+        "description": "가까운 곳과 전 세계에서 Maulana 및 Zakir-e-Ahlbayt의 오디오/비디오 마잘리를 찾으십시오. Bazm 앱에서 최신 majalis 및 라이브 스트림 세션을 듣고 시청하십시오. 오늘 앱을 다운로드하고 전 세계 수백만 명의 시아파 무슬림과 함께하세요!"
       },
       "duasPage": {
         "title": [
-          "Bazm에서 {month} 달의 Duas and aamaal - Bazm에서 더 많은 nauhe, audio/video majalis, dua, ziyarat, aamaal 등을 찾아보세요.",
-          "Bazm에서 모든 달 동안 Duas와 aamaal - Bazm에서 더 많은 nauhe, 오디오 / 비디오 majalis, dua, ziyarat, aamaal 등을 찾으십시오."
+          "Bazm에서 {month} 달의 Duas 및 aamaal - 더 많은 nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 찾으십시오. Bazm에서",
+          "Bazm에서 모든 달 동안 Duas 및 aamaal - 더 많은 nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 찾습니다. Bazm에서"
         ],
-        "description": "Bazm, 날짜 및 이벤트에서 모든 달 동안 duas, aamaal, ziyarat 및 munajat를 찾으십시오. 오늘 앱을 다운로드하고 전 세계 수백만 명의 시아파 무슬림들과 함께하십시오!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "시아파 무슬림에 대한 올바른 참조와 맥락에서 설명하십시오. 또한 소스에 대한 링크가있는 목록으로 참조를 제공하십시오.",
-        "newQues": "안녕하세요, 새로운 대화를 시작하겠습니다. 아래 쿼리가 있습니다.\n{quesTex}",
-        "continuePrev": "{date}에서 논의를 계속합시다. {quesTex}"
+        "description": "Bazm, 날짜 및 이벤트에서 모든 달 동안 duas, aamaal, ziyarat 및 munajat를 찾으십시오. 오늘 앱을 다운로드하고 전 세계 수백만 명의 시아파 무슬림과 함께하세요!"
       }
     }
   }
