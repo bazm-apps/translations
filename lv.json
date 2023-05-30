@@ -1,11 +1,11 @@
 {
   "lv": {
     "common": {
-      "refresh": "Velciet, lai atsvaidzinātu",
+      "refresh": "Pavelciet, lai atsvaidzinātu",
       "refreshing": "Atsvaidzinošu...",
-      "loadingMore": "Ielāde vairāk...",
+      "loadingMore": "Ielādē vairāk...",
       "checking": "Pārbaudes...",
-      "sendOtp": "Nosūtot OTP..",
+      "sendOtp": "OTP sūtīšana.",
       "dismiss": "Noraidīt",
       "invite": "Aicināt",
       "showMore": "Rādīt vairāk | Skatīt vairāk",
@@ -28,7 +28,7 @@
       "logout": "Atteikties",
       "signup": "Piedalīties",
       "settings": "Iestatījumus",
-      "cookiePolicy": "Sīkdatņu politika",
+      "cookiePolicy": "Sīkdatņu izmantošanas politika",
       "privacy": "Konfidencialitātes",
       "contactUs": "Sazinieties ar mums",
       "home": "Mājas",
@@ -38,15 +38,15 @@
       "retry": "Mēģināt vēlreiz",
       "send": "Sūtīt",
       "submit": "Iesniegt",
-      "share": "Kopīgot | Kopīgot tūlīt",
+      "share": "Dalīties — Dalīties tūlīt",
       "at": "pie",
-      "untilNextTime": "Nav problēmu. Līdz nākamajam laikam!",
+      "untilNextTime": "Nav problēmu. Līdz nākamajai reizei!",
       "plzWait": "Lūdzu, gaidi..",
       "saving": "Glābjot.. | Atjaunināšana..",
       "search": "Meklēt",
       "late": "Vēlu",
       "done": "Darīts",
-      "featureUnavailable": "Šī funkcija būs pieejama drīzumā. Paldies fro izrādot interesi!",
+      "featureUnavailable": "Šī funkcija būs pieejama drīzumā. Paldies, ka izrādījāt interesi!",
       "actions": {
         "cancel": "Atcelt",
         "notify": "Paziņo",
@@ -58,22 +58,22 @@
         "uploading": "Augšupielādējot..",
         "deleting": "Dzēšana..",
         "requesting": "Pieprasa..",
-        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
-        "jsShareFileTypeError": "Atvainojiet, jūs nevarat kopīgot {fileType} failus šeit",
+        "audienceHeader": "Momineen, kurš {action}d | Momineen, kurš {action}d šo",
+        "jsShareFileTypeError": "Atvainojiet, šeit nevarat kopīgot {fileType} failus",
         "jsUpdateAvailable": {
-          "header": "Pieejamais atjauninājums",
+          "header": "Atjauninājums ir pieejams",
           "message": "Jūs redzat kešatmiņā saglabāto lietotnes versiju. Noklikšķiniet uz \"Atsvaidzināt\", lai atjauninātu un ielādētu jaunu saturu un funkcijas.",
           "cta": "Atsvaidzināt"
         },
-        "jsImgUploaded": "Attēls veiksmīgi augšupielādēts!",
+        "jsImgUploaded": "Attēls augšupielādēts veiksmīgi!",
         "jsImgUploadErr": "Attēlu augšupielāde neizdevās. Lūdzu, vēlāk mēģiniet vēlreiz.",
         "jsLoadingDelay": "Tas aizņem nedaudz ilgāku laiku, nekā gaidīts. Lūdzu, uzgaidiet, kamēr mēs apstrādājam šo pieprasījumu."
       },
-      "unknown": "Nepazīstams",
       "close": "Aizvērt",
       "yes": "Jā",
       "no": "Nē",
       "idk": "Es nezinu",
+      "unknown": "Nepazīstams",
       "completed!": "Pabeigta!",
       "pushPrompt": {
         "heading": "Sekojiet līdzi jaunumiem",
@@ -90,8 +90,8 @@
         "general": "Apstrādājot pieprasījumu, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
       },
       "content": {
-        "unavailable": "Šajā laikā nevarēja ielādēt saturu. Lūdzu, pēc kāda laika mēģiniet vēlreiz.",
-        "itemDetailUnavailable": "Nevarēju atrast detalizētu informāciju par šo {vienums}",
+        "unavailable": "Šobrīd nevarēja ielādēt saturu. Lūdzu, pēc kāda laika mēģiniet vēlreiz.",
+        "itemDetailUnavailable": "Nevarēju atrast sīkāku informāciju par šo {item}",
         "loadMoreError": "Neizdevās ielādēt vairāk vienumu. Lūdzu, vēlāk mēģiniet vēlreiz."
       },
       "url": {
@@ -100,7 +100,7 @@
       "page404": {
         "title": "Lapa nav atrasta",
         "desc": "Mēs nevarējām atrast meklēto lapu!",
-        "ctaLabel": "Goto mājas"
+        "ctaLabel": "Goto sākums"
       }
     },
     "navbar": {
@@ -110,7 +110,7 @@
       "postDetail": {
         "commonTitle": "Detaļu",
         "fatihaTitle": "Surah-fatiha",
-        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "fatihaWithNamaz": "Surah-fatiha &; Namaz-e-Wahshat",
         "avatarUpdateTitle": "Profila attēls",
         "bannerUpdateTitle": "Vāka attēls (novecojis)",
         "statusUpdateTitle": "Statusa atjaunināšana"
@@ -121,7 +121,7 @@
         "name": "Mājas",
         "postDetail": {
           "shareRequest": {
-            "header": "Kopīgojiet šo pieprasījumu visā tīklā un sazinieties ar vairāk cilvēkiem!"
+            "header": "Kopīgojiet šo pieprasījumu visā savā tīklā un sazinieties ar vairāk cilvēkiem!"
           }
         }
       },
@@ -132,87 +132,88 @@
           "majalis": "Majalis",
           "soaz": "Soaz",
           "ziyarat": "Ziyaraat",
-          "dua": "Duas",
-          "munajat": "Munadžaats",
-          "munajaat": "Munadžaats",
+          "dua": "Divi",
+          "munajat": "Munajaat",
+          "munajaat": "Munajaat",
           "books": "Grāmatas"
         },
-        "inviteFriends": "uzaiciniet savus draugus",
-        "notShia": "Vai ne šiīti?",
+        "inviteFriends": "Uzaiciniet savus draugus",
+        "notShia": "Vai nav šitādi?",
         "contacts": {
-          "accessRequestHeader": "Nepieciešama piekļuve kontaktpersonām",
-          "accessRequestDesc": "Mēs pieprasām, lai jūsu kontaktpersonu piekļuve ieteiktu šiītu cilvēkiem jūsu tālruņu grāmatā uzaicināt uz šo lietotni."
+          "accessRequestHeader": "Kontaktpersonas Nepieciešama piekļuve",
+          "accessRequestDesc": "Mēs pieprasām jūsu kontaktpersonu piekļuvi, lai ieteiktu šiītu cilvēkus jūsu tālruņu grāmatā, lai uzaicinātu uz šo lietotni."
         },
         "audio": "Audio",
         "video": "Video",
-        "hijri": "Hidžri",
+        "hijri": "Hidžras",
         "duaHome": {
           "wishCtaText": "Novēlu saviem draugiem!",
           "wishCtaLabel": "PRASĪŠANA"
         },
         "books": {
-          "booksByAuthor": "{autora} grāmatas",
+          "booksByAuthor": "{author} grāmatas",
           "booksInLang": "Grāmatas {lang}",
           "filterBy": "Filtrēt pēc:",
           "matching": {
-            "authors": "ar autoriem, kas atbilst",
-            "lang": "ar valodu atbilstību",
-            "title": "ar nosaukumu saskaņošanu"
+            "authors": "ar autoru atbilstību",
+            "lang": "ar valodām, kas atbilst",
+            "title": "ar virsrakstu saskaņošanu"
           }
         },
         "booksFilter": {
-          "title": "Atrast autora grāmatu",
+          "title": "Atrodiet grāmatu pēc autora",
           "searchBox": "Meklēt autoru pēc vārda",
           "selectLang": "Izvēlieties valodu:"
         },
         "bookDetails": {
-          "title": "{title} — Atrodiet vairāk šādu bezmaksas grāmatu par Bazm",
+          "title": "{title} — atrodiet vairāk bezmaksas grāmatu, piemēram, šo Bazm",
           "aboutBook": "Par grāmatu:"
         }
       },
       "tools": {
         "name": "Rīki",
-        "salatAlarmDesc": "Iestatiet Azaan modinātājus atbilstoši vietējiem laikiem",
-        "sehriAlarmDesc": "Iestatiet sehri modinātāju vai pat saņemiet modināšanas zvanu uz savu numuru pirms Sehri!",
-        "sehriAlarmOptionDisabled": "Trauksmes signāli Šeri laikam ramadāna mēnesī (pieejami tikai ramadāna laikā)",
-        "tasbeehCounterDesc": "Deklamējiet Duas, Korānu un Tasbeeh atkārtotā režīmā viegli ar Audio Tasbeeh skaitītāju",
+        "salatAlarmDesc": "Iestatiet modinātājus Azaan atbilstoši vietējam laikam",
+        "sehriAlarmDesc": "Iestatiet modinātāju Sehri vai pat saņemiet modināšanas zvanu uz savu numuru pirms Sehri!",
+        "sehriAlarmOptionDisabled": "Modinātāji par Šeri laiku ramadāna mēnesī (pieejami tikai ramadāna laikā)",
+        "tasbeehCounterDesc": "Deklamējiet Duas, Korānu un Tasbeeh atkārtošanas režīmā viegli, izmantojot Audio Tasbeeh skaitītāju",
         "qnaLabel": "QnA (Masle-Masayel)",
         "qnaDesc": "Meklējiet un uzdodiet jautājumus vai atrodiet atbildes uz masle-masayel no savas ikdienas dzīves par islāma jautājumiem.",
+        "khumsLabel": "Khums Kalkulators",
+        "khumsDesc": "Aprēķiniet savus khums vai pievienojiet iepriekš samaksātos khums. Tas palīdz jums reģistrēt jūsu khums gadu gaitā.",
         "alarms": {
-          "salatAlarms": "Salat Alarms | Ikdienas salat trauksmes signāli",
+          "salatAlarms": "Salat trauksmes signāli | ikdienas Salat trauksmes signāli",
           "sehriAlarms": "Ramadāna Sehri trauksmes signāli",
-          "gettingLocation": "Atrašanās vietas iegūšana. Lūdzu, gaidi...",
-          "settingsTip": "Mainiet <b>atrašanās vietu</b> un preferences sadaļā Modinātāja iestatījumi. Noklikšķiniet uz ikonas Iestatījumi, lai sāktu.",
+          "gettingLocation": "Jūsu atrašanās vietas iegūšana. Lūdzu, gaidi...",
+          "settingsTip": "Modinātāja iestatījumos mainiet <b>atrašanās vietu</b> un preferences. Noklikšķiniet uz ikonas Iestatījumi, lai sāktu.",
           "setAlarmHeader": "Iestatiet ikdienas modinātājus",
-          "setAlarmOnAppDesc": "Modinātāju iestatīšana ir pieejama tikai lietotnē",
-          "imsakLabel": "Imsak",
+          "setAlarmOnAppDesc": "Darbvirsmā modinātāja paziņojums tiek parādīts tikai kā reklāmkarogs bez zvana",
+          "imsakLabel": "Imsaks",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
           "sunsetLabel": "Saulriets",
-          "maghribLabel": "Maghriba",
+          "maghribLabel": "Magriba",
           "midnightLabel": "Pusnakts",
           "sehriEndTime": "Sehri beigu laiks",
           "minToImsak": [
-            "{min} min pirms Imsak",
-            "{stunda} stundu pirms Imsak"
+            "{min} min pirms Imsaka",
+            "{hour} stundu pirms Imsakas"
           ],
           "minToImsakDesc": [
-            "Trauksmes signāli zvana {min} minūtes pirms Sehri laika beigām",
-            "Modinātājs zvana {stundu} stundu pirms Sehri laika beigām"
+            "Trauksme zvana {min} minūtes pirms Sehri laika beigām",
+            "Trauksme zvana {hour} stundu pirms Sehri laika beigām"
           ],
           "notRamadan": "Izskatās, ka tas vēl nav ramadāns. Lūdzu, atgriezieties ramadāna laikā vai tieši pirms tā, lai iestatītu Sehri modinātājus",
           "push": {
             "heading": "Nepieciešama piekļuve paziņojumiem",
-            "desc_request": "Signalizācija darbojas, nosūtot pašpiegādes paziņojumus norādītajā laikā. Bez piekļuves stumšanai lietotne nedarbosies paredzētajā veidā. Lūdzu, atļaujiet piekļuvi jūsu pašpiegādes paziņojumam, lai mēs varētu jūs informēt trauksmes laikos.",
-            "desc_denied": "<strong>Jūs iepriekš atteicāt piekļuvi paziņojumiem.</strong> Tas ir nepieciešams, lai pašpiegādes paziņojumi darbotos pareizi. Mēs nosūtām paziņojumus trauksmes celšanas laikā.<br/> Lūdzu, atļaujiet piekļuvi pašpiegādes paziņojumiem, noklikšķinot uz pogas.",
+            "desc_request": "Trauksme darbojas, nosūtot push paziņojumus norādītajos laikos. Bez piekļuves push, lietotne nedarbosies paredzētajā veidā. Lūdzu, atļaujiet piekļuvi savam pašpiegādes paziņojumam, lai mēs varētu jūs informēt trauksmes laikā.",
+            "desc_denied": "<strong>Jūs iepriekš liedzāt piekļuvi paziņojumiem.</strong> Tas ir nepieciešams, lai pašpiegādes paziņojumi darbotos pareizi. Mēs nosūtām paziņojumus modinātāja laikā.<br/>Lūdzu, atļaujiet piekļuvi pašpiegādes paziņojumiem, noklikšķinot uz pogas.",
             "cta": "Atļaut",
-            "toast_granted": "Paldies! Jūs saņemsiet paziņojumu trauksmes laikos tagad.",
-            "toast_denied": "Paziņošanas pieprasījums noraidīts. Lūdzu, ļaujiet lietotnes piekļuvei darboties pareizi.",
-            "toast_prompt": "Jums ir jāļauj piekļūt paziņojumam, lai iestatītu modinātājus."
+            "toast_granted": "Paldies! Tagad jūs saņemsiet paziņojumu modinātāja laikā.",
+            "toast_denied": "Paziņojuma pieprasījums noraidīts. Lūdzu, ļaujiet lietotnes piekļuvei darboties pareizi.",
+            "toast_prompt": "Jums ir jāļauj piekļūt paziņojumiem, lai iestatītu modinātājus."
           },
-          "jsAlarmSetSuccess": "Modinātāji ir veiksmīgi iestatīti",
-          "jsAlarmSetError": "Kļūda, iestatot modinātājus. Lūdzu, vēlāk mēģiniet vēlreiz.",
-          "jsAlarmSnoozed": "Trauksme snauda 10 minūtes",
+          "jsAlarmSetSuccess": "Trauksmes signāli ir veiksmīgi iestatīti",
+          "jsAlarmSetError": "Kļūda, iestatot trauksmes signālus. Lūdzu, vēlāk mēģiniet vēlreiz.",
+          "jsAlarmSnoozed": "Modinātājs snauž 10 minūtes",
           "sunriseLabel": "Saullēkts",
           "dhuhrLabel": "Zuhr",
           "asrLabel": "Asr",
@@ -220,18 +221,18 @@
         },
         "alarmSetting": {
           "title": "Trauksmes iestatījumi",
-          "locationTitle": "Atrodiet pilsētu trauksmes hronometrāžai",
-          "forLocation": "Signalizācija par atrašanās vietu",
+          "locationTitle": "Atrodiet pilsētu, kurā ir modinātāja laiki",
+          "forLocation": "Signalizācija atrašanās vietai",
           "calcMethod": "Aprēķina metode",
           "selectAdhanSound": "Atlasiet Adhan skaņu",
-          "selectAlarmSound": "Atlasiet Modinātāja skaņu",
-          "alarmSoundDesc": "Skaņa ne-salatēšanas laikiem",
-          "timesPeekHeading": "Reklāmas laika reklāmkarogs",
-          "timesPeekDesc": "Jūs varat atspējot Salat laika ātrās apskates parādīšanu šeit:",
+          "selectAlarmSound": "Atlasiet Trauksmes skaņa",
+          "alarmSoundDesc": "Skaņa ne-salat laikiem",
+          "timesPeekHeading": "Parādīšanas laika reklāmkarogs",
+          "timesPeekDesc": "Jūs varat atspējot Salat laika ātrā skata rādīšanu šeit:",
           "timesPeekHome": "Rādīt plūsmu lapā:",
           "timesPeekTools": "Rādīt rīku lapā:",
-          "jsConfirmLocChange": "Mainot atrašanās vietu, tiks atcelti visi iepriekš iestatītie modinātāji. Turpināt?",
-          "jsOtherSettingsSaved": "Saglabāti citi iestatījumi. Atrašanās vieta netika mainīta."
+          "jsConfirmLocChange": "Mainot atrašanās vietu, tiks atcelti visi iepriekš iestatītie trauksmes signāli. Turpināt?",
+          "jsOtherSettingsSaved": "Citi saglabātie iestatījumi. Atrašanās vieta netika mainīta."
         },
         "qna": {
           "title": "Jautājums-atbilde",
@@ -241,25 +242,23 @@
         },
         "qnaDetail": {
           "title": "Atbildes par: {ques}",
-          "jsSubmitSuccess": "Jūsu jautājums ir iesniegts veiksmīgi. Mēs jūs informēsim, tiklīdz saņemsim atbildi par to."
+          "jsSubmitSuccess": "Jūsu jautājums ir veiksmīgi iesniegts. Mēs jūs informēsim, tiklīdz saņemsim atbildi uz to."
         },
         "tasbeehCounter": {
           "title": "Tasbeeh skaitītājs"
         },
-        "khumsLabel": "Khums Kalkulators",
-        "khumsDesc": "Aprēķiniet savus khums vai pievienojiet iepriekš apmaksātus khums. Tas palīdz jums veikt jūsu khums uzskaiti gadu gaitā.",
         "khums": {
           "list": {
             "blog": {
               "title": "Emuārs: Efektīvi aprēķiniet khums",
-              "p1": "<a href='{href}' target='_blank'>Sekojiet mūsu emuāram</a> , kurā katru gadu tiek izcelti galvenie khums aprēķināšanas vienumi.",
-              "p2": "Atruna: Emuārs NAV ceļvedis. <strong>Sekojiet sava Marjah nolēmumiem Khums aprēķinam</strong>. <span id='blog-info-link' color='primary'>Noklikšķiniet šeit</span> , lai iegūtu vairāk informācijas.",
-              "blogInfo": "Iepriekš minētais emuārs ir balstīts uz rakstiem no al-islam.org, sistani.org un mūsu diskusijām ar dažiem citiem zinātniekiem. Jums vienmēr jāievēro jūsu Marjah nolēmumi, lai aprēķinātu Khums.",
+              "p1": "<a href='{href}' target='_blank'>Sekojiet mūsu emuāram</a> , kas katru gadu izceļ galvenos khums aprēķināšanas elementus.",
+              "p2": "Atruna: Emuārs NAV ceļvedis. <strong>Sekojiet sava Marjah lēmumiem par Khums aprēķinu</strong>. <span id='blog-info-link' color='primary'>Noklikšķiniet šeit</span> , lai iegūtu vairāk informācijas.",
+              "blogInfo": "Iepriekš minētais emuārs ir balstīts uz rakstiem no al-islam.org, sistani.org un mūsu diskusijām ar dažiem citiem zinātniekiem. Jums vienmēr jāievēro jūsu Marjah lēmumi par Khums aprēķinu.",
               "dismissCta": "Neinteresē"
             },
             "title": "Jūsu Khums aprēķini",
             "nextMuqammasHeading": "<strong>Muqammas</strong><br />nākamajam aprēķinam",
-            "muqammasDesc": "Pamatojoties uz pēdējā gada aprēķiniem",
+            "muqammasDesc": "Balstoties uz pēdējā gada aprēķiniem",
             "sahmeSadat": "Sahm-e-Sadat",
             "sahmeImam": "Sahm-e-Imam (a.s.)",
             "paid": "Maksāts:",
@@ -269,11 +268,11 @@
             "prompts": {
               "delete": {
                 "header": "Dzēst Khums aprēķinu?",
-                "desc": "Vai tiešām vēlaties to izdzēst? Tiks dzēsti arī visi saistītie dokumenti!"
+                "desc": "Vai tiešām vēlaties to izdzēst? Arī visi saistītie dokumenti tiks dzēsti!"
               }
             },
             "empty": {
-              "header": "Vēl nav pievienoti khums",
+              "header": "Vēl nav pievienoti khumi",
               "subtext": "Sāciet, pievienojot khums aprēķinu. Noklikšķiniet uz pogas zemāk."
             }
           },
@@ -281,26 +280,26 @@
             "title": "Jūsu Khums",
             "header": "Khums",
             "mqmsInfo": "Muqammas nākamajam aprēķinam",
-            "calcHeader": "Pamatojoties uz zemāk esošo aprēķinu:",
+            "calcHeader": "Pamatojoties uz šādu aprēķinu:",
             "savingsHeader": "Ietaupījumu",
-            "conversionInfo": "Konvertēts uz {amount} , pamatojoties uz {xchgRate} maiņas kursu {xchgRateDate}",
+            "conversionInfo": "Konvertēts {amount} , pamatojoties uz valūtas maiņas kursu {xchgRate} uz {xchgRateDate}",
             "expensesHeader": "Izdevumi",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Iepriekšējās muqammas",
             "paymentsHeader": "Maksājumi, kas veikti par khums:",
             "error": {
               "header": "Ak uh, radās kļūda!",
-              "desc": "Izskatās, ka mēs neko nevaram atrast par šo khums-aprēķinu. Tas var būt vai nu tāpēc, ka kāds no mūsu pakalpojumiem ir nepareizi darbojies, vai varbūt jūs meklējat novecojušus datus.<br /><br/ >Mēģiniet atsvaidzināt lapu vai sazinieties ar mums, ja domājat, ka no mūsu puses ir kļūda."
+              "desc": "Izskatās, ka mēs neko nevaram atrast par šo khums-aprēķinu. Tas varētu būt vai nu tāpēc, ka kāds no mūsu pakalpojumiem darbojās nepareizi, vai varbūt jūs meklējat novecojušus datus.<br /><br/ >Mēģiniet atsvaidzināt lapu vai sazinieties ar mums, ja uzskatāt, ka no mūsu puses ir kļūda."
             },
             "js": {
               "recordDeleteFailed": "Mēģinot izdzēst šo ierakstu, radās kļūda. Lūdzu, mēģiniet vēlreiz vai, ja kļūda joprojām pastāv, vēlāk nāciet vēlreiz.",
               "recordDeleted": "Ieraksts veiksmīgi izdzēsts",
               "deleteRecordHeader": "Dzēst ierakstu?",
-              "deleteRecordDesc": "Vai tiešām vēlaties izdzēst šo ierakstu? Tiks dzēsti arī visi šim ierakstam pievienotie pielikumi!"
+              "deleteRecordDesc": "Vai tiešām vēlaties izdzēst šo ierakstu? Visi pielikumi, kas pievienoti šim ierakstam, arī tiks izdzēsti!"
             }
           },
           "calc": {
-            "subtext": "Aizpildiet zemāk esošo veidlapu, lai aprēķinātu savus khums. Ir norādīti neobligātie lauki. Noklikšķiniet uz informācijas ikonas zemāk, lai uzzinātu vairāk par sadaļu.",
+            "subtext": "Aizpildiet zemāk esošo veidlapu, lai aprēķinātu savus khums. Ir norādīti neobligātie lauki. Noklikšķiniet uz informācijas ikonas zemāk, lai uzzinātu vairāk par šo sadaļu.",
             "blog": "Saistītie: Lasiet mūsu emuāru par <a href='{href}' target='_blank'>to, kā efektīvi<a> aprēķināt khums</a>",
             "dateRange": "Atlasiet datumu diapazonu:",
             "dateRangeInfo": "Parasti cilvēki aprēķina khums finanšu gadam (piemēram, no aprīļa līdz martam) vai kalendārajam gadam (no janvāra līdz decembrim)",
@@ -308,8 +307,8 @@
             "endDate": "Beigu datums:",
             "savings": {
               "header": "Ietaupījumu",
-              "desc": "Uzkrājumu/atlikuma pievienošana savā(-os) kontā(-os)",
-              "info": "Jūs varat pievienot summas dažādās valūtās, bet khums galu galā tiek aprēķināts vienotajā valūtā, pamatojoties uz šodienas valūtas kursu.",
+              "desc": "Pievienojiet ietaupījumus/atlikumu savā(-os) kontā(-os)",
+              "info": "Jūs varat pievienot summas dažādās valūtās, bet khums galu galā tiek aprēķināts vienā valūtā, pamatojoties uz šodienas valūtas kursu.",
               "form": {
                 "label": "Etiķetes",
                 "placeholder": "Piemēram, algas konts",
@@ -320,23 +319,23 @@
             },
             "expenses": {
               "header": "<strong>Parādi/saistības/izdevumi</strong> – pēc izvēles",
-              "subtext": "Pievienojiet tūlītējus parādus, saistības vai izdevumus",
-              "info": "Daļa no summas no atlikuma var būt atskaitāma par khumiem. Sekojiet mūsu saitei iepriekš <strong>Aprēķiniet khums efektīvi</strong> , lai uzzinātu vairāk.",
+              "subtext": "Pievienojiet visus tūlītējos parādus, saistības vai izdevumus",
+              "info": "Daļa no summas no atlikuma var būt atskaitāma khumiem. Sekojiet mūsu <strong>saitei iepriekš Aprēķiniet khums efektīvi</strong> , lai uzzinātu vairāk.",
               "form": {
-                "placeholder": "Piemēram, īres maksas termiņš"
+                "placeholder": "Piemēram, nomas maksas termiņš"
               }
             },
             "mqms": {
               "header": "<strong>Iepriekšējās Muqammas</strong> — pēc izvēles",
               "subtext": "Atlikums, kas palicis pēc khums samaksas iepriekšējā periodā",
-              "info": "Ja jūs maksājat khums pirmo reizi, Muqammas būs NULLE. Ja šeit ir saglabāti iepriekšējie aprēķini, varat sinhronizēt, lai izmantotu agrāka perioda Muqammas."
+              "info": "Ja jūs pirmo reizi maksājat khums, Muqammas būs NULLE. Ja šeit ir saglabāti iepriekšējie aprēķini, varat sinhronizēt, lai izmantotu iepriekšējā perioda Muqammas."
             },
             "mainCurrencyHeader": "Izvēlieties galveno valūtu",
             "mainCurrencyInfo": "Kuru valūtu mums vajadzētu izmantot, lai aprēķinātu khums?",
             "customRates": {
-              "header": "<strong>Valūtas kursu izmantošana</strong>",
-              "subtext": "Šie valūtas maiņas kursi tiks izmantoti aprēķiniem. Varat tos mainīt, lai izmantotu pielāgotas vērtības.",
-              "info": "Strādājot ar vēsturiskajiem datiem, piemēram, pievienojot aprēķinus par khumiem no vairāk nekā gada, kad valūtas kursi nebija tādi paši kā šodien, jūs pats varat iestatīt pielāgotas valūtas kursu vērtības.",
+              "header": "<strong>Izmantojot valūtas kursus</strong>",
+              "subtext": "Šie valūtas maiņas kursi tiks izmantoti aprēķiniem. Tos var mainīt, lai izmantotu pielāgotas vērtības.",
+              "info": "Strādājot ar vēsturiskajiem datiem, piemēram, pievienojot aprēķinus khumiem no vairāk nekā pirms gada, kad valūtas kursi nebija tādi paši kā šodien, jūs pats varat iestatīt pielāgotas valūtas kursu vērtības.",
               "rateValuePH": "{currency}, piemēram, 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Aprēķināt",
@@ -351,7 +350,7 @@
               },
               "choicePrompt": {
                 "addHeader": "Pievienot",
-                "savings": "Jauna ieraksta pievienošana uzkrājumam",
+                "savings": "Pievienot jaunu ierakstu uzkrājumu sadaļai",
                 "liability": "Jauna ieraksta pievienošana saistībām"
               },
               "rowOptions": {
@@ -369,39 +368,39 @@
         "name": "Lietotājs | Konts",
         "editProfile": "Rediģēt profilu",
         "publishToFeed": "Izmaiņu publicēšana plūsmā",
-        "shareUpdateToFeed": "Kopīgojiet šo atjauninājumu arī savā plūsmā",
-        "statusText_ph": "Izmantojiet _slīprakstā_ vai *treknrakstā* formatējumu, lai izrotātu savu statusu",
+        "shareUpdateToFeed": "Kopīgojiet šo atjauninājumu arī manā plūsmā",
+        "statusText_ph": "Formatējuma _slīpraksts_ vai *treknraksts* izmantošana, lai izrotātu savu statusu",
         "statusCharsLeft": "{count} atlikušās rakstzīmes",
-        "jsImgUploadSuccess": "Attēli ir veiksmīgi augšupielādēti!",
+        "jsImgUploadSuccess": "Attēli veiksmīgi augšupielādēti!",
         "unauthAccess": {
           "heading": "Vai esat pārliecināts, ka esat īstajā vietā?",
-          "desc": "<p>Izskatās, ka mēģinājāt piekļūt lapai, kurai jums nebija atļaujas. Ja mēģinājāt piekļūt lapai, kurai esat piekļuvis iepriekš, mēģiniet pieteikties; tam vajadzētu atrisināt problēmu.</p> <p>Lūdzu, nekautrējieties sazināties ar mums, ja problēma joprojām pastāv.</p>"
+          "desc": "<p>Izskatās, ka jūs mēģinājāt piekļūt lapai, kurai jums nebija atļaujas. Ja mēģinājāt piekļūt lapai, kurai esat piekļuvis iepriekš, mēģiniet pieteikties; Tam vajadzētu atrisināt problēmu.</p><p>Lūdzu, nekautrējieties sazināties ar mums, ja problēma joprojām pastāv.</p>"
         },
         "guest": {
           "welcome": "Sveicināti, <strong>Viesi!</strong>",
           "heading": "Kāpēc pieteikties vai reģistrēties?",
-          "desc": "Izmantojot mūsu lietotnes kontu, varat izmantot vairākas funkcijas. Sāciet darbu, izveidojot kontu, ja jums vēl nav konta. Vai arī vienkārši piesakieties!",
-          "unlockHeading": "atbloķējiet sekošanu ar kontu:",
+          "desc": "Izmantojot kontu mūsu lietotnē, varat izmantot vairākas funkcijas. Sāciet darbu, izveidojot kontu, ja jums vēl nav konta. Vai arī vienkārši piesakieties!",
+          "unlockHeading": "Atbloķējiet sekojošu ar kontu:",
           "features": {
             "engage": {
-              "heading": "Iesaistīšanās lietotnē",
-              "desc": "Sazinieties ar citiem lietotājiem, reaģējiet uz viņu ziņām vai pieprasījumiem, komentējiet savu viedokli, atzīmējiet savus vienumus ar grāmatzīmi un daudz ko citu!"
+              "heading": "Iesaistieties lietotnē",
+              "desc": "Sazinieties ar citiem lietotājiem, reaģējiet uz viņu ziņām vai pieprasījumiem, komentējiet savu viedokli, pievienojiet grāmatzīmes saviem vienumiem un daudz ko citu!"
             },
             "fatiha": {
-              "heading": "Pēc Fatiha pieprasījuma",
-              "desc": "Ievietojiet pieprasījumu Surah-e-Fatiha par savu aizgājušo tuvinieku dvēselēm un saņemiet viņu dvēseles svētītas ar visu mūsu lietotāju lūgšanām!"
+              "heading": "Post Fatiha pieprasījums",
+              "desc": "Ievietojiet Surah-e-Fatiha pieprasījumu savu aizgājušo tuvinieku dvēselēm un saņemiet viņu dvēseles svētītas ar visu mūsu lietotāju lūgšanām!"
             },
             "askQues": {
               "heading": "Uzdodiet jautājumus",
-              "desc": "Uzdodiet jautājumus no Deen &Duniya par dažādām tēmām, uz kurām jāatbild viņa izcilniekam Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+              "desc": "Uzdodiet jautājumus Deen &; Duniya par dažādām tēmām, uz kurām jāatbild viņa izcilniekam Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
             },
             "content": {
-              "heading": "vēlamais saturs",
-              "desc": "Vienmēr skatiet vēlamo saturu un iestatījumus, kad esat pieteicies savā kontā. Tāpat saņemiet paziņojumu par visām interesantajām lietām!"
+              "heading": "Vēlamais saturs",
+              "desc": "Vienmēr skatiet vēlamo saturu un iestatījumus, kad esat pieteicies savā kontā. Saņemiet vērā arī visas interesantās lietas!"
             },
             "personalized": {
-              "heading": "personalizēta koplietošana",
-              "desc": "Iestatiet ar savu parakstu personalizēta satura koplietošanu, lai draugi zinātu, kad kopīgojat ziņojumu/ziņu."
+              "heading": "Personalizēta koplietošana",
+              "desc": "Iestatiet koplietošanas saturu, kas personalizēts ar jūsu parakstu, lai draugi zinātu, kad kopīgojat ziņojumu/ziņu."
             }
           }
         },
@@ -409,31 +408,31 @@
           "title": "Par",
           "jsStatusUpdateFail": "Neizdevās atjaunināt statusu. Lūdzu, vēlāk mēģiniet vēlreiz.",
           "statusTextInfo": "Pievienojiet kaut ko īsu par sevi, piemēram, kas jūs esat vai ko jūs darāt!",
-          "statusCta": "Pievienot statusu | Atjaunināšanas statuss",
+          "statusCta": "Pievienot statusu — Atjaunināšanas statuss",
           "addCity": "Pievienot pilsētu",
           "gender": "Vīrietis | Sieviete",
           "addGender": "Pievienot dzimumu",
-          "addBday": "Pievienot dzimšanas dienu",
-          "addRelation": "Relāciju pievienošana",
-          "joinDate": "Pievienojās: {date}",
+          "addBday": "Dzimšanas dienas pievienošana",
+          "addRelation": "Relācijas pievienošana",
           "privateInfoDesc": "Šī informācija ir redzama tikai jums, un jūs redzat uz to balstītu saturu un funkcijas.",
           "idSetupCta": "Identitātes iestatīšana",
-          "idVerifyCta": "Pārbaudām"
+          "idVerifyCta": "Pārbaudām",
+          "joinDate": "Pievienots: {date}"
         },
         "posts": {
           "title": "Posts",
-          "userNoPosts": "Mainot attēla / vāka attēlu vai pieprasot surah-fatiha saviem mirušajiem mīļajiem, šīs ziņas parādīsies šeit un cilnē <b>Sākums</b> (arī no citiem). Vai mēģināt pievienot attēlu vai vāka attēlu?",
+          "userNoPosts": "Kad jūs maināt savu attēlu / vāka attēlu vai kad jūs pieprasāt surah-fatiha saviem mirušajiem mīļajiem, šīs ziņas parādīsies šeit un <b>cilnē Sākums</b> (arī citiem). Vai mēģināt pievienot attēlu vai vāka attēlu?",
           "profileNoPosts": "{name} vēl nav veicis nevienu ziņu."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} vēl nav marhumeen pievienots | Jūs vēl neesat pievienojis marhumeen",
-            "marhumeenAdded": "{name} ir pievienots pēc marhumeen | Jūs esat pievienojis sekojošu marhumeen"
+            "marhumeenNotAdded": "{name} vēl nav pievienojis marhumeen | Jūs vēl neesat pievienojis marhumeen",
+            "marhumeenAdded": "{name} ir pievienojis pēc marhumeen | Jūs esat pievienojis pēc marhumeen"
           },
           "jsDeleteHeader": "Vai esi pārliecināts?",
-          "jsDeletePrompt": "Dzēšot <b>{fullName}</b> ierakstus, tiks izdzēsti arī visi iepriekšējie {gender} pieprasījumi! Turpināt?",
-          "jsDeleted": "Dzēsti ieraksti {marhumeen}"
+          "jsDeletePrompt": "Dzēšot <b> ierakstus{fullName}, </b> tiks dzēsti arī visi iepriekšējie pieprasījumi, kas veikti {gender}! Turpināt?",
+          "jsDeleted": "Dzēstie ieraksti {marhumeen}"
         },
         "verifyCard": {
           "title": "Pārbaudiet savu šiītu identitāti — pārbaudiet savu Sadat identitāti",
@@ -460,7 +459,7 @@
     "sidemenu": {
       "left": {
         "accountLogin": "Piesakieties savā kontā",
-        "createAccount": "Izveidojiet kontu"
+        "createAccount": "Izveidot kontu"
       }
     },
     "comps": {
@@ -471,55 +470,54 @@
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "Atrašanās vieta nav pieejama. Lūdzu, iestatiet to, noklikšķinot uz ikonas, lai redzētu salat-laiki ātri apskatītu.",
-          "unknownError": "Radās kļūda. Nevarēja ielādēt laikus šajā brīdī."
+          "locUnavailable": "Atrašanās vieta nav pieejama. Lūdzu, iestatiet to, noklikšķinot uz ikonas, lai redzētu ātru skatu uz Salat laikiem.",
+          "unknownError": "Radās kļūda. Šajā brīdī nevarēja ielādēt laikus."
         }
       },
       "langPrompt": {
-        "title": "Vai izmantojat lietotni {langLabel}?",
+        "title": "Vai izmantojat lietotni programmā {langLabel}?",
         "desc": {
-          "p1": "Izskatās, ka piekļūstat programmai no {countryName}. Vai vēlaties redzēt saturu un vadīklas kādā no tālāk norādītajām valodām, kurās runā šajā reģionā? Noklikšķiniet uz savas izvēles un pēc tam noklikšķiniet uz \"Saglabāt\", lai turpinātu.",
-          "p2": "Vai arī noraidiet šo uznirstošo logu, lai turpinātu izmantot programmu noklusējuma valodā."
+          "p1": "Izskatās, ka piekļūstat lietotnei no {countryName}. Vai vēlaties skatīt saturu un vadīklas kādā no tālāk norādītajām valodām, kurās runā reģionā? Noklikšķiniet uz savas izvēles un pēc tam noklikšķiniet uz \"Saglabāt\", lai turpinātu.",
+          "p2": "Vai arī atmetiet šo uznirstošo logu, lai turpinātu lietot lietotni noklusējuma valodā."
         },
         "choices": {
           "useLang": [
             "Jā, izmantojiet {langName}",
             "Izmantojiet {langName}"
           ],
-          "useEngling": "Turpināt angļu valodā",
           "useEnglish": "Turpināt angļu valodā",
           "selectFrom": "Vai arī atlasiet kādu no šīm alternatīvajām valodām:"
         },
-        "langError": "Ielādējot {langName} tulkojumus, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
+        "langError": "Ielādējot tulkojumus {langName}, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
       },
       "createPost": {
-        "heading": "Par ko ir šodiena?",
-        "desc": "Noklikšķiniet šeit, lai kopīgotu atjauninājumu vai izmantotu opciju no apakšas",
+        "heading": "Par ko šodien ir runa?",
+        "desc": "Noklikšķiniet šeit, lai kopīgotu atjauninājumu vai izmantotu tālāk norādīto opciju",
         "request": "Lūgums",
         "askQues": "Uzdot jautājumu",
         "sheetOptions": {
           "header": "Iesniegt pieprasījumu",
-          "subheader": "Pieprasiet no momineen par savu marhumeen vai sevi.",
+          "subheader": "Iesniedziet pieprasījumu no momineen par savu marhumeen vai sevi.",
           "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat at Zari-e-Imam Husain (a.s.) jūsu vārdā"
+          "sehatDua": "Divi e-veseli*",
+          "requestZiyarat": "Ziyarat pie Zari-e-Imam Husain (a.s.) jūsu vārdā"
         },
         "modal": {
           "titles": {
-            "post": "Izveidot ziņu | Atjaunināt ziņu",
+            "post": "Izveidot ziņu — atjaunināt ziņu",
             "livestream": "Tiešraide",
             "hadiyah": "Izveidojiet Hadiyah — atjauniniet Hadiyah"
           },
           "postCta": "Ziņa | Atjaunināt",
           "stream": {
-            "scheduleCta": "Ietaupiet vēlākam laikam — Sāciet straumēšanu"
+            "scheduleCta": "Saglabāt vēlākam laikam — Sāciet straumēšanu"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Kam jūs vēlaties to dāvināt?",
-              "addPeopleToggle": "Lai arī citi ir daļa no šī zāģa!",
-              "searchInput": "Uzaiciniet momimeen no Bazm vai jūsu kontaktpersonu saraksta",
-              "minUsersHeader": "Vai vēlaties iestatīt minimālo skaitu, kas dalībniekiem jāizvēlas?",
+              "placeholder": "Kam jūs to vēlaties dāvināt?",
+              "addPeopleToggle": "Lai arī citi ir daļa no šī sawab!",
+              "searchInput": "Uzaiciniet momimeen no Bazm vai sava kontaktpersonu saraksta",
+              "minUsersHeader": "Vai vēlaties iestatīt minimālo dalībnieku skaitu, kas jāizvēlas?",
               "minUsersInput": "Ievadiet minimālo skaitu"
             }
           },
@@ -528,16 +526,16 @@
             "Kad vēlaties sākt straumēšanu?"
           ],
           "whereIsIt": "Kur tas ir?",
-          "findLocation": "Atrast atrašanās vietu",
+          "findLocation": "Atrodiet atrašanās vietu",
           "locationSubtext": "Atrašanās vietas pievienošana ziņai",
           "addLocation": "Atrašanās vietas pievienošana",
           "addPics": "Attēlu pievienošana ziņai",
           "previewDes": "Tādā veidā jūsu ziņa parādīsies citu cilvēku plūsmā. Lietotāji var pieskarties videoklipam, lai to skatītu pilnekrāna režīmā.",
-          "addToPost": "Pievienot {postType} (neobligāti)",
+          "addToPost": "Pievienošana {postType} (pēc izvēles)",
           "jsImgUploadFail": "Attēls netika augšupielādēts",
           "jsAddDetailToPost": "Lūdzu, pievienojiet informāciju savai ziņai",
           "jsValidEndDate": "Lūdzu, izvēlieties derīgu beigu datumu",
-          "jsSetLocation": "Lūdzu, iestatiet ziņas atrašanās vietu",
+          "jsSetLocation": "Lūdzu, norādiet ziņas atrašanās vietu",
           "jsRemLocation": "Lūdzu, iestatiet atrašanās vietu vai noņemiet šo sadaļu",
           "jsAddImg": "Lūdzu, pievienojiet attēlus vai noņemiet šo sadaļu",
           "jsInvalidDate": [
@@ -548,10 +546,10 @@
       },
       "comments": {
         "name": "Komentāri",
-        "loadPrevious": "Iepriekšējo komentāru ielāde — iepriekšējo atbilžu ielāde",
+        "loadPrevious": "Ielādēt iepriekšējos komentārus — ielādēt iepriekšējās atbildes",
         "replyingTo": "Atbildot uz:",
         "noComments": "Pagaidām nav komentāru par šo ziņu",
-        "textboxPlaceholder": "Rakstiet savu komentāru šeit",
+        "textboxPlaceholder": "Uzrakstiet savu komentāru šeit",
         "requestToLogin": "Piesakieties vai reģistrējieties, lai sāktu diskusiju"
       },
       "post": {
@@ -560,44 +558,44 @@
         "itemTypes": {
           "avatar": "iemiesojuma attēls",
           "banner": "reklāmkaroga attēls",
-          "status": "profila statuss"
+          "status": "Profila statuss"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> updated {address} {item}",
+          "common": "<strong>{username}</strong> atjaunināts {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> pieprasīja surah-fatiha for {address} {relation}",
-            "<strong>{username}</strong> requested surah-fatiha &namaz-e-wahshat for {address} {relation}"
+            "<strong>{username}</strong> pieprasīju surah-fatiha {addressing} {relation}",
+            "<strong>{username}</strong> pieprasīju surah-fatiha &; namaz-e-wahshat par {addressing} {relation}"
           ]
         },
-        "dateUntil": "Līdz: {date} at {time}",
+        "dateUntil": "Līdz: {date} plkst {time}",
         "privatePost": "Šī ziņa ir redzama tikai jums",
-        "descZiyaratRequest": "Jūs pieprasījāt, lai Ziyarat tiktu izpildīts jūsu vārdā Imam Husain (a.s.) *{haram* *{datumā}*"
+        "descZiyaratRequest": "Jūs pieprasījāt, lai Ziyarat tiktu izpildīts jūsu vārdā *haram* no Imam Husain (a.s.) uz *{date}*"
       },
       "addEditRel": {
         "title": {
-          "request": "Pieprasījums Surah-al-fatiha",
+          "request": "Pieprasīt Surah-al-fatiha",
           "addUpdate": [
-            "Atjauniniet mīļoto cilvēku",
+            "Atjauniniet mīļoto",
             "Pievienot mīļoto"
           ]
         },
         "heading": [
-          "Pievienojiet mīļoto, kurš ir pagājis tālāk",
-          "Sarakstā atlasiet mīļoto cilvēku vai pievienojiet mīļoto cilvēku, kurš ir nodevis tālāk"
+          "Pievienojiet mīļoto, kurš ir nodevis tālāk",
+          "Sarakstā atlasiet mīļoto vai pievienojiet mīļoto, kurš ir nodevis tālāk"
         ],
         "addNew": "Pievienot jaunu",
         "subheader": [
-          "Pievienojiet informāciju par savu mīļoto personu",
+          "Pievienojiet informāciju par savu mīļoto",
           "Varat arī iekļaut ziņojumu savā pieprasījumā"
         ],
         "form": {
-          "jsAddImg": "Pievienojiet attēlu savam mīļotajam cilvēkam",
-          "jsRemoveImg": "Attēla noņemšana",
-          "fullName": "Mirušā pilns vārds un uzvārds",
+          "jsAddImg": "Pievienojiet attēlu savam mīļotajam",
+          "jsRemoveImg": "Noņemt attēlu",
+          "fullName": "Mirušā pilns vārds",
           "name_ph": "Piemēram, Syed Zeeshan Haider Abidi",
           "fathersName": "Tēva vārds (ja pieejams)",
           "father_ph": "Piemēram, Syed Tauqeer Husain",
-          "nameError": "Lūdzu, ievadiet pilnu vārdu ar mūsu īpašajām rakstzīmēm",
+          "nameError": "Lūdzu, ievadiet pilnu vārdu un uzvārdu ar mūsu īpašajām rakstzīmēm",
           "genderLabel": "Dzimumu",
           "genderValue": [
             "Mātīte",
@@ -607,22 +605,23 @@
             "Marhooma ir jūsu",
             "Marhoom ir tavs"
           ],
-          "selectRelation": "Relācijas atlasīšana",
-          "demiseLabel": "Šodien demisionēja? Pieprasījums Namaz-e-Wahshat",
-          "demiseText": "Mums ir ļoti žēl dzirdēt par jūsu zaudējumu. Lai Allāhs dod jums un jūsu ģimenei spēku izturēt šo zaudējumu ar pacietību un lai Allāhs atalgo demisionēto dvēseli ar augstākajām vietām Jannā. Izvēloties šo iespēju, jūs varat lūgt momineen par Namaz-e-Wahshat par demizēto dvēseli.",
+          "selectRelation": "Atlasiet relāciju",
+          "demiseLabel": "Miris šodien? Pieprasījums Namaz-e-Wahshat",
+          "demiseText": "Mums ir ļoti žēl dzirdēt par jūsu zaudējumu. Lai Allāhs dod jums un jūsu ģimenei spēku panest šo zaudējumu ar pacietību un lai Allāhs atalgo bojā gājušo dvēseli ar augstākajām vietām Jannā. Izvēloties šo opciju, jūs varat lūgt momineen par Namaz-e-Wahshat par mirušo dvēseli.",
           "optional": "Neobligāti",
           "dod": "Aizgāja mūžībā",
           "dob": "Dzimis"
         },
         "relation": [
-          "Meita",
+          "Meita no",
           "Dēls"
         ],
         "born": "Dzimis:",
         "died": "Nomira:",
         "addMsg": "Vai vēlaties pievienot ziņojumu?",
-        "remainingChars": "Rakstzīmes: {count} | Rakstzīmes: {count} atlikušais",
-        "infoEditRelative": "Detalizētu informāciju par {name} varat rediģēt sadaļā <b>Konta > Marhumeen</b>",
+        "addMsg_ph": "Piemēram:\nInna lillahi wa inna ilaihe raje'un. Lūdzu, deklamējiet surah-e-fatiha un 2-rak'at namaz-e-wahshat manam tēvocim Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, kurš atstāja mūs visus raudam, lai satiktu savu radītāju.",
+        "remainingChars": "Personāži: {count} | Rakstzīmes: {count} atlikusī",
+        "infoEditRelative": "Jūs varat rediģēt detalizētu informāciju par {name} savā <b>konta > Marhumeen</b> sadaļā",
         "saveRequestCta": [
           "Saglabāt un pieprasīt",
           "Lūgums"
@@ -630,36 +629,32 @@
         "addUpdate": "Pievienot | Atjaunināt",
         "jsRequesting": "Pieprasa..",
         "jsAddSuccess": [
-          "Veiksmīgi papildinājis savu mīļoto!",
-          "Veiksmīgi atjauniniet savu mīļoto!"
+          "Veiksmīgi pievienojies savam mīļotajam!",
+          "Veiksmīgi atjaunini savu mīļoto!"
         ],
         "jsAddFail": "Neizdevās pievienot savu mīļoto. Lūdzu, vēlāk mēģiniet vēlreiz.",
         "jsReqSuccess": "Pieprasījums iesniegts veiksmīgi.",
         "jsGettingMarhumeen": "Dabūt savu marhumeen.."
       },
       "askQues": {
-        "title": "Uzdodiet jautājumu",
+        "title": "Uzdot jautājumu",
         "form": {
           "quesLabel": "Jūsu jautājums",
           "quesLabel_ph": "Meklējiet jautājumu vai uzdodiet savu",
-          "similarQues": "Iespējams, ka uz šiem jautājumiem jau ir meklētā atbilde.",
+          "similarQues": "Uz šiem jautājumiem, iespējams, jau ir atbilde, ko meklējat.",
           "quesTextHeader": "Jūsu jautājums:",
-          "selectCat": "Iestatiet jautājumu kategoriju:",
-          "askAnonLabel": "Jautājiet anonīmi?",
-          "askAnonInfo": "Jūsu vārds netiks nosūtīts stipendiātam, pieprasot atbildi jūsu vārdā, kā arī tas netiks parādīts mūsu lietotnē ar šo jautājumu. Bet uz anonīmiem jautājumiem var ātri neatbildēt.",
-          "askViaLabel": "Jautājiet via",
-          "askSistaniInfo": "Jūs varat uzdot jautājumu, uz kuru jāatbild viņa izcilnieka Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani birojam. Mēs pārsūtīsim jautājumu uz viņu vietni (kopā ar jūsu profila informāciju). Pārliecinieties, ka esat pareizi izlasījis <b>noteikumus un nosacījumus</b>.",
-          "tncLabel": "Noteikumi & nosacījumi:",
-          "showHide": [
-            "Parādīt",
-            "Slēpt"
-          ],
-          "sistaniOrgTncInfo": "Apsveriet iespēju sekot viņu vietnes punktiem, pirms uzdodat jautājumu, jo, ja jūs neievērojat tālāk norādītos punktus, jūs, iespējams, nedzirdēsit no viņiem vai arī nesaņemsit atbildes.",
+          "selectCat": "Iestatīt jautājumu kategoriju:",
+          "askAnonLabel": "Jautāt anonīmi?",
+          "askAnonInfo": "Jūsu vārds netiks nosūtīts stipendiātam, pieprasot atbildi jūsu vārdā, kā arī tas netiks parādīts mūsu lietotnē ar šo jautājumu. Bet uz anonīmiem jautājumiem var neatbildēt ātri.",
+          "askViaLabel": "Jautāt, izmantojot",
+          "askSistaniInfo": "Jūs varat uzdot jautājumu, uz kuru jāatbild viņa izcilā biroja Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani birojam. Mēs pārsūtīsim jautājumu uz viņu vietni (kopā ar jūsu profila informāciju). Pārliecinieties, vai esat pareizi izlasījis <b>noteikumus un nosacījumus</b> .",
+          "tncLabel": "Noteikumi un nosacījumi:",
+          "sistaniOrgTncInfo": "Pirms uzdodat jautājumu, apsveriet iespēju sekot punktiem no viņu vietnes, jo, ja jūs neievērojat tālāk minētos punktus, jūs, iespējams, nedzirdēsit no viņiem atbildi vai, iespējams, nesaņemsit atbildes.",
           "userInfo": {
             "aboutLabel": "Par jums",
             "genderLabel": "Jūsu dzimums",
             "bdayLabel": "Jūsu dzimšanas diena",
-            "bdayDesc": "Jūs varat uzdot jautājumu tikai tad, ja esat vecāks par 09 gadiem. Ja jūs joprojām interesē, lūdzu, sazinieties ar mums."
+            "bdayDesc": "Jūs varat uzdot jautājumu tikai tad, ja esat vecāks par 09 gadiem."
           },
           "jsQuesAdded": "Jautājums pievienots veiksmīgi."
         },
@@ -668,28 +663,28 @@
       "authPrompt": {
         "title": "Nepieciešams konts",
         "defLabel": "Piesakieties vai reģistrējieties, lai turpinātu",
-        "infoText": "Šī funkcija prasa, lai jūs pieteiktos vai reģistrētos, pirms varat to izmantot. Noklikšķiniet uz <b>Pieteikties</b>, ja esat jau reģistrējies, vai noklikšķiniet uz <b>Reģistrēties</b>, lai izveidotu savu kontu."
+        "infoText": "Šī funkcija prasa, lai jūs pieteiktos vai reģistrētos, pirms to varētu izmantot. Noklikšķiniet uz <b>Pieteikties</b> , ja jau esat reģistrējies, vai noklikšķiniet uz <b>Reģistrēties</b> , lai izveidotu savu kontu."
       },
       "location": {
         "title": "Mainīt atrašanās vietu",
         "search_ph": "Atrašanās vietas meklēšana",
-        "autoDetectInfo": "Ievadiet savu atrašanās vietu vai noklikšķiniet uz automātiskās noteikšanas ikonas, lai iegūtu savu atrašanās vietu.",
+        "autoDetectInfo": "Ievadiet savu atrašanās vietu vai noklikšķiniet uz automātiskās noteikšanas ikonas, lai uzzinātu savu atrašanās vietu.",
         "setLocation": "Atrašanās vietas iestatīšana",
         "ipAddress": "IP adrese",
         "alarmLocation": "Trauksmes atrašanās vieta",
         "basedOn": "Atrašanās vieta, pamatojoties uz jūsu {selector}",
         "jsDetecting": "Atklājot, lūdzu, uzgaidiet..",
-        "jsPermDenied": "Lietotnei ir liegta atrašanās vietas atļauja. Lūdzu, atiestatiet šīs lietotnes atrašanās vietas izvēli, apmeklējot tālruņa sadaļu Iestatījumi.",
-        "jsPosUnavailable": "Mēs atvainojamies, bet pozīcija šobrīd nav pieejama šim tālrunim. Lūdzu, vēlāk mēģiniet vēlreiz.",
-        "jsMatchNotFound": "Nevarēju atrast atbilstošas vietas..",
+        "jsPermDenied": "Lietotnei liegta atrašanās vietas atļauja. Lūdzu, atiestatiet šīs lietotnes atrašanās vietas preferenci, tālrunī apmeklējot sadaļu Iestatījumi.",
+        "jsPosUnavailable": "Mēs atvainojamies, bet pozīcija šim tālrunim šobrīd nav pieejama. Lūdzu, vēlāk mēģiniet vēlreiz.",
+        "jsMatchNotFound": "Nevarēju atrast nevienu atbilstošu vietu..",
         "jsEnterValidLoc": "Lūdzu, ievadiet derīgu atrašanās vietu",
-        "jsGeoUnavailable": "Mēs atvainojamies, bet pozīcija šobrīd nav pieejama šim tālrunim. Lūdzu, vēlāk mēģiniet vēlreiz.",
-        "jsLocMissing": "Nevarēju atrast savu atrašanās vietu. Lūdzu, ievadiet atrašanās vietu manuāli.",
-        "jsSelectedLoc": "Šajā atrašanās vietā ir kļūda. Lūdzu, mēģiniet vēlreiz"
+        "jsGeoUnavailable": "Mēs atvainojamies, bet pozīcija šim tālrunim šobrīd nav pieejama. Lūdzu, vēlāk mēģiniet vēlreiz.",
+        "jsLocMissing": "Nevarēja atrast jūsu atrašanās vietu. Lūdzu, ievadiet atrašanās vietu manuāli.",
+        "jsSelectedLoc": "Šajā atrašanās vietā ir radusies kļūda. Lūdzu, mēģiniet vēlreiz"
       },
       "readText": {
         "ctaLabel": "Lasīt",
-        "title": "Dua: {title}",
+        "title": "Divi: {title}",
         "arabicCta": "Arābu",
         "englishCta": "Angļu",
         "translatedCta": "Tulkots"
@@ -701,47 +696,47 @@
         "ctaLabel": "atļaut piekļuvi"
       },
       "shareBtn": {
-        "subtext": "Noklikšķiniet uz kādas no tālāk norādītajām opcijām, lai to kopīgotu attiecīgajā lietotnē:",
+        "subtext": "Noklikšķiniet uz kādas no tālāk norādītajām opcijām, lai to kopīgotu attiecīgajā lietotnē.",
         "jsCopyToCB": "Kopēts starpliktuvē",
-        "copyText": "Noklikšķiniet uz <b>Kopēt</b> ikonu iepriekš, lai kopētu tālāk norādīto saturu:"
+        "copyText": "Noklikšķiniet uz <b>iepriekš redzamās ikonas Kopēt</b> , lai kopētu tālāk norādīto saturu:"
       },
       "verifyMob": {
         "title": [
-          "Verificēt mobilo",
+          "Verificējiet mobilo ierīci",
           "Ievadiet kodu"
         ],
         "page1": {
-          "infoText1": "Mums ir nepieciešams jūsu mobilā tālruņa numurs, lai verificētu jūsu identitāti. Varat arī laiku pa laikam saņemt atjauninājumus.",
+          "infoText1": "Mums ir nepieciešams jūsu mobilā tālruņa numurs, lai verificētu jūsu identitāti. Jūs varat arī saņemt neregulārus atjauninājumus.",
           "infoText2": [
             "Ievadiet savu numuru un noklikšķiniet uz pogas, lai iegūtu apstiprinājuma kodu:",
-            "Ievadiet savu numuru un noklikšķiniet uz pogas, lai iegūtu apstiprinājuma kodu:"
+            "Ievadiet savu numuru un noklikšķiniet uz pogas, lai saņemtu apstiprinājuma kodu:"
           ]
         },
         "form": {
           "mobileLabel": "Mobilā tālruņa numurs",
           "mobileLabel_ph": "Ievadiet savu mobilā tālruņa numuru",
-          "otpViaSMS": "Saņemt, izmantojot īsziņu",
-          "viaWhatsApp": "Iegūstiet, izmantojot WhatsApp",
-          "viaTelegram": "Iegūstiet, izmantojot telegrammu",
-          "viaSignal": "Saņemt signālu"
+          "otpViaSMS": "Saņemiet ar īsziņu",
+          "viaWhatsApp": "Saņemiet, izmantojot WhatsApp",
+          "viaTelegram": "Saņemieties, izmantojot telegrammu",
+          "viaSignal": "Saņemieties, izmantojot signālu"
         },
         "page2": {
-          "header": "Mēs esam nosūtījuši 6 ciparu apstiprinājuma kodu uz jūsu numuru ({numurs})",
+          "header": "Mēs esam nosūtījuši 6 ciparu apstiprinājuma kodu uz jūsu numuru ({number})",
           "enterCodeLabel": "Ievadiet kodu",
           "enterCode_ph": "Ievadiet 6 ciparu kodu",
-          "resendCode": "Atkārtotas sūtīšanas kods",
-          "notUsingMobile": "Vai <strong>neizmantojat {number}?</strong>",
+          "resendCode": "Atkārtoti nosūtīt kodu",
+          "notUsingMobile": "Vai neizmantojat <strong>{number}?</strong>",
           "changeNumber": "Mainīt numuru"
         },
-        "jsVerifySuccess": "Mobilais tālrunis ir veiksmīgi verificēts",
+        "jsVerifySuccess": "Mobilais verificēts veiksmīgi",
         "jsVerifyError": "Radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.",
         "jsSendOtpFailed": "Neizdevās nosūtīt OTP. Lūdzu, vēlāk mēģiniet vēlreiz.",
-        "jsSendOtpSuccess": "OTP nosūtīts uz {mobile}",
+        "jsSendOtpSuccess": "OTP nosūtīts {mobile}",
         "jsTooManyRequests": "Izskatās, ka esat mēģinājis jau pārāk daudz reižu. Lūdzu, uzgaidiet minūti vai divas un mēģiniet vēlreiz."
       },
       "userSettings": {
-        "personalSharingMsg": "Personalizējiet koplietošanas ziņojumu",
-        "changePwd": "Mainīt paroli | Iestatīt paroli",
+        "personalSharingMsg": "Koplietošanas ziņojuma personalizēšana",
+        "changePwd": "Mainīt paroli — iestatīt paroli",
         "changeLang": "Mainīt valodu",
         "publishToFeed": "Publicējiet arī manas izmaiņas plūsmā."
       },
@@ -753,54 +748,55 @@
         },
         "sign": {
           "addNameToMsgs": "Mana vārda pievienošana ziņojumiem",
-          "sharingDesc": "Kopīgojot ziņojumus ārēji, tie var izskatīties šādi:",
+          "sharingDesc": "Kopīgojot ārēji, jūsu ziņojumi var izskatīties šādi:",
           "sharingTextDemo": [
-            "Klausieties šo Nauha Bazm lietotnē",
+            "Klausieties šo Nauha Bazm App",
             "{name} iesaka klausīties šo Nauha Bazm App"
           ],
           "addSignDesc": "Vai vēlaties pievienot arī savu parakstu?",
-          "signDesc": "Kad kopīgojat savu vēlmi ar draugiem šajā lietotnē, jūsu paraksts tiks pievienots ziņojumiem. Piemēram, tas var tikt parādīts šādi:"
+          "addSignPlaceholder": "Piemēram,\nAr laba vēlējumiem,\n{name}",
+          "signDesc": "Kad jūs kopīgojat savu vēlmi ar draugiem šajā lietotnē, jūsu paraksts tiks pievienots ziņojumiem. Piemēram, tas var parādīties šādi:"
         },
         "changePwd": {
-          "currentPwdLabel": "Ievadiet esošo paroli:",
+          "currentPwdLabel": "Ievadiet savu esošo paroli:",
           "currentPwdPH": "Ievadiet pašreizējo paroli",
           "newPwdLabel": "Ievadiet jaunu paroli:",
           "newPwdPH": "Ievadiet jaunu paroli"
         },
         "changeLang": {
-          "searchYourLang": "Meklējiet valodu",
-          "desc": "Izvēlieties valodu, kurā vēlaties skatīt lietotnes saturu. Noklikšķiniet uz valodas un pagaidiet (tulkojuma ielāde prasa zināmu laiku), lai redzētu, kā šī frāze parādās izvēlētajā valodā."
+          "searchYourLang": "Meklējiet savā valodā",
+          "desc": "Izvēlieties valodu, kurā vēlaties skatīt lietotnes saturu. Noklikšķiniet uz valodas un pagaidiet (tulkojuma ielāde prasa kādu laiku), lai redzētu, kā šī frāze parādās izvēlētajā valodā."
         },
-        "jsPwdInvalid": "Parolei ir nederīgas rakstzīmes.",
-        "jsPwdCharCount": "Parole nedrīkst būt mazāka par 8 rakstzīmēm.",
+        "jsPwdInvalid": "Parolē ir nederīgas rakstzīmes.",
+        "jsPwdCharCount": "Parole nedrīkst būt īsāka par 8 rakstzīmēm.",
         "jsSelectLang": "Lūdzu, vispirms izvēlieties valodu.",
         "jsLangSet": "Valoda ir iestatīta uz {lang}",
-        "jsPrefSaved": "Saglabāti personalizācijas iestatījumi."
+        "jsPrefSaved": "Personalizācijas iestatījumi ir saglabāti."
       },
       "forgotPwd": {
         "title": "Aizmirsāt paroli?",
-        "introText": "Paroles atiestatīšana ir vienkārša. Atlasiet metodi, kuru turpināt:",
+        "introText": "Paroles atiestatīšana ir vienkārša. Atlasiet metodi, lai turpinātu:",
         "usePhoneCta": "Tālruņa lietošana",
         "useEmailCta": "E-pasta izmantošana",
-        "sendEmailIntro": "Ievadiet e-pasta adresi, ar kuru izveidojāt savu kontu, un mēs nosūtīsim e-pasta ziņojumu ar saiti, lai iestatītu jaunu paroli jūsu kontam.",
+        "sendEmailIntro": "Ievadiet e-pasta adresi, ar kuru izveidojāt savu kontu, un mēs nosūtīsim e-pasta ziņojumu ar saiti, lai iestatītu jaunu konta paroli.",
         "emailInputLabel": "Jūsu reģistrētais e-pasts",
-        "sendEmailCta": "Nosūtīt atiestatīšanas e-pastu",
-        "sentEmailText": "Ja jums ir konts pie mums, drīzumā saņemsit paroles atiestatīšanas e-pastu {<strong>email}</strong>. Lūdzu, pārbaudiet savu e-pastu, lai atrastu saiti.",
-        "notUsingEmailText": "Vai <strong>neizmantojat {e-pastu}?</strong>",
+        "sendEmailCta": "Sūtīt atiestatīšanas e-pastu",
+        "sentEmailText": "Ja jums ir konts pie mums, drīzumā <strong>{email}</strong>saņemsit e-pasta ziņojumu par paroles atiestatīšanu. Lūdzu, pārbaudiet, vai jūsu e-pastā nav saites.",
+        "notUsingEmailText": "Vai neizmantojat <strong>{email}?</strong>",
         "changeEmailCta": "Mainīt e-pastu",
-        "phoneIntroText": "Ievadiet kontam pievienoto tālruņa numuru. Mēs nosūtīsim OTP, lai pārbaudītu jūsu īpašumtiesības, un nākamajā darbībā jūs varēsit izveidot jaunu paroli.",
+        "phoneIntroText": "Ievadiet kontam pievienoto tālruņa numuru. Mēs nosūtīsim OTP, lai pārbaudītu jūsu īpašumtiesības, un nākamajā solī jūs varēsiet izveidot jaunu paroli.",
         "phoneInputLabel": "Jūsu mobilā tālruņa numurs",
-        "sendOtpCta": "Sūtīt OTP",
-        "backToLoginCta": "Atpakaļ uz pieteikšanos",
-        "disclaimerText": "Lūdzu, ņemiet vērā, ka jūs saņemsiet {item} tikai tad, ja jums būs reģistrēts {item} pie mums",
-        "jsMailSent": "Nosūtītais pasts",
+        "sendOtpCta": "Sūtīt vienreizējo kodu",
+        "backToLoginCta": "Atpakaļ uz sadaļu Pieteikšanās",
+        "disclaimerText": "Lūdzu, ņemiet vērā, ka jūs saņemsiet {item} tikai tad, ja jūsu {item} ir reģistrēta pie mums",
+        "jsMailSent": "Nosūtīts pasts",
         "title2": "Konta pieprasīšana",
         "claimIntroHeading": "Pieprasiet savu kontu ātri!",
         "claimIntroText": "Paldies, ka pievienojāties mums. Tagad mēs esam izveidojuši jums kontu. Piekļūstiet savam kontam, atiestatot tā paroli, izmantojot kādu no tālāk norādītajām metodēm."
       },
       "resetPwd": {
-        "title": "Atiestatīt paroli",
-        "introText": "Iestatiet drošu paroli savam kontam šeit. Noklikšķiniet uz {icon}, lai pārliecinātos, vai ievadāt pareizo paroli.",
+        "title": "Paroles atiestatīšana",
+        "introText": "Iestatiet drošu paroli savam kontam šeit. Noklikšķiniet uz {icon} , lai pārliecinātos, vai ievadāt pareizo paroli.",
         "pwdInputLabel": "Jaunas paroles iestatīšana",
         "pwdInputPH": "Ievadiet jaunu paroli",
         "invalidPwdChars": "Nederīgas rakstzīmes parolē",
@@ -810,36 +806,36 @@
         "jsTrackLoadFailed": "Neizdevās ielādēt trasi. Lūdzu, vēlāk mēģiniet vēlreiz."
       },
       "moreBtn": {
-        "jsItemDeleted": "{vienums} tika veiksmīgi izdzēsts.",
-        "jsErrReporting": "Pašlaik nevar par to ziņot. Lūdzu, vēlāk mēģiniet vēlreiz.",
-        "jsAlreadyReported": "Jūs jau ziņojāt par šo {vienums}. Par to nevar ziņot vairāk nekā vienu reizi.",
-        "jsPromptHeading": "Ziņojot par vienumu, ir mazākas iespējas tikt parādītam jūsu vai citas personas plūsmā/lapās. Vai jūs joprojām vēlaties par to ziņot?",
-        "jsReporting": "Ziņošana {itemType}..",
+        "jsItemDeleted": "{item} veiksmīgi izdzēsts.",
+        "jsErrReporting": "Šobrīd nevar par to ziņot. Lūdzu, vēlāk mēģiniet vēlreiz.",
+        "jsAlreadyReported": "Jūs jau ziņojāt par šo {item}. Par to nevar ziņot vairāk kā vienu reizi.",
+        "jsPromptHeading": "Ziņojot par vienumu, ir mazāka iespēja, ka tas tiks rādīts jūsu vai citas personas plūsmā/lapās. Vai jūs joprojām vēlaties par to ziņot?",
+        "jsReporting": "Ziņošanas {itemType}..",
         "jsReportingErr": "Šobrīd nevarēju iesniegt savu pieprasījumu. Lūdzu, vēlāk mēģiniet vēlreiz.",
         "jsReported": "{item} ziņots. Paldies par jūsu ieguldījumu."
       },
       "editProfileModal": {
-        "jsEmptyData": "Nekas nav jāatjaunina!",
-        "jsProfileUpdated": "Profils atjaunināts!"
+        "jsEmptyData": "Nav ko atjaunināt!",
+        "jsProfileUpdated": "Profils atjaunots!"
       },
       "reqZiyarat": {
         "title": "Pieprasījums Ziyarat",
         "cta": "Lūgums",
-        "header": "Pieprasiet Ziyarat pie Imam Hussain (a.s.) Svētnīcas Karbalā jūsu vārdā.",
+        "header": "Pieprasiet Ziyarat pie Imam Hussain (a.s.) svētnīcas Karbalā jūsu vārdā.",
         "desc": {
-          "p1": "Katru piektdienu <strong>lieciet Ziyarat deklamēt jūsu vārdā</strong> Imam Hussain svētnīcā(a.s.) Karbalā, Irākā! Viss, kas jums jādara, ir iesniegt pieprasījumu <strong>līdz ceturtdienas vakara beigām</strong>. Tomēr tu nekad neesi par vēlu; ja jūsu pieprasījums tiks iesniegts pārāk vēlu, tas tiks reģistrēts nākamajai nedēļai.",
-          "p2": "Mēs jums paziņosim, kad ziyarat būs deklamēts jūsu vārdā.",
-          "p3": "Piezīme: kad jūs pieprasāt pirmo reizi, jūsu informācija tiks kopīgota ar mūsu pakalpojumu sniedzēju. Lūdzu, izlasiet mūsu noteikumus un nosacījumus, lai uzzinātu vairāk."
+          "p1": "Katru piektdienu lieciet <strong>Ziyarat deklamēt jūsu vārdā</strong> Imam Hussain(a.s.) svētnīcā Karbalā, Irākā! Viss, kas jums jādara, ir jāiesniedz pieprasījums <strong>līdz ceturtdienas vakara beigām</strong>. Tomēr jūs nekad neesat par vēlu; Ja jūsu pieprasījums tiks iesniegts pārāk vēlu, tas tiks reģistrēts nākamajai nedēļai.",
+          "p2": "Mēs jums paziņosim, kad ziyarat tiks citēts jūsu vārdā.",
+          "p3": "Piezīme: pieprasot pirmo reizi, jūsu informācija tiks kopīgota ar mūsu pakalpojumu sniedzēju. Lūdzu, izlasiet mūsu noteikumus un nosacījumus, lai uzzinātu vairāk."
         },
-        "jsRegistered": "Paldies! Jūsu pieprasījums ir veiksmīgi reģistrēts. Drīzumā jūs saņemsiet apstiprinājuma vēstuli.",
+        "jsRegistered": "Paldies! Jūsu pieprasījums ir veiksmīgi reģistrēts. Drīzumā jūs saņemsiet apstiprinājuma pastu.",
         "jsAlreadyRegistered": "Jūs jau esat reģistrējies Ziyarat šo ceturtdien. Reģistrējieties nākamnedēļ nākamās nedēļas ziyarat.",
-        "jsConfirm": "Lai reģistrētos šim pieprasījumam, mums ir jādalās ar jūsu informāciju (piemēram, pilnu vārdu, dzimumu utt.) ar mūsu pakalpojumu sniedzēju. Tas ir nepieciešams tikai pirmo reizi. Lūdzu, apstipriniet, lai turpinātu.",
+        "jsConfirm": "Lai reģistrētos šim pieprasījumam, mums ir jādalās ar jūsu informāciju (piemēram, pilnu vārdu, dzimumu utt.) ar mūsu pakalpojumu sniedzēju. Tas ir nepieciešams tikai pirmo reizi. Lūdzu, apstipriniet turpināt.",
         "jsDeclined": "Labi! Varbūt vēlāk."
       },
       "currencySelector": {
-        "title": "Izvēlēties valūtu",
+        "title": "Izvēlieties valūtu",
         "baseCurrency": "Pamatvalūtu",
-        "compHasOwnRates": "Lapai, kas izmanto šo atlasītāju, ir savi valūtas kursi, kuriem var būt vēsturiskas vērtības. Tāpēc šeit norādītās likmes atlasei netiks piemērotas.",
+        "compHasOwnRates": "Lapai, kurā tiek izmantots šis atlasītājs, ir savi valūtas kursi, kuriem var būt vēsturiskas vērtības. Tāpēc šeit norādītās likmes netiks piemērotas atlasei.",
         "cancelCta": "Atcelt",
         "doneCta": "Darīts"
       },
@@ -850,24 +846,24 @@
         "doneCta": "Atlasiet"
       },
       "khumsPaymentRecord": {
-        "title": "Maksājuma ieraksta pievienošana",
+        "title": "Pievienot maksājuma ierakstu",
         "paymentFor": "Samaksa par {khumsType}",
         "totalAmount": "Kopējā summa: {amount}",
         "form": {
           "amountLabel": "Summa",
           "amountPlaceholder": "Ievadiet summu",
-          "amountErr": "Summa nedrīkst būt lielāka par Khums",
-          "dateLabel": "Pārsūtīšanas datums – pēc izvēles",
+          "amountErr": "Summa nevar būt lielāka par Khums",
+          "dateLabel": "Pārsūtīšanas datums — fakultatīvi",
           "dateInfo": "Datums, kad nosūtījāt naudu",
           "remarks": "Piezīmes, ja tādas ir?",
-          "remarksInfo": "Piemēram, \"Maksā skaidrā naudā\"",
+          "remarksInfo": "Piemēram, \"Samaksāts skaidrā naudā\"",
           "attach": "Pielikumu pievienošana",
           "attachInfo": "Varat pievienot maksājumu kvītis (tikai attēlus) vēlākai atsaucei"
         }
       },
       "dialCodeSelector": {
         "title": "Izvēlieties valsti",
-        "searchPH": "Meklēt valsti pēc vārda vai numura koda"
+        "searchPH": "Meklēt valsti pēc nosaukuma vai zvanīšanas koda"
       },
       "cards": {
         "completeProfile": {
@@ -1116,13 +1112,13 @@
       "form": {
         "name": {
           "label": "Tavs vārds",
-          "placeholder": "Ievadiet savu pilno vārdu"
+          "placeholder": "Ievadiet savu vārdu un uzvārdu"
         },
         "email": {
           "label": "E-pasts",
           "placeholder": [
             "Jūsu reģistrētais e-pasts",
-            "Ievadiet savu e-pastu"
+            "Ievadiet savu e-pasta adresi"
           ]
         },
         "password": {
@@ -1138,30 +1134,30 @@
         "useSavedAccount": "Saglabāto kontu izmantošana",
         "lastLogin": "Pēdējā pieteikšanās",
         "needAccount": "Vai jums ir nepieciešams konts?",
-        "resetPwdSuccess": "Jūs varat izmantot savu jauno paroli, lai pieteiktos tagad",
+        "resetPwdSuccess": "Jūs varat izmantot savu jauno paroli, lai pieteiktos tūlīt",
         "jsEnterFullName": "Lūdzu, ievadiet savu vārdu un uzvārdu.",
         "jsEnterValidName": "Lūdzu, ievadiet derīgu vārdu.",
         "jsEnterValidEmail": [
           "Lūdzu, ievadiet derīgu e-pastu.",
           "E-pasta ziņojumā ir nederīgas rakstzīmes. Lūdzu, ievadiet derīgu e-pastu."
         ],
-        "jsSelectCountryCode": "Lūdzu, sarakstā atlasiet savas valsts kodu",
+        "jsSelectCountryCode": "Lūdzu, izvēlieties savas valsts kodu no saraksta",
         "jsEnterMobile": "Lūdzu, ievadiet savu mobilā tālruņa numuru.",
         "jsEnterValidMobile": "Lūdzu, ievadiet derīgu mobilā tālruņa numuru",
         "jsEnterPwd": "Lūdzu, ievadiet savu paroli!",
         "jsEnterValidPwd": [
-          "Parolei ir nederīgas rakstzīmes. Lūdzu, ievadiet derīgu paroli.",
-          "Parolei jābūt vismaz {num} rakstzīmēm."
+          "Parolē ir nederīgas rakstzīmes. Lūdzu, ievadiet derīgu paroli.",
+          "Parolē jābūt vismaz {num} rakstzīmēm."
         ],
-        "jsAccountSuccess": "Konts ir izveidots veiksmīgi",
+        "jsAccountSuccess": "Konts ir veiksmīgi izveidots",
         "jsFbError": "Nevarēja iegūt jūsu Facebook konta informāciju. Lūdzu, mēģiniet vēlreiz.",
-        "jsPromptClosedErr": "Pieteikšanās uzvedne tika slēgta pirms pabeigšanas. Lūdzu, mēģiniet vēlreiz."
+        "jsPromptClosedErr": "Pieteikšanās uzvedne tika aizvērta pirms finiša. Lūdzu, mēģiniet vēlreiz."
       },
-      "gotoSignup": "Goto reģistrēties",
+      "gotoSignup": "Goto reģistrēšanās",
       "alreadyHasAccount": "Vai jums jau ir konts?",
       "gotoLogin": "Goto pieteikšanās",
       "gotoProfile": "Goto profils",
-      "msgForAuthUser": "<p>Mēs domājam, ka jūs šeit nokļuvāt kļūdas dēļ, jo jūs jau esat pieteicies.</p> <p>Varat pārbaudīt savu profilu, lai redzētu, kā tas izskatās, vai izmantot kādu no tālāk norādītajām saitēm, lai pārlūkotu citas sadaļas:</p>",
+      "msgForAuthUser": "<p>Mēs domājam, ka jūs šeit nokļuvāt kļūdas dēļ, jo jūs jau esat pieteicies.</p><p>Varat pārbaudīt savu profilu, lai redzētu, kā tas izskatās, vai izmantot kādu no tālāk norādītajām saitēm, lai pārlūkotu citas sadaļas:</p>",
       "jsLoggedOut": "Jūs esat izrakstījies.",
       "jsLogoutHeading": "Atteikties no konta?",
       "jsLogoutText": "Tādējādi tiks izdzēsta lokāli saglabātā informācija, kas ļauj <b>ātri</b> pieteikties. Turpināt?"
@@ -1169,43 +1165,43 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Instalējiet Bazm { platforma }",
-          "desc": "Lejupielādējiet Android lietotni, lai iegūtu labāku pieredzi, personalizētu saturu, paziņojumus un visu, kas jūs interesē, no apkārtējiem! | Instalējiet lietotnes saīsni (grāmatzīmi), lai nākamreiz tai piekļūtu tieši no sākuma ekrāna, lai iegūtu labāku pieredzi! Tas tik tikko aizņem vietu jūsu ierīcē, bet palīdz ātri atgriezties lietotnē.",
+          "heading": "Install Bazm { platform }",
+          "desc": "Lejupielādējiet mūsu Android lietotni, lai iegūtu labāku pieredzi, personalizētu saturu, paziņojumus un visu, kas jūs interesē no apkārtējiem! | Instalējiet lietotnes saīsni (grāmatzīmi), lai nākamreiz tai piekļūtu tieši no sākuma ekrāna, lai iegūtu labāku pieredzi! Tas tik tikko aizņem vietu jūsu ierīcē, bet palīdz ātri atgriezties lietotnē.",
           "cta": {
             "action": "Instalēt",
             "skip": "Varbūt vēlāk"
           }
         },
         "prompt": {
-          "heading": "Instalēt Bazm saīsni?"
+          "heading": "Vai instalējat Bazm saīsni?"
         },
         "popover": {
-          "text": "Noklikšķiniet uz kopīgošanas ikonas (izskatās kā viena labajā pusē) <strong>ZEMĀK</strong> un pēc tam noklikšķiniet uz <strong>Pievienot sākuma ekrānam</strong>. Noklikšķiniet uz \"Saglabāt\", lai pabeigtu, un pēc tam varat piekļūt lietotnei no saīsnes sākuma ekrānā!"
+          "text": "Noklikšķiniet uz ikonas Kopīgot (izskatās kā viena labajā pusē) <strong>ZEMĀK</strong> un pēc tam noklikšķiniet <strong>uz Pievienot sākuma ekrānam</strong>. Noklikšķiniet uz \"Saglabāt\", lai pabeigtu, un pēc tam sākuma ekrānā varat piekļūt lietotnei no saīsnes!"
         },
         "nonSafari": {
-          "heading": "Bazm labāk darbojas Apple Safari",
-          "desc": "Šai pārlūkprogrammai ir ierobežotas funkcijas, savukārt Safari pārlūks ļauj mūsu lietotnei darboties labāk, tostarp pašpiegādes paziņojumiem un lietotņu saīsnēm.",
-          "subtext": "<strong>Atveriet Safari lietotni</strong> savā tālrunī un goto <strong>{url}</strong>, lai iegūtu labāku pieredzi.",
+          "heading": "Bazm darbojas labāk Apple Safari",
+          "desc": "Šai pārlūkprogrammai ir ierobežotas funkcijas, savukārt Safari pārlūks ļauj mūsu lietotnei darboties labāk, ieskaitot pašpiegādes paziņojumus un lietotnes saīsni.",
+          "subtext": "<strong>Tālrunī atveriet lietotni Safari</strong>, un goto <strong>{url}</strong> labākai pieredzei.",
           "skipCta": "Tā vietā turpiniet šeit"
         }
       },
       "webFeedback": {
-        "heading": "Kāda ir tava līdzšinējā pieredze?",
-        "text": "<p>Vai jums patīk jaunā lietotne? Vai ir kaut kas, ko mēs varam uzlabot? Lūdzu, palīdziet mums ar savām atsauksmēm, lai uzlabotu jūsu pieredzi!</p> <p>Tas aizņemtu tikai dažas minūtes, un mēs augstu novērtējam jūsu laiku!</p>",
+        "heading": "Kāda ir jūsu līdzšinējā pieredze?",
+        "text": "<p>Vai jums patīk jaunā lietotne? Vai ir kaut kas, ko mēs varam uzlabot? Lūdzu, palīdziet mums ar savām atsauksmēm, lai uzlabotu jūsu pieredzi!</p><p>Tas aizņemtu tikai dažas minūtes, un mēs ļoti novērtējam jūsu laiku!</p>",
         "cta": "Sniedziet atsauksmes",
         "dismiss": "Varbūt vēlāk"
       },
       "advertise": {
-        "heading": "Reklāma vietnē Bazm",
-        "text": "<p>Sasniedziet miljoniem šiītu musulmaņu visā pasaulē ar savu produktu vietnē Bazm vai sazinieties ar zīmoliem un lietotājiem.</p> <p>Sāciet pat par USD 1 dienā!</p>",
+        "heading": "Reklāma Bazm",
+        "text": "<p>Sasniedziet miljoniem šiītu musulmaņu visā pasaulē ar savu produktu Bazm vai sazinieties ar zīmoliem un lietotājiem.</p><p>Sāc tikai par $1/dienā!</p>",
         "cta": "Apgūt vairāk"
       },
       "upgradeSafari": {
-        "header": "Ierobežota pieredze safari",
-        "description": "<strong>Šī pārlūkprogramma (Safari) nav optimizēta, lai nodrošinātu vislabāko pieredzi</strong>. Turpinot izmantot mūsu lietotni šeit, jūs palaidīsit garām vairākas funkcijas, piemēram, brīdinājuma paziņojumus, netālu no atjauninājumiem, bezsaistes režīma un daudz ko citu.<br/> Lai uzlabotu pieredzi, ieteicams iegūt kādu no tālāk uzskaitītajām pārlūkprogrammām. Noklikšķiniet uz jebkuras no pogām, lai lejupielādētu pārlūkprogrammu no AppStore:",
+        "header": "Ierobežota pieredze pārlūkprogrammā Safari",
+        "description": "<strong>Šī pārlūkprogramma (Safari) nav optimizēta, lai nodrošinātu vislabāko pieredzi</strong>. Turpinot izmantot mūsu lietotni šeit, jūs palaidīsit garām vairākas funkcijas, piemēram, brīdinājuma paziņojumus, tuvu atjauninājumiem, bezsaistes režīmu un daudz ko citu.<br/>Lai uzlabotu pieredzi, ieteicams iegūt kādu no tālāk uzskaitītajām pārlūkprogrammām. Noklikšķiniet uz jebkuras pogas, lai lejupielādētu pārlūkprogrammu no AppStore:",
         "ctas": {
-          "getGoogle": "Iegūt Google Chrome",
-          "getFirefox": "Iegūt Mozilla Firefox",
+          "getGoogle": "Iegūt pārlūku Google Chrome",
+          "getFirefox": "Iegūstiet Mozilla Firefox",
           "getOpera": "Iegūt Opera Touch",
           "skip": "Varbūt vēlāk"
         },
@@ -1213,61 +1209,54 @@
       },
       "cookieBanner": {
         "header": "Par sīkdatņu saglabāšanu jūsu ierīcē",
-        "p1": "Mēs nesaglabājam sīkfailus jūsu {ierīcē}, bet trešās puses lietotnes, kas tiek izmantotas mūsu lietotnē, var (piemēram, Google Analytics). Tā vietā mēs izmantojam pastāvīgu krātuvi, lai glabātu visus svarīgos datus, un vairumā gadījumu tas tiek šifrēts krātuvē un pārsūtīšanas laikā.",
-        "p2": "Turpinot izmantot šo lietotni, ar šo jūs apstiprināt, ka jums nav nekādu problēmu ar mūsu izvēli. Lai uzzinātu vairāk par mūsu sīkfailiem un datu izmantošanu, skatiet mūsu <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Politika.</a>"
+        "p1": "Mēs nesaglabājam sīkfailus jūsu {device} , taču mūsu lietotnē izmantotās trešo pušu lietotnes var (piemēram, Google Analytics). Tā vietā mēs izmantojam pastāvīgu krātuvi, lai saglabātu visus svarīgos datus, un vairumā gadījumu tas tiek šifrēts glabāšanā un pārsūtīšanas laikā.",
+        "p2": "Turpinot izmantot šo lietotni, jūs apstiprināt, ka jums nav nekādu problēmu ar mūsu izvēli. Lai uzzinātu vairāk par mūsu sīkfailiem un datu izmantošanu, skatiet mūsu <a href='https://bazm.in/privacy-policy' target='_blank'>konfidencialitātes politiku.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Sociālā tīkla lietotne šiītu musulmaņiem visā pasaulē! Lejupielādējiet lietotni jau šodien.",
+      "titleBranding": " __ Bazm - Sociālo tīklu lietotne šiītu musulmaņiem visā pasaulē! Lejupielādējiet lietotni jau šodien.",
       "home": {
         "title": "Bazm - tiešsaistes šiītu kopienas lietotne!",
-        "description": "Bazm lietotne ir šiītu kopienas lietotne, kas atbilst visām jūsu ikdienas vajadzībām deen &mazhab. Atrodiet Nauhe, Majalis, Dua, Aamaal, Ziyarat, Grāmatas utt. Skatieties un veiciet tiešraides pasākumus un majalis ar šiītiem musulmaņiem visā pasaulē no mājām. Pievienojies jau šodien!"
+        "description": "Bazm lietotne ir šiītu kopienas lietotne, kas atbilst visām jūsu ikdienas vajadzībām deen &; mazhab. Atrodiet Nauhe, Majalis, Dua, Aamaal, Ziyarat, Grāmatas utt. visiem datumiem un gadījumiem. Skatieties un veiciet tiešraides pasākumus un majalis ar šiītu musulmaņiem visā pasaulē no jūsu mājas ērtībām. Pievienojies jau šodien!"
       },
       "feed": {
-        "title": "Atrodiet pielāgotu saturu un kopīgojiet to ar šiītu kopienu sev apkārt un pasaulei",
-        "description": "Atrodiet un kopīgojiet ziņas, pasākumus un saturu ar šiītu momineen apkārt un informējiet viņus par visiem jūsu rīkotajiem pasākumiem. Uzziniet par visu, kas notiek jūsu tuvumā lietotnē."
+        "title": "Atrodiet pielāgotu saturu un kopīgojiet to ar šiītu kopienu visā pasaulē",
+        "description": "Atrodiet un kopīgojiet ziņas, notikumus un saturu ar shia momineen apkārt, kā arī informējiet viņus par visiem jūsu rīkotajiem pasākumiem. Uzziniet par visu, kas notiek jūsu tuvumā lietotnē."
       },
       "mediaHome": {
-        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal un daudz kas cits jums!",
-        "description": "Atrodiet Nauhe, Majalis, Dua, Aamaal, ziyarat un daudz ko citu visiem datumiem un gadījumam. Skatieties un straumējiet majalis tiešraidē no mājām! Pievienojieties Shia sociālā tīkla lietotnei, kas palīdz jums veikt deen &mazhab ikdienas uzdevumus. Pievienojies jau šodien!"
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal un vēl daudz vairāk jums!",
+        "description": "Atrodiet Nauhe, Majalis, Dua, Aamaal, ziyarat un daudz ko citu visiem datumiem un gadījumiem. Skatieties un veiciet tiešraidi majalis no savas mājas ērtībām! Pievienojieties Shia sociālo tīklu lietotnei, kas palīdz jums veikt ikdienas uzdevumus deen &; mazhab. Pievienojies jau šodien!"
       },
       "toolsHome": {
-        "title": "Bazm - Daily Azaan trauksme, jautājumu atbilde un instrumenti šiītu musulmaņiem",
-        "description": "Saņemiet ikdienas atgādinājumu par Adhanu, atrodiet un uzdodiet jautājumu atbildi par deen &islam tēmām vai pieprasiet Surah-fatiha vai Namaz-e-Wahshat par savu marhumeen un vairāk rīku par Bazm. Pievienojieties Shia sociālā tīkla lietotnei, kas palīdz jums veikt rutīnas uzdevumus. Atrodiet Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat visiem datumiem un gadījumiem. Tiešraidē straumējiet notikumus un majalis no jūsu mājas ērtībām. Pievienojies jau šodien!"
+        "title": "Bazm - Daily Azaan trauksme, jautājumu atbildes un rīki šiītu musulmaņiem",
+        "description": "Saņemiet ikdienas atgādinājumu par Adhanu, atrodiet un uzdodiet jautājumu-atbildi par deen &; islāma tēmām vai pieprasiet Surah-fatiha vai Namaz-e-Wahshat savam marhumeenam un citus rīkus vietnē Bazm. Pievienojieties šiītu sociālo tīklu lietotnei, kas palīdz jums veikt ikdienas uzdevumus. Atrodiet Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat visiem datumiem un gadījumiem. Tiešraides pasākumi un majalis no jūsu mājas ērtībām. Pievienojies jau šodien!"
       },
       "tasbeehCounter": {
-        "title": "Automātiskais tasbeeh skaitītājs ar balsi __ Tasbeeh Counter rīks",
-        "description": "Neskaitāmu tasbeeh deklamēšanu tagad ir vieglāk, izmantojot mūsu Audio tasbeeh skaitītājus. Deklamējiet savu tasbeeh, kamēr braucat vai strādājat, joprojām sekojot līdzi skaitam ar balss skaitītājiem. Iegūstiet šo rīku un citus, kas tam patīk, lietotnē Bazm. Lejupielādējiet šodien."
+        "title": "Automātisks tasbeeh skaitītājs ar Voice __ Tasbeeh Counter rīku",
+        "description": "Neskaitāmu tasbeeh deklamēšana tagad ir vieglāka, izmantojot mūsu Audio tasbeeh skaitītājus. Deklamējiet savu tasbeeh, kamēr braucat vai strādājat, joprojām sekojot līdzi skaitam, izmantojot balss skaitītājus. Iegūstiet šo rīku un citus, piemēram, Bazm lietotnē. Lejupielādējiet šodien."
       },
       "accountHome": {
-        "title": "Bazm - Izveido savu bezmaksas kontu jau šodien un saņem palīdzību saistībā ar savām ikdienas vajadzībām!",
-        "description": "Pievienojieties Bazm lietotnei jau šodien, lai apmierinātu visas jūsu vajadzības, lai deeniyat. Atrodiet nohe/nauhe, majalis, dua, ziyarat, aamaal visiem datumiem un gadījumiem. Tiešraidē straumēt un skatīties majalis & pasākumus no apkārtējiem; atrodiet ziņas, saturu un momineen no visas jums un pasaules, un vēl daudz ko citu lietotnē."
+        "title": "Bazm - Izveido savu bezmaksas kontu jau šodien un saņem palīdzību ar savām ikdienas vajadzībām deen!",
+        "description": "Pievienojieties Bazm lietotnei jau šodien, lai apmierinātu visas savas vajadzības, lai deeniyat. Atrodiet nohe/nauhe, majalis, dua, ziyarat, aamaal visiem datumiem un gadījumiem. Tiešraidē straumējiet un skatieties majalis & notikumus no apkārtējiem; Lietotnē atrodiet ziņas, saturu un momineen no jums un pasaules, kā arī daudz ko citu. Pievienojies jau šodien!"
       },
       "nauheListPage": {
-        "title": "Klausieties Nauhe no populārā nauhakhwan visā pasaulē",
-        "description": "Klausieties nauhe no visiem gadiem un visu populāro nauhakhwan no visas pasaules Bazm lietotnē. Lejupielādējiet šodien."
+        "title": "Klausieties Nauhe no populārās nauhakhwan visā pasaulē",
+        "description": "Klausieties nauhe no visiem gadiem un visu populāro nauhakhwan no visas pasaules Bazm lietotnē."
       },
       "soazListPage": {
-        "title": "Klausieties Soaz no populārā Soazkhwan visā pasaulē",
-        "description": "Klausieties Soaz no visiem gadiem un visu populāro Soazkhwan no visas pasaules lietotnē Bazm. Lejupielādējiet šodien."
+        "title": "Klausieties Soaz no populārās Soazkhwan visā pasaulē",
+        "description": "Klausieties Soaz no visiem gadiem un visu populāro Soazkhwan no visas pasaules Bazm lietotnē."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Atrodi vairāk nauhe, audio/video majalis, dua, ziyarat, aamaal u.c. uz Bazm",
-        "description": "Atrodiet audio/video majalis no Maulana un Zakir-e-Ahlbayt no tuvienes un visā pasaulē. Klausieties un skatieties jaunākās majalis un tiešraides sesijas lietotnē Bazm. Lejupielādējiet lietotni šodien un pievienojieties miljoniem šiītu musulmaņu visā pasaulē!"
+        "title": "{type} majalis/majlis uz Bazm - Atrodiet vairāk nauhe, audio / video majalis, dua, ziyarat, aamaal utt. uz Bazm",
+        "description": "Atrodiet audio / video majalis no Maulana un Zakir-e-Ahlbayt no tuvām jums un visā pasaulē. Klausieties un skatieties jaunākās majalis un tiešraides sesijas Bazm lietotnē. Lejupielādējiet lietotni jau šodien un pievienojieties miljoniem šiītu musulmaņu visā pasaulē!"
       },
       "duasPage": {
         "title": [
-          "Duas un aamaal mēnesim {mēnesis} uz Bazm - Atrodiet vairāk nauhe, audio/video majalis, dua, ziyarat, aamaal utt.",
-          "Duas un aamaal visus mēnešus Bazm - Atrodiet vairāk nauhe, audio/video majalis, dua, ziyarat, aamaal utt."
+          "Duas un aamaal {month} mēnesim Bazm - Atrodiet vairāk nauhe, audio / video majalis, dua, ziyarat, aamaal utt. uz Bazm",
+          "Duas un aamaal visus mēnešus Bazm - Atrodiet vairāk nauhe, audio / video majalis, dua, ziyarat, aamaal utt. uz Bazm"
         ],
-        "description": "Atrodiet duas, aamaal, ziyarat un munajat visus mēnešus Bazm, datums un pasākums gudrs. Lejupielādējiet lietotni šodien un pievienojieties miljoniem šiītu musulmaņu visā pasaulē!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Paskaidrojiet ar pareizām atsaucēm un kontekstā ar šiītu musulmaņiem. Sniedziet man arī atsauces kā sarakstu ar saitēm uz avotiem.",
-        "newQues": "Sveiki, sāksim jaunu sarunu. Zemāk esmu jautājis:\n{quesTex}",
-        "continuePrev": "Turpināsim mūsu diskusiju no {date}. {quesTex}"
+        "description": "Atrodi duas, aamaal, ziyarat un munajat visus mēnešus Bazm, datums un notikums gudrs. Lejupielādējiet lietotni jau šodien un pievienojieties miljoniem šiītu musulmaņu visā pasaulē!"
       }
     }
   }
