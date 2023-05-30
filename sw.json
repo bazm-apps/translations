@@ -1,31 +1,31 @@
 {
   "sw": {
     "common": {
-      "refresh": "Vuta kuburudisha",
-      "refreshing": "Kuburudisha...",
+      "refresh": "Vuta kwa kuburudisha",
+      "refreshing": "Kuonyesha upya...",
       "loadingMore": "Kupakia zaidi...",
       "checking": "Kukagua...",
-      "sendOtp": "Kutuma OTP..",
+      "sendOtp": "Kutuma OTP.",
       "dismiss": "Kumfukuza",
       "invite": "Alika",
-      "showMore": "Onyesha zaidi | Tazama zaidi",
+      "showMore": "Onyesha zaidi |Tazama zaidi",
       "play": "Kucheza",
       "pause": "Paused",
       "playing": "Kucheza",
       "paused": "Paused",
       "watch": "Kuangalia",
       "read": "Soma",
-      "authors": "Mwandishi | Waandishi",
-      "languages": "Lugha | Lugha",
+      "authors": "Mwandishi |Waandishi",
+      "languages": "Lugha |Lugha",
       "clear": "Wazi",
       "cancel": "Katisha",
       "change": "Badilisha",
       "continue": "Kuendelea",
       "select": "Teua",
-      "saveChanges": "Hifadhi mabadiliko | Hifadhi | Sasisha",
+      "saveChanges": "Hifadhi mabadiliko |Hifadhi |Sasishi",
       "newBadge": "Mpya",
       "login": "Kuingia",
-      "logout": "Logout",
+      "logout": "Kuingia",
       "signup": "Jisajili",
       "settings": "Vipimo",
       "cookiePolicy": "Sera ya kuki",
@@ -35,45 +35,45 @@
       "facebook": "Facebook",
       "google": "Google",
       "you": "Wewe",
-      "retry": "Retry",
+      "retry": "Jaribu tena",
       "send": "Tuma",
       "submit": "Wasilisha",
-      "share": "Shiriki | Shiriki sasa",
+      "share": "Shiriki |Shiriki sasa",
       "at": "Katika",
-      "untilNextTime": "Hakuna shida. Mpaka nextTime!",
+      "untilNextTime": "Hakuna shida. Hadi wakati ujao!",
       "plzWait": "Tafadhali subiri..",
-      "saving": "Kuhifadhi.. | Kusasisha..",
+      "saving": "Kuhifadhi.. |Kusasisha..",
       "search": "Tafutiza",
       "late": "Marehemu",
       "done": "Kufanyika",
-      "featureUnavailable": "Kipengele hiki kitapatikana hivi karibuni. Asante fro kuonyesha nia!",
+      "featureUnavailable": "Kipengele hiki kitapatikana hivi karibuni. Shukrani kwa ajili ya kuonyesha maslahi!",
       "actions": {
         "cancel": "Katisha",
         "notify": "Taarifa",
         "like": "Kama",
-        "recited": "Imekaririwa",
+        "recited": "Imesomwa",
         "comment": "Maoni",
         "reply": "Jibu",
         "bookmark": "Alamisho",
         "uploading": "Inapakia..",
         "deleting": "Kufuta..",
         "requesting": "Kuomba..",
-        "audienceHeader": "Momineen ambaye {action}d | Momineen ambaye {action}d hii",
-        "jsShareFileTypeError": "Samahani, huwezi kushiriki faili za {fileType} hapa",
+        "audienceHeader": "Momineen ambaye {action}d — Momineen ambaye {action}d hii",
+        "jsShareFileTypeError": "Samahani, huwezi kushiriki faili {fileType} hapa",
         "jsUpdateAvailable": {
           "header": "Sasisha inapatikana",
-          "message": "Unaona toleo lililohifadhiwa la programu. Bofya 'Burudisha' ili kusasisha na kupakia maudhui na vipengele vipya.",
+          "message": "Unaona toleo lililohifadhiwa la programu. Bofya 'Rudisha' ili kusasisha na kupakia maudhui na vipengele vipya.",
           "cta": "Onesha upya"
         },
         "jsImgUploaded": "Picha imepakiwa kwa mafanikio!",
-        "jsImgUploadErr": "Upakiaji wa picha ulishindwa. Tafadhali jaribu tena baadaye.",
+        "jsImgUploadErr": "Upakiaji wa picha umeshindwa. Tafadhali jaribu tena baadaye.",
         "jsLoadingDelay": "Inachukua muda mrefu kuliko ilivyotarajiwa. Tafadhali subiri wakati tunashughulikia ombi hili."
       },
-      "unknown": "Isiyojulikana",
       "close": "Funga",
       "yes": "Ndiyo",
       "no": "La",
       "idk": "Sijui",
+      "unknown": "Isiyojulikana",
       "completed!": "Kukamilisha!",
       "pushPrompt": {
         "heading": "Endelea hadi tarehe",
@@ -85,22 +85,22 @@
     },
     "errors": {
       "service": {
-        "unavailable": "Huduma haipatikani kwa sasa. Tafadhali jaribu tena baadaye.",
+        "unavailable": "Huduma haipatikani kwa wakati huu. Tafadhali jaribu tena baadaye.",
         "unknown": "Kosa lisilojulikana lilitokea. Tafadhali jaribu tena baadaye.",
-        "general": "Kosa lilitokea wakati wa kushughulikia ombi lako. Tafadhali jaribu tena baadaye."
+        "general": "Kosa lilitokea wakati wa kuchakata ombi lako. Tafadhali jaribu tena baadaye."
       },
       "content": {
-        "unavailable": "Haikuweza kupakia yaliyomo wakati huu. Tafadhali jaribu tena kwa muda.",
-        "itemDetailUnavailable": "Haikuweza kupata maelezo ya hii {item}",
-        "loadMoreError": "Kushindwa kupakia vitu zaidi. Tafadhali jaribu tena baadaye."
+        "unavailable": "Haikuweza kupakia yaliyomo kwa wakati huu. Tafadhali jaribu tena kwa muda.",
+        "itemDetailUnavailable": "Haikuweza kupata maelezo ya {item} hii",
+        "loadMoreError": "Imeshindwa kupakia vipengee zaidi. Tafadhali jaribu tena baadaye."
       },
       "url": {
-        "invalid": "URL batili. Tafadhali jaribu na URL mpya."
+        "invalid": "URL batili. Tafadhali jaribu URL mpya."
       },
       "page404": {
         "title": "Ukurasa haupatikani",
         "desc": "Hatukuweza kupata ukurasa unaotafuta!",
-        "ctaLabel": "Nyumbani kwa Goto"
+        "ctaLabel": "Nyumba ya Goto"
       }
     },
     "navbar": {
@@ -109,10 +109,10 @@
       },
       "postDetail": {
         "commonTitle": "Undani",
-        "fatihaTitle": "Sura-fatiha",
-        "fatihaWithNamaz": "Sura-fatiha &Namaz-e-Wahshat",
+        "fatihaTitle": "Surah-fatiha",
+        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
         "avatarUpdateTitle": "Picha ya wasifu",
-        "bannerUpdateTitle": "Funika Picha (Deprecated)",
+        "bannerUpdateTitle": "Picha ya jalada (Imefafanuliwa)",
         "statusUpdateTitle": "Sasisho la hali"
       }
     },
@@ -130,138 +130,137 @@
         "boxLabels": {
           "nauhe": "Nauhe",
           "majalis": "Majalis",
-          "soaz": "Soaz",
+          "soaz": "Soazi",
           "ziyarat": "Ziyaraat",
-          "dua": "Duas",
+          "dua": "Mbili",
           "munajat": "Munajaat",
           "munajaat": "Munajaat",
           "books": "Vitabu"
         },
-        "inviteFriends": "waalike marafiki zako",
-        "notShia": "Sio Shia?",
+        "inviteFriends": "Waalike marafiki zako",
+        "notShia": "Sio ya Shia?",
         "contacts": {
-          "accessRequestHeader": "Upatikanaji wa Mawasiliano unahitajika",
-          "accessRequestDesc": "Tunahitaji ufikiaji wa anwani zako kupendekeza watu wa Shia kwenye kitabu chako cha simu kualika kwenye programu hii."
+          "accessRequestHeader": "Ufikiaji wa Anwani unahitajika",
+          "accessRequestDesc": "Tunahitaji ufikiaji wa anwani zako ili kupendekeza watu wa Shia kwenye kitabu chako cha simu kualika kwenye programu hii."
         },
         "audio": "Sikizi",
         "video": "Video",
         "hijri": "Hijri",
         "duaHome": {
-          "wishCtaText": "Nawatakia marafiki zako!",
-          "wishCtaLabel": "MATAMANIO"
+          "wishCtaText": "Nakutakia marafiki zako!",
+          "wishCtaLabel": "UNATAKA"
         },
         "books": {
-          "booksByAuthor": "Vitabu vya {mwandishi}",
-          "booksInLang": "Vitabu katika {lang}",
-          "filterBy": "Chuja kwa:",
+          "booksByAuthor": "Vitabu vya {author}",
+          "booksInLang": "Vitabu vya {lang}",
+          "filterBy": "Kichujio kwa:",
           "matching": {
-            "authors": "na waandishi wanaofanana",
-            "lang": "na lugha zinazofanana",
-            "title": "na kichwa kinacholingana"
+            "authors": "na waandishi wanaolingana",
+            "lang": "na lugha zinazolingana",
+            "title": "na vinavyolingana kwa kichwa"
           }
         },
         "booksFilter": {
-          "title": "Pata kitabu cha mwandishi",
-          "searchBox": "Mwandishi wa utafutaji kwa jina",
+          "title": "Pata kitabu kwa mwandishi",
+          "searchBox": "Tafuta mwandishi kwa jina",
           "selectLang": "Chagua lugha:"
         },
         "bookDetails": {
-          "title": "{kichwa} — Pata vitabu zaidi vya bure kama hivi kwenye Bazm",
+          "title": "{title} - Pata vitabu zaidi vya bure kama hivi kwenye Bazm",
           "aboutBook": "Kuhusu kitabu:"
         }
       },
       "tools": {
         "name": "Zana",
-        "salatAlarmDesc": "Weka ving'ora kwa Azaan kulingana na nyakati zako za ndani",
-        "sehriAlarmDesc": "Weka Alarm kwa Sehri, au hata pata simu ya kuamka kwenye nambari yako kabla ya Sehri!",
-        "sehriAlarmOptionDisabled": "Kengele kwa muda wa Sheri wakati wa mwezi wa Ramadhani (inapatikana tu wakati wa Ramadhani)",
-        "tasbeehCounterDesc": "Kariri Duas, Quran na Tasbeeh kwenye hali ya kurudia kwa urahisi na kaunta ya Sauti Tasbeeh",
+        "salatAlarmDesc": "Weka kengele kwa Azaan kulingana na nyakati zako za karibu",
+        "sehriAlarmDesc": "Weka Kengele kwa Sehri, au hata pata simu ya kuamka kwenye nambari yako kabla ya Sehri!",
+        "sehriAlarmOptionDisabled": "Alarms kwa Sheri wakati wa mwezi wa Ramadhani (inapatikana tu wakati wa Ramadhani)",
+        "tasbeehCounterDesc": "Soma Duas, Quran na Tasbeeh kwenye hali ya kurudia kwa urahisi na Audio Tasbeeh counter",
         "qnaLabel": "QnA (Masle-Masayel)",
-        "qnaDesc": "Tafuta na Uulize maswali au upate majibu ya masle-masayel kutoka kwa maisha yako ya kila siku juu ya masuala ya Uislamu.",
+        "qnaDesc": "Tafuta na Uliza maswali au pata majibu ya masle-masayel kutoka kwa maisha yako ya kila siku juu ya masuala ya Uislamu.",
+        "khumsLabel": "Kikokotoo Cha Khums",
+        "khumsDesc": "Kokotoa khums zako, au ongeza khums yoyote iliyolipwa hapo awali. Inakusaidia kuweka rekodi ya khums zako kwa miaka.",
         "alarms": {
-          "salatAlarms": "Salat Alarms | Kengele za Salat za Kila Siku",
-          "sehriAlarms": "Ramadhani Sehri Alarms",
-          "gettingLocation": "Kupata eneo lako. Tafadhali subiri...",
-          "settingsTip": "Badilisha <b>Eneo</b> na mapendekezo katika mipangilio ya Alarm. Bofya ikoni ya Mipangilio ili kuanza.",
+          "salatAlarms": "Kengele za Salat - - Kengele za Salat za Kila Siku",
+          "sehriAlarms": "Kengele ya Ramadhani Sehri",
+          "gettingLocation": "Kupata mahali pako. Tafadhali subiri...",
+          "settingsTip": "Badilisha <b>Mahali</b> na mapendeleo katika mipangilio ya Kengele. Bofya ikoni ya Mipangilio ili kuanza.",
           "setAlarmHeader": "Weka Kengele za Kila Siku",
-          "setAlarmOnAppDesc": "Kuweka ving'ora inapatikana tu kwenye programu",
+          "setAlarmOnAppDesc": "Kwenye Eneo-kazi, arifa ya kengele huonekana tu kama bendera bila pete yoyote",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
           "sunsetLabel": "Sunset",
           "maghribLabel": "Maghrib",
           "midnightLabel": "Usiku wa manane",
-          "sehriEndTime": "Wakati wa mwisho wa Sehri",
+          "sehriEndTime": "Muda wa mwisho wa Sehri",
           "minToImsak": [
-            "{min} mins kabla ya Imsak",
-            "{saa} saa kabla ya Imsak"
+            "{min} dakika kabla ya Imsak",
+            "{hour} saa kabla ya Imsak"
           ],
           "minToImsakDesc": [
-            "Pete za kengele {min} dakika kabla ya mwisho wa muda wa Sehri",
-            "Pete za kengele {saa} kabla ya mwisho wa wakati wa Sehri"
+            "Kengele hulia dakika {min} kabla ya mwisho wa muda wa Sehri",
+            "Kengele hulia saa {hour} kabla ya mwisho wa muda wa Sehri"
           ],
-          "notRamadan": "Inaonekana kama bado sio Ramadhani. Tafadhali rudi wakati au tu kabla ya Ramadhani kuweka Kengele kwa Sehri",
+          "notRamadan": "Inaonekana kuwa sio Ramadhani bado. Tafadhali rudi wakati au kabla ya Ramadhani kuweka Alarms kwa Sehri",
           "push": {
-            "heading": "Upatikanaji wa arifa unahitajika",
-            "desc_request": "Kengele inafanya kazi kwa kutuma arifa za kushinikiza katika nyakati zilizotengwa. Bila upatikanaji wa msukumo, programu haitafanya kazi kwa njia inayotarajiwa. Kindly kuruhusu upatikanaji wa arifa yako ya kushinikiza ili tuweze kukujulisha wakati wa kengele.",
-            "desc_denied": "<strong>Ulikataa upatikanaji wa arifa mapema.</strong> Inahitajika ili arifa za kushinikiza zifanye kazi vizuri. Tunatuma arifa wakati wa kengele.<br/> Kindly kuruhusu upatikanaji wa arifa za kusukuma kwa kubofya kitufe.",
+            "heading": "Ufikiaji wa arifa unahitajika",
+            "desc_request": "Kengele inafanya kazi kwa kutuma arifa za kushinikiza kwa nyakati zilizoteuliwa. Bila ufikiaji wa kushinikiza, programu haitafanya kazi kwa njia inayotarajiwa. Tafadhali ruhusu ufikiaji wa arifa yako ya kushinikiza ili tuweze kukujulisha wakati wa kengele.",
+            "desc_denied": "<strong>Ulikataa ufikiaji wa arifa mapema.</strong> Inahitajika kwa maelezo ya kushinikiza kufanya kazi vizuri. Tunatuma arifa kwa wakati wa kengele.<br/>Kwa upole ruhusu ufikiaji wa arifa za kushinikiza kwa kubofya kitufe.",
             "cta": "Ruhusu",
             "toast_granted": "Asante! Utaarifiwa wakati wa kengele sasa.",
-            "toast_denied": "Ombi la arifa lilikataliwa. Tafadhali ruhusu upatikanaji wa programu kufanya kazi vizuri.",
-            "toast_prompt": "Unahitaji kuruhusu ufikiaji wa arifa kuweka ving'ora."
+            "toast_denied": "Ombi la arifa limekataliwa. Tafadhali ruhusu ufikiaji wa programu kufanya kazi vizuri.",
+            "toast_prompt": "Unahitaji kuruhusu ufikiaji wa arifa kuweka kengele."
           },
           "jsAlarmSetSuccess": "Kengele zilizowekwa kwa mafanikio",
-          "jsAlarmSetError": "Hitilafu katika kuweka ving'ora. Tafadhali jaribu tena baadaye.",
-          "jsAlarmSnoozed": "Kengele yatanda kwa dakika 10",
+          "jsAlarmSetError": "Kosa katika kuweka kengele. Tafadhali jaribu tena baadaye.",
+          "jsAlarmSnoozed": "Alarm snoozed kwa dakika 10",
           "sunriseLabel": "Jua la jua",
           "dhuhrLabel": "Zuhr",
           "asrLabel": "Asr",
           "ishaLabel": "Nyumbani"
         },
         "alarmSetting": {
-          "title": "Mipangilio ya kengele",
-          "locationTitle": "Pata mji kwa muda wa Alarm",
-          "forLocation": "Kengele ya eneo",
-          "calcMethod": "Njia ya mahesabu",
+          "title": "Mipangilio ya Kengele",
+          "locationTitle": "Tafuta mji kwa muda wa Alarm",
+          "forLocation": "Kengele kwa ajili ya mahali",
+          "calcMethod": "Njia ya kuhesabu",
           "selectAdhanSound": "Chagua sauti ya Adhan",
           "selectAlarmSound": "Chagua sauti ya Kengele",
           "alarmSoundDesc": "Sauti kwa nyakati zisizo za salat",
-          "timesPeekHeading": "Bendera ya nyakati za kuonyesha",
-          "timesPeekDesc": "Unaweza kuzima onyesho la mtazamo wa haraka wa nyakati za Salat hapa:",
-          "timesPeekHome": "Onyesha kwenye ukurasa wa malisho:",
+          "timesPeekHeading": "Onyesha bendera ya nyakati",
+          "timesPeekDesc": "Unaweza kuzima onyesho la mwonekano wa haraka wa nyakati kwa Salat hapa:",
+          "timesPeekHome": "Onyesha kwenye ukurasa wa milisho:",
           "timesPeekTools": "Onyesha kwenye ukurasa wa zana:",
-          "jsConfirmLocChange": "Kubadilisha eneo lako kutafuta ving'ora vyote vilivyowekwa hapo awali. Kuendelea?",
-          "jsOtherSettingsSaved": "Mipangilio mingine imehifadhiwa. Eneo halikubadilishwa."
+          "jsConfirmLocChange": "Kubadilisha eneo lako kutaghairi kengele zote zilizowekwa hapo awali. Kuendelea?",
+          "jsOtherSettingsSaved": "Mipangilio mingine imehifadhiwa. Eneo hilo halikubadilishwa."
         },
         "qna": {
-          "title": "Swali-Jibu",
+          "title": "Majibu ya swali",
           "qnaSource": "Chanzo",
-          "seeAnswer": "Tazama jibu",
+          "seeAnswer": "Angalia majibu",
           "noAnswer": "Hakuna jibu"
         },
         "qnaDetail": {
-          "title": "Majibu ya: {ques}",
-          "jsSubmitSuccess": "Wewe swali limewasilishwa kwa mafanikio. Tutakusasisha mara tu tutakapopokea jibu juu yake."
+          "title": "Jibu: {ques}",
+          "jsSubmitSuccess": "Swali lako limewasilishwa kwa mafanikio. Tutakusasisha mara tu tutakapopokea jibu juu yake."
         },
         "tasbeehCounter": {
-          "title": "Kaunta ya Tasbeeh"
+          "title": "Tasbeeh Counter"
         },
-        "khumsLabel": "Khums Calculator",
-        "khumsDesc": "Hesabu khums zako, au ongeza khums zozote zilizolipwa hapo awali. Inakusaidia na utunzaji wa kumbukumbu ya khums zako zaidi ya miaka.",
         "khums": {
           "list": {
             "blog": {
-              "title": "Blog: Hesabu khums kwa ufanisi",
-              "p1": "<a href='{href}' target='_blank'>Fuata blogu yetu</a> ambayo inaonyesha vitu muhimu katika hesabu ya khums kila mwaka.",
-              "p2": "Kanusho: Blogu sio mwongozo. <strong>Fuata maamuzi ya Marjah yako kwa hesabu ya Khums</strong>. <span id='blog-info-link' color='primary'>Bonyeza hapa</span> kwa maelezo zaidi.",
-              "blogInfo": "Blogu hapo juu inategemea makala kutoka kwa al-islam.org, sistani.org, na majadiliano yetu na wasomi wengine wachache. Unapaswa kufuata daima maamuzi ya Marjah yako kwa hesabu ya Khums.",
-              "dismissCta": "Haipendezi"
+              "title": "Blog: Kokotoa khums kwa ufanisi",
+              "p1": "<a href='{href}' target='_blank'>Fuata blogu yetu</a> ambayo inaangazia vitu muhimu katika hesabu ya khums kila mwaka.",
+              "p2": "Jibu: Blogu sio mwongozo. <strong>Fuata maamuzi ya Marjah yako kwa hesabu ya Khums</strong>. <span id='blog-info-link' color='primary'>Bofya hapa</span> kwa maelezo zaidi.",
+              "blogInfo": "Blogu hapo juu inategemea makala kutoka kwa al-islam.org, sistani.org, na majadiliano yetu na wasomi wengine wachache. Unapaswa kufuata maamuzi ya Marjah yako kwa hesabu ya Khums.",
+              "dismissCta": "Si nia ya"
             },
-            "title": "Hesabu zako za Khums",
+            "title": "Mahesabu yako ya Khums",
             "nextMuqammasHeading": "<strong>Muqammas</strong><br />kwa hesabu inayofuata",
-            "muqammasDesc": "Kulingana na mahesabu kutoka mwaka wa hivi karibuni",
+            "muqammasDesc": "Kulingana na hesabu kutoka mwaka wa hivi karibuni",
             "sahmeSadat": "Sahm-e-Sadat",
-            "sahmeImam": "Sahm-e-Imam (a.s.)",
+            "sahmeImam": "Hadiyth (a.s.)",
             "paid": "Kulipwa:",
             "remaining": "Iliyobaki:",
             "newMuqammas": "Muqammas mpya:",
@@ -274,166 +273,166 @@
             },
             "empty": {
               "header": "Hakuna khums iliyoongezwa bado",
-              "subtext": "Anza kwa kuongeza hesabu ya khums. Bofya kwenye kitufe hapa chini."
+              "subtext": "Anza kwa kuongeza hesabu ya khums. Bonyeza kwenye kitufe hapa chini."
             }
           },
           "detail": {
-            "title": "Khums zako",
+            "title": "Khums yako",
             "header": "Khums",
-            "mqmsInfo": "Muqammas kwa hesabu ijayo",
+            "mqmsInfo": "Muqammas kwa hesabu inayofuata",
             "calcHeader": "Kulingana na hesabu hapa chini:",
             "savingsHeader": "Akiba",
-            "conversionInfo": "Imebadilishwa kuwa {amount} kulingana na kiwango cha kubadilishana cha {xchgRate} kwenye {xchgRateDate}",
+            "conversionInfo": "Imebadilishwa kuwa {amount} kulingana na kiwango cha ubadilishaji wa {xchgRate} kwenye {xchgRateDate}",
             "expensesHeader": "Gharama",
             "mqmsHeader": "Muqammas",
-            "prevMqms": "Muqammas wa awali",
+            "prevMqms": "Muqammas ya awali",
             "paymentsHeader": "Malipo yaliyofanywa kwa khums:",
             "error": {
-              "header": "Oh uh, kosa lilitokea!",
-              "desc": "Inaonekana kama hatuwezi kupata chochote kuhusu hesabu hii ya khums. Inaweza kuwa ama kwa sababu moja ya huduma zetu iliharibika, au labda unatafuta data ya stale.<br /><br/ >Jaribu kuburudisha ukurasa, au utufikie ikiwa unafikiri kuna makosa kwa upande wetu."
+              "header": "Oh, makosa yalitokea!",
+              "desc": "Inaonekana kama hatuwezi kupata chochote kuhusu hesabu hii ya khums. Inaweza kuwa kwa sababu moja ya huduma zetu zimeharibika, au labda unatafuta data ya stale.<br /><br/ >Jaribu kuburudisha ukurasa, au tufikie ikiwa unafikiria kuna kosa kwa upande wetu."
             },
             "js": {
-              "recordDeleteFailed": "Kosa lilitokea wakati wa kujaribu kufuta rekodi hii. Tafadhali jaribu tena, au ikiwa kosa linaendelea, njoo tena baadaye.",
-              "recordDeleted": "Rekodi yafutwa kwa ufanisi",
+              "recordDeleteFailed": "Kosa lilitokea wakati wa kujaribu kufuta rekodi hii. Tafadhali jaribu tena, au ikiwa kosa litaendelea, rudi tena baadaye.",
+              "recordDeleted": "Rekodi imefutwa kwa mafanikio",
               "deleteRecordHeader": "Futa rekodi?",
               "deleteRecordDesc": "Una uhakika unataka kufuta rekodi hii? Viambatisho vyovyote vilivyoongezwa kwenye rekodi hii vitafutwa pia!"
             }
           },
           "calc": {
-            "subtext": "Jaza fomu hapa chini ili kuhesabu khums zako. Mashamba ya hiari yanaonyeshwa. Bofya info-icon hapa chini ili kujua zaidi kuhusu sehemu.",
-            "blog": "Zinazohusiana: Soma blogi yetu juu ya <a href='{href}' target='_blank'>Jinsi ya kuhesabu khums kwa<a> ufanisi</a>",
-            "dateRange": "Chagua aina ya tarehe:",
+            "subtext": "Jaza fomu hapa chini ili kuhesabu khums zako. Sehemu za hiari zinaonyeshwa. Bofya info-icon hapa chini ili kujua zaidi kuhusu sehemu hiyo.",
+            "blog": "Habari Nyingine: Soma blogu yetu juu ya <a href='{href}' target='_blank'>Jinsi ya kuhesabu khums kwa<a> ufanisi</a>",
+            "dateRange": "Chagua masafa ya tarehe:",
             "dateRangeInfo": "Kwa kawaida, watu huhesabu khums kwa mwaka wa fedha (kwa mfano, kutoka Aprili hadi Machi) au mwaka wa Kalenda (Jan hadi Desemba)",
             "startDate": "Tarehe ya kuanza:",
             "endDate": "Tarehe ya mwisho:",
             "savings": {
               "header": "Akiba",
-              "desc": "Ongeza akiba/salio kwenye akaunti yako(s)",
+              "desc": "Ongeza akiba/usawa katika akaunti yako",
               "info": "Unaweza kuongeza kiasi katika sarafu tofauti, lakini khums hatimaye huhesabiwa kwa sarafu moja kulingana na kiwango cha ubadilishaji wa leo.",
               "form": {
                 "label": "Lebo",
-                "placeholder": "Mfano, Akaunti ya mshahara",
+                "placeholder": "Kwa mfano, akaunti ya mshahara",
                 "amountLabel": "Kiasi",
                 "amountPlaceholder": "Ingiza Kiasi",
-                "remarks": "Matamshi yoyote kuhusu kipengee hiki?"
+                "remarks": "Maoni yoyote kuhusu bidhaa hii?"
               }
             },
             "expenses": {
-              "header": "<strong>Madeni/Liabilities/Expenses</strong> — Hiari",
-              "subtext": "Ongeza madeni, madeni au gharama zozote za haraka",
-              "info": "Kiasi fulani kutoka kwa usawa kinaweza kukatwa kwa khums. Fuata kiungo chetu hapo juu <strong>Calculate khums kwa ufanisi</strong> ili kujua zaidi.",
+              "header": "<strong>Deni / Uwezo / Gharama</strong> - Hiari",
+              "subtext": "Ongeza madeni yoyote ya haraka, madeni au gharama",
+              "info": "Baadhi ya kiasi kutoka usawa inaweza kukatwa kwa khums. Fuata kiungo chetu hapo juu <strong>Kokotoa khums kwa ufanisi</strong> ili kujua zaidi.",
               "form": {
-                "placeholder": "Mfano, Kodi inayostahili"
+                "placeholder": "Kwa mfano, kodi ya kodi"
               }
             },
             "mqms": {
-              "header": "<strong>Muqammas waliotangulia</strong> — Hiari",
-              "subtext": "Mizani iliyoachwa baada ya kulipa khums katika kipindi kilichopita",
-              "info": "Ikiwa unalipa khums kwa mara ya kwanza, Muqammas itakuwa ZERO. Ikiwa una mahesabu ya awali yaliyohifadhiwa hapa, unaweza kusawazisha kutumia Muqammas kutoka kipindi cha awali."
+              "header": "<strong>Muqammas ya awali</strong> — Hiari",
+              "subtext": "Mizani kushoto baada ya kulipa khums katika kipindi cha awali",
+              "info": "Ikiwa unalipa khums kwa mara ya kwanza, Muqammas itakuwa ZERO. Ikiwa umehifadhi mahesabu ya awali hapa, unaweza kusawazisha kutumia Muqammas kutoka kipindi cha awali."
             },
             "mainCurrencyHeader": "Chagua sarafu kuu",
             "mainCurrencyInfo": "Ni sarafu gani tunapaswa kutumia kuhesabu khums?",
             "customRates": {
               "header": "<strong>Kutumia viwango vya ubadilishaji</strong>",
-              "subtext": "Viwango hivi vya ubadilishaji wa sarafu vitatumika kwa hesabu. Unaweza kuzibadilisha ili kutumia maadili ya desturi.",
+              "subtext": "Viwango hivi vya ubadilishaji wa sarafu vitatumika kwa hesabu. Unaweza kuzibadilisha ili kutumia maadili ya kawaida.",
               "info": "Wakati wa kushughulika na data ya kihistoria, kama vile wakati wa kuongeza hesabu kwa khums kutoka zaidi ya mwaka mmoja uliopita wakati viwango vya ubadilishaji havikuwa sawa na leo, unaweza kuweka maadili ya desturi kwa viwango vya ubadilishaji mwenyewe.",
               "rateValuePH": "Katika {currency}, kwa mfano, 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "Kokotoa",
             "pageError": {
-              "header": "Kosa lilitokea",
+              "header": "Kosa limetokea",
               "desc": "Imeshindwa kupata data inayohitajika kwa ukurasa. Tafadhali pakia tena ukurasa au jaribu tena baadaye."
             },
             "js": {
               "remarks": {
-                "deleteHeader": "Futa matamshi?",
-                "deleteText": "Una uhakika unataka kufuta matamshi ya kipengee hiki?"
+                "deleteHeader": "Futa maoni?",
+                "deleteText": "Una uhakika unataka kufuta maoni kwa kipengee hiki?"
               },
               "choicePrompt": {
                 "addHeader": "Ongeza",
                 "savings": "Ongeza ingizo jipya kwenye Akiba",
-                "liability": "Ongeza ingizo jipya kwa Liabilities"
+                "liability": "Ongeza ingizo jipya kwa Dhima"
               },
               "rowOptions": {
-                "header": "Unataka kufanya nini katika hili?",
-                "duplicate": "Unda kuingia kwa duplicate",
-                "remarks": "Ongeza matamshi kwa hili",
-                "delete": "Futa kiingilio hiki"
+                "header": "Unataka kufanya nini na hii?",
+                "duplicate": "Unda ingizo la nakala",
+                "remarks": "Ongeza maoni kwa hili",
+                "delete": "Futa ingizo hili"
               },
-              "apiError": "Kosa lilitokea. Tafadhali jaribu tena."
+              "apiError": "Kosa limetokea. Tafadhali jaribu tena."
             }
           }
         }
       },
       "user": {
-        "name": "Mtumiaji | Akaunti",
+        "name": "Mtumiaji |Akaunti",
         "editProfile": "Hariri Wasifu",
-        "publishToFeed": "Chapisha mabadiliko yangu ya kulisha",
+        "publishToFeed": "Chapisha mabadiliko yangu kwa kulisha",
         "shareUpdateToFeed": "Pia shiriki sasisho hili kwa malisho yangu",
-        "statusText_ph": "Tumia _italics_ au *bold* formatting ili kupamba hali yako",
-        "statusCharsLeft": "{hesabu} wahusika kushoto",
+        "statusText_ph": "Tumia _italics_ au *bold* uumbizaji kupamba hali yako",
+        "statusCharsLeft": "{count} wahusika kushoto",
         "jsImgUploadSuccess": "Picha zilizopakiwa kwa mafanikio!",
         "unauthAccess": {
-          "heading": "Una uhakika uko sehemu sahihi?",
-          "desc": "<p>Inaonekana kama ulikuwa unajaribu kufikia ukurasa ambao haukuwa na ruhusa. Ikiwa ulikuwa unajaribu kufikia ukurasa ambao umefikia hapo awali, jaribu kuingia; hiyo inapaswa kutatua tatizo.</p> <p>Tafadhali jisikie huru kuwasiliana nasi ikiwa tatizo litaendelea.</p>"
+          "heading": "Una uhakika kuwa uko katika nafasi sahihi?",
+          "desc": "<p>Inaonekana kama ulikuwa unajaribu kufikia ukurasa ambao haukuwa na ruhusa. Ikiwa ulikuwa unajaribu kufikia ukurasa ambao umefikia hapo awali, jaribu kuingia; Hii inapaswa kutatua tatizo.</p><p>Tafadhali jisikie huru kuwasiliana nasi ikiwa tatizo litaendelea.</p>"
         },
         "guest": {
           "welcome": "Karibu, <strong>Mgeni!</strong>",
-          "heading": "Kwa nini Kuingia au Kujiandikisha?",
-          "desc": "Ukiwa na akaunti kwenye programu yetu, unaweza kutumia vipengele kadhaa. Anza kwa kuunda akaunti, ikiwa huna akaunti tayari. Au, ingia tu!",
-          "unlockHeading": "fungua yafuatayo na akaunti:",
+          "heading": "Kwa nini kuingia au kujiandikisha?",
+          "desc": "Ukiwa na akaunti kwenye programu yetu, unaweza kutumia huduma kadhaa. Anza kwa kufungua akaunti, ikiwa huna akaunti tayari. Au, kuingia tu!",
+          "unlockHeading": "Fungua zifuatazo kwa akaunti:",
           "features": {
             "engage": {
               "heading": "Shiriki kwenye programu",
-              "desc": "Shirikiana na watumiaji wengine, jibu kwa machapisho au maombi yao, maoni maoni yako, weka alama vitu vyako, na mengi zaidi!"
+              "desc": "Shiriki na watumiaji wengine, jibu kwa machapisho yao au maombi, maoni maoni yako, weka alama kwenye vitu vyako, na mengi zaidi!"
             },
             "fatiha": {
-              "heading": "Ombi la Post Fatiha",
-              "desc": "Tuma ombi kwa Surat-e-Fatiha kwa roho za wapendwa wako walioondoka na upate roho zao zibarikiwe kwa maombi ya watumiaji wetu wote!"
+              "heading": "Maombi ya Fatiha",
+              "desc": "Tuma ombi kwa Surah-e-Fatiha kwa roho za wapendwa wako walioondoka na kuzibariki roho zao kwa maombi ya watumiaji wetu wote!"
             },
             "askQues": {
               "heading": "Uliza Maswali",
-              "desc": "Uliza maswali kutoka kwa Deen &Duniya juu ya mada mbalimbali zitakazojibiwa na ushahidi wake, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+              "desc": "Uliza maswali kutoka kwa Deen & Duniya juu ya mada mbalimbali ili kujibiwa na eminence yake, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
             },
             "content": {
-              "heading": "Yaliyomo yanayopendekezwa",
-              "desc": "Daima angalia maudhui na mipangilio yako unayopendelea wakati umeingia kwenye akaunti yako. Pia, pata taarifa kwa mambo yote ya kuvutia!"
+              "heading": "Maudhui yanayopendelewa",
+              "desc": "Daima angalia maudhui na mipangilio unayopendelea wakati umeingia kwenye akaunti yako. Pia, kupata taarifa kwa ajili ya mambo yote ya kuvutia!"
             },
             "personalized": {
-              "heading": "Ushiriki wa kibinafsi",
-              "desc": "Weka maudhui ya kushiriki kibinafsi na saini yako ili marafiki zako wajue unaposhiriki ujumbe / chapisho."
+              "heading": "Kushiriki kwa kibinafsi",
+              "desc": "Weka maudhui ya kushiriki yaliyobinafsishwa na saini yako ili marafiki wako wajue unaposhiriki ujumbe/chapisho."
             }
           }
         },
         "about": {
           "title": "Kuhusu",
           "jsStatusUpdateFail": "Imeshindwa kusasisha hali. Tafadhali jaribu tena baadaye.",
-          "statusTextInfo": "Ongeza kitu kifupi kuhusu wewe mwenyewe, kama vile, wewe ni nani au unafanya nini!",
-          "statusCta": "Ongeza Hali | Hali ya Sasisho",
-          "addCity": "Ongeza Jiji",
-          "gender": "Mwanaume | Mwanamke",
+          "statusTextInfo": "Ongeza kitu kifupi juu yako mwenyewe, kama vile, wewe ni nani au unafanya nini!",
+          "statusCta": "Ongeza Hali |Hali ya Sasisha",
+          "addCity": "Ongeza Mji",
+          "gender": "Mwanaume — — Mwanamke",
           "addGender": "Ongeza Jinsia",
           "addBday": "Ongeza Siku ya Kuzaliwa",
           "addRelation": "Ongeza Uhusiano",
-          "joinDate": "Alijiunga: {date}",
           "privateInfoDesc": "Habari hii inaonekana kwako tu na unaona maudhui na vipengele kulingana na hii.",
           "idSetupCta": "Sanidi utambulisho wako",
-          "idVerifyCta": "Thibitisha"
+          "idVerifyCta": "Thibitisha",
+          "joinDate": "Kujiunga na: {date}"
         },
         "posts": {
           "title": "Posts",
-          "userNoPosts": "Unapobadilisha picha yako / picha ya kufunika, au unapoomba surah-fatiha kwa wapendwa wako walioondolewa, machapisho haya yataonekana hapa na kwenye <b>kichupo cha Nyumbani</b> (cha wengine pia). Jaribu kuongeza picha au kufunika picha?",
-          "profileNoPosts": "{jina} bado halijafanya machapisho yoyote."
+          "userNoPosts": "Unapobadilisha picha yako / picha ya kufunika, au unapoomba surah-fatiha kwa wapendwa wako walioharibika, machapisho haya yataonekana hapa na kwenye kichupo cha <b>Nyumbani</b> (ya wengine pia). Jaribu kuongeza picha au picha ya jalada?",
+          "profileNoPosts": "{name} hajatoa machapisho yoyote mpaka sasa."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{jina} halijaongezwa bado | Bado hujaongeza marhumeen",
-            "marhumeenAdded": "{jina} ameongeza kufuatia marhumeen -- Umeongeza kufuatia marhumeen"
+            "marhumeenNotAdded": "{name} hajaongeza marhumeen bado — Hujaongeza marhumeen bado",
+            "marhumeenAdded": "{name} ameongeza kufuatia marhumeen — Umeongeza zifuatazo marhumeen"
           },
           "jsDeleteHeader": "Una uhakika?",
-          "jsDeletePrompt": "Kufuta rekodi za <b>{fullName}</b> pia kutafuta maombi yote ya awali yaliyotolewa kwa {jinsia}! Kuendelea?",
-          "jsDeleted": "Rekodi zilizofutwa za {marhumeen}"
+          "jsDeletePrompt": "Kufuta rekodi za <b>{fullName}</b> pia itafuta maombi yote ya awali yaliyotolewa kwa {gender}! Kuendelea?",
+          "jsDeleted": "Rekodi zilizofutwa kwa {marhumeen}"
         },
         "verifyCard": {
           "title": "Thibitisha utambulisho wako wa Shia -- Thibitisha utambulisho wako wa Sadat",
@@ -471,74 +470,73 @@
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "Eneo halipatikani. Tafadhali iweke kwa kubofya ikoni ili kuona mwonekano wa haraka wa nyakati za Salat.",
-          "unknownError": "Kosa lilitokea. Haikuweza kupakia nyakati kwa wakati huu."
+          "locUnavailable": "Mahali hapapatikani. Tafadhali weka kwa kubofya ikoni ili kuona mwonekano wa haraka wa nyakati za Salat.",
+          "unknownError": "Kosa limetokea. Haikuweza kupakia nyakati kwa wakati huu."
         }
       },
       "langPrompt": {
         "title": "Tumia programu katika {langLabel}?",
         "desc": {
-          "p1": "Inaonekana kama unapata programu kutoka {countryName}. Ungependa kuona maudhui na udhibiti katika mojawapo ya lugha zifuatazo zinazozungumzwa katika eneo hilo? Bonyeza kwenye chaguo lako na kisha bonyeza 'Hifadhi' ili kuendelea.",
-          "p2": "Au, futa popup hii ili kuendelea kutumia programu kwa lugha chaguomsingi."
+          "p1": "Inaonekana kama unapata programu kutoka {countryName}. Je, ungependa kuona maudhui na udhibiti katika mojawapo ya lugha zifuatazo zinazozungumzwa katika eneo hilo? Bonyeza kwenye chaguo lako na kisha bofya 'Hifadhi' kuendelea.",
+          "p2": "Au, ondoa ibukizi hii ili kuendelea kutumia programu kwa lugha chaguo-msingi."
         },
         "choices": {
           "useLang": [
             "Ndiyo, tumia {langName}",
             "Tumia {langName}"
           ],
-          "useEngling": "Endelea kwa Kiingereza",
           "useEnglish": "Endelea kwa Kiingereza",
           "selectFrom": "Au, chagua kutoka kwa mojawapo ya lugha mbadala zifuatazo:"
         },
         "langError": "Kosa lilitokea wakati wa kupakia tafsiri za {langName}. Tafadhali jaribu tena baadaye."
       },
       "createPost": {
-        "heading": "Leo inahusu nini?",
+        "heading": "Ni nini leo kuhusu?",
         "desc": "Bonyeza hapa kushiriki sasisho au kutumia chaguo kutoka chini",
         "request": "Ombi",
-        "askQues": "Uliza swali",
+        "askQues": "Uliza Swali",
         "sheetOptions": {
           "header": "Fanya ombi",
           "subheader": "Fanya ombi kutoka kwa momineen kwa marhumeen yako au wewe mwenyewe.",
           "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat huko Zari-e-Imam Husain (a.s.) kwa niaba yako"
+          "sehatDua": "Mbili-e-Afya *",
+          "requestZiyarat": "Ziyarat katika Zari-e-Imam Husain (a.s.) kwa niaba yako"
         },
         "modal": {
           "titles": {
-            "post": "Unda Chapisho | Chapisho la Sasisha",
-            "livestream": "Livestream",
-            "hadiyah": "Unda Hadiyah | Sasisha Hadiyah"
+            "post": "Unda Chapisho |Sasisha Chapisho",
+            "livestream": "Mto wa moja kwa moja",
+            "hadiyah": "Unda Hadiyah |Sasisha Hadiyah"
           },
-          "postCta": "Chapisha | Sasisha",
+          "postCta": "Chapisho -- — Sasisha",
           "stream": {
-            "scheduleCta": "Hifadhi kwa baadaye | Anza Utiririshaji"
+            "scheduleCta": "Hifadhi kwa baadaye -- Anza Utiririshaji"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Unataka kumzawadia nani huyu?",
-              "addPeopleToggle": "Acha wengine wawe sehemu ya sawab hii pia!",
-              "searchInput": "Mwalika momimeen kutoka Bazm au orodha yako ya Mawasiliano",
+              "placeholder": "Unataka kutoa zawadi hii kwa nani?",
+              "addPeopleToggle": "Wacha wengine wawe sehemu ya hii sawab pia!",
+              "searchInput": "Alika momimeen kutoka Bazm au orodha yako ya Mawasiliano",
               "minUsersHeader": "Unataka kuweka idadi ya chini ambayo washiriki wanahitaji kuchagua?",
               "minUsersInput": "Ingiza namba ya chini"
             }
           },
           "postTime": [
-            "Ni lini?",
-            "Unataka kuanza lini utiririshaji?"
+            "Ni wakati gani?",
+            "Unataka kuanza lini ku-download?"
           ],
           "whereIsIt": "Iko wapi?",
-          "findLocation": "Pata eneo",
-          "locationSubtext": "Ongeza eneo kwenye chapisho lako",
-          "addLocation": "Ongeza eneo",
+          "findLocation": "Tafuta mahali",
+          "locationSubtext": "Ongeza mahali kwenye chapisho lako",
+          "addLocation": "Ongeza mahali",
           "addPics": "Ongeza picha kwenye chapisho lako",
-          "previewDes": "Hivi ndivyo chapisho lako litaonekana katika malisho ya watu wengine. Watu wanaweza kugonga kwenye video ili kuiona kwenye skrini kamili.",
+          "previewDes": "Hivi ndivyo chapisho lako litaonekana katika kulisha watu wengine. Watu wanaweza kugonga kwenye video ili kuiona kwenye skrini kamili.",
           "addToPost": "Ongeza kwa {postType} (hiari)",
           "jsImgUploadFail": "Picha haikupakiwa",
           "jsAddDetailToPost": "Tafadhali ongeza maelezo kwenye chapisho lako",
           "jsValidEndDate": "Tafadhali chagua tarehe halali ya mwisho",
-          "jsSetLocation": "Tafadhali weka eneo kwa chapisho",
-          "jsRemLocation": "Tafadhali weka eneo au ondoa sehemu hiyo",
+          "jsSetLocation": "Tafadhali weka mahali kwa ajili ya chapisho",
+          "jsRemLocation": "Tafadhali weka mahali au ondoa sehemu hiyo",
           "jsAddImg": "Tafadhali ongeza picha au ondoa sehemu hiyo",
           "jsInvalidDate": [
             "Tafadhali weka tarehe halali ya kuanza ",
@@ -548,37 +546,37 @@
       },
       "comments": {
         "name": "Maoni",
-        "loadPrevious": "Pakia maoni ya awali —- Pakia majibu ya awali",
-        "replyingTo": "Kujibu:",
+        "loadPrevious": "Pakia maoni ya awali |Pakia majibu ya awali",
+        "replyingTo": "Kujibu kwa:",
         "noComments": "Hakuna maoni juu ya chapisho hili bado",
         "textboxPlaceholder": "Andika maoni yako hapa",
-        "requestToLogin": "Ingia au Kujisajili kuanza majadiliano"
+        "requestToLogin": "Ingia au Jisajili ili kuanza majadiliano"
       },
       "post": {
         "addressYou": "Wewe",
-        "addressing": "yako |yake | yeye",
+        "addressing": "yako — — yake — yake",
         "itemTypes": {
-          "avatar": "picha ya avatar",
-          "banner": "picha ya bendera",
+          "avatar": "Picha ya Avatar",
+          "banner": "picha ya bango",
           "status": "hali ya wasifu"
         },
         "displayPhrase": {
           "common": "<strong>{username}</strong> updated {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> aliomba surah-fatiha for {addressing} {relation}",
-            "<strong>{username}</strong> aliomba surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+            "<strong>{username}</strong> aliomba Surah-Fatiha kwa {addressing} {relation}",
+            "<strong>{username}</strong> aliomba Surah-Fatiha & Namaz-e-Wahshat kwa {addressing} {relation}"
           ]
         },
-        "dateUntil": "Mpaka: {tarehe} katika {time}",
+        "dateUntil": "Hadi: {date} kwa {time}",
         "privatePost": "Chapisho hili linaonekana kwako tu",
-        "descZiyaratRequest": "Uliomba Ziyarat ifanywe kwa niaba yako katika *haram* ya Imam Husein (a.s.) kwenye *{tarehe}*"
+        "descZiyaratRequest": "Uliomba Ziyarat afanywe kwa niaba yako katika *haram* ya Imam Husein (a.s.) kwenye *{date}*"
       },
       "addEditRel": {
         "title": {
-          "request": "Ombi Surah-al-fatiha",
+          "request": "Omba Surah-al-fatiha",
           "addUpdate": [
-            "Sasisha mpendwa",
-            "Ongeza mpendwa"
+            "Sasisha kupendwa moja",
+            "Ongeza mpendwa mmoja"
           ]
         },
         "heading": [
@@ -588,286 +586,284 @@
         "addNew": "Ongeza Mpya",
         "subheader": [
           "Ongeza maelezo ya mpendwa wako",
-          "Unaweza pia kujumuisha ujumbe katika ombi lako"
+          "Unaweza pia kuingiza ujumbe katika ombi lako"
         ],
         "form": {
           "jsAddImg": "Ongeza picha kwa mpendwa wako",
-          "jsRemoveImg": "Ondoa picha",
-          "fullName": "Jina kamili la marehemu",
-          "name_ph": "K.m., Syed Zeeshan Haider Abidi",
-          "fathersName": "Jina la Baba (Kama linapatikana)",
-          "father_ph": "K.m., Syed Tauqeer Husain",
+          "jsRemoveImg": "Ondoa taswira",
+          "fullName": "Jina Kamili la Marehemu",
+          "name_ph": "Kwa mfano, Syed Zeeshan Haider Abidi",
+          "fathersName": "Jina la Baba (kama linapatikana)",
+          "father_ph": "Kwa mfano, Syed Tauqeer Husain",
           "nameError": "Tafadhali ingiza jina kamili na wahusika wowote maalum",
           "genderLabel": "Jinsia",
           "genderValue": [
-            "Kiume",
-            "Marhooma ni wako"
+            null,
+            "Kiume"
           ],
           "relation": [
-            "Marhoom ni yako",
-            "Chagua Uhusiano"
+            "Marhooma ni wako",
+            "Marhoom ni wako"
           ],
-          "selectRelation": "Kudharauliwa leo? Ombi Namaz-e-Wahshat",
-          "demiseLabel": "Tunasikitika sana kusikia kuhusu hasara yako. Mwenyezi Mungu akupe wewe na familia yako nguvu ya kuibeba hasara hii kwa uvumilivu na Mwenyezi Mungu ailipe roho iliyodhoofika kwa sehemu za juu kabisa katika Jannah. Kuchagua chaguo hili kunakuwezesha kuuliza momineen kwa Namaz-e-Wahshat kwa nafsi iliyodhoofishwa.",
-          "demiseText": "Hiari",
-          "optional": "Kufariki dunia",
-          "dod": "Alizaliwa juu ya",
-          "dob": "Binti wa"
+          "selectRelation": "Chagua Uhusiano",
+          "demiseLabel": "Kukataliwa leo? Omba Namaz-e-Wahshat",
+          "demiseText": "Tunasikitika sana kusikia kuhusu kupoteza kwako. Mwenyezi Mungu akupe wewe na familia yako nguvu ya kuvumilia hasara hii kwa uvumilivu na Mwenyezi Mungu aipe nafsi iliyoharibika kwa nafasi za juu katika Jannah. Kuchagua chaguo hili hukuwezesha kuuliza momineen kwa Namaz-e-Wahshat kwa roho iliyoharibika.",
+          "optional": "Hiari",
+          "dod": "Alifariki kwenye",
+          "dob": "Alizaliwa kwenye"
         },
         "relation": [
-          "Mwana wa",
-          "Kuzaliwa:"
+          "Binti wa",
+          "Mwana wa"
         ],
-        "born": "Alikufa:",
-        "died": "Unataka kuongeza ujumbe?",
-        "addMsg": "Kwa mfano:",
-        "remainingChars": "Unaweza kuhariri maelezo ya {jina} katika <b>Akaunti yako > Marhumeen</b>",
-        "infoEditRelative": "Hifadhi &Ombi",
+        "born": "Kuzaliwa:",
+        "died": "Alikufa:",
+        "addMsg": "Unataka kuongeza ujumbe?",
+        "addMsg_ph": "Kwa mfano:\nInna lillahi wa inna ilaihe raje'un. Tafadhali soma surah-e-fatiha na 2-rak'at namaz-e-wahshat kwa mjomba wangu, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, ambaye alituacha sote tukilia nyuma kukutana na muumbaji wake.",
+        "remainingChars": "Wahusika: {count} — Wahusika: {count} iliyobaki",
+        "infoEditRelative": "Unaweza kuhariri maelezo ya {name} katika <b>akaunti yako > sehemu ya Marhumeen</b>",
         "saveRequestCta": [
-          "Ombi",
+          "Hifadhi na Omba",
           "Ombi"
         ],
-        "addUpdate": "Kuomba..",
+        "addUpdate": "Ongeza |Sasishi",
         "jsRequesting": "Kuomba..",
         "jsAddSuccess": [
-          "Sasisha mpendwa wako kwa mafanikio!",
-          "Imeshindwa kuongeza mpendwa wako. Tafadhali jaribu tena baadaye."
+          "Ongeza mpendwa wako kwa mafanikio!",
+          "Sasisha mpendwa wako kwa mafanikio!"
         ],
-        "jsAddFail": "Ombi lililowasilishwa kwa ufanisi.",
-        "jsReqSuccess": "Kupata marhumeen yako..",
-        "jsGettingMarhumeen": "Uliza swali"
+        "jsAddFail": "Umeshindwa kuongeza mpendwa wako. Tafadhali jaribu tena baadaye.",
+        "jsReqSuccess": "Ombi lililowasilishwa kwa ufanisi.",
+        "jsGettingMarhumeen": "Pata marhumeen yako"
       },
       "askQues": {
-        "title": "Swali lako",
+        "title": "Uliza swali",
         "form": {
-          "quesLabel": "Tafuta swali au uliza yako mwenyewe",
-          "quesLabel_ph": "Maswali haya yanaweza kuwa tayari na jibu unalotafuta.",
-          "similarQues": "Swali lako:",
-          "quesTextHeader": "Weka Jamii ya Maswali:",
-          "selectCat": "Uliza bila kujulikana?",
-          "askAnonLabel": "Jina lako halitatumwa kwa Msomi wakati wa kuomba jibu kwa niaba yako, wala halitaonyeshwa kwenye programu yetu na swali hili. Lakini maswali yasiyojulikana yanaweza yasijibiwe haraka.",
-          "askAnonInfo": "Uliza kupitia",
-          "askViaLabel": "Unaweza kuuliza swali la kujibiwa na ofisi ya ushahidi wake, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Tutapeleka swali kwenye tovuti yao (pamoja na maelezo yako ya wasifu). Hakikisha umesoma <b>Vigezo na Masharti vizuri</b>.",
-          "askSistaniInfo": "Vigezo na Masharti:",
-          "tncLabel": "Onyesha",
-          "showHide": [
-            "Ficha",
-            "Fikiria kufuata pointi kutoka kwa wavuti yao kabla ya kuuliza swali, kwa sababu ikiwa huzingatii pointi zilizo chini, huwezi kusikia kutoka kwao, au huwezi kupokea majibu yoyote."
-          ],
-          "sistaniOrgTncInfo": "Kuhusu wewe",
+          "quesLabel": "Swali lako",
+          "quesLabel_ph": "Tafuta swali au jiulize mwenyewe",
+          "similarQues": "Maswali haya yanaweza kuwa na jibu unalotafuta.",
+          "quesTextHeader": "Swali lako:",
+          "selectCat": "Weka kategoria ya Swali:",
+          "askAnonLabel": "Uliza bila kujulikana?",
+          "askAnonInfo": "Jina lako halitatumwa kwa Msomi wakati wa kuomba jibu kwa niaba yako, wala haitaonyeshwa kwenye programu yetu na swali hili. Lakini maswali yasiyojulikana hayawezi kujibiwa haraka.",
+          "askViaLabel": "Uliza kwa njia",
+          "askSistaniInfo": "Unaweza kuuliza swali la kujibiwa na ofisi ya eminence yake, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Tutawasilisha swali kwenye tovuti yao (pamoja na maelezo yako ya wasifu). Hakikisha umesoma Masharti <b>na Masharti</b> vizuri.",
+          "tncLabel": "Masharti na Masharti:",
+          "sistaniOrgTncInfo": "Fikiria vidokezo vifuatavyo kutoka kwenye wavuti yao kabla ya kuuliza swali, kwa sababu ikiwa hufuati alama zilizo chini, huenda usisikilize kutoka kwao, au hauwezi kupokea majibu yoyote.",
           "userInfo": {
-            "aboutLabel": "Jinsia yako",
-            "genderLabel": "Siku yako ya kuzaliwa",
-            "bdayLabel": "Unaweza kuuliza swali ikiwa una umri wa zaidi ya miaka 09. Ikiwa bado una nia, tafadhali wasiliana nasi.",
-            "bdayDesc": "Swali aliongeza kwa mafanikio."
+            "aboutLabel": "Kuhusu wewe",
+            "genderLabel": "Jinsia yako",
+            "bdayLabel": "Siku yako ya kuzaliwa",
+            "bdayDesc": "Unaweza kuuliza swali tu ikiwa una umri wa miaka 09."
           },
-          "jsQuesAdded": "Uliza swali lako"
+          "jsQuesAdded": "Swali limeongezwa kwa mafanikio."
         },
-        "askQuesCta": "Akaunti inahitajika"
+        "askQuesCta": "Uliza swali lako"
       },
       "authPrompt": {
-        "title": "Ingia au Kujisajili kuendelea",
-        "defLabel": "Kipengele hiki kinahitaji kuingia au kujiandikisha kabla ya kukitumia. <b>Bofya Ingia</b> ikiwa tayari umesajiliwa, au ubofye <b>Jiandikishe</b> ili kuunda akaunti yako.",
-        "infoText": "Badilisha Eneo"
+        "title": "Akaunti inahitajika",
+        "defLabel": "Ingia au Jisajili ili uendelee",
+        "infoText": "Kipengele hiki kinahitaji kuingia au kujiandikisha kabla ya kuitumia. Bofya <b>Ingia</b> ikiwa tayari umesajiliwa, au bofya <b>Jisajili</b> ili kuunda akaunti yako."
       },
       "location": {
-        "title": "Tafuta eneo lako",
-        "search_ph": "Ingiza eneo lako au ubofye ikoni ya kugundua kiotomatiki ili kupata eneo lako.",
-        "autoDetectInfo": "Weka eneo",
-        "setLocation": "Anwani ya IP",
-        "ipAddress": "Eneo la kengele",
-        "alarmLocation": "Eneo kulingana na {selector} yako",
-        "basedOn": "Kugundua, tafadhali subiri..",
-        "jsDetecting": "Ruhusa ya eneo iliyokataliwa kwa programu. Tafadhali weka upya upendeleo wa eneo kwa programu hii kwa kutembelea sehemu ya Mipangilio kwenye simu yako.",
-        "jsPermDenied": "Tunasikitika, lakini nafasi haipatikani kwa simu hii kwa sasa. Tafadhali jaribu tena baadaye.",
-        "jsPosUnavailable": "Haikuweza kupata maeneo yoyote yanayofanana..",
-        "jsMatchNotFound": "Tafadhali ingiza eneo halali",
-        "jsEnterValidLoc": "Tunasikitika, lakini nafasi haipatikani kwa simu hii kwa sasa. Tafadhali jaribu tena baadaye.",
-        "jsGeoUnavailable": "Haikuweza kupata maeneo yoyote yanayofanana..",
-        "jsLocMissing": "Kuna kosa katika eneo hili. Tafadhali jaribu tena",
-        "jsSelectedLoc": "Soma"
+        "title": "Badilisha Mahali",
+        "search_ph": "Tafuta mahali pako",
+        "autoDetectInfo": "Ingiza eneo lako au bofya ikoni ya kitambulishi kiotomatiki ili kupata eneo lako.",
+        "setLocation": "Weka mahali",
+        "ipAddress": "Anwani ya IP",
+        "alarmLocation": "Mahali pa kengele",
+        "basedOn": "Mahali kulingana na {selector} yako",
+        "jsDetecting": "Kuchunguza, tafadhali kusubiri.",
+        "jsPermDenied": "Ruhusa ya mahali imekataliwa kwa programu. Tafadhali weka upya upendeleo wa eneo la programu hii kwa kutembelea sehemu ya Mipangilio kwenye simu yako.",
+        "jsPosUnavailable": "Tunasikitika, lakini nafasi haipatikani kwa simu hii sasa hivi. Tafadhali jaribu tena baadaye.",
+        "jsMatchNotFound": "Sikuweza kupata maeneo yoyote yanayolingana.",
+        "jsEnterValidLoc": "Tafadhali ingiza mahali halali",
+        "jsGeoUnavailable": "Tunasikitika, lakini nafasi haipatikani kwa simu hii sasa hivi. Tafadhali jaribu tena baadaye.",
+        "jsLocMissing": "Sikuweza kupata mahali pako. Tafadhali ingiza mahali kwa manually.",
+        "jsSelectedLoc": "Kuna kosa katika eneo hili. Tafadhali jaribu tena"
       },
       "readText": {
         "ctaLabel": "Soma",
-        "title": "Kiarabu",
-        "arabicCta": "Kiingereza",
-        "englishCta": "Kutafsiriwa",
-        "translatedCta": "upatikanaji unahitajika"
+        "title": "Pili: {title}",
+        "arabicCta": "Kiarabu",
+        "englishCta": "Kiingereza",
+        "translatedCta": "Kutafsiriwa"
       },
       "reqAccess": {
-        "heading": "Tunahitaji ruhusa ya kufikia kamera yako",
-        "subheading": "Tafadhali ruhusu ufikiaji kwa kubofya kitufe hapa chini:",
-        "subtext": "kuruhusu upatikanaji",
-        "ctaLabel": "Bofya moja ya chaguo hapa chini ili kushiriki hii kwenye programu husika:"
+        "heading": "upatikanaji unahitajika",
+        "subheading": "Tunahitaji ruhusa ya kufikia kamera yako",
+        "subtext": "Tafadhali ruhusu ufikiaji kwa kubofya kitufe hapa chini:",
+        "ctaLabel": "ruhusu ufikiaji"
       },
       "shareBtn": {
-        "subtext": "Kunakiliwa kwenye clipboard yako",
-        "jsCopyToCB": "<b>Bofya Nakili</b> ikoni hapo juu ili kunakili maudhui yaliyo hapa chini:",
-        "copyText": "Thibitisha Simu ya Mkononi"
+        "subtext": "Bofya moja ya chaguo hapa chini ili kushiriki hii kwenye programu husika:",
+        "jsCopyToCB": "Imenakiliwa kwenye ubao wako wa kunakili",
+        "copyText": "Bofya <b>ikoni ya Nakili</b> hapo juu ili kunakili yaliyomo hapa chini:"
       },
       "verifyMob": {
         "title": [
-          "Ingiza msimbo",
-          "Tunahitaji nambari yako ya simu ili kuthibitisha utambulisho wako. Unaweza pia kupata masasisho ya mara kwa mara."
+          "Thibitisha Simu ya Mkononi",
+          "Ingiza msimbo"
         ],
         "page1": {
-          "infoText1": "Ingiza nambari yako na bofya kitufe ili kupata msimbo wako wa uthibitisho:",
+          "infoText1": "Tunahitaji nambari yako ya simu ili kuthibitisha utambulisho wako. Unaweza pia kupata sasisho za mara kwa mara.",
           "infoText2": [
             "Ingiza nambari yako na ubofye kitufe ili kupata msimbo wako wa uthibitisho:",
-            "Nambari ya Simu"
+            "Ingiza nambari yako na ubofye kitufe ili kupata msimbo wako wa uthibitisho:"
           ]
         },
         "form": {
-          "mobileLabel": "Ingiza namba yako ya simu",
-          "mobileLabel_ph": "Pata kupitia SMS",
-          "otpViaSMS": "Pata kupitia WhatsApp",
-          "viaWhatsApp": "Pata kupitia Telegram",
-          "viaTelegram": "Pata kupitia Signal",
-          "viaSignal": "Tumetuma msimbo wa uthibitisho wa tarakimu 6 kwa namba yako ({namba})"
+          "mobileLabel": "Nambari ya Simu ya Mkononi",
+          "mobileLabel_ph": "Ingiza nambari yako ya simu",
+          "otpViaSMS": "Pata kupitia SMS",
+          "viaWhatsApp": "Pata kupitia WhatsApp",
+          "viaTelegram": "Pata kupitia Telegram",
+          "viaSignal": "Pata kupitia Ishara"
         },
         "page2": {
-          "header": "Ingiza Code",
-          "enterCodeLabel": "Ingiza msimbo wa tarakimu 6",
-          "enterCode_ph": "Resend Code",
-          "resendCode": "Si kutumia <strong>{namba}?</strong>",
-          "notUsingMobile": "Badilisha namba",
-          "changeNumber": "Simu ya mkononi imethibitishwa kwa mafanikio"
+          "header": "Tumetuma nambari ya uthibitisho wa tarakimu 6 kwa nambari yako ({number})",
+          "enterCodeLabel": "Ingiza Msimbo",
+          "enterCode_ph": "Ingiza msimbo wa tarakimu 6",
+          "resendCode": "Msimbo wa kutuma tena",
+          "notUsingMobile": "Je, si kutumia <strong>{number}</strong>?",
+          "changeNumber": "Badilisha Namba"
         },
-        "jsVerifySuccess": "Kosa lilitokea. Tafadhali jaribu tena baadaye.",
-        "jsVerifyError": "Imeshindwa kutuma OTP. Tafadhali jaribu tena baadaye.",
-        "jsSendOtpFailed": "OTP imetumwa kwa {mobile}",
-        "jsSendOtpSuccess": "Inaonekana kama umejaribu mara nyingi sana tayari. Tafadhali subiri dakika moja au mbili na ujaribu tena.",
-        "jsTooManyRequests": "Kubinafsisha Ujumbe wa Kushiriki"
+        "jsVerifySuccess": "Simu ya mkononi imethibitishwa kwa mafanikio",
+        "jsVerifyError": "Kosa limetokea. Tafadhali jaribu tena baadaye.",
+        "jsSendOtpFailed": "Imeshindwa kutuma OTP. Tafadhali jaribu tena baadaye.",
+        "jsSendOtpSuccess": "OTP imetumwa kwa {mobile}",
+        "jsTooManyRequests": "Inaonekana kama umejaribu mara nyingi sana. Tafadhali subiri kwa dakika moja au mbili na jaribu tena."
       },
       "userSettings": {
-        "personalSharingMsg": "Badilisha Nenosiri | Weka Nenosiri",
-        "changePwd": "Badilisha lugha",
-        "changeLang": "Chapisha mabadiliko yangu ili kulisha pia.",
-        "publishToFeed": "Ubinafsishaji"
+        "personalSharingMsg": "Binafsisha ujumbe wa Kushiriki",
+        "changePwd": "Badilisha nywila |Weka Nywila",
+        "changeLang": "Badilisha Lugha",
+        "publishToFeed": "Chapisha mabadiliko yangu kwa kulisha pia."
       },
       "userSettingsModal": {
         "title": {
-          "personalize": "@:comps.userSettings.changePwd",
-          "changePwd": "@:comps.userSettings.changeLang",
-          "setLang": "Ongeza jina langu kwenye ujumbe"
+          "personalize": "Ubinafsishaji",
+          "changePwd": "@:comps.userSettings.changePwd",
+          "setLang": "@:comps.userSettings.changeLang"
         },
         "sign": {
-          "addNameToMsgs": "Wakati wa kushiriki nje, ujumbe wako unaweza kuonekana kama hapa chini:",
-          "sharingDesc": "Sikiliza Nauha hii kwenye Bazm App",
+          "addNameToMsgs": "Ongeza jina langu kwenye ujumbe",
+          "sharingDesc": "Wakati wa kushiriki nje, ujumbe wako unaweza kuonekana kama hapa chini:",
           "sharingTextDemo": [
-            "{jina} inapendekeza kusikiliza Nauha hii kwenye Bazm App",
-            "Unataka kuongeza saini yako pia?"
+            "Sikiliza hii Nauha kwenye App ya Bazm",
+            "{name} inapendekeza kusikiliza hii Nauha kwenye Programu ya Bazm"
           ],
-          "addSignDesc": "Kwa mfano,",
-          "signDesc": "Ingiza nenosiri lako lililopo:"
+          "addSignDesc": "Unataka kuongeza saini yako pia?",
+          "addSignPlaceholder": "Kwa mfano,\nKwa matakwa bora,\n{name}",
+          "signDesc": "Unaposhiriki matakwa yako na marafiki kwenye programu hii, saini yako itaongezwa kwenye ujumbe. Kwa mfano, inaweza kuonekana kama hapa chini:"
         },
         "changePwd": {
-          "currentPwdLabel": "Ingiza Nenosiri la Sasa",
-          "currentPwdPH": "Ingiza nenosiri jipya:",
-          "newPwdLabel": "Ingiza Nenosiri Jipya",
-          "newPwdPH": "Tafuta lugha yako"
+          "currentPwdLabel": "Ingiza nywila yako iliyopo:",
+          "currentPwdPH": "Ingiza Nywila ya Sasa",
+          "newPwdLabel": "Ingiza nywila mpya:",
+          "newPwdPH": "Ingiza Nywila Mpya"
         },
         "changeLang": {
-          "searchYourLang": "Chagua lugha ambayo ungependa kuona maudhui ya programu. Bonyeza lugha na kusubiri (inachukua wakati mwingine kupakia tafsiri) ili kuona jinsi maneno haya yanavyoonekana katika lugha iliyochaguliwa.",
-          "desc": "Nenosiri lina herufi batili."
+          "searchYourLang": "Tafuta lugha yako",
+          "desc": "Chagua lugha ambayo ungependa kuona maudhui ya programu. Bofya kwenye lugha na subiri (inachukua wakati mwingine kupakia tafsiri) ili kuona jinsi maneno haya yanavyoonekana katika lugha iliyochaguliwa."
         },
-        "jsPwdInvalid": "Nenosiri haliwezi kuwa chini ya herufi 8.",
-        "jsPwdCharCount": "Tafadhali chagua lugha kwanza.",
-        "jsSelectLang": "Lugha imewekwa kwa {lang}",
-        "jsLangSet": "Mipangilio ya ubinafsishaji imehifadhiwa.",
-        "jsPrefSaved": "Nywila iliyosahaulika?"
+        "jsPwdInvalid": "Nywila ina vibambo batili.",
+        "jsPwdCharCount": "Nenosiri haliwezi kuwa chini ya herufi 8.",
+        "jsSelectLang": "Tafadhali chagua lugha kwanza.",
+        "jsLangSet": "Lugha imetayarishwa kwa {lang}",
+        "jsPrefSaved": "Mipangilio ya ubinafsishaji imehifadhiwa."
       },
       "forgotPwd": {
-        "title": "Kuweka upya nywila yako ni rahisi. Chagua njia ya kuendelea:",
-        "introText": "Tumia Simu",
-        "usePhoneCta": "Tumia barua pepe",
-        "useEmailCta": "Ingiza anwani ya barua pepe ambayo umeunda akaunti yako na, na tutatuma barua pepe na kiungo ili kusanidi nenosiri jipya la akaunti yako.",
-        "sendEmailIntro": "Barua pepe yako iliyosajiliwa",
-        "emailInputLabel": "Tuma upya barua pepe",
-        "sendEmailCta": "Ikiwa una akaunti nasi, utapata barua pepe ya kuweka upya nenosiri muda mfupi kwenye <strong>{barua pepe}</strong>. Kindly angalia barua pepe yako kwa kiungo.",
-        "sentEmailText": "Si kutumia <strong>{email}?</strong>",
-        "notUsingEmailText": "Badilisha barua pepe",
-        "changeEmailCta": "Ingiza nambari ya simu iliyoongezwa kwenye akaunti yako. Tutatuma OTP kuthibitisha umiliki wako, na katika hatua inayofuata, utaweza kuunda nenosiri jipya.",
-        "phoneIntroText": "Namba yako ya simu",
-        "phoneInputLabel": "Tuma OTP",
-        "sendOtpCta": "Rudi kwenye Ingia",
-        "backToLoginCta": "Tafadhali kumbuka kuwa utapata {item} tu ikiwa una {item} iliyosajiliwa na sisi",
-        "disclaimerText": "Barua iliyotumwa",
-        "jsMailSent": "Weka upya nywila",
+        "title": "Umesahau nywila?",
+        "introText": "Kuweka upya nywila yako ni rahisi. Chagua njia ya kuendelea:",
+        "usePhoneCta": "Tumia Simu",
+        "useEmailCta": "Tumia Barua pepe",
+        "sendEmailIntro": "Ingiza anwani ya barua pepe ambayo uliunda akaunti yako, na tutatuma barua pepe iliyo na kiungo ili kusanidi nenosiri jipya la akaunti yako.",
+        "emailInputLabel": "Barua pepe yako iliyosajiliwa",
+        "sendEmailCta": "Tuma Weka upya Barua pepe",
+        "sentEmailText": "Ikiwa una akaunti na sisi, utapata barua pepe ya kuweka nenosiri muda mfupi kwenye <strong>{email}</strong>. Tafadhali angalia barua pepe yako kwa kiungo.",
+        "notUsingEmailText": "Je, si kutumia <strong>{email}</strong>?",
+        "changeEmailCta": "Badilisha Barua pepe",
+        "phoneIntroText": "Ingiza nambari ya simu iliyoongezwa kwenye akaunti yako. Tutatuma OTP ili kuthibitisha umiliki wako, na katika hatua inayofuata, utaweza kuunda nenosiri jipya.",
+        "phoneInputLabel": "Nambari yako ya rununu",
+        "sendOtpCta": "Tuma OTP",
+        "backToLoginCta": "Rudi kwenye Ingia",
+        "disclaimerText": "Tafadhali kumbuka kuwa utapata {item} tu ikiwa una {item} iliyosajiliwa na sisi",
+        "jsMailSent": "Barua iliyotumwa",
         "title2": "Madai ya akaunti yako",
         "claimIntroHeading": "Kudai akaunti yako kwa haraka!",
         "claimIntroText": "Shukrani kwa ajili ya kujiunga nasi. Tumekuwekea akaunti kwa ajili yako sasa. Pata ufikiaji wa akaunti yako kwa kuweka upya nywila yake kwa kutumia mojawapo ya njia zifuatazo:"
       },
       "resetPwd": {
-        "title": "Weka nenosiri salama kwa akaunti yako hapa. Bofya {icon} ili kuhakikisha kuwa unaingiza nenosiri sahihi.",
-        "introText": "Weka nenosiri jipya",
-        "pwdInputLabel": "Ingiza nenosiri jipya",
-        "pwdInputPH": "Wahusika batili katika nywila",
-        "invalidPwdChars": "Uwekaji upya wa nenosiri kwa mafanikio!",
-        "jsResetSuccess": "Imeshindwa kupakia wimbo. Tafadhali jaribu tena baadaye."
+        "title": "Weka upya Nywila",
+        "introText": "Weka nenosiri salama kwa akaunti yako hapa. Bonyeza {icon} ili kuhakikisha kuwa unaingiza nenosiri sahihi.",
+        "pwdInputLabel": "Weka nywila mpya",
+        "pwdInputPH": "Ingiza nywila mpya",
+        "invalidPwdChars": "Vibambo batili katika nywila",
+        "jsResetSuccess": "Kuweka upya nenosiri kwa mafanikio!"
       },
       "mediaPlayer": {
-        "jsTrackLoadFailed": "{item} ilifutwa kwa mafanikio."
+        "jsTrackLoadFailed": "Imeshindwa kupakia wimbo. Tafadhali jaribu tena baadaye."
       },
       "moreBtn": {
-        "jsItemDeleted": "Haiwezi kutoa taarifa hii kwa sasa. Tafadhali jaribu tena baadaye.",
-        "jsErrReporting": "Tayari umeripoti hii {item}. Huwezi kutoa taarifa zaidi ya mara moja.",
-        "jsAlreadyReported": "Kuripoti kipengee husababisha ni uwezekano mdogo wa kuonekana katika malisho / kurasa zako au za wengine. Bado unataka kutoa taarifa hii?",
-        "jsPromptHeading": "Kuripoti {itemType}..",
-        "jsReporting": "Haikuweza kuwasilisha ombi lako kwa wakati huu. Tafadhali jaribu tena baadaye.",
-        "jsReportingErr": "{item} iliripoti. Asante kwa mchango wako.",
-        "jsReported": "Hakuna cha kusasisha!"
+        "jsItemDeleted": "{item} kufutwa kwa mafanikio.",
+        "jsErrReporting": "Haiwezi kutoa taarifa hii kwa sasa. Tafadhali jaribu tena baadaye.",
+        "jsAlreadyReported": "Tayari umeripoti {item}hii. Huwezi kutoa taarifa zaidi ya mara moja.",
+        "jsPromptHeading": "Kuripoti matokeo ya bidhaa katika nafasi ya chini ya kuonekana katika malisho/kurasa zako au nyingine. Je, bado unataka kutoa taarifa hii?",
+        "jsReporting": "Kuripoti {itemType}..",
+        "jsReportingErr": "Haikuweza kuwasilisha ombi lako kwa wakati huu. Tafadhali jaribu tena baadaye.",
+        "jsReported": "{item} taarifa. Shukrani kwa ajili ya mchango wako."
       },
       "editProfileModal": {
-        "jsEmptyData": "Wasifu umesasishwa!",
-        "jsProfileUpdated": "Ombi Ziyarat"
+        "jsEmptyData": "Hakuna kitu cha kusasisha!",
+        "jsProfileUpdated": "Profaili imesasishwa!"
       },
       "reqZiyarat": {
-        "title": "Ombi",
+        "title": "Omba Ziyarat",
         "cta": "Ombi",
-        "header": "Kila Ijumaa, <strong>Ziyarat akariri kwa niaba yako kwenye Kaburi</strong> la Imam Hussain (a.s.) huko Karbala, Iraq! Unachohitaji kufanya ni kufanya ombi <strong>kabla ya mwisho wa Alhamisi jioni</strong>. Hujawahi kuchelewa ingawa; ikiwa ombi lako litakuja kwa kuchelewa sana, litaandikishwa kwa wiki inayofuata.",
+        "header": "Omba Ziyarat katika Imam Hussain (a.s.) Shrine huko Karbala kwa niaba yako.",
         "desc": {
-          "p1": "Tutakujulisha wakati ziyarat imekaririwa kwa niaba yako.",
-          "p2": "Kumbuka: Unapoomba kwa mara ya kwanza, maelezo yako yatashirikiwa na mtoa huduma wetu. Tafadhali soma Vigezo na Masharti yetu ili kujua zaidi.",
-          "p3": "Asante! Ombi lako limesajiliwa kwa mafanikio. Utapata barua ya uthibitisho hivi karibuni."
+          "p1": "Kila Ijumaa, <strong>Ziyarat amekariri kwa niaba yako</strong> katika Kaburi la Imam Hussain (a.s.) huko Karbala, Iraq! Wote unahitaji kufanya ni kufanya maombi <strong>kabla ya mwisho wa Alhamisi jioni</strong>. Wewe kamwe ni kuchelewa sana ingawa; Ikiwa ombi lako litakuja kuchelewa sana, itaandikishwa kwa wiki inayofuata.",
+          "p2": "Tutakujulisha wakati ziyarat imesomwa kwa niaba yako.",
+          "p3": "Kumbuka: Unapoomba kwa mara ya kwanza, maelezo yako yatashirikiwa na mtoa huduma wetu. Tafadhali soma Masharti na Masharti yetu ili kujua zaidi."
         },
-        "jsRegistered": "Tayari umejiandikisha kwa Ziyarat Alhamisi hii. Jisajili wiki ijayo kwa ziyarat ya wiki ijayo.",
-        "jsAlreadyRegistered": "Kujiandikisha kwa ombi hili, tunahitaji kushiriki maelezo yako (kwa mfano, jina kamili, jinsia, nk) na mtoa huduma wetu. Hii inahitajika kwa mara ya kwanza tu. Tafadhali thibitisha kuendelea.",
-        "jsConfirm": "Sawa! Pengine baadaye.",
-        "jsDeclined": "Jina lako"
+        "jsRegistered": "Asante! Ombi lako limesajiliwa kwa mafanikio. Utapata barua ya uthibitisho hivi karibuni.",
+        "jsAlreadyRegistered": "Tayari umejiandikisha kwa Ziyarat Alhamisi hii. Jisajili wiki ijayo kwa ziyarat ya wiki ijayo.",
+        "jsConfirm": "Ili kujiandikisha kwa ombi hili, tunahitaji kushiriki maelezo yako (kwa mfano, jina kamili, jinsia, nk) na mtoa huduma wetu. Hii inahitajika kwa mara ya kwanza tu. Kwa upole thibitisha kuendelea.",
+        "jsDeclined": "Sawa! Pengine baadaye."
       },
       "currencySelector": {
         "title": "Chagua sarafu",
-        "baseCurrency": "Sarafu ya msingi",
-        "compHasOwnRates": "Ukurasa unaotumia mteuzi huyu una viwango vya ubadilishaji ambavyo vinaweza kuwa na maadili ya kihistoria. Kwa hiyo, viwango vinavyoonyeshwa hapa havitatumika kwenye uteuzi.",
+        "baseCurrency": "Fedha ya Msingi",
+        "compHasOwnRates": "Ukurasa unaotumia kiteuzi hiki una viwango vya ubadilishaji ambavyo vinaweza kuwa na maadili ya kihistoria. Kwa hivyo, viwango vilivyoonyeshwa hapa havitatumika kwenye uteuzi.",
         "cancelCta": "Katisha",
         "doneCta": "Kufanyika"
       },
       "mqmsSelector": {
         "title": "Chagua kiasi cha Muqammas",
-        "dateAdded": "Aliongeza kwenye: {date}",
+        "dateAdded": "Imeongezwa kwenye: {date}",
         "cancelCta": "Katisha",
         "doneCta": "Teua"
       },
       "khumsPaymentRecord": {
-        "title": "Ongeza rekodi ya malipo",
+        "title": "Ongeza Rekodi ya Malipo",
         "paymentFor": "Malipo kwa {khumsType}",
-        "totalAmount": "Jumla ya kiasi: {amount}",
+        "totalAmount": "Jumla ya Kiasi: {amount}",
         "form": {
           "amountLabel": "Kiasi",
           "amountPlaceholder": "Ingiza Kiasi",
           "amountErr": "Kiasi hakiwezi kuwa zaidi ya Khums",
           "dateLabel": "Tarehe ya uhamisho — Hiari",
-          "dateInfo": "Tarehe ulipotuma pesa",
-          "remarks": "Matamshi, kama yapo?",
-          "remarksInfo": "Mfano, 'Kulipwa kwa pesa taslimu'",
+          "dateInfo": "Ulipo tuma pesa",
+          "remarks": "Maoni, ikiwa ni yoyote?",
+          "remarksInfo": "Kwa mfano, 'Kulipwa kwa pesa taslimu'",
           "attach": "Ongeza viambatisho",
           "attachInfo": "Unaweza kuongeza risiti za malipo (picha tu) kwa kumbukumbu ya baadaye"
         }
       },
       "dialCodeSelector": {
         "title": "Chagua Nchi",
-        "searchPH": "Tafuta nchi kwa jina au msimbo wa kupiga"
+        "searchPH": "Tafuta nchi kwa jina au msimbo wa kupiga simu"
       },
       "cards": {
         "completeProfile": {
@@ -1115,158 +1111,152 @@
     "authPage": {
       "form": {
         "name": {
-          "label": "Ingiza jina lako kamili",
-          "placeholder": "Barua pepe"
+          "label": "Jina lako",
+          "placeholder": "Ingiza jina lako kamili"
         },
         "email": {
-          "label": "Barua pepe yako iliyosajiliwa",
+          "label": "Barua pepe",
           "placeholder": [
-            "Tuma upya barua pepe",
-            "Nywila"
+            "Barua pepe yako iliyosajiliwa",
+            "Ingiza barua pepe yako"
           ]
         },
         "password": {
-          "label": "Nywila yako",
+          "label": "Nywila",
           "placeholder": [
-            "Ingiza nenosiri",
-            "Kumbuka kuingia"
+            "Nywila yako",
+            "Ingiza nywila"
           ]
         },
-        "rememberLogin": "Nywila iliyosahaulika?",
-        "forgotPwd": "Au, unganisha kwa kutumia",
-        "connectUsing": "Tumia akaunti zilizohifadhiwa",
-        "useSavedAccount": "Kuingia mwisho",
-        "lastLogin": "Unahitaji akaunti?",
-        "needAccount": "Unaweza kutumia nenosiri lako jipya kuingia sasa",
-        "resetPwdSuccess": "Tafadhali ingiza jina lako kamili.",
-        "jsEnterFullName": "Tafadhali ingiza jina halali.",
-        "jsEnterValidName": "Tafadhali ingiza barua pepe halali.",
+        "rememberLogin": "Kumbuka kuingia",
+        "forgotPwd": "Umesahau nywila?",
+        "connectUsing": "Au, unganisha kwa kutumia",
+        "useSavedAccount": "Tumia akaunti zilizohifadhiwa",
+        "lastLogin": "Kuingia kwa mwisho",
+        "needAccount": "Unahitaji akaunti?",
+        "resetPwdSuccess": "Unaweza kutumia nenosiri lako jipya kuingia sasa",
+        "jsEnterFullName": "Tafadhali ingiza jina lako kamili.",
+        "jsEnterValidName": "Tafadhali ingiza jina la halali.",
         "jsEnterValidEmail": [
-          "Barua pepe ina wahusika batili. Tafadhali ingiza barua pepe halali.",
-          "Tafadhali chagua msimbo wako wa nchi kutoka kwenye orodha"
+          "Tafadhali ingiza barua pepe halali.",
+          "Barua pepe ina vibambo batili. Tafadhali ingiza barua pepe halali."
         ],
-        "jsSelectCountryCode": "Tafadhali ingiza namba yako ya simu.",
-        "jsEnterMobile": "Tafadhali ingiza namba halali ya simu",
-        "jsEnterValidMobile": "Tafadhali ingiza nenosiri lako!",
-        "jsEnterPwd": "Nenosiri lina herufi batili. Tafadhali ingiza nenosiri halali.",
+        "jsSelectCountryCode": "Tafadhali chagua msimbo wa nchi yako kutoka kwenye orodha",
+        "jsEnterMobile": "Tafadhali ingiza nambari yako ya simu.",
+        "jsEnterValidMobile": "Tafadhali ingiza nambari halali ya simu",
+        "jsEnterPwd": "Tafadhali ingiza nenosiri lako!",
         "jsEnterValidPwd": [
-          "Nenosiri linapaswa kuwa angalau herufi {num}.",
-          "Akaunti iliyoundwa kwa mafanikio"
+          "Nywila ina vibambo batili. Tafadhali ingiza nenosiri halali.",
+          "Password inapaswa kuwa angalau wahusika {num} ."
         ],
-        "jsAccountSuccess": "Haikuweza kupata maelezo ya akaunti yako ya Facebook. Tafadhali jaribu tena.",
-        "jsFbError": "Haraka ya kuingia ilifungwa kabla ya kumaliza. Tafadhali jaribu tena.",
-        "jsPromptClosedErr": "Goto Jisajili"
+        "jsAccountSuccess": "Akaunti iliyoundwa kwa mafanikio",
+        "jsFbError": "Haikuweza kupata maelezo ya akaunti yako ya Facebook. Tafadhali jaribu tena.",
+        "jsPromptClosedErr": "Haraka ya kuingia ilifungwa kabla ya kumaliza. Tafadhali jaribu tena."
       },
-      "gotoSignup": "Tayari una akaunti?",
-      "alreadyHasAccount": "Kuingia kwa Goto",
-      "gotoLogin": "Wasifu wa Goto",
-      "gotoProfile": "<p>Tunadhani umetua hapa kwa makosa, kwani tayari umeingia.</p> <p>Unaweza kuangalia wasifu wako ili kuona jinsi inavyoonekana, au kutumia moja ya viungo hapa chini kuvinjari sehemu zingine:</p>",
-      "msgForAuthUser": "Umeingia.",
-      "jsLoggedOut": "Ingia kutoka kwa akaunti?",
-      "jsLogoutHeading": "Hii itafuta taarifa zilizohifadhiwa ndani ya nchi ambazo zinawezesha ukataji <b>miti kwa haraka</b>. Kuendelea?",
-      "jsLogoutText": "Sakinisha Bazm { jukwaa }"
+      "gotoSignup": "Ishara ya Goto",
+      "alreadyHasAccount": "Tayari una akaunti?",
+      "gotoLogin": "Kuingia kwa Goto",
+      "gotoProfile": "Profaili ya Goto",
+      "msgForAuthUser": "<p>Tunadhani umetua hapa kwa makosa, kwani tayari umeingia.</p><p>Unaweza kuangalia profile yako kuona jinsi inaonekana, au kutumia moja ya viungo hapa chini kuvinjari sehemu nyingine:</p>",
+      "jsLoggedOut": "Umeondolewa.",
+      "jsLogoutHeading": "Ingia kutoka kwa akaunti?",
+      "jsLogoutText": "Hii itafuta habari iliyohifadhiwa ndani ya nchi ambayo inawezesha kuingia <b>haraka</b>. Kuendelea?"
     },
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Pakua programu ya Android kwa uzoefu bora, maudhui yaliyobinafsishwa, arifa na kila kitu cha maslahi yako kutoka kwako! —- Sakinisha njia ya mkato ya programu (alama) ili kuifikia moja kwa moja kutoka kwenye skrini yako ya nyumbani wakati ujao kwa uzoefu bora! Haichukui nafasi yoyote kwenye kifaa chako lakini hukusaidia kurudi kwenye programu haraka.",
-          "desc": "Kusakinisha",
+          "heading": "Sakinisha Bazm { platform }",
+          "desc": "Pakua programu yetu ya Android kwa uzoefu bora, maudhui ya kibinafsi, arifa na kila kitu cha maslahi yako kutoka karibu nawe! |Sakinisha njia ya mkato ya programu (bookmark) ili kuifikia moja kwa moja kutoka kwenye skrini yako ya nyumbani wakati ujao kwa uzoefu bora! Haichukui nafasi yoyote kwenye kifaa chako lakini inakusaidia kurudi kwenye programu haraka.",
           "cta": {
-            "action": "Pengine baadaye",
-            "skip": "Sakinisha njia ya mkato ya Bazm?"
+            "action": "Kusakinisha",
+            "skip": "Pengine baadaye"
           }
         },
         "prompt": {
-          "heading": "Bofya kwenye ikoni ya Shiriki (inaonekana kama moja upande wa kulia) <strong>HAPA CHINI</strong> na kisha ubofye <strong>Ongeza kwenye Skrini ya Nyumbani</strong>. Bofya \"Hifadhi\" ili kumaliza, na kisha unaweza kufikia programu kutoka kwa njia ya mkato kwenye skrini yako ya nyumbani!"
+          "heading": "Sakinisha njia ya mkato ya Bazm?"
         },
         "popover": {
-          "text": "Uzoefu wako ukoje hadi sasa?"
+          "text": "Bofya kwenye ikoni ya Shiriki (inaonekana kama moja iliyo upande wa kulia) <strong>CHINI</strong> na kisha ubofye <strong>Ongeza kwenye Skrini ya Kwanza</strong>. Bofya \"Hifadhi\" ili kumaliza, na kisha unaweza kufikia programu kutoka kwa njia ya mkato kwenye skrini yako ya nyumbani!"
         },
         "nonSafari": {
           "heading": "Bazm inafanya kazi vizuri kwenye Apple Safari",
-          "desc": "Kivinjari hiki kina vipengele vichache, wakati kivinjari cha Safari kinawezesha programu yetu kufanya vizuri zaidi, ikiwa ni pamoja na arifa za Push na App-shortcut.",
-          "subtext": "<strong>Fungua programu ya Safari</strong> kwenye simu yako na goto <strong>{url}</strong> kwa uzoefu bora.",
-          "skipCta": "Endelea hapa badala yake"
+          "desc": "Kivinjari hiki kina vipengele vichache, wakati kivinjari cha Safari kinawezesha programu yetu kufanya vizuri zaidi, pamoja na maelezo ya Push na Programu-fupi.",
+          "subtext": "<strong>Fungua programu ya Safari</strong> kwenye simu yako na uende <strong>{url}</strong> kwa uzoefu bora.",
+          "skipCta": "Endelea hapa badala ya"
         }
       },
       "webFeedback": {
-        "heading": "<p>Je, unapenda programu mpya? Kuna kitu tunaweza kuboresha? Tafadhali tusaidie maoni yako ili kuboresha uzoefu kwako!</p> <p>Hii itachukua dakika chache tu, na tunathamini sana wakati wako!</p>",
-        "text": "Toa maoni",
-        "cta": "Pengine baadaye",
-        "dismiss": "Sakinisha njia ya mkato ya Bazm?"
+        "heading": "Ni kwa jinsi gani uzoefu wako hadi sasa?",
+        "text": "<p>Unapenda app mpya? Je, kuna kitu tunaweza kuboresha? Tafadhali tusaidie na maoni yako ili kuboresha uzoefu wako!</p><p>Hii itachukua dakika chache tu, na tunathamini sana wakati wako!</p>",
+        "cta": "Toa maoni",
+        "dismiss": "Pengine baadaye"
       },
       "advertise": {
-        "heading": "<p>Fikia mamilioni ya Waislamu wa Shia duniani kote na bidhaa yako kwenye Bazm au ujihusishe na bidhaa na watumiaji.</p> <p>Anza kwa chini kama $ 1 / siku!</p>",
-        "text": "Jifunze zaidi",
-        "cta": "Uzoefu mdogo kwenye Safari"
+        "heading": "Kutangaza juu ya Bazm",
+        "text": "<p>Kufikia mamilioni ya Waislamu wa Shia duniani kote na bidhaa yako kwenye Bazm au kushiriki na bidhaa na watumiaji.</p><p>Anza kwa chini kama $ 1 / siku!</p>",
+        "cta": "Jifunze zaidi"
       },
       "upgradeSafari": {
-        "header": "<strong>Kivinjari hiki (Safari) hakijaboreshwa kwa uzoefu bora</strong>. Kwa kuendelea kutumia programu yetu hapa, utakosa vipengele kadhaa kama arifa za tahadhari, karibu na sasisho, hali ya nje ya mtandao na mengi zaidi.<br/> Tunapendekeza upate moja ya vivinjari vilivyoorodheshwa hapa chini kwa uzoefu ulioboreshwa. Bofya vifungo vyovyote ili kupakua kivinjari kutoka AppStore:",
-        "description": "Pata Google Chrome",
+        "header": "Uzoefu mdogo juu ya Safari",
+        "description": "<strong>Kivinjari hiki (Safari) hakijaboreshwa kwa uzoefu bora</strong>. Kwa kuendelea kutumia programu yetu hapa, utakosa huduma kadhaa kama arifa za tahadhari, karibu na sasisho, hali ya nje ya mtandao na mengi zaidi.<br/>Tunapendekeza kupata moja ya vivinjari vilivyoorodheshwa hapa chini kwa uzoefu ulioboreshwa. Bofya vifungo vyovyote ili kupakua kivinjari kutoka AppStore:",
         "ctas": {
-          "getGoogle": "Pata Mozilla Firefox",
-          "getFirefox": "Pata Mguso wa Opera",
-          "getOpera": "Pengine baadaye",
-          "skip": "Sakinisha njia ya mkato ya Bazm?"
+          "getGoogle": "Pata Google Chrome",
+          "getFirefox": "Kupata Firefox ya Mozilla",
+          "getOpera": "Pata Mguso wa Opera",
+          "skip": "Pengine baadaye"
         },
-        "toast": "Kuhusu kuokoa Vidakuzi kwenye kifaa chako"
+        "toast": "Hakuna shida. Hadi wakati ujao!"
       },
       "cookieBanner": {
-        "header": "Hatuhifadhi vidakuzi vyovyote kwenye {kifaa chako} lakini programu za wahusika wengine zinazotumiwa katika programu yetu zinaweza (kama vile, Google Analytics). Badala yake tunatumia hifadhi ya kudumu kuhifadhi data yoyote muhimu, na mara nyingi, hii imesimbwa kwa njia fiche katika uhifadhi na wakati wa uhamisho.",
-        "p1": "Kwa kuendelea kutumia programu hii, wewe hapa unathibitisha kuwa huna shida yoyote na chaguzi zetu. Ili kujua zaidi kuhusu vidakuzi vyetu na matumizi ya data, angalia <a href='https://bazm.in/privacy-policy' lengo='_blank'>Sera ya Uokoaji.</a>",
-        "p2": " __ Bazm - Programu ya Mtandao wa Kijamii kwa Waislamu wa Shia ulimwenguni kote! Pakua programu leo."
+        "header": "Kuhusu kuhifadhi vidakuzi kwenye kifaa chako",
+        "p1": "Hatuhifadhi vidakuzi vyovyote kwenye {device} yako lakini programu za wahusika wengine zinazotumiwa katika programu yetu zinaweza (kama vile, Google Analytics). Badala yake tunatumia hifadhi ya kudumu kuhifadhi data yoyote muhimu, na katika hali nyingi, hii imesimbwa kwa njia fiche katika uhifadhi na wakati wa uhamisho.",
+        "p2": "Kwa kuendelea kutumia programu hii, unathibitisha kuwa huna maswala yoyote na chaguo zetu. Ili kujua zaidi kuhusu kuki zetu na matumizi ya data, angalia <a href='https://bazm.in/privacy-policy' target='_blank'>Sera yetu ya Faragha.</a>"
       }
     },
     "meta": {
-      "titleBranding": "Bazm - Programu ya jamii ya Shia mtandaoni!",
+      "titleBranding": " __ Bazm - App ya Mtandao wa Jamii kwa Waislamu wa Shia duniani kote! Download app hii leo.",
       "home": {
-        "title": "Programu ya Bazm ni programu ya jamii ya Shia ambayo inakidhi mahitaji yako yote ya kila siku ya deen &mazhab. Pata Nauhe, Majalis, Dua, Aamaal, Ziyarat, Vitabu, n.k. kwa tarehe na hafla zote. Tazama na ufanye matukio ya mkondo wa moja kwa moja na majalis na Washia-Waislamu duniani kote kutokana na urahisi wa nyumba yako. Jiunge leo!",
-        "description": "Pata maudhui yaliyopangwa na kushiriki na jamii ya shia karibu na wewe na ulimwengu"
+        "title": "Bazm - App ya jamii ya Shia mtandaoni!",
+        "description": "Programu ya Bazm ni programu ya jamii ya Shia inayokidhi mahitaji yako yote ya kila siku ya deen & mazhab. Pata Nauhe, Majalis, Dua, Aamaal, Ziyarat, Vitabu, n.k. kwa tarehe na matukio yote. Tazama na ufanye matukio ya mkondo wa moja kwa moja na majalis na Shia-muslims duniani kote kutoka kwa urahisi wa nyumba yako. Jiunge na leo!"
       },
       "feed": {
-        "title": "Tafuta na ushiriki habari, matukio, na maudhui na shia momineen karibu, na uwajulishe kuhusu matukio yoyote unayoshiriki. Jifunze kuhusu chochote kinachotokea karibu na wewe kwenye programu.",
-        "description": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal na mengi zaidi kwako!"
+        "title": "Pata maudhui yaliyolengwa na ushiriki na jamii ya shia karibu na wewe na ulimwengu",
+        "description": "Pata na ushiriki habari, matukio, na maudhui na shia momineen karibu, na uwajulishe kuhusu matukio yoyote unayokaribisha. Jifunze kuhusu chochote kinachotokea karibu na wewe kwenye programu."
       },
       "mediaHome": {
-        "title": "Pata Nauhe, Majalis, Dua, Aamaal, ziyarat na mengi zaidi kwa tarehe na hafla zote. Tazama na ufanye majalis ya mkondo wa moja kwa moja kutokana na urahisi wa nyumba yako! Jiunge na programu ya mtandao wa kijamii wa Shia ambayo hukusaidia na kazi za kawaida za deen &mazhab. Jiunge leo!",
-        "description": "Bazm - Kengele ya kila siku ya Azaan, majibu ya maswali na zana kwa Waislamu wa Shia"
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal na mengi zaidi kwa ajili yenu!",
+        "description": "Pata Nauhe, Majalis, Dua, Aamaal, ziyarat na mengi zaidi kwa tarehe na hafla zote. Tazama na ufanye majalis ya mkondo wa moja kwa moja kutoka kwa urahisi wa nyumba yako! Jiunge na programu ya mtandao wa kijamii wa Shia ambayo inakusaidia na kazi za kawaida za deen & mazhab. Jiunge na leo!"
       },
       "toolsHome": {
-        "title": "Pata ukumbusho wa kila siku kwa Adhan, tafuta na uulize jibu la maswali juu ya mada ya deen &islam, au omba Surah-fatiha au Namaz-e-Wahshat kwa marhumeen yako, na zana zaidi juu ya Bazm. Jiunge na programu ya mtandao wa kijamii wa Shia ambayo hukusaidia na kazi za kawaida za deen. Tafuta Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat kwa tarehe na hafla zote. Matukio ya mkondo wa moja kwa moja na majalis kutoka kwa urahisi wa nyumba yako. Jiunge leo!",
-        "description": "Moja kwa moja tasbeeh counter na Voice __ Tasbeeh Counter chombo"
+        "title": "Bazm - Kengele ya kila siku ya Azaan, majibu ya maswali na zana kwa Waislamu wa Shia",
+        "description": "Pata ukumbusho wa kila siku kwa Adhan, pata na uulize swali-jibu juu ya mada ya deen & islam, au omba Surah-fatiha au Namaz-e-Wahshat kwa marhumeen yako, na zana zaidi kwenye Bazm. Jiunge na programu ya mtandao wa kijamii wa Shia ambayo inakusaidia na kazi za kawaida za deen. Pata Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat kwa tarehe na hafla zote. Matukio ya mtiririko wa moja kwa moja na majalis kutoka kwa urahisi wa nyumba yako. Jiunge na leo!"
       },
       "tasbeehCounter": {
-        "title": "Kukariri tasbeeh isitoshe sasa ni rahisi na kaunta zetu za tasbeeh za Sauti. Kariri tasbeeh yako wakati unaendesha gari au unafanya kazi, bado unafuatilia hesabu na kaunta za sauti. Pata zana hii na wengine kama hiyo kwenye programu ya Bazm. Pakua leo.",
-        "description": "Bazm - Unda akaunti yako ya bure leo na upate msaada na mahitaji yako ya kila siku ya deen!"
+        "title": "Moja kwa moja tasbeeh counter na Sauti __ Tasbeeh Counter chombo",
+        "description": "Kusoma tasbeeh isitoshe sasa ni rahisi na kaunta zetu za Sauti za tasbeeh. Soma tasbeeh yako wakati unaendesha gari au unafanya kazi, bado unafuatilia hesabu na kaunta za sauti. Pata zana hii na zingine kama hiyo kwenye programu ya Bazm. Pakua leo."
       },
       "accountHome": {
-        "title": "Jiunge na programu ya Bazm leo ili kukidhi mahitaji yako yote ya deeniyat. Tafuta nohe/nauhe, majalis, dua, ziyarat, aamaal kwa tarehe na hafla zote. Mkondo wa moja kwa moja na uangalie majalis na matukio kutoka karibu nawe; pata machapisho, maudhui na momineen kutoka kote wewe na ulimwengu, na mengi zaidi kwenye programu. Jiunge leo!",
-        "description": "Sikiliza Nauhe kutoka nauhakhwan maarufu duniani kote"
+        "title": "Bazm - Unda akaunti yako ya bure leo na upate msaada na mahitaji yako ya kila siku ya deen!",
+        "description": "Jiunge na programu ya Bazm leo ili kukidhi mahitaji yako yote ya deeniyat. Pata nohe/nauhe, majalis, dua, ziyarat, aamaal kwa tarehe na hafla zote. Mtiririko wa moja kwa moja na uangalie majalis na matukio kutoka karibu nawe; pata machapisho, yaliyomo na momineen kutoka kwako na ulimwenguni, na mengi zaidi kwenye programu. Jiunge leo!"
       },
       "nauheListPage": {
-        "title": "Sikiliza nauhe kutoka miaka yote na nauhakhwan yote maarufu kutoka ulimwenguni kote kwenye programu ya Bazm. Pakua leo.",
-        "description": "Sikiliza Soaz kutoka soazkhwan maarufu duniani kote"
+        "title": "Sikiliza Nauhe kutoka kwa nauhakhwan maarufu duniani kote",
+        "description": "Sikiliza nauhe kutoka miaka yote na nauhakhwan zote maarufu kutoka ulimwenguni kote kwenye programu ya Bazm. Pakua leo."
       },
       "soazListPage": {
-        "title": "Sikiliza Soaz kutoka miaka yote na Soazkhwan yote maarufu kutoka ulimwenguni kote kwenye programu ya Bazm. Pakua leo.",
-        "description": "{type} majalis/majlis on Bazm - Tafuta zaidi nauhe, sauti/video majalis, dua, ziyarat, aamaal, nk kwenye Bazm"
+        "title": "Sikiliza Soaz kutoka Soazkhwan maarufu duniani kote",
+        "description": "Sikiliza Soaz kutoka miaka yote na Soazkhwan maarufu kutoka ulimwenguni kote kwenye programu ya Bazm. Pakua leo."
       },
       "majalisList": {
-        "title": "Pata sauti / video majalis kutoka Maulana na Zakir-e-Ahlbayt kutoka karibu na wewe na duniani kote. Sikiliza na uangalie majalis ya hivi karibuni na vikao vya moja kwa moja kwenye programu ya Bazm. Pakua programu leo na ujiunge na mamilioni ya Waislamu wa Shi'a duniani kote!",
-        "description": "Duas na aamaal kwa mwezi wa {mwezi} kwenye Bazm - Tafuta zaidi nauhe, sauti / video majalis, dua, ziyarat, aamaal, nk kwenye Bazm"
+        "title": "{type} majalis/majlis kwenye Bazm - Pata nauhe zaidi, sauti / video majalis, dua, ziyarat, aamaal, nk. kwenye Bazm",
+        "description": "Pata sauti / video majalis kutoka Maulana na Zakir-e-Ahlbayt kutoka karibu na wewe na duniani kote. Sikiliza na uangalie vipindi vya hivi karibuni vya majalis na livestream kwenye programu ya Bazm. Pakua programu hii leo na ujiunge na mamilioni ya Waislamu wa Kishia ulimwenguni kote!"
       },
       "duasPage": {
         "title": [
-          "Duas na aamaal kwa miezi yote kwenye Bazm - Tafuta nauhe zaidi, sauti / video majalis, dua, ziyarat, aamaal, nk kwenye Bazm",
-          "Pata duas, aamaal, ziyarat na munajat kwa miezi yote kwenye Bazm, tarehe na tukio la busara. Pakua programu leo na ujiunge na mamilioni ya Waislamu wa Shi'a duniani kote!"
-        ]
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Eleza kwa marejeo sahihi na kwa muktadha kwa Waislamu wa shia. Pia, nipe marejeleo kama orodha na viungo kwa vyanzo.",
-        "newQues": "Halo, tuanze mazungumzo mapya. Nimeweka hapa chini swali:\n{quesTex}",
-        "continuePrev": "Tuendelee na mjadala wetu kuanzia {date}. {quesTex}"
+          "Duas na aamaal kwa mwezi wa {month} kwenye Bazm - Pata nauhe zaidi, sauti / video majalis, dua, ziyarat, aamaal, nk. kwenye Bazm",
+          "Duas na aamaal kwa miezi yote kwenye Bazm - Pata nauhe zaidi, sauti / video majalis, dua, ziyarat, aamaal, nk. kwenye Bazm"
+        ],
+        "description": "Pata duas, aamaal, ziyarat na munajat kwa miezi yote kwenye Bazm, tarehe na tukio la busara. Pakua programu hii leo na ujiunge na mamilioni ya Waislamu wa Kishia ulimwenguni kote!"
       }
     }
   }
