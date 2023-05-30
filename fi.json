@@ -3,104 +3,104 @@
     "common": {
       "refresh": "Päivitä vetämällä",
       "refreshing": "Virkistävä...",
-      "loadingMore": "Ladataan lisää ...",
-      "checking": "Tarkistaminen...",
-      "sendOtp": "OTP:n lähettäminen..",
-      "dismiss": "Erottaa",
-      "invite": "Kutsua",
-      "showMore": "Näytä lisää -— Katso lisää",
-      "play": "Leikkiä",
+      "loadingMore": "Ladataan lisää...",
+      "checking": "Tarkistetaan...",
+      "sendOtp": "Lähetetään OTP:tä..",
+      "dismiss": "Hylkää",
+      "invite": "Kutsu",
+      "showMore": "Näytä lisää | Katso lisää",
+      "play": "pelata",
       "pause": "Keskeytetty",
-      "playing": "Soittaminen",
+      "playing": "Pelaaminen",
       "paused": "Keskeytetty",
       "watch": "Katsella",
       "read": "Lukea",
-      "authors": "Kirjoittaja -— Tekijät",
+      "authors": "Tekijä | Tekijät",
       "languages": "Kieli | Kielet",
-      "clear": "Selvä",
-      "cancel": "Perua",
+      "clear": "Asia selvä",
+      "cancel": "Peruuttaa",
       "change": "Muuttaa",
       "continue": "Jatkaa",
-      "select": "Valikoida",
+      "select": "Valitse",
       "saveChanges": "Tallenna muutokset | Tallenna | Päivitä",
       "newBadge": "Uusi",
-      "login": "Sisäänkirjautuminen",
-      "logout": "Uloskirjaus",
-      "signup": "Kiinnittää",
-      "settings": "Asetukset",
+      "login": "Kirjaudu sisään",
+      "logout": "Kirjautua ulos",
+      "signup": "Kirjaudu",
+      "settings": "asetukset",
       "cookiePolicy": "Evästekäytäntö",
       "privacy": "Yksityisyys",
-      "contactUs": "Ota yhteyttä",
+      "contactUs": "Ota meihin yhteyttä",
       "home": "Koti",
-      "facebook": "Facebook-sivut",
-      "google": "Google-ohjelma",
+      "facebook": "Facebook",
+      "google": "Google",
       "you": "Sinä",
-      "retry": "Yritä",
+      "retry": "Yritä uudelleen",
       "send": "Lähettää",
-      "submit": "Alistua",
-      "share": "Jaa -— Jaa nyt",
-      "at": "At",
-      "untilNextTime": "Ei hätää. Seuraavaan asti!",
-      "plzWait": "Ole hyvä ja odota..",
-      "saving": "Säästäminen.. | Päivittäminen..",
-      "search": "Etsiä",
+      "submit": "Lähetä",
+      "share": "Jaa | Jaa nyt",
+      "at": "klo",
+      "untilNextTime": "Ei ongelmaa. Ensi kertaan!",
+      "plzWait": "Odota..",
+      "saving": "Tallennetaan... | Päivitetään...",
+      "search": "Hae",
       "late": "Myöhään",
-      "done": "Valmis",
-      "featureUnavailable": "Tämä ominaisuus on pian käytettävissä. Kiitos edestakaisin osoittamalla kiinnostusta!",
+      "done": "Tehty",
+      "featureUnavailable": "Tämä ominaisuus on saatavilla pian. Kiitos kiinnostuksestasi!",
       "actions": {
-        "cancel": "Perua",
+        "cancel": "Peruuttaa",
         "notify": "Ilmoittaa",
-        "like": "Kaltainen",
-        "recited": "Lausui",
+        "like": "Kuten",
+        "recited": "Lausuttu",
         "comment": "Kommentti",
-        "reply": "Vastaus",
+        "reply": "Vastaa",
         "bookmark": "Kirjanmerkki",
-        "uploading": "Lataaminen..",
-        "deleting": "Poistaminen..",
-        "requesting": "Pyytää..",
-        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
-        "jsShareFileTypeError": "Valitettavasti et voi jakaa {fileType}-tiedostoja täällä",
+        "uploading": "Ladataan...",
+        "deleting": "Poistetaan...",
+        "requesting": "Pyydetään..",
+        "audienceHeader": "Mominen, joka {action} d --- Mominen, joka {action} d tämä",
+        "jsShareFileTypeError": "Valitettavasti et voi jakaa {fileType} täällä",
         "jsUpdateAvailable": {
           "header": "Päivitys saatavilla",
-          "message": "Näet sovelluksen välimuistissa olevan version.",
-          "cta": "Virkistää"
+          "message": "Näet sovelluksen välimuistiversion. Päivitä ja lataa uutta sisältöä ja ominaisuuksia napsauttamalla Päivitä.",
+          "cta": "virkistää"
         },
-        "jsImgUploaded": "Kuvan lataus onnistui!",
-        "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä myöhemmin uudelleen.",
-        "jsLoadingDelay": "Se kestää hieman odotettua kauemmin. Odota, kunnes käsittelemme tämän pyynnön."
+        "jsImgUploaded": "Kuva ladattu onnistuneesti!",
+        "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä uudelleen myöhemmin.",
+        "jsLoadingDelay": "Se kestää hieman odotettua kauemmin. Odota, kun käsittelemme tämän pyynnön."
       },
-      "unknown": "Tuntematon",
-      "close": "Sulkea",
-      "yes": "Kyllä",
+      "close": "kiinni",
+      "yes": "Joo",
       "no": "Ei",
       "idk": "Minä en tiedä",
+      "unknown": "Tuntematon",
       "completed!": "Valmis!",
       "pushPrompt": {
-        "heading": "Pysy ajan tasalla",
-        "desc": "Pidätkö näkemästäsi? Älä koskaan missaa päivitystä ja pysy ajan tasalla kaikesta ilmoitusten avulla.<br />Voimmeko lähettää sinulle ilmoituksia?",
-        "cancelCta": "Kysy myöhemmin",
+        "heading": "Pysyä ajan tasalla",
+        "desc": "Kuten mitä näet? Älä koskaan missaa päivitystä ja pysy ajan tasalla kaikesta ympärillä tapahtuvasta ilmoitusten avulla.<br /> Voimmeko lähettää sinulle ilmoituksia?",
+        "cancelCta": "Kysy minulta myöhemmin",
         "okCta": "Varma!",
-        "jsPushUnsupported": "Push-toimintoa ei tueta tässä laitteessa. Saatat jäädä paitsi ilmoituksista!"
+        "jsPushUnsupported": "Työntöä ei tueta tässä laitteessa. Saatat jäädä paitsi ilmoituksista!"
       }
     },
     "errors": {
       "service": {
-        "unavailable": "Palvelu ei ole tällä hetkellä käytettävissä. Yritä myöhemmin uudelleen.",
-        "unknown": "Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen.",
-        "general": "Pyyntöäsi käsiteltäessä tapahtui virhe. Yritä myöhemmin uudelleen."
+        "unavailable": "Palvelu ei ole käytettävissä tällä hetkellä. Yritä uudelleen myöhemmin.",
+        "unknown": "Tapahtui tuntematon virhe. Yritä uudelleen myöhemmin.",
+        "general": "Virhe pyynnön käsittelyn yhteydessä. Yritä uudelleen myöhemmin."
       },
       "content": {
         "unavailable": "Sisältöä ei voitu ladata tällä hetkellä. Yritä hetken kuluttua uudelleen.",
-        "itemDetailUnavailable": "Tämän {kohteen} tietoja ei löytynyt",
-        "loadMoreError": "Uusien kohteiden lataaminen epäonnistui. Yritä myöhemmin uudelleen."
+        "itemDetailUnavailable": "Tämän {item} tietoja ei löytynyt",
+        "loadMoreError": "Lisää kohteita ei voitu ladata. Yritä uudelleen myöhemmin."
       },
       "url": {
-        "invalid": "Virheellinen URL-osoite. Kokeile uudella URL-osoitteella."
+        "invalid": "Virheellinen URL. Yritä käyttää uutta URL-osoitetta."
       },
       "page404": {
-        "title": "Sivua ei löydy",
+        "title": "Sivua ei löydetty",
         "desc": "Emme löytäneet etsimääsi sivua!",
-        "ctaLabel": "Goto Etusivu"
+        "ctaLabel": "Mene kotiin"
       }
     },
     "navbar": {
@@ -109,11 +109,11 @@
       },
       "postDetail": {
         "commonTitle": "Yksityiskohta",
-        "fatihaTitle": "Surah-fatiha",
-        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "fatihaTitle": "Surah Fatiha",
+        "fatihaWithNamaz": "Surah-Fatiha &amp; Namaz-e-Wahshat",
         "avatarUpdateTitle": "Profiilikuva",
-        "bannerUpdateTitle": "Kansikuva (vanhentunut)",
-        "statusUpdateTitle": "Tilan päivitys"
+        "bannerUpdateTitle": "Kansikuva (poistettu käytöstä)",
+        "statusUpdateTitle": "Tila päivitys"
       }
     },
     "tabs": {
@@ -121,243 +121,242 @@
         "name": "Koti",
         "postDetail": {
           "shareRequest": {
-            "header": "Jaa tämä pyyntö koko verkostossasi ja ota yhteyttä useampiin ihmisiin!"
+            "header": "Jaa tämä pyyntö verkostossasi ja tavoita enemmän ihmisiä!"
           }
         }
       },
       "media": {
         "name": "Media",
         "boxLabels": {
-          "nauhe": "Nauhe",
-          "majalis": "Majalis",
+          "nauhe": "Matelijat",
+          "majalis": "Kokoonpano",
           "soaz": "Soaz",
           "ziyarat": "Ziyaraat",
-          "dua": "Duas",
+          "dua": "Kaksi",
           "munajat": "Munajaat",
           "munajaat": "Munajaat",
           "books": "Kirjat"
         },
         "inviteFriends": "kutsu ystäväsi",
-        "notShia": "Ei shiiaa?",
+        "notShia": "Ei shiia?",
         "contacts": {
-          "accessRequestHeader": "Yhteystietojen käyttö vaaditaan",
-          "accessRequestDesc": "Edellytämme, että yhteystietosi voivat ehdottaa puhelinluettelossasi shiialaisia kutsumaan tähän sovellukseen."
+          "accessRequestHeader": "Yhteystiedot Käyttöoikeus vaaditaan",
+          "accessRequestDesc": "Vaadimme yhteystietojesi käyttöoikeuksia, jotta he voivat ehdottaa puhelinluettelossasi olevia shiialaisia kutsuakseen tähän sovellukseen."
         },
         "audio": "Audio",
         "video": "Video",
         "hijri": "Hijri",
         "duaHome": {
-          "wishCtaText": "Toivotan ystävillesi!",
-          "wishCtaLabel": "TOIVOTTAA"
+          "wishCtaText": "Toivota ystävillesi!",
+          "wishCtaLabel": "TOIVE"
         },
         "books": {
-          "booksByAuthor": "Kirjoja {kirjailija}",
-          "booksInLang": "Kirjat {lang}",
-          "filterBy": "Suodata mukaan:",
+          "booksByAuthor": "Kirjat {author}",
+          "booksInLang": "Kirjoja {lang}",
+          "filterBy": "Suodatusperuste:",
           "matching": {
-            "authors": "tekijöiden vastaavuuksien kanssa",
-            "lang": "kielten vastaavuudella",
-            "title": "otsikon vastaavuudella"
+            "authors": "vastaavien kirjoittajien kanssa",
+            "lang": "vastaavilla kielillä",
+            "title": "otsikkosovituksella"
           }
         },
         "booksFilter": {
-          "title": "Etsi kirja tekijältä",
-          "searchBox": "Hae tekijää nimen perusteella",
+          "title": "Etsi kirja tekijän mukaan",
+          "searchBox": "Hae tekijää nimellä",
           "selectLang": "Valitse kieli:"
         },
         "bookDetails": {
-          "title": "{title} — Löydä lisää tällaisia ilmaisia kirjoja Bazmista",
+          "title": "{title} — Löydä lisää tämän kaltaisia ilmaisia kirjoja Bazmista",
           "aboutBook": "Tietoja kirjasta:"
         }
       },
       "tools": {
-        "name": "Välineet",
+        "name": "Työkalut",
         "salatAlarmDesc": "Aseta hälytykset Azaanille paikallisten aikojen mukaan",
-        "sehriAlarmDesc": "Aseta hälytys Sehrille tai saat jopa herätyksen numeroosi ennen Sehriä!",
-        "sehriAlarmOptionDisabled": "Hälytykset Sherin ajasta ramadanin aikana (käytettävissä vain ramadanin aikana)",
-        "tasbeehCounterDesc": "Lausu Duas, Koraani ja Tasbeeh toistotilassa helposti Audio Tasbeeh -laskurin avulla",
+        "sehriAlarmDesc": "Aseta hälytys Sehrille tai jopa soita numeroosi ennen Sehria!",
+        "sehriAlarmOptionDisabled": "Sheri-ajan hälytykset Ramadanin aikana (saatavilla vain ramadanin aikana)",
+        "tasbeehCounterDesc": "Toista Duas, Koraani ja Tasbeeh toistotilassa helposti Audio Tasbeeh -laskurin avulla",
         "qnaLabel": "QnA (Masle-Masayel)",
-        "qnaDesc": "Etsi ja kysy kysymyksiä tai löydä vastauksia masle-masayelille jokapäiväisestä elämästäsi islamin asioista.",
+        "qnaDesc": "Hae ja esitä kysymyksiä tai löydä vastauksia masle-masayelille jokapäiväisestä elämästäsi islamin asioista.",
+        "khumsLabel": "Khums Laskin",
+        "khumsDesc": "Laske khumit tai lisää aiemmin maksetut khumit. Se auttaa sinua pitämään kirjaa khumeistasi vuosien varrella.",
         "alarms": {
-          "salatAlarms": "Salat-hälytykset -- Päivittäiset Salat-hälytykset",
-          "sehriAlarms": "Ramadan Sehrin hälytykset",
-          "gettingLocation": "Sijainnin hankkiminen. Ole hyvä ja odota...",
-          "settingsTip": "Muuta <b>sijaintia</b> ja asetuksia hälytysasetuksissa. Klikkaus Asetukset -kuvaketta aloittaaksesi.",
+          "salatAlarms": "Salat-hälytykset - Päivittäiset salat-hälytykset",
+          "sehriAlarms": "Ramadan Sehri -hälytykset",
+          "gettingLocation": "Haetaan sijaintiasi. Odota...",
+          "settingsTip": "Muuta <b>sijaintia</b> ja asetuksia Hälytysasetuksissa. Napsauta Asetukset-kuvaketta aloittaaksesi.",
           "setAlarmHeader": "Aseta päivittäiset hälytykset",
-          "setAlarmOnAppDesc": "Hälytysten asettaminen on käytettävissä vain sovelluksessa",
+          "setAlarmOnAppDesc": "Työpöydällä hälytysilmoitukset näkyvät vain bannerina ilman soittoa",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
           "sunsetLabel": "Auringonlasku",
           "maghribLabel": "Maghrib",
           "midnightLabel": "Keskiyö",
           "sehriEndTime": "Sehrin lopun aika",
           "minToImsak": [
-            "{min} mins ennen Imsakia",
-            "{tunti} tuntia ennen Imsakia"
+            "{min} min ennen Imsakia",
+            "{hour} tuntia ennen Imsakia"
           ],
           "minToImsakDesc": [
-            "Hälytys soi {min} minuuttia ennen Sehrin ajan päättymistä",
-            "Hälytys soi {tunti} tuntia ennen Sehrin ajan päättymistä"
+            "Hälytys soi {min} ennen Sehri-ajan loppua",
+            "Herätys soi {hour} ennen Sehri-ajan loppua"
           ],
-          "notRamadan": "Näyttää siltä, että se ei ole vielä ramadan. Tule takaisin ramadanin aikana tai juuri ennen sitä asettaaksesi hälytykset Sehrille",
+          "notRamadan": "Näyttää siltä, että ei ole vielä Ramadan. Palaa Ramadanin aikana tai juuri ennen sitä asettaaksesi hälytykset Sehrille",
           "push": {
-            "heading": "Ilmoitusoikeus vaaditaan",
-            "desc_request": "Hälytys toimii lähettämällä push-ilmoituksia määrättyinä aikoina. Ilman push-pääsyä sovellus ei toimi odotetulla tavalla. Salli ystävällisesti pääsy push-ilmoitukseesi, jotta voimme ilmoittaa sinulle hälytysaikoina.",
-            "desc_denied": "<strong>Olet aiemmin evännyt ilmoituskäytön.</strong> Sitä tarvitaan, jotta push-ilmoitukset toimisivat oikein. Lähetämme ilmoituksia hälytyksen aikaan.<br/> Salli ystävällisesti pääsy push-ilmoituksiin napsauttamalla painiketta.",
+            "heading": "Ilmoitusten käyttöoikeus vaaditaan",
+            "desc_request": "Hälytys toimii lähettämällä push-ilmoituksia tiettyinä aikoina. Ilman push-oikeutta sovellus ei toimi odotetulla tavalla. Salli pääsy push-ilmoitukseesi, jotta voimme ilmoittaa sinulle hälytysaikoina.",
+            "desc_denied": "<strong>Kiellät ilmoitusten käyttöoikeuden aiemmin.</strong> Sitä tarvitaan, jotta push-ilmoitukset toimivat oikein. Lähetämme hälytyksen aikana ilmoituksia.<br/> Anna pääsy push-ilmoituksiin napsauttamalla painiketta.",
             "cta": "Sallia",
-            "toast_granted": "Kiitos! Saat ilmoituksen hälytysaikoina nyt.",
-            "toast_denied": "Ilmoituspyyntö evätty. Anna sovelluksen käyttöluvan toimia oikein.",
-            "toast_prompt": "Sinun on sallittava ilmoitusten käyttö hälytysten asettamiseksi."
+            "toast_granted": "Kiitos! Saat ilmoituksen nyt hälytysaikoina.",
+            "toast_denied": "Ilmoituspyyntö evätty. Anna sovelluksen käyttöoikeus toimia oikein.",
+            "toast_prompt": "Sinun on sallittava ilmoitusten käyttöoikeus asettaaksesi hälytyksiä."
           },
           "jsAlarmSetSuccess": "Hälytykset asetettu onnistuneesti",
-          "jsAlarmSetError": "Virhe hälytysten asettamisessa. Yritä myöhemmin uudelleen.",
-          "jsAlarmSnoozed": "Hälytys torkkui 10 minuuttia",
+          "jsAlarmSetError": "Hälytysten asettamisessa tapahtui virhe. Yritä uudelleen myöhemmin.",
+          "jsAlarmSnoozed": "Herätys torkku 10 minuuttia",
           "sunriseLabel": "Auringonnousu",
           "dhuhrLabel": "Zuhr",
           "asrLabel": "Asr",
-          "ishaLabel": "Koti"
+          "ishaLabel": "Silmä"
         },
         "alarmSetting": {
           "title": "Hälytysasetukset",
-          "locationTitle": "Etsi kaupunki hälytysten ajoituksille",
+          "locationTitle": "Etsi kaupunki hälytysajoille",
           "forLocation": "Hälytys sijainnista",
           "calcMethod": "Laskentamenetelmä",
           "selectAdhanSound": "Valitse Adhan-ääni",
           "selectAlarmSound": "Valitse Hälytysääni",
-          "alarmSoundDesc": "Ääni ei-salat-aikoina",
+          "alarmSoundDesc": "Ääni ei-salaattiaikaan",
           "timesPeekHeading": "Näytä ajat -banneri",
-          "timesPeekDesc": "Voit poistaa Salatin nopean ajannäkymän näyttämisen käytöstä täällä:",
+          "timesPeekDesc": "Voit poistaa Salatin aikojen pikanäkymän käytöstä täällä:",
           "timesPeekHome": "Näytä syötesivulla:",
           "timesPeekTools": "Näytä työkalusivulla:",
-          "jsConfirmLocChange": "Sijainnin vaihtaminen peruuttaa kaikki aiemmin asetetut hälytykset. Jatkaa?",
-          "jsOtherSettingsSaved": "Muut tallennetut asetukset. Sijaintia ei muutettu."
+          "jsConfirmLocChange": "Sijaintisi muuttaminen peruuttaa kaikki aiemmin asetetut hälytykset. Jatkaa?",
+          "jsOtherSettingsSaved": "Muut asetukset tallennettu. Sijaintia ei muutettu."
         },
         "qna": {
-          "title": "Kysymys-vastaus",
+          "title": "Kysymys Vastaus",
           "qnaSource": "Lähde",
           "seeAnswer": "Katso vastaus",
           "noAnswer": "Ei vastausta"
         },
         "qnaDetail": {
-          "title": "Vastaukset tuotteelle: {ques}",
-          "jsSubmitSuccess": "Kysymyksesi on lähetetty onnistuneesti. Päivitämme sinut, kun saamme siihen vastauksen."
+          "title": "Vastaukset: {ques}",
+          "jsSubmitSuccess": "Kysymyksesi on lähetetty onnistuneesti. Päivitämme sinulle, kun saamme vastauksen siihen."
         },
         "tasbeehCounter": {
           "title": "Tasbeeh-laskuri"
         },
-        "khumsLabel": "Khums Laskin",
-        "khumsDesc": "Laske khums tai lisää aiemmin maksetut khums. Se auttaa sinua kirjaamaan khumisi vuosien varrella.",
         "khums": {
           "list": {
             "blog": {
-              "title": "Blogi: Laske khums tehokkaasti",
-              "p1": "<a href='{href}' target='_blank'>Seuraa blogiamme</a> , joka korostaa khumsin laskennan keskeisiä kohteita joka vuosi.",
-              "p2": "Vastuuvapauslauseke: Blogi EI ole opas. <strong>Seuraa Marjahin päätöksiä Khums-laskelmaa varten</strong>. <span id='blog-info-link' color='primary'>Klikkaa tästä</span> saadaksesi lisätietoja.",
-              "blogInfo": "Yllä oleva blogi perustuu al-islam.org, sistani.org artikkeleihin ja keskusteluihimme muutaman muun tutkijan kanssa. Sinun tulee aina noudattaa Marjahin päätöksiä Khums-laskelmassa.",
+              "title": "Blogi: Laske khumit tehokkaasti",
+              "p1": "<a href='{href}' target='_blank'>Seuraa blogiamme</a> , jossa korostetaan keskeisiä kohtia khumien laskennassa vuosittain.",
+              "p2": "Vastuuvapauslauseke: Blogi EI ole opas. <strong>Noudata Marjah for Khums -laskelman sääntöjä</strong> . <span id='blog-info-link' color='primary'>Napsauta tästä</span> saadaksesi lisätietoja.",
+              "blogInfo": "Yllä oleva blogi perustuu al-islam.org- ja sistani.org -sivustojen artikkeleihin ja keskusteluihimme muutamien muiden tutkijoiden kanssa. Sinun tulee aina noudattaa Marjah for Khums -laskelman päätöksiä.",
               "dismissCta": "Ei kiinnosta"
             },
-            "title": "Sinun Khums-laskelmasi",
-            "nextMuqammasHeading": "<strong>Muqammas</strong><br />seuraavaa laskentaa varten",
-            "muqammasDesc": "Perustuu viimeisimmän vuoden laskelmiin",
+            "title": "Khums-laskelmasi",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br /> seuraavaa laskelmaa varten",
+            "muqammasDesc": "Perustuu viime vuoden laskelmiin",
             "sahmeSadat": "Sahm-e-Sadat",
-            "sahmeImam": "Sahm-e-imaami (a.s.)",
+            "sahmeImam": "Sahm-e-Imam (as)",
             "paid": "Maksettu:",
-            "remaining": "Jäljellä oleva:",
-            "newMuqammas": "Uudet muqammat:",
-            "jsDeleted": "Khums-laskelma poistettu onnistuneesti!",
+            "remaining": "Jäljelle jäänyt:",
+            "newMuqammas": "Uudet Muqammas:",
+            "jsDeleted": "Khums-laskennan poistaminen onnistui!",
             "prompts": {
               "delete": {
                 "header": "Poistetaanko Khums-laskenta?",
-                "desc": "Oletko varma, että haluat poistaa tämän? Myös kaikki siihen liittyvät asiakirjat poistetaan!"
+                "desc": "Haluatko varmasti poistaa tämän? Myös kaikki asiaan liittyvät asiakirjat poistetaan!"
               }
             },
             "empty": {
-              "header": "Khums ei ole vielä lisätty",
+              "header": "Khumeja ei ole vielä lisätty",
               "subtext": "Aloita lisäämällä khums-laskelma. Napsauta alla olevaa painiketta."
             }
           },
           "detail": {
-            "title": "Sinun Khums",
+            "title": "Sinun khumisi",
             "header": "Khums",
-            "mqmsInfo": "Muqammas seuraavaa laskentaa varten",
-            "calcHeader": "Perustuu alla olevaan laskelmaan:",
-            "savingsHeader": "Säästöt",
-            "conversionInfo": "Muunnetaan {amount} :ksi {xchgRate} valuuttakurssin perusteella {xchgRateDate}",
+            "mqmsInfo": "Muqammas seuraavaa laskelmaa varten",
+            "calcHeader": "Alla olevan laskelman perusteella:",
+            "savingsHeader": "Säästöjä",
+            "conversionInfo": "Muunnetaan {amount} , joka perustuu {xchgRate} kurssiin {xchgRateDate}",
             "expensesHeader": "Kulut",
             "mqmsHeader": "Muqammas",
-            "prevMqms": "Aiemmat muqammat",
-            "paymentsHeader": "Khumsista suoritetut maksut:",
+            "prevMqms": "Edelliset muqammas",
+            "paymentsHeader": "Khumeille suoritetut maksut:",
             "error": {
-              "header": "Voi uh, tapahtui virhe!",
-              "desc": "Näyttää siltä, että emme löydä mitään tästä khums-laskelmasta. Se voi johtua joko siitä, että jokin palveluistamme toimi väärin, tai ehkä etsit vanhentuneita tietoja.<br /><br/ >Yritä päivittää sivu tai ota meihin yhteyttä, jos uskot, että meillä on virhe."
+              "header": "Oho, tapahtui virhe!",
+              "desc": "Näyttää siltä, että emme löydä mitään tästä khums-laskennasta. Se voi johtua joko siitä, että jokin palveluistamme ei toimi, tai ehkä etsit vanhentuneita tietoja.<br /><br/ > Yritä päivittää sivu tai ota meihin yhteyttä, jos uskot, että meillä on virhe."
             },
             "js": {
-              "recordDeleteFailed": "Virhe yritettäessä poistaa tätä tietuetta. Yritä uudelleen, tai jos virhe jatkuu, palaa myöhemmin uudelleen.",
-              "recordDeleted": "Tallenna poistettu onnistuneesti",
+              "recordDeleteFailed": "Tämän tietueen poistamisessa tapahtui virhe. Yritä uudelleen tai jos virhe jatkuu, tule myöhemmin uudelleen.",
+              "recordDeleted": "Tietueen poistaminen onnistui",
               "deleteRecordHeader": "Poistetaanko tietue?",
               "deleteRecordDesc": "Haluatko varmasti poistaa tämän tietueen? Myös kaikki tähän tietueeseen lisätyt liitteet poistetaan!"
             }
           },
           "calc": {
-            "subtext": "Täytä alla oleva lomake laskeaksesi khumsisi. Valinnaiset kentät on merkitty. Napsauta alla olevaa info-kuvaketta saadaksesi lisätietoja osiosta.",
-            "blog": "Related: Lue blogimme <a href='{href}' target='_blank'>aiheesta Kuinka laskea khums tehokkaasti<a></a>",
+            "subtext": "Täytä alla oleva lomake laskeaksesi khumisi. Valinnaiset kentät on merkitty. Napsauta alla olevaa info-kuvaketta saadaksesi lisätietoja osiosta.",
+            "blog": "Aiheeseen liittyvä: Lue blogimme <a href='{href}' target='_blank'>Khumien tehokkaasta laskemisesta</a>",
             "dateRange": "Valitse ajanjakso:",
-            "dateRangeInfo": "Tyypillisesti ihmiset laskevat khums tilikaudelle (esim. huhtikuusta maaliskuuhun) tai kalenterivuodelle (tammikuusta joulukuuhun)",
-            "startDate": "Aloitusajankohta:",
+            "dateRangeInfo": "Yleensä ihmiset laskevat khumit tilikaudelle (esim. huhtikuusta maaliskuuhun) tai kalenterivuodelle (tammi-joulukuu)",
+            "startDate": "Aloituspäivä:",
             "endDate": "Päättymispäivä:",
             "savings": {
-              "header": "Säästöt",
-              "desc": "Lisää säästöjä/saldoa koko tilillesi",
-              "info": "Voit lisätä summia eri valuutoissa, mutta khums lasketaan lopulta yhdessä valuutassa tämän päivän valuuttakurssin perusteella.",
+              "header": "Säästöjä",
+              "desc": "Lisää säästöjä/saldoa tilillesi",
+              "info": "Voit lisätä summia eri valuutoissa, mutta khumit lasketaan lopulta yhtenä valuutana tämän päivän valuuttakurssin perusteella.",
               "form": {
-                "label": "Etiketti",
-                "placeholder": "Esimerkiksi palkkatili",
+                "label": "Label",
+                "placeholder": "Esim Palkkatili",
                 "amountLabel": "Määrä",
                 "amountPlaceholder": "Syötä summa",
-                "remarks": "Onko sinulla huomautettavaa tästä tuotteesta?"
+                "remarks": "Onko huomautettavaa tästä tuotteesta?"
               }
             },
             "expenses": {
               "header": "<strong>Velat/velat/kulut</strong> — valinnainen",
-              "subtext": "Lisää mahdolliset välittömät velat, velat tai kulut",
-              "info": "Osa saldosta saatavasta summasta voi olla vähennyskelpoinen khumsille. Seuraa yllä olevaa linkkiämme <strong>Laske khums tehokkaasti</strong> saadaksesi lisätietoja.",
+              "subtext": "Lisää välittömät velat, velat tai kulut",
+              "info": "Osa saldosta voi olla vähennyskelpoista khumien osalta. Seuraa yllä olevaa linkkiämme <strong>Laske khumit tehokkaasti</strong> saadaksesi lisätietoja.",
               "form": {
                 "placeholder": "Esimerkiksi vuokra erääntyy"
               }
             },
             "mqms": {
-              "header": "<strong>Edellinen Muqammas</strong> – valinnainen",
-              "subtext": "Saldo jäljellä edellisen kauden khumsin maksamisen jälkeen",
-              "info": "Jos maksat khums ensimmäistä kertaa, Muqammas on NOLLA. Jos olet tallentanut aiemmat laskutoimitukset tähän, voit synkronoida käyttämään aiemman ajanjakson Muqammas-tiedostoja."
+              "header": "<strong>Edellinen Muqammas</strong> – Valinnainen",
+              "subtext": "Saldo jäljellä edellisen jakson khumien maksamisen jälkeen",
+              "info": "Jos maksat khumeja ensimmäistä kertaa, Muqammas on NOLLA. Jos olet tallentanut aiempia laskelmia tänne, voit synkronoida käyttämään aiemman ajanjakson Muqammasia."
             },
             "mainCurrencyHeader": "Valitse päävaluutta",
-            "mainCurrencyInfo": "Mitä valuuttaa meidän pitäisi käyttää khumsin laskemiseen?",
+            "mainCurrencyInfo": "Mitä valuuttaa pitäisi käyttää khumien laskemiseen?",
             "customRates": {
-              "header": "<strong>Valuuttakurssien käyttäminen</strong>",
-              "subtext": "Näitä valuutan vaihtokursseja käytetään laskennassa. Voit muuttaa niitä käyttämään mukautettuja arvoja.",
-              "info": "Kun käsittelet historiallisia tietoja, kuten kun lisäät laskelmia yli vuoden takaa, jolloin valuuttakurssit eivät olleet samat kuin tänään, voit määrittää mukautettuja arvoja vaihtokursseille itse.",
-              "rateValuePH": "Vuonna {currency}esimerkiksi 1 {mainCurrency} = 80,21 {currency}"
+              "header": "<strong>Valuuttakurssien käyttö</strong>",
+              "subtext": "Näitä valuuttakursseja käytetään laskennassa. Voit muuttaa niitä käyttämään mukautettuja arvoja.",
+              "info": "Kun käsittelet historiallisia tietoja, kuten lisäät laskelmia yli vuoden takaisista khumeista, jolloin valuuttakurssit eivät olleet samat kuin nykyään, voit itse asettaa mukautettuja arvoja valuuttakursseille.",
+              "rateValuePH": "{currency} , esim. 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Laskea",
             "pageError": {
               "header": "Tapahtui virhe",
-              "desc": "Sivulle tarvittavien tietojen saaminen epäonnistui. Lataa sivu uudelleen tai yritä myöhemmin uudelleen."
+              "desc": "Sivulle vaadittujen tietojen hakeminen epäonnistui. Lataa sivu uudelleen tai yritä myöhemmin uudelleen."
             },
             "js": {
               "remarks": {
-                "deleteHeader": "Poistetaanko huomautuksia?",
-                "deleteText": "Haluatko varmasti poistaa huomautuksia tästä kohteesta?"
+                "deleteHeader": "Poistetaanko huomautukset?",
+                "deleteText": "Haluatko varmasti poistaa tämän kohteen huomautukset?"
               },
               "choicePrompt": {
                 "addHeader": "Lisätä",
-                "savings": "Lisää uusi merkintä säästöihin",
-                "liability": "Lisää uusi merkintä velkoihin"
+                "savings": "Lisää uusi merkintä Säästöihin",
+                "liability": "Lisää uusi kohtaan Vastuut"
               },
               "rowOptions": {
                 "header": "Mitä haluat tehdä tällä?",
-                "duplicate": "Luo kaksoiskappale merkinnästä",
-                "remarks": "Lisää huomautuksia tähän",
+                "duplicate": "Luo päällekkäinen merkintä",
+                "remarks": "Lisää tähän huomautuksia",
                 "delete": "Poista tämä merkintä"
               },
               "apiError": "Tapahtui virhe. Yritä uudelleen."
@@ -366,94 +365,94 @@
         }
       },
       "user": {
-        "name": "Käyttäjä | Tili",
+        "name": "Käyttäjätili",
         "editProfile": "Muokkaa profiilia",
-        "publishToFeed": "Syötteeseen tehtyjen muutosten julkaiseminen",
-        "shareUpdateToFeed": "Jaa tämä päivitys myös syötteeseeni",
-        "statusText_ph": "Käytä _kursivointia_ tai *lihavoitua* muotoilua tilan koristeluun",
-        "statusCharsLeft": "{kreivi} merkit jäljellä",
-        "jsImgUploadSuccess": "Kuvat ladattu onnistuneesti!",
+        "publishToFeed": "Julkaise muutokset syötteessä",
+        "shareUpdateToFeed": "Jaa tämä päivitys myös syötteessäni",
+        "statusText_ph": "Käytä _kursivointia_ tai *lihavoitua* muotoilua tilasi koristeluun",
+        "statusCharsLeft": "{count} jäljellä olevia merkkejä",
+        "jsImgUploadSuccess": "Kuvien lataus onnistui!",
         "unauthAccess": {
           "heading": "Oletko varma, että olet oikeassa paikassa?",
-          "desc": "<p>Näyttää siltä, että yritit käyttää sivua, johon sinulla ei ollut lupaa. Jos yritit käyttää sivua, jolla olet aiemmin käynyt, yritä kirjautua sisään. sen pitäisi ratkaista ongelma.</p> <p>Ota rohkeasti yhteyttä, jos ongelma jatkuu.</p>"
+          "desc": "<p>Vaikuttaa siltä, että yritit päästä sivulle, johon sinulla ei ollut lupaa. Jos yritit päästä sivulle, jolle olet käynyt aiemmin, yritä kirjautua sisään. sen pitäisi ratkaista ongelma.</p><p> Ota rohkeasti yhteyttä, jos ongelma jatkuu.</p>"
         },
         "guest": {
-          "welcome": "Tervetuloa, <strong>vieras!</strong>",
-          "heading": "Miksi kirjautua sisään tai rekisteröityä?",
-          "desc": "Sovelluksellamme olevalla tilillä voit käyttää useita ominaisuuksia. Aloita luomalla tili, jos sinulla ei vielä ole tiliä. Tai vain kirjaudu sisään!",
-          "unlockHeading": "avaa seuraavat tiedot tilillä:",
+          "welcome": "Tervetuloa, <strong>Vieras!</strong>",
+          "heading": "Miksi kirjautua tai rekisteröityä?",
+          "desc": "Sovelluksemme tilillä voit käyttää useita ominaisuuksia. Aloita luomalla tili, jos sinulla ei vielä ole tiliä. Tai vain kirjaudu sisään!",
+          "unlockHeading": "avaa seuraamisen lukitus tilillä:",
           "features": {
             "engage": {
-              "heading": "Osallistu sovellukseen",
-              "desc": "Ole yhteydessä muihin käyttäjiin, reagoi heidän viesteihinsä tai pyyntöihinsä, kommentoi mielipiteesi, lisää tuotteesi kirjanmerkkeihin ja paljon muuta!"
+              "heading": "Ota käyttöön sovellus",
+              "desc": "Ota yhteyttä muihin käyttäjiin, reagoi heidän viesteihinsä tai pyyntöihinsä, kommentoi mielipiteesi, merkitse kohteesi kirjanmerkkeihin ja paljon muuta!"
             },
             "fatiha": {
               "heading": "Lähetä Fatiha-pyyntö",
-              "desc": "Lähetä pyyntö Surah-e-Fatihalle edesmenneiden rakkaidesi sieluille ja siunaa heidän sielunsa kaikkien käyttäjiemme rukouksilla!"
+              "desc": "Lähetä Surah-e-Fatiha-pyyntö kuolleiden läheistesi sieluille ja siunaa heidän sielunsa kaikkien käyttäjiemme rukouksilla!"
             },
             "askQues": {
-              "heading": "Esitä kysymyksiä",
-              "desc": "Kysy Deen &Duniyan kysymyksiä eri aiheista, joihin hänen eminenssinsä Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani vastaa!"
+              "heading": "Kysy kysymyksiä",
+              "desc": "Esitä kysymyksiä Deen &amp; Duniyalta eri aiheista, jotta saat vastauksen hänen eminentsistään Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistanilta!"
             },
             "content": {
               "heading": "ensisijainen sisältö",
-              "desc": "Näet aina haluamasi sisällön ja asetukset, kun olet kirjautunut tilillesi. Saat myös ilmoituksen kaikista mielenkiintoisista asioista!"
+              "desc": "Näet aina haluamasi sisällön ja asetukset, kun olet kirjautuneena tilillesi. Saat myös ilmoituksen kaikista mielenkiintoisista asioista!"
             },
             "personalized": {
               "heading": "henkilökohtainen jakaminen",
-              "desc": "Määritä allekirjoituksellasi personoidun sisällön jakaminen, jotta ystäväsi tietävät, milloin jaat viestin/julkaisun."
+              "desc": "Aseta jakamissisältö, joka on personoitu allekirjoituksellasi, jotta ystäväsi tietävät, kun jaat viestin/viestin."
             }
           }
         },
         "about": {
           "title": "Noin",
-          "jsStatusUpdateFail": "Tilan päivittäminen epäonnistui. Yritä myöhemmin uudelleen.",
-          "statusTextInfo": "Lisää jotain lyhyttä itsestäsi, kuten kuka olet tai mitä teet!",
+          "jsStatusUpdateFail": "Tilan päivittäminen epäonnistui. Yritä uudelleen myöhemmin.",
+          "statusTextInfo": "Lisää lyhyesti itsestäsi, kuten kuka olet tai mitä teet!",
           "statusCta": "Lisää tila | Päivitä tila",
           "addCity": "Lisää kaupunki",
-          "gender": "Mies | Nainen",
+          "gender": "Mies Nainen",
           "addGender": "Lisää sukupuoli",
           "addBday": "Lisää syntymäpäivä",
           "addRelation": "Lisää suhde",
-          "joinDate": "Liittynyt: {date}",
-          "privateInfoDesc": "Nämä tiedot näkyvät vain sinulle, ja näet tähän perustuvan sisällön ja ominaisuudet.",
+          "privateInfoDesc": "Nämä tiedot näkyvät vain sinulle ja näet niiden perusteella sisältöä ja ominaisuuksia.",
           "idSetupCta": "Määritä henkilöllisyytesi",
-          "idVerifyCta": "Tarkistaa"
+          "idVerifyCta": "Vahvista",
+          "joinDate": "Liittynyt: {date}"
         },
         "posts": {
-          "title": "Virkaa",
-          "userNoPosts": "Kun vaihdat kuvasi/kansikuvasi tai kun pyydät surah-fatihaa tuhoutuneille rakkaillesi, nämä viestit näkyvät täällä ja Koti-välilehdellä <b></b> (myös muista). Yritätkö lisätä kuvan tai kansikuvan?",
+          "title": "Viestit",
+          "userNoPosts": "Kun vaihdat kuvaasi/kansikuvaasi tai kun pyydät surah-fatihaa kuolleille läheisillesi, nämä viestit näkyvät täällä ja <b>Etusivu-</b> välilehdellä (myös muiden). Yritätkö lisätä kuvan tai kansikuvan?",
           "profileNoPosts": "{name} ei ole vielä tehnyt yhtään viestiä."
         },
         "marhumeen": {
-          "title": "Marhumeen",
+          "title": "Kuollut",
           "header": {
-            "marhumeenNotAdded": "{name} ei ole vielä lisännyt marhumeenia -— Et ole vielä lisännyt marhumeenia",
-            "marhumeenAdded": "{name} on lisännyt marhumeenin jälkeen -— Olet lisännyt marhumeenin jälkeen"
+            "marhumeenNotAdded": "{name} ei ole vielä lisätty marhumeen | Et ole vielä lisännyt marhumeen",
+            "marhumeenAdded": "{name} on lisännyt seuraavan marhumeen | Olet lisännyt seuraavan marhumeen"
           },
           "jsDeleteHeader": "Oletko varma?",
-          "jsDeletePrompt": "<b>Tietueiden poistaminen {fullName}:</b>sta poistaa myös kaikki aiemmat {gender}:lle tehdyt pyynnöt! Jatkaa?",
-          "jsDeleted": "{marhumeen}:n poistetut tietueet"
+          "jsDeletePrompt": "<b>{fullName}</b> -tietueiden poistaminen poistaa myös kaikki aiemmat {gender} koskevat pyynnöt! Jatkaa?",
+          "jsDeleted": "{marhumeen} tietueet poistettu"
         },
         "verifyCard": {
-          "title": "Vahvista shiia-henkilöllisyytesi | Vahvista Sadat-henkilöllisyytesi",
-          "p1": "Olet ilmoittanut profiilissasi, että olet shiiamuslimi. Näiden tietojen vahvistaminen mahdollistaa sinulle lisää ominaisuuksia ja auttaa meitä rakentamaan vahvistetun shiiamuslimien yhteisön.",
-          "p2": "Vahvista henkilöllisyytesi; Se ei vie kauan",
-          "noReminder": "Älä muistuta minua enää",
+          "title": "Vahvista shia-identiteettisi | Vahvista Sadat-henkilöllisyytesi",
+          "p1": "Olet ilmoittanut profiilissasi, että olet shiiamuslimi. Näiden tietojen vahvistaminen antaa sinulle enemmän ominaisuuksia ja auttaa meitä rakentamaan vahvistetun shiiamuslimien yhteisön.",
+          "p2": "Vahvista henkilöllisyytesi; se ei kestä kauan",
+          "noReminder": "Älä muistuta minua uudelleen",
           "dismissCta": "Ei nyt",
-          "startCta": "Aloittaa"
+          "startCta": "alkaa"
         },
         "verifyPrompt": {
-          "jsGetVerified": "Sinun on ensin vahvistettava ennen kuin voit vahvistaa muita!",
-          "jsLinkExpired": "Tämä linkki on virheellinen tai vanhentunut. Pyydä ystävääsi lähettämään uusi pyyntö.",
+          "jsGetVerified": "Sinun on ensin hankittava vahvistus ennen kuin voit vahvistaa muita!",
+          "jsLinkExpired": "Tämä linkki on joko virheellinen tai se on vanhentunut. Pyydä ystävääsi lähettämään uusi pyyntö.",
           "confirm": {
             "heading": "Vahvista tilin henkilöllisyys",
-            "msg": "Auta {firstName} {genderLabel1} tilitietojen vahvistamisessa. Näin {genderLabel2} voivat käyttää sovelluksemme muita ominaisuuksia",
-            "jsSkip": "Ei hätää. Jos muutat mielesi, voit tarkistaa tämän linkin uudelleen myöhemmin."
+            "msg": "Auta {firstName} vahvistamaan {genderLabel1} tilitiedot. Tämä antaa {genderLabel2} mahdollisuuden käyttää muita sovelluksemme ominaisuuksia",
+            "jsSkip": "Ei ongelmaa. Jos muutat mieltäsi, voit tarkistaa tämän linkin myöhemmin."
           }
         },
         "myKhums": {
-          "title": "Minun Khums"
+          "title": "Minun Khumini"
         }
       }
     },
@@ -465,62 +464,61 @@
     },
     "comps": {
       "common": {
-        "nextStep": "Seuraava vaihe",
+        "nextStep": "Seuraava askel",
         "goBack": "Mene takaisin",
         "confirm": "Vahvistaa"
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "Sijainti ei ole käytettävissä. Aseta se napsauttamalla kuvaketta nähdäksesi salat-aikojen pikanäkymän.",
-          "unknownError": "Tapahtui virhe. Ei voinut ladata aikoja tällä hetkellä."
+          "locUnavailable": "Sijainti ei ole käytettävissä. Aseta se napsauttamalla kuvaketta nähdäksesi pikanäkymän Salat-ajoista.",
+          "unknownError": "Tapahtui virhe. Aikoja ei voitu ladata tällä hetkellä."
         }
       },
       "langPrompt": {
-        "title": "Käytätkö sovellusta {langLabel}:ssa?",
+        "title": "Käytä sovellusta {langLabel} ?",
         "desc": {
-          "p1": "Näyttää siltä, että käytät sovellusta osoitteesta {countryName}. Haluatko nähdä sisällön ja ohjausobjektit jollakin seuraavista kielistä, joita puhutaan alueella? Napsauta valintaasi ja napsauta sitten 'Tallenna' jatkaaksesi.",
-          "p2": "Voit myös hylätä tämän ponnahdusikkunan, jos haluat jatkaa sovelluksen käyttöä oletuskielellä."
+          "p1": "Näyttää siltä, että käytät sovellusta maasta {countryName} . Haluatko nähdä sisältöä ja säätimiä jollakin seuraavista alueella puhutuista kielistä? Napsauta valintaasi ja jatka sitten napsauttamalla Tallenna.",
+          "p2": "Tai hylkää tämä ponnahdusikkuna jatkaaksesi sovelluksen käyttöä oletuskielellä."
         },
         "choices": {
           "useLang": [
             "Kyllä, käytä {langName}",
-            "Käytä {langName}-parametria"
+            "Käytä {langName}"
           ],
-          "useEngling": "Jatka englanniksi",
           "useEnglish": "Jatka englanniksi",
-          "selectFrom": "Voit myös valita jonkin seuraavista vaihtoehtoisista kielistä:"
+          "selectFrom": "Tai valitse jokin seuraavista vaihtoehtoisista kielistä:"
         },
-        "langError": "{langName}:n käännöksiä ladattaessa tapahtui virhe. Yritä myöhemmin uudelleen."
+        "langError": "Tapahtui virhe ladattaessa kielen {langName} käännöksiä. Yritä uudelleen myöhemmin."
       },
       "createPost": {
         "heading": "Mistä tänään on kyse?",
-        "desc": "Klikkaa tästä jakaaksesi päivityksen tai käyttääksesi alla olevaa vaihtoehtoa",
-        "request": "Pyytää",
+        "desc": "Napsauta tätä jakaaksesi päivityksen tai käyttääksesi vaihtoehtoa alla",
+        "request": "Pyyntö",
         "askQues": "Kysy kysymys",
         "sheetOptions": {
-          "header": "Tee pyyntö",
-          "subheader": "Tee momineen-pyyntö marhumeenillesi tai itsellesi.",
-          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat at Zari-e-Imam Husain (a.s.) puolestasi"
+          "header": "Tehdä pyyntö",
+          "subheader": "Tee pyyntö momineenilta marhumeenille tai itsellesi.",
+          "requestFatiha": "Surah-Fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Healthy*",
+          "requestZiyarat": "Ziyarat Zari-e-Imam Hussainissa (as) puolestasi"
         },
         "modal": {
           "titles": {
-            "post": "Luo viesti -— Päivitä viesti",
+            "post": "Luo viesti | Päivitä viesti",
             "livestream": "Suora lähetys",
-            "hadiyah": "Luo Hadiyah -- Päivitä Hadiyah"
+            "hadiyah": "Luo lahja - Päivitä lahja"
           },
-          "postCta": "Viesti -— Päivitys",
+          "postCta": "Viesti | Päivitys",
           "stream": {
             "scheduleCta": "Tallenna myöhempää käyttöä varten | Aloita suoratoisto"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Kenelle haluat lahjoittaa tämän?",
-              "addPeopleToggle": "Antakaa muidenkin olla osa tätä sahaa!",
-              "searchInput": "Momimeenin kutsuminen Bazmista tai yhteystietoluettelostasi",
+              "placeholder": "Kenelle haluat antaa tämän lahjaksi?",
+              "addPeopleToggle": "Anna muidenkin olla osa tätä sawabia!",
+              "searchInput": "Kutsu momimeen Bazmista tai yhteystietoluettelostasi",
               "minUsersHeader": "Haluatko asettaa vähimmäismäärän, joka osallistujien on valittava?",
-              "minUsersInput": "Syötä vähimmäismäärä"
+              "minUsersInput": "Anna vähimmäismäärä"
             }
           },
           "postTime": [
@@ -529,19 +527,19 @@
           ],
           "whereIsIt": "Missä se on?",
           "findLocation": "Etsi sijainti",
-          "locationSubtext": "Sijainnin lisääminen julkaisuun",
+          "locationSubtext": "Lisää sijainti viestiisi",
           "addLocation": "Lisää sijainti",
-          "addPics": "Kuvien lisääminen julkaisuun",
-          "previewDes": "Näin julkaisusi näkyisi muiden ihmisten syötteessä. Ihmiset voivat napauttaa videota nähdäkseen sen koko näytössä.",
-          "addToPost": "Lisää {postType}:een (valinnainen)",
-          "jsImgUploadFail": "Kuvaa ei ole ladattu",
-          "jsAddDetailToPost": "Ole hyvä ja lisää tietoja viestiisi",
-          "jsValidEndDate": "Valitse kelvollinen päättymispäivä",
-          "jsSetLocation": "Ole hyvä ja aseta viestille sijainti",
+          "addPics": "Lisää kuvia viestiisi",
+          "previewDes": "Näin viestisi näkyisi muiden ihmisten syötteessä. Ihmiset voivat nähdä videon koko näytössä napauttamalla sitä.",
+          "addToPost": "Lisää {postType} (valinnainen)",
+          "jsImgUploadFail": "Kuvaa ei ladattu",
+          "jsAddDetailToPost": "Lisää tiedot viestiisi",
+          "jsValidEndDate": "Valitse kelvollinen lopetuspäivä",
+          "jsSetLocation": "Aseta postauksen sijainti",
           "jsRemLocation": "Aseta sijainti tai poista kyseinen osio",
           "jsAddImg": "Lisää kuvia tai poista kyseinen osio",
           "jsInvalidDate": [
-            "Aseta kelvollinen aloituspäivä ",
+            "Aseta kelvollinen aloituspäivä",
             "Aseta kelvollinen aloituspäivä tai poista kyseinen osio"
           ]
         }
@@ -549,117 +547,114 @@
       "comments": {
         "name": "Kommentit",
         "loadPrevious": "Lataa aiemmat kommentit | Lataa aiemmat vastaukset",
-        "replyingTo": "Vastaus:",
-        "noComments": "Ei vielä kommentteja tästä viestistä",
+        "replyingTo": "Vastataan:",
+        "noComments": "Tähän postaukseen ei ole vielä kommentoitu",
         "textboxPlaceholder": "Kirjoita kommenttisi tähän",
         "requestToLogin": "Kirjaudu sisään tai rekisteröidy aloittaaksesi keskustelun"
       },
       "post": {
         "addressYou": "Sinä",
-        "addressing": "sinun -- hänen -- hän",
+        "addressing": "sinun | hänen | häntä",
         "itemTypes": {
           "avatar": "avatar-kuva",
-          "banner": "bannerin kuva",
+          "banner": "bannerikuva",
           "status": "profiilin tila"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> updated {addressing} {item}",
+          "common": "<strong>{username}</strong> {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> pyysi surah-fatihaa {addressing} {relation} -kohteelle",
-            "<strong>{username}</strong> pyydetty surah-fatiha &namaz-e-wahshat for {addressing} {relation}"
+            "<strong>{username}</strong> pyydettiin surah {relation} fatiha {addressing}",
+            "<strong>{username}</strong> pyydettiin surah-fatiha &amp; namaz-e-wahshat {addressing} {relation}"
           ]
         },
-        "dateUntil": "Kunnes: {date} at {time}",
+        "dateUntil": "Kunnes: {date} {time}",
         "privatePost": "Tämä viesti näkyy vain sinulle",
-        "descZiyaratRequest": "Pyysit Ziyaratia suorittamaan puolestasi imaami Husainin (a.s.) *haramissa* *{päivämäärä}*"
+        "descZiyaratRequest": "Pyysit, että Ziyarat suoritetaan puolestasi Imam Husainin (as) *haramissa* {date} *"
       },
       "addEditRel": {
         "title": {
-          "request": "Pyydä Surah-al-fatihaa",
+          "request": "Pyydä Surah-al-Fatiha",
           "addUpdate": [
             "Päivitä rakkaasi",
-            "Lisää rakastettu"
+            "Lisää rakastettusi"
           ]
         },
         "heading": [
-          "Lisää rakkaasi, joka on siirtynyt eteenpäin",
-          "Valitse läheinen luettelosta tai lisää läheinen, joka on siirtynyt eteenpäin"
+          "Lisää läheinen, joka on siirtynyt eteenpäin",
+          "Valitse luettelosta rakastettu tai lisää läheinen, joka on siirtynyt"
         ],
         "addNew": "Lisää uusi",
         "subheader": [
-          "Lisää rakkaasi tiedot",
-          "Voit myös sisällyttää viestin pyyntöösi"
+          "Lisää tiedot rakkaastasi",
+          "Voit myös liittää pyyntöösi viestin"
         ],
         "form": {
           "jsAddImg": "Lisää kuva rakkaallesi",
           "jsRemoveImg": "Poista kuva",
           "fullName": "Kuolleen koko nimi",
           "name_ph": "Esimerkiksi Syed Zeeshan Haider Abidi",
-          "fathersName": "Isän nimi (Jos saatavilla)",
+          "fathersName": "Isän nimi (jos saatavilla)",
           "father_ph": "Esimerkiksi Syed Tauqeer Husain",
-          "nameError": "Kirjoita koko nimi erikoismerkkien kanssa",
+          "nameError": "Anna koko nimi ilman erikoismerkkejä",
           "genderLabel": "Sukupuoli",
           "genderValue": [
-            "Naispuolinen",
-            "Mies"
+            "Nainen",
+            "Uros"
           ],
           "relation": [
             "Marhooma on sinun",
             "Marhoom on sinun"
           ],
-          "selectRelation": "Valitse relaatio",
-          "demiseLabel": "Kuolitko tänään? Pyydä Namaz-e-Wahshatia",
-          "demiseText": "Olemme hyvin pahoillamme kuullessamme menetyksestäsi. Antakoon Allah sinulle ja perheellesi voimaa kestää tämä menetys kärsivällisesti ja palkitkoon Allah palkitkoon tuhoutuneen sielun korkeimmilla paikoilla Jannahissa. Kun valitset tämän vaihtoehdon, voit pyytää momineenilta Namaz-e-Wahshatia tuhoutuneelle sielulle.",
+          "selectRelation": "Valitse Suhde",
+          "demiseLabel": "Lopetti tänään? Pyydä Namaz-e-Wahshat",
+          "demiseText": "Olemme erittäin pahoillamme menetyksestäsi. Antakoon Allah sinulle ja perheellesi voimaa kestää tämä menetys kärsivällisesti ja palkitsekoon Allah kuolleelle sielulle korkeimmat paikat Jannassa. Kun valitset tämän vaihtoehdon, voit pyytää momineenilta Namaz-e-Wahshatia kuolleelle sielulle.",
           "optional": "Valinnainen",
-          "dod": "Kuoli",
+          "dod": "Kuollut",
           "dob": "Syntyi"
         },
         "relation": [
-          "Tytär",
+          "tytär",
           "Poika"
         ],
         "born": "Syntynyt:",
-        "died": "Kuoli:",
+        "died": "Kuollut:",
         "addMsg": "Haluatko lisätä viestin?",
-        "remainingChars": "Merkit: {count} | Merkit: {count} jäljellä",
-        "infoEditRelative": "Voit muokata {name}:n tietoja <b>Tili > Marhumeen</b> -osiossa",
+        "addMsg_ph": "Esimerkiksi: Inna lillahi wa inna ilaihe raje&#39;un. Lausu suura-e-fatiha ja 2-rak&#39;at namaz-e-wahshat setälleni, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoomille, joka jätti meidät kaikki itkemään tapaamaan luojaansa.",
+        "remainingChars": "Merkkejä: {count} | Merkkejä: jäljellä olevien merkkien {count}",
+        "infoEditRelative": "Voit muokata {name} tietoja <b>Tili &gt; Marhumeen</b> -osiossa",
         "saveRequestCta": [
-          "Tallenna ja pyydä",
-          "Pyytää"
+          "Tallenna &amp; Pyydä",
+          "Pyyntö"
         ],
-        "addUpdate": "Lisää -— Päivitä",
-        "jsRequesting": "Pyytää..",
+        "addUpdate": "Lisää | Päivitä",
+        "jsRequesting": "Pyydetään..",
         "jsAddSuccess": [
-          "Lisäsi rakkaasi onnistuneesti!",
+          "Rakkaasi lisätty onnistuneesti!",
           "Päivitä rakkaasi onnistuneesti!"
         ],
-        "jsAddFail": "Ei onnistunut lisäämään rakkaasi. Yritä myöhemmin uudelleen.",
-        "jsReqSuccess": "Pyyntö on lähetetty onnistuneesti.",
-        "jsGettingMarhumeen": "Hanki marhumeenisi.."
+        "jsAddFail": "Rakkaasi lisääminen epäonnistui. Yritä uudelleen myöhemmin.",
+        "jsReqSuccess": "Pyyntö lähetetty onnistuneesti.",
+        "jsGettingMarhumeen": "Hanki marhumeen.."
       },
       "askQues": {
-        "title": "Esitä kysymys",
+        "title": "Kysy kysymys",
         "form": {
           "quesLabel": "Kysymyksesi",
-          "quesLabel_ph": "Hae kysymystä tai kysy omalta",
-          "similarQues": "Näillä kysymyksillä voi olla jo etsimäsi vastaus.",
+          "quesLabel_ph": "Hae kysymys tai kysy omasi",
+          "similarQues": "Näihin kysymyksiin voi jo löytyä vastaus, jota etsit.",
           "quesTextHeader": "Kysymyksesi:",
-          "selectCat": "Aseta kysymysluokka:",
-          "askAnonLabel": "Kysy nimettömänä?",
-          "askAnonInfo": "Nimeäsi ei lähetetä tutkijalle, kun pyydät vastausta puolestasi, eikä sitä näytetä sovelluksessamme tämän kysymyksen kanssa. Mutta nimettömiin kysymyksiin ei välttämättä vastata nopeasti.",
-          "askViaLabel": "Kysy vialta",
-          "askSistaniInfo": "Voit esittää kysymyksen, johon hänen eminenssinsä Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistanin toimisto vastaa. Välitämme kysymyksen heidän verkkosivustolleen (yhdessä profiilitietojesi kanssa). Varmista, että olet lukenut <b>käyttöehdot</b> oikein.",
-          "tncLabel": "Säännöt & Ehdot:",
-          "showHide": [
-            "Näyttää",
-            "Piilottaa"
-          ],
-          "sistaniOrgTncInfo": "Harkitse heidän verkkosivustonsa kohtien seuraamista ennen kuin esität kysymyksen, koska jos et noudata alla olevia kohtia, et ehkä kuule niistä tai et ehkä saa vastauksia.",
+          "selectCat": "Aseta kysymyksen luokka:",
+          "askAnonLabel": "Kysy anonyymisti?",
+          "askAnonInfo": "Nimeäsi ei lähetetä Scholarille, kun hän pyytää vastausta puolestasi, eikä sitä näytetä sovelluksessamme tämän kysymyksen yhteydessä. Mutta anonyymeihin kysymyksiin ei välttämättä vastata nopeasti.",
+          "askViaLabel": "Kysy Vialta",
+          "askSistaniInfo": "Voit esittää kysymyksen, johon hänen eminentsinsä Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistanin toimisto vastaa. Välitämme kysymyksen heidän verkkosivustolleen (yhdessä profiilitietosi kanssa). Varmista, että olet lukenut <b>käyttöehdot</b> oikein.",
+          "tncLabel": "Käyttöehdot:",
+          "sistaniOrgTncInfo": "Harkitse heidän verkkosivustonsa kohtien seuraamista ennen kysymyksen esittämistä, koska jos et noudata alla olevia kohtia, et ehkä kuule heiltä vastausta tai et ehkä saa vastauksia.",
           "userInfo": {
-            "aboutLabel": "Tietoa sinusta",
-            "genderLabel": "Sinun sukupuolesi",
-            "bdayLabel": "Syntymäpäiväsi",
-            "bdayDesc": "Voit esittää kysymyksen vain, jos olet yli 09-vuotias. Jos olet edelleen kiinnostunut, ota meihin yhteyttä."
+            "aboutLabel": "Sinusta",
+            "genderLabel": "Sukupuolesi",
+            "bdayLabel": "Sinun syntymäpäiväsi",
+            "bdayDesc": "Voit esittää kysymyksen vain, jos olet yli 09-vuotias."
           },
           "jsQuesAdded": "Kysymys lisätty onnistuneesti."
         },
@@ -667,43 +662,43 @@
       },
       "authPrompt": {
         "title": "Tili vaaditaan",
-        "defLabel": "Kirjaudu sisään tai rekisteröidy jatkaaksesi",
-        "infoText": "Tämä ominaisuus edellyttää, että kirjaudut sisään tai rekisteröidyt ennen kuin voit käyttää sitä. Klikkaa <b>Kirjaudu sisään</b>, jos olet jo rekisteröitynyt, tai luo tilisi valitsemalla <b>Rekisteröidy</b>."
+        "defLabel": "Kirjaudu sisään tai Rekisteröidy jatkaaksesi",
+        "infoText": "Tämä ominaisuus edellyttää, että kirjaudut sisään tai rekisteröidyt ennen kuin voit käyttää sitä. Napsauta <b>Kirjaudu sisään</b> , jos olet jo rekisteröitynyt, tai napsauta <b>Rekisteröidy</b> luodaksesi tilisi."
       },
       "location": {
-        "title": "Vaihda sijainti",
-        "search_ph": "Hae sijainnistasi",
-        "autoDetectInfo": "Anna sijaintisi tai napsauta automaattisen tunnistamisen kuvaketta saadaksesi sijaintisi.",
+        "title": "Vaihda sijaintia",
+        "search_ph": "Hae sijaintiasi",
+        "autoDetectInfo": "Anna sijaintisi tai napsauta automaattisen tunnistuskuvaketta saadaksesi sijaintisi.",
         "setLocation": "Aseta sijainti",
         "ipAddress": "IP-osoite",
         "alarmLocation": "Hälytyksen sijainti",
-        "basedOn": "Sijainti perustuu {valitsimeen}",
-        "jsDetecting": "Havaitseminen, odota..",
-        "jsPermDenied": "Sovelluksen sijaintilupa on evätty. Nollaa tämän sovelluksen sijaintiasetukset käymällä puhelimesi Asetukset-osiossa.",
-        "jsPosUnavailable": "Olemme pahoillamme, mutta paikka ei ole tällä hetkellä käytettävissä tälle puhelimelle. Yritä myöhemmin uudelleen.",
-        "jsMatchNotFound": "Vastaavia sijainteja ei löytynyt..",
+        "basedOn": "Sijainti {selector} perusteella",
+        "jsDetecting": "Havaitaan, odota...",
+        "jsPermDenied": "Sovelluksen sijaintilupa evätty. Nollaa tämän sovelluksen sijaintiasetus siirtymällä puhelimesi Asetukset-osioon.",
+        "jsPosUnavailable": "Pahoittelemme, mutta paikka ei ole tällä hetkellä saatavilla tälle puhelimelle. Yritä uudelleen myöhemmin.",
+        "jsMatchNotFound": "Vastaavia paikkoja ei löytynyt..",
         "jsEnterValidLoc": "Anna kelvollinen sijainti",
-        "jsGeoUnavailable": "Olemme pahoillamme, mutta paikka ei ole tällä hetkellä käytettävissä tälle puhelimelle. Yritä myöhemmin uudelleen.",
-        "jsLocMissing": "Sijaintiasi ei löytynyt. Syötä sijainti manuaalisesti.",
+        "jsGeoUnavailable": "Pahoittelemme, mutta paikka ei ole tällä hetkellä saatavilla tälle puhelimelle. Yritä uudelleen myöhemmin.",
+        "jsLocMissing": "Sijaintiasi ei löytynyt. Anna sijainti manuaalisesti.",
         "jsSelectedLoc": "Tässä sijainnissa on virhe. Yritä uudelleen"
       },
       "readText": {
         "ctaLabel": "Lukea",
-        "title": "Dua: {title}",
-        "arabicCta": "Arabia",
+        "title": "Kaksi: {title}",
+        "arabicCta": "arabialainen",
         "englishCta": "Englanti",
         "translatedCta": "Käännetty"
       },
       "reqAccess": {
         "heading": "pääsy vaaditaan",
         "subheading": "Tarvitsemme luvan käyttää kameraasi",
-        "subtext": "Salli pääsy napsauttamalla alla olevaa painiketta:",
-        "ctaLabel": "salli pääsy"
+        "subtext": "Salli käyttöoikeus napsauttamalla alla olevaa painiketta:",
+        "ctaLabel": "Sallia pääsy"
       },
       "shareBtn": {
-        "subtext": "Napsauta yhtä alla olevista vaihtoehdoista jakaaksesi tämän vastaavassa sovelluksessa:",
-        "jsCopyToCB": "Kopioitu leikepöydälle",
-        "copyText": "Napsauta <b>yllä olevaa Kopioi-kuvaketta</b> kopioidaksesi alla olevan sisällön:"
+        "subtext": "Napsauta jotakin alla olevista vaihtoehdoista jakaaksesi tämän kyseisessä sovelluksessa:",
+        "jsCopyToCB": "Kopioitu leikepöydällesi",
+        "copyText": "Napsauta yllä olevaa <b>Kopioi-</b> kuvaketta kopioidaksesi alla olevan sisällön:"
       },
       "verifyMob": {
         "title": [
@@ -711,7 +706,7 @@
           "Syötä koodi"
         ],
         "page1": {
-          "infoText1": "Tarvitsemme matkapuhelinnumerosi henkilöllisyytesi vahvistamiseen. Saatat myös saada satunnaisia päivityksiä.",
+          "infoText1": "Tarvitsemme matkapuhelinnumerosi henkilöllisyytesi vahvistamiseksi. Saatat myös saada satunnaisia päivityksiä.",
           "infoText2": [
             "Anna numerosi ja napsauta painiketta saadaksesi vahvistuskoodisi:",
             "Anna numerosi ja napsauta painiketta saadaksesi vahvistuskoodisi:"
@@ -719,103 +714,104 @@
         },
         "form": {
           "mobileLabel": "Matkapuhelinnumero",
-          "mobileLabel_ph": "Anna matkapuhelinnumerosi",
-          "otpViaSMS": "Hanki tekstiviestillä",
+          "mobileLabel_ph": "Syötä matkapuhelinnumerosi",
+          "otpViaSMS": "Saa tekstiviestillä",
           "viaWhatsApp": "Hanki WhatsAppin kautta",
           "viaTelegram": "Hanki Telegramin kautta",
-          "viaSignal": "Hanki signaalin kautta"
+          "viaSignal": "Saa signaalin kautta"
         },
         "page2": {
-          "header": "Olemme lähettäneet 6-numeroisen vahvistuskoodin numeroosi ({numero})",
+          "header": "Olemme lähettäneet 6-numeroisen vahvistuskoodin numeroosi ( {number} )",
           "enterCodeLabel": "Syötä koodi",
           "enterCode_ph": "Syötä 6-numeroinen koodi",
           "resendCode": "Lähetä koodi uudelleen",
-          "notUsingMobile": "Etkö käytä <strong>{number}:ia?</strong>",
+          "notUsingMobile": "Et käytä <strong>{number} ?</strong>",
           "changeNumber": "Muuta numeroa"
         },
-        "jsVerifySuccess": "Mobiilivahvistettu onnistuneesti",
-        "jsVerifyError": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
-        "jsSendOtpFailed": "OTP:n lähettäminen epäonnistui. Yritä myöhemmin uudelleen.",
-        "jsSendOtpSuccess": "OTP lähetetty osoitteeseen {mobile}",
-        "jsTooManyRequests": "Näyttää siltä, että olet kokeillut jo liian monta kertaa. Odota hetki tai kaksi ja yritä uudelleen."
+        "jsVerifySuccess": "Mobiilivahvistus onnistui",
+        "jsVerifyError": "Tapahtui virhe. Yritä uudelleen myöhemmin.",
+        "jsSendOtpFailed": "OTP:n lähettäminen epäonnistui. Yritä uudelleen myöhemmin.",
+        "jsSendOtpSuccess": "OTP lähetetty {mobile}",
+        "jsTooManyRequests": "Näyttää siltä, että olet yrittänyt jo liian monta kertaa. Odota minuutti tai kaksi ja yritä uudelleen."
       },
       "userSettings": {
-        "personalSharingMsg": "Jakamisen viestin mukauttaminen",
+        "personalSharingMsg": "Mukauta jakamisviesti",
         "changePwd": "Vaihda salasana | Aseta salasana",
-        "changeLang": "Vaihda kieli",
-        "publishToFeed": "Julkaise muutokset myös syötteeseen."
+        "changeLang": "Vaihda kieltä",
+        "publishToFeed": "Julkaise muutokset myös syötteessä."
       },
       "userSettingsModal": {
         "title": {
-          "personalize": "Mukauttaminen",
+          "personalize": "Personointi",
           "changePwd": "@:comps.userSettings.changePwd",
           "setLang": "@:comps.userSettings.changeLang"
         },
         "sign": {
-          "addNameToMsgs": "Nimen lisääminen viesteihin",
-          "sharingDesc": "Kun jaat ulkoisesti, viestisi voivat näyttää alla olevilta:",
+          "addNameToMsgs": "Lisää nimeni viesteihin",
+          "sharingDesc": "Kun jaat ulkoisesti, viestisi voivat näyttää tältä:",
           "sharingTextDemo": [
-            "Kuuntele tämä Nauha Bazm-sovelluksessa",
-            "{name} suosittelee kuuntelemaan tätä Nauhaa Bazm-sovelluksessa"
+            "Listen to this Nauha on Bazm App",
+            "{name} suosittelee tämän Nauhan kuuntelua Bazm-sovelluksessa"
           ],
           "addSignDesc": "Haluatko lisätä myös allekirjoituksesi?",
-          "signDesc": "Kun jaat toiveesi ystävien kanssa tällä sovelluksella, allekirjoituksesi lisätään viesteihin. Se voi esimerkiksi näkyä seuraavanlaisesti:"
+          "addSignPlaceholder": "Esimerkiksi Ystävällisin terveisin, {name}",
+          "signDesc": "Kun jaat toiveesi ystävien kanssa tässä sovelluksessa, allekirjoituksesi lisätään viesteihin. Se voi esimerkiksi näyttää seuraavalta:"
         },
         "changePwd": {
-          "currentPwdLabel": "Anna olemassa oleva salasanasi:",
+          "currentPwdLabel": "Anna nykyinen salasanasi:",
           "currentPwdPH": "Anna nykyinen salasana",
-          "newPwdLabel": "Anna uusi salasana:",
-          "newPwdPH": "Anna uusi salasana"
+          "newPwdLabel": "Syötä uusi salasana:",
+          "newPwdPH": "Syötä uusi salasana"
         },
         "changeLang": {
-          "searchYourLang": "Hae kielestäsi",
-          "desc": "Valitse kieli, jolla haluat nähdä sovelluksen sisällön. Napsauta kieltä ja odota (käännöksen lataaminen vie jonkin aikaa) nähdäksesi, miten tämä lause näkyy valitulla kielellä."
+          "searchYourLang": "Hae kielelläsi",
+          "desc": "Valitse kieli, jolla haluat nähdä sovelluksen sisällön. Napsauta kieltä ja odota (käännöksen lataaminen kestää jonkin aikaa) nähdäksesi, miltä tämä lause näyttää valitulla kielellä."
         },
         "jsPwdInvalid": "Salasanassa on virheellisiä merkkejä.",
-        "jsPwdCharCount": "Salasana voi olla alle 8 merkkiä.",
+        "jsPwdCharCount": "Salasana ei saa olla alle 8 merkkiä pitkä.",
         "jsSelectLang": "Valitse ensin kieli.",
         "jsLangSet": "Kieleksi on asetettu {lang}",
-        "jsPrefSaved": "Mukautusasetukset tallennettu."
+        "jsPrefSaved": "Räätälöintiasetukset tallennettu."
       },
       "forgotPwd": {
-        "title": "Unohditko salasanasi?",
-        "introText": "Salasanan vaihtaminen on helppoa. Valitse menetelmä jatkaaksesi:",
+        "title": "Unohtuiko salasana?",
+        "introText": "Salasanan nollaus on helppoa. Valitse menetelmä jatkaaksesi:",
         "usePhoneCta": "Käytä puhelinta",
-        "useEmailCta": "Sähköpostin käyttäminen",
-        "sendEmailIntro": "Anna sähköpostiosoite, jolla loit tilisi, niin lähetämme sähköpostiviestin, jossa on linkki uuden salasanan määrittämiseksi tilillesi.",
+        "useEmailCta": "Käytä sähköpostia",
+        "sendEmailIntro": "Anna sähköpostiosoite, jolla loit tilisi, niin lähetämme sähköpostin, jossa on linkki uuden salasanan määrittämiseksi tilillesi.",
         "emailInputLabel": "Rekisteröity sähköpostiosoitteesi",
-        "sendEmailCta": "Lähetä palauta sähköposti",
-        "sentEmailText": "Jos sinulla on tili meillä, saat salasanan vaihtosähköpostin pian <strong>{email}</strong>. Tarkista ystävällisesti sähköpostistasi linkki.",
-        "notUsingEmailText": "Etkö käytä <strong>{email}:ia?</strong>",
+        "sendEmailCta": "Lähetä nollaussähköposti",
+        "sentEmailText": "Jos sinulla on tili meillä, saat <strong>{email}</strong> pian salasanan vaihtosähköpostin . Tarkista linkki sähköpostistasi.",
+        "notUsingEmailText": "Etkö käytä <strong>{email} ?</strong>",
         "changeEmailCta": "Vaihda sähköposti",
-        "phoneIntroText": "Anna tiliisi lisätty puhelinnumero. Lähetämme OTP:n vahvistamaan omistajuutesi, ja seuraavassa vaiheessa voit luoda uuden salasanan.",
+        "phoneIntroText": "Anna tilillesi lisätty puhelinnumero. Lähetämme OTP:n vahvistaaksemme omistajuuden, ja seuraavassa vaiheessa voit luoda uuden salasanan.",
         "phoneInputLabel": "Matkapuhelinnumerosi",
         "sendOtpCta": "Lähetä OTP",
         "backToLoginCta": "Takaisin sisäänkirjautumiseen",
-        "disclaimerText": "Huomaa, että saat {item} vain, jos sinulla on {item} rekisteröity meille",
-        "jsMailSent": "Lähetetty sähköposti",
-        "title2": "Tilin lunastaminen",
+        "disclaimerText": "Huomaa, että saat {item} vain, jos olet rekisteröinyt {item} meille",
+        "jsMailSent": "Posti lähetetty",
+        "title2": "Lunasta tilisi",
         "claimIntroHeading": "Lunasta tilisi nopeasti!",
-        "claimIntroText": "Kiitos, että liityit meihin. Olemme luoneet sinulle tilin nyt. Voit käyttää tiliäsi vaihtamalla sen salasanan jollakin seuraavista tavoista:"
+        "claimIntroText": "Kiitos, että liityit joukkoomme. Olemme nyt luoneet sinulle tilin. Pääset tilillesi vaihtamalla sen salasana jollakin seuraavista tavoista:"
       },
       "resetPwd": {
         "title": "Nollaa salasana",
-        "introText": "Aseta tilillesi turvallinen salasana täällä. Napsauta {kuvake} varmistaaksesi, että annat oikean salasanan.",
+        "introText": "Aseta suojattu salasana tilillesi tästä. Napsauta {icon} varmistaaksesi, että kirjoitat oikean salasanan.",
         "pwdInputLabel": "Aseta uusi salasana",
-        "pwdInputPH": "Anna uusi salasana",
-        "invalidPwdChars": "Virheelliset merkit salasanassa",
-        "jsResetSuccess": "Salasanan nollaus onnistui!"
+        "pwdInputPH": "Syötä uusi salasana",
+        "invalidPwdChars": "Virheellisiä merkkejä salasanassa",
+        "jsResetSuccess": "Salasanan palautus onnistui!"
       },
       "mediaPlayer": {
-        "jsTrackLoadFailed": "Radan lataaminen epäonnistui. Yritä myöhemmin uudelleen."
+        "jsTrackLoadFailed": "Raidan lataaminen epäonnistui. Yritä uudelleen myöhemmin."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} poistettu onnistuneesti.",
-        "jsErrReporting": "Ei voi ilmoittaa tästä tällä hetkellä. Yritä myöhemmin uudelleen.",
-        "jsAlreadyReported": "Olet jo ilmiantanut tämän {kohteen}. Et voi ilmoittaa siitä useammin kuin kerran.",
-        "jsPromptHeading": "Tuotteen ilmiantaminen johtaa siihen, että sen mahdollisuudet näkyä sinun tai muiden syötteissä tai sivuilla ovat pienemmät. Haluatteko silti ilmoittaa tästä?",
-        "jsReporting": "Raportointi {itemType}..",
-        "jsReportingErr": "Et voinut lähettää pyyntöäsi tällä hetkellä. Yritä myöhemmin uudelleen.",
+        "jsItemDeleted": "{item} poistaminen onnistui.",
+        "jsErrReporting": "Tästä ei voi ilmoittaa tällä hetkellä. Yritä uudelleen myöhemmin.",
+        "jsAlreadyReported": "Olet jo ilmoittanut tämän {item} . Et voi ilmoittaa siitä useammin kuin kerran.",
+        "jsPromptHeading": "Kohteen ilmoittaminen heikentää sen näkymisen todennäköisyyttä sinun tai muiden syötteessä/sivuilla. Haluatko silti ilmoittaa tästä?",
+        "jsReporting": "Raportoidaan {itemType} ..",
+        "jsReportingErr": "Pyyntöäsi ei voitu lähettää tällä hetkellä. Yritä uudelleen myöhemmin.",
         "jsReported": "{item} raportoitu. Kiitos panoksestasi."
       },
       "editProfileModal": {
@@ -823,31 +819,31 @@
         "jsProfileUpdated": "Profiili päivitetty!"
       },
       "reqZiyarat": {
-        "title": "Pyydä Ziyarat",
-        "cta": "Pyytää",
-        "header": "Pyydä Ziyarat imaami Hussainissa (a.s.) Pyhäkkö Karbalassa puolestasi.",
+        "title": "Pyydä vierailua",
+        "cta": "Pyyntö",
+        "header": "Pyydä puolestasi Ziyaratia Imam Hussainin (as) pyhäkössä Karbalassa.",
         "desc": {
-          "p1": "Joka perjantai, onko <strong>Ziyarat lausunut puolestasi</strong> imaami Hussainin pyhäkössä (a.s.) Karbalassa, Irakissa! Sinun tarvitsee vain tehdä pyyntö <strong>ennen torstai-illan loppua</strong>. Et kuitenkaan ole koskaan liian myöhässä; Jos pyyntösi tulee liian myöhään, se rekisteröidään seuraavalle viikolle.",
-          "p2": "Ilmoitamme sinulle, kun ziyarat on lausuttu puolestasi.",
-          "p3": "Huomautus: Kun pyydät ensimmäistä kertaa, tietosi jaetaan palveluntarjoajallemme. Ole hyvä ja lue käyttöehtomme saadaksesi lisätietoja."
+          "p1": "Pyydä <strong>Ziyaratia lausumaan joka perjantai puolestasi</strong> Imaami Hussainin(as) pyhäkössä Karbalassa, Irakissa! Sinun tarvitsee vain tehdä pyyntö <strong>ennen torstai-iltaa</strong> . Et ole kuitenkaan koskaan liian myöhässä; Jos pyyntösi tulee liian myöhään, se rekisteröidään seuraavalle viikolle.",
+          "p2": "Ilmoitamme sinulle, kun ziyarat on luettu puolestasi.",
+          "p3": "Huomautus: Kun pyydät ensimmäistä kertaa, tietosi jaetaan palveluntarjoajallemme. Lue käyttöehdot saadaksesi lisätietoja."
         },
-        "jsRegistered": "Kiitos! Pyyntösi on rekisteröity onnistuneesti. Saat vahvistuspostin pian.",
+        "jsRegistered": "Kiitos! Pyyntösi rekisteröinti onnistui. Saat pian vahvistusviestin.",
         "jsAlreadyRegistered": "Olet jo rekisteröitynyt Ziyaratiin tänä torstaina. Ilmoittaudu ensi viikolla ensi viikon ziyaratiin.",
-        "jsConfirm": "Jotta voimme rekisteröityä tähän pyyntöön, meidän on jaettava tietosi (esim. koko nimi, sukupuoli jne.) palveluntarjoajamme kanssa. Tämä vaaditaan vain ensimmäistä kertaa. Vahvista ystävällisesti jatkaaksesi.",
+        "jsConfirm": "Rekisteröityäksemme tähän pyyntöön meidän on jaettava tietosi (esim. koko nimi, sukupuoli jne.) palveluntarjoajaltamme. Tämä vaaditaan vain ensimmäistä kertaa. Vahvista jatkaaksesi.",
         "jsDeclined": "Okei! Ehkä myöhemmin."
       },
       "currencySelector": {
         "title": "Valitse valuutta",
         "baseCurrency": "Perusvaluutta",
-        "compHasOwnRates": "Tätä valitsinta käyttävällä sivulla on omat valuuttakurssit, joilla voi olla historiallisia arvoja. Tämän vuoksi tässä esitettyjä hintoja ei sovelleta valintaan.",
-        "cancelCta": "Perua",
-        "doneCta": "Valmis"
+        "compHasOwnRates": "Tätä valitsinta käyttävällä sivulla on omat valuuttakurssinsa, joilla voi olla historiallisia arvoja. Siksi tässä esitettyjä hintoja ei sovelleta valinnassa.",
+        "cancelCta": "Peruuttaa",
+        "doneCta": "Tehty"
       },
       "mqmsSelector": {
         "title": "Valitse Muqammas-määrä",
         "dateAdded": "Lisätty: {date}",
-        "cancelCta": "Perua",
-        "doneCta": "Valikoida"
+        "cancelCta": "Peruuttaa",
+        "doneCta": "Valitse"
       },
       "khumsPaymentRecord": {
         "title": "Lisää maksutietue",
@@ -856,72 +852,72 @@
         "form": {
           "amountLabel": "Määrä",
           "amountPlaceholder": "Syötä summa",
-          "amountErr": "Määrä ei voi olla enempää kuin Khums",
-          "dateLabel": "Siirtopäivä – valinnainen",
+          "amountErr": "Summa ei voi olla suurempi kuin Khums",
+          "dateLabel": "Siirtopäivä — valinnainen",
           "dateInfo": "Päivämäärä, jolloin lähetit rahat",
-          "remarks": "Huomautuksia, jos sellaisia on?",
-          "remarksInfo": "Esimerkiksi \"Maksettu käteisellä\"",
-          "attach": "Liitteiden lisääminen",
+          "remarks": "Huomautuksia, jos niitä on?",
+          "remarksInfo": "Esim. &quot;Maksettu käteisellä&quot;",
+          "attach": "Lisää liitteitä",
           "attachInfo": "Voit lisätä maksukuitit (vain kuvat) myöhempää käyttöä varten"
         }
       },
       "dialCodeSelector": {
         "title": "Valitse maa",
-        "searchPH": "Hae maasta nimen tai valintanumeron perusteella"
+        "searchPH": "Hae maata nimellä tai suuntanumerolla"
       },
       "cards": {
         "completeProfile": {
           "profile": {
-            "header": "Täydennä profiilisi",
-            "desc": "Puutteellisilla profiileilla on rajoitettu pääsy sovelluksemme ominaisuuksiin. Profiilisi päivittäminen auttaa sinua monin tavoin. Klikkaa tästä saadaksesi lisätietoja.",
+            "header": "Täytä profiilisi",
+            "desc": "Epätäydellisillä profiileilla on rajoitettu pääsy sovelluksemme ominaisuuksiin. Profiilisi päivittäminen auttaa sinua monella tapaa. Napsauta tätä saadaksesi lisätietoja.",
             "item1": {
               "header": "Täydelliset profiilit vahvistetaan helposti",
-              "p1": "Kun pyydät tilin vahvistamista (seuraava vaihe), se auttaa muita vahvistamaan sinut helposti, kun he joko tuntevat sinut tai näkevät kaikki sinua koskevaan vahvistamiseen tarvittavat tiedot.",
-              "p2": "Puutteellisten profiilien vahvistaminen kestää paljon kauemmin. Emme halua, että sinua estetään käyttämästä sovelluksemme ominaisuuksia."
+              "p1": "Kun pyydät tilin vahvistusta (seuraava vaihe), se auttaa muita vahvistamaan sinut helposti, kun he joko tuntevat sinut tai näkevät kaikki vahvistukseen tarvittavat tiedot sinusta.",
+              "p2": "Puutteellisten profiilien vahvistaminen kestää paljon kauemmin. Emme haluaisi, että sinua estetään käyttämästä sovelluksemme ominaisuuksia."
             },
             "item2": {
               "header": "Katso oikea sisältö",
-              "p1": "Näet sisältöä ympäristön perusteella. Kun meillä on oikeat tiedot sinusta, näet osuvampaa sisältöä.",
-              "p2": "Jos olet esimerkiksi päivittänyt sijaintisi oikein, näet todennäköisemmin ensin ympäristösi julkaisut."
+              "p1": "Näet sisältöä ympäristösi perusteella. Kun meillä on oikeaa tietoa sinusta, näet osuvampaa sisältöä.",
+              "p2": "Jos esimerkiksi olet päivittänyt sijaintisi oikein, näet todennäköisemmin ensin ympäristösi viestit."
             },
-            "cta": "Täydennä profiilisi"
+            "cta": "Täytä profiilisi"
           },
           "identity": {
             "header": "Määritä henkilöllisyytesi",
-            "desc": "Toivotamme kaikki tervetulleiksi sovellukseemme, mutta koska jotkin ominaisuudet ovat hyödyllisiä (ja tarkoitettuja) vain shiiamuslimeille, nämä tiedot auttavat meitä tarjoamaan sinulle oikeat ominaisuudet. Klikkaa tästä saadaksesi lisätietoja.",
+            "desc": "Toivotamme kaikki tervetulleiksi sovellukseemme, mutta koska jotkin ominaisuudet ovat hyödyllisiä (ja tarkoitettu) vain shiiamuslimeille, nämä tiedot auttavat meitä palvelemaan sinulle oikeat ominaisuudet. Napsauta tätä saadaksesi lisätietoja.",
             "item1": {
-              "header": "Shiia-muslimien pääsyominaisuudet",
+              "header": "Pääsy ominaisuuksia shiiamuslimeille",
               "p1": "Monet sovelluksemme ominaisuudet on rakennettu shiiamuslimeista. Jotkut niistä ovat:",
-              "ul": "<li>Pyyntö Surah-fatihalle ja Namaz-e-Wahshatille</li><li>Khumsin laskin</li><li>Taloudellinen tuki (khums) Sadat Momineenille</li>",
-              "p2": "Jotta voit käyttää näitä ominaisuuksia, sinun on vahvistettava henkilöllisyytesi (joko nyt tai halutessasi myöhemmin)"
+              "ul": "<li>Pyyntö Surah-fatihalle ja Namaz-e-Wahshatille</li><li> Khums Laskin</li><li> Taloudellinen apu (khums) Sadat mominenille</li>",
+              "p2": "Jotta voit käyttää näitä ominaisuuksia, sinun on vahvistettava henkilöllisyytesi (joko nyt tai halutessasi myöhemmin)."
             },
             "item2": {
-              "header": "Voit auttaa apua tarvitsevia mominenia!",
-              "p1": "Vaikka et halua vahvistusta, voi olla muitakin, jotka saattavat haluta saada vahvistuksen käyttääkseen näitä ominaisuuksia.",
-              "p2": "Vain vahvistetut tilit voivat vahvistaa tällaisen äidin. Vahvistus auttaa meitä myös rakentamaan vahvistetun shiiayhteisön."
+              "header": "Voit auttaa hädässä olevia mominenia!",
+              "p1": "Vaikka et haluaisi vahvistusta, jotkut saattavat haluta saada vahvistuksen käyttääkseen näitä ominaisuuksia.",
+              "p2": "Vain vahvistetut tilit voivat vahvistaa tällaisen mominenen. Vahvistus auttaa myös meitä rakentamaan vahvistetun shiiayhteisön."
             },
             "item3": {
               "header": "Tietosi ovat aina yksityisiä",
-              "p1": "<strong>Ymmärrämme, että tämä on arkaluontoista tietoa</strong> , emmekä koskaan paljasta näitä tietoja julkisesti ilman suostumustasi, mutta joskus voidaan silti tehdä päätelmiä. Esimerkiksi, kun pyydät vahvistusta muilta äideiltä, he tietävät, että olet shiia.",
-              "p2": "Voit napsauttaa alla olevaa painiketta lukeaksesi lisää prosessistamme."
+              "p1": "<strong>Ymmärrämme, että nämä ovat arkaluonteisia tietoja</strong> , emmekä koskaan paljasta näitä tietoja julkisesti ilman suostumustasi, mutta joskus voidaan silti tehdä johtopäätöksiä. Esimerkiksi kun pyydät vahvistusta muilta momineenilta, he tietävät, että olet shiia.",
+              "p2": "Voit lukea lisää prosessistamme napsauttamalla alla olevaa painiketta."
             },
-            "cta": "Asennus"
+            "cta": "Perustaa"
           }
         },
         "idSetup": {
           "header": "Melkein valmis!",
-          "desc": "Voit ohittaa tämän vaiheen, jos olet tyytyväinen tietosuoja- ja viestintäasetuksiesi esimääritettyihin arvoihin. Ei kuitenkaan haittaa katsoa!",
+          "desc": "Voit ohittaa tämän vaiheen, jos olet tyytyväinen tietosuoja- ja viestintäasetuksillesi asetettuihin arvoihin. Katsominen ei kuitenkaan haittaa!",
           "privacy": {
-            "header": "Määritä tietosuojasi",
+            "header": "Aseta yksityisyytesi",
             "p1": "Määritä, mitä muut voivat nähdä:",
-            "ul": "<li>Määritä julkaisujesi näkyvyysasetukset. Se määrittää, näkeekö kukaan viestisi Bazmissa vai sen ulkopuolella (esim. kun joku jakaa sen toisella alustalla)</li><li>Määritä, kuka voi nähdä mitäkin, kun he käyvät profiilissasi</li><li>Määritä, miten tietosi näkyvät muille</li>"
+            "ul": "<li>Aseta viestiesi näkyvyysasetukset. Se määrittää, voivatko viestisi nähdä kuka tahansa Bazmissa tai sen ulkopuolella (esim. kun joku jakaa sen toisella alustalla)</li><li> Määritä, kuka näkee mitä, kun he käyvät profiilissasi</li><li> Määritä, miten tietosi näkyvät muille</li>"
           },
           "comm": {
-            "header": "Tietoliikenneasetusten määrittäminen",
+            "header": "Määritä viestintäasetukset",
             "p1": "Määritä, miten ja milloin haluat meidän kommunikoivan kanssasi:",
-            "ul": "<li>Ilmoitusasetusten määrittäminen</li><li>Sähköposti-ilmoitusten tilaaminen tai tilauksen peruuttaminen</li><li>Muistutusten tilaaminen tai tilauksen peruuttaminen</li>"
+            "ul": "<li>Aseta ilmoitusasetuksesi</li><li> Tilaa tai peruuta sähköposti-ilmoitukset</li><li> Tilaa tai peruuta muistutukset</li>"
           },
-          "cta": "Asennus"
+          "cta": "Perustaa"
         },
         "verifyLoginInfo": {
           "mobile": {
@@ -936,32 +932,32 @@
             "cta": "Aloita mobiilivahvistus",
             "completed": "Mobiilivahvistus onnistui",
             "form": {
-              "inputLabel": "Sähköpostiosoitteesi:",
-              "ph": "Kirjoita sähköpostiosoitteesi",
-              "cta": "Sähköpostivarmennuslinkki"
+              "inputLabel": "Sähköpostisi:",
+              "ph": "Syötä sähköpostiosoitteesi",
+              "cta": "Sähköpostin vahvistuslinkki"
             },
             "sent": {
-              "desc": "Alla olevaan sähköpostiosoitteeseesi lähetettiin sähköpostiviesti. Napsauta sähköpostissasi olevaa linkkiä vahvistaaksesi sähköpostiosoitteesi.",
-              "incorrect": "Väärä sähköpostiosoite?",
+              "desc": "Alla olevaan sähköpostiosoitteeseesi lähetettiin sähköposti. Napsauta sähköpostissasi olevaa linkkiä vahvistaaksesi sähköpostiosoitteesi.",
+              "incorrect": "Väärä sähköposti?",
               "change": "Muuttaa"
             },
-            "resendCta": "Lähetä sähköposti uudelleen",
-            "openEmailCta": "Avaa sähköposti",
+            "resendCta": "Lähetä uudelleen sähköposti",
+            "openEmailCta": "Avaa Sähköposti",
             "verified": "Sähköposti vahvistettu onnistuneesti!"
           }
         }
       },
       "finishSetupPrompt": {
         "heading": "Viimeistele tilin määritys",
-        "desc": "Avaa tilisi ominaisuuksia viimeistelemällä tilin määritys. Sinun tarvitsee tehdä se vain kerran, ja se auttaa vahvistamaan tietosi, henkilöllisyytesi ja määrittämään tietosuoja-asetukset puolestasi.",
+        "desc": "Avaa tilisi ominaisuudet viimeistelemällä tilisi määrittäminen. Sinun tarvitsee tehdä se vain kerran, ja se auttaa vahvistamaan tietosi, henkilöllisyytesi ja määrittämään tietosuojaasetukset puolestasi.",
         "gotoPageCta": "Jatka asennusta",
-        "dontRemind": "Älä muistuta minua enää",
+        "dontRemind": "Älä muistuta minua uudelleen",
         "dismissCta": "Myöhemmin",
         "jsConfirmSkip": {
-          "header": "Jatka myöhemmin?",
-          "msg": "Tämän vaiheen suorittaminen avaa sinulle monia ominaisuuksia sovelluksessa, mutta voit suorittaa tämän vaiheen myös myöhemmin. Mene vain Käyttäjä-välilehdelle ja jatka sieltä.",
+          "header": "Jatketaanko myöhemmin?",
+          "msg": "Tämän vaiheen suorittaminen avaa sinulle monia sovelluksen ominaisuuksia, mutta voit suorittaa tämän vaiheen myös myöhemmin. Mene vain &quot;Käyttäjä&quot;-välilehdelle ja jatka sieltä.",
           "btns": {
-            "confirm": "Kyllä, myöhemmin",
+            "confirm": "Kyllä myöhemmin",
             "cancel": "Tee se nyt"
           }
         }
@@ -971,66 +967,66 @@
         "form": {
           "religion": {
             "label": "Valitse uskontosi:",
-            "infoText": "Useat vain muslimeille merkitykselliset piirteet perustuvat näihin tietoihin. Nämä tiedot näkyvät vain sinulle; Johtopäätöksiä voidaan kuitenkin edelleen tehdä (kuten silloin, kun käytät jotakin vain muslimeille saatavilla olevista ominaisuuksista)",
-            "muslim": "Muslimi",
+            "infoText": "Useat vain muslimeille merkitykselliset ominaisuudet perustuvat näihin tietoihin. Nämä tiedot näkyvät vain sinulle; johtopäätöksiä voidaan kuitenkin tehdä (kuten kun käytät jotakin vain muslimeille saatavilla olevista ominaisuuksista)",
+            "muslim": "muslimi",
             "nonMuslim": "Ei-muslimi"
           },
           "sect": {
             "label": "Valitse lahkosi",
-            "infoText": "Ominaisuudet, kuten <strong>Ziyarat-pyyntö, Avunpyyntö, Khums-laskenta jne.,</strong> Edellyttävät shiia-henkilöllisyytesi vahvistamista. Myös vahvistamattomilla käyttäjillä on rajoitettu pääsy ominaisuuksiin.",
+            "infoText": "Ominaisuudet, kuten <strong>Ziyaratin pyyntö, Avunpyyntö, Khums-laskenta jne.</strong> edellyttävät shiia-identiteettisi vahvistamista. Myös vahvistamattomilla käyttäjillä on rajoitettu pääsy ominaisuuksiin.",
             "shia": "Shia",
             "sunni": "Ei-shiialainen"
           },
-          "thanksNonMuslim": "Kiitos, että osoitit kiinnostusta liittyä sovellukseemme. Toivomme, että löydät hyödyllistä sisältöä täältä. Osoita kunnioitusta yhteisöä kohtaan ja noudata sääntöjämme.",
+          "thanksNonMuslim": "Kiitos kiinnostuksestasi liittyä sovellukseemme. Toivomme, että löydät täältä hyödyllistä sisältöä. Osoita kunnioitusta yhteisöä kohtaan ja noudata sääntöjämme.",
           "sadat": {
-            "label": "Oletko sinä Sadat?",
-            "infoText": "Näitä tietoja käytetään Sadat-shiia-muslimeille tarkoitetuissa ominaisuuksissa. Sitä ei kuitenkaan koskaan näytetä sellaisenaan kenellekään. Sinun on vahvistettava sadat-tilasi ennen kuin voit käyttää näitä palveluita.",
-            "sadat": "Kyllä",
+            "label": "Oletko Sadat?",
+            "infoText": "Näitä tietoja käytetään Sadat-shia-muslimeille tarkoitetuissa ominaisuuksissa. Sitä ei kuitenkaan koskaan näytetä sellaisena kenellekään. Sinun on vahvistettava sadat-tilasi ennen kuin voit käyttää näitä palveluita.",
+            "sadat": "Joo",
             "nonSadat": "Ei"
           },
-          "requested": "Pyydetty vahvistus",
+          "requested": "Vahvistusta pyydetty",
           "required": "Vahvistus vaaditaan",
           "verifyInfo": {
             "modalCta": "Mikä tämä on?",
-            "p1": "Jotta voit käyttää shiiamuslimeille tarkoitettuja ominaisuuksia, sinun on vahvistettava shiia-henkilöllisyytesi.",
-            "p2": "Jos olet shiia-sadat, sinun on vahvistettava myös se. Voit yhdistää sen samassa vahvistuspyynnössä; valitse <strong>vain Sadat</strong> yllä."
+            "p1": "Jotta pääset käyttämään shiiamuslimeille tarkoitettuja ominaisuuksia, sinun on vahvistettava shiia-identiteettisi.",
+            "p2": "Jos olet Shia-Sadat, sinun on myös vahvistettava se. Voit yhdistää sen samassa vahvistuspyynnössä; valitse <strong>Sadat</strong> yllä."
           },
-          "verifyCta": "Tarkistaa",
-          "skipInfo": "Voit ohittaa vahvistuksen, jos et halua käyttää mainittuja ominaisuuksia. Jos haluat vain päivittää tietosi, valitse <strong>Tallenna ja jatka</strong>",
+          "verifyCta": "Vahvista",
+          "skipInfo": "Voit ohittaa vahvistuksen, jos et halua käyttää mainittuja ominaisuuksia. Jos haluat päivittää vain tietosi, napsauta <strong>Tallenna ja jatka</strong>",
           "thankSunni": {
-            "p1": "Kiitos, että osoitit kiinnostusta sovellustamme kohtaan. Näistä maallisista erimielisyyksistä huolimatta kaikki muslimit ovat uskonveljiä ja kuuluvat samaan profeetta Muhammedin (saas) ummaan",
-            "p2": "Toivomme, että löydät täältä hyödyllistä sisältöä ja se auttaa meitä ymmärtämään toisiamme paremmin.",
-            "p3": "Jos sinulla on kysyttävää tai huolenaiheita käytännöistämme tai mistä tahansa, voit aina ottaa meihin yhteyttä."
+            "p1": "Kiitos kiinnostuksestasi sovellustamme kohtaan. Näistä maallisista jakautumisista huolimatta kaikki muslimit ovat uskon veljiä ja kuuluvat samaan profeetta Muhammadin Ummaan (PBUH)",
+            "p2": "Toivomme, että täällä olevasta sisällöstä on sinulle hyötyä ja se auttaa meitä ymmärtämään toisiamme paremmin.",
+            "p3": "Jos sinulla on kysyttävää käytännöistämme tai mistä tahansa, voit aina ottaa meihin yhteyttä."
           }
         },
         "cta": [
-          "Säästää",
-          "Tallenna & Jatka"
+          "Tallentaa",
+          "Tallenna ja jatka"
         ]
       },
       "verifyShiaModal": {
-        "title": "Vahvista tili {name}",
-        "heading": "Voitko vastata alla oleviin tietoihin {firstName}? Jos ei, hylkää tämä pyyntö.",
+        "title": "Vahvista {name} tilille",
+        "heading": "Voitko vastata alla oleviin tietoihin {firstName} ? Jos ei, hylkää tämä pyyntö.",
         "desc": "Sinulla on vain kaksi yritystä vahvistaa!",
-        "descP1": "Kun lähetät tämän lomakkeen, vertaamme tietoja siihen, mitä {firstName} antaneet pyytäessäsi vahvistusta. Ole tarkkana, koska sinulla on vain kaksi yritystä täyttää tämä lomake oikein. Jos epäonnistut edelleen, et voi vahvistaa {firstName} uudelleen tulevaisuudessa.",
-        "descP2": "Jos et tiedä {firstName}, hylkää tämä pyyntö. Ilmoitamme heille ja pyydämme heitä tavoittamaan jonkun muun.",
+        "descP1": "Kun lähetät tämän lomakkeen, yhdistämme tiedot siihen, mitä {firstName} antoi vahvistuspyynnössä. Ole tarkkana, koska sinulla on vain kaksi yritystä täyttää tämä lomake oikein. Jos epäonnistut edelleen, et voi vahvistaa {firstName} enää jatkossa.",
+        "descP2": "Jos et tiedä {firstName} , hylkää tämä pyyntö. Ilmoitamme heille ja pyydämme heitä ottamaan yhteyttä johonkin muuhun.",
         "rejectRequestCta": "Hylkää pyyntö",
         "form": {
-          "heading": "Vastaa seuraaviin {firstName} liittyviin kysymyksiin ja valitse Lähetä:",
-          "q1": "Mistä tiedät {firstName}?",
+          "heading": "Vastaa seuraaviin {firstName} koskeviin kysymyksiin ja napsauta Lähetä:",
+          "q1": "Mistä tiedät {firstName} ?",
           "q2": "Uskonto:",
           "q3": "Lahko:",
           "q4": "Onko {firstName} Sadat?",
-          "q5": "Mitä muuta haluaisit lisätä?"
+          "q5": "Onko jotain muuta, mitä haluaisit lisätä?"
         }
       },
       "editPrefModal": {
-        "title": "Tietosuoja-asetuksesi",
+        "title": "Yksityisyysasetuksesi",
         "privacy": {
           "header": "Tietosuoja-asetukset",
-          "desc": "Määritä, ketkä näkevät sinulta tai tililläsi seuraavat tiedot:",
+          "desc": "Aseta, ketkä voivat nähdä sinulta tai tililtäsi seuraavat:",
           "form": {
-            "posts": "Sinun julkaisusi",
+            "posts": "Viestisi",
             "status": "Tilapäivityksesi",
             "requests": "Sinun pyyntösi",
             "relationship": "Parisuhteesi tila",
@@ -1038,29 +1034,29 @@
             "location": "Sijaintisi"
           },
           "disclaimer": {
-            "heading": "* Tästä voidaan vielä tehdä johtopäätöksiä",
-            "p": "Vaikka nämä tiedot saattavat olla piilossa profiilissasi, joitain johtopäätöksiä voidaan silti tehdä. Jos julkaisusi näkyy esimerkiksi käyttäjälle, hän voi päätellä, että asut lähellä (sen perusteella, missä julkaisu näkyy hänen syötteessään)"
+            "heading": "* Tästä voidaan silti tehdä johtopäätöksiä",
+            "p": "Vaikka nämä tiedot saattavat olla piilossa profiilissasi, joitain johtopäätöksiä voidaan silti tehdä. Jos esimerkiksi viestisi näkyy käyttäjälle, hän voi päätellä, että asut lähellä (sen perusteella, missä viesti näkyy heidän syötteensä)"
           },
           "values": {
             "everyone": "Kaikki",
-            "users": "Vain Momineen",
-            "shias": "Vain shiiat",
+            "users": "Vain Mominen",
+            "shias": "Vain shiialaiset",
             "me": "Vain minä"
           }
         },
         "comm": {
           "header": "Viestintäasetukset",
-          "desc": "Määritä, miten haluat saada viestintää",
+          "desc": "Määritä, miten haluat kommunikoida",
           "form": {
             "push": {
               "header": "Push-ilmoitukset",
-              "nearby": "Lähellä olevien käyttäjien viestit",
+              "nearby": "Läheisten käyttäjien viesteille",
               "daily": "Päivittäiset päivityksemme"
             },
             "email": {
               "header": "Sähköposti-ilmoitukset",
               "weekly": "Viikoittainen uutiskirje",
-              "monthly": "Kuukausittaiset yhteenvetosähköpostit"
+              "monthly": "Kuukausittainen yhteenveto sähköpostit"
             },
             "cta": "Päivittää"
           }
@@ -1073,74 +1069,74 @@
         "cta": "Hylätä",
         "title": "Hylkää pyyntö",
         "reasonLabel": "Miksi et halua vahvistaa tätä tiliä?",
-        "reasonPh": "Ilmoitamme asiasta {userName} ja pyydämme heitä ottamaan yhteyttä johonkin toiseen vahvistusta varten"
+        "reasonPh": "Ilmoitamme {userName} ja pyydämme häntä ottamaan yhteyttä toiselle henkilölle vahvistusta varten"
       },
       "haadiHome": {
-        "title": "Aloita keskustelu | Keskustelusi Haadin kanssa",
+        "title": "Aloita keskustelu -- Keskustelusi Haadin kanssa",
         "item": {
           "added": "Lisätty {date}",
-          "tokensUsed": "Käytetyt tunnukset: {tokens}",
+          "tokensUsed": "Käytetyt merkit: {tokens}",
           "readContinue": "Lue tai jatka keskustelua"
         },
         "blank": {
           "heading": "Aloita uusi keskustelu",
-          "desc": "Sinulla ei ole aiempia keskusteluja. Aloita uusi keskustelu lähettämällä kyselysi alla."
+          "desc": "Sinulla ei ole aiempia keskusteluja. Aloita uusi keskustelu lähettämällä kyselysi alle."
         },
         "introLink": "Lue lisää Haadista tai",
         "inputPh": "Aloita uusi keskustelu",
         "quesHelp": {
-          "invalid": "Kysymykset, joissa on vähintään 5 sanaa, ovat järkevämpiä.",
-          "goodLen": "Se näyttää hyvältä kysymykseltä!",
-          "excellent": "Kysymyksesi selittäminen ei koskaan satuta. Kunnia!"
+          "invalid": "5 tai useamman sanan kysymykset ovat järkevämpiä.",
+          "goodLen": "Tuo näyttää hyvältä kysymykseltä!",
+          "excellent": "Kysymyksesi selittäminen ei koskaan tee pahaa. Maine!"
         }
       },
       "askHaadi": {
         "title": "Kysy Haadilta",
-        "infoText": "Voit lopettaa tämän keskustelun ja aloittaa uuden keskustelun napsauttamalla alla olevaa painiketta",
+        "infoText": "Lopeta tämä keskustelu ja aloita uusi keskustelu napsauttamalla alla olevaa painiketta",
         "newChatCTA": "Uusi keskustelu",
-        "inputPH": "Esitä kysymys",
+        "inputPH": "Kysy kysymys",
         "empty": {
           "heading": "Tätä keskustelua ei löytynyt",
-          "p1": "Tätä keskustelua yritettäessä tapahtui virhe. Tarkista URL-osoite ja yritä uudelleen.",
-          "p2": "Jos näin tapahtuu, ota meihin yhteyttä."
+          "p1": "Tätä keskustelua haettaessa tapahtui virhe. Tarkista URL-osoite ja yritä uudelleen.",
+          "p2": "Jos tämä jatkuu, ota ystävällisesti yhteyttä."
         },
-        "jsNewChatInfo": "Tämä on uuden keskustelun alku Haadin kanssa. Olet ottanut kontekstin käyttöön Haadille vastatessasi kysymyksiisi. Voit aina poistaa tämän vaihtoehdon käytöstä asetuksissa tai katsoa, mitä tämä tarkoittaa sinulle."
+        "jsNewChatInfo": "Tästä alkaa uusi keskustelu Haadin kanssa. Olet valinnut ottaa kontekstin käyttöön Haadille vastatessasi kysymyksiisi. Voit aina poistaa tämän vaihtoehdon käytöstä asetuksista tai katsoa, mitä tämä tarkoittaa sinulle."
       },
       "aboutHaadi": {
-        "title": "Tapaa Haadi, bottiystäväsi navigoidaksesi shiia-islamissa!",
-        "desc": "Napsauta kutakin näistä yhteenvedoista lukeaksesi lisää tai lue lisää Haadista ja käyttöehdoista <a href={blogLink} target='_system'>blogistamme",
+        "title": "Tapaa Haadi, bot-ystäväsi navigoidaksesi shia-islamissa!",
+        "desc": "Napsauta kutakin näistä yhteenvedoista lukeaksesi lisää tai lue lisää Haadista ja käyttöehdoista <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Ymmärrän ja hyväksyn käyttöehdot"
       }
     },
     "authPage": {
       "form": {
         "name": {
-          "label": "Nimesi",
-          "placeholder": "Anna koko nimesi"
+          "label": "Sinun nimesi",
+          "placeholder": "Kirjoita koko nimesi"
         },
         "email": {
           "label": "Sähköposti",
           "placeholder": [
             "Rekisteröity sähköpostiosoitteesi",
-            "Kirjoita sähköpostiosoitteesi"
+            "Syötä sähköpostiosoitteesi"
           ]
         },
         "password": {
           "label": "Salasana",
           "placeholder": [
             "Salasanasi",
-            "Anna salasana"
+            "Kirjoita salasana"
           ]
         },
         "rememberLogin": "Muista kirjautuminen",
-        "forgotPwd": "Unohditko salasanasi?",
-        "connectUsing": "Voit myös muodostaa yhteyden käyttämällä",
-        "useSavedAccount": "Tallennettujen tilien käyttäminen",
-        "lastLogin": "Viimeisin kirjautuminen",
+        "forgotPwd": "Unohtuiko salasana?",
+        "connectUsing": "Tai yhdistä käyttämällä",
+        "useSavedAccount": "Käytä tallennettuja tilejä",
+        "lastLogin": "Viimeinen kirjautuminen",
         "needAccount": "Tarvitsetko tilin?",
-        "resetPwdSuccess": "Voit käyttää uutta salasanaasi kirjautuaksesi sisään nyt",
-        "jsEnterFullName": "Ole hyvä ja kirjoita koko nimesi.",
-        "jsEnterValidName": "Anna kelvollinen nimi.",
+        "resetPwdSuccess": "Voit kirjautua sisään uudella salasanallasi nyt",
+        "jsEnterFullName": "Anna koko nimesi, ole hyvä.",
+        "jsEnterValidName": "Lisää voimassa oleva nimi.",
         "jsEnterValidEmail": [
           "Anna kelvollinen sähköpostiosoite.",
           "Sähköpostissa on virheellisiä merkkejä. Anna kelvollinen sähköpostiosoite."
@@ -1148,126 +1144,119 @@
         "jsSelectCountryCode": "Valitse maakoodisi luettelosta",
         "jsEnterMobile": "Anna matkapuhelinnumerosi.",
         "jsEnterValidMobile": "Anna kelvollinen matkapuhelinnumero",
-        "jsEnterPwd": "Ole hyvä ja anna salasanasi!",
+        "jsEnterPwd": "Anna salasanasi!",
         "jsEnterValidPwd": [
           "Salasanassa on virheellisiä merkkejä. Anna kelvollinen salasana.",
-          "Salasanan tulee olla vähintään {num}-merkkinen."
+          "Salasanassa tulee olla vähintään {num} merkkiä."
         ],
-        "jsAccountSuccess": "Tilin luominen onnistui",
-        "jsFbError": "Facebook-tilisi tietoja ei löytynyt. Yritä uudelleen.",
-        "jsPromptClosedErr": "Kirjautumiskehote suljettiin ennen valmistumista. Yritä uudelleen."
+        "jsAccountSuccess": "Tili luotu onnistuneesti",
+        "jsFbError": "Facebook-tilisi tietoja ei saatu. Yritä uudelleen.",
+        "jsPromptClosedErr": "Kirjautumiskehote suljettiin ennen viimeistelyä. Yritä uudelleen."
       },
-      "gotoSignup": "Goto Rekisteröidy",
+      "gotoSignup": "Siirry Rekisteröidy",
       "alreadyHasAccount": "Onko sinulla jo tili?",
-      "gotoLogin": "Goto-kirjautuminen",
-      "gotoProfile": "Goto-profiili",
-      "msgForAuthUser": "<p>Luulemme, että olet laskeutunut tänne vahingossa, koska olet jo kirjautunut sisään.</p> <p>Voit tarkistaa profiilistasi, miltä se näyttää, tai selata muita osioita jollakin alla olevista linkeistä:</p>",
-      "jsLoggedOut": "Sinut on kirjautunut ulos.",
-      "jsLogoutHeading": "Kirjaudutko ulos tililtä?",
-      "jsLogoutText": "Tämä poistaa paikallisesti tallennetut tiedot, mikä mahdollistaa kirjautumisen <b>nopeasti</b>. Jatkaa?"
+      "gotoLogin": "Siirry sisäänkirjautumiseen",
+      "gotoProfile": "Siirry profiiliin",
+      "msgForAuthUser": "<p>Uskomme, että laskeuduit tänne vahingossa, koska olet jo kirjautunut sisään.</p><p> Voit tarkistaa profiilisi nähdäksesi miltä se näyttää, tai käyttää jotakin alla olevista linkeistä selataksesi muita osioita:</p>",
+      "jsLoggedOut": "Olet kirjautunut ulos.",
+      "jsLogoutHeading": "Kirjaudu ulos tililtä?",
+      "jsLogoutText": "Tämä poistaa paikallisesti tallennetut tiedot, mikä mahdollistaa <b>nopean</b> kirjautumisen. Jatkaa?"
     },
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Asenna Bazm { platform }",
-          "desc": "Lataa Android-sovellus saadaksesi paremman kokemuksen, henkilökohtaisen sisällön, ilmoitukset ja kaiken kiinnostavan ympäriltäsi! | Asenna sovelluksen pikakuvake (kirjanmerkki), jotta voit käyttää sitä suoraan aloitusnäytöltäsi seuraavalla kerralla paremman kokemuksen saamiseksi! Se vie tuskin mitään tilaa laitteellasi, mutta auttaa sinua palaamaan sovellukseen nopeasti.",
+          "heading": "Asenna Bazm { alusta }",
+          "desc": "Lataa Android-sovelluksemme saadaksesi paremman käyttökokemuksen, personoidun sisällön, ilmoitukset ja kaiken sinua kiinnostavan ympäriltäsi! | Asenna sovelluksen pikakuvake (kirjanmerkki), jotta voit käyttää sitä suoraan aloitusnäytöltä seuraavan kerran paremman käyttökokemuksen saamiseksi! Se vie tuskin tilaa laitteeltasi, mutta auttaa sinua palaamaan sovellukseen nopeasti.",
           "cta": {
             "action": "Asentaa",
             "skip": "Ehkä myöhemmin"
           }
         },
         "prompt": {
-          "heading": "Asenna Bazm-pikakuvake?"
+          "heading": "Asennetaanko Bazm-pikakuvake?"
         },
         "popover": {
-          "text": "Napsauta Alla olevaa Jaa-kuvaketta (näyttää oikealta<strong>) ja</strong> napsauta sitten <strong>Lisää aloitusnäyttöön</strong>. Napsauta \"Tallenna\" lopettaaksesi, ja sitten voit käyttää sovellusta aloitusnäytön pikakuvakkeesta!"
+          "text": "Napsauta Jaa-kuvaketta (näyttää oikealta) <strong>ALLA</strong> ja napsauta sitten <strong>Lisää aloitusnäyttöön</strong> . Napsauta &quot;Tallenna&quot; lopettaaksesi, ja pääset sitten sovellukseen aloitusnäytön pikakuvakkeesta!"
         },
         "nonSafari": {
-          "heading": "Bazm toimii paremmin Apple Safarilla",
-          "desc": "Tällä selaimella on rajoitetut ominaisuudet, kun taas Safari-selain antaa sovelluksemme toimia paremmin, mukaan lukien Push-ilmoitukset ja App-pikakuvake.",
-          "subtext": "<strong>Avaa Safari-sovellus</strong> puhelimellasi ja siirry <strong>{url}</strong> saadaksesi paremman kokemuksen.",
+          "heading": "Bazm toimii paremmin Apple Safarissa",
+          "desc": "Tällä selaimella on rajoitettuja ominaisuuksia, kun taas Safari-selain mahdollistaa sovelluksemme paremman suorituskyvyn, mukaan lukien push-ilmoitukset ja sovelluksen pikakuvakkeet.",
+          "subtext": "<strong>Avaa Safari-sovellus</strong> puhelimessasi ja siirry <strong>{url}</strong> saadaksesi paremman käyttökokemuksen.",
           "skipCta": "Jatka sen sijaan tästä"
         }
       },
       "webFeedback": {
-        "heading": "Millainen on tähänastinen kokemuksesi?",
-        "text": "<p>Pidätkö uudesta sovelluksesta? Onko jotain, mitä voimme parantaa? Ole hyvä ja auta meitä palautteessasi parantaaksesi kokemustasi!</p> <p>Tämä veisi vain muutaman minuutin, ja arvostamme suuresti aikaasi!</p>",
-        "cta": "Anna palautetta",
+        "heading": "Millaisia kokemuksia sinulla on tähän mennessä?",
+        "text": "<p>Pidätkö uudesta sovelluksesta? Onko jotain, mitä voimme parantaa? Auta meitä antamalla palautetta, jotta voimme parantaa käyttökokemustasi!</p><p> Tämä vie vain muutaman minuutin, ja arvostamme suuresti aikaasi!</p>",
+        "cta": "Antaa palautetta",
         "dismiss": "Ehkä myöhemmin"
       },
       "advertise": {
         "heading": "Mainosta Bazmissa",
-        "text": "<p>Tavoita miljoonia shiiamuslimeja ympäri maailmaa tuotteellasi Bazmilla tai ole yhteydessä tuotemerkkeihin ja käyttäjiin.</p> <p>Aloita niinkin alhaisella hinnalla kuin 1 dollari/päivä!</p>",
-        "cta": "Opi lisää"
+        "text": "<p>Tavoita miljoonia shiiamuslimeja ympäri maailmaa tuotteesi avulla Bazmissa tai ota yhteyttä brändeihin ja käyttäjiin.</p><p> Aloita jopa 1 dollarilla/päivä!</p>",
+        "cta": "Lue lisää"
       },
       "upgradeSafari": {
-        "header": "Rajoitettu käyttökokemus Safarissa",
-        "description": "<strong>Tätä selainta (Safari) ei ole optimoitu parhaan kokemuksen saavuttamiseksi</strong>. Jatkamalla sovelluksemme käyttöä täällä menetät useita ominaisuuksia, kuten hälytysilmoituksia, lähellä päivityksiä, offline-tilaa ja paljon muuta.<br/> Suosittelemme, että hankit jonkin alla luetelluista selaimista parantaaksesi käyttökokemusta. Napsauta mitä tahansa painiketta ladataksesi selaimen AppStoresta:",
+        "header": "Rajoitettu kokemus Safarista",
+        "description": "<strong>Tätä selainta (Safari) ei ole optimoitu parhaaseen käyttökokemukseen</strong> . Jatkamalla sovelluksemme käyttöä täällä, menetät monia ominaisuuksia, kuten hälytysilmoitukset, lähipäivitykset, offline-tilan ja paljon muuta.<br/> Suosittelemme, että hankit jonkin alla luetelluista selaimista parantaaksesi käyttökokemusta. Lataa selain AppStoresta napsauttamalla mitä tahansa painikkeita:",
         "ctas": {
           "getGoogle": "Hanki Google Chrome",
           "getFirefox": "Hanki Mozilla Firefox",
           "getOpera": "Hanki Opera Touch",
           "skip": "Ehkä myöhemmin"
         },
-        "toast": "Ei hätää. Ensi kertaan!"
+        "toast": "Ei ongelmaa. Ensi kertaan!"
       },
       "cookieBanner": {
         "header": "Tietoja evästeiden tallentamisesta laitteellesi",
-        "p1": "Emme tallenna evästeitä {laitteeseesi}, mutta sovelluksessamme käytetyt kolmannen osapuolen sovellukset (kuten Google Analytics). Käytämme sen sijaan pysyvää tallennustilaa tärkeiden tietojen tallentamiseen, ja useimmissa tapauksissa tämä salataan tallennustilassa ja siirron aikana.",
-        "p2": "Jatkamalla tämän sovelluksen käyttöä vahvistat täten, että sinulla ei ole ongelmia valintojemme kanssa. Lisätietoja evästeistämme ja tietojen käytöstämme on <a href='https://bazm.in/privacy-policy' target='_blank'>Privacy Policy.</a>"
+        "p1": "Emme tallenna {device} evästeitä, mutta sovelluksessamme käytetyt kolmannen osapuolen sovellukset (kuten Google Analytics) voivat. Käytämme sen sijaan pysyvää tallennustilaa tärkeiden tietojen tallentamiseen, ja useimmissa tapauksissa se on salattu tallennustilassa ja siirron aikana.",
+        "p2": "Jatkamalla tämän sovelluksen käyttöä vahvistat, että sinulla ei ole ongelmia valintojemme kanssa. Saat lisätietoja evästeistämme ja tietojen käytöstämme <a href='https://bazm.in/privacy-policy' target='_blank'>tietosuojakäytännöstämme.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Sosiaalisen verkoston sovellus shiiamuslimeille ympäri maailmaa! Lataa sovellus jo tänään.",
+      "titleBranding": "__ Bazm - Sosiaalinen verkkosovellus shiiamuslimeille ympäri maailmaa! Lataa sovellus tänään.",
       "home": {
-        "title": "Bazm - Online Shia -yhteisösovellus!",
-        "description": "Bazm-sovellus on Shia-yhteisösovellus, joka täyttää kaikki päivittäiset deen & mazhab -tarpeesi. Löydä Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kirjat jne. Katso ja tee live-stream-tapahtumia ja majalis shiiamuslimien kanssa ympäri maailmaa kotisi mukavuudesta. Liity tänään!"
+        "title": "Bazm - Online Shia-yhteisösovellus!",
+        "description": "Bazm-sovellus on Shia-yhteisösovellus, joka täyttää kaikki päivittäiset deen &amp; mazhabin tarpeet. Löydä Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kirjat jne. kaikille päivämäärille ja tilaisuuksille. Katso ja suorita suoratoistotapahtumia ja majalisia shia-muslimien kanssa ympäri maailmaa kätevästi kotonasi. Liity tänään!"
       },
       "feed": {
-        "title": "Löydä räätälöityä sisältöä ja jaa shia-yhteisön kanssa ympäri maailmaa",
-        "description": "Etsi ja jaa uutisia, tapahtumia ja sisältöä shia momineenin kanssa ja pidä heidät ajan tasalla kaikista järjestämistäsi tapahtumista. Lue lisää kaikesta, mitä tapahtuu lähelläsi sovelluksessa."
+        "title": "Löydä räätälöityä sisältöä ja jaa se shiayhteisön kanssa ympärilläsi ja ympäri maailmaa",
+        "description": "Etsi ja jaa uutisia, tapahtumia ja sisältöä shia momineenin kanssa ja pidä heidät ajan tasalla kaikista järjestämistäsi tapahtumista. Opi sovelluksessa kaikesta, mitä lähelläsi tapahtuu."
       },
       "mediaHome": {
         "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal ja paljon muuta sinulle!",
-        "description": "Löydä Nauhe, Majalis, Dua, Aamaal, ziyarat ja paljon muuta kaikista treffeistä ja tilaisuuksista. Katso ja suoratoista majalis mukavasti kotisi mukavuudesta! Liity Shia-sosiaalisen verkoston sovellukseen, joka auttaa sinua deen & mazhabin rutiinitehtävissä. Liity tänään!"
+        "description": "Löydä Nauhe, Majalis, Dua, Aamaal, ziyarat ja paljon muuta kaikkiin päivämääriin ja tilaisuuksiin. Katso ja suoratoista majalisia kotisi kätevästi! Liity Shia-sosiaalisen verkoston sovellukseen, joka auttaa sinua deenin ja mazhabin rutiinitehtävissä. Liity tänään!"
       },
       "toolsHome": {
-        "title": "Bazm - Päivittäinen Azaan-hälytys, kysymys-vastaus ja työkalut shiiamuslimeille",
-        "description": "Hanki päivittäinen muistutus Adhanille, etsi ja kysy kysymys-vastaus aiheista deen &islam tai pyydä Surah-fatihaa tai Namaz-e-Wahshatia marhumeenillesi ja lisää työkaluja Bazmiin. Liity Shia-sosiaalisen verkoston sovellukseen, joka auttaa sinua deenin rutiinitehtävissä. Löydä Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat kaikkiin päivämääriin ja tilaisuuksiin. Suoratoista tapahtumia ja maloja mukavasti kotonasi. Liity tänään!"
+        "title": "Bazm - Daily Azaan -hälytys, kysymys-vastaus ja työkalut shiiamuslimeille",
+        "description": "Hanki päivittäinen muistutus Adhanista, etsi ja kysy kysymyksiä ja vastauksia deenin ja islamin aiheista tai pyydä Surah-fatihaa tai Namaz-e-Wahshatia marhumeenille ja muita työkaluja Bazmista. Liity Shia-sosiaalisen verkoston sovellukseen, joka auttaa sinua deenin rutiinitehtävissä. Löydä Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat kaikille päivämäärille ja tilaisuuksille. Suoratoista tapahtumia ja majalisia kotisi kätevästi. Liity tänään!"
       },
       "tasbeehCounter": {
         "title": "Automaattinen tasbeeh-laskuri Voice __ Tasbeeh Counter -työkalulla",
-        "description": "Lukemattomien tasbeehin lausuminen on nyt helpompaa Audio tasbeeh -laskureillamme. Lausu tasbeeh ajaessasi tai työskennellessäsi, silti seuraamalla laskentaa äänilaskurien avulla. Hanki tämä työkalu ja muut sen kaltaiset Bazm-sovelluksesta."
+        "description": "Lukemattomien tasbeeh-laskujen lausuminen on nyt helpompaa Audio tasbeeh -laskureillamme. Toista tasbeehisi ajaessasi tai työskennellessäsi pitäen silti laskuria äänilaskurien avulla. Hanki tämä työkalu ja muut vastaavat Bazm-sovelluksesta. Lataa tänään."
       },
       "accountHome": {
-        "title": "Bazm - Luo ilmainen tilisi jo tänään ja saat apua päivittäisiin deen-tarpeisiisi!",
-        "description": "Liity Bazm-sovellukseen jo tänään täyttääksesi kaikki deeniyat-tarpeesi. Etsi nohe/nauhe, majalis, dua, ziyarat, aamaal kaikkiin päivämääriin ja tilaisuuksiin. Suoratoista ja katso majalis &tapahtumia ympäriltäsi; löydä viestejä, sisältöä ja momineenia ympäri sinua ja maailmaa ja paljon muuta sovelluksesta."
+        "title": "Bazm - Luo ilmainen tilisi tänään ja saat apua päivittäisiin deen-tarpeisiisi!",
+        "description": "Liity Bazm-sovellukseen tänään täyttääksesi kaikki deeniyat-tarpeesi. Löydä nohe/nauhe, majalis, dua, ziyarat, aamaal kaikkiin päivämääriin ja tilaisuuksiin. Suoratoista ja katso majalista ja tapahtumia ympäriltäsi; Löydä sovelluksesta viestejä, sisältöä ja muistoja ympäriltäsi ja maailmalta ja paljon muuta. Liity tänään!"
       },
       "nauheListPage": {
-        "title": "Kuuntele Nauhea suositusta nauhakhwanista ympäri maailmaa",
-        "description": "Kuuntele nauhea kaikilta vuosilta ja kaikkia suosittuja nauhakhwaneja ympäri maailmaa Bazm-sovelluksesta."
+        "title": "Kuuntele Nauhea suositulta nauhakhwanilta ympäri maailmaa",
+        "description": "Kuuntele nauhea kaikilta vuosilta ja kaikkia suosittuja nauhakhwaneja ympäri maailmaa Bazm-sovelluksessa. Lataa tänään."
       },
       "soazListPage": {
-        "title": "Kuuntele Soazia suositusta Soazkhwanista ympäri maailmaa",
-        "description": "Kuuntele Soazia kaikilta vuosilta ja kaikkia suosittuja Soazkhwania ympäri maailmaa Bazm-sovelluksessa."
+        "title": "Kuuntele Soazia suositulta Soazkhwanilta ympäri maailmaa",
+        "description": "Kuuntele kaikkien vuosien Soazia ja kaikkia suosittuja Soazkhwaneja ympäri maailmaa Bazm-sovelluksessa. Lataa tänään."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Löydä lisää nauhe, audio/video majalis, dua, ziyarat, aamaal jne.",
-        "description": "Löydä ääni-/video-majalis Maulanalta ja Zakir-e-Ahlbaytilta läheltäsi ja ympäri maailmaa. Kuuntele ja katso uusimmat majalis- ja livestriimausistunnot Bazm-sovelluksessa. Lataa sovellus jo tänään ja liity miljoonien shiiamuslimien joukkoon ympäri maailmaa!"
+        "title": "{type} majalis/majlis Bazmiin - Etsi lisää nauhe-, audio-/video-majalis-, dua-, ziyarat-, aamaal- jne. Bazmissa",
+        "description": "Löydä ääni-/videomajalis Maulanalta ja Zakir-e-Ahlbaytilta läheltäsi ja ympäri maailmaa. Kuuntele ja katso uusimmat majalis- ja livestream-istunnot Bazm-sovelluksessa. Lataa sovellus jo tänään ja liity miljoonien shiiamuslimien joukkoon ympäri maailmaa!"
       },
       "duasPage": {
         "title": [
-          "Duas ja aamaal for the month of the month} Bazm - Löydä lisää nauhe, audio/video majalis, dua, ziyarat, aamaal jne.",
-          "Duas ja aamaal kaikkina kuukausina Bazmissa - Löydä lisää nauhe, audio/video majalis, dua, ziyarat, aamaal jne."
+          "Duas ja aamaal kuukauden {month} Bazmista - Löydä lisää nauhe, audio/video majalis, dua, piyarat, aamaal jne. Bazmissa",
+          "Duas ja aamaal kaikkina kuukausina Bazmista - Löydä lisää nauhe-, audio-/video-majalista, dua, ziyarat, aamaal jne. Bazmissa"
         ],
-        "description": "Löydä duas, aamaal, ziyarat ja munajat kaikkina kuukausina Bazmista, päivämäärä ja tapahtuma viisas. Lataa sovellus jo tänään ja liity miljoonien shiiamuslimien joukkoon ympäri maailmaa!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Selitä oikeilla viitteillä ja kontekstissa shiiamuslimeille. Anna minulle myös viitteet luettelona, jossa on linkkejä lähteisiin.",
-        "newQues": "Hei, aloitetaan uusi keskustelu. Minulla on alla oleva kysely:\n{quesTex}",
-        "continuePrev": "Jatketaan keskustelua {date}. {quesTex}"
+        "description": "Löydä duas, aamaal, ziyarat ja munajat kaikkina kuukausina Bazmista, päivämäärän ja tapahtuman kannalta. Lataa sovellus jo tänään ja liity miljoonien shiiamuslimien joukkoon ympäri maailmaa!"
       }
     }
   }
