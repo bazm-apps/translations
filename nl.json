@@ -485,7 +485,6 @@
             "Ja, gebruik {langName}",
             "Gebruik {langName}"
           ],
-          "useEnglish": "Ga verder in het Engels",
           "selectFrom": "Of kies uit een van de volgende alternatieve talen:"
         },
         "langError": "Er is een fout opgetreden bij het laden van de vertalingen voor {langName} . Probeer het later opnieuw."
@@ -686,7 +685,6 @@
         "ctaLabel": "Lezen",
         "title": "Twee: {title}",
         "arabicCta": "Arabisch",
-        "englishCta": "Engels",
         "translatedCta": "Vertaald"
       },
       "reqAccess": {
