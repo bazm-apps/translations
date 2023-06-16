@@ -81,7 +81,8 @@
         "cancelCta": "Zeptejte se později",
         "okCta": "Jistý!",
         "jsPushUnsupported": "Push není podporováno na tomto zařízení. Oznámení vám mohou uniknout!"
-      }
+      },
+      "sending": "Odesílání..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Tyto informace jsou viditelné pouze pro vás a vidíte obsah a funkce, které jsou na nich založeny.",
           "idSetupCta": "Nastavení identity",
           "idVerifyCta": "Ověřit",
-          "joinDate": "Založen: {date}"
+          "joinDate": "Založen: {date}",
+          "idVerifyAltText": "Pouze ověřený Shia momineen může ověřit ostatní. Nechte si laskavě ověřit svůj účet, abyste poté mohli ověřit <strong>{name}</strong> .",
+          "idVerifyAltText2": "Pokud jste již někoho požádali, můžete mu to znovu připomenout pomocí nového odkazu nebo požádat více momineen o rychlejší odpověď."
         },
         "posts": {
           "title": "Odesílá",
@@ -792,7 +795,8 @@
         "jsMailSent": "Pošta odeslána",
         "title2": "Potvrďte svůj účet",
         "claimIntroHeading": "Potvrďte svůj účet rychle!",
-        "claimIntroText": "Děkujeme, že jste se k nám připojili. Nyní jsme pro vás vytvořili účet. Získejte přístup ke svému účtu resetováním hesla pomocí jedné z následujících metod:"
+        "claimIntroText": "Děkujeme, že jste se k nám připojili. Nyní jsme pro vás vytvořili účet. Získejte přístup ke svému účtu resetováním hesla pomocí jedné z následujících metod:",
+        "introText2": "Obnovení hesla je snadné. Zadejte svůj e-mail a získejte odkaz pro obnovení hesla na svůj e-mail."
       },
       "resetPwd": {
         "title": "Obnovit heslo",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Tuto konverzaci nelze najít",
           "p1": "Při pokusu o získání této konverzace došlo k chybě. Zkontrolujte adresu URL a zkuste to znovu.",
-          "p2": "Pokud se to bude dít i nadále, kontaktujte nás."
+          "p2": "Pokud se to bude dít i nadále, kontaktujte nás.",
+          "guest": "Může to být způsobeno tím, že nejste přihlášeni. Zkuste se prosím přihlásit a znovu zkontrolovat."
         },
         "jsNewChatInfo": "Toto je začátek nového rozhovoru s Haadim. Rozhodli jste se povolit kontext pro Haadi při odpovídání na vaše otázky. Tuto možnost můžete kdykoli zakázat v nastavení nebo zjistit, co to pro vás znamená."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Jaké jsou vaše dosavadní zkušenosti?",
         "text": "<p>Líbí se vám nová aplikace? Je něco, co můžeme zlepšit? Pomozte nám prosím svou zpětnou vazbou, abyste zlepšili zážitek pro vás!</p><p>To by trvalo jen několik minut a velmi si vážíme vašeho času!</p>",
         "cta": "Sdělte nám svůj názor",
-        "dismiss": "Možná později"
+        "dismiss": "Možná později",
+        "altText": "Vaše zpětná vazba nám pomůže zlepšit prostředí aplikace a zabere to jen minutu."
       },
       "advertise": {
         "heading": "Inzerujte na Bazm",
