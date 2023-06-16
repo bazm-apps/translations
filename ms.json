@@ -42,7 +42,7 @@
       "at": "Pada",
       "untilNextTime": "Tiada masalah. Sehingga masa depan!",
       "plzWait": "Sila tunggu..",
-      "saving": "Menyimpan.. | Pengemaskinian..",
+      "saving": "Menyimpan.. | Mengemas kini..",
       "search": "Carian",
       "late": "Lewat",
       "done": "Dilakukan",
@@ -58,7 +58,7 @@
         "uploading": "Memuat naik..",
         "deleting": "Menghapuskan..",
         "requesting": "Meminta..",
-        "audienceHeader": "Momineen yang {action}d | Momineen yang {action}d ini",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
         "jsShareFileTypeError": "Maaf, anda tidak boleh berkongsi fail {fileType} di sini",
         "jsUpdateAvailable": {
           "header": "Kemas kini tersedia",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Muat naik imej gagal. Sila cuba lagi kemudian.",
         "jsLoadingDelay": "Ia mengambil masa lebih lama daripada yang dijangkakan. Sila tunggu sementara kami memproses permintaan ini."
       },
+      "sending": "Menghantar...",
       "close": "Tutup",
       "yes": "Ya",
       "no": "Tidak",
@@ -81,8 +82,7 @@
         "cancelCta": "Tanya saya nanti",
         "okCta": "Pasti!",
         "jsPushUnsupported": "Tolak tidak disokong pada peranti ini. Anda mungkin terlepas pemberitahuan!"
-      },
-      "sending": "Menghantar..."
+      }
     },
     "errors": {
       "service": {
@@ -152,7 +152,7 @@
           "wishCtaLabel": "INGIN"
         },
         "books": {
-          "booksByAuthor": "Buku mengikut {author}",
+          "booksByAuthor": "Buku oleh {author}",
           "booksInLang": "Buku dalam {lang}",
           "filterBy": "Tapis mengikut:",
           "matching": {
@@ -182,7 +182,7 @@
         "khumsLabel": "Kalkulator Khums",
         "khumsDesc": "Kira khums anda, atau tambah sebarang khums yang dibayar sebelum ini. Ia membantu anda menyimpan rekod khums anda selama bertahun-tahun.",
         "alarms": {
-          "salatAlarms": "Penggera Salat | Penggera Salat Harian",
+          "salatAlarms": "Penggera Solat | Penggera Solat Harian",
           "sehriAlarms": "Penggera Ramadan Sehri",
           "gettingLocation": "Mendapatkan lokasi anda. Sila tunggu...",
           "settingsTip": "Tukar <b>Lokasi</b> dan keutamaan dalam Seting penggera. Klik ikon Seting untuk memulakan.",
@@ -196,11 +196,11 @@
           "sehriEndTime": "Masa untuk penghujung Sehri",
           "minToImsak": [
             "{min} minit sebelum Imsak",
-            "{hour} jam sebelum Imsak"
+            "{hour} sejam sebelum Imsak"
           ],
           "minToImsakDesc": [
-            "Cincin penggera {min} minit sebelum akhir masa Sehri",
-            "Cincin penggera {hour} jam sebelum akhir masa Sehri"
+            "Penggera berdering {min} minit sebelum tamat waktu Sehri",
+            "Penggera berdering {hour} sebelum tamat waktu Sehri"
           ],
           "notRamadan": "Nampaknya bukan Ramadan lagi. Sila kembali semasa atau sebelum Ramadan untuk menetapkan Penggera untuk Sehri",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Blog: Kira khums dengan cekap",
-              "p1": "<a href='{href}' target='_blank'>Ikuti blog kami</a> yang menyerlahkan item penting dalam pengiraan khums setiap tahun.",
+              "p1": "<a href='{href}' target='_blank'>Ikuti blog kami</a> yang mengetengahkan perkara utama dalam pengiraan khum setiap tahun.",
               "p2": "Penafian: Blog BUKAN panduan. <strong>Ikut ketetapan Marjah anda untuk pengiraan Khums</strong>. <span id='blog-info-link' color='primary'>Klik di sini</span> untuk maklumat lanjut.",
               "blogInfo": "Blog di atas adalah berdasarkan artikel dari al-islam.org, sistani.org, dan perbincangan kami dengan beberapa ulama lain. Anda harus sentiasa mengikut ketetapan oleh Marjah anda untuk pengiraan Khums.",
               "dismissCta": "Tidak berminat"
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Isi borang di bawah untuk mengira khums anda. Medan pilihan ditunjukkan. Klik ikon maklumat di bawah untuk mengetahui lebih lanjut mengenai bahagian.",
-            "blog": "Berkaitan: Baca blog kami tentang <a href='{href}' target='_blank'>Cara mengira khums dengan cekap<a></a>",
+            "blog": "Berkaitan: Baca blog kami tentang <a href='{href}' target='_blank'>Cara mengira khum dengan cekap</a>",
             "dateRange": "Pilih julat tarikh:",
             "dateRangeInfo": "Biasanya, orang mengira khums untuk tahun kewangan (contohnya, dari April hingga Mac) atau tahun Kalendar (Jan hingga Dis)",
             "startDate": "Tarikh mula:",
@@ -337,7 +337,7 @@
               "header": "<strong>Menggunakan kadar pertukaran</strong>",
               "subtext": "Kadar pertukaran mata wang ini akan digunakan untuk pengiraan. Anda boleh mengubahnya untuk menggunakan nilai tersuai.",
               "info": "Apabila berurusan dengan data sejarah, seperti ketika menambah pengiraan untuk khums dari lebih setahun yang lalu apabila kadar pertukaran tidak sama seperti hari ini, anda boleh menetapkan nilai tersuai untuk kadar pertukaran sendiri.",
-              "rateValuePH": "Dalam {currency}, contohnya, 1 {mainCurrency} = 80.21 {currency}"
+              "rateValuePH": "Dalam {currency} , cth, 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "Mengira",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "Pengguna | Akaun",
+        "name": "Pengguna akaun",
         "editProfile": "Edit Profil",
         "publishToFeed": "Menerbitkan perubahan saya pada suapan",
         "shareUpdateToFeed": "Kongsi juga kemas kini ini ke suapan saya",
         "statusText_ph": "Gunakan pemformatan _italics_ atau *tebal* untuk menghiasi status anda",
-        "statusCharsLeft": "{count} watak kiri",
+        "statusCharsLeft": "{count} aksara yang tinggal",
         "jsImgUploadSuccess": "Imej berjaya dimuat naik!",
         "unauthAccess": {
           "heading": "Adakah anda pasti berada di tempat yang betul?",
@@ -411,31 +411,31 @@
           "statusTextInfo": "Tambah sesuatu yang ringkas tentang diri anda, seperti, siapa anda atau apa yang anda lakukan!",
           "statusCta": "Tambah Status | Kemas Kini Status",
           "addCity": "Tambah Bandar",
-          "gender": "Lelaki | Perempuan",
+          "gender": "Lelaki Perempuan",
           "addGender": "Tambah Jantina",
           "addBday": "Tambah Hari Lahir",
           "addRelation": "Tambah Perhubungan",
           "privateInfoDesc": "Maklumat ini hanya dapat dilihat oleh anda dan anda melihat kandungan dan ciri berdasarkan ini.",
           "idSetupCta": "Sediakan identiti anda",
           "idVerifyCta": "Mengesahkan",
-          "joinDate": "Menyertai: {date}",
           "idVerifyAltText": "Hanya Syiah momineen yang disahkan boleh mengesahkan orang lain. Sila dapatkan pengesahan akaun anda, supaya anda boleh mengesahkan <strong>{name}</strong> selepas itu.",
-          "idVerifyAltText2": "Jika anda telah meminta seseorang, anda boleh mengingatkan mereka sekali lagi dengan pautan baharu atau minta lebih ramai momineen untuk mendapatkan respons yang lebih pantas."
+          "idVerifyAltText2": "Jika anda telah meminta seseorang, anda boleh mengingatkan mereka sekali lagi dengan pautan baharu atau minta lebih ramai momineen untuk mendapatkan respons yang lebih pantas.",
+          "joinDate": "Menyertai: {date}"
         },
         "posts": {
           "title": "Posting",
           "userNoPosts": "Apabila anda menukar gambar / imej muka depan anda, atau apabila anda meminta surah-fatiha untuk orang yang anda sayangi, kiriman ini akan muncul di sini dan dalam tab <b>Rumah</b> (orang lain juga). Cuba tambah gambar atau imej muka depan?",
-          "profileNoPosts": "{name} belum membuat apa-apa jawatan lagi."
+          "profileNoPosts": "{name} belum membuat sebarang siaran lagi."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} belum tambah marhumeen | Anda belum menambah marhumeen lagi",
-            "marhumeenAdded": "{name} telah menambah mengikuti marhumeen | Anda telah menambah mengikuti marhumeen"
+            "marhumeenNotAdded": "{name} belum ditambahkan marhumeen | Anda belum menambah marhumeen lagi",
+            "marhumeenAdded": "{name} telah ditambah mengikuti marhumeen | Anda telah menambah mengikuti marhumeen"
           },
           "jsDeleteHeader": "Adakah awak pasti?",
-          "jsDeletePrompt": "Memadam rekod untuk <b>{fullName}</b> juga akan memadamkan semua permintaan sebelumnya yang dibuat untuk {gender}! Teruskan?",
-          "jsDeleted": "Rekod terpadam untuk {marhumeen}"
+          "jsDeletePrompt": "Memadamkan rekod untuk <b>{fullName}</b> juga akan memadamkan semua permintaan sebelumnya yang dibuat untuk {gender} ! teruskan?",
+          "jsDeleted": "Dipadamkan rekod untuk {marhumeen}"
         },
         "verifyCard": {
           "title": "Sahkan identiti Syiah anda | Sahkan identiti Sadat anda",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Pautan ini sama ada tidak sah atau telah tamat tempoh. Sila minta rakan anda menghantar permintaan baru.",
           "confirm": {
             "heading": "Sahkan Identiti Akaun",
-            "msg": "Bantuan {firstName} mengesahkan maklumat akaun {genderLabel1} . Ini akan membolehkan {genderLabel2} mengakses lebih banyak ciri pada aplikasi kami",
+            "msg": "Bantu {firstName} mendapatkan maklumat akaun {genderLabel1} disahkan. Ini akan membolehkan {genderLabel2} mengakses lebih banyak ciri pada apl kami",
             "jsSkip": "Tiada masalah. Jika anda mengubah fikiran, anda boleh melihat semula pautan ini untuk mengesahkan kemudian."
           }
         },
@@ -478,9 +478,9 @@
         }
       },
       "langPrompt": {
-        "title": "Gunakan aplikasi dalam {langLabel}?",
+        "title": "Gunakan aplikasi dalam {langLabel} ?",
         "desc": {
-          "p1": "Nampaknya anda mengakses aplikasi dari {countryName}. Adakah anda ingin melihat kandungan dan kawalan dalam salah satu bahasa berikut yang dituturkan di rantau ini? Klik pada pilihan anda dan kemudian klik 'Simpan' untuk meneruskan.",
+          "p1": "Nampaknya anda sedang mengakses apl daripada {countryName} . Adakah anda ingin melihat kandungan dan kawalan dalam salah satu daripada bahasa berikut yang dituturkan di rantau ini? Klik pada pilihan anda dan kemudian klik &#39;Simpan&#39; untuk meneruskan.",
           "p2": "Atau, tolak pop timbul ini untuk terus menggunakan apl dalam bahasa lalai."
         },
         "choices": {
@@ -491,7 +491,7 @@
           "useEnglish": "Teruskan dalam Bahasa Inggeris",
           "selectFrom": "Atau, pilih salah satu bahasa alternatif berikut:"
         },
-        "langError": "Ralat berlaku semasa memuatkan terjemahan untuk {langName}. Sila cuba lagi kemudian."
+        "langError": "Ralat berlaku semasa memuatkan terjemahan untuk {langName} . Sila cuba sebentar lagi."
       },
       "createPost": {
         "heading": "Apa yang berlaku hari ini?",
@@ -507,11 +507,11 @@
         },
         "modal": {
           "titles": {
-            "post": "Buat Siaran | Kemas Kini Pos",
+            "post": "Cipta Siaran | Kemas kini Siaran",
             "livestream": "Siaran langsung",
-            "hadiyah": "Buat Hadiyah | Kemas kini Hadiyah"
+            "hadiyah": "Cipta Hadiah | Kemas kini Hadiah"
           },
-          "postCta": "Post | Kemas kini",
+          "postCta": "Siarkan | Kemas kini",
           "stream": {
             "scheduleCta": "Simpan untuk kemudian | Mulakan Penstriman"
           },
@@ -534,7 +534,7 @@
           "addLocation": "Tambah lokasi",
           "addPics": "Menambah gambar pada kiriman anda",
           "previewDes": "Beginilah cara siaran anda akan muncul dalam suapan orang lain. Orang ramai boleh mengetik video untuk melihatnya dalam skrin penuh.",
-          "addToPost": "Tambah kepada {postType} (pilihan)",
+          "addToPost": "Tambahkan pada {postType} (pilihan)",
           "jsImgUploadFail": "Imej tidak dimuat naik",
           "jsAddDetailToPost": "Sila tambah butiran ke jawatan anda",
           "jsValidEndDate": "Sila pilih tarikh tamat yang sah",
@@ -549,7 +549,7 @@
       },
       "comments": {
         "name": "Komen",
-        "loadPrevious": "Muatkan komen sebelumnya | Muatkan balasan sebelumnya",
+        "loadPrevious": "Muatkan ulasan sebelumnya | Muatkan balasan sebelumnya",
         "replyingTo": "Membalas kepada:",
         "noComments": "Tiada komen pada siaran ini lagi",
         "textboxPlaceholder": "Tulis komen anda di sini",
@@ -557,7 +557,7 @@
       },
       "post": {
         "addressYou": "Anda",
-        "addressing": "kamu | dia | dia",
+        "addressing": "awak | dia | dia",
         "itemTypes": {
           "avatar": "imej avatar",
           "banner": "Imej sepanduk",
@@ -566,13 +566,13 @@
         "displayPhrase": {
           "common": "<strong>{username}</strong> dikemas kini {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> memohon surah-fatiha untuk {addressing} {relation}",
-            "<strong>{username}</strong> memohon surah-fatiha & namaz-e-wahshat untuk {addressing} {relation}"
+            "<strong>{username}</strong> requested surah-fatiha for {addressing} {relation}",
+            "<strong>{username}</strong> diminta surah-fatiha &amp; namaz-e-wahshat untuk {addressing} {relation}"
           ]
         },
-        "dateUntil": "Sehingga: {date} di {time}",
+        "dateUntil": "Sehingga: {date} pada {time}",
         "privatePost": "Siaran ini hanya boleh dilihat oleh anda",
-        "descZiyaratRequest": "Anda meminta Ziyarat dilakukan bagi pihak anda di *haram* Imam Husain (a.s.) pada *{date}*"
+        "descZiyaratRequest": "Anda meminta Ziyarat dilakukan bagi pihak anda di *haram* Imam Husain (as) pada * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "Meninggal dunia:",
         "addMsg": "Ingin menambah mesej?",
         "addMsg_ph": "Sebagai contoh:\nInna lillahi wa inna ilaihe raje'un. Tolong baca surah-e-fatiha dan 2-rak'at namaz-e-wahshat untuk bapa saudara saya, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, yang menyebabkan kita semua menangis di belakang untuk bertemu penciptanya.",
-        "remainingChars": "Aksara: {count} | Aksara: {count} kekal",
-        "infoEditRelative": "Anda boleh mengedit butiran untuk {name} dalam akaun anda <b>> bahagian Marhumeen</b>",
+        "remainingChars": "Aksara: {count} | Aksara: {count} yang tinggal",
+        "infoEditRelative": "Anda boleh mengedit butiran untuk {name} dalam bahagian <b>Akaun &gt; Marhumeen</b> anda",
         "saveRequestCta": [
           "Simpan & Permintaan",
           "Permintaan"
@@ -724,17 +724,17 @@
           "viaSignal": "Dapatkan melalui Signal"
         },
         "page2": {
-          "header": "Kami telah menghantar kod pengesahan 6 digit ke nombor anda ({number})",
+          "header": "Kami telah menghantar kod pengesahan 6 digit ke nombor anda ( {number} )",
           "enterCodeLabel": "Masukkan Kod",
           "enterCode_ph": "Masukkan kod 6 digit",
           "resendCode": "Hantar semula Kod",
-          "notUsingMobile": "Tidak menggunakan <strong>{number}?</strong>",
+          "notUsingMobile": "Tidak menggunakan <strong>{number} ?</strong>",
           "changeNumber": "Tukar Nombor"
         },
         "jsVerifySuccess": "Mudah alih disahkan dengan jayanya",
         "jsVerifyError": "Ralat berlaku. Sila cuba lagi kemudian.",
         "jsSendOtpFailed": "Gagal menghantar OTP. Sila cuba lagi kemudian.",
-        "jsSendOtpSuccess": "OTP dihantar kepada {mobile}",
+        "jsSendOtpSuccess": "OTP dihantar ke {mobile}",
         "jsTooManyRequests": "Nampaknya anda sudah mencuba terlalu banyak kali. Sila tunggu satu atau dua minit dan cuba lagi."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "Apabila berkongsi secara luaran, mesej anda mungkin kelihatan seperti di bawah:",
           "sharingTextDemo": [
             "Dengar Nauha ini di Aplikasi Bazm",
-            "{name} mengesyorkan mendengar Nauha ini di Aplikasi Bazm"
+            "{name} mengesyorkan mendengar Nauha ini di Apl Bazm"
           ],
           "addSignDesc": "Ingin menambah tandatangan anda juga?",
-          "addSignPlaceholder": "Sebagai contoh\nDengan salam sejahtera,\n{name}",
+          "addSignPlaceholder": "Sebagai contoh, Dengan ucapan selamat, {name}",
           "signDesc": "Apabila anda berkongsi hasrat anda dengan rakan pada aplikasi ini, tandatangan anda akan ditambahkan pada mesej tersebut. Sebagai contoh, ia mungkin muncul seperti di bawah:"
         },
         "changePwd": {
@@ -781,22 +781,22 @@
         "introText": "Menetapkan semula kata laluan anda adalah mudah. Pilih kaedah untuk meneruskan:",
         "usePhoneCta": "Gunakan Telefon",
         "useEmailCta": "Gunakan E-mel",
-        "sendEmailIntro": "Masukkan alamat e-mel yang anda cipta akaun anda dan kami akan menghantar e-mel dengan pautan untuk menyediakan kata laluan baharu untuk akaun anda.",
+        "sendEmailIntro": "Masukkan alamat e-mel yang anda gunakan untuk mencipta akaun anda, dan kami akan menghantar e-mel dengan pautan untuk menyediakan kata laluan baharu untuk akaun anda. | Anda perlu menambah alamat e-mel untuk log masuk ke akaun anda. Kami akan menghantar pautan tetapan semula kata laluan ke e-mel ini dan dari situ, anda boleh membuat kata laluan untuk akaun anda yang dikaitkan dengan nombor mudah alih anda.",
         "emailInputLabel": "E-mel berdaftar anda",
         "sendEmailCta": "Hantar E-mel Set Semula",
-        "sentEmailText": "Jika anda mempunyai akaun dengan kami, anda akan mendapat e-mel penetapan semula kata laluan tidak lama lagi pada <strong>{email}</strong>. Sila semak e-mel anda untuk pautan tersebut.",
-        "notUsingEmailText": "Tidak menggunakan <strong>{email}?</strong>",
+        "sentEmailText": "Jika anda mempunyai akaun dengan kami, anda akan mendapat e-mel tetapan semula kata laluan tidak lama lagi pada <strong>{email}</strong> . Sila semak e-mel anda untuk mendapatkan pautan.",
+        "notUsingEmailText": "Tidak menggunakan <strong>{email} ?</strong>",
         "changeEmailCta": "Mengubah E-mel",
         "phoneIntroText": "Masukkan nombor telefon yang ditambahkan pada akaun anda. Kami akan menghantar OTP untuk mengesahkan pemilikan anda, dan dalam langkah seterusnya, anda akan dapat membuat kata laluan baru.",
         "phoneInputLabel": "Nombor telefon bimbit anda",
         "sendOtpCta": "Hantar OTP",
         "backToLoginCta": "Kembali ke Log Masuk",
-        "disclaimerText": "Sila ambil perhatian bahawa anda akan mendapat {item} hanya jika anda mempunyai {item} berdaftar dengan kami",
+        "disclaimerText": "Sila ambil perhatian bahawa anda akan mendapat {item} hanya jika anda mempunyai {item} yang didaftarkan dengan kami",
         "jsMailSent": "Mel dihantar",
         "title2": "Tuntut akaun anda",
+        "introText2": "Menetapkan semula kata laluan anda adalah mudah. Masukkan e-mel anda dan dapatkan pautan tetapan semula kata laluan pada e-mel anda.",
         "claimIntroHeading": "Tuntut akaun anda dengan cepat!",
-        "claimIntroText": "Terima kasih kerana menyertai kami. Kami telah mencipta akaun untuk anda sekarang. Dapatkan akses kepada akaun anda dengan menetapkan semula kata laluan menggunakan salah satu kaedah berikut:",
-        "introText2": "Menetapkan semula kata laluan anda adalah mudah. Masukkan e-mel anda dan dapatkan pautan tetapan semula kata laluan pada e-mel anda."
+        "claimIntroText": "Terima kasih kerana menyertai kami. Dapatkan akses kepada akaun anda dengan menambahkan e-mel pada akaun anda."
       },
       "resetPwd": {
         "title": "Set Semula Kata Laluan",
@@ -812,9 +812,9 @@
       "moreBtn": {
         "jsItemDeleted": "{item} berjaya dipadamkan.",
         "jsErrReporting": "Tidak boleh melaporkan perkara ini pada masa ini. Sila cuba lagi kemudian.",
-        "jsAlreadyReported": "Anda telah melaporkan {item}ini . Anda tidak boleh melaporkannya lebih daripada sekali.",
+        "jsAlreadyReported": "Anda telah pun melaporkan {item} ini. Anda tidak boleh melaporkannya lebih daripada sekali.",
         "jsPromptHeading": "Melaporkan item menyebabkan peluang yang lebih rendah untuk muncul dalam suapan/halaman anda atau yang lain. Adakah anda masih mahu melaporkannya?",
-        "jsReporting": "Melaporkan {itemType}..",
+        "jsReporting": "{itemType} pelaporan..",
         "jsReportingErr": "Tidak dapat mengemukakan permintaan anda buat masa ini. Sila cuba lagi kemudian.",
         "jsReported": "{item} dilaporkan. Terima kasih atas sumbangan anda."
       },
@@ -852,7 +852,7 @@
       "khumsPaymentRecord": {
         "title": "Tambah Rekod Pembayaran",
         "paymentFor": "Bayaran untuk {khumsType}",
-        "totalAmount": "Jumlah keseluruhan: {amount}",
+        "totalAmount": "Jumlah amaun: {amount}",
         "form": {
           "amountLabel": "Jumlah",
           "amountPlaceholder": "Masukkan Amaun",
@@ -1010,14 +1010,14 @@
       },
       "verifyShiaModal": {
         "title": "Sahkan akaun untuk {name}",
-        "heading": "Bolehkah anda menjawab maklumat di bawah mengenai {firstName}? Jika tidak, maka tolak permintaan ini.",
+        "heading": "Bolehkah anda menjawab maklumat di bawah tentang {firstName} ? Jika tidak, maka tolak permintaan ini.",
         "desc": "Anda hanya mempunyai dua percubaan untuk mengesahkan!",
-        "descP1": "Apabila anda menghantar borang ini, kami akan memadankan maklumat dengan perkara yang {firstName} berikan semasa meminta pengesahan. Sila beri perhatian kerana anda hanya mempunyai dua percubaan untuk mengisi borang ini dengan betul. Jika anda masih gagal, anda tidak akan dapat mengesahkan {firstName} lagi pada masa akan datang.",
-        "descP2": "Jika anda tidak tahu {firstName}, maka tolak permintaan ini. Kami akan memberitahu mereka dan meminta mereka menghubungi orang lain.",
+        "descP1": "Apabila anda menyerahkan borang ini, kami akan memadankan maklumat dengan {firstName} yang diberikan semasa meminta pengesahan. Sila ambil perhatian kerana anda hanya mempunyai dua percubaan untuk mengisi borang ini dengan betul. Jika anda masih gagal, anda tidak akan dapat mengesahkan {firstName} lagi pada masa hadapan.",
+        "descP2": "Jika anda tidak tahu {firstName} , maka tolak permintaan ini. Kami akan memberitahu mereka dan meminta mereka menghubungi orang lain.",
         "rejectRequestCta": "Tolak Permintaan",
         "form": {
-          "heading": "Jawab soalan berikut mengenai {firstName} dan klik Serah:",
-          "q1": "Bagaimana anda tahu {firstName}?",
+          "heading": "Jawab soalan berikut tentang {firstName} dan klik Serah:",
+          "q1": "Bagaimana anda tahu {firstName} ?",
           "q2": "Agama:",
           "q3": "Mazhab:",
           "q4": "Adakah {firstName} Sadat?",
@@ -1078,8 +1078,8 @@
       "haadiHome": {
         "title": "Mulakan perbincangan | Perbincangan anda dengan Haadi",
         "item": {
-          "added": "Ditambah {date}",
-          "tokensUsed": "Token yang digunakan: {tokens}",
+          "added": "{date} ditambah",
+          "tokensUsed": "Kredit yang digunakan: {tokens}",
           "readContinue": "Baca atau teruskan perbincangan"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Tanya soalan",
         "empty": {
           "heading": "Tidak dapat mencari perbualan ini",
-          "p1": "Ralat berlaku semasa cuba mendapatkan perbualan ini. Sila semak URL dan cuba lagi.",
-          "p2": "Jika ini terus berlaku, sila hubungi kami.",
-          "guest": "Ini mungkin kerana anda tidak log masuk. Sila cuba log masuk dan semak semula."
+          "p1": "Kami tidak dapat mencari perbualan ini. Sila semak URL dan cuba lagi.",
+          "guest": "Ini mungkin kerana anda tidak log masuk. Sila cuba log masuk dan semak semula.",
+          "p2": "Jika ini terus berlaku, sila hubungi kami."
         },
         "jsNewChatInfo": "Ini adalah permulaan perbualan baru dengan Haadi. Anda telah memilih untuk mendayakan konteks untuk Haadi semasa menjawab soalan anda. Anda sentiasa boleh menyahdayakan opsyen ini dalam seting atau melihat maksud ini untuk anda."
       },
       "aboutHaadi": {
-        "title": "Jumpa Haadi, botfriend awak nak lahirkan Syiah!",
-        "desc": "Klik setiap ringkasan ini untuk membaca lebih lanjut, atau dapatkan lebih lanjut mengenai Haadi dan terma penggunaan dalam <a href={blogLink} target='_system'>blog kami",
+        "title": "Temui Haadi, <strong>rakan Bot</strong> anda untuk mengemudi Islam Syiah!",
+        "desc": "Kami mengesyorkan anda membaca ringkasan ini sebelum anda mula menggunakan Haadi. Anda boleh mendapatkan lebih banyak tentang Haadi dan syarat penggunaan dalam <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Saya faham dan bersetuju dengan Terma Penggunaan"
       }
     },
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Install Bazm { platform }",
-          "desc": "Muat turun apl Android kami untuk pengalaman yang lebih baik, kandungan yang diperibadikan, pemberitahuan dan semua yang anda minati dari sekeliling anda! | Pasang pintasan apl (penanda buku) untuk mengaksesnya terus dari skrin utama anda pada masa akan datang untuk pengalaman yang lebih baik! Ia hampir tidak mengambil sebarang ruang pada peranti anda tetapi membantu anda mendapatkan semula apl dengan cepat.",
+          "heading": "Tambah Pintasan Bazm",
+          "desc": "Muat turun apl Android kami untuk pengalaman yang lebih baik, kandungan diperibadikan, pemberitahuan dan segala-galanya yang menarik minat anda dari sekeliling anda! | Pasang pintasan apl (penanda halaman) untuk mengaksesnya terus dari skrin utama anda pada masa akan datang untuk pengalaman yang lebih baik! Ia hampir tidak memerlukan sebarang ruang pada peranti anda tetapi membantu anda kembali menggunakan apl dengan cepat.",
           "cta": {
             "action": "Memasang",
             "skip": "Mungkin nanti"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Pasang pintasan Bazm?"
         },
-        "popover": {
-          "text": "Klik pada ikon Kongsi (kelihatan seperti satu di sebelah kanan) <strong>DI BAWAH</strong> dan kemudian klik <strong>Tambah ke Skrin Utama</strong>. Klik \"Simpan\" untuk menyelesaikan, dan kemudian anda boleh mengakses aplikasi dari pintasan pada skrin utama anda!"
-        },
         "nonSafari": {
-          "heading": "Bazm berfungsi lebih baik pada Apple Safari",
+          "heading": "Bazm berfungsi lebih baik pada Safari",
           "desc": "Pelayar ini mempunyai ciri terhad, manakala pelayar Safari membolehkan apl kami menunjukkan prestasi yang lebih baik, termasuk pemberitahuan Push-dan Pintasan Aplikasi.",
-          "subtext": "<strong>Buka apl Safari</strong> pada telefon anda dan pergi ke <strong>{url}</strong> untuk pengalaman yang lebih baik.",
+          "subtext": "<strong>Buka Pelayar Safari</strong> dan pergi ke <strong>{url}</strong> untuk pengalaman yang lebih baik.",
           "skipCta": "Teruskan di sini sebaliknya"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Perihal menyimpan Kuki pada peranti anda",
-        "p1": "Kami tidak menyimpan sebarang kuki pada {device} anda tetapi aplikasi pihak ketiga yang digunakan dalam aplikasi kami mungkin (seperti, Google Analytics). Kami sebaliknya menggunakan storan kekal untuk menyimpan sebarang data penting, dan dalam kebanyakan kes, ini disulitkan dalam penyimpanan dan semasa pemindahan.",
+        "p1": "Kami tidak menyimpan sebarang kuki pada {device} anda tetapi apl pihak ketiga yang digunakan dalam apl kami mungkin (seperti, Analitis Google). Sebaliknya, kami menggunakan storan kekal untuk menyimpan sebarang data penting, dan dalam kebanyakan kes, ini disulitkan dalam storan dan semasa pemindahan.",
         "p2": "Dengan terus menggunakan aplikasi ini, anda dengan ini mengesahkan bahawa anda tidak mempunyai sebarang masalah dengan pilihan kami. Untuk mengetahui lebih lanjut mengenai kuki dan penggunaan data kami, lihat <a href='https://bazm.in/privacy-policy' target='_blank'>Dasar Privasi kami.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Aplikasi Rangkaian Sosial untuk umat Islam Syiah di seluruh dunia! Muat turun aplikasi hari ini.",
+      "titleBranding": "__ Bazm - Aplikasi Rangkaian Sosial untuk Muslim Syiah di seluruh dunia!",
       "home": {
         "title": "Bazm - Aplikasi komuniti Syiah Dalam Talian!",
         "description": "Aplikasi Bazm ialah aplikasi komuniti Syiah yang memenuhi semua keperluan harian deen & mazhab anda. Cari Nauhe, Majalis, Dua, Aamaal, Ziyarat, Buku, dll. untuk semua tarikh dan majlis. Tonton dan lakukan acara strim langsung dan majalis dengan Syiah-muslim di seluruh dunia dari kemudahan rumah anda. Sertai hari ini!"
       },
       "feed": {
-        "title": "Cari kandungan yang disesuaikan dan kongsi dengan komuniti Syiah di sekeliling anda dan dunia",
+        "title": "Bazm — Cari dan kongsi kandungan yang disesuaikan daripada umat Islam Syiah di seluruh dunia!",
         "description": "Cari dan kongsi berita, acara, dan kandungan dengan syiah momineen sekitar, dan pastikan mereka dimaklumkan tentang sebarang acara yang anda anjurkan. Ketahui tentang apa-apa yang berlaku berhampiran anda pada apl."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Dengarkan Soaz dari semua tahun dan semua Soazkhwan popular dari seluruh dunia di aplikasi Bazm. Muat turun hari ini."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis pada Bazm - Cari lebih banyak nauhe, majalis audio/video, dua, ziyarat, aamaal, dll. pada Bazm",
+        "title": "{type} majalis/majlis di Bazm - Cari lebih banyak nauhe, audio/video majalis, dua, ziyarat, aamaal, dll. pada Bazm",
         "description": "Cari majalis audio/video daripada Maulana dan Zakir-e-Ahlbayt dari dekat anda dan di seluruh dunia. Dengar dan tonton majalis terkini dan sesi strim langsung di aplikasi Bazm. Muat turun aplikasi hari ini dan sertai berjuta-juta umat Islam Syiah di seluruh dunia!"
       },
       "duasPage": {
         "title": [
-          "Duas dan aamaal untuk bulan {month} di Bazm - Cari lebih banyak nauhe, audio / video majalis, dua, ziyarat, aamaal, dll. pada Bazm",
+          "Doa dan aamaal untuk {month} di Bazm - Cari lebih banyak nauhe, audio/video majalis, doa, piyarat, aamaal, dsb. pada Bazm",
           "Duas dan aamaal selama berbulan-bulan di Bazm - Cari lebih banyak nauhe, majalis audio / video, dua, ziyarat, aamaal, dll. pada Bazm"
         ],
         "description": "Cari duas, aamaal, ziyarat dan munajat selama berbulan-bulan pada Bazm, tarikh dan acara. Muat turun aplikasi hari ini dan sertai berjuta-juta umat Islam Syiah di seluruh dunia!"
