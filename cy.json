@@ -81,7 +81,8 @@
         "cancelCta": "Gofynnwch i mi yn nes ymlaen",
         "okCta": "Sicr!",
         "jsPushUnsupported": "Gwthio heb ei gefnogi ar y ddyfais hon. Efallai y byddwch chi'n colli hysbysiadau!"
-      }
+      },
+      "sending": "Wrthi&#39;n anfon..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Mae'r wybodaeth hon yn weladwy i chi yn unig ac rydych chi'n gweld cynnwys a nodweddion yn seiliedig ar hyn.",
           "idSetupCta": "Sefydlu eich hunaniaeth",
           "idVerifyCta": "Gwireddu",
-          "joinDate": "Cysylltu: {date}"
+          "joinDate": "Cysylltu: {date}",
+          "idVerifyAltText": "Dim ond Shia momineen wedi&#39;i ddilysu all wirio eraill. Sicrhewch fod eich cyfrif wedi&#39;i ddilysu, fel y gallwch wirio&#39;r <strong>{name}</strong> wedi hynny.",
+          "idVerifyAltText2": "Os ydych eisoes wedi gofyn am rywun, gallwch eu hatgoffa eto gyda dolen newydd, neu ofyn i fwy o momineen am ymateb cyflymach."
         },
         "posts": {
           "title": "Swyddi",
@@ -792,7 +795,8 @@
         "jsMailSent": "Mail wedi ei anfon",
         "title2": "Hawliwch eich cyfrif",
         "claimIntroHeading": "Hawliwch eich cyfrif yn gyflym!",
-        "claimIntroText": "Diolch am ymuno â ni. Rydym wedi creu cyfrif i chi nawr. Cael mynediad i'ch cyfrif trwy ailosod ei gyfrinair gan ddefnyddio un o'r dulliau canlynol:"
+        "claimIntroText": "Diolch am ymuno â ni. Rydym wedi creu cyfrif i chi nawr. Cael mynediad i'ch cyfrif trwy ailosod ei gyfrinair gan ddefnyddio un o'r dulliau canlynol:",
+        "introText2": "Mae ailosod eich cyfrinair yn hawdd. Rhowch eich e-bost a chael y ddolen ailosod cyfrinair ar eich e-bost."
       },
       "resetPwd": {
         "title": "Ailosod Cyfrinair",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Methu dod o hyd i'r sgwrs hon",
           "p1": "Digwyddodd camgymeriad wrth geisio cael y sgwrs hon. Gwiriwch yr URL a rhowch gynnig arni eto.",
-          "p2": "Os bydd hyn yn digwydd, cysylltwch â ni yn garedig."
+          "p2": "Os bydd hyn yn digwydd, cysylltwch â ni yn garedig.",
+          "guest": "Gallai hyn fod oherwydd nad ydych wedi mewngofnodi. Ceisiwch fewngofnodi a gwirio eto."
         },
         "jsNewChatInfo": "Dyma ddechrau sgwrs newydd gyda Haadi. Rydych chi wedi dewis galluogi cyd-destun i Haadi wrth ateb eich cwestiynau. Gallwch chi bob amser analluogi'r opsiwn hwn mewn lleoliadau, neu weld beth mae hyn yn ei olygu i chi."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Sut mae eich profiad hyd yn hyn?",
         "text": "<p>Ydych chi'n hoffi'r app newydd? A oes rhywbeth y gallwn ei wella? Helpwch ni gyda'ch adborth i wella'r profiad i chi!</p><p>Dim ond ychydig funudau y bydd hyn yn ei gymryd, ac rydym yn gwerthfawrogi eich amser yn fawr!</p>",
         "cta": "Rhoi adborth",
-        "dismiss": "Efallai nes 'mlaen"
+        "dismiss": "Efallai nes 'mlaen",
+        "altText": "Bydd eich adborth yn ein helpu i wella&#39;r profiad ap i chi, a dim ond munud y mae&#39;n ei gymryd."
       },
       "advertise": {
         "heading": "Hysbysebu ar Bazm",
