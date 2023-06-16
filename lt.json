@@ -22,7 +22,7 @@
       "change": "Keisti",
       "continue": "Tęsti",
       "select": "Žymėti",
-      "saveChanges": "Įrašyti keitimus | Įrašyti | Atnaujinti",
+      "saveChanges": "Išsaugoti pakeitimus | Išsaugoti | Atnaujinti",
       "newBadge": "Naujas",
       "login": "Prisijungti",
       "logout": "Išsiregistruoti",
@@ -38,11 +38,11 @@
       "retry": "Kartoti",
       "send": "Siųsti",
       "submit": "Pateikti",
-      "share": "Dalintis | Dalintis dabar",
+      "share": "Bendrinti | Dalintis dabar",
       "at": "prie",
       "untilNextTime": "Jokių problemų. Iki kito laiko!",
       "plzWait": "Palauk..",
-      "saving": "Taupymo.. | Atnaujinimas..",
+      "saving": "Išsaugoma... | Atnaujinama...",
       "search": "Ieškoti",
       "late": "Vėlai",
       "done": "Padaryta",
@@ -58,8 +58,8 @@
         "uploading": "Įkelti..",
         "deleting": "Naikinimas..",
         "requesting": "Prašančioji..",
-        "audienceHeader": "Momineen, kuris {action}d | Momineen, kuris {action}d",
-        "jsShareFileTypeError": "Deja, čia negalite bendrinti {fileType} failų",
+        "audienceHeader": "Momineen, kuris {action} d | Momineen, kuris {action} d tai",
+        "jsShareFileTypeError": "Atsiprašome, čia negalite bendrinti {fileType} failų",
         "jsUpdateAvailable": {
           "header": "Galimas naujinimas",
           "message": "Matote talpykloje saugomą programos versiją. Spustelėkite \"Atnaujinti\", kad atnaujintumėte ir įkeltumėte naują turinį ir funkcijas.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Nepavyko įkelti vaizdo. Bandykite dar kartą vėliau.",
         "jsLoadingDelay": "Tai užtrunka šiek tiek ilgiau, nei tikėtasi. Palaukite, kol apdorosime šią užklausą."
       },
+      "sending": "Siunčiama...",
       "close": "Uždaryti",
       "yes": "Taip",
       "no": "Ne",
@@ -81,8 +82,7 @@
         "cancelCta": "Paklauskite manęs vėliau",
         "okCta": "Tikrai!",
         "jsPushUnsupported": "Šiame įrenginyje nepalaikomas \"Push\". Galite praleisti pranešimus!"
-      },
-      "sending": "Siunčiama..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Šiuo metu nepavyko įkelti turinio. Po kurio laiko bandykite dar kartą.",
-        "itemDetailUnavailable": "Nepavyko rasti informacijos šiam {item}",
+        "itemDetailUnavailable": "Nepavyko rasti šio {item} išsamios informacijos",
         "loadMoreError": "Nepavyko įkelti daugiau elementų. Bandykite dar kartą vėliau."
       },
       "url": {
@@ -152,7 +152,7 @@
           "wishCtaLabel": "NORAS"
         },
         "books": {
-          "booksByAuthor": "Knygos pagal {author}",
+          "booksByAuthor": "{author} knygos",
           "booksInLang": "Knygos {lang}",
           "filterBy": "Filtruoti pagal:",
           "matching": {
@@ -167,7 +167,7 @@
           "selectLang": "Pasirinkite kalbą:"
         },
         "bookDetails": {
-          "title": "{title} - Raskite daugiau tokių nemokamų knygų kaip ši \"Bazm\"",
+          "title": "{title} – Raskite daugiau nemokamų knygų, tokių kaip ši, Bazm",
           "aboutBook": "Apie knygą:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Khums Skaičiuoklė",
         "khumsDesc": "Apskaičiuokite savo khums arba pridėkite bet kokius anksčiau sumokėtus khums. Tai padeda jums registruoti savo khums per daugelį metų.",
         "alarms": {
-          "salatAlarms": "Salat aliarmai | Kasdieniai Salat aliarmai",
+          "salatAlarms": "Salotų pavojaus signalai – kasdieniai salotų aliarmai",
           "sehriAlarms": "Ramadano Sehri aliarmai",
           "gettingLocation": "Jūsų buvimo vietos nustatymas. Palauk...",
           "settingsTip": "<b>Pakeiskite vietą</b> ir nuostatas dalyje Žadintuvo nustatymai. Spustelėkite nustatymų piktogramą, kad pradėtumėte.",
@@ -195,12 +195,12 @@
           "midnightLabel": "Vidurnaktis",
           "sehriEndTime": "Sehri pabaigos laikas",
           "minToImsak": [
-            "{min} min. prieš Imsaką",
-            "{hour} valanda prieš \"Imsak\""
+            "{min} min prieš Imsaką",
+            "{hour} valanda prieš Imsaką"
           ],
           "minToImsakDesc": [
-            "Žadintuvas suskamba likus {min} minutėms iki Sehri laiko pabaigos",
-            "Žadintuvas suskamba likus {hour} valandai iki Sehri laiko pabaigos"
+            "Žadintuvas suskamba {min} minutėms iki Sehri laiko pabaigos",
+            "Žadintuvas suskamba {hour} prieš Sehri laiko pabaigą"
           ],
           "notRamadan": "Atrodo, kad tai dar ne Ramadanas. Prašome grįžti ramadano metu arba prieš pat jį, kad nustatytumėte Sehri žadintuvus",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Dienoraštis: efektyviai apskaičiuokite khums",
-              "p1": "<a href='{href}' target='_blank'>Sekite mūsų tinklaraštį</a> , kuriame pabrėžiami pagrindiniai elementai skaičiuojant khums kiekvienais metais.",
+              "p1": "<a href='{href}' target='_blank'>Sekite mūsų tinklaraštį</a> , kuriame pabrėžiami pagrindiniai dalykai, skaičiuojant khumus kiekvienais metais.",
               "p2": "Atsakomybės apribojimas: Tinklaraštis NĖRA vadovas. <strong>Vykdykite savo Mardžos nutarimus Khums skaičiavimui</strong>. Norėdami gauti daugiau informacijos, <span id='blog-info-link' color='primary'>spustelėkite čia</span> .",
               "blogInfo": "Aukščiau pateiktas tinklaraštis yra pagrįstas straipsniais iš al-islam.org, sistani.org ir mūsų diskusijų su keliais kitais mokslininkais. Jūs visada turėtumėte vadovautis savo Mardžos sprendimais dėl Khumso skaičiavimo.",
               "dismissCta": "Neįdomu"
@@ -283,7 +283,7 @@
             "mqmsInfo": "Muqammas kitam skaičiavimui",
             "calcHeader": "Remiantis toliau pateiktu skaičiavimu:",
             "savingsHeader": "Santaupos",
-            "conversionInfo": "Konvertuojama į {amount} remiantis {xchgRate} keitimo kursu {xchgRateDate}",
+            "conversionInfo": "Konvertuota į {amount} , pagrįstą {xchgRate} keitimo kursu {xchgRateDate}",
             "expensesHeader": "Išlaidos",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Ankstesnės muqammos",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Užpildykite žemiau esančią formą, kad apskaičiuotumėte savo khums. Nurodomi neprivalomi laukai. Spustelėkite toliau pateiktą informacijos piktogramą, kad sužinotumėte daugiau apie skyrių.",
-            "blog": "Susijęs: Perskaitykite mūsų tinklaraštį apie <a href='{href}' target='_blank'>tai, kaip efektyviai<a> apskaičiuoti khums</a>",
+            "blog": "Susiję: Skaitykite mūsų tinklaraštį, <a href='{href}' target='_blank'>kaip efektyviai apskaičiuoti khumus</a>",
             "dateRange": "Pasirinkite dienų seką:",
             "dateRangeInfo": "Paprastai žmonės skaičiuoja khums finansiniams metams (pvz., Nuo balandžio iki kovo) arba kalendoriniams metams (nuo sausio iki gruodžio)",
             "startDate": "Pradžios data:",
@@ -337,7 +337,7 @@
               "header": "<strong>Naudojant valiutų kursus</strong>",
               "subtext": "Apskaičiuojant bus naudojami šie valiutų keitimo kursai. Galite juos pakeisti, kad būtų naudojamos pasirinktinės reikšmės.",
               "info": "Dirbdami su istoriniais duomenimis, pvz., pridėdami daugiau nei prieš metus atliktų khumų skaičiavimus, kai valiutų kursai nebuvo tokie patys kaip šiandien, galite patys nustatyti pasirinktines valiutų kursų reikšmes.",
-              "rateValuePH": "{currency}, pvz., 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "{currency} , pvz., 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Apskaičiuoti",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "Vartotojas | Paskyra",
+        "name": "Vartotojo paskyra",
         "editProfile": "Redaguoti profilį",
         "publishToFeed": "Mano keitimų publikavimas sklaidos kanale",
         "shareUpdateToFeed": "Taip pat bendrinkite šį naujinimą mano sklaidos kanale",
         "statusText_ph": "Naudokite _kursyvą_ arba *paryškintąjį* formatavimą, kad papuoštumėte savo būseną",
-        "statusCharsLeft": "Liko {count} simbolių",
+        "statusCharsLeft": "{count} likusius simbolius",
         "jsImgUploadSuccess": "Vaizdai sėkmingai įkelti!",
         "unauthAccess": {
           "heading": "Ar tikrai esate tinkamoje vietoje?",
@@ -409,33 +409,33 @@
           "title": "Apie",
           "jsStatusUpdateFail": "Nepavyko atnaujinti būsenos. Bandykite dar kartą vėliau.",
           "statusTextInfo": "Pridėkite ką nors trumpo apie save, pavyzdžiui, kas jūs esate ar ką darote!",
-          "statusCta": "Pridėti būseną | Naujinimo būsena",
+          "statusCta": "Pridėti būseną | Atnaujinti būseną",
           "addCity": "Pridėti miestą",
-          "gender": "Vyras | Moteris",
+          "gender": "Vyras Moteris",
           "addGender": "Pridėti lytį",
           "addBday": "Pridėti gimtadienį",
           "addRelation": "Pridėti ryšį",
           "privateInfoDesc": "Ši informacija matoma tik jums ir jūs matote turinį bei funkcijas, pagrįstas tuo.",
           "idSetupCta": "Nustatykite savo tapatybę",
           "idVerifyCta": "Patikrinti",
-          "joinDate": "Prisijungė: {date}",
           "idVerifyAltText": "Tik patvirtintas Shia momineen gali patvirtinti kitus. Prašome patvirtinti savo paskyrą, kad vėliau galėtumėte patvirtinti <strong>{name}</strong> .",
-          "idVerifyAltText2": "Jei jau ko nors paprašėte, galite dar kartą priminti naudodami naują nuorodą arba paprašyti daugiau momineen, kad greičiau atsakytų."
+          "idVerifyAltText2": "Jei jau ko nors paprašėte, galite dar kartą priminti naudodami naują nuorodą arba paprašyti daugiau momineen, kad greičiau atsakytų.",
+          "joinDate": "Prisijungė: {date}"
         },
         "posts": {
           "title": "Pranešimų",
           "userNoPosts": "Kai pakeisite savo nuotrauką / viršelio vaizdą arba kai paprašysite surah-fatiha savo mirusiems artimiesiems, šie įrašai bus rodomi čia ir <b>skirtuke Pagrindinis</b> (taip pat ir kitų). Pabandykite pridėti paveikslėlį arba viršelio vaizdą?",
-          "profileNoPosts": "{name} dar nepadarė jokių įrašų."
+          "profileNoPosts": "{name} dar neparašė jokių įrašų."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} dar nepridėjo marhumeen | Jūs dar nepridėjote marhumeen",
-            "marhumeenAdded": "{name} pridėjo po marhumeen | Jūs pridėjote po marhumeen"
+            "marhumeenNotAdded": "{name} marhumeen dar nepridėtas | Jūs dar nepridėjote marhumeen",
+            "marhumeenAdded": "{name} pridėjo šiuos marhumeen | Pridėjote šiuos marhumeen"
           },
           "jsDeleteHeader": "Ar tikrai?",
-          "jsDeletePrompt": "Ištrynus <b>{fullName}</b> įrašus, taip pat bus ištrintos visos ankstesnės {gender}pateiktos užklausos! Tęsti?",
-          "jsDeleted": "Panaikinti {marhumeen} įrašai"
+          "jsDeletePrompt": "Ištrynus <b>{fullName}</b> įrašus, bus ištrintos ir visos ankstesnės užklausos dėl {gender} ! Tęsti?",
+          "jsDeleted": "Ištrinti {marhumeen} įrašai"
         },
         "verifyCard": {
           "title": "Patvirtinkite savo šiitų tapatybę | Patvirtinkite savo Sadat tapatybę",
@@ -478,9 +478,9 @@
         }
       },
       "langPrompt": {
-        "title": "Naudoti programėlę {langLabel}?",
+        "title": "Naudoti programą {langLabel} “?",
         "desc": {
-          "p1": "Atrodo, kad programą pasiekiate iš {countryName}. Ar norėtumėte, kad turinys ir valdikliai būtų pateikiami viena iš toliau nurodytų kalbų, kuriomis kalbama regione? Spustelėkite savo pasirinkimą, tada spustelėkite \"Išsaugoti\", kad tęstumėte.",
+          "p1": "Panašu, kad programą pasiekiate iš {countryName} . Ar norėtumėte matyti turinį ir valdiklius viena iš toliau nurodytų kalbų, kuriomis kalbama regione? Spustelėkite savo pasirinkimą, tada spustelėkite „Išsaugoti“, kad tęstumėte.",
           "p2": "Arba atmeskite šį iššokantįjį langą, kad toliau naudotumėte programą numatytąja kalba."
         },
         "choices": {
@@ -491,7 +491,7 @@
           "useEnglish": "Tęsti anglų kalba",
           "selectFrom": "Arba pasirinkite vieną iš šių alternatyvių kalbų:"
         },
-        "langError": "Įkeliant {langName}vertimus įvyko klaida . Bandykite dar kartą vėliau."
+        "langError": "Įkeliant {langName} vertimus įvyko klaida. Pabandykite dar kartą vėliau."
       },
       "createPost": {
         "heading": "Kas šiandien?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "Sukurti įrašą | Atnaujinti įrašą",
+            "post": "Sukurti įrašą — Atnaujinti įrašą",
             "livestream": "Tiesioginė transliacija",
-            "hadiyah": "Sukurkite Hadiyah | Atnaujinkite Hadiyah"
+            "hadiyah": "Sukurti dovaną — Atnaujinkite dovaną"
           },
-          "postCta": "Skelbti | Atnaujinti",
+          "postCta": "Įrašas | Atnaujinimas",
           "stream": {
-            "scheduleCta": "Išsaugoti vėlesniam laikui | Pradėti srautinį perdavimą"
+            "scheduleCta": "Išsaugoti vėlesniam naudojimui — Pradėti srautinį perdavimą"
           },
           "hadiya": {
             "dedication": {
@@ -534,7 +534,7 @@
           "addLocation": "Pridėti vietą",
           "addPics": "Paveikslėlių įtraukimas į skelbimą",
           "previewDes": "Taip jūsų įrašas būtų rodomas kitų žmonių sklaidos kanale. Žmonės gali bakstelėti vaizdo įrašą, kad pamatytų jį visame ekrane.",
-          "addToPost": "Pridėti prie {postType} (pasirinktinai)",
+          "addToPost": "Pridėti prie {postType} (neprivaloma)",
           "jsImgUploadFail": "Vaizdas nebuvo įkeltas",
           "jsAddDetailToPost": "Prašome pridėti išsamią informaciją prie savo įrašo",
           "jsValidEndDate": "Pasirinkite galiojančią pabaigos datą",
@@ -557,7 +557,7 @@
       },
       "post": {
         "addressYou": "Tu",
-        "addressing": "tavo | jo | jos",
+        "addressing": "tavo | jo | ją",
         "itemTypes": {
           "avatar": "avataro vaizdas",
           "banner": "reklamjuostės vaizdas",
@@ -566,13 +566,13 @@
         "displayPhrase": {
           "common": "<strong>{username}</strong> atnaujintas {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> paprašė Surah-Fatiha {addressing} {relation}",
-            "<strong>{username}</strong> paprašė Surah-Fatiha & Namaz-e-Wahshat {addressing} {relation}"
+            "<strong>{username}</strong> paprašė surah {relation} fatiha {addressing}",
+            "<strong>{username}</strong> užklausa surah-fatiha &amp; namaz-e-wahshat {relation} {addressing}"
           ]
         },
         "dateUntil": "Iki: {date} {time}",
         "privatePost": "Šis įrašas matomas tik jums",
-        "descZiyaratRequest": "Jūs paprašėte, kad Ziyarat būtų atliktas jūsų vardu Imamo Husaino (a.s.) *haram* *{date}*"
+        "descZiyaratRequest": "Jūs paprašėte, kad Ziyarat būtų atliktas jūsų vardu imamo Husaino (as) *haram* * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "Mirė:",
         "addMsg": "Norite pridėti pranešimą?",
         "addMsg_ph": "Pavyzdžiui:\nInna lillahi wa inna ilaihe raje'un. Prašau padeklamuoti surah-e-fatiha ir 2-rak'at namaz-e-wahshat mano dėdei Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, kuris paliko mus visus verkti, kad susitiktume su savo kūrėju.",
-        "remainingChars": "Veikėjai: {count} | Veikėjai: {count} likę",
-        "infoEditRelative": "Išsamią {name} informaciją galite redaguoti skiltyje \"Paskyra\" <b>> \"Marhumeen\"</b>",
+        "remainingChars": "Simbolių skaičius: {count} | Simbolių skaičius: likęs {count}",
+        "infoEditRelative": "Išsamią {name} informaciją galite redaguoti <b>paskyros &gt; Marhumeen</b> skiltyje",
         "saveRequestCta": [
           "Išsaugoti &; Prašyti",
           "Prašymą"
@@ -687,7 +687,7 @@
       },
       "readText": {
         "ctaLabel": "Skaityti",
-        "title": "Antra: {title}",
+        "title": "Du: {title}",
         "arabicCta": "Arabų",
         "englishCta": "Anglų",
         "translatedCta": "Išversti"
@@ -724,17 +724,17 @@
           "viaSignal": "Gaukite per signalą"
         },
         "page2": {
-          "header": "Mes išsiuntėme 6 skaitmenų patvirtinimo kodą jūsų numeriu ({number})",
+          "header": "Išsiuntėme 6 skaitmenų patvirtinimo kodą jūsų numeriu ( {number} )",
           "enterCodeLabel": "Įveskite kodą",
           "enterCode_ph": "Įveskite 6 skaitmenų kodą",
           "resendCode": "Iš naujo siųsti kodą",
-          "notUsingMobile": "Nenaudojate <strong>{number}?</strong>",
+          "notUsingMobile": "Nenaudojate <strong>{number} ?</strong>",
           "changeNumber": "Keisti numerį"
         },
         "jsVerifySuccess": "Mobilusis patvirtintas sėkmingai",
         "jsVerifyError": "Įvyko klaida. Bandykite dar kartą vėliau.",
         "jsSendOtpFailed": "Nepavyko išsiųsti OTP. Bandykite dar kartą vėliau.",
-        "jsSendOtpSuccess": "OTP išsiųstas {mobile}",
+        "jsSendOtpSuccess": "Vienkartinis slaptažodis išsiųstas į {mobile}",
         "jsTooManyRequests": "Atrodo, kad jau per daug kartų bandėte. Palaukite minutę ar dvi ir bandykite dar kartą."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "Kai bendrinate išorėje, jūsų pranešimai gali atrodyti taip, kaip nurodyta toliau.",
           "sharingTextDemo": [
             "Klausykitės šios \"Nauha\" \"Bazm\" programoje",
-            "{name} rekomenduoja klausytis šios \"Nauha\" \"Bazm\" programoje"
+            "{name} rekomenduoja klausytis šios „Nauha“ programoje „Bazm“."
           ],
           "addSignDesc": "Norite pridėti ir savo parašą?",
-          "addSignPlaceholder": "Pavyzdžiui\nSu geriausiais linkėjimais,\n{name}",
+          "addSignPlaceholder": "Pavyzdžiui, su geriausiais linkėjimais, {name}",
           "signDesc": "Kai pasidalinsite savo noru su draugais šioje programoje, jūsų parašas bus pridėtas prie pranešimų. Pavyzdžiui, jis gali būti rodomas taip, kaip nurodyta toliau:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "Slaptažodis turi neleistinų simbolių.",
         "jsPwdCharCount": "Slaptažodis negali būti trumpesnis nei 8 simboliai.",
         "jsSelectLang": "Pirmiausia pasirinkite kalbą.",
-        "jsLangSet": "Kalba nustatyta kaip {lang}",
+        "jsLangSet": "Kalba nustatyta į {lang}",
         "jsPrefSaved": "Personalizavimo parametrai įrašyti."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "Iš naujo nustatyti slaptažodį lengva. Norėdami tęsti, pasirinkite metodą:",
         "usePhoneCta": "Naudokite telefoną",
         "useEmailCta": "Naudokite el. paštą",
-        "sendEmailIntro": "Įveskite el. pašto adresą, kuriuo sukūrėte paskyrą, ir mes išsiųsime el. laišką su nuoroda, kad nustatytumėte naują paskyros slaptažodį.",
+        "sendEmailIntro": "Įveskite el. pašto adresą, kuriuo sukūrėte paskyrą, ir mes išsiųsime el. laišką su nuoroda, skirta naujam paskyros slaptažodžiui nustatyti. | Norėdami prisijungti prie paskyros, turite pridėti el. pašto adresą. Į šį el. laišką išsiųsime slaptažodžio nustatymo iš naujo nuorodą ir iš ten galėsite sukurti paskyros, susietos su mobiliojo telefono numeriu, slaptažodį.",
         "emailInputLabel": "Jūsų registruotas el. pašto adresas",
         "sendEmailCta": "Siųsti atstatymo el. laišką",
-        "sentEmailText": "Jei turite paskyrą pas mus, netrukus gausite slaptažodžio nustatymo iš naujo el. laišką <strong>{email}</strong>. Maloniai patikrinkite, ar jūsų el. pašte nėra nuorodos.",
-        "notUsingEmailText": "Nenaudojate <strong>{email}?</strong>",
+        "sentEmailText": "Jei turite paskyrą pas mus, netrukus <strong>{email}</strong> gausite slaptažodžio nustatymo iš naujo el. laišką. Prašome patikrinti el. paštą, ar nėra nuorodos.",
+        "notUsingEmailText": "Nenaudojate <strong>{email} .</strong>",
         "changeEmailCta": "El. pašto adreso keitimas",
         "phoneIntroText": "Įveskite prie paskyros pridėtą telefono numerį. Mes išsiųsime OTP, kad patvirtintume jūsų nuosavybės teisę, o kitame žingsnyje galėsite sukurti naują slaptažodį.",
         "phoneInputLabel": "Jūsų mobiliojo telefono numeris",
         "sendOtpCta": "Siųsti OTP",
         "backToLoginCta": "Grįžti į prisijungimą",
-        "disclaimerText": "Atkreipkite dėmesį, kad {item} gausite tik tuo atveju, jei pas mus užsiregistravote {item}",
+        "disclaimerText": "Atminkite, kad {item} gausite tik tuo atveju, jei {item} užregistruosite pas mus",
         "jsMailSent": "Išsiųstas laiškas",
         "title2": "Gaukite teises į savo sąskaitą",
+        "introText2": "Iš naujo nustatyti slaptažodį paprasta. Įveskite savo el. pašto adresą ir gaukite slaptažodžio nustatymo iš naujo nuorodą el. pašte.",
         "claimIntroHeading": "Greitai atsiimkite savo sąskaitą!",
-        "claimIntroText": "Dėkojame, kad prisijungėte prie mūsų. Dabar sukūrėme jums paskyrą. Gaukite prieigą prie savo paskyros iš naujo nustatydami slaptažodį vienu iš šių būdų:",
-        "introText2": "Iš naujo nustatyti slaptažodį paprasta. Įveskite savo el. pašto adresą ir gaukite slaptažodžio nustatymo iš naujo nuorodą el. pašte."
+        "claimIntroText": "Ačiū, kad prisijungėte prie mūsų. Gaukite prieigą prie paskyros pridėję el. pašto adresą prie paskyros."
       },
       "resetPwd": {
         "title": "Iš naujo nustatyti slaptažodį",
-        "introText": "Čia nustatykite saugų paskyros slaptažodį. Spustelėkite {icon} , kad įsitikintumėte, jog įvedate teisingą slaptažodį.",
+        "introText": "Čia nustatykite saugų paskyros slaptažodį. Spustelėkite {icon} , kad įsitikintumėte, jog įvedėte tinkamą slaptažodį.",
         "pwdInputLabel": "Nustatykite naują slaptažodį",
         "pwdInputPH": "Įveskite naują slaptažodį",
         "invalidPwdChars": "Neleistini slaptažodžio simboliai",
@@ -812,11 +812,11 @@
       "moreBtn": {
         "jsItemDeleted": "{item} sėkmingai ištrintas.",
         "jsErrReporting": "Šiuo metu negali apie tai pranešti. Bandykite dar kartą vėliau.",
-        "jsAlreadyReported": "Jūs jau pranešėte apie tai {item}. Negalite apie tai pranešti daugiau nei vieną kartą.",
+        "jsAlreadyReported": "Jau pranešėte apie šį {item} . Negalite apie tai pranešti daugiau nei vieną kartą.",
         "jsPromptHeading": "Pranešus apie elementą, sumažėja tikimybė, kad jis bus rodomas jūsų ar kito asmens sklaidos kanale / puslapiuose. Ar vis dar norite apie tai pranešti?",
-        "jsReporting": "Ataskaitų teikimo {itemType}..",
+        "jsReporting": "Ataskaitos {itemType} ..",
         "jsReportingErr": "Šiuo metu nepavyko pateikti prašymo. Bandykite dar kartą vėliau.",
-        "jsReported": "{item} pranešta. Ačiū už jūsų indėlį."
+        "jsReported": "{item} pranešta. Dėkojame už jūsų indėlį."
       },
       "editProfileModal": {
         "jsEmptyData": "Nėra ko atnaujinti!",
@@ -845,7 +845,7 @@
       },
       "mqmsSelector": {
         "title": "Pasirinkite Muqammas sumą",
-        "dateAdded": "Papildyta: {date}",
+        "dateAdded": "Pridėta: {date}",
         "cancelCta": "Atšaukti",
         "doneCta": "Žymėti"
       },
@@ -1009,15 +1009,15 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Paskyros patvirtinimas {name}",
-        "heading": "Ar galite atsakyti į žemiau pateiktą informaciją apie {firstName}? Jei ne, atmeskite šį prašymą.",
+        "title": "Patvirtinkite {name} paskyrą",
+        "heading": "Ar galite atsakyti į žemiau pateiktą informaciją apie {firstName} ? Jei ne, atmeskite šį prašymą.",
         "desc": "Jūs turite tik du bandymus patikrinti!",
-        "descP1": "Kai pateiksite šią formą, mes suderinsime informaciją su tuo, kas {firstName} pateikta prašant patvirtinimo. Atkreipkite dėmesį, nes teisingai užpildyti šią formą turite tik du bandymus. Jei vis tiek nepavyks, ateityje negalėsite {firstName} dar kartą patvirtinti.",
-        "descP2": "Jei {firstName}nežinote , atmeskite šią užklausą. Mes jiems pranešime ir paprašysime susisiekti su kuo nors kitu.",
+        "descP1": "Kai pateiksite šią formą, mes suderinsime informaciją su tuo, ką {firstName} pateikė prašydami patvirtinimo. Atkreipkite dėmesį, nes turite tik du bandymus teisingai užpildyti šią formą. Jei vis tiek nepavyks, ateityje nebegalėsite patvirtinti {firstName} .",
+        "descP2": "Jei nežinote {firstName} , atmeskite šią užklausą. Mes juos informuosime ir paprašysime susisiekti su kuo nors kitu.",
         "rejectRequestCta": "Atmesti užklausą",
         "form": {
           "heading": "Atsakykite į šiuos klausimus apie {firstName} ir spustelėkite Pateikti:",
-          "q1": "Kaip žinoti, {firstName}?",
+          "q1": "Kaip tu žinai {firstName} ?",
           "q2": "Religija:",
           "q3": "Sekta:",
           "q4": "Ar {firstName} Sadatas?",
@@ -1073,13 +1073,13 @@
         "cta": "Atmesti",
         "title": "Atmesti prašymą",
         "reasonLabel": "Kodėl nenorite patvirtinti šio abonemento?",
-        "reasonPh": "Mes {userName} pranešime ir paprašysime susisiekti su kuo nors kitu, kad būtų patvirtintas"
+        "reasonPh": "Informuosime {userName} ir paprašysime susisiekti su kitu asmeniu dėl patvirtinimo"
       },
       "haadiHome": {
-        "title": "Pradėkite diskusiją | Jūsų diskusijos su Haadi",
+        "title": "Pradėti diskusiją – Jūsų diskusijos su Haadi",
         "item": {
-          "added": "Papildyta {date}",
-          "tokensUsed": "Naudojami žetonai: {tokens}",
+          "added": "Pridėta {date}",
+          "tokensUsed": "Panaudoti kreditai: {tokens}",
           "readContinue": "Skaityti arba tęsti diskusiją"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Užduokite klausimą",
         "empty": {
           "heading": "Nepavyko rasti šio pokalbio",
-          "p1": "Bandant užmegzti šį pokalbį įvyko klaida. Patikrinkite URL ir bandykite dar kartą.",
-          "p2": "Jei taip nutinka ir toliau, maloniai susisiekite su mumis.",
-          "guest": "Taip gali būti todėl, kad nesate prisijungęs. Pabandykite prisijungti ir dar kartą patikrinti."
+          "p1": "Nepavyko rasti šio pokalbio. Patikrinkite URL ir bandykite dar kartą.",
+          "guest": "Taip gali būti todėl, kad nesate prisijungęs. Pabandykite prisijungti ir dar kartą patikrinti.",
+          "p2": "Jei taip nutinka ir toliau, maloniai susisiekite su mumis."
         },
         "jsNewChatInfo": "Tai naujo pokalbio su Haadi pradžia. Atsakydami į klausimus pasirinkote įjungti \"Haadi\" kontekstą. Visada galite išjungti šią parinktį nustatymuose arba pamatyti, ką tai reiškia jums."
       },
       "aboutHaadi": {
-        "title": "Susipažinkite su Haadi, savo botfriendu, kad galėtumėte naršyti šiitų islame!",
-        "desc": "Spustelėkite kiekvieną iš šių suvestinių, kad sužinotumėte daugiau, arba sužinokite daugiau apie Haadi ir naudojimo <a href= sąlygas{blogLink} target='_system'>mūsų tinklaraštyje",
+        "title": "Susipažinkite su Haadi, savo <strong>boto draugu,</strong> kad naršytumėte šiitų islamą!",
+        "desc": "Prieš pradedant naudoti Haadi, rekomenduojame peržiūrėti šias santraukas. Daugiau apie Haadi ir naudojimo sąlygas rasite <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Suprantu ir sutinku su naudojimo sąlygomis"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "Įveskite slaptažodį!",
         "jsEnterValidPwd": [
           "Slaptažodis turi neleistinų simbolių. Įveskite galiojantį slaptažodį.",
-          "Slaptažodį turi sudaryti bent {num} simboliai."
+          "Slaptažodį turi sudaryti bent {num} simbolių."
         ],
         "jsAccountSuccess": "Paskyra sėkmingai sukurta",
         "jsFbError": "Nepavyko gauti \"Facebook\" paskyros informacijos. Bandykite dar kartą.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Įdiekite Bazm { platforma }",
-          "desc": "Atsisiųskite mūsų \"Android\" programą, kad gautumėte geresnę patirtį, suasmenintą turinį, pranešimus ir viską, kas jus domina iš aplinkinių! | Įdiekite programos nuorodą (žymę), kad kitą kartą ją pasiektumėte tiesiai iš pagrindinio ekrano, kad gautumėte geresnę patirtį! Tai beveik neužima vietos jūsų įrenginyje, bet padeda greitai grįžti prie programos.",
+          "heading": "Pridėti Bazm spartųjį klavišą",
+          "desc": "Atsisiųskite mūsų „Android“ programą, kad gautumėte geresnę patirtį, suasmenintą turinį, pranešimus ir viską, kas jus domina iš aplinkinių! | Įdiekite programos nuorodą (žymę), kad kitą kartą pasietumėte ją tiesiai iš pagrindinio ekrano ir gautumėte geresnę patirtį! Tai beveik neužima vietos jūsų įrenginyje, bet padeda greitai grįžti į programą.",
           "cta": {
             "action": "Diegti",
             "skip": "Gal vėliau"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Įdiegti Bazm nuorodą?"
         },
-        "popover": {
-          "text": "Spustelėkite Bendrinimo piktograma (atrodo kaip viena dešinėje) <strong>ŽEMIAU</strong> , tada spustelėkite <strong>Pridėti prie pagrindinio ekrano</strong>. Spustelėkite \"Išsaugoti\", kad baigtumėte, tada galėsite pasiekti programą naudodami nuorodą pagrindiniame ekrane!"
-        },
         "nonSafari": {
-          "heading": "\"Bazm\" geriau veikia \"Apple Safari\"",
+          "heading": "„Bazm“ geriau veikia „Safari“.",
           "desc": "Ši naršyklė turi ribotas funkcijas, o \"Safari\" naršyklė leidžia mūsų programai veikti geriau, įskaitant tiesioginius pranešimus ir programos sparčiuosius klavišus.",
-          "subtext": "<strong>Atidarykite \"Safari\" programą</strong> savo telefone ir goto <strong>{url}</strong>, kad gautumėte geresnę patirtį.",
+          "subtext": "<strong>Atidarykite „Safari“ naršyklę</strong> ir eikite į <strong>{url}</strong> kad gautumėte geresnę patirtį.",
           "skipCta": "Vietoj to tęskite čia"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Apie slapukų išsaugojimą jūsų įrenginyje",
-        "p1": "Mes nesaugome jokių slapukų jūsų {device} bet gali būti trečiųjų šalių programos, naudojamos mūsų programoje (pvz., \"Google Analytics\"). Vietoj to mes naudojame nuolatinę saugyklą bet kokiems svarbiems duomenims saugoti ir daugeliu atvejų tai yra užšifruota saugykloje ir perkėlimo metu.",
+        "p1": "Jūsų {device} nesaugome jokių slapukų, tačiau mūsų programėlėje naudojamos trečiųjų šalių programos (pvz., „Google Analytics“) gali. Vietoj to naudojame nuolatinę saugyklą svarbiems duomenims saugoti, o daugeliu atvejų ji yra užšifruota saugykloje ir perkėlimo metu.",
         "p2": "Toliau naudodamiesi šia programa patvirtinate, kad neturite jokių problemų dėl mūsų pasirinkimų. Norėdami sužinoti daugiau apie mūsų slapukus ir duomenų naudojimą, skaitykite mūsų <a href='https://bazm.in/privacy-policy' target='_blank'>privatumo politiką.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - socialinių tinklų programa musulmonams šiitams visame pasaulyje! Atsisiųskite programą šiandien.",
+      "titleBranding": "__ Bazm - socialinio tinklo programa, skirta šiitų musulmonams visame pasaulyje!",
       "home": {
         "title": "Bazm - internetinė šiitų bendruomenės programa!",
         "description": "\"Bazm\" programa yra šiitų bendruomenės programa, atitinkanti visus jūsų kasdienius \"deen & mazhab\" poreikius. Raskite Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books ir kt. visoms datoms ir progoms. Stebėkite ir tiesiogiai transliuokite renginius ir majalis su musulmonais šiitais visame pasaulyje iš savo namų patogumo. Prisijunk šiandien!"
       },
       "feed": {
-        "title": "Raskite pritaikytą turinį ir bendrinkite su šiitų bendruomene visame pasaulyje",
+        "title": "Bazm – raskite ir bendrinkite pritaikytą turinį iš šiitų musulmonų visame pasaulyje!",
         "description": "Raskite ir bendrinkite naujienas, įvykius ir turinį su shia momineen aplink ir informuokite juos apie visus rengiamus renginius. Sužinokite apie viską, kas vyksta šalia jūsų programoje."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Klausykitės \"Soaz\" iš visų metų ir visų populiarių \"Soazkhwan\" iš viso pasaulio \"Bazm\" programoje."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Raskite daugiau nauhe, audio/video majalis, dua, ziyarat, aamaal ir kt. apie Bazmą",
+        "title": "{type} majalis/majlis on Bazm – Raskite daugiau nauhe, audio/video majalis, dua, ziyarat, aamaal ir kt. ant Bazmo",
         "description": "Raskite garso / vaizdo majalis iš Maulana ir Zakir-e-Ahlbayt iš netoliese ir visame pasaulyje. Klausykitės ir žiūrėkite naujausias majalis ir tiesioginės transliacijos sesijas \"Bazm\" programoje. Atsisiųskite programėlę šiandien ir prisijunkite prie milijonų šiitų musulmonų visame pasaulyje!"
       },
       "duasPage": {
         "title": [
-          "Duas ir aamaal {month} mėnesiui Bazm - Raskite daugiau nauhe, garso / vaizdo majalis, dua, ziyarat, aamaal ir kt. apie Bazmą",
+          "Duas ir aamaal mėnesio {month} „Bazm“ – raskite daugiau nauhe, audio/video majalis, dua, piyarat, aamaal ir kt. ant Bazmo",
           "Duas ir aamaal visiems mėnesiams Bazm - Raskite daugiau nauhe, garso / vaizdo majalis, dua, ziyarat, aamaal ir kt. apie Bazmą"
         ],
         "description": "Raskite duas, aamaal, ziyarat ir munajat visiems mėnesiams Bazm, data ir įvykis. Atsisiųskite programėlę šiandien ir prisijunkite prie milijonų šiitų musulmonų visame pasaulyje!"
