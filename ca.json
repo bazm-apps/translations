@@ -81,7 +81,8 @@
         "cancelCta": "Pregunta-m'ho més tard",
         "okCta": "Segur!",
         "jsPushUnsupported": "Push no és compatible amb aquest dispositiu. És possible que et perdis les notificacions!"
-      }
+      },
+      "sending": "S&#39;està enviant..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Aquesta informació només és visible per a vosaltres i veieu contingut i funcions basats en això.",
           "idSetupCta": "Configura la teva identitat",
           "idVerifyCta": "Verificar",
-          "joinDate": "Any d'incorporació: {date}"
+          "joinDate": "Any d'incorporació: {date}",
+          "idVerifyAltText": "Només els momineen xiïtes verificats poden verificar-ne altres. Si us plau, verifiqueu el vostre compte per poder verificar <strong>{name}</strong> després.",
+          "idVerifyAltText2": "Si ja heu sol·licitat algú, podeu tornar-li a recordar amb un enllaç nou o demanar a més momineen una resposta més ràpida."
         },
         "posts": {
           "title": "Llocs",
@@ -792,7 +795,8 @@
         "jsMailSent": "Correu enviat",
         "title2": "Reclama el teu compte",
         "claimIntroHeading": "Reclama el teu compte ràpidament!",
-        "claimIntroText": "Gràcies per acompanyar-nos. Ara t'hem creat un compte. Per accedir al compte, restabliu la contrasenya mitjançant un dels mètodes següents:"
+        "claimIntroText": "Gràcies per acompanyar-nos. Ara t'hem creat un compte. Per accedir al compte, restabliu la contrasenya mitjançant un dels mètodes següents:",
+        "introText2": "Restablir la contrasenya és fàcil. Introduïu el vostre correu electrònic i obteniu l&#39;enllaç de restabliment de la contrasenya al vostre correu electrònic."
       },
       "resetPwd": {
         "title": "Restableix la contrasenya",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "No he pogut trobar aquesta conversa",
           "p1": "S'ha produït un error en intentar obtenir aquesta conversa. Comproveu l'URL i torneu-ho a provar.",
-          "p2": "Si això continua passant, poseu-vos en contacte amb nosaltres."
+          "p2": "Si això continua passant, poseu-vos en contacte amb nosaltres.",
+          "guest": "Això podria ser perquè no heu iniciat la sessió. Si us plau, proveu d&#39;iniciar sessió i comprovar-ho de nou."
         },
         "jsNewChatInfo": "Aquest és l'inici d'una nova conversa amb Haadi. Heu triat habilitar el context per a Haadi mentre responeu a les vostres preguntes. Sempre podeu desactivar aquesta opció a la configuració o veure què significa això per a vosaltres."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Com és la teva experiència fins ara?",
         "text": "<p>T'agrada la nova app? Hi ha alguna cosa que puguem millorar? Si us plau, ajudeu-nos amb els vostres comentaris per millorar l'experiència per a vosaltres.</p><p>Això trigaria només uns minuts, i agraïm molt el vostre temps.</p>",
         "cta": "Envia comentaris",
-        "dismiss": "Tal vegada més tard"
+        "dismiss": "Tal vegada més tard",
+        "altText": "Els vostres comentaris ens ajudaran a millorar l&#39;experiència de l&#39;aplicació per a vosaltres, i només trigarà un minut."
       },
       "advertise": {
         "heading": "Anuncia't a Bazm",
