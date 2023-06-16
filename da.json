@@ -81,7 +81,8 @@
         "cancelCta": "Spørg mig senere",
         "okCta": "Sikker!",
         "jsPushUnsupported": "Push understøttes ikke på denne enhed. Du kan gå glip af meddelelser!"
-      }
+      },
+      "sending": "Sender..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Disse oplysninger er kun synlige for dig, og du kan se indhold og funktioner baseret på dette.",
           "idSetupCta": "Konfigurer din identitet",
           "idVerifyCta": "Kontrolere",
-          "joinDate": "Tilmeldt: {date}"
+          "joinDate": "Tilmeldt: {date}",
+          "idVerifyAltText": "Kun verificerede Shia momineen kan verificere andre. Få venligst bekræftet din konto, så du kan bekræfte <strong>{name}</strong> derefter.",
+          "idVerifyAltText2": "Hvis du allerede har anmodet om nogen, kan du minde dem om igen med et nyt link, eller bede more momineen om et hurtigere svar."
         },
         "posts": {
           "title": "Indlæg",
@@ -792,7 +795,8 @@
         "jsMailSent": "Mail sendt",
         "title2": "Gør krav på din konto",
         "claimIntroHeading": "Gør krav på din konto hurtigt!",
-        "claimIntroText": "Tak fordi du sluttede dig til os. Vi har oprettet en konto til dig nu. Få adgang til din konto ved at nulstille adgangskoden ved hjælp af en af følgende metoder:"
+        "claimIntroText": "Tak fordi du sluttede dig til os. Vi har oprettet en konto til dig nu. Få adgang til din konto ved at nulstille adgangskoden ved hjælp af en af følgende metoder:",
+        "introText2": "Det er nemt at nulstille din adgangskode. Indtast din e-mail og få linket til nulstilling af adgangskode på din e-mail."
       },
       "resetPwd": {
         "title": "Nulstil adgangskode",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Kunne ikke finde denne samtale",
           "p1": "Der opstod en fejl under forsøg på at få denne samtale. Kontroller URL'en, og prøv igen.",
-          "p2": "Hvis dette bliver ved med at ske, bedes du kontakte os."
+          "p2": "Hvis dette bliver ved med at ske, bedes du kontakte os.",
+          "guest": "Dette kan skyldes, at du ikke er logget ind. Prøv venligst at logge ind og tjek igen."
         },
         "jsNewChatInfo": "Dette er starten på en ny samtale med Haadi. Du har valgt at aktivere kontekst for Haadi, mens du besvarer dine spørgsmål. Du kan altid deaktivere denne indstilling i indstillinger eller se, hvad det betyder for dig."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Hvordan er din oplevelse indtil videre?",
         "text": "<p>Kan du lide den nye app? Er der noget, vi kan forbedre? Hjælp os med din feedback for at forbedre oplevelsen for dig!</p><p>Dette tager kun et par minutter, og vi sætter stor pris på din tid!</p>",
         "cta": "Giv feedback",
-        "dismiss": "Måske senere"
+        "dismiss": "Måske senere",
+        "altText": "Din feedback hjælper os med at forbedre appoplevelsen for dig, og det tager kun et minut."
       },
       "advertise": {
         "heading": "Annoncér på Bazm",
