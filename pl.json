@@ -176,7 +176,7 @@
         "salatAlarmDesc": "Ustaw alarmy dla Azaan zgodnie z czasem lokalnym",
         "sehriAlarmDesc": "Ustaw alarm dla Sehri, a nawet uzyskaj pobudkę na swój numer przed Sehri!",
         "sehriAlarmOptionDisabled": "Alarmy dla czasu Sheri w miesiącu Ramadan (dostępne tylko podczas Ramadanu)",
-        "tasbeehCounterDesc": "Z łatwością recytuj Duas, Koran i Tasbeeh w trybie powtarzania dzięki licznikowi Audio Tasbeeh",
+        "tasbeehCounterDesc": "Łatwo recytuj Duas, Koran i Tasbeeh w trybie powtarzania dzięki licznikowi Audio Tasbeeh",
         "qnaLabel": "QnA (Masle-Masayel)",
         "qnaDesc": "Szukaj i zadawaj pytania lub znajdź odpowiedzi na masle-masayel z codziennego życia w sprawach islamu.",
         "khumsLabel": "Kalkulator Khums",
@@ -478,6 +478,7 @@
         }
       },
       "langPrompt": {
+        "title": "Użyj aplikacji w {langLabel} ?",
         "desc": {
           "p1": "Wygląda na to, że uzyskujesz dostęp do aplikacji z {countryName} . Czy chcesz zobaczyć zawartość i elementy sterujące w jednym z następujących języków używanych w regionie? Kliknij swój wybór, a następnie kliknij „Zapisz”, aby kontynuować.",
           "p2": "Lub zamknij to wyskakujące okienko, aby kontynuować korzystanie z aplikacji w domyślnym języku."
@@ -486,7 +487,9 @@
           "useLang": [
             "Tak, użyj {langName}",
             "Użyj {langName}"
-          ]
+          ],
+          "useEnglish": "Kontynuuj po angielsku",
+          "selectFrom": "Lub wybierz jeden z następujących alternatywnych języków:"
         },
         "langError": "Wystąpił błąd podczas ładowania tłumaczeń dla {langName} . Spróbuj ponownie później."
       },
@@ -619,7 +622,7 @@
         "born": "Urodzić się:",
         "died": "Zmarł:",
         "addMsg": "Chcesz dodać wiadomość?",
-        "addMsg_ph": "Na przykład: Inna lillahi wa inna ilaihe raje&#39;un. Proszę, wyrecytujcie surah-e-fatiha i 2-rak&#39;at namaz-e-wahshat dla mojego wujka, Syeda Zeeshana Haidera walda Syeda Tauqeera Hasana Marhooma, który pozostawił nas płaczących, by spotkać się ze swoim stwórcą.",
+        "addMsg_ph": "Na przykład: Inna lillahi wa inna ilaihe raje&#39;un. Proszę, wyrecytujcie surah-e-fatiha i 2-rak&#39;at namaz-e-wahshat dla mojego wujka Syeda Zeeshana Haidera walda Syeda Tauqeera Hasana Marhooma, który pozostawił nas płaczących, by spotkać swojego stwórcę.",
         "remainingChars": "Znaki: {count} | Znaki: {count} pozostałych",
         "infoEditRelative": "Możesz edytować szczegóły {name} w sekcji <b>Konto &gt; Marhumeen</b>",
         "saveRequestCta": [
