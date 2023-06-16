@@ -81,7 +81,8 @@
         "cancelCta": "Vra my later",
         "okCta": "Seker!",
         "jsPushUnsupported": "Druk nie ondersteun op hierdie toestel nie. U kan kennisgewings misloop!"
-      }
+      },
+      "sending": "Stuur..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Hierdie inligting is slegs vir u sigbaar en u sien dat inhoud en funksies hierop gebaseer is.",
           "idSetupCta": "Stel jou identiteit op",
           "idVerifyCta": "Verifieer",
-          "joinDate": "Aangesluit: {date}"
+          "joinDate": "Aangesluit: {date}",
+          "idVerifyAltText": "Slegs geverifieerde Shia momineen kan ander verifieer. Laat asseblief u rekening verifieer, sodat u <strong>{name}</strong> daarna kan verifieer.",
+          "idVerifyAltText2": "As jy reeds iemand versoek het, kan jy hulle weer herinner met &#39;n nuwe skakel, of meer momineen vra vir &#39;n vinniger antwoord."
         },
         "posts": {
           "title": "Poste",
@@ -792,7 +795,8 @@
         "jsMailSent": "Pos gestuur",
         "title2": "Eis jou rekening op",
         "claimIntroHeading": "Eis jou rekening vinnig op!",
-        "claimIntroText": "Dankie dat jy by ons aangesluit het. Ons het nou vir jou 'n rekening geskep. Kry toegang tot jou rekening deur sy wagwoord terug te stel deur een van die volgende metodes te gebruik:"
+        "claimIntroText": "Dankie dat jy by ons aangesluit het. Ons het nou vir jou 'n rekening geskep. Kry toegang tot jou rekening deur sy wagwoord terug te stel deur een van die volgende metodes te gebruik:",
+        "introText2": "Dit is maklik om jou wagwoord terug te stel. Voer jou e-pos in en kry die wagwoord-terugstel skakel op jou e-pos."
       },
       "resetPwd": {
         "title": "Stel wagwoord terug",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Kon hierdie gesprek nie vind nie",
           "p1": "'N Fout het voorgekom tydens die poging om hierdie gesprek te kry. Gaan asseblief die URL na en probeer weer.",
-          "p2": "As dit aanhou gebeur, kontak ons asseblief."
+          "p2": "As dit aanhou gebeur, kontak ons asseblief.",
+          "guest": "Dit kan wees omdat jy nie aangemeld is nie. Probeer asseblief om aan te meld en kyk weer."
         },
         "jsNewChatInfo": "Dit is die begin van 'n nuwe gesprek met Haadi. Jy het gekies om konteks vir Haadi moontlik te maak terwyl jy jou vrae beantwoord. U kan hierdie opsie altyd in instellings deaktiveer, of kyk wat beteken dit vir u."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Hoe is jou ervaring tot dusver?",
         "text": "<p>Hou jy van die nuwe toepassing? Is daar iets wat ons kan verbeter? Help ons asseblief met jou terugvoer om die ervaring vir jou te verbeter!</p><p>Dit sal net 'n paar minute neem, en ons waardeer jou tyd baie!</p>",
         "cta": "Gee terugvoer",
-        "dismiss": "Miskien later"
+        "dismiss": "Miskien later",
+        "altText": "Jou terugvoer sal ons help om die app-ervaring vir jou te verbeter, en dit neem net &#39;n minuut."
       },
       "advertise": {
         "heading": "Adverteer op Bazm",
