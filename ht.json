@@ -185,7 +185,7 @@
           "salatAlarms": "Alam Salat | Alam Salat chak jou",
           "sehriAlarms": "Ramadan Sehri Alam",
           "gettingLocation": "Jwenn kote ou ye a. Souple tann...",
-          "settingsTip": "Chanje <b>Kote</b> ak preferans nan paramèt Alam yo. Klike sou ikòn Anviwònman pou kòmanse.",
+          "settingsTip": "Chanje <b>Kote</b> ak preferans nan paramèt Alam yo. Klike sou ikòn Anviwònman yo pou kòmanse.",
           "setAlarmHeader": "Mete alam chak jou",
           "setAlarmOnAppDesc": "Sou Desktop, notifikasyon alam parèt sèlman kòm banyè san okenn bag",
           "imsakLabel": "Imsak",
@@ -478,6 +478,7 @@
         }
       },
       "langPrompt": {
+        "title": "Sèvi ak app nan {langLabel} ?",
         "desc": {
           "p1": "Li sanble ke w ap jwenn aksè nan app a soti nan {countryName} . Èske ou ta renmen wè kontni ak kontwòl nan youn nan lang sa yo pale nan rejyon an? Klike sou chwa ou epi klike sou &#39;Save&#39; pou kontinye.",
           "p2": "Oswa, ranvwaye popup sa a pou kontinye itilize aplikasyon an nan lang default."
@@ -486,7 +487,9 @@
           "useLang": [
             "Wi, sèvi ak {langName}",
             "Sèvi ak {langName}"
-          ]
+          ],
+          "useEnglish": "Kontinye nan lang angle",
+          "selectFrom": "Oswa, chwazi youn nan lòt lang sa yo:"
         },
         "langError": "Yon erè te fèt pandan w ap chaje tradiksyon {langName} yo. Tanpri eseye ankò pita."
       },
@@ -691,7 +694,7 @@
       },
       "reqAccess": {
         "heading": "aksè nesesè",
-        "subheading": "Nou bezwen pèmisyon pou jwenn aksè nan kamera ou",
+        "subheading": "Nou bezwen pèmisyon pou jwenn aksè nan kamera w la",
         "subtext": "Tanpri pèmèt aksè a pa klike sou bouton ki anba a:",
         "ctaLabel": "pèmèt aksè"
       },
@@ -784,7 +787,7 @@
         "sentEmailText": "Si ou gen yon kont avèk nou, w ap resevwa yon imèl reset modpas yon ti tan sou <strong>{email}</strong> . Tanpri tcheke imel ou pou lyen an.",
         "notUsingEmailText": "Pa itilize <strong>{email} ?</strong>",
         "changeEmailCta": "Chanje Imèl",
-        "phoneIntroText": "Antre nimewo telefòn ki ajoute nan kont ou a. Nou pral voye yon OTP pou verifye pwopriyetè w, epi nan pwochen etap la, ou pral kapab kreye yon nouvo modpas.",
+        "phoneIntroText": "Antre nimewo telefòn ki ajoute nan kont ou a. Nou pral voye yon OTP pou verifye pwopriyetè w, epi nan pwochen etap la, w ap kapab kreye yon nouvo modpas.",
         "phoneInputLabel": "Nimewo mobil ou",
         "sendOtpCta": "Voye OTP",
         "backToLoginCta": "Retounen nan Login",
@@ -899,7 +902,7 @@
             },
             "item3": {
               "header": "Enfòmasyon ou yo toujou prive",
-              "p1": "<strong>Nou konprann sa a se yon enfòmasyon sansib</strong> epi nou p ap janm ekspoze enfòmasyon sa yo piblikman san konsantman ou, men yo ka toujou fè dediksyon pafwa. Pa egzanp, lè ou mande verifikasyon nan men lòt momineen, yo pral konnen ke ou se yon chiit.",
+              "p1": "<strong>Nou konprann sa a se yon enfòmasyon sansib</strong> epi nou p ap janm ekspoze enfòmasyon sa a piblikman san konsantman ou, men yo ka toujou fè enferans pafwa. Pa egzanp, lè ou mande verifikasyon nan men lòt momineen, yo pral konnen ke ou se yon chiit.",
               "p2": "Ou ka klike sou bouton ki anba a pou w li plis sou pwosesis nou an."
             },
             "cta": "Enstalasyon"
@@ -1193,7 +1196,7 @@
       },
       "advertise": {
         "heading": "Piblisite sou Bazm",
-        "text": "<p>Jwenn plizyè milyon mizilman chiit atravè mond lan ak pwodwi ou sou Bazm oswa angaje ak mak ak itilizatè.</p><p> Kòmanse pou osi ba ke $1/jou!</p>",
+        "text": "<p>Jwenn plizyè milyon mizilman chiit atravè mond lan ak pwodwi ou sou Bazm oswa angaje ak mak ak itilizatè.</p><p> Kòmanse pou osi ba ke $ 1 / jou!</p>",
         "cta": "Aprann plis"
       },
       "upgradeSafari": {
