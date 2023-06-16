@@ -81,7 +81,8 @@
         "cancelCta": "Niulize baadaye",
         "okCta": "Uhakika!",
         "jsPushUnsupported": "Push si mkono kwenye kifaa hiki. Unaweza kukosa arifa!"
-      }
+      },
+      "sending": "Inatuma..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Habari hii inaonekana kwako tu na unaona maudhui na vipengele kulingana na hii.",
           "idSetupCta": "Sanidi utambulisho wako",
           "idVerifyCta": "Thibitisha",
-          "joinDate": "Kujiunga na: {date}"
+          "joinDate": "Kujiunga na: {date}",
+          "idVerifyAltText": "Waumini wa Shia waliothibitishwa pekee ndio wanaweza kuthibitisha wengine. Tafadhali thibitisha akaunti yako, ili uweze kuthibitisha <strong>{name}</strong> baadaye.",
+          "idVerifyAltText2": "Ikiwa tayari umeomba mtu, unaweza kumkumbusha tena kwa kiungo kipya, au uulize mama zaidi kwa jibu la haraka."
         },
         "posts": {
           "title": "Posts",
@@ -792,7 +795,8 @@
         "jsMailSent": "Barua iliyotumwa",
         "title2": "Madai ya akaunti yako",
         "claimIntroHeading": "Kudai akaunti yako kwa haraka!",
-        "claimIntroText": "Shukrani kwa ajili ya kujiunga nasi. Tumekuwekea akaunti kwa ajili yako sasa. Pata ufikiaji wa akaunti yako kwa kuweka upya nywila yake kwa kutumia mojawapo ya njia zifuatazo:"
+        "claimIntroText": "Shukrani kwa ajili ya kujiunga nasi. Tumekuwekea akaunti kwa ajili yako sasa. Pata ufikiaji wa akaunti yako kwa kuweka upya nywila yake kwa kutumia mojawapo ya njia zifuatazo:",
+        "introText2": "Kuweka upya nenosiri lako ni rahisi. Ingiza barua pepe yako na upate kiungo cha kuweka upya nenosiri kwenye barua pepe yako."
       },
       "resetPwd": {
         "title": "Weka upya Nywila",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Sikuweza kupata mazungumzo haya",
           "p1": "Kosa lilitokea wakati wa kujaribu kupata mazungumzo haya. Tafadhali angalia URL na jaribu tena.",
-          "p2": "Ikiwa hii inaendelea kutokea, wasiliana nasi kwa upole."
+          "p2": "Ikiwa hii inaendelea kutokea, wasiliana nasi kwa upole.",
+          "guest": "Hii inaweza kuwa ni kwa sababu hujaingia. Tafadhali jaribu kuingia na uangalie tena."
         },
         "jsNewChatInfo": "Huu ni mwanzo wa mazungumzo mapya na Haadi. Umechagua kuwezesha muktadha kwa Haadi wakati unajibu maswali yako. Unaweza kuzima chaguo hili kila wakati katika mipangilio, au uone hii inamaanisha nini kwako."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Ni kwa jinsi gani uzoefu wako hadi sasa?",
         "text": "<p>Unapenda app mpya? Je, kuna kitu tunaweza kuboresha? Tafadhali tusaidie na maoni yako ili kuboresha uzoefu wako!</p><p>Hii itachukua dakika chache tu, na tunathamini sana wakati wako!</p>",
         "cta": "Toa maoni",
-        "dismiss": "Pengine baadaye"
+        "dismiss": "Pengine baadaye",
+        "altText": "Maoni yako yatatusaidia kuboresha matumizi ya programu kwa ajili yako, na inachukua dakika moja tu."
       },
       "advertise": {
         "heading": "Kutangaza juu ya Bazm",
