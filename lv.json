@@ -81,7 +81,8 @@
         "cancelCta": "Jautājiet man vēlāk",
         "okCta": "Pārliecināts!",
         "jsPushUnsupported": "Push netiek atbalstīts šajā ierīcē. Jūs varat palaist garām paziņojumus!"
-      }
+      },
+      "sending": "Notiek sūtīšana..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Šī informācija ir redzama tikai jums, un jūs redzat uz to balstītu saturu un funkcijas.",
           "idSetupCta": "Identitātes iestatīšana",
           "idVerifyCta": "Pārbaudām",
-          "joinDate": "Pievienots: {date}"
+          "joinDate": "Pievienots: {date}",
+          "idVerifyAltText": "Tikai verificēts Shia momineen var pārbaudīt citus. Lūdzu, verificējiet savu kontu, lai pēc tam varētu verificēt <strong>{name}</strong> .",
+          "idVerifyAltText2": "Ja esat kādu jau pieprasījis, varat viņam vēlreiz atgādināt, izmantojot jaunu saiti, vai lūgt vairāk momineen, lai saņemtu ātrāku atbildi."
         },
         "posts": {
           "title": "Posts",
@@ -792,7 +795,8 @@
         "jsMailSent": "Nosūtīts pasts",
         "title2": "Konta pieprasīšana",
         "claimIntroHeading": "Pieprasiet savu kontu ātri!",
-        "claimIntroText": "Paldies, ka pievienojāties mums. Tagad mēs esam izveidojuši jums kontu. Piekļūstiet savam kontam, atiestatot tā paroli, izmantojot kādu no tālāk norādītajām metodēm."
+        "claimIntroText": "Paldies, ka pievienojāties mums. Tagad mēs esam izveidojuši jums kontu. Piekļūstiet savam kontam, atiestatot tā paroli, izmantojot kādu no tālāk norādītajām metodēm.",
+        "introText2": "Paroles atiestatīšana ir vienkārša. Ievadiet savu e-pastu un saņemiet paroles atiestatīšanas saiti savā e-pastā."
       },
       "resetPwd": {
         "title": "Paroles atiestatīšana",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Nevarēju atrast šo sarunu",
           "p1": "Mēģinot iegūt šo sarunu, radās kļūda. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.",
-          "p2": "Ja tas turpina notikt, lūdzu, sazinieties ar mums."
+          "p2": "Ja tas turpina notikt, lūdzu, sazinieties ar mums.",
+          "guest": "Tas varētu būt tāpēc, ka neesat pieteicies. Lūdzu, mēģiniet pieteikties un vēlreiz pārbaudiet."
         },
         "jsNewChatInfo": "Tas ir sākums jaunai sarunai ar Haadi. Jūs esat izvēlējies iespējot kontekstu Haadi, vienlaikus atbildot uz jūsu jautājumiem. Jūs vienmēr varat atspējot šo opciju iestatījumos vai redzēt, ko tas nozīmē jums."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Kāda ir jūsu līdzšinējā pieredze?",
         "text": "<p>Vai jums patīk jaunā lietotne? Vai ir kaut kas, ko mēs varam uzlabot? Lūdzu, palīdziet mums ar savām atsauksmēm, lai uzlabotu jūsu pieredzi!</p><p>Tas aizņemtu tikai dažas minūtes, un mēs ļoti novērtējam jūsu laiku!</p>",
         "cta": "Sniedziet atsauksmes",
-        "dismiss": "Varbūt vēlāk"
+        "dismiss": "Varbūt vēlāk",
+        "altText": "Jūsu atsauksmes palīdzēs mums uzlabot lietotnes pieredzi, un tas aizņems tikai minūti."
       },
       "advertise": {
         "heading": "Reklāma Bazm",
