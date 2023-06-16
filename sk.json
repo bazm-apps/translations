@@ -478,6 +478,7 @@
         }
       },
       "langPrompt": {
+        "title": "Použiť aplikáciu v {langLabel} ?",
         "desc": {
           "p1": "Zdá sa, že k aplikácii pristupujete z {countryName} . Chcete vidieť obsah a ovládacie prvky v jednom z nasledujúcich jazykov, ktorými sa hovorí v regióne? Kliknite na svoj výber a potom pokračujte kliknutím na „Uložiť“.",
           "p2": "Alebo zatvorte toto kontextové okno a pokračujte v používaní aplikácie v predvolenom jazyku."
@@ -486,7 +487,9 @@
           "useLang": [
             "Áno, použite {langName}",
             "Použite {langName}"
-          ]
+          ],
+          "useEnglish": "Pokračovať v angličtine",
+          "selectFrom": "Alebo si vyberte jeden z nasledujúcich alternatívnych jazykov:"
         },
         "langError": "Pri načítavaní prekladov pre {langName} sa vyskytla chyba. Skúste neskôr prosím."
       },
@@ -607,7 +610,7 @@
           ],
           "selectRelation": "Vyberte položku Vzťah",
           "demiseLabel": "Dnes zabitý? Vyžiadajte si Namaz-e-Wahshat",
-          "demiseText": "Veľmi nás mrzí vaša strata. Nech Alah dá vám a vašej rodine silu znášať túto stratu trpezlivo a nech Alah odmení zosnulú dušu najvyššími miestami v Jannah. Výber tejto možnosti vám umožní požiadať momineen o Namaz-e-Wahshat pre zosnulú dušu.",
+          "demiseText": "Veľmi nás mrzí vaša strata. Nech Alah dá vám a vašej rodine silu znášať túto stratu trpezlivo a nech Alah odmení zosnulú dušu najvyššími miestami v Jannah. Výber tejto možnosti vám umožní požiadať momineen o Namaz-e-Wahshat pre dušu zosnulej.",
           "optional": "Voliteľné",
           "dod": "Zomrel ďalej",
           "dob": "Narodil sa"
@@ -781,7 +784,7 @@
         "sendEmailIntro": "Zadajte e-mailovú adresu, pomocou ktorej ste si vytvorili účet, a my vám pošleme e-mail s odkazom na nastavenie nového hesla pre váš účet. | Ak sa chcete prihlásiť do svojho účtu, musíte pridať e-mailovú adresu. Na tento e-mail vám pošleme odkaz na obnovenie hesla a odtiaľ si môžete vytvoriť heslo pre svoj účet priradený k vášmu mobilnému číslu.",
         "emailInputLabel": "Váš registrovaný email",
         "sendEmailCta": "Odoslať e-mail na obnovenie",
-        "sentEmailText": "Ak máte u nás účet, čoskoro dostanete e-mail s obnovením <strong>{email}</strong> . Prosím, skontrolujte svoj e-mail pre odkaz.",
+        "sentEmailText": "Ak máte u nás účet, čoskoro dostanete e-mail s <strong>{email}</strong> na obnovenie hesla. Prosím skontrolujte svoj e-mail pre odkaz.",
         "notUsingEmailText": "Nepoužívate <strong>{email} ?</strong>",
         "changeEmailCta": "Zmeniť e-mail",
         "phoneIntroText": "Zadajte telefónne číslo pridané k vášmu účtu. Pošleme vám jednorazové heslo na overenie vášho vlastníctva a v ďalšom kroku si budete môcť vytvoriť nové heslo.",
@@ -824,7 +827,7 @@
         "cta": "Žiadosť",
         "header": "Vyžiadajte si Ziyarat vo svätyni Imam Hussain (as) v Karbale vo vašom mene.",
         "desc": {
-          "p1": "Každý piatok nechajte <strong>Ziyarat recitovať vo vašom mene</strong> v svätyni imáma Hussaina (as) v Karbale v Iraku! Všetko, čo musíte urobiť, je požiadať <strong>do konca štvrtkového večera</strong> . Nikdy však neprídeš neskoro; ak vaša žiadosť príde príliš neskoro, bude zaregistrovaná na nasledujúci týždeň.",
+          "p1": "Každý piatok nechajte <strong>Ziyarat recitovať vo vašom mene</strong> v svätyni imáma Hussaina (as) v Karbale v Iraku! Všetko, čo musíte urobiť, je požiadať <strong>do konca štvrtkového večera</strong> . Nikdy však neprídete neskoro; ak vaša žiadosť príde príliš neskoro, bude zaregistrovaná na nasledujúci týždeň.",
           "p2": "Upozorníme vás, keď bude ziyarat recitovaný vo vašom mene.",
           "p3": "Poznámka: Keď požiadate prvýkrát, vaše údaje budú zdieľané s naším poskytovateľom služieb. Ak chcete vedieť viac, prečítajte si naše zmluvné podmienky."
         },
@@ -978,7 +981,7 @@
             "shia": "Shia",
             "sunni": "Non-shia"
           },
-          "thanksNonMuslim": "Ďakujeme, že ste prejavili záujem pripojiť sa k našej aplikácii. Dúfame, že tu nájdete užitočný obsah. Prejavte úctu komunite a dodržiavajte naše pravidlá.",
+          "thanksNonMuslim": "Ďakujeme, že ste prejavili záujem o pripojenie k našej aplikácii. Dúfame, že tu nájdete užitočný obsah. Prejavte úctu komunite a dodržiavajte naše pravidlá.",
           "sadat": {
             "label": "Si Sadat?",
             "infoText": "Tieto informácie sa používajú vo funkciách určených pre moslimov Sadat-shia. Nikdy sa však nikomu nezobrazuje tak, ako je. Skôr ako budete môcť využívať tieto služby, budete musieť overiť svoj stav sady.",
