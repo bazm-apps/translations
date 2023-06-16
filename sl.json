@@ -296,7 +296,7 @@
               "recordDeleteFailed": "Pri poskusu brisanja tega zapisa je prišlo do napake. Prosimo, poskusite znova ali, če se napaka ponovi, pridite znova pozneje.",
               "recordDeleted": "Zapis je bil uspešno izbrisan",
               "deleteRecordHeader": "Izbrisati zapis?",
-              "deleteRecordDesc": "Ali ste prepričani, da želite izbrisati ta zapis? Izbrisane bodo tudi vse priloge, dodane temu zapisu!"
+              "deleteRecordDesc": "Ali ste prepričani, da želite izbrisati ta zapis? Izbrisane bodo tudi vse priloge, dodane v ta zapis!"
             }
           },
           "calc": {
@@ -315,7 +315,7 @@
                 "placeholder": "Npr. Plačni račun",
                 "amountLabel": "Znesek",
                 "amountPlaceholder": "Vnesite znesek",
-                "remarks": "Kakšne pripombe glede tega predmeta?"
+                "remarks": "Kakšne pripombe o tem artiklu?"
               }
             },
             "expenses": {
@@ -478,6 +478,7 @@
         }
       },
       "langPrompt": {
+        "title": "Uporabite aplikacijo v {langLabel} ?",
         "desc": {
           "p1": "Videti je, da do aplikacije dostopate iz {countryName} . Ali želite videti vsebino in kontrolnike v enem od naslednjih jezikov, ki se govorijo v regiji? Kliknite svojo izbiro in nato kliknite »Shrani« za nadaljevanje.",
           "p2": "Ali pa opustite to pojavno okno, če želite še naprej uporabljati aplikacijo v privzetem jeziku."
@@ -486,13 +487,15 @@
           "useLang": [
             "Da, uporabi {langName}",
             "Uporabi {langName}"
-          ]
+          ],
+          "useEnglish": "Nadaljujte v angleščini",
+          "selectFrom": "Ali pa izberite enega od naslednjih nadomestnih jezikov:"
         },
         "langError": "Med nalaganjem prevodov za {langName} je prišlo do napake. Prosim poskusite kasneje."
       },
       "createPost": {
         "heading": "Kaj je danes?",
-        "desc": "Kliknite tukaj za skupno rabo posodobitve ali uporabite možnost spodaj",
+        "desc": "Kliknite tukaj, če želite deliti posodobitev ali uporabiti možnost spodaj",
         "request": "Prošnja",
         "askQues": "Postavi vprašanje",
         "sheetOptions": {
@@ -649,7 +652,7 @@
           "askViaLabel": "Vprašaj Via",
           "askSistaniInfo": "Lahko postavite vprašanje, na katerega vam bo odgovoril urad njegove eminence, ajatulaha Al-Sayyida Ali Al-Husseinija Al-Sistanija. Vprašanje bomo posredovali na njihovo spletno stran (skupaj s podatki o vašem profilu). Prepričajte se, da ste pravilno prebrali <b>določila in pogoje</b> .",
           "tncLabel": "Pogoji uporabe:",
-          "sistaniOrgTncInfo": "Razmislite o upoštevanju točk z njihovega spletnega mesta, preden postavite vprašanje, kajti če se ne držite spodnjih točk, se vam morda ne bodo oglasili ali morda ne boste prejeli odgovorov.",
+          "sistaniOrgTncInfo": "Razmislite o upoštevanju točk z njihovega spletnega mesta, preden postavite vprašanje, kajti če se ne držite spodnjih točk, se vam morda ne bodo oglasili ali morda ne boste prejeli nobenega odgovora.",
           "userInfo": {
             "aboutLabel": "O tebi",
             "genderLabel": "Vaš spol",
@@ -830,7 +833,7 @@
         },
         "jsRegistered": "Hvala vam! Vaša zahteva je uspešno registrirana. Kmalu boste prejeli potrditveno sporočilo.",
         "jsAlreadyRegistered": "Ta četrtek ste se že prijavili na Ziyarat. Prijavite se naslednji teden za ziyarat naslednji teden.",
-        "jsConfirm": "Za registracijo za to zahtevo moramo vaše podatke (npr. polno ime, spol itd.) deliti z našim ponudnikom storitev. To je potrebno le prvič. Za nadaljevanje prosimo potrdite.",
+        "jsConfirm": "Za registracijo za to zahtevo moramo vaše podatke (npr. polno ime, spol itd.) deliti z našim ponudnikom storitev. To je potrebno samo prvič. Za nadaljevanje prosimo potrdite.",
         "jsDeclined": "V redu! Mogoče kasneje."
       },
       "currencySelector": {
@@ -899,7 +902,7 @@
             },
             "item3": {
               "header": "Vaši podatki so vedno zasebni",
-              "p1": "<strong>Zavedamo se, da so to občutljivi podatki</strong> , in jih nikoli ne bomo javno razkrili brez vašega soglasja, vendar je včasih vseeno mogoče sklepati. Na primer, ko zahtevate preverjanje od drugih mamin, bodo vedeli, da ste šiit.",
+              "p1": "<strong>Zavedamo se, da so to občutljivi podatki</strong> in teh podatkov ne bomo nikoli javno razkrili brez vašega soglasja, vendar je včasih vseeno mogoče sklepati. Na primer, ko zahtevate preverjanje od drugih mamin, bodo vedeli, da ste šiit.",
               "p2": "Če želite prebrati več o našem postopku, kliknite spodnji gumb."
             },
             "cta": "Nastaviti"
@@ -1178,7 +1181,7 @@
           "heading": "Namestite bližnjico Bazm?"
         },
         "nonSafari": {
-          "heading": "Bazm bolje deluje v Safariju",
+          "heading": "Bazm bolje deluje na Safariju",
           "desc": "Ta brskalnik ima omejene funkcije, brskalnik Safari pa omogoča boljše delovanje naše aplikacije, vključno s potisnimi obvestili in bližnjico do aplikacije.",
           "subtext": "<strong>Odprite brskalnik Safari</strong> in pojdite na <strong>{url}</strong> za boljšo izkušnjo.",
           "skipCta": "Namesto tega nadaljujte tukaj"
