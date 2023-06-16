@@ -81,7 +81,8 @@
         "cancelCta": "Hỏi tôi sau",
         "okCta": "Chắc!",
         "jsPushUnsupported": "Đẩy không được hỗ trợ trên thiết bị này. Bạn có thể bỏ lỡ thông báo!"
-      }
+      },
+      "sending": "Gửi..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Thông tin này chỉ hiển thị cho bạn và bạn thấy nội dung và tính năng dựa trên thông tin này.",
           "idSetupCta": "Thiết lập danh tính của bạn",
           "idVerifyCta": "Xác minh",
-          "joinDate": "Đã tham gia: {date}"
+          "joinDate": "Đã tham gia: {date}",
+          "idVerifyAltText": "Chỉ Shia momineen đã được xác minh mới có thể xác minh những người khác. Vui lòng xác minh tài khoản của bạn để bạn có thể xác minh <strong>{name}</strong> sau đó.",
+          "idVerifyAltText2": "Nếu bạn đã yêu cầu ai đó, bạn có thể nhắc lại họ bằng một liên kết mới hoặc hỏi thêm mẹ để nhận được phản hồi nhanh hơn."
         },
         "posts": {
           "title": "Bài viết",
@@ -792,7 +795,8 @@
         "jsMailSent": "Thư đã gửi",
         "title2": "Xác nhận tài khoản của bạn",
         "claimIntroHeading": "Xác nhận tài khoản của bạn một cách nhanh chóng!",
-        "claimIntroText": "Cảm ơn bạn đã tham gia cùng chúng tôi. Chúng tôi đã tạo một tài khoản cho bạn ngay bây giờ. Nhận quyền truy cập vào tài khoản của bạn bằng cách đặt lại mật khẩu bằng một trong các phương pháp sau:"
+        "claimIntroText": "Cảm ơn bạn đã tham gia cùng chúng tôi. Chúng tôi đã tạo một tài khoản cho bạn ngay bây giờ. Nhận quyền truy cập vào tài khoản của bạn bằng cách đặt lại mật khẩu bằng một trong các phương pháp sau:",
+        "introText2": "Đặt lại mật khẩu của bạn thật dễ dàng. Nhập email của bạn và nhận liên kết đặt lại mật khẩu trên email của bạn."
       },
       "resetPwd": {
         "title": "Đặt lại mật khẩu",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Không thể tìm thấy cuộc trò chuyện này",
           "p1": "Đã xảy ra lỗi trong khi cố gắng để có được cuộc trò chuyện này. Vui lòng kiểm tra URL và thử lại.",
-          "p2": "Nếu điều này tiếp tục xảy ra, vui lòng liên hệ với chúng tôi."
+          "p2": "Nếu điều này tiếp tục xảy ra, vui lòng liên hệ với chúng tôi.",
+          "guest": "Điều này có thể là do bạn chưa đăng nhập. Vui lòng thử đăng nhập và kiểm tra lại."
         },
         "jsNewChatInfo": "Đây là khởi đầu của một cuộc trò chuyện mới với Haadi. Bạn đã chọn bật ngữ cảnh cho Haadi trong khi trả lời câu hỏi của mình. Bạn luôn có thể tắt tùy chọn này trong cài đặt hoặc xem điều này có ý nghĩa gì đối với bạn."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Kinh nghiệm của bạn cho đến nay như thế nào?",
         "text": "<p>Bạn có thích ứng dụng mới không? Có điều gì chúng ta có thể cải thiện không? Vui lòng giúp chúng tôi với phản hồi của bạn để cải thiện trải nghiệm cho bạn!</p><p>Quá trình này sẽ chỉ mất vài phút và chúng tôi đánh giá cao thời gian của bạn!</p>",
         "cta": "Đưa ra phản hồi",
-        "dismiss": "Có lẽ sau này"
+        "dismiss": "Có lẽ sau này",
+        "altText": "Phản hồi của bạn sẽ giúp chúng tôi cải thiện trải nghiệm ứng dụng cho bạn và chỉ mất một phút."
       },
       "advertise": {
         "heading": "Quảng cáo trên Bazm",
