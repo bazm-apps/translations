@@ -1,106 +1,107 @@
 {
   "mt": {
     "common": {
-      "refresh": "Iġbed biex taġġorna",
-      "refreshing": "Qed jaġġorna...",
-      "loadingMore": "Qed jillowdja aktar...",
-      "checking": "Verifika...",
-      "sendOtp": "Bgħit OTP..",
-      "dismiss": "Kewkha",
-      "invite": "Jistieden",
-      "showMore": "Uri aktar -- Ara aktar",
-      "play": "Ilgħab",
-      "pause": "Sospiż",
-      "playing": "Daqq",
-      "paused": "Sospiż",
-      "watch": "Għassa",
-      "read": "Jaqra",
-      "authors": "Awtur -— Awturi",
-      "languages": "Lingwa -— Lingwi",
+      "refresh": "Iġbed biex aġġorna",
+      "refreshing": "Aġġorna...",
+      "loadingMore": "Tagħbija aktar...",
+      "checking": "Tiċċekkja...",
+      "sendOtp": "Tibgħat OTP..",
+      "dismiss": "Tkeċċi",
+      "invite": "Stieden",
+      "showMore": "Uri aktar | Ara aktar",
+      "play": "Play",
+      "pause": "Waqfa qasira",
+      "playing": "Playing",
+      "paused": "Waqfa qasira",
+      "watch": "Watch",
+      "read": "Aqra",
+      "authors": "Awtur | Awturi",
+      "languages": "Lingwa | Lingwi",
       "clear": "Ċara",
       "cancel": "Ikkanċella",
       "change": "Bidla",
-      "continue": "Tkompli",
+      "continue": "Kompli",
       "select": "Agħżel",
-      "saveChanges": "Issejvja l-bidliet -— Issejvja -— Aġġorna",
+      "saveChanges": "Issejvja l-bidliet | Save | Aġġorna",
       "newBadge": "Ġdid",
       "login": "Idħol",
-      "logout": "Logout",
-      "signup": "Iffirma",
-      "settings": "Issettjar",
-      "cookiePolicy": "Politika dwar il-cookies",
+      "logout": "Oħroġ",
+      "signup": "Irregistra",
+      "settings": "Settings",
+      "cookiePolicy": "Politika tal-cookies",
       "privacy": "Privatezza",
-      "contactUs": "Ikkuntattjana",
+      "contactUs": "Ikkuntatjana",
       "home": "Dar",
       "facebook": "Facebook",
       "google": "Google",
-      "you": "Int",
-      "retry": "Erġa' pprova",
-      "send": "Tibgħat",
-      "submit": "Jissottomettu",
-      "share": "Share | Aqsam issa",
-      "at": "fuq",
-      "untilNextTime": "Mhemmx problema. Sal-Ħin li jmiss!",
-      "plzWait": "Jekk jogħġbok stenna..",
-      "saving": "Tissejvja.. | Aġġornament..",
-      "search": "Tiftix",
+      "you": "Inti",
+      "retry": "Ipprova mill-ġdid",
+      "send": "Ibgħat",
+      "submit": "Issottometti",
+      "share": "Aqsam | Aqsam issa",
+      "at": "fi",
+      "untilNextTime": "Mhux problema. Sal-ħin li jmiss!",
+      "plzWait": "Stenna..",
+      "saving": "Iffrankar.. | Aġġornament..",
+      "search": "Fittex",
       "late": "Tard",
       "done": "Magħmul",
-      "featureUnavailable": "Din il-karatteristika se tkun disponibbli dalwaqt. Grazzi fro li turi interess!",
+      "featureUnavailable": "Din il-karatteristika se tkun disponibbli dalwaqt. Grazzi talli wrejt interess!",
       "actions": {
         "cancel": "Ikkanċella",
-        "notify": "Jinnotifikaw lill",
-        "like": "Simili",
+        "notify": "Avża",
+        "like": "Bħal",
         "recited": "Recited",
-        "comment": "Jikkummenta",
-        "reply": "Tweġiba",
+        "comment": "Ikkummenta",
+        "reply": "Irrispondi",
         "bookmark": "Bookmark",
-        "uploading": "Uploading..",
-        "deleting": "Tħassar..",
-        "requesting": "Rikjedenti..",
-        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
-        "jsShareFileTypeError": "Jiddispjacini, ma tistax tixxerja {fileType} fajls hawn",
+        "uploading": "Ttella&#39;..",
+        "deleting": "Tħassir..",
+        "requesting": "Titlob..",
+        "audienceHeader": "Momineen min {action} d | Momineen min {action} d dan",
+        "jsShareFileTypeError": "Jiddispjacini, ma tistax taqsam il-fajls {fileType} hawn",
         "jsUpdateAvailable": {
           "header": "Aġġornament disponibbli",
-          "message": "Qed tara verżjoni fil-cache tal-app. Ikklikkja 'Aġġorna' biex taġġorna u tgħabbi kontenut u karatteristiċi ġodda.",
+          "message": "Qed tara verżjoni cache tal-app. Ikklikkja &#39;Aġġorna&#39; biex taġġorna u tgħabbi kontenut u karatteristiċi ġodda.",
           "cta": "Aġġorna"
         },
-        "jsImgUploaded": "L-immaġni mtella 'b'suċċess!",
-        "jsImgUploadErr": "It-tlugħ tal-immaġni falla. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsLoadingDelay": "Qed jieħu daqsxejn itwal milli mistenni. Stenna ftit sakemm nipproċessaw din it-talba."
+        "jsImgUploaded": "L-immaġni ttella&#39; b&#39;suċċess!",
+        "jsImgUploadErr": "It-tlugħ tal-immaġni fallew. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsLoadingDelay": "Qed jieħu ftit aktar milli mistenni. Jekk jogħġbok stenna waqt li nipproċessaw din it-talba."
       },
-      "unknown": "Mhux magħruf",
-      "close": "Qrib",
+      "sending": "Tibgħat...",
+      "close": "Agħlaq",
       "yes": "Iva",
-      "no": "Le",
-      "idk": "Ma nafx",
-      "completed!": "Kompletati!",
+      "no": "Nru",
+      "idk": "ma nafx",
+      "unknown": "Mhux magħruf",
+      "completed!": "Tlesti!",
       "pushPrompt": {
-        "heading": "Ibqa' aġġornat",
-        "desc": "Bħal dak li tara? Qatt titlef aġġornament u tibqa 'notifikat dwar dak kollu li jiġri man-notifiki.<br />Nistgħu nibagħtulek notifiki?",
+        "heading": "Ibqa&#39; aġġornat",
+        "desc": "Bħal dak li tara? Qatt titlif aġġornament u żomm notifikat dwar dak kollu li jiġri madwar bin-notifiki.<br /> Nistgħu nibagħtulek notifiki?",
         "cancelCta": "Staqsini aktar tard",
         "okCta": "Żgur!",
-        "jsPushUnsupported": "Imbotta mhux appoġġjat fuq dan it-tagħmir. Tista' titlef in-notifiki!"
+        "jsPushUnsupported": "Imbotta mhux appoġġjata fuq dan l-apparat. Tista&#39; titlef in-notifiki!"
       }
     },
     "errors": {
       "service": {
-        "unavailable": "Is-servizz mhux disponibbli f'dan il-mument. Jekk jogħġbok erġa' pprova aktar tard.",
-        "unknown": "Sar żball mhux magħruf. Jekk jogħġbok erġa' pprova aktar tard.",
-        "general": "Sar żball waqt l-ipproċessar tat-talba tiegħek. Jekk jogħġbok erġa' pprova aktar tard."
+        "unavailable": "Servizz mhux disponibbli f&#39;dan il-mument. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "unknown": "Sar żball mhux magħruf. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "general": "Sar żball waqt l-ipproċessar tat-talba tiegħek. Jekk jogħġbok erġa&#39; pprova aktar tard."
       },
       "content": {
-        "unavailable": "Ma setax jillowdja l-kontenut f'dan il-ħin. Jekk jogħġbok erġa' pprova ftit.",
-        "itemDetailUnavailable": "Ma setax isib dettalji għal dan {item}",
-        "loadMoreError": "Ma rnexxilux jillowdja aktar items. Jekk jogħġbok erġa' pprova aktar tard."
+        "unavailable": "Ma setax jgħabbi l-kontenut f&#39;dan il-ħin. Jekk jogħġbok erġa&#39; pprova fi żmien ftit.",
+        "itemDetailUnavailable": "Ma setgħetx issib dettalji għal dan {item}",
+        "loadMoreError": "Naqas milli jgħabbi aktar oġġetti. Jekk jogħġbok erġa&#39; pprova aktar tard."
       },
       "url": {
-        "invalid": "URL invalidu. Ipprova b'URL ġdid."
+        "invalid": "URL invalidu. Jekk jogħġbok ipprova b&#39;URL ġdid."
       },
       "page404": {
-        "title": "Il-paġna ma nstabitx",
+        "title": "Paġna mhux misjuba",
         "desc": "Ma stajniex insibu l-paġna li qed tfittex!",
-        "ctaLabel": "Goto Home"
+        "ctaLabel": "Mur fid-dar"
       }
     },
     "navbar": {
@@ -108,11 +109,11 @@
         "title": "Dar"
       },
       "postDetail": {
-        "commonTitle": "Dettal",
-        "fatihaTitle": "Surah-fatiha",
-        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "commonTitle": "Dettall",
+        "fatihaTitle": "Surah Fatiha",
+        "fatihaWithNamaz": "Surah-Fatiha &amp; Namaz-e-Wahshat",
         "avatarUpdateTitle": "Stampa tal-profil",
-        "bannerUpdateTitle": "Immaġni tal-Qoxra (Deprezzata)",
+        "bannerUpdateTitle": "Stampa tal-Qoxra (Deprecata)",
         "statusUpdateTitle": "Aġġornament tal-istatus"
       }
     },
@@ -121,18 +122,18 @@
         "name": "Dar",
         "postDetail": {
           "shareRequest": {
-            "header": "Aqsam din it-talba fin-netwerk tiegħek u tilħaq aktar nies!"
+            "header": "Aqsam din it-talba fuq in-netwerk tiegħek u ikkuntattja aktar nies!"
           }
         }
       },
       "media": {
         "name": "Midja",
         "boxLabels": {
-          "nauhe": "Nauhe",
-          "majalis": "Majalis",
+          "nauhe": "Rettili",
+          "majalis": "Assemblea",
           "soaz": "Soaz",
           "ziyarat": "Ziyaraat",
-          "dua": "Duas",
+          "dua": "Tnejn",
           "munajat": "Munajaat",
           "munajaat": "Munajaat",
           "books": "Kotba"
@@ -140,320 +141,321 @@
         "inviteFriends": "stieden lil sħabek",
         "notShia": "Mhux Shia?",
         "contacts": {
-          "accessRequestHeader": "Aċċess għall-Kuntatti meħtieġ",
-          "accessRequestDesc": "Aħna neħtieġu l-aċċess tal-kuntatti tiegħek biex nissuġġerixxu lin-nies Shia fil-ktieb tat-telefon tiegħek biex jistiednu għal din l-app."
+          "accessRequestHeader": "Kuntatti Aċċess meħtieġ",
+          "accessRequestDesc": "Neħtieġu l-aċċess tal-kuntatti tiegħek biex jissuġġerixxu nies Shia fil-ktieb tat-telefon tiegħek biex jistiednu għal din l-app."
         },
         "audio": "Awdjo",
-        "video": "Vidjo",
+        "video": "Video",
         "hijri": "Hijri",
         "duaHome": {
-          "wishCtaText": "Nawgura lil sħabek!",
-          "wishCtaLabel": "JIXTIEQU"
+          "wishCtaText": "Awgura lil sħabek!",
+          "wishCtaLabel": "XEWQA"
         },
         "books": {
-          "booksByAuthor": "Kotba ta' {awtur}",
-          "booksInLang": "Kotba f{lang}",
-          "filterBy": "Iffiltra bi:",
+          "booksByAuthor": "Kotba mill- {author}",
+          "booksInLang": "Kotba fil- {lang}",
+          "filterBy": "Iffiltra minn:",
           "matching": {
-            "authors": "ma 'awturi tqabbil",
-            "lang": "b'lingwi li jaqblu",
-            "title": "b'tqabbil tat-titlu"
+            "authors": "bl-awturi tqabbil",
+            "lang": "bil-lingwi li jaqblu",
+            "title": "bit-tqabbil tat-titlu"
           }
         },
         "booksFilter": {
-          "title": "Sib ktieb bl-awtur",
-          "searchBox": "Fittex awtur bl-isem",
+          "title": "Sib ktieb mill-awtur",
+          "searchBox": "Fittex l-awtur bl-isem",
           "selectLang": "Agħżel lingwa:"
         },
         "bookDetails": {
-          "title": "{title} — Sib aktar kotba b'xejn bħal dawn fuq Bazm",
+          "title": "{title} — Sib aktar kotba b&#39;xejn bħal dan fuq Bazm",
           "aboutBook": "Dwar il-ktieb:"
         }
       },
       "tools": {
         "name": "Għodda",
-        "salatAlarmDesc": "Issettja allarmi għal Azaan skont iż-żminijiet lokali tiegħek",
-        "sehriAlarmDesc": "Issettja Allarm għal Sehri, jew saħansitra ikseb sejħa ta 'qawmien fuq in-numru tiegħek qabel Sehri!",
-        "sehriAlarmOptionDisabled": "Allarmi għal ħin Sheri matul ix-xahar ta 'Ramadan (disponibbli biss matul ir-Ramadan)",
-        "tasbeehCounterDesc": "Recite Duas, Quran u Tasbeeh fuq modalità ripetuta faċilment bil-counter Audio Tasbeeh",
+        "salatAlarmDesc": "Issettja allarmi għal Azaan skont il-ħinijiet lokali tiegħek",
+        "sehriAlarmDesc": "Issettja Allarm għal Sehri, jew saħansitra ħu sejħa ta&#39; tqum fuq in-numru tiegħek qabel Sehri!",
+        "sehriAlarmOptionDisabled": "Allarmi għall-ħin Sheri matul ix-xahar tar-Ramadan (disponibbli biss matul ir-Ramadan)",
+        "tasbeehCounterDesc": "Recite Duas, Quran u Tasbeeh fuq il-mod ta &#39;ripetizzjoni faċilment bil-counter Audio Tasbeeh",
         "qnaLabel": "QnA (Masle-Masayel)",
-        "qnaDesc": "Fittex u Staqsi mistoqsijiet jew sib tweġibiet biex masle-masayel mill-ħajja ta 'kuljum tiegħek dwar kwistjonijiet ta' l-Iżlam.",
+        "qnaDesc": "Fittex u Staqsi mistoqsijiet jew sib tweġibiet għal masle-masayel mill-ħajja tiegħek ta&#39; kuljum dwar kwistjonijiet tal-Islam.",
+        "khumsLabel": "Kalkulatur Khums",
+        "khumsDesc": "Ikkalkula l-khums tiegħek, jew żid kwalunkwe khums imħallsa qabel. Jgħinek fiż-żamma tar-rekords tal-khums tiegħek matul is-snin.",
         "alarms": {
-          "salatAlarms": "Allarmi salat | Allarmi tas-Salat ta 'Kuljum",
+          "salatAlarms": "Allarmi Salat | Allarmi Salat Kuljum",
           "sehriAlarms": "Allarmi Ramadan Sehri",
-          "gettingLocation": "Jkollna l-lokalità tiegħek. Jekk jogħġbok stenna...",
-          "settingsTip": "Ibdel <b>il-Post</b> u l-preferenzi fl-issettjar tal-Allarm. Ikklikkja l-ikona tal-Issettjar biex tibda.",
-          "setAlarmHeader": "Issettja Allarmi ta 'Kuljum",
-          "setAlarmOnAppDesc": "L-issettjar tal-allarmi huwa disponibbli biss fuq l-app",
+          "gettingLocation": "Ikseb il-lokalità tiegħek. Stenna...",
+          "settingsTip": "Ibdel <b>il-Post</b> u l-preferenzi fl-issettjar tal-allarm. Ikklikkja l-ikona tas-Settings biex tibda.",
+          "setAlarmHeader": "Issettja Allarmi ta &#39;Kuljum",
+          "setAlarmOnAppDesc": "Fuq id-Desktop, in-notifika tal-allarm tidher biss bħala banner mingħajr ebda ċirku",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
-          "sunsetLabel": "Inżul ix-xemx",
+          "sunsetLabel": "Nżul ix-xemx",
           "maghribLabel": "Maghrib",
           "midnightLabel": "Nofsillejl",
-          "sehriEndTime": "Iż-żmien għat-tmiem tas-Sehri",
+          "sehriEndTime": "Ħin għat-tmiem ta &#39;Sehri",
           "minToImsak": [
             "{min} mins qabel Imsak",
-            "{siegħa} siegħa qabel l-Imsak"
+            "{hour} siegħa qabel Imsak"
           ],
           "minToImsakDesc": [
-            "Allarm ċrieki {min} minuti qabel tmiem il-ħin Sehri",
-            "Allarm ċrieki {siegħa} siegħa qabel it-tmiem tal-ħin Sehri"
+            "L-allarm iddoqq {min} minuti qabel tmiem il-ħin ta&#39; Sehri",
+            "L-allarm idoqq {hour} siegħa qabel tmiem il-ħin ta&#39; Sehri"
           ],
-          "notRamadan": "Jidher li għadu mhux Ramadan. Jekk jogħġbok erġa 'lura matul jew eżatt qabel ir-Ramadan biex tissettja l-Allarmi għal Sehri",
+          "notRamadan": "Jidher li għadu mhux ir-Ramadan. Jekk jogħġbok erġa&#39; lura matul jew eżatt qabel ir-Ramadan biex tissettja l-Allarmi għal Sehri",
           "push": {
-            "heading": "L-aċċess għan-notifika meħtieġ",
-            "desc_request": "L-allarm jaħdem billi jibgħat notifiki push f'ħinijiet magħżula. Mingħajr aċċess għall-push, l-app mhux se taħdem bil-mod mistenni. Jekk jogħġbok ħalli aċċess għan-notifika push tiegħek sabiex inkunu nistgħu ninfurmak fi żminijiet ta 'allarm.",
-            "desc_denied": "<strong>Inti ċaħdet l-aċċess għan-notifika qabel.</strong> Huwa meħtieġ li n-notifiki push jaħdmu kif suppost. Aħna nibagħtu notifiki fil-ħin tal-allarm.<br/> Jekk jogħġbok ħalli aċċess għan-notifiki timbotta billi tikklikkja l-buttuna.",
-            "cta": "Jippermettu",
-            "toast_granted": "Grazzi! Issa tiġi nnotifikat fi żminijiet ta 'allarm.",
-            "toast_denied": "It-talba għal notifika miċħuda. Jekk jogħġbok ħalli l-aċċess għall-app jaħdem sew.",
-            "toast_prompt": "Trid tippermetti aċċess għan-notifika biex tissettja allarmi."
+            "heading": "Aċċess għan-notifika meħtieġ",
+            "desc_request": "L-allarm jaħdem billi jibgħat notifiki push f&#39;ħinijiet magħżula. Mingħajr aċċess għall-imbottatura, l-app mhux se taħdem bil-mod mistenni. Jekk jogħġbok ħalli aċċess għan-notifika push tiegħek sabiex inkunu nistgħu ninfurmawk f&#39;ħinijiet ta&#39; allarm.",
+            "desc_denied": "<strong>Int ċaħdt aċċess għan-notifika aktar kmieni.</strong> Huwa meħtieġ biex in-notifiki push jaħdmu sew. Nibagħtu notifiki fil-ħin tal-allarm.<br/> Jekk jogħġbok ħalli aċċess għan-notifiki push billi tikklikkja l-buttuna.",
+            "cta": "Ħalli",
+            "toast_granted": "Grazzi! Inti ser tirċievi notifikat fil-ħinijiet ta &#39;allarm issa.",
+            "toast_denied": "Talba ta&#39; notifika miċħuda. Jekk jogħġbok ħalli l-aċċess għall-app taħdem sew.",
+            "toast_prompt": "Trid tħalli aċċess għan-notifika biex tissettja l-allarmi."
           },
-          "jsAlarmSetSuccess": "L-allarmi jissettjaw b'suċċess",
-          "jsAlarmSetError": "Żball fl-issettjar tal-allarmi. Jekk jogħġbok erġa' pprova aktar tard.",
-          "jsAlarmSnoozed": "Allarm snoozed għal 10 minuti",
+          "jsAlarmSetSuccess": "Allarmi stabbiliti b&#39;suċċess",
+          "jsAlarmSetError": "Żball fl-issettjar tal-allarmi. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+          "jsAlarmSnoozed": "L-allarm snoozed għal 10 minuti",
           "sunriseLabel": "Tlugħ ix-xemx",
           "dhuhrLabel": "Zuhr",
           "asrLabel": "Asr",
-          "ishaLabel": "Dar"
+          "ishaLabel": "Għajn"
         },
         "alarmSetting": {
-          "title": "Issettjar ta 'l-Allarm",
-          "locationTitle": "Sib il-belt għall-ħinijiet tal-Allarm",
+          "title": "Settings tal-allarm",
+          "locationTitle": "Sib il-belt għall-ħinijiet tal-allarm",
           "forLocation": "Allarm għall-post",
-          "calcMethod": "Metodu ta' kalkolu",
+          "calcMethod": "Metodu ta&#39; kalkolu",
           "selectAdhanSound": "Agħżel il-ħoss Adhan",
-          "selectAlarmSound": "Agħżel il-ħoss ta' l-allarm",
+          "selectAlarmSound": "Agħżel ħoss ta &#39;allarm",
           "alarmSoundDesc": "Ħoss għal ħinijiet mhux salat",
-          "timesPeekHeading": "Uri l-banner tal-ħinijiet tal-wiri",
-          "timesPeekDesc": "Tista 'tiddiżattiva l-wiri ta' dehra ta 'malajr tal-ħinijiet għal Salat hawn:",
+          "timesPeekHeading": "Banner tal-ħinijiet tal-wiri",
+          "timesPeekDesc": "Tista&#39; tiddiżattiva l-wiri ta&#39; ħarsa mgħaġġla tal-ħinijiet għal Salat hawn:",
           "timesPeekHome": "Uri fuq il-paġna tal-feeds:",
-          "timesPeekTools": "Uri fuq il-paġna tal-għodda:",
-          "jsConfirmLocChange": "Il-bidla fil-lokalità tiegħek tikkanċella l-allarmi kollha ssettjati qabel. Tkompli?",
-          "jsOtherSettingsSaved": "Issettjar ieħor issejvjat. Il-post ma nbidilx."
+          "timesPeekTools": "Uri fuq il-paġna tal-għodod:",
+          "jsConfirmLocChange": "Jekk tbiddel il-post tiegħek, tikkanċella l-allarmi kollha stabbiliti qabel. Kompli?",
+          "jsOtherSettingsSaved": "Settings oħra ssejvjati. Il-post ma nbidlitx."
         },
         "qna": {
-          "title": "Tweġiba għall-Mistoqsijiet",
+          "title": "Mistoqsija-Tweġiba",
           "qnaSource": "Sors",
           "seeAnswer": "Ara t-tweġiba",
-          "noAnswer": "L-ebda tweġiba"
+          "noAnswer": "Bla tweġiba"
         },
         "qnaDetail": {
-          "title": "Answers for: {ques}",
-          "jsSubmitSuccess": "Il-mistoqsija ġiet sottomessa b'suċċess. Aħna ser taġġornak ladarba nirċievu tweġiba dwarha."
+          "title": "Tweġibiet għal: {ques}",
+          "jsSubmitSuccess": "Il-mistoqsija tiegħek ġiet sottomessa b&#39;suċċess. Aħna naġġornawk ladarba nirċievu tweġiba dwarha."
         },
         "tasbeehCounter": {
-          "title": "Il-Counter tasbeeh"
+          "title": "Counter Tasbeeh"
         },
-        "khumsLabel": "Khums Calculator",
-        "khumsDesc": "Ikkalkula l-khums tiegħek, jew żid kwalunkwe khums imħallsa qabel. Jgħinek fiż-żamma tar-rekords tal-khums tiegħek matul is-snin.",
         "khums": {
           "list": {
             "blog": {
-              "title": "Blog: Ikkalkula l-khums b'mod effiċjenti",
+              "title": "Blog: Ikkalkula khums b&#39;mod effiċjenti",
               "p1": "<a href='{href}' target='_blank'>Segwi l-blog tagħna</a> li jenfasizza oġġetti ewlenin fil-kalkolu tal-khums kull sena.",
-              "p2": "Ċaħda: Il-blog MHUX gwida. <strong>Segwi d-deċiżjonijiet tal-Marjah tiegħek għall-kalkolu tal-Khums</strong>. <span id='blog-info-link' color='primary'>Ikklikkja hawn</span> għal aktar informazzjoni.",
-              "blogInfo": "Il-blog ta 'hawn fuq huwa bbażat fuq artikli minn al-islam.org, sistani.org, u d-diskussjonijiet tagħna ma' ftit studjużi oħra. Dejjem għandek issegwi d-deċiżjonijiet mill-Marjah tiegħek għall-kalkolu Khums.",
+              "p2": "Ċaħda ta&#39; responsabbiltà: Il-blog MHUX gwida. <strong>Segwi d-deċiżjonijiet tal-kalkolu tal-Marjah tiegħek għall-Khums</strong> . <span id='blog-info-link' color='primary'>Ikklikkja hawn</span> għal aktar informazzjoni.",
+              "blogInfo": "Il-blog ta’ hawn fuq huwa bbażat fuq artikli minn al-islam.org, sistani.org, u d-diskussjonijiet tagħna ma’ ftit studjużi oħra. Għandek dejjem issegwi d-deċiżjonijiet mill-kalkolu tiegħek ta&#39; Marjah for Khums.",
               "dismissCta": "Mhux interessat"
             },
-            "title": "Il-Kalkoli tal-Khums tiegħek",
-            "nextMuqammasHeading": "<strong>Muqammas</strong><br />għall-kalkolu li jmiss",
-            "muqammasDesc": "Abbażi tal-kalkoli mill-aħħar sena",
+            "title": "Kalkoli Khums tiegħek",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br /> għall-kalkolu li jmiss",
+            "muqammasDesc": "Ibbażat fuq kalkoli mill-aħħar sena",
             "sahmeSadat": "Sahm-e-Sadat",
-            "sahmeImam": "Sahm-e-Imam (a.s.)",
-            "paid": "Mħallsa:",
-            "remaining": "Rimanenti:",
-            "newMuqammas": "Muħammas ġodda:",
-            "jsDeleted": "Kalkolu Khums imħassar b'suċċess!",
+            "sahmeImam": "Sahm-e-Imam (bħala)",
+            "paid": "Imħallas:",
+            "remaining": "Fadal:",
+            "newMuqammas": "Muqammas ġodda:",
+            "jsDeleted": "Il-kalkolu tal-Khums tħassar b&#39;suċċess!",
             "prompts": {
               "delete": {
-                "header": "Ħassar il-Kalkolu tal-Khums?",
-                "desc": "Żgur tixtieq tħassar dan? Id-dokumenti relatati kollha se jitħassru wkoll!"
+                "header": "Ħassar Kalkolu Khums?",
+                "desc": "Int żgur li trid tħassar dan? Id-dokumenti kollha relatati se jitħassru wkoll!"
               }
             },
             "empty": {
-              "header": "L-ebda khums miżjuda s'issa",
-              "subtext": "Ibda billi żżid kalkolu tal-khums. Ikklikkja fuq il-buttuna hawn taħt."
+              "header": "L-ebda khums għadu miżjud",
+              "subtext": "Ibda billi żżid kalkolu khums. Ikklikkja fuq il-buttuna hawn taħt."
             }
           },
           "detail": {
             "title": "Khums tiegħek",
             "header": "Khums",
             "mqmsInfo": "Muqammas għall-kalkolu li jmiss",
-            "calcHeader": "Abbażi tal-kalkolu ta' hawn taħt:",
+            "calcHeader": "Ibbażat fuq il-kalkolu hawn taħt:",
             "savingsHeader": "Tfaddil",
-            "conversionInfo": "Maqluba għal {amount} bbażata fuq ir-rata tal-kambju tal- {xchgRate} fuq {xchgRateDate}",
+            "conversionInfo": "Maqluba għal {amount} ibbażat fuq ir-rata tal-kambju ta&#39; {xchgRate} fuq {xchgRateDate}",
             "expensesHeader": "Spejjeż",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Muqammas preċedenti",
-            "paymentsHeader": "Ħlasijiet magħmula għal khums:",
+            "paymentsHeader": "Ħlasijiet magħmula għall-khums:",
             "error": {
-              "header": "Oh uh, sar żball!",
-              "desc": "Jidher li ma nistgħu nsibu xejn dwar dan il-kalkolu tal-khums. Jista 'jkun jew minħabba li wieħed mis-servizzi tagħna ma jaħdimx sew, jew forsi qed tfittex dejta staġnata.<br /><br/ >Ipprova aġġorna l-paġna, jew tilħaqna jekk taħseb li hemm żball min-naħa tagħna."
+              "header": "Oh uh, seħħ żball!",
+              "desc": "Jidher li ma nistgħu nsibu xejn dwar dan il-kalkolu tal-khums. Jista&#39; jkun jew minħabba li wieħed mis-servizzi tagħna ma ħadmux ħażin, jew forsi qed tfittex dejta mhux użata.<br /><br/ > Ipprova aġġorna l-paġna, jew ikkuntattjana jekk taħseb li hemm żball min-naħa tagħna."
             },
             "js": {
-              "recordDeleteFailed": "Sar żball waqt li kien qed jipprova jħassar dan ir-rekord. Erġa' pprova, jew jekk l-iżball jippersisti, erġa' ejja aktar tard.",
-              "recordDeleted": "Rekord imħassar b'mod suċċess",
+              "recordDeleteFailed": "Sar żball waqt li kien qed jipprova jħassar dan ir-rekord. Jekk jogħġbok erġa&#39; pprova, jew jekk l-iżball jippersisti, erġa&#39; erġa&#39; aktar tard.",
+              "recordDeleted": "Ir-rekord tħassar b&#39;suċċess",
               "deleteRecordHeader": "Ħassar ir-rekord?",
-              "deleteRecordDesc": "Żgur tixtieq tħassar dan ir-rekord? Kwalunkwe hemża miżjuda ma' dan ir-rekord titħassar ukoll!"
+              "deleteRecordDesc": "Int żgur li trid tħassar dan ir-rekord? Kwalunkwe aċċessorji miżjuda ma&#39; dan ir-rekord se jitħassru wkoll!"
             }
           },
           "calc": {
-            "subtext": "Imla l-formola hawn taħt biex tikkalkula l-khums tiegħek. Oqsma fakultattivi huma indikati. Ikklikkja info-icon hawn taħt biex tkun taf aktar dwar it-taqsima.",
-            "blog": "Relatat: Aqra l-blog tagħna dwar <a href='{href}' target='_blank'>Kif tikkalkula l-khums b'mod effiċjenti<a></a>",
+            "subtext": "Imla l-formola hawn taħt biex tikkalkula l-khums tiegħek. L-oqsma fakultattivi huma indikati. Ikklikkja info-ikona hawn taħt biex tkun taf aktar dwar it-taqsima.",
+            "blog": "Relatati: Aqra l-blog tagħna dwar <a href='{href}' target='_blank'>Kif tikkalkula l-khums b&#39;mod effiċjenti</a>",
             "dateRange": "Agħżel il-firxa tad-data:",
-            "dateRangeInfo": "Tipikament, in-nies jikkalkulaw khums għal sena finanzjarja (eż. minn April sa Marzu) jew sena Kalendarja (Jan sa Diċembru)",
+            "dateRangeInfo": "Tipikament, in-nies jikkalkulaw il-khums għal sena finanzjarja (eż., minn April sa Marzu) jew sena Kalendarja (Jannar sa Diċembru)",
             "startDate": "Data tal-bidu:",
             "endDate": "Data tat-tmiem:",
             "savings": {
               "header": "Tfaddil",
-              "desc": "Żid tfaddil/bilanċ fil-kont(ijiet) tiegħek",
-              "info": "Tista 'żżid ammonti f'muniti differenti, iżda khums huwa eventwalment ikkalkulat f'munita waħda bbażata fuq ir-rata tal-kambju tal-lum.",
+              "desc": "Żid tfaddil/bilanċ fil-kont(i) tiegħek",
+              "info": "Tista &#39;żżid ammonti f&#39;muniti differenti, iżda khums eventwalment jiġi kkalkulat f&#39;munita unika abbażi tar-rata tal-kambju tal-lum.",
               "form": {
                 "label": "Tikketta",
-                "placeholder": "Pereżempju, Kont tas-salarju",
+                "placeholder": "Eż., Kont tas-salarju",
                 "amountLabel": "Ammont",
-                "amountPlaceholder": "Daħħal l-Ammont",
-                "remarks": "Xi rimarki dwar dan l-item?"
+                "amountPlaceholder": "Daħħal Ammont",
+                "remarks": "Xi rimarki dwar dan l-oġġett?"
               }
             },
             "expenses": {
-              "header": "<strong>Djun/Obbligazzjonijiet/Spejjeż</strong> – Fakultattiv",
+              "header": "<strong>Djun/Obbligazzjonijiet/Spejjeż</strong> — Mhux obbligatorju",
               "subtext": "Żid kwalunkwe dejn, obbligazzjonijiet jew spejjeż immedjati",
-              "info": "Uħud mill-ammont mill-bilanċ jistgħu jitnaqqsu għall-khums. Segwi <strong>l-link tagħna hawn fuq Ikkalkula l-khums b'mod effiċjenti</strong> biex tkun taf aktar.",
+              "info": "Xi wħud mill-ammont mill-bilanċ jista &#39;jkun deduċibbli għall-khums. Segwi l-link tagħna hawn fuq <strong>Ikkalkula khums b&#39;mod effiċjenti</strong> biex tkun taf aktar.",
               "form": {
-                "placeholder": "Pereżempju, Kera dovuta"
+                "placeholder": "Eż, Kera dovuta"
               }
             },
             "mqms": {
-              "header": "<strong>Muqammas preċedenti</strong> - Fakultattiv",
-              "subtext": "Bilanċ li jifdal wara l-ħlas tal-khums fil-perjodu preċedenti",
-              "info": "Jekk qed tħallas khums għall-ewwel darba, Muqammas se jkun ZERO. Jekk għandek kalkoli preċedenti ssejvjati hawn, tista 'tissinkronizza biex tuża Muqammas minn perjodu preċedenti."
+              "header": "<strong>Muqammas Preċedenti</strong> — Mhux obbligatorju",
+              "subtext": "Bilanċ fadal wara li tħallas khums fil-perjodu preċedenti",
+              "info": "Jekk qed tħallas khums għall-ewwel darba, Muqammas tkun ZERO. Jekk il-kalkoli preċedenti ssejvjajt hawn, tista&#39; tissinkronizza biex tuża Muqammas minn perjodu ta&#39; qabel."
             },
-            "mainCurrencyHeader": "Agħżel il-munita ewlenija",
+            "mainCurrencyHeader": "Agħżel il-munita prinċipali",
             "mainCurrencyInfo": "Liema munita għandna nużaw biex nikkalkulaw il-khums?",
             "customRates": {
-              "header": "<strong>L-użu tar-rati tal-kambju</strong>",
-              "subtext": "Dawn ir-rati tal-kambju tal-munita se jintużaw għall-kalkolu. Tista 'tbiddilhom biex tuża valuri tad-dwana.",
-              "info": "Meta tittratta dejta storika, bħal meta żżid kalkolu għal khums minn aktar minn sena ilu meta r-rati tal-kambju ma kinux l-istess bħal-lum, tista 'tissettja valuri tad-dwana għar-rati tal-kambju int stess.",
-              "rateValuePH": "Fil- {currency}, eż., 1 {mainCurrency} = 80.21 {currency}"
+              "header": "<strong>Użu tar-rati tal-kambju</strong>",
+              "subtext": "Dawn ir-rati tal-kambju tal-munita se jintużaw għall-kalkolu. Tista&#39; tibdelhom biex tuża valuri tad-dwana.",
+              "info": "Meta tittratta data storika, bħal meta żżid il-kalkolu għal khums minn aktar minn sena ilu meta r-rati tal-kambju ma kinux l-istess bħal tal-lum, tista &#39;tissettja valuri personalizzati għar-rati tal-kambju lilek innifsek.",
+              "rateValuePH": "Fil- {currency} , eż, 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "Ikkalkula",
             "pageError": {
               "header": "Sar żball",
-              "desc": "Ma rnexxilux jikseb id-dejta meħtieġa għall-paġna. Erġa' tagħbija l-paġna jew erġa' pprova aktar tard."
+              "desc": "Naqas milli tikseb id-dejta meħtieġa għall-paġna. Jekk jogħġbok erġa&#39; tagħbija l-paġna jew erġa&#39; pprova aktar tard."
             },
             "js": {
               "remarks": {
                 "deleteHeader": "Ħassar ir-rimarki?",
-                "deleteText": "Żgur tixtieq tħassar ir-rimarki għal dan l-item?"
+                "deleteText": "Int żgur li trid tħassar ir-rimarki għal dan l-oġġett?"
               },
               "choicePrompt": {
                 "addHeader": "Żid",
-                "savings": "Żid entrata ġdida fl-Iffrankar",
-                "liability": "Żid entrata ġdida mal-Obbligazzjonijiet"
+                "savings": "Żid dħul ġdid għal Savings",
+                "liability": "Żid dħul ġdid ma&#39; Obbligazzjonijiet"
               },
               "rowOptions": {
-                "header": "X'tixtieq tagħmel b'dan?",
-                "duplicate": "Oħloq entrata duplikata",
+                "header": "X&#39;tixtieq tagħmel b&#39;dan?",
+                "duplicate": "Oħloq dħul duplikat",
                 "remarks": "Żid rimarki għal dan",
                 "delete": "Ħassar din l-entrata"
               },
-              "apiError": "Sar żball. Erġa' pprova."
+              "apiError": "Sar żball. Jekk jogħġbok erġa pprova."
             }
           }
         }
       },
       "user": {
-        "name": "Utent -— Kont",
-        "editProfile": "Editja l-Profil",
+        "name": "Utent | Kont",
+        "editProfile": "Editja Profil",
         "publishToFeed": "Ippubblika l-bidliet tiegħi fl-għalf",
         "shareUpdateToFeed": "Aqsam ukoll dan l-aġġornament mal-għalf tiegħi",
-        "statusText_ph": "Uża l-ifformattjar _korsiv_ jew * bold * biex iżżejjen l-istatus tiegħek",
-        "statusCharsLeft": "{għadd} karattri xellug",
-        "jsImgUploadSuccess": "Stampi mtella 'b'suċċess!",
+        "statusText_ph": "Uża l-ifformattjar _korsiv_ jew * grassett * biex iżejnu l-istatus tiegħek",
+        "statusCharsLeft": "{count} karattri fadal",
+        "jsImgUploadSuccess": "Immaġini ttellgħu b&#39;suċċess!",
         "unauthAccess": {
-          "heading": "Żgur li int fil-post it-tajjeb?",
-          "desc": "<p>Jidher li kont qed tipprova taċċessa paġna li għaliha ma kellekx permess. Jekk kont qed tipprova taċċessa paġna li aċċessajt qabel, ipprova idħol; dan għandu jsolvi l-problema.</p> <p>Jekk jogħġbok tħossok liberu li tikkuntattjana jekk il-problema tippersisti.</p>"
+          "heading": "Int ċert li qiegħed fil-post it-tajjeb?",
+          "desc": "<p>Jidher li kont qed tipprova taċċessa paġna li għaliha ma kellekx permess. Jekk kont qed tipprova taċċessa paġna li kont aċċessajt qabel, ipprova illoggja; li għandu jsolvi l-problema.</p><p> Jekk jogħġbok tħossok liberu li tikkuntattjana jekk il-problema tippersisti.</p>"
         },
         "guest": {
           "welcome": "Merħba, <strong>Mistieden!</strong>",
-          "heading": "Għaliex Login jew Irreġistra?",
-          "desc": "B'kont fuq l-app tagħna, tista 'tuża numru ta' karatteristiċi. Ibda billi toħloq kont, jekk ma jkollokx kont diġà. Jew, idħol biss!",
-          "unlockHeading": "nisfruttaw li ġejjin b'kont:",
+          "heading": "Għaliex Idħol jew Irreġistra?",
+          "desc": "B&#39;kont fuq l-app tagħna, tista&#39; tuża għadd ta&#39; karatteristiċi. Ibda billi toħloq kont, jekk m&#39;għandekx kont diġà. Jew, sempliċiment illoginja!",
+          "unlockHeading": "nisfruttaw li ġejjin b&#39;kont:",
           "features": {
             "engage": {
               "heading": "Involvi ruħek fuq l-app",
-              "desc": "Involvi ruħek ma 'utenti oħra, irreaġixxi għall-karigi jew it-talbiet tagħhom, ikkummenta l-opinjoni tiegħek, immarka l-oġġetti tiegħek, u ħafna iktar!"
+              "desc": "Involvi ruħek ma&#39; utenti oħra, jirreaġixxi għall-postijiet jew it-talbiet tagħhom, ikkummenta l-opinjoni tiegħek, immarka l-oġġetti tiegħek, u ħafna aktar!"
             },
             "fatiha": {
-              "heading": "Talba ta' Post Fatiha",
-              "desc": "Post talba għal Surah-e-Fatiha għall-erwieħ tal-maħbubin li telqu tiegħek u jiksbu ruħhom imberkin bit-talb tal-utenti kollha tagħna!"
+              "heading": "Talba Post Fatiha",
+              "desc": "Ibgħat it-talba għal Surah-e-Fatiha għall-erwieħ tal-maħbubin tiegħek li telaq u tbierku r-ruħhom bit-talb tal-utenti kollha tagħna!"
             },
             "askQues": {
-              "heading": "Saqsi l-Mistoqsijiet",
-              "desc": "Staqsi mistoqsijiet minn Deen &Duniya dwar diversi suġġetti li għandhom jitwieġbu mill-eminenza tiegħu, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+              "heading": "Staqsi Mistoqsijiet",
+              "desc": "Staqsi mistoqsijiet minn Deen &amp; Duniya dwar diversi suġġetti biex jitwieġbu mill-eminenza tiegħu, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
             },
             "content": {
               "heading": "kontenut preferut",
-              "desc": "Dejjem ara l-kontenut u s-settings preferuti tiegħek meta tkun illoggjat fil-kont tiegħek. Ukoll, jiġu notifikati għall-affarijiet interessanti kollha!"
+              "desc": "Dejjem ara l-kontenut u s-settings preferuti tiegħek meta tkun illoggjat fil-kont tiegħek. Ukoll, ingħata notifika għall-affarijiet interessanti kollha!"
             },
             "personalized": {
               "heading": "qsim personalizzat",
-              "desc": "Issettja l-kontenut tal-ixxerjar personalizzat bil-firma tiegħek sabiex il-ħbieb tiegħek ikunu jafu meta taqsam messaġġ / post."
+              "desc": "Issettja kontenut ta&#39; qsim personalizzat bil-firma tiegħek sabiex il-ħbieb tiegħek ikunu jafu meta taqsam messaġġ/post."
             }
           }
         },
         "about": {
           "title": "Dwar",
-          "jsStatusUpdateFail": "Ma rnexxilux jaġġorna l-istatus. Jekk jogħġbok erġa' pprova aktar tard.",
-          "statusTextInfo": "Żid xi ħaġa qasira dwarek innifsek, bħal, min int jew x'tagħmel!",
+          "jsStatusUpdateFail": "Naqas milli jaġġorna l-istatus. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+          "statusTextInfo": "Żid xi ħaġa fil-qosor dwarek innifsek, bħal, min int jew x&#39;tagħmel!",
           "statusCta": "Żid l-Istatus | Aġġorna l-Istatus",
-          "addCity": "Żid Belt",
-          "gender": "Raġel | Mara",
-          "addGender": "Żid Sess",
-          "addBday": "Żid Għeluq is-Sena",
+          "addCity": "Żid il-Belt",
+          "gender": "Raġel mara",
+          "addGender": "Żid is-Sess",
+          "addBday": "Żid Birthday",
           "addRelation": "Żid Relazzjoni",
-          "joinDate": "Ingħaqad: {date}",
           "privateInfoDesc": "Din l-informazzjoni hija viżibbli għalik biss u tara kontenut u karatteristiċi bbażati fuq dan.",
           "idSetupCta": "Issettja l-identità tiegħek",
-          "idVerifyCta": "Jivverifikaw"
+          "idVerifyCta": "Ivverifika",
+          "idVerifyAltText": "Shia momineen verifikati biss jistgħu jivverifikaw oħrajn. Jekk jogħġbok ikkontrolla l-kont tiegħek, sabiex tkun tista&#39; tivverifika <strong>{name}</strong> wara.",
+          "idVerifyAltText2": "Jekk diġà tlabt lil xi ħadd, tista&#39; tfakkarhom mill-ġdid b&#39;rabta ġdida, jew tistaqsi lil aktar momineen għal tweġiba aktar malajr.",
+          "joinDate": "Issieħeb: {date}"
         },
         "posts": {
           "title": "Postijiet",
-          "userNoPosts": "Meta tbiddel l-immaġni tal-istampa / kopertura tiegħek, jew meta titlob surah-fatiha għall-maħbubin demised tiegħek, dawn il-postijiet jidhru hawn u fit-tab <b>tad-Dar</b> (ta 'oħrajn ukoll). Ipprova żid stampa jew immaġni tal-qoxra?",
+          "userNoPosts": "Meta tibdel l-istampa/l-immaġni tal-qoxra tiegħek, jew meta titlob għal surah-fatiha għall-maħbubin tiegħek, dawn il-postijiet se jidhru hawn u fit-tab <b>Home</b> (ta&#39; oħrajn ukoll). Ipprova żżid stampa jew immaġni tal-qoxra?",
           "profileNoPosts": "{name} għadu ma għamel l-ebda post."
         },
         "marhumeen": {
-          "title": "Marhumeen",
+          "title": "Mejjet",
           "header": {
-            "marhumeenNotAdded": "{name} għadu ma marhumeen miżjud | Għadek ma żidtx marhumeen",
-            "marhumeenAdded": "{name} żied wara marhumeen | Żidt wara marhumeen"
+            "marhumeenNotAdded": "{name} għadu ma żiedx marhumeen | Għadek ma żidtx marhumeen",
+            "marhumeenAdded": "{name} miżjud wara marhumeen | Żidt wara marhumeen"
           },
           "jsDeleteHeader": "Żgur?",
-          "jsDeletePrompt": "It-tħassir tar-rekords għal <b>{fullName}</b> iħassar ukoll it-talbiet kollha preċedenti li jsiru għal {gender}! Tkompli?",
+          "jsDeletePrompt": "It-tħassir tar-rekords għal <b>{fullName}</b> se jħassar ukoll it-talbiet preċedenti kollha li saru għall {gender} ! Kompli?",
           "jsDeleted": "Rekords imħassra għal {marhumeen}"
         },
         "verifyCard": {
-          "title": "Ivverifika l-identità Shia tiegħek -— Ivverifika l-identità Sadat tiegħek",
-          "p1": "Int indikajt fil-profil tiegħek li int Musulman Shia. Li jkollok din l-informazzjoni vverifikata tippermetti aktar karatteristiċi għalik u tgħinna nibnu komunità vverifikata ta 'Musulmani Shia.",
-          "p2": "Ġentilment ivverifika l-identità tiegħek; mhux se jieħu fit-tul",
+          "title": "Ivverifika l-identità Shia tiegħek | Ivverifika l-identità Sadat tiegħek",
+          "p1": "Fil-profil tiegħek indikajt li int Musulman Shia. Jekk din l-informazzjoni tiġi vverifikata, se jippermetti aktar karatteristiċi għalik u jgħinna nibnu komunità verifikata ta&#39; Musulmani Shia.",
+          "p2": "Jekk jogħġbok tivverifika l-identità tiegħek; mhux se jieħu fit-tul",
           "noReminder": "Terġax tfakkarni",
           "dismissCta": "Mhux issa",
-          "startCta": "Bidu"
+          "startCta": "Ibda"
         },
         "verifyPrompt": {
-          "jsGetVerified": "L-ewwel trid tiġi vverifikat qabel ma tkun tista' tivverifika oħrajn!",
-          "jsLinkExpired": "Din il-link hija invalida jew skadiet. Jekk jogħġbok staqsik ħabib biex tibgħat talba ġdida.",
+          "jsGetVerified": "L-ewwel trid tiġi vverifikat qabel ma tkun tista&#39; tivverifika lil ħaddieħor!",
+          "jsLinkExpired": "Din il-link jew hija invalida jew skadiet. Jekk jogħġbok staqsi ħabib biex tibgħat talba ġdida.",
           "confirm": {
             "heading": "Ivverifika l-Identità tal-Kont",
-            "msg": "Għin {firstName} tikseb {genderLabel1} informazzjoni dwar il-kont ivverifikata. Dan se jippermetti lill- {genderLabel2} taċċessa aktar karatteristiċi fuq l-app tagħna",
-            "jsSkip": "Mhemmx problema. Jekk tibdel fehmtek, tista' tirrevedi din il-link biex tivverifika aktar tard."
+            "msg": "Għin {firstName} tikseb l-informazzjoni tal-kont {genderLabel1} verifikata. Dan se jippermetti {genderLabel2} jaċċessa aktar karatteristiċi fuq l-app tagħna",
+            "jsSkip": "Mhux problema. Jekk tibdel fehmtek, tista&#39; terġa&#39; tara din il-link biex tivverifika aktar tard."
           }
         },
         "myKhums": {
-          "title": "Il-Khums tiegħi"
+          "title": "Khums tiegħi"
         }
       }
     },
@@ -467,283 +469,276 @@
       "common": {
         "nextStep": "Il-pass li jmiss",
         "goBack": "Mur lura",
-        "confirm": "Jikkonferma"
+        "confirm": "Ikkonferma"
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "Il-post mhux disponibbli. Jekk jogħġbok issettjaha billi tikklikkja l-ikona biex tara l-veduta malajr tal-ħinijiet tas-Salat.",
-          "unknownError": "Sar żball. Ma setax jgħabbi l-ħinijiet f'dan il-mument."
+          "locUnavailable": "Post mhux disponibbli. Jekk jogħġbok issettjaha billi tikklikkja l-ikona biex tara ħarsa rapida tal-ħinijiet tas-Salat.",
+          "unknownError": "Sar żball. Ma setgħetx tagħbija ħinijiet f&#39;dan il-mument."
         }
       },
       "langPrompt": {
-        "title": "Uża app in {langLabel}?",
         "desc": {
-          "p1": "Jidher li qed taċċessa l-app minn {countryName}. Tixtieq tara kontenut u kontrolli f'waħda mil-lingwi li ġejjin mitkellma fir-reġjun? Ikklikkja fuq l-għażla tiegħek u mbagħad ikklikkja 'Issejvja' biex tkompli.",
-          "p2": "Jew, warrab din il-popup biex tkompli tuża l-app f'lingwa default."
+          "p1": "Jidher li qed taċċessa l-app minn {countryName} . Tixtieq tara kontenut u kontrolli f&#39;waħda mil-lingwi li ġejjin mitkellma fir-reġjun? Ikklikkja fuq l-għażla tiegħek u mbagħad ikklikkja &#39;Save&#39; biex tkompli.",
+          "p2": "Jew, warrab dan il-popup biex tkompli tuża l-app fil-lingwa awtomatika."
         },
         "choices": {
           "useLang": [
             "Iva, uża {langName}",
-            "Use {langName}"
-          ],
-          "useEngling": "Kompli bl-Ingliż",
-          "useEnglish": "Kompli bl-Ingliż",
-          "selectFrom": "Jew, agħżel minn waħda mil-lingwi alternattivi li ġejjin:"
+            "Uża {langName}"
+          ]
         },
-        "langError": "Sar żball waqt it-tagħbija tat-traduzzjonijiet għal {langName}. Jekk jogħġbok erġa' pprova aktar tard."
+        "langError": "Sar żball waqt it-tagħbija tat-traduzzjonijiet għal {langName} . Jekk jogħġbok erġa&#39; pprova aktar tard."
       },
       "createPost": {
-        "heading": "X'hemm illum?",
-        "desc": "Ikklikkja hawn biex taqsam aġġornament jew tuża għażla minn hawn taħt",
+        "heading": "X&#39;inhu llum?",
+        "desc": "Ikklikkja hawn biex taqsam aġġornament jew uża għażla minn taħt",
         "request": "Talba",
-        "askQues": "Staqsi l-Mistoqsija",
+        "askQues": "Staqsi Mistoqsija",
         "sheetOptions": {
           "header": "Agħmel talba",
-          "subheader": "Agħmel talba minn momineen għall-marhumeen tiegħek jew lilek innifsek.",
-          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat f'Zari-e-Imam Husain (a.s.) f'ismek"
+          "subheader": "Agħmel talba mingħand momineen għal marhumeen tiegħek jew lilek innifsek.",
+          "requestFatiha": "Surah-Fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Healthy *",
+          "requestZiyarat": "Ziyarat f&#39;Zari-e-Imam Hussain (as) f&#39;ismek"
         },
         "modal": {
           "titles": {
-            "post": "Oħloq Post -— Aġġorna l-Post",
+            "post": "Oħloq Post | Aġġorna Post",
             "livestream": "Livestream",
-            "hadiyah": "Oħloq Hadiyah | Aġġorna Hadiyah"
+            "hadiyah": "Oħloq Rigal | Aġġorna Rigal"
           },
-          "postCta": "Post - Aġġornament",
+          "postCta": "Post | Aġġornament",
           "stream": {
-            "scheduleCta": "Issejvja għal aktar tard | Ibda l-Istrimjar"
+            "scheduleCta": "Ħlief għal aktar tard | Ibda Streaming"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Lil min trid tagħti dan?",
-              "addPeopleToggle": "Ħalli oħrajn ikunu parti minn din is-serratura wkoll!",
-              "searchInput": "Stieden lill-momimeen minn Bazm jew il-lista tal-Kuntatti tiegħek",
-              "minUsersHeader": "Trid tissettja n-numru minimu li l-parteċipanti għandhom bżonn jagħżlu?",
+              "placeholder": "Lil min trid tirrigala dan?",
+              "addPeopleToggle": "Ħalli oħrajn ikunu parti minn dan is-sawab ukoll!",
+              "searchInput": "Stieden lil momimeen minn Bazm jew il-lista ta&#39; Kuntatt tiegħek",
+              "minUsersHeader": "Trid tissettja numru minimu li l-parteċipanti jridu jagħżlu?",
               "minUsersInput": "Daħħal in-numru minimu"
             }
           },
           "postTime": [
-            "Meta huwa?",
-            "Meta trid tibda tixxandar?"
+            "Meta hu?",
+            "Meta trid tibda streaming?"
           ],
           "whereIsIt": "Fejn hi?",
           "findLocation": "Sib post",
-          "locationSubtext": "Żid il-post mal-kariga tiegħek",
-          "addLocation": "Żid post",
-          "addPics": "Żid stampi mal-kariga tiegħek",
-          "previewDes": "Hekk tidher il-kariga tiegħek fl-għalf ta 'nies oħra. In-nies jistgħu jisfruttaw il-video biex jarawh bi skrin sħiħ.",
-          "addToPost": "Żid ma {postType} (mhux obbligatorju)",
-          "jsImgUploadFail": "L-immaġni ma ttellgħetx",
-          "jsAddDetailToPost": "Jekk jogħġbok żid dettalji mal-kariga tiegħek",
-          "jsValidEndDate": "Agħżel data tat-tmiem valida",
-          "jsSetLocation": "Jekk jogħġbok issettja l-post għall-kariga",
-          "jsRemLocation": "Jekk jogħġbok issettja post jew neħħi dik it-taqsima",
+          "locationSubtext": "Żid il-post mal-post tiegħek",
+          "addLocation": "Żid il-post",
+          "addPics": "Żid stampi mal-post tiegħek",
+          "previewDes": "Dan huwa kif il-post tiegħek jidher fl-għalf ta &#39;nies oħra. In-nies jistgħu taptap fuq il-vidjo biex jarawh fl-iskrin sħiħ.",
+          "addToPost": "Żid mal- {postType} (mhux obbligatorju)",
+          "jsImgUploadFail": "L-immaġni ma ġietx imtella&#39;",
+          "jsAddDetailToPost": "Jekk jogħġbok żid id-dettalji mal-kariga tiegħek",
+          "jsValidEndDate": "Jekk jogħġbok agħżel data tat-tmiem valida",
+          "jsSetLocation": "Jekk jogħġbok issettja l-post għall-post",
+          "jsRemLocation": "Jekk jogħġbok waqqaf post jew neħħi dik it-taqsima",
           "jsAddImg": "Jekk jogħġbok żid immaġini jew neħħi dik it-taqsima",
           "jsInvalidDate": [
-            "Jekk jogħġbok issettja data tal-bidu valida ",
+            "Jekk jogħġbok waqqaf data valida tal-bidu",
             "Jekk jogħġbok issettja data valida tal-bidu jew neħħi dik it-taqsima"
           ]
         }
       },
       "comments": {
         "name": "Kummenti",
-        "loadPrevious": "Il-kummenti preċedenti ta 'Tagħbija -— Tagħbija tweġibiet preċedenti",
-        "replyingTo": "Tweġiba għal:",
-        "noComments": "S'issa m'hemm l-ebda kumment dwar din il-kariga",
+        "loadPrevious": "Tagħbija kummenti preċedenti | Tagħbija tweġibiet preċedenti",
+        "replyingTo": "Twieġeb għal:",
+        "noComments": "Għadu l-ebda kumment fuq din il-kariga",
         "textboxPlaceholder": "Ikteb il-kumment tiegħek hawn",
-        "requestToLogin": "Idħol jew Irreġistra biex tibda d-diskussjoni"
+        "requestToLogin": "Idħol jew Signup biex tibda diskussjoni"
       },
       "post": {
-        "addressYou": "Int",
-        "addressing": "tiegħek -— tiegħu | tiegħu",
+        "addressYou": "Inti",
+        "addressing": "tiegħek | tiegħu | tagħha",
         "itemTypes": {
-          "avatar": "immaġni tal-avatar",
+          "avatar": "immaġni avatar",
           "banner": "immaġni tal-banner",
-          "status": "l-istatus tal-profil"
+          "status": "status tal-profil"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> aġġornat {addressing} {item}",
+          "common": "<strong>{username}</strong> aġġornat {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> mitlub surah-fatiha for {addressing} {relation}",
-            "<strong>{username}</strong> mitlub surah-fatiha & namaz-e-wahshat for {addressing} {relation}"
+            "<strong>{username}</strong> talab surah-fatiha għall- {addressing} {relation}",
+            "<strong>{username}</strong> talab surah-fatiha &amp; namaz-e-wahshat għall- {addressing} {relation}"
           ]
         },
-        "dateUntil": "Sa: {date} at {time}",
-        "privatePost": "Din il-kariga hija viżibbli biss għalik",
-        "descZiyaratRequest": "Inti tlabt lil Ziyarat biex isir f'ismek fi *haram* ta' Imam Husain (a.s.) fi *{data}*"
+        "dateUntil": "Sa: {date} fil- {time}",
+        "privatePost": "Din il-kariga hija viżibbli għalik biss",
+        "descZiyaratRequest": "Tlabt li Ziyarat isir f&#39;ismek f&#39;*haram* tal-Imam Husain (as) fid-* {date} *"
       },
       "addEditRel": {
         "title": {
-          "request": "Talba Surah-al-fatiha",
+          "request": "Talba Surah-al-Fatiha",
           "addUpdate": [
-            "Aġġorna lill-maħbub",
-            "Żid maħbub"
+            "Aġġorna l-maħbub",
+            "Żid il-maħbub"
           ]
         },
         "heading": [
-          "Żid maħbub li għadda",
-          "Agħżel xi ħadd maħbub mil-lista jew żid maħbub li għadda"
+          "Żid wieħed maħbub li għadda",
+          "Agħżel wieħed maħbub mil-lista jew żid wieħed maħbub li jkun għadda"
         ],
         "addNew": "Żid Ġdid",
         "subheader": [
-          "Żid dettalji tal-maħbub tiegħek",
-          "Tista' tinkludi wkoll messaġġ fit-talba tiegħek"
+          "Żid id-dettalji tal-maħbub tiegħek",
+          "Tista&#39; wkoll tinkludi messaġġ fit-talba tiegħek"
         ],
         "form": {
           "jsAddImg": "Żid immaġni għall-maħbub tiegħek",
           "jsRemoveImg": "Neħħi l-immaġni",
-          "fullName": "Isem sħiħ tal-Mejjet",
-          "name_ph": "Eż., Syed Zeeshan Haider Abidi",
+          "fullName": "Isem sħiħ tal-mejjet",
+          "name_ph": "Eż, Syed Zeeshan Haider Abidi",
           "fathersName": "Isem il-Missier (Jekk disponibbli)",
-          "father_ph": "E.ż., Syed Tauqeer Husain",
-          "nameError": "Daħħal l-isem sħiħ b'xi karattri speċjali",
-          "genderLabel": "Sess",
+          "father_ph": "Eż., Syed Tauqeer Husain",
+          "nameError": "Jekk jogħġbok daħħal l-isem sħiħ mingħajr xi karattri speċjali tagħna",
+          "genderLabel": "Is-sess",
           "genderValue": [
-            "Femminili",
-            "Maskili"
+            "Mara",
+            "Raġel"
           ],
           "relation": [
-            "Marhooma hija tiegħek",
+            "Marhooma huwa tiegħek",
             "Marhoom huwa tiegħek"
           ],
           "selectRelation": "Agħżel Relazzjoni",
-          "demiseLabel": "Demised illum? Talba namaz-e-Wahshat",
-          "demiseText": "Jiddispjaċina ħafna li nisimgħu dwar it-telf tiegħek. Jalla Allah jagħtik u lill-familja tiegħek is-saħħa li ġġorr dan it-telf bil-paċenzja u jista 'Allah jippremja r-ruħ demizzata bl-ogħla postijiet f'Jannah. L-għażla ta 'din l-għażla tippermettilek titlob lil momineen għal Namaz-e-Wahshat għar-ruħ demizzata.",
-          "optional": "Mhux obbligatorju",
+          "demiseLabel": "Tneħħiet illum? Talba Namaz-e-Wahshat",
+          "demiseText": "Jiddispjaċina ħafna li nisimgħu dwar it-telfa tiegħek. Jalla Alla jagħtik lilkom u lill-familja tiegħek is-saħħa biex iġorru dan it-telf bil-paċenzja u Allah jippremja r-ruħ mitluqa bl-ogħla postijiet f&#39;Jannah. L-għażla ta &#39;din l-għażla tgħinek tistaqsi lil momineen għal Namaz-e-Wahshat għar-ruħ mitluqa.",
+          "optional": "Fakultattiv",
           "dod": "Miet fuq",
-          "dob": "Twieled fl-"
+          "dob": "Twieled fuq"
         },
         "relation": [
-          "Bint ta'",
-          "Iben ta '"
+          "Bint ta",
+          "Iben ta"
         ],
-        "born": "Imwielda:",
+        "born": "Imwieled:",
         "died": "Miet:",
         "addMsg": "Trid iżżid messaġġ?",
-        "remainingChars": "Karattri: {għadd} | Karattri: {għadd} li jifdal",
-        "infoEditRelative": "Tista' teditja dettalji għal {name} <b>fit-taqsima tal-Kont tiegħek > Marhumeen</b>",
+        "addMsg_ph": "Per eżempju: Inna lillahi wa inna ilaihe raje&#39;un. Jekk jogħġbok irreċi surah-e-fatiha u 2-rak&#39;at namaz-e-wahshat għal ziju tiegħi, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, li ħalliena lkoll nibku lura biex niltaqgħu mal-kreatur tiegħu.",
+        "remainingChars": "Karattri: {count} | Karattri: {count} li fadal",
+        "infoEditRelative": "Tista&#39; teditja d-dettalji għall {name} fil- <b>Kont tiegħek&gt; taqsima Marhumeen</b>",
         "saveRequestCta": [
-          "Issejvja t-Talba",
+          "Ħlief &amp; Talba",
           "Talba"
         ],
-        "addUpdate": "Żid -— Aġġornament",
-        "jsRequesting": "Rikjedenti..",
+        "addUpdate": "Żid | Aġġornament",
+        "jsRequesting": "Titlob..",
         "jsAddSuccess": [
-          "Żid lill-maħbub tiegħek b'suċċess!",
-          "Aġġorna l-maħbub tiegħek b'suċċess!"
+          "Żidt il-maħbub tiegħek b&#39;suċċess!",
+          "Aġġorna l-maħbub tiegħek b&#39;suċċess!"
         ],
-        "jsAddFail": "Ma rnexxilux iżid lill-maħbub tiegħek. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsReqSuccess": "Talba sottomessa b'suċċess.",
-        "jsGettingMarhumeen": "Jkollna l-marhumeen tiegħek.."
+        "jsAddFail": "Naqas milli żżid il-maħbub tiegħek. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsReqSuccess": "It-talba ntbagħtet b&#39;suċċess.",
+        "jsGettingMarhumeen": "Ikseb il-marhumeen tiegħek .."
       },
       "askQues": {
-        "title": "Staqsi mistoqsija",
+        "title": "Saqsi mistoqsija",
         "form": {
           "quesLabel": "Il-mistoqsija tiegħek",
           "quesLabel_ph": "Fittex mistoqsija jew staqsi tiegħek",
-          "similarQues": "Dawn il-mistoqsijiet jista 'jkun li diġà għandhom it-tweġiba li qed tfittex.",
-          "quesTextHeader": "Il-Mistoqsija Tiegħek:",
-          "selectCat": "Issettja l-Kategorija tal-Mistoqsijiet:",
-          "askAnonLabel": "Staqsi b'mod anonimu?",
-          "askAnonInfo": "Ismek mhux se jintbagħat lill-Istudjuż meta jitlob tweġiba f'ismek, lanqas ma jintwera fuq l-app tagħna b'din il-mistoqsija. Iżda mistoqsijiet anonimi jistgħu ma jiġux imwieġba malajr.",
+          "similarQues": "Dawn il-mistoqsijiet jistgħu diġà jkollhom it-tweġiba li qed tfittex.",
+          "quesTextHeader": "Il-Mistoqsija tiegħek:",
+          "selectCat": "Issettja l-Kategorija tal-Mistoqsija:",
+          "askAnonLabel": "Staqsi b&#39;mod anonimu?",
+          "askAnonInfo": "Ismek mhux se jintbagħat lill-Scholar meta titlob tweġiba f&#39;ismek, lanqas se jintwera fl-app tagħna b&#39;din il-mistoqsija. Iżda mistoqsijiet anonimi jistgħu ma jitwieġbux malajr.",
           "askViaLabel": "Staqsi Via",
-          "askSistaniInfo": "Tista' tistaqsi mistoqsija biex tingħata risposta mill-uffiċċju tal-eminenza tiegħu, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Aħna se ngħaddu l-mistoqsija lill-websajt tagħhom (flimkien mal-informazzjoni tal-profil tiegħek). Kun żgur li qrajt <b>it-Termini u l-Kundizzjonijiet</b> kif suppost.",
-          "tncLabel": "Termini &Kundizzjonijiet:",
-          "showHide": [
-            "Juru",
-            "Aħbi"
-          ],
-          "sistaniOrgTncInfo": "Ikkunsidra li ssegwi punti mill-websajt tagħhom qabel ma tistaqsi mistoqsija, għax jekk ma taderixxix ma 'punti hawn taħt, tista' ma tismax lura mingħandhom, jew ma tistax tirċievi tweġibiet.",
+          "askSistaniInfo": "Tista&#39; tistaqsi mistoqsija li trid tiġi mwieġba mill-uffiċċju tal-Eminenza tiegħu, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Aħna se nibagħtu l-mistoqsija lill-websajt tagħhom (flimkien mal-informazzjoni tal-profil tiegħek). Kun żgur li qrajt it- <b>Termini u Kundizzjonijiet</b> kif suppost.",
+          "tncLabel": "Termini u Kundizzjonijiet:",
+          "sistaniOrgTncInfo": "Ikkunsidra l-punti li ġejjin mill-websajt tagħhom qabel ma tistaqsi mistoqsija, għaliex jekk ma taderixxix mal-punti ta &#39;hawn taħt, tista&#39; ma tisma&#39; lura mingħandhom, jew tista&#39; ma tirċievi l-ebda tweġiba.",
           "userInfo": {
             "aboutLabel": "Dwarek",
             "genderLabel": "Is-sess tiegħek",
-            "bdayLabel": "Għeluq sninek",
-            "bdayDesc": "Tista 'tistaqsi mistoqsija biss jekk għandek aktar minn 09 sena. Jekk għadek interessat, jekk jogħġbok ikkuntattjana."
+            "bdayLabel": "Birthday tiegħek",
+            "bdayDesc": "Tista&#39; tistaqsi mistoqsija biss jekk għandek aktar minn 09 snin."
           },
-          "jsQuesAdded": "Il-mistoqsija żdiedet b'suċċess."
+          "jsQuesAdded": "Mistoqsija miżjuda b&#39;suċċess."
         },
         "askQuesCta": "Staqsi l-mistoqsija tiegħek"
       },
       "authPrompt": {
         "title": "Kont meħtieġ",
-        "defLabel": "Idħol jew Irreġistra biex tkompli",
-        "infoText": "Din il-karatteristika teħtieġ li tidħol jew tirreġistra qabel ma tkun tista 'tużah. Ikklikkja <b>Idħol</b> jekk int diġà rreġistrat, jew ikklikkja <b>Irreġistra</b> biex toħloq il-kont tiegħek."
+        "defLabel": "Idħol jew Signup biex tkompli",
+        "infoText": "Din il-karatteristika teħtieġ li tidħol jew tirreġistra qabel ma tkun tista&#39; tużaha. Ikklikkja <b>Illoginja</b> jekk inti diġà rreġistrat, jew ikklikkja <b>Irreġistra</b> biex toħloq il-kont tiegħek."
       },
       "location": {
         "title": "Ibdel il-Post",
-        "search_ph": "Fittex fil-lokalità tiegħek",
-        "autoDetectInfo": "Daħħal il-lokalità tiegħek jew ikklikkja l-ikona tal-iskoperta awtomatika biex tikseb il-lokalità tiegħek.",
+        "search_ph": "Fittex il-lokalità tiegħek",
+        "autoDetectInfo": "Daħħal il-lokalità tiegħek jew ikklikkja l-ikona ta&#39; skoperta awtomatika biex tikseb il-lokalità tiegħek.",
         "setLocation": "Issettja l-post",
-        "ipAddress": "Indirizz IP",
-        "alarmLocation": "Post tal-allarm",
-        "basedOn": "Post ibbażat fuq is-{selettur tiegħek}",
-        "jsDetecting": "Qed tiskopri, jekk jogħġbok stenna..",
-        "jsPermDenied": "Il-permess tal-post miċħud għall-app. Irrisettja l-preferenza tal-post għal din l-app billi żżur it-taqsima Settings fit-telefon tiegħek.",
-        "jsPosUnavailable": "Jiddispjaċina, imma l-pożizzjoni mhix disponibbli għal dan it-telefon bħalissa. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsMatchNotFound": "Ma setax isib postijiet li jaqblu..",
-        "jsEnterValidLoc": "Daħħal post validu",
-        "jsGeoUnavailable": "Jiddispjaċina, imma l-pożizzjoni mhix disponibbli għal dan it-telefon bħalissa. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsLocMissing": "Ma setax isib il-lokalità tiegħek. Daħħal il-post manwalment.",
-        "jsSelectedLoc": "Hemm żball f'dan il-post. Jekk jogħġbok erġa' pprova"
+        "ipAddress": "indirizz IP",
+        "alarmLocation": "Post ta&#39; allarm",
+        "basedOn": "Post ibbażat fuq {selector} tiegħek",
+        "jsDetecting": "Tiskopri, jekk jogħġbok stenna ..",
+        "jsPermDenied": "Permess tal-post miċħud għall-app. Jekk jogħġbok reset il-preferenza tal-post għal din l-app billi żżur is-sezzjoni Settings fit-telefon tiegħek.",
+        "jsPosUnavailable": "Jiddispjaċina, iżda l-pożizzjoni mhix disponibbli għal dan it-telefon bħalissa. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsMatchNotFound": "Ma setgħetx issib postijiet li jaqblu..",
+        "jsEnterValidLoc": "Jekk jogħġbok daħħal post validu",
+        "jsGeoUnavailable": "Jiddispjaċina, iżda l-pożizzjoni mhix disponibbli għal dan it-telefon bħalissa. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsLocMissing": "Ma setgħetx issib il-lokalità tiegħek. Jekk jogħġbok daħħal il-post manwalment.",
+        "jsSelectedLoc": "Hemm żball f&#39;dan il-post. Jekk jogħġbok erġa pprova"
       },
       "readText": {
-        "ctaLabel": "Jaqra",
-        "title": "Dua: {title}",
+        "ctaLabel": "Aqra",
+        "title": "Tnejn: {title}",
         "arabicCta": "Għarbi",
         "englishCta": "Ingliż",
-        "translatedCta": "Tradotti"
+        "translatedCta": "Tradott"
       },
       "reqAccess": {
         "heading": "aċċess meħtieġ",
-        "subheading": "Għandna bżonn permess biex taċċessa l-kamera tiegħek",
-        "subtext": "Jekk jogħġbok ippermetti l-aċċess billi tikklikkja l-buttuna hawn taħt:",
+        "subheading": "Neħtieġu permess biex naċċessaw il-kamera tiegħek",
+        "subtext": "Jekk jogħġbok ħalli l-aċċess billi tikklikkja l-buttuna hawn taħt:",
         "ctaLabel": "jippermettu l-aċċess"
       },
       "shareBtn": {
-        "subtext": "Ikklikkja waħda mill-għażliet hawn taħt biex taqsam dan fuq l-app rispettiva:",
-        "jsCopyToCB": "Ikkupjat fuq il-klibbord tiegħek",
-        "copyText": "Ikklikkja <b>Ikkopja l-ikona</b> hawn fuq biex tikkopja l-kontenut hawn taħt:"
+        "subtext": "Ikklikkja waħda mill-għażliet hawn taħt biex taqsam din fuq l-app rispettiva:",
+        "jsCopyToCB": "Ikkupjat fil-clipboard tiegħek",
+        "copyText": "Ikklikkja l-ikona <b>Ikkopja</b> hawn fuq biex tikkopja l-kontenut ta’ hawn taħt:"
       },
       "verifyMob": {
         "title": [
-          "Ivverifika l-Mowbajl",
+          "Ivverifika l-Mobile",
           "Daħħal il-kodiċi"
         ],
         "page1": {
-          "infoText1": "Għandna bżonn in-numru tal-mowbajl tiegħek biex nivverifikaw l-identità tiegħek. Tista' wkoll tikseb aġġornamenti okkażjonali.",
+          "infoText1": "Neħtieġu n-numru tal-mowbajl tiegħek biex nivverifikaw l-identità tiegħek. Tista&#39; wkoll tikseb aġġornamenti okkażjonali.",
           "infoText2": [
-            "Daħħal in-numru tiegħek u kklikkja l-buttuna biex tikseb il-kodiċi ta 'konferma tiegħek:",
-            "Daħħal in-numru tiegħek u kklikkja buttuna biex tikseb il-kodiċi ta 'konferma tiegħek:"
+            "Daħħal in-numru tiegħek u kklikkja l-buttuna biex tikseb il-kodiċi ta&#39; konferma tiegħek:",
+            "Daħħal in-numru tiegħek u kklikkja buttuna biex tikseb il-kodiċi ta&#39; konferma tiegħek:"
           ]
         },
         "form": {
-          "mobileLabel": "Numru tal-Mowbajl",
+          "mobileLabel": "In-numru tal-mobile",
           "mobileLabel_ph": "Daħħal in-numru tal-mowbajl tiegħek",
-          "otpViaSMS": "Ikseb permezz tal-SMS",
-          "viaWhatsApp": "Ikseb permezz ta 'WhatsApp",
-          "viaTelegram": "Ikseb permezz ta 'Telegram",
+          "otpViaSMS": "Ikseb permezz ta&#39; SMS",
+          "viaWhatsApp": "Ikseb permezz ta&#39; WhatsApp",
+          "viaTelegram": "Ikseb permezz tat-Telegram",
           "viaSignal": "Ikseb permezz tas-Sinjal"
         },
         "page2": {
-          "header": "Bgħatna kodiċi ta'konferma b'6 ċifri lin-numru tiegħek ({numru})",
+          "header": "Bgħatna kodiċi ta&#39; konferma b&#39;6 ċifri lin-numru tiegħek ( {number} )",
           "enterCodeLabel": "Daħħal il-Kodiċi",
-          "enterCode_ph": "Daħħal il-kodiċi b'6 ċifri",
-          "resendCode": "Resend Kodiċi",
-          "notUsingMobile": "Mhux qed tuża <strong>{numru}?</strong>",
+          "enterCode_ph": "Daħħal il-kodiċi b&#39;6 ċifri",
+          "resendCode": "Ibgħat mill-ġdid il-Kodiċi",
+          "notUsingMobile": "Mhux qed tuża <strong>{number} ?</strong>",
           "changeNumber": "Ibdel in-Numru"
         },
-        "jsVerifySuccess": "Il-mowbajl verifikat b'suċċess",
-        "jsVerifyError": "Sar żball. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsSendOtpFailed": "Ma rnexxilux jibgħat OTP. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsSendOtpSuccess": "OTP mibgħuta lil {mobile}",
-        "jsTooManyRequests": "Jidher li diġà ppruvajt wisq drabi. Stenna ftit jew tnejn u erġa' pprova."
+        "jsVerifySuccess": "Mobile verifikat b&#39;suċċess",
+        "jsVerifyError": "Sar żball. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsSendOtpFailed": "Naqas milli jibgħat OTP. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsSendOtpSuccess": "OTP mibgħuta lill- {mobile}",
+        "jsTooManyRequests": "Jidher li diġà ppruvajt wisq drabi. Jekk jogħġbok stenna minuta jew tnejn u erġa&#39; pprova."
       },
       "userSettings": {
-        "personalSharingMsg": "Ippersonalizza l-messaġġ tal-Ixxerjar",
-        "changePwd": "Ibdel il-Password –— Issettja l-Password",
-        "changeLang": "Ibdel il-Lingwa",
-        "publishToFeed": "Ippubblika l-bidliet tiegħi fl-għalf ukoll."
+        "personalSharingMsg": "Ippersonalizza l-messaġġ tal-Qsim",
+        "changePwd": "Ibdel il-Password | Issettja l-Password",
+        "changeLang": "Bidla Lingwa",
+        "publishToFeed": "Ippubblika l-bidliet tiegħi għall-għalf ukoll."
       },
       "userSettingsModal": {
         "title": {
@@ -755,211 +750,213 @@
           "addNameToMsgs": "Żid ismi mal-messaġġi",
           "sharingDesc": "Meta taqsam esternament, il-messaġġi tiegħek jistgħu jidhru bħal hawn taħt:",
           "sharingTextDemo": [
-            "Isma 'dan Nauha fuq Bazm App",
-            "{name} jirrakkomanda li tisma' dan Nauha fuq Bazm App"
+            "Isma&#39; dan it-Tape fuq l-App Bazm",
+            "{name} jirrakkomanda li tisma &#39;dan Nauha fuq Bazm App"
           ],
           "addSignDesc": "Trid iżżid il-firma tiegħek ukoll?",
-          "signDesc": "Meta taqsam ix-xewqa tiegħek mal-ħbieb fuq din l-app, il-firma tiegħek tiżdied mal-messaġġi. Pereżempju, jista 'jidher kif ġej:"
+          "addSignPlaceholder": "Per eżempju, Bl-isbaħ xewqat, {name}",
+          "signDesc": "Meta taqsam ix-xewqa tiegħek mal-ħbieb fuq din l-app, il-firma tiegħek tiżdied mal-messaġġi. Per eżempju, jista &#39;jidher kif hawn taħt:"
         },
         "changePwd": {
           "currentPwdLabel": "Daħħal il-password eżistenti tiegħek:",
-          "currentPwdPH": "Daħħal il-Password Kurrenti",
+          "currentPwdPH": "Daħħal Password Kurrenti",
           "newPwdLabel": "Daħħal password ġdida:",
           "newPwdPH": "Daħħal Password Ġdida"
         },
         "changeLang": {
-          "searchYourLang": "Fittex fil-lingwa tiegħek",
-          "desc": "Agħżel il-lingwa li biha tixtieq tara l-kontenut tal-app. Ikklikkja fuq lingwa u stenna (tieħu f'xi żmien biex tgħabbi t-traduzzjoni) biex tara kif din il-frażi tidher f'lingwa magħżula."
+          "searchYourLang": "Fittex il-lingwa tiegħek",
+          "desc": "Agħżel il-lingwa li biha tixtieq tara l-kontenut tal-app. Ikklikkja fuq lingwa u stenna (jeħtieġ xi żmien biex tagħbija t-traduzzjoni) biex tara kif din il-frażi tidher fil-lingwa magħżula."
         },
         "jsPwdInvalid": "Il-password għandha karattri invalidi.",
         "jsPwdCharCount": "Il-password ma tistax tkun inqas minn 8 karattri.",
         "jsSelectLang": "Jekk jogħġbok agħżel lingwa l-ewwel.",
         "jsLangSet": "Il-lingwa ġiet issettjata għal {lang}",
-        "jsPrefSaved": "Settings tal-personalizzazzjoni ssejvjati."
+        "jsPrefSaved": "Is-settings tal-personalizzazzjoni ssejvjati."
       },
       "forgotPwd": {
         "title": "Insejt il-password?",
-        "introText": "L-issettjar mill-ġdid tal-password tiegħek huwa faċli. Agħżel metodu biex tkompli:",
-        "usePhoneCta": "Uża t-Telefown",
+        "introText": "Ir-reset tal-password tiegħek huwa faċli. Agħżel metodu biex tkompli:",
+        "usePhoneCta": "Uża Telefon",
         "useEmailCta": "Uża l-Email",
-        "sendEmailIntro": "Daħħal l-indirizz elettroniku li ħloqt il-kont tiegħek miegħu, u aħna nibgħatu email b'link biex tissettja password ġdida għall-kont tiegħek.",
-        "emailInputLabel": "L-email irreġistrat tiegħek",
-        "sendEmailCta": "Ibgħat Irrisettja l-Email",
-        "sentEmailText": "Jekk għandek kont magħna, ikollok email li tirrisettja l-password dalwaqt fuq <strong>{email}</strong>. Jekk jogħġbok iċċekkja l-email tiegħek għall-link.",
-        "notUsingEmailText": "Mhux qed tuża <strong>{email}?</strong>",
-        "changeEmailCta": "Ibdel l-Email",
-        "phoneIntroText": "Daħħal in-numru tat-telefon miżjud mal-kont tiegħek. Aħna nibagħtu OTP biex nivverifikaw is-sjieda tiegħek, u fil-pass li jmiss, tkun tista 'toħloq password ġdida.",
+        "sendEmailIntro": "Daħħal l-indirizz tal-email li bih ħloqt il-kont tiegħek, u aħna nibagħtu email b&#39;link biex nistabbilixxu password ġdida għall-kont tiegħek. | Għandek bżonn iżżid indirizz elettroniku biex tidħol fil-kont tiegħek. Aħna nibagħtu link għall-issettjar tal-password għal din l-email u minn hemm, tista&#39; toħloq password għall-kont tiegħek assoċjat man-numru tal-mowbajl tiegħek.",
+        "emailInputLabel": "L-email irreġistrata tiegħek",
+        "sendEmailCta": "Ibgħat Irrisettja Email",
+        "sentEmailText": "Jekk għandek kont magħna, dalwaqt tirċievi email ta&#39; reset tal-password fuq <strong>{email}</strong> . Jekk jogħġbok iċċekkja l-email tiegħek għall-link.",
+        "notUsingEmailText": "Mhux qed tuża <strong>{email} ?</strong>",
+        "changeEmailCta": "Bidla l-Email",
+        "phoneIntroText": "Daħħal in-numru tat-telefon miżjud mal-kont tiegħek. Aħna nibagħtu OTP biex nivverifikaw is-sjieda tiegħek, u fil-pass li jmiss, tkun tista&#39; toħloq password ġdida.",
         "phoneInputLabel": "In-numru tal-mowbajl tiegħek",
         "sendOtpCta": "Ibgħat OTP",
         "backToLoginCta": "Lura għal Login",
-        "disclaimerText": "Jekk jogħġbok innota li se tikseb {oġġett} biss jekk għandek il-{oġġett} irreġistrat magħna",
+        "disclaimerText": "Jekk jogħġbok innota li inti ser tirċievi {item} biss jekk ikollok l- {item} irreġistrat magħna",
         "jsMailSent": "Posta mibgħuta",
         "title2": "Itlob il-kont tiegħek",
+        "introText2": "Ir-reset tal-password tiegħek huwa faċli. Daħħal l-email tiegħek u ġib il-link għall-issettjar tal-password fuq l-email tiegħek.",
         "claimIntroHeading": "Itlob il-kont tiegħek malajr!",
-        "claimIntroText": "Grazzi talli ngħaqadt magħna. Ħloqna kont għalik issa. Ikseb aċċess għall-kont tiegħek billi tirrisettja l-password billi tuża wieħed mill-metodi li ġejjin:"
+        "claimIntroText": "Grazzi talli ngħaqadt magħna. Ikseb aċċess għall-kont tiegħek billi żżid email mal-kont tiegħek."
       },
       "resetPwd": {
         "title": "Irrisettja l-Password",
-        "introText": "Issettja password sigura għall-kont tiegħek hawn. Ikklikkja {ikona} biex tiżgura li qed iddaħħal il-password it-tajba.",
+        "introText": "Issettja password sigura għall-kont tiegħek hawn. Ikklikkja fuq {icon} biex tiżgura li qed iddaħħal il-password it-tajba.",
         "pwdInputLabel": "Issettja password ġdida",
         "pwdInputPH": "Daħħal password ġdida",
         "invalidPwdChars": "Karattri invalidi fil-password",
-        "jsResetSuccess": "Irrisettja l-password b'suċċess!"
+        "jsResetSuccess": "Irrisettja l-password b&#39;suċċess!"
       },
       "mediaPlayer": {
-        "jsTrackLoadFailed": "Ma rnexxilux jillowdja l-korsa. Jekk jogħġbok erġa' pprova aktar tard."
+        "jsTrackLoadFailed": "Naqas milli jgħabbi l-binarju. Jekk jogħġbok erġa&#39; pprova aktar tard."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} imħassar b'suċċess.",
-        "jsErrReporting": "Ma jistax jirrapporta dan bħalissa. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsAlreadyReported": "Diġà rrappurtajt dan {item}. Ma tistax tirrapportaha aktar minn darba.",
-        "jsPromptHeading": "Ir-rappurtar ta 'oġġett jirriżulta f'ċansijiet aktar baxxi li tidher fl-għalf / paġni tiegħek jew ta' ħaddieħor. Xorta tixtieq tirrapporta dan?",
-        "jsReporting": "Reporting {itemType}..",
-        "jsReportingErr": "Ma setax jissottometti t-talba tiegħek f'dan il-mument. Jekk jogħġbok erġa' pprova aktar tard.",
-        "jsReported": "{item} reported. Grazzi tal-kontribuzzjoni tiegħek."
+        "jsItemDeleted": "{item} imħassra b&#39;suċċess.",
+        "jsErrReporting": "Ma tistax tirrapporta dan bħalissa. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsAlreadyReported": "Diġà rrapportajt dan l {item} . Ma tistax tirrapportaha aktar minn darba.",
+        "jsPromptHeading": "Ir-rappurtar ta&#39; oġġett jirriżulta f&#39;inqas ċansijiet li jidher fil-feed/paġni tiegħek jew ta&#39; ħaddieħor. Xorta trid tirrapporta dan?",
+        "jsReporting": "{itemType} ta&#39; rappurtar ..",
+        "jsReportingErr": "Ma setgħetx tissottometti t-talba tiegħek f&#39;dan il-mument. Jekk jogħġbok erġa&#39; pprova aktar tard.",
+        "jsReported": "{item} irrappurtat. Grazzi tal-kontribut tiegħek."
       },
       "editProfileModal": {
-        "jsEmptyData": "Xejn x'taġġorna!",
+        "jsEmptyData": "Xejn x&#39;taġġorna!",
         "jsProfileUpdated": "Profil aġġornat!"
       },
       "reqZiyarat": {
-        "title": "Talba lil Ziyarat",
+        "title": "Itlob żjara",
         "cta": "Talba",
-        "header": "Itlob lil Ziyarat fuq Imam Hussain (a.s.) Shrine f'Karbala f'ismek.",
+        "header": "Itlob lil Ziyarat fl-Imam Hussain (as) Shrine f&#39;Karbala f&#39;ismek.",
         "desc": {
-          "p1": "Kull nhar ta' Ġimgħa, <strong>Ziyarat recited f'ismek</strong> fis-Santwarju ta' Imam Hussain (a.s.) f'Karbala, l-Iraq! Kull ma trid tagħmel hu li tagħmel talba <strong>qabel tmiem il-Ħamis filgħaxija</strong>. Qatt m'int tard wisq għalkemm; jekk it-talba tiegħek tidħol tard wisq, tkun irreġistrat għall-ġimgħa ta 'wara.",
-          "p2": "Aħna ninnotifikawk meta z-ziyarat ikun ġie recited f'ismek.",
-          "p3": "Nota: Meta titlob għall-ewwel darba, id-dettalji tiegħek jinqasmu mal-fornitur tas-servizz tagħna. Jekk jogħġbok aqra t-Termini u l-Kundizzjonijiet tagħna biex tkun taf aktar."
+          "p1": "Kull nhar ta&#39; Ġimgħa, <strong>għid lil Ziyarat f&#39;ismek</strong> fis-Santwarju tal-Imam Hussain(as) f&#39;Karbala, l-Iraq! Kull ma trid tagħmel hu li tagħmel talba <strong>qabel tmiem il-Ħamis filgħaxija</strong> . Inti qatt ma tard wisq għalkemm; jekk it-talba tiegħek tasal tard wisq, tkun irreġistrata għall-ġimgħa ta&#39; wara.",
+          "p2": "Aħna ninnotifikawk meta ż-ziyarat ikun ġie reċitat f&#39;ismek.",
+          "p3": "Nota: Meta titlob għall-ewwel darba, id-dettalji tiegħek jiġu kondiviżi mal-fornitur tas-servizz tagħna. Jekk jogħġbok aqra t-Termini u Kundizzjonijiet tagħna biex tkun taf aktar."
         },
-        "jsRegistered": "Grazzi! It-talba tiegħek hija rreġistrata b'suċċess. Se tikseb posta ta 'konferma dalwaqt.",
-        "jsAlreadyRegistered": "Diġà rreġistrajt għal Ziyarat illum il-Ħamis. Irreġistra l-ġimgħa d-dieħla għaż-ziyarat tal-ġimgħa d-dieħla.",
-        "jsConfirm": "Biex nirreġistraw għal din it-talba, jeħtieġ li naqsmu d-dettalji tiegħek (eż., isem sħiħ, sess, eċċ.) mal-fornitur tas-servizz tagħna. Dan huwa meħtieġ għall-ewwel darba biss. Jekk jogħġbok ikkonferma li tipproċedi.",
-        "jsDeclined": "Tajjeb! Forsi aktar tard."
+        "jsRegistered": "Grazzi! It-talba tiegħek hija rreġistrata b&#39;suċċess. Int ser tirċievi posta ta&#39; konferma dalwaqt.",
+        "jsAlreadyRegistered": "Int diġà rreġistrajt għal Ziyarat illum il-Ħamis. Irreġistra l-ġimgħa d-dieħla għaż-ziyarat tal-ġimgħa d-dieħla.",
+        "jsConfirm": "Biex nirreġistraw għal din it-talba, għandna bżonn naqsmu d-dettalji tiegħek (eż., isem sħiħ, sess, eċċ.) mal-fornitur tas-servizz tagħna. Dan huwa meħtieġ għall-ewwel darba biss. Jekk jogħġbok ikkonferma li tipproċedi.",
+        "jsDeclined": "Okay! Forsi iktar tard."
       },
       "currencySelector": {
         "title": "Agħżel il-munita",
         "baseCurrency": "Munita Bażi",
-        "compHasOwnRates": "Il-paġna li tuża dan is-selettur għandha r-rati tal-kambju tagħha stess li jista' jkollhom valuri storiċi. Għalhekk, ir-rati murija hawnhekk mhux se jiġu applikati fuq l-għażla.",
+        "compHasOwnRates": "Il-paġna li tuża dan is-selettur għandha r-rati tal-kambju tagħha stess li jista&#39; jkollha valuri storiċi. Għalhekk, ir-rati murija hawn mhux se jiġu applikati fuq l-għażla.",
         "cancelCta": "Ikkanċella",
         "doneCta": "Magħmul"
       },
       "mqmsSelector": {
-        "title": "Agħżel l-ammont ta' Muqammas",
-        "dateAdded": "Miżjud fuq: {date}",
+        "title": "Agħżel l-ammont ta &#39;Muqammas",
+        "dateAdded": "Miżjud fi: {date}",
         "cancelCta": "Ikkanċella",
         "doneCta": "Agħżel"
       },
       "khumsPaymentRecord": {
-        "title": "Żid Ir-Rekord tal-Ħlas",
+        "title": "Żid Rekord tal-Ħlas",
         "paymentFor": "Ħlas għal {khumsType}",
         "totalAmount": "Ammont totali: {amount}",
         "form": {
           "amountLabel": "Ammont",
-          "amountPlaceholder": "Daħħal l-Ammont",
+          "amountPlaceholder": "Daħħal Ammont",
           "amountErr": "L-ammont ma jistax ikun aktar minn Khums",
-          "dateLabel": "Data tat-trasferiment — Fakultattiva",
+          "dateLabel": "Data tat-trasferiment — Mhux obbligatorja",
           "dateInfo": "Data meta bgħatt il-flus",
           "remarks": "Rimarki, jekk hemm?",
-          "remarksInfo": "Pereżempju, \"Imħallas fi flus kontanti\"",
-          "attach": "Żid hemżiet",
-          "attachInfo": "Tista' żżid irċevuti ta' ħlas (stampi biss) għal referenza aktar tard"
+          "remarksInfo": "Eż., &#39;Imħallas fi flus&#39;",
+          "attach": "Żid l-annessi",
+          "attachInfo": "Tista &#39;żżid irċevuti tal-ħlas (immaġini biss) għal referenza aktar tard"
         }
       },
       "dialCodeSelector": {
-        "title": "Agħżel il-Pajjiż",
-        "searchPH": "Il-pajjiż tat-tiftix bl-isem jew bil-kodiċi tal-iddajljar"
+        "title": "Agħżel Pajjiż",
+        "searchPH": "Fittex pajjiż bl-isem jew dial-code"
       },
       "cards": {
         "completeProfile": {
           "profile": {
             "header": "Imla l-profil tiegħek",
-            "desc": "Profili mhux kompluti għandhom aċċess limitat għal karatteristiċi fuq l-app tagħna. Li jkollok il-profil tiegħek aġġornat jgħinek f'numru ta 'modi. Ikklikkja hawn biex tkun taf aktar.",
+            "desc": "Profili mhux kompluti għandhom aċċess limitat għall-karatteristiċi fuq l-app tagħna. Li jkollok il-profil tiegħek aġġornat jgħinek f&#39;numru ta&#39; modi. Ikklikkja hawn biex tkun taf aktar.",
             "item1": {
-              "header": "Profili kompluti jiġu Vverifikati faċilment",
-              "p1": "Meta titlob verifika tal-kont (il-pass li jmiss), tgħin lil ħaddieħor jivverifikak faċilment meta jew ikunu jafuk jew jistgħu jaraw l-informazzjoni kollha meħtieġa għall-verifika dwarek.",
-              "p2": "Profili mhux kompluti jieħdu ħafna aktar żmien biex jiġu vverifikati. Ma rridux li tkun imblukkat milli tuża karatteristiċi fuq l-app tagħna."
+              "header": "Profili kompluti jiġu Verifikati faċilment",
+              "p1": "Meta titlob verifika tal-kont (il-pass li jmiss), tgħin lill-oħrajn biex jivverifikawk faċilment meta jew ikunu jafuk jew ikunu jistgħu jaraw l-informazzjoni kollha meħtieġa għall-verifika dwarek.",
+              "p2": "Profili mhux kompluti jieħdu ħafna aktar żmien biex jiġu vverifikati. Aħna ma rridux li tkun imblukkat milli tuża karatteristiċi fuq l-app tagħna."
             },
             "item2": {
               "header": "Ara l-kontenut it-tajjeb",
               "p1": "Tara kontenut ibbażat fuq il-madwar tiegħek. Meta jkollna informazzjoni korretta dwarek, tara kontenut aktar rilevanti.",
-              "p2": "Pereżempju, jekk aġġornajt il-post tiegħek b'mod korrett, x'aktarx tara postijiet minn madwarek l-ewwel."
+              "p2": "Pereżempju, jekk aġġornajt il-lokalità tiegħek b&#39;mod korrett, x&#39;aktarx li l-ewwel tara posts minn madwarek."
             },
             "cta": "Imla l-profil tiegħek"
           },
           "identity": {
             "header": "Issettja l-identità tiegħek",
-            "desc": "Nilqgħu lil kulħadd fuq l-app tagħna, iżda minħabba li xi karatteristiċi huma utli (u maħsuba) għall-Musulmani Xiiti biss, din l-informazzjoni tgħinna nservuk il-karatteristiċi t-tajba. Ikklikkja hawn biex tkun taf aktar.",
+            "desc": "Aħna nilqgħu lil kulħadd fuq l-app tagħna, iżda minħabba li xi karatteristiċi huma utli (u maħsuba) għall-Musulmani Shia biss, din l-informazzjoni tgħinna naqduk il-karatteristiċi t-tajba. Ikklikkja hawn biex tkun taf aktar.",
             "item1": {
-              "header": "Karatteristiċi ta 'aċċess għall-Musulmani Shia",
-              "p1": "Numru ta 'karatteristiċi fuq l-app tagħna huma mibnija minn Musulmani Shia. Xi wħud minnhom huma:",
-              "ul": "<li>Talba għal Surah-fatiha u Namaz-e-Wahshat</li><li>Khums Calculator</li><li>Għajnuna finanzjarja (khums) għal Sadat momineen</li>",
-              "p2": "Biex taċċessa dawn il-karatteristiċi, jeħtieġlek tivverifika l-identità tiegħek (kemm jekk issa jew, jekk tagħżel li, aktar tard)"
+              "header": "Aċċess karatteristiċi għal Musulmani Shia",
+              "p1": "Numru ta &#39;karatteristiċi fuq l-app tagħna huma mibnija minn Musulmani Shia. Xi wħud minnhom huma:",
+              "ul": "<li>Talba għal Surah-fatiha u Namaz-e-Wahshat</li><li> Kalkulatur Khums</li><li> Għajnuna finanzjarja (khums) għal Sadat momineen</li>",
+              "p2": "Biex taċċessa dawn il-karatteristiċi, trid tivverifika l-identità tiegħek (kemm jekk issa jew, jekk tagħżel li, aktar tard)"
             },
             "item2": {
-              "header": "Tista 'tgħin lil momineen fil-bżonn!",
-              "p1": "Anke jekk ma tridx tiġi vverifikat, jista 'jkun hemm oħrajn li jistgħu jkunu jridu jiġu vverifikati biex jagħmlu użu minn dawn il-karatteristiċi.",
-              "p2": "Kontijiet ivverifikati biss jistgħu jivverifikaw dan il-momineen. Il-verifika tgħinna wkoll nibnu komunità Shia vverifikata."
+              "header": "Tista&#39; tgħin lil momineen fil-bżonn!",
+              "p1": "Anke jekk ma tridx li tiġi vverifikat, jista &#39;jkun hemm oħrajn li jistgħu jkunu jridu jiġu vverifikati biex jagħmlu użu minn dawn il-karatteristiċi.",
+              "p2": "Kontijiet verifikati biss jistgħu jivverifikaw tali momineen. Il-verifika tgħinna wkoll nibnu komunità Shia verifikata."
             },
             "item3": {
               "header": "L-informazzjoni tiegħek hija dejjem privata",
-              "p1": "<strong>Aħna nifhmu li din hija informazzjoni sensittiva</strong> u qatt mhu se nesponu din l-informazzjoni pubblikament mingħajr il-kunsens tiegħek, iżda l-inferenzi xorta jistgħu jsiru kultant. Pereżempju, meta titlob verifika minn momineen ieħor, ikunu jafu li int Shia.",
-              "p2": "Tista' tikklikkja l-buttuna hawn taħt biex taqra aktar dwar il-proċess tagħna."
+              "p1": "<strong>Aħna nifhmu li din hija informazzjoni sensittiva</strong> u qatt mhu se nesponu din l-informazzjoni pubblikament mingħajr il-kunsens tiegħek, iżda xi drabi xorta jistgħu jsiru inferenzi. Pereżempju, meta titlob verifika minn momineen oħra, huma jkunu jafu li inti Shia.",
+              "p2": "Tista&#39; tikklikkja l-buttuna hawn taħt biex taqra aktar dwar il-proċess tagħna."
             },
-            "cta": "Konfigurazzjoni"
+            "cta": "Setup"
           }
         },
         "idSetup": {
-          "header": "Kważi magħmul!",
-          "desc": "Tista' taqbeż dan il-pass jekk int kuntent bil-valuri ssettjati minn qabel tagħna għall-issettjar tal-privatezza u l-komunikazzjoni tiegħek. Ma tweġġax li jkollok ħarsa għalkemm!",
+          "header": "Kważi lest!",
+          "desc": "Tista&#39; taqbeż dan il-pass jekk int kuntent bil-valuri ssettjati minn qabel tagħna għas-settings tal-privatezza u l-komunikazzjoni tiegħek. Ma tweġġax li tagħti ħarsa għalkemm!",
           "privacy": {
             "header": "Issettja l-privatezza tiegħek",
-            "p1": "Iddefinixxi dak li ħaddieħor jista 'jara:",
-            "ul": "<li>Issettja l-issettjar tal-viżibilità għall-postijiet tiegħek. Jiddefinixxi jekk il-karigi tiegħek jistgħux jidhru minn xi ħadd fuq jew barra Bazm (eż. meta xi ħadd jaqsamha fuq pjattaforma oħra)</li><li>Issettja min jista' jara x'meta jżuru l-profil tiegħek</li><li>Issettja kif tidher l-informazzjoni tiegħek lil ħaddieħor</li>"
+            "p1": "Iddefinixxi dak li oħrajn jistgħu jaraw:",
+            "ul": "<li>Issettja s-settings tal-viżibilità għall-postijiet tiegħek. Jiddefinixxi jekk il-postijiet tiegħek jistgħux jidhru minn xi ħadd fuq jew barra Bazm (eż., meta xi ħadd jaqsamha fuq pjattaforma oħra)</li><li> Issettja min jista’ jara x’meta jżur il-profil tiegħek</li><li> Issettja kif tidher l-informazzjoni tiegħek lil ħaddieħor</li>"
           },
           "comm": {
-            "header": "Issettja l-issettjar tal-komunikazzjonijiet",
-            "p1": "Iddefinixxi kif u meta tixtieqna nikkomunikaw miegħek:",
-            "ul": "<li>Issettja l-preferenzi tan-notifiki tiegħek</li><li>Abbona jew neħħi l-abbonament għal notifiki ta 'emails</li><li>Abbona jew neħħi l-abbonament għat-tfakkiriet</li>"
+            "header": "Issettja s-settings tal-komunikazzjoni",
+            "p1": "Iddefinixxi kif u meta tixtieq li nikkomunikaw miegħek:",
+            "ul": "<li>Issettja l-preferenzi tan-notifiki tiegħek</li><li> Abbona jew neħħi l-abbonament għan-notifiki tal-emails</li><li> Abbona jew neħħi l-abbonament għal tfakkiriet</li>"
           },
-          "cta": "Konfigurazzjoni"
+          "cta": "Setup"
         },
         "verifyLoginInfo": {
           "mobile": {
             "header": "Ivverifika l-mowbajl tiegħek",
             "desc": "Ikklikkja fuq il-link hawn taħt biex tivverifika n-numru tal-mowbajl tiegħek:",
             "cta": "Ibda l-verifika mobbli",
-            "completed": "Il-mowbajl ivverifikat b'suċċess"
+            "completed": "Mobile verifikat b&#39;suċċess"
           },
           "email": {
             "header": "Ivverifika l-email tiegħek",
-            "desc": "Ikklikkja fuq il-link hawn taħt biex tikseb email ta 'verifika fl-inbox tiegħek.",
+            "desc": "Ikklikkja fuq il-link hawn taħt biex tikseb email ta&#39; verifika fl-inbox tiegħek.",
             "cta": "Ibda l-verifika mobbli",
-            "completed": "Il-mowbajl ivverifikat b'suċċess",
+            "completed": "Mobile verifikat b&#39;suċċess",
             "form": {
-              "inputLabel": "L-email tiegħek:",
+              "inputLabel": "L-email tieghek:",
               "ph": "Daħħal l-email tiegħek",
               "cta": "Link tal-verifika tal-email"
             },
             "sent": {
               "desc": "Intbagħtet email fl-indirizz elettroniku tiegħek hawn taħt. Ikklikkja fuq il-link fl-email tiegħek biex tivverifika l-indirizz tal-email tiegħek.",
-              "incorrect": "Email Ħażin?",
+              "incorrect": "Email mhux korretta?",
               "change": "Bidla"
             },
-            "resendCta": "Resend Email",
-            "openEmailCta": "Iftaħ l-Email",
-            "verified": "Email ivverifikat b'suċċess!"
+            "resendCta": "Ibgħat Email mill-ġdid",
+            "openEmailCta": "Iftaħ Email",
+            "verified": "Email verifikata b&#39;suċċess!"
           }
         }
       },
       "finishSetupPrompt": {
-        "heading": "Imla l-Konfigurazzjoni tal-Kont",
-        "desc": "Nisfruttaw il-karatteristiċi għall-kont tiegħek billi tlesti l-konfigurazzjoni tal-kont tiegħek. Trid tagħmel dan darba biss u tgħin biex tivverifika d-dettalji tiegħek, l-identità tiegħek u tissettja l-għażliet tal-privatezza għalik.",
-        "gotoPageCta": "Kompli l-Konfigurazzjoni",
+        "heading": "Imla l-Kont Setup",
+        "desc": "Nisfrutta l-karatteristiċi għall-kont tiegħek billi tlesti s-setup tal-kont tiegħek. Int trid tagħmel dan darba biss u tgħin biex tivverifika d-dettalji tiegħek, l-identità tiegħek u twaqqaf l-għażliet ta &#39;Privatezza għalik.",
+        "gotoPageCta": "Kompli Setup",
         "dontRemind": "Terġax tfakkarni",
         "dismissCta": "Aktar tard",
         "jsConfirmSkip": {
           "header": "Kompli aktar tard?",
-          "msg": "It-tlestija ta 'dan il-pass tiftaħ ħafna karatteristiċi għalik fuq l-app, iżda tista' tlesti dan il-pass aktar tard ukoll. Mur biss fit-tab 'Utent' u kompli minn hemm.",
+          "msg": "It-tlestija ta&#39; dan il-pass se tiftaħ ħafna karatteristiċi għalik fuq l-app, iżda tista &#39;tlesti dan il-pass aktar tard ukoll. Sempliċement mur fit-tab &#39;Utent&#39; u kompli minn hemm.",
           "btns": {
             "confirm": "Iva, aktar tard",
             "cancel": "Agħmel dan issa"
@@ -971,75 +968,75 @@
         "form": {
           "religion": {
             "label": "Agħżel ir-reliġjon tiegħek:",
-            "infoText": "Numru ta' karatteristiċi rilevanti biss għall-Musulmani huma bbażati fuq din l-informazzjoni. Din id-dejta tkun viżibbli għalik biss; Madankollu, xorta jistgħu jsiru inferenzi (bħal, meta tuża waħda mill-karatteristiċi disponibbli għall-Musulmani biss)",
-            "muslim": "Musulmani",
-            "nonMuslim": "Mhux Musulman"
+            "infoText": "Numru ta&#39; karatteristiċi rilevanti biss għall-Musulmani huma bbażati fuq din l-informazzjoni. Din id-dejta tkun viżibbli għalik biss; madankollu, xorta jistgħu jsiru inferenzi (bħal, meta tuża waħda mill-karatteristiċi disponibbli għall-Musulmani biss)",
+            "muslim": "Musulman",
+            "nonMuslim": "Mhux Musulmani"
           },
           "sect": {
             "label": "Agħżel is-setta tiegħek",
-            "infoText": "Karatteristiċi bħal Talba <strong>għal Ziyarat, Talba għall-għajnuna, kalkolu Khums, eċċ jeħtieġu li tivverifika l-identità</strong> Shia tiegħek. Barra minn hekk, utenti mhux ivverifikati għandhom aċċess limitat għall-karatteristiċi.",
+            "infoText": "Karatteristiċi bħal <strong>Talba għal Ziyarat, Talba għal għajnuna, kalkolu Khums, eċċ</strong> jeħtieġu li tivverifika l-identità Shia tiegħek. Ukoll, utenti mhux verifikati għandhom aċċess limitat għall-karatteristiċi.",
             "shia": "Shia",
             "sunni": "Mhux Shia"
           },
-          "thanksNonMuslim": "Grazzi talli wrew interess li ningħaqdu mal-app tagħna. Nisperaw li ssib kontenut utli hawn. Jekk jogħġbok uri r-rispett lejn il-komunità u kkonforma mar-regoli tagħna.",
+          "thanksNonMuslim": "Grazzi talli wrejt interess li tingħaqad mal-app tagħna. Nittamaw li ssib kontenut utli hawn. Jekk jogħġbok uri rispett lejn il-komunità u kkonforma mar-regoli tagħna.",
           "sadat": {
-            "label": "Int Sadat?",
-            "infoText": "Din l-informazzjoni tintuża f'karatteristiċi maħsuba għall-Musulmani Sadat-shia. Madankollu, qatt ma jintwera kif inhu għal ħadd. Ikollok bżonn tivverifika l-istatus ta' sadat tiegħek qabel ma tkun tista' tuża dawn is-servizzi.",
+            "label": "Inti Sadat?",
+            "infoText": "Din l-informazzjoni tintuża f&#39;karatteristiċi maħsuba għall-Musulmani Sadat-shia. Madankollu, qatt ma jintwera kif inhu lil ħadd. Ikollok bżonn tivverifika l-istatus tas-sadat tiegħek qabel ma tkun tista&#39; tagħmel użu minn dawn is-servizzi.",
             "sadat": "Iva",
-            "nonSadat": "Le"
+            "nonSadat": "Nru"
           },
           "requested": "Verifika mitluba",
           "required": "Verifika meħtieġa",
           "verifyInfo": {
-            "modalCta": "Dan x'inhu?",
+            "modalCta": "X&#39;inhu dan?",
             "p1": "Biex tikseb aċċess għal karatteristiċi maħsuba għall-Musulmani Shia, trid tivverifika l-identità Shia tiegħek.",
-            "p2": "Jekk int Shia-Sadat, ikollok bżonn tivverifika dan ukoll. Tista' tgħaqqadha fl-istess talba ta' verifika; sempliċement agħżel <strong>Sadat</strong> hawn fuq."
+            "p2": "Jekk inti Shia-Sadat, ikollok bżonn tivverifika dan ukoll. Tista &#39;tgħaqqadha fl-istess talba ta&#39; verifika; sempliċement agħżel <strong>Sadat</strong> hawn fuq."
           },
-          "verifyCta": "Jivverifikaw",
-          "skipInfo": "Tista' taqbeż il-verifika jekk ma tixtieqx tuża l-karatteristiċi msemmija. Biex taġġorna biss l-informazzjoni tiegħek, ikklikkja <strong>Issejvja & Kompli</strong>",
+          "verifyCta": "Ivverifika",
+          "skipInfo": "Tista&#39; taqbeż il-verifika jekk ma tixtieqx tuża l-karatteristiċi msemmija. Biex taġġorna l-informazzjoni tiegħek biss, ikklikkja <strong>Save &amp; Continue</strong>",
           "thankSunni": {
-            "p1": "Grazzi talli wrew interess fl-app tagħna. Minkejja dawn id-diviżjonijiet tad-dinja, il-Musulmani kollha huma aħwa fil-fidi u jappartjenu għall-istess Ummah tal-Profeta Muhammad (PBUH)",
-            "p2": "Nisperaw li ssib kontenut hawn utli u jgħinna nifhmu aħjar lil xulxin.",
-            "p3": "Għal kwalunkwe mistoqsija / tħassib dwar il-politiki tagħna jew xi ħaġa, tista 'dejjem tilħaqna."
+            "p1": "Grazzi talli wrejt interess fl-app tagħna. Minkejja dawn id-diviżjonijiet tad-dinja, il-Musulmani kollha huma aħwa fil-fidi u jappartjenu għall-istess Ummah tal-Profeta Muhammad (PBUH)",
+            "p2": "Nittamaw li ssib kontenut hawn utli u jgħinna nifhmu lil xulxin aħjar.",
+            "p3": "Għal kwalunkwe mistoqsija/tħassib dwar il-politiki tagħna jew xi ħaġa, tista&#39; dejjem tikkuntattjana."
           }
         },
         "cta": [
-          "Tissejvja",
-          "Issejvja u Kompli"
+          "Ħlief",
+          "Salv u Kompli"
         ]
       },
       "verifyShiaModal": {
-        "title": "Ivverifika l-kont għal {name}",
-        "heading": "Tista' twieġeb hawn taħt informazzjoni dwar {firstName}? Jekk le, allura irrifjuta din it-talba.",
+        "title": "Ivverifika l-kont għall {name}",
+        "heading": "Tista&#39; twieġeb hawn taħt informazzjoni dwar {firstName} ? Jekk le, allura tiċħad din it-talba.",
         "desc": "Għandek biss żewġ tentattivi biex tivverifika!",
-        "descP1": "Meta tissottometti din il-formola, aħna nqabblu l-informazzjoni ma 'dak li {firstName} pprovdut meta titlob verifika. Jekk jogħġbok oqgħod attent għax għandek biss żewġ tentattivi biex timla din il-formola b'mod korrett. Jekk xorta tfalli, ma tkunx tista' terġa' tivverifika {firstName} fil-futur.",
-        "descP2": "Jekk ma tafx {firstName}, allura irrifjuta din it-talba. Aħna ninfurmawhom u nitolbuhom jaslu għand xi ħadd ieħor.",
-        "rejectRequestCta": "Talba għal Ċaħda",
+        "descP1": "Meta tissottometti din il-formola, aħna nqabblu l-informazzjoni ma&#39; dak li {firstName} ipprovda meta titlob verifika. Jekk jogħġbok oqgħod attent għax għandek biss żewġ tentattivi biex timla din il-formola b&#39;mod korrett. Jekk xorta tfalli, ma tkunx tista&#39; tivverifika {firstName} mill-ġdid fil-futur.",
+        "descP2": "Jekk ma tafx {firstName} , imbagħad irrifjuta din it-talba. Ingħarrfuhom u nitolbuhom jilħqu lil xi ħadd ieħor.",
+        "rejectRequestCta": "Irrifjuta Talba",
         "form": {
-          "heading": "Wieġeb il-mistoqsijiet li ġejjin dwar {firstName} u kklikkja Issottometti:",
-          "q1": "Kif tkun taf {firstName}?",
+          "heading": "Wieġeb il-mistoqsijiet li ġejjin dwar {firstName} u kklikkja Ibgħat:",
+          "q1": "Kif tkun taf {firstName} ?",
           "q2": "Reliġjon:",
           "q3": "Setta:",
-          "q4": "{firstName} huwa Sadat?",
+          "q4": "L- {firstName} Huwa Sadat?",
           "q5": "Xi ħaġa oħra li tixtieq iżżid?"
         }
       },
       "editPrefModal": {
-        "title": "L-Issettjar tal-Privatezza Tiegħek",
+        "title": "Is-Settings tal-Privatezza Tiegħek",
         "privacy": {
-          "header": "Issettjar tal-Privatezza",
-          "desc": "Issettja min jista' jara li ġej mingħandek jew fil-kont tiegħek:",
+          "header": "Settings tal-Privatezza",
+          "desc": "Issettja min jista&#39; jara li ġej mingħandek jew fil-kont tiegħek:",
           "form": {
-            "posts": "Il-karigi tiegħek",
-            "status": "L-aġġornamenti ta' l-istatus tiegħek",
+            "posts": "Il-postijiet tiegħek",
+            "status": "L-istatus tiegħek jaġġorna",
             "requests": "It-talbiet tiegħek",
             "relationship": "L-istatus tar-relazzjoni tiegħek",
-            "birthday": "Id-data tat-twelid tiegħek (mhux sena)",
-            "location": "Il-post tiegħek"
+            "birthday": "Id-data tat-twelid tiegħek (mhux is-sena)",
+            "location": "Il-lokalità tiegħek"
           },
           "disclaimer": {
-            "heading": "* L-inferenzi xorta jistgħu jsiru dwar dan",
-            "p": "Anke jekk din l-informazzjoni forsi moħbija fuq il-profil tiegħek, xorta jistgħu jsiru xi inferenzi. Pereżempju, jekk il-post tiegħek jidher lil utent, jistgħu jiddeduċu li tgħix qrib (ibbażat fuq fejn tidher dik il-kariga fl-għalf tagħhom)"
+            "heading": "* Xorta jistgħu jsiru inferenzi dwar dan",
+            "p": "Anke jekk din l-informazzjoni forsi moħbija fuq il-profil tiegħek, xorta jistgħu jsiru xi inferenzi. Pereżempju, jekk il-post tiegħek jidher lil utent, huma jistgħu jiddeduċu li inti tgħix qrib (ibbażat fuq fejn tidher dik il-post fl-għalf tagħhom)"
           },
           "values": {
             "everyone": "Kulħadd",
@@ -1049,66 +1046,67 @@
           }
         },
         "comm": {
-          "header": "Issettjar tal-Komunikazzjoni",
+          "header": "Settings tal-Komunikazzjoni",
           "desc": "Issettja kif tixtieq tiġi kkomunikat",
           "form": {
             "push": {
               "header": "Notifiki push",
               "nearby": "Għal postijiet minn utenti fil-qrib",
-              "daily": "L-aġġornamenti tagħna ta' kuljum"
+              "daily": "L-aġġornamenti tagħna ta&#39; kuljum"
             },
             "email": {
-              "header": "Notifiki bl-email",
-              "weekly": "Newsletter ta' kull ġimgħa",
-              "monthly": "Emails fil-qosor ta 'kull xahar"
+              "header": "Notifiki bil-posta elettronika",
+              "weekly": "Newsletter ta&#39; kull ġimgħa",
+              "monthly": "Emails sommarji ta&#39; kull xahar"
             },
             "cta": "Aġġornament"
           }
         },
         "js": {
-          "changeSaved": "Bidliet issejvjati b'suċċess"
+          "changeSaved": "Bidliet salvati b&#39;suċċess"
         }
       },
       "rejectVerifyReq": {
-        "cta": "Jirrifjuta",
-        "title": "Talba għal ċaħda",
+        "cta": "Tiċħad",
+        "title": "Tiċħad it-talba",
         "reasonLabel": "Għaliex ma tridx tivverifika dan il-kont?",
-        "reasonPh": "Se nħallu lil {userName} inkunu nafu u nitolbuhom jilħqu lil xi ħadd ieħor għall-verifika"
+        "reasonPh": "Aħna ngħarrfu {userName} u nitolbuhom biex jilħqu lil xi ħadd ieħor għall-verifika"
       },
       "haadiHome": {
-        "title": "Ibda d-diskussjoni | Id-diskussjonijiet tiegħek ma' Haadi",
+        "title": "Ibda diskussjoni | Id-diskussjonijiet tiegħek ma&#39; Haadi",
         "item": {
-          "added": "Miżjud {date}",
-          "tokensUsed": "Tokens użati: {tokens}",
+          "added": "{date} miżjuda",
+          "tokensUsed": "Krediti użati: {tokens}",
           "readContinue": "Aqra jew kompli d-diskussjoni"
         },
         "blank": {
           "heading": "Ibda diskussjoni ġdida",
-          "desc": "M'għandekx konversazzjonijiet preċedenti. Ibda diskussjoni ġdida billi tissottometti l-mistoqsija tiegħek hawn taħt."
+          "desc": "M&#39;għandekx konversazzjonijiet preċedenti. Ibda diskussjoni ġdida billi tissottometti l-mistoqsija tiegħek hawn taħt."
         },
         "introLink": "Aqra aktar dwar Haadi, jew",
         "inputPh": "Ibda diskussjoni ġdida",
         "quesHelp": {
-          "invalid": "Mistoqsijiet b'5 kelmiet jew aktar jagħmlu aktar sens..",
+          "invalid": "Mistoqsijiet b&#39;5 kelmiet jew aktar jagħmlu aktar sens..",
           "goodLen": "Dik tidher qisha mistoqsija tajba!",
-          "excellent": "Qatt ma tweġġa 'li tispjega l-mistoqsija tiegħek. Kudos!"
+          "excellent": "Qatt ma tweġġa’ li tispjega l-mistoqsija tiegħek. Awguri!"
         }
       },
       "askHaadi": {
         "title": "Staqsi lil Haadi",
-        "infoText": "Biex ittemm din id-diskussjoni u tibda konversazzjoni ġdida, ikklikkja l-buttuna hawn taħt",
+        "infoText": "Biex ittemm din id-diskussjoni u tibda konverżazzjoni ġdida, ikklikkja l-buttuna hawn taħt",
         "newChatCTA": "Diskussjoni Ġdida",
-        "inputPH": "Staqsi mistoqsija",
+        "inputPH": "Saqsi mistoqsija",
         "empty": {
-          "heading": "Ma setax isib din il-konverżazzjoni",
-          "p1": "Sar żball waqt li kien qed jipprova jikseb din il-konversazzjoni. Iċċekkja l-URL u erġa' pprova.",
-          "p2": "Jekk dan jibqa' jiġri, ġentilment ikkuntattjana."
+          "heading": "Ma setgħetx issib din il-konversazzjoni",
+          "p1": "Ma stajniex insibu din il-konversazzjoni. Jekk jogħġbok iċċekkja l-URL u erġa&#39; pprova.",
+          "guest": "Dan jista&#39; jkun għaliex m&#39;intix illoggjat. Jekk jogħġbok ipprova illoggja u erġa&#39; iċċekkja.",
+          "p2": "Jekk dan ikompli jiġri, jekk jogħġbok ikkuntattjana."
         },
-        "jsNewChatInfo": "Dan huwa l-bidu ta 'konversazzjoni ġdida ma' Haadi. Int għażilt li tippermetti l-kuntest għal Haadi waqt li twieġeb il-mistoqsijiet tiegħek. Dejjem tista' tiddiżattiva din l-għażla fl-issettjar, jew tara xi jfisser għalik dan."
+        "jsNewChatInfo": "Dan huwa l-bidu ta &#39;konversazzjoni ġdida ma&#39; Haadi. Int għażilt li tippermetti l-kuntest għal Haadi waqt li twieġeb il-mistoqsijiet tiegħek. Tista&#39; dejjem tiddiżattiva din l-għażla fis-settings, jew tara xi jfisser dan għalik."
       },
       "aboutHaadi": {
-        "title": "Iltaqa 'ma' Haadi, il-botfriend tiegħek biex tinnaviga Shia islam!",
-        "desc": "Ikklikkja kull wieħed minn dawn is-sommarji biex taqra aktar, jew issib aktar dwar Haadi u termini ta 'użu fil{blogLink}mira ='_system'<a href=>blog tagħna",
+        "title": "Iltaqa&#39; ma&#39; Haadi, <strong>il-Bot-ħabib</strong> tiegħek biex tinnaviga fl-Islam Shia!",
+        "desc": "Nirrakkomandaw li tgħaddi minn dawn is-sommarji qabel tibda tuża Haadi. Tista&#39; ssib aktar dwar Haadi u t-termini tal-użu fil <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Nifhem u naqbel mat-Termini tal-użu"
       }
     },
@@ -1121,7 +1119,7 @@
         "email": {
           "label": "Email",
           "placeholder": [
-            "L-email irreġistrat tiegħek",
+            "L-email irreġistrata tiegħek",
             "Daħħal l-email tiegħek"
           ]
         },
@@ -1132,142 +1130,133 @@
             "Daħħal password"
           ]
         },
-        "rememberLogin": "Ftakar il-login",
-        "forgotPwd": "Insejt il-Password?",
-        "connectUsing": "Jew, qabbad billi tuża",
-        "useSavedAccount": "Uża kontijiet issejvjati",
+        "rememberLogin": "Ftakar fil-login",
+        "forgotPwd": "Insejt il-password?",
+        "connectUsing": "Jew, qabbad bl-użu",
+        "useSavedAccount": "Uża kontijiet salvati",
         "lastLogin": "L-aħħar login",
         "needAccount": "Għandek bżonn kont?",
-        "resetPwdSuccess": "Tista 'tuża l-password il-ġdida tiegħek biex tidħol issa",
+        "resetPwdSuccess": "Tista&#39; tuża l-password il-ġdida tiegħek biex tidħol issa",
         "jsEnterFullName": "Jekk jogħġbok daħħal l-isem sħiħ tiegħek.",
-        "jsEnterValidName": "Daħħal isem validu.",
+        "jsEnterValidName": "Jekk jogħġbok daħħal isem validu.",
         "jsEnterValidEmail": [
-          "Daħħal email valida.",
-          "L-email għandha karattri invalidi. Daħħal email valida."
+          "Jekk jogħġbok daħħal email valida.",
+          "L-email għandha karattri invalidi. Jekk jogħġbok daħħal email valida."
         ],
         "jsSelectCountryCode": "Jekk jogħġbok agħżel il-kodiċi tal-pajjiż tiegħek mil-lista",
         "jsEnterMobile": "Jekk jogħġbok daħħal in-numru tal-mowbajl tiegħek.",
-        "jsEnterValidMobile": "Daħħal numru tal-mowbajl validu",
-        "jsEnterPwd": "Daħħal il-password tiegħek!",
+        "jsEnterValidMobile": "Jekk jogħġbok daħħal numru tal-mowbajl validu",
+        "jsEnterPwd": "Jekk jogħġbok daħħal il-password tiegħek!",
         "jsEnterValidPwd": [
-          "Il-password għandha karattri invalidi. Daħħal password valida.",
-          "Il-password għandha tkun mill-inqas karattri {num}."
+          "Il-password għandha karattri invalidi. Jekk jogħġbok daħħal password valida.",
+          "Il-password għandu jkun mill-inqas {num} karattri."
         ],
-        "jsAccountSuccess": "Kont maħluq b'suċċess",
-        "jsFbError": "Ma setax jikseb id-dettalji tal-kont Facebook tiegħek. Erġa' pprova.",
-        "jsPromptClosedErr": "Il-pront tal-login ingħalaq qabel ma spiċċa. Erġa' pprova."
+        "jsAccountSuccess": "Kont maħluq b&#39;suċċess",
+        "jsFbError": "Ma setgħetx tikseb id-dettalji tal-kont Facebook tiegħek. Jekk jogħġbok erġa pprova.",
+        "jsPromptClosedErr": "Il-pront tal-login ingħalaq qabel ma spiċċat. Jekk jogħġbok erġa pprova."
       },
-      "gotoSignup": "Irreġistra Goto",
+      "gotoSignup": "Mur Irreġistra",
       "alreadyHasAccount": "Diġà għandek kont?",
-      "gotoLogin": "Goto Login",
-      "gotoProfile": "Profil Goto",
-      "msgForAuthUser": "<p>Aħna naħsbu li żbarkajt hawn bi żball, peress li diġà dħalt.</p> <p>Tista' tiċċekkja l-profil tiegħek biex tara kif jidher, jew tuża waħda mil-links ta' hawn taħt biex tfittex taqsimiet oħra:</p>",
-      "jsLoggedOut": "Ġejt illoggjat.",
-      "jsLogoutHeading": "Logout mill-kont?",
-      "jsLogoutText": "Dan iħassar l-informazzjoni ssejvjata lokalment li tippermetti l-illoggjar <b>malajr</b>. Tkompli?"
+      "gotoLogin": "Mur Idħol",
+      "gotoProfile": "Mur fil-Profil",
+      "msgForAuthUser": "<p>Aħna naħsbu li żbarkajt hawn bi żball, peress li diġà dħalt.</p><p> Tista&#39; tiċċekkja l-profil tiegħek biex tara kif jidher, jew tuża waħda mill-links hawn taħt biex tfittex sezzjonijiet oħra:</p>",
+      "jsLoggedOut": "Int illoggjat.",
+      "jsLogoutHeading": "Ħruġ mill-kont?",
+      "jsLogoutText": "Dan se jħassar l-informazzjoni ssejvjata lokalment li tippermetti li tidħol <b>malajr</b> . Kompli?"
     },
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Installa Bazm { platform }",
-          "desc": "Niżżel l-app Android għal esperjenza aħjar, kontenut personalizzat, notifiki u dak kollu li jinteressa ruħek minn madwarek! | Installa shortcut tal-app (bookmark) biex taċċessaha direttament mill-homescreen tiegħek id-darba d-dieħla għal esperjenza aħjar! Bilkemm tieħu xi spazju fuq it-tagħmir tiegħek imma tgħinek terġa 'lura fuq l-app malajr.",
+          "heading": "Żid Shortcut Bazm",
+          "desc": "Niżżel l-app Android tagħna għal esperjenza aħjar, kontenut personalizzat, notifiki u dak kollu ta&#39; interess tiegħek minn madwarek! | Installa app shortcut (bookmark) biex taċċessaha direttament mill-homescreen tiegħek id-darba li jmiss għal esperjenza aħjar! Bilkemm jieħu spazju fuq it-tagħmir tiegħek iżda jgħinek terġa &#39;lura fuq l-app malajr.",
           "cta": {
-            "action": "Tinstalla",
-            "skip": "Forsi aktar tard"
+            "action": "Installa",
+            "skip": "Forsi iktar tard"
           }
         },
         "prompt": {
           "heading": "Installa shortcut Bazm?"
         },
-        "popover": {
-          "text": "Ikklikkja fuq l-ikona Share (tidher qisha waħda fuq il-lemin) <strong>HAWN TAĦT</strong> u mbagħad ikklikkja <strong>Żid mal-Iskrin tad-Dar</strong>. Ikklikkja \"Issejvja\" biex tispiċċa, u allura tista' taċċessa l-app minn shortcut fuq l-iskrin tad-dar tiegħek!"
-        },
         "nonSafari": {
-          "heading": "Bazm jaħdem aħjar fuq Apple Safari",
+          "heading": "Bazm jaħdem aħjar fuq Safari",
           "desc": "Dan il-browser għandu karatteristiċi limitati, filwaqt li l-browser Safari jippermetti lill-app tagħna taħdem aħjar, inklużi Push-notifications u App-shortcut.",
-          "subtext": "<strong>Iftaħ l-app Safari</strong> fuq it-telefon tiegħek u mur <strong>{url}</strong> għal esperjenza aħjar.",
+          "subtext": "<strong>Iftaħ Safari Browser</strong> u mur <strong>{url}</strong> għal esperjenza aħjar.",
           "skipCta": "Kompli hawn minflok"
         }
       },
       "webFeedback": {
-        "heading": "Kif inhi l-esperjenza tiegħek s'issa?",
-        "text": "<p>Tħobb l-app il-ġdida? Hemm xi ħaġa li nistgħu ntejbu? Jekk jogħġbok għinna bil-feedback tiegħek biex intejbu l-esperjenza għalik!</p> <p>Dan jieħu biss ftit minuti, u napprezzaw ħafna l-ħin tiegħek!</p>",
+        "heading": "Kif inhi l-esperjenza tiegħek s&#39;issa?",
+        "text": "<p>Tħobb l-app il-ġdida? Hemm xi ħaġa li nistgħu ntejbu? Jekk jogħġbok għinna bir-rispons tiegħek biex intejbu l-esperjenza għalik!</p><p> Dan jieħu biss ftit minuti, u napprezzaw ħafna l-ħin tiegħek!</p>",
         "cta": "Agħti feedback",
-        "dismiss": "Forsi aktar tard"
+        "dismiss": "Forsi iktar tard",
+        "altText": "Ir-rispons tiegħek jgħinna ntejbu l-esperjenza tal-app għalik, u tieħu minuta biss."
       },
       "advertise": {
         "heading": "Irreklama fuq Bazm",
-        "text": "<p>Laħaq miljuni ta 'Musulmani Shia madwar id-dinja bil-prodott tiegħek fuq Bazm jew jimpenja ruħu ma' marki u utenti.</p> <p>Ibda għal $ 1 / jum!</p>",
-        "cta": "Tgħallem aktar"
+        "text": "<p>Ilħaq miljuni ta&#39; Musulmani Shia madwar id-dinja bil-prodott tiegħek fuq Bazm jew involvi ruħek ma&#39; ditti u utenti.</p><p> Ibda mill-inqas $1/jum!</p>",
+        "cta": "Itagħllem iżjed"
       },
       "upgradeSafari": {
         "header": "Esperjenza limitata fuq Safari",
-        "description": "<strong>Dan il-browser (Safari) mhuwiex ottimizzat għall-aħjar esperjenza</strong>. Billi tkompli tuża l-app tagħna hawn, titlef numru ta 'karatteristiċi notifiki ta' twissija bħal dawn, ħdejn aġġornamenti, modalità offline u ħafna aktar.<br/> Nirrakkomandaw li tikseb wieħed mill-browsers elenkati hawn taħt għal esperjenza mtejba. Ikklikkja kwalunkwe mill-buttuni biex tniżżel il-browser minn AppStore:",
+        "description": "<strong>Dan il-browser (Safari) mhuwiex ottimizzat għall-aħjar esperjenza</strong> . Billi tkompli tuża l-app tagħna hawn, int se titlef għadd ta&#39; karatteristiċi bħal notifiki ta&#39; twissija, aġġornamenti qrib, modalità offline u ħafna aktar.<br/> Nirrakkomandawlek li tikseb wieħed mill-browsers elenkati hawn taħt għal esperjenza mtejba. Ikklikkja xi waħda mill-buttuni biex tniżżel il-browser mill-AppStore:",
         "ctas": {
           "getGoogle": "Ikseb Google Chrome",
           "getFirefox": "Ikseb Mozilla Firefox",
-          "getOpera": "Ikseb l-Opra Touch",
-          "skip": "Forsi aktar tard"
+          "getOpera": "Ikseb Opera Touch",
+          "skip": "Forsi iktar tard"
         },
-        "toast": "Mhemmx problema. Sal-ħin li jmiss!"
+        "toast": "Mhux problema. Sad-darba li jmiss!"
       },
       "cookieBanner": {
-        "header": "Dwar l-issejvjar tal-Cookies fuq it-tagħmir tiegħek",
-        "p1": "Aħna ma naħżnu l-ebda cookies fuq it-tagħmir tiegħek} iżda apps ta' partijiet terzi użati fl-app tagħna jistgħu (bħal, Google Analytics). Minflok nużaw ħażna permanenti biex naħżnu kwalunkwe dejta importanti, u fil-biċċa l-kbira tal-każijiet, dan huwa kriptat fil-ħażna u waqt it-trasferiment.",
-        "p2": "Billi tkompli tuża din l-app, inti b'dan tikkonferma li m'għandekx problemi bl-għażliet tagħna. Biex issir taf aktar dwar il-cookies u l-użu tad-dejta tagħna, ara l-mira tagħna <a href=\"https://bazm.in/privacy-policy\"=\"_blank >-Politika ta' Privatezza >.</a>"
+        "header": "Dwar l-iffrankar tal-Cookies fuq it-tagħmir tiegħek",
+        "p1": "Aħna ma naħżnu l-ebda cookies fuq {device} tiegħek iżda jistgħu apps ta’ partijiet terzi użati fl-app tagħna (bħal Google Analytics). Minflok nużaw ħażna permanenti biex naħżnu kwalunkwe data importanti, u fil-biċċa l-kbira tal-każijiet, din hija kkodifikata fil-ħażna u waqt it-trasferiment.",
+        "p2": "Billi tkompli tuża din l-app, b&#39;dan tikkonferma li m&#39;għandekx problemi bl-għażliet tagħna. Biex issir taf aktar dwar il-cookies u l-użu tad-dejta tagħna, ara <a href='https://bazm.in/privacy-policy' target='_blank'>l-Politika ta’ Privatezza tagħna.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - App tan-Netwerk Soċjali għall-Musulmani Xiiti madwar id-dinja! Niżżel l-app illum.",
+      "titleBranding": "__ Bazm - App tan-Netwerk Soċjali għal Musulmani Shia madwar id-dinja!",
       "home": {
-        "title": "Bazm - App tal-komunità Shia online!",
-        "description": "L-app Bazm hija l-app tal-komunità Shia li tissodisfa l-bżonnijiet kollha ta 'kuljum tiegħek ta' deen & mazhab. Sib Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kotba, eċċ għad-dati u l-okkażjonijiet kollha. Ara u għamel avvenimenti live-stream u majalis ma 'Shia-Muslims madwar id-dinja mill-konvenjenza ta' darek. Ingħaqad illum!"
+        "title": "Bazm - App tal-komunità Shia onlajn!",
+        "description": "L-app Bazm hija l-app tal-komunità Shia li tissodisfa l-bżonnijiet kollha ta &#39;kuljum tiegħek ta&#39; deen &amp; mazhab. Sib Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kotba, eċċ għad-dati u l-okkażjonijiet kollha. Ara u agħmel avvenimenti live-stream u majalis ma&#39; Musulmani Shia madwar id-dinja mill-konvenjenza ta &#39;darek. Ingħaqad illum!"
       },
       "feed": {
-        "title": "Sib kontenut imfassal apposta u aqsam mal-komunità shia madwarek u d-dinja",
-        "description": "Sib u taqsam aħbarijiet, avvenimenti, u kontenut ma 'shia momineen madwar, u żommhom infurmati dwar kwalunkwe avveniment li qed tospita. Tgħallem dwar xi ħaġa li qed tiġri ħdejk fuq l-app."
+        "title": "Bazm — Sib u aqsam kontenut imfassal apposta minn Musulmani Shia madwar id-dinja!",
+        "description": "Sib u aqsam aħbarijiet, avvenimenti, u kontenut ma&#39; shia momineen madwar, u żommhom infurmati dwar kwalunkwe avveniment li qed tospita. Tgħallem dwar xi ħaġa li qed jiġri qrib tiegħek fuq l-app."
       },
       "mediaHome": {
-        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal u ħafna iktar għalik!",
-        "description": "Sib Nauhe, Majalis, Dua, Aamaal, ziyarat u ħafna aktar għad-dati u l-okkażjoni kollha. Ara u għamel live-stream majalis mill-konvenjenza ta 'darek! Ingħaqad mal-app tan-netwerk soċjali Shia li tgħinek b'kompiti ta 'rutina ta' deen &amp mazhab. Ingħaqad illum!"
+        "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal u ħafna aktar għalik!",
+        "description": "Sib Nauhe, Majalis, Dua, Aamaal, ziyarat u ħafna aktar għad-dati u l-okkażjoni kollha. Ara u agħmel majalis live-stream mill-konvenjenza tad-dar tiegħek! Ingħaqad mal-app tan-netwerk soċjali Shia li tgħinek b&#39;kompiti ta&#39; rutina ta&#39; deen u mazhab. Ingħaqad illum!"
       },
       "toolsHome": {
-        "title": "Bazm - Allarm ta 'Kuljum Azaan, mistoqsija-tweġiba u għodda għall-Musulmani Shia",
-        "description": "Ikseb tfakkira ta 'kuljum għal Adhan, sib & staqsi mistoqsija-tweġiba dwar suġġetti ta' deen &islam, jew itlob Surah-fatiha jew Namaz-e-Wahshat għall-marhumeen tiegħek, u aktar għodod fuq Bazm. Ingħaqad mal-app tan-netwerk soċjali Shia li tgħinek b'kompiti ta 'rutina ta' deen. Sib Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat għad-dati u l-okkażjonijiet kollha. Avvenimenti u majalis live-stream mill-konvenjenza ta 'darek. Ingħaqad illum!"
+        "title": "Bazm - Allarm Azaan ta&#39; kuljum, mistoqsija-tweġiba u għodda għall-Musulmani Shia",
+        "description": "Ikseb tfakkira ta &#39;kuljum għal Adhan, sib u staqsi mistoqsija-tweġiba dwar suġġetti ta&#39; deen u islam, jew itlob Surah-fatiha jew Namaz-e-Wahshat għall-marhumeen tiegħek, u aktar għodod fuq Bazm. Ingħaqad mal-app tan-netwerk soċjali Shia li tgħinek b&#39;kompiti ta&#39; rutina ta&#39; deen. Sib Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat għad-dati u l-okkażjonijiet kollha. Avvenimenti live-stream u majalis mill-konvenjenza tad-dar tiegħek. Ingħaqad illum!"
       },
       "tasbeehCounter": {
-        "title": "Counter tasbeeh awtomatiku b'vuċi __ Tasbeeh Counter għodda",
-        "description": "Ir-reciting għadd ta 'tasbeeh issa huwa aktar faċli bil-bankijiet awdjo tasbeeh tagħna. Irċita t-tasbeeh tiegħek waqt li tkun qed issuq jew taħdem, xorta żżomm kont tal-għadd b'counters tal-vuċi. Ikseb din l-għodda u oħrajn bħalha fuq l-app Bazm. Niżżel illum."
+        "title": "Counter awtomatiku tasbeeh bl-għodda Voice __ Tasbeeh Counter",
+        "description": "Ir-reċitazzjoni ta&#39; għadd ta&#39; tasbeeh issa hija aktar faċli bil-counters tagħna tasbeeh Audio. Irċita tasbeeh tiegħek waqt li tkun qed issuq jew taħdem, xorta żżomm kont tal-għadd bil-counters tal-vuċi. Ikseb din l-għodda u oħrajn bħalha fuq l-app Bazm. Niżżel illum."
       },
       "accountHome": {
-        "title": "Bazm - Oħloq il-kont b'xejn tiegħek illum u ikseb għajnuna bil-bżonnijiet ta 'kuljum tiegħek ta' deen!",
-        "description": "Ingħaqad mal-app Bazm illum biex tissodisfa l-bżonnijiet kollha tiegħek biex tiddeeniyat. Sib nohe /nauhe, majalis, dua, ziyarat, aamaal għad-dati u l-okkażjonijiet kollha. Live-stream u l-arloġġ ta' majalis & avvenimenti minn madwarek; sib postijiet, kontenut u momineen minn madwarek u d-dinja, u ħafna aktar fuq l-app."
+        "title": "Bazm - Oħloq il-kont b&#39;xejn tiegħek illum u ikseb għajnuna bil-bżonnijiet ta&#39; kuljum tiegħek!",
+        "description": "Ingħaqad mal-app Bazm illum biex tissodisfa l-bżonnijiet kollha tiegħek biex deeniyat. Sib nohe/nauhe, majalis, dua, ziyarat, aamaal għad-dati u l-okkażjonijiet kollha. Live-stream u ara majalis &amp; avvenimenti minn madwarek; sib postijiet, kontenut u momineen minn madwarek u mid-dinja, u ħafna aktar fuq l-app. Ingħaqad illum!"
       },
       "nauheListPage": {
-        "title": "Isma 'lil Nauhe minn nauhakhwan popolari madwar id-dinja",
-        "description": "Isma nauhe mis-snin kollha u n-nauhakhwan popolari kollha minn madwar id-dinja fuq l-app Bazm. Niżżel illum."
+        "title": "Isma &#39;Nauhe minn nauhakhwan popolari madwar id-dinja",
+        "description": "Isma &#39;nauhe mis-snin kollha u n-nauhakhwan popolari kollha minn madwar id-dinja fuq l-app Bazm. Niżżel illum."
       },
       "soazListPage": {
-        "title": "Isma 'lil Soaz minn Soazkhwan popolari madwar id-dinja",
-        "description": "Isma 'lil Soaz mis-snin kollha u s-Soazkhwan popolari kollha minn madwar id-dinja fuq l-app Bazm. Niżżel illum."
+        "title": "Isma &#39;Soaz minn Soazkhwan popolari madwar id-dinja",
+        "description": "Isma &#39;Soaz mis-snin kollha u Soazkhwan popolari kollha minn madwar id-dinja fuq l-app Bazm. Niżżel illum."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Sib aktar nauhe, audio/video majalis, dua, ziyarat, aamaal, etc on Bazm",
-        "description": "Sib majalis awdjo / vidjo minn Maulana u Zakir-e-Ahlbayt minn ħdejk u madwar id-dinja. Isma 'u ara l-aħħar sessjonijiet ta' majalis u livestream fuq l-app Bazm. Niżżel l-app illum u ingħaqad ma 'miljuni ta' Musulmani Xiiti madwar id-dinja!"
+        "title": "{type} majalis/majlis fuq Bazm - Sib aktar nauhe, awdjo/video majalis, dua, ziyarat, aamaal, eċċ. fuq Bazm",
+        "description": "Sib majalis awdjo/vidjo minn Maulana u Zakir-e-Ahlbayt minn ħdejk u madwar id-dinja. Isma u ara l-aħħar majalis u sessjonijiet livestream fuq l-app Bazm. Niżżel l-app illum u ingħaqad ma&#39; miljuni ta&#39; Musulmani Shi&#39;a madwar id-dinja!"
       },
       "duasPage": {
         "title": [
-          "Duas u aamaal għax-xahar ta' {xahar} fuq Bazm - Sib aktar nauhe, awdjo/vidjo majalis, dua, ziyarat, aamaal, eċċ.",
-          "Duas u aamaal għax-xhur kollha fuq Bazm - Sib aktar nauhe, awdjo / vidjo majalis, dua, ziyarat, aamaal, eċċ fuq Bazm"
+          "Duas u aamaal għax-xahar tax- {month} fuq Bazm - Sib aktar nauhe, audio/video majalis, dua, piyarat, aamaal, eċċ. fuq Bazm",
+          "Duas u aamaal għax-xhur kollha fuq Bazm - Sib aktar nauhe, awdjo/video majalis, dua, ziyarat, aamaal, eċċ. fuq Bazm"
         ],
-        "description": "Sib duas, aamaal, ziyarat u munajat għax-xhur kollha fuq Bazm, data u avveniment għaqli. Niżżel l-app illum u ingħaqad ma 'miljuni ta' Musulmani Xiiti madwar id-dinja!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Spjega b'referenzi korretti u f'kuntest għall-Musulmani shia. Ukoll, ipprovdili referenzi bħala lista b'links għal sorsi.",
-        "newQues": "Hi, ejja nibdew konversazzjoni ġdida. Għandi hawn taħt mistoqsija:\n{quesTex}",
-        "continuePrev": "Ejja nkomplu d-diskussjoni tagħna minn {date}. {quesTex}"
+        "description": "Sib duas, aamaal, ziyarat u munajat għax-xhur kollha fuq Bazm, data u avveniment għaqli. Niżżel l-app illum u ingħaqad ma&#39; miljuni ta&#39; Musulmani Shi&#39;a madwar id-dinja!"
       }
     }
   }
