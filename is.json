@@ -81,7 +81,8 @@
         "cancelCta": "Spurðu mig seinna",
         "okCta": "Sjálfsagt!",
         "jsPushUnsupported": "Ýta ekki studd á þessu tæki. Þú gætir misst af tilkynningum!"
-      }
+      },
+      "sending": "Sendir..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Þessar upplýsingar eru aðeins sýnilegar þér og þú sérð efni og eiginleika sem byggjast á þessu.",
           "idSetupCta": "Settu upp auðkenni þitt",
           "idVerifyCta": "Staðfesta",
-          "joinDate": "Skráði sig: {date}"
+          "joinDate": "Skráði sig: {date}",
+          "idVerifyAltText": "Aðeins staðfest Shia momineen getur staðfest aðra. Vinsamlega fáðu reikninginn þinn staðfestan, svo þú getir staðfest <strong>{name}</strong> eftir það.",
+          "idVerifyAltText2": "Ef þú hefur þegar beðið um einhvern geturðu minnt hann á hann aftur með nýjum hlekk eða beðið meira Momineen um skjótari viðbrögð."
         },
         "posts": {
           "title": "Innlegg",
@@ -792,7 +795,8 @@
         "jsMailSent": "Póstur sendur",
         "title2": "Gerðu tilkall til reikningsins þíns",
         "claimIntroHeading": "Gerðu tilkall til reikningsins þíns fljótt!",
-        "claimIntroText": "Takk fyrir að koma. Við stofnuðum reikning fyrir þig núna. Fáðu aðgang að reikningnum þínum með því að endurstilla lykilorð hans með því að nota eina af eftirfarandi aðferðum:"
+        "claimIntroText": "Takk fyrir að koma. Við stofnuðum reikning fyrir þig núna. Fáðu aðgang að reikningnum þínum með því að endurstilla lykilorð hans með því að nota eina af eftirfarandi aðferðum:",
+        "introText2": "Það er auðvelt að endurstilla lykilorðið þitt. Sláðu inn netfangið þitt og fáðu hlekkinn til að endurstilla lykilorð í tölvupóstinum þínum."
       },
       "resetPwd": {
         "title": "Endurstilla lykilorð",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Fann ekki þetta samtal",
           "p1": "Villa kom upp þegar reynt var að ná þessu samtali. Vinsamlegast athugaðu slóðina og reyndu aftur.",
-          "p2": "Ef þetta heldur áfram að gerast, vinsamlegast hafðu samband við okkur."
+          "p2": "Ef þetta heldur áfram að gerast, vinsamlegast hafðu samband við okkur.",
+          "guest": "Þetta gæti verið vegna þess að þú ert ekki skráður inn. Vinsamlegast reyndu að skrá þig inn og athugaðu aftur."
         },
         "jsNewChatInfo": "Þetta er byrjunin á nýju samtali við Haadi. Þú hefur valið að virkja samhengi fyrir Haadi meðan þú svarar spurningum þínum. Þú getur alltaf slökkt á þessum valkosti í stillingum eða séð hvað þetta þýðir fyrir þig."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Hvernig er reynsla þín hingað til?",
         "text": "<p>Líkar þér við nýja appið? Er eitthvað sem við getum bætt? Vinsamlegast hjálpaðu okkur með athugasemdir þínar til að bæta upplifunina fyrir þig!</p><p>Þetta myndi taka aðeins nokkrar mínútur og við þökkum mjög tíma þinn!</p>",
         "cta": "Gefðu álit",
-        "dismiss": "Kannski seinna"
+        "dismiss": "Kannski seinna",
+        "altText": "Ábending þín mun hjálpa okkur að bæta appupplifunina fyrir þig og það tekur aðeins eina mínútu."
       },
       "advertise": {
         "heading": "Auglýstu á Bazm",
