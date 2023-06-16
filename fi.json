@@ -81,7 +81,8 @@
         "cancelCta": "Kysy minulta myöhemmin",
         "okCta": "Varma!",
         "jsPushUnsupported": "Työntöä ei tueta tässä laitteessa. Saatat jäädä paitsi ilmoituksista!"
-      }
+      },
+      "sending": "Lähetetään..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Nämä tiedot näkyvät vain sinulle ja näet niiden perusteella sisältöä ja ominaisuuksia.",
           "idSetupCta": "Määritä henkilöllisyytesi",
           "idVerifyCta": "Vahvista",
-          "joinDate": "Liittynyt: {date}"
+          "joinDate": "Liittynyt: {date}",
+          "idVerifyAltText": "Vain vahvistettu Shia mominen voi vahvistaa muita. Vahvista tilisi, jotta voit vahvistaa <strong>{name}</strong> myöhemmin.",
+          "idVerifyAltText2": "Jos olet jo pyytänyt jotakuta, voit muistuttaa häntä uudelleen uudella linkillä tai pyytää mominenilta nopeampaa vastausta."
         },
         "posts": {
           "title": "Viestit",
@@ -792,7 +795,8 @@
         "jsMailSent": "Posti lähetetty",
         "title2": "Lunasta tilisi",
         "claimIntroHeading": "Lunasta tilisi nopeasti!",
-        "claimIntroText": "Kiitos, että liityit joukkoomme. Olemme nyt luoneet sinulle tilin. Pääset tilillesi vaihtamalla sen salasana jollakin seuraavista tavoista:"
+        "claimIntroText": "Kiitos, että liityit joukkoomme. Olemme nyt luoneet sinulle tilin. Pääset tilillesi vaihtamalla sen salasana jollakin seuraavista tavoista:",
+        "introText2": "Salasanan nollaus on helppoa. Kirjoita sähköpostiosoitteesi ja saat sähköpostiisi salasanan palautuslinkin."
       },
       "resetPwd": {
         "title": "Nollaa salasana",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Tätä keskustelua ei löytynyt",
           "p1": "Tätä keskustelua haettaessa tapahtui virhe. Tarkista URL-osoite ja yritä uudelleen.",
-          "p2": "Jos tämä jatkuu, ota ystävällisesti yhteyttä."
+          "p2": "Jos tämä jatkuu, ota ystävällisesti yhteyttä.",
+          "guest": "Tämä voi johtua siitä, että et ole kirjautunut sisään. Yritä kirjautua sisään ja tarkista uudelleen."
         },
         "jsNewChatInfo": "Tästä alkaa uusi keskustelu Haadin kanssa. Olet valinnut ottaa kontekstin käyttöön Haadille vastatessasi kysymyksiisi. Voit aina poistaa tämän vaihtoehdon käytöstä asetuksista tai katsoa, mitä tämä tarkoittaa sinulle."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Millaisia kokemuksia sinulla on tähän mennessä?",
         "text": "<p>Pidätkö uudesta sovelluksesta? Onko jotain, mitä voimme parantaa? Auta meitä antamalla palautetta, jotta voimme parantaa käyttökokemustasi!</p><p> Tämä vie vain muutaman minuutin, ja arvostamme suuresti aikaasi!</p>",
         "cta": "Antaa palautetta",
-        "dismiss": "Ehkä myöhemmin"
+        "dismiss": "Ehkä myöhemmin",
+        "altText": "Palautteesi auttaa meitä parantamaan sovelluskokemustasi, ja se vie vain minuutin."
       },
       "advertise": {
         "heading": "Mainosta Bazmissa",
