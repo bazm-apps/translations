@@ -8,7 +8,7 @@
       "sendOtp": "OTP 전송..",
       "dismiss": "해고하다",
       "invite": "초대하다",
-      "showMore": "더 보기 | 더보기",
+      "showMore": "더 보기 | 더 보기",
       "play": "놀다",
       "pause": "일시 중지",
       "playing": "재생",
@@ -42,7 +42,7 @@
       "at": "에",
       "untilNextTime": "문제 없어요. 다음까지시간!",
       "plzWait": "기다리세요..",
-      "saving": "절약.. | 업데이트..",
+      "saving": "저장 중.. | 업데이트 중..",
       "search": "검색",
       "late": "늦다",
       "done": "수행",
@@ -58,8 +58,8 @@
         "uploading": "업로드..",
         "deleting": "삭제..",
         "requesting": "요청..",
-        "audienceHeader": "d를 {action}Momineen | 이것을 {action}Momineen",
-        "jsShareFileTypeError": "죄송하지만 여기서 {fileType} 파일을 공유할 수 없습니다.",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
+        "jsShareFileTypeError": "죄송합니다. 여기서 {fileType} 파일을 공유할 수 없습니다.",
         "jsUpdateAvailable": {
           "header": "업데이트 사용 가능",
           "message": "앱의 캐시된 버전이 표시됩니다. '새로 고침'을 클릭하여 새 콘텐츠와 기능을 업데이트하고 로드합니다.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "이미지 업로드에 실패했습니다. 나중에 다시 시도해 주세요.",
         "jsLoadingDelay": "예상보다 시간이 조금 더 걸립니다. 이 요청을 처리하는 동안 잠시 기다려 주십시오."
       },
+      "sending": "배상...",
       "close": "닫다",
       "yes": "예",
       "no": "아니요",
@@ -81,8 +82,7 @@
         "cancelCta": "나중에 묻기",
         "okCta": "물론!",
         "jsPushUnsupported": "이 장치에서는 푸시가 지원되지 않습니다. 알림을 놓칠 수 있습니다!"
-      },
-      "sending": "배상..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "지금은 콘텐츠를 로드할 수 없습니다. 잠시 후 다시 시도해 주세요.",
-        "itemDetailUnavailable": "이 {item}에 대한 세부 정보를 찾을 수 없습니다.",
+        "itemDetailUnavailable": "이 {item} 에 대한 세부정보를 찾을 수 없습니다.",
         "loadMoreError": "더 많은 항목을 로드하지 못했습니다. 나중에 다시 시도해 주세요."
       },
       "url": {
@@ -152,8 +152,8 @@
           "wishCtaLabel": "소원"
         },
         "books": {
-          "booksByAuthor": "{author}의 책",
-          "booksInLang": "{lang}의 책",
+          "booksByAuthor": "{author} 책",
+          "booksInLang": "{lang} 로 된 책",
           "filterBy": "필터링 기준:",
           "matching": {
             "authors": "저자 일치",
@@ -182,7 +182,7 @@
         "khumsLabel": "Khums 계산기",
         "khumsDesc": "khums를 계산하거나 이전에 지불한 khum을 추가하십시오. 수년에 걸쳐 khums를 기록하는 데 도움이 됩니다.",
         "alarms": {
-          "salatAlarms": "살랏 알람 | 매일 살랏 알람",
+          "salatAlarms": "Salat 알람 | 일일 Salat 알람",
           "sehriAlarms": "라마단 세리 알람",
           "gettingLocation": "위치 파악. 기다리세요...",
           "settingsTip": "알람 설정에서 <b>위치</b> 및 기본 설정을 변경합니다. 설정 아이콘을 클릭하여 시작합니다.",
@@ -195,12 +195,12 @@
           "midnightLabel": "심야",
           "sehriEndTime": "세리의 끝을 위한 시간",
           "minToImsak": [
-            "임삭 {min}분 전",
-            "임삭 {hour}시간 전"
+            "임삭 전 {min} 분",
+            "임삭 {hour} 전"
           ],
           "minToImsakDesc": [
-            "Sehri 시간이 끝나기 {min} 분 전에 알람이 울립니다.",
-            "Sehri 시간이 끝나기 {hour} 시간 전에 알람이 울립니다."
+            "세리 시간이 끝나기 {min} 분 전에 알람이 울립니다.",
+            "{hour} 시간이 끝나기 한 시간 전에 알람이 울립니다."
           ],
           "notRamadan": "아직 라마단이 아닌 것 같습니다. 라마단 기간 중 또는 직전에 다시 오셔서 세리에 대한 알람을 설정하세요.",
           "push": {
@@ -242,7 +242,7 @@
           "noAnswer": "대답 없음"
         },
         "qnaDetail": {
-          "title": "에 대한 답변 : {ques}",
+          "title": "답변: {ques}",
           "jsSubmitSuccess": "질문이 성공적으로 제출되었습니다. 답변을 받으면 업데이트하겠습니다."
         },
         "tasbeehCounter": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "블로그: 효율적인 khums 계산",
-              "p1": "매년 khums 계산의 주요 항목을 강조하는 <a href='{href}' target='_blank'>블로그를 팔로우</a>하세요.",
+              "p1": "매년 khums 계산의 주요 항목을 강조하는 <a href='{href}' target='_blank'>블로그를 팔로우하십시오</a> .",
               "p2": "면책 조항 : 블로그는 가이드가 아닙니다. <strong>Khums 계산에 대한 Marjah의 판결을 따르십시오</strong>. 자세한 내용을 보려면 <span id='blog-info-link' color='primary'>여기를 클릭하십시오</span> .",
               "blogInfo": "위의 블로그는 al-islam.org, sistani.org 의 기사와 몇몇 다른 학자들과의 토론을 기반으로 합니다. 항상 Khums 계산에 대한 Marjah의 판결을 따라야 합니다.",
               "dismissCta": "관심 없음"
@@ -283,7 +283,7 @@
             "mqmsInfo": "다음 계산을 위한 Muqammas",
             "calcHeader": "아래 계산에 따르면:",
             "savingsHeader": "저축",
-            "conversionInfo": "{xchgRateDate} {xchgRate} 환율에 따라 {amount}로 변환",
+            "conversionInfo": "{xchgRateDate} 의 {xchgRate} 환율을 기준으로 {amount} 으로 환산",
             "expensesHeader": "경비",
             "mqmsHeader": "무캄마스",
             "prevMqms": "이전 muqammas",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "아래 양식을 작성하여 khums를 계산하십시오. 선택적 필드가 표시됩니다. 아래 정보 아이콘을 클릭하면 섹션에 대해 자세히 알아볼 수 있습니다.",
-            "blog": "관련 : <a href='{href}' target='_blank'>khums를 효율적으로<a> 계산하는 방법에</a> 대한 블로그 읽기",
+            "blog": "관련 항목: <a href='{href}' target='_blank'>khums를 효율적으로 계산하는 방법</a> 에 대한 블로그 읽기",
             "dateRange": "날짜 범위 선택:",
             "dateRangeInfo": "일반적으로 사람들은 회계 연도(예: 4월부터 3월까지) 또는 달력 연도(1월에서 12월까지)에 대해 khum을 계산합니다",
             "startDate": "시작 날짜:",
@@ -337,7 +337,7 @@
               "header": "<strong>환율 사용</strong>",
               "subtext": "이 환율은 계산에 사용됩니다. 사용자 지정 값을 사용하도록 변경할 수 있습니다.",
               "info": "환율이 현재와 같지 않았던 1년 전의 khum에 대한 계산을 추가하는 경우와 같이 기록 데이터를 처리할 때 환율에 대한 사용자 지정 값을 직접 설정할 수 있습니다.",
-              "rateValuePH": "{currency}예: 1 {mainCurrency} = 80.21 {currency}"
+              "rateValuePH": "{currency} 로, 예: 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "계산하다",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "사용자 | 계정",
+        "name": "사용자 계정",
         "editProfile": "프로필 편집",
         "publishToFeed": "피드에 변경 내용 게시",
         "shareUpdateToFeed": "또한 이 업데이트를 내 피드에 공유하십시오.",
         "statusText_ph": "_italics_ 또는 *bold* 서식을 사용하여 상태를 장식하십시오.",
-        "statusCharsLeft": "{count} 자 남음",
+        "statusCharsLeft": "남은 문자 {count}",
         "jsImgUploadSuccess": "이미지가 성공적으로 업로드되었습니다!",
         "unauthAccess": {
           "heading": "당신은 바로 이곳에 있다고 확신합니까?",
@@ -409,18 +409,18 @@
           "title": "약",
           "jsStatusUpdateFail": "상태를 업데이트하지 못했습니다. 나중에 다시 시도해 주세요.",
           "statusTextInfo": "당신이 누구인지 또는 무엇을 하는지와 같이 자신에 대해 간략한 내용을 추가하십시오!",
-          "statusCta": "상태 추가 | 상태 업데이트",
+          "statusCta": "상태 추가 | 업데이트 상태",
           "addCity": "구/군/시 추가",
-          "gender": "남성 | 여성",
+          "gender": "남성 여성",
           "addGender": "성별 추가",
           "addBday": "생일 추가",
           "addRelation": "관계 추가",
           "privateInfoDesc": "이 정보는 귀하만 볼 수 있으며 이를 기반으로 하는 콘텐츠와 기능을 볼 수 있습니다.",
           "idSetupCta": "ID 설정",
           "idVerifyCta": "확인",
-          "joinDate": "가입: {date}",
           "idVerifyAltText": "검증된 시아파 모미닌만이 타인을 검증할 수 있습니다. 나중에 <strong>{name}</strong> 확인할 수 있도록 계정을 확인하시기 바랍니다.",
-          "idVerifyAltText2": "이미 다른 사람을 요청한 경우 새 링크로 다시 상기시키거나 더 빠른 응답을 위해 더 많은 momineen을 요청할 수 있습니다."
+          "idVerifyAltText2": "이미 다른 사람을 요청한 경우 새 링크로 다시 상기시키거나 더 빠른 응답을 위해 더 많은 momineen을 요청할 수 있습니다.",
+          "joinDate": "가입: {date}"
         },
         "posts": {
           "title": "게시물",
@@ -430,15 +430,15 @@
         "marhumeen": {
           "title": "마후민",
           "header": {
-            "marhumeenNotAdded": "{name} 아직 marhumeen을 추가하지 않았습니다 | 아직 marhumeen을 추가하지 않았습니다.",
-            "marhumeenAdded": "{name} 다음과 같이 추가했습니다. marhumeen | 당신은 다음과 같은 marhumeen을 추가했습니다."
+            "marhumeenNotAdded": "{name} 아직 marhumeen을 추가하지 않았습니다 | 아직 marhumeen을 추가하지 않았습니다",
+            "marhumeenAdded": "{name} 다음 marhumeen에 추가되었습니다 | 다음 marhumeen에 이름이 추가되었습니다"
           },
           "jsDeleteHeader": "확실한가요?",
-          "jsDeletePrompt": "<b>{fullName}</b> 에 대한 레코드를 삭제하면 {gender}에 대한 이전 요청도 모두 삭제됩니다! 계속하다?",
-          "jsDeleted": "{marhumeen}에 대한 삭제된 레코드"
+          "jsDeletePrompt": "<b>{fullName}</b> 에 대한 레코드를 삭제하면 {gender} 에 대한 이전 요청도 모두 삭제됩니다! 계속하다?",
+          "jsDeleted": "{marhumeen} 에 대한 삭제된 레코드"
         },
         "verifyCard": {
-          "title": "시아파 신원 확인 | 사다트 신원 확인",
+          "title": "Shia 신원 확인 | Sadat 신원 확인",
           "p1": "프로필에 시아파 무슬림임을 표시했습니다. 이 정보를 확인하면 더 많은 기능을 사용할 수 있고 시아파 무슬림의 검증된 커뮤니티를 구축하는 데 도움이 됩니다.",
           "p2": "귀하의 신원을 친절하게 확인하십시오. 오래 걸리지 않을 것입니다",
           "noReminder": "다시는 생각나게 하지마",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "이 링크는 유효하지 않거나 만료되었습니다. 친구에게 새로운 요청을 보내달라고 요청하십시오.",
           "confirm": {
             "heading": "계정 ID 확인",
-            "msg": "{genderLabel1} 계정 정보를 확인하는 {firstName} 도와주세요. 이렇게 하면 {genderLabel2} 앱의 더 많은 기능에 액세스할 수 있습니다",
+            "msg": "{firstName} {genderLabel1} 계정 정보를 확인하도록 도와주세요. 이렇게 하면 {genderLabel2} 앱의 더 많은 기능에 액세스할 수 있습니다.",
             "jsSkip": "문제 없어요. 마음이 바뀌면 이 링크를 다시 방문하여 나중에 확인할 수 있습니다."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "{langLabel}에서 앱을 사용하시겠습니까?",
+        "title": "{langLabel} 에서 앱을 사용하시겠습니까?",
         "desc": {
-          "p1": "{countryName}에서 앱에 액세스하는 것 같습니다. 콘텐츠와 컨트롤을 해당 지역에서 사용되는 다음 언어 중 하나로 보고 싶으신가요? 선택 항목을 클릭한 다음 '저장'을 클릭하여 계속하십시오.",
+          "p1": "{countryName} 에서 앱에 액세스하는 것 같습니다. 해당 지역에서 사용되는 다음 언어 중 하나로 콘텐츠 및 컨트롤을 보시겠습니까? 선택을 클릭한 다음 &#39;저장&#39;을 클릭하여 계속하십시오.",
           "p2": "또는 이 팝업을 닫아 기본 언어로 앱을 계속 사용합니다."
         },
         "choices": {
           "useLang": [
-            "예, {langName} 사용하십시오.",
+            "예, {langName} 사용합니다.",
             "{langName} 사용"
           ],
           "useEnglish": "영어로 계속하기",
           "selectFrom": "또는 다음 대체 언어 중 하나를 선택합니다."
         },
-        "langError": "{langName}에 대한 번역을 로드하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주세요."
+        "langError": "{langName} 에 대한 번역을 로드하는 동안 오류가 발생했습니다. 나중에 다시 시도 해주십시오."
       },
       "createPost": {
         "heading": "오늘은 무엇에 관한 것입니까?",
@@ -509,9 +509,9 @@
           "titles": {
             "post": "게시물 작성 | 게시물 업데이트",
             "livestream": "라이브 스트림",
-            "hadiyah": "Hadiyah 만들기 | Hadiyah 업데이트"
+            "hadiyah": "선물 만들기 | 선물 업데이트"
           },
-          "postCta": "게시물 | 업데이트",
+          "postCta": "게시 | 업데이트",
           "stream": {
             "scheduleCta": "나중을 위해 저장 | 스트리밍 시작"
           },
@@ -534,7 +534,7 @@
           "addLocation": "위치 추가",
           "addPics": "게시물에 사진 추가",
           "previewDes": "이것이 귀하의 게시물이 다른 사람들의 피드에 표시되는 방식입니다. 사람들은 비디오를 탭하여 전체 화면으로 볼 수 있습니다.",
-          "addToPost": "{postType}에 추가(선택 사항)",
+          "addToPost": "{postType} 에 추가(선택사항)",
           "jsImgUploadFail": "이미지가 업로드되지 않았습니다.",
           "jsAddDetailToPost": "게시물에 세부 정보를 추가하세요.",
           "jsValidEndDate": "유효한 종료일을 선택하세요.",
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "너",
-        "addressing": "당신의 | 그의 | 그녀",
+        "addressing": "너의 | 그의 | 그녀",
         "itemTypes": {
           "avatar": "아바타 이미지",
           "banner": "배너 이미지",
           "status": "프로필 상태"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> 업데이트 된 {addressing} {item}",
+          "common": "<strong>{username}</strong> 업데이트된 {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> {addressing} {relation} 위해 surah-fatiha를 요청했습니다.",
-            "<strong>{username}</strong> {addressing} {relation} 위해 Surah-Fatiha & Namaz-e-Wahshat를 요청했습니다."
+            "<strong>{username}</strong> {relation} {addressing} 위해 surah-fatiha를 요청했습니다.",
+            "{relation} {addressing} 위해 <strong>{username}</strong> 요청 surah-fatiha &amp; namaz-e-wahshat"
           ]
         },
         "dateUntil": "종료: {date} {time}",
         "privatePost": "이 게시물은 나만 볼 수 있습니다.",
-        "descZiyaratRequest": "당신은 *{date}*에 이맘 후세인(a.s.)의 *하람*에서 당신을 대신하여 지야랏을 수행하도록 요청했습니다."
+        "descZiyaratRequest": "귀하는 * {date} *에 Imam Husain의 *haram*에서 귀하를 대신하여 Ziyarat를 수행하도록 요청했습니다."
       },
       "addEditRel": {
         "title": {
@@ -624,7 +624,7 @@
         "addMsg": "메시지를 추가하고 싶으신가요?",
         "addMsg_ph": "예를 들어:\nInna lillahi wa inna ilaihe raje'un. 그의 창조주를 만나기 위해 우리 모두를 울게 만든 나의 삼촌 Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom을 위해 surah-e-fatiha와 2-rak'at namaz-e-wahshat를 암송하십시오.",
         "remainingChars": "문자: {count} | 문자: 남은 {count}",
-        "infoEditRelative": "<b>계정 > Marhumeen 섹션에서 {name}</b>에 대한 세부 정보를 편집할 수 있습니다",
+        "infoEditRelative": "<b>계정 &gt; Marhumeen</b> 섹션에서 {name} 세부 정보를 편집할 수 있습니다.",
         "saveRequestCta": [
           "저장 & 요청",
           "요청"
@@ -675,7 +675,7 @@
         "setLocation": "위치 설정",
         "ipAddress": "IP 주소",
         "alarmLocation": "경보 위치",
-        "basedOn": "{selector}에 따른 위치",
+        "basedOn": "{selector} 기반으로 한 위치",
         "jsDetecting": "감지, 잠시만 기다려 주십시오..",
         "jsPermDenied": "앱에 대한 위치 권한이 거부되었습니다. 휴대 전화의 설정 섹션을 방문하여이 응용 프로그램의 위치 기본 설정을 재설정하십시오.",
         "jsPosUnavailable": "죄송하지만 지금은 이 전화기의 위치를 사용할 수 없습니다. 나중에 다시 시도해 주세요.",
@@ -687,7 +687,7 @@
       },
       "readText": {
         "ctaLabel": "읽다",
-        "title": "2 : {title}",
+        "title": "2: {title}",
         "arabicCta": "아랍어",
         "englishCta": "영어",
         "translatedCta": "번역 언어"
@@ -724,17 +724,17 @@
           "viaSignal": "시그널을 통해 받기"
         },
         "page2": {
-          "header": "귀하의 번호로 6자리 확인 코드를 보냈습니다({number})",
+          "header": "귀하의 전화번호( {number} )로 6자리 확인 코드를 전송했습니다.",
           "enterCodeLabel": "코드 입력",
           "enterCode_ph": "6자리 코드 입력",
           "resendCode": "코드 재전송",
-          "notUsingMobile": "{number}사용하지 않습니까 <strong> ?</strong>",
+          "notUsingMobile": "<strong>{number} 사용하지 않습니까?</strong>",
           "changeNumber": "변경 번호"
         },
         "jsVerifySuccess": "모바일 인증이 성공적으로 완료되었습니다.",
         "jsVerifyError": "오류가 발생했습니다. 나중에 다시 시도해 주세요.",
         "jsSendOtpFailed": "OTP를 보내지 못했습니다. 나중에 다시 시도해 주세요.",
-        "jsSendOtpSuccess": "OTP가 {mobile}로 전송됨",
+        "jsSendOtpSuccess": "{mobile} 로 전송된 OTP",
         "jsTooManyRequests": "이미 너무 많이 시도한 것 같습니다. 잠시 기다렸다가 다시 시도하세요."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "외부와 공유할 때 메시지는 다음과 같을 수 있습니다.",
           "sharingTextDemo": [
             "Bazm 앱에서 이 Nauha 듣기",
-            "{name} Bazm 앱에서 이 Nauha를 들을 것을 권장합니다."
+            "{name} 이 Nauha를 Bazm 앱에서 듣는 것을 권장합니다."
           ],
           "addSignDesc": "서명도 추가하고 싶으신가요?",
-          "addSignPlaceholder": "예를 들어\n행운을 빕니다.\n{name}",
+          "addSignPlaceholder": "예를 들어, 행운을 빌며, {name}",
           "signDesc": "이 앱에서 친구들과 소원을 공유하면 서명이 메시지에 추가됩니다. 예를 들어 다음과 같이 표시될 수 있습니다."
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "암호에 잘못된 문자가 있습니다.",
         "jsPwdCharCount": "비밀번호는 8자 이상이어야 합니다.",
         "jsSelectLang": "먼저 언어를 선택하십시오.",
-        "jsLangSet": "언어가 {lang}로 설정되었습니다.",
+        "jsLangSet": "언어가 {lang} 으로 설정되었습니다.",
         "jsPrefSaved": "개인 설정이 저장되었습니다."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "비밀번호 재설정은 쉽습니다. 계속할 방법을 선택합니다.",
         "usePhoneCta": "전화 사용",
         "useEmailCta": "이메일 사용",
-        "sendEmailIntro": "계정을 만들 때 사용한 이메일 주소를 입력하면 계정에 새 비밀번호를 설정할 수 있는 링크가 포함된 이메일을 보내드립니다.",
+        "sendEmailIntro": "계정을 만든 이메일 주소를 입력하면 계정의 새 비밀번호를 설정할 수 있는 링크가 포함된 이메일을 보내드립니다. | 계정에 로그인하려면 이메일 주소를 추가해야 합니다. 이 이메일로 비밀번호 재설정 링크를 보내드릴 것이며 여기에서 휴대폰 번호와 연결된 계정의 비밀번호를 만들 수 있습니다.",
         "emailInputLabel": "등록된 이메일 주소",
         "sendEmailCta": "재설정 이메일 보내기",
-        "sentEmailText": "계정이 있는 경우 <strong>{email}</strong>곧 비밀번호 재설정 이메일을 받게 됩니다. 이메일에서 링크를 확인하십시오.",
-        "notUsingEmailText": "{email}사용하지 않습니까 <strong> ?</strong>",
+        "sentEmailText": "계정이 있는 경우 곧 <strong>{email}</strong> 로 비밀번호 재설정 이메일을 받게 됩니다. 링크에 대한 이메일을 확인하시기 바랍니다.",
+        "notUsingEmailText": "<strong>{email} 사용하지 않습니까?</strong>",
         "changeEmailCta": "이메일 변경",
         "phoneIntroText": "계정에 추가된 전화번호를 입력합니다. 소유권을 확인하기 위해 OTP를 보내드리며, 다음 단계에서 새 비밀번호를 만들 수 있습니다.",
         "phoneInputLabel": "휴대폰 번호",
         "sendOtpCta": "OTP 전송",
         "backToLoginCta": "로그인으로 돌아가기",
-        "disclaimerText": "{item} 등록한 경우에만 {item} 받을 수 있습니다",
+        "disclaimerText": "{item} 등록한 경우에만 {item} 받을 수 있습니다.",
         "jsMailSent": "메일 발송",
         "title2": "계정 신청하기",
+        "introText2": "비밀번호 재설정은 쉽습니다. 이메일을 입력하고 이메일에서 비밀번호 재설정 링크를 받으세요.",
         "claimIntroHeading": "계정을 빠르게 신청하세요!",
-        "claimIntroText": "함께 해주셔서 감사합니다. 이제 계정을 만들었습니다. 다음 방법 중 하나를 사용하여 암호를 재설정하여 계정에 액세스하십시오.",
-        "introText2": "비밀번호 재설정은 쉽습니다. 이메일을 입력하고 이메일에서 비밀번호 재설정 링크를 받으세요."
+        "claimIntroText": "함께해주셔서 감사합니다. 계정에 이메일을 추가하여 계정에 액세스하세요."
       },
       "resetPwd": {
         "title": "비밀번호 재설정",
-        "introText": "여기에서 계정에 대한 보안 비밀번호를 설정하세요. {icon} 클릭하여 올바른 암호를 입력했는지 확인합니다.",
+        "introText": "여기에서 계정에 대한 보안 암호를 설정하십시오. 올바른 암호를 입력했는지 확인하려면 {icon} 클릭하십시오.",
         "pwdInputLabel": "새 비밀번호 설정",
         "pwdInputPH": "새 비밀번호 입력",
         "invalidPwdChars": "암호에 잘못된 문자가 있습니다.",
@@ -812,11 +812,11 @@
       "moreBtn": {
         "jsItemDeleted": "{item} 성공적으로 삭제되었습니다.",
         "jsErrReporting": "현재로서는 보고할 수 없습니다. 나중에 다시 시도해 주세요.",
-        "jsAlreadyReported": "이미 이 {item}신고했습니다. 두 번 이상 신고할 수 없습니다.",
+        "jsAlreadyReported": "이 {item} 이미 신고했습니다. 한 번 이상 신고할 수 없습니다.",
         "jsPromptHeading": "항목을 신고하면 귀하 또는 다른 사람의 피드/페이지에 나타날 가능성이 낮아집니다. 그래도 신고하시겠습니까?",
-        "jsReporting": "보고 {itemType}..",
+        "jsReporting": "보고 {itemType} ..",
         "jsReportingErr": "현재 요청을 제출할 수 없습니다. 나중에 다시 시도해 주세요.",
-        "jsReported": "{item} 보고했다. 참여해주셔서 감사합니다."
+        "jsReported": "보고된 {item} 입니다. 귀하의 기여에 감사드립니다."
       },
       "editProfileModal": {
         "jsEmptyData": "업데이트 할 것이 없습니다!",
@@ -845,13 +845,13 @@
       },
       "mqmsSelector": {
         "title": "Muqammas 금액 선택",
-        "dateAdded": "추가: {date}",
+        "dateAdded": "추가 날짜: {date}",
         "cancelCta": "취소",
         "doneCta": "고르다"
       },
       "khumsPaymentRecord": {
         "title": "결제 기록 추가",
-        "paymentFor": "{khumsType}에 대한 지불",
+        "paymentFor": "{khumsType} 결제",
         "totalAmount": "총액: {amount}",
         "form": {
           "amountLabel": "분량",
@@ -1009,18 +1009,18 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "{name} 계정 확인",
-        "heading": "{firstName}에 대한 아래 정보에 답할 수 있습니까? 그렇지 않은 경우 이 요청을 거부합니다.",
+        "title": "{name} 에 대한 계정 확인",
+        "heading": "{firstName} 에 대한 아래 정보에 답변해 주시겠습니까? 그렇지 않다면 이 요청을 거부하십시오.",
         "desc": "두 번만 확인할 수 있습니다!",
-        "descP1": "이 양식을 제출하면 확인을 요청할 때 제공한 정보와 정보가 일치 {firstName} . 이 양식을 올바르게 작성하기 위해 두 번만 시도할 수 있으므로 주의하십시오. 그래도 실패하면 나중에 다시 확인할 수 {firstName} .",
-        "descP2": "{firstName}모르는 경우 이 요청을 거부합니다. 우리는 그들에게 알리고 다른 사람에게 연락하도록 요청할 것입니다.",
+        "descP1": "이 양식을 제출하면 확인을 요청할 때 제공된 {firstName} 과 정보를 일치시킵니다. 이 양식을 올바르게 작성하려면 두 번만 시도할 수 있으므로 주의하십시오. 여전히 실패하면 나중에 {firstName} 다시 확인할 수 없습니다.",
+        "descP2": "{firstName} 모르면 이 요청을 거부하십시오. 우리는 그들에게 알리고 다른 사람에게 연락하도록 요청할 것입니다.",
         "rejectRequestCta": "요청 거부",
         "form": {
-          "heading": "{firstName}에 대한 다음 질문에 답하고 제출을 클릭합니다.",
-          "q1": "{firstName}어떻게 아십니까?",
+          "heading": "{firstName} 에 대한 다음 질문에 답하고 제출을 클릭하십시오.",
+          "q1": "어떻게 {firstName} 알 수 있습니까?",
           "q2": "종교:",
           "q3": "종파:",
-          "q4": "{firstName} 사다트인가?",
+          "q4": "{firstName} 는) Sadat입니까?",
           "q5": "덧붙이고 싶은 말씀이 있으신가요?"
         }
       },
@@ -1073,13 +1073,13 @@
         "cta": "거절하다",
         "title": "요청 거부",
         "reasonLabel": "이 계정을 확인하지 않으시겠습니까?",
-        "reasonPh": "우리는 {userName} 알리고 확인을 위해 다른 사람에게 연락하도록 요청할 것입니다"
+        "reasonPh": "{userName} 알리고 확인을 위해 다른 사람에게 연락하도록 요청할 것입니다."
       },
       "haadiHome": {
         "title": "토론 시작 | Haadi와의 토론",
         "item": {
           "added": "추가된 {date}",
-          "tokensUsed": "사용 된 토큰 : {tokens}",
+          "tokensUsed": "사용 크레딧: {tokens}",
           "readContinue": "토론 읽기 또는 계속하기"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "질문하기",
         "empty": {
           "heading": "이 대화를 찾을 수 없습니다.",
-          "p1": "이 대화를 가져오는 동안 오류가 발생했습니다. URL을 확인하고 다시 시도하십시오.",
-          "p2": "이런 일이 계속되면 친절하게 저희에게 연락하십시오.",
-          "guest": "로그인하지 않았기 때문일 수 있습니다. 로그인을 시도하고 다시 확인하십시오."
+          "p1": "이 대화를 찾을 수 없습니다. URL을 확인하고 다시 시도하십시오.",
+          "guest": "로그인하지 않았기 때문일 수 있습니다. 로그인을 시도하고 다시 확인하십시오.",
+          "p2": "이런 일이 계속되면 친절하게 저희에게 연락하십시오."
         },
         "jsNewChatInfo": "이것이 Haadi와의 새로운 대화의 시작입니다. 질문에 답변하는 동안 Haadi에 대한 컨텍스트를 사용하도록 선택했습니다. 설정에서 언제든지이 옵션을 비활성화하거나 이것이 무엇을 의미하는지 확인할 수 있습니다."
       },
       "aboutHaadi": {
-        "title": "시아파 이슬람을 탐색하는 봇 친구 Haadi를 만나보세요!",
-        "desc": "자세한 내용을 보려면 각 요약을 클릭하거나{blogLink} target='_system'>our 블로그에서 <a href= Haadi 및 이용 약관에 대해 자세히 알아보세요.",
+        "title": "Shia 이슬람을 탐색하는 <strong>봇 친구인</strong> Haadi를 만나보세요!",
+        "desc": "Haadi를 사용하기 전에 이러한 요약을 검토하는 것이 좋습니다. Haadi 및 사용 약관에 대한 자세한 내용은 <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a> 확인할 수 있습니다.",
         "agreement": "이용약관을 이해하고 동의합니다."
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "비밀번호를 입력해 주세요!",
         "jsEnterValidPwd": [
           "암호에 잘못된 문자가 있습니다. 유효한 비밀번호를 입력해 주세요.",
-          "암호는 {num} 자 이상이어야 합니다."
+          "비밀번호는 {num} 자 이상이어야 합니다."
         ],
         "jsAccountSuccess": "계정이 성공적으로 생성되었습니다.",
         "jsFbError": "Facebook 계정 세부 정보를 얻을 수 없습니다. 다시 시도하십시오.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Bazm { 플랫폼 } 설치",
-          "desc": "더 나은 경험, 개인화된 콘텐츠, 알림 및 주변의 관심 있는 모든 것을 위해 Android 앱을 다운로드하세요! | 앱 바로 가기 (북마크)를 설치하여 다음 번에 더 나은 경험을 위해 홈 화면에서 직접 액세스하십시오! 기기의 공간을 거의 차지하지 않지만 앱을 빠르게 사용할 수 있도록 도와줍니다.",
+          "heading": "Bazm 바로가기 추가",
+          "desc": "더 나은 경험, 개인화 된 콘텐츠, 알림 및 주변의 관심있는 모든 것을 위해 Android 앱을 다운로드하십시오! | 앱 바로가기(북마크)를 설치하여 더 나은 경험을 위해 다음에 홈 화면에서 직접 액세스하세요! 기기의 공간을 거의 차지하지 않지만 앱을 빠르게 다시 사용할 수 있도록 도와줍니다.",
           "cta": {
             "action": "설치하다",
             "skip": "다음에 하죠"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Bazm 바로 가기를 설치 하시겠습니까?"
         },
-        "popover": {
-          "text": "<strong>아래의</strong> 공유 아이콘(오른쪽에 있는 모양)을 클릭한 다음 <strong>홈 화면에 추가를</strong> 클릭합니다. \"저장\"을 클릭하여 완료하면 홈 화면의 바로 가기에서 앱에 액세스할 수 있습니다!"
-        },
         "nonSafari": {
-          "heading": "Bazm은 Apple Safari에서 더 잘 작동합니다.",
+          "heading": "Bazm은 Safari에서 더 잘 작동합니다.",
           "desc": "이 브라우저는 기능이 제한되어 있지만 Safari 브라우저를 사용하면 푸시 알림 및 앱 바로 가기를 포함하여 앱이 더 잘 작동할 수 있습니다.",
-          "subtext": "휴대폰에서 <strong>Safari 앱을 열고</strong> 더 나은 경험을 위해 <strong>{url}</strong> 로 이동합니다.",
+          "subtext": "더 나은 경험을 위해 <strong>Safari 브라우저를 열고</strong> <strong>{url}</strong> 로 이동하십시오.",
           "skipCta": "대신 여기에서 계속하세요"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "장치에 쿠키 저장에 대해",
-        "p1": "당사는 귀하의 {device} 에 쿠키를 저장하지 않지만 당사 앱에 사용되는 타사 앱(예: Google Analytics)은 저장할 수 있습니다. 대신 영구 저장소를 사용하여 중요한 데이터를 저장하며 대부분의 경우 저장 및 전송 중에 암호화됩니다.",
+        "p1": "당사는 귀하의 {device} 에 쿠키를 저장하지 않지만 당사 앱에서 사용되는 타사 앱(예: Google Analytics)이 있을 수 있습니다. 대신 영구 저장소를 사용하여 중요한 데이터를 저장하고 대부분의 경우 저장소와 전송 중에 암호화됩니다.",
         "p2": "이 앱을 계속 사용함으로써 귀하는 당사의 선택에 문제가 없음을 확인합니다. 쿠키 및 데이터 사용에 대한 자세한 내용은 <a href='https://bazm.in/privacy-policy' target='_blank'>개인 정보 보호 정책을 참조하십시오.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - 전 세계 시아파 무슬림을 위한 소셜 네트워크 앱! 지금 앱을 다운로드하세요.",
+      "titleBranding": "__ Bazm - 전 세계 시아파 무슬림을 위한 소셜 네트워크 앱!",
       "home": {
         "title": "Bazm - 온라인 시아파 커뮤니티 앱!",
         "description": "Bazm 앱은 deen & mazhab의 모든 일상적인 요구를 충족시키는 Shia 커뮤니티 앱입니다. Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books 등을 찾으십시오. 모든 날짜와 행사에 대해. 집에서 편리하게 전 세계의 시아파 무슬림과 함께 이벤트와 majalis를 시청하고 생중계하십시오. 지금 가입하세요!"
       },
       "feed": {
-        "title": "맞춤형 콘텐츠를 찾고 전 세계의 시아파 커뮤니티와 공유하십시오.",
+        "title": "Bazm — 전 세계 시아파 무슬림의 맞춤형 콘텐츠를 찾아 공유하세요!",
         "description": "주변의 shia momineen과 함께 뉴스, 이벤트 및 콘텐츠를 찾아 공유하고 주최하는 모든 이벤트에 대한 정보를 제공하십시오. 앱에서 주변에서 일어나는 모든 일에 대해 알아보세요."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Bazm 앱에서 전 세계의 모든 인기 Soaz와 모든 인기 Soazkhwan을 들어보세요."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - 더 많은 nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 찾습니다. Bazm에서",
+        "title": "Bazm에 majalis/majlis를 {type} - nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 더 찾아보세요. 바즘에",
         "description": "가까운 곳과 전 세계에서 Maulana 및 Zakir-e-Ahlbayt의 오디오/비디오 마잘리를 찾으십시오. Bazm 앱에서 최신 majalis 및 라이브 스트림 세션을 듣고 시청하십시오. 오늘 앱을 다운로드하고 전 세계 수백만 명의 시아파 무슬림과 함께하세요!"
       },
       "duasPage": {
         "title": [
-          "Bazm에서 {month} 달의 Duas 및 aamaal - 더 많은 nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 찾으십시오. Bazm에서",
+          "Bazm에서 {month} 의 Duas 및 aamaal - 더 많은 nauhe, 오디오/비디오 majalis, dua, piyarat, aamaal 등을 찾으십시오. 바즘에",
           "Bazm에서 모든 달 동안 Duas 및 aamaal - 더 많은 nauhe, 오디오/비디오 majalis, dua, ziyarat, aamaal 등을 찾습니다. Bazm에서"
         ],
         "description": "Bazm, 날짜 및 이벤트에서 모든 달 동안 duas, aamaal, ziyarat 및 munajat를 찾으십시오. 오늘 앱을 다운로드하고 전 세계 수백만 명의 시아파 무슬림과 함께하세요!"
