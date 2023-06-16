@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Kuvan lataus epäonnistui. Yritä uudelleen myöhemmin.",
         "jsLoadingDelay": "Se kestää hieman odotettua kauemmin. Odota, kun käsittelemme tämän pyynnön."
       },
+      "sending": "Lähetetään...",
       "close": "kiinni",
       "yes": "Joo",
       "no": "Ei",
@@ -81,8 +82,7 @@
         "cancelCta": "Kysy minulta myöhemmin",
         "okCta": "Varma!",
         "jsPushUnsupported": "Työntöä ei tueta tässä laitteessa. Saatat jäädä paitsi ilmoituksista!"
-      },
-      "sending": "Lähetetään..."
+      }
     },
     "errors": {
       "service": {
@@ -418,9 +418,9 @@
           "privateInfoDesc": "Nämä tiedot näkyvät vain sinulle ja näet niiden perusteella sisältöä ja ominaisuuksia.",
           "idSetupCta": "Määritä henkilöllisyytesi",
           "idVerifyCta": "Vahvista",
-          "joinDate": "Liittynyt: {date}",
           "idVerifyAltText": "Vain vahvistettu Shia mominen voi vahvistaa muita. Vahvista tilisi, jotta voit vahvistaa <strong>{name}</strong> myöhemmin.",
-          "idVerifyAltText2": "Jos olet jo pyytänyt jotakuta, voit muistuttaa häntä uudelleen uudella linkillä tai pyytää mominenilta nopeampaa vastausta."
+          "idVerifyAltText2": "Jos olet jo pyytänyt jotakuta, voit muistuttaa häntä uudelleen uudella linkillä tai pyytää mominenilta nopeampaa vastausta.",
+          "joinDate": "Liittynyt: {date}"
         },
         "posts": {
           "title": "Viestit",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Tämä linkki on joko virheellinen tai se on vanhentunut. Pyydä ystävääsi lähettämään uusi pyyntö.",
           "confirm": {
             "heading": "Vahvista tilin henkilöllisyys",
-            "msg": "Auta {firstName} vahvistamaan {genderLabel1} tilitiedot. Tämä antaa {genderLabel2} mahdollisuuden käyttää muita sovelluksemme ominaisuuksia",
+            "msg": "Auta {firstName} vahvistamaan {genderLabel1} -tilitiedot. Tämä antaa {genderLabel2} mahdollisuuden käyttää muita sovelluksemme ominaisuuksia",
             "jsSkip": "Ei ongelmaa. Jos muutat mieltäsi, voit tarkistaa tämän linkin myöhemmin."
           }
         },
@@ -757,7 +757,7 @@
             "{name} suosittelee tämän Nauhan kuuntelua Bazm-sovelluksessa"
           ],
           "addSignDesc": "Haluatko lisätä myös allekirjoituksesi?",
-          "addSignPlaceholder": "Esimerkiksi Ystävällisin terveisin, {name}",
+          "addSignPlaceholder": "Esimerkiksi, terveisin, {name}",
           "signDesc": "Kun jaat toiveesi ystävien kanssa tässä sovelluksessa, allekirjoituksesi lisätään viesteihin. Se voi esimerkiksi näyttää seuraavalta:"
         },
         "changePwd": {
@@ -781,7 +781,7 @@
         "introText": "Salasanan nollaus on helppoa. Valitse menetelmä jatkaaksesi:",
         "usePhoneCta": "Käytä puhelinta",
         "useEmailCta": "Käytä sähköpostia",
-        "sendEmailIntro": "Anna sähköpostiosoite, jolla loit tilisi, niin lähetämme sähköpostin, jossa on linkki uuden salasanan määrittämiseksi tilillesi.",
+        "sendEmailIntro": "Anna sähköpostiosoite, jolla loit tilisi, niin lähetämme sähköpostin, jossa on linkki uuden salasanan määrittämiseksi tilillesi. | Sinun on lisättävä sähköpostiosoite kirjautuaksesi tilillesi. Lähetämme tähän sähköpostiin salasanan palautuslinkin, josta voit luoda salasanan matkapuhelinnumeroosi liitetylle tilillesi.",
         "emailInputLabel": "Rekisteröity sähköpostiosoitteesi",
         "sendEmailCta": "Lähetä nollaussähköposti",
         "sentEmailText": "Jos sinulla on tili meillä, saat <strong>{email}</strong> pian salasanan vaihtosähköpostin . Tarkista linkki sähköpostistasi.",
@@ -794,9 +794,9 @@
         "disclaimerText": "Huomaa, että saat {item} vain, jos olet rekisteröinyt {item} meille",
         "jsMailSent": "Posti lähetetty",
         "title2": "Lunasta tilisi",
+        "introText2": "Salasanan nollaus on helppoa. Kirjoita sähköpostiosoitteesi ja saat sähköpostiisi salasanan palautuslinkin.",
         "claimIntroHeading": "Lunasta tilisi nopeasti!",
-        "claimIntroText": "Kiitos, että liityit joukkoomme. Olemme nyt luoneet sinulle tilin. Pääset tilillesi vaihtamalla sen salasana jollakin seuraavista tavoista:",
-        "introText2": "Salasanan nollaus on helppoa. Kirjoita sähköpostiosoitteesi ja saat sähköpostiisi salasanan palautuslinkin."
+        "claimIntroText": "Kiitos, että liityit joukkoomme. Pääset tiliisi lisäämällä tiliisi sähköpostiosoite."
       },
       "resetPwd": {
         "title": "Nollaa salasana",
@@ -1079,7 +1079,7 @@
         "title": "Aloita keskustelu -- Keskustelusi Haadin kanssa",
         "item": {
           "added": "Lisätty {date}",
-          "tokensUsed": "Käytetyt merkit: {tokens}",
+          "tokensUsed": "Käytetyt krediitit: {tokens}",
           "readContinue": "Lue tai jatka keskustelua"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Kysy kysymys",
         "empty": {
           "heading": "Tätä keskustelua ei löytynyt",
-          "p1": "Tätä keskustelua haettaessa tapahtui virhe. Tarkista URL-osoite ja yritä uudelleen.",
-          "p2": "Jos tämä jatkuu, ota ystävällisesti yhteyttä.",
-          "guest": "Tämä voi johtua siitä, että et ole kirjautunut sisään. Yritä kirjautua sisään ja tarkista uudelleen."
+          "p1": "Emme löytäneet tätä keskustelua. Tarkista URL-osoite ja yritä uudelleen.",
+          "guest": "Tämä voi johtua siitä, että et ole kirjautunut sisään. Yritä kirjautua sisään ja tarkista uudelleen.",
+          "p2": "Jos tämä jatkuu, ota ystävällisesti yhteyttä."
         },
         "jsNewChatInfo": "Tästä alkaa uusi keskustelu Haadin kanssa. Olet valinnut ottaa kontekstin käyttöön Haadille vastatessasi kysymyksiisi. Voit aina poistaa tämän vaihtoehdon käytöstä asetuksista tai katsoa, mitä tämä tarkoittaa sinulle."
       },
       "aboutHaadi": {
-        "title": "Tapaa Haadi, bot-ystäväsi navigoidaksesi shia-islamissa!",
-        "desc": "Napsauta kutakin näistä yhteenvedoista lukeaksesi lisää tai lue lisää Haadista ja käyttöehdoista <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
+        "title": "Tapaa Haadi, <strong>Bot-ystäväsi</strong> navigoidaksesi shiia-islamissa!",
+        "desc": "Suosittelemme, että käyt läpi nämä yhteenvedot ennen Haadin käytön aloittamista. Löydät lisää Haadista ja käyttöehdoista <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Ymmärrän ja hyväksyn käyttöehdot"
       }
     },
@@ -1170,7 +1170,7 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Asenna Bazm { alusta }",
+          "heading": "Lisää Bazm-pikakuvake",
           "desc": "Lataa Android-sovelluksemme saadaksesi paremman käyttökokemuksen, personoidun sisällön, ilmoitukset ja kaiken sinua kiinnostavan ympäriltäsi! | Asenna sovelluksen pikakuvake (kirjanmerkki), jotta voit käyttää sitä suoraan aloitusnäytöltä seuraavan kerran paremman käyttökokemuksen saamiseksi! Se vie tuskin tilaa laitteeltasi, mutta auttaa sinua palaamaan sovellukseen nopeasti.",
           "cta": {
             "action": "Asentaa",
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Asennetaanko Bazm-pikakuvake?"
         },
-        "popover": {
-          "text": "Napsauta Jaa-kuvaketta (näyttää oikealta) <strong>ALLA</strong> ja napsauta sitten <strong>Lisää aloitusnäyttöön</strong> . Napsauta &quot;Tallenna&quot; lopettaaksesi, ja pääset sitten sovellukseen aloitusnäytön pikakuvakkeesta!"
-        },
         "nonSafari": {
-          "heading": "Bazm toimii paremmin Apple Safarissa",
+          "heading": "Bazm toimii paremmin Safarissa",
           "desc": "Tällä selaimella on rajoitettuja ominaisuuksia, kun taas Safari-selain mahdollistaa sovelluksemme paremman suorituskyvyn, mukaan lukien push-ilmoitukset ja sovelluksen pikakuvakkeet.",
-          "subtext": "<strong>Avaa Safari-sovellus</strong> puhelimessasi ja siirry <strong>{url}</strong> saadaksesi paremman käyttökokemuksen.",
+          "subtext": "<strong>Avaa Safari-selain</strong> ja siirry <strong>{url}</strong> saadaksesi paremman käyttökokemuksen.",
           "skipCta": "Jatka sen sijaan tästä"
         }
       },
@@ -1220,13 +1217,13 @@
       }
     },
     "meta": {
-      "titleBranding": "__ Bazm - Sosiaalinen verkkosovellus shiiamuslimeille ympäri maailmaa! Lataa sovellus tänään.",
+      "titleBranding": "__ Bazm - Sosiaalinen verkkosovellus shiiamuslimeille ympäri maailmaa!",
       "home": {
         "title": "Bazm - Online Shia-yhteisösovellus!",
         "description": "Bazm-sovellus on Shia-yhteisösovellus, joka täyttää kaikki päivittäiset deen &amp; mazhabin tarpeet. Löydä Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kirjat jne. kaikille päivämäärille ja tilaisuuksille. Katso ja suorita suoratoistotapahtumia ja majalisia shia-muslimien kanssa ympäri maailmaa kätevästi kotonasi. Liity tänään!"
       },
       "feed": {
-        "title": "Löydä räätälöityä sisältöä ja jaa se shiayhteisön kanssa ympärilläsi ja ympäri maailmaa",
+        "title": "Bazm — Etsi ja jaa räätälöityä sisältöä shiiamuslimeista ympäri maailmaa!",
         "description": "Etsi ja jaa uutisia, tapahtumia ja sisältöä shia momineenin kanssa ja pidä heidät ajan tasalla kaikista järjestämistäsi tapahtumista. Opi sovelluksessa kaikesta, mitä lähelläsi tapahtuu."
       },
       "mediaHome": {
