@@ -8,7 +8,7 @@
       "sendOtp": "Invio OTP..",
       "dismiss": "Licenziare",
       "invite": "Invitare",
-      "showMore": "Mostra di più | Scopri di più",
+      "showMore": "Mostra di più | Vedi di più",
       "play": "Giocare",
       "pause": "Pausa",
       "playing": "Giocare",
@@ -42,7 +42,7 @@
       "at": "a",
       "untilNextTime": "Non c'è problema. Alla prossima!",
       "plzWait": "Attendere prego..",
-      "saving": "Risparmio.. | Aggiornamento..",
+      "saving": "Salvataggio.. | Aggiornamento..",
       "search": "Ricerca",
       "late": "Tardi",
       "done": "Fatto",
@@ -58,8 +58,8 @@
         "uploading": "Caricamento..",
         "deleting": "Eliminazione..",
         "requesting": "Richiesta..",
-        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
-        "jsShareFileTypeError": "Siamo spiacenti, non puoi condividere {fileType} file qui",
+        "audienceHeader": "Momineen che {action} d | Momineen che {action} d questo",
+        "jsShareFileTypeError": "Spiacenti, non puoi condividere qui i file {fileType}",
         "jsUpdateAvailable": {
           "header": "Aggiornamento disponibile",
           "message": "Viene visualizzata la versione memorizzata nella cache dell'app. Fai clic su \"Aggiorna\" per aggiornare e caricare nuovi contenuti e funzionalità.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Caricamento dell'immagine non riuscito. Riprova più tardi.",
         "jsLoadingDelay": "Ci vuole un po' più del previsto. Si prega di attendere mentre elaboriamo questa richiesta."
       },
+      "sending": "Invio...",
       "close": "Chiudere",
       "yes": "Sì",
       "no": "No",
@@ -81,8 +82,7 @@
         "cancelCta": "Chiedimi più tardi",
         "okCta": "Certo!",
         "jsPushUnsupported": "Push non supportato su questo dispositivo. Potresti perdere le notifiche!"
-      },
-      "sending": "Invio..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Impossibile caricare il contenuto in questo momento. Riprova tra un po'.",
-        "itemDetailUnavailable": "Impossibile trovare i dettagli per questa {item}",
+        "itemDetailUnavailable": "Impossibile trovare i dettagli per questo {item}",
         "loadMoreError": "Impossibile caricare altri elementi. Riprova più tardi."
       },
       "url": {
@@ -152,8 +152,8 @@
           "wishCtaLabel": "DESIDERIO"
         },
         "books": {
-          "booksByAuthor": "Libri di {author}",
-          "booksInLang": "Libri a {lang}",
+          "booksByAuthor": "Libri per {author}",
+          "booksInLang": "Libri in {lang}",
           "filterBy": "Filtra per:",
           "matching": {
             "authors": "con gli autori corrispondenti",
@@ -195,12 +195,12 @@
           "midnightLabel": "Mezzanotte",
           "sehriEndTime": "Tempo per la fine di Sehri",
           "minToImsak": [
-            "{min} minuti prima di Imsak",
-            "{hour} 'ora prima di Imsak"
+            "{min} min prima di Imsak",
+            "{hour} prima di Imsak"
           ],
           "minToImsakDesc": [
-            "La sveglia suona {min} minuti prima della fine dell'ora di Sehri",
-            "La sveglia suona {hour} ora prima della fine dell'ora di Sehri"
+            "La sveglia suona {min} minuti prima della fine del tempo di Sehri",
+            "La sveglia suona {hour} prima della fine dell&#39;orario di Sehri"
           ],
           "notRamadan": "Sembra che non sia ancora il Ramadan. Si prega di tornare durante o poco prima del Ramadan per impostare gli allarmi per Sehri",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Blog: Calcola i khum in modo efficiente",
-              "p1": "<a href='{href}' target='_blank'>Segui il nostro blog</a> che evidenzia gli elementi chiave nel calcolo del khums ogni anno.",
+              "p1": "<a href='{href}' target='_blank'>Segui il nostro blog</a> che mette in evidenza gli elementi chiave nel calcolo dei khum ogni anno.",
               "p2": "Disclaimer: Il blog NON è una guida. <strong>Segui le sentenze del tuo Marjah per il calcolo di Khums</strong>. <span id='blog-info-link' color='primary'>Clicca qui</span> per maggiori informazioni.",
               "blogInfo": "Il blog di cui sopra si basa su articoli di al-islam.org, sistani.org e sulle nostre discussioni con alcuni altri studiosi. Dovresti sempre seguire le regole del tuo Marjah per il calcolo di Khums.",
               "dismissCta": "Non interessato"
@@ -283,7 +283,7 @@
             "mqmsInfo": "Muqammas per il prossimo calcolo",
             "calcHeader": "Sulla base del calcolo seguente:",
             "savingsHeader": "Risparmi",
-            "conversionInfo": "Convertito in {amount} in base al tasso di cambio del {xchgRate} del {xchgRateDate}",
+            "conversionInfo": "Convertito in {amount} in base al tasso di cambio di {xchgRate} su {xchgRateDate}",
             "expensesHeader": "Spese",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Muqammas precedenti",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Compila il modulo sottostante per calcolare il tuo khums. I campi facoltativi sono indicati. Fai clic sull'icona delle informazioni qui sotto per saperne di più sulla sezione.",
-            "blog": "Relazionato: Leggi il nostro blog su <a href='{href}' target='_blank'>Come calcolare il khums in modo efficiente<a></a>",
+            "blog": "Correlati: Leggi il nostro blog su <a href='{href}' target='_blank'>Come calcolare i khum in modo efficiente</a>",
             "dateRange": "Seleziona l'intervallo di date:",
             "dateRangeInfo": "In genere, le persone calcolano il khums per un anno finanziario (ad esempio, da aprile a marzo) o un anno solare (da gennaio a dicembre)",
             "startDate": "Data di inizio:",
@@ -337,7 +337,7 @@
               "header": "<strong>Utilizzo dei tassi di cambio</strong>",
               "subtext": "Questi tassi di cambio saranno utilizzati per il calcolo. È possibile modificarli per utilizzare valori personalizzati.",
               "info": "Quando si tratta di dati storici, ad esempio quando si aggiungono calcoli per khums di oltre un anno fa, quando i tassi di cambio non erano gli stessi di oggi, è possibile impostare valori personalizzati per i tassi di cambio.",
-              "rateValuePH": "In {currency}, e.g., 1 {mainCurrency} = 80.21 {currency}"
+              "rateValuePH": "In {currency} , ad esempio, 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "Calcolare",
             "pageError": {
@@ -366,7 +366,7 @@
         }
       },
       "user": {
-        "name": "Utente | Account",
+        "name": "Account utente",
         "editProfile": "Modifica profilo",
         "publishToFeed": "Pubblicare le mie modifiche nel feed",
         "shareUpdateToFeed": "Condividi anche questo aggiornamento nel mio feed",
@@ -409,18 +409,18 @@
           "title": "Circa",
           "jsStatusUpdateFail": "Impossibile aggiornare lo stato. Riprova più tardi.",
           "statusTextInfo": "Aggiungi qualcosa di breve su di te, ad esempio, chi sei o cosa fai!",
-          "statusCta": "Aggiungi stato | Stato aggiornamento",
+          "statusCta": "Aggiungi stato | Aggiorna stato",
           "addCity": "Aggiungi città",
-          "gender": "Maschio | Femmina",
+          "gender": "Maschio femmina",
           "addGender": "Aggiungi sesso",
           "addBday": "Aggiungi compleanno",
           "addRelation": "Aggiungi relazione",
           "privateInfoDesc": "Queste informazioni sono visibili solo a te e vedi contenuti e funzionalità basati su questo.",
           "idSetupCta": "Imposta la tua identità",
           "idVerifyCta": "Verificare",
-          "joinDate": "Iscritto dal: {date}",
           "idVerifyAltText": "Solo i momineen sciiti verificati possono verificare gli altri. Si prega di verificare il proprio account, in modo da poter verificare <strong>{name}</strong> in seguito.",
-          "idVerifyAltText2": "Se hai già richiesto qualcuno, puoi ricordarglielo di nuovo con un nuovo link o chiedere a più momineen per una risposta più rapida."
+          "idVerifyAltText2": "Se hai già richiesto qualcuno, puoi ricordarglielo di nuovo con un nuovo link o chiedere a più momineen per una risposta più rapida.",
+          "joinDate": "Iscritto: {date}"
         },
         "posts": {
           "title": "Messaggi",
@@ -431,11 +431,11 @@
           "title": "Marhumeen",
           "header": {
             "marhumeenNotAdded": "{name} non ha ancora aggiunto marhumeen | Non hai ancora aggiunto marhumeen",
-            "marhumeenAdded": "{name} ha aggiunto seguente marhumeen | Hai aggiunto seguente marhumeen"
+            "marhumeenAdded": "{name} ha aggiunto dopo marhumeen | Hai aggiunto dopo marhumeen"
           },
           "jsDeleteHeader": "Sei sicuro?",
-          "jsDeletePrompt": "L'eliminazione dei record per <b>{fullName}</b> cancellerà anche tutte le precedenti richieste fatte per {gender}! Continuare?",
-          "jsDeleted": "Record eliminati per {marhumeen}"
+          "jsDeletePrompt": "L&#39;eliminazione dei record per <b>{fullName}</b> eliminerà anche tutte le precedenti richieste fatte per {gender} ! Continua?",
+          "jsDeleted": "Record cancellati per {marhumeen}"
         },
         "verifyCard": {
           "title": "Verifica la tua identità sciita | Verifica la tua identità Sadat",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Questo collegamento non è valido o è scaduto. Chiedi al tuo amico di inviare una nuova richiesta.",
           "confirm": {
             "heading": "Verifica dell'identità dell'account",
-            "msg": "Aiuta {firstName} a verificare le informazioni {genderLabel1} account. Ciò consentirà ai {genderLabel2} di accedere a più funzionalità sulla nostra app",
+            "msg": "Aiuta {firstName} a verificare le informazioni sull&#39;account {genderLabel1} . Ciò consentirà {genderLabel2} di accedere a più funzioni sulla nostra app",
             "jsSkip": "Non c'è problema. Se cambi idea, puoi rivedere questo link per verificarlo in seguito."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Utilizzare l'app in {langLabel}?",
+        "title": "Usa l&#39;app in {langLabel} ?",
         "desc": {
-          "p1": "Sembra che tu stia accedendo all'app da {countryName}. Desideri vedere contenuti e controlli in una delle seguenti lingue parlate nella regione? Fai clic sulla tua scelta e quindi fai clic su \"Salva\" per continuare.",
+          "p1": "Sembra che tu stia accedendo all&#39;app da {countryName} . Vuoi vedere contenuti e controlli in una delle seguenti lingue parlate nella regione? Fare clic sulla scelta e quindi fare clic su &quot;Salva&quot; per continuare.",
           "p2": "In alternativa, chiudi questo popup per continuare a utilizzare l'app nella lingua predefinita."
         },
         "choices": {
           "useLang": [
-            "Sì, utilizzare {langName}",
+            "Sì, usa {langName}",
             "Usa {langName}"
           ],
           "useEnglish": "Continua in inglese",
           "selectFrom": "In alternativa, selezionare una delle seguenti lingue alternative:"
         },
-        "langError": "Si è verificato un errore durante il caricamento delle traduzioni per {langName}. Riprova più tardi."
+        "langError": "Si è verificato un errore durante il caricamento delle traduzioni per {langName} . Per favore riprova più tardi."
       },
       "createPost": {
         "heading": "Di cosa si tratta oggi?",
@@ -509,11 +509,11 @@
           "titles": {
             "post": "Crea post | Aggiorna post",
             "livestream": "Diretta streaming",
-            "hadiyah": "Crea Hadiyah | Aggiorna Hadiyah"
+            "hadiyah": "Crea regalo | Aggiorna regalo"
           },
           "postCta": "Post | Aggiornamento",
           "stream": {
-            "scheduleCta": "Salva per dopo | Inizia lo streaming"
+            "scheduleCta": "Salva per dopo | Avvia lo streaming"
           },
           "hadiya": {
             "dedication": {
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "Tu",
-        "addressing": "il tuo | il suo | lei",
+        "addressing": "la tua... la sua... lei",
         "itemTypes": {
           "avatar": "immagine avatar",
           "banner": "immagine banner",
           "status": "Stato del profilo"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> aggiornato {addressing} {item}",
+          "common": "<strong>{username}</strong> {item} {addressing} aggiornato",
           "fatiha": [
             "<strong>{username}</strong> richiesto surah-fatiha per {addressing} {relation}",
-            "<strong>{username}</strong> richiesto surah-fatiha e namaz-e-wahshat per {addressing} {relation}"
+            "<strong>{username}</strong> richiesto surah-fatiha e namaz-e-wahshat per {relation} {addressing}"
           ]
         },
-        "dateUntil": "Fino a: {date} at {time}",
+        "dateUntil": "Fino a: {date} {time}",
         "privatePost": "Questo post è visibile solo a te",
-        "descZiyaratRequest": "Hai richiesto che Ziyarat fosse eseguito per tuo conto a *haram* dell'Imam Husayn (as) il *{date}*"
+        "descZiyaratRequest": "Hai richiesto che lo Ziyarat fosse eseguito per tuo conto all&#39;*haram* dell&#39;Imam Husain (as) il * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "Morto:",
         "addMsg": "Vuoi aggiungere un messaggio?",
         "addMsg_ph": "Per esempio:\nInna lillahi wa inna ilaihe raje'un. Vi prego di recitare una surah-e-fatiha e 2-rak'at namaz-e-wahshat per mio zio, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, che ci ha lasciato tutti a piangere per incontrare il suo creatore.",
-        "remainingChars": "Caratteri: {count} | Caratteri: {count} rimanenti",
-        "infoEditRelative": "Puoi modificare i dettagli per {name} nella sezione <b>Account > Marhumeen</b>",
+        "remainingChars": "Caratteri: {count} | Caratteri: {count} rimanente",
+        "infoEditRelative": "Puoi modificare i dettagli del {name} nella sezione <b>Account &gt; Marhumeen</b>",
         "saveRequestCta": [
           "Salva e richiedi",
           "Richiesta"
@@ -724,17 +724,17 @@
           "viaSignal": "Ottieni tramite segnale"
         },
         "page2": {
-          "header": "Abbiamo inviato un codice di conferma a 6 cifre al tuo numero ({number})",
+          "header": "Abbiamo inviato un codice di conferma di 6 cifre al tuo numero ( {number} )",
           "enterCodeLabel": "Inserisci il codice",
           "enterCode_ph": "Inserisci il codice a 6 cifre",
           "resendCode": "Invia di nuovo il codice",
-          "notUsingMobile": "Non usi <strong>{number}?</strong>",
+          "notUsingMobile": "Non usi <strong>{number} ?</strong>",
           "changeNumber": "Cambia numero"
         },
         "jsVerifySuccess": "Cellulare verificato con successo",
         "jsVerifyError": "Si è verificato un errore. Riprova più tardi.",
         "jsSendOtpFailed": "Impossibile inviare OTP. Riprova più tardi.",
-        "jsSendOtpSuccess": "OTP inviato a {mobile}",
+        "jsSendOtpSuccess": "OTP inviato al {mobile}",
         "jsTooManyRequests": "Sembra che tu abbia già provato troppe volte. Attendi un minuto o due e riprova."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "Quando condividi esternamente, i tuoi messaggi potrebbero essere simili ai seguenti:",
           "sharingTextDemo": [
             "Ascolta questo Nauha su Bazm App",
-            "{name} consiglia di ascoltare questo Nauha su Bazm App"
+            "{name} consiglia di ascoltare questo Nauha sull&#39;app Bazm"
           ],
           "addSignDesc": "Vuoi aggiungere anche la tua firma?",
-          "addSignPlaceholder": "Per esempio\nCon i migliori auguri,\n{name}",
+          "addSignPlaceholder": "Ad esempio, Con i migliori auguri, {name}",
           "signDesc": "Quando condividi il tuo desiderio con gli amici su questa app, la tua firma verrà aggiunta ai messaggi. Ad esempio, potrebbe apparire come di seguito:"
         },
         "changePwd": {
@@ -781,26 +781,26 @@
         "introText": "Reimpostare la password è facile. Selezionare un metodo per continuare:",
         "usePhoneCta": "Usa il telefono",
         "useEmailCta": "Usa e-mail",
-        "sendEmailIntro": "Inserisci l'indirizzo email con cui hai creato il tuo account e ti invieremo un'email con il link per impostare una nuova password per il tuo account.",
+        "sendEmailIntro": "Inserisci l&#39;indirizzo e-mail con cui hai creato il tuo account e ti invieremo un&#39;e-mail con il link per impostare una nuova password per il tuo account. | Devi aggiungere un indirizzo email per accedere al tuo account. Invieremo un link per reimpostare la password a questa email e da lì potrai creare una password per il tuo account associato al tuo numero di cellulare.",
         "emailInputLabel": "La tua email registrata",
         "sendEmailCta": "Invia email di ripristino",
-        "sentEmailText": "Se hai un account con noi, riceverai un'e-mail di reimpostazione della password a breve su <strong>{email}</strong>. Si prega di controllare la tua email per il link.",
-        "notUsingEmailText": "Non usi <strong>{email}?</strong>",
+        "sentEmailText": "Se hai un account con noi, riceverai a breve un&#39;e-mail di reimpostazione della password su <strong>{email}</strong> . Controlla la tua email per il link.",
+        "notUsingEmailText": "Non usi <strong>{email} ?</strong>",
         "changeEmailCta": "Cambia email",
         "phoneIntroText": "Inserisci il numero di telefono aggiunto al tuo account. Invieremo una OTP per verificare la tua proprietà e, nel passaggio successivo, potrai creare una nuova password.",
         "phoneInputLabel": "Il tuo numero di cellulare",
         "sendOtpCta": "Invia OTP",
         "backToLoginCta": "Torna al Login",
-        "disclaimerText": "Si prega di notare che riceverai un {item} solo se hai il {item} registrato con noi",
+        "disclaimerText": "Tieni presente che riceverai un {item} solo se {item} hai registrato presso di noi",
         "jsMailSent": "Mail inviata",
         "title2": "Richiedi il tuo account",
+        "introText2": "Reimpostare la password è facile. Inserisci la tua e-mail e ricevi il link per reimpostare la password sulla tua e-mail.",
         "claimIntroHeading": "Richiedi rapidamente il tuo account!",
-        "claimIntroText": "Grazie per esserti unito a noi. Abbiamo creato un account per te ora. Ottieni l'accesso al tuo account reimpostando la password utilizzando uno dei seguenti metodi:",
-        "introText2": "Reimpostare la password è facile. Inserisci la tua e-mail e ricevi il link per reimpostare la password sulla tua e-mail."
+        "claimIntroText": "Grazie per esserti unito a noi. Ottieni l&#39;accesso al tuo account aggiungendo un&#39;e-mail al tuo account."
       },
       "resetPwd": {
         "title": "Reimposta password",
-        "introText": "Imposta una password sicura per il tuo account qui. Fai clic su {icon} per assicurarti di inserire la password corretta.",
+        "introText": "Imposta qui una password sicura per il tuo account. Fare clic {icon} per assicurarsi di inserire la password corretta.",
         "pwdInputLabel": "Imposta nuova password",
         "pwdInputPH": "Inserisci una nuova password",
         "invalidPwdChars": "Caratteri non validi nella password",
@@ -810,11 +810,11 @@
         "jsTrackLoadFailed": "Impossibile caricare la traccia. Riprova più tardi."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} eliminato correttamente.",
+        "jsItemDeleted": "{item} eliminato con successo.",
         "jsErrReporting": "Non posso segnalarlo al momento. Riprova più tardi.",
-        "jsAlreadyReported": "Hai già segnalato questo {item}. Non è possibile segnalarlo più di una volta.",
+        "jsAlreadyReported": "Hai già segnalato questo {item} . Non puoi segnalarlo più di una volta.",
         "jsPromptHeading": "La segnalazione di un articolo comporta minori possibilità di apparire nel tuo feed o nelle pagine di altri. Vuoi comunque segnalarlo?",
-        "jsReporting": "Segnalazione {itemType}..",
+        "jsReporting": "{itemType} segnalatoTipo ..",
         "jsReportingErr": "Impossibile inviare la richiesta in questo momento. Riprova più tardi.",
         "jsReported": "{item} segnalato. Grazie per il tuo contributo."
       },
@@ -845,7 +845,7 @@
       },
       "mqmsSelector": {
         "title": "Seleziona l'importo Muqammas",
-        "dateAdded": "Aggiunta il: {date}",
+        "dateAdded": "Aggiunto il: {date}",
         "cancelCta": "Annulla",
         "doneCta": "Selezionare"
       },
@@ -1009,18 +1009,18 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Verifica dell'account per {name}",
-        "heading": "Puoi rispondere qui sotto informazioni su {firstName}? In caso contrario, rifiutare questa richiesta.",
+        "title": "Verifica account per {name}",
+        "heading": "Puoi rispondere di seguito alle informazioni su {firstName} ? In caso contrario, rifiuta questa richiesta.",
         "desc": "Hai solo due tentativi di verifica!",
-        "descP1": "Quando invii questo modulo, abbineremo le informazioni con quelle fornite {firstName} al momento della richiesta di verifica. Si prega di prestare attenzione perché hai solo due tentativi per compilare correttamente questo modulo. Se continui a fallire, non sarai più in grado di verificare {firstName} in futuro.",
-        "descP2": "Se non conosci {firstName}, rifiuta questa richiesta. Glielo faremo sapere e chiederemo loro di contattare qualcun altro.",
+        "descP1": "Quando invii questo modulo, abbineremo le informazioni a quelle fornite {firstName} durante la richiesta di verifica. Si prega di prestare attenzione perché hai solo due tentativi per compilare correttamente questo modulo. Se continui a fallire, non sarai più in grado di verificare {firstName} in futuro.",
+        "descP2": "Se non conosci {firstName} , rifiuta questa richiesta. Glielo faremo sapere e chiederemo loro di raggiungere qualcun altro.",
         "rejectRequestCta": "Rifiuta richiesta",
         "form": {
           "heading": "Rispondi alle seguenti domande su {firstName} e fai clic su Invia:",
-          "q1": "Come fai a sapere {firstName}?",
+          "q1": "Come fai a sapere {firstName} ?",
           "q2": "Religione:",
           "q3": "Setta:",
-          "q4": "È {firstName} Sadat?",
+          "q4": "{firstName} è Sadat?",
           "q5": "C'è qualcos'altro che vorresti aggiungere?"
         }
       },
@@ -1073,13 +1073,13 @@
         "cta": "Rigettare",
         "title": "Rifiuta richiesta",
         "reasonLabel": "Perché non vuoi verificare questo account?",
-        "reasonPh": "Faremo sapere a {userName} e chiederemo loro di contattare qualcun altro per la verifica"
+        "reasonPh": "Informeremo {userName} e chiederemo loro di contattare qualcun altro per la verifica"
       },
       "haadiHome": {
-        "title": "Inizia la discussione | Le tue discussioni con Haadi",
+        "title": "Avvia discussione | Le tue discussioni con Haadi",
         "item": {
-          "added": "Aggiunto {date}",
-          "tokensUsed": "Gettoni utilizzati: {tokens}",
+          "added": "{date} aggiunta",
+          "tokensUsed": "Crediti utilizzati: {tokens}",
           "readContinue": "Leggi o continua la discussione"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Fai una domanda",
         "empty": {
           "heading": "Impossibile trovare questa conversazione",
-          "p1": "Si è verificato un errore durante il tentativo di ottenere questa conversazione. Controlla l'URL e riprova.",
-          "p2": "Se ciò continua ad accadere, vi preghiamo di contattarci.",
-          "guest": "Ciò potrebbe essere dovuto al fatto che non sei loggato. Prova ad accedere e controlla di nuovo."
+          "p1": "Non siamo riusciti a trovare questa conversazione. Controlla l&#39;URL e riprova.",
+          "guest": "Ciò potrebbe essere dovuto al fatto che non sei loggato. Prova ad accedere e controlla di nuovo.",
+          "p2": "Se ciò continua ad accadere, vi preghiamo di contattarci."
         },
         "jsNewChatInfo": "Questo è l'inizio di una nuova conversazione con Haadi. Hai scelto di abilitare il contesto per Haadi mentre rispondi alle tue domande. Puoi sempre disabilitare questa opzione nelle impostazioni o vedere cosa significa per te."
       },
       "aboutHaadi": {
-        "title": "Incontra Haadi, il tuo amico bot per navigare nell'Islam sciita!",
-        "desc": "Fai clic su ciascuno di questi riassunti per saperne di più o scopri di più su Haadi e sui termini di utilizzo nel <a href={blogLink} target='_system'>il nostro blog",
+        "title": "Incontra Haadi, il tuo <strong>amico Bot</strong> per navigare nell&#39;Islam sciita!",
+        "desc": "Ti consigliamo di consultare questi riepiloghi prima di iniziare a utilizzare Haadi. Puoi trovare ulteriori informazioni su Haadi e sui termini di utilizzo nel <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Comprendo e accetto le Condizioni d'uso"
       }
     },
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Installare Bazm { piattaforma }",
-          "desc": "Scarica la nostra app Android per un'esperienza migliore, contenuti personalizzati, notifiche e tutto ciò che ti interessa! | Installa il collegamento all'app (segnalibro) per accedervi direttamente dalla schermata iniziale la prossima volta per un'esperienza migliore! Occupa a malapena spazio sul tuo dispositivo, ma ti aiuta a tornare rapidamente sull'app.",
+          "heading": "Aggiungi scorciatoia Bazm",
+          "desc": "Scarica la nostra app per Android per una migliore esperienza, contenuti personalizzati, notifiche e tutto ciò che ti interessa intorno a te! | Installa il collegamento dell&#39;app (segnalibro) per accedervi direttamente dalla schermata iniziale la prossima volta per un&#39;esperienza migliore! Occupa pochissimo spazio sul tuo dispositivo, ma ti aiuta a tornare rapidamente all&#39;app.",
           "cta": {
             "action": "Installare",
             "skip": "Forse più tardi"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Installare la scorciatoia Bazm?"
         },
-        "popover": {
-          "text": "Fare clic sull'icona Condividi (simile a quella a destra) <strong>SOTTO</strong> e quindi fare clic su <strong>Aggiungi alla schermata Home</strong>. Fai clic su \"Salva\" per terminare, quindi puoi accedere all'app dal collegamento sulla schermata iniziale!"
-        },
         "nonSafari": {
-          "heading": "Bazm funziona meglio su Apple Safari",
+          "heading": "Bazm funziona meglio su Safari",
           "desc": "Questo browser ha funzionalità limitate, mentre il browser Safari consente alla nostra app di funzionare meglio, comprese le notifiche push e le scorciatoie delle app.",
-          "subtext": "<strong>Apri l'app Safari</strong> sul tuo telefono e vai a <strong>{url}</strong> per un'esperienza migliore.",
+          "subtext": "<strong>Apri il browser Safari</strong> e vai <strong>{url}</strong> per un&#39;esperienza migliore.",
           "skipCta": "Continua qui invece"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Informazioni sul salvataggio dei cookie sul dispositivo",
-        "p1": "Non memorizziamo alcun cookie sul tuo {device} ma potrebbero essere app di terze parti utilizzate nella nostra app (come Google Analytics). Utilizziamo invece l'archiviazione permanente per archiviare tutti i dati importanti e, nella maggior parte dei casi, questi vengono crittografati in archiviazione e durante il trasferimento.",
+        "p1": "Non memorizziamo alcun cookie sul tuo {device} , ma le app di terze parti utilizzate nella nostra app potrebbero (come Google Analytics). Utilizziamo invece l&#39;archiviazione permanente per archiviare tutti i dati importanti e, nella maggior parte dei casi, questi vengono crittografati durante l&#39;archiviazione e durante il trasferimento.",
         "p2": "Continuando a utilizzare questa app, confermi di non avere problemi con le nostre scelte. Per saperne di più sui nostri cookie e sull'utilizzo dei dati, consulta la nostra <a href='https://bazm.in/privacy-policy' target='_blank'>Informativa sulla privacy.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - App di social network per musulmani sciiti di tutto il mondo! Scarica l'app oggi stesso.",
+      "titleBranding": "__ Bazm - App di social network per i musulmani sciiti di tutto il mondo!",
       "home": {
         "title": "Bazm - App della comunità sciita online!",
         "description": "L'app Bazm è l'app della comunità sciita che soddisfa tutte le tue esigenze quotidiane di deen e mazhab. Trova Nauhe, Majalis, Dua, Aamaal, Ziyarat, libri, ecc. per tutte le date e occasioni. Guarda e fai eventi in diretta streaming e majalis con i musulmani sciiti di tutto il mondo comodamente da casa tua. Iscriviti oggi!"
       },
       "feed": {
-        "title": "Trova contenuti personalizzati e condividili con la comunità sciita intorno a te e al mondo",
+        "title": "Bazm — Trova e condividi contenuti su misura dai musulmani sciiti di tutto il mondo!",
         "description": "Trova e condividi notizie, eventi e contenuti con i candidati sciiti in giro e tienili informati su eventuali eventi che stai ospitando. Scopri tutto ciò che accade vicino a te sull'app."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Ascolta Soaz di tutti gli anni e tutti i popolari Soazkhwan di tutto il mondo sull'app Bazm. Scarica oggi."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Trova più nauhe, audio / video majalis, dua, ziyarat, aamaal, ecc. su Bazm",
+        "title": "{type} majalis/majlis su Bazm - Trova più nauhe, audio/video majalis, dua, ziyarat, aamaal, ecc. su Bazm",
         "description": "Trova majalis audio / video da Maulana e Zakir-e-Ahlbayt vicino a te e in tutto il mondo. Ascolta e guarda le ultime sessioni di majalis e livestream sull'app Bazm. Scarica l'app oggi e unisciti a milioni di musulmani sciiti in tutto il mondo!"
       },
       "duasPage": {
         "title": [
-          "Duas e aamaal per il mese di {month} su Bazm - Trova più nauhe, audio / video majalis, dua, ziyarat, aamaal, ecc. su Bazm",
+          "Duas e aamaal per il mese del {month} su Bazm - Trova più nauhe, audio/video majalis, dua, piyarat, aamaal, ecc. su Bazm",
           "Duas e aamaal per tutti i mesi su Bazm - Trova più nauhe, audio / video majalis, dua, ziyarat, aamaal, ecc. su Bazm"
         ],
         "description": "Trova duas, aamaal, ziyarat e munajat per tutti i mesi su Bazm, data ed evento saggio. Scarica l'app oggi e unisciti a milioni di musulmani sciiti in tutto il mondo!"
