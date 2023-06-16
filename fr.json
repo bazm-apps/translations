@@ -81,7 +81,8 @@
         "cancelCta": "Demandez-moi plus tard",
         "okCta": "Sûr!",
         "jsPushUnsupported": "Push non pris en charge sur cet appareil. Vous risquez de manquer des notifications!"
-      }
+      },
+      "sending": "Envoi en cours..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Ces informations ne sont visibles que par vous et vous voyez le contenu et les fonctionnalités basés sur cela.",
           "idSetupCta": "Configurer votre identité",
           "idVerifyCta": "Vérifier",
-          "joinDate": "Membre depuis : {date}"
+          "joinDate": "Membre depuis : {date}",
+          "idVerifyAltText": "Seules les mamans chiites vérifiées peuvent vérifier les autres. Veuillez faire vérifier votre compte afin de pouvoir vérifier <strong>{name}</strong> par la suite.",
+          "idVerifyAltText2": "Si vous avez déjà demandé à quelqu&#39;un, vous pouvez lui rappeler à nouveau avec un nouveau lien, ou demander plus de momineen pour une réponse plus rapide."
         },
         "posts": {
           "title": "Messages",
@@ -792,7 +795,8 @@
         "jsMailSent": "Courrier envoyé",
         "title2": "Réclamez votre compte",
         "claimIntroHeading": "Réclamez votre compte rapidement !",
-        "claimIntroText": "Merci de vous joindre à nous. Nous avons créé un compte pour vous maintenant. Accédez à votre compte en réinitialisant son mot de passe à l’aide de l’une des méthodes suivantes :"
+        "claimIntroText": "Merci de vous joindre à nous. Nous avons créé un compte pour vous maintenant. Accédez à votre compte en réinitialisant son mot de passe à l’aide de l’une des méthodes suivantes :",
+        "introText2": "Réinitialiser votre mot de passe est facile. Entrez votre e-mail et obtenez le lien de réinitialisation du mot de passe sur votre e-mail."
       },
       "resetPwd": {
         "title": "Réinitialiser le mot de passe",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Impossible de trouver cette conversation",
           "p1": "Une erreur s’est produite lors de la tentative d’obtention de cette conversation. Vérifiez l’URL et réessayez.",
-          "p2": "Si cela continue, veuillez nous contacter."
+          "p2": "Si cela continue, veuillez nous contacter.",
+          "guest": "Cela peut être dû au fait que vous n&#39;êtes pas connecté. Veuillez essayer de vous connecter et de vérifier à nouveau."
         },
         "jsNewChatInfo": "C’est le début d’une nouvelle conversation avec Haadi. Vous avez choisi d’activer le contexte pour Haadi tout en répondant à vos questions. Vous pouvez toujours désactiver cette option dans les paramètres, ou voir ce que cela signifie pour vous."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Quelle est votre expérience jusqu’à présent?",
         "text": "<p>Aimez-vous la nouvelle application? Y a-t-il quelque chose que nous pouvons améliorer? S’il vous plaît aidez-nous avec vos commentaires pour améliorer l’expérience pour vous!</p><p>Cela ne prendrait que quelques minutes, et nous apprécions grandement votre temps!</p>",
         "cta": "Donner son avis",
-        "dismiss": "Peut-être plus tard"
+        "dismiss": "Peut-être plus tard",
+        "altText": "Vos commentaires nous aideront à améliorer l&#39;expérience de l&#39;application pour vous, et cela ne prend qu&#39;une minute."
       },
       "advertise": {
         "heading": "Faire de la publicité sur Bazm",
