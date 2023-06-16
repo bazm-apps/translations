@@ -81,7 +81,8 @@
         "cancelCta": "Tanya saya nanti",
         "okCta": "Yakin!",
         "jsPushUnsupported": "Push tidak didukung pada perangkat ini. Anda mungkin melewatkan pemberitahuan!"
-      }
+      },
+      "sending": "Mengirim..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Informasi ini hanya dapat dilihat oleh Anda dan Anda melihat konten dan fitur berdasarkan ini.",
           "idSetupCta": "Siapkan identitas Anda",
           "idVerifyCta": "Memverifikasi",
-          "joinDate": "Bergabung: {date}"
+          "joinDate": "Bergabung: {date}",
+          "idVerifyAltText": "Hanya ulama Syiah yang terverifikasi yang dapat memverifikasi orang lain. Harap verifikasi akun Anda, sehingga Anda dapat memverifikasi <strong>{name}</strong> setelahnya.",
+          "idVerifyAltText2": "Jika Anda sudah meminta seseorang, Anda dapat mengingatkan mereka lagi dengan tautan baru, atau meminta lebih banyak ibu untuk tanggapan yang lebih cepat."
         },
         "posts": {
           "title": "Posting",
@@ -792,7 +795,8 @@
         "jsMailSent": "Email terkirim",
         "title2": "Klaim akun Anda",
         "claimIntroHeading": "Klaim akun Anda dengan cepat!",
-        "claimIntroText": "Terima kasih telah bergabung dengan kami. Kami telah membuat akun untuk Anda sekarang. Dapatkan akses ke akun Anda dengan mengatur ulang kata sandinya menggunakan salah satu metode berikut:"
+        "claimIntroText": "Terima kasih telah bergabung dengan kami. Kami telah membuat akun untuk Anda sekarang. Dapatkan akses ke akun Anda dengan mengatur ulang kata sandinya menggunakan salah satu metode berikut:",
+        "introText2": "Mengatur ulang kata sandi Anda itu mudah. Masukkan email Anda dan dapatkan tautan setel ulang kata sandi di email Anda."
       },
       "resetPwd": {
         "title": "Atur Ulang Kata Sandi",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Tidak dapat menemukan percakapan ini",
           "p1": "Terjadi kesalahan saat mencoba untuk mendapatkan percakapan ini. Silakan periksa URL dan coba lagi.",
-          "p2": "Jika ini terus terjadi, silakan hubungi kami."
+          "p2": "Jika ini terus terjadi, silakan hubungi kami.",
+          "guest": "Ini mungkin karena Anda belum masuk. Silakan coba masuk dan periksa lagi."
         },
         "jsNewChatInfo": "Ini adalah awal dari percakapan baru dengan Haadi. Anda telah memilih untuk mengaktifkan konteks untuk Haadi saat menjawab pertanyaan Anda. Anda selalu dapat menonaktifkan opsi ini di pengaturan, atau melihat apa artinya ini bagi Anda."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Bagaimana pengalaman Anda sejauh ini?",
         "text": "<p>Apakah Anda menyukai aplikasi baru? Apakah ada sesuatu yang bisa kita tingkatkan? Tolong bantu kami dengan umpan balik Anda untuk meningkatkan pengalaman bagi Anda!</p><p>Ini hanya akan memakan waktu beberapa menit, dan kami sangat menghargai waktu Anda!</p>",
         "cta": "Berikan masukan",
-        "dismiss": "Mungkin nanti"
+        "dismiss": "Mungkin nanti",
+        "altText": "Umpan balik Anda akan membantu kami meningkatkan pengalaman aplikasi untuk Anda, dan hanya butuh satu menit."
       },
       "advertise": {
         "heading": "Beriklan di Bazm",
