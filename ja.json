@@ -8,7 +8,7 @@
       "sendOtp": "OTPの送信。",
       "dismiss": "解任する",
       "invite": "招く",
-      "showMore": "さらに表示 | 続きを見る",
+      "showMore": "もっと見る | もっと見る",
       "play": "遊ぶ",
       "pause": "一時 停止",
       "playing": "奏法",
@@ -38,11 +38,11 @@
       "retry": "リトライ",
       "send": "送信",
       "submit": "送信",
-      "share": "シェア | 今すぐシェア",
+      "share": "シェアする | 今すぐシェアする",
       "at": "で",
       "untilNextTime": "大丈夫。次回まで!",
       "plzWait": "お待ちください。。",
-      "saving": "節約。。| 更新中..",
+      "saving": "保存中.. | 更新中..",
       "search": "捜索",
       "late": "遅い",
       "done": "完成です",
@@ -58,8 +58,8 @@
         "uploading": "アップロード。。",
         "deleting": "削除。。",
         "requesting": "要求。。",
-        "audienceHeader": "d {action}モミニーン|これを {action}したモミニーン",
-        "jsShareFileTypeError": "申し訳ありませんが、ここで {fileType} ファイルを共有することはできません",
+        "audienceHeader": "モミネン 誰が{action} | モミネン 誰がこれを{action}",
+        "jsShareFileTypeError": "申し訳ありませんが、ここでは{fileType}ファイルを共有できません",
         "jsUpdateAvailable": {
           "header": "利用可能なアップデート",
           "message": "アプリのキャッシュされたバージョンが表示されています。 [更新]をクリックして、新しいコンテンツと機能を更新およびロードします。",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "画像のアップロードに失敗しました。しばらくしてからもう一度お試しください。",
         "jsLoadingDelay": "予想以上に時間がかかっています。このリクエストが処理されるまでお待ちください。"
       },
+      "sending": "送信...",
       "close": "閉める",
       "yes": "はい",
       "no": "いいえ",
@@ -81,8 +82,7 @@
         "cancelCta": "後で確認する",
         "okCta": "もちろん！",
         "jsPushUnsupported": "このデバイスではプッシュはサポートされていません。通知を見逃す可能性があります!"
-      },
-      "sending": "送信..."
+      }
     },
     "errors": {
       "service": {
@@ -152,8 +152,8 @@
           "wishCtaLabel": "願い"
         },
         "books": {
-          "booksByAuthor": "{author}著書",
-          "booksInLang": "{lang}の書籍",
+          "booksByAuthor": "{author}別の本",
+          "booksInLang": "言語の{lang}",
           "filterBy": "フィルター条件:",
           "matching": {
             "authors": "著者が一致する",
@@ -167,7 +167,7 @@
           "selectLang": "言語を選択:"
         },
         "bookDetails": {
-          "title": "{title} — Bazm でこのような無料の本をもっと見つけよう",
+          "title": "{title} — Bazm でこのような無料の本をもっと探す",
           "aboutBook": "本について:"
         }
       },
@@ -199,8 +199,8 @@
             "イムサックの{hour}時間前"
           ],
           "minToImsakDesc": [
-            "アラームはSehri時間終了の {min} 分前に鳴ります",
-            "アラームはSehri時間終了の {hour} 時間前に鳴ります"
+            "セーリ時間の終了分前に{min}が鳴ります",
+            "セーリ時間終了の{hour}時間前にアラームが鳴ります"
           ],
           "notRamadan": "まだラマダンではないようです。ラマダン中またはラマダンの直前に戻ってきて、Sehriのアラームを設定してください",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "ブログ:クムを効率的に計算する",
-              "p1": "毎年クムの計算における重要な項目を強調する<a href='{href}' target='_blank'>私たちのブログに従ってください</a>。",
+              "p1": "毎年クムの計算における重要な項目を紹介する<a href='{href}' target='_blank'>ブログをフォローしてください</a>。",
               "p2": "免責事項:ブログはガイドではありません。 <strong>クムス計算のためのあなたのマルジャの判決に従ってください</strong>。詳細については <span id='blog-info-link' color='primary'>、ここをクリックしてください</span> 。",
               "blogInfo": "上記のブログは、al-islam.org、sistani.org、および他の数人の学者との議論からの記事に基づいています。あなたは常にクムス計算のためのあなたのマルジャによる判決に従うべきです。",
               "dismissCta": "興味がない"
@@ -283,7 +283,7 @@
             "mqmsInfo": "次の計算のためのムカンマ",
             "calcHeader": "以下の計算に基づく:",
             "savingsHeader": "貯蓄",
-            "conversionInfo": "{xchgRateDate}の為替レートに基づく{xchgRate}{amount}に換算",
+            "conversionInfo": "{xchgRateDate}の{xchgRate}の為替レートに基づく{amount}に換算",
             "expensesHeader": "経費",
             "mqmsHeader": "ムカンマ",
             "prevMqms": "以前のムカンマ",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "以下のフォームに記入して、クムを計算してください。オプションのフィールドが示されます。セクションの詳細については、下の情報アイコンをクリックしてください。",
-            "blog": "関連:に関するブログを読む <a href='{href}' target='_blank'>クムを効率的に<a>計算する方法</a>",
+            "blog": "関連: <a href='{href}' target='_blank'>クムを効率的に計算する方法</a>に関するブログをお読みください",
             "dateRange": "日付範囲を選択:",
             "dateRangeInfo": "通常、人々は会計年度(例えば、4月から3月まで)または暦年(1月から12月)のクムを計算します",
             "startDate": "受講開始日:",
@@ -337,7 +337,7 @@
               "header": "<strong>為替レートの使用</strong>",
               "subtext": "これらの為替レートが計算に使用されます。カスタム値を使用するように変更できます。",
               "info": "為替レートが今日と同じではなかった1年以上前のクムの計算を追加する場合など、履歴データを扱う場合は、為替レートのカスタム値を自分で設定できます。",
-              "rateValuePH": "{currency}では、例えば、1 {mainCurrency} = 80.21 {currency}"
+              "rateValuePH": "{currency} 、例: 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "計算する",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "ユーザー | アカウント",
+        "name": "ユーザーアカウント",
         "editProfile": "プロファイルの編集",
         "publishToFeed": "変更をフィードに公開する",
         "shareUpdateToFeed": "また、この更新を私のフィードと共有してください",
         "statusText_ph": "_斜体_または*太字*フォーマットを使用してステータスを装飾します",
-        "statusCharsLeft": "残り文字{count}",
+        "statusCharsLeft": "残りの文字数{count}",
         "jsImgUploadSuccess": "画像が正常にアップロードされました!",
         "unauthAccess": {
           "heading": "あなたは正しい場所にいますか?",
@@ -411,34 +411,34 @@
           "statusTextInfo": "あなたは誰ですか、あなたは何をしているのかなど、あなた自身について簡単な何かを追加してください!",
           "statusCta": "ステータスの追加 | ステータスの更新",
           "addCity": "都市を追加",
-          "gender": "男性 | 女性",
+          "gender": "男女",
           "addGender": "性別を追加",
           "addBday": "誕生日を追加",
           "addRelation": "リレーションシップの追加",
           "privateInfoDesc": "この情報は自分だけに表示され、これに基づくコンテンツと機能が表示されます。",
           "idSetupCta": "本人確認を行う",
           "idVerifyCta": "確かめる",
-          "joinDate": "加入日: {date}",
-          "idVerifyAltText": "認証されたシャイア・モミネンのみが他の人を認証できます。後で<strong>{name}</strong>確認できるように、アカウントを確認してください。",
-          "idVerifyAltText2": "すでに誰かにリクエストしている場合は、新しいリンクを使用して再度リマインドするか、より迅速な応答を求めるためにさらにモミニンをリクエストすることができます。"
+          "idVerifyAltText": "認証済みの Shia momineen のみが他の認証を行うことができます。後で<strong>{name}</strong>確認できるように、アカウントを確認してください。",
+          "idVerifyAltText2": "すでに誰かにリクエストしている場合は、新しいリンクを使用して再度リマインドするか、より迅速な応答を求めるためにさらにモミニンをリクエストすることができます。",
+          "joinDate": "参加日: {date}"
         },
         "posts": {
           "title": "楨",
           "userNoPosts": "写真/カバー画像を変更するとき、または亡くなった愛する人のためにスーラファティハを要求すると、これらの投稿はここと <b>[ホーム</b> ]タブに表示されます(他の人も)。写真やカバー画像を追加してみませんか?",
-          "profileNoPosts": "{name} はまだ投稿していません。"
+          "profileNoPosts": "{name}まだ投稿していません。"
         },
         "marhumeen": {
           "title": "マルヒューミーン",
           "header": {
-            "marhumeenNotAdded": "{name} はまだマルフミーンを追加していません| あなたはまだマルフミーンを追加していません",
-            "marhumeenAdded": "{name} 次のマルフミーンを追加しました|あなたは次のマルフミーンを追加しました"
+            "marhumeenNotAdded": "{name}まだマルヒューメンを追加していません | あなたはまだマルヒューミンを追加していません",
+            "marhumeenAdded": "マルヒューメンに次の{name}を追加しました | 次のマルヒューメーンを追加しました"
           },
           "jsDeleteHeader": "確かですか。",
-          "jsDeletePrompt": "{fullName}のレコードを削除すると、以前に行われたすべての要求も削除されます <b> {gender}</b>!続ける。",
+          "jsDeletePrompt": "<b>{fullName}</b>のレコードを削除すると、 {gender}に対して行われた以前のリクエストもすべて削除されます。続く？",
           "jsDeleted": "{marhumeen}の削除されたレコード"
         },
         "verifyCard": {
-          "title": "シーア派の身元を確認する| サダトの身元を確認する",
+          "title": "シーア派のアイデンティティを確認する | サダトのアイデンティティを確認する",
           "p1": "あなたは自分のプロフィールで、シーア派イスラム教徒であることを示しました。この情報を検証することで、より多くの機能が有効になり、シーア派イスラム教徒の検証済みコミュニティを構築するのに役立ちます。",
           "p2": "親切にあなたの身元を確認してください。それほど時間はかかりません",
           "noReminder": "二度と思い出させないで",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "このリンクは無効であるか、有効期限が切れています。友達に新しいリクエストを送信するように依頼してください。",
           "confirm": {
             "heading": "アカウント ID の確認",
-            "msg": "アカウント情報の確認{genderLabel1}{firstName}手伝ってください。これにより、{genderLabel2}アプリのより多くの機能にアクセスできるようになります",
+            "msg": "{firstName} {genderLabel1}アカウント情報を確認できるように支援します。これにより、 {genderLabel2}アプリのより多くの機能にアクセスできるようになります",
             "jsSkip": "大丈夫。気が変わった場合は、このリンクに再度アクセスして後で確認できます。"
           }
         },
@@ -480,18 +480,18 @@
       "langPrompt": {
         "title": "{langLabel}でアプリを使用しますか?",
         "desc": {
-          "p1": "からアプリにアクセスしているようです {countryName}。この地域で話されている次のいずれかの言語でコンテンツとコントロールを表示しますか?選択内容をクリックし、[保存]をクリックして続行します。",
+          "p1": "{countryName}からアプリにアクセスしているようです。この地域で話されている次の言語のいずれかでコンテンツとコントロールを表示したいですか?選択したものをクリックし、「保存」をクリックして続行します。",
           "p2": "または、このポップアップを閉じて、デフォルトの言語でアプリを引き続き使用します。"
         },
         "choices": {
           "useLang": [
-            "はい、{langName}を使用します",
+            "はい、 {langName}使用します",
             "{langName}を使用する"
           ],
           "useEnglish": "英語で続ける",
           "selectFrom": "または、次のいずれかの代替言語を選択します。"
         },
-        "langError": "{langName}の翻訳の読み込み中にエラーが発生しました。しばらくしてからもう一度お試しください。"
+        "langError": "{langName}の翻訳をロード中にエラーが発生しました。後でもう一度試してください。"
       },
       "createPost": {
         "heading": "今日は何についてですか?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "投稿を作成 | 投稿を更新",
+            "post": "投稿の作成 | 投稿の更新",
             "livestream": "ライブストリーム",
-            "hadiyah": "ハディヤを作成する | ハディヤを更新"
+            "hadiyah": "ギフトの作成 | ギフトの更新"
           },
           "postCta": "投稿 | 更新",
           "stream": {
-            "scheduleCta": "後で使用するために保存する | ストリーミングを開始"
+            "scheduleCta": "後で見るために保存 | ストリーミングを開始"
           },
           "hadiya": {
             "dedication": {
@@ -549,7 +549,7 @@
       },
       "comments": {
         "name": "コメント",
-        "loadPrevious": "以前のコメントを読み込む | 以前の返信を読み込む",
+        "loadPrevious": "以前のコメントをロード | 以前の返信をロード",
         "replyingTo": "返信先:",
         "noComments": "この投稿へのコメントはまだありません",
         "textboxPlaceholder": "ここにコメントを書いてください",
@@ -564,15 +564,15 @@
           "status": "プロファイルの状態"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong>更新された{addressing} {item}",
+          "common": "<strong>{username}</strong> {addressing} {item}を更新しました",
           "fatiha": [
-            "<strong>{username}</strong>スーラ・ファティハに{addressing} {relation}を要求した",
-            "<strong>{username}</strong>はSurah-fatiha & namaz-e-wahshatに{addressing} {relation}を要求した"
+            "{relation} {addressing}ために<strong>{username}</strong> surah-fatiha を要求しました",
+            "{relation} {addressing}ために<strong>{username}</strong> surah-fatiha と namaz-e-wahshat を要求しました"
           ]
         },
-        "dateUntil": "期限:{time}{date}",
+        "dateUntil": "終了日: {date} 、 {time}",
         "privatePost": "この投稿はあなただけに表示されます",
-        "descZiyaratRequest": "あなたは、イマーム・フセイン(a.s.)の*ハラーム*であなたに代わってジヤラットを実行するように要求しました*{date}*"
+        "descZiyaratRequest": "あなたは、* {date} *にイマーム・フサイン（として）の*ハラーム*であなたの代わりにジヤラートを実行するようリクエストしました"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "死んだ：",
         "addMsg": "メッセージを追加したいですか?",
         "addMsg_ph": "例えば：\nInna lillahi wa inna ilaihe raje'un.私の叔父、サイード・ジーシャン・ハイダー・ワルド・サイド・タウキール・ハサン・マルフームのために、スーラ・エ・ファティハと2ラカット・ナマズ・エ・ワシャットを暗唱してください。",
-        "remainingChars": "キャラクター: {count} | 残り {count} キャラクター",
-        "infoEditRelative": "{name}の詳細は、[<b>アカウント>マーフミーン</b>]セクションで編集できます。",
+        "remainingChars": "文字数: {count} | 文字数: {count}残り",
+        "infoEditRelative": "<b>「アカウント」&gt;「Marhumeen」</b>セクションで{name}の詳細を編集できます",
         "saveRequestCta": [
           "保存と要求",
           "依頼"
@@ -724,17 +724,17 @@
           "viaSignal": "信号経由で取得"
         },
         "page2": {
-          "header": "6桁の確認コードがあなたの番号に送信されました({number})",
+          "header": "あなたの番号 ( {number} ) に 6 桁の確認コードを送信しました",
           "enterCodeLabel": "コードを入力",
           "enterCode_ph": "6桁のコードを入力してください",
           "resendCode": "コードの再送信",
-          "notUsingMobile": "{number}を使用していません<strong>か?</strong>",
+          "notUsingMobile": "<strong>{number}を使用していないのですか?</strong>",
           "changeNumber": "変更番号"
         },
         "jsVerifySuccess": "モバイルが正常に確認されました",
         "jsVerifyError": "エラーが発生しました。しばらくしてからもう一度お試しください。",
         "jsSendOtpFailed": "OTP の送信に失敗しました。しばらくしてからもう一度お試しください。",
-        "jsSendOtpSuccess": "OTP が{mobile}に送信されました",
+        "jsSendOtpSuccess": "OTP が{mobile}に送信される",
         "jsTooManyRequests": "すでに何度も試したようです。しばらく待ってから、もう一度お試しください。"
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "外部と共有する場合、メッセージは次のようになります。",
           "sharingTextDemo": [
             "Bazmアプリでこのナウハを聞く",
-            "{name} Bazmアプリでこのナウハを聞くことをお勧めします"
+            "{name} Bazm アプリでこの Nauha を聴くことを推奨しています"
           ],
           "addSignDesc": "署名も追加したいですか?",
-          "addSignPlaceholder": "例えば\nご多幸をお祈り申し上げます。\n{name}",
+          "addSignPlaceholder": "たとえば、ご多幸を{name} 。",
           "signDesc": "このアプリで友達と願い事を共有すると、あなたの署名がメッセージに追加されます。たとえば、次のように表示されます。"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "パスワードに無効な文字が含まれています。",
         "jsPwdCharCount": "パスワードは 8 文字以上にする必要があります。",
         "jsSelectLang": "最初に言語を選択してください。",
-        "jsLangSet": "言語が {lang} に設定されている",
+        "jsLangSet": "言語は{lang}に設定されています",
         "jsPrefSaved": "個人用設定が保存されました。"
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "パスワードのリセットは簡単です。続行する方法を選択します。",
         "usePhoneCta": "電話を使用する",
         "useEmailCta": "メールを使用する",
-        "sendEmailIntro": "アカウントを作成したメールアドレスを入力すると、アカウントの新しいパスワードを設定するためのリンクが記載されたメールが送信されます。",
+        "sendEmailIntro": "アカウントの作成に使用したメール アドレスを入力すると、アカウントの新しいパスワードを設定するためのリンクが記載されたメールが送信されます。 | アカウントにログインするにはメール アドレスを追加する必要があります。このメールにパスワード リセット リンクを送信します。そこから、携帯電話番号に関連付けられたアカウントのパスワードを作成できます。",
         "emailInputLabel": "ご登録のメールアドレス",
         "sendEmailCta": "リセットメールの送信",
-        "sentEmailText": "アカウントをお持ちの場合は、<strong>{email}</strong>でまもなくパスワードリセットメールが届きます。リンクについては、メールを確認してください。",
-        "notUsingEmailText": "{email}を使用していません<strong>か?</strong>",
+        "sentEmailText": "弊社のアカウントをお持ちの場合は、間もなくパスワード リセットのメールが<strong>{email}</strong>で届きます。リンク先のメールをご確認ください。",
+        "notUsingEmailText": "<strong>{email}使用していませんか?</strong>",
         "changeEmailCta": "メールアドレスを変更",
         "phoneIntroText": "アカウントに追加した電話番号を入力します。所有権を確認するためにOTPを送信し、次のステップで新しいパスワードを作成できるようになります。",
         "phoneInputLabel": "あなたの携帯電話番号",
         "sendOtpCta": "OTP を送信する",
         "backToLoginCta": "ログインに戻る",
-        "disclaimerText": "{item}は、{item}を登録している場合にのみ取得されますのでご注意ください",
+        "disclaimerText": "{item}入手できるのは、 {item}登録されている場合のみであることに注意してください。",
         "jsMailSent": "メール送信済み",
         "title2": "アカウントを要求する",
+        "introText2": "パスワードのリセットは簡単です。メールアドレスを入力し、メール上にあるパスワード リセット リンクを取得します。",
         "claimIntroHeading": "すぐにアカウントを申請してください!",
-        "claimIntroText": "ご参加いただきありがとうございます。これでアカウントが作成されました。次のいずれかの方法を使用してパスワードをリセットして、アカウントにアクセスします。",
-        "introText2": "パスワードのリセットは簡単です。メールアドレスを入力し、メール上にあるパスワード リセット リンクを取得します。"
+        "claimIntroText": "ご参加いただきありがとうございます。アカウントにメールを追加して、アカウントにアクセスします。"
       },
       "resetPwd": {
         "title": "パスワードのリセット",
-        "introText": "ここでアカウントの安全なパスワードを設定します。[ {icon} ] をクリックして、正しいパスワードを入力していることを確認します。",
+        "introText": "ここでアカウントの安全なパスワードを設定します。 {icon}をクリックして、正しいパスワードを入力していることを確認します。",
         "pwdInputLabel": "新しいパスワードを設定する",
         "pwdInputPH": "新しいパスワードを入力",
         "invalidPwdChars": "パスワードに無効な文字が含まれています",
@@ -810,13 +810,13 @@
         "jsTrackLoadFailed": "トラックの読み込みに失敗しました。しばらくしてからもう一度お試しください。"
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} 正常に削除されました。",
+        "jsItemDeleted": "{item}正常に削除されました。",
         "jsErrReporting": "現時点では報告できません。しばらくしてからもう一度お試しください。",
-        "jsAlreadyReported": "あなたはすでにこの {item}を報告しました。複数回報告することはできません。",
+        "jsAlreadyReported": "この{item}すでに報告済みです。複数回報告することはできません。",
         "jsPromptHeading": "アイテムを報告すると、自分や他の人のフィードやページに表示される可能性が低くなります。それでもこれを報告しますか?",
-        "jsReporting": "報告 {itemType}..",
+        "jsReporting": "レポート項目の{itemType} ..",
         "jsReportingErr": "現在、要求を送信できませんでした。しばらくしてからもう一度お試しください。",
-        "jsReported": "{item} 報告した。あなたの貢献に感謝します。"
+        "jsReported": "{item}が報告されました。ご貢献いただきありがとうございます。"
       },
       "editProfileModal": {
         "jsEmptyData": "更新するものはありません!",
@@ -845,14 +845,14 @@
       },
       "mqmsSelector": {
         "title": "ムカマスの量を選択",
-        "dateAdded": "ここに追加: {date}",
+        "dateAdded": "追加日: {date}",
         "cancelCta": "キャンセル",
         "doneCta": "選ぶ"
       },
       "khumsPaymentRecord": {
         "title": "支払レコードの追加",
         "paymentFor": "{khumsType}の支払い",
-        "totalAmount": "合計金額: {amount}",
+        "totalAmount": "合計金額： {amount}",
         "form": {
           "amountLabel": "量",
           "amountPlaceholder": "金額を入力",
@@ -1009,18 +1009,18 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "{name}のアカウントを確認する",
-        "heading": "{firstName}に関する情報を以下に答えることができますか?そうでない場合は、この要求を拒否します。",
+        "title": "アカウントの{name}を確認してください",
+        "heading": "{firstName}に関する以下の情報に答えていただけますか?そうでない場合は、このリクエストを拒否します。",
         "desc": "検証の試行は2回だけです。",
-        "descP1": "このフォームを送信すると、確認をリクエストする際に提供された情報と情報が照合 {firstName} 。このフォームに正しく記入するには2回しか試みられないため、注意してください。それでも失敗する場合は、今後 {firstName} を再度確認することはできません。",
-        "descP2": "{firstName}わからない場合は、この要求を拒否します。私たちは彼らに知らせ、他の誰かに連絡するように頼みます。",
+        "descP1": "このフォームを送信すると、その情報が、検証を要求するときに{firstName}が提供したものと照合されます。このフォームに正しく入力できるのは 2 回のみであるため、注意してください。それでも失敗した場合は、今後再び{firstName}を確認することはできなくなります。",
+        "descP2": "{firstName}わからない場合は、このリクエストを拒否してください。私たちは彼らにそのことを知らせ、他の人に連絡するよう依頼します。",
         "rejectRequestCta": "要求の拒否",
         "form": {
-          "heading": "{firstName}に関する次の質問に答え、[送信] をクリックします。",
-          "q1": "どうやって {firstName}を知っていますか?",
+          "heading": "{firstName}に関する次の質問に答えて、[送信] をクリックします。",
+          "q1": "{firstName}どうやって知るのですか？",
           "q2": "宗教：",
           "q3": "セクト：",
-          "q4": "{firstName}サダトですか?",
+          "q4": "{firstName}はサダトですか？",
           "q5": "他に何か追加したいことはありますか?"
         }
       },
@@ -1073,13 +1073,13 @@
         "cta": "リジェクト",
         "title": "要求の拒否",
         "reasonLabel": "このアカウントを確認しないのはなぜですか?",
-        "reasonPh": "私たちは {userName} 知らせ、確認のために他の誰かに連絡するように依頼します"
+        "reasonPh": "{userName}通知し、確認のため他の人に連絡するよう依頼します。"
       },
       "haadiHome": {
-        "title": "ディスカッションを開始 | ハーディとのディスカッション",
+        "title": "ディスカッションの開始 | ハーディとのディスカッション",
         "item": {
-          "added": "追加された {date}",
-          "tokensUsed": "使用されるトークン: {tokens}",
+          "added": "追加された{date}",
+          "tokensUsed": "使用したクレジット: {tokens}",
           "readContinue": "ディスカッションを読む、または続ける"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "質問する",
         "empty": {
           "heading": "この会話が見つかりませんでした",
-          "p1": "この会話を取得しようとしたときにエラーが発生しました。URLをご確認の上、再度お試しください。",
-          "p2": "これが続く場合は、お問い合わせください。",
-          "guest": "ログインしていないことが原因である可能性があります。ログインして再度確認してください。"
+          "p1": "この会話は見つかりませんでした。 URLを確認して再度お試しください。",
+          "guest": "ログインしていないことが原因である可能性があります。ログインして再度確認してください。",
+          "p2": "これが続く場合は、お問い合わせください。"
         },
         "jsNewChatInfo": "これがハーディとの新しい会話の始まりです。質問への回答中に Haadi のコンテキストを有効にすることを選択しました。このオプションはいつでも設定で無効にすることも、これが何を意味するかを確認することもできます。"
       },
       "aboutHaadi": {
-        "title": "シーア派イスラム教をナビゲートするためにあなたのボットフレンドであるハーディに会いましょう!",
-        "desc": "これらの要約のそれぞれをクリックして詳細を読むか、または{blogLink}ターゲット='_system'>私たちのブログで<a href=Haadiと利用規約の詳細を見つけてください",
+        "title": "イスラム教シーア派をナビゲートするあなたの<strong>ボット友達</strong>、ハーディに会いましょう!",
+        "desc": "Haadi の使用を開始する前に、これらの概要に目を通しておくことをお勧めします。 Haadi と利用規約の詳細については<a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>ご覧ください。",
         "agreement": "利用規約を理解し、同意します"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "パスワードを入力してください!",
         "jsEnterValidPwd": [
           "パスワードに無効な文字が含まれています。有効なパスワードを入力してください。",
-          "パスワードは {num} 文字以上にする必要があります。"
+          "パスワードは{num}文字以上にする必要があります。"
         ],
         "jsAccountSuccess": "アカウントが正常に作成されました",
         "jsFbError": "あなたのフェイスブックアカウントの詳細を取得できませんでした。もう一度やり直してください。",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Bazm { プラットフォーム } をインストールする",
-          "desc": "Androidアプリをダウンロードして、より良い体験、パーソナライズされたコンテンツ、通知、そしてあなたの周りからのあなたの興味のあるすべてを手に入れましょう!|アプリのショートカット(ブックマーク)をインストールして、次回はホーム画面から直接アクセスして、より良い体験をしてください!デバイスのスペースをほとんど取りませんが、アプリにすばやく戻るのに役立ちます。",
+          "heading": "Bazmショートカットを追加",
+          "desc": "Android アプリをダウンロードすると、より良いエクスペリエンス、パーソナライズされたコンテンツ、通知など、周囲からの関心のあるすべての情報が得られます。 | アプリのショートカット (ブックマーク) をインストールすると、次回からホーム画面から直接アクセスできるようになり、エクスペリエンスが向上します。デバイス上のスペースはほとんど必要ありませんが、アプリにすぐに戻るのに役立ちます。",
           "cta": {
             "action": "取り付ける",
             "skip": "たぶん後で"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Bazmショートカットをインストールしますか?"
         },
-        "popover": {
-          "text": "<strong>下の</strong>[共有]アイコン(右側のアイコン)をクリックし、[<strong>ホーム画面に追加</strong>]をクリックします。「保存」をクリックして終了すると、ホーム画面のショートカットからアプリにアクセスできます。"
-        },
         "nonSafari": {
-          "heading": "Bazmはアップルサファリでより良く動作します",
+          "heading": "Bazm は Safari でより適切に動作します",
           "desc": "このブラウザの機能は制限されていますが、Safariブラウザを使用すると、プッシュ通知やアプリのショートカットなど、アプリのパフォーマンスが向上します。",
-          "subtext": "携帯電話で<strong>Safariアプリを開き</strong> <strong> 、{url}</strong>に移動してエクスペリエンスを向上させます。",
+          "subtext": "<strong>Safari ブラウザを開いて</strong><strong>{url}</strong>に移動すると、エクスペリエンスが向上します。",
           "skipCta": "代わりにここに続けてください"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "デバイスへのクッキーの保存について",
-        "p1": "私たちはあなたの {device} にクッキーを保存しませんが、私たちのアプリで使用されるサードパーティのアプリ(Googleアナリティクスなど)は保存する可能性があります。代わりに、重要なデータを保存するために永続的なストレージを使用し、ほとんどの場合、これはストレージ内および転送中に暗号化されます。",
+        "p1": "当社はお客様の{device}に Cookie を保存しませんが、当社のアプリで使用されているサードパーティ製アプリ (Google Analytics など) は保存する可能性があります。代わりに、重要なデータを保存するために永久ストレージを使用し、ほとんどの場合、これはストレージ内および転送中に暗号化されます。",
         "p2": "このアプリを引き続き使用することにより、あなたはここにあなたが私たちの選択に問題がないことを確認します。当社のクッキーとデータの使用の詳細については、 <a href='https://bazm.in/privacy-policy' target='_blank'>プライバシーポリシーをご覧ください。</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - 世界中のシーア派イスラム教徒のためのソーシャルネットワークアプリ!今すぐアプリをダウンロードしてください。",
+      "titleBranding": "__ Bazm - 世界中のシーア派イスラム教徒のためのソーシャル ネットワーク アプリ!",
       "home": {
         "title": "Bazm - オンラインシーア派コミュニティアプリ!",
         "description": "Bazmアプリは、ディーン&マザブの日常的なニーズをすべて満たすシーア派コミュニティアプリです。ナウヘ、マジャリス、ドゥア、アーマール、ジヤラット、本などを見つけてください。すべての日付と機会のために。あなたの家の便利さから世界中のシーア派イスラム教徒とのライブストリームイベントやマジャリスを見て、やってください。今日参加しましょう!"
       },
       "feed": {
-        "title": "カスタマイズされたコンテンツを見つけて、あなたと世界中のシーア派コミュニティと共有する",
+        "title": "Bazm — 世界中のシーア派イスラム教徒からカスタマイズされたコンテンツを見つけて共有します!",
         "description": "ニュース、イベント、コンテンツを見つけてシャイア派モミニーンと共有し、主催しているイベントについて常に情報を提供します。アプリであなたの近くで起こっていることについて学びましょう。"
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Bazmアプリで、すべての年のSoazと世界中のすべての人気のあるSoazkhwanを聴きます。"
       },
       "majalisList": {
-        "title": "{type} バズムのマジャリス/マジュリス - ナウヘ、オーディオ/ビデオマジャリス、ドゥア、ジヤラット、アーマールなどをもっと見つけてください。バズムで",
+        "title": "Bazm で majalis/majlis {type} - nauhe、オーディオ/ビデオ majalis、dua、ziyarat、aamaal などをさらに検索します。バズムで",
         "description": "マウラナとザキール・エ・アールベイトのオーディオ/ビデオマジャリスを、お近くや世界中から見つけましょう。Bazmアプリで最新のマジャリスとライブストリームセッションを聞いて視聴します。今すぐアプリをダウンロードして、世界中の何百万人ものシーア派イスラム教徒に参加してください!"
       },
       "duasPage": {
         "title": [
-          "Bazmの {month} 月のドゥアスとアーマール-ナウヘ、オーディオ/ビデオマジャリス、ドゥア、ジヤラット、アーマールなどをもっと見つけてください。バズムで",
+          "Bazm の{month}の Duas と aamaal - nauhe、オーディオ/ビデオ majalis、dua、piyarat、aamaal などをもっと見つけてください。バズムで",
           "Bazmのすべての月のデュアスとアーマール-ナウヘ、オーディオ/ビデオマジャリス、ドゥア、ジヤラット、アーマールなどをもっと見つけてください。バズムで"
         ],
         "description": "ドゥア、アーマール、ジヤラット、ムナジャットをBazmのすべての月、日付、イベントで見つけてください。今すぐアプリをダウンロードして、世界中の何百万人ものシーア派イスラム教徒に参加してください!"
