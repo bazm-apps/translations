@@ -42,7 +42,7 @@
       "at": "By",
       "untilNextTime": "Geen probleem nie. Tot volgende keer!",
       "plzWait": "Wag asseblief..",
-      "saving": "Stoor.. | Opdatering..",
+      "saving": "Stoor tans .. | Dateer tans op ..",
       "search": "Soek",
       "late": "Laat",
       "done": "Gedoen",
@@ -58,8 +58,8 @@
         "uploading": "Oplaai..",
         "deleting": "Skrap..",
         "requesting": "Versoek..",
-        "audienceHeader": "Momineen wat {action}d | Momineen wat dit {action}",
-        "jsShareFileTypeError": "Jammer, u kan nie {fileType} lêers hier deel nie",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
+        "jsShareFileTypeError": "Jammer, jy kan nie {fileType} lêers hier deel nie",
         "jsUpdateAvailable": {
           "header": "Opdatering beskikbaar",
           "message": "Jy sien kasweergawe van die toepassing. Klik op 'Verfris' om nuwe inhoud en kenmerke op te dateer en te laai.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Beeldoplaai het misluk. Probeer asseblief weer later.",
         "jsLoadingDelay": "Dit neem bietjie langer as wat verwag is. Wag asseblief terwyl ons hierdie versoek verwerk."
       },
+      "sending": "Stuur...",
       "close": "Sluit",
       "yes": "Ja",
       "no": "Nee",
@@ -81,8 +82,7 @@
         "cancelCta": "Vra my later",
         "okCta": "Seker!",
         "jsPushUnsupported": "Druk nie ondersteun op hierdie toestel nie. U kan kennisgewings misloop!"
-      },
-      "sending": "Stuur..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Kon nie die inhoud op hierdie tydstip laai nie. Probeer asseblief weer oor 'n rukkie.",
-        "itemDetailUnavailable": "Kon nie besonderhede vir hierdie {item} vind nie",
+        "itemDetailUnavailable": "Kon nie besonderhede vir hierdie {item} kry nie",
         "loadMoreError": "Kon nie meer items laai nie. Probeer asseblief weer later."
       },
       "url": {
@@ -167,7 +167,7 @@
           "selectLang": "Kies 'n taal:"
         },
         "bookDetails": {
-          "title": "{title} — Vind meer gratis boeke soos hierdie op Bazm",
+          "title": "{title} — Soek meer gratis boeke soos hierdie op Bazm",
           "aboutBook": "Oor boek:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Khums sakrekenaar",
         "khumsDesc": "Bereken jou khums, of voeg enige voorheen betaalde khums by. Dit help jou met rekordhouding van jou khums oor die jare.",
         "alarms": {
-          "salatAlarms": "Salat-alarms | Daaglikse Salat-alarms",
+          "salatAlarms": "Salat Alarms | Daaglikse Salat Alarms",
           "sehriAlarms": "Ramadan Sehri Alarms",
           "gettingLocation": "Kry jou ligging. Wag asseblief...",
           "settingsTip": "<b>Verander ligging</b> en voorkeure in Alarminstellings. Klik op Instellings-ikoon om te begin.",
@@ -195,7 +195,7 @@
           "midnightLabel": "Middernag",
           "sehriEndTime": "Tyd vir einde van Sehri",
           "minToImsak": [
-            "{min} min voor Imsak",
+            "{min} minute voor Imsak",
             "{hour} uur voor Imsak"
           ],
           "minToImsakDesc": [
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Blog: Bereken khums doeltreffend",
-              "p1": "<a href='{href}' target='_blank'>Volg ons blog</a> wat sleutelitems in die berekening van khums elke jaar uitlig.",
+              "p1": "<a href='{href}' target='_blank'>Volg ons blog</a> wat elke jaar sleutelitems in die berekening van khums uitlig.",
               "p2": "Vrywaring: Die blog is NIE 'n gids nie. <strong>Volg beslissings van jou Marjah vir Khums-berekening</strong>. <span id='blog-info-link' color='primary'>Klik hier</span> vir meer inligting.",
               "blogInfo": "Bogenoemde blog is gebaseer op artikels uit al-islam.org, sistani.org en ons besprekings met 'n paar ander geleerdes. U moet altyd die beslissings van u Marjah vir Khums-berekening volg.",
               "dismissCta": "Stel nie belang nie"
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Vul die vorm hieronder in om jou khums te bereken. Opsionele velde word aangedui. Klik op die inligting-ikoon hieronder om meer oor die afdeling te wete te kom.",
-            "blog": "Related: Lees ons blog oor <a href='{href}' target='_blank'>Hoe om khums doeltreffend<a> te bereken</a>",
+            "blog": "Verwant: Lees ons blog oor <a href='{href}' target='_blank'>hoe om khums doeltreffend te bereken</a>",
             "dateRange": "Kies datumreeks:",
             "dateRangeInfo": "Mense bereken gewoonlik khums vir 'n finansiële jaar (bv. van April tot Maart) of 'n Kalenderjaar (Jan tot Des)",
             "startDate": "Begindatum:",
@@ -337,7 +337,7 @@
               "header": "<strong>Gebruik wisselkoerse</strong>",
               "subtext": "Hierdie wisselkoerse sal vir berekening gebruik word. U kan dit verander om persoonlike waardes te gebruik.",
               "info": "By die hantering van historiese data, soos by die berekening van khums van meer as 'n jaar gelede toe die wisselkoerse nie dieselfde was as vandag nie, kan jy self persoonlike waardes vir wisselkoerse stel.",
-              "rateValuePH": "In {currency}byvoorbeeld 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "In {currency} , bv. 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "Bereken",
             "pageError": {
@@ -411,16 +411,16 @@
           "statusTextInfo": "Voeg iets kortliks oor jouself by, soos, wie is jy of wat doen jy!",
           "statusCta": "Voeg status by | Dateer status op",
           "addCity": "Voeg stad by",
-          "gender": "Manlik | Vroulik",
+          "gender": "Manlik vroulik",
           "addGender": "Voeg geslag by",
           "addBday": "Voeg verjaarsdag by",
           "addRelation": "Voeg verhouding by",
           "privateInfoDesc": "Hierdie inligting is slegs vir u sigbaar en u sien dat inhoud en funksies hierop gebaseer is.",
           "idSetupCta": "Stel jou identiteit op",
           "idVerifyCta": "Verifieer",
-          "joinDate": "Aangesluit: {date}",
           "idVerifyAltText": "Slegs geverifieerde Shia momineen kan ander verifieer. Laat asseblief u rekening verifieer, sodat u <strong>{name}</strong> daarna kan verifieer.",
-          "idVerifyAltText2": "As jy reeds iemand versoek het, kan jy hulle weer herinner met &#39;n nuwe skakel, of meer momineen vra vir &#39;n vinniger antwoord."
+          "idVerifyAltText2": "As jy reeds iemand versoek het, kan jy hulle weer herinner met &#39;n nuwe skakel, of meer momineen vra vir &#39;n vinniger antwoord.",
+          "joinDate": "Aangesluit: {date}"
         },
         "posts": {
           "title": "Poste",
@@ -431,11 +431,11 @@
           "title": "Marhumeen",
           "header": {
             "marhumeenNotAdded": "{name} het nog nie marhumeen bygevoeg nie | Jy het nog nie marhumeen bygevoeg nie",
-            "marhumeenAdded": "{name} het bygevoeg na aanleiding van marhumeen | Jy het bygevoeg na aanleiding van marhumeen"
+            "marhumeenAdded": "{name} has added following marhumeen | You have added following marhumeen"
           },
           "jsDeleteHeader": "Is jy seker?",
-          "jsDeletePrompt": "As u rekords vir <b>{fullName}</b> uitvee, sal u ook alle vorige versoeke vir {gender}uitvee! Voortgaan?",
-          "jsDeleted": "Verwyder rekords vir {marhumeen}"
+          "jsDeletePrompt": "Die uitvee van rekords vir <b>{fullName}</b> sal ook alle vorige versoeke wat vir {gender} gemaak is, uitvee! Aanhou?",
+          "jsDeleted": "Geskrapte rekords vir {marhumeen}"
         },
         "verifyCard": {
           "title": "Verifieer jou Shia-identiteit | Verifieer jou Sadat-identiteit",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Hierdie skakel is óf ongeldig óf dit het verval. Vra asseblief jou vriend om 'n nuwe versoek te stuur.",
           "confirm": {
             "heading": "Verifieer rekeningidentiteit",
-            "msg": "Help {firstName} om {genderLabel1} rekeninginligting geverifieer te kry. Dit sal {genderLabel2} in staat stel om toegang tot meer funksies op ons program te kry",
+            "msg": "Help {firstName} om {genderLabel1} rekeninginligting geverifieer te kry. Dit sal {genderLabel2} in staat stel om toegang tot meer kenmerke op ons toepassing te kry",
             "jsSkip": "Geen probleem nie. As u van plan verander, kan u hierdie skakel weer besoek om later te verifieer."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Gebruik toepassing in {langLabel}?",
+        "title": "Gebruik app in {langLabel} ?",
         "desc": {
-          "p1": "Dit lyk asof u toegang tot die app vanaf {countryName}het. Wil u inhoud en kontroles sien in een van die volgende tale wat in die streek gepraat word? Klik op jou keuse en klik dan op 'Stoor' om voort te gaan.",
+          "p1": "Dit lyk of jy toegang tot die toepassing verkry vanaf {countryName} . Wil jy inhoud en kontroles sien in een van die volgende tale wat in die streek gepraat word? Klik op jou keuse en klik dan &#39;Stoor&#39; om voort te gaan.",
           "p2": "Of verwerp hierdie pop-up om voort te gaan om die app in standaardtaal te gebruik."
         },
         "choices": {
           "useLang": [
             "Ja, gebruik {langName}",
-            "Gebruik {langName}"
+            "Use {langName}"
           ],
           "useEnglish": "Gaan voort in Engels",
           "selectFrom": "Of kies uit een van die volgende alternatiewe tale:"
         },
-        "langError": "'N Fout het voorgekom tydens die laai van die vertalings vir {langName}. Probeer asseblief weer later."
+        "langError": "&#39;n Fout het voorgekom tydens die laai van die vertalings vir {langName} . Probeer asseblief weer later."
       },
       "createPost": {
         "heading": "Waaroor gaan vandag?",
@@ -507,9 +507,9 @@
         },
         "modal": {
           "titles": {
-            "post": "Skep Pos | Dateer Pos op",
+            "post": "Skep plasing | Dateer plasing op",
             "livestream": "Regstreekse stroom",
-            "hadiyah": "Skep Hadiyah | Dateer Hadiyah op"
+            "hadiyah": "Skep geskenk | Dateer geskenk op"
           },
           "postCta": "Plaas | Opdatering",
           "stream": {
@@ -549,7 +549,7 @@
       },
       "comments": {
         "name": "Kommentaar",
-        "loadPrevious": "Laai vorige kommentaar | Laai vorige antwoorde",
+        "loadPrevious": "Laai vorige opmerkings | Laai vorige antwoorde",
         "replyingTo": "Antwoord op:",
         "noComments": "Nog geen kommentaar op hierdie plasing nie",
         "textboxPlaceholder": "Skryf jou kommentaar hier",
@@ -566,13 +566,13 @@
         "displayPhrase": {
           "common": "<strong>{username}</strong> opgedateer {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> het Surah-Fatiha versoek vir {addressing} {relation}",
-            "<strong>{username}</strong> het Surah-Fatiha & Namaz-e-Wahshat versoek vir {addressing} {relation}"
+            "<strong>{username}</strong> het surah-fatiha versoek vir {addressing} {relation}",
+            "<strong>{username}</strong> versoek surah-fatiha &amp; namaz-e-wahshat vir {addressing} {relation}"
           ]
         },
-        "dateUntil": "Tot: {date} by {time}",
+        "dateUntil": "Tot: {date} op {time}",
         "privatePost": "Hierdie pos is slegs vir u sigbaar",
-        "descZiyaratRequest": "U het versoek dat Ziyarat namens u opgetree word by *haram* van Imam Husain (a.s.) op *{date}*"
+        "descZiyaratRequest": "U het versoek dat Ziyarat namens u uitgevoer word by *haram* van Imam Husain (as) op * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "Dood:",
         "addMsg": "Wil jy 'n boodskap byvoeg?",
         "addMsg_ph": "Byvoorbeeld:\nInna lillahi wa inna ilaihe raje'un. Sê asseblief 'n surah-e-fatiha en 2-rak'at namaz-e-wahshat vir my oom, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, wat ons almal laat huil het om sy skepper te ontmoet.",
-        "remainingChars": "Karakters: {count} | Karakters: {count} oorblywende",
-        "infoEditRelative": "Jy kan besonderhede vir {name} in jou <b>rekening wysig > Marhumeen-afdeling</b>",
+        "remainingChars": "Karakters: {count} | Karakters: {count} oor",
+        "infoEditRelative": "Jy kan besonderhede vir {name} wysig in jou <b>Rekening &gt; Marhumeen-</b> afdeling",
         "saveRequestCta": [
           "Stoor en versoek",
           "Versoek"
@@ -675,7 +675,7 @@
         "setLocation": "Stel ligging in",
         "ipAddress": "IP-adres",
         "alarmLocation": "Alarm plek",
-        "basedOn": "Ligging gebaseer op u {selector}",
+        "basedOn": "Ligging gebaseer op jou {selector}",
         "jsDetecting": "Opsporing, wag asseblief..",
         "jsPermDenied": "Plektoestemming geweier vir app. Stel asseblief die liggingvoorkeur vir hierdie toepassing terug deur Instellings-afdeling op jou foon te besoek.",
         "jsPosUnavailable": "Ons is jammer, maar posisie is nie nou beskikbaar vir hierdie foon nie. Probeer asseblief weer later.",
@@ -724,17 +724,17 @@
           "viaSignal": "Kry via sein"
         },
         "page2": {
-          "header": "Ons het 'n 6-syfer bevestigingskode na u nommer gestuur ({number})",
+          "header": "Ons het &#39;n 6-syfer-bevestigingskode na jou nommer ( {number} ) gestuur",
           "enterCodeLabel": "Voer kode in",
           "enterCode_ph": "Voer die 6-syfer kode in",
           "resendCode": "Stuur kode weer",
-          "notUsingMobile": "Gebruik jy nie <strong>{number}?</strong>",
+          "notUsingMobile": "Gebruik jy nie <strong>{number} nie?</strong>",
           "changeNumber": "Verander nommer"
         },
         "jsVerifySuccess": "Mobile suksesvol geverifieer",
         "jsVerifyError": "'N Fout het voorgekom. Probeer asseblief weer later.",
         "jsSendOtpFailed": "Kon nie OTP stuur nie. Probeer asseblief weer later.",
-        "jsSendOtpSuccess": "OTP gestuur na {mobile}",
+        "jsSendOtpSuccess": "OTP na {mobile} gestuur",
         "jsTooManyRequests": "Dit lyk of jy al te veel kere probeer het. Wag asseblief 'n minuut of twee en probeer weer."
       },
       "userSettings": {
@@ -757,7 +757,7 @@
             "{name} beveel aan om na hierdie Nauha op Bazm App te luister"
           ],
           "addSignDesc": "Wil u ook u handtekening byvoeg?",
-          "addSignPlaceholder": "Byvoorbeeld\nMet beste wense,\n{name}",
+          "addSignPlaceholder": "Byvoorbeeld, Met beste wense, {name}",
           "signDesc": "Wanneer jy jou wens met vriende op hierdie toepassing deel, sal jou handtekening by die boodskappe gevoeg word. Dit kan byvoorbeeld soos hieronder voorkom:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "Wagwoord het ongeldige karakters.",
         "jsPwdCharCount": "Wagwoord kan nie minder as 8 karakters wees nie.",
         "jsSelectLang": "Kies asseblief eers 'n taal.",
-        "jsLangSet": "Taal is ingestel op {lang}",
+        "jsLangSet": "Taal is op {lang} gestel",
         "jsPrefSaved": "Verpersoonlikingsinstellings gestoor."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "Dit is maklik om u wagwoord terug te stel. Kies 'n metode om voort te gaan:",
         "usePhoneCta": "Gebruik telefoon",
         "useEmailCta": "Gebruik e-pos",
-        "sendEmailIntro": "Voer die e-posadres in waarmee jy jou rekening geskep het, en ons sal 'n e-pos stuur met 'n skakel om 'n nuwe wagwoord vir jou rekening op te stel.",
+        "sendEmailIntro": "Voer die e-posadres in waarmee jy jou rekening geskep het, en ons sal &#39;n e-pos met skakel stuur om &#39;n nuwe wagwoord vir jou rekening op te stel. | Jy moet &#39;n e-posadres byvoeg om by jou rekening aan te meld. Ons sal &#39;n wagwoord-terugstelskakel na hierdie e-pos stuur en van daar af kan jy &#39;n wagwoord skep vir jou rekening wat met jou selfoonnommer geassosieer word.",
         "emailInputLabel": "Jou geregistreerde e-pos",
         "sendEmailCta": "Stuur terugstel-e-pos",
-        "sentEmailText": "As u 'n rekening by ons het, kry u binnekort 'n e-pos met 'n wagwoordterugstelling op <strong>{email}</strong>. Gaan asseblief jou e-pos na vir die skakel.",
-        "notUsingEmailText": "Gebruik jy nie <strong>{email}?</strong>",
+        "sentEmailText": "As jy &#39;n rekening by ons het, sal jy binnekort &#39;n wagwoordterugstel-e-pos per <strong>{email}</strong> kry. Gaan asseblief jou e-pos na vir die skakel.",
+        "notUsingEmailText": "Gebruik jy nie <strong>{email} nie?</strong>",
         "changeEmailCta": "Verander e-pos",
         "phoneIntroText": "Voer die telefoonnommer in wat by u rekening gevoeg is. Ons sal 'n OTP stuur om jou eienaarskap te verifieer, en in die volgende stap sal jy 'n nuwe wagwoord kan skep.",
         "phoneInputLabel": "Jou selfoonnommer",
         "sendOtpCta": "Stuur OTP",
         "backToLoginCta": "Terug na Aanmelding",
-        "disclaimerText": "Neem asseblief kennis dat jy slegs 'n {item} sal kry as jy die {item} by ons geregistreer het",
+        "disclaimerText": "Neem asseblief kennis dat jy slegs &#39;n {item} sal kry as jy die {item} by ons geregistreer het",
         "jsMailSent": "Pos gestuur",
         "title2": "Eis jou rekening op",
+        "introText2": "Dit is maklik om jou wagwoord terug te stel. Voer jou e-pos in en kry die wagwoord-terugstel skakel op jou e-pos.",
         "claimIntroHeading": "Eis jou rekening vinnig op!",
-        "claimIntroText": "Dankie dat jy by ons aangesluit het. Ons het nou vir jou 'n rekening geskep. Kry toegang tot jou rekening deur sy wagwoord terug te stel deur een van die volgende metodes te gebruik:",
-        "introText2": "Dit is maklik om jou wagwoord terug te stel. Voer jou e-pos in en kry die wagwoord-terugstel skakel op jou e-pos."
+        "claimIntroText": "Dankie dat jy by ons aangesluit het. Kry toegang tot jou rekening deur &#39;n e-posadres by jou rekening te voeg."
       },
       "resetPwd": {
         "title": "Stel wagwoord terug",
-        "introText": "Stel 'n veilige wagwoord vir jou rekening hier in. Klik op {icon} om te verseker dat u die regte wagwoord invoer.",
+        "introText": "Stel &#39;n veilige wagwoord vir jou rekening hier. Klik {icon} om te verseker dat jy die regte wagwoord invoer.",
         "pwdInputLabel": "Stel nuwe wagwoord in",
         "pwdInputPH": "Voer nuwe wagwoord in",
         "invalidPwdChars": "Ongeldige karakters in wagwoord",
@@ -812,11 +812,11 @@
       "moreBtn": {
         "jsItemDeleted": "{item} suksesvol uitgevee.",
         "jsErrReporting": "Kan dit nie op die oomblik rapporteer nie. Probeer asseblief weer later.",
-        "jsAlreadyReported": "U het hierdie {item}reeds gerapporteer. U kan dit nie meer as een keer rapporteer nie.",
+        "jsAlreadyReported": "Jy het reeds hierdie {item} gerapporteer. Jy kan dit nie meer as een keer rapporteer nie.",
         "jsPromptHeading": "As u 'n item rapporteer, is dit 'n laer kans om in u of ander se voer / bladsye te verskyn. Wil jy dit nog rapporteer?",
-        "jsReporting": "Rapportering {itemType}..",
+        "jsReporting": "Rapporteer {itemType} ..",
         "jsReportingErr": "Kon nie jou versoek op hierdie oomblik indien nie. Probeer asseblief weer later.",
-        "jsReported": "{item} berig. Dankie vir jou bydrae."
+        "jsReported": "{item} gerapporteer. Dankie vir jou bydrae."
       },
       "editProfileModal": {
         "jsEmptyData": "Niks om op te dateer nie!",
@@ -1010,14 +1010,14 @@
       },
       "verifyShiaModal": {
         "title": "Verifieer rekening vir {name}",
-        "heading": "Kan jy hieronder inligting oor {firstName}beantwoord? Indien nie, verwerp dan hierdie versoek.",
+        "heading": "Kan jy inligting hieronder oor {firstName} beantwoord? Indien nie, verwerp dan hierdie versoek.",
         "desc": "U het net twee pogings om te verifieer!",
-        "descP1": "Wanneer u hierdie vorm indien, sal ons die inligting ooreenstem met wat {firstName} verskaf het wanneer u verifikasie versoek. Let daarop omdat u slegs twee pogings het om hierdie vorm korrek in te vul. As u steeds misluk, sal u {firstName} in die toekoms nie weer kan verifieer nie.",
-        "descP2": "As u {firstName}nie ken nie, verwerp dan hierdie versoek. Ons sal hulle laat weet en hulle vra om iemand anders te bereik.",
+        "descP1": "Wanneer jy hierdie vorm indien, sal ons die inligting pas by die {firstName} wat verskaf is toe ons verifikasie versoek het. Let asseblief op, want jy het net twee pogings om hierdie vorm korrek in te vul. As jy steeds misluk, sal jy nie in die toekoms weer {firstName} kan verifieer nie.",
+        "descP2": "As jy nie {firstName} ken nie, verwerp dan hierdie versoek. Ons sal hulle laat weet en hulle vra om iemand anders te bereik.",
         "rejectRequestCta": "Verwerp versoek",
         "form": {
-          "heading": "Beantwoord die volgende vrae oor {firstName} en klik dien in:",
-          "q1": "Hoe weet jy {firstName}?",
+          "heading": "Beantwoord die volgende vrae oor {firstName} en klik Submit:",
+          "q1": "Hoe ken jy {firstName} ?",
           "q2": "Godsdiens:",
           "q3": "Sekte:",
           "q4": "Is {firstName} Sadat?",
@@ -1073,13 +1073,13 @@
         "cta": "Verwerp",
         "title": "Verwerp versoek",
         "reasonLabel": "Waarom wil u nie hierdie rekening verifieer nie?",
-        "reasonPh": "Ons sal {userName} laat weet en hulle vra om na iemand anders uit te reik vir verifikasie"
+        "reasonPh": "Ons sal {userName} laat weet en hulle vra om iemand anders te kontak vir verifikasie"
       },
       "haadiHome": {
-        "title": "Begin bespreking | Jou besprekings met Haadi",
+        "title": "Begin bespreking | Jou gesprekke met Haadi",
         "item": {
           "added": "Bygevoeg {date}",
-          "tokensUsed": "Tekens gebruik: {tokens}",
+          "tokensUsed": "Krediete gebruik: {tokens}",
           "readContinue": "Lees of gaan voort met bespreking"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Vra 'n vraag",
         "empty": {
           "heading": "Kon hierdie gesprek nie vind nie",
-          "p1": "'N Fout het voorgekom tydens die poging om hierdie gesprek te kry. Gaan asseblief die URL na en probeer weer.",
-          "p2": "As dit aanhou gebeur, kontak ons asseblief.",
-          "guest": "Dit kan wees omdat jy nie aangemeld is nie. Probeer asseblief om aan te meld en kyk weer."
+          "p1": "Ons kon nie hierdie gesprek vind nie. Gaan asseblief die URL na en probeer weer.",
+          "guest": "Dit kan wees omdat jy nie aangemeld is nie. Probeer asseblief om aan te meld en kyk weer.",
+          "p2": "As dit aanhou gebeur, kontak ons asseblief."
         },
         "jsNewChatInfo": "Dit is die begin van 'n nuwe gesprek met Haadi. Jy het gekies om konteks vir Haadi moontlik te maak terwyl jy jou vrae beantwoord. U kan hierdie opsie altyd in instellings deaktiveer, of kyk wat beteken dit vir u."
       },
       "aboutHaadi": {
-        "title": "Ontmoet Haadi, jou botvriend om die Shia-Islam te navigeer!",
-        "desc": "Klik op elk van hierdie opsommings om meer te lees, of vind meer oor Haadi en gebruiksvoorwaardes in <a href={blogLink} target = '_system'>our blog",
+        "title": "Ontmoet Haadi, jou <strong>Bot-vriend</strong> om Shia Islam te navigeer!",
+        "desc": "Ons beveel aan dat jy hierdie opsommings deurgaan voordat jy Haadi begin gebruik. Jy kan meer oor Haadi en gebruiksvoorwaardes vind in <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Ek verstaan en stem saam met Gebruiksvoorwaardes"
       }
     },
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Installeer Bazm { platform }",
-          "desc": "Laai ons Android-toepassing af vir 'n beter ervaring, persoonlike inhoud, kennisgewings en alles van jou belang van regoor jou! | Installeer programkortpad (boekmerk) om volgende keer direk vanaf jou tuisskerm toegang daartoe te kry vir 'n beter ervaring! Dit neem skaars spasie op jou toestel in beslag, maar help jou om vinnig weer op die toepassing te kom.",
+          "heading": "Voeg Bazm-kortpad by",
+          "desc": "Laai ons Android-toepassing af vir &#39;n beter ervaring, gepersonaliseerde inhoud, kennisgewings en alles van jou belang van rondom jou! | Installeer toepassingkortpad (boekmerk) om dit volgende keer direk vanaf u tuisskerm te verkry vir &#39;n beter ervaring! Dit neem skaars enige spasie op jou toestel, maar help jou om vinnig weer op die toepassing te kom.",
           "cta": {
             "action": "Installeer",
             "skip": "Miskien later"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Installeer Bazm-kortpad?"
         },
-        "popover": {
-          "text": "Klik op die Deel-ikoon (lyk soos een aan die regterkant) <strong>ONDER</strong> en klik dan <strong>Voeg by tuisskerm</strong>. Klik op \"Stoor\" om klaar te maak, en dan het u toegang tot die app vanaf die kortpad op u tuisskerm!"
-        },
         "nonSafari": {
-          "heading": "Bazm werk beter op Apple Safari",
+          "heading": "Bazm werk beter op Safari",
           "desc": "Hierdie blaaier het beperkte funksies, terwyl Safari-blaaier ons program in staat stel om beter te presteer, insluitend Push-kennisgewings en App-kortpad.",
-          "subtext": "<strong>Maak Safari-toepassing</strong> op jou foon oop en moet <strong>{url}</strong> vir 'n beter ervaring.",
+          "subtext": "<strong>Maak Safari-blaaier oop</strong> en gaan na <strong>{url}</strong> vir &#39;n beter ervaring.",
           "skipCta": "Gaan eerder hier voort"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Oor die stoor van koekies op jou toestel",
-        "p1": "Ons stoor geen webkoekies op jou {device} nie, maar derdepartyprogramme wat in ons program gebruik word, kan (soos Google Analytics). Ons gebruik eerder permanente berging om enige belangrike data te stoor, en in die meeste gevalle word dit geïnkripteer in berging en tydens oordrag.",
+        "p1": "Ons stoor geen webkoekies op jou {device} nie, maar derdeparty-toepassings wat in ons toepassing gebruik word, kan dalk (soos Google Analytics). Ons gebruik eerder permanente berging om enige belangrike data te stoor, en in die meeste gevalle word dit geïnkripteer tydens berging en tydens oordrag.",
         "p2": "Deur voort te gaan om hierdie app te gebruik, bevestig u hiermee dat u geen probleme met ons keuses het nie. Om meer uit te vind oor ons koekies en datagebruik, sien ons <a href='https://bazm.in/privacy-policy' target='_blank'>Privaatheidsbeleid.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Sosiale netwerk-app vir Shia-Moslems regoor die wêreld! Laai die toepassing vandag af.",
+      "titleBranding": "__ Bazm - Sosiale Netwerk App vir Shia Moslems regoor die wêreld!",
       "home": {
         "title": "Bazm - Aanlyn Shia-gemeenskapstoepassing!",
         "description": "Bazm-app is die Shia-gemeenskapstoepassing wat aan al u daaglikse behoeftes van deen & mazhab voldoen. Soek Nauhe, Majalis, Dua, Aamaal, Ziyarat, Boeke, ens. vir alle datums en geleenthede. Kyk en doen live-stream gebeure en majalis met Shia-Moslems regoor die wêreld vanaf die gerief van jou huis. Sluit vandag aan!"
       },
       "feed": {
-        "title": "Vind pasgemaakte inhoud en deel dit met die Shia-gemeenskap regoor jou en die wêreld",
+        "title": "Bazm - Vind en deel pasgemaakte inhoud van Shia-Moslems regoor die wêreld!",
         "description": "Vind en deel nuus, gebeure en inhoud met shia momeen, en hou hulle op hoogte van enige gebeure wat jy aanbied. Kom meer te wete oor enigiets wat naby jou op die toepassing gebeur."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Luister na Soaz van alle jare en alle gewilde Soazkhwan van regoor die wêreld op Bazm-app. Laai vandag af."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis op Bazm - Vind meer nauhe, klank/video majalis, dua, ziyarat, aamaal, ens. op Bazm",
+        "title": "{type} majalis/majlis op Bazm - Vind meer nauhe, oudio/video majalis, dua, ziyarat, aamaal, ens. op Bazm",
         "description": "Vind klank-/video-majalis van Maulana en Zakir-e-Ahlbayt van naby jou en regoor die wêreld. Luister na en kyk na die nuutste majalis- en livestream-sessies op Bazm-app. Laai die app vandag af en sluit aan by miljoene Shi'a -Moslems regoor die wêreld!"
       },
       "duasPage": {
         "title": [
-          "Duas en aamaal vir die maand van {month} op Bazm - Vind meer nauhe, audio/video majalis, dua, ziyarat, aamaal, ens. op Bazm",
+          "Duas en aamaal vir die maand van die {month} op Bazm - Vind meer nauhe, oudio/video majalis, dua, piyarat, aamaal, ens. op Bazm",
           "Duas en aamaal vir alle maande op Bazm - Vind meer nauhe, klank/video majalis, dua, ziyarat, aamaal, ens. op Bazm"
         ],
         "description": "Vind duas, aamaal, ziyarat en munajat vir alle maande op Bazm, datum en gebeurtenis wys. Laai die app vandag af en sluit aan by miljoene Shi'a -Moslems regoor die wêreld!"
