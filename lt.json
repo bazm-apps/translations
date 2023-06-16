@@ -81,7 +81,8 @@
         "cancelCta": "Paklauskite manęs vėliau",
         "okCta": "Tikrai!",
         "jsPushUnsupported": "Šiame įrenginyje nepalaikomas \"Push\". Galite praleisti pranešimus!"
-      }
+      },
+      "sending": "Siunčiama..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Ši informacija matoma tik jums ir jūs matote turinį bei funkcijas, pagrįstas tuo.",
           "idSetupCta": "Nustatykite savo tapatybę",
           "idVerifyCta": "Patikrinti",
-          "joinDate": "Prisijungė: {date}"
+          "joinDate": "Prisijungė: {date}",
+          "idVerifyAltText": "Tik patvirtintas Shia momineen gali patvirtinti kitus. Prašome patvirtinti savo paskyrą, kad vėliau galėtumėte patvirtinti <strong>{name}</strong> .",
+          "idVerifyAltText2": "Jei jau ko nors paprašėte, galite dar kartą priminti naudodami naują nuorodą arba paprašyti daugiau momineen, kad greičiau atsakytų."
         },
         "posts": {
           "title": "Pranešimų",
@@ -792,7 +795,8 @@
         "jsMailSent": "Išsiųstas laiškas",
         "title2": "Gaukite teises į savo sąskaitą",
         "claimIntroHeading": "Greitai atsiimkite savo sąskaitą!",
-        "claimIntroText": "Dėkojame, kad prisijungėte prie mūsų. Dabar sukūrėme jums paskyrą. Gaukite prieigą prie savo paskyros iš naujo nustatydami slaptažodį vienu iš šių būdų:"
+        "claimIntroText": "Dėkojame, kad prisijungėte prie mūsų. Dabar sukūrėme jums paskyrą. Gaukite prieigą prie savo paskyros iš naujo nustatydami slaptažodį vienu iš šių būdų:",
+        "introText2": "Iš naujo nustatyti slaptažodį paprasta. Įveskite savo el. pašto adresą ir gaukite slaptažodžio nustatymo iš naujo nuorodą el. pašte."
       },
       "resetPwd": {
         "title": "Iš naujo nustatyti slaptažodį",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Nepavyko rasti šio pokalbio",
           "p1": "Bandant užmegzti šį pokalbį įvyko klaida. Patikrinkite URL ir bandykite dar kartą.",
-          "p2": "Jei taip nutinka ir toliau, maloniai susisiekite su mumis."
+          "p2": "Jei taip nutinka ir toliau, maloniai susisiekite su mumis.",
+          "guest": "Taip gali būti todėl, kad nesate prisijungęs. Pabandykite prisijungti ir dar kartą patikrinti."
         },
         "jsNewChatInfo": "Tai naujo pokalbio su Haadi pradžia. Atsakydami į klausimus pasirinkote įjungti \"Haadi\" kontekstą. Visada galite išjungti šią parinktį nustatymuose arba pamatyti, ką tai reiškia jums."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Kokia jūsų ligšiolinė patirtis?",
         "text": "<p>Ar jums patinka nauja programa? Ar yra kažkas, ką galime patobulinti? Prašome padėti mums savo atsiliepimais, kad pagerintumėte jūsų patirtį!</p><p>Tai užtruktų tik kelias minutes, ir mes labai vertiname jūsų laiką!</p>",
         "cta": "Pateikite atsiliepimą",
-        "dismiss": "Gal vėliau"
+        "dismiss": "Gal vėliau",
+        "altText": "Jūsų atsiliepimai padės mums patobulinti programos patirtį ir tai užtruks tik minutę."
       },
       "advertise": {
         "heading": "Reklamuokitės \"Bazm\"",
