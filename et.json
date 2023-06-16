@@ -8,7 +8,7 @@
       "sendOtp": "OTP saatmine.",
       "dismiss": "Jätta",
       "invite": "Kutsuma",
-      "showMore": "Näita rohkem -- Vaata rohkem",
+      "showMore": "Kuva rohkem | Vaata rohkem",
       "play": "Mängima",
       "pause": "Peatatud",
       "playing": "Mängib",
@@ -42,7 +42,7 @@
       "at": "juures",
       "untilNextTime": "Pole probleemi. Järgmise korrani!",
       "plzWait": "Oota..",
-      "saving": "Salvestamine.. | Ajakohastamine..",
+      "saving": "Salvestamine.. | Värskendamine...",
       "search": "Otsing",
       "late": "Hilja",
       "done": "Teinud",
@@ -58,7 +58,7 @@
         "uploading": "Uploading..",
         "deleting": "Kustutamine..",
         "requesting": "Taotluse esitanud..",
-        "audienceHeader": "Momineen, kes {action}d -- Momineen, kes {action}seda",
+        "audienceHeader": "Momineen, kes {action} d —- Momineen, kes {action} d seda",
         "jsShareFileTypeError": "Kahjuks ei saa te {fileType} faile siin jagada",
         "jsUpdateAvailable": {
           "header": "Värskendus on saadaval",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Piltide üleslaadimine nurjus. Proovige hiljem uuesti.",
         "jsLoadingDelay": "See võtab oodatust natuke kauem aega. Palun oodake, kuni me seda taotlust töötleme."
       },
+      "sending": "Saatmine...",
       "close": "Sulgema",
       "yes": "Jah",
       "no": "Ei",
@@ -81,8 +82,7 @@
         "cancelCta": "Küsi minult hiljem",
         "okCta": "Kindel!",
         "jsPushUnsupported": "Push ei toeta seda seadet. Võite märguannetest ilma jääda!"
-      },
-      "sending": "Saatmine..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Praegu ei saanud sisu laadida. Proovige mõne aja pärast uuesti.",
-        "itemDetailUnavailable": "Ei leidnud selle kohta üksikasju {item}",
+        "itemDetailUnavailable": "Selle {item} üksikasju ei leitud",
         "loadMoreError": "Rohkem üksusi ei õnnestunud laadida. Proovige hiljem uuesti."
       },
       "url": {
@@ -152,8 +152,8 @@
           "wishCtaLabel": "SOOVIN"
         },
         "books": {
-          "booksByAuthor": "{author} raamatud",
-          "booksInLang": "Raamatud {lang}",
+          "booksByAuthor": "Raamatud {author} järgi",
+          "booksInLang": "{lang} raamatud",
           "filterBy": "Filtreerige:",
           "matching": {
             "authors": "autorite sobitamisega",
@@ -167,7 +167,7 @@
           "selectLang": "Valige keel:"
         },
         "bookDetails": {
-          "title": "{title} — Leia veel selliseid tasuta raamatuid Bazmist",
+          "title": "{title} — otsige Bazmist rohkem selliseid tasuta raamatuid",
           "aboutBook": "Raamatust:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Khumsi kalkulaator",
         "khumsDesc": "Arvutage oma khums või lisage kõik varem makstud khumid. See aitab teil aastate jooksul oma khumide üle arvestust pidada.",
         "alarms": {
-          "salatAlarms": "Salati alarmid -- igapäevased salatialarmid",
+          "salatAlarms": "Salati äratused — igapäevased salatalarmid",
           "sehriAlarms": "Ramadan Sehri alarmid",
           "gettingLocation": "Asukoha saamine. Oota...",
           "settingsTip": "Muutke <b>alarmisätetes asukohta</b> ja eelistusi. Alustamiseks klõpsake ikooni Sätted.",
@@ -195,12 +195,12 @@
           "midnightLabel": "Kesköö",
           "sehriEndTime": "Sehri lõpu aeg",
           "minToImsak": [
-            "{min} minutit enne Imsakit",
-            "{hour} tund enne Imsakit"
+            "{min} min enne Imsakit",
+            "{hour} enne Imsakit"
           ],
           "minToImsakDesc": [
             "Äratus heliseb {min} minutit enne Sehri aja lõppu",
-            "Äratus heliseb {hour} tundi enne Sehri aja lõppu"
+            "Äratus heliseb {hour} enne Sehri aja lõppu"
           ],
           "notRamadan": "Paistab, et see pole veel ramadaan. Palun tulge tagasi ramadaani ajal või vahetult enne seda, et seada Sehri äratused",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Ajaveeb: arvutage khums tõhusalt",
-              "p1": "<a href='{href}' target='_blank'>Jälgige meie ajaveebi</a> , mis toob igal aastal esile khumide arvutamise põhielemendid.",
+              "p1": "<a href='{href}' target='_blank'>Jälgige meie ajaveebi</a> , mis toob igal aastal esile khummi arvutamise põhipunktid.",
               "p2": "Lahtiütlus: Ajaveeb EI OLE juhend. <strong>Järgige oma Marjahi otsuseid Khumsi arvutamiseks</strong>. <span id='blog-info-link' color='primary'>Lisateabe saamiseks klõpsake siin</span> .",
               "blogInfo": "Ülaltoodud ajaveeb põhineb al-islam.org, sistani.org artiklitel ja meie aruteludel mõne teise teadlasega. Khumsi arvutamiseks peaksite alati järgima oma Marjahi otsuseid.",
               "dismissCta": "Ei ole huvitatud"
@@ -283,7 +283,7 @@
             "mqmsInfo": "Muqammas järgmise arvutuse jaoks",
             "calcHeader": "Põhineb allpool toodud arvutusel:",
             "savingsHeader": "Kokkuhoid",
-            "conversionInfo": "Konverteeritakse {amount} -ks, võttes aluseks {xchgRate} vahetuskursi {xchgRateDate}",
+            "conversionInfo": "Teisendatud {amount} , mis põhineb {xchgRate} vahetuskursil {xchgRateDate}",
             "expensesHeader": "Kulud",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Eelmised muqammad",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Täitke allolev vorm, et arvutada oma khums. Näidatud on valikulised väljad. Klõpsake alloleval teabeikoonil, et jaotise kohta rohkem teada saada.",
-            "blog": "Seotud: Lugege meie ajaveebi teemal <a href='{href}' target='_blank'>Kuidas khums tõhusalt<a> arvutada</a>",
+            "blog": "Seotud: Lugege meie ajaveebi teemal <a href='{href}' target='_blank'>Kuidas khumme tõhusalt arvutada</a>",
             "dateRange": "Valige kuupäevavahemik:",
             "dateRangeInfo": "Tavaliselt arvutavad inimesed khums majandusaasta (nt aprillist märtsini) või kalendriaasta (jaanuar–detsember) kohta",
             "startDate": "Alguskuupäev:",
@@ -337,7 +337,7 @@
               "header": "<strong>Vahetuskursside kasutamine</strong>",
               "subtext": "Arvutamisel kasutatakse neid valuutakursse. Saate neid kohandatud väärtuste kasutamiseks muuta.",
               "info": "Kui tegelete ajalooliste andmetega, näiteks kui lisate arvutused enam kui aasta tagasi, kui vahetuskursid ei olnud samad, mis täna, saate ise määrata vahetuskursside kohandatud väärtused.",
-              "rateValuePH": "{currency}, nt 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "{currency} , nt 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Arvutama",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "Kasutaja | Konto",
+        "name": "Kasutajakonto",
         "editProfile": "Profiili redigeerimine",
         "publishToFeed": "Voos tehtud muudatuste avaldamine",
         "shareUpdateToFeed": "Jagage seda värskendust ka minu voos",
         "statusText_ph": "Vormingu _kursiiv_ või *paks* kasutamine oleku kaunistamiseks",
-        "statusCharsLeft": "{count} märki on jäänud",
+        "statusCharsLeft": "{count} alles jäänud tähemärke",
         "jsImgUploadSuccess": "Pildid on edukalt üles laaditud!",
         "unauthAccess": {
           "heading": "Kas olete kindel, et olete õiges kohas?",
@@ -409,36 +409,36 @@
           "title": "Umbes",
           "jsStatusUpdateFail": "Oleku värskendamine nurjus. Proovige hiljem uuesti.",
           "statusTextInfo": "Lisa enda kohta midagi lühidalt, näiteks, kes sa oled või mida sa teed!",
-          "statusCta": "Lisa olek | Värskenda olek",
+          "statusCta": "Lisa olek | Värskenda olekut",
           "addCity": "Lisa linn",
-          "gender": "Mees -- naine",
+          "gender": "Mees naine",
           "addGender": "Lisa sugu",
           "addBday": "Lisa sünnipäev",
           "addRelation": "Lisa seos",
           "privateInfoDesc": "See teave on nähtav ainult teile ning näete sellel põhinevat sisu ja funktsioone.",
           "idSetupCta": "Seadistage oma identiteet",
           "idVerifyCta": "Kontrollida",
-          "joinDate": "Liitunud: {date}",
           "idVerifyAltText": "Teisi saab kinnitada ainult kinnitatud Shia momineen. Laske oma konto kinnitada, et saaksite pärast seda <strong>{name}</strong> kinnitada.",
-          "idVerifyAltText2": "Kui olete kedagi juba taotlenud, saate seda uue lingiga uuesti meelde tuletada või kiirema vastuse saamiseks küsida rohkem momineent."
+          "idVerifyAltText2": "Kui olete kedagi juba taotlenud, saate seda uue lingiga uuesti meelde tuletada või kiirema vastuse saamiseks küsida rohkem momineent.",
+          "joinDate": "Liitus: {date}"
         },
         "posts": {
           "title": "Postitusi",
           "userNoPosts": "Kui muudate oma pilti/kaanepilti või kui taotlete surah-fatiha oma surnud lähedastele, ilmuvad need postitused siin ja vahekaardil <b>Avaleht</b> (ka teistest). Kas proovite lisada pildi või kaanepildi?",
-          "profileNoPosts": "{name} pole veel ühtegi postitust teinud."
+          "profileNoPosts": "{name} pole veel postitusi teinud."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} pole veel marhumeeni lisanud -- Te pole veel marhumeeni lisanud",
-            "marhumeenAdded": "{name} on lisanud pärast marhumeeni -- Olete lisanud pärast marhumeeni"
+            "marhumeenNotAdded": "{name} pole veel marhumeen lisatud | Sa pole veel marhumeen lisanud",
+            "marhumeenAdded": "{name} on lisanud järgmise marhumeen | Olete lisanud järgmise marhumeen"
           },
           "jsDeleteHeader": "Kas oled kindel?",
-          "jsDeletePrompt": "<b>{fullName}</b> kirjete kustutamine kustutab ka kõik varasemad {gender}kohta tehtud taotlused! Jätkama?",
-          "jsDeleted": "{marhumeen} kustutatud kirjed"
+          "jsDeletePrompt": "<b>{fullName}</b> kirjete kustutamisel kustutatakse ka kõik varasemad {gender} kohta tehtud päringud! Kas jätkata?",
+          "jsDeleted": "Kustutatud {marhumeen} kirjed"
         },
         "verifyCard": {
-          "title": "Kontrollige oma šiiidi identiteeti -- kontrollige oma Sadati identiteeti",
+          "title": "Kinnitage oma Shia identiteet | Kinnitage oma Sadati identiteet",
           "p1": "Olete oma profiilis märkinud, et olete šiiidi moslem. Selle teabe kontrollimine võimaldab teil rohkem funktsioone ja aitab meil luua kontrollitud šiiidi moslemite kogukonna.",
           "p2": "Palun kontrollige oma isikut; see ei võta kaua aega",
           "noReminder": "Ära tuleta mulle enam meelde",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "See link on kas kehtetu või aegunud. Palun paluge oma sõbral saata uus taotlus.",
           "confirm": {
             "heading": "Konto identiteedi kinnitamine",
-            "msg": "Aidake {firstName} {genderLabel1} kontoteavet kinnitada. See võimaldab {genderLabel2} pääseda juurde meie rakenduse rohkematele funktsioonidele",
+            "msg": "Aidake {firstName} saada {genderLabel1} konto teave kinnitatud. See võimaldab {genderLabel2} juurdepääsu meie rakenduse rohkematele funktsioonidele",
             "jsSkip": "Pole probleemi. Kui muudate meelt, saate seda linki hiljem kinnitamiseks uuesti külastada."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Kas kasutate rakendust rakenduses {langLabel}?",
+        "title": "Kas kasutada rakendust {langLabel} ?",
         "desc": {
-          "p1": "Tundub, et pääsete rakendusele juurde {countryName}. Kas soovite näha sisu ja juhtelemente ühes järgmistest keeltest, mida selles piirkonnas räägitakse? Klõpsake oma valikul ja seejärel klõpsake jätkamiseks nuppu \"Salvesta\".",
+          "p1": "Näib, et pääsete rakendusele juurde riigist {countryName} . Kas soovite näha sisu ja juhtelemente, mida selles piirkonnas räägitakse ühes järgmistest keeltest? Klõpsake oma valikul ja seejärel klõpsake jätkamiseks nuppu &quot;Salvesta&quot;.",
           "p2": "Või lükake see hüpikaken tagasi, et jätkata rakenduse kasutamist vaikekeeles."
         },
         "choices": {
           "useLang": [
-            "Jah, kasutage {langName}",
+            "Jah, kasuta {langName}",
             "Kasutage {langName}"
           ],
           "useEnglish": "Jätka inglise keeles",
           "selectFrom": "Või valige üks järgmistest alternatiivsetest keeltest."
         },
-        "langError": "{langName}tõlgete laadimisel ilmnes tõrge. Proovige hiljem uuesti."
+        "langError": "Keele {langName} tõlgete laadimisel ilmnes viga. Palun proovi hiljem uuesti."
       },
       "createPost": {
         "heading": "Mis on täna?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "Loo postitus | Värskenda postitust",
+            "post": "Loo postitus — värskenda postitust",
             "livestream": "Otseülekanne",
-            "hadiyah": "Loo Hadiyah -- Uuenda Hadiyah"
+            "hadiyah": "Loo kingitus — värskendage kingitust"
           },
-          "postCta": "Postitus | Värskenda",
+          "postCta": "Postita | Värskendus",
           "stream": {
-            "scheduleCta": "Salvesta hilisemaks -- Alustage voogesitust"
+            "scheduleCta": "Salvesta hilisemaks | alusta voogesitust"
           },
           "hadiya": {
             "dedication": {
@@ -549,7 +549,7 @@
       },
       "comments": {
         "name": "Kommentaarid",
-        "loadPrevious": "Eelmiste kommentaaride laadimine | Eelmiste vastuste laadimine",
+        "loadPrevious": "Laadi eelnevad kommentaarid | Laadi eelmised vastused",
         "replyingTo": "Vastates:",
         "noComments": "Selle postituse kohta pole veel kommentaare",
         "textboxPlaceholder": "Kirjutage oma kommentaar siia",
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "Te",
-        "addressing": "sinu -- tema -- tema",
+        "addressing": "sinu | tema | tema",
         "itemTypes": {
           "avatar": "avatari pilt",
           "banner": "bänneri pilt",
           "status": "Profiili olek"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> värskendatud {addressing} {item}",
+          "common": "<strong>{username}</strong> {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> palus surah-fatiha {addressing} {relation}",
-            "<strong>{username}</strong> palus surah-fatiha &; namaz-e-wahshat {addressing} {relation}"
+            "<strong>{username}</strong> taotles {relation} {addressing} surah-fatiha",
+            "<strong>{username}</strong> taotles {relation} {addressing} surah-fatiha &amp; namaz-e-wahshat"
           ]
         },
-        "dateUntil": "Kuni: {date} kell {time}",
+        "dateUntil": "Kuni: {date} {time}",
         "privatePost": "See postitus on nähtav ainult teile",
-        "descZiyaratRequest": "Te palusite, et Ziyarat esitataks teie nimel Imaam Husaini (a.s.) *haram* juures *{date}*"
+        "descZiyaratRequest": "Taotlesite Ziyarati esitamist teie nimel imaam Husaini (as) *haramil* {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,13 +623,13 @@
         "died": "Suri:",
         "addMsg": "Kas soovite sõnumi lisada?",
         "addMsg_ph": "Näiteks:\nInna lillahi wa inna ilaihe raje'un. Palun lugege surah-e-fatiha ja 2-rak'at namaz-e-wahshat minu onule, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoomile, kes jättis meid kõiki nutma, et kohtuda oma loojaga.",
-        "remainingChars": "Tegelased: {count} — Tegelased: {count} järelejäänud",
-        "infoEditRelative": "{name} üksikasju saate muuta jaotises <b>Konto > Marhumeen</b>",
+        "remainingChars": "Tähemärgid: {count} | Tähemärgid: järelejäänud {count}",
+        "infoEditRelative": "{name} üksikasju saate muuta jaotises <b>Konto &gt; Marhumeen</b>",
         "saveRequestCta": [
           "Salvesta ja taotle",
           "Taotluse"
         ],
-        "addUpdate": "Lisa | Uuenda",
+        "addUpdate": "Lisa | Värskenda",
         "jsRequesting": "Taotluse esitanud..",
         "jsAddSuccess": [
           "Lisas oma kallima edukalt!",
@@ -675,7 +675,7 @@
         "setLocation": "Määra asukoht",
         "ipAddress": "IP-aadress",
         "alarmLocation": "Häire asukoht",
-        "basedOn": "Asukoht põhineb teie {selector}",
+        "basedOn": "Asukoht teie {selector} põhjal",
         "jsDetecting": "Avastamine, palun oodake..",
         "jsPermDenied": "Rakenduse jaoks on asukohaluba keelatud. Lähtestage selle rakenduse asukohaeelistused, külastades oma telefoni jaotist Seaded.",
         "jsPosUnavailable": "Vabandame, kuid positsioon pole selle telefoni jaoks praegu saadaval. Proovige hiljem uuesti.",
@@ -724,11 +724,11 @@
           "viaSignal": "Hankige signaali kaudu"
         },
         "page2": {
-          "header": "Saatsime teie numbrile 6-kohalise kinnituskoodi ({number})",
+          "header": "Saatsime teie numbrile ( {number} ) 6-kohalise kinnituskoodi",
           "enterCodeLabel": "Sisestage kood",
           "enterCode_ph": "Sisestage 6-kohaline kood",
           "resendCode": "Koodi uuesti saatmine",
-          "notUsingMobile": "Kas te ei kasuta <strong>{number}</strong>?",
+          "notUsingMobile": "Ei kasuta <strong>{number} ?</strong>",
           "changeNumber": "Muuda numbrit"
         },
         "jsVerifySuccess": "Mobiil on edukalt kinnitatud",
@@ -754,10 +754,10 @@
           "sharingDesc": "Välisel jagamisel võivad teie sõnumid välja näha järgmised.",
           "sharingTextDemo": [
             "Kuulake seda Nauha Bazmi rakenduses",
-            "{name} soovitab seda Nauha kuulata Bazm Appis"
+            "{name} soovitab seda Nauha Bazmi rakenduses kuulata"
           ],
           "addSignDesc": "Kas soovite lisada ka oma allkirja?",
-          "addSignPlaceholder": "Näiteks\nParimate soovidega,\n{name}",
+          "addSignPlaceholder": "Näiteks Parimate soovidega, {name}",
           "signDesc": "Kui jagate selles rakenduses oma soovi sõpradega, lisatakse sõnumitele teie allkiri. Näiteks võib see ilmuda järgmiselt:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "Paroolil on sobimatud märgid.",
         "jsPwdCharCount": "Parool ei tohi olla lühem kui 8 tähemärki.",
         "jsSelectLang": "Palun valige kõigepealt keel.",
-        "jsLangSet": "Keel on seatud {lang}",
+        "jsLangSet": "Keeleks on määratud {lang}",
         "jsPrefSaved": "Isikupärastamise seaded on salvestatud."
       },
       "forgotPwd": {
@@ -781,11 +781,11 @@
         "introText": "Parooli lähtestamine on lihtne. Jätkamiseks valige meetod:",
         "usePhoneCta": "Kasutage telefoni",
         "useEmailCta": "E-posti kasutamine",
-        "sendEmailIntro": "Sisestage meiliaadress, millega konto lõite, ja me saadame teile meili lingiga teie konto uue parooli seadistamiseks.",
+        "sendEmailIntro": "Sisestage e-posti aadress, millega oma konto lõite, ja me saadame meili lingiga teie kontole uue parooli seadistamiseks. | Peate oma kontole sisselogimiseks lisama e-posti aadressi. Saadame sellele meilile parooli lähtestamise lingi ja sealt saate luua oma mobiilinumbriga seotud konto jaoks parooli.",
         "emailInputLabel": "Teie registreeritud e-posti aadress",
         "sendEmailCta": "Saada lähtestatud meilisõnum",
-        "sentEmailText": "Kui teil on meie juures konto, saate <strong>{email}</strong>varsti parooli lähtestamise e-kirja. Palun kontrollige linki oma e-posti aadressilt.",
-        "notUsingEmailText": "Kas te ei kasuta <strong>{email}</strong>?",
+        "sentEmailText": "Kui teil on meiega konto, saate peagi <strong>{email}</strong> teel parooli lähtestamise meili. Palun kontrollige oma meili linki.",
+        "notUsingEmailText": "Ei kasuta <strong>{email} ?</strong>",
         "changeEmailCta": "E-posti aadressi muutmine",
         "phoneIntroText": "Sisestage kontole lisatud telefoninumber. Saadame teie omandiõiguse kinnitamiseks OTP ja järgmises etapis saate luua uue parooli.",
         "phoneInputLabel": "Teie mobiilinumber",
@@ -794,13 +794,13 @@
         "disclaimerText": "Pange tähele, et saate {item} ainult siis, kui olete {item} meie juures registreerinud",
         "jsMailSent": "Saadetud kirjad",
         "title2": "Konto väljanõudmine",
+        "introText2": "Parooli lähtestamine on lihtne. Sisestage oma e-posti aadress ja hankige oma meilile parooli lähtestamise link.",
         "claimIntroHeading": "Taotlege oma kontot kiiresti!",
-        "claimIntroText": "Täname, et liitusite meiega. Oleme teile nüüd konto loonud. Kontole juurdepääsu saamiseks lähtestage selle parool, kasutades ühte järgmistest meetoditest.",
-        "introText2": "Parooli lähtestamine on lihtne. Sisestage oma e-posti aadress ja hankige oma meilile parooli lähtestamise link."
+        "claimIntroText": "Täname, et meiega liitusite. Hankige juurdepääs oma kontole, lisades oma kontole e-posti aadressi."
       },
       "resetPwd": {
         "title": "Parooli lähtestamine",
-        "introText": "Määrake oma kontole turvaline parool siin. Klõpsake {icon} , et veenduda, et sisestate õige parooli.",
+        "introText": "Seadke siin oma konto jaoks turvaline parool. Klõpsake {icon} , et veenduda, et sisestate õige parooli.",
         "pwdInputLabel": "Määra uus parool",
         "pwdInputPH": "Sisestage uus parool",
         "invalidPwdChars": "Sobimatud märgid paroolis",
@@ -810,13 +810,13 @@
         "jsTrackLoadFailed": "Raja laadimine ebaõnnestus. Proovige hiljem uuesti."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} kustutati edukalt.",
+        "jsItemDeleted": "{item} kustutamine õnnestus.",
         "jsErrReporting": "Ei saa sellest praegu teatada. Proovige hiljem uuesti.",
-        "jsAlreadyReported": "Olete sellest juba teatanud {item}. Te ei saa sellest teatada rohkem kui üks kord.",
+        "jsAlreadyReported": "Olete sellest {item} juba teatanud. Te ei saa sellest rohkem kui üks kord teatada.",
         "jsPromptHeading": "Üksusest teatamise korral on väiksem tõenäosus, et see kuvatakse teie või teiste voogudes/lehtedel. Kas soovite sellest ikkagi teada anda?",
-        "jsReporting": "Aruandlus {itemType}..",
+        "jsReporting": "Aruandeüksuse {itemType} ..",
         "jsReportingErr": "Ei saanud praegu oma taotlust esitada. Proovige hiljem uuesti.",
-        "jsReported": "{item} teatas. Täname teid panuse eest."
+        "jsReported": "{item} teatatud. Täname panuse eest."
       },
       "editProfileModal": {
         "jsEmptyData": "Pole midagi värskendada!",
@@ -851,7 +851,7 @@
       },
       "khumsPaymentRecord": {
         "title": "Maksekirje lisamine",
-        "paymentFor": "{khumsType} eest tasumine",
+        "paymentFor": "Maksmine {khumsType} eest",
         "totalAmount": "Kogusumma: {amount}",
         "form": {
           "amountLabel": "Summa",
@@ -1009,15 +1009,15 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Konto kinnitamine {name} jaoks",
-        "heading": "Kas saate vastata allpool olevale teabele {firstName}kohta? Kui ei, siis lükake see taotlus tagasi.",
+        "title": "Kinnitage konto {name}",
+        "heading": "Kas saate vastata allpool olevale teabele {firstName} kohta? Kui ei, lükake see taotlus tagasi.",
         "desc": "Teil on ainult kaks katset kontrollida!",
-        "descP1": "Kui esitate selle vormi, vastendame teabe sellega, mida {firstName} kinnitamise taotlemisel esitanud. Palun pöörake tähelepanu, sest teil on ainult kaks katset seda vormi õigesti täita. Kui te ikka ebaõnnestute, ei saa te {firstName} tulevikus uuesti kinnitada.",
-        "descP2": "Kui te ei tea, {firstName}, siis lükake see taotlus tagasi. Me anname neile sellest teada ja palume neil jõuda kellegi teiseni.",
+        "descP1": "Kui esitate selle vormi, ühildame teabe sellega, mida {firstName} esitas kinnituse taotlemisel. Pöörake tähelepanu, sest teil on ainult kaks katset seda vormi õigesti täita. Kui see ikka ebaõnnestub, ei saa te edaspidi {firstName} uuesti kinnitada.",
+        "descP2": "Kui te ei tea {firstName} , lükake see taotlus tagasi. Anname neile teada ja palume kellegi teisega ühendust võtta.",
         "rejectRequestCta": "Lükka taotlus tagasi",
         "form": {
-          "heading": "Vastake järgmistele {firstName} puudutavatele küsimustele ja klõpsake nuppu Esita:",
-          "q1": "Kuidas sa tead, {firstName}?",
+          "heading": "Vastake järgmistele küsimustele {firstName} kohta ja klõpsake nuppu Esita:",
+          "q1": "Kuidas sa tead {firstName} ?",
           "q2": "Religioon:",
           "q3": "Sekti:",
           "q4": "Kas {firstName} on Sadat?",
@@ -1073,13 +1073,13 @@
         "cta": "Tagasi lükata",
         "title": "Taotluse tagasilükkamine",
         "reasonLabel": "Miks te ei soovi seda kontot kinnitada?",
-        "reasonPh": "Anname {userName} sellest teada ja palume neil kontrollimiseks pöörduda kellegi teise poole"
+        "reasonPh": "Anname {userName} teada ja palume tal kinnitamiseks kellegi teisega ühendust võtta"
       },
       "haadiHome": {
-        "title": "Alustage arutelu -- Teie arutelud Haadiga",
+        "title": "Alusta arutelu | Sinu arutelud Haadiga",
         "item": {
           "added": "Lisatud {date}",
-          "tokensUsed": "Kasutatud märgid: {tokens}",
+          "tokensUsed": "Kasutatud krediit: {tokens}",
           "readContinue": "Arutelu lugemine või jätkamine"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Esitage küsimus",
         "empty": {
           "heading": "Ei leidnud seda vestlust",
-          "p1": "Selle vestluse ajal ilmnes tõrge. Kontrollige URL-i ja proovige uuesti.",
-          "p2": "Kui see juhtub, võtke meiega ühendust.",
-          "guest": "Selle põhjuseks võib olla asjaolu, et te pole sisse logitud. Proovige sisse logida ja kontrollige uuesti."
+          "p1": "Me ei leidnud seda vestlust. Kontrollige URL-i ja proovige uuesti.",
+          "guest": "Selle põhjuseks võib olla asjaolu, et te pole sisse logitud. Proovige sisse logida ja kontrollige uuesti.",
+          "p2": "Kui see juhtub, võtke meiega ühendust."
         },
         "jsNewChatInfo": "See on uue vestluse algus Hadiga. Olete otsustanud oma küsimustele vastates lubada Haadi konteksti. Saate selle valiku alati seadetes keelata või vaadata, mida see teie jaoks tähendab."
       },
       "aboutHaadi": {
-        "title": "Saage tuttavaks Haadiga, oma botfriendiga, et navigeerida šiia islamis!",
-        "desc": "Klõpsake kõigil neil kokkuvõtetel, et lugeda rohkem, või lugege lisateavet Haadi ja kasutustingimuste kohta{blogLink} target='_system'>meie blogis <a href=",
+        "title": "Tutvuge Haadiga, oma <strong>Boti-sõbraga,</strong> et navigeerida šiia islamis!",
+        "desc": "Soovitame need kokkuvõtted enne Haadi kasutama hakkamist läbi lugeda. Lisateavet Haadi ja kasutustingimuste kohta leiate <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Mõistan kasutustingimusi ja nõustun nendega"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "Palun sisestage oma parool!",
         "jsEnterValidPwd": [
           "Paroolil on sobimatud märgid. Palun sisestage kehtiv parool.",
-          "Parool peaks olema vähemalt {num} tähemärki."
+          "Parool peab sisaldama vähemalt {num} tähemärki."
         ],
         "jsAccountSuccess": "Konto on edukalt loodud",
         "jsFbError": "Ei saanud oma Facebooki konto andmeid. Proovige uuesti.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Installige Bazm { platvorm }",
-          "desc": "Laadige alla meie Androidi rakendus, et saada parem kogemus, isikupärastatud sisu, märguanded ja kõik teile huvipakkuv teie ümber! | Installige rakenduse otsetee (järjehoidja), et sellele järgmine kord otse avaekraanilt juurde pääseda, et saada parem kogemus! See võtab teie seadmes vaevalt ruumi, kuid aitab teil kiiresti rakendusse naasta.",
+          "heading": "Lisage Bazmi otsetee",
+          "desc": "Laadige alla meie Androidi rakendus, et saada paremat kasutuskogemust, isikupärastatud sisu, märguandeid ja kõike, mis teid huvitab! —- Installige rakenduse otsetee (järjehoidja), et järgmisel korral parema kasutuskogemuse huvides sellele otse avaekraanilt juurde pääseda! See võtab teie seadmes vaevalt ruumi, kuid aitab teil kiiresti rakendusse tagasi pääseda.",
           "cta": {
             "action": "Installida",
             "skip": "Võib-olla hiljem"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Installige Bazmi otsetee?"
         },
-        "popover": {
-          "text": "Klõpsake jagamise ikoonil (näeb välja nagu üks paremal) <strong>ALLPOOL</strong> ja seejärel klõpsake nuppu <strong>Lisa avakuvale</strong>. Lõpetamiseks klõpsake nuppu \"Salvesta\" ja siis pääsete rakendusele juurde avakuva otsetee kaudu!"
-        },
         "nonSafari": {
-          "heading": "Bazm töötab Apple Safaris paremini",
+          "heading": "Bazm töötab Safaris paremini",
           "desc": "Sellel brauseril on piiratud funktsioonid, samas kui Safari brauser võimaldab meie rakendusel paremini toimida, sealhulgas tõukemärguanded ja rakenduse otsetee.",
-          "subtext": "<strong>Avage</strong> oma telefonis Safari rakendus ja minge parema kogemuse saamiseks <strong>{url}</strong>.",
+          "subtext": "Parema kasutuskogemuse saamiseks <strong>avage Safari brauser</strong> ja minge <strong>{url}</strong> ile.",
           "skipCta": "Jätka selle asemel siin"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Küpsiste seadmesse salvestamise kohta",
-        "p1": "Me ei salvesta teie {device} küpsiseid, kuid meie rakenduses kasutatavad kolmanda osapoole rakendused võivad (nt Google Analytics). Selle asemel kasutame oluliste andmete salvestamiseks püsivat salvestusruumi ja enamikul juhtudel krüpteeritakse see salvestusruumis ja edastamise ajal.",
+        "p1": "Me ei salvesta teie {device} küpsiseid, kuid meie rakenduses kasutatavad kolmandate osapoolte rakendused (nt Google Analytics) võivad seda teha. Selle asemel kasutame oluliste andmete salvestamiseks alalist salvestusruumi ja enamikul juhtudel krüpteeritakse see salvestusruumis ja edastamise ajal.",
         "p2": "Selle rakenduse kasutamist jätkates kinnitate käesolevaga, et teil pole meie valikutega probleeme. Lisateavet meie küpsiste ja andmekasutuse kohta leiate meie <a href='https://bazm.in/privacy-policy' target='_blank'>privaatsuseeskirjadest.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - sotsiaalvõrgustiku rakendus šiia moslemitele kogu maailmas! Laadige rakendus alla juba täna.",
+      "titleBranding": "__ Bazm – sotsiaalvõrgustiku rakendus šiia moslemitele kogu maailmas!",
       "home": {
         "title": "Bazm - veebipõhine Shia kogukonna rakendus!",
         "description": "Bazmi rakendus on Shia kogukonna rakendus, mis vastab kõigile teie deen &; mazhabi igapäevastele vajadustele. Leidke Nauhe, Majalis, Dua, Aamaal, Ziyarat, Raamatud jne. kõikidel kuupäevadel ja puhkudel. Vaadake ja tehke otseülekandeid üritustest ja majalis koos šiiitidest moslemitega kogu maailmas mugavalt oma kodus. Liitu juba täna!"
       },
       "feed": {
-        "title": "Otsige kohandatud sisu ja jagage seda shia kogukonnaga teie ümber ja kogu maailmas",
+        "title": "Bazm – leidke ja jagage kohandatud sisu Shia moslemitelt üle maailma!",
         "description": "Otsige ja jagage uudiseid, sündmusi ja sisu shia momineeniga ning hoidke neid kursis kõigi teie korraldatavate üritustega. Vaadake rakendusest kõike, mis teie läheduses toimub."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Kuulake Soazit kõigist aastatest ja kõiki populaarseid Soazkhwani kogu maailmast Bazmi rakenduses."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Leia veel nauhe, audio/video majalis, dua, ziyarat, aamaal jne. kohta Bazm",
+        "title": "{type} majalis/majlis on Bazm - Find more nauhe, audio/video majalis, dua, ziyarat, aamaal jne. kohta Bazm",
         "description": "Leia audio/video maulanast ja Zakir-e-Ahlbaytist enda lähedalt ja kogu maailmast. Kuula ja vaata viimaseid majalise ja otseülekande seansse Bazmi äpis. Laadige rakendus alla juba täna ja liituge miljonite šiiidi moslemitega kogu maailmas!"
       },
       "duasPage": {
         "title": [
-          "Duas ja aamaal {month} kuuks Bazm - Leia veel nauhe, audio/video majalis, dua, ziyarat, aamaal jne. kohta Bazm",
+          "Bazmi {month} kuu duas ja aamaal - Find more nauhe, audio/video majalis, dua, piyarat, aamaal jne. kohta Bazm",
           "Duas ja aamaal kõik kuud Bazmil - Leia rohkem nauhe, audio/video majalis, dua, ziyarat, aamaal jne. kohta Bazm"
         ],
         "description": "Leia duas, aamaal, ziyarat ja munajat kõigi kuude kohta Bazm, kuupäev ja sündmus tark. Laadige rakendus alla juba täna ja liituge miljonite šiiidi moslemitega kogu maailmas!"
