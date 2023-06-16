@@ -8,7 +8,7 @@
       "sendOtp": "Anfon OTP ..",
       "dismiss": "Diswyddo",
       "invite": "Gwahodd",
-      "showMore": "Dangos mwy — Gweld mwy",
+      "showMore": "Dangos mwy | See more",
       "play": "Chwarae",
       "pause": "Oediedig",
       "playing": "Chwarae",
@@ -16,13 +16,13 @@
       "watch": "Gwylio",
       "read": "Darllen",
       "authors": "Awdur | Awduron",
-      "languages": "Iaith — Ieithoedd",
+      "languages": "Iaith | Ieithoedd",
       "clear": "Clirio",
       "cancel": "Canslo",
       "change": "Newid",
       "continue": "Parhau",
       "select": "Dewis",
-      "saveChanges": "Save changes | Save | Update",
+      "saveChanges": "Cadw newidiadau | Cadw | Diweddariad",
       "newBadge": "Newydd",
       "login": "Mewngofnod",
       "logout": "Logio allan",
@@ -38,11 +38,11 @@
       "retry": "Ailgynnig",
       "send": "Anfon",
       "submit": "Cynnig",
-      "share": "Rhannu | Rhannwch nawr",
+      "share": "Rhannwch | Rhannwch nawr",
       "at": "ar",
       "untilNextTime": "Dim problem. Tan y tro nesaf!",
       "plzWait": "Arhoswch os gwelwch yn dda..",
-      "saving": "Achubiaeth.. — — Diweddaru..",
+      "saving": "Arbed .. | Diweddaru..",
       "search": "Chwilio",
       "late": "Hwyr",
       "done": "Wneud",
@@ -58,8 +58,8 @@
         "uploading": "Lanlwytho..",
         "deleting": "Ddileu..",
         "requesting": "Gofyn..",
-        "audienceHeader": "Momineen sy'n {action}d | Momineen sy'n {action}d hon",
-        "jsShareFileTypeError": "Mae'n ddrwg gennym, ni allwch rannu {fileType} ffeiliau yma",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
+        "jsShareFileTypeError": "Mae&#39;n ddrwg gennym, ni allwch rannu ffeiliau {fileType} ffeil yma",
         "jsUpdateAvailable": {
           "header": "Y wybodaeth ddiweddaraf ar gael",
           "message": "Rydych chi'n gweld fersiwn wedi'i storio o'r ap. Cliciwch 'Adnewyddu' i ddiweddaru a llwytho cynnwys a nodweddion newydd.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Methodd uwchlwytho lluniau. Ceisiwch eto yn nes ymlaen.",
         "jsLoadingDelay": "Mae'n cymryd ychydig yn hirach na'r disgwyl. Os gwelwch yn dda aros wrth i ni brosesu'r cais hwn."
       },
+      "sending": "Wrthi&#39;n anfon...",
       "close": "Cau",
       "yes": "Ie",
       "no": "Na",
@@ -81,8 +82,7 @@
         "cancelCta": "Gofynnwch i mi yn nes ymlaen",
         "okCta": "Sicr!",
         "jsPushUnsupported": "Gwthio heb ei gefnogi ar y ddyfais hon. Efallai y byddwch chi'n colli hysbysiadau!"
-      },
-      "sending": "Wrthi&#39;n anfon..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Ni allai lwytho'r cynnwys ar hyn o bryd. Ceisiwch eto ymhen ychydig.",
-        "itemDetailUnavailable": "Methu dod o hyd i fanylion ar gyfer y {item} hwn",
+        "itemDetailUnavailable": "Methu dod o hyd i fanylion ar gyfer yr {item} hon",
         "loadMoreError": "Methu â llwytho mwy o eitemau. Ceisiwch eto yn nes ymlaen."
       },
       "url": {
@@ -167,7 +167,7 @@
           "selectLang": "Dewiswch iaith:"
         },
         "bookDetails": {
-          "title": "{title} — Dod o hyd i fwy o lyfrau am ddim fel hyn ar Bazm",
+          "title": "{title} - Dewch o hyd i fwy o lyfrau rhad ac am ddim fel hyn ar Bazm",
           "aboutBook": "Ynglŷn â'r llyfr:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Cyfrifiannell Khums",
         "khumsDesc": "Cyfrifwch eich khums, neu ychwanegu unrhyw khums a dalwyd o'r blaen. Mae'n eich helpu gyda chadw cofnodion eich khums dros y blynyddoedd.",
         "alarms": {
-          "salatAlarms": "Larymau Salat | Larymau Salat dyddiol",
+          "salatAlarms": "Larymau Salat | Larymau Salat Dyddiol",
           "sehriAlarms": "Larymau Sehri Ramadan",
           "gettingLocation": "Dod o hyd i'ch lleoliad. Arhoswch os gwelwch yn dda...",
           "settingsTip": "Newid <b>lleoliad a</b> dewisiadau mewn lleoliadau larwm. Cliciwch Gosodiadau eicon i ddechrau.",
@@ -195,12 +195,12 @@
           "midnightLabel": "Canol Nos",
           "sehriEndTime": "Amser ar gyfer diwedd Sehri",
           "minToImsak": [
-            "{min} munud cyn Imsak",
+            "{min} min cyn Imsak",
             "{hour} awr cyn Imsak"
           ],
           "minToImsakDesc": [
-            "Larwm yn canu {min} munud cyn diwedd amser Sehri",
-            "Larwm yn canu {hour} awr cyn diwedd amser Sehri"
+            "Larwm yn canu {min} cyn diwedd amser Sehri",
+            "Larwm yn canu {hour} cyn diwedd amser Sehri"
           ],
           "notRamadan": "Mae'n ymddangos nad yw'n Ramadan eto. Dewch yn ôl yn ystod neu ychydig cyn Ramadan i osod y larymau ar gyfer Sehri",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Blog: Cyfrifwch khums yn effeithlon",
-              "p1": "<a href='{href}' target='_blank'>Dilynwch ein blog</a> sy'n tynnu sylw at eitemau allweddol wrth gyfrifo khums bob blwyddyn.",
+              "p1": "<a href='{href}' target='_blank'>Dilynwch ein blog</a> sy&#39;n tynnu sylw at eitemau allweddol wrth gyfrifo khums bob blwyddyn.",
               "p2": "Ymwadiad: Nid yw'r blog yn arweiniad. <strong>Dilynwch ddyfarniadau eich Marjah ar gyfer cyfrifo Khums</strong>. <span id='blog-info-link' color='primary'>Cliciwch yma</span> am fwy o wybodaeth.",
               "blogInfo": "Mae'r blog uchod yn seiliedig ar erthyglau gan al-islam.org, sistani.org, a'n trafodaethau gydag ychydig o ysgolheigion eraill. Dylech bob amser ddilyn y dyfarniadau gan eich Marjah ar gyfer cyfrifo Khums.",
               "dismissCta": "Dim diddordeb"
@@ -283,7 +283,7 @@
             "mqmsInfo": "Muqammas ar gyfer cyfrifiad nesaf",
             "calcHeader": "Yn seiliedig ar y cyfrifiad isod:",
             "savingsHeader": "Arbedion",
-            "conversionInfo": "Trosi i {amount} yn seiliedig ar gyfradd gyfnewid o {xchgRate} ar {xchgRateDate}",
+            "conversionInfo": "Wedi&#39;i drosi i {amount} yn seiliedig ar gyfradd gyfnewid {xchgRate} ar {xchgRateDate}",
             "expensesHeader": "Treuliau",
             "mqmsHeader": "Muqammas",
             "prevMqms": "muqammas blaenorol",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Llenwch y ffurflen isod i gyfrifo'ch khums. Mae meysydd dewisol yn cael eu nodi. Cliciwch info-icon isod i gael gwybod mwy am yr adran.",
-            "blog": "Cysylltiedig: Darllenwch ein blog ar <a href='{href}' target='_blank'>Sut i gyfrifo khums yn effeithlon<a></a>",
+            "blog": "Cysylltiedig: Darllenwch ein blog ar <a href='{href}' target='_blank'>Sut i gyfrifo khums yn effeithlon</a>",
             "dateRange": "Dewis ystod dyddiadau:",
             "dateRangeInfo": "Yn nodweddiadol, mae pobl yn cyfrifo khums am flwyddyn ariannol (e.e. o fis Ebrill i fis Mawrth) neu flwyddyn galendr (Ionawr i Rhagfyr)",
             "startDate": "Dyddiad dechrau:",
@@ -337,7 +337,7 @@
               "header": "<strong>Defnyddio cyfraddau cyfnewid</strong>",
               "subtext": "Bydd y cyfraddau cyfnewid arian hyn yn cael eu defnyddio ar gyfer cyfrifo. Gallwch eu newid i ddefnyddio gwerthoedd arferol.",
               "info": "Wrth ymdrin â data hanesyddol, megis wrth ychwanegu cyfrifiad ar gyfer khums o dros flwyddyn yn ôl pan nad oedd y cyfraddau cyfnewid yr un fath â heddiw, gallwch osod gwerthoedd arferol ar gyfer cyfraddau cyfnewid eich hun.",
-              "rateValuePH": "Yn {currency}, e.e. 1 {mainCurrency} = 80.21 {currency}"
+              "rateValuePH": "Mewn {currency} , ee, 1 {mainCurrency} = 80.21 {currency}"
             },
             "calculateCta": "Gyfrifo",
             "pageError": {
@@ -366,7 +366,7 @@
         }
       },
       "user": {
-        "name": "Defnyddiwr — — Cyfrif",
+        "name": "Defnyddiwr | Cyfrif",
         "editProfile": "Golygu Proffil",
         "publishToFeed": "Cyhoeddi fy newidiadau i fwydo",
         "shareUpdateToFeed": "Rhannwch y diweddariad hwn hefyd i'm porthiant",
@@ -409,36 +409,36 @@
           "title": "Ynghylch",
           "jsStatusUpdateFail": "Methu diweddaru statws. Ceisiwch eto yn nes ymlaen.",
           "statusTextInfo": "Ychwanegwch rywbeth byr amdanoch chi'ch hun, fel pwy ydych chi neu beth ydych chi'n ei wneud!",
-          "statusCta": "Ychwanegu Statws | Statws Diweddaru",
+          "statusCta": "Ychwanegu Statws | Diweddaru Statws",
           "addCity": "Ychwanegu Dinas",
-          "gender": "Gwryw — Benyw",
+          "gender": "Dyn Fenyw",
           "addGender": "Ychwanegu Rhyw",
           "addBday": "Ychwanegu Pen-blwydd",
           "addRelation": "Ychwanegu Perthynas",
           "privateInfoDesc": "Mae'r wybodaeth hon yn weladwy i chi yn unig ac rydych chi'n gweld cynnwys a nodweddion yn seiliedig ar hyn.",
           "idSetupCta": "Sefydlu eich hunaniaeth",
           "idVerifyCta": "Gwireddu",
-          "joinDate": "Cysylltu: {date}",
           "idVerifyAltText": "Dim ond Shia momineen wedi&#39;i ddilysu all wirio eraill. Sicrhewch fod eich cyfrif wedi&#39;i ddilysu, fel y gallwch wirio&#39;r <strong>{name}</strong> wedi hynny.",
-          "idVerifyAltText2": "Os ydych eisoes wedi gofyn am rywun, gallwch eu hatgoffa eto gyda dolen newydd, neu ofyn i fwy o momineen am ymateb cyflymach."
+          "idVerifyAltText2": "Os ydych eisoes wedi gofyn am rywun, gallwch eu hatgoffa eto gyda dolen newydd, neu ofyn i fwy o momineen am ymateb cyflymach.",
+          "joinDate": "Ymunodd: {date}"
         },
         "posts": {
           "title": "Swyddi",
           "userNoPosts": "Pan fyddwch chi'n newid eich llun / delwedd gorchudd, neu pan fyddwch chi'n gofyn am surah-fatiha ar gyfer eich anwyliaid sydd wedi'u trechu, bydd y swyddi hyn yn ymddangos yma ac yn <b>y tab Cartref</b> (o eraill hefyd). Ceisiwch ychwanegu llun neu ddelwedd clawr?",
-          "profileNoPosts": "{name} ddim wedi gwneud unrhyw swyddi eto."
+          "profileNoPosts": "nid {name} wedi gwneud unrhyw bostiadau eto."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} ddim wedi ychwanegu marhumeen eto | Nid ydych wedi ychwanegu marhumeen eto",
-            "marhumeenAdded": "{name} wedi ychwanegu yn dilyn marhumeen | Rydych chi wedi ychwanegu yn dilyn marhumeen"
+            "marhumeenNotAdded": "{name} hasn&#39;t marhumeen added yet | Nid ydych wedi ychwanegu marhumeen eto",
+            "marhumeenAdded": "{name} has added following marhumeen | You have added following marhumeen"
           },
           "jsDeleteHeader": "Wyt ti'n siŵr?",
-          "jsDeletePrompt": "Bydd dileu cofnodion ar gyfer <b>{fullName}</b> hefyd yn dileu'r holl geisiadau blaenorol a wnaed am {gender}! Parhau?",
-          "jsDeleted": "Cofnodion wedi'u dileu ar gyfer {marhumeen}"
+          "jsDeletePrompt": "Bydd dileu cofnodion ar gyfer <b>{fullName}</b> hefyd yn dileu pob cais blaenorol a wnaed am {gender} ! Parhau?",
+          "jsDeleted": "Wedi dileu cofnodion ar gyfer {marhumeen}"
         },
         "verifyCard": {
-          "title": "Gwiriwch eich hunaniaeth Shia | Gwiriwch eich hunaniaeth Sadat",
+          "title": "Gwiriwch eich hunaniaeth Shia | Dilyswch eich hunaniaeth Sadat",
           "p1": "Rydych chi wedi nodi yn eich proffil eich bod chi'n Mwslimaidd Shia. Bydd gwirio'r wybodaeth hon yn galluogi mwy o nodweddion i chi ac yn ein helpu i adeiladu cymuned wedi'i dilysu o Fwslimiaid Shia.",
           "p2": "Gwiriwch eich hunaniaeth yn garedig; Ni fydd yn cymryd llawer o amser",
           "noReminder": "Peidiwch â'm hatgoffa eto",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Mae'r ddolen hon naill ai'n annilys neu mae wedi dod i ben. Gofynnwch i'ch ffrind anfon cais newydd.",
           "confirm": {
             "heading": "Gwirio Hunaniaeth Cyfrif",
-            "msg": "Help {firstName} gael {genderLabel1} wybodaeth cyfrif gwirio. Bydd hyn yn galluogi {genderLabel2} i gael mynediad at fwy o nodweddion ar ein gwefan.",
+            "msg": "Helpwch {firstName} i ddilysu gwybodaeth cyfrif {genderLabel1} . Bydd hyn yn galluogi {genderLabel2} i gael mynediad at fwy o nodweddion ar ein app",
             "jsSkip": "Dim problem. Os byddwch yn newid eich meddwl, gallwch ailedrych ar y ddolen hon i wirio yn nes ymlaen."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Defnyddio app yn {langLabel}?",
+        "title": "Defnyddio ap yn {langLabel} ?",
         "desc": {
-          "p1": "Mae'n edrych fel eich bod yn cael mynediad i'r app o {countryName}. Hoffech chi weld cynnwys a rheolaethau yn un o'r ieithoedd canlynol yn cael eu siarad yn y rhanbarth? Cliciwch ar eich dewis ac yna cliciwch 'Save' i barhau.",
+          "p1": "Mae&#39;n edrych fel eich bod yn cyrchu&#39;r ap o {countryName} . Hoffech chi weld cynnwys a rheolyddion yn un o&#39;r ieithoedd canlynol a siaredir yn y rhanbarth? Cliciwch ar eich dewis ac yna cliciwch ar &#39;Save&#39; i barhau.",
           "p2": "Neu, yn diystyru'r popup hwn i barhau i ddefnyddio'r app mewn iaith ddiofyn."
         },
         "choices": {
           "useLang": [
-            "Ie, defnyddiwch {langName}",
-            "Defnyddio {langName}"
+            "Oes, defnyddiwch {langName}",
+            "Defnyddiwch {langName}"
           ],
           "useEnglish": "Parhau yn Saesneg",
           "selectFrom": "Neu, dewiswch o un o'r ieithoedd eraill canlynol:"
         },
-        "langError": "Digwyddodd gwall wrth lwytho'r cyfieithiadau ar gyfer {langName}. Ceisiwch eto yn nes ymlaen."
+        "langError": "Bu gwall wrth lwytho&#39;r cyfieithiadau ar gyfer {langName} . Rho gynnig Arni eto&#39;n hwyrach."
       },
       "createPost": {
         "heading": "Beth am heddiw?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "Creu Post | Post Diweddaru",
+            "post": "Creu Post | Diweddariad Post",
             "livestream": "Llif byw",
-            "hadiyah": "Creu Hadiyah — Diweddariad Hadiyah"
+            "hadiyah": "Creu Rhodd | Diweddaru Rhodd"
           },
-          "postCta": "Post — — Y Diweddariad",
+          "postCta": "Post | Diweddariad",
           "stream": {
-            "scheduleCta": "Save for Later — Start Streaming"
+            "scheduleCta": "Arbedwch am nes ymlaen | Dechrau Ffrydio"
           },
           "hadiya": {
             "dedication": {
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "Ti",
-        "addressing": "eich — ei — ei — ei",
+        "addressing": "dy | ei | ei",
         "itemTypes": {
           "avatar": "Delwedd avatar",
           "banner": "delwedd baner",
           "status": "Statws proffil"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> diweddaru {addressing} {item}",
+          "common": "<strong>{username}</strong> wedi&#39;i ddiweddaru {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> gofyn am surah-fatiha am {addressing} {relation}",
-            "<strong> Gofynnodd{username}</strong> surah-fatiha & namaz-e-wahshat am {addressing} {relation}"
+            "<strong>{username}</strong> y gofynnwyd amdano surah-fatiha ar gyfer {addressing} {relation}",
+            "gofynnwyd am <strong>{username}</strong> surah-fatiha &amp; namaz-e-wahshat ar gyfer {addressing} {relation}"
           ]
         },
-        "dateUntil": "Tan {date} yn {time}",
+        "dateUntil": "Tan: {date} ar {time}",
         "privatePost": "Mae'r swydd hon yn weladwy i chi yn unig",
-        "descZiyaratRequest": "Gofynasoch i Ziyarat gael ei berfformio ar eich rhan yn *haram* o Imam Husain (a.s.) ar *{date}*"
+        "descZiyaratRequest": "Gwnaethoch gais i Ziyarat gael ei pherfformio ar eich rhan yn *haram* o Imam Husain (fel) ar * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,13 +623,13 @@
         "died": "Marw:",
         "addMsg": "Eisiau ychwanegu neges?",
         "addMsg_ph": "Er enghraifft:\nInna lillahi wa inna ilaihe raje'un. Adroddwch surah-e-fatiha a 2-rak'at namaz-e-wahshat ar gyfer fy ewythr, Syed Zeeshan Haider Wald Syed Tauqeer Hasan Marhoom, a adawodd i ni i gyd yn crio ar ôl i gwrdd â'i greawdwr.",
-        "remainingChars": "Cymeriadau: {count} — — Cymeriadau: {count} sy'n weddill",
-        "infoEditRelative": "Gallwch olygu manylion ar gyfer {name} yn eich <b>cyfrif > adran Marhumeen</b>",
+        "remainingChars": "Cymeriadau : {count} | Cymeriadau : {count} yn weddill",
+        "infoEditRelative": "Gallwch olygu&#39;r manylion ar gyfer {name} yn adran eich <b>Cyfrif &gt; Marhumeen</b>",
         "saveRequestCta": [
           "Arbed a Gwneud Cais",
           "Cais"
         ],
-        "addUpdate": "Ychwanegu — — Diweddariad",
+        "addUpdate": "Ychwanegu | Diweddariad",
         "jsRequesting": "Gofyn..",
         "jsAddSuccess": [
           "Ychwanegwch eich anwylyd yn llwyddiannus!",
@@ -724,17 +724,17 @@
           "viaSignal": "Ewch trwy Signal"
         },
         "page2": {
-          "header": "Rydym wedi anfon cod cadarnhau 6 digid at eich rhif ({number})",
+          "header": "Rydym wedi anfon cod cadarnhau 6 digid i&#39;ch rhif ( {number} )",
           "enterCodeLabel": "Rhowch god",
           "enterCode_ph": "Rhowch y cod 6 digid",
           "resendCode": "Cod Ail-anfon",
-          "notUsingMobile": "Ddim yn defnyddio <strong>{number}</strong>?",
+          "notUsingMobile": "Ddim yn defnyddio <strong>{number} ?</strong>",
           "changeNumber": "Newid Nifer"
         },
         "jsVerifySuccess": "Gwirio symudol yn llwyddiannus",
         "jsVerifyError": "Digwyddodd camgymeriad. Ceisiwch eto yn nes ymlaen.",
         "jsSendOtpFailed": "Methu ag anfon OTP. Ceisiwch eto yn nes ymlaen.",
-        "jsSendOtpSuccess": "Anfonwyd OTP at {mobile}",
+        "jsSendOtpSuccess": "Anfonwyd OTP i {mobile}",
         "jsTooManyRequests": "Mae'n edrych fel eich bod wedi rhoi cynnig ar lawer gwaith yn barod. Arhoswch funud neu ddau a cheisiwch eto."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "Wrth rannu'n allanol, efallai y bydd eich negeseuon yn edrych fel isod:",
           "sharingTextDemo": [
             "Gwrandewch ar hyn Nauha ar Bazm App",
-            "{name} argymell gwrando ar y Nauha hwn ar Bazm App"
+            "{name} yn argymell gwrando ar y Nauha hwn ar Bazm App"
           ],
           "addSignDesc": "Eisiau ychwanegu eich llofnod hefyd?",
-          "addSignPlaceholder": "Er enghraifft\nGyda dymuniadau gorau,\n{name}",
+          "addSignPlaceholder": "Er enghraifft, Gyda dymuniadau gorau, {name}",
           "signDesc": "Pan fyddwch yn rhannu eich dymuniad gyda ffrindiau ar app hwn, bydd eich llofnod yn cael ei ychwanegu at y negeseuon. Er enghraifft, gall ymddangos fel isod:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "Mae gan Password gymeriadau annilys.",
         "jsPwdCharCount": "Ni all y cyfrinair fod yn llai nag 8 nod.",
         "jsSelectLang": "Dewiswch iaith yn gyntaf.",
-        "jsLangSet": "Mae'r iaith wedi'i gosod i {lang}",
+        "jsLangSet": "Iaith wedi ei gosod i {lang}",
         "jsPrefSaved": "Gosodiadau personoli wedi'u cadw."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "Mae ailosod eich cyfrinair yn hawdd. Dewiswch ffordd i barhau:",
         "usePhoneCta": "Defnyddio Ffôn",
         "useEmailCta": "Defnyddio E-bost",
-        "sendEmailIntro": "Rhowch y cyfeiriad e-bost y gwnaethoch greu eich cyfrif ag ef, a byddwn yn anfon e-bost gyda dolen i sefydlu cyfrinair newydd ar gyfer eich cyfrif.",
+        "sendEmailIntro": "Rhowch y cyfeiriad e-bost y gwnaethoch chi greu eich cyfrif ag ef, a byddwn yn anfon e-bost gyda dolen i osod cyfrinair newydd ar gyfer eich cyfrif. | Mae angen i chi ychwanegu cyfeiriad e-bost i fewngofnodi i&#39;ch cyfrif. Byddwn yn anfon dolen ailosod cyfrinair i&#39;r e-bost hwn ac oddi yno, gallwch greu cyfrinair ar gyfer eich cyfrif sy&#39;n gysylltiedig â&#39;ch rhif ffôn symudol.",
         "emailInputLabel": "Eich e-bost cofrestredig",
         "sendEmailCta": "Anfon Ailosod E-bost",
-        "sentEmailText": "Os oes gennych gyfrif gyda ni, byddwch yn cael e-bost ailosod cyfrinair yn fuan ar <strong>{email}</strong>. Gwiriwch eich e-bost yn garedig am y ddolen.",
-        "notUsingEmailText": "Ddim yn defnyddio <strong>{email}</strong>?",
+        "sentEmailText": "Os oes gennych gyfrif gyda ni, byddwch yn cael e-bost ailosod cyfrinair yn fuan ar <strong>{email}</strong> . Gwiriwch eich e-bost am y ddolen.",
+        "notUsingEmailText": "Ddim yn defnyddio <strong>{email} ?</strong>",
         "changeEmailCta": "Newid E-bost",
         "phoneIntroText": "Rhowch y rhif ffôn sydd wedi'i ychwanegu at eich cyfrif. Byddwn yn anfon OTP i wirio eich perchnogaeth, ac yn y cam nesaf, byddwch yn gallu creu cyfrinair newydd.",
         "phoneInputLabel": "Eich rhif ffôn symudol",
         "sendOtpCta": "Anfon OTP",
         "backToLoginCta": "Yn ôl i Mewngofnodi",
-        "disclaimerText": "Sylwch y byddwch yn cael {item} dim ond os yw'r {item} wedi'i gofrestru gyda ni",
+        "disclaimerText": "Sylwch y byddwch yn cael {item} dim ond os yw&#39;r {item} wedi&#39;i chofrestru gyda ni",
         "jsMailSent": "Mail wedi ei anfon",
         "title2": "Hawliwch eich cyfrif",
+        "introText2": "Mae ailosod eich cyfrinair yn hawdd. Rhowch eich e-bost a chael y ddolen ailosod cyfrinair ar eich e-bost.",
         "claimIntroHeading": "Hawliwch eich cyfrif yn gyflym!",
-        "claimIntroText": "Diolch am ymuno â ni. Rydym wedi creu cyfrif i chi nawr. Cael mynediad i'ch cyfrif trwy ailosod ei gyfrinair gan ddefnyddio un o'r dulliau canlynol:",
-        "introText2": "Mae ailosod eich cyfrinair yn hawdd. Rhowch eich e-bost a chael y ddolen ailosod cyfrinair ar eich e-bost."
+        "claimIntroText": "Diolch am ymuno â ni. Sicrhewch fynediad i&#39;ch cyfrif trwy ychwanegu e-bost at eich cyfrif."
       },
       "resetPwd": {
         "title": "Ailosod Cyfrinair",
-        "introText": "Gosodwch gyfrinair diogel ar gyfer eich cyfrif yma. Cliciwch {icon} i sicrhau eich bod yn nodi'r cyfrinair cywir.",
+        "introText": "Gosodwch gyfrinair diogel ar gyfer eich cyfrif yma. Cliciwch {icon} i sicrhau eich bod chi&#39;n nodi&#39;r cyfrinair cywir.",
         "pwdInputLabel": "Gosod cyfrinair newydd",
         "pwdInputPH": "Rhowch gyfrinair newydd",
         "invalidPwdChars": "Cymeriadau annilys mewn cyfrinair",
@@ -810,13 +810,13 @@
         "jsTrackLoadFailed": "Methu â llwytho'r trac. Ceisiwch eto yn nes ymlaen."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} dileu yn llwyddiannus.",
+        "jsItemDeleted": "{item} wedi&#39;i dileu yn llwyddiannus.",
         "jsErrReporting": "Ni allaf adrodd ar hyn ar hyn o bryd. Ceisiwch eto yn nes ymlaen.",
-        "jsAlreadyReported": "Rydych chi eisoes wedi riportio'r {item}hwn. Ni allwch ddweud mwy nag unwaith.",
+        "jsAlreadyReported": "Rydych chi eisoes wedi riportio&#39;r {item} hon . Ni allwch roi gwybod amdano fwy nag unwaith.",
         "jsPromptHeading": "Mae adrodd ar eitem yn arwain at ei siawns is o ymddangos yn eich porthiant / tudalennau chi neu eraill. Ydych chi'n dal i fod eisiau adrodd am hyn?",
-        "jsReporting": "Adrodd {itemType}..",
+        "jsReporting": "{itemType} adrodd ..",
         "jsReportingErr": "Ni allwch gyflwyno eich cais ar hyn o bryd. Ceisiwch eto yn nes ymlaen.",
-        "jsReported": "{item} adroddwyd. Diolch am eich cyfraniad."
+        "jsReported": "{item} a adroddwyd. Diolch am eich cyfraniad."
       },
       "editProfileModal": {
         "jsEmptyData": "Dim byd i ddiweddaru!",
@@ -852,7 +852,7 @@
       "khumsPaymentRecord": {
         "title": "Ychwanegu Cofnod Talu",
         "paymentFor": "Taliad am {khumsType}",
-        "totalAmount": "Cyfanswm y swm: {amount}",
+        "totalAmount": "Cyfanswm: {amount}",
         "form": {
           "amountLabel": "Swm",
           "amountPlaceholder": "Rhowch Swm",
@@ -1009,18 +1009,18 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Gwirio cyfrif ar gyfer {name}",
-        "heading": "Allwch chi ateb y wybodaeth isod am {firstName}? Os na, gwrthodwch y cais hwn.",
+        "title": "Gwiriwch y cyfrif am {name}",
+        "heading": "Allwch chi ateb isod gwybodaeth am {firstName} ? Os na, yna gwrthodwch y cais hwn.",
         "desc": "Dim ond dau ymgais sydd gennych i wirio!",
-        "descP1": "Pan fyddwch yn cyflwyno'r ffurflen hon, byddwn yn paru'r wybodaeth â'r hyn a ddarparwyd {firstName} wrth ofyn am ddilysiad. Rhowch sylw oherwydd dim ond dau ymgais sydd gennych i lenwi'r ffurflen hon yn gywir. Os byddwch yn dal i fethu, ni fyddwch yn gallu gwirio' {firstName} eto yn y dyfodol.",
-        "descP2": "Os nad ydych chi'n gwybod {firstName}, yna gwrthodwch y cais hwn. Byddwn yn rhoi gwybod iddynt ac yn gofyn iddynt gyrraedd rhywun arall.",
+        "descP1": "Pan fyddwch yn cyflwyno&#39;r ffurflen hon, byddwn yn paru&#39;r wybodaeth â&#39;r hyn a ddarparwyd gan {firstName} wrth ofyn am ddilysiad. Rhowch sylw oherwydd dim ond dau ymgais sydd gennych i lenwi&#39;r ffurflen hon yn gywir. Os byddwch yn dal i fethu, ni fyddwch yn gallu dilysu {firstName} eto yn y dyfodol.",
+        "descP2": "Os nad ydych yn gwybod {firstName} , yna gwrthodwch y cais hwn. Byddwn yn rhoi gwybod iddynt ac yn gofyn iddynt gyrraedd rhywun arall.",
         "rejectRequestCta": "Gwrthod Cais",
         "form": {
           "heading": "Atebwch y cwestiynau canlynol am {firstName} a chliciwch Cyflwyno:",
-          "q1": "Sut ydych chi'n gwybod {firstName}?",
+          "q1": "Sut ydych chi&#39;n gwybod {firstName} ?",
           "q2": "Crefydd:",
           "q3": "Enwad:",
-          "q4": "A yw {firstName} Sadat?",
+          "q4": "Ai Sadat {firstName} ?",
           "q5": "Unrhyw beth arall yr hoffech ei ychwanegu?"
         }
       },
@@ -1073,13 +1073,13 @@
         "cta": "Gwrthod",
         "title": "Gwrthod cais",
         "reasonLabel": "Pam nad ydych chi am wirio'r cyfrif hwn?",
-        "reasonPh": "Byddwn yn rhoi gwybod i {userName}  ac yn gofyn iddynt estyn allan at rywun arall i'w wirio."
+        "reasonPh": "Byddwn yn rhoi gwybod {userName} ac yn gofyn iddynt estyn allan at rywun arall i&#39;w ddilysu"
       },
       "haadiHome": {
         "title": "Dechrau trafodaeth | Eich trafodaethau gyda Haadi",
         "item": {
-          "added": "Ychwanegwyd {date}",
-          "tokensUsed": "Tocynnau a ddefnyddir: {tokens}",
+          "added": "{date} wedi&#39;i ychwanegu",
+          "tokensUsed": "Credydau a ddefnyddiwyd: {tokens}",
           "readContinue": "Darllen neu barhau trafodaeth"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Gofyn cwestiwn",
         "empty": {
           "heading": "Methu dod o hyd i'r sgwrs hon",
-          "p1": "Digwyddodd camgymeriad wrth geisio cael y sgwrs hon. Gwiriwch yr URL a rhowch gynnig arni eto.",
-          "p2": "Os bydd hyn yn digwydd, cysylltwch â ni yn garedig.",
-          "guest": "Gallai hyn fod oherwydd nad ydych wedi mewngofnodi. Ceisiwch fewngofnodi a gwirio eto."
+          "p1": "Ni allem ddod o hyd i&#39;r sgwrs hon. Gwiriwch yr URL a cheisiwch eto.",
+          "guest": "Gallai hyn fod oherwydd nad ydych wedi mewngofnodi. Ceisiwch fewngofnodi a gwirio eto.",
+          "p2": "Os bydd hyn yn digwydd, cysylltwch â ni yn garedig."
         },
         "jsNewChatInfo": "Dyma ddechrau sgwrs newydd gyda Haadi. Rydych chi wedi dewis galluogi cyd-destun i Haadi wrth ateb eich cwestiynau. Gallwch chi bob amser analluogi'r opsiwn hwn mewn lleoliadau, neu weld beth mae hyn yn ei olygu i chi."
       },
       "aboutHaadi": {
-        "title": "Cwrdd â Haadi, eich botfriend i lywio Islam Shia!",
-        "desc": "Cliciwch ar bob un o'r crynodebau hyn i ddarllen mwy, neu ddarganfod mwy am Haadi a thelerau defnyddio yn <a href={blogLink} target='_system'>ein blog",
+        "title": "Dewch i gwrdd â Haadi, eich <strong>ffrind Bot</strong> i lywio Shia islam!",
+        "desc": "Rydym yn argymell eich bod yn mynd trwy&#39;r crynodebau hyn cyn i chi ddechrau defnyddio Haadi. Gallwch ddarganfod mwy am Haadi a thelerau defnydd yn <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Rwy'n deall ac yn cytuno â'r Telerau Defnyddio"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "Rhowch eich cyfrinair os gwelwch yn dda!",
         "jsEnterValidPwd": [
           "Mae gan Password gymeriadau annilys. Rhowch gyfrinair dilys.",
-          "Dylai'r cyfrinair fod o leiaf {num} nod."
+          "Dylai cyfrinair fod o leiaf nifer {num} ."
         ],
         "jsAccountSuccess": "Cyfrif wedi'i greu'n llwyddiannus",
         "jsFbError": "Ni allwch gael manylion eich cyfrif Facebook. Ceisiwch eto, os gwelwch yn dda.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Gosod Bazm {llwyfan }",
-          "desc": "Lawrlwythwch ein app Android am brofiad gwell, cynnwys personol, hysbysiadau a phopeth o'ch diddordeb o'ch cwmpas! | Gosod llwybr byr ap (nod tudalen) i'w gyrchu'n uniongyrchol o'ch homescreen y tro nesaf am brofiad gwell! Prin y cymer unrhyw le ar eich dyfais ond mae'n eich helpu i fynd yn ôl ar yr app yn gyflym.",
+          "heading": "Ychwanegu Llwybr Byr Bazm",
+          "desc": "Dadlwythwch ein app Android i gael profiad gwell, cynnwys wedi&#39;i bersonoli, hysbysiadau a phopeth o ddiddordeb o&#39;ch cwmpas! | Gosod llwybr byr ap (nod tudalen) i&#39;w gyrchu&#39;n uniongyrchol o&#39;ch sgrin gartref y tro nesaf i gael profiad gwell! Prin ei fod yn cymryd unrhyw le ar eich dyfais ond mae&#39;n eich helpu i fynd yn ôl ar yr ap yn gyflym.",
           "cta": {
             "action": "Gosod",
             "skip": "Efallai nes 'mlaen"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Gosod llwybr byr Bazm?"
         },
-        "popover": {
-          "text": "Cliciwch ar yr eicon Rhannu (yn edrych fel un ar y dde) <strong>ISOD</strong> ac yna cliciwch <strong>Ychwanegu at Sgrin Cartref</strong>. Cliciwch \"Cadw\" i orffen, ac yna gallwch gyrchu'r app o lwybr byr ar eich sgrin gartref!"
-        },
         "nonSafari": {
-          "heading": "Mae Bazm yn gweithio'n well ar Apple Safari",
+          "heading": "Mae Bazm yn gweithio&#39;n well ar Safari",
           "desc": "Mae gan y porwr hwn nodweddion cyfyngedig, tra bod porwr Safari yn galluogi ein ap i berfformio'n well, gan gynnwys hysbysiadau gwthio a llwybr byr App.",
-          "subtext": "<strong>Agorwch ap Safari</strong> ar eich ffôn a <strong>{url}</strong> goto am brofiad gwell.",
+          "subtext": "<strong>Agorwch Porwr Safari</strong> a mynd <strong>{url}</strong> i gael profiad gwell.",
           "skipCta": "Parhau yma yn hytrach"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Am arbed cwcis ar eich dyfais",
-        "p1": "Nid ydym yn storio unrhyw gwcis ar eich {device} ond gallai apiau trydydd parti a ddefnyddir yn ein gwefan (megis Google Analytics). Yn lle hynny, rydym yn defnyddio storio parhaol i storio unrhyw ddata pwysig, ac yn y rhan fwyaf o achosion, mae hyn wedi'i amgryptio mewn storio ac wrth drosglwyddo.",
+        "p1": "Nid ydym yn storio unrhyw gwcis ar eich {device} ond gallai apiau trydydd parti a ddefnyddir yn ein ap (fel, Google Analytics). Yn lle hynny, rydym yn defnyddio storfa barhaol i storio unrhyw ddata pwysig, ac yn y rhan fwyaf o achosion, mae hwn yn cael ei amgryptio wrth ei storio ac yn ystod y trosglwyddo.",
         "p2": "Trwy barhau i ddefnyddio'r app hon, rydych chi trwy hyn yn cadarnhau nad oes gennych unrhyw broblemau gyda'n dewisiadau. I gael gwybod mwy am ein cwcis a'n defnydd data, gweler ein <a href='https://bazm.in/privacy-policy' target='_blank'>Polisi Preifatrwydd.</a>"
       }
     },
     "meta": {
-      "titleBranding": " ___ Bazm - Ap Rhwydwaith Cymdeithasol ar gyfer Mwslimiaid Shia ledled y byd! Lawrlwythwch yr app heddiw.",
+      "titleBranding": "__ Bazm - Ap Rhwydwaith Cymdeithasol ar gyfer Mwslimiaid Shia ledled y byd!",
       "home": {
         "title": "Bazm - ap cymunedol Shia ar-lein!",
         "description": "Bazm app yw'r app cymunedol Shia sy'n diwallu eich holl anghenion dyddiol o deen a mazhab. Dod o hyd i Nauhe, Majalis, Dua, Aamaal, Ziyarat, Llyfrau, ac ati. ar gyfer pob dyddiad ac achlysur. Gwyliwch a gwnewch ddigwyddiadau byw a majalis gyda Shia-Mwslimaidd ledled y byd o gyfleustra eich cartref. Ymunwch heddiw!"
       },
       "feed": {
-        "title": "Dewch o hyd i gynnwys wedi'i deilwra a'i rannu gyda chymuned shia o'ch cwmpas a'r byd",
+        "title": "Bazm - Dewch o hyd i gynnwys wedi&#39;i deilwra gan Fwslimiaid Shia ledled y byd a&#39;i rannu!",
         "description": "Dewch o hyd i newyddion, digwyddiadau a chynnwys gyda shia momineen o gwmpas, a rhowch wybod iddynt am unrhyw ddigwyddiadau rydych chi'n eu cynnal. Dysgwch am unrhyw beth sy'n digwydd yn agos atoch ar yr app."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Gwrandewch ar Soaz o bob blwyddyn a phob Soazkhwan poblogaidd o bob cwr o'r byd ar ap Bazm. Llwytho i lawr heddiw."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis ar Bazm - Dod o hyd i fwy cyfog, sain / fideo majalis, dua, ziyarat, aamaal, ac ati. ar Bazm",
+        "title": "{type} majalis/majlis ar Bazm - Dod o hyd i fwy o nauhe, majalis sain/fideo, deuawd, ziyarat, aamaal, ac ati. ar Bazm",
         "description": "Dewch o hyd i majalis sain/fideo o Maulana a Zakir-e-Ahlbayt o agos atoch chi ac o gwmpas y byd. Gwrandewch ar a gwyliwch y majalis diweddaraf a sesiynau llif byw ar ap Bazm. Lawrlwythwch yr ap heddiw ac ymuno â miliynau o Fwslimiaid Shi'a ledled y byd!"
       },
       "duasPage": {
         "title": [
-          "Duas ac aamaal ar gyfer mis {month} ar Bazm - Dod o hyd i fwy cyfog, majalis, sain/fideo, dua, ziyarat, aamaal, ac ati. ar Bazm",
+          "Duas ac aamaal ar gyfer mis y {month} ar Bazm - Dod o hyd i fwy o nauhe, majalis sain / fideo, deua, piyarat, aamaal, ac ati. ar Bazm",
           "Duas ac aamaal am bob mis ar Bazm - Dod o hyd i fwy cyfog, sain / fideo majalis, dua, ziyarat, aamaal, ac ati. ar Bazm"
         ],
         "description": "Dewch o hyd i duas, aamaal, ziyarat a munajat am bob mis ar Bazm, dyddiad a digwyddiad yn ddoeth. Lawrlwythwch yr ap heddiw ac ymuno â miliynau o Fwslimiaid Shi'a ledled y byd!"
