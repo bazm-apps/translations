@@ -8,7 +8,7 @@
       "sendOtp": "OTP Gönderimi..",
       "dismiss": "Kapatmak",
       "invite": "Davet etmek",
-      "showMore": "Daha fazlasını göster | Daha fazlasını gör",
+      "showMore": "Daha fazlasını göster | Daha fazlasını görün",
       "play": "Oynamak",
       "pause": "Duraklatıldı",
       "playing": "Oynamak",
@@ -22,7 +22,7 @@
       "change": "Değiştirmek",
       "continue": "Devam etmek",
       "select": "Seçmek",
-      "saveChanges": "Değişiklikleri kaydet | Kaydet | Güncelleme",
+      "saveChanges": "Değişiklikleri kaydet | Kaydet | Güncelle",
       "newBadge": "Yeni",
       "login": "Oturum açma",
       "logout": "Oturum kapatma",
@@ -42,7 +42,7 @@
       "at": "da",
       "untilNextTime": "Sorun değil. Bir dahaki sefere kadar!",
       "plzWait": "Lütfen bekleyin..",
-      "saving": "Tasarruf.. | Güncelleniyor..",
+      "saving": "Kaydediliyor.. | Güncelleniyor..",
       "search": "Aramak",
       "late": "Geç",
       "done": "Yapılmış",
@@ -58,8 +58,8 @@
         "uploading": "Yükleme..",
         "deleting": "Silme..",
         "requesting": "Isteyen..",
-        "audienceHeader": "Momineen kim {action}d -- Momineen kim {action}d",
-        "jsShareFileTypeError": "Üzgünüz, {fileType} dosyaları burada paylaşamazsınız",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
+        "jsShareFileTypeError": "Maalesef {fileType} dosyalarını burada paylaşamazsınız",
         "jsUpdateAvailable": {
           "header": "Güncelleme mevcut",
           "message": "Uygulamanın önbelleğe alınmış sürümünü görüyorsunuz. Yeni içerik ve özellikleri güncellemek ve yüklemek için 'Yenile'yi tıklayın.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Resim yükleme başarısız oldu. Lütfen daha sonra tekrar deneyin.",
         "jsLoadingDelay": "Beklenenden biraz daha uzun sürüyor. Bu isteği işleme koyarken lütfen bekleyin."
       },
+      "sending": "gönderiliyor...",
       "close": "Kapatmak",
       "yes": "Evet",
       "no": "Hayır",
@@ -81,8 +82,7 @@
         "cancelCta": "Bana daha sonra sor",
         "okCta": "Emin!",
         "jsPushUnsupported": "Push bu cihazda desteklenmiyor. Bildirimleri kaçırabilirsiniz!"
-      },
-      "sending": "gönderiliyor..."
+      }
     },
     "errors": {
       "service": {
@@ -152,8 +152,8 @@
           "wishCtaLabel": "DİLEMEK"
         },
         "books": {
-          "booksByAuthor": "{author} kitapları",
-          "booksInLang": "{lang}'daki Kitaplar",
+          "booksByAuthor": "{author} göre kitaplar",
+          "booksInLang": "{lang} kitaplar",
           "filterBy": "Filtreleme ölçütü:",
           "matching": {
             "authors": "eşleşen yazarlarla",
@@ -167,7 +167,7 @@
           "selectLang": "Bir dil seçin:"
         },
         "bookDetails": {
-          "title": "{title} — Bazm'da bunun gibi daha fazla ücretsiz kitap bul",
+          "title": "{title} — Bazm&#39;da buna benzer daha fazla ücretsiz kitap bulun",
           "aboutBook": "Kitap hakkında:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Khums Hesap Makinesi",
         "khumsDesc": "Khum'larınızı hesaplayın veya daha önce ödenmiş khum'ları ekleyin. Yıllar boyunca humlarınızın kaydını tutmanıza yardımcı olur.",
         "alarms": {
-          "salatAlarms": "Salat Alarmları | Günlük Salat Alarmları",
+          "salatAlarms": "Namaz Alarmları | Günlük Namaz Alarmları",
           "sehriAlarms": "Ramazan Şehri Alarmları",
           "gettingLocation": "Konumunuzu alma. Lütfen bekleyin...",
           "settingsTip": "Alarm ayarlarında <b>Konum</b> ve tercihleri değiştirin. Başlamak için Ayarlar simgesine tıklayın.",
@@ -195,12 +195,12 @@
           "midnightLabel": "Gece yarısı",
           "sehriEndTime": "Sehri'nin bitiş zamanı",
           "minToImsak": [
-            "Imsak'tan {min} dakika önce",
-            "İmsak'tan {hour} saat önce"
+            "Imsak&#39;tan {min} önce",
+            "İmsak&#39;tan {hour} önce"
           ],
           "minToImsakDesc": [
-            "Sehri saatinin bitiminden {min} dakika önce alarm çalar",
-            "Sehri saatinin bitiminden {hour} saat önce alarm çalar"
+            "Alarm, Sehri saatinin bitiminden {min} dakika önce çalar",
+            "Alarm, Sehri saatinin bitiminden {hour} önce çalar"
           ],
           "notRamadan": "Henüz Ramazan değil gibi görünüyor. Lütfen Ramazan sırasında veya hemen öncesinde tekrar gelerek Sehri için Alarmları ayarlayın",
           "push": {
@@ -242,7 +242,7 @@
           "noAnswer": "Cevap yok"
         },
         "qnaDetail": {
-          "title": "Yanıtlar: {ques}",
+          "title": "Cevaplar: {ques}",
           "jsSubmitSuccess": "Sorunuz başarıyla gönderildi. Bu konuda yanıt aldıktan sonra sizi bilgilendireceğiz."
         },
         "tasbeehCounter": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Blog: Khumları verimli bir şekilde hesaplayın",
-              "p1": "Her yıl khums hesaplamasında önemli öğeleri vurgulayan <a href='{href}' target='_blank'>blogumuzu takip edin</a>.",
+              "p1": "Her yıl humusun hesaplanmasında önemli noktaları vurgulayan <a href='{href}' target='_blank'>blogumuzu takip edin</a> .",
               "p2": "Feragatname: Blog bir rehber DEĞİLDİR. <strong>Khums hesaplaması için Marjah'ınızın kararlarını takip edin</strong>. Daha fazla bilgi için <span id='blog-info-link' color='primary'>buraya tıklayın</span> .",
               "blogInfo": "Yukarıdaki blog, al-islam.org, sistani.org'dan makalelere ve diğer birkaç akademisyenle yaptığımız tartışmalara dayanmaktadır. Khums hesaplaması için Marjah'ınızın kararlarını her zaman takip etmelisiniz.",
               "dismissCta": "İlgilenmiyor"
@@ -283,7 +283,7 @@
             "mqmsInfo": "Bir sonraki hesaplama için Muqammas",
             "calcHeader": "Aşağıdaki hesaplamaya göre:",
             "savingsHeader": "Tasarruf",
-            "conversionInfo": "{xchgRateDate}'deki {xchgRate} kuruna göre {amount}'ye dönüştürülür",
+            "conversionInfo": "{xchgRateDate} tarihindeki {xchgRate} döviz kuruna göre {amount} dönüştürülür",
             "expensesHeader": "Gider",
             "mqmsHeader": "Mukammolar",
             "prevMqms": "Önceki mukammalar",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Humslarınızı hesaplamak için aşağıdaki formu doldurun. İsteğe bağlı alanlar belirtilir. Bölüm hakkında daha fazla bilgi edinmek için aşağıdaki bilgi-simgesine tıklayın.",
-            "blog": "İlgili: <a href='{href}' target='_blank'>Khums verimli bir şekilde<a> nasıl hesaplanır</a> hakkındaki blogumuzu okuyun",
+            "blog": "İlgili: <a href='{href}' target='_blank'>Humusu verimli bir şekilde nasıl hesaplarız</a> konulu blogumuzu okuyun",
             "dateRange": "Tarih aralığını seçin:",
             "dateRangeInfo": "Tipik olarak, insanlar bir mali yıl (örneğin, Nisan'dan Mart'a) veya bir Takvim yılı (Ocak'tan Aralık'a) için khum'ları hesaplarlar",
             "startDate": "Başlangıç tarihi:",
@@ -337,7 +337,7 @@
               "header": "<strong>Döviz kurlarını kullanma</strong>",
               "subtext": "Bu döviz kurları hesaplama için kullanılacaktır. Bunları özel değerler kullanacak şekilde değiştirebilirsiniz.",
               "info": "Geçmiş verilerle uğraşırken, örneğin döviz kurlarının bugünküyle aynı olmadığı bir yıldan uzun bir süre öncesine ait khumlar için hesaplama eklerken, döviz kurları için özel değerleri kendiniz ayarlayabilirsiniz.",
-              "rateValuePH": "{currency}, örneğin, 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "{currency} cinsinden , örneğin, 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Hesaplamak",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "Kullanıcı | Hesap",
+        "name": "Kullanıcı hesabı",
         "editProfile": "Profili Düzenle",
         "publishToFeed": "Değişikliklerimi akışta yayınlama",
         "shareUpdateToFeed": "Ayrıca bu güncellemeyi feed'imde paylaş",
         "statusText_ph": "Durumunuzu süslemek için _italik_ veya *kalın* biçimlendirme kullanın",
-        "statusCharsLeft": "{count} karakter kaldı",
+        "statusCharsLeft": "kalan karakterleri {count}",
         "jsImgUploadSuccess": "Resimler başarıyla yüklendi!",
         "unauthAccess": {
           "heading": "Doğru yerde olduğunuzdan emin misiniz?",
@@ -409,36 +409,36 @@
           "title": "Hakkında",
           "jsStatusUpdateFail": "Durum güncelleştirilemedi. Lütfen daha sonra tekrar deneyin.",
           "statusTextInfo": "Kendiniz hakkında kısa bir şey ekleyin, örneğin, siz kimsiniz veya ne yapıyorsunuz!",
-          "statusCta": "Durum Ekle | Güncelleme Durumu",
+          "statusCta": "Durum Ekle | Durumu Güncelle",
           "addCity": "Şehir Ekle",
-          "gender": "Erkek | Kadın",
+          "gender": "Erkek kadın",
           "addGender": "Cinsiyet Ekle",
           "addBday": "Doğum Günü Ekle",
           "addRelation": "İlişki Ekle",
           "privateInfoDesc": "Bu bilgiler yalnızca sizin tarafınızdan görülebilir ve buna dayalı içerik ve özellikleri görürsünüz.",
           "idSetupCta": "Kimliğinizi ayarlama",
           "idVerifyCta": "Doğrulamak",
-          "joinDate": "Katıldı: {date}",
           "idVerifyAltText": "Yalnızca doğrulanmış Şii müminler başkalarını doğrulayabilir. Daha sonra <strong>{name}</strong> doğrulayabilmeniz için lütfen hesabınızı doğrulatın.",
-          "idVerifyAltText2": "Halihazırda birini talep ettiyseniz, yeni bir bağlantı ile tekrar hatırlatabilir veya daha hızlı yanıt vermesini isteyebilirsiniz."
+          "idVerifyAltText2": "Halihazırda birini talep ettiyseniz, yeni bir bağlantı ile tekrar hatırlatabilir veya daha hızlı yanıt vermesini isteyebilirsiniz.",
+          "joinDate": "Katıldığı tarih: {date}"
         },
         "posts": {
           "title": "Mesaj",
           "userNoPosts": "Resminizi/kapak resminizi değiştirdiğinizde veya vefat eden sevdikleriniz için fatiha suresi talep ettiğinizde, bu yayınlar burada ve <b>Ana Sayfa</b> sekmesinde (başkalarının da) görünecektir. Bir resim veya kapak resmi eklemeyi deneyin?",
-          "profileNoPosts": "{name} henüz herhangi bir gönderi yapmadı."
+          "profileNoPosts": "{name} henüz bir paylaşım yapmadı."
         },
         "marhumeen": {
           "title": "Arjantin",
           "header": {
-            "marhumeenNotAdded": "{name} henüz marhumeen eklemedi -- Marhumeen'i henüz eklemediniz",
-            "marhumeenAdded": "{name} marhumeen'den sonra ekledi -- Aşağıdaki marhumeen'i eklediniz"
+            "marhumeenNotAdded": "{name} henüz marhumeen eklenmedi | Henüz marhumeen eklemediniz",
+            "marhumeenAdded": "{name} aşağıdaki marhumeen&#39;i ekledi | Aşağıdaki marhumeen&#39;i eklediniz"
           },
           "jsDeleteHeader": "Emin misiniz?",
-          "jsDeletePrompt": "<b>{fullName}</b> için kayıtların silinmesi, {gender}için yapılan önceki tüm istekleri de silecektir! Devam etmek?",
+          "jsDeletePrompt": "<b>{fullName}</b> için kayıtların silinmesi, {gender} için yapılan önceki tüm istekleri de siler! Devam etmek?",
           "jsDeleted": "{marhumeen} için silinen kayıtlar"
         },
         "verifyCard": {
-          "title": "Şii kimliğinizi doğrulayın -- Sedat kimliğinizi doğrulayın",
+          "title": "Şii kimliğinizi doğrulayın | Sedat kimliğinizi doğrulayın",
           "p1": "Profilinizde Şii Müslüman olduğunuzu belirttiniz. Bu bilgilerin doğrulanması sizin için daha fazla özellik sağlayacak ve doğrulanmış bir Şii Müslüman topluluğu oluşturmamıza yardımcı olacaktır.",
           "p2": "Lütfen kimliğinizi doğrulayın; uzun sürmeyecek",
           "noReminder": "Bana bir daha hatırlatma",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Bu bağlantı geçersiz veya süresi dolmuş. Lütfen arkadaşınızdan yeni bir istek göndermesini isteyin.",
           "confirm": {
             "heading": "Hesap Kimliğini Doğrulama",
-            "msg": "{genderLabel1} hesap bilgilerinin doğrulanmasına yardımcı {firstName}. Bu, {genderLabel2} uygulamamızda daha fazla özelliğe erişmesini sağlayacaktır",
+            "msg": "{firstName} {genderLabel1} hesap bilgilerini doğrulamasına yardım edin. Bu, {genderLabel2} uygulamamızda daha fazla özelliğe erişmesini sağlayacaktır",
             "jsSkip": "Sorun değil. Fikrinizi değiştirirseniz, daha sonra doğrulamak için bu bağlantıyı tekrar ziyaret edebilirsiniz."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "{langLabel}'de uygulamayı kullanın ?",
+        "title": "Uygulamayı {langLabel} kullan?",
         "desc": {
-          "p1": "Görünüşe göre uygulamaya şuradan erişiyorsunuz {countryName}. İçeriği ve denetimleri bölgede konuşulan aşağıdaki dillerden birinde görmek ister misiniz? Seçiminize tıklayın ve ardından devam etmek için 'Kaydet'i tıklayın.",
+          "p1": "Görünüşe göre uygulamaya {countryName} adresinden erişiyorsunuz. Bölgede konuşulan aşağıdaki dillerden birinde içerik ve kontroller görmek ister misiniz? Seçiminize tıklayın ve ardından devam etmek için &#39;Kaydet&#39;e tıklayın.",
           "p2": "Alternatif olarak, uygulamayı varsayılan dilde kullanmaya devam etmek için bu açılır pencereyi kapatın."
         },
         "choices": {
           "useLang": [
-            "Evet, {langName} kullanın",
-            "{langName} kullanma"
+            "Evet, {langName} kullan",
+            "{langName} kullan"
           ],
           "useEnglish": "İngilizce devam et",
           "selectFrom": "Veya aşağıdaki alternatif dillerden birini seçin:"
         },
-        "langError": "{langName}çevirileri yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+        "langError": "{langName} için çeviriler yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
       },
       "createPost": {
         "heading": "Bugün ne hakkında?",
@@ -509,11 +509,11 @@
           "titles": {
             "post": "Gönderi Oluştur | Gönderiyi Güncelle",
             "livestream": "Canlı yayın",
-            "hadiyah": "Hadiyah'ı Oluştur | Hadiyah'ı Güncelle"
+            "hadiyah": "Hediye Oluştur | Hediyeyi Güncelle"
           },
-          "postCta": "Gönder | Güncelleme",
+          "postCta": "Gönderi | Güncelleme",
           "stream": {
-            "scheduleCta": "Daha sonrası için kaydet | Yayına Başla"
+            "scheduleCta": "Sonrası için kaydet | Akışa Başlayın"
           },
           "hadiya": {
             "dedication": {
@@ -534,7 +534,7 @@
           "addLocation": "Konum ekle",
           "addPics": "Gönderinize resim ekleme",
           "previewDes": "Gönderiniz diğer kişilerin akışında bu şekilde görünür. İnsanlar videoyu tam ekranda görmek için videoya dokunabilir.",
-          "addToPost": "{postType}'ye ekle (isteğe bağlı)",
+          "addToPost": "{postType} ekle (isteğe bağlı)",
           "jsImgUploadFail": "Resim yüklenmedi",
           "jsAddDetailToPost": "Lütfen gönderinize ayrıntıları ekleyin",
           "jsValidEndDate": "Lütfen geçerli bir bitiş tarihi seçin",
@@ -564,15 +564,15 @@
           "status": "Profil durumu"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> {addressing} {item} güncellendi",
+          "common": "<strong>{username}</strong> güncel {addressing} {item}",
           "fatiha": [
-            "<strong>{username}</strong> {addressing} {relation} için Fatiha Suresi'ni istedi",
-            "<strong>{username}{addressing} {relation} </strong> için Fatiha Suresi ve Namaz-ı Vehşat İstendi"
+            "<strong>{username}</strong> {addressing} {relation} için fatiha suresi istedi",
+            "<strong>{username}</strong> istenen {addressing} {relation} için fatiha ve namaz-ı vahshat"
           ]
         },
-        "dateUntil": "Tarihine kadar: {time}'de {date}",
+        "dateUntil": "Kadar: {date} {time}",
         "privatePost": "Bu gönderi yalnızca sizin tarafınızdan görülebilir",
-        "descZiyaratRequest": "Ziyarat'ın sizin adınıza İmam Hüseyin (a.s.)'ın *haram* adresinde *{date}*"
+        "descZiyaratRequest": "İmam Hüseyin&#39;in (as) * {date} * *haramında* sizin adınıza Ziyaret yapılmasını istediniz."
       },
       "addEditRel": {
         "title": {
@@ -623,13 +623,13 @@
         "died": "Öldü:",
         "addMsg": "Mesaj eklemek mi istiyorsunuz?",
         "addMsg_ph": "Mesela:\nInna lillahi wa inna ilaihe raje'un. Lütfen amcam Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom için bir sure-e-fatiha ve 2-rekat-e-wahshat okuyun, o da hepimizi yaratıcısıyla buluşmak için ağlayarak geride bıraktı.",
-        "remainingChars": "Karakterler: {count} | Karakterler: {count} kaldı",
-        "infoEditRelative": "<b>Hesap > Marhumeen</b> bölümünüzde {name} ayrıntılarını düzenleyebilirsiniz",
+        "remainingChars": "Karakterler: {count} | Karakterler: kalan {count}",
+        "infoEditRelative": "{name} detaylarını <b>Hesap &gt; Marhumeen</b> bölümünde düzenleyebilirsiniz.",
         "saveRequestCta": [
           "Kaydet ve İstek",
           "İstek"
         ],
-        "addUpdate": "Ekle | Güncelleme",
+        "addUpdate": "Ekle | Güncelle",
         "jsRequesting": "Isteyen..",
         "jsAddSuccess": [
           "Sevdiklerinizi başarıyla eklediniz!",
@@ -724,22 +724,22 @@
           "viaSignal": "Signal ile Alın"
         },
         "page2": {
-          "header": "Numaranıza 6 haneli bir onay kodu gönderdik ({number})",
+          "header": "Numaranıza ( {number} ) 6 haneli bir onay kodu gönderdik",
           "enterCodeLabel": "Kodu Girin",
           "enterCode_ph": "6 haneli kodu girin",
           "resendCode": "Kodu Tekrar Gönder",
-          "notUsingMobile": "{number}kullanmıyor musunuz <strong> ?</strong>",
+          "notUsingMobile": "<strong>{number} kullanmıyor musun?</strong>",
           "changeNumber": "Numarayı Değiştir"
         },
         "jsVerifySuccess": "Mobil cihazlar başarıyla doğrulandı",
         "jsVerifyError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
         "jsSendOtpFailed": "OTP gönderilemedi. Lütfen daha sonra tekrar deneyin.",
-        "jsSendOtpSuccess": "OTP {mobile}'e gönderildi",
+        "jsSendOtpSuccess": "{mobile} gönderilen OTP",
         "jsTooManyRequests": "Görünüşe göre zaten çok fazla kez denemişsin. Lütfen bir veya iki dakika bekleyin ve tekrar deneyin."
       },
       "userSettings": {
         "personalSharingMsg": "Paylaşım mesajını kişiselleştirme",
-        "changePwd": "Şifreyi Değiştir | Şifre Belirle",
+        "changePwd": "Parolayı Değiştir | Parolayı Ayarla",
         "changeLang": "Dili Değiştir",
         "publishToFeed": "Değişikliklerimi feed'de de yayınla."
       },
@@ -754,10 +754,10 @@
           "sharingDesc": "Harici olarak paylaşırken mesajlarınız aşağıdaki gibi görünebilir:",
           "sharingTextDemo": [
             "Bu Nauha'yı Bazm Uygulamasında Dinle",
-            "{name} Bazm App'te bu Nauha'yı dinlemenizi önerir"
+            "{name} bu Nauha&#39;yı Bazm Uygulamasında dinlemenizi önerir"
           ],
           "addSignDesc": "İmzanızı da eklemek ister misiniz?",
-          "addSignPlaceholder": "Mesela\nEn iyi dileklerimle,\n{name}",
+          "addSignPlaceholder": "Örneğin, En iyi dileklerimle, {name}",
           "signDesc": "Dileğinizi bu uygulamada arkadaşlarınızla paylaştığınızda, imzanız mesajlara eklenecektir. Örneğin, aşağıdaki gibi görünebilir:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "Parola geçersiz karakterler içeriyor.",
         "jsPwdCharCount": "Parola 8 karakterden az olamaz.",
         "jsSelectLang": "Lütfen önce bir dil seçin.",
-        "jsLangSet": "Dil {lang} olarak ayarlandı",
+        "jsLangSet": "Dil, {lang} olarak ayarlandı",
         "jsPrefSaved": "Kişiselleştirme ayarları kaydedildi."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "Şifrenizi sıfırlamak kolaydır. Devam etmek için bir yöntem seçin:",
         "usePhoneCta": "Telefonu Kullan",
         "useEmailCta": "E-posta Kullan",
-        "sendEmailIntro": "Hesabınızı oluşturduğunuz e-posta adresini girdiğinizde, hesabınız için yeni bir şifre belirlemeniz için bağlantıyı içeren bir e-posta göndeririz.",
+        "sendEmailIntro": "Hesabınızı oluşturduğunuz e-posta adresini girin, hesabınız için yeni bir şifre oluşturmak üzere bağlantı içeren bir e-posta göndereceğiz. | Hesabınıza giriş yapmak için bir e-posta adresi eklemeniz gerekir. Bu e-postaya bir şifre sıfırlama bağlantısı göndereceğiz ve oradan cep telefonu numaranızla ilişkili hesabınız için bir şifre oluşturabilirsiniz.",
         "emailInputLabel": "Kayıtlı e-posta adresiniz",
         "sendEmailCta": "Sıfırlama E-postası Gönder",
-        "sentEmailText": "Bizimle bir hesabınız varsa, kısa bir süre <strong> sonra{email}</strong>'da bir şifre sıfırlama e-postası alacaksınız. Lütfen bağlantı için e-postanızı kontrol edin.",
-        "notUsingEmailText": "{email}kullanmıyor musunuz <strong> ?</strong>",
+        "sentEmailText": "Bizde bir hesabınız varsa, kısa <strong>{email}</strong> içinde bir şifre sıfırlama e-postası alacaksınız. Bağlantı için lütfen e-postanızı kontrol edin.",
+        "notUsingEmailText": "<strong>{email} kullanmıyor musunuz?</strong>",
         "changeEmailCta": "E-postayı Değiştir",
         "phoneIntroText": "Hesabınıza eklenen telefon numarasını girin. Sahipliğinizi doğrulamak için bir OTP göndereceğiz ve bir sonraki adımda yeni bir şifre oluşturabileceksiniz.",
         "phoneInputLabel": "Cep telefonu numaranız",
         "sendOtpCta": "OTP gönder",
         "backToLoginCta": "Girişe Geri Dön",
-        "disclaimerText": "Yalnızca {item} bize kayıtlı olmanız durumunda {item} alacağınızı lütfen unutmayın",
+        "disclaimerText": "Lütfen, yalnızca {item} bizde kayıtlı olması durumunda bir {item} alacağınızı unutmayın.",
         "jsMailSent": "Gönderilen postalar",
         "title2": "Hesabınızı üzerinize alma",
+        "introText2": "Parolanızı sıfırlamak kolaydır. E-postanızı girin ve e-postanıza şifre sıfırlama bağlantısı gelsin.",
         "claimIntroHeading": "Hesabınızı hızlı bir şekilde talep edin!",
-        "claimIntroText": "Bize katıldığınız için teşekkür ederiz. Şimdi sizin için bir hesap oluşturduk. Aşağıdaki yöntemlerden birini kullanarak parolanızı sıfırlayarak hesabınıza erişin:",
-        "introText2": "Parolanızı sıfırlamak kolaydır. E-postanızı girin ve e-postanıza şifre sıfırlama bağlantısı gelsin."
+        "claimIntroText": "Bize katıldığınız için teşekkürler. Hesabınıza bir e-posta ekleyerek hesabınıza erişin."
       },
       "resetPwd": {
         "title": "Şifreyi Sıfırla",
-        "introText": "Burada hesabınız için güvenli bir şifre belirleyin. Doğru şifreyi girdiğinizden emin olmak için {icon} 'yi tıklayın.",
+        "introText": "Burada hesabınız için güvenli bir şifre belirleyin. Doğru parolayı girdiğinizden emin olmak için {icon} tıklayın.",
         "pwdInputLabel": "Yeni şifre belirle",
         "pwdInputPH": "Yeni şifre giriniz",
         "invalidPwdChars": "Şifrede geçersiz karakterler",
@@ -812,11 +812,11 @@
       "moreBtn": {
         "jsItemDeleted": "{item} başarıyla silindi.",
         "jsErrReporting": "Şu anda bunu bildiremiyorum. Lütfen daha sonra tekrar deneyin.",
-        "jsAlreadyReported": "Bu {item}zaten bildirdiniz. Bunu birden fazla kez bildiremezsiniz.",
+        "jsAlreadyReported": "Bu {item} zaten bildirdiniz . Bir defadan fazla bildiremezsiniz.",
         "jsPromptHeading": "Bir öğeyi bildirmek, sizin veya başkalarının feed'inde/sayfalarında görünme şansının azalmasına neden olur. Bunu hala bildirmek istiyor musunuz?",
-        "jsReporting": "Raporlama {itemType}..",
+        "jsReporting": "{itemType} bildiriliyor ..",
         "jsReportingErr": "İsteğiniz şu anda gönderilemedi. Lütfen daha sonra tekrar deneyin.",
-        "jsReported": "{item} bildirildi. Katkılarınız için teşekkür ederiz."
+        "jsReported": "{item} bildirildi. Katkınız için teşekkürler."
       },
       "editProfileModal": {
         "jsEmptyData": "Güncellenecek bir şey yok!",
@@ -845,7 +845,7 @@
       },
       "mqmsSelector": {
         "title": "Muqammas miktarını seçin",
-        "dateAdded": "Eklendi: {date}",
+        "dateAdded": "Eklenme tarihi: {date}",
         "cancelCta": "İptal",
         "doneCta": "Seçmek"
       },
@@ -1009,15 +1009,15 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Hesabı {name} için doğrulama",
-        "heading": "{firstName}hakkında aşağıdaki bilgilere cevap verebilir misiniz? Değilse, bu isteği reddedin.",
+        "title": "{name} için hesabı doğrula",
+        "heading": "{firstName} ile ilgili aşağıdaki bilgileri yanıtlayabilir misiniz? Değilse, bu isteği reddedin.",
         "desc": "Doğrulamak için yalnızca iki denemeniz var!",
-        "descP1": "Bu formu gönderdiğinizde, bilgileri doğrulama isteğinde bulunurken sağlanan {firstName} ile eşleştiririz. Lütfen dikkat edin, çünkü bu formu doğru doldurmak için yalnızca iki denemeniz vardır. Yine de başarısız olursanız, gelecekte {firstName} tekrar doğrulayamazsınız.",
-        "descP2": "{firstName}bilmiyorsanız bu isteği reddedin. Onlara haber vereceğiz ve başka birine ulaşmalarını isteyeceğiz.",
+        "descP1": "Bu formu gönderdiğinizde, bilgileri {firstName} doğrulama isteğinde bulunurken sağladığı bilgilerle eşleştireceğiz. Lütfen dikkat edin çünkü bu formu doğru doldurmak için sadece iki deneme hakkınız var. Hâlâ başarısız olursanız, gelecekte {firstName} tekrar doğrulayamayacaksınız.",
+        "descP2": "{firstName} bilmiyorsanız, bu isteği reddedin. Onlara haber vereceğiz ve başka birine ulaşmalarını isteyeceğiz.",
         "rejectRequestCta": "İsteği Reddet",
         "form": {
-          "heading": "{firstName} hakkında aşağıdaki soruları yanıtlayın ve Gönder'i tıklayın:",
-          "q1": "{firstName}nereden biliyorsun?",
+          "heading": "{firstName} ile ilgili aşağıdaki soruları yanıtlayın ve Gönder&#39;i tıklayın:",
+          "q1": "{firstName} nereden biliyorsun?",
           "q2": "Din:",
           "q3": "Mezhep:",
           "q4": "{firstName} Sedat mı?",
@@ -1073,13 +1073,13 @@
         "cta": "Reddetmek",
         "title": "İsteği reddet",
         "reasonLabel": "Bu hesabı neden doğrulamak istemiyorsunuz?",
-        "reasonPh": "{userName} bildireceğiz ve doğrulama için başka birine ulaşmalarını isteyeceğiz"
+        "reasonPh": "{userName} bilgilendireceğiz ve doğrulama için başka birine ulaşmasını isteyeceğiz"
       },
       "haadiHome": {
         "title": "Tartışma başlat | Haadi ile tartışmalarınız",
         "item": {
-          "added": "Eklenen {date}",
-          "tokensUsed": "Kullanılan jetonlar: {tokens}",
+          "added": "Eklenme {date}",
+          "tokensUsed": "Kullanılan krediler: {tokens}",
           "readContinue": "Tartışmayı okuyun veya tartışmaya devam edin"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Bir soru sor",
         "empty": {
           "heading": "Bu konuşma bulunamadı",
-          "p1": "Bu konuşmayı almaya çalışırken bir hata oluştu. Lütfen URL'yi kontrol edin ve tekrar deneyin.",
-          "p2": "Bu durum devam ederse, lütfen bizimle iletişime geçin.",
-          "guest": "Bunun nedeni giriş yapmamış olmanız olabilir. Lütfen giriş yapmayı deneyin ve tekrar kontrol edin."
+          "p1": "Bu sohbeti bulamadık. Lütfen URL&#39;yi kontrol edin ve tekrar deneyin.",
+          "guest": "Bunun nedeni giriş yapmamış olmanız olabilir. Lütfen giriş yapmayı deneyin ve tekrar kontrol edin.",
+          "p2": "Bu durum devam ederse, lütfen bizimle iletişime geçin."
         },
         "jsNewChatInfo": "Bu, Haadi ile yeni bir konuşmanın başlangıcıdır. Sorularınızı yanıtlarken Haadi için bağlamı etkinleştirmeyi seçtiniz. Bu seçeneği istediğiniz zaman ayarlardan devre dışı bırakabilir veya bunun sizin için ne anlama geldiğini görebilirsiniz."
       },
       "aboutHaadi": {
-        "title": "Şii İslam'da gezinmek için bot arkadaşınız Haadi ile tanışın!",
-        "desc": "Daha fazla bilgi edinmek için bu özetlerin her birini tıklayın veya blogumuzda <a href= Haadi ve kullanım şartları hakkında daha fazla bilgi{blogLink} target='_system'>",
+        "title": "Şii İslam&#39;da gezinmek için <strong>Bot arkadaşınız</strong> Haadi ile tanışın!",
+        "desc": "Haadi&#39;yi kullanmaya başlamadan önce bu özetleri gözden geçirmenizi öneririz. Haadi ve kullanım koşulları hakkında daha fazla <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a> bulabilirsiniz.",
         "agreement": "Kullanım Koşullarını anlıyor ve kabul ediyorum"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "Lütfen şifrenizi giriniz!",
         "jsEnterValidPwd": [
           "Parola geçersiz karakterler içeriyor. Lütfen geçerli bir şifre girin.",
-          "Şifre en az {num} karakter uzunluğunda olmalıdır."
+          "Parola en az {num} karakter olmalıdır."
         ],
         "jsAccountSuccess": "Hesap başarıyla oluşturuldu",
         "jsFbError": "Facebook hesap bilgileriniz alınamadı. Lütfen tekrar deneyin.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Bazm { platform } yükleyin",
-          "desc": "Daha iyi bir deneyim, kişiselleştirilmiş içerik, bildirimler ve çevrenizden ilginizi çeken her şey için Android uygulamamızı indirin! | Daha iyi bir deneyim için bir dahaki sefere doğrudan ana ekranınızdan erişmek için uygulama kısayolunu (yer imi) yükleyin! Cihazınızda neredeyse hiç yer kaplamaz, ancak uygulamaya hızlı bir şekilde geri dönmenize yardımcı olur.",
+          "heading": "Bazm Kısayolu Ekle",
+          "desc": "Daha iyi bir deneyim, kişiselleştirilmiş içerik, bildirimler ve çevrenizden ilginizi çeken her şey için Android uygulamamızı indirin! | Bir dahaki sefere daha iyi bir deneyim için doğrudan ana ekranınızdan erişmek üzere uygulama kısayolunu (yer imi) yükleyin! Cihazınızda neredeyse hiç yer kaplamaz, ancak uygulamaya hızla geri dönmenize yardımcı olur.",
           "cta": {
             "action": "Yüklemek",
             "skip": "Belki daha sonra"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Bazm kısayolunu yükleyin mi?"
         },
-        "popover": {
-          "text": "<strong>AŞAĞIDAKİ</strong> Paylaş simgesine (sağdakine benzer) tıklayın ve ardından <strong>Ana Ekrana Ekle'ye</strong> tıklayın. Bitirmek için \"Kaydet\" e tıklayın ve ardından uygulamaya ana ekranınızdaki kısayoldan erişebilirsiniz!"
-        },
         "nonSafari": {
-          "heading": "Bazz, Apple Safari'de daha iyi çalışır",
+          "heading": "Bazm, Safari&#39;de daha iyi çalışır",
           "desc": "Bu tarayıcı sınırlı özelliklere sahipken, Safari tarayıcısı Push bildirimleri ve Uygulama kısayolu dahil olmak üzere uygulamamızın daha iyi performans göstermesini sağlar.",
-          "subtext": "<strong>Telefonunuzda Safari uygulamasını açın</strong> ve daha iyi bir deneyim için <strong>{url}</strong> gidin.",
+          "subtext": "Daha iyi bir deneyim için <strong>Safari Tarayıcısını açın</strong> ve <strong>{url}</strong> gidin.",
           "skipCta": "Bunun yerine buradan devam edin"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Çerezleri cihazınıza kaydetme hakkında",
-        "p1": "{device} herhangi bir çerez saklamıyoruz, ancak uygulamamızda kullanılan üçüncü taraf uygulamaları (Google Analytics gibi) olabilir. Bunun yerine, önemli verileri depolamak için kalıcı depolama kullanırız ve çoğu durumda, bu depolama alanında ve aktarım sırasında şifrelenir.",
+        "p1": "{device} herhangi bir çerez saklamıyoruz, ancak uygulamamızda kullanılan üçüncü taraf uygulamaları (Google Analytics gibi) saklayabilir. Bunun yerine, önemli verileri depolamak için kalıcı depolamayı kullanırız ve çoğu durumda bu, depolamada ve aktarım sırasında şifrelenir.",
         "p2": "Bu uygulamayı kullanmaya devam ederek, seçimlerimizle ilgili herhangi bir sorun yaşamadığınızı onaylarsınız. Çerezlerimiz ve veri kullanımımız hakkında daha fazla bilgi edinmek için <a href='https://bazm.in/privacy-policy' target='_blank'>Gizlilik Politikamıza bakın.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Dünyanın dört bir yanındaki Şii Müslümanlar için Sosyal Ağ Uygulaması! Uygulamayı bugün indirin.",
+      "titleBranding": "__ Bazm - Dünyanın dört bir yanındaki Şii Müslümanlar için Sosyal Ağ Uygulaması!",
       "home": {
         "title": "Bazm - Online Şii topluluk uygulaması!",
         "description": "Bazm uygulaması, günlük deen & mazhab ihtiyaçlarınızı karşılayan Şii topluluk uygulamasıdır. Nauhe, Majalis, Dua, Aamaal, Ziyarat, Kitaplar vb. Bul. tüm tarihler ve durumlar için. Evinizin rahatlığında dünyanın dört bir yanındaki Şii Müslümanlarla canlı yayın etkinliklerini ve meclisleri izleyin ve yapın. Bugün katılın!"
       },
       "feed": {
-        "title": "Özel içerikler bulun ve etrafınızdaki ve dünyadaki Şii topluluğuyla paylaşın",
+        "title": "Bazm — Dünyanın dört bir yanındaki Şii Müslümanlardan özel içerikler bulun ve paylaşın!",
         "description": "Şii momineenlerle haberleri, etkinlikleri ve içerikleri bulup paylaşın ve onları ev sahipliği yaptığınız etkinlikler hakkında bilgilendirin. Uygulamada yakınınızda olup biten her şey hakkında bilgi edinin."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Bazm uygulamasında tüm yıllardan Soaz'ı ve dünyanın dört bir yanından gelen tüm popüler Soazkhwan'ı dinleyin."
       },
       "majalisList": {
-        "title": "{type} Bazm'da majalis/majlis - Daha fazla nauhe, ses/video majalis, dua, ziyarat, aamaal, vb. bul. Bazm üzerinde",
+        "title": "Bazm&#39;da majalis/majlis {type} - Daha fazla nauhe, audio/video majalis, dua, ziyarat, aamaal, vb. bulun. Bazm&#39;da",
         "description": "Yakınınızdaki ve dünyanın dört bir yanından Mevlana ve Zakir-e-Ahlbayt'tan ses/video meclislerini bulun. Bazm uygulamasında en son majalis'i ve canlı yayın oturumlarını dinleyin ve izleyin. Uygulamayı bugün indirin ve dünyadaki milyonlarca Şii Müslüman'a katılın!"
       },
       "duasPage": {
         "title": [
-          "Bazm'da {month} ayı için Duas ve aamaal - Daha fazla nauhe, ses / video majalis, dua, ziyarat, aamaal, vb. Bul. Bazm üzerinde",
+          "Bazm&#39;da {month} ayı için dualar ve aamaal - Daha fazla nauhe, audio/video majalis, dua, piyarat, aamaal, vb. bulun. Bazm&#39;da",
           "Bazm'da tüm aylar için Duas ve aamaal - Daha fazla nauhe, ses / video majalis, dua, ziyarat, aamaal, vb. Bulun. Bazm üzerinde"
         ],
         "description": "Bazm'da tüm aylar için duas, aamaal, ziyarat ve munajat bulun, tarih ve olay bilge. Uygulamayı bugün indirin ve dünyadaki milyonlarca Şii Müslüman'a katılın!"
