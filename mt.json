@@ -294,7 +294,7 @@
             },
             "js": {
               "recordDeleteFailed": "Sar żball waqt li kien qed jipprova jħassar dan ir-rekord. Jekk jogħġbok erġa&#39; pprova, jew jekk l-iżball jippersisti, erġa&#39; erġa&#39; aktar tard.",
-              "recordDeleted": "Ir-rekord tħassar b&#39;suċċess",
+              "recordDeleted": "Ir-rekord imħassar b&#39;suċċess",
               "deleteRecordHeader": "Ħassar ir-rekord?",
               "deleteRecordDesc": "Int żgur li trid tħassar dan ir-rekord? Kwalunkwe aċċessorji miżjuda ma&#39; dan ir-rekord se jitħassru wkoll!"
             }
@@ -478,6 +478,7 @@
         }
       },
       "langPrompt": {
+        "title": "Uża app {langLabel} ?",
         "desc": {
           "p1": "Jidher li qed taċċessa l-app minn {countryName} . Tixtieq tara kontenut u kontrolli f&#39;waħda mil-lingwi li ġejjin mitkellma fir-reġjun? Ikklikkja fuq l-għażla tiegħek u mbagħad ikklikkja &#39;Save&#39; biex tkompli.",
           "p2": "Jew, warrab dan il-popup biex tkompli tuża l-app fil-lingwa awtomatika."
@@ -486,7 +487,9 @@
           "useLang": [
             "Iva, uża {langName}",
             "Uża {langName}"
-          ]
+          ],
+          "useEnglish": "Kompli bl-Ingliż",
+          "selectFrom": "Jew, agħżel minn waħda mil-lingwi alternattivi li ġejjin:"
         },
         "langError": "Sar żball waqt it-tagħbija tat-traduzzjonijiet għal {langName} . Jekk jogħġbok erġa&#39; pprova aktar tard."
       },
@@ -653,7 +656,7 @@
           "userInfo": {
             "aboutLabel": "Dwarek",
             "genderLabel": "Is-sess tiegħek",
-            "bdayLabel": "Birthday tiegħek",
+            "bdayLabel": "għeluq tiegħek",
             "bdayDesc": "Tista&#39; tistaqsi mistoqsija biss jekk għandek aktar minn 09 snin."
           },
           "jsQuesAdded": "Mistoqsija miżjuda b&#39;suċċess."
@@ -911,7 +914,7 @@
           "privacy": {
             "header": "Issettja l-privatezza tiegħek",
             "p1": "Iddefinixxi dak li oħrajn jistgħu jaraw:",
-            "ul": "<li>Issettja s-settings tal-viżibilità għall-postijiet tiegħek. Jiddefinixxi jekk il-postijiet tiegħek jistgħux jidhru minn xi ħadd fuq jew barra Bazm (eż., meta xi ħadd jaqsamha fuq pjattaforma oħra)</li><li> Issettja min jista’ jara x’meta jżur il-profil tiegħek</li><li> Issettja kif tidher l-informazzjoni tiegħek lil ħaddieħor</li>"
+            "ul": "<li>Issettja s-settings tal-viżibilità għall-postijiet tiegħek. Jiddefinixxi jekk il-postijiet tiegħek jistgħux jidhru minn xi ħadd fuq jew barra Bazm (eż., meta xi ħadd jaqsamha fuq pjattaforma oħra)</li><li> Issettja min jista’ jara x’meta jżur il-profil tiegħek</li><li> Issettja kif tidher l-informazzjoni tiegħek lill-oħrajn</li>"
           },
           "comm": {
             "header": "Issettja s-settings tal-komunikazzjoni",
