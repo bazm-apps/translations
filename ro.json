@@ -81,7 +81,8 @@
         "cancelCta": "Întreabă-mă mai târziu",
         "okCta": "Sigur!",
         "jsPushUnsupported": "Împingeți nu este acceptat pe acest dispozitiv. Este posibil să pierdeți notificările!"
-      }
+      },
+      "sending": "Se trimite..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Aceste informații sunt vizibile numai pentru dvs., și vedeți conținut și caracteristici bazate pe acest lucru.",
           "idSetupCta": "Configurați-vă identitatea",
           "idVerifyCta": "Verifica",
-          "joinDate": "S-au alăturat: {date}"
+          "joinDate": "S-au alăturat: {date}",
+          "idVerifyAltText": "Doar momineeni șiiti verificați pot verifica pe alții. Vă rugăm să vă verificați contul, astfel încât să puteți verifica <strong>{name}</strong> ulterior.",
+          "idVerifyAltText2": "Dacă ai solicitat deja pe cineva, îi poți reaminti cu un nou link sau îi poți cere un răspuns mai rapid."
         },
         "posts": {
           "title": "Mesaje",
@@ -792,7 +795,8 @@
         "jsMailSent": "Mail trimis",
         "title2": "Revendică-ți contul",
         "claimIntroHeading": "Revendică-ți contul rapid!",
-        "claimIntroText": "Vă mulțumim pentru aderarea la noi. Am creat un cont pentru tine acum. Obțineți acces la contul dvs., resetând parola acestuia utilizând una dintre următoarele metode:"
+        "claimIntroText": "Vă mulțumim pentru aderarea la noi. Am creat un cont pentru tine acum. Obțineți acces la contul dvs., resetând parola acestuia utilizând una dintre următoarele metode:",
+        "introText2": "Resetarea parolei este ușoară. Introduceți adresa de e-mail și primiți linkul de resetare a parolei pe e-mailul dvs."
       },
       "resetPwd": {
         "title": "Resetare parolă",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Nu a putut găsi această conversație",
           "p1": "A apărut o eroare în timp ce încercați să obțineți această conversație. Vă rugăm să verificați adresa URL și încercați din nou.",
-          "p2": "Dacă acest lucru continuă să se întâmple, vă rugăm să ne contactați."
+          "p2": "Dacă acest lucru continuă să se întâmple, vă rugăm să ne contactați.",
+          "guest": "Acest lucru se poate datora faptului că nu sunteți autentificat. Vă rugăm să încercați să vă autentificați și să verificați din nou."
         },
         "jsNewChatInfo": "Acesta este începutul unei noi conversații cu Haadi. Ați ales să activați contextul pentru Haadi în timp ce răspundeți la întrebările dvs. Puteți oricând să dezactivați această opțiune în setări sau să vedeți ce înseamnă acest lucru pentru dvs."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Cum este experiența ta de până acum?",
         "text": "<p>Îți place noua aplicație? Există ceva ce putem îmbunătăți? Vă rugăm să ne ajutați cu feedback-ul dumneavoastră pentru a îmbunătăți experiența pentru dvs.!</p><p>Acest lucru ar dura doar câteva minute, iar noi apreciem foarte mult timpul tau!</p>",
         "cta": "Oferiți feedback",
-        "dismiss": "Poate mai târziu"
+        "dismiss": "Poate mai târziu",
+        "altText": "Feedbackul dvs. ne va ajuta să îmbunătățim experiența aplicației pentru dvs. și durează doar un minut."
       },
       "advertise": {
         "heading": "Publicitate pe Bazm",
