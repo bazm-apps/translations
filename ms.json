@@ -81,7 +81,8 @@
         "cancelCta": "Tanya saya nanti",
         "okCta": "Pasti!",
         "jsPushUnsupported": "Tolak tidak disokong pada peranti ini. Anda mungkin terlepas pemberitahuan!"
-      }
+      },
+      "sending": "Menghantar..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Maklumat ini hanya dapat dilihat oleh anda dan anda melihat kandungan dan ciri berdasarkan ini.",
           "idSetupCta": "Sediakan identiti anda",
           "idVerifyCta": "Mengesahkan",
-          "joinDate": "Menyertai: {date}"
+          "joinDate": "Menyertai: {date}",
+          "idVerifyAltText": "Hanya Syiah momineen yang disahkan boleh mengesahkan orang lain. Sila dapatkan pengesahan akaun anda, supaya anda boleh mengesahkan <strong>{name}</strong> selepas itu.",
+          "idVerifyAltText2": "Jika anda telah meminta seseorang, anda boleh mengingatkan mereka sekali lagi dengan pautan baharu atau minta lebih ramai momineen untuk mendapatkan respons yang lebih pantas."
         },
         "posts": {
           "title": "Posting",
@@ -792,7 +795,8 @@
         "jsMailSent": "Mel dihantar",
         "title2": "Tuntut akaun anda",
         "claimIntroHeading": "Tuntut akaun anda dengan cepat!",
-        "claimIntroText": "Terima kasih kerana menyertai kami. Kami telah mencipta akaun untuk anda sekarang. Dapatkan akses kepada akaun anda dengan menetapkan semula kata laluan menggunakan salah satu kaedah berikut:"
+        "claimIntroText": "Terima kasih kerana menyertai kami. Kami telah mencipta akaun untuk anda sekarang. Dapatkan akses kepada akaun anda dengan menetapkan semula kata laluan menggunakan salah satu kaedah berikut:",
+        "introText2": "Menetapkan semula kata laluan anda adalah mudah. Masukkan e-mel anda dan dapatkan pautan tetapan semula kata laluan pada e-mel anda."
       },
       "resetPwd": {
         "title": "Set Semula Kata Laluan",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Tidak dapat mencari perbualan ini",
           "p1": "Ralat berlaku semasa cuba mendapatkan perbualan ini. Sila semak URL dan cuba lagi.",
-          "p2": "Jika ini terus berlaku, sila hubungi kami."
+          "p2": "Jika ini terus berlaku, sila hubungi kami.",
+          "guest": "Ini mungkin kerana anda tidak log masuk. Sila cuba log masuk dan semak semula."
         },
         "jsNewChatInfo": "Ini adalah permulaan perbualan baru dengan Haadi. Anda telah memilih untuk mendayakan konteks untuk Haadi semasa menjawab soalan anda. Anda sentiasa boleh menyahdayakan opsyen ini dalam seting atau melihat maksud ini untuk anda."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Bagaimana pengalaman anda setakat ini?",
         "text": "<p>Adakah anda suka aplikasi baharu? Adakah terdapat sesuatu yang boleh kita perbaiki? Sila bantu kami dengan maklum balas anda untuk meningkatkan pengalaman untuk anda!</p><p>Ini akan mengambil masa hanya beberapa minit, dan kami sangat menghargai masa anda!</p>",
         "cta": "Beri maklum balas",
-        "dismiss": "Mungkin nanti"
+        "dismiss": "Mungkin nanti",
+        "altText": "Maklum balas anda akan membantu kami memperbaik pengalaman apl untuk anda dan ia hanya mengambil masa seminit."
       },
       "advertise": {
         "heading": "Pengiklanan di Bazm",
