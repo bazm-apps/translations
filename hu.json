@@ -81,7 +81,8 @@
         "cancelCta": "Kérdezzen később",
         "okCta": "Biztos!",
         "jsPushUnsupported": "A leküldés nem támogatott ezen az eszközön. Lehet, hogy lemaradsz az értesítésekről!"
-      }
+      },
+      "sending": "Küldés..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Ezek az információk csak Ön számára láthatók, és ennek alapján látja a tartalmat és a funkciókat.",
           "idSetupCta": "Az identitás beállítása",
           "idVerifyCta": "Igazol",
-          "joinDate": "Csatlakozott: {date}"
+          "joinDate": "Csatlakozott: {date}",
+          "idVerifyAltText": "Csak az igazolt síita mominen tud igazolni másokat. Kérjük, ellenőriztesse fiókját, hogy ezt követően igazolhassa <strong>{name}</strong> .",
+          "idVerifyAltText2": "Ha már felkért valakit, egy új linkkel újra emlékeztetheti, vagy kérhet több momineent a gyorsabb válasz érdekében."
         },
         "posts": {
           "title": "Hozzászólás",
@@ -792,7 +795,8 @@
         "jsMailSent": "Elküldött levelek",
         "title2": "Fiók igénylése",
         "claimIntroHeading": "Igényelje fiókját gyorsan!",
-        "claimIntroText": "Köszönjük, hogy csatlakozott hozzánk. Most létrehoztunk Önnek egy fiókot. Hozzáférhet fiókjához a jelszó visszaállításával az alábbi módszerek egyikével:"
+        "claimIntroText": "Köszönjük, hogy csatlakozott hozzánk. Most létrehoztunk Önnek egy fiókot. Hozzáférhet fiókjához a jelszó visszaállításával az alábbi módszerek egyikével:",
+        "introText2": "A jelszó visszaállítása egyszerű. Adja meg e-mail-címét, és megkapja a jelszó-visszaállító hivatkozást az e-mailben."
       },
       "resetPwd": {
         "title": "Jelszó visszaállítása",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Nem található ez a beszélgetés",
           "p1": "Hiba történt a beszélgetés lekérése közben. Ellenőrizze az URL-t, és próbálja újra.",
-          "p2": "Ha ez továbbra is megtörténik, kérjük, vegye fel velünk a kapcsolatot."
+          "p2": "Ha ez továbbra is megtörténik, kérjük, vegye fel velünk a kapcsolatot.",
+          "guest": "Ennek az lehet az oka, hogy nincs bejelentkezve. Kérjük, próbáljon meg bejelentkezni, és ellenőrizze újra."
         },
         "jsNewChatInfo": "Ez egy új beszélgetés kezdete Haadival. Úgy döntött, hogy engedélyezi a Haadi kontextusát a kérdések megválaszolása közben. Ezt az opciót bármikor letilthatja a beállításokban, vagy megnézheti, mit jelent ez az Ön számára."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Milyenek az eddigi tapasztalataid?",
         "text": "<p>Tetszik az új alkalmazás? Van valami, amin javíthatunk? Kérjük, segítsen nekünk visszajelzésével, hogy javítsuk az élményt az Ön számára!</p><p>Ez csak néhány percet vesz igénybe, és nagyra értékeljük az idejét!</p>",
         "cta": "Visszajelzés küldése",
-        "dismiss": "Talán később"
+        "dismiss": "Talán később",
+        "altText": "Visszajelzése segít nekünk az alkalmazás élményének javításában, és ez csak egy percet vesz igénybe."
       },
       "advertise": {
         "heading": "Hirdessen a Bazm-en",
