@@ -81,7 +81,8 @@
         "cancelCta": "Pitaj me kasnije",
         "okCta": "Siguran!",
         "jsPushUnsupported": "Guranje nije podržano na ovom uređaju. Možda ćete propustiti obavijesti!"
-      }
+      },
+      "sending": "Slanje..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Te su informacije vidljive samo vama i na temelju njih vidite sadržaj i značajke.",
           "idSetupCta": "Postavljanje identiteta",
           "idVerifyCta": "Ovjeriti",
-          "joinDate": "Pridružio se: {date}"
+          "joinDate": "Pridružio se: {date}",
+          "idVerifyAltText": "Samo provjereni šiitski momineen može verificirati druge. Molimo vas da potvrdite svoj račun kako biste nakon toga mogli potvrditi <strong>{name}</strong> .",
+          "idVerifyAltText2": "Ako ste već nekoga zatražili, možete ga ponovno podsjetiti novom vezom ili zatražiti više momineen za brži odgovor."
         },
         "posts": {
           "title": "Postove",
@@ -792,7 +795,8 @@
         "jsMailSent": "Poslana pošta",
         "title2": "Zatražite svoj račun",
         "claimIntroHeading": "Brzo zatražite svoj račun!",
-        "claimIntroText": "Hvala što ste nam se pridružili. Napravili smo račun za vas. Pristupite računu tako da ponovno postavite lozinku na jedan od sljedećih načina:"
+        "claimIntroText": "Hvala što ste nam se pridružili. Napravili smo račun za vas. Pristupite računu tako da ponovno postavite lozinku na jedan od sljedećih načina:",
+        "introText2": "Ponovno postavljanje lozinke je jednostavno. Unesite svoju e-poštu i primite vezu za ponovno postavljanje lozinke na svoju e-poštu."
       },
       "resetPwd": {
         "title": "Vrati izvornu lozinku",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Ovaj razgovor nije moguće pronaći",
           "p1": "Došlo je do pogreške prilikom pokušaja dohvaćanja ovog razgovora. Provjerite URL i pokušajte ponovno.",
-          "p2": "Ako se to nastavi, ljubazno nas kontaktirajte."
+          "p2": "Ako se to nastavi, ljubazno nas kontaktirajte.",
+          "guest": "To bi moglo biti zato što niste prijavljeni. Pokušajte se prijaviti i provjerite ponovno."
         },
         "jsNewChatInfo": "Ovo je početak novog razgovora s Haadijem. Odabrali ste omogućiti kontekst za Haadija dok odgovarate na vaša pitanja. Tu mogućnost uvijek možete onemogućiti u postavkama ili vidjeti što to znači za vas."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Kakvo je vaše dosadašnje iskustvo?",
         "text": "<p>Sviđa li vam se nova aplikacija? Možemo li nešto poboljšati? Molimo vas da nam pomognete sa svojim povratnim informacijama kako bismo poboljšali iskustvo za vas!</p><p>To bi trajalo samo nekoliko minuta i iznimno cijenimo vaše vrijeme!</p>",
         "cta": "Slanje povratnih informacija",
-        "dismiss": "Možda kasnije."
+        "dismiss": "Možda kasnije.",
+        "altText": "Vaše povratne informacije pomoći će nam da poboljšamo iskustvo aplikacije za vas, a potrebno je samo minutu."
       },
       "advertise": {
         "heading": "Oglašavajte se na Bazmu",
