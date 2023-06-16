@@ -81,7 +81,8 @@
         "cancelCta": "Pregúntame más tarde",
         "okCta": "¡Seguro!",
         "jsPushUnsupported": "Push no es compatible con este dispositivo. ¡Es posible que te pierdas las notificaciones!"
-      }
+      },
+      "sending": "Enviando..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Esta información es visible solo para usted y verá contenido y características basadas en esto.",
           "idSetupCta": "Configura tu identidad",
           "idVerifyCta": "Verificar",
-          "joinDate": "Se unió: {date}"
+          "joinDate": "Se unió: {date}",
+          "idVerifyAltText": "Solo los momineen chiítas verificados pueden verificar a otros. Por favor, verifique su cuenta, para que pueda verificar <strong>{name}</strong> a partir de entonces.",
+          "idVerifyAltText2": "Si ya ha solicitado a alguien, puede recordárselo nuevamente con un nuevo enlace o pedir más momineen para una respuesta más rápida."
         },
         "posts": {
           "title": "Mensajes",
@@ -792,7 +795,8 @@
         "jsMailSent": "Correo enviado",
         "title2": "Reclama tu cuenta",
         "claimIntroHeading": "¡Reclama tu cuenta rápidamente!",
-        "claimIntroText": "Gracias por acompañarnos. Hemos creado una cuenta para ti ahora. Obtenga acceso a su cuenta restableciendo su contraseña mediante uno de los siguientes métodos:"
+        "claimIntroText": "Gracias por acompañarnos. Hemos creado una cuenta para ti ahora. Obtenga acceso a su cuenta restableciendo su contraseña mediante uno de los siguientes métodos:",
+        "introText2": "Restablecer su contraseña es fácil. Ingrese su correo electrónico y obtenga el enlace de restablecimiento de contraseña en su correo electrónico."
       },
       "resetPwd": {
         "title": "Restablecer contraseña",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "No se pudo encontrar esta conversación",
           "p1": "Se ha producido un error al intentar obtener esta conversación. Comprueba la URL e inténtalo de nuevo.",
-          "p2": "Si esto sigue sucediendo, póngase en contacto con nosotros."
+          "p2": "Si esto sigue sucediendo, póngase en contacto con nosotros.",
+          "guest": "Esto podría deberse a que no ha iniciado sesión. Intente iniciar sesión y verifique nuevamente."
         },
         "jsNewChatInfo": "Este es el comienzo de una nueva conversación con Haadi. Has elegido habilitar el contexto para Haadi mientras respondes tus preguntas. Siempre puede desactivar esta opción en la configuración, o ver lo que esto significa para usted."
       },
@@ -1189,7 +1194,8 @@
         "heading": "¿Cómo es tu experiencia hasta ahora?",
         "text": "<p>¿Te gusta la nueva app? ¿Hay algo que podamos mejorar? ¡Ayúdenos con sus comentarios para mejorar la experiencia para usted!</p><p>Esto tomaría solo unos minutos, ¡y apreciamos mucho su tiempo!</p>",
         "cta": "Dar retroalimentación",
-        "dismiss": "Tal vez más tarde"
+        "dismiss": "Tal vez más tarde",
+        "altText": "Sus comentarios nos ayudarán a mejorar la experiencia de la aplicación para usted, y solo toma un minuto."
       },
       "advertise": {
         "heading": "Anúnciate en Bazm",
