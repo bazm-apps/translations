@@ -2,105 +2,106 @@
   "sk": {
     "common": {
       "refresh": "Potiahnutím obnovíte",
-      "refreshing": "Osviežujúci...",
+      "refreshing": "Obnovuje sa...",
       "loadingMore": "Načítava sa viac...",
-      "checking": "Kontrolu...",
-      "sendOtp": "Odoslanie OTP..",
-      "dismiss": "Prepustiť",
+      "checking": "Prebieha kontrola...",
+      "sendOtp": "Odosiela sa jednorazové heslo..",
+      "dismiss": "Odmietnuť",
       "invite": "Pozvať",
       "showMore": "Zobraziť viac | Zobraziť viac",
-      "play": "Hrať",
+      "play": "hrať",
       "pause": "Pozastavené",
-      "playing": "Hranie",
+      "playing": "Prehrávanie",
       "paused": "Pozastavené",
-      "watch": "Hodinky",
+      "watch": "Sledujte",
       "read": "Čítať",
       "authors": "Autor | Autori",
       "languages": "Jazyk | Jazyky",
-      "clear": "Jasný",
+      "clear": "jasný",
       "cancel": "Zrušiť",
       "change": "Zmeniť",
-      "continue": "Pokračovať",
-      "select": "Vybrať",
-      "saveChanges": "Uloženie zmien | Uložiť | Aktualizácia",
+      "continue": "ďalej",
+      "select": "Vyberte",
+      "saveChanges": "Uložiť zmeny | Uložiť | Aktualizovať",
       "newBadge": "Nový",
-      "login": "Prihlásenie",
-      "logout": "Odhlásenie",
-      "signup": "Zaregistrovať sa",
-      "settings": "Nastavenia",
+      "login": "Prihlásiť sa",
+      "logout": "Odhlásiť sa",
+      "signup": "Prihlásiť Se",
+      "settings": "nastavenie",
       "cookiePolicy": "Zásady používania súborov cookie",
-      "privacy": "Súkromie",
-      "contactUs": "Napíšte nám",
+      "privacy": "Ochrana osobných údajov",
+      "contactUs": "Kontaktuj nás",
       "home": "Domov",
-      "facebook": "Na Facebooku",
+      "facebook": "Facebook",
       "google": "Google",
-      "you": "Vy",
-      "retry": "Znova",
-      "send": "Poslať",
+      "you": "vy",
+      "retry": "Skúsiť znova",
+      "send": "Odoslať",
       "submit": "Predložiť",
       "share": "Zdieľať | Zdieľať teraz",
       "at": "pri",
-      "untilNextTime": "Bez problémov. Až nabudúce!",
-      "plzWait": "Prosím počkajte..",
-      "saving": "Úspora.. | Aktualizácia..",
-      "search": "Hľadať",
+      "untilNextTime": "Žiaden problém. Dobudúcna!",
+      "plzWait": "Prosím čakajte..",
+      "saving": "Ukladá sa.. | Aktualizuje sa..",
+      "search": "Vyhľadávanie",
       "late": "Neskoro",
-      "done": "Robené",
-      "featureUnavailable": "Táto funkcia bude čoskoro k dispozícii. Ďakujeme, že prejavujete záujem!",
+      "done": "hotový",
+      "featureUnavailable": "Táto funkcia bude čoskoro k dispozícii. Ďakujeme za prejavený záujem!",
       "actions": {
         "cancel": "Zrušiť",
-        "notify": "Oznámiť",
-        "like": "Ako",
-        "recited": "Prednášal",
-        "comment": "Komentár",
-        "reply": "Odpoveď",
+        "notify": "Upozorniť",
+        "like": "Páči sa mi to",
+        "recited": "Recitované",
+        "comment": "Komentujte",
+        "reply": "Odpovedzte",
         "bookmark": "Záložka",
-        "uploading": "Nahrávanie..",
-        "deleting": "Odstránenie..",
-        "requesting": "Žiadajúci..",
-        "audienceHeader": "Momineen who {action}d | Momineen who {action}d this",
+        "uploading": "Nahráva sa...",
+        "deleting": "Odstraňuje sa..",
+        "requesting": "Žiada sa..",
+        "audienceHeader": "Momineen, ktorá {action} d | Momineen, ktorá {action} d toto",
         "jsShareFileTypeError": "Ľutujeme, tu nemôžete zdieľať súbory {fileType}",
         "jsUpdateAvailable": {
-          "header": "K dispozícii je aktualizácia",
-          "message": "Zobrazuje sa vám verzia aplikácie vo vyrovnávacej pamäti.",
-          "cta": "Občerstviť"
+          "header": "Aktualizácia je dostupná",
+          "message": "Zobrazuje sa verzia aplikácie uložená vo vyrovnávacej pamäti. Kliknutím na „Obnoviť“ aktualizujte a načítajte nový obsah a funkcie.",
+          "cta": "Obnoviť"
         },
-        "jsImgUploaded": "Obrázok bol úspešne nahraný!",
-        "jsImgUploadErr": "Nahrávanie obrázkov zlyhalo. Skúste to znova neskôr.",
-        "jsLoadingDelay": "Trvá to trochu dlhšie, ako sa očakávalo. Počkajte prosím, kým spracujeme túto žiadosť."
+        "jsImgUploaded": "Obrázok bol úspešne odovzdaný!",
+        "jsImgUploadErr": "Nahranie obrázka zlyhalo. Skúste neskôr prosím.",
+        "jsLoadingDelay": "Trvá to trochu dlhšie, ako sa očakávalo. Počkajte, kým túto žiadosť spracujeme."
       },
-      "unknown": "Neznámy",
+      "sending": "Odosiela sa...",
       "close": "Zavrieť",
       "yes": "Áno",
       "no": "Nie",
       "idk": "Neviem",
-      "completed!": "Dokončený!",
+      "unknown": "Neznámy",
+      "completed!": "Dokončené!",
       "pushPrompt": {
         "heading": "Zostaňte v obraze",
-        "desc": "Páči sa vám, čo vidíte? Už nikdy nezmeškáte žiadnu aktualizáciu a zostaňte informovaní o všetkom, čo sa deje okolo, pomocou upozornení.<br />Môžeme vám posielať upozornenia?",
+        "desc": "Ako to, čo vidíš? Nezmeškajte žiadnu aktualizáciu a buďte informovaní o všetkom, čo sa deje okolo, pomocou upozornení.<br /> Môžeme vám posielať upozornenia?",
         "cancelCta": "Opýtajte sa ma neskôr",
-        "okCta": "Istý!",
-        "jsPushUnsupported": "Stlačenie nie je na tomto zariadení podporované. Môžu vám uniknúť upozornenia!"
+        "okCta": "Samozrejme!",
+        "jsPushUnsupported": "Toto zariadenie nepodporuje push. Môžu vám uniknúť upozornenia!"
       }
     },
     "errors": {
       "service": {
-        "unavailable": "Služba momentálne nie je k dispozícii. Skúste to znova neskôr.",
-        "unknown": "Vyskytla sa neznáma chyba. Skúste to znova neskôr.",
-        "general": "Pri spracovaní vašej žiadosti sa vyskytla chyba. Skúste to znova neskôr."
+        "unavailable": "Služba je momentálne nedostupná. Skúste neskôr prosím.",
+        "unknown": "Vyskytla sa neznáma chyba. Skúste neskôr prosím.",
+        "general": "Nastala chyba pri spracovaní vašej žiadosti. Skúste neskôr prosím."
       },
       "content": {
-        "unavailable": "Momentálne sa nepodarilo načítať obsah. Skúste to znova o chvíľu.",
-        "itemDetailUnavailable": "Nepodarilo sa nájsť podrobnosti pre túto {item}",
-        "loadMoreError": "Nepodarilo sa načítať viac položiek. Skúste to znova neskôr."
+        "unavailable": "Obsah sa momentálne nepodarilo načítať. Skúste to znova o chvíľu.",
+        "itemDetailUnavailable": "Nepodarilo sa nájsť podrobnosti o tejto {item}",
+        "loadMoreError": "Nepodarilo sa načítať ďalšie položky. Skúste neskôr prosím."
       },
       "url": {
-        "invalid": "Neplatná adresa URL. Skúste použiť novú adresu URL."
+        "invalid": "Neplatná URL adresa. Skúste to s novou adresou URL."
       },
       "page404": {
-        "title": "Stránka sa nenašla",
-        "desc": "Nepodarilo sa nám nájsť stránku, ktorú hľadáte!",
-        "ctaLabel": "Prejsť na domovskú stránku"
+        "title": "Stránka nenájdená",
+        "desc": "Nenašli sme stránku, ktorú hľadáte!",
+        "ctaLabel": "Choď domov"
       }
     },
     "navbar": {
@@ -109,11 +110,11 @@
       },
       "postDetail": {
         "commonTitle": "Detail",
-        "fatihaTitle": "Surah-fatiha",
-        "fatihaWithNamaz": "Surah-fatiha & Namaz-e-Wahshat",
+        "fatihaTitle": "Súra Fatiha",
+        "fatihaWithNamaz": "Súra-Fatiha a Namaz-e-Wahshat",
         "avatarUpdateTitle": "Profilový obrázok",
-        "bannerUpdateTitle": "Titulný obrázok (zastaraný)",
-        "statusUpdateTitle": "Aktualizácia stavu"
+        "bannerUpdateTitle": "Titulný obrázok (ukončená podpora)",
+        "statusUpdateTitle": "Aktualizácia statusu"
       }
     },
     "tabs": {
@@ -121,228 +122,227 @@
         "name": "Domov",
         "postDetail": {
           "shareRequest": {
-            "header": "Zdieľajte túto požiadavku vo svojej sieti a oslovte viac ľudí!"
+            "header": "Zdieľajte túto žiadosť vo svojej sieti a oslovte viac ľudí!"
           }
         }
       },
       "media": {
-        "name": "Media",
+        "name": "Médiá",
         "boxLabels": {
-          "nauhe": "Nauhe",
-          "majalis": "Majalis",
+          "nauhe": "Plazy",
+          "majalis": "zhromaždenie",
           "soaz": "Soaz",
           "ziyarat": "Ziyaraat",
-          "dua": "Duas",
+          "dua": "Dva",
           "munajat": "Munajaat",
           "munajaat": "Munajaat",
-          "books": "Knihy"
+          "books": "knihy"
         },
-        "inviteFriends": "pozvite svojich priateľov",
-        "notShia": "Nie ste šiíti?",
+        "inviteFriends": "Pozvi svojich priateľov",
+        "notShia": "Nie Shia?",
         "contacts": {
-          "accessRequestHeader": "Vyžaduje sa prístup kontaktov",
-          "accessRequestDesc": "Vyžadujeme prístup vašich kontaktov, aby sme navrhli šiítskym ľuďom vo vašom telefónnom zozname, aby pozvali do tejto aplikácie."
+          "accessRequestHeader": "Vyžaduje sa prístup ku kontaktom",
+          "accessRequestDesc": "Vyžadujeme prístup vašich kontaktov, aby sme navrhli šiitským ľuďom vo vašom telefónnom zozname pozvanie do tejto aplikácie."
         },
-        "audio": "Zvukový",
+        "audio": "Zvuk",
         "video": "Video",
-        "hijri": "Hijri",
+        "hijri": "Hidžri",
         "duaHome": {
-          "wishCtaText": "Prajem svojim priateľom!",
-          "wishCtaLabel": "PRIANIE"
+          "wishCtaText": "Zaželajte svojim priateľom!",
+          "wishCtaLabel": "ŽELAŤ"
         },
         "books": {
-          "booksByAuthor": "Knihy od používateľa {author}",
+          "booksByAuthor": "Knihy podľa {author}",
           "booksInLang": "Knihy v {lang}",
-          "filterBy": "Filtrovať podľa:",
+          "filterBy": "Triediť podľa:",
           "matching": {
-            "authors": "s priraďovaním autorov",
-            "lang": "so zhodnými jazykmi",
-            "title": "so zhodou názvov"
+            "authors": "so zodpovedajúcimi autormi",
+            "lang": "so zodpovedajúcimi jazykmi",
+            "title": "so zhodou názvu"
           }
         },
         "booksFilter": {
-          "title": "Vyhľadanie knihy podľa autora",
-          "searchBox": "Vyhľadávanie autora podľa mena",
+          "title": "Nájdite knihu podľa autora",
+          "searchBox": "Vyhľadajte autora podľa mena",
           "selectLang": "Vyberte jazyk:"
         },
         "bookDetails": {
-          "title": "{title} — Nájdite ďalšie bezplatné knihy, ako je táto, na Bazme",
+          "title": "{title} — Nájdite viac takýchto bezplatných kníh na Bazm",
           "aboutBook": "O knihe:"
         }
       },
       "tools": {
-        "name": "Náradie",
+        "name": "Nástroje",
         "salatAlarmDesc": "Nastavte si budíky pre Azaan podľa miestnych časov",
-        "sehriAlarmDesc": "Nastavte si budík pre Sehri, alebo dokonca získajte budíček na svoje číslo pred Sehri!",
-        "sehriAlarmOptionDisabled": "Alarmy pre čas Sheri počas mesiaca ramadán (k dispozícii iba počas ramadánu)",
-        "tasbeehCounterDesc": "Jednoducho recitujte Duas, Korán a Tasbeeh v opakovanom režime pomocou počítadla Audio Tasbeeh",
+        "sehriAlarmDesc": "Nastavte budík na Sehri alebo dokonca získajte budík na svojom čísle pred Sehri!",
+        "sehriAlarmOptionDisabled": "Budíky na čas Sheri počas mesiaca ramadán (k dispozícii iba počas ramadánu)",
+        "tasbeehCounterDesc": "Ľahko recitujte Duas, Korán a Tasbeeh v režime opakovania pomocou počítadla Audio Tasbeeh",
         "qnaLabel": "QnA (Masle-Masayel)",
-        "qnaDesc": "Vyhľadávajte a pýtajte sa alebo nájdite odpovede na masle-masayel z vášho každodenného života vo veciach islamu.",
+        "qnaDesc": "Hľadajte a pýtajte sa alebo nájdite odpovede na masle-masayel z vášho každodenného života o záležitostiach islamu.",
+        "khumsLabel": "Khumsova kalkulačka",
+        "khumsDesc": "Vypočítajte svoje chumy alebo pridajte akékoľvek predtým zaplatené chumy. Pomôže vám to pri zaznamenávaní vašich khumov v priebehu rokov.",
         "alarms": {
-          "salatAlarms": "Salat Alarms | Denné salatové alarmy",
-          "sehriAlarms": "Ramadán Sehri Alarmy",
-          "gettingLocation": "Získanie vašej polohy. Prosím počkajte...",
+          "salatAlarms": "Salat Alarms | Denné Salat Alarms",
+          "sehriAlarms": "Ramadan Sehri Alarms",
+          "gettingLocation": "Zisťovanie vašej polohy. Prosím čakajte...",
           "settingsTip": "Zmeňte <b>polohu</b> a predvoľby v nastaveniach budíka. Začnite kliknutím na ikonu Nastavenia.",
-          "setAlarmHeader": "Nastavenie denných budíkov",
-          "setAlarmOnAppDesc": "Nastavenie budíkov je k dispozícii iba v aplikácii",
+          "setAlarmHeader": "Nastavte denné budíky",
+          "setAlarmOnAppDesc": "Na pracovnej ploche sa upozornenie na alarm zobrazí iba ako banner bez akéhokoľvek zvonenia",
           "imsakLabel": "Imsak",
           "fajrLabel": "Fajr",
-          "zuhrLabel": "Zuhr",
-          "sunsetLabel": "Súmrak",
+          "sunsetLabel": "Západ slnka",
           "maghribLabel": "Maghrib",
           "midnightLabel": "Polnoc",
           "sehriEndTime": "Čas na koniec Sehri",
           "minToImsak": [
-            "{min} mins pred Imsakom",
-            "{hodina} hodina pred Imsakom"
+            "{min} min pred Imsakom",
+            "{hour} hodinu pred Imsakom"
           ],
           "minToImsakDesc": [
-            "Budík zazvoní {min} minúty pred koncom času Sehri",
-            "Budík zazvoní {hodinu} hodinu pred koncom Sehriho času"
+            "Budík zvoní {min} minúty pred koncom času Sehri",
+            "Budík zvoní {hour} hodinu pred koncom času Sehri"
           ],
-          "notRamadan": "Zdá sa, že ešte nie je ramadán. Prosím, vráťte sa počas ramadánu alebo tesne pred ním a nastavte budíky pre Sehri",
+          "notRamadan": "Zdá sa, že ešte nie je ramadán. Prosím, vráťte sa počas ramadánu alebo tesne pred ním, aby ste nastavili budíky pre Sehri",
           "push": {
-            "heading": "Vyžaduje sa prístup k oznámeniam",
-            "desc_request": "Alarm funguje tak, že posiela push notifikácie v určených časoch. Bez prístupu k push nebude aplikácia fungovať očakávaným spôsobom. Láskavo umožnite prístup k vášmu push notifikácii, aby sme vás mohli informovať v čase poplachu.",
-            "desc_denied": "<strong>Predtým ste odmietli prístup k upozorneniu.</strong> Vyžaduje sa, aby push notifikácie fungovali správne. Notifikácie posielame v čase poplachu.<br/> Láskavo umožnite prístup k push notifikáciám kliknutím na tlačidlo.",
+            "heading": "Vyžaduje sa prístup k upozorneniam",
+            "desc_request": "Alarm funguje tak, že v určených časoch odosiela push notifikácie. Bez prístupu k push nebude aplikácia fungovať očakávaným spôsobom. Povoľte nám prístup k upozorneniu push, aby sme vás mohli informovať v čase budíka.",
+            "desc_denied": "<strong>Už skôr ste zamietli prístup k upozorneniam.</strong> Je potrebné, aby push-notifikácie fungovali správne. Upozornenia posielame v čase budíka.<br/> Povoľte prístup k upozorneniam push kliknutím na tlačidlo.",
             "cta": "Povoliť",
-            "toast_granted": "Ďakujeme! Teraz dostanete upozornenie v čase poplachu.",
-            "toast_denied": "Žiadosť o oznámenie bola zamietnutá. Povoľte, prosím, prístup, aby aplikácia fungovala správne.",
-            "toast_prompt": "Na nastavenie budíkov musíte povoliť prístup k upozorneniam."
+            "toast_granted": "Ďakujem! Teraz budete upozornení v čase budíka.",
+            "toast_denied": "Žiadosť o oznámenie bola zamietnutá. Povoľte prístup pre aplikáciu, aby správne fungovala.",
+            "toast_prompt": "Ak chcete nastaviť budíky, musíte povoliť prístup k upozorneniam."
           },
-          "jsAlarmSetSuccess": "Úspešne nastavené budíky",
-          "jsAlarmSetError": "Chyba pri nastavovaní budíkov. Skúste to znova neskôr.",
-          "jsAlarmSnoozed": "Budík odložený na 10 minút",
-          "sunriseLabel": "Východ",
+          "jsAlarmSetSuccess": "Budíky boli úspešne nastavené",
+          "jsAlarmSetError": "Chyba pri nastavovaní budíkov. Skúste neskôr prosím.",
+          "jsAlarmSnoozed": "Budík bol odložený o 10 minút",
+          "sunriseLabel": "svitanie",
           "dhuhrLabel": "Zuhr",
           "asrLabel": "Asr",
-          "ishaLabel": "Domov"
+          "ishaLabel": "Oko"
         },
         "alarmSetting": {
           "title": "Nastavenia budíka",
-          "locationTitle": "Nájdite mesto pre časovanie alarmov",
-          "forLocation": "Budík pre polohu",
+          "locationTitle": "Nájdite mesto pre časovanie budíkov",
+          "forLocation": "Alarm pre umiestnenie",
           "calcMethod": "Metóda výpočtu",
           "selectAdhanSound": "Vyberte zvuk Adhan",
-          "selectAlarmSound": "Vyberte zvuk budíka",
-          "alarmSoundDesc": "Zvuk pre časy, ktoré nie sú salatové",
-          "timesPeekHeading": "Banner Časy zobrazenia",
+          "selectAlarmSound": "Vyberte Zvuk budíka",
+          "alarmSoundDesc": "Zvuk pre nešalátové časy",
+          "timesPeekHeading": "Čas zobrazenia bannera",
           "timesPeekDesc": "Zobrazenie rýchleho zobrazenia časov pre Salat môžete vypnúť tu:",
           "timesPeekHome": "Zobraziť na stránke informačných kanálov:",
-          "timesPeekTools": "Zobraziť na stránke s nástrojmi:",
-          "jsConfirmLocChange": "Zmenou polohy sa zrušia všetky predtým nastavené budíky. Pokračovať?",
-          "jsOtherSettingsSaved": "Ďalšie nastavenia uložené. Poloha sa nezmenila."
+          "timesPeekTools": "Zobraziť na stránke nástrojov:",
+          "jsConfirmLocChange": "Zmenou polohy sa zrušia všetky predtým nastavené budíky. Ďalej?",
+          "jsOtherSettingsSaved": "Ostatné nastavenia boli uložené. Poloha sa nezmenila."
         },
         "qna": {
-          "title": "Otázka-odpoveď",
+          "title": "Otázka odpoveď",
           "qnaSource": "Zdroj",
           "seeAnswer": "Pozri odpoveď",
           "noAnswer": "Žiadna odpoveď"
         },
         "qnaDetail": {
-          "title": "Odpovede pre: {ques}",
-          "jsSubmitSuccess": "Vaša otázka bola úspešne predložená. Keď na ňu dostaneme odpoveď, budeme vás informovať."
+          "title": "Odpovede na: {ques}",
+          "jsSubmitSuccess": "Vaša otázka bola úspešne odoslaná. Budeme vás aktualizovať, keď dostaneme odpoveď."
         },
         "tasbeehCounter": {
           "title": "Počítadlo Tasbeeh"
         },
-        "khumsLabel": "Khumsova kalkulačka",
-        "khumsDesc": "Vypočítajte si svoje khums alebo pridajte akékoľvek predtým zaplatené khums. Pomáha vám pri vedení záznamov o vašich khums v priebehu rokov.",
         "khums": {
           "list": {
             "blog": {
-              "title": "Blog: Vypočítajte khums efektívne",
-              "p1": "<a href='{href}' target='_blank'>Sledujte náš blog</a> , ktorý každý rok zdôrazňuje kľúčové položky pri výpočte khums.",
-              "p2": "Zrieknutie sa zodpovednosti: Blog NIE JE sprievodca. <strong>Riaďte sa rozhodnutiami vašej Marjah pre výpočet Khums</strong>. <span id='blog-info-link' color='primary'>Kliknutím sem</span> zobrazíte ďalšie informácie.",
-              "blogInfo": "Vyššie uvedený blog je založený na článkoch z al-islam.org, sistani.org a našich diskusiách s niekoľkými ďalšími vedcami. Vždy by ste sa mali riadiť rozhodnutiami vašej Marjah pre výpočet Khums.",
-              "dismissCta": "Nemám záujem"
+              "title": "Blog: Počítajte khum efektívne",
+              "p1": "<a href='{href}' target='_blank'>Sledujte náš blog</a> , ktorý každoročne zdôrazňuje kľúčové položky pri výpočte khumov.",
+              "p2": "Upozornenie: Blog NIE JE sprievodca. <strong>Postupujte podľa pravidiel vášho výpočtu Marjah for Khums</strong> . Pre viac informácií <span id='blog-info-link' color='primary'>kliknite sem</span> .",
+              "blogInfo": "Vyššie uvedený blog je založený na článkoch z al-islam.org, sistani.org a našich diskusiách s niekoľkými ďalšími vedcami. Vždy by ste sa mali riadiť pravidlami vášho výpočtu Marjah for Khums.",
+              "dismissCta": "Nezaujíma"
             },
-            "title": "Vaše Khumsove výpočty",
-            "nextMuqammasHeading": "<strong>Muqammas</strong><br />pre ďalší výpočet",
-            "muqammasDesc": "Na základe výpočtov z minulého roka",
+            "title": "Vaše Khumské výpočty",
+            "nextMuqammasHeading": "<strong>Muqammas</strong><br /> pre ďalší výpočet",
+            "muqammasDesc": "Na základe výpočtov z posledného roka",
             "sahmeSadat": "Sahm-e-Sadat",
-            "sahmeImam": "Sahm-e-Imam (a.s.)",
-            "paid": "Platený:",
-            "remaining": "Zvyšný:",
-            "newMuqammas": "Nové muqammy:",
-            "jsDeleted": "Khumsov výpočet bol úspešne odstránený!",
+            "sahmeImam": "Sahm-e-Imam (as)",
+            "paid": "Zaplatené:",
+            "remaining": "Zostávajúce:",
+            "newMuqammas": "Nové Muqammy:",
+            "jsDeleted": "Výpočet Khums bol úspešne odstránený!",
             "prompts": {
               "delete": {
-                "header": "Odstrániť výpočet Khums?",
-                "desc": "Naozaj to chcete odstrániť? Všetky súvisiace dokumenty budú tiež vymazané!"
+                "header": "Odstrániť Khumsov výpočet?",
+                "desc": "Naozaj to chcete odstrániť? Všetky súvisiace dokumenty budú tiež odstránené!"
               }
             },
             "empty": {
-              "header": "Zatiaľ nie sú pridané žiadne khumy",
-              "subtext": "Začnite pridaním výpočtu khums. Kliknite na tlačidlo nižšie."
+              "header": "Zatiaľ neboli pridané žiadne khumy",
+              "subtext": "Začnite pridaním výpočtu chumov. Kliknite na tlačidlo nižšie."
             }
           },
           "detail": {
-            "title": "Vaše Khums",
+            "title": "Vaši Khumovia",
             "header": "Khums",
             "mqmsInfo": "Muqammas pre ďalší výpočet",
             "calcHeader": "Na základe nižšie uvedeného výpočtu:",
             "savingsHeader": "Úspory",
-            "conversionInfo": "Prepočítané na {amount} na základe výmenného kurzu {xchgRate} na {xchgRateDate}",
+            "conversionInfo": "Prevedené na {amount} na základe výmenného kurzu {xchgRate} v {xchgRateDate}",
             "expensesHeader": "Výdavky",
             "mqmsHeader": "Muqammas",
-            "prevMqms": "Predchádzajúce muqammas",
-            "paymentsHeader": "Platby za khums:",
+            "prevMqms": "Predchádzajúce mukammy",
+            "paymentsHeader": "Platby za khumy:",
             "error": {
-              "header": "Oh uh, vyskytla sa chyba!",
-              "desc": "Zdá sa, že o tomto khumsovom výpočte nenájdeme nič. Môže to byť buď preto, že niektorá z našich služieb zlyhala, alebo možno hľadáte zastarané údaje.<br /><br/ >Skúste obnoviť stránku alebo nás kontaktujte, ak si myslíte, že je chyba z našej strany."
+              "header": "Och, vyskytla sa chyba!",
+              "desc": "Zdá sa, že nemôžeme nájsť nič o tomto khumskom výpočte. Môže to byť buď preto, že jedna z našich služieb nefungovala, alebo možno hľadáte neaktuálne údaje.<br /><br/ > Skúste obnoviť stránku alebo nás kontaktujte, ak si myslíte, že na našej strane došlo k chybe."
             },
             "js": {
-              "recordDeleteFailed": "Pri pokuse o odstránenie tohto záznamu sa vyskytla chyba. Skúste to znova alebo ak chyba pretrváva, zopakujte ju neskôr.",
+              "recordDeleteFailed": "Pri pokuse o odstránenie tohto záznamu sa vyskytla chyba. Skúste to znova alebo ak chyba pretrváva, skúste to znova neskôr.",
               "recordDeleted": "Záznam bol úspešne odstránený",
               "deleteRecordHeader": "Odstrániť záznam?",
-              "deleteRecordDesc": "Naozaj chcete tento záznam odstrániť? Všetky prílohy pridané k tomuto záznamu budú tiež odstránené!"
+              "deleteRecordDesc": "Naozaj chcete odstrániť tento záznam? Všetky prílohy pridané k tomuto záznamu budú tiež odstránené!"
             }
           },
           "calc": {
-            "subtext": "Vyplňte nižšie uvedený formulár a vypočítajte si svoje khums. Označia sa voliteľné polia. Kliknite na ikonu info nižšie a dozviete sa viac o sekcii.",
-            "blog": "súvisiace: Prečítajte si náš blog o <a href='{href}' target='_blank'>tom, ako efektívne<a> vypočítať khums</a>",
-            "dateRange": "Vyberte obdobie:",
-            "dateRangeInfo": "Ľudia zvyčajne počítajú khums za finančný rok (napr. Od apríla do marca) alebo kalendárny rok (január až december)",
-            "startDate": "Dátum nástupu:",
+            "subtext": "Vyplňte nižšie uvedený formulár a vypočítajte si svoje khumy. Sú označené voliteľné polia. Kliknutím na ikonu info nižšie sa dozviete viac o sekcii.",
+            "blog": "Súvisiace: Prečítajte si náš blog o tom <a href='{href}' target='_blank'>, ako efektívne vypočítať khum</a>",
+            "dateRange": "Vyberte rozsah dátumov:",
+            "dateRangeInfo": "Ľudia zvyčajne počítajú khum za finančný rok (napr. od apríla do marca) alebo kalendárny rok (od januára do decembra).",
+            "startDate": "Dátum začatia:",
             "endDate": "Dátum ukončenia:",
             "savings": {
               "header": "Úspory",
-              "desc": "Pridajte úspory/zostatok na svojich účtoch",
-              "info": "Môžete pridať sumy v rôznych menách, ale khums sa nakoniec počíta v jednej mene na základe dnešného výmenného kurzu.",
+              "desc": "Pridajte úspory/zostatok vo svojich účtoch",
+              "info": "Môžete pridať sumy v rôznych menách, ale khums sa nakoniec počíta v jednotnej mene na základe dnešného výmenného kurzu.",
               "form": {
-                "label": "Štítok",
-                "placeholder": "Napr. Mzdový účet",
-                "amountLabel": "Množstvo",
-                "amountPlaceholder": "Zadajte sumu",
-                "remarks": "Máte nejaké pripomienky k tomuto bodu?"
+                "label": "Označenie",
+                "placeholder": "Napríklad Mzdový účet",
+                "amountLabel": "Suma",
+                "amountPlaceholder": "Zadajte čiastku",
+                "remarks": "Máte nejaké pripomienky k tejto položke?"
               }
             },
             "expenses": {
-              "header": "<strong>Dlhy/pasíva/výdavky</strong> – dobrovoľné",
+              "header": "<strong>Dlhy/záväzky/výdavky</strong> — voliteľné",
               "subtext": "Pridajte akékoľvek okamžité dlhy, záväzky alebo výdavky",
-              "info": "Časť sumy zo zostatku môže byť odpočítateľná pre khums. Kliknite na náš odkaz vyššie <strong>Vypočítajte khums efektívne,</strong> aby ste sa dozvedeli viac.",
+              "info": "Časť sumy zo zostatku môže byť odpočítateľná pre khumov. Ak chcete vedieť viac, kliknite na náš odkaz vyššie <strong>Efektívne vypočítajte khums</strong> .",
               "form": {
-                "placeholder": "Napr. splatné nájomné"
+                "placeholder": "Napr. splatný nájom"
               }
             },
             "mqms": {
-              "header": "<strong>Predchádzajúce muqammas</strong> — voliteľné",
-              "subtext": "Zostatok, ktorý zostal po zaplatení khums v predchádzajúcom období",
-              "info": "Ak platíte khums prvýkrát, Muqammas bude NULA. Ak ste tu uložili predchádzajúce výpočty, môžete synchronizovať a použiť muqammy z predchádzajúceho obdobia."
+              "header": "<strong>Predchádzajúce Muqammas</strong> — Voliteľné",
+              "subtext": "Zostatok zostal po zaplatení khumov v predchádzajúcom období",
+              "info": "Ak platíte khum prvýkrát, Muqammas bude NULA. Ak ste tu uložili predchádzajúce výpočty, môžete ich synchronizovať a použiť Muqammas z predchádzajúceho obdobia."
             },
             "mainCurrencyHeader": "Vyberte hlavnú menu",
-            "mainCurrencyInfo": "Ktorú menu by sme mali použiť na výpočet khums?",
+            "mainCurrencyInfo": "Akú menu by sme mali použiť na výpočet khumov?",
             "customRates": {
-              "header": "<strong>Používanie výmenných kurzov</strong>",
-              "subtext": "Tieto výmenné kurzy sa použijú na výpočet. Môžete ich zmeniť tak, aby používali vlastné hodnoty.",
-              "info": "Pri práci s historickými údajmi, napríklad pri pridávaní výpočtov pre khums spred viac ako roka, keď výmenné kurzy neboli rovnaké ako dnes, môžete nastaviť vlastné hodnoty pre výmenné kurzy sami.",
-              "rateValuePH": "V {currency}, napr. 1 {mainCurrency} = 80,21 {currency}"
+              "header": "<strong>Pomocou výmenných kurzov</strong>",
+              "subtext": "Na výpočet sa použijú tieto výmenné kurzy. Môžete ich zmeniť tak, aby používali vlastné hodnoty.",
+              "info": "Pri práci s historickými údajmi, ako napríklad pri pridávaní výpočtu pre khums spred viac ako roka, keď výmenné kurzy neboli rovnaké ako dnes, si môžete sami nastaviť vlastné hodnoty pre výmenné kurzy.",
+              "rateValuePH": "V {currency} , napr. 1 {mainCurrency} = 80,21 {currency}"
             },
-            "calculateCta": "Počítať",
+            "calculateCta": "Vypočítajte",
             "pageError": {
-              "header": "Vyskytla sa chyba",
-              "desc": "Nepodarilo sa získať údaje potrebné pre stránku. Znova načítajte stránku alebo to skúste znova neskôr."
+              "header": "Nastala chyba",
+              "desc": "Nepodarilo sa získať údaje požadované pre stránku. Znova načítajte stránku alebo to skúste znova neskôr."
             },
             "js": {
               "remarks": {
@@ -350,175 +350,173 @@
                 "deleteText": "Naozaj chcete odstrániť poznámky k tejto položke?"
               },
               "choicePrompt": {
-                "addHeader": "Sčítať",
-                "savings": "Pridať nový vstup do sporenia",
+                "addHeader": "Pridať",
+                "savings": "Pridajte nový záznam do Sporenia",
                 "liability": "Pridať nový záznam do pasív"
               },
               "rowOptions": {
-                "header": "Čo s tým chcete urobiť?",
-                "duplicate": "Vytvorenie duplicitnej položky",
+                "header": "čo s tým chceš robiť?",
+                "duplicate": "Vytvorte duplicitný záznam",
                 "remarks": "Pridajte k tomu poznámky",
-                "delete": "Odstrániť túto položku"
+                "delete": "Odstrániť tento záznam"
               },
-              "apiError": "Vyskytla sa chyba. Skúste to znova."
+              "apiError": "Nastala chyba. Prosím skúste znova."
             }
           }
         }
       },
       "user": {
-        "name": "Používateľ | Účet",
+        "name": "Užívateľský účet",
         "editProfile": "Upraviť profil",
-        "publishToFeed": "Publikovanie zmien v informačnom kanáli",
-        "shareUpdateToFeed": "Zdieľajte túto aktualizáciu aj v mojom informačnom kanáli",
-        "statusText_ph": "Použitie formátovania _kurzíva_ alebo *tučného písma* na ozdobenie stavu",
-        "statusCharsLeft": "{count} znaky vľavo",
-        "jsImgUploadSuccess": "Obrázky boli úspešne nahrané!",
+        "publishToFeed": "Zverejniť moje zmeny v informačnom kanáli",
+        "shareUpdateToFeed": "Zdieľať túto aktualizáciu aj v mojom informačnom kanáli",
+        "statusText_ph": "Na ozdobenie svojho stavu použite formátovanie _kurzíva_ alebo *tučné*",
+        "statusCharsLeft": "{count} zostávajúcich znakov",
+        "jsImgUploadSuccess": "Obrázky boli úspešne odovzdané!",
         "unauthAccess": {
-          "heading": "Ste si istí, že ste na správnom mieste?",
-          "desc": "<p>Zdá sa, že ste sa pokúšali získať prístup na stránku, na ktorú ste nemali povolenie. Ak ste sa pokúšali získať prístup na stránku, na ktorú ste sa predtým dostali, skúste sa prihlásiť; to by malo vyriešiť problém.</p> <p>Ak problém pretrváva, neváhajte nás kontaktovať.</p>"
+          "heading": "Si si istý, že si na správnom mieste?",
+          "desc": "<p>Zdá sa, že ste sa pokúšali o prístup na stránku, na ktorú ste nemali povolenie. Ak ste sa pokúšali dostať na stránku, ktorú ste navštívili už predtým, skúste sa prihlásiť; to by malo vyriešiť problém.</p><p> Ak problém pretrváva, neváhajte nás kontaktovať.</p>"
         },
         "guest": {
           "welcome": "Vitajte, <strong>hosť!</strong>",
           "heading": "Prečo sa prihlásiť alebo zaregistrovať?",
-          "desc": "S účtom v našej aplikácii môžete využívať množstvo funkcií. Začnite vytvorením účtu, ak ho ešte nemáte. Alebo sa stačí prihlásiť!",
+          "desc": "S účtom v našej aplikácii môžete využívať množstvo funkcií. Začnite vytvorením účtu, ak ho ešte nemáte. Alebo sa len prihláste!",
           "unlockHeading": "odomknúť nasledujúce pomocou účtu:",
           "features": {
             "engage": {
               "heading": "Zapojte sa do aplikácie",
-              "desc": "Komunikujte s ostatnými používateľmi, reagujte na ich príspevky alebo požiadavky, komentujte svoj názor, ukladajte si položky do záložiek a ešte oveľa viac!"
+              "desc": "Spojte sa s ostatnými používateľmi, reagujte na ich príspevky alebo požiadavky, komentujte svoj názor, uložte si položky do záložiek a ešte oveľa viac!"
             },
             "fatiha": {
-              "heading": "Žiadosť Po Fatihe",
-              "desc": "Uverejnite žiadosť o Surah-e-Fatiha pre duše svojich zosnulých blízkych a nechajte ich duše požehnať modlitbami všetkých našich používateľov!"
+              "heading": "Príspevok Fatiha Žiadosť",
+              "desc": "Uverejnite žiadosť o Surah-e-Fatiha pre duše vašich blízkych zosnulých a získajte ich duše požehnané modlitbami všetkých našich používateľov!"
             },
             "askQues": {
-              "heading": "Pýtajte sa",
-              "desc": "Pýtajte sa deen & Duniya na rôzne témy, na ktoré má odpovedať jeho eminencia, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
+              "heading": "Klásť otázky",
+              "desc": "Pýtajte sa Deena &amp; Duniya na rôzne témy, na ktoré vám odpovie jeho eminencia, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani!"
             },
             "content": {
               "heading": "preferovaný obsah",
-              "desc": "Po prihlásení do účtu si vždy pozrite preferovaný obsah a nastavenia. Tiež dostávajte upozornenia na všetky zaujímavé veci!"
+              "desc": "Keď ste prihlásení do svojho účtu, vždy uvidíte svoj preferovaný obsah a nastavenia. Dostávajte tiež upozornenia na všetky zaujímavé veci!"
             },
             "personalized": {
-              "heading": "prispôsobené zdieľanie",
-              "desc": "Nastavte zdieľanie obsahu prispôsobeného svojím podpisom, aby vaši priatelia vedeli, kedy zdieľate správu alebo príspevok."
+              "heading": "personalizované zdieľanie",
+              "desc": "Nastavte si zdieľanie obsahu prispôsobené svojim podpisom, aby vaši priatelia vedeli, že zdieľate správu/príspevok."
             }
           }
         },
         "about": {
           "title": "O",
-          "jsStatusUpdateFail": "Nepodarilo sa aktualizovať stav. Skúste to znova neskôr.",
-          "statusTextInfo": "Pridajte niečo stručné o sebe, napríklad, kto ste alebo čo robíte!",
-          "statusCta": "Pridať stav | Stav aktualizácie",
+          "jsStatusUpdateFail": "Aktualizácia stavu zlyhala. Skúste neskôr prosím.",
+          "statusTextInfo": "Pridajte niečo krátke o sebe, napríklad kto ste alebo čo robíte!",
+          "statusCta": "Pridať stav | Aktualizovať stav",
           "addCity": "Pridať mesto",
-          "gender": "Muž | Žena",
+          "gender": "Muž žena",
           "addGender": "Pridať pohlavie",
           "addBday": "Pridať narodeniny",
           "addRelation": "Pridať vzťah",
-          "joinDate": "Vstúpil: {date}",
-          "privateInfoDesc": "Tieto informácie sú viditeľné iba pre vás a na základe nich vidíte obsah a funkcie.",
-          "idSetupCta": "Nastavenie identity",
-          "idVerifyCta": "Overiť"
+          "privateInfoDesc": "Tieto informácie sú viditeľné iba pre vás a na základe toho vidíte obsah a funkcie.",
+          "idSetupCta": "Nastavte svoju identitu",
+          "idVerifyCta": "Overiť",
+          "idVerifyAltText": "Iba overený Shia momineen môže overiť ostatných. Nechajte si prosím overiť svoj účet, aby ste si potom mohli overiť <strong>{name}</strong> .",
+          "idVerifyAltText2": "Ak ste už niekoho požiadali, môžete mu to znova pripomenúť novým odkazom alebo požiadať viac momineen o rýchlejšiu odpoveď.",
+          "joinDate": "Pripojený: {date}"
         },
         "posts": {
           "title": "Príspevky",
-          "userNoPosts": "Keď zmeníte svoj obrázok / titulný obrázok alebo keď požiadate o surah-fatiha pre svojich zánikových blízkych, tieto príspevky sa zobrazia tu a na karte <b>Domov</b> (aj ostatných). Skúste pridať obrázok alebo titulný obrázok?",
-          "profileNoPosts": "{name} zatiaľ nevydal žiadne príspevky."
+          "userNoPosts": "Keď zmeníte svoj obrázok/titulný obrázok, alebo keď požiadate o súru-fatihu pre svojich zosnulých blízkych, tieto príspevky sa zobrazia tu a na karte <b>Domov</b> (aj ostatným). Skúste pridať obrázok alebo titulný obrázok?",
+          "profileNoPosts": "{name} zatiaľ nepridal žiadne príspevky."
         },
         "marhumeen": {
-          "title": "Marhumeen",
+          "title": "Mŕtvy",
           "header": {
-            "marhumeenNotAdded": "{name} ešte nepridal marhumeen | Ešte ste nepridali marhumeen",
-            "marhumeenAdded": "{name} pridal nasledujúce marhumeen | Pridali ste nasledujúce marhumeen"
+            "marhumeenNotAdded": "{name} ešte nebolo pridané | Ešte ste nepridali marhumeen",
+            "marhumeenAdded": "{name} bolo pridané nasledujúcich marhumeen | Pridali ste nasledujúcich marhumeen"
           },
           "jsDeleteHeader": "Si si istý?",
-          "jsDeletePrompt": "Odstránením záznamov pre <b>{fullName}</b> sa odstránia aj všetky predchádzajúce žiadosti podané pre {gender}! Pokračovať?",
-          "jsDeleted": "Odstránené záznamy pre {marhumeen}"
+          "jsDeletePrompt": "Vymazaním záznamov pre <b>{fullName}</b> vymažete aj všetky predchádzajúce žiadosti o {gender} ! Ďalej?",
+          "jsDeleted": "Vymazané záznamy pre {marhumeen}"
         },
         "verifyCard": {
-          "title": "Overte svoju šiitskú identitu |Overte svoju identitu Sadat",
-          "p1": "Vo svojom profile ste uviedli, že ste šiítsky moslim. Overenie týchto informácií vám umožní viac funkcií a pomôže nám vybudovať overenú komunitu šiítskych moslimov.",
-          "p2": "láskavo overte svoju totožnosť; Nebude to trvať dlho",
+          "title": "Overte svoju šíitskú identitu | Overte svoju Sadat identitu",
+          "p1": "Vo svojom profile ste uviedli, že ste šiitský moslim. Overenie týchto informácií vám umožní viac funkcií a pomôže nám vybudovať overenú komunitu šiitských moslimov.",
+          "p2": "Prosím, overte svoju totožnosť; nebude to dlho trvať",
           "noReminder": "Už mi to nepripomínaj",
           "dismissCta": "Teraz nie",
-          "startCta": "Začiatok"
+          "startCta": "Štart"
         },
         "verifyPrompt": {
-          "jsGetVerified": "Najprv sa musíte overiť, aby ste mohli overiť ostatných!",
-          "jsLinkExpired": "Tento odkaz je buď neplatný, alebo jeho platnosť vypršala. Požiadajte priateľa, aby poslal novú žiadosť.",
+          "jsGetVerified": "Najprv sa musíte overiť, až potom budete môcť overiť ostatných!",
+          "jsLinkExpired": "Tento odkaz je buď neplatný, alebo jeho platnosť vypršala. Požiadajte svojho priateľa, aby poslal novú žiadosť.",
           "confirm": {
-            "heading": "Overenie identity účtu",
-            "msg": "Pomôžte {firstName} overiť informácie {genderLabel1} účte. To {genderLabel2} umožní prístup k ďalším funkciám v našej aplikácii",
-            "jsSkip": "Bez problémov. Ak zmeníte názor, môžete znova navštíviť tento odkaz a overiť si to neskôr."
+            "heading": "Overte identitu účtu",
+            "msg": "Pomôžte {firstName} overiť informácie o účte {genderLabel1} . To umožní {genderLabel2} prístup k ďalším funkciám v našej aplikácii",
+            "jsSkip": "Žiaden problém. Ak zmeníte názor, môžete znova navštíviť tento odkaz a overiť ho neskôr."
           }
         },
         "myKhums": {
-          "title": "Moje Khums"
+          "title": "Moji Khumovia"
         }
       }
     },
     "sidemenu": {
       "left": {
         "accountLogin": "Prihláste sa do svojho účtu",
-        "createAccount": "Vytvorte si účet"
+        "createAccount": "Vytvoriť účet"
       }
     },
     "comps": {
       "common": {
-        "nextStep": "Ďalší krok",
+        "nextStep": "Ďalši krok",
         "goBack": "Vráť sa",
-        "confirm": "Potvrdiť"
+        "confirm": "Potvrďte"
       },
       "timesBanner": {
         "errors": {
-          "locUnavailable": "Miesto nie je k dispozícii. Nastavte ho kliknutím na ikonu, aby ste videli rýchly pohľad na Salat-times.",
-          "unknownError": "Vyskytla sa chyba. V tejto chvíli sa nepodarilo načítať časy."
+          "locUnavailable": "Poloha je nedostupná. Nastavte ho kliknutím na ikonu, aby ste videli rýchly náhľad na salátové časy.",
+          "unknownError": "Nastala chyba. Momentálne nie je možné načítať časy."
         }
       },
       "langPrompt": {
-        "title": "Používate aplikáciu v {langLabel}?",
         "desc": {
-          "p1": "Zdá sa, že k aplikácii pristupujete z {countryName}. Chceli by ste vidieť obsah a ovládacie prvky v jednom z nasledujúcich jazykov, ktorými sa v regióne hovorí? Kliknite na svoju voľbu a potom pokračujte kliknutím na tlačidlo \"Uložiť\".",
-          "p2": "Prípadne toto vyskakovacie okno zrušte, ak chcete aplikáciu naďalej používať v predvolenom jazyku."
+          "p1": "Zdá sa, že k aplikácii pristupujete z {countryName} . Chcete vidieť obsah a ovládacie prvky v jednom z nasledujúcich jazykov, ktorými sa hovorí v regióne? Kliknite na svoj výber a potom pokračujte kliknutím na „Uložiť“.",
+          "p2": "Alebo zatvorte toto kontextové okno a pokračujte v používaní aplikácie v predvolenom jazyku."
         },
         "choices": {
           "useLang": [
             "Áno, použite {langName}",
             "Použite {langName}"
-          ],
-          "useEngling": "Pokračovať v angličtine",
-          "useEnglish": "Pokračovať v angličtine",
-          "selectFrom": "Môžete tiež vybrať jeden z nasledujúcich alternatívnych jazykov:"
+          ]
         },
-        "langError": "Pri načítavaní prekladov pre {langName}sa vyskytla chyba. Skúste to znova neskôr."
+        "langError": "Pri načítavaní prekladov pre {langName} sa vyskytla chyba. Skúste neskôr prosím."
       },
       "createPost": {
-        "heading": "O čom je dnes?",
-        "desc": "Kliknutím sem zdieľate aktualizáciu alebo použite možnosť zdola",
-        "request": "Prosiť",
+        "heading": "O čo dnes ide?",
+        "desc": "Kliknite sem, ak chcete zdieľať aktualizáciu alebo použite možnosť nižšie",
+        "request": "Žiadosť",
         "askQues": "Položiť otázku",
         "sheetOptions": {
           "header": "Podať žiadosť",
-          "subheader": "Požiadajte momineen o svoju marhumeen alebo seba.",
-          "requestFatiha": "Surah-fatiha/Namaz-e-Wahshat",
-          "sehatDua": "Dua-e-Sehat *",
-          "requestZiyarat": "Ziyarat v Zari-e-Imam Husain (a.s.) vo vašom mene"
+          "subheader": "Požiadajte momineen o svojho marhumeen alebo seba.",
+          "requestFatiha": "Súra-Fatiha/Namaz-e-Wahshat",
+          "sehatDua": "Dua-e-Healthy *",
+          "requestZiyarat": "Ziyarat v Zari-e-Imam Hussain (as) vo vašom mene"
         },
         "modal": {
           "titles": {
-            "post": "Vytvoriť príspevok | Aktualizovať príspevok",
-            "livestream": "Živé vysielanie",
-            "hadiyah": "Vytvorte Hadiyah | Aktualizujte Hadiyah"
+            "post": "Vytvoriť príspevok | Aktualizácia príspevku",
+            "livestream": "Živý prenos",
+            "hadiyah": "Vytvoriť darček | Aktualizácia darčeka"
           },
-          "postCta": "Príspevok | Aktualizovať",
+          "postCta": "Príspevok | Aktualizácia",
           "stream": {
             "scheduleCta": "Uložiť na neskôr | Spustiť streamovanie"
           },
           "hadiya": {
             "dedication": {
-              "placeholder": "Komu to chcete darovať?",
-              "addPeopleToggle": "Nech sú súčasťou tohto tampónu aj ostatní!",
-              "searchInput": "Pozvite momimeen z Bazmu alebo zo zoznamu kontaktov",
+              "placeholder": "Komu to chceš darovať?",
+              "addPeopleToggle": "Nech sú súčasťou tohto sawab aj ostatní!",
+              "searchInput": "Pozvite momimeen z Bazmu alebo zo svojho zoznamu kontaktov",
               "minUsersHeader": "Chcete nastaviť minimálny počet, ktorý si účastníci musia vybrať?",
               "minUsersInput": "Zadajte minimálny počet"
             }
@@ -528,186 +526,183 @@
             "Kedy chcete začať streamovať?"
           ],
           "whereIsIt": "Kde to je?",
-          "findLocation": "Nájsť polohu",
-          "locationSubtext": "Pridanie polohy do príspevku",
-          "addLocation": "Pridanie polohy",
-          "addPics": "Pridanie obrázkov do príspevku",
-          "previewDes": "Takto by sa váš príspevok objavil v informačnom kanáli iných ľudí. Ľudia môžu klepnúť na video a vidieť ho na celej obrazovke.",
+          "findLocation": "Nájdite polohu",
+          "locationSubtext": "Pridajte do svojho príspevku polohu",
+          "addLocation": "Pridať polohu",
+          "addPics": "Pridajte obrázky do svojho príspevku",
+          "previewDes": "Takto by sa váš príspevok zobrazil vo feede iných ľudí. Ľudia môžu klepnúť na video a zobraziť ho na celej obrazovke.",
           "addToPost": "Pridať do {postType} (voliteľné)",
-          "jsImgUploadFail": "Obrázok nebol nahraný",
-          "jsAddDetailToPost": "Do svojho príspevku pridajte podrobnosti",
-          "jsValidEndDate": "Vyberte si platný dátum ukončenia",
-          "jsSetLocation": "Nastavte miesto pre príspevok",
+          "jsImgUploadFail": "Obrázok nebol odovzdaný",
+          "jsAddDetailToPost": "Pridajte podrobnosti do svojho príspevku",
+          "jsValidEndDate": "Vyberte platný dátum ukončenia",
+          "jsSetLocation": "Nastavte umiestnenie príspevku",
           "jsRemLocation": "Nastavte umiestnenie alebo odstráňte túto sekciu",
           "jsAddImg": "Pridajte obrázky alebo odstráňte túto sekciu",
           "jsInvalidDate": [
-            "Nastavte si platný dátum začiatku ",
-            "Nastavte platný dátum začiatku alebo odstráňte túto sekciu"
+            "Nastavte platný dátum začiatku",
+            "Nastavte platný dátum začiatku alebo odstráňte danú sekciu"
           ]
         }
       },
       "comments": {
         "name": "Komentáre",
-        "loadPrevious": "Načítanie predchádzajúcich komentárov | Načítanie predchádzajúcich odpovedí",
-        "replyingTo": "Odpoveď na:",
-        "noComments": "K tomuto príspevku zatiaľ nie sú žiadne komentáre",
+        "loadPrevious": "Načítať predchádzajúce komentáre | Načítať predchádzajúce odpovede",
+        "replyingTo": "Odpovedanie na:",
+        "noComments": "Zatiaľ žiadne komentáre k tomuto príspevku",
         "textboxPlaceholder": "Sem napíšte svoj komentár",
-        "requestToLogin": "Prihláste sa alebo zaregistrujte sa a začnite diskusiu"
+        "requestToLogin": "Ak chcete začať diskusiu, prihláste sa alebo sa zaregistrujte"
       },
       "post": {
-        "addressYou": "Vy",
+        "addressYou": "vy",
         "addressing": "tvoj | jeho | jej",
         "itemTypes": {
           "avatar": "obrázok avatara",
-          "banner": "obrázok bannera",
+          "banner": "bannerový obrázok",
           "status": "stav profilu"
         },
         "displayPhrase": {
-          "common": "<strong>{používateľské meno}</strong> aktualizované {adresa} {item}",
+          "common": "<strong>{username}</strong> aktualizované {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> požiadal surah-fatiha pre {address} {relation}",
-            "<strong>{username}</strong> požiadal surah-fatiha & namaz-e-wahshat pre {addressing} {relation}"
+            "<strong>{username}</strong> požadované súra-fatiha na {addressing} {relation}",
+            "<strong>{username}</strong> požadované súra-fatiha &amp; namaz-e-wahshat na {addressing} {relation}"
           ]
         },
-        "dateUntil": "Do: {date} v {time}",
+        "dateUntil": "Do: {date} a {time}",
         "privatePost": "Tento príspevok je viditeľný iba pre vás",
-        "descZiyaratRequest": "Požiadali ste, aby bol Ziyarat vykonaný vo vašom mene na *haram* imáma Husaina (a.s.) dňa *{date}*"
+        "descZiyaratRequest": "Požiadali ste, aby sa Ziyarat uskutočnil vo vašom mene v *haram* imáma Husajna (as) dňa * {date} *"
       },
       "addEditRel": {
         "title": {
-          "request": "Žiadosť Surah-al-fatiha",
+          "request": "Požiadajte o súru-al-Fatihu",
           "addUpdate": [
-            "Aktualizácia milovanej osoby",
-            "Pridajte milovaného človeka"
+            "Aktualizujte milovaného",
+            "Pridajte milovaného"
           ]
         },
         "heading": [
-          "Pridajte milovaného človeka, ktorý zomrel",
-          "Vyberte milovaného človeka zo zoznamu alebo pridajte milovaného človeka, ktorý zomrel"
+          "Pridajte milovaného človeka, ktorý odišiel",
+          "Vyberte zo zoznamu milovanú osobu alebo pridajte milovanú osobu, ktorá zomrela"
         ],
         "addNew": "Pridať nové",
         "subheader": [
-          "Pridajte podrobnosti o svojom blízkom",
+          "Pridajte podrobnosti o svojej milovanej osobe",
           "Do žiadosti môžete zahrnúť aj správu"
         ],
         "form": {
-          "jsAddImg": "Pridanie obrázka pre svojho blízkeho",
+          "jsAddImg": "Pridajte obrázok pre svojho blízkeho",
           "jsRemoveImg": "Odstrániť obrázok",
           "fullName": "Celé meno zosnulého",
-          "name_ph": "Napr. Syed Zeeshan Haider Abidi",
+          "name_ph": "Napríklad Syed Zeeshan Haider Abidi",
           "fathersName": "Meno otca (ak je k dispozícii)",
-          "father_ph": "Napr. Syed Tauqeer Husain",
-          "nameError": "Zadajte celé meno s vašimi špeciálnymi znakmi",
-          "genderLabel": "Pohlavie",
+          "father_ph": "Napríklad Syed Tauqeer Husain",
+          "nameError": "Zadajte celé meno bez špeciálnych znakov",
+          "genderLabel": "rod",
           "genderValue": [
-            "Samica",
-            "Samec"
+            "Žena",
+            "Muž"
           ],
           "relation": [
-            "Marhooma je vaša",
-            "Marhoom je váš"
+            "Marhooma je tvoja",
+            "Marhoom je tvoj"
           ],
-          "selectRelation": "Vyberte vzťah",
-          "demiseLabel": "Dnes ste zomretí? Vyžiadať Namaz-e-Wahshat",
-          "demiseText": "Je nám veľmi ľúto, že sa dozvedáme o vašej strate. Nech Alah dá vám a vašej rodine silu znášať túto stratu trpezlivosťou a nech Alah odmení zničenú dušu najvyššími miestami v Jannah. Výber tejto možnosti vám umožní požiadať momineen o Namaz-e-Wahshat pre zničenú dušu.",
-          "optional": "Voliteľný",
-          "dod": "Zomrel na",
-          "dob": "Narodil sa dňa"
+          "selectRelation": "Vyberte položku Vzťah",
+          "demiseLabel": "Dnes zabitý? Vyžiadajte si Namaz-e-Wahshat",
+          "demiseText": "Veľmi nás mrzí vaša strata. Nech Alah dá vám a vašej rodine silu znášať túto stratu trpezlivo a nech Alah odmení zosnulú dušu najvyššími miestami v Jannah. Výber tejto možnosti vám umožní požiadať momineen o Namaz-e-Wahshat pre zosnulú dušu.",
+          "optional": "Voliteľné",
+          "dod": "Zomrel ďalej",
+          "dob": "Narodil sa"
         },
         "relation": [
           "Dcéra",
-          "Syn"
+          "Syn z"
         ],
-        "born": "Rodený:",
+        "born": "Narodený:",
         "died": "Zomrel:",
         "addMsg": "Chcete pridať správu?",
-        "remainingChars": "Znaky: {count} | Zostávajúce znaky: {count}",
-        "infoEditRelative": "Podrobnosti o systéme {name} môžete upraviť v sekcii <b>Konto > Marhumeen</b>",
+        "addMsg_ph": "Napríklad: Inna lillahi wa inna ilaihe raje&#39;un. Prosím, zarecitujte súru-e-fatihu a 2-rak&#39;at namaz-e-wahshat pre môjho strýka, Syeda Zeeshana Haidera walda Syeda Tauqeera Hasana Marhooma, ktorý nás všetkých nechal plakať, aby sme sa stretli so svojím stvoriteľom.",
+        "remainingChars": "Znaky: {count} | Znaky: zostávajúci {count}",
+        "infoEditRelative": "Podrobnosti o {name} môžete upraviť v časti <b>Účet &gt; Marhumeen</b>",
         "saveRequestCta": [
-          "Uložiť & Vyžiadať",
-          "Prosiť"
+          "Uložiť a požiadať",
+          "Žiadosť"
         ],
         "addUpdate": "Pridať | Aktualizovať",
-        "jsRequesting": "Žiadajúci..",
+        "jsRequesting": "Žiada sa..",
         "jsAddSuccess": [
-          "Úspešne pridal svojho blízkeho!",
-          "Úspešne aktualizujte svojho blízkeho!"
+          "Úspešne ste pridali svojho milovaného!",
+          "Aktualizujte svojho milovaného úspešne!"
         ],
-        "jsAddFail": "Nepodarilo sa pridať svojho blízkeho. Skúste to znova neskôr.",
-        "jsReqSuccess": "Žiadosť bola predložená úspešne.",
-        "jsGettingMarhumeen": "Získajte svoj marhumeen.."
+        "jsAddFail": "Nepodarilo sa pridať vašu milovanú osobu. Skúste neskôr prosím.",
+        "jsReqSuccess": "Žiadosť bola úspešne odoslaná.",
+        "jsGettingMarhumeen": "Získavam marhumeen.."
       },
       "askQues": {
-        "title": "Položiť otázku",
+        "title": "Opýtať sa otázku",
         "form": {
-          "quesLabel": "Vaša otázka",
-          "quesLabel_ph": "Vyhľadajte otázku alebo položte svoju vlastnú",
-          "similarQues": "Tieto otázky už možno majú odpoveď, ktorú hľadáte.",
-          "quesTextHeader": "Vaša otázka:",
-          "selectCat": "Nastaviť kategóriu otázok:",
-          "askAnonLabel": "Opýtajte sa anonymne?",
-          "askAnonInfo": "Vaše meno nebude odoslané učencovi, keď požiadate o odpoveď vo vašom mene, ani sa nezobrazí v našej aplikácii s touto otázkou. Anonymné otázky však nemusia byť zodpovedané rýchlo.",
-          "askViaLabel": "Opýtajte sa via",
-          "askSistaniInfo": "Môžete položiť otázku, na ktorú má odpovedať kancelária jeho eminencie, Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Otázku prepošleme na ich webovú stránku (spolu s vašimi profilovými informáciami). Uistite sa, že ste si <b>zmluvné podmienky</b> prečítali správne.",
-          "tncLabel": "Obchodné podmienky:",
-          "showHide": [
-            "Ukázať",
-            "Skryť"
-          ],
-          "sistaniOrgTncInfo": "Pred položením otázky zvážte sledovanie bodov z ich webových stránok, pretože ak nedodržíte nižšie uvedené body, nemusíte sa im ozvať alebo nemusíte dostať žiadne odpovede.",
+          "quesLabel": "Tvoja otázka",
+          "quesLabel_ph": "Vyhľadajte otázku alebo sa opýtajte svoju vlastnú",
+          "similarQues": "Tieto otázky už môžu mať odpoveď, ktorú hľadáte.",
+          "quesTextHeader": "Tvoja otázka:",
+          "selectCat": "Nastaviť kategóriu otázky:",
+          "askAnonLabel": "Spýtať sa anonymne?",
+          "askAnonInfo": "Vaše meno nebude odoslané Študovni, keď budete žiadať odpoveď vo vašom mene, ani sa nebude zobrazovať v našej aplikácii s touto otázkou. Anonymné otázky však nemusia byť zodpovedané rýchlo.",
+          "askViaLabel": "Opýtajte sa Via",
+          "askSistaniInfo": "Môžete položiť otázku, na ktorú vám odpovie úrad jeho eminencie Ayatullah Al-Sayyid Ali Al-Husseini Al-Sistani. Otázku prepošleme na ich webovú stránku (spolu s informáciami o vašom profile). Uistite sa, že ste si riadne prečítali <b>zmluvné podmienky</b> .",
+          "tncLabel": "Podmienky:",
+          "sistaniOrgTncInfo": "Predtým, ako položíte otázku, zvážte dodržiavanie bodov z ich webovej stránky, pretože ak sa nebudete riadiť nižšie uvedenými bodmi, možno sa vám neozve alebo nedostanete žiadne odpovede.",
           "userInfo": {
             "aboutLabel": "O vás",
             "genderLabel": "Vaše pohlavie",
             "bdayLabel": "Vaše narodeniny",
-            "bdayDesc": "Otázku môžete položiť iba vtedy, ak máte viac ako 09 rokov. Ak máte stále záujem, kontaktujte nás."
+            "bdayDesc": "Otázku môžete položiť, iba ak máte viac ako 09 rokov."
           },
-          "jsQuesAdded": "Otázka bola pridaná úspešne."
+          "jsQuesAdded": "Otázka bola úspešne pridaná."
         },
-        "askQuesCta": "Položte svoju otázku"
+        "askQuesCta": "Položte otázku"
       },
       "authPrompt": {
         "title": "Vyžaduje sa účet",
-        "defLabel": "Prihláste sa alebo zaregistrujte sa a pokračujte",
-        "infoText": "Táto funkcia vyžaduje, aby ste sa pred použitím prihlásili alebo zaregistrovali. Kliknite na <b>položku Prihlásiť sa</b>, ak ste už zaregistrovaní, alebo kliknite na položku <b>Zaregistrovať sa</b> a vytvorte si účet."
+        "defLabel": "Ak chcete pokračovať, prihláste sa alebo sa zaregistrujte",
+        "infoText": "Táto funkcia vyžaduje, aby ste sa pred jej použitím prihlásili alebo zaregistrovali. Kliknite na <b>Prihlásiť sa</b> , ak ste už zaregistrovaný, alebo kliknite na <b>Prihlásiť sa</b> a vytvorte si účet."
       },
       "location": {
-        "title": "Zmeniť polohu",
-        "search_ph": "Vyhľadávanie polohy",
-        "autoDetectInfo": "Zadajte svoju polohu alebo kliknite na ikonu automatického zisťovania, aby ste získali svoju polohu.",
-        "setLocation": "Nastavenie umiestnenia",
+        "title": "Zmeniť miesto",
+        "search_ph": "Vyhľadajte svoju polohu",
+        "autoDetectInfo": "Zadajte svoju polohu alebo kliknite na ikonu automatického rozpoznania a získajte svoju polohu.",
+        "setLocation": "Nastavte polohu",
         "ipAddress": "IP adresa",
         "alarmLocation": "Umiestnenie alarmu",
-        "basedOn": "Poloha na základe vášho {selektora}",
-        "jsDetecting": "Detekcia, prosím, počkajte..",
-        "jsPermDenied": "Povolenie na prístup k polohe bolo pre aplikáciu zamietnuté. Obnovte predvoľbu polohy pre túto aplikáciu v sekcii Nastavenia v telefóne.",
-        "jsPosUnavailable": "Je nám ľúto, ale pozícia pre tento telefón momentálne nie je k dispozícii. Skúste to znova neskôr.",
-        "jsMatchNotFound": "Nepodarilo sa nájsť žiadne zodpovedajúce miesta..",
-        "jsEnterValidLoc": "Zadajte platné miesto",
-        "jsGeoUnavailable": "Je nám ľúto, ale pozícia pre tento telefón momentálne nie je k dispozícii. Skúste to znova neskôr.",
-        "jsLocMissing": "Nepodarilo sa nájsť vašu polohu. Zadajte polohu manuálne.",
-        "jsSelectedLoc": "V tomto umiestnení sa vyskytla chyba. Skúste to znova"
+        "basedOn": "Poloha na základe vášho {selector}",
+        "jsDetecting": "Zisťujem, čakajte prosím..",
+        "jsPermDenied": "Povolenie k polohe pre aplikáciu bolo zamietnuté. Obnovte predvoľbu polohy pre túto aplikáciu v časti Nastavenia vo svojom telefóne.",
+        "jsPosUnavailable": "Ľutujeme, ale pozícia nie je momentálne pre tento telefón k dispozícii. Skúste neskôr prosím.",
+        "jsMatchNotFound": "Nenašli sa žiadne zodpovedajúce miesta..",
+        "jsEnterValidLoc": "Zadajte platnú polohu",
+        "jsGeoUnavailable": "Ľutujeme, ale pozícia nie je momentálne pre tento telefón k dispozícii. Skúste neskôr prosím.",
+        "jsLocMissing": "Nepodarilo sa nájsť vašu polohu. Zadajte polohu ručne.",
+        "jsSelectedLoc": "V tomto umiestnení sa vyskytla chyba. Prosím skúste znova"
       },
       "readText": {
         "ctaLabel": "Čítať",
-        "title": "Dua: {title}",
-        "arabicCta": "Arabčina",
+        "title": "Dva: {title}",
+        "arabicCta": "arabčina",
         "englishCta": "Angličtina",
         "translatedCta": "Preložené"
       },
       "reqAccess": {
-        "heading": "Vyžaduje sa prístup",
-        "subheading": "Na prístup k vašej kamere potrebujeme povolenie",
+        "heading": "potrebný prístup",
+        "subheading": "Potrebujeme povolenie na prístup k vášmu fotoaparátu",
         "subtext": "Povoľte prístup kliknutím na tlačidlo nižšie:",
         "ctaLabel": "povoliť prístup"
       },
       "shareBtn": {
-        "subtext": "Kliknutím na jednu z nižšie uvedených možností ju môžete zdieľať v príslušnej aplikácii:",
-        "jsCopyToCB": "Skopírované do schránky",
-        "copyText": "Kliknutím na ikonu <b>Kopírovať</b> vyššie skopírujte nižšie uvedený obsah:"
+        "subtext": "Kliknutím na jednu z možností nižšie to zdieľate v príslušnej aplikácii:",
+        "jsCopyToCB": "Skopírované do vašej schránky",
+        "copyText": "Kliknutím na ikonu <b>Kopírovať</b> vyššie skopírujete obsah nižšie:"
       },
       "verifyMob": {
         "title": [
-          "Overenie mobilu",
+          "Overiť mobil",
           "Zadajte kód"
         ],
         "page1": {
@@ -718,32 +713,32 @@
           ]
         },
         "form": {
-          "mobileLabel": "Mobilné číslo",
-          "mobileLabel_ph": "Zadajte svoje mobilné číslo",
+          "mobileLabel": "Telefónne číslo",
+          "mobileLabel_ph": "Zadajte Vaše telefónne číslo",
           "otpViaSMS": "Získajte cez SMS",
           "viaWhatsApp": "Získajte cez WhatsApp",
-          "viaTelegram": "Získajte sa prostredníctvom telegramu",
-          "viaSignal": "Dostaňte sa cez Signal"
+          "viaTelegram": "Získajte prostredníctvom telegramu",
+          "viaSignal": "Získajte cez signál"
         },
         "page2": {
-          "header": "Na vaše číslo ({number}) sme poslali 6-miestny potvrdzovací kód",
+          "header": "Na vaše číslo ( {number} ) sme odoslali 6-miestny potvrdzovací kód",
           "enterCodeLabel": "Zadajte kód",
-          "enterCode_ph": "Zadajte 6-miestny kód",
-          "resendCode": "Kód opätovného odoslania",
-          "notUsingMobile": "Nepoužívate <strong>{number}?</strong>",
+          "enterCode_ph": "Zadajte 6-ciferný kód",
+          "resendCode": "Znova odoslať kód",
+          "notUsingMobile": "Nepoužívate <strong>{number} ?</strong>",
           "changeNumber": "Zmeniť číslo"
         },
-        "jsVerifySuccess": "Mobilné overenie úspešne",
-        "jsVerifyError": "Vyskytla sa chyba. Skúste to znova neskôr.",
-        "jsSendOtpFailed": "Nepodarilo sa odoslať OTP. Skúste to znova neskôr.",
-        "jsSendOtpSuccess": "OTP odoslaný na {mobile}",
-        "jsTooManyRequests": "Zdá sa, že ste to už skúsili príliš veľakrát. Počkajte, prosím, minútu alebo dve a skúste to znova."
+        "jsVerifySuccess": "Mobil bol úspešne overený",
+        "jsVerifyError": "Nastala chyba. Skúste neskôr prosím.",
+        "jsSendOtpFailed": "Jednorazové heslo sa nepodarilo odoslať. Skúste neskôr prosím.",
+        "jsSendOtpSuccess": "Jednorazové heslo odoslané na {mobile}",
+        "jsTooManyRequests": "Zdá sa, že ste to už skúšali príliš veľakrát. Počkajte minútu alebo dve a skúste to znova."
       },
       "userSettings": {
-        "personalSharingMsg": "Prispôsobenie správy o zdieľaní",
-        "changePwd": "Zmeniť heslo | Nastaviť heslo",
+        "personalSharingMsg": "Prispôsobte správu zdieľania",
+        "changePwd": "Zmeniť heslo | Nastavte heslo",
         "changeLang": "Zmeniť jazyk",
-        "publishToFeed": "Publikujte aj moje zmeny v informačnom kanáli."
+        "publishToFeed": "Zverejniť moje zmeny aj v informačnom kanáli."
       },
       "userSettingsModal": {
         "title": {
@@ -752,239 +747,241 @@
           "setLang": "@:comps.userSettings.changeLang"
         },
         "sign": {
-          "addNameToMsgs": "Pridanie môjho mena do správ",
+          "addNameToMsgs": "Pridajte moje meno do správ",
           "sharingDesc": "Pri externom zdieľaní môžu vaše správy vyzerať takto:",
           "sharingTextDemo": [
-            "Vypočujte si túto Nauhu v aplikácii Bazm",
+            "Vypočujte si túto pásku v aplikácii Bazm",
             "{name} odporúča počúvať túto Nauhu v aplikácii Bazm"
           ],
           "addSignDesc": "Chcete pridať aj svoj podpis?",
-          "signDesc": "Keď zdieľate svoje želanie s priateľmi v tejto aplikácii, váš podpis sa pridá do správ. Môže sa napríklad javiť takto:"
+          "addSignPlaceholder": "Napríklad S pozdravom, {name}",
+          "signDesc": "Keď v tejto aplikácii zdieľate svoje želanie s priateľmi, do správ sa pridá váš podpis. Môže to vyzerať napríklad takto:"
         },
         "changePwd": {
           "currentPwdLabel": "Zadajte svoje existujúce heslo:",
-          "currentPwdPH": "Zadajte aktuálne heslo",
+          "currentPwdPH": "Uveďte súčasné heslo",
           "newPwdLabel": "Zadajte nové heslo:",
           "newPwdPH": "Zadajte nové heslo"
         },
         "changeLang": {
-          "searchYourLang": "Vyhľadávanie v jazyku",
-          "desc": "Vyberte jazyk, v ktorom chcete zobraziť obsah aplikácie. Kliknite na jazyk a počkajte (načítanie prekladu chvíľu trvá), kým uvidíte, ako sa táto fráza zobrazí vo vybranom jazyku."
+          "searchYourLang": "Vyhľadajte svoj jazyk",
+          "desc": "Vyberte jazyk, v ktorom chcete vidieť obsah aplikácie. Kliknite na jazyk a počkajte (načítanie prekladu chvíľu trvá), kým sa táto fráza zobrazí vo vybranom jazyku."
         },
         "jsPwdInvalid": "Heslo obsahuje neplatné znaky.",
-        "jsPwdCharCount": "Heslo nesmie mať menej ako 8 znakov.",
+        "jsPwdCharCount": "Heslo nemôže mať menej ako 8 znakov.",
         "jsSelectLang": "Najprv vyberte jazyk.",
         "jsLangSet": "Jazyk bol nastavený na {lang}",
-        "jsPrefSaved": "Nastavenia prispôsobenia sa uložia."
+        "jsPrefSaved": "Nastavenia prispôsobenia boli uložené."
       },
       "forgotPwd": {
-        "title": "Zabudli ste heslo?",
-        "introText": "Obnovenie hesla je jednoduché. Vyberte spôsob, ako pokračovať:",
-        "usePhoneCta": "Používanie telefónu",
-        "useEmailCta": "Používanie e-mailu",
-        "sendEmailIntro": "Zadajte e-mailovú adresu, pomocou ktorej ste si vytvorili účet, a my vám pošleme e-mail s prepojením na nastavenie nového hesla pre vaše konto.",
-        "emailInputLabel": "Váš registrovaný e-mail",
-        "sendEmailCta": "Odoslať resetovací e-mail",
-        "sentEmailText": "Ak máte u nás účet, čoskoro dostanete e-mail na obnovenie hesla na <strong>{email}</strong>. Láskavo skontrolujte, či sa vo vašom e-maile nenachádza odkaz.",
-        "notUsingEmailText": "Nepoužívate <strong>{email}?</strong>",
+        "title": "zabudol si heslo?",
+        "introText": "Obnovenie hesla je jednoduché. Pokračujte výberom metódy:",
+        "usePhoneCta": "Použite telefón",
+        "useEmailCta": "Použite e-mail",
+        "sendEmailIntro": "Zadajte e-mailovú adresu, pomocou ktorej ste si vytvorili účet, a my vám pošleme e-mail s odkazom na nastavenie nového hesla pre váš účet. | Ak sa chcete prihlásiť do svojho účtu, musíte pridať e-mailovú adresu. Na tento e-mail vám pošleme odkaz na obnovenie hesla a odtiaľ si môžete vytvoriť heslo pre svoj účet priradený k vášmu mobilnému číslu.",
+        "emailInputLabel": "Váš registrovaný email",
+        "sendEmailCta": "Odoslať e-mail na obnovenie",
+        "sentEmailText": "Ak máte u nás účet, čoskoro dostanete e-mail s obnovením <strong>{email}</strong> . Prosím, skontrolujte svoj e-mail pre odkaz.",
+        "notUsingEmailText": "Nepoužívate <strong>{email} ?</strong>",
         "changeEmailCta": "Zmeniť e-mail",
-        "phoneIntroText": "Zadajte telefónne číslo pridané do vášho účtu. Pošleme OTP na overenie vášho vlastníctva a v ďalšom kroku budete môcť vytvoriť nové heslo.",
-        "phoneInputLabel": "Vaše mobilné číslo",
-        "sendOtpCta": "Odoslať OTP",
+        "phoneIntroText": "Zadajte telefónne číslo pridané k vášmu účtu. Pošleme vám jednorazové heslo na overenie vášho vlastníctva a v ďalšom kroku si budete môcť vytvoriť nové heslo.",
+        "phoneInputLabel": "Tvoje telefónne číslo",
+        "sendOtpCta": "Odoslať jednorazové heslo",
         "backToLoginCta": "Späť na Prihlásenie",
-        "disclaimerText": "Upozorňujeme, že {item} dostanete iba vtedy, ak máte {item} zaregistrovaný u nás",
-        "jsMailSent": "Odoslaná pošta",
-        "title2": "Nárokovanie účtu",
-        "claimIntroHeading": "Rýchlo si nárokujte svoj účet!",
-        "claimIntroText": "Ďakujeme, že ste sa k nám pridali. Teraz sme pre vás vytvorili účet. Prístup k svojmu kontu získate obnovením jeho hesla pomocou jednej z nasledujúcich metód:"
+        "disclaimerText": "Upozorňujeme, že {item} dostanete iba vtedy, ak {item} máte zaregistrovanú u nás",
+        "jsMailSent": "Pošta odoslaná",
+        "title2": "Nárokujte si svoj účet",
+        "introText2": "Obnovenie hesla je jednoduché. Zadajte svoj e-mail a získajte odkaz na obnovenie hesla na svoj e-mail.",
+        "claimIntroHeading": "Získajte svoj účet rýchlo!",
+        "claimIntroText": "Ďakujeme, že ste sa k nám pridali. Získajte prístup k svojmu účtu pridaním e-mailu do svojho účtu."
       },
       "resetPwd": {
         "title": "Obnoviť heslo",
-        "introText": "Tu nastavte bezpečné heslo pre svoj účet. Kliknutím na položku {icon} sa uistite, že zadávate správne heslo.",
-        "pwdInputLabel": "Nastavenie nového hesla",
+        "introText": "Tu si nastavte bezpečné heslo pre svoj účet. Kliknite na {icon} , aby ste sa uistili, že zadávate správne heslo.",
+        "pwdInputLabel": "Nastaviť nové heslo",
         "pwdInputPH": "Zadajte nové heslo",
         "invalidPwdChars": "Neplatné znaky v hesle",
-        "jsResetSuccess": "Obnovenie hesla úspešne!"
+        "jsResetSuccess": "Obnovenie hesla bolo úspešné!"
       },
       "mediaPlayer": {
-        "jsTrackLoadFailed": "Nepodarilo sa načítať trať. Skúste to znova neskôr."
+        "jsTrackLoadFailed": "Načítanie stopy zlyhalo. Skúste neskôr prosím."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} bol úspešne odstránený.",
-        "jsErrReporting": "V tejto chvíli to nemôžem nahlásiť. Skúste to znova neskôr.",
+        "jsItemDeleted": "{item} bola úspešne odstránená.",
+        "jsErrReporting": "Momentálne to nie je možné nahlásiť. Skúste neskôr prosím.",
         "jsAlreadyReported": "Túto {item} ste už nahlásili. Nemôžete to nahlásiť viackrát.",
-        "jsPromptHeading": "Nahlásenie položky má za následok nižšiu šancu, že sa zobrazí vo vašom informačnom kanáli alebo na stránkach inej osoby. Chcete to ešte nahlásiť?",
-        "jsReporting": "Nahlasovanie {itemType}..",
-        "jsReportingErr": "V tejto chvíli sa nepodarilo odoslať vašu žiadosť. Skúste to znova neskôr.",
-        "jsReported": "{item} hlásené. Ďakujeme za váš príspevok."
+        "jsPromptHeading": "Nahlásenie položky má za následok nižšiu šancu, že sa objaví vo vašom alebo inom informačnom kanáli/stránkach. Stále to chcete nahlásiť?",
+        "jsReporting": "Hlásenie {itemType} ..",
+        "jsReportingErr": "V tejto chvíli nie je možné odoslať vašu žiadosť. Skúste neskôr prosím.",
+        "jsReported": "{item} nahlásená. dakujem za prispevok."
       },
       "editProfileModal": {
         "jsEmptyData": "Nie je čo aktualizovať!",
         "jsProfileUpdated": "Profil aktualizovaný!"
       },
       "reqZiyarat": {
-        "title": "Požiadajte o Ziyarat",
-        "cta": "Prosiť",
-        "header": "Požiadajte o Ziyarat vo svätyni Imáma Hussaina (a.s.) v Karbale vo vašom mene.",
+        "title": "Požiadať o návštevu",
+        "cta": "Žiadosť",
+        "header": "Vyžiadajte si Ziyarat vo svätyni Imam Hussain (as) v Karbale vo vašom mene.",
         "desc": {
-          "p1": "Každý piatok <strong>recitujte Ziyarat vo vašom mene</strong> vo svätyni imáma Husajna (a.s.) v Karbale v Iraku! Všetko, čo musíte urobiť, je podať žiadosť <strong>pred koncom štvrtkového večera</strong>. Nikdy však nie je neskoro; ak vaša žiadosť príde príliš neskoro, bude zaregistrovaná na nasledujúci týždeň.",
+          "p1": "Každý piatok nechajte <strong>Ziyarat recitovať vo vašom mene</strong> v svätyni imáma Hussaina (as) v Karbale v Iraku! Všetko, čo musíte urobiť, je požiadať <strong>do konca štvrtkového večera</strong> . Nikdy však neprídeš neskoro; ak vaša žiadosť príde príliš neskoro, bude zaregistrovaná na nasledujúci týždeň.",
           "p2": "Upozorníme vás, keď bude ziyarat recitovaný vo vašom mene.",
-          "p3": "Poznámka: Keď o to požiadate prvýkrát, vaše údaje budú zdieľané s naším poskytovateľom služieb. Ak sa chcete dozvedieť viac, prečítajte si naše Zmluvné podmienky."
+          "p3": "Poznámka: Keď požiadate prvýkrát, vaše údaje budú zdieľané s naším poskytovateľom služieb. Ak chcete vedieť viac, prečítajte si naše zmluvné podmienky."
         },
-        "jsRegistered": "Ďakujeme! Vaša žiadosť je úspešne zaregistrovaná. Čoskoro dostanete potvrdzovací e-mail.",
-        "jsAlreadyRegistered": "Tento štvrtok ste sa už zaregistrovali do Ziyaratu. Zaregistrujte sa budúci týždeň na budúcotýždňový ziyarat.",
-        "jsConfirm": "Aby sme sa zaregistrovali na túto žiadosť, musíme zdieľať vaše údaje (napr. celé meno, pohlavie atď.) s naším poskytovateľom služieb. Vyžaduje sa to len prvýkrát. Láskavo potvrďte, že budete pokračovať.",
-        "jsDeclined": "V poriadku! Možno neskôr."
+        "jsRegistered": "Ďakujem! Vaša žiadosť bola úspešne zaregistrovaná. Čoskoro dostanete potvrdzujúci e-mail.",
+        "jsAlreadyRegistered": "Tento štvrtok ste sa už zaregistrovali na Ziyarat. Zaregistrujte sa budúci týždeň na budúcotýždňový ziyarat.",
+        "jsConfirm": "Aby sme sa mohli zaregistrovať na túto žiadosť, musíme zdieľať vaše údaje (napr. celé meno, pohlavie atď.) s naším poskytovateľom služieb. Vyžaduje sa to len prvýkrát. Ak chcete pokračovať, prosím potvrďte.",
+        "jsDeclined": "Dobre! Možno neskôr."
       },
       "currencySelector": {
         "title": "Vyberte menu",
         "baseCurrency": "Základná mena",
-        "compHasOwnRates": "Stránka používajúca tento volič má svoje vlastné výmenné kurzy, ktoré môžu mať historické hodnoty. Preto sa tu uvedené sadzby nebudú uplatňovať na výber.",
+        "compHasOwnRates": "Stránka používajúca tento selektor má svoje vlastné výmenné kurzy, ktoré môžu mať historické hodnoty. Tu uvedené sadzby sa preto pri výbere nepoužijú.",
         "cancelCta": "Zrušiť",
-        "doneCta": "Robené"
+        "doneCta": "hotový"
       },
       "mqmsSelector": {
         "title": "Vyberte množstvo Muqammas",
-        "dateAdded": "Pridané: {date}",
+        "dateAdded": "Pridané dňa: {date}",
         "cancelCta": "Zrušiť",
-        "doneCta": "Vybrať"
+        "doneCta": "Vyberte"
       },
       "khumsPaymentRecord": {
         "title": "Pridať záznam o platbe",
         "paymentFor": "Platba za {khumsType}",
         "totalAmount": "Celková suma: {amount}",
         "form": {
-          "amountLabel": "Množstvo",
-          "amountPlaceholder": "Zadajte sumu",
-          "amountErr": "Suma nemôže byť vyššia ako Khums",
-          "dateLabel": "Dátum prenosu — nepovinné",
-          "dateInfo": "Dátum odoslania peňazí",
-          "remarks": "Poznámky, ak nejaké existujú?",
-          "remarksInfo": "Napr. \"Platba v hotovosti\"",
-          "attach": "Pridávanie príloh",
-          "attachInfo": "Potvrdenia o platbe (iba obrázky) môžete pridať na neskoršie použitie"
+          "amountLabel": "Suma",
+          "amountPlaceholder": "Zadajte čiastku",
+          "amountErr": "Suma nemôže byť väčšia ako Khums",
+          "dateLabel": "Dátum prenosu — voliteľné",
+          "dateInfo": "Dátum, kedy ste poslali peniaze",
+          "remarks": "Poznámky, ak nejaké sú?",
+          "remarksInfo": "Napr. „Platené v hotovosti“",
+          "attach": "Pridajte prílohy",
+          "attachInfo": "Pre neskoršie použitie môžete pridať potvrdenia o platbe (iba obrázky)."
         }
       },
       "dialCodeSelector": {
         "title": "Vyberte krajinu",
-        "searchPH": "Vyhľadávanie krajiny podľa názvu alebo predvoľby"
+        "searchPH": "Vyhľadajte krajinu podľa názvu alebo číselného kódu"
       },
       "cards": {
         "completeProfile": {
           "profile": {
             "header": "Vyplňte svoj profil",
-            "desc": "Neúplné profily majú obmedzený prístup k funkciám v našej aplikácii. Aktualizácia profilu vám pomôže mnohými spôsobmi. Kliknite sem a dozviete sa viac.",
+            "desc": "Neúplné profily majú obmedzený prístup k funkciám v našej aplikácii. Aktualizácia profilu vám pomôže niekoľkými spôsobmi. Kliknite sem a dozviete sa viac.",
             "item1": {
               "header": "Kompletné profily sa dajú ľahko overiť",
-              "p1": "Keď požiadate o overenie účtu (ďalší krok), pomôže ostatným ľahko vás overiť, keď vás buď poznajú, alebo vidia všetky potrebné informácie na overenie o vás.",
-              "p2": "Overenie neúplných profilov trvá oveľa dlhšie. Nechceli by sme, aby vám bolo zablokované používanie funkcií v našej aplikácii."
+              "p1": "Pri požiadaní o overenie účtu (ďalší krok) pomáha ostatným ľahko vás overiť, keď vás buď poznajú, alebo môžu vidieť všetky potrebné informácie na overenie vašej osoby.",
+              "p2": "Overenie neúplných profilov trvá oveľa dlhšie. Nechceli by sme, aby vám bolo zablokované používanie funkcií našej aplikácie."
             },
             "item2": {
-              "header": "Zobraziť správny obsah",
-              "p1": "Zobrazuje sa obsah na základe vášho okolia. Keď o vás máme správne informácie, vidíte relevantnejší obsah.",
-              "p2": "Ak ste napríklad správne aktualizovali svoju polohu, je pravdepodobnejšie, že sa vám najskôr zobrazia príspevky z okolia."
+              "header": "Pozrite si správny obsah",
+              "p1": "Vidíte obsah na základe vášho okolia. Keď o vás máme správne informácie, zobrazuje sa vám relevantnejší obsah.",
+              "p2": "Ak ste napríklad správne aktualizovali svoju polohu, s väčšou pravdepodobnosťou najskôr uvidíte príspevky z vášho okolia."
             },
             "cta": "Vyplňte svoj profil"
           },
           "identity": {
-            "header": "Nastavenie identity",
-            "desc": "V našej aplikácii vítame každého, ale pretože niektoré funkcie sú užitočné (a určené) iba pre šiítskych moslimov, tieto informácie nám pomáhajú poskytovať vám správne funkcie. Kliknite sem a dozviete sa viac.",
+            "header": "Nastavte svoju identitu",
+            "desc": "Vítame každého v našej aplikácii, ale pretože niektoré funkcie sú užitočné (a určené) iba pre šiitských moslimov, tieto informácie nám pomáhajú poskytovať vám tie správne funkcie. Kliknite sem a dozviete sa viac.",
             "item1": {
-              "header": "Prístupové funkcie pre šiítskych moslimov",
-              "p1": "Množstvo funkcií v našej aplikácii je postavených na šiítskych moslimoch. Niektoré z nich sú:",
-              "ul": "<li>Žiadosť o Surah-fatiha a Namaz-e-Wahshat</li><li>Khumsova kalkulačka</li><li>Finančná pomoc (khums) pre Sadat momineen</li>",
-              "p2": "Ak chcete získať prístup k týmto funkciám, musíte overiť svoju totožnosť (či už teraz alebo, ak sa tak rozhodnete, neskôr)"
+              "header": "Prístup k funkciám pre šiitských moslimov",
+              "p1": "Mnohé funkcie našej aplikácie sú postavené na šiitských moslimoch. Niektoré z nich sú:",
+              "ul": "<li>Žiadosť o súru-fatihu a Namaz-e-Wahshat</li><li> Khumsova kalkulačka</li><li> Finančná pomoc (khums) pre Sadat momineen</li>",
+              "p2": "Ak chcete získať prístup k týmto funkciám, musíte overiť svoju totožnosť (či už teraz alebo, ak sa rozhodnete, neskôr)"
             },
             "item2": {
               "header": "Môžete pomôcť momineen v núdzi!",
-              "p1": "Aj keď nechcete byť overení, môžu existovať aj iní, ktorí môžu chcieť získať overenie, aby mohli využívať tieto funkcie.",
-              "p2": "Takéto momineen môžu overiť iba overené účty. Overenie nám tiež pomáha budovať overenú šiitskú komunitu."
+              "p1": "Aj keď nechcete byť overení, môžu byť iní, ktorí sa môžu chcieť overiť, aby mohli využívať tieto funkcie.",
+              "p2": "Takéto momineen môžu overiť iba overené účty. Overenie nám tiež pomáha vybudovať overenú šiitskú komunitu."
             },
             "item3": {
               "header": "Vaše informácie sú vždy súkromné",
-              "p1": "<strong>Chápeme, že ide o citlivé informácie</strong> a nikdy ich nezverejníme bez vášho súhlasu, ale niekedy je možné urobiť závery. Napríklad, keď požiadate o overenie od iných momineen, budú vedieť, že ste šiít.",
+              "p1": "<strong>Chápeme, že ide o citlivé informácie</strong> a nikdy tieto informácie nezverejníme bez vášho súhlasu, ale niekedy je možné vyvodiť závery. Napríklad, keď požiadate o overenie od iných momineen, budú vedieť, že ste Shia.",
               "p2": "Môžete kliknúť na tlačidlo nižšie a prečítať si viac o našom procese."
             },
-            "cta": "Nastavenie"
+            "cta": "Nastaviť"
           }
         },
         "idSetup": {
-          "header": "Takmer hotovo!",
-          "desc": "Tento krok môžete preskočiť, ak ste spokojní s našimi prednastavenými hodnotami pre nastavenia ochrany osobných údajov a komunikácie. Nezaškodí sa však pozrieť!",
+          "header": "Skoro hotové!",
+          "desc": "Tento krok môžete preskočiť, ak ste spokojní s našimi predvolenými hodnotami nastavení ochrany osobných údajov a komunikácie. Nezaškodí sa však pozrieť!",
           "privacy": {
-            "header": "Nastavenie ochrany osobných údajov",
-            "p1": "Definujte, čo môžu vidieť ostatní:",
-            "ul": "<li>Nastavte viditeľnosť príspevkov. Definuje, či vaše príspevky môže vidieť ktokoľvek na Bazm alebo mimo neho (napr. Keď ho niekto zdieľa na inej platforme)</li><li>Nastavte, kto môže čo vidieť, keď navštívi váš profil</li><li>Nastavenie spôsobu zobrazovania informácií ostatným používateľom</li>"
+            "header": "Nastavte si súkromie",
+            "p1": "Definujte, čo môžu ostatní vidieť:",
+            "ul": "<li>Nastavte nastavenia viditeľnosti svojich príspevkov. Definuje, či vaše príspevky môže vidieť ktokoľvek na Bazme alebo mimo neho (napr. keď ich niekto zdieľa na inej platforme)</li><li> Nastavte, kto čo uvidí, keď navštívi váš profil</li><li> Nastavte, ako sa budú vaše informácie zobrazovať ostatným</li>"
           },
           "comm": {
-            "header": "Nastavenie komunikácie",
+            "header": "Nastavte komunikačné nastavenia",
             "p1": "Definujte, ako a kedy chcete, aby sme s vami komunikovali:",
-            "ul": "<li>Nastavenie predvolieb upozornení</li><li>Prihlásenie na odber alebo zrušenie odberu upozornení na e-maily</li><li>Prihlásenie na odber alebo zrušenie odberu pripomienok</li>"
+            "ul": "<li>Nastavte si predvoľby upozornení</li><li> Prihlásiť sa alebo zrušiť odber upozornení na e-maily</li><li> Prihláste sa na odber alebo zrušte odber pripomienok</li>"
           },
-          "cta": "Nastavenie"
+          "cta": "Nastaviť"
         },
         "verifyLoginInfo": {
           "mobile": {
-            "header": "Overenie mobilného telefónu",
+            "header": "Overte svoj mobil",
             "desc": "Kliknutím na odkaz nižšie overíte svoje mobilné číslo:",
-            "cta": "Spustenie mobilného overenia",
-            "completed": "Úspešne overené mobilné zariadenie"
+            "cta": "Spustite mobilné overenie",
+            "completed": "Mobil bol úspešne overený"
           },
           "email": {
-            "header": "Overenie e-mailu",
-            "desc": "Kliknutím na odkaz nižšie dostanete overovací e-mail do svojej doručenej pošty.",
-            "cta": "Spustenie mobilného overenia",
-            "completed": "Úspešne overené mobilné zariadenie",
+            "header": "Overte svoj e-mail",
+            "desc": "Kliknutím na odkaz nižšie dostanete overovací e-mail do vašej doručenej pošty.",
+            "cta": "Spustite mobilné overenie",
+            "completed": "Mobil bol úspešne overený",
             "form": {
-              "inputLabel": "Váš e-mail:",
+              "inputLabel": "Tvoj email:",
               "ph": "Zadajte svoj e-mail",
-              "cta": "Odkaz na overenie e-mailom"
+              "cta": "Odkaz na overenie e-mailu"
             },
             "sent": {
-              "desc": "Na vašu e-mailovú adresu uvedenú nižšie bol odoslaný e-mail. Kliknutím na odkaz v e-maile overte svoju e-mailovú adresu.",
-              "incorrect": "Nesprávny e-mail?",
+              "desc": "Na vašu e-mailovú adresu nižšie bol odoslaný e-mail. Kliknutím na odkaz vo svojom e-maile overíte svoju e-mailovú adresu.",
+              "incorrect": "Nespravny email?",
               "change": "Zmeniť"
             },
-            "resendCta": "Opätovné odoslanie e-mailu",
-            "openEmailCta": "Otvoriť e-mail",
+            "resendCta": "Preposlať email",
+            "openEmailCta": "Otvorte E-mail",
             "verified": "E-mail bol úspešne overený!"
           }
         }
       },
       "finishSetupPrompt": {
-        "heading": "Kompletné nastavenie účtu",
-        "desc": "Odomknite funkcie svojho účtu dokončením nastavenia účtu. Stačí to urobiť iba raz a pomôže vám to overiť vaše údaje, vašu identitu a nastaviť možnosti ochrany osobných údajov.",
-        "gotoPageCta": "Pokračovať v nastavení",
+        "heading": "Dokončite nastavenie účtu",
+        "desc": "Dokončením nastavenia účtu odomknite funkcie pre svoj účet. Stačí to urobiť raz a pomôže vám to overiť vaše údaje, vašu identitu a nastaviť možnosti ochrany osobných údajov.",
+        "gotoPageCta": "Pokračujte v nastavovaní",
         "dontRemind": "Už mi to nepripomínaj",
         "dismissCta": "Neskôr",
         "jsConfirmSkip": {
           "header": "Pokračovať neskôr?",
-          "msg": "Dokončením tohto kroku sa pre vás v aplikácii odomkne mnoho funkcií, ale tento krok môžete dokončiť aj neskôr. Stačí prejsť na kartu \"Používateľ\" a pokračovať odtiaľ.",
+          "msg": "Dokončenie tohto kroku vám odomkne veľa funkcií v aplikácii, ale tento krok môžete dokončiť aj neskôr. Stačí prejsť na kartu „Používateľ“ a odtiaľ pokračovať.",
           "btns": {
             "confirm": "Áno, neskôr",
-            "cancel": "Urob to teraz"
+            "cancel": "Sprav to hneď"
           }
         }
       },
       "idSetupModal": {
-        "title": "Nastavenie identity",
+        "title": "Nastavte svoju identitu",
         "form": {
           "religion": {
-            "label": "Vyberte svoje náboženstvo:",
-            "infoText": "Množstvo funkcií relevantných iba pre moslimov je založených na týchto informáciách. Tieto údaje budú viditeľné iba pre vás; stále však možno robiť závery (napríklad keď používate jednu z funkcií dostupných len pre moslimov)",
-            "muslim": "Moslim",
-            "nonMuslim": "Nemoslimovia"
+            "label": "Vyberte si náboženstvo:",
+            "infoText": "Na týchto informáciách je založených niekoľko funkcií relevantných len pre moslimov. Tieto údaje budú viditeľné iba pre vás; stále je však možné vyvodiť závery (napríklad, keď používate jednu z funkcií dostupných len pre moslimov)",
+            "muslim": "moslimský",
+            "nonMuslim": "Nemoslimský"
           },
           "sect": {
             "label": "Vyberte si sektu",
-            "infoText": "Funkcie ako Žiadosť o <strong>Ziyarat, Žiadosť o pomoc, Výpočet Khums atď. Vyžadujú,</strong> aby ste overili svoju šiitskú identitu. Neoverení používatelia majú tiež obmedzený prístup k funkciám.",
+            "infoText": "Funkcie ako <strong>Žiadosť o Ziyarat, Žiadosť o pomoc, výpočet Khums atď.</strong> vyžadujú, aby ste overili svoju šiitskú identitu. Neoverení používatelia majú tiež obmedzený prístup k funkciám.",
             "shia": "Shia",
-            "sunni": "Nešiíti"
+            "sunni": "Non-shia"
           },
-          "thanksNonMuslim": "Ďakujeme, že ste prejavili záujem pripojiť sa k našej aplikácii. Dúfame, že tu nájdete užitočný obsah. Prosím, rešpektujte komunitu a dodržiavajte naše pravidlá.",
+          "thanksNonMuslim": "Ďakujeme, že ste prejavili záujem pripojiť sa k našej aplikácii. Dúfame, že tu nájdete užitočný obsah. Prejavte úctu komunite a dodržiavajte naše pravidlá.",
           "sadat": {
-            "label": "Ste Sadat?",
-            "infoText": "Tieto informácie sa používajú vo funkciách určených pre sadat-shia moslimov. Nikdy sa však nikomu nezobrazuje tak, ako sa zobrazuje. Predtým, ako budete môcť využívať tieto služby, budete musieť overiť svoj stav sadat.",
+            "label": "Si Sadat?",
+            "infoText": "Tieto informácie sa používajú vo funkciách určených pre moslimov Sadat-shia. Nikdy sa však nikomu nezobrazuje tak, ako je. Skôr ako budete môcť využívať tieto služby, budete musieť overiť svoj stav sady.",
             "sadat": "Áno",
             "nonSadat": "Nie"
           },
@@ -992,69 +989,69 @@
           "required": "Vyžaduje sa overenie",
           "verifyInfo": {
             "modalCta": "Čo je toto?",
-            "p1": "Ak chcete získať prístup k funkciám určeným pre šiítskych moslimov, musíte overiť svoju šiitskú identitu.",
-            "p2": "Ak ste šiít, budete si to musieť overiť. Môžete ho spárovať v rovnakej žiadosti o overenie. jednoducho vyberte <strong>Sadat</strong> vyššie."
+            "p1": "Ak chcete získať prístup k funkciám určeným pre šiitských moslimov, musíte overiť svoju šiitskú identitu.",
+            "p2": "Ak ste Shia-Sadat, budete to musieť tiež overiť. Môžete ho spárovať v rovnakej žiadosti o overenie; jednoducho vyberte <strong>Sadat</strong> vyššie."
           },
           "verifyCta": "Overiť",
-          "skipInfo": "Ak nechcete používať uvedené funkcie, overenie môžete preskočiť. Ak chcete aktualizovať iba svoje informácie, kliknite na tlačidlo <strong>Uložiť a pokračovať</strong>",
+          "skipInfo": "Ak nechcete používať uvedené funkcie, overenie môžete preskočiť. Ak chcete aktualizovať iba svoje informácie, kliknite na <strong>položku Uložiť a pokračovať</strong>",
           "thankSunni": {
-            "p1": "Ďakujeme, že ste prejavili záujem o našu aplikáciu. Napriek týmto svetským rozdeleniam sú všetci moslimovia bratmi vo viere a patria k tej istej umme proroka Mohameda (PBUH)",
-            "p2": "Dúfame, že obsah tu bude pre vás užitočný a pomôže nám lepšie si porozumieť.",
-            "p3": "V prípade akýchkoľvek otázok/obáv týkajúcich sa našich pravidiel alebo čohokoľvek iného sa na nás môžete kedykoľvek obrátiť."
+            "p1": "Ďakujeme za prejavený záujem o našu aplikáciu. Napriek týmto svetským rozdeleniam sú všetci moslimovia bratmi vo viere a patria k tej istej umme proroka Mohameda (PBUH).",
+            "p2": "Dúfame, že tu nájdete užitočný obsah a pomôže nám lepšie sa navzájom pochopiť.",
+            "p3": "V prípade akýchkoľvek otázok alebo obáv týkajúcich sa našich pravidiel alebo čohokoľvek iného sa na nás môžete kedykoľvek obrátiť."
           }
         },
         "cta": [
-          "Zachrániť",
+          "Uložiť",
           "Uložiť a pokračovať"
         ]
       },
       "verifyShiaModal": {
-        "title": "Overenie účtu pre {name}",
-        "heading": "Môžete odpovedať nižšie na informácie o {firstName}? Ak nie, potom túto žiadosť zamietnite.",
-        "desc": "Na overenie máte iba dva pokusy!",
-        "descP1": "Keď odošlete tento formulár, porovnáme informácie s tým, čo {firstName} poskytnuté pri žiadosti o overenie. Dávajte pozor, pretože máte len dva pokusy o správne vyplnenie tohto formulára. Ak stále zlyháte, nebudete môcť {firstName} v budúcnosti znova overiť.",
-        "descP2": "Ak neviete {firstName}, odmietnite túto žiadosť. Dáme im vedieť a požiadame ich, aby oslovili niekoho iného.",
+        "title": "Overte {name} účtu",
+        "heading": "Môžete odpovedať na nižšie uvedené informácie o {firstName} ? Ak nie, odmietnite túto žiadosť.",
+        "desc": "Na overenie máte len dva pokusy!",
+        "descP1": "Keď odošlete tento formulár, priradíme informácie k tomu, čo {firstName} poskytli pri žiadosti o overenie. Venujte prosím pozornosť, pretože na správne vyplnenie tohto formulára máte len dva pokusy. Ak stále zlyháte, v budúcnosti nebudete môcť znova overiť {firstName} .",
+        "descP2": "Ak nepoznáte {firstName} , odmietnite túto žiadosť. Dáme im vedieť a požiadame ich, aby oslovili niekoho iného.",
         "rejectRequestCta": "Odmietnuť žiadosť",
         "form": {
-          "heading": "Odpovedzte na nasledujúce otázky týkajúce sa {firstName} a kliknite na tlačidlo Odoslať:",
-          "q1": "Ako poznáte {firstName}?",
-          "q2": "Náboženstvo:",
-          "q3": "Sekta:",
+          "heading": "Odpovedzte na nasledujúce otázky o {firstName} a kliknite na tlačidlo Odoslať:",
+          "q1": "Ako poznáte {firstName} ?",
+          "q2": "náboženstvo:",
+          "q3": "sekta:",
           "q4": "Je {firstName} Sadat?",
-          "q5": "Ešte niečo, čo by ste chceli dodať?"
+          "q5": "Chceli by ste ešte niečo dodať?"
         }
       },
       "editPrefModal": {
         "title": "Vaše nastavenia ochrany osobných údajov",
         "privacy": {
           "header": "Nastavenia ochrany osobných údajov",
-          "desc": "Nastavte, kto môže vidieť nasledujúce informácie od vás alebo vo vašom účte:",
+          "desc": "Nastavte, kto môže vidieť sledovanie od vás alebo vo vašom účte:",
           "form": {
-            "posts": "Vaše príspevky",
-            "status": "Aktualizácie vášho stavu",
+            "posts": "Tvoje príspevky",
+            "status": "Váš stav sa aktualizuje",
             "requests": "Vaše požiadavky",
-            "relationship": "Stav vášho vzťahu",
+            "relationship": "tvoj vzťahový status",
             "birthday": "Váš dátum narodenia (nie rok)",
             "location": "Vaša poloha"
           },
           "disclaimer": {
-            "heading": "* Stále sa o tom dajú robiť závery",
-            "p": "Aj keď tieto informácie môžu byť vo vašom profile skryté, stále je možné vyvodiť určité závery. Ak sa napríklad váš príspevok zobrazí používateľovi, môže odvodiť, že žijete blízko (na základe toho, kde v jeho informačnom kanáli sa tento príspevok zobrazuje)"
+            "heading": "* Stále sa o tom dá vyvodiť závery",
+            "p": "Aj keď tieto informácie môžu byť skryté vo vašom profile, stále je možné vyvodiť určité závery. Ak sa napríklad váš príspevok zobrazí používateľovi, môže usúdiť, že bývate blízko (podľa toho, kde sa daný príspevok zobrazuje v jeho informačnom kanáli)."
           },
           "values": {
             "everyone": "Každý",
             "users": "Iba Momineen",
-            "shias": "Iba šiiti",
+            "shias": "Iba šíiti",
             "me": "Iba ja"
           }
         },
         "comm": {
           "header": "Nastavenia komunikácie",
-          "desc": "Nastavenie spôsobu komunikácie",
+          "desc": "Nastavte, ako chcete komunikovať",
           "form": {
             "push": {
               "header": "Push notifikácie",
-              "nearby": "Príspevky od používateľov v okolí",
+              "nearby": "Pre príspevky od používateľov v okolí",
               "daily": "Naše denné aktualizácie"
             },
             "email": {
@@ -1066,208 +1063,200 @@
           }
         },
         "js": {
-          "changeSaved": "Úspešne uložené zmeny"
+          "changeSaved": "Zmeny boli úspešne uložené"
         }
       },
       "rejectVerifyReq": {
         "cta": "Odmietnuť",
         "title": "Odmietnuť žiadosť",
-        "reasonLabel": "Prečo nechcete overiť toto konto?",
-        "reasonPh": "Dáme {userName} vedieť a požiadame ich, aby oslovili niekoho iného na overenie"
+        "reasonLabel": "Prečo nechcete overiť tento účet?",
+        "reasonPh": "{userName} dáme vedieť a požiadame ho, aby kontaktoval niekoho iného na overenie"
       },
       "haadiHome": {
         "title": "Začať diskusiu | Vaše diskusie s Haadi",
         "item": {
-          "added": "Pridané {date}",
-          "tokensUsed": "Použité žetóny: {tokens}",
-          "readContinue": "Prečítajte si diskusiu alebo v nej pokračujte"
+          "added": "Pridaný {date}",
+          "tokensUsed": "Použité kredity: {tokens}",
+          "readContinue": "Prečítajte si alebo pokračujte v diskusii"
         },
         "blank": {
           "heading": "Začať novú diskusiu",
-          "desc": "Nemáte žiadne predchádzajúce konverzácie. Začnite novú diskusiu odoslaním dotazu nižšie."
+          "desc": "Nemáte žiadne predchádzajúce konverzácie. Začnite novú diskusiu odoslaním vášho dopytu nižšie."
         },
-        "introLink": "Prečítajte si viac o Haadi alebo",
+        "introLink": "Prečítajte si viac o Haadi, príp",
         "inputPh": "Začať novú diskusiu",
         "quesHelp": {
-          "invalid": "Otázky s 5 alebo viacerými slovami dávajú väčší zmysel..",
-          "goodLen": "To vyzerá ako dobrá otázka!",
-          "excellent": "Nikdy nie je na škodu vysvetliť vašu otázku. Sláva!"
+          "invalid": "Otázky s 5 a viac slovami dávajú väčší zmysel.",
+          "goodLen": "Vyzerá to ako dobrá otázka!",
+          "excellent": "Nikdy nezaškodí vysvetliť svoju otázku. česť!"
         }
       },
       "askHaadi": {
         "title": "Opýtajte sa Haadiho",
-        "infoText": "Ak chcete ukončiť diskusiu a začať novú konverzáciu, kliknite na tlačidlo nižšie",
+        "infoText": "Ak chcete ukončiť túto diskusiu a začať novú konverzáciu, kliknite na tlačidlo nižšie",
         "newChatCTA": "Nová diskusia",
-        "inputPH": "Položiť otázku",
+        "inputPH": "Opýtať sa otázku",
         "empty": {
-          "heading": "Nepodarilo sa nájsť túto konverzáciu",
-          "p1": "Pri pokuse o získanie tejto konverzácie sa vyskytla chyba. Skontrolujte adresu URL a skúste to znova.",
-          "p2": "Ak sa to bude diať aj naďalej, kontaktujte nás."
+          "heading": "Túto konverzáciu sa nepodarilo nájsť",
+          "p1": "Túto konverzáciu sa nám nepodarilo nájsť. Skontrolujte adresu URL a skúste to znova.",
+          "guest": "Môže to byť spôsobené tým, že nie ste prihlásený/-á. Skúste sa prihlásiť a znova skontrolujte.",
+          "p2": "Ak sa to bude opakovať, kontaktujte nás."
         },
-        "jsNewChatInfo": "Toto je začiatok nového rozhovoru s Haadim. Rozhodli ste sa povoliť kontext pre Haadi pri odpovedaní na vaše otázky. Túto možnosť môžete kedykoľvek vypnúť v nastaveniach alebo zistiť, čo to pre vás znamená."
+        "jsNewChatInfo": "Toto je začiatok nového rozhovoru s Haadi. Pri odpovedaní na vaše otázky ste sa rozhodli povoliť kontext pre Haadi. Túto možnosť môžete kedykoľvek zakázať v nastaveniach alebo zistiť, čo to pre vás znamená."
       },
       "aboutHaadi": {
-        "title": "Zoznámte sa s Haadim, vaším priateľom, ktorý naviguje šiítsky islam!",
-        "desc": "Kliknite na každý z týchto súhrnov a prečítajte si viac alebo nájdite viac o Haadi a podmienkach používania v <a href={blogLink} target='_system'>our blog",
+        "title": "Zoznámte sa s Haadim, vaším <strong>bot-priateľom,</strong> aby ste navigovali šiitský islam!",
+        "desc": "Odporúčame vám, aby ste si pred začatím používania Haadi prešli tieto súhrny. Viac o Haadi a podmienkach používania nájdete v <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Rozumiem a súhlasím s Podmienkami používania"
       }
     },
     "authPage": {
       "form": {
         "name": {
-          "label": "Vaše meno",
+          "label": "Tvoje meno",
           "placeholder": "Zadajte svoje celé meno"
         },
         "email": {
-          "label": "E-mail",
+          "label": "Email",
           "placeholder": [
-            "Váš registrovaný e-mail",
+            "Váš registrovaný email",
             "Zadajte svoj e-mail"
           ]
         },
         "password": {
-          "label": "Heslo",
+          "label": "heslo",
           "placeholder": [
-            "Vaše heslo",
+            "Tvoje heslo",
             "Zadajte heslo"
           ]
         },
         "rememberLogin": "Zapamätať si prihlásenie",
-        "forgotPwd": "Zabudli ste heslo?",
+        "forgotPwd": "Zabudol si heslo?",
         "connectUsing": "Alebo sa pripojte pomocou",
-        "useSavedAccount": "Používanie uložených účtov",
+        "useSavedAccount": "Použite uložené účty",
         "lastLogin": "Posledné prihlásenie",
         "needAccount": "Potrebujete účet?",
-        "resetPwdSuccess": "Na prihlásenie teraz môžete použiť svoje nové heslo",
-        "jsEnterFullName": "Zadajte svoje celé meno.",
-        "jsEnterValidName": "Zadajte platné meno.",
+        "resetPwdSuccess": "Na prihlásenie môžete použiť svoje nové heslo",
+        "jsEnterFullName": "Prosím zadajte vaše celé meno.",
+        "jsEnterValidName": "Zadajte platný názov.",
         "jsEnterValidEmail": [
-          "Zadajte platný e-mail.",
-          "E-mail obsahuje neplatné znaky. Zadajte platný e-mail."
+          "Prosím zadajte platný e-mail.",
+          "E-mail obsahuje neplatné znaky. Prosím zadajte platný e-mail."
         ],
-        "jsSelectCountryCode": "Vyberte kód svojej krajiny zo zoznamu",
+        "jsSelectCountryCode": "Vyberte kód krajiny zo zoznamu",
         "jsEnterMobile": "Zadajte svoje mobilné číslo.",
         "jsEnterValidMobile": "Zadajte platné mobilné číslo",
-        "jsEnterPwd": "Zadajte svoje heslo!",
+        "jsEnterPwd": "Prosím vložte heslo!",
         "jsEnterValidPwd": [
           "Heslo obsahuje neplatné znaky. Zadajte platné heslo.",
-          "Heslo by malo mať aspoň znaky {num}."
+          "Heslo by malo mať aspoň {num} znakov."
         ],
         "jsAccountSuccess": "Účet bol úspešne vytvorený",
-        "jsFbError": "Nepodarilo sa získať podrobnosti o vašom účte na Facebooku. Skúste to znova.",
-        "jsPromptClosedErr": "Výzva na prihlásenie bola pred dokončením zatvorená. Skúste to znova."
+        "jsFbError": "Nepodarilo sa získať podrobnosti o vašom účte na Facebooku. Prosím skúste znova.",
+        "jsPromptClosedErr": "Prihlasovacia výzva bola pred dokončením zatvorená. Prosím skúste znova."
       },
-      "gotoSignup": "Prejsť zaregistrovať sa",
-      "alreadyHasAccount": "Už máte účet?",
-      "gotoLogin": "Goto Prihlásenie",
+      "gotoSignup": "Prejsť na Registrácia",
+      "alreadyHasAccount": "Máte už účet?",
+      "gotoLogin": "Prejsť na Prihlásenie",
       "gotoProfile": "Prejsť na profil",
-      "msgForAuthUser": "<p>Myslíme si, že ste tu pristáli omylom, pretože ste už prihlásení.</p> <p>Môžete skontrolovať svoj profil a zistiť, ako vyzerá, alebo použiť jeden z nižšie uvedených prepojení na prehľadávanie ďalších sekcií:</p>",
+      "msgForAuthUser": "<p>Myslíme si, že ste sa sem dostali omylom, keďže ste už prihlásený/-á.</p><p> Môžete si skontrolovať svoj profil a pozrieť sa, ako vyzerá, alebo použiť jeden z nižšie uvedených odkazov na prehliadanie iných sekcií:</p>",
       "jsLoggedOut": "Boli ste odhlásení.",
       "jsLogoutHeading": "Odhlásiť sa z účtu?",
-      "jsLogoutText": "Tým sa odstránia informácie uložené lokálne, čo umožňuje <b>rýchle prihlásenie</b>. Pokračovať?"
+      "jsLogoutText": "Týmto sa odstránia lokálne uložené informácie, čo umožňuje <b>rýchle</b> prihlásenie. Ďalej?"
     },
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Nainštalujte Bazm { platform }",
-          "desc": "Stiahnite si aplikáciu pre Android pre lepší zážitok, prispôsobený obsah, upozornenia a všetko, čo vás zaujíma, z okolia! | Nainštalujte si odkaz na aplikáciu (záložku), aby ste k nej mali nabudúce prístup priamo z domovskej obrazovky, aby ste dosiahli lepší zážitok! Sotva zaberá miesto vo vašom zariadení, ale pomáha vám rýchlo sa vrátiť do aplikácie.",
+          "heading": "Pridať skratku Bazm",
+          "desc": "Stiahnite si našu aplikáciu pre Android a získajte lepší zážitok, prispôsobený obsah, upozornenia a všetko, čo vás okolo vás zaujíma! | Nainštalujte si skratku aplikácie (záložku), aby ste k nej nabudúce mali prístup priamo z domovskej obrazovky, aby ste mali lepší zážitok! Vo vašom zariadení nezaberie takmer žiadne miesto, ale pomôže vám rýchlo sa vrátiť k aplikácii.",
           "cta": {
-            "action": "Inštalovať",
+            "action": "Inštalácia",
             "skip": "Možno neskôr"
           }
         },
         "prompt": {
-          "heading": "Inštalovať skratku Bazm?"
-        },
-        "popover": {
-          "text": "Kliknite na ikonu Zdieľať (vyzerá ako ikona vpravo) <strong>NIŽŠIE</strong> a potom kliknite na položku <strong>Pridať na plochu</strong>. Kliknutím na tlačidlo \"Uložiť\" dokončite prácu a potom môžete získať prístup k aplikácii zo skratky na domovskej obrazovke!"
+          "heading": "Nainštalovať skratku Bazm?"
         },
         "nonSafari": {
-          "heading": "Bazm funguje lepšie v prehliadači Apple Safari",
-          "desc": "Tento prehliadač má obmedzené funkcie, zatiaľ čo prehliadač Safari umožňuje našej aplikácii lepší výkon, vrátane upozornení push a skratiek aplikácií.",
-          "subtext": "<strong>Otvorte aplikáciu Safari</strong> v telefóne a prejdite na <strong>{url}</strong> pre lepší zážitok.",
-          "skipCta": "Pokračujte radšej tu"
+          "heading": "Bazm funguje lepšie na Safari",
+          "desc": "Tento prehliadač má obmedzené funkcie, zatiaľ čo prehliadač Safari umožňuje našej aplikácii lepšie fungovať vrátane upozornení push a skratiek aplikácie.",
+          "subtext": "Pre lepší zážitok <strong>otvorte prehliadač Safari</strong> a prejdite na <strong>{url}</strong> .",
+          "skipCta": "Namiesto toho pokračujte tu"
         }
       },
       "webFeedback": {
-        "heading": "Aké sú tvoje doterajšie skúsenosti?",
-        "text": "<p>Páči sa vám nová aplikácia? Je niečo, čo môžeme zlepšiť? Pomôžte nám so svojou spätnou väzbou, aby sme vám zlepšili zážitok!</p> <p>Trvalo by to len pár minút a veľmi si vážime váš čas!</p>",
-        "cta": "Poskytnite spätnú väz",
-        "dismiss": "Možno neskôr"
+        "heading": "Aké sú vaše doterajšie skúsenosti?",
+        "text": "<p>Páči sa vám nová aplikácia? Je niečo, čo môžeme zlepšiť? Pomôžte nám s vašou spätnou väzbou, aby sme pre vás zlepšili zážitok!</p><p> Zaberie to len pár minút a veľmi si vážime váš čas!</p>",
+        "cta": "Dať spätnú väzbu",
+        "dismiss": "Možno neskôr",
+        "altText": "Vaša spätná väzba nám pomôže zlepšiť zážitok z aplikácie a zaberie to len minútu."
       },
       "advertise": {
-        "heading": "Inzerujte na Bazm",
-        "text": "<p>Oslovte milióny šiítskych moslimov po celom svete so svojím produktom na Bazme alebo komunikujte so značkami a používateľmi.</p> <p>Začnite už od 1 dolára / deň!</p>",
-        "cta": "Zistiť viac"
+        "heading": "Inzerujte na Bazme",
+        "text": "<p>Oslovte milióny šíitských moslimov po celom svete pomocou svojho produktu na Bazme alebo oslovte značky a používateľov.</p><p> Začnite už od 1 USD/deň!</p>",
+        "cta": "Uč sa viac"
       },
       "upgradeSafari": {
-        "header": "Obmedzený zážitok zo Safari",
-        "description": "<strong>Tento prehliadač (Safari) nie je optimalizovaný pre najlepší zážitok</strong>. Pokračovaním v používaní našej aplikácie tu prídete o množstvo funkcií, ako sú upozornenia na upozornenia, v blízkosti aktualizácií, režim offline a oveľa viac.<br/> Odporúčame vám získať jeden z nižšie uvedených prehliadačov, aby ste dosiahli lepší zážitok. Kliknutím na ktorékoľvek z tlačidiel stiahnete prehliadač z AppStore:",
+        "header": "Obmedzené skúsenosti so Safari",
+        "description": "<strong>Tento prehliadač (Safari) nie je optimalizovaný pre najlepší zážitok</strong> . Ak budete pokračovať v používaní našej aplikácie tu, prídete o množstvo funkcií, ako sú upozornenia na výstrahy, aktualizácie, režim offline a oveľa viac.<br/> Odporúčame vám, aby ste si zaobstarali jeden z nižšie uvedených prehliadačov pre lepší zážitok. Kliknutím na ktorékoľvek z tlačidiel stiahnete prehliadač z AppStore:",
         "ctas": {
-          "getGoogle": "Získať Google Chrome",
-          "getFirefox": "Získať Mozilla Firefox",
-          "getOpera": "Získajte Operu Touch",
+          "getGoogle": "Získajte Google Chrome",
+          "getFirefox": "Stiahnite si Mozilla Firefox",
+          "getOpera": "Získajte Opera Touch",
           "skip": "Možno neskôr"
         },
-        "toast": "Bez problémov. Tak nabudúce!"
+        "toast": "Žiaden problém. Dobudúcna!"
       },
       "cookieBanner": {
-        "header": "Ukladanie súborov cookie do vášho zariadenia",
-        "p1": "Vo vašom {zariadení} neukladáme žiadne súbory cookie, ale aplikácie tretích strán používané v našej aplikácii môžu (napríklad Google Analytics). Namiesto toho používame trvalé ukladanie na ukladanie akýchkoľvek dôležitých údajov a vo väčšine prípadov je to šifrované v úložisku a počas prenosu.",
-        "p2": "Pokračovaním v používaní tejto aplikácie týmto potvrdzujete, že nemáte žiadne problémy s našimi možnosťami. Ak sa chcete dozvedieť viac o našich súboroch cookie a používaní údajov, pozrite si našu <a href='https://bazm.in/privacy-policy' target='_blank'>Zásady ochrany osobných údajov.</a>"
+        "header": "O ukladaní súborov cookie na vašom zariadení",
+        "p1": "Vo vašom {device} neukladáme žiadne súbory cookie, ale aplikácie tretích strán používané v našej aplikácii môžu (napríklad Google Analytics). Namiesto toho používame trvalé úložisko na ukladanie akýchkoľvek dôležitých údajov a vo väčšine prípadov je toto úložisko a počas prenosu šifrované.",
+        "p2": "Pokračovaním v používaní tejto aplikácie potvrdzujete, že s našimi voľbami nemáte žiadne problémy. Ak sa chcete dozvedieť viac o našich súboroch cookie a používaní údajov, pozrite si naše <a href='https://bazm.in/privacy-policy' target='_blank'>Zásady ochrany osobných údajov.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Aplikácia sociálnych sietí pre šiítskych moslimov po celom svete! Stiahnite si aplikáciu ešte dnes.",
+      "titleBranding": "__ Bazm - Aplikácia sociálnych sietí pre šiitských moslimov po celom svete!",
       "home": {
-        "title": "Bazm - Online šiítska komunitná aplikácia!",
-        "description": "Aplikácia Bazm je šiítska komunitná aplikácia, ktorá spĺňa všetky vaše každodenné potreby deen & mazhab. Nájdite Nauhe, Majalis, Dua, Aamaal, Ziyarat, Knihy atď. pre všetky dátumy a príležitosti. Sledujte a robte živé prenosy udalostí a majalis so šiítskymi moslimami z celého sveta z pohodlia vášho domova. Pridajte sa ešte dnes!"
+        "title": "Bazm - Online aplikácia pre komunitu Shia!",
+        "description": "Aplikácia Bazm je aplikácia pre šiitskú komunitu, ktorá spĺňa všetky vaše každodenné potreby deen &amp; mazhab. Nájdite Nauhe, Majalis, Dua, Aamaal, Ziyarat, knihy atď. pre všetky dátumy a príležitosti. Sledujte a robte živé vysielanie udalostí a majalis so šiitskými moslimami po celom svete z pohodlia vášho domova. Pridajte sa ešte dnes!"
       },
       "feed": {
-        "title": "Nájdite prispôsobený obsah a zdieľajte ho so šiítskou komunitou okolo vás a celého sveta",
-        "description": "Vyhľadávajte a zdieľajte správy, udalosti a obsah so šiítskym momineenom v okolí a informujte ich o všetkých udalostiach, ktoré organizujete. Prečítajte si o čomkoľvek, čo sa deje vo vašom okolí v aplikácii."
+        "title": "Bazm — Nájdite a zdieľajte prispôsobený obsah od šiitských moslimov z celého sveta!",
+        "description": "Nájdite a zdieľajte novinky, udalosti a obsah so shia momineen v okolí a informujte ich o všetkých udalostiach, ktoré organizujete. Získajte informácie o všetkom, čo sa v aplikácii deje vo vašom okolí."
       },
       "mediaHome": {
         "title": "Bazm - Nauhe, Majalis, Dua, Ziyarat, Aamaal a ešte oveľa viac pre vás!",
-        "description": "Nájdite Nauhe, Majalis, Dua, Aamaal, ziyarat a oveľa viac pre všetky dátumy a príležitosti. Sledujte a robte živé prenosy majalis z pohodlia vášho domova! Pripojte sa k aplikácii sociálnej siete Shia, ktorá vám pomôže s rutinnými úlohami deen & mazhab. Pridajte sa ešte dnes!"
+        "description": "Nájdite Nauhe, Majalis, Dua, Aamaal, ziyarat a oveľa viac pre všetky dátumy a príležitosti. Sledujte a vysielajte majalis naživo z pohodlia vášho domova! Pripojte sa k aplikácii sociálnej siete Shia, ktorá vám pomôže s rutinnými úlohami deen &amp; mazhab. Pridajte sa ešte dnes!"
       },
       "toolsHome": {
-        "title": "Bazm - Denný alarm Azaan, otázka-odpoveď a nástroje pre šiítskych moslimov",
-        "description": "Získajte dennú pripomienku pre Adhana, nájdite a položte otázku-odpoveď na témy deen & islam, alebo požiadajte Surah-fatiha alebo Namaz-e-Wahshat o svoju marhumeen a ďalšie nástroje na Bazm. Pripojte sa k aplikácii sociálnej siete Shia, ktorá vám pomôže s rutinnými úlohami deen. Nájdite Nohe / Nauhe, Majalis, Dua, Aamaal, Ziyarat pre všetky dátumy a príležitosti. Živé vysielanie udalostí a majalis z pohodlia vášho domova. Pridajte sa ešte dnes!"
+        "title": "Bazm - Denný azaanský alarm, otázka-odpoveď a nástroje pre šiitských moslimov",
+        "description": "Získajte denné pripomenutie pre Adhana, nájdite a pýtajte sa na otázky a odpovede na témy deen &amp; islam alebo si vyžiadajte súry-fatiha alebo Namaz-e-Wahshat pre svoj marhumeen a ďalšie nástroje na Bazm. Pripojte sa k aplikácii sociálnej siete Shia, ktorá vám pomôže s rutinnými úlohami deena. Nájdite Nohe/Nauhe, Majalis, Dua, Aamaal, Ziyarat pre všetky dátumy a príležitosti. Živé vysielanie udalostí a majalis z pohodlia vášho domova. Pridajte sa ešte dnes!"
       },
       "tasbeehCounter": {
         "title": "Automatické počítadlo tasbeeh s nástrojom Voice __ Tasbeeh Counter",
-        "description": "Recitovanie nespočetného množstva tasbeeh je teraz jednoduchšie s našimi počítadlami Audio tasbeeh. Recitujte svoj tasbeeh počas jazdy alebo práce a stále sledujte počet pomocou hlasových počítadiel. Získajte tento nástroj a ďalšie podobné v aplikácii Bazm. Stiahnite si ho ešte dnes."
+        "description": "Recitovanie nespočetného množstva tasbeeh je teraz jednoduchšie s našimi audio počítadlami tasbeeh. Recitujte svoje tasbeeh počas šoférovania alebo práce a stále sledujte počet pomocou hlasových počítadiel. Získajte tento nástroj a ďalšie podobné v aplikácii Bazm. Stiahnite si ešte dnes."
       },
       "accountHome": {
-        "title": "Bazm - Vytvorte si svoj bezplatný účet ešte dnes a získajte pomoc s vašimi každodennými potrebami deen!",
-        "description": "Pripojte sa k aplikácii Bazm ešte dnes a splňte všetky svoje potreby, aby ste mohli deeniyat. Nájdite nohe / nauhe, majalis, dua, ziyarat, aamaal pre všetky dátumy a príležitosti. Živé vysielanie a sledovanie majalis & udalosti z okolia; nájdite príspevky, obsah a momineen z okolia a sveta a ešte oveľa viac v aplikácii."
+        "title": "Bazm - Vytvorte si svoj bezplatný účet ešte dnes a získajte pomoc so svojimi každodennými potrebami!",
+        "description": "Pripojte sa k aplikácii Bazm ešte dnes, aby ste splnili všetky svoje potreby deeniyat. Nájdite nohe/nauhe, majalis, dua, ziyarat, aamaal pre všetky dátumy a príležitosti. Živé vysielanie a sledovanie majalis a udalostí z vášho okolia; nájdite v aplikácii príspevky, obsah a momineen z vášho okolia a zo sveta a ešte oveľa viac. Pridajte sa ešte dnes!"
       },
       "nauheListPage": {
-        "title": "Vypočujte si Nauhe z populárneho nauhakhwanu po celom svete",
-        "description": "Vypočujte si nauhe zo všetkých rokov a všetky populárne nauhakhwan z celého sveta v aplikácii Bazm. Stiahnite si ešte dnes."
+        "title": "Vypočujte si Nauhe od populárneho nauhakhwana po celom svete",
+        "description": "Počúvajte nauhe zo všetkých rokov a všetky populárne nauhakhwan z celého sveta v aplikácii Bazm. Stiahnite si ešte dnes."
       },
       "soazListPage": {
-        "title": "Vypočujte si Soaz z populárneho Soazkhwanu po celom svete",
-        "description": "Vypočujte si Soaz zo všetkých rokov a všetky populárne Soazkhwan z celého sveta v aplikácii Bazm."
+        "title": "Vypočujte si Soaz od populárnej Soazkhwan po celom svete",
+        "description": "Počúvajte Soaz zo všetkých rokov a všetky populárne Soazkhwan z celého sveta v aplikácii Bazm. Stiahnite si ešte dnes."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis on Bazm - Nájdite viac nauhe, audio/video majalis, dua, ziyarat, aamaal atď. na Bazm",
-        "description": "Nájdite audio/ video majalis z Maulany a Zakir-e-Ahlbayt z vášho okolia a z celého sveta. Počúvajte a sledujte najnovšie majalis a relácie živého vysielania v aplikácii Bazm. Stiahnite si aplikáciu ešte dnes a pripojte sa k miliónom šiitských moslimov po celom svete!"
+        "title": "{type} majalis/majlis na Bazm - Nájdite viac nauhe, audio/video majalis, dua, ziyarat, aamaal atď. na Bazm",
+        "description": "Nájdite audio/video majalis z Maulana a Zakir-e-Ahlbayt z vášho okolia az celého sveta. Počúvajte a sledujte najnovšie relácie Majalis a živé vysielanie v aplikácii Bazm. Stiahnite si aplikáciu ešte dnes a pripojte sa k miliónom šiitských moslimov po celom svete!"
       },
       "duasPage": {
         "title": [
-          "Duas a aamaal za mesiac {mesiac} na Bazme - Nájdite viac nauhe, audio / video majalis, dua, ziyarat, aamaal atď. na Bazm",
-          "Duas a aamaal na všetky mesiace na Bazme - Nájdite viac nauhe, audio / video majalis, dua, ziyarat, aamaal atď. na Bazm"
+          "Duas a aamaal za mesiac v {month} na Bazm - Nájdite viac nauhe, audio/video majalis, dua, piyarat, aamaal atď. na Bazm",
+          "Duas a aamaal pre všetky mesiace na Bazm - Nájdite viac nauhe, audio/video majalis, dua, ziyarat, aamaal atď. na Bazm"
         ],
-        "description": "Nájdite duas, aamaal, ziyarat a munajat na všetky mesiace na Bazm, dátum a udalosť múdre. Stiahnite si aplikáciu ešte dnes a pripojte sa k miliónom šiitských moslimov po celom svete!"
-      }
-    },
-    "server": {
-      "bot": {
-        "quesAppend": "Vysvetlite so správnymi odkazmi a v kontexte šiítskych moslimov. Tiež mi poskytnite referencie ako zoznam s odkazmi na zdroje.",
-        "newQues": "Ahoj, začnime novú konverzáciu. Nižšie uvádzam dotaz:\n{quesTex}",
-        "continuePrev": "Pokračujme v našej diskusii od {date}. {quesTex}"
+        "description": "Nájdite duas, aamaal, ziyarat a munajat pre všetky mesiace na Bazm, podľa dátumu a udalostí. Stiahnite si aplikáciu ešte dnes a pripojte sa k miliónom šiitských moslimov po celom svete!"
       }
     }
   }
