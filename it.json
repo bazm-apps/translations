@@ -81,7 +81,8 @@
         "cancelCta": "Chiedimi più tardi",
         "okCta": "Certo!",
         "jsPushUnsupported": "Push non supportato su questo dispositivo. Potresti perdere le notifiche!"
-      }
+      },
+      "sending": "Invio..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Queste informazioni sono visibili solo a te e vedi contenuti e funzionalità basati su questo.",
           "idSetupCta": "Imposta la tua identità",
           "idVerifyCta": "Verificare",
-          "joinDate": "Iscritto dal: {date}"
+          "joinDate": "Iscritto dal: {date}",
+          "idVerifyAltText": "Solo i momineen sciiti verificati possono verificare gli altri. Si prega di verificare il proprio account, in modo da poter verificare <strong>{name}</strong> in seguito.",
+          "idVerifyAltText2": "Se hai già richiesto qualcuno, puoi ricordarglielo di nuovo con un nuovo link o chiedere a più momineen per una risposta più rapida."
         },
         "posts": {
           "title": "Messaggi",
@@ -792,7 +795,8 @@
         "jsMailSent": "Mail inviata",
         "title2": "Richiedi il tuo account",
         "claimIntroHeading": "Richiedi rapidamente il tuo account!",
-        "claimIntroText": "Grazie per esserti unito a noi. Abbiamo creato un account per te ora. Ottieni l'accesso al tuo account reimpostando la password utilizzando uno dei seguenti metodi:"
+        "claimIntroText": "Grazie per esserti unito a noi. Abbiamo creato un account per te ora. Ottieni l'accesso al tuo account reimpostando la password utilizzando uno dei seguenti metodi:",
+        "introText2": "Reimpostare la password è facile. Inserisci la tua e-mail e ricevi il link per reimpostare la password sulla tua e-mail."
       },
       "resetPwd": {
         "title": "Reimposta password",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Impossibile trovare questa conversazione",
           "p1": "Si è verificato un errore durante il tentativo di ottenere questa conversazione. Controlla l'URL e riprova.",
-          "p2": "Se ciò continua ad accadere, vi preghiamo di contattarci."
+          "p2": "Se ciò continua ad accadere, vi preghiamo di contattarci.",
+          "guest": "Ciò potrebbe essere dovuto al fatto che non sei loggato. Prova ad accedere e controlla di nuovo."
         },
         "jsNewChatInfo": "Questo è l'inizio di una nuova conversazione con Haadi. Hai scelto di abilitare il contesto per Haadi mentre rispondi alle tue domande. Puoi sempre disabilitare questa opzione nelle impostazioni o vedere cosa significa per te."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Com'è stata la tua esperienza finora?",
         "text": "<p>Ti piace la nuova app? C'è qualcosa che possiamo migliorare? Aiutaci con il tuo feedback per migliorare l'esperienza per te!</p><p>Ci vorrebbero solo pochi minuti e apprezziamo molto il tuo tempo!</p>",
         "cta": "Invia un feedback",
-        "dismiss": "Forse più tardi"
+        "dismiss": "Forse più tardi",
+        "altText": "Il tuo feedback ci aiuterà a migliorare l&#39;esperienza dell&#39;app per te e ci vorrà solo un minuto."
       },
       "advertise": {
         "heading": "Pubblicità su Bazm",
