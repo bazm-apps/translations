@@ -81,7 +81,8 @@
         "cancelCta": "Fråga mig senare",
         "okCta": "Säker!",
         "jsPushUnsupported": "Push stöds inte på den här enheten. Du kan missa aviseringar!"
-      }
+      },
+      "sending": "Sändning..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Denna information är endast synlig för dig och du ser innehåll och funktioner baserat på detta.",
           "idSetupCta": "Konfigurera din identitet",
           "idVerifyCta": "Kontrollera",
-          "joinDate": "Blev medlem: {date}"
+          "joinDate": "Blev medlem: {date}",
+          "idVerifyAltText": "Endast verifierade Shia momineen kan verifiera andra. Vänligen få ditt konto verifierat så att du kan verifiera <strong>{name}</strong> därefter.",
+          "idVerifyAltText2": "Om du redan har begärt någon kan du påminna dem igen med en ny länk, eller be more momineen om ett snabbare svar."
         },
         "posts": {
           "title": "Inlägg",
@@ -792,7 +795,8 @@
         "jsMailSent": "E-post skickad",
         "title2": "Gör anspråk på ditt konto",
         "claimIntroHeading": "Gör anspråk på ditt konto snabbt!",
-        "claimIntroText": "Tack för att du gick med oss. Vi har skapat ett konto åt dig nu. Få åtkomst till ditt konto genom att återställa lösenordet med någon av följande metoder:"
+        "claimIntroText": "Tack för att du gick med oss. Vi har skapat ett konto åt dig nu. Få åtkomst till ditt konto genom att återställa lösenordet med någon av följande metoder:",
+        "introText2": "Det är enkelt att återställa ditt lösenord. Ange din e-postadress och få länken för återställning av lösenord i din e-post."
       },
       "resetPwd": {
         "title": "Återställ lösenord",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Det gick inte att hitta den här konversationen",
           "p1": "Ett fel uppstod när du försökte få den här konversationen. Kontrollera webbadressen och försök igen.",
-          "p2": "Om detta fortsätter att hända, vänligen kontakta oss."
+          "p2": "Om detta fortsätter att hända, vänligen kontakta oss.",
+          "guest": "Det kan bero på att du inte är inloggad. Försök att logga in och kontrollera igen."
         },
         "jsNewChatInfo": "Detta är början på ett nytt samtal med Haadi. Du har valt att aktivera kontext för Haadi medan du svarar på dina frågor. Du kan alltid inaktivera det här alternativet i inställningarna eller se vad det betyder för dig."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Hur är din erfarenhet hittills?",
         "text": "<p>Gillar du den nya appen? Finns det något vi kan förbättra? Hjälp oss gärna med din feedback för att förbättra upplevelsen för dig!</p><p>Detta skulle ta bara några minuter, och vi uppskattar mycket din tid!</p>",
         "cta": "Ge respons",
-        "dismiss": "Kanske senare"
+        "dismiss": "Kanske senare",
+        "altText": "Din feedback hjälper oss att förbättra appupplevelsen för dig, och det tar bara en minut."
       },
       "advertise": {
         "heading": "Annonsera på Bazm",
