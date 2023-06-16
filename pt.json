@@ -303,7 +303,7 @@
             "subtext": "Preencha o formulário abaixo para calcular seus khums. Os campos opcionais são indicados. Clique no ícone de informações abaixo para saber mais sobre a seção.",
             "blog": "Relacionado: Leia nosso blog sobre <a href='{href}' target='_blank'>Como calcular khums com eficiência</a>",
             "dateRange": "Selecione o intervalo de datas:",
-            "dateRangeInfo": "Normalmente, as pessoas calculam khums para um ano financeiro (por exemplo, de abril a março) ou um ano civil (janeiro a dezembro)",
+            "dateRangeInfo": "Normalmente, as pessoas calculam khums para um ano fiscal (por exemplo, de abril a março) ou um ano civil (janeiro a dezembro)",
             "startDate": "Data de início:",
             "endDate": "Data final:",
             "savings": {
@@ -346,7 +346,7 @@
             },
             "js": {
               "remarks": {
-                "deleteHeader": "Excluir comentários?",
+                "deleteHeader": "Excluir observações?",
                 "deleteText": "Tem certeza de que deseja excluir as observações deste item?"
               },
               "choicePrompt": {
@@ -424,7 +424,7 @@
         },
         "posts": {
           "title": "Postagens",
-          "userNoPosts": "Quando você altera sua foto/imagem de capa, ou quando solicita uma surah-fatiha para seus entes queridos falecidos, essas postagens aparecerão aqui e na guia <b>Início</b> (de outras pessoas também). Tente adicionar uma foto ou imagem de capa?",
+          "userNoPosts": "Quando você altera sua foto/imagem de capa, ou quando solicita surah-fatiha para seus entes queridos falecidos, essas postagens aparecerão aqui e na guia <b>Início</b> (de outras pessoas também). Tente adicionar uma foto ou imagem de capa?",
           "profileNoPosts": "{name} ainda não fez nenhuma postagem."
         },
         "marhumeen": {
@@ -478,6 +478,7 @@
         }
       },
       "langPrompt": {
+        "title": "Usar aplicativo em {langLabel} ?",
         "desc": {
           "p1": "Parece que você está acessando o aplicativo de {countryName} . Gostaria de ver o conteúdo e os controles em um dos seguintes idiomas falados na região? Clique na sua escolha e, em seguida, clique em &#39;Salvar&#39; para continuar.",
           "p2": "Ou descarte este pop-up para continuar usando o aplicativo no idioma padrão."
@@ -486,7 +487,9 @@
           "useLang": [
             "Sim, use {langName}",
             "Usar {langName}"
-          ]
+          ],
+          "useEnglish": "Continuar em inglês",
+          "selectFrom": "Ou selecione um dos seguintes idiomas alternativos:"
         },
         "langError": "Ocorreu um erro ao carregar as traduções para {langName} . Por favor, tente novamente mais tarde."
       },
@@ -554,7 +557,7 @@
       },
       "post": {
         "addressYou": "Você",
-        "addressing": "seu | dele | ela",
+        "addressing": "seu | dele | dela",
         "itemTypes": {
           "avatar": "imagem de avatar",
           "banner": "imagem do banner",
