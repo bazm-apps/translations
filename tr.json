@@ -81,7 +81,8 @@
         "cancelCta": "Bana daha sonra sor",
         "okCta": "Emin!",
         "jsPushUnsupported": "Push bu cihazda desteklenmiyor. Bildirimleri kaçırabilirsiniz!"
-      }
+      },
+      "sending": "gönderiliyor..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Bu bilgiler yalnızca sizin tarafınızdan görülebilir ve buna dayalı içerik ve özellikleri görürsünüz.",
           "idSetupCta": "Kimliğinizi ayarlama",
           "idVerifyCta": "Doğrulamak",
-          "joinDate": "Katıldı: {date}"
+          "joinDate": "Katıldı: {date}",
+          "idVerifyAltText": "Yalnızca doğrulanmış Şii müminler başkalarını doğrulayabilir. Daha sonra <strong>{name}</strong> doğrulayabilmeniz için lütfen hesabınızı doğrulatın.",
+          "idVerifyAltText2": "Halihazırda birini talep ettiyseniz, yeni bir bağlantı ile tekrar hatırlatabilir veya daha hızlı yanıt vermesini isteyebilirsiniz."
         },
         "posts": {
           "title": "Mesaj",
@@ -792,7 +795,8 @@
         "jsMailSent": "Gönderilen postalar",
         "title2": "Hesabınızı üzerinize alma",
         "claimIntroHeading": "Hesabınızı hızlı bir şekilde talep edin!",
-        "claimIntroText": "Bize katıldığınız için teşekkür ederiz. Şimdi sizin için bir hesap oluşturduk. Aşağıdaki yöntemlerden birini kullanarak parolanızı sıfırlayarak hesabınıza erişin:"
+        "claimIntroText": "Bize katıldığınız için teşekkür ederiz. Şimdi sizin için bir hesap oluşturduk. Aşağıdaki yöntemlerden birini kullanarak parolanızı sıfırlayarak hesabınıza erişin:",
+        "introText2": "Parolanızı sıfırlamak kolaydır. E-postanızı girin ve e-postanıza şifre sıfırlama bağlantısı gelsin."
       },
       "resetPwd": {
         "title": "Şifreyi Sıfırla",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Bu konuşma bulunamadı",
           "p1": "Bu konuşmayı almaya çalışırken bir hata oluştu. Lütfen URL'yi kontrol edin ve tekrar deneyin.",
-          "p2": "Bu durum devam ederse, lütfen bizimle iletişime geçin."
+          "p2": "Bu durum devam ederse, lütfen bizimle iletişime geçin.",
+          "guest": "Bunun nedeni giriş yapmamış olmanız olabilir. Lütfen giriş yapmayı deneyin ve tekrar kontrol edin."
         },
         "jsNewChatInfo": "Bu, Haadi ile yeni bir konuşmanın başlangıcıdır. Sorularınızı yanıtlarken Haadi için bağlamı etkinleştirmeyi seçtiniz. Bu seçeneği istediğiniz zaman ayarlardan devre dışı bırakabilir veya bunun sizin için ne anlama geldiğini görebilirsiniz."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Şimdiye kadarki deneyiminiz nasıl?",
         "text": "<p>Yeni uygulamayı beğendiniz mi? Geliştirebileceğimiz bir şey var mı? Deneyimi sizin için geliştirmek için lütfen geri bildiriminizle bize yardımcı olun!</p><p>Bu sadece birkaç dakika sürer ve zaman ayırdığınız için teşekkür ederiz!</p>",
         "cta": "Geri bildirimde bulunun",
-        "dismiss": "Belki daha sonra"
+        "dismiss": "Belki daha sonra",
+        "altText": "Geri bildiriminiz, uygulama deneyimini sizin için iyileştirmemize yardımcı olacak ve yalnızca bir dakikanızı alacak."
       },
       "advertise": {
         "heading": "Bazm'da Reklam Verin",
