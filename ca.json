@@ -8,7 +8,7 @@
       "sendOtp": "Enviament OTP..",
       "dismiss": "Acomiadar",
       "invite": "Convidar",
-      "showMore": "Mostra'n més | Veure més",
+      "showMore": "Mostra més | Veure més",
       "play": "Jugar",
       "pause": "Aturar",
       "playing": "Jugant",
@@ -42,7 +42,7 @@
       "at": "a",
       "untilNextTime": "Cap problema. Fins a la propera!",
       "plzWait": "Si us plau espera..",
-      "saving": "Estalvi.. | Actualització..",
+      "saving": "S&#39;està desant.. | S&#39;està actualitzant...",
       "search": "Buscar",
       "late": "Tard",
       "done": "Fet",
@@ -58,8 +58,8 @@
         "uploading": "Carregar..",
         "deleting": "Suprimir..",
         "requesting": "Demanant..",
-        "audienceHeader": "Momineen que {action}d | Momineen que {action}d això",
-        "jsShareFileTypeError": "Ho sentim, no podeu compartir {fileType} fitxers aquí",
+        "audienceHeader": "Momineen que {action} d | Momineen qui {action} d això",
+        "jsShareFileTypeError": "Ho sentim, no podeu compartir fitxers {fileType} aquí",
         "jsUpdateAvailable": {
           "header": "Actualització disponible",
           "message": "Veieu la versió desada a la memòria cau de l'aplicació. Feu clic a \"Actualitza\" per actualitzar i carregar contingut i funcions nous.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "La càrrega d'imatges ha fallat. Torneu-ho a provar més tard.",
         "jsLoadingDelay": "Està trigant una mica més del previst. Espereu mentre processem aquesta sol·licitud."
       },
+      "sending": "S&#39;està enviant...",
       "close": "Tancar",
       "yes": "Sí",
       "no": "No",
@@ -81,8 +82,7 @@
         "cancelCta": "Pregunta-m'ho més tard",
         "okCta": "Segur!",
         "jsPushUnsupported": "Push no és compatible amb aquest dispositiu. És possible que et perdis les notificacions!"
-      },
-      "sending": "S&#39;està enviant..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "No s'ha pogut carregar el contingut en aquest moment. Torneu-ho a provar d'aquí a un temps.",
-        "itemDetailUnavailable": "No s'han pogut trobar detalls per a aquest {item}",
+        "itemDetailUnavailable": "No s&#39;han pogut trobar els detalls d&#39;aquest {item}",
         "loadMoreError": "No s'han pogut carregar més articles. Torneu-ho a provar més tard."
       },
       "url": {
@@ -152,7 +152,7 @@
           "wishCtaLabel": "DESITJAR"
         },
         "books": {
-          "booksByAuthor": "Llibres de {author}",
+          "booksByAuthor": "Llibres per {author}",
           "booksInLang": "Llibres en {lang}",
           "filterBy": "Filtrar per:",
           "matching": {
@@ -182,7 +182,7 @@
         "khumsLabel": "Calculadora Khums",
         "khumsDesc": "Calculeu els vostres khums o afegiu-hi khums pagats prèviament. Us ajuda amb el manteniment de registres dels vostres khums al llarg dels anys.",
         "alarms": {
-          "salatAlarms": "Alarmes Salat | Alarmes Salat diàries",
+          "salatAlarms": "Alarmes de salat | Alarmes de salat diàries",
           "sehriAlarms": "Alarmes Ramadà Sehri",
           "gettingLocation": "Obtenir la vostra ubicació. Si us plau espera...",
           "settingsTip": "Canvia la ubicació i les preferències a <b>la</b> configuració d'Alarma. Feu clic a la icona Configuració per començar.",
@@ -195,12 +195,12 @@
           "midnightLabel": "Mitjanit",
           "sehriEndTime": "Hora de la fi de Sehri",
           "minToImsak": [
-            "{min} minuts abans d'Imsak",
-            "{hour} hora abans d'Imsak"
+            "{min} minuts abans d&#39;Imsak",
+            "{hour} hora abans d&#39;Imsak"
           ],
           "minToImsakDesc": [
-            "Sona l'alarma {min} minuts abans del final de l'hora de Sehri",
-            "Sona l'alarma {hour} hora abans del final de l'hora de Sehri"
+            "L&#39;alarma sona {min} abans de la finalització de l&#39;hora de Sehri",
+            "L&#39;alarma sona {hour} hora abans de la finalització de l&#39;hora de Sehri"
           ],
           "notRamadan": "Sembla que encara no és el Ramadà. Si us plau, torneu durant o just abans del Ramadà per configurar les alarmes de Sehri",
           "push": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Bloc: Calcular khums de manera eficient",
-              "p1": "<a href='{href}' target='_blank'>Seguiu el nostre bloc</a> que destaca els elements clau en el càlcul de khums cada any.",
+              "p1": "<a href='{href}' target='_blank'>Segueix el nostre bloc</a> que destaca els elements clau en el càlcul de khums cada any.",
               "p2": "Exempció de responsabilitat: El bloc NO és una guia. <strong>Seguiu les regles del vostre Marjah per al càlcul de Khums</strong>. <span id='blog-info-link' color='primary'>Feu clic aquí</span> per obtenir més informació.",
               "blogInfo": "El bloc anterior es basa en articles de al-islam.org, sistani.org i les nostres discussions amb alguns altres estudiosos. Sempre heu de seguir les sentències del vostre Marjah per al càlcul de Khums.",
               "dismissCta": "No interessat"
@@ -283,7 +283,7 @@
             "mqmsInfo": "Muqammas per al següent càlcul",
             "calcHeader": "A partir del càlcul següent:",
             "savingsHeader": "Estalvi",
-            "conversionInfo": "Convertit a {amount} basat en el tipus de canvi de {xchgRate} a {xchgRateDate}",
+            "conversionInfo": "Convertit en {amount} basat en el tipus de canvi de {xchgRate} a {xchgRateDate}",
             "expensesHeader": "Despeses",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Muqammas anteriors",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Omple el següent formulari per calcular els teus khums. S'indiquen camps opcionals. Feu clic a la icona d'informació següent per obtenir més informació sobre la secció.",
-            "blog": "Relacionat: Llegiu el nostre bloc sobre <a href='{href}' target='_blank'>Com calcular khums de manera<a> eficient</a>",
+            "blog": "Relacionat: llegiu el nostre bloc sobre <a href='{href}' target='_blank'>Com calcular khums de manera eficient</a>",
             "dateRange": "Seleccioneu l'interval de dates:",
             "dateRangeInfo": "Normalment, la gent calcula khums per a un exercici financer (per exemple, d'abril a març) o un any natural (gener a desembre)",
             "startDate": "Data d'inici:",
@@ -337,7 +337,7 @@
               "header": "<strong>Ús dels tipus de canvi</strong>",
               "subtext": "Aquests tipus de canvi de divises s'utilitzaran per al càlcul. Podeu canviar-los per utilitzar valors personalitzats.",
               "info": "Quan es tracta de dades històriques, com ara quan afegiu càlculs per a khums de fa més d'un any, quan els tipus de canvi no eren els mateixos que avui, podeu establir valors personalitzats per als tipus de canvi vosaltres mateixos.",
-              "rateValuePH": "En {currency}, per exemple, 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "En {currency} , per exemple, 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Calcular",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "Usuari | Compte",
+        "name": "Compte d&#39;usuari",
         "editProfile": "Edita el perfil",
         "publishToFeed": "Publicar els meus canvis al feed",
         "shareUpdateToFeed": "Compartiu també aquesta actualització al meu feed",
         "statusText_ph": "Utilitzeu el format _cursiva_ o *negreta* per decorar el vostre estat",
-        "statusCharsLeft": "{count} personatges que queden",
+        "statusCharsLeft": "{count} els caràcters restants",
         "jsImgUploadSuccess": "Imatges pujades amb èxit!",
         "unauthAccess": {
           "heading": "Estàs segur que estàs al lloc adequat?",
@@ -409,18 +409,18 @@
           "title": "Sobre",
           "jsStatusUpdateFail": "No s'ha pogut actualitzar l'estat. Torneu-ho a provar més tard.",
           "statusTextInfo": "Afegeix alguna cosa breu sobre tu mateix, com ara, qui ets o què fas!",
-          "statusCta": "Afegeix estat | Estat d'actualització",
+          "statusCta": "Afegeix l&#39;estat | Actualitza l&#39;estat",
           "addCity": "Afegir Ciutat",
-          "gender": "Masculí | Femení",
+          "gender": "Mascle femella",
           "addGender": "Afegeix sexe",
           "addBday": "Afegeix un aniversari",
           "addRelation": "Afegir relació",
           "privateInfoDesc": "Aquesta informació només és visible per a vosaltres i veieu contingut i funcions basats en això.",
           "idSetupCta": "Configura la teva identitat",
           "idVerifyCta": "Verificar",
-          "joinDate": "Any d'incorporació: {date}",
           "idVerifyAltText": "Només els momineen xiïtes verificats poden verificar-ne altres. Si us plau, verifiqueu el vostre compte per poder verificar <strong>{name}</strong> després.",
-          "idVerifyAltText2": "Si ja heu sol·licitat algú, podeu tornar-li a recordar amb un enllaç nou o demanar a més momineen una resposta més ràpida."
+          "idVerifyAltText2": "Si ja heu sol·licitat algú, podeu tornar-li a recordar amb un enllaç nou o demanar a més momineen una resposta més ràpida.",
+          "joinDate": "Incorporació: {date}"
         },
         "posts": {
           "title": "Llocs",
@@ -430,11 +430,11 @@
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} encara no ha afegit marhumeen | Encara no hi has afegit marhumeen",
-            "marhumeenAdded": "{name} ha afegit el següent marhumeen | Has afegit el següent marhumeen"
+            "marhumeenNotAdded": "{name} encara no ha afegit Marhumeen | Encara no has afegit Marhumeen",
+            "marhumeenAdded": "{name} ha afegit seguint a marhumeen | Heu afegit seguint a marhumeen"
           },
           "jsDeleteHeader": "Estàs segur?",
-          "jsDeletePrompt": "Si suprimiu registres de <b>{fullName}</b> també s'eliminaran totes les sol·licituds anteriors fetes per a {gender}. Continuar?",
+          "jsDeletePrompt": "Si suprimiu els registres de <b>{fullName}</b> , també se suprimiran totes les sol·licituds anteriors de {gender} ! Continuar?",
           "jsDeleted": "Registres suprimits de {marhumeen}"
         },
         "verifyCard": {
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Aquest enllaç no és vàlid o ha caducat. Si us plau, demaneu al vostre amic que enviï una nova sol·licitud.",
           "confirm": {
             "heading": "Verificar la identitat del compte",
-            "msg": "Ajudeu {firstName} obtenir {genderLabel1} informació del compte verificada. Això {genderLabel2} permetrà accedir a més funcions de la nostra aplicació",
+            "msg": "Ajuda {firstName} a verificar la informació del compte {genderLabel1} . Això permetrà {genderLabel2} accedir a més funcions de la nostra aplicació",
             "jsSkip": "Cap problema. Si canvieu d'opinió, podeu tornar a visitar aquest enllaç per verificar-ho més endavant."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Utilitzeu l'aplicació a {langLabel}?",
+        "title": "Utilitzeu l&#39;aplicació a {langLabel} ?",
         "desc": {
-          "p1": "Sembla que accediu a l'aplicació des de {countryName}. Voleu veure el contingut i els controls en un dels idiomes següents que es parlen a la regió? Feu clic a la vostra elecció i, a continuació, feu clic a \"Desa\" per continuar.",
+          "p1": "Sembla que esteu accedint a l&#39;aplicació des de {countryName} . T&#39;agradaria veure contingut i controls en un dels idiomes següents que es parla a la regió? Feu clic a la vostra elecció i després feu clic a &quot;Desa&quot; per continuar.",
           "p2": "O bé, ignoreu aquesta finestra emergent per continuar utilitzant l'aplicació en l'idioma predeterminat."
         },
         "choices": {
           "useLang": [
             "Sí, utilitzeu {langName}",
-            "Utilitzeu {langName}"
+            "Utilitza {langName}"
           ],
           "useEnglish": "Continuar en anglès",
           "selectFrom": "O bé, seleccioneu un dels idiomes alternatius següents:"
         },
-        "langError": "S'ha produït un error en carregar les traduccions per a {langName}. Torneu-ho a provar més tard."
+        "langError": "S&#39;ha produït un error en carregar les traduccions de {langName} . Siusplau, intenta-ho més tard."
       },
       "createPost": {
         "heading": "De què va avui?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "Crea una publicació | Actualitza la publicació",
+            "post": "Crea publicació | Actualitza publicació",
             "livestream": "Reproducció en directe",
-            "hadiyah": "Crea Hadiyah | Actualitza Hadiyah"
+            "hadiyah": "Crea regal | Actualitza regal"
           },
-          "postCta": "Publicar | Actualitzar",
+          "postCta": "Publicació | Actualització",
           "stream": {
-            "scheduleCta": "Desa per més tard | Inicia la reproducció en temps real"
+            "scheduleCta": "Desa per a més tard | Comença a reproduir"
           },
           "hadiya": {
             "dedication": {
@@ -534,7 +534,7 @@
           "addLocation": "Afegeix una ubicació",
           "addPics": "Afegir imatges a la publicació",
           "previewDes": "Així és com apareixeria la vostra publicació al feed d'altres persones. La gent pot tocar el vídeo per veure'l a pantalla completa.",
-          "addToPost": "Afegir a {postType} (opcional)",
+          "addToPost": "Afegeix a {postType} (opcional)",
           "jsImgUploadFail": "La imatge no s'ha carregat",
           "jsAddDetailToPost": "Afegiu detalls a la vostra publicació",
           "jsValidEndDate": "Si us plau, tria una data de finalització vàlida",
@@ -549,7 +549,7 @@
       },
       "comments": {
         "name": "Comentaris",
-        "loadPrevious": "Carregar comentaris anteriors | Carregar respostes anteriors",
+        "loadPrevious": "Carrega comentaris anteriors | Carrega respostes anteriors",
         "replyingTo": "Responent a:",
         "noComments": "Encara no hi ha comentaris sobre aquest post",
         "textboxPlaceholder": "Escriu el teu comentari aquí",
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "Tu",
-        "addressing": "la seva | la seva | ella",
+        "addressing": "la teva | la seva | ella",
         "itemTypes": {
           "avatar": "Imatge de l'avatar",
           "banner": "Imatge del bàner",
           "status": "Estat del perfil"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> actualitzat {addressing} {item}",
+          "common": "{item} {addressing} actualitzat <strong>{username}</strong>",
           "fatiha": [
-            "<strong>{username}</strong> va demanar surah-fatiha per {addressing} {relation}",
-            "<strong>{username}</strong> va sol·licitar Surah-Fatiha i Namaz-e-Wahshat per {addressing} {relation}"
+            "<strong>{username}</strong> sol·licitat surah-fatiha per a {relation} {addressing}",
+            "<strong>{username}</strong> sol·licitat surah-fatiha i namaz-e-wahshat per {addressing} {relation}"
           ]
         },
-        "dateUntil": "Fins: {date} a {time}",
+        "dateUntil": "Fins: {date} a l&#39; {time}",
         "privatePost": "Aquesta publicació només és visible per a tu",
-        "descZiyaratRequest": "Heu sol·licitat que Ziyarat es representés en nom vostre a *haram* de l'imam Husain (a.s.) el *{date}*"
+        "descZiyaratRequest": "Vau sol·licitar que es realitzés Ziyarat en nom vostre a *haram* de l&#39;imam Husain (as) el * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "Va morir:",
         "addMsg": "Vols afegir un missatge?",
         "addMsg_ph": "Per exemple:\nInna lillahi wa inna ilaihe raje'un. Si us plau, reciteu un surah-e-fatiha i 2-rak'at namaz-e-wahshat per al meu oncle, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, que ens va deixar a tots plorant enrere per trobar-nos amb el seu creador.",
-        "remainingChars": "Personatges: {count} | Personatges: {count} resta",
-        "infoEditRelative": "Podeu editar els detalls de {name} a la secció <b>Compte > Marhumeen</b>",
+        "remainingChars": "Caràcters: {count} | Caràcters: {count} restants",
+        "infoEditRelative": "Podeu editar els detalls del {name} a la secció <b>Compte &gt; Marhumeen</b>",
         "saveRequestCta": [
           "Desa i sol·licita",
           "Demanar"
@@ -675,7 +675,7 @@
         "setLocation": "Definir ubicació",
         "ipAddress": "Adreça IP",
         "alarmLocation": "Ubicació de l'alarma",
-        "basedOn": "Ubicació segons el teu {selector}",
+        "basedOn": "Ubicació segons el vostre {selector}",
         "jsDetecting": "Detectant, si us plau esperi..",
         "jsPermDenied": "S'ha denegat el permís d'ubicació per a l'aplicació. Restableix la preferència d'ubicació d'aquesta aplicació visitant la secció Configuració del telèfon.",
         "jsPosUnavailable": "Ho sentim, però la posició no està disponible per a aquest telèfon ara mateix. Torneu-ho a provar més tard.",
@@ -724,17 +724,17 @@
           "viaSignal": "Obtenir a través del senyal"
         },
         "page2": {
-          "header": "Hem enviat un codi de confirmació de 6 dígits al teu número ({number})",
+          "header": "Hem enviat un codi de confirmació de 6 dígits al teu número ( {number} )",
           "enterCodeLabel": "Introduïu el codi",
           "enterCode_ph": "Introdueix el codi de 6 dígits",
           "resendCode": "Reenvia el codi",
-          "notUsingMobile": "No utilitzeu <strong>{number}?</strong>",
+          "notUsingMobile": "No utilitzeu <strong>{number} ?</strong>",
           "changeNumber": "Canviar número"
         },
         "jsVerifySuccess": "Mòbil verificat correctament",
         "jsVerifyError": "S'ha produït un error. Torneu-ho a provar més tard.",
         "jsSendOtpFailed": "No s'ha pogut enviar OTP. Torneu-ho a provar més tard.",
-        "jsSendOtpSuccess": "OTP enviat a {mobile}",
+        "jsSendOtpSuccess": "OTP enviat al {mobile}",
         "jsTooManyRequests": "Sembla que ja ho has intentat massa vegades. Espereu un minut o dos i torneu-ho a provar."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "Quan es comparteixen externament, és possible que els missatges tinguin aquest aspecte:",
           "sharingTextDemo": [
             "Escolta aquesta Nauha a l'aplicació Bazm",
-            "{name} recomana escoltar aquesta aplicació de Nauha a Bazm"
+            "{name} recomana escoltar aquesta Nauha a l&#39;aplicació Bazm"
           ],
           "addSignDesc": "Voleu afegir també la vostra signatura?",
-          "addSignPlaceholder": "Per exemple\nAmb els millors desitjos,\n{name}",
+          "addSignPlaceholder": "Per exemple, Amb els millors desitjos, {name}",
           "signDesc": "Quan compartiu el vostre desig amb amics en aquesta aplicació, la vostra signatura s'afegirà als missatges. Per exemple, pot aparèixer de la manera següent:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "La contrasenya té caràcters no vàlids.",
         "jsPwdCharCount": "La contrasenya no pot tenir menys de 8 caràcters.",
         "jsSelectLang": "Seleccioneu primer un idioma.",
-        "jsLangSet": "El llenguatge s'ha posat en {lang}",
+        "jsLangSet": "L&#39;idioma s&#39;ha configurat com a {lang}",
         "jsPrefSaved": "S'ha desat la configuració de personalització."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "Restablir la contrasenya és fàcil. Seleccioneu un mètode per continuar:",
         "usePhoneCta": "Utilitzar el telèfon",
         "useEmailCta": "Utilitzar el correu electrònic",
-        "sendEmailIntro": "Introduïu l'adreça electrònica amb què vau crear el compte i us enviarem un correu electrònic amb un enllaç per configurar una contrasenya nova per al compte.",
+        "sendEmailIntro": "Introduïu l&#39;adreça electrònica amb la qual vau crear el vostre compte i us enviarem un correu electrònic amb un enllaç per configurar una nova contrasenya per al vostre compte. | Heu d&#39;afegir una adreça de correu electrònic per iniciar sessió al vostre compte. Enviarem un enllaç de restabliment de la contrasenya a aquest correu electrònic i des d&#39;allà, podeu crear una contrasenya per al vostre compte associat al vostre número de mòbil.",
         "emailInputLabel": "El teu correu electrònic registrat",
         "sendEmailCta": "Envia el restabliment del correu electrònic",
-        "sentEmailText": "Si teniu un compte amb nosaltres, rebreu un correu electrònic de restabliment de contrasenya en breu a <strong>{email}</strong>. Si us plau, comproveu el vostre correu electrònic per obtenir l'enllaç.",
-        "notUsingEmailText": "No utilitzeu <strong>{email}?</strong>",
+        "sentEmailText": "Si teniu un compte amb nosaltres, rebreu un correu electrònic de restabliment de la contrasenya aviat al <strong>{email}</strong> . Si us plau, comproveu l&#39;enllaç al vostre correu electrònic.",
+        "notUsingEmailText": "No utilitzeu <strong>{email} ?</strong>",
         "changeEmailCta": "Canvia el correu electrònic",
         "phoneIntroText": "Introduïu el número de telèfon afegit al compte. T'enviarem una OTP per verificar la teva propietat i, en el pas següent, podràs crear una contrasenya nova.",
         "phoneInputLabel": "El teu número de mòbil",
         "sendOtpCta": "Enviar OTP",
         "backToLoginCta": "Tornar a l'inici de sessió",
-        "disclaimerText": "Tingues en compte que només obtindràs un {item} si tens el {item} registrat amb nosaltres",
+        "disclaimerText": "Tingueu en compte que només rebreu un {item} si {item} teniu registrat amb nosaltres",
         "jsMailSent": "Correu enviat",
         "title2": "Reclama el teu compte",
+        "introText2": "Restablir la contrasenya és fàcil. Introduïu el vostre correu electrònic i obteniu l&#39;enllaç de restabliment de la contrasenya al vostre correu electrònic.",
         "claimIntroHeading": "Reclama el teu compte ràpidament!",
-        "claimIntroText": "Gràcies per acompanyar-nos. Ara t'hem creat un compte. Per accedir al compte, restabliu la contrasenya mitjançant un dels mètodes següents:",
-        "introText2": "Restablir la contrasenya és fàcil. Introduïu el vostre correu electrònic i obteniu l&#39;enllaç de restabliment de la contrasenya al vostre correu electrònic."
+        "claimIntroText": "Gràcies per acompanyar-nos. Obteniu accés al vostre compte afegint un correu electrònic al vostre compte."
       },
       "resetPwd": {
         "title": "Restableix la contrasenya",
-        "introText": "Establiu una contrasenya segura per al vostre compte aquí. Feu clic a {icon} per assegurar-vos que introduïu la contrasenya correcta.",
+        "introText": "Establiu una contrasenya segura per al vostre compte aquí. Feu clic a {icon} per assegurar-vos que esteu introduint la contrasenya correcta.",
         "pwdInputLabel": "Definir una contrasenya nova",
         "pwdInputPH": "Introduïu una contrasenya nova",
         "invalidPwdChars": "Caràcters no vàlids a la contrasenya",
@@ -810,13 +810,13 @@
         "jsTrackLoadFailed": "No s'ha pogut carregar la pista. Torneu-ho a provar més tard."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} s'ha suprimit correctament.",
+        "jsItemDeleted": "{item} suprimit correctament.",
         "jsErrReporting": "No es pot informar d'això en aquest moment. Torneu-ho a provar més tard.",
-        "jsAlreadyReported": "Ja ho has informat {item}. No es pot denunciar més d'una vegada.",
+        "jsAlreadyReported": "Ja has informat d&#39;aquest {item} . No pots denunciar-ho més d&#39;una vegada.",
         "jsPromptHeading": "Informar d'un element fa que hi hagi menys possibilitats d'aparèixer al feed o a les pàgines d'altres persones. Encara vols denunciar-ho?",
-        "jsReporting": "Informar {itemType}..",
+        "jsReporting": "{itemType} d&#39;informe ..",
         "jsReportingErr": "No s'ha pogut presentar la seva sol·licitud en aquest moment. Torneu-ho a provar més tard.",
-        "jsReported": "{item} denunciar. Gràcies per la teva aportació."
+        "jsReported": "{item} informat. Gràcies per la teva aportació."
       },
       "editProfileModal": {
         "jsEmptyData": "Res a actualitzar!",
@@ -1009,18 +1009,18 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Verificar el compte de {name}",
-        "heading": "Podeu respondre a continuació informació sobre {firstName}? Si no és així, rebutgeu aquesta sol·licitud.",
+        "title": "Verifiqueu {name} del compte",
+        "heading": "Pots respondre la informació següent sobre {firstName} ? Si no, rebutja aquesta sol·licitud.",
         "desc": "Només tens dos intents de verificar!",
-        "descP1": "Quan envieu aquest formulari, compararem la informació amb el que {firstName} proporcionat en sol·licitar la verificació. Si us plau, presta atenció perquè només tens dos intents d'omplir correctament aquest formulari. Si continueu fallant, no podreu tornar a verificar {firstName} més endavant.",
-        "descP2": "Si no sabeu {firstName}, rebutgeu aquesta sol·licitud. Els avisarem i els demanarem que contactin amb una altra persona.",
+        "descP1": "Quan envieu aquest formulari, relacionarem la informació amb {firstName} que ha proporcionat quan sol·liciteu la verificació. Si us plau, presteu atenció perquè només teniu dos intents per omplir aquest formulari correctament. Si encara falla, no podreu tornar a verificar {firstName} en el futur.",
+        "descP2": "Si no coneixeu {firstName} , rebutgeu aquesta sol·licitud. Els avisarem i els demanarem que es posin en contacte amb una altra persona.",
         "rejectRequestCta": "Rebutjar sol·licitud",
         "form": {
-          "heading": "Responeu a les preguntes següents sobre {firstName} i feu clic a Envia:",
-          "q1": "Com saps {firstName}?",
+          "heading": "Contesteu les preguntes següents sobre {firstName} i feu clic a Envia:",
+          "q1": "Com saps {firstName} ?",
           "q2": "Religió:",
           "q3": "Secta:",
-          "q4": "És {firstName} Sadat?",
+          "q4": "El {firstName} és Sadat?",
           "q5": "Alguna cosa més que vulgueu afegir?"
         }
       },
@@ -1073,13 +1073,13 @@
         "cta": "Refusar",
         "title": "Rebutjar sol·licitud",
         "reasonLabel": "Per què no voleu verificar aquest compte?",
-        "reasonPh": "Ho farem saber {userName} i els demanarem que es posin en contacte amb una altra persona per verificar-la"
+        "reasonPh": "L&#39;informarem a {userName} i li demanarem que es posin en contacte amb una altra persona per a la verificació"
       },
       "haadiHome": {
         "title": "Inicieu la discussió | Les vostres discussions amb Haadi",
         "item": {
-          "added": "Afegit {date}",
-          "tokensUsed": "Fitxes utilitzades: {tokens}",
+          "added": "{date} afegida",
+          "tokensUsed": "Crèdits utilitzats: {tokens}",
           "readContinue": "Llegir o continuar la discussió"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Fes una pregunta",
         "empty": {
           "heading": "No he pogut trobar aquesta conversa",
-          "p1": "S'ha produït un error en intentar obtenir aquesta conversa. Comproveu l'URL i torneu-ho a provar.",
-          "p2": "Si això continua passant, poseu-vos en contacte amb nosaltres.",
-          "guest": "Això podria ser perquè no heu iniciat la sessió. Si us plau, proveu d&#39;iniciar sessió i comprovar-ho de nou."
+          "p1": "No hem pogut trobar aquesta conversa. Comproveu l&#39;URL i torneu-ho a provar.",
+          "guest": "Això podria ser perquè no heu iniciat la sessió. Si us plau, proveu d&#39;iniciar sessió i comprovar-ho de nou.",
+          "p2": "Si això continua passant, poseu-vos en contacte amb nosaltres."
         },
         "jsNewChatInfo": "Aquest és l'inici d'una nova conversa amb Haadi. Heu triat habilitar el context per a Haadi mentre responeu a les vostres preguntes. Sempre podeu desactivar aquesta opció a la configuració o veure què significa això per a vosaltres."
       },
       "aboutHaadi": {
-        "title": "Coneix Haadi, el teu amic bot per navegar per l'islam xiïta!",
-        "desc": "Feu clic a cadascun d'aquests resums per obtenir més informació o trobeu més informació sobre Haadi i les condicions d'ús al <a href={blogLink} target='_system'>our blog",
+        "title": "Coneix en Haadi, el teu <strong>amic bot</strong> per navegar per l&#39;islam xiïta!",
+        "desc": "Us recomanem que reviseu aquests resums abans de començar a utilitzar Haadi. Podeu trobar més informació sobre Haadi i les condicions d&#39;ús a <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Entenc i estic d'acord amb les Condicions d'ús"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "Si us plau, introdueix la teva contrasenya!",
         "jsEnterValidPwd": [
           "La contrasenya té caràcters no vàlids. Si us plau, introdueix una contrasenya vàlida.",
-          "La contrasenya ha de tenir com a mínim {num} caràcters."
+          "La contrasenya ha de tenir com a mínim {num} de caràcters."
         ],
         "jsAccountSuccess": "Compte creat correctament",
         "jsFbError": "No s'han pogut obtenir les dades del vostre compte de Facebook. Torneu-ho a provar.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Instal·lar Bazm { platform }",
-          "desc": "Descarrega't la nostra aplicació per a Android per a una millor experiència, contingut personalitzat, notificacions i tot el que t'interessi del teu voltant! | Instal·leu la drecera de l'aplicació (adreça d'interès) per accedir-hi directament des de la pantalla d'inici la propera vegada per obtenir una millor experiència. Amb prou feines ocupa espai al dispositiu, però t'ajuda a tornar a l'aplicació ràpidament.",
+          "heading": "Afegeix una drecera de Bazm",
+          "desc": "Baixeu la nostra aplicació per a Android per obtenir una millor experiència, contingut personalitzat, notificacions i tot el que us interessa! | Instal·leu la drecera de l&#39;aplicació (marcador) per accedir-hi directament des de la pantalla d&#39;inici la propera vegada per obtenir una millor experiència! Amb prou feines ocupa espai al dispositiu, però us ajuda a tornar a l&#39;aplicació ràpidament.",
           "cta": {
             "action": "Instal·lar",
             "skip": "Tal vegada més tard"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Instal·leu la drecera de Bazm?"
         },
-        "popover": {
-          "text": "Feu clic a la icona Comparteix (sembla una a la dreta) <strong>A SOTA</strong> i, a continuació, feu clic a <strong>Afegeix a la pantalla d'inici</strong>. Feu clic a \"Desa\" per acabar i, a continuació, podeu accedir a l'aplicació des de la drecera de la pantalla d'inici."
-        },
         "nonSafari": {
-          "heading": "Bazm funciona millor en Apple Safari",
+          "heading": "Bazm funciona millor a Safari",
           "desc": "Aquest navegador té funcions limitades, mentre que el navegador Safari permet que la nostra aplicació funcioni millor, incloses les notificacions automàtiques i la drecera de l'aplicació.",
-          "subtext": "<strong>Obriu l'aplicació Safari</strong> al telèfon i aneu a <strong>{url}</strong> per obtenir una experiència millor.",
+          "subtext": "<strong>Obriu el navegador Safari</strong> i aneu a <strong>{url}</strong> per obtenir una millor experiència.",
           "skipCta": "Continueu aquí en lloc"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Sobre l'emmagatzematge de cookies al dispositiu",
-        "p1": "No emmagatzemem cap cookie al vostre {device} però sí les aplicacions de tercers utilitzades a la nostra aplicació (com ara Google Analytics). En lloc d'això, utilitzem l'emmagatzematge permanent per emmagatzemar qualsevol dada important i, en la majoria dels casos, es xifra durant l'emmagatzematge i durant la transferència.",
+        "p1": "No emmagatzemem cap cookie al vostre {device} , però sí que les aplicacions de tercers que s&#39;utilitzen a la nostra aplicació (com ara Google Analytics). En comptes d&#39;això, utilitzem l&#39;emmagatzematge permanent per emmagatzemar qualsevol dada important i, en la majoria dels casos, es xifra a l&#39;emmagatzematge i durant la transferència.",
         "p2": "Si continueu utilitzant aquesta aplicació, confirmeu que no teniu cap problema amb les nostres opcions. Per obtenir més informació sobre les nostres cookies i l'ús de dades, consulteu la nostra <a href='https://bazm.in/privacy-policy' target='_blank'>Política de privadesa.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - App de xarxes socials per a musulmans xiïtes de tot el món! Descarregueu l'aplicació avui mateix.",
+      "titleBranding": "__ Bazm - Aplicació de xarxes socials per a musulmans xiïtes de tot el món!",
       "home": {
         "title": "Bazm: aplicació de la comunitat xiïta en línia!",
         "description": "L'aplicació Bazm és l'aplicació de la comunitat xiïta que satisfà totes les vostres necessitats diàries de deen & mazhab. Troba Nauhe, Majalis, Dua, Aamaal, Ziyarat, Llibres, etc. per a totes les dates i ocasions. Mireu i feu esdeveniments en directe i majalis amb musulmans xiïtes de tot el món des de la comoditat de casa vostra. Uneix-te avui!"
       },
       "feed": {
-        "title": "Trobeu contingut personalitzat i compartiu-lo amb la comunitat xiïta del vostre entorn i del món",
+        "title": "Bazm — Troba i comparteix contingut personalitzat de musulmans xiïtes de tot el món!",
         "description": "Cerqueu i compartiu notícies, esdeveniments i contingut amb Shia Momineen i manteniu-los informats sobre qualsevol esdeveniment que allotgeu. Obtén informació sobre qualsevol cosa que passi a prop teu a l'aplicació."
       },
       "mediaHome": {
@@ -1259,7 +1256,7 @@
       },
       "duasPage": {
         "title": [
-          "Duas i aamaal per al mes de {month} a Bazm - Trobeu més nauhe, àudio / vídeo majalis, dua, ziyarat, aamaal, etc. a Bazm",
+          "Duas i aamaal per al mes del {month} a Bazm - Trobeu més nauhe, àudio/vídeo majalis, dua, piyarat, aamaal, etc. a Bazm",
           "Duas i aamaal per a tots els mesos a Bazm - Trobeu més nauhe, àudio / vídeo majalis, dua, ziyarat, aamaal, etc. a Bazm"
         ],
         "description": "Trobeu duas, aamaal, ziyarat i munajat per a tots els mesos a Bazm, data i esdeveniment sàvis. Descarregueu l'aplicació avui mateix i uniu-vos a milions de musulmans xiïtes de tot el món."
