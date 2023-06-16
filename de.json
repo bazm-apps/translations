@@ -81,7 +81,8 @@
         "cancelCta": "Fragen Sie mich später",
         "okCta": "Sicher!",
         "jsPushUnsupported": "Push wird auf diesem Gerät nicht unterstützt. Möglicherweise verpassen Sie Benachrichtigungen!"
-      }
+      },
+      "sending": "Senden..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Diese Informationen sind nur für Sie sichtbar und Sie sehen Inhalte und Funktionen, die darauf basieren.",
           "idSetupCta": "Richten Sie Ihre Identität ein",
           "idVerifyCta": "Überprüfen",
-          "joinDate": "Beigetreten: {date}"
+          "joinDate": "Beigetreten: {date}",
+          "idVerifyAltText": "Nur verifizierte schiitische Momineen können andere verifizieren. Bitte lassen Sie Ihr Konto verifizieren, damit Sie anschließend <strong>{name}</strong> bestätigen können.",
+          "idVerifyAltText2": "Wenn Sie bereits jemanden angefragt haben, können Sie ihn mit einem neuen Link erneut daran erinnern oder weitere Momineen um eine schnellere Antwort bitten."
         },
         "posts": {
           "title": "Beiträge",
@@ -792,7 +795,8 @@
         "jsMailSent": "Gesendete E-Mail",
         "title2": "Beanspruchen Sie Ihr Konto",
         "claimIntroHeading": "Beanspruchen Sie Ihr Konto schnell!",
-        "claimIntroText": "Vielen Dank, dass Sie sich uns angeschlossen haben. Wir haben jetzt ein Konto für Sie erstellt. Erhalten Sie Zugriff auf Ihr Konto, indem Sie das Passwort mit einer der folgenden Methoden zurücksetzen:"
+        "claimIntroText": "Vielen Dank, dass Sie sich uns angeschlossen haben. Wir haben jetzt ein Konto für Sie erstellt. Erhalten Sie Zugriff auf Ihr Konto, indem Sie das Passwort mit einer der folgenden Methoden zurücksetzen:",
+        "introText2": "Das Zurücksetzen Ihres Passworts ist einfach. Geben Sie Ihre E-Mail-Adresse ein und Sie erhalten den Link zum Zurücksetzen des Passworts per E-Mail."
       },
       "resetPwd": {
         "title": "Passwort zurücksetzen",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Diese Konversation konnte nicht gefunden werden",
           "p1": "Beim Versuch, diese Konversation abzurufen, ist ein Fehler aufgetreten. Bitte überprüfen Sie die URL und versuchen Sie es erneut.",
-          "p2": "Wenn dies weiterhin der Fall ist, kontaktieren Sie uns bitte."
+          "p2": "Wenn dies weiterhin der Fall ist, kontaktieren Sie uns bitte.",
+          "guest": "Dies könnte daran liegen, dass Sie nicht angemeldet sind. Bitte versuchen Sie, sich anzumelden und überprüfen Sie es erneut."
         },
         "jsNewChatInfo": "Dies ist der Beginn eines neuen Gesprächs mit Haadi. Sie haben sich dafür entschieden, den Kontext für Haadi zu aktivieren, während Sie Ihre Fragen beantworten. Sie können diese Option jederzeit in den Einstellungen deaktivieren oder sehen, was dies für Sie bedeutet."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Wie sind Ihre bisherigen Erfahrungen?",
         "text": "<p>Gefällt Ihnen die neue App? Gibt es etwas, das wir verbessern können? Bitte helfen Sie uns mit Ihrem Feedback, um das Erlebnis für Sie zu verbessern!</p><p>Dies würde nur wenige Minuten dauern, und wir wissen Ihre Zeit sehr zu schätzen!</p>",
         "cta": "Feedback geben",
-        "dismiss": "Vielleicht später"
+        "dismiss": "Vielleicht später",
+        "altText": "Ihr Feedback hilft uns, das App-Erlebnis für Sie zu verbessern, und es dauert nur eine Minute."
       },
       "advertise": {
         "heading": "Werben Sie auf Bazm",
