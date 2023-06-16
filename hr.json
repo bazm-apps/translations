@@ -8,7 +8,7 @@
       "sendOtp": "Slanje OTP..",
       "dismiss": "Odbaciti",
       "invite": "Pozvati",
-      "showMore": "Pokaži više | Vidi više",
+      "showMore": "Prikaži više | Vidi više",
       "play": "Igrati",
       "pause": "Pauzirano",
       "playing": "Igranje",
@@ -42,7 +42,7 @@
       "at": "u",
       "untilNextTime": "Nema frke. Do sljedećeg puta!",
       "plzWait": "Molim te čekaj..",
-      "saving": "Ušteda.. | Ažuriranje..",
+      "saving": "Spremanje.. | Ažuriranje..",
       "search": "Pretraživanje",
       "late": "Kasno",
       "done": "Učinjeno",
@@ -58,8 +58,8 @@
         "uploading": "Upload..",
         "deleting": "Brisanje..",
         "requesting": "Traži..",
-        "audienceHeader": "Momineen koji je {action}d — Momineen koji je {action}d ovo",
-        "jsShareFileTypeError": "Nažalost, ovdje ne možete zajednički koristiti {fileType} datoteke",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
+        "jsShareFileTypeError": "Nažalost, ovdje ne možete dijeliti {fileType} datoteke",
         "jsUpdateAvailable": {
           "header": "Dostupno ažuriranje",
           "message": "Prikazuje se predmemorirana verzija aplikacije. Kliknite \"Osvježi\" da biste ažurirali i učitali novi sadržaj i značajke.",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Prijenos slike nije uspio. Pokušajte ponovo kasnije.",
         "jsLoadingDelay": "To traje malo duže nego što se očekivalo. Pričekajte dok ne obradimo ovaj zahtjev."
       },
+      "sending": "Slanje...",
       "close": "Blizak",
       "yes": "Da",
       "no": "Ne",
@@ -81,8 +82,7 @@
         "cancelCta": "Pitaj me kasnije",
         "okCta": "Siguran!",
         "jsPushUnsupported": "Guranje nije podržano na ovom uređaju. Možda ćete propustiti obavijesti!"
-      },
-      "sending": "Slanje..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Trenutno nije moguće učitati sadržaj. Molim vas, pokušajte ponovo za neko vrijeme.",
-        "itemDetailUnavailable": "Nije moguće pronaći detalje za ovaj {item}",
+        "itemDetailUnavailable": "Nije moguće pronaći pojedinosti za ovu {item}",
         "loadMoreError": "Učitavanje više stavki nije uspjelo. Pokušajte ponovo kasnije."
       },
       "url": {
@@ -153,7 +153,7 @@
         },
         "books": {
           "booksByAuthor": "Knjige po {author}",
-          "booksInLang": "Knjige u {lang}",
+          "booksInLang": "Knjige na {lang}",
           "filterBy": "Filtriraj po:",
           "matching": {
             "authors": "s podudaranjem autora",
@@ -167,7 +167,7 @@
           "selectLang": "Odaberite jezik:"
         },
         "bookDetails": {
-          "title": "{title} — Pronađite više besplatnih knjiga poput ove na Bazmu",
+          "title": "{title} — Pronađite više ovakvih besplatnih knjiga na Bazmu",
           "aboutBook": "O knjizi:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Khums kalkulator",
         "khumsDesc": "Izračunajte svoje khums ili dodajte bilo koji prethodno plaćeni khums. Pomaže vam u vođenju evidencije vaših khuma tijekom godina.",
         "alarms": {
-          "salatAlarms": "Salat alarmi | Dnevni salonski alarmi",
+          "salatAlarms": "Salat Alarms | Dnevni salat alarmi",
           "sehriAlarms": "Ramadan Sehri alarmi",
           "gettingLocation": "Uzimajući svoju lokaciju. Molim te čekaj...",
           "settingsTip": "<b>Promijenite mjesto</b> i preference u postavkama alarma. Kliknite ikonu Postavke da biste pokrenuli.",
@@ -195,8 +195,8 @@
           "midnightLabel": "Ponoć",
           "sehriEndTime": "Vrijeme je za kraj Sehrija",
           "minToImsak": [
-            "{min} minuta prije Imsaka",
-            "{hour} sat prije Imsaka"
+            "{min} min prije Imsak",
+            "{hour} sat prije Imsak"
           ],
           "minToImsakDesc": [
             "Alarm zvoni {min} minuta prije kraja Sehri vremena",
@@ -283,7 +283,7 @@
             "mqmsInfo": "Muqammas za sljedeći izračun",
             "calcHeader": "Na temelju dolje navedenog izračuna:",
             "savingsHeader": "Štednja",
-            "conversionInfo": "Pretvara se u {amount} na temelju tečaja {xchgRate} na {xchgRateDate}",
+            "conversionInfo": "Pretvoreno u {amount} na temelju tečaja {xchgRate} na {xchgRateDate}",
             "expensesHeader": "Troškovi",
             "mqmsHeader": "Muqammas",
             "prevMqms": "Prethodni muqammas",
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Ispunite donji obrazac da biste izračunali svoje khums. Navedena su neobavezna polja. Kliknite ikonu s informacijama u nastavku da biste saznali više o odjeljku.",
-            "blog": "Vezani članci Pročitajte naš blog o tome <a href='{href}' target='_blank'>kako učinkovito<a> izračunati khums</a>",
+            "blog": "Povezano: Pročitajte naš blog o tome <a href='{href}' target='_blank'>kako učinkovito izračunati khums</a>",
             "dateRange": "Odaberite datumski raspon:",
             "dateRangeInfo": "Obično ljudi izračunavaju khums za financijsku godinu (npr. Od travnja do ožujka) ili kalendarsku godinu (od siječnja do prosinca)",
             "startDate": "Početni datum:",
@@ -337,7 +337,7 @@
               "header": "<strong>Korištenje tečaja</strong>",
               "subtext": "Ti valutni tečajevi koristit će se za izračun. Možete ih promijeniti tako da koriste prilagođene vrijednosti.",
               "info": "Kada se radi o povijesnim podacima, na primjer prilikom dodavanja izračuna za khums od prije više od godinu dana kada tečajevi nisu bili isti kao danas, možete sami postaviti prilagođene vrijednosti za tečajeve.",
-              "rateValuePH": "U {currency}, npr. 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "U {currency} , npr. 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Izračunati",
             "pageError": {
@@ -366,12 +366,12 @@
         }
       },
       "user": {
-        "name": "Korisnik | Račun",
+        "name": "Korisnički račun",
         "editProfile": "Uređivanje profila",
         "publishToFeed": "Objavi moje promjene u sažetku sadržaja",
         "shareUpdateToFeed": "Podijeli ovo ažuriranje i sa sažetkom sadržaja",
         "statusText_ph": "Za ukrašavanje statusa koristite oblikovanje _kurziv_ ili *podebljano*",
-        "statusCharsLeft": "Preostalo {count} znakova",
+        "statusCharsLeft": "{count} preostale znakove",
         "jsImgUploadSuccess": "Slike uspješno prenesene!",
         "unauthAccess": {
           "heading": "Jeste li sigurni da ste na pravom mjestu?",
@@ -409,18 +409,18 @@
           "title": "O",
           "jsStatusUpdateFail": "Ažuriranje stanja nije uspjelo. Pokušajte ponovo kasnije.",
           "statusTextInfo": "Dodajte nešto kratko o sebi, kao što je tko ste vi ili što radite!",
-          "statusCta": "Dodaj stanje | Stanje ažuriranja",
+          "statusCta": "Dodaj status | Ažuriraj status",
           "addCity": "Dodaj grad",
-          "gender": "Muško | Žensko",
+          "gender": "Muško Žensko",
           "addGender": "Dodaj spol",
           "addBday": "Dodaj rođendan",
           "addRelation": "Dodaj odnos",
           "privateInfoDesc": "Te su informacije vidljive samo vama i na temelju njih vidite sadržaj i značajke.",
           "idSetupCta": "Postavljanje identiteta",
           "idVerifyCta": "Ovjeriti",
-          "joinDate": "Pridružio se: {date}",
           "idVerifyAltText": "Samo provjereni šiitski momineen može verificirati druge. Molimo vas da potvrdite svoj račun kako biste nakon toga mogli potvrditi <strong>{name}</strong> .",
-          "idVerifyAltText2": "Ako ste već nekoga zatražili, možete ga ponovno podsjetiti novom vezom ili zatražiti više momineen za brži odgovor."
+          "idVerifyAltText2": "Ako ste već nekoga zatražili, možete ga ponovno podsjetiti novom vezom ili zatražiti više momineen za brži odgovor.",
+          "joinDate": "Pridružio se: {date}"
         },
         "posts": {
           "title": "Postove",
@@ -430,15 +430,15 @@
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} još nije dodao marhumeen - - Još niste dodali marhumeen",
-            "marhumeenAdded": "{name} je dodao sljedeći marhumeen | Dodali ste sljedeći marhumeen"
+            "marhumeenNotAdded": "{name} još nije dodano marhumeen | Još niste dodali marhumeen",
+            "marhumeenAdded": "{name} je dodalo sljedećeg marhumeena | Dodali ste sljedećeg marhumeena"
           },
           "jsDeleteHeader": "Jesi siguran?",
-          "jsDeletePrompt": "Brisanje zapisa za <b>{fullName}</b> također će izbrisati sve prethodne zahtjeve za {gender}! Nastaviti?",
+          "jsDeletePrompt": "Brisanje zapisa za <b>{fullName}</b> također će izbrisati sve prethodne zahtjeve za {gender} ! Nastaviti?",
           "jsDeleted": "Izbrisani zapisi za {marhumeen}"
         },
         "verifyCard": {
-          "title": "Potvrdite svoj šijitski identitet | Provjerite svoj Sadat identitet",
+          "title": "Potvrdite svoj šiitski identitet | Potvrdite svoj Sadat identitet",
           "p1": "U svom profilu ste naveli da ste šijitski musliman. Provjera ovih informacija omogućit će vam više značajki i pomoći nam u izgradnji provjerene zajednice šijitskih muslimana.",
           "p2": "Molimo vas da potvrdite svoj identitet; Neće dugo trajati.",
           "noReminder": "Nemoj me više podsjećati",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Ova veza nije valjana ili je istekla. Zamolite prijatelja da pošalje novi zahtjev.",
           "confirm": {
             "heading": "Provjera identiteta računa",
-            "msg": "Pomozite {firstName} provjeri {genderLabel1} podataka o računu. To će {genderLabel2} omogućiti pristup više značajki u našoj aplikaciji",
+            "msg": "Pomozite {firstName} da potvrdi podatke o računu {genderLabel1} . To će omogućiti {genderLabel2} pristup većem broju značajki naše aplikacije",
             "jsSkip": "Nema frke. Ako se predomislite, možete ponovno posjetiti ovu vezu da biste je kasnije potvrdili."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Koristite aplikaciju u {langLabel}?",
+        "title": "Koristiti aplikaciju u {langLabel} ?",
         "desc": {
-          "p1": "Čini se da pristupate aplikaciji od {countryName}. Želite li vidjeti sadržaj i kontrole na jednom od sljedećih jezika koji se govore u regiji? Kliknite na svoj izbor, a zatim kliknite 'Spremi' za nastavak.",
+          "p1": "Čini se da aplikaciji pristupate iz {countryName} . Želite li vidjeti sadržaj i kontrole na jednom od sljedećih jezika koji se govore u regiji? Kliknite na svoj izbor, a zatim kliknite na &#39;Spremi&#39; za nastavak.",
           "p2": "Ili odbacite ovaj skočni prozor da biste nastavili koristiti aplikaciju na zadanom jeziku."
         },
         "choices": {
           "useLang": [
-            "Da, koristite {langName}",
-            "Korištenje {langName}"
+            "Da, koristi {langName}",
+            "Koristite {langName}"
           ],
           "useEnglish": "Nastavi na engleskom jeziku",
           "selectFrom": "Možete i odabrati jedan od sljedećih zamjenskih jezika:"
         },
-        "langError": "Došlo je do pogreške tijekom učitavanja prijevoda za {langName}. Pokušajte ponovo kasnije."
+        "langError": "Došlo je do pogreške prilikom učitavanja prijevoda za {langName} . Molimo pokušajte ponovo kasnije."
       },
       "createPost": {
         "heading": "O čemu se danas radi?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "Kreiraj objavu | Ažuriraj objavu",
+            "post": "Stvori objavu | Ažuriraj objavu",
             "livestream": "Prijenos uživo",
-            "hadiyah": "Stvori Hadiyah | Ažuriraj Hadiyah"
+            "hadiyah": "Stvori dar | Ažuriraj dar"
           },
           "postCta": "Objava | Ažuriranje",
           "stream": {
-            "scheduleCta": "Spremi za kasnije | Pokreni strujanje"
+            "scheduleCta": "Spremi za kasnije | Započni strujanje"
           },
           "hadiya": {
             "dedication": {
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "Ti",
-        "addressing": "ur | njegova | ona",
+        "addressing": "tvoj | njegov | njezin",
         "itemTypes": {
           "avatar": "slika avatara",
           "banner": "slika natpisa",
           "status": "stanje profila"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> ažurirana {addressing} {item}",
+          "common": "<strong>{username}</strong> ažurirana {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> zatražio surah-fatihu za {addressing} {relation}",
-            "<strong>{username}</strong> zatražio surah-fatiha & namaz-e-wahshat za {addressing} {relation}"
+            "<strong>{username}</strong> traženo sura-fatiha za {addressing} {relation}",
+            "<strong>{username}</strong> traženo sura-fatiha &amp; namaz-e-wahshat za {addressing} {relation}"
           ]
         },
-        "dateUntil": "Do: {date} na {time}",
+        "dateUntil": "Do: {date} po {time}",
         "privatePost": "Ovaj je post vidljiv samo vama",
-        "descZiyaratRequest": "Zatražili ste da se Ziyarat izvede u vaše ime u *haram* imama Husaina (a.s.) na *{date}*"
+        "descZiyaratRequest": "Zatražili ste da se zijaret obavi u vaše ime kod *harama* Imama Husaina (as) * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -623,8 +623,8 @@
         "died": "Umro:",
         "addMsg": "Želite li dodati poruku?",
         "addMsg_ph": "Npr:\nInna lillahi wa inna ilaihe raje'un. Molim vas recitirajte surah-e-fatiha i 2-rak'at namaz-e-wahshat za mog ujaka, Syeda Zeeshana Haidera Walda Syeda Tauqeera Hasana Marhooma, koji nas je sve ostavio da plačemo kako bismo upoznali njegovog tvorca.",
-        "remainingChars": "Znakovi: {count} | Znakovi: {count} preostali",
-        "infoEditRelative": "Detalje za {name} možete urediti u odjeljku <b>Račun > Marhumeen</b>",
+        "remainingChars": "Znakovi: {count} | Broj znakova: preostali {count}",
+        "infoEditRelative": "Možete urediti detalje za {name} u odjeljku <b>Račun &gt; Marhumeen</b>",
         "saveRequestCta": [
           "Spremi i zatraži",
           "Zahtjev"
@@ -675,7 +675,7 @@
         "setLocation": "Postavi mjesto",
         "ipAddress": "IP adresa",
         "alarmLocation": "Mjesto alarma",
-        "basedOn": "Lokacija na temelju vaše {selector}",
+        "basedOn": "Lokacija na temelju vašeg {selector}",
         "jsDetecting": "Otkrivanje, molim vas pričekajte..",
         "jsPermDenied": "Dopuštenje za lokaciju odbijeno za aplikaciju. Ponovno postavite postavke lokacije za ovu aplikaciju tako da posjetite odjeljak Postavke na telefonu.",
         "jsPosUnavailable": "Žao nam je, ali pozicija trenutno nije dostupna za ovaj telefon. Pokušajte ponovo kasnije.",
@@ -724,17 +724,17 @@
           "viaSignal": "Dohvatite signal"
         },
         "page2": {
-          "header": "Poslali smo šesteroznamenkasti potvrdni kôd na vaš broj ({number})",
+          "header": "Poslali smo 6-znamenkasti kod za potvrdu na vaš broj ( {number} )",
           "enterCodeLabel": "Unesite šifru",
           "enterCode_ph": "Unesite šesteroznamenkasti kod",
           "resendCode": "Ponovno slanje koda",
-          "notUsingMobile": "Ne koristite <strong>{number}?</strong>",
+          "notUsingMobile": "Ne koristite <strong>{number} ?</strong>",
           "changeNumber": "Promijeni broj"
         },
         "jsVerifySuccess": "Mobilna provjera uspješno provjerena",
         "jsVerifyError": "Došlo je do pogreške. Pokušajte ponovo kasnije.",
         "jsSendOtpFailed": "Slanje OTP-a nije uspjelo. Pokušajte ponovo kasnije.",
-        "jsSendOtpSuccess": "OTP poslan u {mobile}",
+        "jsSendOtpSuccess": "OTP poslan na {mobile}",
         "jsTooManyRequests": "Izgleda da si već previše puta pokušao. Pričekajte minutu ili dvije i pokušajte ponovno."
       },
       "userSettings": {
@@ -754,10 +754,10 @@
           "sharingDesc": "Kada dijelite izvana, vaše poruke mogu izgledati kao sljedeće:",
           "sharingTextDemo": [
             "Poslušajte ovu Nauhu u aplikaciji Bazm",
-            "{name} preporučuje slušanje ove Nauhe u aplikaciji Bazm"
+            "{name} preporučuje slušanje ove Nauhe na Bazm App"
           ],
           "addSignDesc": "Želite li dodati i svoj potpis?",
-          "addSignPlaceholder": "Npr\nSa najboljim željama,\n{name}",
+          "addSignPlaceholder": "Na primjer, s najboljim željama, {name}",
           "signDesc": "Kada podijelite svoju želju s prijateljima u ovoj aplikaciji, vaš će se potpis dodati porukama. Na primjer, može se pojaviti kao dolje:"
         },
         "changePwd": {
@@ -781,26 +781,26 @@
         "introText": "Ponovno postavljanje lozinke je jednostavno. Odaberite metodu za nastavak:",
         "usePhoneCta": "Koristi telefon",
         "useEmailCta": "Koristi e-poštu",
-        "sendEmailIntro": "Unesite adresu e-pošte s kojom ste stvorili račun, a mi ćemo poslati poruku e-pošte s vezom za postavljanje nove lozinke za vaš račun.",
+        "sendEmailIntro": "Unesite adresu e-pošte s kojom ste kreirali svoj račun, a mi ćemo vam poslati e-poštu s vezom za postavljanje nove lozinke za vaš račun. | Morate dodati adresu e-pošte za prijavu na svoj račun. Poslat ćemo vezu za poništavanje zaporke na ovu e-poštu i odatle možete stvoriti zaporku za svoj račun povezan s vašim brojem mobitela.",
         "emailInputLabel": "Vaša registrirana e-pošta",
         "sendEmailCta": "Pošalji vraćenu e-poštu na izvorno",
-        "sentEmailText": "Ako imate račun kod nas, uskoro ćete dobiti e-poštu za resetiranje lozinke na <strong>{email}</strong>. Molimo provjerite svoju e-poštu za vezu.",
-        "notUsingEmailText": "Ne koristite <strong>{email}?</strong>",
+        "sentEmailText": "Ako imate račun kod nas, uskoro ćete dobiti e-poruku za ponovno postavljanje lozinke na <strong>{email}</strong> . Provjerite svoju e-poštu za vezu.",
+        "notUsingEmailText": "Ne koristite <strong>{email} ?</strong>",
         "changeEmailCta": "Promjena e-pošte",
         "phoneIntroText": "Unesite telefonski broj dodan na vaš račun. Poslat ćemo OTP kako bismo potvrdili vaše vlasništvo, a u sljedećem koraku moći ćete stvoriti novu lozinku.",
         "phoneInputLabel": "Vaš broj mobitela",
         "sendOtpCta": "Pošalji OTP",
         "backToLoginCta": "Povratak na prijavu",
-        "disclaimerText": "Molimo, imajte na umu da ćete dobiti {item} samo ako imate {item} registriran kod nas",
+        "disclaimerText": "Imajte na umu da ćete {item} dobiti samo ako ste {item} registrirali kod nas",
         "jsMailSent": "Poslana pošta",
         "title2": "Zatražite svoj račun",
+        "introText2": "Ponovno postavljanje lozinke je jednostavno. Unesite svoju e-poštu i primite vezu za ponovno postavljanje lozinke na svoju e-poštu.",
         "claimIntroHeading": "Brzo zatražite svoj račun!",
-        "claimIntroText": "Hvala što ste nam se pridružili. Napravili smo račun za vas. Pristupite računu tako da ponovno postavite lozinku na jedan od sljedećih načina:",
-        "introText2": "Ponovno postavljanje lozinke je jednostavno. Unesite svoju e-poštu i primite vezu za ponovno postavljanje lozinke na svoju e-poštu."
+        "claimIntroText": "Hvala što ste nam se pridružili. Dobijte pristup svom računu dodavanjem e-pošte na svoj račun."
       },
       "resetPwd": {
         "title": "Vrati izvornu lozinku",
-        "introText": "Ovdje postavite sigurnu lozinku za svoj račun. Kliknite {icon} da biste provjerili jeste li unijeli pravu lozinku.",
+        "introText": "Ovdje postavite sigurnu lozinku za svoj račun. Pritisnite {icon} kako biste bili sigurni da unosite ispravnu lozinku.",
         "pwdInputLabel": "Postavljanje nove lozinke",
         "pwdInputPH": "Unesite novu lozinku",
         "invalidPwdChars": "Nevaljani znakovi u lozinki",
@@ -810,13 +810,13 @@
         "jsTrackLoadFailed": "Učitavanje zapisa nije uspjelo. Pokušajte ponovo kasnije."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} uspješno izbrisani.",
+        "jsItemDeleted": "{item} uspješno izbrisana.",
         "jsErrReporting": "Trenutno to nije moguće prijaviti. Pokušajte ponovo kasnije.",
-        "jsAlreadyReported": "Već ste prijavili ovaj {item}. Ne možete to prijaviti više od jednom.",
+        "jsAlreadyReported": "Već ste prijavili ovu {item} . Ne možete ga prijaviti više od jednom.",
         "jsPromptHeading": "Prijavljivanje stavke rezultira manjim izgledima za pojavljivanje u vašem ili drugom sažetku sadržaja/stranicama. Želite li to ipak prijaviti?",
-        "jsReporting": "Izvještavanje {itemType}..",
+        "jsReporting": "Prijava {itemType} stavke ..",
         "jsReportingErr": "U ovom trenutku nije moguće podnijeti vaš zahtjev. Pokušajte ponovo kasnije.",
-        "jsReported": "{item} izvijestio. Hvala na doprinosu."
+        "jsReported": "{item} prijavljena. Hvala na vašem doprinosu."
       },
       "editProfileModal": {
         "jsEmptyData": "Nema se što ažurirati!",
@@ -852,7 +852,7 @@
       "khumsPaymentRecord": {
         "title": "Dodaj zapis o plaćanju",
         "paymentFor": "Plaćanje za {khumsType}",
-        "totalAmount": "Ukupan iznos: {amount}",
+        "totalAmount": "Ukupni iznos: {amount}",
         "form": {
           "amountLabel": "Iznos",
           "amountPlaceholder": "Unesite iznos",
@@ -1009,15 +1009,15 @@
         ]
       },
       "verifyShiaModal": {
-        "title": "Provjera računa za {name}",
-        "heading": "Možete li odgovoriti u nastavku informacije o {firstName}? Ako ne, odbijte ovaj zahtjev.",
+        "title": "Potvrdite račun za {name}",
+        "heading": "Možete li odgovoriti na donje informacije o {firstName} ? Ako ne, odbijte ovaj zahtjev.",
         "desc": "Imate samo dva pokušaja provjere!",
-        "descP1": "Kada pošaljete ovaj obrazac, uskladit ćemo podatke s onim što {firstName} pružiti prilikom traženja provjere. Obratite pažnju jer imate samo dva pokušaja ispravnog ispunjavanja ovog obrasca. Ako i dalje ne uspijete, ubuduće više nećete moći potvrditi {firstName} .",
-        "descP2": "Ako ne znate {firstName}, odbijte ovaj zahtjev. Obavijestit ćemo ih i zamoliti da dođu do nekog drugog.",
+        "descP1": "Kada pošaljete ovaj obrazac, spojit ćemo informacije s onim što je {firstName} naveo prilikom traženja provjere. Molimo obratite pozornost jer imate samo dva pokušaja da ispravno ispunite ovaj obrazac. Ako i dalje ne uspijete, u budućnosti više nećete moći potvrditi {firstName} .",
+        "descP2": "Ako ne znate {firstName} , odbijte ovaj zahtjev. Obavijestit ćemo ih i zamoliti da dopru do nekog drugog.",
         "rejectRequestCta": "Zahtjev za odbijanje",
         "form": {
           "heading": "Odgovorite na sljedeća pitanja o {firstName} i kliknite Pošalji:",
-          "q1": "Kako poznajete {firstName}?",
+          "q1": "Kako znaš {firstName} ?",
           "q2": "Religija:",
           "q3": "Sekta:",
           "q4": "Je li {firstName} Sadat?",
@@ -1073,13 +1073,13 @@
         "cta": "Odbiti",
         "title": "Odbijanje zahtjeva",
         "reasonLabel": "Zašto ne želite potvrditi ovaj račun?",
-        "reasonPh": "Obavijestit ćemo {userName} i zamoliti ih da se obrate nekome drugome radi provjere"
+        "reasonPh": "Obavijestit ćemo {userName} i zamoliti ih da se obrate nekom drugom radi provjere"
       },
       "haadiHome": {
-        "title": "Započnite raspravu | Vaši razgovori s Haadijem",
+        "title": "Započnite raspravu | Vaše rasprave s Haadijem",
         "item": {
-          "added": "Dodano {date}",
-          "tokensUsed": "Korišteni tokeni: {tokens}",
+          "added": "Dodan {date}",
+          "tokensUsed": "Korišteni krediti: {tokens}",
           "readContinue": "Čitanje ili nastavak rasprave"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Postavite pitanje",
         "empty": {
           "heading": "Ovaj razgovor nije moguće pronaći",
-          "p1": "Došlo je do pogreške prilikom pokušaja dohvaćanja ovog razgovora. Provjerite URL i pokušajte ponovno.",
-          "p2": "Ako se to nastavi, ljubazno nas kontaktirajte.",
-          "guest": "To bi moglo biti zato što niste prijavljeni. Pokušajte se prijaviti i provjerite ponovno."
+          "p1": "Nismo mogli pronaći ovaj razgovor. Provjerite URL i pokušajte ponovno.",
+          "guest": "To bi moglo biti zato što niste prijavljeni. Pokušajte se prijaviti i provjerite ponovno.",
+          "p2": "Ako se to nastavi, ljubazno nas kontaktirajte."
         },
         "jsNewChatInfo": "Ovo je početak novog razgovora s Haadijem. Odabrali ste omogućiti kontekst za Haadija dok odgovarate na vaša pitanja. Tu mogućnost uvijek možete onemogućiti u postavkama ili vidjeti što to znači za vas."
       },
       "aboutHaadi": {
-        "title": "Upoznajte Haadija, svog botfrienda za navigaciju šijitskim islamom!",
-        "desc": "Kliknite svaki od ovih sažetaka da biste pročitali više ili pronašli više o Haadiju i uvjetima korištenja u <a href={blogLink} target ='_system'>naš blog",
+        "title": "Upoznajte Haadija, svog <strong>bot-prijatelja</strong> za navigaciju šiitskog islama!",
+        "desc": "Preporučujemo da pregledate ove sažetke prije nego počnete koristiti Haadi. Više o Haadiju i uvjetima korištenja možete pronaći u <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Razumijem i slažem se s Uvjetima korištenja"
       }
     },
@@ -1152,7 +1152,7 @@
         "jsEnterPwd": "Unesite lozinku!",
         "jsEnterValidPwd": [
           "Lozinka sadrži znakove koji nisu valjani. Unesite valjanu lozinku.",
-          "Lozinka bi trebala sadržavati najmanje {num} znakova."
+          "Lozinka mora sadržavati najmanje {num} znakova."
         ],
         "jsAccountSuccess": "Račun je uspješno stvoren",
         "jsFbError": "Nije moguće dobiti podatke o vašem Facebook računu. Pokušajte ponovo.",
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Instalirajte Bazm { platformu }",
-          "desc": "Preuzmite našu Android aplikaciju za bolji doživljaj, personalizirani sadržaj, obavijesti i sve što vas zanima oko vas! | Instalirajte prečac aplikacije (knjižna oznaka) da biste mu sljedeći put pristupili izravno s početnog zaslona radi boljeg doživljaja! Jedva da zauzima prostor na vašem uređaju, ali vam pomaže da se brzo vratite u aplikaciju.",
+          "heading": "Dodaj Bazm prečac",
+          "desc": "Preuzmite našu Android aplikaciju za bolje iskustvo, personalizirani sadržaj, obavijesti i sve što vas zanima iz vaše okoline! | Instalirajte prečac aplikacije (bookmark) kako biste joj sljedeći put pristupili izravno s početnog zaslona za bolje iskustvo! Zauzima jedva malo prostora na vašem uređaju, ali vam pomaže da se brzo vratite na aplikaciju.",
           "cta": {
             "action": "Instalirati",
             "skip": "Možda kasnije."
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Želite li instalirati Bazm prečac?"
         },
-        "popover": {
-          "text": "Kliknite ikonu Zajedničko korištenje (izgleda kao ona s desne strane) <strong>ISPOD</strong> , a zatim <strong>kliknite Dodaj na početni zaslon</strong>. Kliknite \"Spremi\" da biste završili, a zatim aplikaciji možete pristupiti prečacem na početnom zaslonu!"
-        },
         "nonSafari": {
-          "heading": "Bazm bolje radi na Apple Safariju",
+          "heading": "Bazm radi bolje na Safariju",
           "desc": "Ovaj preglednik ima ograničene značajke, dok preglednik Safari omogućuje našoj aplikaciji bolju izvedbu, uključujući Push-obavijesti i Prečac aplikacije.",
-          "subtext": "<strong>Otvorite aplikaciju Safari</strong> na telefonu i idite <strong> na{url}</strong> za bolji doživljaj.",
+          "subtext": "<strong>Otvorite preglednik Safari</strong> i idite na <strong>{url}</strong> za bolje iskustvo.",
           "skipCta": "Umjesto toga nastavite ovdje"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "O spremanju kolačića na uređaj",
-        "p1": "Ne pohranjujemo kolačiće na vašu {device} ali aplikacije trećih strana koje se koriste u našoj aplikaciji mogu (kao što je Google Analytics). Umjesto toga, koristimo trajnu pohranu za pohranu svih važnih podataka, au većini slučajeva to se šifrira u pohrani i tijekom prijenosa.",
+        "p1": "Ne spremamo kolačiće na vaš {device} , ali aplikacije trećih strana koje se koriste u našoj aplikaciji mogu (kao što je Google Analytics). Umjesto toga koristimo trajnu pohranu za pohranu svih važnih podataka, a u većini slučajeva oni su šifrirani u pohrani i tijekom prijenosa.",
         "p2": "Nastavkom korištenja ove aplikacije ovime potvrđujete da nemate problema s našim izborima. Da biste saznali više o našim kolačićima i korištenju podataka, pogledajte naša <a href='https://bazm.in/privacy-policy' target='_blank'>Pravila o privatnosti.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Aplikacija društvenih mreža za šijitske muslimane širom svijeta! Preuzmite aplikaciju već danas.",
+      "titleBranding": "__ Bazm - aplikacija za društvene mreže za šiitske muslimane diljem svijeta!",
       "home": {
         "title": "Bazm - Online Shia aplikacija zajednice!",
         "description": "Aplikacija Bazm je aplikacija Shia zajednice koja zadovoljava sve vaše dnevne potrebe deen &; mazhab. Pronađite Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books itd. za sve datume i prigode. Gledajte i radite događaje uživo i majalis sa šijitskim muslimanima širom svijeta iz udobnosti svog doma. Pridružite se danas!"
       },
       "feed": {
-        "title": "Pronađite prilagođeni sadržaj i podijelite ga sa šijitskom zajednicom oko sebe i svijeta",
+        "title": "Bazm — Pronađite i dijelite prilagođeni sadržaj šiitskih muslimana diljem svijeta!",
         "description": "Pronađite i podijelite vijesti, događaje i sadržaj uz shia momineen i informirajte ih o svim događajima koje organizirate. Saznajte više o svemu što se događa u vašoj blizini u aplikaciji."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Slušajte Soaz svih godina i sve popularne Soazkhwan iz cijelog svijeta na aplikaciji Bazm. Preuzmite već danas."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis na Bazmu - Pronađite više nauhe, audio / video majalis, dua, ziyarat, aamaal itd. na Bazmu",
+        "title": "{type} majalis/majlis na Bazmu - Pronađite više nauhe, audio/video majalis, dua, ziyarat, aamaal, itd. na Bazmu",
         "description": "Pronađite audio/video majalis iz Maulane i Zakir-e-Ahlbayta iz okolice vas i širom svijeta. Slušajte i gledajte najnovije majalis i livestream sesije u aplikaciji Bazm. Preuzmite aplikaciju već danas i pridružite se milijunima šijitskih muslimana širom svijeta!"
       },
       "duasPage": {
         "title": [
-          "Duas i aamaal za mjesec {month} na Bazmu - Pronađite više nauhe, audio / video majalis, dua, ziyarat, aamaal itd. na Bazmu",
+          "Duas i aamaal za mjesec u {month} na Bazmu - Pronađite više nauhe, audio/video majalis, dua, piyarat, aamaal, itd. na Bazmu",
           "Duas i aamaal za sve mjesece na Bazmu - Pronađite više nauhe, audio / video majalis, dua, ziyarat, aamaal itd. na Bazmu"
         ],
         "description": "Pronađite duas, aamaal, ziyarat i munajat za sve mjesece na Bazmu, datum i događaj mudro. Preuzmite aplikaciju već danas i pridružite se milijunima šijitskih muslimana širom svijeta!"
