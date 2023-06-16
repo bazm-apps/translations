@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Image upload failed. Please try again later.",
         "jsLoadingDelay": "It's taking bit longer than expected. Please wait while we process this request."
       },
+      "sending": "Sending...",
       "close": "Close",
       "yes": "Yes",
       "no": "No",
@@ -417,6 +418,8 @@
           "privateInfoDesc": "This information is visible only to you and you see content and features based this.",
           "idSetupCta": "Setup your identity",
           "idVerifyCta": "Verify",
+          "idVerifyAltText": "Only verified Shia momineen can verify others. Kindly get your account verified, so that you can verify <strong>{name}</strong> thereafter.",
+          "idVerifyAltText2": "If you have already requested someone, you can remind them again with a new link, or ask more momineen for a quicker response.",
           "joinDate": "Joined: {date}"
         },
         "posts": {
@@ -778,7 +781,7 @@
         "introText": "Resetting your password is easy. Select a method to continue:",
         "usePhoneCta": "Use Phone",
         "useEmailCta": "Use Email",
-        "sendEmailIntro": "Enter the email address that you created your account with, and we'll send an email with link to setup a new password for your account.",
+        "sendEmailIntro": "Enter the email address that you created your account with, and we'll send an email with link to setup a new password for your account. | You need to add an email address to login into your account. We will send a password-reset link to this email and from there, you can create a password for your account associated with your mobile number.",
         "emailInputLabel": "Your registered email",
         "sendEmailCta": "Send Reset Email",
         "sentEmailText": "If you have an account with us, you will get a password-reset email shortly on <strong>{email}</strong>. Kindly check your email for the link.",
@@ -791,8 +794,9 @@
         "disclaimerText": "Please note that you'll get an {item} only if you have the {item} registered with us",
         "jsMailSent": "Mail sent",
         "title2": "Claim your account",
+        "introText2": "Reseting your password is easy. Enter your email and get the password-reset link on your email.",
         "claimIntroHeading": "Claim your account quickly!",
-        "claimIntroText": "Thanks for joining us. We've created an account for you now. Get access to your account by reseting it's password using one of the following methods:"
+        "claimIntroText": "Thanks for joining us. Get access to your account by adding an email to your account."
       },
       "resetPwd": {
         "title": "Reset Password",
@@ -1075,7 +1079,7 @@
         "title": "Start discussion | Your discussions with Haadi",
         "item": {
           "added": "Added {date}",
-          "tokensUsed": "Tokens used: {tokens}",
+          "tokensUsed": "Credits used: {tokens}",
           "readContinue": "Read or continue discussion"
         },
         "blank": {
@@ -1097,14 +1101,15 @@
         "inputPH": "Ask a question",
         "empty": {
           "heading": "Could not find this conversation",
-          "p1": "An error occurred while trying to get this conversation. Please check the URL and try again.",
+          "p1": "We could not find this conversation. Please check the URL and try again.",
+          "guest": "This could be because you are not logged in. Please try to login and check again.",
           "p2": "If this keeps happening, kindly contact us."
         },
         "jsNewChatInfo": "This is the start of a new conversation with Haadi. You've chosen to enable context for Haadi while answering your questions. You can always disable this option in settings, or see what does this mean for you."
       },
       "aboutHaadi": {
-        "title": "Meet Haadi, your botfriend to navigate Shia islam!",
-        "desc": "Click each of these summaries to read more, or find more about Haadi and terms of use in <a href={blogLink} target='_system'>our blog</a>",
+        "title": "Meet Haadi, your <strong>Bot-friend</strong> to navigate Shia islam!",
+        "desc": "We recommend you go through these summaries before you start using Haadi. You can find more about Haadi and terms of use in <a href={blogLink} target='_system'>our blog</a>",
         "agreement": "I understand and agree with Terms of use"
       }
     },
@@ -1165,7 +1170,7 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Install Bazm { platform }",
+          "heading": "Add Bazm Shortcut",
           "desc": "Download our Android app for a better experience, personalized content, notifications and everything of your interest from around you! | Install app shortcut (bookmark) to access it directly from your homescreen next time for a better experience! It barely takes any space on your device but helps you get back on the app quickly.",
           "cta": {
             "action": "Install",
@@ -1175,13 +1180,10 @@
         "prompt": {
           "heading": "Install Bazm shortcut?"
         },
-        "popover": {
-          "text": "Click on the Share icon (looks like one on the right) <strong>BELOW</strong> and then click <strong>Add to Home Screen</strong>. Click \"Save\" to finish, and then you can access the app from shortcut on your homescreen!"
-        },
         "nonSafari": {
-          "heading": "Bazm works better on Apple Safari",
+          "heading": "Bazm works better on Safari",
           "desc": "This browser has limited features, while Safari browser enables our app to perform better, including Push-notifications and App-shortcut.",
-          "subtext": "<strong>Open Safari app</strong> on your phone and goto <strong>{url}</strong> for a better experience.",
+          "subtext": "<strong>Open Safari Browser</strong> and goto <strong>{url}</strong> for a better experience.",
           "skipCta": "Continue here instead"
         }
       },
@@ -1189,7 +1191,8 @@
         "heading": "How is your experience so far?",
         "text": "<p>Do you like the new app? Is there something we can improve? Please help us with your feedback to improve the experience for you!</p><p>This would take only a few minutes, and we highly appreciate your time!</p>",
         "cta": "Give feedback",
-        "dismiss": "Maybe later"
+        "dismiss": "Maybe later",
+        "altText": "Your feedback will help us improve the app experience for you, and it only takes a minute."
       },
       "advertise": {
         "heading": "Advertise on Bazm",
@@ -1214,13 +1217,13 @@
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Social Network App for Shia muslims around the world! Download the app today.",
+      "titleBranding": " __ Bazm - Social Network App for Shia muslims around the world!",
       "home": {
         "title": "Bazm - Online Shia community app!",
         "description": "Bazm app is the Shia community app that meets all your daily needs of deen & mazhab. Find Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books, etc. for all dates and occasions. Watch and do live-stream events and majalis with Shia-muslims around the world from the convenience of your home. Join today!"
       },
       "feed": {
-        "title": "Find tailored content and share with shia community around you and the world",
+        "title": "Bazm — Find and share tailored content from Shia muslims around the world!",
         "description": "Find and share news, events, and content with shia momineen around, and keep them informed about any events you're hosting. Learn about anything happening near you on the app."
       },
       "mediaHome": {
@@ -1260,5 +1263,5 @@
       }
     }
   },
-  "publishedOn": 1685488499326
+  "publishedOn": 1686922408823
 }
