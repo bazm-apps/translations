@@ -81,7 +81,8 @@
         "cancelCta": "Vraag het me later",
         "okCta": "Zeker!",
         "jsPushUnsupported": "Push wordt niet ondersteund op dit apparaat. U kunt meldingen missen!"
-      }
+      },
+      "sending": "Bezig met verzenden..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "Deze informatie is alleen voor u zichtbaar en u ziet op basis hiervan inhoud en functies.",
           "idSetupCta": "Stel uw identiteit in",
           "idVerifyCta": "Verifiëren",
-          "joinDate": "Lid geworden: {date}"
+          "joinDate": "Lid geworden: {date}",
+          "idVerifyAltText": "Alleen geverifieerde sjiitische momineen kan anderen verifiëren. Zorg ervoor dat uw account wordt geverifieerd, zodat u daarna <strong>{name}</strong> kunt verifiëren.",
+          "idVerifyAltText2": "Als je al iemand hebt aangevraagd, kun je hem of haar er nogmaals aan herinneren met een nieuwe link, of meer momineen vragen om sneller antwoord."
         },
         "posts": {
           "title": "Berichten",
@@ -685,7 +688,8 @@
         "ctaLabel": "Lezen",
         "title": "Twee: {title}",
         "arabicCta": "Arabisch",
-        "translatedCta": "Vertaald"
+        "translatedCta": "Vertaald",
+        "englishCta": "Engels"
       },
       "reqAccess": {
         "heading": "toegang vereist",
@@ -790,7 +794,8 @@
         "jsMailSent": "Post verzonden",
         "title2": "Claim je account",
         "claimIntroHeading": "Claim snel je account!",
-        "claimIntroText": "Bedankt dat je bij ons bent gekomen. We hebben nu een account voor je aangemaakt. Krijg toegang tot uw account door het wachtwoord opnieuw in te stellen met behulp van een van de volgende methoden:"
+        "claimIntroText": "Bedankt dat je bij ons bent gekomen. We hebben nu een account voor je aangemaakt. Krijg toegang tot uw account door het wachtwoord opnieuw in te stellen met behulp van een van de volgende methoden:",
+        "introText2": "Het opnieuw instellen van uw wachtwoord is eenvoudig. Voer uw e-mailadres in en ontvang de link voor het opnieuw instellen van uw wachtwoord in uw e-mail."
       },
       "resetPwd": {
         "title": "Wachtwoord opnieuw instellen",
@@ -1096,7 +1101,8 @@
         "empty": {
           "heading": "Kan dit gesprek niet vinden",
           "p1": "Er is een fout opgetreden bij het ophalen van dit gesprek. Controleer de URL en probeer het opnieuw.",
-          "p2": "Neem contact met ons op als dit aanhoudt."
+          "p2": "Neem contact met ons op als dit aanhoudt.",
+          "guest": "Dit kan zijn omdat u niet bent ingelogd. Probeer in te loggen en controleer het opnieuw."
         },
         "jsNewChatInfo": "Dit is het begin van een nieuw gesprek met Haadi. Je hebt ervoor gekozen om context voor Haadi in te schakelen bij het beantwoorden van je vragen. U kunt deze optie altijd uitschakelen in de instellingen, of kijken wat dit voor u betekent."
       },
@@ -1187,7 +1193,8 @@
         "heading": "Hoe is je ervaring tot nu toe?",
         "text": "<p>Vind je de nieuwe app leuk? Is er iets dat we kunnen verbeteren? Help ons alstublieft met uw feedback om de ervaring voor u te verbeteren!</p><p> Dit duurt maar een paar minuten en we stellen uw tijd zeer op prijs!</p>",
         "cta": "Geef feedback",
-        "dismiss": "Misschien later"
+        "dismiss": "Misschien later",
+        "altText": "Uw feedback helpt ons de app-ervaring voor u te verbeteren, en het duurt slechts een minuut."
       },
       "advertise": {
         "heading": "Adverteer op Bazm",
