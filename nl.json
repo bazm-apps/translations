@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Het uploaden van afbeeldingen is mislukt. Probeer het later opnieuw.",
         "jsLoadingDelay": "Het duurt wat langer dan verwacht. Even geduld terwijl we dit verzoek verwerken."
       },
+      "sending": "Bezig met verzenden...",
       "close": "Dichtbij",
       "yes": "Ja",
       "no": "Nee",
@@ -81,8 +82,7 @@
         "cancelCta": "Vraag het me later",
         "okCta": "Zeker!",
         "jsPushUnsupported": "Push wordt niet ondersteund op dit apparaat. U kunt meldingen missen!"
-      },
-      "sending": "Bezig met verzenden..."
+      }
     },
     "errors": {
       "service": {
@@ -418,9 +418,9 @@
           "privateInfoDesc": "Deze informatie is alleen voor u zichtbaar en u ziet op basis hiervan inhoud en functies.",
           "idSetupCta": "Stel uw identiteit in",
           "idVerifyCta": "Verifiëren",
-          "joinDate": "Lid geworden: {date}",
           "idVerifyAltText": "Alleen geverifieerde sjiitische momineen kan anderen verifiëren. Zorg ervoor dat uw account wordt geverifieerd, zodat u daarna <strong>{name}</strong> kunt verifiëren.",
-          "idVerifyAltText2": "Als je al iemand hebt aangevraagd, kun je hem of haar er nogmaals aan herinneren met een nieuwe link, of meer momineen vragen om sneller antwoord."
+          "idVerifyAltText2": "Als je al iemand hebt verzocht, kun je hem of haar er nogmaals aan herinneren met een nieuwe link, of meer momineen vragen om sneller antwoord.",
+          "joinDate": "Lid geworden: {date}"
         },
         "posts": {
           "title": "Berichten",
@@ -488,6 +488,7 @@
             "Ja, gebruik {langName}",
             "Gebruik {langName}"
           ],
+          "useEnglish": "Ga verder in het Engels",
           "selectFrom": "Of kies uit een van de volgende alternatieve talen:"
         },
         "langError": "Er is een fout opgetreden bij het laden van de vertalingen voor {langName} . Probeer het later opnieuw."
@@ -688,8 +689,8 @@
         "ctaLabel": "Lezen",
         "title": "Twee: {title}",
         "arabicCta": "Arabisch",
-        "translatedCta": "Vertaald",
-        "englishCta": "Engels"
+        "englishCta": "Engels",
+        "translatedCta": "Vertaald"
       },
       "reqAccess": {
         "heading": "toegang vereist",
@@ -780,7 +781,7 @@
         "introText": "Het opnieuw instellen van uw wachtwoord is eenvoudig. Selecteer een methode om door te gaan:",
         "usePhoneCta": "Gebruik telefoon",
         "useEmailCta": "Gebruik e-mail",
-        "sendEmailIntro": "Voer het e-mailadres in waarmee je je account hebt gemaakt en we sturen je een e-mail met een link om een nieuw wachtwoord voor je account in te stellen.",
+        "sendEmailIntro": "Voer het e-mailadres in waarmee je je account hebt gemaakt en we sturen je een e-mail met een link om een nieuw wachtwoord voor je account in te stellen. | U moet een e-mailadres toevoegen om in te loggen op uw account. We sturen een link voor het opnieuw instellen van het wachtwoord naar deze e-mail en van daaruit kunt u een wachtwoord maken voor uw account dat is gekoppeld aan uw mobiele nummer.",
         "emailInputLabel": "Uw geregistreerde e-mailadres",
         "sendEmailCta": "Stuur een reset-e-mail",
         "sentEmailText": "Als u een account bij ons heeft, ontvangt u binnenkort een e-mail voor het opnieuw instellen van uw wachtwoord op <strong>{email}</strong> . Controleer uw e-mail voor de link.",
@@ -793,9 +794,9 @@
         "disclaimerText": "Houd er rekening mee dat u een {item} alleen krijgt als u het {item} bij ons heeft geregistreerd",
         "jsMailSent": "Post verzonden",
         "title2": "Claim je account",
+        "introText2": "Het opnieuw instellen van uw wachtwoord is eenvoudig. Voer uw e-mailadres in en ontvang de link voor het opnieuw instellen van uw wachtwoord in uw e-mail.",
         "claimIntroHeading": "Claim snel je account!",
-        "claimIntroText": "Bedankt dat je bij ons bent gekomen. We hebben nu een account voor je aangemaakt. Krijg toegang tot uw account door het wachtwoord opnieuw in te stellen met behulp van een van de volgende methoden:",
-        "introText2": "Het opnieuw instellen van uw wachtwoord is eenvoudig. Voer uw e-mailadres in en ontvang de link voor het opnieuw instellen van uw wachtwoord in uw e-mail."
+        "claimIntroText": "Bedankt dat je bij ons bent gekomen. Krijg toegang tot uw account door een e-mailadres aan uw account toe te voegen."
       },
       "resetPwd": {
         "title": "Wachtwoord opnieuw instellen",
@@ -811,7 +812,7 @@
       "moreBtn": {
         "jsItemDeleted": "{item} succesvol verwijderd.",
         "jsErrReporting": "Kan dit op dit moment niet melden. Probeer het later opnieuw.",
-        "jsAlreadyReported": "Je hebt dit {item} al gemeld . U kunt het niet vaker dan één keer melden.",
+        "jsAlreadyReported": "Je hebt dit {item} al gerapporteerd . U kunt dit niet vaker dan één keer melden.",
         "jsPromptHeading": "Als u een item rapporteert, is de kans kleiner dat het wordt weergegeven in de feed/pagina&#39;s van u of die van anderen. Wil je dit alsnog melden?",
         "jsReporting": "Rapportage {itemType} ..",
         "jsReportingErr": "Kan uw verzoek op dit moment niet indienen. Probeer het later opnieuw.",
@@ -1078,7 +1079,7 @@
         "title": "Discussie starten | Uw discussies met Haadi",
         "item": {
           "added": "{date} toegevoegd",
-          "tokensUsed": "Gebruikte tokens: {tokens}",
+          "tokensUsed": "Gebruikte credits: {tokens}",
           "readContinue": "Lees of discussieer verder"
         },
         "blank": {
@@ -1100,15 +1101,15 @@
         "inputPH": "Een vraag stellen",
         "empty": {
           "heading": "Kan dit gesprek niet vinden",
-          "p1": "Er is een fout opgetreden bij het ophalen van dit gesprek. Controleer de URL en probeer het opnieuw.",
-          "p2": "Neem contact met ons op als dit aanhoudt.",
-          "guest": "Dit kan zijn omdat u niet bent ingelogd. Probeer in te loggen en controleer het opnieuw."
+          "p1": "We kunnen dit gesprek niet vinden. Controleer de URL en probeer het opnieuw.",
+          "guest": "Dit kan zijn omdat u niet bent ingelogd. Probeer in te loggen en controleer het opnieuw.",
+          "p2": "Neem contact met ons op als dit aanhoudt."
         },
         "jsNewChatInfo": "Dit is het begin van een nieuw gesprek met Haadi. Je hebt ervoor gekozen om context voor Haadi in te schakelen bij het beantwoorden van je vragen. U kunt deze optie altijd uitschakelen in de instellingen, of kijken wat dit voor u betekent."
       },
       "aboutHaadi": {
-        "title": "Maak kennis met Haadi, je botvriend om door de sjiitische islam te navigeren!",
-        "desc": "Klik op elk van deze samenvattingen om meer te lezen of meer te vinden over Haadi en gebruiksvoorwaarden in <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
+        "title": "Maak kennis met Haadi, je <strong>botvriend</strong> om door de sjiitische islam te navigeren!",
+        "desc": "We raden u aan deze samenvattingen door te nemen voordat u Haadi gaat gebruiken. U kunt meer over Haadi en gebruiksvoorwaarden vinden in <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Ik begrijp en ga akkoord met de gebruiksvoorwaarden"
       }
     },
@@ -1169,7 +1170,7 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Installeer Bazm { platform }",
+          "heading": "Bazm-snelkoppeling toevoegen",
           "desc": "Download onze Android-app voor een betere ervaring, gepersonaliseerde inhoud, meldingen en alles wat je interesseert om je heen! | Installeer een app-snelkoppeling (bladwijzer) om deze de volgende keer rechtstreeks vanaf uw startscherm te openen voor een betere ervaring! Het neemt nauwelijks ruimte in beslag op uw apparaat, maar helpt u snel weer toegang te krijgen tot de app.",
           "cta": {
             "action": "Installeren",
@@ -1179,13 +1180,10 @@
         "prompt": {
           "heading": "Bazm-snelkoppeling installeren?"
         },
-        "popover": {
-          "text": "Klik op het pictogram Delen (ziet eruit als een pictogram aan de rechterkant) <strong>HIERONDER</strong> en klik vervolgens op <strong>Toevoegen aan startscherm</strong> . Klik op &quot;Opslaan&quot; om te voltooien, en dan heb je toegang tot de app via de snelkoppeling op je startscherm!"
-        },
         "nonSafari": {
-          "heading": "Bazm werkt beter op Apple Safari",
+          "heading": "Bazm werkt beter op Safari",
           "desc": "Deze browser heeft beperkte functies, terwijl de Safari-browser ervoor zorgt dat onze app beter presteert, inclusief pushmeldingen en app-snelkoppelingen.",
-          "subtext": "<strong>Open de Safari-app</strong> op je telefoon en ga naar <strong>{url}</strong> voor een betere ervaring.",
+          "subtext": "<strong>Open Safari Browser</strong> en ga naar <strong>{url}</strong> voor een betere ervaring.",
           "skipCta": "Ga in plaats daarvan hier verder"
         }
       },
@@ -1219,13 +1217,13 @@
       }
     },
     "meta": {
-      "titleBranding": "__ Bazm - Social Network-app voor sjiitische moslims over de hele wereld! Download de app vandaag nog.",
+      "titleBranding": "__ Bazm - Social Network-app voor sjiitische moslims over de hele wereld!",
       "home": {
         "title": "Bazm - Online sjiitische community-app!",
         "description": "Bazm-app is de Shia-community-app die voldoet aan al uw dagelijkse behoeften van deen &amp; mazhab. Vind Nauhe, Majalis, Dua, Aamaal, Ziyarat, Books, etc. voor alle data en gelegenheden. Bekijk en livestream evenementen en majalis met sjiitische moslims over de hele wereld vanuit het gemak van uw huis. Vandaag meedoen!"
       },
       "feed": {
-        "title": "Vind op maat gemaakte inhoud en deel deze met de sjiitische gemeenschap om u heen en de wereld",
+        "title": "Bazm - Vind en deel op maat gemaakte inhoud van sjiitische moslims over de hele wereld!",
         "description": "Vind en deel nieuws, evenementen en inhoud met shia momineen in de buurt, en houd ze op de hoogte van evenementen die je organiseert. Lees via de app alles over wat er bij jou in de buurt gebeurt."
       },
       "mediaHome": {
