@@ -81,7 +81,8 @@
         "cancelCta": "Küsi minult hiljem",
         "okCta": "Kindel!",
         "jsPushUnsupported": "Push ei toeta seda seadet. Võite märguannetest ilma jääda!"
-      }
+      },
+      "sending": "Saatmine..."
     },
     "errors": {
       "service": {
@@ -417,7 +418,9 @@
           "privateInfoDesc": "See teave on nähtav ainult teile ning näete sellel põhinevat sisu ja funktsioone.",
           "idSetupCta": "Seadistage oma identiteet",
           "idVerifyCta": "Kontrollida",
-          "joinDate": "Liitunud: {date}"
+          "joinDate": "Liitunud: {date}",
+          "idVerifyAltText": "Teisi saab kinnitada ainult kinnitatud Shia momineen. Laske oma konto kinnitada, et saaksite pärast seda <strong>{name}</strong> kinnitada.",
+          "idVerifyAltText2": "Kui olete kedagi juba taotlenud, saate seda uue lingiga uuesti meelde tuletada või kiirema vastuse saamiseks küsida rohkem momineent."
         },
         "posts": {
           "title": "Postitusi",
@@ -792,7 +795,8 @@
         "jsMailSent": "Saadetud kirjad",
         "title2": "Konto väljanõudmine",
         "claimIntroHeading": "Taotlege oma kontot kiiresti!",
-        "claimIntroText": "Täname, et liitusite meiega. Oleme teile nüüd konto loonud. Kontole juurdepääsu saamiseks lähtestage selle parool, kasutades ühte järgmistest meetoditest."
+        "claimIntroText": "Täname, et liitusite meiega. Oleme teile nüüd konto loonud. Kontole juurdepääsu saamiseks lähtestage selle parool, kasutades ühte järgmistest meetoditest.",
+        "introText2": "Parooli lähtestamine on lihtne. Sisestage oma e-posti aadress ja hankige oma meilile parooli lähtestamise link."
       },
       "resetPwd": {
         "title": "Parooli lähtestamine",
@@ -1098,7 +1102,8 @@
         "empty": {
           "heading": "Ei leidnud seda vestlust",
           "p1": "Selle vestluse ajal ilmnes tõrge. Kontrollige URL-i ja proovige uuesti.",
-          "p2": "Kui see juhtub, võtke meiega ühendust."
+          "p2": "Kui see juhtub, võtke meiega ühendust.",
+          "guest": "Selle põhjuseks võib olla asjaolu, et te pole sisse logitud. Proovige sisse logida ja kontrollige uuesti."
         },
         "jsNewChatInfo": "See on uue vestluse algus Hadiga. Olete otsustanud oma küsimustele vastates lubada Haadi konteksti. Saate selle valiku alati seadetes keelata või vaadata, mida see teie jaoks tähendab."
       },
@@ -1189,7 +1194,8 @@
         "heading": "Kuidas on teie senine kogemus?",
         "text": "<p>Kas teile meeldib uus rakendus? Kas on midagi, mida saaksime parandada? Palun aidake meid oma tagasisidega, et teie jaoks kogemust paremaks muuta!</p><p>See võtaks vaid paar minutit ja me hindame teie aega kõrgelt!</p>",
         "cta": "Andke tagasisidet",
-        "dismiss": "Võib-olla hiljem"
+        "dismiss": "Võib-olla hiljem",
+        "altText": "Teie tagasiside aitab meil teie jaoks rakenduse kasutuskogemust täiustada ja selleks kulub vaid minut."
       },
       "advertise": {
         "heading": "Reklaamige Bazmis",
