@@ -38,11 +38,11 @@
       "retry": "Reyna",
       "send": "Senda",
       "submit": "Leggja inn",
-      "share": "Deila | Deildu núna",
+      "share": "Deila | Deila núna",
       "at": "hjá",
       "untilNextTime": "Ekkert mál. Þangað til næst!",
       "plzWait": "Vinsamlegast bíddu..",
-      "saving": "Sparnaður.. | Uppfærsla..",
+      "saving": "Vistar.. | Uppfærir..",
       "search": "Leita",
       "late": "Seint",
       "done": "Búinn",
@@ -58,7 +58,7 @@
         "uploading": "Senda..",
         "deleting": "Eyða..",
         "requesting": "Biðja..",
-        "audienceHeader": "Momineen sem {action}d | Momineen sem {action}þetta",
+        "audienceHeader": "Momineen who {action} d | Momineen who {action} d this",
         "jsShareFileTypeError": "Því miður, þú getur ekki deilt {fileType} skrám hér",
         "jsUpdateAvailable": {
           "header": "Uppfærsla í boði",
@@ -69,6 +69,7 @@
         "jsImgUploadErr": "Upphleðsla myndar brást. Vinsamlegast reyndu aftur síðar.",
         "jsLoadingDelay": "Þetta tekur lengri tíma en búist var við. Vinsamlegast bíðið á meðan við afgreiðum þessa beiðni."
       },
+      "sending": "Sendir...",
       "close": "Loka",
       "yes": "Já",
       "no": "Nei",
@@ -81,8 +82,7 @@
         "cancelCta": "Spurðu mig seinna",
         "okCta": "Sjálfsagt!",
         "jsPushUnsupported": "Ýta ekki studd á þessu tæki. Þú gætir misst af tilkynningum!"
-      },
-      "sending": "Sendir..."
+      }
     },
     "errors": {
       "service": {
@@ -92,7 +92,7 @@
       },
       "content": {
         "unavailable": "Gat ekki hlaðið inn efni sem stendur. Vinsamlegast reyndu aftur eftir smá stund.",
-        "itemDetailUnavailable": "Fann ekki upplýsingar um þetta {item}",
+        "itemDetailUnavailable": "Ekki tókst að finna upplýsingar um þetta {item}",
         "loadMoreError": "Tókst ekki að hlaða inn fleiri hlutum. Vinsamlegast reyndu aftur síðar."
       },
       "url": {
@@ -153,7 +153,7 @@
         },
         "books": {
           "booksByAuthor": "Bækur eftir {author}",
-          "booksInLang": "Bækur í {lang}",
+          "booksInLang": "Bækur á {lang}",
           "filterBy": "Sía eftir:",
           "matching": {
             "authors": "með höfundum sem passa",
@@ -167,7 +167,7 @@
           "selectLang": "Veldu tungumál:"
         },
         "bookDetails": {
-          "title": "{title} - Finndu fleiri ókeypis bækur eins og þetta á Bazm",
+          "title": "{title} — Finndu fleiri ókeypis bækur eins og þessa á Bazm",
           "aboutBook": "Um bók:"
         }
       },
@@ -182,7 +182,7 @@
         "khumsLabel": "Khums reiknivél",
         "khumsDesc": "Reiknaðu khums þína, eða bættu við áður greiddum khums. Það hjálpar þér við skráningu khums þinna í gegnum árin.",
         "alarms": {
-          "salatAlarms": "Salat Alarms | Daily Salat Alarms",
+          "salatAlarms": "Salat viðvörun | Daglegar salat viðvörun",
           "sehriAlarms": "Ramadan Sehri viðvörun",
           "gettingLocation": "Að finna staðsetninguna. Vinsamlegast bíddu...",
           "settingsTip": "Breyta <b>staðsetningu</b> og stillingum í Info: whatsthis Smelltu á Stillingar táknið til að byrja.",
@@ -195,12 +195,12 @@
           "midnightLabel": "Miðnætti",
           "sehriEndTime": "Tími fyrir lok Sehri",
           "minToImsak": [
-            "{min} mín fyrir Imsak",
-            "{hour} klukkustund fyrir Imsak"
+            "{min} . mín fyrir Imsak",
+            "{hour} fyrir Imsak"
           ],
           "minToImsakDesc": [
-            "Viðvörunarhringingar {min} mínútum fyrir lok Sehri-tíma",
-            "Viðvörunarhringingar {hour} klukkustund fyrir lok Sehri tíma"
+            "Viðvörun hringir {min} fyrir lok Sehri tíma",
+            "Vekjarinn hringir {hour} fyrir lok Sehri tíma"
           ],
           "notRamadan": "Lítur út fyrir að það sé ekki Ramadan ennþá. Vinsamlegast komdu aftur á meðan eða rétt fyrir Ramadan til að stilla vekjaraklukkuna fyrir Sehri",
           "push": {
@@ -242,7 +242,7 @@
           "noAnswer": "Ekkert svar"
         },
         "qnaDetail": {
-          "title": "Svör fyrir: {ques}",
+          "title": "Svör við: {ques}",
           "jsSubmitSuccess": "Spurning þín hefur verið lögð fram með góðum árangri. Við munum uppfæra þig þegar við fáum svar um það."
         },
         "tasbeehCounter": {
@@ -252,7 +252,7 @@
           "list": {
             "blog": {
               "title": "Blog: Reiknaðu khums á skilvirkan hátt",
-              "p1": "<a href='{href}' target='_blank'>Fylgdu blogginu okkar</a> sem dregur fram lykilatriði í útreikningi á khums á hverju ári.",
+              "p1": "<a href='{href}' target='_blank'>Fylgdu blogginu okkar</a> sem undirstrikar lykilatriði í útreikningi á khums á hverju ári.",
               "p2": "Fyrirvari: Bloggið er EKKI leiðarvísir. <strong>Fylgdu úrskurðum Marjah þíns fyrir útreikning Khums</strong>. <span id='blog-info-link' color='primary'>Smelltu hér</span> til að fá frekari upplýsingar.",
               "blogInfo": "Ofangreint blogg er byggt á greinum frá al-islam.org, sistani.org og umræðum okkar við nokkra aðra fræðimenn. Þú ættir alltaf að fylgja úrskurðum Marjah þíns fyrir útreikning Khums.",
               "dismissCta": "Hef ekki áhuga"
@@ -301,7 +301,7 @@
           },
           "calc": {
             "subtext": "Fylltu út formið hér að neðan til að reikna khums þína. Valfrjálsir reitir eru tilgreindir. Smelltu á upplýsingatáknið hér að neðan til að vita meira um hlutann.",
-            "blog": "Tengt: Lestu bloggið okkar um <a href='{href}' target='_blank'>Hvernig á að reikna khums á skilvirkan hátt<a></a>",
+            "blog": "Tengt: Lestu bloggið okkar um <a href='{href}' target='_blank'>hvernig á að reikna khums á skilvirkan hátt</a>",
             "dateRange": "Veldu dagsetningarbil:",
             "dateRangeInfo": "Venjulega reiknar fólk khums fyrir fjárhagsár (td frá apríl til mars) eða almanaksár (jan til des)",
             "startDate": "Upphafsdagsetning:",
@@ -337,7 +337,7 @@
               "header": "<strong>Notkun gengis</strong>",
               "subtext": "Þetta gengi gjaldmiðla verður notað til útreikninga. Þú getur breytt þeim til að nota sérsniðin gildi.",
               "info": "Þegar fjallað er um söguleg gögn, eins og þegar þú bætir við útreikningum fyrir khums frá því fyrir rúmu ári þegar gengi krónunnar var ekki það sama og í dag, getur þú stillt sérsniðin gildi fyrir gengi sjálfur.",
-              "rateValuePH": "Í {currency}t.d. 1 {mainCurrency} = 80,21 {currency}"
+              "rateValuePH": "Í {currency} , td 1 {mainCurrency} = 80,21 {currency}"
             },
             "calculateCta": "Reikna",
             "pageError": {
@@ -371,7 +371,7 @@
         "publishToFeed": "Birta breytingar mínar á straumi",
         "shareUpdateToFeed": "Deila einnig þessari uppfærslu í fóðrið mitt",
         "statusText_ph": "Notaðu _skáletrun_ eða *feitletrað* snið til að skreyta stöðu þína",
-        "statusCharsLeft": "{count} stafir eftir",
+        "statusCharsLeft": "{count} stafi eftir",
         "jsImgUploadSuccess": "Myndum hlaðið upp með góðum árangri!",
         "unauthAccess": {
           "heading": "Ertu viss um að þú sért á réttum stað?",
@@ -411,34 +411,34 @@
           "statusTextInfo": "Bættu við einhverju stuttu um sjálfan þig, svo sem, hver ert þú eða hvað gerir þú!",
           "statusCta": "Bæta við stöðu | Uppfæra stöðu",
           "addCity": "Bæta við borg",
-          "gender": "Karl | Kona",
+          "gender": "Karlkyns Kvenkyns",
           "addGender": "Bæta við kyni",
           "addBday": "Bæta við afmælisdegi",
           "addRelation": "Bæta við sambandi",
           "privateInfoDesc": "Þessar upplýsingar eru aðeins sýnilegar þér og þú sérð efni og eiginleika sem byggjast á þessu.",
           "idSetupCta": "Settu upp auðkenni þitt",
           "idVerifyCta": "Staðfesta",
-          "joinDate": "Skráði sig: {date}",
           "idVerifyAltText": "Aðeins staðfest Shia momineen getur staðfest aðra. Vinsamlega fáðu reikninginn þinn staðfestan, svo þú getir staðfest <strong>{name}</strong> eftir það.",
-          "idVerifyAltText2": "Ef þú hefur þegar beðið um einhvern geturðu minnt hann á hann aftur með nýjum hlekk eða beðið meira Momineen um skjótari viðbrögð."
+          "idVerifyAltText2": "Ef þú hefur þegar beðið um einhvern geturðu minnt hann á hann aftur með nýjum hlekk eða beðið meira Momineen um skjótari viðbrögð.",
+          "joinDate": "Skráð: {date}"
         },
         "posts": {
           "title": "Innlegg",
           "userNoPosts": "Þegar þú breytir mynd / forsíðumynd þinni, eða þegar þú biður um surah-fatiha fyrir látna ástvini þína, munu þessar færslur birtast hér og í <b>Home</b> flipanum (af öðrum líka). Prófaðu að bæta við mynd eða forsíðumynd?",
-          "profileNoPosts": "{name} hefur ekki gert neinar færslur ennþá."
+          "profileNoPosts": "{name} hefur ekki skrifað neinar færslur ennþá."
         },
         "marhumeen": {
           "title": "Marhumeen",
           "header": {
-            "marhumeenNotAdded": "{name} hefur ekki marhumeen bætt við ennþá | Þú hefur ekki bætt marhumeen við ennþá",
-            "marhumeenAdded": "{name} hefur bætt við á eftir marhumeen | Þú hefur bætt við eftirfarandi marhumeen"
+            "marhumeenNotAdded": "{name} hefur ekki enn bætt við marhumeen | Þú hefur ekki bætt við marhumeen ennþá",
+            "marhumeenAdded": "{name} hefur bætt við eftir marhumeen | Þú hefur bætt við eftirfarandi marhumeen"
           },
           "jsDeleteHeader": "Ertu viss?",
-          "jsDeletePrompt": "Að eyða skrám fyrir <b>{fullName}</b> mun einnig eyða öllum fyrri beiðnum sem gerðar voru fyrir {gender}! Halda áfram?",
-          "jsDeleted": "Færslur sem hefur verið eytt fyrir {marhumeen}"
+          "jsDeletePrompt": "Ef færslum fyrir <b>{fullName}</b> er eytt mun einnig öllum fyrri beiðnum um {gender} eytt! Halda áfram?",
+          "jsDeleted": "Eyddum færslum fyrir {marhumeen}"
         },
         "verifyCard": {
-          "title": "Staðfestu Shia auðkenni þitt | Staðfestu Sadat auðkenni þitt",
+          "title": "Staðfestu Shia sjálfsmynd þína -— Staðfestu Sadat sjálfsmynd þína",
           "p1": "Þú hefur gefið til kynna í prófílnum þínum að þú sért sjía-múslimi. Að fá þessar upplýsingar staðfestar mun gera þér kleift að bjóða upp fleiri eiginleika og hjálpa okkur að byggja upp staðfest samfélag sjíamúslima.",
           "p2": "Vinsamlegast staðfestu hver þú ert; það mun ekki taka langan tíma",
           "noReminder": "Ekki minna mig á það aftur.",
@@ -450,7 +450,7 @@
           "jsLinkExpired": "Þessi tengill er annað hvort ógildur eða útrunninn. Vinsamlegast biddu vin þinn að senda nýja beiðni.",
           "confirm": {
             "heading": "Staðfestu auðkenni reiknings",
-            "msg": "Hjálpaðu {firstName} fá {genderLabel1} reikningsupplýsingar staðfestar. Þetta gerir {genderLabel2} kleift að fá aðgang að fleiri eiginleikum í forritinu okkar",
+            "msg": "Hjálpaðu {firstName} að fá reikningsupplýsingar {genderLabel1} staðfestar. Þetta gerir {genderLabel2} kleift að fá aðgang að fleiri eiginleikum í appinu okkar",
             "jsSkip": "Ekkert mál. Ef þú skiptir um skoðun geturðu skoðað þennan tengil aftur til að staðfesta síðar."
           }
         },
@@ -478,20 +478,20 @@
         }
       },
       "langPrompt": {
-        "title": "Nota app í {langLabel}?",
+        "title": "Nota app á {langLabel} ?",
         "desc": {
-          "p1": "Það lítur út fyrir að þú sért að fá aðgang að forritinu frá {countryName}. Myndir þú vilja sjá efni og stýringar á einu af eftirfarandi tungumálum talað á svæðinu? Smelltu á val þitt og smelltu síðan á 'Vista' til að halda áfram.",
+          "p1": "Það lítur út fyrir að þú sért að opna forritið frá {countryName} . Viltu sjá efni og stýringar á einu af eftirfarandi tungumálum sem eru töluð á svæðinu? Smelltu á val þitt og smelltu síðan á &#39;Vista&#39; til að halda áfram.",
           "p2": "Eða slepptu þessum sprettiglugga til að halda áfram að nota forritið á sjálfgefnu tungumáli."
         },
         "choices": {
           "useLang": [
             "Já, notaðu {langName}",
-            "Notkun {langName}"
+            "Notaðu {langName}"
           ],
           "useEnglish": "Halda áfram á ensku",
           "selectFrom": "Eða veldu úr einu af eftirfarandi öðrum tungumálum:"
         },
-        "langError": "Villa kom upp við lestur þýðinga fyrir {langName}. Vinsamlegast reyndu aftur síðar."
+        "langError": "Villa kom upp við að hlaða þýðingum fyrir {langName} . Vinsamlegast reyndu aftur síðar."
       },
       "createPost": {
         "heading": "Um hvað snýst dagurinn í dag?",
@@ -507,13 +507,13 @@
         },
         "modal": {
           "titles": {
-            "post": "Búðu til færslu | Uppfæra færslu",
+            "post": "Búa til færslu | Uppfæra færslu",
             "livestream": "Livestream",
-            "hadiyah": "Búðu til Hadiyah | Uppfæra Hadiyah"
+            "hadiyah": "Búa til gjöf | Uppfæra gjöf"
           },
-          "postCta": "Post | Uppfæra",
+          "postCta": "Færsla | Uppfærsla",
           "stream": {
-            "scheduleCta": "Vista þar til síðar | Byrjaðu að streyma"
+            "scheduleCta": "Vista til síðar | Byrjaðu streymi"
           },
           "hadiya": {
             "dedication": {
@@ -549,7 +549,7 @@
       },
       "comments": {
         "name": "Athugasemdir",
-        "loadPrevious": "Hlaða inn fyrri athugasemdum | Hlaða inn fyrri svörum",
+        "loadPrevious": "Hlaða fyrri athugasemdum | Hlaða fyrri svörum",
         "replyingTo": "Svara til:",
         "noComments": "Engar athugasemdir við þessa færslu ennþá",
         "textboxPlaceholder": "Skrifaðu athugasemd þína hér",
@@ -557,22 +557,22 @@
       },
       "post": {
         "addressYou": "Þú",
-        "addressing": "ur | hans | hún",
+        "addressing": "þín | hans | hana",
         "itemTypes": {
           "avatar": "avatar mynd",
           "banner": "borða mynd",
           "status": "Staða prófíls"
         },
         "displayPhrase": {
-          "common": "<strong>{username}</strong> uppfært {addressing} {item}",
+          "common": "<strong>{username}</strong> {item} {addressing}",
           "fatiha": [
-            "<strong>{username}</strong> bað um surah-fatiha fyrir {addressing} {relation}",
-            "<strong>{username}</strong> bað um surah-fatiha & namaz-e-wahshat fyrir {addressing} {relation}"
+            "<strong>{username}</strong> beðið um surah-fatiha til {addressing} {relation}",
+            "<strong>{username}</strong> óskaði eftir surah-fatiha &amp; namaz-e-wahshat til {addressing} {relation}"
           ]
         },
-        "dateUntil": "Til: {date} á {time}",
+        "dateUntil": "Þangað til: {date} á {time}",
         "privatePost": "Þessi færsla er aðeins sýnileg þér",
-        "descZiyaratRequest": "Þú baðst um að Ziyarat yrði flutt fyrir þína hönd á *haram* af Imam Husain (a.s.) þann *{date}*"
+        "descZiyaratRequest": "Þú baðst um að Ziyarat yrði flutt fyrir þína hönd á *haram* Imam Husain (as) þann * {date} *"
       },
       "addEditRel": {
         "title": {
@@ -624,7 +624,7 @@
         "addMsg": "Viltu bæta við skilaboðum?",
         "addMsg_ph": "Til dæmis:\nInna lillahi wa inna ilaihe raje'un. Vinsamlegast lestu surah-e-fatiha og 2-rak'at namaz-e-wahshat fyrir frænda minn, Syed Zeeshan Haider wald Syed Tauqeer Hasan Marhoom, sem skildi okkur öll eftir grátandi til að hitta skapara sinn.",
         "remainingChars": "Stafir: {count} | Stafir: {count} eftir",
-        "infoEditRelative": "Þú getur breytt upplýsingum um {name} í <b>hlutanum Account > Marhumeen</b>",
+        "infoEditRelative": "Þú getur breytt upplýsingum um {name} í <b>reikningnum þínum &gt; Marhumeen</b> hlutanum",
         "saveRequestCta": [
           "Vista & Beiðni",
           "Beiðni"
@@ -675,7 +675,7 @@
         "setLocation": "Stilla staðsetningu",
         "ipAddress": "IP-tala",
         "alarmLocation": "Staðsetning viðvörunar",
-        "basedOn": "Staðsetning byggð á {selector} þínum",
+        "basedOn": "Staðsetning byggt á {selector} þínu",
         "jsDetecting": "Að uppgötva, vinsamlegast bíðið.",
         "jsPermDenied": "Staðsetningarleyfi hafnað fyrir app. Vinsamlegast endurstilltu staðsetningarval fyrir þetta forrit með því að fara í Stillingar í símanum þínum.",
         "jsPosUnavailable": "Okkur þykir það leitt en staða er ekki tiltæk fyrir þennan síma núna. Vinsamlegast reyndu aftur síðar.",
@@ -687,7 +687,7 @@
       },
       "readText": {
         "ctaLabel": "Lesa",
-        "title": "Tvö: {title}",
+        "title": "Tveir: {title}",
         "arabicCta": "Arabíska",
         "englishCta": "Enska",
         "translatedCta": "Þýtt"
@@ -724,22 +724,22 @@
           "viaSignal": "Komast í gegnum merki"
         },
         "page2": {
-          "header": "Við höfum sent 6 stafa staðfestingarkóða í númerið þitt ({number})",
+          "header": "Við höfum sent 6 stafa staðfestingarkóða á númerið þitt ( {number} )",
           "enterCodeLabel": "Sláðu inn kóða",
           "enterCode_ph": "Sláðu inn 6 stafa kóðann",
           "resendCode": "Endursenda kóða",
-          "notUsingMobile": "Ekki nota <strong>{number}?</strong>",
+          "notUsingMobile": "Notarðu ekki <strong>{number} ?</strong>",
           "changeNumber": "Breyta númeri"
         },
         "jsVerifySuccess": "Farsími staðfestur með góðum árangri",
         "jsVerifyError": "Villa kom upp. Vinsamlegast reyndu aftur síðar.",
         "jsSendOtpFailed": "Mistókst að senda OTP. Vinsamlegast reyndu aftur síðar.",
-        "jsSendOtpSuccess": "OTP sent til {mobile}",
+        "jsSendOtpSuccess": "OTP sent í {mobile}",
         "jsTooManyRequests": "Þú virðist hafa reynt of oft. Bíddu í eina eða tvær mínútur og reyndu aftur."
       },
       "userSettings": {
         "personalSharingMsg": "Sérsníða deilingarskilaboð",
-        "changePwd": "Breyta lykilorði | Setja lykilorð",
+        "changePwd": "Breyta lykilorði | Stilla lykilorð",
         "changeLang": "Breyta tungumáli",
         "publishToFeed": "Birtu breytingar mínar til að fæða líka."
       },
@@ -754,10 +754,10 @@
           "sharingDesc": "Þegar þú deilir utanhúss gætu skilaboðin þín litið út eins og hér að neðan:",
           "sharingTextDemo": [
             "Hlustaðu á þetta Nauha í Bazm App",
-            "{name} mæli með að hlusta á þessa Nauha í Bazm App"
+            "{name} mælir með því að hlusta á þessa Nauha í Bazm appinu"
           ],
           "addSignDesc": "Viltu bæta við undirskriftinni þinni líka?",
-          "addSignPlaceholder": "Til dæmis\nMeð bestu kveðjum,\n{name}",
+          "addSignPlaceholder": "Til dæmis, Með bestu kveðjum, {name}",
           "signDesc": "Þegar þú deilir ósk þinni með vinum í þessu forriti verður undirskriftinni þinni bætt við skilaboðin. Til dæmis gæti það birst eins og hér að neðan:"
         },
         "changePwd": {
@@ -773,7 +773,7 @@
         "jsPwdInvalid": "Lykilorð hefur ógilda stafi.",
         "jsPwdCharCount": "Lykilorð má ekki vera minna en 8 stafir.",
         "jsSelectLang": "Veldu tungumál fyrst.",
-        "jsLangSet": "Tungumálið hefur verið stillt á {lang}",
+        "jsLangSet": "Tungumál hefur verið stillt á {lang}",
         "jsPrefSaved": "Sérstillingar vistaðar."
       },
       "forgotPwd": {
@@ -781,26 +781,26 @@
         "introText": "Það er auðvelt að endurstilla lykilorðið. Veldu aðferð til að halda áfram:",
         "usePhoneCta": "Nota síma",
         "useEmailCta": "Nota tölvupóst",
-        "sendEmailIntro": "Sláðu inn netfangið sem þú stofnaðir reikninginn þinn með og við sendum tölvupóst með tengli til að setja upp nýtt aðgangsorð fyrir reikninginn þinn.",
+        "sendEmailIntro": "Sláðu inn netfangið sem þú stofnaðir reikninginn þinn með og við munum senda tölvupóst með hlekk til að setja upp nýtt lykilorð fyrir reikninginn þinn. | Þú þarft að bæta við netfangi til að skrá þig inn á reikninginn þinn. Við munum senda hlekk til að endurstilla lykilorð í þennan tölvupóst og þaðan geturðu búið til lykilorð fyrir reikninginn þinn sem tengist farsímanúmerinu þínu.",
         "emailInputLabel": "Netfangið þitt skráð",
         "sendEmailCta": "Senda endurstilla tölvupóst",
-        "sentEmailText": "Ef þú ert með reikning hjá okkur færðu tölvupóst með lykilorði fljótlega á <strong>{email}</strong>. Vinsamlegast athugaðu tölvupóstinn þinn fyrir tengilinn.",
-        "notUsingEmailText": "Ekki nota <strong>{email}?</strong>",
+        "sentEmailText": "Ef þú ert með reikning hjá okkur færðu tölvupóst sem endurstillir lykilorð fljótlega í <strong>{email}</strong> . Vinsamlegast athugaðu tölvupóstinn þinn fyrir hlekkinn.",
+        "notUsingEmailText": "Notarðu ekki <strong>{email} ?</strong>",
         "changeEmailCta": "Breyta tölvupósti",
         "phoneIntroText": "Sláðu inn símanúmerið sem bætt er við reikninginn þinn. Við sendum einnota lykilorð til að staðfesta eignarhald þitt og í næsta skrefi muntu geta búið til nýtt lykilorð.",
         "phoneInputLabel": "Farsímanúmerið þitt",
         "sendOtpCta": "Senda OTP",
         "backToLoginCta": "Til baka í innskráningu",
-        "disclaimerText": "Vinsamlegast athugaðu að þú færð aðeins {item} ef þú ert með {item} skráð hjá okkur",
+        "disclaimerText": "Vinsamlegast athugaðu að þú færð {item} aðeins ef þú ert með {item} skráða hjá okkur",
         "jsMailSent": "Póstur sendur",
         "title2": "Gerðu tilkall til reikningsins þíns",
+        "introText2": "Það er auðvelt að endurstilla lykilorðið þitt. Sláðu inn netfangið þitt og fáðu hlekkinn til að endurstilla lykilorð í tölvupóstinum þínum.",
         "claimIntroHeading": "Gerðu tilkall til reikningsins þíns fljótt!",
-        "claimIntroText": "Takk fyrir að koma. Við stofnuðum reikning fyrir þig núna. Fáðu aðgang að reikningnum þínum með því að endurstilla lykilorð hans með því að nota eina af eftirfarandi aðferðum:",
-        "introText2": "Það er auðvelt að endurstilla lykilorðið þitt. Sláðu inn netfangið þitt og fáðu hlekkinn til að endurstilla lykilorð í tölvupóstinum þínum."
+        "claimIntroText": "Takk fyrir að vera með okkur. Fáðu aðgang að reikningnum þínum með því að bæta tölvupósti við reikninginn þinn."
       },
       "resetPwd": {
         "title": "Endurstilla lykilorð",
-        "introText": "Settu öruggt lykilorð fyrir reikninginn þinn hér. Smelltu {icon} til að tryggja að þú sért að slá inn rétt lykilorð.",
+        "introText": "Stilltu öruggt lykilorð fyrir reikninginn þinn hér. Smelltu á {icon} til að tryggja að þú sért að slá inn rétt lykilorð.",
         "pwdInputLabel": "Settu nýtt lykilorð",
         "pwdInputPH": "Sláðu inn nýtt lykilorð",
         "invalidPwdChars": "Ógild stafir í lykilorði",
@@ -810,13 +810,13 @@
         "jsTrackLoadFailed": "Tókst ekki að hlaða brautina. Vinsamlegast reyndu aftur síðar."
       },
       "moreBtn": {
-        "jsItemDeleted": "{item} eytt með góðum árangri.",
+        "jsItemDeleted": "{item} eytt.",
         "jsErrReporting": "Get ekki tilkynnt þetta í augnablikinu. Vinsamlegast reyndu aftur síðar.",
-        "jsAlreadyReported": "Þú hefur þegar tilkynnt þetta {item}. Ekki er hægt að tilkynna það oftar en einu sinni.",
+        "jsAlreadyReported": "Þú hefur þegar tilkynnt þetta {item} . Þú getur ekki tilkynnt það oftar en einu sinni.",
         "jsPromptHeading": "Að tilkynna hlut leiðir til þess að það eru minni líkur á að birtast í straumi/síðum þínum eða annarra. Viltu enn tilkynna þetta?",
-        "jsReporting": "Skýrslugjöf {itemType}..",
+        "jsReporting": "Tilkynning {itemType} ..",
         "jsReportingErr": "Gat ekki sent inn beiðni þína að svo stöddu. Vinsamlegast reyndu aftur síðar.",
-        "jsReported": "{item} greint frá. Takk fyrir framlag þitt."
+        "jsReported": "{item} greint frá. Takk fyrir þitt framlag."
       },
       "editProfileModal": {
         "jsEmptyData": "Ekkert að uppfæra!",
@@ -852,7 +852,7 @@
       "khumsPaymentRecord": {
         "title": "Bæta við greiðslufærslu",
         "paymentFor": "Greiðsla fyrir {khumsType}",
-        "totalAmount": "Heildarupphæð : {amount}",
+        "totalAmount": "Heildarupphæð: {amount}",
         "form": {
           "amountLabel": "Magn",
           "amountPlaceholder": "Sláðu inn upphæð",
@@ -1010,14 +1010,14 @@
       },
       "verifyShiaModal": {
         "title": "Staðfestu reikning fyrir {name}",
-        "heading": "Getur þú svarað hér að neðan upplýsingum um {firstName}? Ef ekki, hafnaðu þá beiðninni.",
+        "heading": "Getur þú svarað upplýsingum hér að neðan um {firstName} ? Ef ekki, hafnaðu þessari beiðni.",
         "desc": "Þú hefur aðeins tvær tilraunir til að sannreyna!",
-        "descP1": "Þegar þú sendir inn þetta eyðublað munum við bera upplýsingarnar saman við það sem {firstName} gefið upp þegar þú óskar eftir staðfestingu. Vinsamlegast athugaðu vegna þess að þú hefur aðeins tvær tilraunir til að fylla þetta form rétt. Ef þér mistekst enn muntu ekki geta staðfest {firstName} aftur í framtíðinni.",
-        "descP2": "Ef þú veist ekki {firstName}, þá skaltu hafna þessari beiðni. Við munum láta þá vita og biðja þá um að ná til einhvers annars.",
+        "descP1": "Þegar þú sendir þetta eyðublað munum við passa upplýsingarnar við það sem {firstName} gaf upp þegar óskað var eftir staðfestingu. Vinsamlegast athugaðu því þú hefur aðeins tvær tilraunir til að fylla þetta eyðublað rétt. Ef þú mistakast samt muntu ekki geta staðfest {firstName} aftur í framtíðinni.",
+        "descP2": "Ef þú veist ekki {firstName} skaltu hafna þessari beiðni. Við munum láta þá vita og biðja þá um að ná í einhvern annan.",
         "rejectRequestCta": "Beiðni um höfnun",
         "form": {
           "heading": "Svaraðu eftirfarandi spurningum um {firstName} og smelltu á Senda:",
-          "q1": "Hvernig veistu {firstName}?",
+          "q1": "Hvernig veistu {firstName} ?",
           "q2": "Trúarbrögð:",
           "q3": "Sérgrein:",
           "q4": "Er {firstName} Sadat?",
@@ -1073,13 +1073,13 @@
         "cta": "Hafna",
         "title": "Hafna beiðni",
         "reasonLabel": "Af hverju viltu ekki staðfesta þennan reikning?",
-        "reasonPh": "Við munum láta {userName} vita og biðja þá um að hafa samband við einhvern annan til staðfestingar"
+        "reasonPh": "Við munum láta {userName} vita og biðja hann um að hafa samband við einhvern annan til staðfestingar"
       },
       "haadiHome": {
-        "title": "Byrjaðu umræður | Umræður þínar við Haadi",
+        "title": "Byrjaðu umræður | Samræður þínar við Haadi",
         "item": {
           "added": "Bætt við {date}",
-          "tokensUsed": "Tákn sem notuð eru: {tokens}",
+          "tokensUsed": "Notuð inneign: {tokens}",
           "readContinue": "Lesa eða halda áfram umræðu"
         },
         "blank": {
@@ -1101,15 +1101,15 @@
         "inputPH": "Spyrja spurningar",
         "empty": {
           "heading": "Fann ekki þetta samtal",
-          "p1": "Villa kom upp þegar reynt var að ná þessu samtali. Vinsamlegast athugaðu slóðina og reyndu aftur.",
-          "p2": "Ef þetta heldur áfram að gerast, vinsamlegast hafðu samband við okkur.",
-          "guest": "Þetta gæti verið vegna þess að þú ert ekki skráður inn. Vinsamlegast reyndu að skrá þig inn og athugaðu aftur."
+          "p1": "Við fundum ekki þetta samtal. Athugaðu slóðina og reyndu aftur.",
+          "guest": "Þetta gæti verið vegna þess að þú ert ekki skráður inn. Vinsamlegast reyndu að skrá þig inn og athugaðu aftur.",
+          "p2": "Ef þetta heldur áfram að gerast, vinsamlegast hafðu samband við okkur."
         },
         "jsNewChatInfo": "Þetta er byrjunin á nýju samtali við Haadi. Þú hefur valið að virkja samhengi fyrir Haadi meðan þú svarar spurningum þínum. Þú getur alltaf slökkt á þessum valkosti í stillingum eða séð hvað þetta þýðir fyrir þig."
       },
       "aboutHaadi": {
-        "title": "Hittu Haadi, botvin þinn til að sigla um Shia islam!",
-        "desc": "Smelltu á hverja af þessum samantektum til að lesa meira, eða finna meira um Haadi og notkunarskilmála í <a href={blogLink} target ='_system'>bloggið okkar",
+        "title": "Hittu Haadi, <strong>Bot-vin</strong> þinn til að sigla Shia Islam!",
+        "desc": "Við mælum með að þú farir í gegnum þessar samantektir áður en þú byrjar að nota Haadi. Þú getur fundið meira um Haadi og notkunarskilmála á <a href=<span class=\"notranslate\">blogLink target=&#39;_system&#39;&gt;our blog</a>",
         "agreement": "Ég skil og er sammála Notkunarskilmálar"
       }
     },
@@ -1170,8 +1170,8 @@
     "banners": {
       "appInstall": {
         "card": {
-          "heading": "Settu upp Bazm {pallur}",
-          "desc": "Sæktu Android appið okkar til að fá betri upplifun, sérsniðið efni, tilkynningar og allt sem þú hefur áhuga á í kringum þig! | Settu upp flýtileið forrits (bókamerki) til að fá aðgang að því beint af heimaskjánum næst til að fá betri upplifun! Það tekur varla pláss í tækinu þínu en hjálpar þér að komast fljótt aftur í forritið.",
+          "heading": "Bæta við Bazm flýtileið",
+          "desc": "Sæktu Android appið okkar fyrir betri upplifun, sérsniðið efni, tilkynningar og allt sem þú hefur áhuga á í kringum þig! | Settu upp flýtileið fyrir forrit (bókamerki) til að fá aðgang beint af heimaskjánum þínum næst til að fá betri upplifun! Það tekur varla pláss í tækinu þínu en hjálpar þér að komast aftur í appið fljótt.",
           "cta": {
             "action": "Embætti",
             "skip": "Kannski seinna"
@@ -1180,13 +1180,10 @@
         "prompt": {
           "heading": "Setja upp Bazm flýtileið?"
         },
-        "popover": {
-          "text": "Smelltu á Share táknið (lítur út eins og einn til hægri) <strong>HÉR að neðan</strong> og smelltu síðan á <strong>Bæta við heimaskjáinn</strong>. Smelltu á \"Vista\" til að klára og þá geturðu nálgast forritið frá flýtileið á heimaskjánum þínum!"
-        },
         "nonSafari": {
-          "heading": "Bazm virkar betur á Apple Safari",
+          "heading": "Bazm virkar betur á Safari",
           "desc": "Þessi vafri hefur takmarkaða eiginleika, en Safari vafrinn gerir forritinu okkar kleift að standa sig betur, þar á meðal Push-tilkynningar og App-flýtileið.",
-          "subtext": "<strong>Opnaðu Safari appið</strong> í símanum þínum og farðu <strong>{url}</strong> til betri upplifunar.",
+          "subtext": "<strong>Opnaðu Safari vafra</strong> og farðu á <strong>{url}</strong> til að fá betri upplifun.",
           "skipCta": "Haltu áfram hér í staðinn"
         }
       },
@@ -1215,18 +1212,18 @@
       },
       "cookieBanner": {
         "header": "Um vistun fótspora í tækinu þínu",
-        "p1": "Við geymum engar smákökur á {device} en forrit þriðja aðila sem notuð eru í forritinu okkar gæti (eins og Google Analytics). Við notum í staðinn varanlega geymslu til að geyma mikilvæg gögn og í flestum tilfellum er þetta dulkóðað í geymslu og meðan á flutningi stendur.",
+        "p1": "Við geymum engar vafrakökur á {device} þínu en þriðju aðila forrit sem notuð eru í appinu okkar gætu (svo sem Google Analytics). Við notum þess í stað varanlega geymslu til að geyma mikilvæg gögn og í flestum tilfellum er þetta dulkóðað í geymslu og við flutning.",
         "p2": "Með því að halda áfram að nota appið staðfestir þú hér með að þú sért ekki í neinum vandræðum með val okkar. Til að fá frekari upplýsingar um smákökur okkar og gagnanotkun, sjá <a href='https://bazm.in/privacy-policy' target='_blank'>okkar Friðhelgisstefna.</a>"
       }
     },
     "meta": {
-      "titleBranding": " __ Bazm - Social Network App fyrir Shia múslima um allan heim! Sæktu appið í dag.",
+      "titleBranding": "__ Bazm - Social Network App fyrir sjía-múslima um allan heim!",
       "home": {
         "title": "Bazm - Shia samfélagsforrit á netinu!",
         "description": "Bazm appið er Shia samfélagsforritið sem uppfyllir allar daglegar þarfir þínar af deen & mazhab. Finndu Nauhe, Majalis, Dua, Aamaal, Ziyarat, Bækur o.s.frv. fyrir allar dagsetningar og tilefni. Horfðu á og gerðu viðburði í beinni útsendingu og majalis með sjía-múslimum um allan heim frá þægindum heima hjá þér. Vertu með í dag!"
       },
       "feed": {
-        "title": "Finndu sérsniðið efni og deildu með shia samfélaginu í kringum þig og heiminn",
+        "title": "Bazm — Finndu og deildu sérsniðnu efni frá sjía-múslimum um allan heim!",
         "description": "Finndu og deildu fréttum, viðburðum og efni með shia momineen í kring og haltu þeim upplýstum um alla viðburði sem þú heldur. Lærðu um allt sem gerist nálægt þér í appinu."
       },
       "mediaHome": {
@@ -1254,12 +1251,12 @@
         "description": "Hlustaðu á Soaz frá öllum árum og öllum vinsælum Soazkhwan frá öllum heimshornum í Bazm app. Sækja í dag."
       },
       "majalisList": {
-        "title": "{type} majalis/majlis á Bazm - Finndu meira nauhe, hljóð / myndband majalis, dua, ziyarat, aamaal osfrv. á bazm",
+        "title": "{type} majalis/majlis á Bazm - Finndu meira nauhe, audio/video majalis, dua, ziyarat, aamaal, o.s.frv. á Bazm",
         "description": "Finndu hljóð/video majalis frá Maulana og Zakir-e-Ahlbayt nálægt þér og um allan heim. Hlustaðu á og horfðu á nýjustu majalis og livestream fundi í Bazm appinu. Sæktu appið í dag og taktu þátt í milljónum Shi'a múslima um allan heim!"
       },
       "duasPage": {
         "title": [
-          "Duas og aamaal fyrir mánuðinn {month} á Bazm - Finndu meira nauhe, hljóð / myndband majalis, dua, ziyarat, aamaal osfrv. á bazm",
+          "Duas og aamaal fyrir mánuði {month} á Bazm - Finndu meira nauhe, audio/video majalis, dua, piyarat, aamaal, o.fl. á Bazm",
           "Duas og aamaal fyrir alla mánuði á Bazm - Finndu meira nauhe, hljóð / myndband majalis, dua, ziyarat, aamaal osfrv. á bazm"
         ],
         "description": "Finndu duas, aamaal, ziyarat og munajat fyrir alla mánuði á Bazm, dagsetningu og atburði vitur. Sæktu appið í dag og taktu þátt í milljónum Shi'a múslima um allan heim!"
